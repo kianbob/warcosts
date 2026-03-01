@@ -30,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/information-warfare', '/analysis/space-warfare',
     '/analysis/private-armies', '/analysis/hybrid-warfare',
     '/analysis/economic-warfare',
+    '/analysis/drones-kill-list', '/analysis/base-nation',
+    '/analysis/sanctions-dont-work', '/analysis/undeclared-wars',
+    '/analysis/911-to-forever-war', '/analysis/military-families',
+    '/analysis/china-pivot', '/analysis/cost-of-iran',
+    '/analysis/hormuz-crisis', '/analysis/aipac-war-machine',
+    '/analysis/war-profiteering', '/analysis/what-could-we-buy',
     '/about', '/methodology', '/faq', '/sources',
     '/war-clock', '/tools/tax-receipt', '/tools/jobs-calculator',
     '/cost-per-life', '/presidents', '/countries', '/decades',
@@ -156,7 +162,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   } catch {}
 
   // New tool pages
-  const toolPages = ['/tools/compare-countries', '/tools/aid-calculator']
+  const toolPages = ['/tools/compare-countries', '/tools/aid-calculator', '/tools/timeline-explorer', '/tools/budget-simulator']
   toolPages.forEach(route => {
     entries.push({ url: `${base}${route}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
   })

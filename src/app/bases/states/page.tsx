@@ -17,7 +17,7 @@ export default function BaseStatesPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Bases', href: '/bases' }, { label: 'By State' }]} />
+      <Breadcrumbs items={[{ label: 'Bases', href: '/bases' }, { label: 'By State' }]} />
 
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         Military Bases by State

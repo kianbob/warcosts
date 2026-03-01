@@ -50,7 +50,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <Breadcrumbs items={[
-        { label: 'Home', href: '/' },
+        
         { label: 'State Military Footprint', href: '/states' },
         { label: data.state },
       ]} />

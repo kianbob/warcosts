@@ -51,6 +51,20 @@ const tools = [
     icon: '🌍',
     color: 'bg-teal-50 border-teal-200',
   },
+  {
+    title: 'Timeline Explorer',
+    desc: '250 years of American military history on a single interactive timeline. Every war, operation, and congressional vote — visualized.',
+    href: '/tools/timeline-explorer',
+    icon: '📅',
+    color: 'bg-rose-50 border-rose-200',
+  },
+  {
+    title: 'Budget Simulator',
+    desc: 'Redesign the $6.1 trillion federal budget. Move money from military to education, healthcare, or infrastructure and see the impact.',
+    href: '/tools/budget-simulator',
+    icon: '💰',
+    color: 'bg-indigo-50 border-indigo-200',
+  },
 ]
 
 export default function ToolsPage() {

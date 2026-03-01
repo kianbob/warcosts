@@ -32,7 +32,13 @@ const sections = [
       { slug: 'ukraine-proxy', title: '$66.9 Billion: America\'s Proxy War in Ukraine', desc: 'The largest military aid since WWII Lend-Lease. European security on the American tab.' },
       { slug: 'war-on-terror', title: 'The War on Terror: $8 Trillion Later', desc: '929,000 dead. Four countries destabilized. Two decades of endless war. Was any of it worth it?' },
       { slug: 'drone-wars', title: 'Drone Wars', desc: 'Obama 563 strikes vs Bush 57. 10,000-17,000 killed. Signature strikes. Remote-control killing.' },
+      { slug: 'drones-kill-list', title: 'The Kill List: How America Decides Who Dies by Drone', desc: '14,000+ drone strikes. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed.' },
       { slug: 'israel-lobby', title: 'The Israel Lobby: How One Country Captured US Foreign Policy', desc: '$310B+ in aid. $221M in lobbying. Wars fought on their behalf. The most consequential foreign influence operation in American history.' },
+      { slug: 'sanctions-dont-work', title: 'Sanctions Don\'t Work', desc: 'Economic sanctions punish populations, rarely change regimes, and often backfire.' },
+      { slug: 'undeclared-wars', title: 'Undeclared Wars', desc: 'How presidents wage war without a vote. The erosion of congressional war powers.' },
+      { slug: '911-to-forever-war', title: 'From 9/11 to Forever War', desc: 'How 60 words in the 2001 AUMF enabled 25 years of global war across dozens of countries.' },
+      { slug: 'military-families', title: 'Military Families', desc: 'The hidden cost of war: broken families, PTSD, poverty, and the communities left behind.' },
+      { slug: 'china-pivot', title: 'The China Pivot', desc: 'From the War on Terror to Great Power Competition. The next forever war?' },
     ],
   },
   {
@@ -42,6 +48,7 @@ const sections = [
       { slug: 'silicon-valley-pentagon', title: 'Silicon Valley & the Pentagon', desc: 'How Big Tech is transforming the military-industrial complex. AI weapons, surveillance, autonomous killing.' },
       { slug: 'jobs-vs-war', title: 'Jobs vs. War', desc: 'Military spending creates 5 jobs per $1M — fewer than education (13), healthcare (9), or clean energy (8).' },
       { slug: 'empire-of-bases', title: 'Empire of Bases', desc: '750 military bases in 80 countries. $55 billion per year. More bases than any empire in human history.' },
+      { slug: 'base-nation', title: 'Base Nation: Why 750 Overseas Bases?', desc: 'Diego Garcia, Okinawa, AFRICOM. The human cost of America\'s global military footprint.' },
     ],
   },
   {

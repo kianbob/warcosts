@@ -68,7 +68,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Contractors', href: '/contractors' }, { label: c.name }]} />
+      <Breadcrumbs items={[{ label: 'Contractors', href: '/contractors' }, { label: c.name }]} />
 
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         {c.name}

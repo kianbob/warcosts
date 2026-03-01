@@ -32,7 +32,7 @@ export default function StatesIndexPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'State Military Footprint' }]} />
+      <Breadcrumbs items={[{ label: 'State Military Footprint' }]} />
 
       <h1 className="text-3xl md:text-5xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         State Military Footprint

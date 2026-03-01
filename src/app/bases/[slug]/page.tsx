@@ -75,7 +75,7 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[
-        { label: 'Home', href: '/' },
+        
         { label: 'Bases', href: '/bases' },
         ...(isOverseas ? [{ label: base.country, href: `/bases/countries/${base.countrySlug}` }] : []),
         ...(base.state ? [{ label: base.state, href: `/bases/states/${base.stateCode?.toLowerCase()}` }] : []),

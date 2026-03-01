@@ -43,13 +43,13 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
   const w = weapons.find(x => x.slug === slug)
   if (!w) notFound()
 
-  const devYears = w.iocYear ? w.iocYear - w.startYear : new Date().getFullYear() - w.startYear
+  const devYears = w.startYear ? (w.iocYear ? w.iocYear - w.startYear : new Date().getFullYear() - w.startYear) : null
   const deliveryPct = w.units && w.delivered ? Math.round((w.delivered / w.units) * 100) : null
   const related = weapons.filter(x => x.slug !== slug && (x.category === w.category || x.contractor === w.contractor)).slice(0, 6)
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Weapons', href: '/weapons' }, { label: w.name }]} />
+      <Breadcrumbs items={[{ label: 'Weapons', href: '/weapons' }, { label: w.name }]} />
 
       <div className="flex items-start justify-between mt-4 mb-2">
         <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white">
@@ -83,10 +83,12 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
             <div className="text-2xl font-bold text-yellow-400">+{w.costOverrun}%</div>
           </div>
         )}
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
-          <div className="text-xs text-stone-400 uppercase tracking-wider">Development</div>
-          <div className="text-2xl font-bold text-white">{devYears} years</div>
-        </div>
+        {devYears != null && (
+          <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+            <div className="text-xs text-stone-400 uppercase tracking-wider">Development</div>
+            <div className="text-2xl font-bold text-white">{devYears} years</div>
+          </div>
+        )}
         {w.units && (
           <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
             <div className="text-xs text-stone-400 uppercase tracking-wider">Planned Units</div>

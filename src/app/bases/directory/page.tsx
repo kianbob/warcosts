@@ -17,7 +17,7 @@ export default function BasesDirectoryPage() {
   const stats = baseStats as any
   return (
     <main className="max-w-7xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Bases', href: '/bases' }, { label: 'Directory' }]} />
+      <Breadcrumbs items={[{ label: 'Bases', href: '/bases' }, { label: 'Directory' }]} />
       <h1 className="text-4xl font-bold font-[family-name:var(--font-heading)] text-red-800 mb-4">
         U.S. Military Base Directory
       </h1>

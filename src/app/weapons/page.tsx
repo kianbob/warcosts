@@ -21,7 +21,7 @@ export default function WeaponsPage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
-      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Weapons Systems' }]} />
+      <Breadcrumbs items={[{ label: 'Weapons Systems' }]} />
 
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         US Weapons Systems
