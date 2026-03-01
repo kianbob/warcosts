@@ -52,7 +52,7 @@ export default function CostOfWarPage() {
             className="bg-white rounded-lg border p-5 hover:shadow-md transition">
             <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold">{c.name}</h3>
             <p className="text-red-800 font-bold text-xl">{fmtMoney(c.costInflationAdjusted)}</p>
-            <p className="text-stone-500 text-sm">{fmt(c.usDeaths)} US deaths · {c.years}</p>
+            <p className="text-stone-500 text-sm">{fmt(c.usCasualties?.deaths)} US deaths · {c.years}</p>
           </Link>
         ))}
       </div>

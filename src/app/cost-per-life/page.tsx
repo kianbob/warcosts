@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Breadcrumbs from '@/components/Breadcrumbs'
-import { fmtMoney } from '@/lib/utils'
+import { fmtMoney, fmt } from '@/lib/utils'
 
 export default function CostPerLifePage() {
   const [data, setData] = useState<any[]>([])
@@ -66,9 +66,9 @@ export default function CostPerLifePage() {
                 <tr key={d.id} className="border-b border-stone-200 hover:bg-stone-50">
                   <td className="py-3 pr-4 font-medium">{d.name}</td>
                   <td className="py-3 pr-4 text-right">{fmtMoney(d.cost)}</td>
-                  <td className="py-3 pr-4 text-right">{d.usDeaths.toLocaleString()}</td>
+                  <td className="py-3 pr-4 text-right">{fmt(d.usDeaths || 0)}</td>
                   <td className="py-3 pr-4 text-right font-bold text-red-800">{fmtMoney(d.costPerUSdeath)}</td>
-                  <td className="py-3 pr-4 text-right">{d.civilianDeaths.toLocaleString()}</td>
+                  <td className="py-3 pr-4 text-right">{fmt(d.civilianDeaths || 0)}</td>
                   <td className="py-3 text-right">{d.costPerCivilianDeath > 0 ? fmtMoney(d.costPerCivilianDeath) : '—'}</td>
                 </tr>
               ))}

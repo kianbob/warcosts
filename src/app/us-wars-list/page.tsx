@@ -53,7 +53,7 @@ export default function USWarsListPage() {
             </div>
             <div className="text-right">
               <span className="text-red-800 font-bold">{fmtMoney(c.costInflationAdjusted)}</span>
-              <span className="text-stone-400 text-sm ml-3">{fmt(c.usDeaths)} deaths</span>
+              <span className="text-stone-400 text-sm ml-3">{fmt(c.usCasualties?.deaths)} deaths</span>
             </div>
           </Link>
         ))}
