@@ -38,6 +38,16 @@ const sections = [
     ],
   },
   {
+    theme: 'Modern Warfare',
+    articles: [
+      { slug: 'information-warfare', title: 'Information Warfare', desc: 'Pentagon PR budget: $4.7B. Russian troll farms reached 126M Americans. Deepfakes, psyops, and the death of independent war reporting.' },
+      { slug: 'space-warfare', title: 'Space Warfare', desc: 'Space Force: $26B budget. ASAT tests creating thousands of debris pieces. Starlink as a weapon. Weaponizing the final frontier.' },
+      { slug: 'private-armies', title: 'Private Armies', desc: 'Blackwater, Wagner Group, DynCorp. 50,000+ contractors in Iraq. 8,000 deaths excluded from official counts. Mercenaries serve whoever pays.' },
+      { slug: 'hybrid-warfare', title: 'Hybrid Warfare', desc: 'Russia\'s "little green men." China\'s artificial islands. Iran\'s proxy network. When war and peace blur beyond recognition.' },
+      { slug: 'economic-warfare', title: 'Economic Warfare', desc: '$300B frozen Russian assets. SWIFT weaponization. Chip bans. The weaponized dollar — and the de-dollarization backlash.' },
+    ],
+  },
+  {
     theme: 'Human Cost',
     articles: [
       { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },

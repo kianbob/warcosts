@@ -19,6 +19,11 @@ export async function GET() {
     { slug: 'ukraine-proxy', title: '$66.9 Billion: America\'s Proxy War in Ukraine', desc: 'The largest military aid since WWII Lend-Lease.' },
     { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
     { slug: 'israel-lobby', title: 'The Israel Lobby: How One Country Captured US Foreign Policy', desc: '$310B+ in aid. $221M in lobbying. Wars fought on their behalf.' },
+    { slug: 'information-warfare', title: 'Information Warfare', desc: 'Pentagon PR: $4.7B. Russian troll farms reached 126M Americans. Deepfakes, psyops, and government propaganda.' },
+    { slug: 'space-warfare', title: 'Space Warfare', desc: 'Space Force: $26B budget. ASAT tests. Starlink as weapon. Weaponizing the final frontier.' },
+    { slug: 'private-armies', title: 'Private Armies', desc: 'Blackwater, Wagner, DynCorp. 50,000+ contractors in Iraq. 8,000 deaths excluded from counts.' },
+    { slug: 'hybrid-warfare', title: 'Hybrid Warfare', desc: 'Russia\'s little green men. China\'s artificial islands. Iran\'s proxy network. War without declaration.' },
+    { slug: 'economic-warfare', title: 'Economic Warfare', desc: '$300B frozen Russian assets. SWIFT weaponization. Chip bans. The weaponized dollar.' },
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
