@@ -1,0 +1,92 @@
+{
+  "totalAnnual": 238000000000,
+  "topBuyers": [
+    {
+      "country": "Saudi Arabia",
+      "total": 110000000000,
+      "since": 2009,
+      "note": "Used in Yemen war, bombing civilians with US weapons."
+    },
+    {
+      "country": "Japan",
+      "total": 45000000000,
+      "since": 2009,
+      "note": "F-35s and missile defense systems."
+    },
+    {
+      "country": "Australia",
+      "total": 42000000000,
+      "since": 2009,
+      "note": "AUKUS nuclear submarine deal."
+    },
+    {
+      "country": "UAE",
+      "total": 38000000000,
+      "since": 2009,
+      "note": "Major buyer. Used in Yemen and Libya."
+    },
+    {
+      "country": "South Korea",
+      "total": 32000000000,
+      "since": 2009,
+      "note": "Missile defense and fighter jets."
+    },
+    {
+      "country": "Israel",
+      "total": 27000000000,
+      "since": 2009,
+      "note": "Plus $3.8B/yr in free military aid on top."
+    },
+    {
+      "country": "Taiwan",
+      "total": 23000000000,
+      "since": 2009,
+      "note": "Rapidly increasing amid China tensions."
+    },
+    {
+      "country": "Poland",
+      "total": 18000000000,
+      "since": 2009,
+      "note": "Major increase since 2022."
+    },
+    {
+      "country": "Qatar",
+      "total": 16000000000,
+      "since": 2009,
+      "note": "F-15 fighter jets and Apache helicopters."
+    },
+    {
+      "country": "UK",
+      "total": 14000000000,
+      "since": 2009,
+      "note": "Longstanding \"special relationship.\""
+    }
+  ],
+  "topContractors": [
+    {
+      "company": "Lockheed Martin",
+      "revenue": 66000000000,
+      "note": "F-35, missiles, defense systems. #1 defense contractor."
+    },
+    {
+      "company": "RTX (Raytheon)",
+      "revenue": 42000000000,
+      "note": "Missiles, radar, air defense. Patriot system."
+    },
+    {
+      "company": "Northrop Grumman",
+      "revenue": 39000000000,
+      "note": "B-21 bomber, space systems, cyber."
+    },
+    {
+      "company": "Boeing",
+      "revenue": 34000000000,
+      "note": "Fighter jets, tankers, satellites."
+    },
+    {
+      "company": "General Dynamics",
+      "revenue": 32000000000,
+      "note": "Submarines, tanks, IT systems."
+    }
+  ]
+}

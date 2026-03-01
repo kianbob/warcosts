@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "revolutionary-war",
+    "name": "American Revolutionary War",
+    "shortName": "Revolutionary War",
+    "era": "Founding Era",
+    "type": "war",
+    "startYear": 1775,
+    "endYear": 1783,
+    "region": "North America",
+    "countries": [
+      "United Kingdom"
+    ],
+    "description": "War of independence from British colonial rule. The conflict that created the United States.",
+    "costNominal": 101000000,
+    "costInflationAdjusted": 2400000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 25000,
+      "wounded": 25000,
+      "battleDeaths": 4435,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 217000,
+    "outcome": "Victory",
+    "outcomeDetail": "American independence recognized by Treaty of Paris (1783).",
+    "congressionalAuth": false,
+    "authDetail": "Pre-Constitution. Continental Congress authorized.",
+    "keyEvents": [
+      "Declaration of Independence (1776)",
+      "Battle of Saratoga (1777)",
+      "Siege of Yorktown (1781)"
+    ],
+    "libertarianNote": "The original justified war — fighting for self-governance and individual liberty against imperial taxation and control.",
+    "objectives": [
+      "Independence from Britain",
+      "Self-governance"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "quasi-war",
+    "name": "Quasi-War with France",
+    "shortName": "Quasi-War",
+    "era": "Early Republic",
+    "type": "undeclared_war",
+    "startYear": 1798,
+    "endYear": 1800,
+    "region": "Atlantic Ocean / Caribbean",
+    "countries": [
+      "France"
+    ],
+    "description": "Undeclared naval war with France over trade disputes and French seizure of American merchant ships.",
+    "costNominal": 6000000,
+    "costInflationAdjusted": 160000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 514,
+      "wounded": 0,
+      "battleDeaths": 20,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 5700,
+    "outcome": "Treaty / Inconclusive",
+    "outcomeDetail": "Convention of 1800 ended hostilities. US gave up $20M in claims against France.",
+    "congressionalAuth": false,
+    "authDetail": "Never declared by Congress. Adams acted on executive authority.",
+    "keyEvents": [
+      "USS Constellation captures L'Insurgente (1799)"
+    ],
+    "libertarianNote": "First undeclared war — set the precedent for executive military action without congressional declaration that would be repeated hundreds of times.",
+    "objectives": [
+      "Protect American merchant shipping",
+      "End French privateering"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "barbary-wars",
+    "name": "First Barbary War",
+    "shortName": "Barbary War",
+    "era": "Early Republic",
+    "type": "war",
+    "startYear": 1801,
+    "endYear": 1805,
+    "region": "North Africa",
+    "countries": [
+      "Tripoli (Libya)"
+    ],
+    "description": "Naval war against Barbary pirates demanding tribute for safe passage in the Mediterranean.",
+    "costNominal": 3000000,
+    "costInflationAdjusted": 80000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 35,
+      "wounded": 64,
+      "battleDeaths": 35,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 3500,
+    "outcome": "Victory",
+    "outcomeDetail": "Treaty reduced but did not eliminate tribute payments. Full piracy ended after Second Barbary War (1815).",
+    "congressionalAuth": true,
+    "authDetail": "Congress authorized use of force (1802).",
+    "keyEvents": [
+      "USS Philadelphia captured (1803)",
+      "Battle of Derna (1805)"
+    ],
+    "libertarianNote": "Defensive action to protect American trade routes from state-sponsored piracy. One of the more justifiable early military actions.",
+    "objectives": [
+      "End tribute payments",
+      "Protect shipping"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "war-of-1812",
+    "name": "War of 1812",
+    "shortName": "War of 1812",
+    "era": "Early Republic",
+    "type": "war",
+    "startYear": 1812,
+    "endYear": 1815,
+    "region": "North America",
+    "countries": [
+      "United Kingdom"
+    ],
+    "description": "Fought over British impressment of American sailors, trade restrictions, and British support for Native American resistance to US expansion.",
+    "costNominal": 93000000,
+    "costInflationAdjusted": 1800000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 15000,
+      "wounded": 4505,
+      "battleDeaths": 2260,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 286730,
+    "outcome": "Inconclusive / Status Quo",
+    "outcomeDetail": "Treaty of Ghent restored pre-war boundaries. Impressment issue resolved by end of Napoleonic Wars, not by this war.",
+    "congressionalAuth": true,
+    "authDetail": "Declared by Congress June 18, 1812.",
+    "keyEvents": [
+      "Burning of Washington D.C. (1814)",
+      "Battle of New Orleans (1815)"
+    ],
+    "libertarianNote": "15,000 Americans died and the White House burned for a war that ended with no territorial changes. The impressment issue was already being resolved by European peace.",
+    "objectives": [
+      "End impressment",
+      "Remove British from frontier forts",
+      "Possibly annex Canada"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "mexican-american-war",
+    "name": "Mexican-American War",
+    "shortName": "Mexican-American War",
+    "era": "Expansion Era",
+    "type": "war",
+    "startYear": 1846,
+    "endYear": 1848,
+    "region": "North America",
+    "countries": [
+      "Mexico"
+    ],
+    "description": "War of territorial expansion after US annexation of Texas. Resulted in acquisition of California, Nevada, Utah, Arizona, New Mexico, and parts of Colorado and Wyoming.",
+    "costNominal": 71000000,
+    "costInflationAdjusted": 2500000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 13283,
+      "wounded": 4152,
+      "battleDeaths": 1733,
+      "missing": 0
+    },
+    "civilianDeaths": 25000,
+    "troopsDeployed": 78718,
+    "outcome": "Victory",
+    "outcomeDetail": "Treaty of Guadalupe Hidalgo. Mexico ceded 55% of its territory. US paid $15M.",
+    "congressionalAuth": true,
+    "authDetail": "Declared by Congress May 13, 1846.",
+    "keyEvents": [
+      "Polk's disputed border claim",
+      "Fall of Mexico City (1847)",
+      "Treaty of Guadalupe Hidalgo (1848)"
+    ],
+    "libertarianNote": "A war of conquest, plain and simple. President Polk manufactured the border incident as a pretext. Even Abraham Lincoln and Ulysses Grant called it unjust. Set the template for American imperial expansion.",
+    "objectives": [
+      "Acquire California and Southwest territories",
+      "Resolve Texas border dispute"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "civil-war",
+    "name": "American Civil War",
+    "shortName": "Civil War",
+    "era": "Civil War",
+    "type": "war",
+    "startYear": 1861,
+    "endYear": 1865,
+    "region": "North America",
+    "countries": [
+      "Confederate States"
+    ],
+    "description": "The deadliest conflict in American history. Fought over secession, slavery, and federal authority.",
+    "costNominal": 6200000000,
+    "costInflationAdjusted": 80000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 364511,
+      "wounded": 281881,
+      "battleDeaths": 140414,
+      "missing": 0
+    },
+    "civilianDeaths": 50000,
+    "troopsDeployed": 2213363,
+    "outcome": "Victory (Union)",
+    "outcomeDetail": "Preserved the Union. Abolished slavery via 13th Amendment. Massive expansion of federal power.",
+    "congressionalAuth": false,
+    "authDetail": "Lincoln acted on executive authority to suppress rebellion. Congress authorized military expansion.",
+    "keyEvents": [
+      "Fort Sumter (1861)",
+      "Emancipation Proclamation (1863)",
+      "Gettysburg (1863)",
+      "Appomattox (1865)"
+    ],
+    "libertarianNote": "Ended the moral catastrophe of slavery — but also established precedents for federal supremacy, conscription, income tax, suspension of habeas corpus, and centralized power that would shape all future conflicts.",
+    "objectives": [
+      "Preserve the Union",
+      "End slavery (evolved objective)"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "spanish-american-war",
+    "name": "Spanish-American War",
+    "shortName": "Spanish-American War",
+    "era": "Imperial Era",
+    "type": "war",
+    "startYear": 1898,
+    "endYear": 1898,
+    "region": "Caribbean / Pacific",
+    "countries": [
+      "Spain"
+    ],
+    "description": "War triggered by the sinking of USS Maine and yellow journalism. Resulted in US acquisition of Philippines, Guam, Puerto Rico, and effective control of Cuba.",
+    "costNominal": 283000000,
+    "costInflationAdjusted": 9600000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 2446,
+      "wounded": 1662,
+      "battleDeaths": 385,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 306760,
+    "outcome": "Victory",
+    "outcomeDetail": "Treaty of Paris. Spain ceded Philippines, Guam, Puerto Rico. Cuba gained nominal independence under US influence.",
+    "congressionalAuth": true,
+    "authDetail": "Declared by Congress April 25, 1898.",
+    "keyEvents": [
+      "Sinking of USS Maine (1898)",
+      "Battle of Manila Bay (1898)",
+      "San Juan Hill (1898)"
+    ],
+    "libertarianNote": "America became an empire. The war itself lasted only 4 months but began a century of overseas military bases and foreign interventions. William Graham Sumner's essay \"The Conquest of the United States by Spain\" warned that in defeating Spain, America would become the very imperial power it opposed.",
+    "objectives": [
+      "Liberate Cuba",
+      "Acquire overseas territories"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "philippine-american-war",
+    "name": "Philippine-American War",
+    "shortName": "Philippine War",
+    "era": "Imperial Era",
+    "type": "war",
+    "startYear": 1899,
+    "endYear": 1902,
+    "region": "Pacific",
+    "countries": [
+      "Philippines"
+    ],
+    "description": "War to suppress Philippine independence movement after US acquired the islands from Spain. Involved widespread atrocities.",
+    "costNominal": 400000000,
+    "costInflationAdjusted": 14000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 4196,
+      "wounded": 2930,
+      "battleDeaths": 1020,
+      "missing": 0
+    },
+    "civilianDeaths": 250000,
+    "troopsDeployed": 126468,
+    "outcome": "Victory (US)",
+    "outcomeDetail": "Philippines became US territory. Full independence not granted until 1946.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional declaration. Executive action under McKinley.",
+    "keyEvents": [
+      "Battle of Manila (1899)",
+      "Balangiga massacre (1901)",
+      "Concentration camps"
+    ],
+    "libertarianNote": "Americans fought to suppress the exact same thing they celebrated in 1776 — a people fighting for independence. 250,000+ Filipino civilians died. Mark Twain and the Anti-Imperialist League fiercely opposed it.",
+    "objectives": [
+      "Suppress independence movement",
+      "Maintain colonial control"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "world-war-i",
+    "name": "World War I",
+    "shortName": "World War I",
+    "era": "World Wars",
+    "type": "war",
+    "startYear": 1917,
+    "endYear": 1918,
+    "region": "Europe",
+    "countries": [
+      "Germany",
+      "Austria-Hungary",
+      "Ottoman Empire"
+    ],
+    "description": "US entered the \"war to end all wars\" after German unrestricted submarine warfare and the Zimmermann Telegram. 2 million Americans deployed to Europe.",
+    "costNominal": 32000000000,
+    "costInflationAdjusted": 380000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 116516,
+      "wounded": 204002,
+      "battleDeaths": 53402,
+      "missing": 0
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 4734991,
+    "outcome": "Victory (Allied)",
+    "outcomeDetail": "Armistice November 11, 1918. Treaty of Versailles imposed harsh terms on Germany — which directly led to World War II.",
+    "congressionalAuth": true,
+    "authDetail": "Declared by Congress April 6, 1917.",
+    "keyEvents": [
+      "Sinking of Lusitania (1915)",
+      "Zimmermann Telegram (1917)",
+      "Meuse-Argonne Offensive (1918)"
+    ],
+    "libertarianNote": "Wilson promised \"he kept us out of war\" in 1916, then entered in 1917. The war introduced conscription, propaganda (Committee on Public Information), the Espionage Act, and massive federal spending. The punitive peace directly caused WWII. Smedley Butler later called it \"a racket\" that enriched industrialists.",
+    "objectives": [
+      "Make the world safe for democracy",
+      "Protect freedom of the seas"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "world-war-ii",
+    "name": "World War II",
+    "shortName": "World War II",
+    "era": "World Wars",
+    "type": "war",
+    "startYear": 1941,
+    "endYear": 1945,
+    "region": "Europe / Pacific / North Africa",
+    "countries": [
+      "Germany",
+      "Japan",
+      "Italy"
+    ],
+    "description": "The deadliest war in human history. US entered after Pearl Harbor. Fought on two fronts across three continents.",
+    "costNominal": 296000000000,
+    "costInflationAdjusted": 4800000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 405399,
+      "wounded": 671846,
+      "battleDeaths": 291557,
+      "missing": 30314
+    },
+    "civilianDeaths": null,
+    "troopsDeployed": 16112566,
+    "outcome": "Victory (Allied)",
+    "outcomeDetail": "Unconditional surrender of Germany (May 1945) and Japan (August 1945). US emerged as global superpower.",
+    "congressionalAuth": true,
+    "authDetail": "Declared by Congress December 8, 1941 (Japan), December 11, 1941 (Germany/Italy).",
+    "keyEvents": [
+      "Pearl Harbor (1941)",
+      "D-Day (1944)",
+      "Battle of the Bulge (1944)",
+      "Iwo Jima (1945)",
+      "Hiroshima & Nagasaki (1945)"
+    ],
+    "libertarianNote": "The most widely accepted \"just war\" in American history — responding to direct attack and fighting genuine evil. But it also created the permanent military-industrial complex, the national security state, nuclear weapons, and the architecture of global military hegemony that persists today.",
+    "objectives": [
+      "Defeat Axis powers",
+      "Liberate occupied territories"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "korean-war",
+    "name": "Korean War",
+    "shortName": "Korean War",
+    "era": "Cold War",
+    "type": "war",
+    "startYear": 1950,
+    "endYear": 1953,
+    "region": "East Asia",
+    "countries": [
+      "North Korea",
+      "China"
+    ],
+    "description": "First major proxy war of the Cold War. UN-authorized action to repel North Korean invasion of South Korea. China intervened when US forces approached the Yalu River.",
+    "costNominal": 30000000000,
+    "costInflationAdjusted": 389000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 36574,
+      "wounded": 103284,
+      "battleDeaths": 33739,
+      "missing": 7926
+    },
+    "civilianDeaths": 2000000,
+    "troopsDeployed": 1789000,
+    "outcome": "Stalemate / Armistice",
+    "outcomeDetail": "Armistice restored pre-war border at 38th parallel. No peace treaty ever signed. US troops remain in South Korea 70+ years later.",
+    "congressionalAuth": false,
+    "authDetail": "Never declared by Congress. Truman called it a \"police action\" under UN authority.",
+    "keyEvents": [
+      "Inchon Landing (1950)",
+      "Chinese intervention (1950)",
+      "Battle of Chosin Reservoir (1950)"
+    ],
+    "libertarianNote": "The \"Forgotten War\" set the template for undeclared wars. Truman bypassed Congress entirely, using UN authority instead. 36,574 Americans died in a war that ended exactly where it started. 70+ years later, 28,500 US troops still garrison South Korea.",
+    "objectives": [
+      "Repel North Korean invasion",
+      "Unify Korea under democratic government"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "vietnam-war",
+    "name": "Vietnam War",
+    "shortName": "Vietnam War",
+    "era": "Cold War",
+    "type": "war",
+    "startYear": 1955,
+    "endYear": 1975,
+    "region": "Southeast Asia",
+    "countries": [
+      "North Vietnam",
+      "Viet Cong"
+    ],
+    "description": "The defining disaster of American foreign policy. 20 years, 58,220 dead, $1 trillion spent — all lost when Saigon fell in 1975.",
+    "costNominal": 168000000000,
+    "costInflationAdjusted": 1000000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 58220,
+      "wounded": 153303,
+      "battleDeaths": 47434,
+      "missing": 1584
+    },
+    "civilianDeaths": 2000000,
+    "troopsDeployed": 2709918,
+    "outcome": "Defeat",
+    "outcomeDetail": "Fall of Saigon (1975). Vietnam unified under communist government. Every stated objective failed.",
+    "congressionalAuth": false,
+    "authDetail": "Gulf of Tonkin Resolution (1964) — later revealed to be based on fabricated intelligence. Never a formal declaration of war.",
+    "keyEvents": [
+      "Gulf of Tonkin Incident (1964)",
+      "Tet Offensive (1968)",
+      "My Lai Massacre (1968)",
+      "Fall of Saigon (1975)"
+    ],
+    "libertarianNote": "The ultimate cautionary tale. Built on lies (Gulf of Tonkin), sustained by conscription, destroyed 58,220 American lives and 2 million Vietnamese civilians — all to prevent a communist domino theory that never materialized. Vietnam is now a US trading partner. Every death was in vain.",
+    "objectives": [
+      "Prevent communist takeover of South Vietnam",
+      "Contain communism in Southeast Asia"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "bay-of-pigs",
+    "name": "Bay of Pigs Invasion",
+    "shortName": "Bay of Pigs",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1961,
+    "endYear": 1961,
+    "region": "Caribbean",
+    "countries": [
+      "Cuba"
+    ],
+    "description": "CIA-organized invasion of Cuba using Cuban exiles. Complete failure — all invaders killed or captured within 3 days.",
+    "costNominal": 46000000,
+    "costInflationAdjusted": 460000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 4,
+      "wounded": 0,
+      "battleDeaths": 4,
+      "missing": 0
+    },
+    "civilianDeaths": 176,
+    "troopsDeployed": 1400,
+    "outcome": "Defeat",
+    "outcomeDetail": "Complete failure. 114 invaders killed, 1,189 captured. Strengthened Castro's position and led to Cuban Missile Crisis.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation. No congressional authorization or knowledge.",
+    "keyEvents": [
+      "Invasion begins April 17, 1961",
+      "Surrender within 72 hours"
+    ],
+    "libertarianNote": "Covert regime change attempt that backfired spectacularly. The CIA trained and armed exiles to overthrow a sovereign government, failed, then the resulting Cuban Missile Crisis nearly caused nuclear war.",
+    "objectives": [
+      "Overthrow Castro government",
+      "Install pro-US regime"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "dominican-republic-1965",
+    "name": "Dominican Republic Intervention",
+    "shortName": "Dominican Republic",
+    "era": "Cold War",
+    "type": "intervention",
+    "startYear": 1965,
+    "endYear": 1966,
+    "region": "Caribbean",
+    "countries": [
+      "Dominican Republic"
+    ],
+    "description": "Military intervention to prevent \"another Cuba.\" 22,000 troops deployed to suppress a popular uprising seeking to restore elected president.",
+    "costNominal": 300000000,
+    "costInflationAdjusted": 2800000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 44,
+      "wounded": 283,
+      "battleDeaths": 27,
+      "missing": 0
+    },
+    "civilianDeaths": 3000,
+    "troopsDeployed": 22000,
+    "outcome": "Regime installed",
+    "outcomeDetail": "Pro-US government installed. Elected president Bosch never restored to power.",
+    "congressionalAuth": false,
+    "authDetail": "Executive action by Johnson. No congressional authorization.",
+    "keyEvents": [
+      "Operation Power Pack begins April 28, 1965"
+    ],
+    "libertarianNote": "The US invaded to prevent the restoration of a democratically elected president. 3,000 Dominican civilians died so Washington could install a friendly dictator.",
+    "objectives": [
+      "Prevent communist government",
+      "Protect American citizens"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "grenada",
+    "name": "Invasion of Grenada",
+    "shortName": "Grenada",
+    "era": "Cold War",
+    "type": "invasion",
+    "startYear": 1983,
+    "endYear": 1983,
+    "region": "Caribbean",
+    "countries": [
+      "Grenada"
+    ],
+    "description": "Invasion of tiny Caribbean island (population 91,000) after a Marxist coup. Justified as protecting American medical students.",
+    "costNominal": 135000000,
+    "costInflationAdjusted": 400000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 19,
+      "wounded": 116,
+      "battleDeaths": 19,
+      "missing": 0
+    },
+    "civilianDeaths": 24,
+    "troopsDeployed": 7600,
+    "outcome": "Victory",
+    "outcomeDetail": "Marxist government deposed. Pro-US government installed.",
+    "congressionalAuth": false,
+    "authDetail": "Reagan invoked executive authority. UN General Assembly condemned invasion 108-9.",
+    "keyEvents": [
+      "Operation Urgent Fury, October 25, 1983"
+    ],
+    "libertarianNote": "The world's most powerful military invaded a country smaller than Detroit. Condemned by the UN, the UK, and Canada. The \"endangered medical students\" later said they were never in danger.",
+    "objectives": [
+      "Protect American citizens",
+      "Remove Marxist government"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "panama",
+    "name": "Invasion of Panama",
+    "shortName": "Panama",
+    "era": "Cold War",
+    "type": "invasion",
+    "startYear": 1989,
+    "endYear": 1990,
+    "region": "Central America",
+    "countries": [
+      "Panama"
+    ],
+    "description": "Invasion to depose Manuel Noriega — a former CIA asset turned liability. 27,000 troops deployed against a country of 2.5 million.",
+    "costNominal": 164000000,
+    "costInflationAdjusted": 400000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 23,
+      "wounded": 325,
+      "battleDeaths": 23,
+      "missing": 0
+    },
+    "civilianDeaths": 500,
+    "troopsDeployed": 27684,
+    "outcome": "Victory",
+    "outcomeDetail": "Noriega captured and imprisoned. Pro-US government installed.",
+    "congressionalAuth": false,
+    "authDetail": "Executive action by Bush. No congressional authorization.",
+    "keyEvents": [
+      "Operation Just Cause, December 20, 1989",
+      "Noriega captured January 3, 1990"
+    ],
+    "libertarianNote": "Noriega was on the CIA payroll for decades before becoming inconvenient. The US invaded a sovereign nation, killed hundreds of civilians, and leveled neighborhoods — to arrest one man who used to work for us.",
+    "objectives": [
+      "Capture Noriega",
+      "Restore democratic government"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "gulf-war",
+    "name": "Gulf War (Desert Storm)",
+    "shortName": "Gulf War",
+    "era": "Post-Cold War",
+    "type": "war",
+    "startYear": 1990,
+    "endYear": 1991,
+    "region": "Middle East",
+    "countries": [
+      "Iraq"
+    ],
+    "description": "Coalition war to liberate Kuwait after Iraqi invasion. Quick decisive military victory followed by decades of consequences.",
+    "costNominal": 61000000000,
+    "costInflationAdjusted": 136000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 383,
+      "wounded": 467,
+      "battleDeaths": 148,
+      "missing": 0
+    },
+    "civilianDeaths": 3500,
+    "troopsDeployed": 694550,
+    "outcome": "Victory",
+    "outcomeDetail": "Kuwait liberated. Saddam Hussein left in power. Led to sanctions, no-fly zones, and eventual 2003 invasion.",
+    "congressionalAuth": true,
+    "authDetail": "Congress authorized use of force January 12, 1991.",
+    "keyEvents": [
+      "Iraq invades Kuwait (1990)",
+      "Operation Desert Shield",
+      "Operation Desert Storm (1991)",
+      "100-hour ground war"
+    ],
+    "libertarianNote": "A clear-cut case of repelling aggression — but it launched the permanent US military presence in the Middle East. The resulting Saudi bases became Osama bin Laden's primary grievance, directly contributing to 9/11. Sometimes \"winning\" creates worse problems.",
+    "objectives": [
+      "Liberate Kuwait",
+      "Protect Saudi Arabia"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "somalia",
+    "name": "Somalia Intervention",
+    "shortName": "Somalia",
+    "era": "Post-Cold War",
+    "type": "intervention",
+    "startYear": 1992,
+    "endYear": 1994,
+    "region": "East Africa",
+    "countries": [
+      "Somalia"
+    ],
+    "description": "Humanitarian intervention that evolved into urban warfare. The \"Black Hawk Down\" incident killed 18 Americans and led to withdrawal.",
+    "costNominal": 1600000000,
+    "costInflationAdjusted": 3300000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 43,
+      "wounded": 153,
+      "battleDeaths": 29,
+      "missing": 0
+    },
+    "civilianDeaths": 1000,
+    "troopsDeployed": 25000,
+    "outcome": "Withdrawal",
+    "outcomeDetail": "US withdrew after Battle of Mogadishu. Somalia remained a failed state for decades.",
+    "congressionalAuth": false,
+    "authDetail": "UN peacekeeping mission. Executive action by Bush and Clinton.",
+    "keyEvents": [
+      "Operation Restore Hope (1992)",
+      "Battle of Mogadishu / \"Black Hawk Down\" (1993)"
+    ],
+    "libertarianNote": "Mission creep in action. Started as humanitarian food delivery, turned into nation-building and urban warfare. When 18 Americans died, the mission collapsed — revealing that the political will never matched the scope of commitment.",
+    "objectives": [
+      "Deliver humanitarian aid",
+      "Stabilize Somalia"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "bosnia",
+    "name": "Bosnia Intervention",
+    "shortName": "Bosnia",
+    "era": "Post-Cold War",
+    "type": "intervention",
+    "startYear": 1995,
+    "endYear": 2004,
+    "region": "Europe",
+    "countries": [
+      "Yugoslavia / Serbia"
+    ],
+    "description": "NATO air campaign and peacekeeping operation during the Bosnian War. Included 78-day bombing campaign of Serbia in 1999 (Kosovo).",
+    "costNominal": 18000000000,
+    "costInflationAdjusted": 35000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 12,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 500,
+    "troopsDeployed": 20000,
+    "outcome": "Dayton Accords",
+    "outcomeDetail": "Dayton Agreement ended fighting. Bosnia remains divided. Kosovo declared independence in 2008.",
+    "congressionalAuth": false,
+    "authDetail": "NATO authority. Clinton did not seek congressional authorization for bombing campaign.",
+    "keyEvents": [
+      "Srebrenica massacre (1995)",
+      "Operation Deliberate Force (1995)",
+      "Dayton Accords (1995)"
+    ],
+    "libertarianNote": "A 78-day bombing campaign of a sovereign country without congressional approval. Clinton set the precedent that NATO authorization could substitute for congressional authority — a doctrine later used to justify Libya.",
+    "objectives": [
+      "End ethnic cleansing",
+      "Negotiate peace agreement"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "afghanistan",
+    "name": "War in Afghanistan",
+    "shortName": "Afghanistan",
+    "era": "War on Terror",
+    "type": "war",
+    "startYear": 2001,
+    "endYear": 2021,
+    "region": "Central Asia",
+    "countries": [
+      "Afghanistan",
+      "Taliban"
+    ],
+    "description": "America's longest war. Launched after 9/11 to destroy al-Qaeda and topple the Taliban. 20 years and $2.3 trillion later, the Taliban retook the country in 11 days.",
+    "costNominal": 2300000000000,
+    "costInflationAdjusted": 2300000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 2461,
+      "wounded": 20752,
+      "battleDeaths": 1922,
+      "missing": 0
+    },
+    "civilianDeaths": 176000,
+    "troopsDeployed": 800000,
+    "outcome": "Defeat",
+    "outcomeDetail": "Taliban retook Kabul August 15, 2021 — before US withdrawal was even complete. Every objective except killing bin Laden failed.",
+    "congressionalAuth": true,
+    "authDetail": "AUMF passed September 14, 2001. Later used to justify operations in 22 countries.",
+    "keyEvents": [
+      "9/11 attacks",
+      "Invasion begins October 7, 2001",
+      "Battle of Tora Bora (2001)",
+      "Bin Laden killed in Pakistan (2011)",
+      "Fall of Kabul (2021)"
+    ],
+    "libertarianNote": "The initial strike against al-Qaeda was justified. But it became a 20-year, $2.3 trillion nation-building project that achieved nothing. The Taliban govern Afghanistan today exactly as they did on September 10, 2001. The \"graveyard of empires\" claimed another victim.",
+    "objectives": [
+      "Destroy al-Qaeda",
+      "Remove Taliban from power",
+      "Build democratic Afghan state"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "iraq-war",
+    "name": "Iraq War",
+    "shortName": "Iraq War",
+    "era": "War on Terror",
+    "type": "war",
+    "startYear": 2003,
+    "endYear": 2011,
+    "region": "Middle East",
+    "countries": [
+      "Iraq"
+    ],
+    "description": "Invasion based on false claims of weapons of mass destruction. Overthrew Saddam Hussein, destabilized the entire Middle East, and created the conditions for ISIS.",
+    "costNominal": 2000000000000,
+    "costInflationAdjusted": 2000000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 4599,
+      "wounded": 32292,
+      "battleDeaths": 3523,
+      "missing": 0
+    },
+    "civilianDeaths": 300000,
+    "troopsDeployed": 1500000,
+    "outcome": "Pyrrhic victory / Strategic defeat",
+    "outcomeDetail": "Saddam overthrown. No WMDs found. Country descended into sectarian civil war. Rise of ISIS. Iran gained dominant influence.",
+    "congressionalAuth": true,
+    "authDetail": "Authorization for Use of Military Force Against Iraq Resolution (2002). Based on false WMD intelligence.",
+    "keyEvents": [
+      "Colin Powell UN presentation (2003)",
+      "\"Mission Accomplished\" (2003)",
+      "Abu Ghraib (2004)",
+      "Surge (2007)",
+      "US withdrawal (2011)"
+    ],
+    "libertarianNote": "The definitive case against interventionism. Built entirely on lies about WMDs. Cost $2 trillion, killed 4,599 Americans and 300,000+ Iraqi civilians, destabilized the entire region, created ISIS, and strengthened Iran. The architects faced zero accountability.",
+    "objectives": [
+      "Disarm Iraq of WMDs",
+      "End Saddam's support for terrorism",
+      "Free the Iraqi people"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "libya",
+    "name": "Libya Intervention",
+    "shortName": "Libya",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2011,
+    "endYear": 2011,
+    "region": "North Africa",
+    "countries": [
+      "Libya"
+    ],
+    "description": "NATO air campaign to support rebels overthrowing Gaddafi. \"Humanitarian intervention\" that turned Africa's most prosperous nation into a failed state with open slave markets.",
+    "costNominal": 1100000000,
+    "costInflationAdjusted": 1500000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 30000,
+    "troopsDeployed": 0,
+    "outcome": "Regime change / State collapse",
+    "outcomeDetail": "Gaddafi killed. Libya descended into civil war between rival governments. ISIS established presence. Open slave markets emerged.",
+    "congressionalAuth": false,
+    "authDetail": "Obama did not seek congressional authorization. Justified under NATO/UN authority. Exceeded 60-day War Powers Act limit.",
+    "keyEvents": [
+      "UN Resolution 1973 (2011)",
+      "NATO bombing campaign",
+      "Death of Gaddafi (2011)"
+    ],
+    "libertarianNote": "Obama's own assessment: the aftermath was his \"worst mistake.\" A country with the highest HDI in Africa became a failed state with literal slave markets. No congressional authorization. No plan for what came next. The definition of destructive hubris.",
+    "objectives": [
+      "Protect civilians from Gaddafi",
+      "Support democratic transition"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "syria",
+    "name": "Syrian Civil War Intervention",
+    "shortName": "Syria",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2014,
+    "endYear": 2025,
+    "region": "Middle East",
+    "countries": [
+      "Syria",
+      "ISIS"
+    ],
+    "description": "Air campaign and special operations against ISIS in Syria. Also armed Syrian rebels, some of whom later joined extremist groups.",
+    "costNominal": 30000000000,
+    "costInflationAdjusted": 30000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 22,
+      "wounded": 100,
+      "battleDeaths": 8,
+      "missing": 0
+    },
+    "civilianDeaths": 12000,
+    "troopsDeployed": 2000,
+    "outcome": "Ongoing / ISIS territorial defeat",
+    "outcomeDetail": "ISIS lost territorial caliphate by 2019. ~900 US troops remain in Syria with no congressional authorization or clear exit strategy.",
+    "congressionalAuth": false,
+    "authDetail": "Justified under 2001 AUMF — written to target al-Qaeda, applied to ISIS 13 years later.",
+    "keyEvents": [
+      "Rise of ISIS (2014)",
+      "US airstrikes begin (2014)",
+      "Battle of Raqqa (2017)"
+    ],
+    "libertarianNote": "The 2001 AUMF — written 3 days after 9/11 to target al-Qaeda — was stretched to justify war against ISIS, an organization that didn't exist in 2001. American troops remain in Syria today with no authorization, no exit strategy, and no public debate.",
+    "objectives": [
+      "Defeat ISIS",
+      "Support moderate rebels"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen War (Saudi Support)",
+    "shortName": "Yemen",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2015,
+    "endYear": 2025,
+    "region": "Middle East",
+    "countries": [
+      "Yemen",
+      "Houthi rebels"
+    ],
+    "description": "US military support for Saudi Arabia's bombing campaign in Yemen — the world's worst humanitarian crisis. US provides weapons, intelligence, and refueling.",
+    "costNominal": 54000000000,
+    "costInflationAdjusted": 54000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 2,
+      "wounded": 5,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 150000,
+    "troopsDeployed": 500,
+    "outcome": "Ongoing humanitarian catastrophe",
+    "outcomeDetail": "150,000+ dead. 85,000 children starved to death. Cholera epidemic. US-made bombs used on hospitals, school buses, weddings.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization. Congress voted to end support in 2019; Trump vetoed. Biden pledged to end but continued.",
+    "keyEvents": [
+      "Saudi intervention begins (2015)",
+      "School bus bombing (2018)",
+      "Famine and cholera crisis"
+    ],
+    "libertarianNote": "America's most shameful ongoing war. US-made bombs dropped by US-supported Saudi jets on Yemeni school buses, hospitals, and weddings. 85,000 children starved to death. Congress voted to end it; the President vetoed. Both parties share the blame.",
+    "objectives": [
+      "Support Saudi Arabia against Houthis",
+      "Counter Iranian influence"
+    ],
+    "objectivesMet": false
+  },
+  {
+    "id": "iran-1953",
+    "name": "Iranian Coup (Operation Ajax)",
+    "shortName": "Iran Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1953,
+    "endYear": 1953,
+    "region": "Middle East",
+    "countries": [
+      "Iran"
+    ],
+    "description": "CIA-MI6 coup overthrowing democratically elected Prime Minister Mossadegh to protect British oil interests. Installed Shah Pahlavi.",
+    "costNominal": 1000000,
+    "costInflationAdjusted": 11000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 300,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Shah installed. 26 years of authoritarian rule led to 1979 Islamic Revolution and permanent US-Iran hostility.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation. No congressional knowledge.",
+    "keyEvents": [
+      "Nationalization of Anglo-Iranian Oil Company (1951)",
+      "Coup August 19, 1953"
+    ],
+    "libertarianNote": "The original sin of US Middle East policy. Overthrowing Iran's democracy for oil profits created the chain of events leading to the Islamic Revolution, the hostage crisis, and decades of conflict. The blowback is still shaping world events 70 years later.",
+    "objectives": [
+      "Overthrow Mossadegh",
+      "Secure oil interests",
+      "Install pro-Western government"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "guatemala-1954",
+    "name": "Guatemalan Coup",
+    "shortName": "Guatemala Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1954,
+    "endYear": 1954,
+    "region": "Central America",
+    "countries": [
+      "Guatemala"
+    ],
+    "description": "CIA-orchestrated coup against democratically elected President Árbenz to protect United Fruit Company interests. Led to 36-year civil war and genocide.",
+    "costNominal": 3000000,
+    "costInflationAdjusted": 33000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 200000,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Military dictatorship installed. 36-year civil war followed. 200,000 killed, mostly indigenous Maya — classified as genocide by UN truth commission.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation (Operation PBSUCCESS).",
+    "keyEvents": [
+      "Coup June 27, 1954",
+      "Civil war 1960-1996",
+      "Mayan genocide"
+    ],
+    "libertarianNote": "The CIA overthrew a democracy to protect a fruit company's profits. The result: 36 years of military dictatorships and 200,000 dead — predominantly indigenous people. This is what happens when government serves corporate interests with military force.",
+    "objectives": [
+      "Remove Árbenz",
+      "Protect United Fruit Company interests"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "chile-1973",
+    "name": "Chilean Coup Support",
+    "shortName": "Chile Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1970,
+    "endYear": 1973,
+    "region": "South America",
+    "countries": [
+      "Chile"
+    ],
+    "description": "CIA destabilization campaign and support for military coup against democratically elected President Allende. Installed Pinochet dictatorship.",
+    "costNominal": 11000000,
+    "costInflationAdjusted": 80000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 3200,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Allende died during coup. Pinochet dictatorship lasted 17 years. 3,200+ killed, 40,000 tortured.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation. Nixon/Kissinger directive.",
+    "keyEvents": [
+      "Election of Allende (1970)",
+      "Economic destabilization",
+      "Coup September 11, 1973"
+    ],
+    "libertarianNote": "\"I don't see why we need to stand by and watch a country go communist due to the irresponsibility of its people.\" — Henry Kissinger. The US overthrew a democracy because voters chose the \"wrong\" candidate. 3,200 murdered. 40,000 tortured.",
+    "objectives": [
+      "Prevent socialist government",
+      "Install pro-US regime"
+    ],
+    "objectivesMet": true
+  },
+  {
+    "id": "drone-wars",
+    "name": "Global Drone Campaign",
+    "shortName": "Drone Wars",
+    "era": "War on Terror",
+    "type": "covert_operation",
+    "startYear": 2004,
+    "endYear": 2025,
+    "region": "Multiple (Pakistan, Yemen, Somalia, Libya)",
+    "countries": [
+      "Pakistan",
+      "Yemen",
+      "Somalia",
+      "Libya"
+    ],
+    "description": "Ongoing drone assassination program across multiple countries. The US kills people in countries it has never declared war on, often including civilians.",
+    "costNominal": 70000000000,
+    "costInflationAdjusted": 70000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 22000,
+    "troopsDeployed": 0,
+    "outcome": "Ongoing",
+    "outcomeDetail": "Thousands of strikes across multiple countries. Estimated 8,858-16,901 killed, including 910-2,200 civilians and 283-454 children (Bureau of Investigative Journalism estimates).",
+    "congressionalAuth": false,
+    "authDetail": "Justified under 2001 AUMF. No specific authorization for most target countries.",
+    "keyEvents": [
+      "First CIA drone strike in Pakistan (2004)",
+      "Anwar al-Awlaki killed (2011, US citizen)",
+      "Abdulrahman al-Awlaki killed (2011, 16-year-old US citizen)"
+    ],
+    "libertarianNote": "The government claims the power to execute people — including American citizens — anywhere on earth without trial, evidence, or oversight. A 16-year-old American citizen was killed in a drone strike. When asked about it, the White House press secretary said he \"should have had a more responsible father.\"",
+    "objectives": [
+      "Kill suspected terrorists",
+      "Disrupt terrorist networks"
+    ],
+    "objectivesMet": false
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "totalBases": 750,
+  "totalCountries": 80,
+  "totalOverseasTroops": 173000,
+  "annualBaseCost": 55000000000,
+  "topDeployments": [
+    {
+      "country": "Japan",
+      "troops": 53713,
+      "bases": 120,
+      "since": 1945,
+      "annualCost": 5700000000,
+      "note": "70% of bases on Okinawa. Locals regularly protest."
+    },
+    {
+      "country": "Germany",
+      "troops": 33948,
+      "bases": 119,
+      "since": 1945,
+      "annualCost": 3600000000,
+      "note": "80 years after WWII ended."
+    },
+    {
+      "country": "South Korea",
+      "troops": 28500,
+      "bases": 73,
+      "since": 1953,
+      "annualCost": 3400000000,
+      "note": "70+ years after Korean War armistice."
+    },
+    {
+      "country": "Italy",
+      "troops": 12313,
+      "bases": 44,
+      "since": 1945,
+      "annualCost": 1500000000,
+      "note": "Key staging area for Africa/Middle East operations."
+    },
+    {
+      "country": "United Kingdom",
+      "troops": 9397,
+      "bases": 25,
+      "since": 1942,
+      "annualCost": 1200000000,
+      "note": "Includes RAF Lakenheath nuclear weapons storage."
+    },
+    {
+      "country": "Bahrain",
+      "troops": 7300,
+      "bases": 1,
+      "since": 1971,
+      "annualCost": 800000000,
+      "note": "US Fifth Fleet HQ. Naval Support Activity Bahrain."
+    },
+    {
+      "country": "Spain",
+      "troops": 3300,
+      "bases": 4,
+      "since": 1953,
+      "annualCost": 400000000,
+      "note": "Rota naval base and Morón Air Base."
+    },
+    {
+      "country": "Turkey",
+      "troops": 2600,
+      "bases": 5,
+      "since": 1943,
+      "annualCost": 300000000,
+      "note": "Incirlik Air Base houses ~50 US nuclear weapons."
+    },
+    {
+      "country": "Australia",
+      "troops": 2000,
+      "bases": 7,
+      "since": 2011,
+      "annualCost": 300000000,
+      "note": "AUKUS partnership. Expanding presence."
+    },
+    {
+      "country": "Kuwait",
+      "troops": 13500,
+      "bases": 7,
+      "since": 1991,
+      "annualCost": 1200000000,
+      "note": "Permanent presence since Gulf War."
+    },
+    {
+      "country": "Qatar",
+      "troops": 10000,
+      "bases": 1,
+      "since": 1992,
+      "annualCost": 800000000,
+      "note": "Al Udeid Air Base — CENTCOM forward HQ."
+    },
+    {
+      "country": "Djibouti",
+      "troops": 4000,
+      "bases": 1,
+      "since": 2002,
+      "annualCost": 400000000,
+      "note": "Camp Lemonnier — only permanent US base in Africa."
+    },
+    {
+      "country": "Honduras",
+      "troops": 500,
+      "bases": 1,
+      "since": 1983,
+      "annualCost": 100000000,
+      "note": "Soto Cano Air Base."
+    },
+    {
+      "country": "Cuba",
+      "troops": 800,
+      "bases": 1,
+      "since": 1903,
+      "annualCost": 200000000,
+      "note": "Guantánamo Bay — 120+ years on Cuban soil against their will."
+    },
+    {
+      "country": "Poland",
+      "troops": 4700,
+      "bases": 4,
+      "since": 2022,
+      "annualCost": 500000000,
+      "note": "Rapidly expanding since Russia-Ukraine war."
+    }
+  ]
+}

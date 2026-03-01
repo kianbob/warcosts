@@ -1,0 +1,65 @@
+{
+  "warOnTerrorTotal": 8000000000000,
+  "examples": [
+    {
+      "item": "Free public college for all Americans (4 years)",
+      "unitCost": 79000000000,
+      "units": 101,
+      "description": "Could have funded free college for over a century."
+    },
+    {
+      "item": "Universal pre-K for every child",
+      "unitCost": 36000000000,
+      "units": 222,
+      "description": "Over 200 years of universal pre-K."
+    },
+    {
+      "item": "Clean drinking water for entire world",
+      "unitCost": 20000000000,
+      "units": 400,
+      "description": "400 years of clean water for every human on earth."
+    },
+    {
+      "item": "End homelessness in America",
+      "unitCost": 20000000000,
+      "units": 400,
+      "description": "Could end homelessness 400 times over."
+    },
+    {
+      "item": "Elementary school teachers' annual salary",
+      "unitCost": 63000,
+      "units": 126984127,
+      "description": "127 million teacher-years."
+    },
+    {
+      "item": "Average American household income",
+      "unitCost": 75000,
+      "units": 106666667,
+      "description": "A year's income for 107 million families."
+    },
+    {
+      "item": "Pell Grants at max amount ($7,395)",
+      "unitCost": 7395,
+      "units": 1081811358,
+      "description": "Over 1 billion Pell Grants."
+    },
+    {
+      "item": "Veterans mental health care (per year)",
+      "unitCost": 12000000000,
+      "units": 667,
+      "description": "667 years of fully funded VA mental health."
+    },
+    {
+      "item": "Rebuild every bridge in America",
+      "unitCost": 125000000000,
+      "units": 64,
+      "description": "Could rebuild every US bridge 64 times."
+    },
+    {
+      "item": "Flint, MI water system fix",
+      "unitCost": 600000000,
+      "units": 13333,
+      "description": "Fix 13,333 Flints."
+    }
+  ]
+}

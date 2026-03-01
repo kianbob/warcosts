@@ -1,0 +1,18 @@
+{
+  "totalConflicts": 28,
+  "totalUSDeaths": 1049306,
+  "totalCivilianDeaths": 5227200,
+  "totalCostInflationAdjusted": 11313524000000,
+  "warsSinceWWII": 18,
+  "undeclaredWars": 19,
+  "objectivesMetRate": "57.1",
+  "postWWIIObjectivesMetRate": "44.4",
+  "overseasBases": 750,
+  "overseasCountries": 80,
+  "overseasTroops": 173000,
+  "currentAnnualBudget": 886000000000,
+  "pctGdp": 3.4,
+  "warOnTerrorCost": 8000000000000,
+  "warOnTerrorDeaths": 929000,
+  "foreignAidAnnual": 68000000000
+}

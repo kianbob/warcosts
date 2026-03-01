@@ -1,0 +1,148 @@
+{
+  "totalAnnual": 68000000000,
+  "totalSince2001": 850000000000,
+  "topRecipients": [
+    {
+      "country": "Israel",
+      "totalSince2001": 158000000000,
+      "annual2023": 3800000000,
+      "type": "Military + Economic",
+      "note": "Largest cumulative recipient. $3.8B/yr guaranteed since 1999 MOU."
+    },
+    {
+      "country": "Ukraine",
+      "totalSince2001": 113000000000,
+      "annual2023": 24400000000,
+      "type": "Military + Economic",
+      "note": "Massive increase since 2022 Russian invasion."
+    },
+    {
+      "country": "Afghanistan",
+      "totalSince2001": 136000000000,
+      "annual2023": 300000000,
+      "type": "Military + Economic + Humanitarian",
+      "note": "$136B over 20 years. Now minimal after Taliban takeover."
+    },
+    {
+      "country": "Iraq",
+      "totalSince2001": 82000000000,
+      "annual2023": 600000000,
+      "type": "Military + Economic",
+      "note": "$82B over 20 years of war and reconstruction."
+    },
+    {
+      "country": "Egypt",
+      "totalSince2001": 43000000000,
+      "annual2023": 1500000000,
+      "type": "Military + Economic",
+      "note": "$1.5B/yr since Camp David Accords (1978). Funds military dictatorship."
+    },
+    {
+      "country": "Jordan",
+      "totalSince2001": 28000000000,
+      "annual2023": 1700000000,
+      "type": "Military + Economic",
+      "note": "Key regional ally for Middle East operations."
+    },
+    {
+      "country": "Pakistan",
+      "totalSince2001": 25000000000,
+      "annual2023": 500000000,
+      "type": "Military + Economic",
+      "note": "Ostensible ally that harbored bin Laden."
+    },
+    {
+      "country": "Ethiopia",
+      "totalSince2001": 18000000000,
+      "annual2023": 1800000000,
+      "type": "Humanitarian + Development",
+      "note": "Largest recipient in sub-Saharan Africa."
+    },
+    {
+      "country": "South Sudan",
+      "totalSince2001": 12000000000,
+      "annual2023": 900000000,
+      "type": "Humanitarian",
+      "note": "Perpetual humanitarian crisis since 2011 independence."
+    },
+    {
+      "country": "Colombia",
+      "totalSince2001": 15000000000,
+      "annual2023": 500000000,
+      "type": "Military + Development",
+      "note": "Plan Colombia and counter-narcotics support."
+    },
+    {
+      "country": "Nigeria",
+      "totalSince2001": 11000000000,
+      "annual2023": 800000000,
+      "type": "Health + Development",
+      "note": "Major PEPFAR recipient."
+    },
+    {
+      "country": "Kenya",
+      "totalSince2001": 14000000000,
+      "annual2023": 900000000,
+      "type": "Health + Development",
+      "note": "Counter-terrorism and PEPFAR."
+    },
+    {
+      "country": "Somalia",
+      "totalSince2001": 8000000000,
+      "annual2023": 800000000,
+      "type": "Humanitarian + Military",
+      "note": "Decades of aid with no functioning government."
+    },
+    {
+      "country": "Syria",
+      "totalSince2001": 15000000000,
+      "annual2023": 500000000,
+      "type": "Humanitarian",
+      "note": "Humanitarian crisis from civil war US helped fuel."
+    },
+    {
+      "country": "Taiwan",
+      "totalSince2001": 5000000000,
+      "annual2023": 2000000000,
+      "type": "Military",
+      "note": "Rapidly increasing military aid amid China tensions."
+    }
+  ],
+  "byCategory": [
+    {
+      "category": "Military/Security",
+      "amount": 18200000000,
+      "pct": 26.8
+    },
+    {
+      "category": "Health (PEPFAR etc)",
+      "amount": 11400000000,
+      "pct": 16.8
+    },
+    {
+      "category": "Humanitarian",
+      "amount": 13200000000,
+      "pct": 19.4
+    },
+    {
+      "category": "Economic Development",
+      "amount": 8500000000,
+      "pct": 12.5
+    },
+    {
+      "category": "Democracy/Governance",
+      "amount": 4100000000,
+      "pct": 6
+    },
+    {
+      "category": "Education",
+      "amount": 1800000000,
+      "pct": 2.6
+    },
+    {
+      "category": "Other",
+      "amount": 10800000000,
+      "pct": 15.9
+    }
+  ]
+}
