@@ -35,6 +35,17 @@ export default function DashboardPage() {
       <p className="text-muted mb-4 max-w-3xl">A comprehensive overview of America&apos;s military footprint — spending, casualties, overseas presence, and the true cost of 249 years of war.</p>
       <ShareButtons title="Dashboard — The State of the American Empire" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The US has been at war for ~229 of its 249 years</strong> — spending {fmtMoney(stats.totalCostInflationAdjusted)} total, with {stats.undeclaredWars} conflicts waged without congressional authorization.</li>
+          <li>• <strong>The defense budget has grown 51% since 2015 ($586B → $886B)</strong> — Congress consistently appropriates more than the President requests, and the Pentagon has failed 7 consecutive audits.</li>
+          <li>• <strong>17 veterans commit suicide daily while 38 million people have been displaced by the War on Terror</strong> — the human cost is staggering and ongoing, even as new conflicts emerge.</li>
+          <li>• <strong>The true annual national security cost exceeds $1.4 trillion</strong> — when you include VA, intelligence, homeland security, nuclear weapons, and war debt interest. That&apos;s ${fmt(stats.costPerSecond)}/second.</li>
+        </ul>
+      </div>
+
       {/* Primary Stats */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
         {[

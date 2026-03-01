@@ -228,6 +228,18 @@ export default function ModernTacticsPage() {
       </p>
       <ShareButtons title="Modern Warfare — Invisible Wars, Zero Accountability" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>Cyber warfare spending exploded from ~$3B to $20B+ (567% increase) while AI military spending went from $0 to $2B+</strong> — entirely new domains of war created without a single congressional debate or declaration.</li>
+          <li>• <strong>SOCOM operates in 80+ countries with 70,000 personnel and a budget that tripled since 9/11</strong> — a global shadow military conducting raids, strikes, and missions with minimal congressional oversight.</li>
+          <li>• <strong>14,000+ drone strikes since 2001, including killing US citizens without trial</strong> — &ldquo;signature strikes&rdquo; target patterns of behavior, not identified individuals. The CIA kills people without knowing who they are.</li>
+          <li>• <strong>The 2001 AUMF — 60 words — has authorized operations in 22+ countries for 23+ years</strong> — against groups that didn&apos;t exist on 9/11. The constitutional war power is dead, killed not by amendment but by innovation.</li>
+          <li>• <strong>Modern warfare is designed to be invisible — that is the entire point</strong> — no declarations, no casualties, no draft, no debate. Every innovation reduces democratic friction, optimizing war for permanence.</li>
+        </ul>
+      </div>
+
       {/* Key stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

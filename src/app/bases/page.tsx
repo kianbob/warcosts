@@ -76,6 +76,18 @@ export default function BasesPage() {
       <p className="text-muted mb-6 max-w-3xl">The United States maintains {fmt(presence.totalBases)} military bases in {presence.totalCountries} countries — more than any empire in history. Annual cost: {fmtMoney(presence.annualBaseCost)}. Many of these bases were established during wars that ended decades ago. The troops stayed. The bases expanded. The bill keeps growing.</p>
       <ShareButtons title="US Overseas Military Bases — 750 in 80 Countries" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The US has ~750 overseas bases — the UK has 16, Russia 15, China 1</strong> — more foreign bases than every other country on Earth combined, exceeding even the British Empire at its peak.</li>
+          <li>• <strong>Many bases were built to counter the Soviet Union, which dissolved 34 years ago</strong> — the Pentagon estimates 20% excess capacity (~150 unneeded bases), but Congress blocks every closure attempt.</li>
+          <li>• <strong>Camp Humphreys cost $10.7 billion to build</strong> — and the Niger drone base ($110M) was abandoned after a 2023 coup. Taxpayers fund bases that serve no lasting purpose.</li>
+          <li>• <strong>The US military is the world&apos;s single largest institutional polluter</strong> — producing more greenhouse gas emissions than 140 countries, with PFAS contamination poisoning water supplies near bases from Okinawa to Camp Lejeune.</li>
+          <li>• <strong>The Chagossian people were forcibly expelled and their dogs gassed</strong> to make room for the Diego Garcia base — one of many communities displaced by America&apos;s base network without consent or compensation.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid md:grid-cols-4 gap-4 my-8">
         {[

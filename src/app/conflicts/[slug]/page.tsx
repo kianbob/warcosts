@@ -167,6 +167,28 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
 
       <ShareButtons title={c.name} />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          {costPerTaxpayer > 0 && (
+            <li>• <strong>This conflict cost ${fmt(costPerTaxpayer)} per taxpayer</strong> — {fmtMoney(c.costInflationAdjusted)} in total (2023 dollars){c.usCasualties?.deaths > 0 ? `, or ${fmtMoney(Math.round(c.costInflationAdjusted / c.usCasualties.deaths))} per American life lost` : ''}.</li>
+          )}
+          {c.civilianDeaths > 0 && c.usCasualties?.deaths > 0 && (
+            <li>• <strong>For every American soldier killed, approximately {Math.round(c.civilianDeaths / c.usCasualties.deaths)} civilians died</strong> — {fmt(c.civilianDeaths)} civilian deaths vs. {fmt(c.usCasualties.deaths)} US deaths.</li>
+          )}
+          {c.computed?.durationYears > 0 && (
+            <li>• <strong>This conflict lasted {c.computed.durationYears} year{c.computed.durationYears !== 1 ? 's' : ''}</strong>{c.usCasualties?.deaths > 0 ? ` — approximately ${fmt(Math.round(c.usCasualties.deaths / c.computed.durationYears))} American deaths per year` : ''}.</li>
+          )}
+          {!c.congressionalAuth && (
+            <li>• <strong>This conflict was waged without congressional authorization</strong> — a violation of Article I, Section 8 of the Constitution, which vests the war power exclusively in Congress.</li>
+          )}
+          {!c.endYear && (
+            <li>• <strong>This conflict is still ongoing</strong> — with no defined end state, no exit strategy, and continuing costs to American taxpayers and service members.</li>
+          )}
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         <div className="bg-white rounded-lg p-4 shadow-sm border text-center">

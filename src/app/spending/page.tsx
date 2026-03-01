@@ -79,6 +79,18 @@ export default function SpendingPage() {
       </p>
       <ShareButtons title="US Military Spending — $886B/Year" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The US spends more on defense than the next 10 countries combined</strong> — yet the Pentagon has failed 7 consecutive audits and cannot account for $1.9 trillion in adjustments.</li>
+          <li>• <strong>At $28,095/second, the military burns through more per minute than the median American earns in a year</strong> — and Congress regularly appropriates more than the Pentagon even requests.</li>
+          <li>• <strong>The official $886B budget is a lie</strong> — when you include VA, nuclear weapons, intelligence, homeland security, and war debt interest, true national security spending exceeds $1.5T/yr ($11,700 per household).</li>
+          <li>• <strong>Military spending accounts for ~53% of federal discretionary spending</strong> — more than education, EPA, NASA, NIH, CDC, and school lunches combined ($295B total).</li>
+          <li>• <strong>The ratchet never reverses</strong> — spending spiked for WWII, Korea, Vietnam, the Cold War, and 9/11, but never returned to pre-crisis levels. Each crisis creates a new, higher floor.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

@@ -78,6 +78,18 @@ export default function ArmsSalesPage() {
       <p className="text-muted mb-6 max-w-3xl">The United States is the world&apos;s largest arms dealer, selling {fmtMoney(arms.totalAnnual)} per year in weapons to foreign governments. American bombs, missiles, jets, and tanks are used in conflicts across the globe — many of them against civilians. The arms industry spends $130M/yr lobbying Congress to ensure the sales never stop.</p>
       <ShareButtons title="US Arms Sales — Who Buys American Weapons" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The US controls 40% of the global arms market</strong> — more than Russia, China, France, and Germany combined. State Department approved $80.9B in sales in 2023 alone, a 56% increase.</li>
+          <li>• <strong>American weapons have been found on both sides of multiple conflicts</strong> — in Libya, Syria, and Yemen. The Taliban captured $7.1B in US equipment when Afghanistan fell, including Black Hawk helicopters.</li>
+          <li>• <strong>A Raytheon MK-82 bomb killed 40 children on a school bus in Yemen (2018)</strong> — arms sales to Saudi Arabia continued. The US sells weapons to human rights abusers with minimal consequences.</li>
+          <li>• <strong>The AUKUS submarine deal is worth $368 billion</strong> — the largest arms deal in history. Every regional arms race enriches American defense contractors while destabilizing the regions involved.</li>
+          <li>• <strong>The US has not ratified the Arms Trade Treaty</strong> — joining Russia and China in refusing to be bound by rules governing weapons exports. The world&apos;s largest arms dealer refuses oversight.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

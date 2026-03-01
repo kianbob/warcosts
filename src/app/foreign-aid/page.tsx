@@ -84,6 +84,18 @@ export default function ForeignAidPage() {
       </p>
       <ShareButtons title="US Foreign Aid — Where Your Tax Dollars Go" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>Israel — a wealthy nation with $55K GDP per capita — is the largest cumulative recipient of US aid in history ($158B+)</strong>, receiving $3.8B/yr guaranteed, plus $14.3B in emergency aid in 2024 alone.</li>
+          <li>• <strong>Much &ldquo;foreign aid&rdquo; is actually military hardware</strong> — the money flows from US taxpayers → Pentagon → defense contractors → back to Congress as campaign contributions. The foreign country is just the middleman.</li>
+          <li>• <strong>The US gives just 0.24% of GNI in aid — dead last among major developed nations</strong> — failing the UN 0.7% target by 66%, while Americans mistakenly believe aid is ~25% of the federal budget (it&apos;s ~1%).</li>
+          <li>• <strong>The Marshall Plan ($165B in today&apos;s dollars) rebuilt all of Western Europe</strong> — Afghanistan reconstruction cost $136B and rebuilt nothing lasting. The Taliban returned to power after 20 years.</li>
+          <li>• <strong>Pakistan received $25B in aid while harboring Osama bin Laden</strong> — and Egypt has received $1.5B/yr for 47 years to fund a military dictatorship, essentially a bribe to maintain peace with Israel.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

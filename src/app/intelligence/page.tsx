@@ -130,6 +130,18 @@ export default function IntelligencePage() {
       </p>
       <ShareButtons title="Intelligence Agencies — $90B, 18 Agencies, Zero Accountability" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The $90B+ intelligence budget is larger than the entire military budget of every country except China and Russia</strong> — America spends more on spying than most nations spend on their entire defense.</li>
+          <li>• <strong>854,000 people hold security clearances and 1,931 private companies do intelligence work</strong> — an estimated 70% of the budget goes to contractors. The system is so complex that no one — not even the DNI — knows the full scope.</li>
+          <li>• <strong>The CIA has overthrown more democracies than it has protected</strong> — Iran (1953), Guatemala (1954), Congo (1960), Chile (1973), and others. Each created blowback costing trillions.</li>
+          <li>• <strong>Despite $90B/yr, the IC failed to prevent 9/11, Iraq WMDs, the rise of ISIS, and the collapse of Afghanistan</strong> — the intelligence community&apos;s failures have cost more lives and treasure than the threats it was supposed to prevent.</li>
+          <li>• <strong>The FISA Court approved 99.97% of surveillance requests</strong> — no adversarial process, secret opinions. The only person imprisoned for the NSA mass surveillance program was the whistleblower (Snowden).</li>
+        </ul>
+      </div>
+
       {/* Key stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

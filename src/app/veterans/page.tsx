@@ -159,6 +159,18 @@ export default function VeteransPage() {
       </p>
       <ShareButtons title="Veterans Crisis — Broken Promises, Broken Lives" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>17 veterans kill themselves every day — over 6,400 per year</strong> — more than twice the total combat deaths in 20 years of Afghanistan. The true number may be 20–24/day due to undercounting.</li>
+          <li>• <strong>3.5 million troops were exposed to toxic burn pits</strong> — the VA denied claims for over a decade. Thousands died before the PACT Act (2022) finally created presumptive coverage, authorizing $280B — just 3.2% of the $8.6T war cost.</li>
+          <li>• <strong>800,000+ disability claims are pending with 150+ day average processing</strong> — an estimated 1,500+ veterans die per month with unresolved claims. The VA hired 12,000 processors but still can&apos;t keep pace.</li>
+          <li>• <strong>The pattern repeats across generations: expose, deny, delay, acknowledge after thousands die</strong> — from atomic veterans (1945), to Agent Orange (30 years denied), to Gulf War Syndrome (18 years), to burn pits (20+ years).</li>
+          <li>• <strong>The VA budget is $325B — larger than the GDP of most countries — yet 35,000+ veterans sleep on streets</strong> — if the government can&apos;t keep faith with those it sends to fight, it has no moral authority to create new veterans.</li>
+        </ul>
+      </div>
+
       {/* Key crisis stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

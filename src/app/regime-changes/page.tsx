@@ -198,6 +198,18 @@ export default function RegimeChangesPage() {
       </p>
       <ShareButtons title="US-Backed Regime Changes — Coups and Their Consequences" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>Not a single US regime change since WWII has produced a stable, lasting democracy</strong> — the track record across {totalCountries} countries and 70+ years is 0 for {totalRegimeChanges}. The blowback has cost trillions.</li>
+          <li>• <strong>The US has overthrown more democracies than any country in modern history</strong> — Iran, Guatemala, Congo, Brazil, Chile, and Haiti all had democratically elected leaders replaced by US-backed dictators.</li>
+          <li>• <strong>Every major US foreign policy crisis traces to prior regime changes</strong> — the 1953 Iran coup created the Islamic Republic; the 1980s Afghan operation created Al-Qaeda; the 2003 Iraq invasion created ISIS.</li>
+          <li>• <strong>Central American migration to the US border traces directly to US interventions</strong> — coups and death squads in Guatemala, Honduras, and El Salvador created the instability that American politicians now decry.</li>
+          <li>• <strong>Operation Condor killed 60,000–80,000 people across South America</strong> — a US-backed network of military dictatorships that coordinated cross-border kidnapping, torture, and murder with CIA intelligence support.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

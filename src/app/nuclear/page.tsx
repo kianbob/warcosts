@@ -206,6 +206,18 @@ export default function NuclearPage() {
       </p>
       <ShareButtons title="Nuclear Weapons — $10+ Trillion and Counting" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The US has spent $10+ trillion on nuclear weapons — more than on any other single endeavor in human history</strong> — and is now spending another $2 trillion on a 30-year modernization of the entire arsenal.</li>
+          <li>• <strong>The Sentinel ICBM program has already overrun by 37% ($96B → $131B+)</strong> — triggering a Nunn-McCurdy breach, yet the Air Force certified it as &ldquo;essential&rdquo; because the contractor has the government locked in.</li>
+          <li>• <strong>The world has come within minutes of nuclear war at least 7 documented times</strong> — often due to computer glitches, miscommunication, or a single individual&apos;s judgment. We survived the Cold War by luck, not design.</li>
+          <li>• <strong>The president has sole, unchecked authority to launch nuclear weapons</strong> — from decision to ICBM launch takes ~4 minutes. No congressional approval, no cabinet consent, no appeals. The Founders would be horrified.</li>
+          <li>• <strong>Nuclear testing contaminated the Marshall Islands, Nevada downwinders, and 400,000 &ldquo;atomic veterans&rdquo;</strong> — the government knew about the risks and chose not to warn people. RECA compensation expired in 2024.</li>
+        </ul>
+      </div>
+
       {/* Key stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

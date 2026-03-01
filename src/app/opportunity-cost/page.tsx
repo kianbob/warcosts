@@ -106,6 +106,18 @@ export default function OpportunityCostPage() {
 
       <ShareButtons title="What Else Could $8 Trillion Buy?" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The War on Terror cost ~$60,000 per US household</strong> — that money could have eliminated all $1.7T in student debt 4.7 times over, or funded free college for every American for 101 years.</li>
+          <li>• <strong>America&apos;s entire infrastructure gap is $2.6 trillion (grade: C-)</strong> — less than the cost of the Afghanistan War alone ($2.3T). Bridges, roads, water systems, and schools crumble while the Pentagon gets budget increases.</li>
+          <li>• <strong>One F-35 fighter ($80M) equals 1,270 teacher salaries</strong> — and the F-35 program&apos;s $1.7T lifetime cost could fund free college for 21 years. The Pentagon spends more daily ($2.4B) than Amtrak&apos;s entire annual subsidy.</li>
+          <li>• <strong>$8 trillion could provide clean drinking water for the entire planet for 400 years</strong> — instead it funded wars that killed 929,000 people and destabilized four countries.</li>
+          <li>• <strong>Countries that spend less on military invest more in their people</strong> — Denmark (1.4% GDP on defense) has free healthcare, free college, and ranks among the happiest countries on earth. The US has $1.7T in student debt and 37,000 homeless veterans.</li>
+        </ul>
+      </div>
+
       {/* Your Tax Dollars framing */}
       <div className="bg-red-50 rounded-xl p-8 my-8 border border-red-200 text-center">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-800 mb-2">Your Tax Dollars at Work</h2>

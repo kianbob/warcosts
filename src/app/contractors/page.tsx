@@ -101,6 +101,18 @@ export default function ContractorsPage() {
       <p className="text-muted mb-6 max-w-3xl">These five companies receive over $200 billion per year in government defense contracts. Their profits depend on conflict. Their lobbyists write the laws. Their former executives run the Pentagon. Their stock prices soar when wars begin. This is the military-industrial complex that Eisenhower warned about — and it has won.</p>
       <ShareButtons title="Top Defense Contractors — Who Profits from War" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>Defense stocks returned 800–1,450% since 9/11 vs. ~450% for the S&P 500</strong> — $10,000 invested in Northrop Grumman on September 10, 2001 would be worth $155,000 today. War is the best investment in America.</li>
+          <li>• <strong>Defense CEOs earn ~$23M/yr — roughly 400× what a deployed soldier earns</strong> — while 80% of retiring 3- and 4-star generals go to work for the contractors they oversaw.</li>
+          <li>• <strong>The F-35 has parts in 375 congressional districts</strong> — by design, ensuring political invincibility. The $1.7 trillion lifetime program has 800+ unresolved defects after 25 years of development.</li>
+          <li>• <strong>Cost-plus contracts create a perverse incentive: the more a contractor spends, the more profit they make</strong> — explaining why virtually every major defense program goes over budget (B-2: 600% per-unit overrun).</li>
+          <li>• <strong>Halliburton&apos;s CEO became Vice President, then his company got $39.5B in no-bid contracts</strong> in the war he helped start — KBR&apos;s shoddy work electrocuted 18 US soldiers in Iraq showers.</li>
+        </ul>
+      </div>
+
       {/* Stats Grid */}
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4 my-8">
         {[

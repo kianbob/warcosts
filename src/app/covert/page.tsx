@@ -114,6 +114,18 @@ export default function CovertPage() {
       <p className="text-muted mb-6 max-w-3xl">Secret wars, CIA coups, torture programs, assassination plots, drug experiments on American citizens, and covert campaigns across the globe — none authorized by Congress, most hidden from the American public for decades. These are the operations that toppled democracies, installed dictators, tortured innocents, and created the enemies America would later spend trillions fighting.</p>
       <ShareButtons title="US Covert Operations & Secret Wars" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>The CIA coined the term &ldquo;blowback&rdquo;</strong> in a classified 1953 report on the Iran coup — every major US foreign policy crisis (Iran, Afghanistan, ISIS) traces back to prior covert operations.</li>
+          <li>• <strong>The FISA court approved 99.97% of surveillance requests from 1979–2019</strong> — rejecting only 12 out of 42,000+ applications, making it functionally a rubber stamp for secret government power.</li>
+          <li>• <strong>MK-Ultra experimented on unwitting American citizens with LSD and torture</strong> — and the CIA Director ordered all files destroyed. Only 20,000 pages survived by accident, misfiled in a financial cabinet.</li>
+          <li>• <strong>At least 7 of 9 African coups since 2008 were led by US-trained military officers</strong> — the CIA&apos;s annual budget ($15B+) is larger than the GDP of 60+ countries, with zero meaningful oversight.</li>
+          <li>• <strong>The CIA tortured at least 26 people later determined to be innocent</strong> — the 6,700-page Senate Torture Report concluded the program produced no unique intelligence, and the CIA lied to Congress about it. No one was prosecuted.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[

@@ -84,6 +84,18 @@ export default function CasualtiesPage() {
       <p className="text-muted mb-6 max-w-3xl">Every number on this page was a human being — someone&apos;s child, parent, sibling, friend. {fmt(stats.totalUSDeaths)} Americans. Over {(stats.totalCivilianDeaths/1e6).toFixed(1)} million civilians. Behind each statistic is a name that someone still mourns.</p>
       <ShareButtons title="US War Casualties — The Human Cost" />
 
+      {/* AI Overview */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">🧠 Key Insights</h3>
+        <ul className="space-y-2 text-sm text-blue-900">
+          <li>• <strong>Civilian death ratios have gotten worse, not better</strong> — from 1:13 in the Civil War to 65:1 in Iraq. "Precision" warfare kills more civilians per US soldier than ever before.</li>
+          <li>• <strong>More veterans have died by suicide since 2001 (~120,000) than in combat (~7,000)</strong> — 17 veterans kill themselves every day, dwarfing combat deaths by a factor of 17:1.</li>
+          <li>• <strong>Modern medicine creates a paradox of survival</strong> — the wounded-to-killed ratio improved from 0.8:1 (Civil War) to 8:1 (Iraq/Afghanistan), meaning tens of thousands live with catastrophic injuries.</li>
+          <li>• <strong>The US systematically undercounts civilian deaths</strong> — "military-age males" are counted as combatants by default, contractors are excluded, and investigations are conducted by the units that caused them.</li>
+          <li>• <strong>The War on Terror displaced 38 million people</strong> — more than any conflict since WWII — while costing over $1 billion per US combat death.</li>
+        </ul>
+      </div>
+
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[
