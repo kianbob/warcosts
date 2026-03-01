@@ -9,6 +9,15 @@
     "cost": 54000000000
   },
   {
+    "name": "Kosovo",
+    "id": "kosovo",
+    "costPerUSdeath": 5000000000,
+    "costPerCivilianDeath": 20000000,
+    "usDeaths": 2,
+    "civilianDeaths": 500,
+    "cost": 10000000000
+  },
+  {
     "name": "Bosnia",
     "id": "bosnia",
     "costPerUSdeath": 2916666667,
@@ -27,6 +36,24 @@
     "cost": 30000000000
   },
   {
+    "name": "Anti-ISIS",
+    "id": "isis-iraq-syria",
+    "costPerUSdeath": 1236559140,
+    "costPerCivilianDeath": 8846154,
+    "usDeaths": 93,
+    "civilianDeaths": 13000,
+    "cost": 115000000000
+  },
+  {
+    "name": "GWOT (Other)",
+    "id": "post-911-global",
+    "costPerUSdeath": 1200000000,
+    "costPerCivilianDeath": 120000000,
+    "usDeaths": 50,
+    "civilianDeaths": 500,
+    "cost": 60000000000
+  },
+  {
     "name": "Afghanistan",
     "id": "afghanistan",
     "costPerUSdeath": 934579439,
@@ -34,6 +61,15 @@
     "usDeaths": 2461,
     "civilianDeaths": 176000,
     "cost": 2300000000000
+  },
+  {
+    "name": "Somalia (AFRICOM)",
+    "id": "somalia-ongoing",
+    "costPerUSdeath": 562500000,
+    "costPerCivilianDeath": 30000000,
+    "usDeaths": 8,
+    "civilianDeaths": 150,
+    "cost": 4500000000
   },
   {
     "name": "Iraq War",
@@ -52,6 +88,15 @@
     "usDeaths": 383,
     "civilianDeaths": 3500,
     "cost": 136000000000
+  },
+  {
+    "name": "Niger/Sahel",
+    "id": "niger-sahel",
+    "costPerUSdeath": 150000000,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 4,
+    "civilianDeaths": 0,
+    "cost": 600000000
   },
   {
     "name": "Bay of Pigs",

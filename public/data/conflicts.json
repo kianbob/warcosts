@@ -48,7 +48,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 3125,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1775–1783"
   },
   {
     "id": "quasi-war",
@@ -97,7 +98,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 257,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1798–1800"
   },
   {
     "id": "barbary-wars",
@@ -147,7 +149,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 9,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1801–1805"
   },
   {
     "id": "war-of-1812",
@@ -198,7 +201,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 5000,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1812–1815"
   },
   {
     "id": "mexican-american-war",
@@ -249,7 +253,8 @@
       "civilianToMilitaryRatio": 1.9,
       "deathsPerYear": 6642,
       "civilianDeathsPerYear": 12500
-    }
+    },
+    "years": "1846–1848"
   },
   {
     "id": "civil-war",
@@ -301,7 +306,8 @@
       "civilianToMilitaryRatio": 0.1,
       "deathsPerYear": 91128,
       "civilianDeathsPerYear": 12500
-    }
+    },
+    "years": "1861–1865"
   },
   {
     "id": "spanish-american-war",
@@ -352,7 +358,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 2446,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1898–1898"
   },
   {
     "id": "philippine-american-war",
@@ -403,7 +410,8 @@
       "civilianToMilitaryRatio": 59.6,
       "deathsPerYear": 1399,
       "civilianDeathsPerYear": 83333
-    }
+    },
+    "years": "1899–1902"
   },
   {
     "id": "world-war-i",
@@ -456,7 +464,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 116516,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1917–1918"
   },
   {
     "id": "world-war-ii",
@@ -511,7 +520,8 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 101350,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "years": "1941–1945"
   },
   {
     "id": "korean-war",
@@ -563,7 +573,112 @@
       "civilianToMilitaryRatio": 54.7,
       "deathsPerYear": 12191,
       "civilianDeathsPerYear": 666667
-    }
+    },
+    "years": "1950–1953"
+  },
+  {
+    "id": "iran-1953",
+    "name": "Iranian Coup (Operation Ajax)",
+    "shortName": "Iran Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1953,
+    "endYear": 1953,
+    "region": "Middle East",
+    "countries": [
+      "Iran"
+    ],
+    "description": "CIA-MI6 coup overthrowing democratically elected Prime Minister Mossadegh to protect British oil interests. Installed Shah Pahlavi.",
+    "costNominal": 1000000,
+    "costInflationAdjusted": 11000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 300,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Shah installed. 26 years of authoritarian rule led to 1979 Islamic Revolution and permanent US-Iran hostility.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation. No congressional knowledge.",
+    "keyEvents": [
+      "Nationalization of Anglo-Iranian Oil Company (1951)",
+      "Coup August 19, 1953"
+    ],
+    "libertarianNote": "The original sin of US Middle East policy. Overthrowing Iran's democracy for oil profits created the chain of events leading to the Islamic Revolution, the hostage crisis, and decades of conflict. The blowback is still shaping world events 70 years later.",
+    "objectives": [
+      "Overthrow Mossadegh",
+      "Secure oil interests",
+      "Install pro-Western government"
+    ],
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 30137,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 36667,
+      "totalDeaths": 300,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 300
+    },
+    "years": "1953–1953"
+  },
+  {
+    "id": "guatemala-1954",
+    "name": "Guatemalan Coup",
+    "shortName": "Guatemala Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1954,
+    "endYear": 1954,
+    "region": "Central America",
+    "countries": [
+      "Guatemala"
+    ],
+    "description": "CIA-orchestrated coup against democratically elected President Árbenz to protect United Fruit Company interests. Led to 36-year civil war and genocide.",
+    "costNominal": 3000000,
+    "costInflationAdjusted": 33000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 200000,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Military dictatorship installed. 36-year civil war followed. 200,000 killed, mostly indigenous Maya — classified as genocide by UN truth commission.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation (Operation PBSUCCESS).",
+    "keyEvents": [
+      "Coup June 27, 1954",
+      "Civil war 1960-1996",
+      "Mayan genocide"
+    ],
+    "libertarianNote": "The CIA overthrew a democracy to protect a fruit company's profits. The result: 36 years of military dictatorships and 200,000 dead — predominantly indigenous people. This is what happens when government serves corporate interests with military force.",
+    "objectives": [
+      "Remove Árbenz",
+      "Protect United Fruit Company interests"
+    ],
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 90411,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 165,
+      "totalDeaths": 200000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 200000
+    },
+    "years": "1954–1954"
   },
   {
     "id": "vietnam-war",
@@ -616,7 +731,8 @@
       "civilianToMilitaryRatio": 34.4,
       "deathsPerYear": 2911,
       "civilianDeathsPerYear": 100000
-    }
+    },
+    "years": "1955–1975"
   },
   {
     "id": "bay-of-pigs",
@@ -666,7 +782,8 @@
       "civilianToMilitaryRatio": 44,
       "deathsPerYear": 4,
       "civilianDeathsPerYear": 176
-    }
+    },
+    "years": "1961–1961"
   },
   {
     "id": "dominican-republic-1965",
@@ -715,7 +832,60 @@
       "civilianToMilitaryRatio": 68.2,
       "deathsPerYear": 44,
       "civilianDeathsPerYear": 3000
-    }
+    },
+    "years": "1965–1966"
+  },
+  {
+    "id": "chile-1973",
+    "name": "Chilean Coup Support",
+    "shortName": "Chile Coup",
+    "era": "Cold War",
+    "type": "covert_operation",
+    "startYear": 1970,
+    "endYear": 1973,
+    "region": "South America",
+    "countries": [
+      "Chile"
+    ],
+    "description": "CIA destabilization campaign and support for military coup against democratically elected President Allende. Installed Pinochet dictatorship.",
+    "costNominal": 11000000,
+    "costInflationAdjusted": 80000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 3200,
+    "troopsDeployed": 0,
+    "outcome": "Regime change",
+    "outcomeDetail": "Allende died during coup. Pinochet dictatorship lasted 17 years. 3,200+ killed, 40,000 tortured.",
+    "congressionalAuth": false,
+    "authDetail": "Covert CIA operation. Nixon/Kissinger directive.",
+    "keyEvents": [
+      "Election of Allende (1970)",
+      "Economic destabilization",
+      "Coup September 11, 1973"
+    ],
+    "libertarianNote": "\"I don't see why we need to stand by and watch a country go communist due to the irresponsibility of its people.\" — Henry Kissinger. The US overthrew a democracy because voters chose the \"wrong\" candidate. 3,200 murdered. 40,000 tortured.",
+    "objectives": [
+      "Prevent socialist government",
+      "Install pro-US regime"
+    ],
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 73059,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 25000,
+      "totalDeaths": 3200,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 1067
+    },
+    "years": "1970–1973"
   },
   {
     "id": "grenada",
@@ -764,7 +934,8 @@
       "civilianToMilitaryRatio": 1.3,
       "deathsPerYear": 19,
       "civilianDeathsPerYear": 24
-    }
+    },
+    "years": "1983–1983"
   },
   {
     "id": "panama",
@@ -814,7 +985,8 @@
       "civilianToMilitaryRatio": 21.7,
       "deathsPerYear": 23,
       "civilianDeathsPerYear": 500
-    }
+    },
+    "years": "1989–1990"
   },
   {
     "id": "gulf-war",
@@ -866,7 +1038,8 @@
       "civilianToMilitaryRatio": 9.1,
       "deathsPerYear": 383,
       "civilianDeathsPerYear": 3500
-    }
+    },
+    "years": "1990–1991"
   },
   {
     "id": "somalia",
@@ -916,7 +1089,8 @@
       "civilianToMilitaryRatio": 23.3,
       "deathsPerYear": 22,
       "civilianDeathsPerYear": 500
-    }
+    },
+    "years": "1992–1994"
   },
   {
     "id": "bosnia",
@@ -967,6 +1141,79 @@
       "civilianToMilitaryRatio": 41.7,
       "deathsPerYear": 1,
       "civilianDeathsPerYear": 56
+    },
+    "years": "1995–2004"
+  },
+  {
+    "id": "kosovo",
+    "name": "Kosovo War (NATO Bombing)",
+    "shortName": "Kosovo",
+    "era": "Post-Cold War",
+    "type": "intervention",
+    "startYear": 1998,
+    "endYear": 1999,
+    "region": "Europe",
+    "countries": [
+      "Yugoslavia",
+      "Kosovo",
+      "Serbia"
+    ],
+    "description": "NATO conducted a 78-day bombing campaign against Yugoslavia to stop ethnic cleansing of Albanians in Kosovo. No UN authorization. Zero US combat deaths but significant civilian casualties from bombing.",
+    "costNominal": 5000000000,
+    "costInflationAdjusted": 10000000000,
+    "costYear": 2024,
+    "usCasualties": {
+      "deaths": 2,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 500,
+    "troopsDeployed": 30000,
+    "outcome": "Objective Met",
+    "outcomeDetail": "Serbian forces withdrew from Kosovo. Kosovo declared independence in 2008. US/NATO troops still stationed there (KFOR).",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization. Clinton bypassed War Powers Resolution. Congress voted down authorization but also voted down defunding.",
+    "keyEvents": [
+      {
+        "year": 1998,
+        "event": "KLA insurgency and Serbian crackdown begin"
+      },
+      {
+        "year": 1999,
+        "event": "NATO bombing begins March 24 — 78 days of airstrikes"
+      },
+      {
+        "year": 1999,
+        "event": "Chinese embassy accidentally bombed in Belgrade — diplomatic crisis"
+      },
+      {
+        "year": 1999,
+        "event": "Serbian forces withdraw; UN administration established"
+      },
+      {
+        "year": 2008,
+        "event": "Kosovo declares independence"
+      }
+    ],
+    "libertarianNote": "Bypassed both UN Security Council and US Congress. Set precedent for \"humanitarian intervention\" without authorization — later used to justify Libya.",
+    "objectives": [
+      "Stop ethnic cleansing",
+      "Force Serbian withdrawal",
+      "Establish autonomy for Kosovo"
+    ],
+    "objectivesMet": true,
+    "years": "1998–1999",
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 27397260,
+      "costPerUSdeath": 5000000000,
+      "costPerCivilianDeath": 20000000,
+      "totalDeaths": 502,
+      "civilianToMilitaryRatio": 250,
+      "deathsPerYear": 2,
+      "civilianDeathsPerYear": 500
     }
   },
   {
@@ -1022,6 +1269,83 @@
       "civilianToMilitaryRatio": 71.5,
       "deathsPerYear": 123,
       "civilianDeathsPerYear": 8800
+    },
+    "years": "2001–2021"
+  },
+  {
+    "id": "post-911-global",
+    "name": "Global War on Terror (Other Operations)",
+    "shortName": "GWOT (Other)",
+    "era": "War on Terror",
+    "type": "covert_operation",
+    "startYear": 2001,
+    "endYear": null,
+    "region": "Global",
+    "countries": [
+      "Philippines",
+      "Pakistan",
+      "Kenya",
+      "Djibouti",
+      "Libya",
+      "Cameroon",
+      "Uganda",
+      "Mali",
+      "Tunisia"
+    ],
+    "description": "Beyond the major wars, the US conducts counterterrorism operations in at least 78 countries. Special Forces deployed to 149 countries (75% of the world). Includes training missions, intelligence operations, drone strikes, and special operations raids across Africa, Asia, and the Middle East.",
+    "costNominal": 50000000000,
+    "costInflationAdjusted": 60000000000,
+    "costYear": 2024,
+    "usCasualties": {
+      "deaths": 50,
+      "wounded": 100,
+      "battleDeaths": 30,
+      "missing": 0
+    },
+    "civilianDeaths": 500,
+    "troopsDeployed": 7000,
+    "outcome": "Ongoing",
+    "outcomeDetail": "The \"war on terror\" has no defined enemy, no defined battlefield, and no defined end. After 25 years and trillions of dollars, terrorism still exists.",
+    "congressionalAuth": false,
+    "authDetail": "All conducted under the 2001 AUMF — a 60-word authorization written in 3 days that has been used to justify military operations in at least 22 countries.",
+    "keyEvents": [
+      {
+        "year": 2001,
+        "event": "2001 AUMF passes — 60 words that authorized 25+ years of global war"
+      },
+      {
+        "year": 2007,
+        "event": "AFRICOM established for Africa operations"
+      },
+      {
+        "year": 2014,
+        "event": "US Special Forces in 149 countries (75% of the world)"
+      },
+      {
+        "year": 2017,
+        "event": "Green Berets killed in Niger — public learns of African operations"
+      },
+      {
+        "year": 2023,
+        "event": "Brown University estimates US counterterror in 78 countries"
+      }
+    ],
+    "libertarianNote": "Sixty words written in 3 days after 9/11 have been used to justify military operations in 22+ countries for over two decades. No sunset clause. No re-authorization required. The founders would be appalled.",
+    "objectives": [
+      "Defeat terrorism globally"
+    ],
+    "objectivesMet": false,
+    "years": "2001–Present",
+    "computed": {
+      "durationYears": 25,
+      "durationDays": 9125,
+      "costPerDay": 6575342,
+      "costPerUSdeath": 1200000000,
+      "costPerCivilianDeath": 120000000,
+      "totalDeaths": 550,
+      "civilianToMilitaryRatio": 10,
+      "deathsPerYear": 2,
+      "civilianDeathsPerYear": 20
     }
   },
   {
@@ -1076,315 +1400,8 @@
       "civilianToMilitaryRatio": 65.2,
       "deathsPerYear": 575,
       "civilianDeathsPerYear": 37500
-    }
-  },
-  {
-    "id": "libya",
-    "name": "Libya Intervention",
-    "shortName": "Libya",
-    "era": "War on Terror",
-    "type": "intervention",
-    "startYear": 2011,
-    "endYear": 2011,
-    "region": "North Africa",
-    "countries": [
-      "Libya"
-    ],
-    "description": "NATO air campaign to support rebels overthrowing Gaddafi. \"Humanitarian intervention\" that turned Africa's most prosperous nation into a failed state with open slave markets.",
-    "costNominal": 1100000000,
-    "costInflationAdjusted": 1500000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 0,
-      "wounded": 0,
-      "battleDeaths": 0,
-      "missing": 0
     },
-    "civilianDeaths": 30000,
-    "troopsDeployed": 0,
-    "outcome": "Regime change / State collapse",
-    "outcomeDetail": "Gaddafi killed. Libya descended into civil war between rival governments. ISIS established presence. Open slave markets emerged.",
-    "congressionalAuth": false,
-    "authDetail": "Obama did not seek congressional authorization. Justified under NATO/UN authority. Exceeded 60-day War Powers Act limit.",
-    "keyEvents": [
-      "UN Resolution 1973 (2011)",
-      "NATO bombing campaign",
-      "Death of Gaddafi (2011)"
-    ],
-    "libertarianNote": "Obama's own assessment: the aftermath was his \"worst mistake.\" A country with the highest HDI in Africa became a failed state with literal slave markets. No congressional authorization. No plan for what came next. The definition of destructive hubris.",
-    "objectives": [
-      "Protect civilians from Gaddafi",
-      "Support democratic transition"
-    ],
-    "objectivesMet": false,
-    "computed": {
-      "durationYears": 1,
-      "durationDays": 365,
-      "costPerDay": 4109589,
-      "costPerUSdeath": 0,
-      "costPerCivilianDeath": 50000,
-      "totalDeaths": 30000,
-      "civilianToMilitaryRatio": null,
-      "deathsPerYear": 0,
-      "civilianDeathsPerYear": 30000
-    }
-  },
-  {
-    "id": "syria",
-    "name": "Syrian Civil War Intervention",
-    "shortName": "Syria",
-    "era": "War on Terror",
-    "type": "intervention",
-    "startYear": 2014,
-    "endYear": 2025,
-    "region": "Middle East",
-    "countries": [
-      "Syria",
-      "ISIS"
-    ],
-    "description": "Air campaign and special operations against ISIS in Syria. Also armed Syrian rebels, some of whom later joined extremist groups.",
-    "costNominal": 30000000000,
-    "costInflationAdjusted": 30000000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 22,
-      "wounded": 100,
-      "battleDeaths": 8,
-      "missing": 0
-    },
-    "civilianDeaths": 12000,
-    "troopsDeployed": 2000,
-    "outcome": "Ongoing / ISIS territorial defeat",
-    "outcomeDetail": "ISIS lost territorial caliphate by 2019. ~900 US troops remain in Syria with no congressional authorization or clear exit strategy.",
-    "congressionalAuth": false,
-    "authDetail": "Justified under 2001 AUMF — written to target al-Qaeda, applied to ISIS 13 years later.",
-    "keyEvents": [
-      "Rise of ISIS (2014)",
-      "US airstrikes begin (2014)",
-      "Battle of Raqqa (2017)"
-    ],
-    "libertarianNote": "The 2001 AUMF — written 3 days after 9/11 to target al-Qaeda — was stretched to justify war against ISIS, an organization that didn't exist in 2001. American troops remain in Syria today with no authorization, no exit strategy, and no public debate.",
-    "objectives": [
-      "Defeat ISIS",
-      "Support moderate rebels"
-    ],
-    "objectivesMet": false,
-    "computed": {
-      "durationYears": 11,
-      "durationDays": 4015,
-      "costPerDay": 7471980,
-      "costPerUSdeath": 1363636364,
-      "costPerCivilianDeath": 2500000,
-      "totalDeaths": 12022,
-      "civilianToMilitaryRatio": 545.5,
-      "deathsPerYear": 2,
-      "civilianDeathsPerYear": 1091
-    }
-  },
-  {
-    "id": "yemen",
-    "name": "Yemen War (Saudi Support)",
-    "shortName": "Yemen",
-    "era": "War on Terror",
-    "type": "intervention",
-    "startYear": 2015,
-    "endYear": 2025,
-    "region": "Middle East",
-    "countries": [
-      "Yemen",
-      "Houthi rebels"
-    ],
-    "description": "US military support for Saudi Arabia's bombing campaign in Yemen — the world's worst humanitarian crisis. US provides weapons, intelligence, and refueling.",
-    "costNominal": 54000000000,
-    "costInflationAdjusted": 54000000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 2,
-      "wounded": 5,
-      "battleDeaths": 0,
-      "missing": 0
-    },
-    "civilianDeaths": 150000,
-    "troopsDeployed": 500,
-    "outcome": "Ongoing humanitarian catastrophe",
-    "outcomeDetail": "150,000+ dead. 85,000 children starved to death. Cholera epidemic. US-made bombs used on hospitals, school buses, weddings.",
-    "congressionalAuth": false,
-    "authDetail": "No congressional authorization. Congress voted to end support in 2019; Trump vetoed. Biden pledged to end but continued.",
-    "keyEvents": [
-      "Saudi intervention begins (2015)",
-      "School bus bombing (2018)",
-      "Famine and cholera crisis"
-    ],
-    "libertarianNote": "America's most shameful ongoing war. US-made bombs dropped by US-supported Saudi jets on Yemeni school buses, hospitals, and weddings. 85,000 children starved to death. Congress voted to end it; the President vetoed. Both parties share the blame.",
-    "objectives": [
-      "Support Saudi Arabia against Houthis",
-      "Counter Iranian influence"
-    ],
-    "objectivesMet": false,
-    "computed": {
-      "durationYears": 10,
-      "durationDays": 3650,
-      "costPerDay": 14794521,
-      "costPerUSdeath": 27000000000,
-      "costPerCivilianDeath": 360000,
-      "totalDeaths": 150002,
-      "civilianToMilitaryRatio": 75000,
-      "deathsPerYear": 0,
-      "civilianDeathsPerYear": 15000
-    }
-  },
-  {
-    "id": "iran-1953",
-    "name": "Iranian Coup (Operation Ajax)",
-    "shortName": "Iran Coup",
-    "era": "Cold War",
-    "type": "covert_operation",
-    "startYear": 1953,
-    "endYear": 1953,
-    "region": "Middle East",
-    "countries": [
-      "Iran"
-    ],
-    "description": "CIA-MI6 coup overthrowing democratically elected Prime Minister Mossadegh to protect British oil interests. Installed Shah Pahlavi.",
-    "costNominal": 1000000,
-    "costInflationAdjusted": 11000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 0,
-      "wounded": 0,
-      "battleDeaths": 0,
-      "missing": 0
-    },
-    "civilianDeaths": 300,
-    "troopsDeployed": 0,
-    "outcome": "Regime change",
-    "outcomeDetail": "Shah installed. 26 years of authoritarian rule led to 1979 Islamic Revolution and permanent US-Iran hostility.",
-    "congressionalAuth": false,
-    "authDetail": "Covert CIA operation. No congressional knowledge.",
-    "keyEvents": [
-      "Nationalization of Anglo-Iranian Oil Company (1951)",
-      "Coup August 19, 1953"
-    ],
-    "libertarianNote": "The original sin of US Middle East policy. Overthrowing Iran's democracy for oil profits created the chain of events leading to the Islamic Revolution, the hostage crisis, and decades of conflict. The blowback is still shaping world events 70 years later.",
-    "objectives": [
-      "Overthrow Mossadegh",
-      "Secure oil interests",
-      "Install pro-Western government"
-    ],
-    "objectivesMet": true,
-    "computed": {
-      "durationYears": 1,
-      "durationDays": 365,
-      "costPerDay": 30137,
-      "costPerUSdeath": 0,
-      "costPerCivilianDeath": 36667,
-      "totalDeaths": 300,
-      "civilianToMilitaryRatio": null,
-      "deathsPerYear": 0,
-      "civilianDeathsPerYear": 300
-    }
-  },
-  {
-    "id": "guatemala-1954",
-    "name": "Guatemalan Coup",
-    "shortName": "Guatemala Coup",
-    "era": "Cold War",
-    "type": "covert_operation",
-    "startYear": 1954,
-    "endYear": 1954,
-    "region": "Central America",
-    "countries": [
-      "Guatemala"
-    ],
-    "description": "CIA-orchestrated coup against democratically elected President Árbenz to protect United Fruit Company interests. Led to 36-year civil war and genocide.",
-    "costNominal": 3000000,
-    "costInflationAdjusted": 33000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 0,
-      "wounded": 0,
-      "battleDeaths": 0,
-      "missing": 0
-    },
-    "civilianDeaths": 200000,
-    "troopsDeployed": 0,
-    "outcome": "Regime change",
-    "outcomeDetail": "Military dictatorship installed. 36-year civil war followed. 200,000 killed, mostly indigenous Maya — classified as genocide by UN truth commission.",
-    "congressionalAuth": false,
-    "authDetail": "Covert CIA operation (Operation PBSUCCESS).",
-    "keyEvents": [
-      "Coup June 27, 1954",
-      "Civil war 1960-1996",
-      "Mayan genocide"
-    ],
-    "libertarianNote": "The CIA overthrew a democracy to protect a fruit company's profits. The result: 36 years of military dictatorships and 200,000 dead — predominantly indigenous people. This is what happens when government serves corporate interests with military force.",
-    "objectives": [
-      "Remove Árbenz",
-      "Protect United Fruit Company interests"
-    ],
-    "objectivesMet": true,
-    "computed": {
-      "durationYears": 1,
-      "durationDays": 365,
-      "costPerDay": 90411,
-      "costPerUSdeath": 0,
-      "costPerCivilianDeath": 165,
-      "totalDeaths": 200000,
-      "civilianToMilitaryRatio": null,
-      "deathsPerYear": 0,
-      "civilianDeathsPerYear": 200000
-    }
-  },
-  {
-    "id": "chile-1973",
-    "name": "Chilean Coup Support",
-    "shortName": "Chile Coup",
-    "era": "Cold War",
-    "type": "covert_operation",
-    "startYear": 1970,
-    "endYear": 1973,
-    "region": "South America",
-    "countries": [
-      "Chile"
-    ],
-    "description": "CIA destabilization campaign and support for military coup against democratically elected President Allende. Installed Pinochet dictatorship.",
-    "costNominal": 11000000,
-    "costInflationAdjusted": 80000000,
-    "costYear": 2023,
-    "usCasualties": {
-      "deaths": 0,
-      "wounded": 0,
-      "battleDeaths": 0,
-      "missing": 0
-    },
-    "civilianDeaths": 3200,
-    "troopsDeployed": 0,
-    "outcome": "Regime change",
-    "outcomeDetail": "Allende died during coup. Pinochet dictatorship lasted 17 years. 3,200+ killed, 40,000 tortured.",
-    "congressionalAuth": false,
-    "authDetail": "Covert CIA operation. Nixon/Kissinger directive.",
-    "keyEvents": [
-      "Election of Allende (1970)",
-      "Economic destabilization",
-      "Coup September 11, 1973"
-    ],
-    "libertarianNote": "\"I don't see why we need to stand by and watch a country go communist due to the irresponsibility of its people.\" — Henry Kissinger. The US overthrew a democracy because voters chose the \"wrong\" candidate. 3,200 murdered. 40,000 tortured.",
-    "objectives": [
-      "Prevent socialist government",
-      "Install pro-US regime"
-    ],
-    "objectivesMet": true,
-    "computed": {
-      "durationYears": 3,
-      "durationDays": 1095,
-      "costPerDay": 73059,
-      "costPerUSdeath": 0,
-      "costPerCivilianDeath": 25000,
-      "totalDeaths": 3200,
-      "civilianToMilitaryRatio": null,
-      "deathsPerYear": 0,
-      "civilianDeathsPerYear": 1067
-    }
+    "years": "2003–2011"
   },
   {
     "id": "drone-wars",
@@ -1438,6 +1455,595 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 1048
+    },
+    "years": "2004–2025"
+  },
+  {
+    "id": "somalia-ongoing",
+    "name": "Somalia (AFRICOM Operations)",
+    "shortName": "Somalia (AFRICOM)",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2007,
+    "endYear": null,
+    "region": "Africa",
+    "countries": [
+      "Somalia"
+    ],
+    "description": "Ongoing US military operations against al-Shabaab and ISIS-Somalia. Over 200 airstrikes since 2007. Troops deployed, withdrawn by Trump in 2020, redeployed by Biden in 2022. Still active in 2026 with regular AFRICOM strikes.",
+    "costNominal": 3000000000,
+    "costInflationAdjusted": 4500000000,
+    "costYear": 2024,
+    "usCasualties": {
+      "deaths": 8,
+      "wounded": 20,
+      "battleDeaths": 8,
+      "missing": 0
+    },
+    "civilianDeaths": 150,
+    "troopsDeployed": 900,
+    "outcome": "Ongoing",
+    "outcomeDetail": "Al-Shabaab weakened but not defeated. US still conducting airstrikes in 2026. No end in sight.",
+    "congressionalAuth": false,
+    "authDetail": "Conducted under 2001 AUMF — stretched to cover al-Shabaab despite no connection to 9/11.",
+    "keyEvents": [
+      {
+        "year": 2007,
+        "event": "US airstrikes begin targeting al-Qaeda in Somalia"
+      },
+      {
+        "year": 2011,
+        "event": "AFRICOM takes over operations"
+      },
+      {
+        "year": 2017,
+        "event": "Trump dramatically escalates strikes — more in 2017-2020 than all prior years combined"
+      },
+      {
+        "year": 2020,
+        "event": "Trump orders withdrawal of ~700 troops"
+      },
+      {
+        "year": 2022,
+        "event": "Biden redeploys troops to Somalia"
+      },
+      {
+        "year": 2026,
+        "event": "Multiple AFRICOM strikes continue against al-Shabaab and ISIS-Somalia"
+      }
+    ],
+    "libertarianNote": "The 2001 AUMF, written to target those responsible for 9/11, now justifies strikes in a country that had nothing to do with 9/11. This is exactly the kind of mission creep the founders warned about.",
+    "objectives": [
+      "Defeat al-Shabaab",
+      "Prevent terrorist safe haven"
+    ],
+    "objectivesMet": false,
+    "years": "2007–Present",
+    "computed": {
+      "durationYears": 19,
+      "durationDays": 6935,
+      "costPerDay": 648882,
+      "costPerUSdeath": 562500000,
+      "costPerCivilianDeath": 30000000,
+      "totalDeaths": 158,
+      "civilianToMilitaryRatio": 18.8,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 8
+    }
+  },
+  {
+    "id": "libya",
+    "name": "Libya Intervention",
+    "shortName": "Libya",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2011,
+    "endYear": 2011,
+    "region": "North Africa",
+    "countries": [
+      "Libya"
+    ],
+    "description": "NATO air campaign to support rebels overthrowing Gaddafi. \"Humanitarian intervention\" that turned Africa's most prosperous nation into a failed state with open slave markets.",
+    "costNominal": 1100000000,
+    "costInflationAdjusted": 1500000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 30000,
+    "troopsDeployed": 0,
+    "outcome": "Regime change / State collapse",
+    "outcomeDetail": "Gaddafi killed. Libya descended into civil war between rival governments. ISIS established presence. Open slave markets emerged.",
+    "congressionalAuth": false,
+    "authDetail": "Obama did not seek congressional authorization. Justified under NATO/UN authority. Exceeded 60-day War Powers Act limit.",
+    "keyEvents": [
+      "UN Resolution 1973 (2011)",
+      "NATO bombing campaign",
+      "Death of Gaddafi (2011)"
+    ],
+    "libertarianNote": "Obama's own assessment: the aftermath was his \"worst mistake.\" A country with the highest HDI in Africa became a failed state with literal slave markets. No congressional authorization. No plan for what came next. The definition of destructive hubris.",
+    "objectives": [
+      "Protect civilians from Gaddafi",
+      "Support democratic transition"
+    ],
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 4109589,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 50000,
+      "totalDeaths": 30000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 30000
+    },
+    "years": "2011–2011"
+  },
+  {
+    "id": "niger-sahel",
+    "name": "Niger & Sahel Operations",
+    "shortName": "Niger/Sahel",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2013,
+    "endYear": 2024,
+    "region": "Africa",
+    "countries": [
+      "Niger",
+      "Mali",
+      "Burkina Faso",
+      "Chad"
+    ],
+    "description": "US built a $110M drone base in Agadez, Niger and deployed ~1,100 troops to fight ISIS and al-Qaeda affiliates in the Sahel. After the 2023 Niger coup, the junta expelled US forces. Full withdrawal completed 2024. Four US soldiers killed in 2017 Tongo Tongo ambush.",
+    "costNominal": 500000000,
+    "costInflationAdjusted": 600000000,
+    "costYear": 2024,
+    "usCasualties": {
+      "deaths": 4,
+      "wounded": 2,
+      "battleDeaths": 4,
+      "missing": 0
+    },
+    "civilianDeaths": 0,
+    "troopsDeployed": 1100,
+    "outcome": "Withdrawal",
+    "outcomeDetail": "US expelled after Niger coup. $110M drone base abandoned. ISIS and al-Qaeda affiliates remain active in the Sahel. Wagner/Russia replaced US influence.",
+    "congressionalAuth": false,
+    "authDetail": "Conducted under 2001 AUMF. Most Americans unaware US troops were in Niger until the 2017 ambush.",
+    "keyEvents": [
+      {
+        "year": 2013,
+        "event": "US deploys troops to Niger"
+      },
+      {
+        "year": 2016,
+        "event": "$110M drone base construction begins in Agadez"
+      },
+      {
+        "year": 2017,
+        "event": "Four US soldiers killed in Tongo Tongo ambush — public learns troops are in Niger"
+      },
+      {
+        "year": 2023,
+        "event": "Niger military coup; junta orders US forces to leave"
+      },
+      {
+        "year": 2024,
+        "event": "Full US withdrawal completed; $110M base abandoned"
+      }
+    ],
+    "libertarianNote": "Americans didn't even know their troops were in Niger until four soldiers died there. $110 million in taxpayer money spent on a drone base that was simply handed over after a coup. Zero accountability.",
+    "objectives": [
+      "Counter ISIS/al-Qaeda in Sahel",
+      "Support Niger government"
+    ],
+    "objectivesMet": false,
+    "years": "2013–2024",
+    "computed": {
+      "durationYears": 11,
+      "durationDays": 4015,
+      "costPerDay": 149440,
+      "costPerUSdeath": 150000000,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 4,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 0
+    }
+  },
+  {
+    "id": "syria",
+    "name": "Syrian Civil War Intervention",
+    "shortName": "Syria",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2014,
+    "endYear": 2025,
+    "region": "Middle East",
+    "countries": [
+      "Syria",
+      "ISIS"
+    ],
+    "description": "Air campaign and special operations against ISIS in Syria. Also armed Syrian rebels, some of whom later joined extremist groups.",
+    "costNominal": 30000000000,
+    "costInflationAdjusted": 30000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 22,
+      "wounded": 100,
+      "battleDeaths": 8,
+      "missing": 0
+    },
+    "civilianDeaths": 12000,
+    "troopsDeployed": 2000,
+    "outcome": "Ongoing / ISIS territorial defeat",
+    "outcomeDetail": "ISIS lost territorial caliphate by 2019. ~900 US troops remain in Syria with no congressional authorization or clear exit strategy.",
+    "congressionalAuth": false,
+    "authDetail": "Justified under 2001 AUMF — written to target al-Qaeda, applied to ISIS 13 years later.",
+    "keyEvents": [
+      "Rise of ISIS (2014)",
+      "US airstrikes begin (2014)",
+      "Battle of Raqqa (2017)"
+    ],
+    "libertarianNote": "The 2001 AUMF — written 3 days after 9/11 to target al-Qaeda — was stretched to justify war against ISIS, an organization that didn't exist in 2001. American troops remain in Syria today with no authorization, no exit strategy, and no public debate.",
+    "objectives": [
+      "Defeat ISIS",
+      "Support moderate rebels"
+    ],
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 11,
+      "durationDays": 4015,
+      "costPerDay": 7471980,
+      "costPerUSdeath": 1363636364,
+      "costPerCivilianDeath": 2500000,
+      "totalDeaths": 12022,
+      "civilianToMilitaryRatio": 545.5,
+      "deathsPerYear": 2,
+      "civilianDeathsPerYear": 1091
+    },
+    "years": "2014–2025"
+  },
+  {
+    "id": "isis-iraq-syria",
+    "name": "War Against ISIS",
+    "shortName": "Anti-ISIS",
+    "era": "War on Terror",
+    "type": "war",
+    "startYear": 2014,
+    "endYear": null,
+    "region": "Middle East",
+    "countries": [
+      "Iraq",
+      "Syria"
+    ],
+    "description": "Operation Inherent Resolve — US-led coalition against ISIS/ISIL after they captured Mosul and declared a \"caliphate.\" Over 34,000 airstrikes. ISIS territorial caliphate defeated by 2019 but insurgency continues. 2,500 US troops remain in Iraq and 900 in Syria as of 2026.",
+    "costNominal": 108000000000,
+    "costInflationAdjusted": 115000000000,
+    "costYear": 2024,
+    "usCasualties": {
+      "deaths": 93,
+      "wounded": 300,
+      "battleDeaths": 93,
+      "missing": 0
+    },
+    "civilianDeaths": 13000,
+    "troopsDeployed": 5000,
+    "outcome": "Partial Victory",
+    "outcomeDetail": "ISIS territorial caliphate destroyed by 2019. But ISIS insurgency continues. 3,400 US troops still deployed in Iraq and Syria. No exit plan.",
+    "congressionalAuth": false,
+    "authDetail": "Obama used 2001 AUMF (designed for 9/11 attackers) to justify war against ISIS — a group that didn't exist in 2001 and was actually fighting al-Qaeda.",
+    "keyEvents": [
+      {
+        "year": 2014,
+        "event": "ISIS captures Mosul; declares caliphate. US airstrikes begin August"
+      },
+      {
+        "year": 2015,
+        "event": "US deploys Special Forces to Syria"
+      },
+      {
+        "year": 2016,
+        "event": "Battle of Mosul begins"
+      },
+      {
+        "year": 2017,
+        "event": "Mosul liberated; Raqqa falls to US-backed SDF"
+      },
+      {
+        "year": 2019,
+        "event": "ISIS territorial caliphate collapses. Al-Baghdadi killed in US raid"
+      },
+      {
+        "year": 2026,
+        "event": "AFRICOM still striking ISIS-Somalia; 3,400 US troops remain in Iraq/Syria"
+      }
+    ],
+    "libertarianNote": "ISIS was a direct consequence of the 2003 Iraq invasion. The US created the conditions for ISIS, then spent $115 billion fighting it, and still has troops there over a decade later with no authorization and no exit plan.",
+    "objectives": [
+      "Destroy ISIS caliphate",
+      "Defeat ISIS insurgency",
+      "Stabilize Iraq and Syria"
+    ],
+    "objectivesMet": false,
+    "years": "2014–Present",
+    "computed": {
+      "durationYears": 12,
+      "durationDays": 4380,
+      "costPerDay": 26255708,
+      "costPerUSdeath": 1236559140,
+      "costPerCivilianDeath": 8846154,
+      "totalDeaths": 13093,
+      "civilianToMilitaryRatio": 139.8,
+      "deathsPerYear": 8,
+      "civilianDeathsPerYear": 1083
+    }
+  },
+  {
+    "id": "yemen",
+    "name": "Yemen War (Saudi Support)",
+    "shortName": "Yemen",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2015,
+    "endYear": 2025,
+    "region": "Middle East",
+    "countries": [
+      "Yemen",
+      "Houthi rebels"
+    ],
+    "description": "US military support for Saudi Arabia's bombing campaign in Yemen — the world's worst humanitarian crisis. US provides weapons, intelligence, and refueling.",
+    "costNominal": 54000000000,
+    "costInflationAdjusted": 54000000000,
+    "costYear": 2023,
+    "usCasualties": {
+      "deaths": 2,
+      "wounded": 5,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 150000,
+    "troopsDeployed": 500,
+    "outcome": "Ongoing humanitarian catastrophe",
+    "outcomeDetail": "150,000+ dead. 85,000 children starved to death. Cholera epidemic. US-made bombs used on hospitals, school buses, weddings.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization. Congress voted to end support in 2019; Trump vetoed. Biden pledged to end but continued.",
+    "keyEvents": [
+      "Saudi intervention begins (2015)",
+      "School bus bombing (2018)",
+      "Famine and cholera crisis"
+    ],
+    "libertarianNote": "America's most shameful ongoing war. US-made bombs dropped by US-supported Saudi jets on Yemeni school buses, hospitals, and weddings. 85,000 children starved to death. Congress voted to end it; the President vetoed. Both parties share the blame.",
+    "objectives": [
+      "Support Saudi Arabia against Houthis",
+      "Counter Iranian influence"
+    ],
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 10,
+      "durationDays": 3650,
+      "costPerDay": 14794521,
+      "costPerUSdeath": 27000000000,
+      "costPerCivilianDeath": 360000,
+      "totalDeaths": 150002,
+      "civilianToMilitaryRatio": 75000,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 15000
+    },
+    "years": "2015–2025"
+  },
+  {
+    "id": "ukraine-support",
+    "name": "Ukraine Military Support",
+    "shortName": "Ukraine Aid",
+    "era": "Post-Cold War",
+    "type": "proxy_war",
+    "startYear": 2022,
+    "endYear": null,
+    "region": "Europe",
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "description": "Following Russia's full-scale invasion of Ukraine in February 2022, the US provided $66.9 billion in military aid including HIMARS, Patriot missiles, Abrams tanks, and F-16 training. The largest US military aid package since WWII Lend-Lease. No US troops deployed in combat.",
+    "costNominal": 66900000000,
+    "costInflationAdjusted": 66900000000,
+    "costYear": 2025,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 0,
+    "troopsDeployed": 0,
+    "outcome": "Ongoing",
+    "outcomeDetail": "War continues. Ukraine has lost territory but survived as a state. Russia's economy strained but not collapsed. No clear end in sight.",
+    "congressionalAuth": true,
+    "authDetail": "Congress approved multiple supplemental funding packages. Bipartisan support initially; grew contentious by 2024.",
+    "keyEvents": [
+      {
+        "year": 2022,
+        "event": "Russia invades Ukraine February 24. US sends $40B emergency aid package"
+      },
+      {
+        "year": 2022,
+        "event": "HIMARS provided — game-changer on the battlefield"
+      },
+      {
+        "year": 2023,
+        "event": "Abrams tanks and Patriot missile systems delivered"
+      },
+      {
+        "year": 2024,
+        "event": "$61B supplemental approved after months of Republican holdout"
+      },
+      {
+        "year": 2024,
+        "event": "F-16s arrive from European allies with US training"
+      },
+      {
+        "year": 2025,
+        "event": "Trump administration reduces aid; pushes for negotiations"
+      }
+    ],
+    "libertarianNote": "$66.9 billion in military aid — more than the entire annual military budgets of all but ~10 countries. American taxpayers funding a proxy war in Eastern Europe while infrastructure crumbles at home.",
+    "objectives": [
+      "Support Ukraine sovereignty",
+      "Deter Russian aggression",
+      "Avoid direct US military involvement"
+    ],
+    "objectivesMet": null,
+    "years": "2022–Present",
+    "computed": {
+      "durationYears": 4,
+      "durationDays": 1460,
+      "costPerDay": 45821918,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 0,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 0
+    }
+  },
+  {
+    "id": "red-sea-houthis",
+    "name": "Red Sea / Houthi Campaign",
+    "shortName": "Red Sea (Houthis)",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2023,
+    "endYear": null,
+    "region": "Middle East",
+    "countries": [
+      "Yemen"
+    ],
+    "description": "Operation Prosperity Guardian — US-led coalition to protect Red Sea shipping from Houthi attacks after October 2023 Gaza war. US/UK launched airstrikes on Houthi targets in Yemen starting January 2024. $6.5M/day per carrier strike group deployed. Cost at least $4.5 billion through 2025.",
+    "costNominal": 4500000000,
+    "costInflationAdjusted": 4500000000,
+    "costYear": 2025,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 2,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 30,
+    "troopsDeployed": 12000,
+    "outcome": "Inconclusive",
+    "outcomeDetail": "Houthi attacks continued despite over 100 US/UK strikes. Ceasefire reached in 2025 but Houthis retained capability. Shipping disruption cost global economy billions.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization. Biden administration cited Article II self-defense authority. Bipartisan criticism from both parties.",
+    "keyEvents": [
+      {
+        "year": 2023,
+        "event": "Houthis begin attacking Red Sea shipping after Gaza war starts"
+      },
+      {
+        "year": 2023,
+        "event": "Operation Prosperity Guardian coalition formed (December)"
+      },
+      {
+        "year": 2024,
+        "event": "US/UK launch airstrikes on Houthi targets in Yemen (January 12)"
+      },
+      {
+        "year": 2024,
+        "event": "Over 100 strikes conducted through 2024 — Houthis undeterred"
+      },
+      {
+        "year": 2025,
+        "event": "Ceasefire negotiations; US scales back operations"
+      }
+    ],
+    "libertarianNote": "The US spent billions bombing one of the poorest countries on earth to protect shipping lanes for multinational corporations. The Houthis, armed with cheap drones and missiles, cost the US hundreds of millions to counter — a perfect example of asymmetric warfare draining the empire.",
+    "objectives": [
+      "Protect Red Sea shipping",
+      "Deter Houthi attacks",
+      "Degrade Houthi capabilities"
+    ],
+    "objectivesMet": false,
+    "years": "2023–Present",
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 4109589,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 150000000,
+      "totalDeaths": 30,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 10
+    }
+  },
+  {
+    "id": "iran-2026",
+    "name": "Iran Strikes (2026)",
+    "shortName": "Iran 2026",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2026,
+    "endYear": null,
+    "region": "Middle East",
+    "countries": [
+      "Iran"
+    ],
+    "description": "In February 2026, the US and Israel conducted large-scale military strikes against Iran, described as the biggest US buildup in the Middle East since the 2003 Iraq invasion. Strikes targeted nuclear and military infrastructure. Carrier strike groups deployed at $6.5M/day each. Situation still developing.",
+    "costNominal": 5000000000,
+    "costInflationAdjusted": 5000000000,
+    "costYear": 2026,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 0,
+    "troopsDeployed": 40000,
+    "outcome": "Developing",
+    "outcomeDetail": "Joint US-Israeli strikes on February 28, 2026 targeted Iranian nuclear and military sites. Largest Middle East military buildup since 2003. Outcome still developing.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
+    "keyEvents": [
+      {
+        "year": 2026,
+        "event": "Trump declares \"massive armada heading to Iran\" (January 28)"
+      },
+      {
+        "year": 2026,
+        "event": "Largest US buildup in Middle East since 2003 Iraq invasion (February)"
+      },
+      {
+        "year": 2026,
+        "event": "Trump says regime change would be \"the best thing that could happen\" (February 13)"
+      },
+      {
+        "year": 2026,
+        "event": "US and Israel strike Iranian nuclear and military targets (February 28)"
+      }
+    ],
+    "libertarianNote": "Another undeclared war. No congressional vote. No public debate. The founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim.",
+    "objectives": [
+      "Degrade Iranian nuclear capability",
+      "Deter Iranian aggression"
+    ],
+    "objectivesMet": null,
+    "years": "2026–Present",
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 13698630,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 0,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 0
     }
   }
 ]

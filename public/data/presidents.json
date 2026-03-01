@@ -4,10 +4,12 @@
     "conflicts": [
       "Afghanistan",
       "Iraq War",
-      "Drone Wars"
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "GWOT (Other)"
     ],
-    "totalCost": 4317500000000,
-    "totalUSDeaths": 7060
+    "totalCost": 4333625000000,
+    "totalUSDeaths": 7075
   },
   {
     "name": "Truman",
@@ -63,6 +65,21 @@
     "totalUSDeaths": 19407
   },
   {
+    "name": "Obama",
+    "conflicts": [
+      "Libya",
+      "Syria",
+      "Yemen",
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "Niger/Sahel",
+      "Anti-ISIS",
+      "GWOT (Other)"
+    ],
+    "totalCost": 157658333333,
+    "totalUSDeaths": 71
+  },
+  {
     "name": "Bush Sr.",
     "conflicts": [
       "Panama",
@@ -73,15 +90,32 @@
     "totalUSDeaths": 428
   },
   {
-    "name": "Obama",
+    "name": "Trump",
     "conflicts": [
-      "Libya",
-      "Syria",
-      "Yemen",
-      "Drone Wars"
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "Ukraine Aid",
+      "Iran 2026",
+      "Niger/Sahel",
+      "Anti-ISIS",
+      "GWOT (Other)"
     ],
-    "totalCost": 103000000000,
-    "totalUSDeaths": 24
+    "totalCost": 110608333333,
+    "totalUSDeaths": 47
+  },
+  {
+    "name": "Biden",
+    "conflicts": [
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "Ukraine Aid",
+      "Red Sea (Houthis)",
+      "Niger/Sahel",
+      "Anti-ISIS",
+      "GWOT (Other)"
+    ],
+    "totalCost": 110108333333,
+    "totalUSDeaths": 47
   },
   {
     "name": "Lincoln",
@@ -95,26 +129,11 @@
     "name": "Clinton",
     "conflicts": [
       "Somalia",
-      "Bosnia"
+      "Bosnia",
+      "Kosovo"
     ],
-    "totalCost": 36650000000,
-    "totalUSDeaths": 34
-  },
-  {
-    "name": "Trump",
-    "conflicts": [
-      "Drone Wars"
-    ],
-    "totalCost": 17500000000,
-    "totalUSDeaths": 0
-  },
-  {
-    "name": "Biden",
-    "conflicts": [
-      "Drone Wars"
-    ],
-    "totalCost": 17500000000,
-    "totalUSDeaths": 0
+    "totalCost": 46650000000,
+    "totalUSDeaths": 36
   },
   {
     "name": "McKinley",

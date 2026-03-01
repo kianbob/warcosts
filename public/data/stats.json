@@ -1,11 +1,11 @@
 {
-  "totalConflicts": 28,
+  "totalConflicts": 36,
   "totalInterventions": 469,
-  "totalUSDeaths": 1049306,
-  "totalCivilianDeaths": 5227200,
-  "totalCostInflationAdjusted": 11313524000000,
-  "warsSinceWWII": 18,
-  "undeclaredWars": 19,
+  "totalUSDeaths": 1049463,
+  "totalCivilianDeaths": 5241380,
+  "totalCostInflationAdjusted": 11580024000000,
+  "warsSinceWWII": 26,
+  "undeclaredWars": 26,
   "overseasBases": 750,
   "overseasCountries": 80,
   "overseasTroops": 173000,
@@ -40,9 +40,10 @@
   "costPerMinute": 1685693,
   "costPerHour": 101141553,
   "costPerDay": 2427397260,
-  "victories": 11,
-  "defeats": 3,
-  "inconclusive": 14,
+  "victories": 13,
+  "defeats": 5,
+  "inconclusive": 13,
   "objectivesMetCount": 16,
-  "objectivesNotMetCount": 12
+  "objectivesNotMetCount": 12,
+  "ongoing": 5
 }
