@@ -1,0 +1,1164 @@
+[
+  {
+    "state": "California",
+    "code": "CA",
+    "slug": "california",
+    "total": 79,
+    "byComponent": {
+      "U.S. Army": 6,
+      "U.S. Army Reserve": 3,
+      "Army National Guard": 4,
+      "Air Force Reserve": 2,
+      "U.S. Air Force": 13,
+      "U.S. Marine Corps": 11,
+      "U.S. Navy": 38,
+      "Air National Guard": 2
+    },
+    "bases": 79,
+    "activeBases": 73,
+    "byBranch": {
+      "U.S. Army": 6,
+      "U.S. Army Reserve": 3,
+      "Army National Guard": 4,
+      "Air Force Reserve": 2,
+      "U.S. Air Force": 13,
+      "U.S. Marine Corps": 11,
+      "U.S. Navy": 38,
+      "Air National Guard": 2
+    }
+  },
+  {
+    "state": "Florida",
+    "code": "FL",
+    "slug": "florida",
+    "total": 49,
+    "byComponent": {
+      "Army National Guard": 2,
+      "U.S. Army": 3,
+      "U.S. Air Force": 11,
+      "U.S. Navy": 26,
+      "Air National Guard": 1,
+      "Marine Corps Reserve": 1,
+      "Air Force Reserve": 1,
+      "U.S. Marine Corps": 1,
+      "Navy Reserve": 2,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 49,
+    "activeBases": 49,
+    "byBranch": {
+      "Army National Guard": 2,
+      "U.S. Army": 3,
+      "U.S. Air Force": 11,
+      "U.S. Navy": 26,
+      "Air National Guard": 1,
+      "Marine Corps Reserve": 1,
+      "Air Force Reserve": 1,
+      "U.S. Marine Corps": 1,
+      "Navy Reserve": 2,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Virginia",
+    "code": "VA",
+    "slug": "virginia",
+    "total": 47,
+    "byComponent": {
+      "Army National Guard": 3,
+      "U.S. Army": 9,
+      "U.S. Navy": 27,
+      "Washington HQ Services": 4,
+      "U.S. Marine Corps": 2,
+      "U.S. Air Force": 1,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 47,
+    "activeBases": 46,
+    "byBranch": {
+      "Army National Guard": 3,
+      "U.S. Army": 9,
+      "U.S. Navy": 27,
+      "Washington HQ Services": 4,
+      "U.S. Marine Corps": 2,
+      "U.S. Air Force": 1,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Hawaii",
+    "code": "HI",
+    "slug": "hawaii",
+    "total": 33,
+    "byComponent": {
+      "U.S. Army": 16,
+      "Army National Guard": 3,
+      "U.S. Air Force": 3,
+      "U.S. Navy": 6,
+      "U.S. Marine Corps": 5
+    },
+    "bases": 33,
+    "activeBases": 31,
+    "byBranch": {
+      "U.S. Army": 16,
+      "Army National Guard": 3,
+      "U.S. Air Force": 3,
+      "U.S. Navy": 6,
+      "U.S. Marine Corps": 5
+    }
+  },
+  {
+    "state": "Texas",
+    "code": "TX",
+    "slug": "texas",
+    "total": 32,
+    "byComponent": {
+      "U.S. Army": 5,
+      "U.S. Army Reserve": 1,
+      "U.S. Air Force": 7,
+      "U.S. Navy": 7,
+      "Navy Reserve": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 9,
+      "Marine Corps Reserve": 1
+    },
+    "bases": 32,
+    "activeBases": 31,
+    "byBranch": {
+      "U.S. Army": 5,
+      "U.S. Army Reserve": 1,
+      "U.S. Air Force": 7,
+      "U.S. Navy": 7,
+      "Navy Reserve": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 9,
+      "Marine Corps Reserve": 1
+    }
+  },
+  {
+    "state": "Alabama",
+    "code": "AL",
+    "slug": "alabama",
+    "total": 30,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Army": 16,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 6,
+      "Air National Guard": 2
+    },
+    "bases": 30,
+    "activeBases": 30,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Army": 16,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 6,
+      "Air National Guard": 2
+    }
+  },
+  {
+    "state": "Alaska",
+    "code": "AK",
+    "slug": "alaska",
+    "total": 29,
+    "byComponent": {
+      "U.S. Army": 3,
+      "Army National Guard": 1,
+      "U.S. Air Force": 22,
+      "U.S. Navy": 3
+    },
+    "bases": 29,
+    "activeBases": 29,
+    "byBranch": {
+      "U.S. Army": 3,
+      "Army National Guard": 1,
+      "U.S. Air Force": 22,
+      "U.S. Navy": 3
+    }
+  },
+  {
+    "state": "Maryland",
+    "code": "MD",
+    "slug": "maryland",
+    "total": 28,
+    "byComponent": {
+      "U.S. Army": 7,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 14,
+      "Air National Guard": 1,
+      "Army National Guard": 4,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 28,
+    "activeBases": 27,
+    "byBranch": {
+      "U.S. Army": 7,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 14,
+      "Air National Guard": 1,
+      "Army National Guard": 4,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "New York",
+    "code": "NY",
+    "slug": "new-york",
+    "total": 22,
+    "byComponent": {
+      "U.S. Army": 6,
+      "Army National Guard": 2,
+      "Air Force Reserve": 1,
+      "Marine Corps Reserve": 2,
+      "U.S. Navy": 4,
+      "Air National Guard": 4,
+      "U.S. Air Force": 2,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 22,
+    "activeBases": 22,
+    "byBranch": {
+      "U.S. Army": 6,
+      "Army National Guard": 2,
+      "Air Force Reserve": 1,
+      "Marine Corps Reserve": 2,
+      "U.S. Navy": 4,
+      "Air National Guard": 4,
+      "U.S. Air Force": 2,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Pennsylvania",
+    "code": "PA",
+    "slug": "pennsylvania",
+    "total": 21,
+    "byComponent": {
+      "U.S. Army": 5,
+      "Army National Guard": 7,
+      "Air Force Reserve": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 3
+    },
+    "bases": 21,
+    "activeBases": 20,
+    "byBranch": {
+      "U.S. Army": 5,
+      "Army National Guard": 7,
+      "Air Force Reserve": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 3
+    }
+  },
+  {
+    "state": "Georgia",
+    "code": "GA",
+    "slug": "georgia",
+    "total": 21,
+    "byComponent": {
+      "U.S. Army": 6,
+      "Army National Guard": 6,
+      "Air Force Reserve": 1,
+      "U.S. Air Force": 3,
+      "U.S. Marine Corps": 2,
+      "U.S. Navy": 2,
+      "Air National Guard": 1
+    },
+    "bases": 21,
+    "activeBases": 21,
+    "byBranch": {
+      "U.S. Army": 6,
+      "Army National Guard": 6,
+      "Air Force Reserve": 1,
+      "U.S. Air Force": 3,
+      "U.S. Marine Corps": 2,
+      "U.S. Navy": 2,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Puerto Rico",
+    "code": "PR",
+    "slug": "puerto-rico",
+    "total": 20,
+    "byComponent": {
+      "U.S. Army Reserve": 6,
+      "Army National Guard": 5,
+      "U.S. Navy": 6,
+      "U.S. Air Force": 2,
+      "Navy Reserve": 1
+    },
+    "bases": 20,
+    "activeBases": 16,
+    "byBranch": {
+      "U.S. Army Reserve": 6,
+      "Army National Guard": 5,
+      "U.S. Navy": 6,
+      "U.S. Air Force": 2,
+      "Navy Reserve": 1
+    }
+  },
+  {
+    "state": "Arizona",
+    "code": "AZ",
+    "slug": "arizona",
+    "total": 20,
+    "byComponent": {
+      "U.S. Army": 2,
+      "U.S. Air Force": 6,
+      "U.S. Marine Corps": 3,
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 6
+    },
+    "bases": 20,
+    "activeBases": 20,
+    "byBranch": {
+      "U.S. Army": 2,
+      "U.S. Air Force": 6,
+      "U.S. Marine Corps": 3,
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 6
+    }
+  },
+  {
+    "state": "Washington",
+    "code": "WA",
+    "slug": "washington",
+    "total": 18,
+    "byComponent": {
+      "Army National Guard": 1,
+      "U.S. Navy": 12,
+      "U.S. Army": 1,
+      "U.S. Air Force": 4
+    },
+    "bases": 18,
+    "activeBases": 18,
+    "byBranch": {
+      "Army National Guard": 1,
+      "U.S. Navy": 12,
+      "U.S. Army": 1,
+      "U.S. Air Force": 4
+    }
+  },
+  {
+    "state": "Tennessee",
+    "code": "TN",
+    "slug": "tennessee",
+    "total": 16,
+    "byComponent": {
+      "U.S. Army": 3,
+      "Army National Guard": 5,
+      "Air National Guard": 3,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 16,
+    "activeBases": 16,
+    "byBranch": {
+      "U.S. Army": 3,
+      "Army National Guard": 5,
+      "Air National Guard": 3,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Missouri",
+    "code": "MO",
+    "slug": "missouri",
+    "total": 16,
+    "byComponent": {
+      "U.S. Army": 3,
+      "Army National Guard": 6,
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 3
+    },
+    "bases": 16,
+    "activeBases": 15,
+    "byBranch": {
+      "U.S. Army": 3,
+      "Army National Guard": 6,
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 3
+    }
+  },
+  {
+    "state": "Ohio",
+    "code": "OH",
+    "slug": "ohio",
+    "total": 15,
+    "byComponent": {
+      "Army National Guard": 6,
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 4,
+      "Air Force Reserve": 1
+    },
+    "bases": 15,
+    "activeBases": 15,
+    "byBranch": {
+      "Army National Guard": 6,
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 4,
+      "Air Force Reserve": 1
+    }
+  },
+  {
+    "state": "Louisiana",
+    "code": "LA",
+    "slug": "louisiana",
+    "total": 15,
+    "byComponent": {
+      "Army National Guard": 9,
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "Navy Reserve": 1,
+      "U.S. Navy": 1,
+      "Marine Corps Reserve": 1
+    },
+    "bases": 15,
+    "activeBases": 15,
+    "byBranch": {
+      "Army National Guard": 9,
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "Navy Reserve": 1,
+      "U.S. Navy": 1,
+      "Marine Corps Reserve": 1
+    }
+  },
+  {
+    "state": "Mississippi",
+    "code": "MS",
+    "slug": "mississippi",
+    "total": 15,
+    "byComponent": {
+      "U.S. Air Force": 3,
+      "U.S. Navy": 6,
+      "Air National Guard": 2,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 15,
+    "activeBases": 15,
+    "byBranch": {
+      "U.S. Air Force": 3,
+      "U.S. Navy": 6,
+      "Air National Guard": 2,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Massachusetts",
+    "code": "MA",
+    "slug": "massachusetts",
+    "total": 14,
+    "byComponent": {
+      "U.S. Army Reserve": 3,
+      "Army National Guard": 4,
+      "U.S. Army": 1,
+      "Air Force Reserve": 1,
+      "U.S. Air Force": 2,
+      "U.S. Navy": 2,
+      "Air National Guard": 1
+    },
+    "bases": 14,
+    "activeBases": 12,
+    "byBranch": {
+      "U.S. Army Reserve": 3,
+      "Army National Guard": 4,
+      "U.S. Army": 1,
+      "Air Force Reserve": 1,
+      "U.S. Air Force": 2,
+      "U.S. Navy": 2,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "North Carolina",
+    "code": "NC",
+    "slug": "north-carolina",
+    "total": 14,
+    "byComponent": {
+      "U.S. Army": 4,
+      "Army National Guard": 2,
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Marine Corps": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 14,
+    "activeBases": 14,
+    "byBranch": {
+      "U.S. Army": 4,
+      "Army National Guard": 2,
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Marine Corps": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Oklahoma",
+    "code": "OK",
+    "slug": "oklahoma",
+    "total": 14,
+    "byComponent": {
+      "U.S. Army": 2,
+      "Army National Guard": 5,
+      "U.S. Air Force": 5,
+      "Air National Guard": 2
+    },
+    "bases": 14,
+    "activeBases": 14,
+    "byBranch": {
+      "U.S. Army": 2,
+      "Army National Guard": 5,
+      "U.S. Air Force": 5,
+      "Air National Guard": 2
+    }
+  },
+  {
+    "state": "Illinois",
+    "code": "IL",
+    "slug": "illinois",
+    "total": 14,
+    "byComponent": {
+      "Army National Guard": 3,
+      "U.S. Army": 3,
+      "U.S. Army Reserve": 1,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 2
+    },
+    "bases": 14,
+    "activeBases": 12,
+    "byBranch": {
+      "Army National Guard": 3,
+      "U.S. Army": 3,
+      "U.S. Army Reserve": 1,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 2
+    }
+  },
+  {
+    "state": "Indiana",
+    "code": "IN",
+    "slug": "indiana",
+    "total": 13,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Army": 3,
+      "Air Force Reserve": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 3
+    },
+    "bases": 13,
+    "activeBases": 10,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Army": 3,
+      "Air Force Reserve": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 3
+    }
+  },
+  {
+    "state": "Colorado",
+    "code": "CO",
+    "slug": "colorado",
+    "total": 12,
+    "byComponent": {
+      "U.S. Army": 4,
+      "U.S. Air Force": 7,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 12,
+    "activeBases": 11,
+    "byBranch": {
+      "U.S. Army": 4,
+      "U.S. Air Force": 7,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "West Virginia",
+    "code": "WV",
+    "slug": "west-virginia",
+    "total": 12,
+    "byComponent": {
+      "Army National Guard": 6,
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Other": 1,
+      "U.S. Army Reserve": 2
+    },
+    "bases": 12,
+    "activeBases": 11,
+    "byBranch": {
+      "Army National Guard": 6,
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Other": 1,
+      "U.S. Army Reserve": 2
+    }
+  },
+  {
+    "state": "Nevada",
+    "code": "NV",
+    "slug": "nevada",
+    "total": 12,
+    "byComponent": {
+      "Army National Guard": 2,
+      "U.S. Army": 1,
+      "U.S. Navy": 2,
+      "Air National Guard": 1,
+      "U.S. Air Force": 6
+    },
+    "bases": 12,
+    "activeBases": 12,
+    "byBranch": {
+      "Army National Guard": 2,
+      "U.S. Army": 1,
+      "U.S. Navy": 2,
+      "Air National Guard": 1,
+      "U.S. Air Force": 6
+    }
+  },
+  {
+    "state": "Maine",
+    "code": "ME",
+    "slug": "maine",
+    "total": 11,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 1
+    },
+    "bases": 11,
+    "activeBases": 10,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 4,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Minnesota",
+    "code": "MN",
+    "slug": "minnesota",
+    "total": 10,
+    "byComponent": {
+      "Army National Guard": 7,
+      "Air Force Reserve": 1,
+      "Air National Guard": 1,
+      "U.S. Army": 1
+    },
+    "bases": 10,
+    "activeBases": 9,
+    "byBranch": {
+      "Army National Guard": 7,
+      "Air Force Reserve": 1,
+      "Air National Guard": 1,
+      "U.S. Army": 1
+    }
+  },
+  {
+    "state": "Idaho",
+    "code": "ID",
+    "slug": "idaho",
+    "total": 10,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 3,
+      "U.S. Navy": 1,
+      "Air National Guard": 1
+    },
+    "bases": 10,
+    "activeBases": 10,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 3,
+      "U.S. Navy": 1,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "New Mexico",
+    "code": "NM",
+    "slug": "new-mexico",
+    "total": 10,
+    "byComponent": {
+      "Army National Guard": 3,
+      "U.S. Army": 2,
+      "U.S. Air Force": 5
+    },
+    "bases": 10,
+    "activeBases": 10,
+    "byBranch": {
+      "Army National Guard": 3,
+      "U.S. Army": 2,
+      "U.S. Air Force": 5
+    }
+  },
+  {
+    "state": "Oregon",
+    "code": "OR",
+    "slug": "oregon",
+    "total": 10,
+    "byComponent": {
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 7
+    },
+    "bases": 10,
+    "activeBases": 10,
+    "byBranch": {
+      "U.S. Navy": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 7
+    }
+  },
+  {
+    "state": "Nebraska",
+    "code": "NE",
+    "slug": "nebraska",
+    "total": 9,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 2
+    },
+    "bases": 9,
+    "activeBases": 9,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 2
+    }
+  },
+  {
+    "state": "Wisconsin",
+    "code": "WI",
+    "slug": "wisconsin",
+    "total": 9,
+    "byComponent": {
+      "Army National Guard": 1,
+      "U.S. Army Reserve": 2,
+      "Air National Guard": 5,
+      "U.S. Army": 1
+    },
+    "bases": 9,
+    "activeBases": 8,
+    "byBranch": {
+      "Army National Guard": 1,
+      "U.S. Army Reserve": 2,
+      "Air National Guard": 5,
+      "U.S. Army": 1
+    }
+  },
+  {
+    "state": "Kansas",
+    "code": "KS",
+    "slug": "kansas",
+    "total": 9,
+    "byComponent": {
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 2,
+      "U.S. Army Reserve": 2
+    },
+    "bases": 9,
+    "activeBases": 9,
+    "byBranch": {
+      "U.S. Army": 2,
+      "U.S. Air Force": 1,
+      "Air National Guard": 2,
+      "Army National Guard": 2,
+      "U.S. Army Reserve": 2
+    }
+  },
+  {
+    "state": "Montana",
+    "code": "MT",
+    "slug": "montana",
+    "total": 9,
+    "byComponent": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 2
+    },
+    "bases": 9,
+    "activeBases": 9,
+    "byBranch": {
+      "Army National Guard": 5,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 2
+    }
+  },
+  {
+    "state": "North Dakota",
+    "code": "ND",
+    "slug": "north-dakota",
+    "total": 9,
+    "byComponent": {
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Navy": 1,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 9,
+    "activeBases": 9,
+    "byBranch": {
+      "U.S. Air Force": 3,
+      "Air National Guard": 1,
+      "U.S. Navy": 1,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Michigan",
+    "code": "MI",
+    "slug": "michigan",
+    "total": 8,
+    "byComponent": {
+      "Army National Guard": 3,
+      "U.S. Army": 1,
+      "Air National Guard": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 8,
+    "activeBases": 8,
+    "byBranch": {
+      "Army National Guard": 3,
+      "U.S. Army": 1,
+      "Air National Guard": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Utah",
+    "code": "UT",
+    "slug": "utah",
+    "total": 8,
+    "byComponent": {
+      "U.S. Army": 3,
+      "Army National Guard": 2,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 1
+    },
+    "bases": 8,
+    "activeBases": 7,
+    "byBranch": {
+      "U.S. Army": 3,
+      "Army National Guard": 2,
+      "U.S. Air Force": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "South Carolina",
+    "code": "SC",
+    "slug": "south-carolina",
+    "total": 8,
+    "byComponent": {
+      "U.S. Army": 1,
+      "U.S. Air Force": 3,
+      "U.S. Marine Corps": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 1
+    },
+    "bases": 8,
+    "activeBases": 8,
+    "byBranch": {
+      "U.S. Army": 1,
+      "U.S. Air Force": 3,
+      "U.S. Marine Corps": 1,
+      "U.S. Navy": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 1
+    }
+  },
+  {
+    "state": "New Jersey",
+    "code": "NJ",
+    "slug": "new-jersey",
+    "total": 8,
+    "byComponent": {
+      "Army National Guard": 2,
+      "U.S. Navy": 2,
+      "U.S. Air Force": 1,
+      "U.S. Army": 2,
+      "Air National Guard": 1
+    },
+    "bases": 8,
+    "activeBases": 7,
+    "byBranch": {
+      "Army National Guard": 2,
+      "U.S. Navy": 2,
+      "U.S. Air Force": 1,
+      "U.S. Army": 2,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Rhode Island",
+    "code": "RI",
+    "slug": "rhode-island",
+    "total": 8,
+    "byComponent": {
+      "U.S. Navy": 3,
+      "Air National Guard": 1,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 8,
+    "activeBases": 8,
+    "byBranch": {
+      "U.S. Navy": 3,
+      "Air National Guard": 1,
+      "Army National Guard": 3,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Iowa",
+    "code": "IA",
+    "slug": "iowa",
+    "total": 7,
+    "byComponent": {
+      "Army National Guard": 1,
+      "U.S. Army": 1,
+      "Air National Guard": 3,
+      "Marine Corps Reserve": 1,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 7,
+    "activeBases": 6,
+    "byBranch": {
+      "Army National Guard": 1,
+      "U.S. Army": 1,
+      "Air National Guard": 3,
+      "Marine Corps Reserve": 1,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "Arkansas",
+    "code": "AR",
+    "slug": "arkansas",
+    "total": 6,
+    "byComponent": {
+      "Army National Guard": 2,
+      "U.S. Army": 1,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 1
+    },
+    "bases": 6,
+    "activeBases": 6,
+    "byBranch": {
+      "Army National Guard": 2,
+      "U.S. Army": 1,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "U.S. Army Reserve": 1
+    }
+  },
+  {
+    "state": "South Dakota",
+    "code": "SD",
+    "slug": "south-dakota",
+    "total": 6,
+    "byComponent": {
+      "Army National Guard": 4,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1
+    },
+    "bases": 6,
+    "activeBases": 6,
+    "byBranch": {
+      "Army National Guard": 4,
+      "U.S. Air Force": 1,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Vermont",
+    "code": "VT",
+    "slug": "vermont",
+    "total": 6,
+    "byComponent": {
+      "Army National Guard": 5,
+      "Air National Guard": 1
+    },
+    "bases": 6,
+    "activeBases": 6,
+    "byBranch": {
+      "Army National Guard": 5,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Connecticut",
+    "code": "CT",
+    "slug": "connecticut",
+    "total": 6,
+    "byComponent": {
+      "U.S. Navy": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 4
+    },
+    "bases": 6,
+    "activeBases": 6,
+    "byBranch": {
+      "U.S. Navy": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 4
+    }
+  },
+  {
+    "state": "Kentucky",
+    "code": "KY",
+    "slug": "kentucky",
+    "total": 5,
+    "byComponent": {
+      "U.S. Army": 2,
+      "Air National Guard": 1,
+      "Army National Guard": 2
+    },
+    "bases": 5,
+    "activeBases": 5,
+    "byBranch": {
+      "U.S. Army": 2,
+      "Air National Guard": 1,
+      "Army National Guard": 2
+    }
+  },
+  {
+    "state": "Guam",
+    "code": "GU",
+    "slug": "guam",
+    "total": 5,
+    "byComponent": {
+      "Army National Guard": 1,
+      "U.S. Navy": 4
+    },
+    "bases": 5,
+    "activeBases": 5,
+    "byBranch": {
+      "Army National Guard": 1,
+      "U.S. Navy": 4
+    }
+  },
+  {
+    "state": "New Hampshire",
+    "code": "NH",
+    "slug": "new-hampshire",
+    "total": 4,
+    "byComponent": {
+      "Army National Guard": 1,
+      "U.S. Air Force": 2,
+      "Air National Guard": 1
+    },
+    "bases": 4,
+    "activeBases": 4,
+    "byBranch": {
+      "Army National Guard": 1,
+      "U.S. Air Force": 2,
+      "Air National Guard": 1
+    }
+  },
+  {
+    "state": "Delaware",
+    "code": "DE",
+    "slug": "delaware",
+    "total": 4,
+    "byComponent": {
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 2
+    },
+    "bases": 4,
+    "activeBases": 4,
+    "byBranch": {
+      "U.S. Air Force": 1,
+      "Air National Guard": 1,
+      "Army National Guard": 2
+    }
+  },
+  {
+    "state": "Washington DC",
+    "code": "DC",
+    "slug": "washington-dc",
+    "total": 4,
+    "byComponent": {
+      "U.S. Navy": 3,
+      "U.S. Air Force": 1
+    },
+    "bases": 4,
+    "activeBases": 4,
+    "byBranch": {
+      "U.S. Navy": 3,
+      "U.S. Air Force": 1
+    }
+  },
+  {
+    "state": "Wyoming",
+    "code": "WY",
+    "slug": "wyoming",
+    "total": 3,
+    "byComponent": {
+      "Air National Guard": 1,
+      "U.S. Air Force": 1,
+      "Army National Guard": 1
+    },
+    "bases": 3,
+    "activeBases": 3,
+    "byBranch": {
+      "Air National Guard": 1,
+      "U.S. Air Force": 1,
+      "Army National Guard": 1
+    }
+  },
+  {
+    "state": "Virgin Islands",
+    "code": "VI",
+    "slug": "virgin-islands",
+    "total": 1,
+    "byComponent": {
+      "Army National Guard": 1
+    },
+    "bases": 1,
+    "activeBases": 0,
+    "byBranch": {
+      "Army National Guard": 1
+    }
+  }
+]

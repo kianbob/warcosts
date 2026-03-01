@@ -29,6 +29,10 @@ const navItems = [
       { label: 'Contractor Directory', href: '/contractors/directory' },
       { label: 'Weapons Systems', href: '/weapons' },
       { label: 'What Else Could This Buy?', href: '/opportunity-cost' },
+      { label: '── Data Deep Dives ──', href: '/spending#data' },
+      { label: 'Year-by-Year Spending', href: '/spending/2024' },
+      { label: 'Global Comparison', href: '/global-spending' },
+      { label: 'Arms Sales by Country', href: '/arms-sales/countries' },
     ],
   },
   {
@@ -52,6 +56,10 @@ const navItems = [
       { label: 'Nuclear Weapons', href: '/nuclear' },
       { label: 'Modern Warfare', href: '/modern-tactics' },
       { label: 'Veterans Crisis', href: '/veterans' },
+      { label: '── War & Peace ──', href: '/drone-strikes#section' },
+      { label: 'Drone Strikes', href: '/drone-strikes' },
+      { label: 'Congressional War Votes', href: '/war-votes' },
+      { label: 'Veterans by War', href: '/veterans/world-war-ii' },
     ],
   },
   {

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Declaration of War — War of 1812",
+    "slug": "war-of-1812",
+    "year": 1812,
+    "conflict": "War of 1812",
+    "type": "declaration",
+    "houseVote": "79-49",
+    "senateVote": "19-13",
+    "result": "Passed",
+    "notes": "First declared war. Closest war vote in US history. Federalists opposed."
+  },
+  {
+    "name": "Declaration of War — Mexican-American War",
+    "slug": "mexican-american-war",
+    "year": 1846,
+    "conflict": "Mexican-American War",
+    "type": "declaration",
+    "houseVote": "174-14",
+    "senateVote": "40-2",
+    "result": "Passed",
+    "notes": "Abraham Lincoln (then a Congressman) challenged Polk's justification with his \"Spot Resolutions.\""
+  },
+  {
+    "name": "Declaration of War — Spanish-American War",
+    "slug": "spanish-american-war",
+    "year": 1898,
+    "conflict": "Spanish-American War",
+    "type": "declaration",
+    "houseVote": "310-6",
+    "senateVote": "42-35",
+    "result": "Passed",
+    "notes": "Launched American empire. US gained Philippines, Puerto Rico, Guam, Cuba."
+  },
+  {
+    "name": "Declaration of War — World War I",
+    "slug": "world-war-i",
+    "year": 1917,
+    "conflict": "World War I",
+    "type": "declaration",
+    "houseVote": "373-50",
+    "senateVote": "82-6",
+    "result": "Passed",
+    "notes": "Jeannette Rankin (first woman in Congress) voted no. She also voted against WWII — the only member to vote against both."
+  },
+  {
+    "name": "Declaration of War — World War II (Japan)",
+    "slug": "world-war-ii-japan",
+    "year": 1941,
+    "conflict": "World War II",
+    "type": "declaration",
+    "houseVote": "388-1",
+    "senateVote": "82-0",
+    "result": "Passed",
+    "notes": "Only dissenting vote: Jeannette Rankin (R-MT). \"As a woman I can't go to war, and I refuse to send anyone else.\""
+  },
+  {
+    "name": "Declaration of War — World War II (Germany)",
+    "slug": "world-war-ii-germany",
+    "year": 1941,
+    "conflict": "World War II",
+    "type": "declaration",
+    "houseVote": "393-0",
+    "senateVote": "88-0",
+    "result": "Passed",
+    "notes": "Unanimous after Pearl Harbor. Last formal declaration of war by the US."
+  },
+  {
+    "name": "Gulf of Tonkin Resolution",
+    "slug": "gulf-of-tonkin",
+    "year": 1964,
+    "conflict": "Vietnam War",
+    "type": "authorization",
+    "houseVote": "416-0",
+    "senateVote": "88-2",
+    "result": "Passed",
+    "notes": "Based on a fabricated attack. Only Wayne Morse (D-OR) and Ernest Gruening (D-AK) voted no. Led to 58,220 American deaths. Repealed in 1971."
+  },
+  {
+    "name": "War Powers Resolution",
+    "slug": "war-powers-resolution",
+    "year": 1973,
+    "conflict": "N/A",
+    "type": "resolution",
+    "houseVote": "284-135 (override)",
+    "senateVote": "75-18 (override)",
+    "result": "Passed over veto",
+    "notes": "Requires president to notify Congress within 48 hours of committing forces. Widely ignored by every president since."
+  },
+  {
+    "name": "Authorization — Gulf War (1991)",
+    "slug": "gulf-war-1991",
+    "year": 1991,
+    "conflict": "Gulf War",
+    "type": "authorization",
+    "houseVote": "250-183",
+    "senateVote": "52-47",
+    "result": "Passed",
+    "notes": "Close Senate vote. Biden voted NO (then reversed his position for the 2003 Iraq War)."
+  },
+  {
+    "name": "Authorization for Use of Military Force (2001 AUMF)",
+    "slug": "aumf-2001",
+    "year": 2001,
+    "conflict": "War on Terror",
+    "type": "authorization",
+    "houseVote": "420-1",
+    "senateVote": "98-0",
+    "result": "Passed",
+    "notes": "Only Barbara Lee (D-CA) voted no. \"Let us not become the evil we deplore.\" This single vote authorized wars in 22 countries over 20+ years. Still in effect."
+  },
+  {
+    "name": "Authorization — Iraq War (2002 AUMF)",
+    "slug": "aumf-2002",
+    "year": 2002,
+    "conflict": "Iraq War",
+    "type": "authorization",
+    "houseVote": "296-133",
+    "senateVote": "77-23",
+    "result": "Passed",
+    "notes": "Based on false WMD claims. Biden, Clinton, Kerry all voted yes. 23 senators voted no including Byrd, Kennedy, Leahy, Durbin. Repealed in 2024."
+  },
+  {
+    "name": "Libya — War Powers Challenge",
+    "slug": "libya-war-powers",
+    "year": 2011,
+    "conflict": "Libya",
+    "type": "vote",
+    "houseVote": "268-145 (rebuke)",
+    "senateVote": "N/A",
+    "result": "Rebuked but no enforcement",
+    "notes": "House rebuked Obama for not getting authorization for Libya bombing. Obama argued it wasn't \"hostilities.\" No consequences."
+  },
+  {
+    "name": "Syria Strike Authorization (failed)",
+    "slug": "syria-2013",
+    "year": 2013,
+    "conflict": "Syria",
+    "type": "proposed",
+    "houseVote": "Withdrawn",
+    "senateVote": "Committee only (10-7)",
+    "result": "Never voted",
+    "notes": "Obama sought authorization for Syria strikes after chemical weapons use, then withdrew the request when Congress clearly opposed it."
+  },
+  {
+    "name": "Yemen War Powers Resolution",
+    "slug": "yemen-war-powers",
+    "year": 2019,
+    "conflict": "Yemen",
+    "type": "resolution",
+    "houseVote": "247-175",
+    "senateVote": "54-46",
+    "result": "Vetoed by Trump",
+    "notes": "First use of War Powers Resolution to end US involvement in a conflict. Bipartisan. Trump vetoed it."
+  },
+  {
+    "name": "2002 AUMF Repeal",
+    "slug": "aumf-2002-repeal",
+    "year": 2024,
+    "conflict": "Iraq War",
+    "type": "repeal",
+    "houseVote": "268-147",
+    "senateVote": "66-30",
+    "result": "Signed into law",
+    "notes": "Repealed the Iraq War authorization 21 years after passage. Bipartisan. 2001 AUMF still remains in effect."
+  }
+]

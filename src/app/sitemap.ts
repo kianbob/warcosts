@@ -85,6 +85,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({ url: `${base}/decades/${d}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
   })
 
+  // Yearly spending pages (1949-2024)
+  const yearlySpending = loadData('yearly-spending.json')
+  yearlySpending.forEach((y: any) => {
+    entries.push({ url: `${base}/spending/${y.year}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
+  })
+
+  // New listing pages
+  const newListingPages = ['/drone-strikes', '/war-votes', '/global-spending', '/arms-sales/countries']
+  newListingPages.forEach(route => {
+    entries.push({ url: `${base}${route}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+  })
+
+  // Drone strike country pages
+  try {
+    const droneData = loadData('drone-strikes.json')
+    droneData.countries.forEach((c: any) => {
+      entries.push({ url: `${base}/drone-strikes/${c.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
+  // Arms sales country pages
+  try {
+    const armsCountries = loadData('arms-sales-countries.json')
+    armsCountries.forEach((c: any) => {
+      entries.push({ url: `${base}/arms-sales/${c.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
+    })
+  } catch {}
+
+  // War vote pages
+  try {
+    const warVotes = loadData('war-votes.json')
+    warVotes.forEach((v: any) => {
+      entries.push({ url: `${base}/war-votes/${v.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
+  // Veterans by war pages
+  try {
+    const veterans = loadData('veterans-by-war.json')
+    veterans.forEach((v: any) => {
+      entries.push({ url: `${base}/veterans/${v.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
   // Base detail pages
   try {
     const baseIndex = loadData('base-index.json')

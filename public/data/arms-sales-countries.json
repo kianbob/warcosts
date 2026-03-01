@@ -1,0 +1,236 @@
+[
+  {
+    "country": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "region": "Middle East",
+    "totalSince2009": 110000,
+    "recentFY": 2024,
+    "recentAmount": 4800,
+    "topSystems": [
+      "F-15SA fighters ($29.4B)",
+      "THAAD missile defense ($15B)",
+      "Patriot PAC-3 ($1.75B)",
+      "Abrams tanks ($1.15B)",
+      "Apache helicopters"
+    ],
+    "note": "Largest US arms buyer. Weapons used in Yemen war bombing campaign that killed thousands of civilians. Arms sales temporarily paused under Biden, resumed under Trump.",
+    "controversies": "Khashoggi murder, Yemen school bus bombing with Raytheon MK-82, 200,000+ Yemen deaths"
+  },
+  {
+    "country": "Australia",
+    "slug": "australia",
+    "region": "Indo-Pacific",
+    "totalSince2009": 21000,
+    "recentFY": 2024,
+    "recentAmount": 3200,
+    "topSystems": [
+      "Virginia-class submarines (AUKUS, $368B)",
+      "F-35A fighters ($12.4B)",
+      "Tomahawk cruise missiles",
+      "MQ-9B drones"
+    ],
+    "note": "AUKUS agreement is the largest arms deal in history. Australia will buy 3-5 Virginia-class nuclear submarines."
+  },
+  {
+    "country": "Japan",
+    "slug": "japan",
+    "region": "Indo-Pacific",
+    "totalSince2009": 19000,
+    "recentFY": 2024,
+    "recentAmount": 3800,
+    "topSystems": [
+      "F-35A/B fighters ($23B)",
+      "Aegis system upgrades",
+      "SM-3 missile defense",
+      "Osprey tiltrotors ($3B)",
+      "Tomahawk missiles ($2.35B)"
+    ],
+    "note": "Japan doubled its defense budget in 2022. Largest US military host nation with 55,000 US troops."
+  },
+  {
+    "country": "South Korea",
+    "slug": "south-korea",
+    "region": "Indo-Pacific",
+    "totalSince2009": 14000,
+    "recentFY": 2024,
+    "recentAmount": 2100,
+    "topSystems": [
+      "F-35A fighters ($7.2B)",
+      "AH-64E Apache ($1.5B)",
+      "Patriot PAC-3",
+      "Global Hawk drones",
+      "THAAD"
+    ],
+    "note": "28,500 US troops stationed in South Korea. Annual \"burden sharing\" payments of $1.1B."
+  },
+  {
+    "country": "UAE",
+    "slug": "uae",
+    "region": "Middle East",
+    "totalSince2009": 23000,
+    "recentFY": 2024,
+    "recentAmount": 2000,
+    "topSystems": [
+      "F-35 (approved then frozen)",
+      "THAAD ($3.5B)",
+      "MQ-9 Reaper drones",
+      "Patriot",
+      "JDAM bombs"
+    ],
+    "note": "UAE used US weapons in Yemen and Libya interventions. F-35 sale approved in 2020, frozen in 2021 over China/Huawei concerns."
+  },
+  {
+    "country": "Taiwan",
+    "slug": "taiwan",
+    "region": "Indo-Pacific",
+    "totalSince2009": 18000,
+    "recentFY": 2024,
+    "recentAmount": 1500,
+    "topSystems": [
+      "F-16V fighters ($8B)",
+      "M1A2 Abrams ($2B)",
+      "HIMARS ($774M)",
+      "Harpoon anti-ship ($2.37B)",
+      "Stinger MANPADS"
+    ],
+    "note": "Arms sales to Taiwan infuriate China. The Taiwan Relations Act requires the US to provide \"arms of a defensive character.\" $19B in arms backlog."
+  },
+  {
+    "country": "Qatar",
+    "slug": "qatar",
+    "region": "Middle East",
+    "totalSince2009": 28000,
+    "recentFY": 2024,
+    "recentAmount": 800,
+    "topSystems": [
+      "F-15QA fighters ($12B)",
+      "Apache helicopters ($3B)",
+      "Patriot ($7.6B)",
+      "NASAMS"
+    ],
+    "note": "Home to Al Udeid Air Base, the largest US base in the Middle East. $28B in arms sales despite hosting Hamas leadership."
+  },
+  {
+    "country": "Israel",
+    "slug": "israel",
+    "region": "Middle East",
+    "totalSince2009": 42000,
+    "recentFY": 2024,
+    "recentAmount": 18000,
+    "topSystems": [
+      "F-35I fighters ($6B)",
+      "F-15IA ($18.8B)",
+      "KC-46 tankers",
+      "Iron Dome resupply ($1B+)",
+      "JDAM bombs",
+      "2000lb bunker busters"
+    ],
+    "note": "Israel receives $3.8B/yr in military aid (10-year $38B MOU). Additional $14.5B emergency aid in 2024 for Gaza operations. Total US military aid since 1948: $310B+.",
+    "controversies": "Gaza 2023-24: 45,000+ Palestinian deaths, accusations of genocide at ICJ, US weapons confirmed in strikes on hospitals, schools, refugee camps."
+  },
+  {
+    "country": "Poland",
+    "slug": "poland",
+    "region": "Europe",
+    "totalSince2009": 12000,
+    "recentFY": 2024,
+    "recentAmount": 4000,
+    "topSystems": [
+      "Abrams tanks ($6B)",
+      "HIMARS ($10B)",
+      "F-35 ($6.5B)",
+      "Apache helicopters ($12B)",
+      "Patriot"
+    ],
+    "note": "Poland became a top US arms buyer after Russia invaded Ukraine. Spending 4.7% of GDP on defense in 2025 — highest in NATO."
+  },
+  {
+    "country": "Germany",
+    "slug": "germany",
+    "region": "Europe",
+    "totalSince2009": 8000,
+    "recentFY": 2024,
+    "recentAmount": 2500,
+    "topSystems": [
+      "F-35 ($8.4B)",
+      "CH-47F Chinook ($8.5B)",
+      "AH-64E Apache",
+      "Patriot"
+    ],
+    "note": "Germany increased defense spending after Ukraine invasion. $100B special fund announced in 2022."
+  },
+  {
+    "country": "India",
+    "slug": "india",
+    "region": "Indo-Pacific",
+    "totalSince2009": 22000,
+    "recentFY": 2024,
+    "recentAmount": 3500,
+    "topSystems": [
+      "MQ-9B SeaGuardian drones ($3.99B)",
+      "Apache helicopters ($2.4B)",
+      "C-17 Globemaster ($5.8B)",
+      "P-8I Poseidon ($4.1B)"
+    ],
+    "note": "India shifting from Russian to US weapons. $22B in deals since 2007. \"Major Defense Partner\" status since 2016."
+  },
+  {
+    "country": "United Kingdom",
+    "slug": "united-kingdom",
+    "region": "Europe",
+    "totalSince2009": 9000,
+    "recentFY": 2024,
+    "recentAmount": 1200,
+    "topSystems": [
+      "F-35B ($6B)",
+      "Apache AH-64E",
+      "P-8A Poseidon ($2.2B)",
+      "Tomahawk missiles"
+    ],
+    "note": "Closest US military ally. Joint programs include F-35 and AUKUS. Hosts US nuclear weapons at RAF Lakenheath."
+  },
+  {
+    "country": "Egypt",
+    "slug": "egypt",
+    "region": "Middle East",
+    "totalSince2009": 13000,
+    "recentFY": 2024,
+    "recentAmount": 1300,
+    "topSystems": [
+      "M1A1 Abrams (co-production)",
+      "F-16 fighters",
+      "Apache helicopters",
+      "Harpoon missiles"
+    ],
+    "note": "Receives $1.3B/yr in military aid since Camp David Accords (1978). Total aid: $50B+. Used US weapons to suppress 2013 protests."
+  },
+  {
+    "country": "Kuwait",
+    "slug": "kuwait",
+    "region": "Middle East",
+    "totalSince2009": 11000,
+    "recentFY": 2024,
+    "recentAmount": 600,
+    "topSystems": [
+      "F/A-18 Super Hornet ($5B)",
+      "Patriot PAC-3 ($4.2B)",
+      "Apache ($4B)"
+    ],
+    "note": "US liberated Kuwait in 1991. Hosts Camp Arifjan with 13,000 US troops."
+  },
+  {
+    "country": "Singapore",
+    "slug": "singapore",
+    "region": "Indo-Pacific",
+    "totalSince2009": 7000,
+    "recentFY": 2024,
+    "recentAmount": 900,
+    "topSystems": [
+      "F-35B ($6.3B)",
+      "F-16V",
+      "Apache",
+      "CH-47F"
+    ],
+    "note": "Key US naval logistics hub. Changi Naval Base accommodates US aircraft carriers."
+  }
+]

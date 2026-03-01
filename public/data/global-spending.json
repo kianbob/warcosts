@@ -1,0 +1,4555 @@
+{
+  "latest": [
+    {
+      "country": "United States of America",
+      "amount": 968382,
+      "year": 2024
+    },
+    {
+      "country": "China",
+      "amount": 317561,
+      "year": 2024
+    },
+    {
+      "country": "Russia",
+      "amount": 150534,
+      "year": 2024
+    },
+    {
+      "country": "Germany",
+      "amount": 86301,
+      "year": 2024
+    },
+    {
+      "country": "India",
+      "amount": 83623,
+      "year": 2024
+    },
+    {
+      "country": "Saudi Arabia",
+      "amount": 78954,
+      "year": 2024
+    },
+    {
+      "country": "United Kingdom",
+      "amount": 77390,
+      "year": 2024
+    },
+    {
+      "country": "Ukraine",
+      "amount": 66784,
+      "year": 2024
+    },
+    {
+      "country": "France",
+      "amount": 63135,
+      "year": 2024
+    },
+    {
+      "country": "Japan",
+      "amount": 58399,
+      "year": 2024
+    },
+    {
+      "country": "Korea, South",
+      "amount": 48473,
+      "year": 2024
+    },
+    {
+      "country": "Israel",
+      "amount": 45267,
+      "year": 2024
+    },
+    {
+      "country": "Italy",
+      "amount": 37444,
+      "year": 2024
+    },
+    {
+      "country": "Poland",
+      "amount": 34488,
+      "year": 2024
+    },
+    {
+      "country": "Australia",
+      "amount": 33006,
+      "year": 2024
+    },
+    {
+      "country": "Canada",
+      "amount": 29066,
+      "year": 2024
+    },
+    {
+      "country": "Spain",
+      "amount": 23926,
+      "year": 2024
+    },
+    {
+      "country": "Netherlands",
+      "amount": 22439,
+      "year": 2024
+    },
+    {
+      "country": "Türkiye",
+      "amount": 21884,
+      "year": 2024
+    },
+    {
+      "country": "Brazil",
+      "amount": 21693,
+      "year": 2024
+    },
+    {
+      "country": "Algeria",
+      "amount": 20423,
+      "year": 2024
+    },
+    {
+      "country": "Taiwan",
+      "amount": 16635,
+      "year": 2024
+    },
+    {
+      "country": "Mexico",
+      "amount": 16452,
+      "year": 2024
+    },
+    {
+      "country": "Singapore",
+      "amount": 14602,
+      "year": 2024
+    },
+    {
+      "country": "Colombia",
+      "amount": 12246,
+      "year": 2024
+    },
+    {
+      "country": "Sweden",
+      "amount": 11719,
+      "year": 2024
+    },
+    {
+      "country": "Indonesia",
+      "amount": 11214,
+      "year": 2024
+    },
+    {
+      "country": "Norway",
+      "amount": 10285,
+      "year": 2024
+    },
+    {
+      "country": "Denmark",
+      "amount": 9782,
+      "year": 2024
+    },
+    {
+      "country": "Belgium",
+      "amount": 8197,
+      "year": 2024
+    },
+    {
+      "country": "Pakistan",
+      "amount": 8183,
+      "year": 2024
+    },
+    {
+      "country": "Romania",
+      "amount": 8066,
+      "year": 2024
+    },
+    {
+      "country": "Greece",
+      "amount": 7786,
+      "year": 2024
+    },
+    {
+      "country": "Kuwait",
+      "amount": 7555,
+      "year": 2024
+    },
+    {
+      "country": "Finland",
+      "amount": 6894,
+      "year": 2024
+    },
+    {
+      "country": "Czechia",
+      "amount": 6676,
+      "year": 2024
+    },
+    {
+      "country": "Iran",
+      "amount": 6646,
+      "year": 2024
+    },
+    {
+      "country": "Switzerland",
+      "amount": 6484,
+      "year": 2024
+    },
+    {
+      "country": "Philippines",
+      "amount": 6097,
+      "year": 2024
+    },
+    {
+      "country": "Oman",
+      "amount": 5911,
+      "year": 2024
+    },
+    {
+      "country": "Iraq",
+      "amount": 5759,
+      "year": 2024
+    },
+    {
+      "country": "Thailand",
+      "amount": 5570,
+      "year": 2024
+    },
+    {
+      "country": "Chile",
+      "amount": 5521,
+      "year": 2024
+    },
+    {
+      "country": "Morocco",
+      "amount": 5318,
+      "year": 2024
+    },
+    {
+      "country": "Myanmar",
+      "amount": 5224,
+      "year": 2024
+    },
+    {
+      "country": "Austria",
+      "amount": 5097,
+      "year": 2024
+    },
+    {
+      "country": "Hungary",
+      "amount": 4718,
+      "year": 2024
+    },
+    {
+      "country": "Portugal",
+      "amount": 4523,
+      "year": 2024
+    },
+    {
+      "country": "Malaysia",
+      "amount": 4217,
+      "year": 2024
+    },
+    {
+      "country": "Bangladesh",
+      "amount": 3935,
+      "year": 2024
+    },
+    {
+      "country": "Argentina",
+      "amount": 3913,
+      "year": 2024
+    },
+    {
+      "country": "Azerbaijan",
+      "amount": 3699,
+      "year": 2024
+    },
+    {
+      "country": "New Zealand",
+      "amount": 2959,
+      "year": 2024
+    },
+    {
+      "country": "Slovakia",
+      "amount": 2769,
+      "year": 2024
+    },
+    {
+      "country": "Egypt",
+      "amount": 2661,
+      "year": 2024
+    },
+    {
+      "country": "Ecuador",
+      "amount": 2648,
+      "year": 2024
+    },
+    {
+      "country": "Lithuania",
+      "amount": 2602,
+      "year": 2024
+    },
+    {
+      "country": "Peru",
+      "amount": 2510,
+      "year": 2024
+    },
+    {
+      "country": "Jordan",
+      "amount": 2507,
+      "year": 2024
+    },
+    {
+      "country": "Bulgaria",
+      "amount": 2265,
+      "year": 2024
+    },
+    {
+      "country": "Serbia",
+      "amount": 2220,
+      "year": 2024
+    },
+    {
+      "country": "Nigeria",
+      "amount": 1989,
+      "year": 2024
+    },
+    {
+      "country": "Belarus",
+      "amount": 1725,
+      "year": 2024
+    },
+    {
+      "country": "Uruguay",
+      "amount": 1715,
+      "year": 2024
+    },
+    {
+      "country": "Croatia",
+      "amount": 1565,
+      "year": 2024
+    },
+    {
+      "country": "Armenia",
+      "amount": 1416,
+      "year": 2024
+    },
+    {
+      "country": "Latvia",
+      "amount": 1405,
+      "year": 2024
+    },
+    {
+      "country": "Estonia",
+      "amount": 1393,
+      "year": 2024
+    },
+    {
+      "country": "Bahrain",
+      "amount": 1365,
+      "year": 2024
+    },
+    {
+      "country": "Zimbabwe",
+      "amount": 1320,
+      "year": 2024
+    },
+    {
+      "country": "Ireland",
+      "amount": 1307,
+      "year": 2024
+    },
+    {
+      "country": "Tunisia",
+      "amount": 1230,
+      "year": 2024
+    },
+    {
+      "country": "Kazakhstan",
+      "amount": 1145,
+      "year": 2024
+    },
+    {
+      "country": "Kenya",
+      "amount": 1130,
+      "year": 2024
+    },
+    {
+      "country": "Ethiopia",
+      "amount": 1119,
+      "year": 2024
+    },
+    {
+      "country": "Uganda",
+      "amount": 1090,
+      "year": 2024
+    },
+    {
+      "country": "Sri Lanka",
+      "amount": 1076,
+      "year": 2024
+    },
+    {
+      "country": "Dominican Republic",
+      "amount": 1004,
+      "year": 2024
+    },
+    {
+      "country": "Burkina Faso",
+      "amount": 1002,
+      "year": 2024
+    },
+    {
+      "country": "Tanzania",
+      "amount": 966,
+      "year": 2024
+    },
+    {
+      "country": "Congo, DR",
+      "amount": 935,
+      "year": 2024
+    },
+    {
+      "country": "Slovenia",
+      "amount": 932,
+      "year": 2024
+    },
+    {
+      "country": "Angola",
+      "amount": 914,
+      "year": 2024
+    },
+    {
+      "country": "Mali",
+      "amount": 906,
+      "year": 2024
+    },
+    {
+      "country": "Luxembourg",
+      "amount": 849,
+      "year": 2024
+    },
+    {
+      "country": "Cambodia",
+      "amount": 709,
+      "year": 2024
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "amount": 634,
+      "year": 2024
+    },
+    {
+      "country": "Georgia",
+      "amount": 632,
+      "year": 2024
+    },
+    {
+      "country": "Bolivia",
+      "amount": 629,
+      "year": 2024
+    },
+    {
+      "country": "Cyprus",
+      "amount": 585,
+      "year": 2024
+    },
+    {
+      "country": "Honduras",
+      "amount": 560,
+      "year": 2024
+    },
+    {
+      "country": "Botswana",
+      "amount": 556,
+      "year": 2024
+    },
+    {
+      "country": "Brunei",
+      "amount": 554,
+      "year": 2024
+    },
+    {
+      "country": "Chad",
+      "amount": 531,
+      "year": 2024
+    },
+    {
+      "country": "Cameroon",
+      "amount": 512,
+      "year": 2024
+    },
+    {
+      "country": "Senegal",
+      "amount": 507,
+      "year": 2024
+    },
+    {
+      "country": "Guinea",
+      "amount": 505,
+      "year": 2024
+    },
+    {
+      "country": "Albania",
+      "amount": 482,
+      "year": 2024
+    },
+    {
+      "country": "Lebanon",
+      "amount": 453,
+      "year": 2024
+    },
+    {
+      "country": "Kyrgyz Republic",
+      "amount": 447,
+      "year": 2024
+    },
+    {
+      "country": "Mozambique",
+      "amount": 435,
+      "year": 2024
+    },
+    {
+      "country": "El Salvador",
+      "amount": 421,
+      "year": 2024
+    },
+    {
+      "country": "Paraguay",
+      "amount": 413,
+      "year": 2024
+    },
+    {
+      "country": "Nepal",
+      "amount": 409,
+      "year": 2024
+    },
+    {
+      "country": "Niger",
+      "amount": 404,
+      "year": 2024
+    },
+    {
+      "country": "Zambia",
+      "amount": 403,
+      "year": 2024
+    },
+    {
+      "country": "Guatemala",
+      "amount": 397,
+      "year": 2024
+    },
+    {
+      "country": "Namibia",
+      "amount": 344,
+      "year": 2024
+    },
+    {
+      "country": "Gabon",
+      "amount": 312,
+      "year": 2024
+    },
+    {
+      "country": "Ghana",
+      "amount": 279,
+      "year": 2024
+    },
+    {
+      "country": "Mauritania",
+      "amount": 277,
+      "year": 2024
+    },
+    {
+      "country": "Jamaica",
+      "amount": 252,
+      "year": 2024
+    },
+    {
+      "country": "Tajikistan",
+      "amount": 234,
+      "year": 2024
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "amount": 232,
+      "year": 2024
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "amount": 211,
+      "year": 2024
+    },
+    {
+      "country": "Guyana",
+      "amount": 196,
+      "year": 2024
+    },
+    {
+      "country": "Rwanda",
+      "amount": 191,
+      "year": 2024
+    },
+    {
+      "country": "Togo",
+      "amount": 190,
+      "year": 2024
+    },
+    {
+      "country": "Congo, Republic",
+      "amount": 175,
+      "year": 2024
+    },
+    {
+      "country": "Mongolia",
+      "amount": 166,
+      "year": 2024
+    },
+    {
+      "country": "Kosovo",
+      "amount": 162,
+      "year": 2024
+    },
+    {
+      "country": "Burundi",
+      "amount": 160,
+      "year": 2024
+    },
+    {
+      "country": "Benin",
+      "amount": 151,
+      "year": 2024
+    },
+    {
+      "country": "Montenegro",
+      "amount": 144,
+      "year": 2024
+    },
+    {
+      "country": "Malawi",
+      "amount": 136,
+      "year": 2024
+    },
+    {
+      "country": "Madagascar",
+      "amount": 115,
+      "year": 2024
+    },
+    {
+      "country": "Equatorial Guinea",
+      "amount": 109,
+      "year": 2024
+    },
+    {
+      "country": "Malta",
+      "amount": 106,
+      "year": 2024
+    },
+    {
+      "country": "Moldova",
+      "amount": 103,
+      "year": 2024
+    },
+    {
+      "country": "Nicaragua",
+      "amount": 101,
+      "year": 2024
+    },
+    {
+      "country": "Papua New Guinea",
+      "amount": 94,
+      "year": 2024
+    },
+    {
+      "country": "Eswatini",
+      "amount": 76,
+      "year": 2024
+    },
+    {
+      "country": "Fiji",
+      "amount": 74,
+      "year": 2024
+    },
+    {
+      "country": "Timor Leste",
+      "amount": 45,
+      "year": 2024
+    },
+    {
+      "country": "Lesotho",
+      "amount": 34,
+      "year": 2024
+    },
+    {
+      "country": "Liberia",
+      "amount": 31,
+      "year": 2024
+    },
+    {
+      "country": "Belize",
+      "amount": 29,
+      "year": 2024
+    },
+    {
+      "country": "Seychelles",
+      "amount": 27,
+      "year": 2024
+    },
+    {
+      "country": "Sierra Leone",
+      "amount": 27,
+      "year": 2024
+    },
+    {
+      "country": "Mauritius",
+      "amount": 23,
+      "year": 2024
+    },
+    {
+      "country": "Cape Verde",
+      "amount": 17,
+      "year": 2024
+    },
+    {
+      "country": "Haiti",
+      "amount": 15,
+      "year": 2024
+    },
+    {
+      "country": "Gambia, The",
+      "amount": 14,
+      "year": 2024
+    }
+  ],
+  "history": {
+    "United States of America": [
+      {
+        "year": 1949,
+        "amount": 175907
+      },
+      {
+        "year": 1950,
+        "amount": 189049
+      },
+      {
+        "year": 1951,
+        "amount": 404493
+      },
+      {
+        "year": 1952,
+        "amount": 569793
+      },
+      {
+        "year": 1953,
+        "amount": 586649
+      },
+      {
+        "year": 1954,
+        "amount": 506171
+      },
+      {
+        "year": 1955,
+        "amount": 479136
+      },
+      {
+        "year": 1956,
+        "amount": 485405
+      },
+      {
+        "year": 1957,
+        "amount": 499255
+      },
+      {
+        "year": 1958,
+        "amount": 496294
+      },
+      {
+        "year": 1959,
+        "amount": 499770
+      },
+      {
+        "year": 1960,
+        "amount": 487469
+      },
+      {
+        "year": 1961,
+        "amount": 508088
+      },
+      {
+        "year": 1962,
+        "amount": 550544
+      },
+      {
+        "year": 1963,
+        "amount": 543047
+      },
+      {
+        "year": 1964,
+        "amount": 524941
+      },
+      {
+        "year": 1965,
+        "amount": 527240
+      },
+      {
+        "year": 1966,
+        "amount": 623403
+      },
+      {
+        "year": 1967,
+        "amount": 715710
+      },
+      {
+        "year": 1968,
+        "amount": 738696
+      },
+      {
+        "year": 1969,
+        "amount": 706246
+      },
+      {
+        "year": 1970,
+        "amount": 654513
+      },
+      {
+        "year": 1971,
+        "amount": 588883
+      },
+      {
+        "year": 1972,
+        "amount": 588036
+      },
+      {
+        "year": 1973,
+        "amount": 558825
+      },
+      {
+        "year": 1974,
+        "amount": 551528
+      },
+      {
+        "year": 1975,
+        "amount": 521239
+      },
+      {
+        "year": 1976,
+        "amount": 507060
+      },
+      {
+        "year": 1977,
+        "amount": 526197
+      },
+      {
+        "year": 1978,
+        "amount": 529525
+      },
+      {
+        "year": 1979,
+        "amount": 532564
+      },
+      {
+        "year": 1980,
+        "amount": 531335
+      },
+      {
+        "year": 1981,
+        "amount": 591835
+      },
+      {
+        "year": 1982,
+        "amount": 699941
+      },
+      {
+        "year": 1983,
+        "amount": 683520
+      },
+      {
+        "year": 1984,
+        "amount": 718935
+      },
+      {
+        "year": 1985,
+        "amount": 770712
+      },
+      {
+        "year": 1986,
+        "amount": 821655
+      },
+      {
+        "year": 1987,
+        "amount": 814913
+      },
+      {
+        "year": 1988,
+        "amount": 797866
+      },
+      {
+        "year": 1989,
+        "amount": 791126
+      },
+      {
+        "year": 1990,
+        "amount": 758217
+      },
+      {
+        "year": 1991,
+        "amount": 669787
+      },
+      {
+        "year": 1992,
+        "amount": 705820
+      },
+      {
+        "year": 1993,
+        "amount": 668047
+      },
+      {
+        "year": 1994,
+        "amount": 633319
+      },
+      {
+        "year": 1995,
+        "amount": 591580
+      },
+      {
+        "year": 1996,
+        "amount": 559401
+      },
+      {
+        "year": 1997,
+        "amount": 556507
+      },
+      {
+        "year": 1998,
+        "amount": 543941
+      },
+      {
+        "year": 1999,
+        "amount": 545280
+      },
+      {
+        "year": 2000,
+        "amount": 566381
+      },
+      {
+        "year": 2001,
+        "amount": 570981
+      },
+      {
+        "year": 2002,
+        "amount": 641103
+      },
+      {
+        "year": 2003,
+        "amount": 729681
+      },
+      {
+        "year": 2004,
+        "amount": 795294
+      },
+      {
+        "year": 2005,
+        "amount": 831924
+      },
+      {
+        "year": 2006,
+        "amount": 843912
+      },
+      {
+        "year": 2007,
+        "amount": 866430
+      },
+      {
+        "year": 2008,
+        "amount": 929458
+      },
+      {
+        "year": 2009,
+        "amount": 1002596
+      },
+      {
+        "year": 2010,
+        "amount": 1031257
+      },
+      {
+        "year": 2011,
+        "amount": 1019046
+      },
+      {
+        "year": 2012,
+        "amount": 962443
+      },
+      {
+        "year": 2013,
+        "amount": 888413
+      },
+      {
+        "year": 2014,
+        "amount": 833765
+      },
+      {
+        "year": 2015,
+        "amount": 814831
+      },
+      {
+        "year": 2016,
+        "amount": 812331
+      },
+      {
+        "year": 2017,
+        "amount": 803961
+      },
+      {
+        "year": 2018,
+        "amount": 828158
+      },
+      {
+        "year": 2019,
+        "amount": 875217
+      },
+      {
+        "year": 2020,
+        "amount": 916417
+      },
+      {
+        "year": 2021,
+        "amount": 906594
+      },
+      {
+        "year": 2022,
+        "amount": 896121
+      },
+      {
+        "year": 2023,
+        "amount": 916015
+      },
+      {
+        "year": 2024,
+        "amount": 968382
+      }
+    ],
+    "China": [
+      {
+        "year": 1989,
+        "amount": 20219
+      },
+      {
+        "year": 1990,
+        "amount": 21980
+      },
+      {
+        "year": 1991,
+        "amount": 23363
+      },
+      {
+        "year": 1992,
+        "amount": 28412
+      },
+      {
+        "year": 1993,
+        "amount": 26128
+      },
+      {
+        "year": 1994,
+        "amount": 25140
+      },
+      {
+        "year": 1995,
+        "amount": 26112
+      },
+      {
+        "year": 1996,
+        "amount": 27663
+      },
+      {
+        "year": 1997,
+        "amount": 29512
+      },
+      {
+        "year": 1998,
+        "amount": 32223
+      },
+      {
+        "year": 1999,
+        "amount": 39283
+      },
+      {
+        "year": 2000,
+        "amount": 42519
+      },
+      {
+        "year": 2001,
+        "amount": 50416
+      },
+      {
+        "year": 2002,
+        "amount": 57905
+      },
+      {
+        "year": 2003,
+        "amount": 62667
+      },
+      {
+        "year": 2004,
+        "amount": 69026
+      },
+      {
+        "year": 2005,
+        "amount": 75800
+      },
+      {
+        "year": 2006,
+        "amount": 87251
+      },
+      {
+        "year": 2007,
+        "amount": 95911
+      },
+      {
+        "year": 2008,
+        "amount": 104937
+      },
+      {
+        "year": 2009,
+        "amount": 127335
+      },
+      {
+        "year": 2010,
+        "amount": 133607
+      },
+      {
+        "year": 2011,
+        "amount": 143429
+      },
+      {
+        "year": 2012,
+        "amount": 158166
+      },
+      {
+        "year": 2013,
+        "amount": 171025
+      },
+      {
+        "year": 2014,
+        "amount": 184677
+      },
+      {
+        "year": 2015,
+        "amount": 199175
+      },
+      {
+        "year": 2016,
+        "amount": 210640
+      },
+      {
+        "year": 2017,
+        "amount": 223595
+      },
+      {
+        "year": 2018,
+        "amount": 236692
+      },
+      {
+        "year": 2019,
+        "amount": 248223
+      },
+      {
+        "year": 2020,
+        "amount": 259923
+      },
+      {
+        "year": 2021,
+        "amount": 266692
+      },
+      {
+        "year": 2022,
+        "amount": 278474
+      },
+      {
+        "year": 2023,
+        "amount": 296821
+      },
+      {
+        "year": 2024,
+        "amount": 317561
+      }
+    ],
+    "Russia": [
+      {
+        "year": 1992,
+        "amount": 47566
+      },
+      {
+        "year": 1993,
+        "amount": 41581
+      },
+      {
+        "year": 1994,
+        "amount": 39308
+      },
+      {
+        "year": 1995,
+        "amount": 25863
+      },
+      {
+        "year": 1996,
+        "amount": 24421
+      },
+      {
+        "year": 1997,
+        "amount": 26699
+      },
+      {
+        "year": 1998,
+        "amount": 15878
+      },
+      {
+        "year": 1999,
+        "amount": 17632
+      },
+      {
+        "year": 2000,
+        "amount": 23790
+      },
+      {
+        "year": 2001,
+        "amount": 25710
+      },
+      {
+        "year": 2002,
+        "amount": 28481
+      },
+      {
+        "year": 2003,
+        "amount": 29864
+      },
+      {
+        "year": 2004,
+        "amount": 31214
+      },
+      {
+        "year": 2005,
+        "amount": 35472
+      },
+      {
+        "year": 2006,
+        "amount": 39262
+      },
+      {
+        "year": 2007,
+        "amount": 42737
+      },
+      {
+        "year": 2008,
+        "amount": 46958
+      },
+      {
+        "year": 2009,
+        "amount": 49268
+      },
+      {
+        "year": 2010,
+        "amount": 50269
+      },
+      {
+        "year": 2011,
+        "amount": 53649
+      },
+      {
+        "year": 2012,
+        "amount": 62161
+      },
+      {
+        "year": 2013,
+        "amount": 65190
+      },
+      {
+        "year": 2014,
+        "amount": 69866
+      },
+      {
+        "year": 2015,
+        "amount": 75301
+      },
+      {
+        "year": 2016,
+        "amount": 80726
+      },
+      {
+        "year": 2017,
+        "amount": 65414
+      },
+      {
+        "year": 2018,
+        "amount": 62949
+      },
+      {
+        "year": 2019,
+        "amount": 65771
+      },
+      {
+        "year": 2020,
+        "amount": 67316
+      },
+      {
+        "year": 2021,
+        "amount": 68650
+      },
+      {
+        "year": 2022,
+        "amount": 88877
+      },
+      {
+        "year": 2023,
+        "amount": 109204
+      },
+      {
+        "year": 2024,
+        "amount": 150534
+      }
+    ],
+    "Germany": [
+      {
+        "year": 1953,
+        "amount": 19110
+      },
+      {
+        "year": 1954,
+        "amount": 19348
+      },
+      {
+        "year": 1955,
+        "amount": 22356
+      },
+      {
+        "year": 1956,
+        "amount": 21292
+      },
+      {
+        "year": 1957,
+        "amount": 25912
+      },
+      {
+        "year": 1958,
+        "amount": 19411
+      },
+      {
+        "year": 1959,
+        "amount": 31100
+      },
+      {
+        "year": 1960,
+        "amount": 33485
+      },
+      {
+        "year": 1961,
+        "amount": 35603
+      },
+      {
+        "year": 1962,
+        "amount": 45266
+      },
+      {
+        "year": 1963,
+        "amount": 50817
+      },
+      {
+        "year": 1964,
+        "amount": 48728
+      },
+      {
+        "year": 1965,
+        "amount": 48076
+      },
+      {
+        "year": 1966,
+        "amount": 47187
+      },
+      {
+        "year": 1967,
+        "amount": 49087
+      },
+      {
+        "year": 1968,
+        "amount": 43567
+      },
+      {
+        "year": 1969,
+        "amount": 47787
+      },
+      {
+        "year": 1970,
+        "amount": 48330
+      },
+      {
+        "year": 1971,
+        "amount": 51779
+      },
+      {
+        "year": 1972,
+        "amount": 55389
+      },
+      {
+        "year": 1973,
+        "amount": 57514
+      },
+      {
+        "year": 1974,
+        "amount": 60065
+      },
+      {
+        "year": 1975,
+        "amount": 59793
+      },
+      {
+        "year": 1976,
+        "amount": 59361
+      },
+      {
+        "year": 1977,
+        "amount": 59106
+      },
+      {
+        "year": 1978,
+        "amount": 61619
+      },
+      {
+        "year": 1979,
+        "amount": 62480
+      },
+      {
+        "year": 1980,
+        "amount": 63318
+      },
+      {
+        "year": 1981,
+        "amount": 64062
+      },
+      {
+        "year": 1982,
+        "amount": 63235
+      },
+      {
+        "year": 1983,
+        "amount": 63784
+      },
+      {
+        "year": 1984,
+        "amount": 63143
+      },
+      {
+        "year": 1985,
+        "amount": 63277
+      },
+      {
+        "year": 1986,
+        "amount": 64956
+      },
+      {
+        "year": 1987,
+        "amount": 66119
+      },
+      {
+        "year": 1988,
+        "amount": 65589
+      },
+      {
+        "year": 1989,
+        "amount": 65409
+      },
+      {
+        "year": 1990,
+        "amount": 68933
+      },
+      {
+        "year": 1991,
+        "amount": 63794
+      },
+      {
+        "year": 1992,
+        "amount": 60671
+      },
+      {
+        "year": 1993,
+        "amount": 54542
+      },
+      {
+        "year": 1994,
+        "amount": 50866
+      },
+      {
+        "year": 1995,
+        "amount": 50029
+      },
+      {
+        "year": 1996,
+        "amount": 49051
+      },
+      {
+        "year": 1997,
+        "amount": 47241
+      },
+      {
+        "year": 1998,
+        "amount": 47404
+      },
+      {
+        "year": 1999,
+        "amount": 48362
+      },
+      {
+        "year": 2000,
+        "amount": 47599
+      },
+      {
+        "year": 2001,
+        "amount": 46817
+      },
+      {
+        "year": 2002,
+        "amount": 46944
+      },
+      {
+        "year": 2003,
+        "amount": 46303
+      },
+      {
+        "year": 2004,
+        "amount": 44884
+      },
+      {
+        "year": 2005,
+        "amount": 44186
+      },
+      {
+        "year": 2006,
+        "amount": 43400
+      },
+      {
+        "year": 2007,
+        "amount": 43466
+      },
+      {
+        "year": 2008,
+        "amount": 44494
+      },
+      {
+        "year": 2009,
+        "amount": 46179
+      },
+      {
+        "year": 2010,
+        "amount": 46291
+      },
+      {
+        "year": 2011,
+        "amount": 45353
+      },
+      {
+        "year": 2012,
+        "amount": 46649
+      },
+      {
+        "year": 2013,
+        "amount": 44924
+      },
+      {
+        "year": 2014,
+        "amount": 44977
+      },
+      {
+        "year": 2015,
+        "amount": 45750
+      },
+      {
+        "year": 2016,
+        "amount": 47735
+      },
+      {
+        "year": 2017,
+        "amount": 49104
+      },
+      {
+        "year": 2018,
+        "amount": 50459
+      },
+      {
+        "year": 2019,
+        "amount": 55351
+      },
+      {
+        "year": 2020,
+        "amount": 58976
+      },
+      {
+        "year": 2021,
+        "amount": 58458
+      },
+      {
+        "year": 2022,
+        "amount": 61110
+      },
+      {
+        "year": 2023,
+        "amount": 67285
+      },
+      {
+        "year": 2024,
+        "amount": 86301
+      }
+    ],
+    "India": [
+      {
+        "year": 1956,
+        "amount": 2941
+      },
+      {
+        "year": 1957,
+        "amount": 3517
+      },
+      {
+        "year": 1958,
+        "amount": 3523
+      },
+      {
+        "year": 1959,
+        "amount": 3253
+      },
+      {
+        "year": 1960,
+        "amount": 3284
+      },
+      {
+        "year": 1961,
+        "amount": 3543
+      },
+      {
+        "year": 1962,
+        "amount": 4870
+      },
+      {
+        "year": 1963,
+        "amount": 7972
+      },
+      {
+        "year": 1964,
+        "amount": 7782
+      },
+      {
+        "year": 1965,
+        "amount": 7606
+      },
+      {
+        "year": 1966,
+        "amount": 7162
+      },
+      {
+        "year": 1967,
+        "amount": 6692
+      },
+      {
+        "year": 1968,
+        "amount": 6930
+      },
+      {
+        "year": 1969,
+        "amount": 7345
+      },
+      {
+        "year": 1970,
+        "amount": 7573
+      },
+      {
+        "year": 1971,
+        "amount": 9030
+      },
+      {
+        "year": 1972,
+        "amount": 9521
+      },
+      {
+        "year": 1973,
+        "amount": 8409
+      },
+      {
+        "year": 1974,
+        "amount": 7831
+      },
+      {
+        "year": 1975,
+        "amount": 8789
+      },
+      {
+        "year": 1976,
+        "amount": 10092
+      },
+      {
+        "year": 1977,
+        "amount": 9588
+      },
+      {
+        "year": 1978,
+        "amount": 10026
+      },
+      {
+        "year": 1979,
+        "amount": 10804
+      },
+      {
+        "year": 1980,
+        "amount": 11088
+      },
+      {
+        "year": 1981,
+        "amount": 11706
+      },
+      {
+        "year": 1982,
+        "amount": 12701
+      },
+      {
+        "year": 1983,
+        "amount": 13144
+      },
+      {
+        "year": 1984,
+        "amount": 13905
+      },
+      {
+        "year": 1985,
+        "amount": 15597
+      },
+      {
+        "year": 1986,
+        "amount": 18438
+      },
+      {
+        "year": 1987,
+        "amount": 19861
+      },
+      {
+        "year": 1988,
+        "amount": 20336
+      },
+      {
+        "year": 1989,
+        "amount": 21429
+      },
+      {
+        "year": 1990,
+        "amount": 21108
+      },
+      {
+        "year": 1991,
+        "amount": 19709
+      },
+      {
+        "year": 1992,
+        "amount": 18836
+      },
+      {
+        "year": 1993,
+        "amount": 21275
+      },
+      {
+        "year": 1994,
+        "amount": 21370
+      },
+      {
+        "year": 1995,
+        "amount": 22010
+      },
+      {
+        "year": 1996,
+        "amount": 22409
+      },
+      {
+        "year": 1997,
+        "amount": 24806
+      },
+      {
+        "year": 1998,
+        "amount": 25881
+      },
+      {
+        "year": 1999,
+        "amount": 30078
+      },
+      {
+        "year": 2000,
+        "amount": 31036
+      },
+      {
+        "year": 2001,
+        "amount": 32117
+      },
+      {
+        "year": 2002,
+        "amount": 32018
+      },
+      {
+        "year": 2003,
+        "amount": 32733
+      },
+      {
+        "year": 2004,
+        "amount": 38022
+      },
+      {
+        "year": 2005,
+        "amount": 40464
+      },
+      {
+        "year": 2006,
+        "amount": 40792
+      },
+      {
+        "year": 2007,
+        "amount": 41285
+      },
+      {
+        "year": 2008,
+        "amount": 46827
+      },
+      {
+        "year": 2009,
+        "amount": 55132
+      },
+      {
+        "year": 2010,
+        "amount": 55353
+      },
+      {
+        "year": 2011,
+        "amount": 55862
+      },
+      {
+        "year": 2012,
+        "amount": 55579
+      },
+      {
+        "year": 2013,
+        "amount": 55615
+      },
+      {
+        "year": 2014,
+        "amount": 58325
+      },
+      {
+        "year": 2015,
+        "amount": 58879
+      },
+      {
+        "year": 2016,
+        "amount": 64884
+      },
+      {
+        "year": 2017,
+        "amount": 69455
+      },
+      {
+        "year": 2018,
+        "amount": 71901
+      },
+      {
+        "year": 2019,
+        "amount": 76977
+      },
+      {
+        "year": 2020,
+        "amount": 77444
+      },
+      {
+        "year": 2021,
+        "amount": 76953
+      },
+      {
+        "year": 2022,
+        "amount": 80348
+      },
+      {
+        "year": 2023,
+        "amount": 82293
+      },
+      {
+        "year": 2024,
+        "amount": 83623
+      }
+    ],
+    "Saudi Arabia": [
+      {
+        "year": 1963,
+        "amount": 906
+      },
+      {
+        "year": 1964,
+        "amount": 957
+      },
+      {
+        "year": 1965,
+        "amount": 1372
+      },
+      {
+        "year": 1966,
+        "amount": 2283
+      },
+      {
+        "year": 1967,
+        "amount": 2503
+      },
+      {
+        "year": 1968,
+        "amount": 2481
+      },
+      {
+        "year": 1969,
+        "amount": 3039
+      },
+      {
+        "year": 1970,
+        "amount": 3332
+      },
+      {
+        "year": 1971,
+        "amount": 3961
+      },
+      {
+        "year": 1972,
+        "amount": 5557
+      },
+      {
+        "year": 1973,
+        "amount": 7176
+      },
+      {
+        "year": 1977,
+        "amount": 21083
+      },
+      {
+        "year": 1978,
+        "amount": 23904
+      },
+      {
+        "year": 1979,
+        "amount": 30727
+      },
+      {
+        "year": 1980,
+        "amount": 34349
+      },
+      {
+        "year": 1981,
+        "amount": 39999
+      },
+      {
+        "year": 1982,
+        "amount": 44563
+      },
+      {
+        "year": 1983,
+        "amount": 36182
+      },
+      {
+        "year": 1984,
+        "amount": 38860
+      },
+      {
+        "year": 1985,
+        "amount": 32090
+      },
+      {
+        "year": 1987,
+        "amount": 28550
+      },
+      {
+        "year": 1988,
+        "amount": 26130
+      },
+      {
+        "year": 1989,
+        "amount": 24692
+      },
+      {
+        "year": 1990,
+        "amount": 31030
+      },
+      {
+        "year": 1991,
+        "amount": 29592
+      },
+      {
+        "year": 1992,
+        "amount": 27812
+      },
+      {
+        "year": 1993,
+        "amount": 29477
+      },
+      {
+        "year": 1994,
+        "amount": 25442
+      },
+      {
+        "year": 1995,
+        "amount": 22427
+      },
+      {
+        "year": 1996,
+        "amount": 22391
+      },
+      {
+        "year": 1997,
+        "amount": 30408
+      },
+      {
+        "year": 1998,
+        "amount": 35126
+      },
+      {
+        "year": 1999,
+        "amount": 31264
+      },
+      {
+        "year": 2000,
+        "amount": 34457
+      },
+      {
+        "year": 2001,
+        "amount": 36702
+      },
+      {
+        "year": 2002,
+        "amount": 32216
+      },
+      {
+        "year": 2003,
+        "amount": 32445
+      },
+      {
+        "year": 2004,
+        "amount": 36002
+      },
+      {
+        "year": 2005,
+        "amount": 43476
+      },
+      {
+        "year": 2006,
+        "amount": 49525
+      },
+      {
+        "year": 2007,
+        "amount": 57047
+      },
+      {
+        "year": 2008,
+        "amount": 55990
+      },
+      {
+        "year": 2009,
+        "amount": 57540
+      },
+      {
+        "year": 2010,
+        "amount": 59888
+      },
+      {
+        "year": 2011,
+        "amount": 60701
+      },
+      {
+        "year": 2012,
+        "amount": 68697
+      },
+      {
+        "year": 2013,
+        "amount": 78710
+      },
+      {
+        "year": 2014,
+        "amount": 92775
+      },
+      {
+        "year": 2015,
+        "amount": 98961
+      },
+      {
+        "year": 2016,
+        "amount": 70807
+      },
+      {
+        "year": 2017,
+        "amount": 78950
+      },
+      {
+        "year": 2018,
+        "amount": 81666
+      },
+      {
+        "year": 2019,
+        "amount": 73072
+      },
+      {
+        "year": 2020,
+        "amount": 69769
+      },
+      {
+        "year": 2021,
+        "amount": 66265
+      },
+      {
+        "year": 2022,
+        "amount": 72570
+      },
+      {
+        "year": 2023,
+        "amount": 77765
+      },
+      {
+        "year": 2024,
+        "amount": 78954
+      }
+    ],
+    "United Kingdom": [
+      {
+        "year": 1950,
+        "amount": 35705
+      },
+      {
+        "year": 1951,
+        "amount": 42040
+      },
+      {
+        "year": 1952,
+        "amount": 53778
+      },
+      {
+        "year": 1953,
+        "amount": 59748
+      },
+      {
+        "year": 1954,
+        "amount": 56723
+      },
+      {
+        "year": 1955,
+        "amount": 54009
+      },
+      {
+        "year": 1956,
+        "amount": 53010
+      },
+      {
+        "year": 1957,
+        "amount": 51188
+      },
+      {
+        "year": 1958,
+        "amount": 49846
+      },
+      {
+        "year": 1959,
+        "amount": 49594
+      },
+      {
+        "year": 1960,
+        "amount": 50620
+      },
+      {
+        "year": 1961,
+        "amount": 50571
+      },
+      {
+        "year": 1962,
+        "amount": 51220
+      },
+      {
+        "year": 1963,
+        "amount": 52095
+      },
+      {
+        "year": 1964,
+        "amount": 53506
+      },
+      {
+        "year": 1965,
+        "amount": 53666
+      },
+      {
+        "year": 1966,
+        "amount": 53380
+      },
+      {
+        "year": 1967,
+        "amount": 54744
+      },
+      {
+        "year": 1968,
+        "amount": 53964
+      },
+      {
+        "year": 1969,
+        "amount": 50997
+      },
+      {
+        "year": 1970,
+        "amount": 52528
+      },
+      {
+        "year": 1971,
+        "amount": 52411
+      },
+      {
+        "year": 1972,
+        "amount": 55749
+      },
+      {
+        "year": 1973,
+        "amount": 55934
+      },
+      {
+        "year": 1974,
+        "amount": 55949
+      },
+      {
+        "year": 1975,
+        "amount": 58780
+      },
+      {
+        "year": 1976,
+        "amount": 57919
+      },
+      {
+        "year": 1977,
+        "amount": 55391
+      },
+      {
+        "year": 1978,
+        "amount": 57152
+      },
+      {
+        "year": 1979,
+        "amount": 58938
+      },
+      {
+        "year": 1980,
+        "amount": 62848
+      },
+      {
+        "year": 1981,
+        "amount": 61562
+      },
+      {
+        "year": 1982,
+        "amount": 67118
+      },
+      {
+        "year": 1983,
+        "amount": 70103
+      },
+      {
+        "year": 1984,
+        "amount": 73580
+      },
+      {
+        "year": 1985,
+        "amount": 74271
+      },
+      {
+        "year": 1986,
+        "amount": 73354
+      },
+      {
+        "year": 1987,
+        "amount": 72554
+      },
+      {
+        "year": 1988,
+        "amount": 69984
+      },
+      {
+        "year": 1989,
+        "amount": 70600
+      },
+      {
+        "year": 1990,
+        "amount": 70701
+      },
+      {
+        "year": 1991,
+        "amount": 71517
+      },
+      {
+        "year": 1992,
+        "amount": 66799
+      },
+      {
+        "year": 1993,
+        "amount": 63748
+      },
+      {
+        "year": 1994,
+        "amount": 61994
+      },
+      {
+        "year": 1995,
+        "amount": 58146
+      },
+      {
+        "year": 1996,
+        "amount": 57591
+      },
+      {
+        "year": 1997,
+        "amount": 55545
+      },
+      {
+        "year": 1998,
+        "amount": 55727
+      },
+      {
+        "year": 1999,
+        "amount": 55430
+      },
+      {
+        "year": 2000,
+        "amount": 56546
+      },
+      {
+        "year": 2001,
+        "amount": 58786
+      },
+      {
+        "year": 2002,
+        "amount": 62280
+      },
+      {
+        "year": 2003,
+        "amount": 66715
+      },
+      {
+        "year": 2004,
+        "amount": 67542
+      },
+      {
+        "year": 2005,
+        "amount": 68174
+      },
+      {
+        "year": 2006,
+        "amount": 68487
+      },
+      {
+        "year": 2007,
+        "amount": 70351
+      },
+      {
+        "year": 2008,
+        "amount": 73431
+      },
+      {
+        "year": 2009,
+        "amount": 74608
+      },
+      {
+        "year": 2010,
+        "amount": 73354
+      },
+      {
+        "year": 2011,
+        "amount": 70874
+      },
+      {
+        "year": 2012,
+        "amount": 68906
+      },
+      {
+        "year": 2013,
+        "amount": 66387
+      },
+      {
+        "year": 2014,
+        "amount": 65200
+      },
+      {
+        "year": 2015,
+        "amount": 62693
+      },
+      {
+        "year": 2016,
+        "amount": 62475
+      },
+      {
+        "year": 2017,
+        "amount": 62589
+      },
+      {
+        "year": 2018,
+        "amount": 63060
+      },
+      {
+        "year": 2019,
+        "amount": 65680
+      },
+      {
+        "year": 2020,
+        "amount": 66723
+      },
+      {
+        "year": 2021,
+        "amount": 67750
+      },
+      {
+        "year": 2022,
+        "amount": 68878
+      },
+      {
+        "year": 2023,
+        "amount": 75303
+      },
+      {
+        "year": 2024,
+        "amount": 77390
+      }
+    ],
+    "Ukraine": [
+      {
+        "year": 1993,
+        "amount": 397
+      },
+      {
+        "year": 1994,
+        "amount": 1747
+      },
+      {
+        "year": 1995,
+        "amount": 1877
+      },
+      {
+        "year": 1996,
+        "amount": 1809
+      },
+      {
+        "year": 1997,
+        "amount": 2242
+      },
+      {
+        "year": 1998,
+        "amount": 1812
+      },
+      {
+        "year": 1999,
+        "amount": 1670
+      },
+      {
+        "year": 2000,
+        "amount": 2070
+      },
+      {
+        "year": 2001,
+        "amount": 1749
+      },
+      {
+        "year": 2002,
+        "amount": 1860
+      },
+      {
+        "year": 2003,
+        "amount": 2149
+      },
+      {
+        "year": 2004,
+        "amount": 2319
+      },
+      {
+        "year": 2005,
+        "amount": 2808
+      },
+      {
+        "year": 2006,
+        "amount": 3151
+      },
+      {
+        "year": 2007,
+        "amount": 3830
+      },
+      {
+        "year": 2008,
+        "amount": 3746
+      },
+      {
+        "year": 2009,
+        "amount": 3432
+      },
+      {
+        "year": 2010,
+        "amount": 3452
+      },
+      {
+        "year": 2011,
+        "amount": 3172
+      },
+      {
+        "year": 2012,
+        "amount": 3552
+      },
+      {
+        "year": 2013,
+        "amount": 3776
+      },
+      {
+        "year": 2014,
+        "amount": 4525
+      },
+      {
+        "year": 2015,
+        "amount": 4945
+      },
+      {
+        "year": 2016,
+        "amount": 4965
+      },
+      {
+        "year": 2017,
+        "amount": 4793
+      },
+      {
+        "year": 2018,
+        "amount": 5783
+      },
+      {
+        "year": 2019,
+        "amount": 6701
+      },
+      {
+        "year": 2020,
+        "amount": 7436
+      },
+      {
+        "year": 2021,
+        "amount": 6883
+      },
+      {
+        "year": 2022,
+        "amount": 41205
+      },
+      {
+        "year": 2023,
+        "amount": 64908
+      },
+      {
+        "year": 2024,
+        "amount": 66784
+      }
+    ],
+    "France": [
+      {
+        "year": 1949,
+        "amount": 14723
+      },
+      {
+        "year": 1950,
+        "amount": 15919
+      },
+      {
+        "year": 1951,
+        "amount": 21322
+      },
+      {
+        "year": 1952,
+        "amount": 27085
+      },
+      {
+        "year": 1953,
+        "amount": 30167
+      },
+      {
+        "year": 1954,
+        "amount": 25715
+      },
+      {
+        "year": 1955,
+        "amount": 23963
+      },
+      {
+        "year": 1956,
+        "amount": 30628
+      },
+      {
+        "year": 1957,
+        "amount": 32785
+      },
+      {
+        "year": 1958,
+        "amount": 30200
+      },
+      {
+        "year": 1959,
+        "amount": 30883
+      },
+      {
+        "year": 1960,
+        "amount": 31699
+      },
+      {
+        "year": 1961,
+        "amount": 32944
+      },
+      {
+        "year": 1962,
+        "amount": 34047
+      },
+      {
+        "year": 1963,
+        "amount": 33417
+      },
+      {
+        "year": 1964,
+        "amount": 34400
+      },
+      {
+        "year": 1965,
+        "amount": 34897
+      },
+      {
+        "year": 1966,
+        "amount": 35948
+      },
+      {
+        "year": 1967,
+        "amount": 37814
+      },
+      {
+        "year": 1968,
+        "amount": 37859
+      },
+      {
+        "year": 1969,
+        "amount": 36213
+      },
+      {
+        "year": 1970,
+        "amount": 36415
+      },
+      {
+        "year": 1971,
+        "amount": 36913
+      },
+      {
+        "year": 1972,
+        "amount": 37879
+      },
+      {
+        "year": 1973,
+        "amount": 39261
+      },
+      {
+        "year": 1974,
+        "amount": 39116
+      },
+      {
+        "year": 1975,
+        "amount": 40870
+      },
+      {
+        "year": 1976,
+        "amount": 42638
+      },
+      {
+        "year": 1977,
+        "amount": 44964
+      },
+      {
+        "year": 1978,
+        "amount": 47512
+      },
+      {
+        "year": 1979,
+        "amount": 48618
+      },
+      {
+        "year": 1980,
+        "amount": 49584
+      },
+      {
+        "year": 1981,
+        "amount": 50818
+      },
+      {
+        "year": 1982,
+        "amount": 51789
+      },
+      {
+        "year": 1983,
+        "amount": 52750
+      },
+      {
+        "year": 1984,
+        "amount": 52436
+      },
+      {
+        "year": 1985,
+        "amount": 52375
+      },
+      {
+        "year": 1986,
+        "amount": 53913
+      },
+      {
+        "year": 1987,
+        "amount": 55492
+      },
+      {
+        "year": 1988,
+        "amount": 55464
+      },
+      {
+        "year": 1989,
+        "amount": 56144
+      },
+      {
+        "year": 1990,
+        "amount": 55895
+      },
+      {
+        "year": 1991,
+        "amount": 56259
+      },
+      {
+        "year": 1992,
+        "amount": 54489
+      },
+      {
+        "year": 1993,
+        "amount": 53886
+      },
+      {
+        "year": 1994,
+        "amount": 54163
+      },
+      {
+        "year": 1995,
+        "amount": 51482
+      },
+      {
+        "year": 1996,
+        "amount": 50257
+      },
+      {
+        "year": 1997,
+        "amount": 50439
+      },
+      {
+        "year": 1998,
+        "amount": 49098
+      },
+      {
+        "year": 1999,
+        "amount": 49511
+      },
+      {
+        "year": 2000,
+        "amount": 48951
+      },
+      {
+        "year": 2001,
+        "amount": 48800
+      },
+      {
+        "year": 2002,
+        "amount": 49803
+      },
+      {
+        "year": 2003,
+        "amount": 51305
+      },
+      {
+        "year": 2004,
+        "amount": 52706
+      },
+      {
+        "year": 2005,
+        "amount": 51625
+      },
+      {
+        "year": 2006,
+        "amount": 51863
+      },
+      {
+        "year": 2007,
+        "amount": 51844
+      },
+      {
+        "year": 2008,
+        "amount": 51467
+      },
+      {
+        "year": 2009,
+        "amount": 55275
+      },
+      {
+        "year": 2010,
+        "amount": 52655
+      },
+      {
+        "year": 2011,
+        "amount": 51089
+      },
+      {
+        "year": 2012,
+        "amount": 50304
+      },
+      {
+        "year": 2013,
+        "amount": 49978
+      },
+      {
+        "year": 2014,
+        "amount": 50848
+      },
+      {
+        "year": 2015,
+        "amount": 52239
+      },
+      {
+        "year": 2016,
+        "amount": 52354
+      },
+      {
+        "year": 2017,
+        "amount": 53226
+      },
+      {
+        "year": 2018,
+        "amount": 53530
+      },
+      {
+        "year": 2019,
+        "amount": 54873
+      },
+      {
+        "year": 2020,
+        "amount": 56796
+      },
+      {
+        "year": 2021,
+        "amount": 59214
+      },
+      {
+        "year": 2022,
+        "amount": 58904
+      },
+      {
+        "year": 2023,
+        "amount": 59492
+      },
+      {
+        "year": 2024,
+        "amount": 63135
+      }
+    ],
+    "Japan": [
+      {
+        "year": 1952,
+        "amount": 6622
+      },
+      {
+        "year": 1953,
+        "amount": 6878
+      },
+      {
+        "year": 1954,
+        "amount": 7749
+      },
+      {
+        "year": 1955,
+        "amount": 8050
+      },
+      {
+        "year": 1956,
+        "amount": 7524
+      },
+      {
+        "year": 1957,
+        "amount": 7200
+      },
+      {
+        "year": 1958,
+        "amount": 7355
+      },
+      {
+        "year": 1959,
+        "amount": 7345
+      },
+      {
+        "year": 1960,
+        "amount": 7355
+      },
+      {
+        "year": 1961,
+        "amount": 7150
+      },
+      {
+        "year": 1962,
+        "amount": 7320
+      },
+      {
+        "year": 1963,
+        "amount": 7957
+      },
+      {
+        "year": 1964,
+        "amount": 8735
+      },
+      {
+        "year": 1965,
+        "amount": 9374
+      },
+      {
+        "year": 1966,
+        "amount": 10127
+      },
+      {
+        "year": 1967,
+        "amount": 10853
+      },
+      {
+        "year": 1968,
+        "amount": 11581
+      },
+      {
+        "year": 1969,
+        "amount": 12579
+      },
+      {
+        "year": 1970,
+        "amount": 13782
+      },
+      {
+        "year": 1971,
+        "amount": 15197
+      },
+      {
+        "year": 1972,
+        "amount": 16964
+      },
+      {
+        "year": 1973,
+        "amount": 17902
+      },
+      {
+        "year": 1974,
+        "amount": 18345
+      },
+      {
+        "year": 1975,
+        "amount": 19086
+      },
+      {
+        "year": 1976,
+        "amount": 19254
+      },
+      {
+        "year": 1977,
+        "amount": 19820
+      },
+      {
+        "year": 1978,
+        "amount": 20957
+      },
+      {
+        "year": 1979,
+        "amount": 22302
+      },
+      {
+        "year": 1980,
+        "amount": 22659
+      },
+      {
+        "year": 1981,
+        "amount": 23471
+      },
+      {
+        "year": 1982,
+        "amount": 24244
+      },
+      {
+        "year": 1983,
+        "amount": 25443
+      },
+      {
+        "year": 1984,
+        "amount": 26606
+      },
+      {
+        "year": 1985,
+        "amount": 28034
+      },
+      {
+        "year": 1986,
+        "amount": 29267
+      },
+      {
+        "year": 1987,
+        "amount": 30480
+      },
+      {
+        "year": 1988,
+        "amount": 32017
+      },
+      {
+        "year": 1989,
+        "amount": 33403
+      },
+      {
+        "year": 1990,
+        "amount": 35039
+      },
+      {
+        "year": 1991,
+        "amount": 35924
+      },
+      {
+        "year": 1992,
+        "amount": 36464
+      },
+      {
+        "year": 1993,
+        "amount": 36316
+      },
+      {
+        "year": 1994,
+        "amount": 36304
+      },
+      {
+        "year": 1995,
+        "amount": 36905
+      },
+      {
+        "year": 1996,
+        "amount": 37577
+      },
+      {
+        "year": 1997,
+        "amount": 37895
+      },
+      {
+        "year": 1998,
+        "amount": 37938
+      },
+      {
+        "year": 1999,
+        "amount": 37741
+      },
+      {
+        "year": 2000,
+        "amount": 37938
+      },
+      {
+        "year": 2001,
+        "amount": 38603
+      },
+      {
+        "year": 2002,
+        "amount": 38795
+      },
+      {
+        "year": 2003,
+        "amount": 38844
+      },
+      {
+        "year": 2004,
+        "amount": 38689
+      },
+      {
+        "year": 2005,
+        "amount": 38619
+      },
+      {
+        "year": 2006,
+        "amount": 38127
+      },
+      {
+        "year": 2007,
+        "amount": 37631
+      },
+      {
+        "year": 2008,
+        "amount": 37269
+      },
+      {
+        "year": 2009,
+        "amount": 37967
+      },
+      {
+        "year": 2010,
+        "amount": 38103
+      },
+      {
+        "year": 2011,
+        "amount": 38618
+      },
+      {
+        "year": 2012,
+        "amount": 38150
+      },
+      {
+        "year": 2013,
+        "amount": 37992
+      },
+      {
+        "year": 2014,
+        "amount": 38399
+      },
+      {
+        "year": 2015,
+        "amount": 39074
+      },
+      {
+        "year": 2016,
+        "amount": 38841
+      },
+      {
+        "year": 2017,
+        "amount": 38584
+      },
+      {
+        "year": 2018,
+        "amount": 40527
+      },
+      {
+        "year": 2019,
+        "amount": 41679
+      },
+      {
+        "year": 2020,
+        "amount": 41322
+      },
+      {
+        "year": 2021,
+        "amount": 44421
+      },
+      {
+        "year": 2022,
+        "amount": 41783
+      },
+      {
+        "year": 2023,
+        "amount": 48189
+      },
+      {
+        "year": 2024,
+        "amount": 58399
+      }
+    ],
+    "Korea, South": [
+      {
+        "year": 1953,
+        "amount": 189
+      },
+      {
+        "year": 1954,
+        "amount": 475
+      },
+      {
+        "year": 1955,
+        "amount": 526
+      },
+      {
+        "year": 1956,
+        "amount": 754
+      },
+      {
+        "year": 1957,
+        "amount": 648
+      },
+      {
+        "year": 1958,
+        "amount": 765
+      },
+      {
+        "year": 1959,
+        "amount": 812
+      },
+      {
+        "year": 1960,
+        "amount": 787
+      },
+      {
+        "year": 1961,
+        "amount": 821
+      },
+      {
+        "year": 1962,
+        "amount": 952
+      },
+      {
+        "year": 1963,
+        "amount": 787
+      },
+      {
+        "year": 1964,
+        "amount": 745
+      },
+      {
+        "year": 1965,
+        "amount": 782
+      },
+      {
+        "year": 1966,
+        "amount": 1413
+      },
+      {
+        "year": 1967,
+        "amount": 1570
+      },
+      {
+        "year": 1968,
+        "amount": 1850
+      },
+      {
+        "year": 1969,
+        "amount": 2133
+      },
+      {
+        "year": 1970,
+        "amount": 2205
+      },
+      {
+        "year": 1971,
+        "amount": 2592
+      },
+      {
+        "year": 1972,
+        "amount": 3032
+      },
+      {
+        "year": 1973,
+        "amount": 3050
+      },
+      {
+        "year": 1974,
+        "amount": 3901
+      },
+      {
+        "year": 1975,
+        "amount": 4503
+      },
+      {
+        "year": 1976,
+        "amount": 6472
+      },
+      {
+        "year": 1977,
+        "amount": 7693
+      },
+      {
+        "year": 1978,
+        "amount": 9582
+      },
+      {
+        "year": 1979,
+        "amount": 9000
+      },
+      {
+        "year": 1980,
+        "amount": 9859
+      },
+      {
+        "year": 1981,
+        "amount": 10215
+      },
+      {
+        "year": 1982,
+        "amount": 10649
+      },
+      {
+        "year": 1983,
+        "amount": 11085
+      },
+      {
+        "year": 1984,
+        "amount": 11366
+      },
+      {
+        "year": 1985,
+        "amount": 12287
+      },
+      {
+        "year": 1986,
+        "amount": 13211
+      },
+      {
+        "year": 1987,
+        "amount": 13571
+      },
+      {
+        "year": 1988,
+        "amount": 14417
+      },
+      {
+        "year": 1989,
+        "amount": 15332
+      },
+      {
+        "year": 1990,
+        "amount": 15893
+      },
+      {
+        "year": 1991,
+        "amount": 16327
+      },
+      {
+        "year": 1992,
+        "amount": 17331
+      },
+      {
+        "year": 1993,
+        "amount": 18130
+      },
+      {
+        "year": 1994,
+        "amount": 18654
+      },
+      {
+        "year": 1995,
+        "amount": 20392
+      },
+      {
+        "year": 1996,
+        "amount": 20679
+      },
+      {
+        "year": 1997,
+        "amount": 21188
+      },
+      {
+        "year": 1998,
+        "amount": 20448
+      },
+      {
+        "year": 1999,
+        "amount": 19900
+      },
+      {
+        "year": 2000,
+        "amount": 21124
+      },
+      {
+        "year": 2001,
+        "amount": 21728
+      },
+      {
+        "year": 2002,
+        "amount": 22327
+      },
+      {
+        "year": 2003,
+        "amount": 23086
+      },
+      {
+        "year": 2004,
+        "amount": 24100
+      },
+      {
+        "year": 2005,
+        "amount": 26065
+      },
+      {
+        "year": 2006,
+        "amount": 27004
+      },
+      {
+        "year": 2007,
+        "amount": 28227
+      },
+      {
+        "year": 2008,
+        "amount": 30074
+      },
+      {
+        "year": 2009,
+        "amount": 31965
+      },
+      {
+        "year": 2010,
+        "amount": 32230
+      },
+      {
+        "year": 2011,
+        "amount": 32672
+      },
+      {
+        "year": 2012,
+        "amount": 33504
+      },
+      {
+        "year": 2013,
+        "amount": 34519
+      },
+      {
+        "year": 2014,
+        "amount": 35877
+      },
+      {
+        "year": 2015,
+        "amount": 37270
+      },
+      {
+        "year": 2016,
+        "amount": 38204
+      },
+      {
+        "year": 2017,
+        "amount": 38907
+      },
+      {
+        "year": 2018,
+        "amount": 40880
+      },
+      {
+        "year": 2019,
+        "amount": 44173
+      },
+      {
+        "year": 2020,
+        "amount": 46498
+      },
+      {
+        "year": 2021,
+        "amount": 48523
+      },
+      {
+        "year": 2022,
+        "amount": 47505
+      },
+      {
+        "year": 2023,
+        "amount": 47802
+      },
+      {
+        "year": 2024,
+        "amount": 48473
+      }
+    ],
+    "Israel": [
+      {
+        "year": 1952,
+        "amount": 413
+      },
+      {
+        "year": 1953,
+        "amount": 393
+      },
+      {
+        "year": 1954,
+        "amount": 480
+      },
+      {
+        "year": 1955,
+        "amount": 669
+      },
+      {
+        "year": 1956,
+        "amount": 1289
+      },
+      {
+        "year": 1957,
+        "amount": 1139
+      },
+      {
+        "year": 1958,
+        "amount": 1071
+      },
+      {
+        "year": 1959,
+        "amount": 1136
+      },
+      {
+        "year": 1960,
+        "amount": 1235
+      },
+      {
+        "year": 1961,
+        "amount": 1469
+      },
+      {
+        "year": 1962,
+        "amount": 1884
+      },
+      {
+        "year": 1963,
+        "amount": 2251
+      },
+      {
+        "year": 1964,
+        "amount": 2300
+      },
+      {
+        "year": 1965,
+        "amount": 2406
+      },
+      {
+        "year": 1966,
+        "amount": 2667
+      },
+      {
+        "year": 1967,
+        "amount": 4346
+      },
+      {
+        "year": 1968,
+        "amount": 5507
+      },
+      {
+        "year": 1969,
+        "amount": 6793
+      },
+      {
+        "year": 1970,
+        "amount": 9247
+      },
+      {
+        "year": 1971,
+        "amount": 9997
+      },
+      {
+        "year": 1972,
+        "amount": 10136
+      },
+      {
+        "year": 1973,
+        "amount": 14930
+      },
+      {
+        "year": 1974,
+        "amount": 15313
+      },
+      {
+        "year": 1975,
+        "amount": 16919
+      },
+      {
+        "year": 1976,
+        "amount": 15647
+      },
+      {
+        "year": 1977,
+        "amount": 13353
+      },
+      {
+        "year": 1978,
+        "amount": 14512
+      },
+      {
+        "year": 1979,
+        "amount": 12913
+      },
+      {
+        "year": 1980,
+        "amount": 13685
+      },
+      {
+        "year": 1981,
+        "amount": 16060
+      },
+      {
+        "year": 1982,
+        "amount": 14874
+      },
+      {
+        "year": 1983,
+        "amount": 13241
+      },
+      {
+        "year": 1984,
+        "amount": 14402
+      },
+      {
+        "year": 1985,
+        "amount": 13599
+      },
+      {
+        "year": 1986,
+        "amount": 12689
+      },
+      {
+        "year": 1987,
+        "amount": 15511
+      },
+      {
+        "year": 1988,
+        "amount": 15621
+      },
+      {
+        "year": 1989,
+        "amount": 12347
+      },
+      {
+        "year": 1990,
+        "amount": 13040
+      },
+      {
+        "year": 1991,
+        "amount": 17715
+      },
+      {
+        "year": 1992,
+        "amount": 13372
+      },
+      {
+        "year": 1993,
+        "amount": 14705
+      },
+      {
+        "year": 1994,
+        "amount": 13962
+      },
+      {
+        "year": 1995,
+        "amount": 12972
+      },
+      {
+        "year": 1996,
+        "amount": 13207
+      },
+      {
+        "year": 1997,
+        "amount": 13229
+      },
+      {
+        "year": 1998,
+        "amount": 13036
+      },
+      {
+        "year": 1999,
+        "amount": 12765
+      },
+      {
+        "year": 2000,
+        "amount": 13539
+      },
+      {
+        "year": 2001,
+        "amount": 14099
+      },
+      {
+        "year": 2002,
+        "amount": 14079
+      },
+      {
+        "year": 2003,
+        "amount": 13849
+      },
+      {
+        "year": 2004,
+        "amount": 14313
+      },
+      {
+        "year": 2005,
+        "amount": 14667
+      },
+      {
+        "year": 2006,
+        "amount": 14897
+      },
+      {
+        "year": 2007,
+        "amount": 16706
+      },
+      {
+        "year": 2008,
+        "amount": 16925
+      },
+      {
+        "year": 2009,
+        "amount": 16582
+      },
+      {
+        "year": 2010,
+        "amount": 16703
+      },
+      {
+        "year": 2011,
+        "amount": 16810
+      },
+      {
+        "year": 2012,
+        "amount": 17136
+      },
+      {
+        "year": 2013,
+        "amount": 17673
+      },
+      {
+        "year": 2014,
+        "amount": 19027
+      },
+      {
+        "year": 2015,
+        "amount": 19294
+      },
+      {
+        "year": 2016,
+        "amount": 20316
+      },
+      {
+        "year": 2017,
+        "amount": 21182
+      },
+      {
+        "year": 2018,
+        "amount": 21445
+      },
+      {
+        "year": 2019,
+        "amount": 21573
+      },
+      {
+        "year": 2020,
+        "amount": 22473
+      },
+      {
+        "year": 2021,
+        "amount": 23163
+      },
+      {
+        "year": 2022,
+        "amount": 22207
+      },
+      {
+        "year": 2023,
+        "amount": 27499
+      },
+      {
+        "year": 2024,
+        "amount": 45267
+      }
+    ],
+    "Italy": [
+      {
+        "year": 1949,
+        "amount": 6270
+      },
+      {
+        "year": 1950,
+        "amount": 7401
+      },
+      {
+        "year": 1951,
+        "amount": 8385
+      },
+      {
+        "year": 1952,
+        "amount": 9384
+      },
+      {
+        "year": 1953,
+        "amount": 8525
+      },
+      {
+        "year": 1954,
+        "amount": 9350
+      },
+      {
+        "year": 1955,
+        "amount": 9211
+      },
+      {
+        "year": 1956,
+        "amount": 9482
+      },
+      {
+        "year": 1957,
+        "amount": 9783
+      },
+      {
+        "year": 1958,
+        "amount": 10073
+      },
+      {
+        "year": 1959,
+        "amount": 10386
+      },
+      {
+        "year": 1960,
+        "amount": 10906
+      },
+      {
+        "year": 1961,
+        "amount": 11201
+      },
+      {
+        "year": 1962,
+        "amount": 12389
+      },
+      {
+        "year": 1963,
+        "amount": 13788
+      },
+      {
+        "year": 1964,
+        "amount": 14120
+      },
+      {
+        "year": 1965,
+        "amount": 14654
+      },
+      {
+        "year": 1966,
+        "amount": 15726
+      },
+      {
+        "year": 1967,
+        "amount": 15448
+      },
+      {
+        "year": 1968,
+        "amount": 15635
+      },
+      {
+        "year": 1969,
+        "amount": 15431
+      },
+      {
+        "year": 1970,
+        "amount": 16288
+      },
+      {
+        "year": 1971,
+        "amount": 18305
+      },
+      {
+        "year": 1972,
+        "amount": 20317
+      },
+      {
+        "year": 1973,
+        "amount": 20284
+      },
+      {
+        "year": 1974,
+        "amount": 20261
+      },
+      {
+        "year": 1975,
+        "amount": 18866
+      },
+      {
+        "year": 1976,
+        "amount": 18808
+      },
+      {
+        "year": 1977,
+        "amount": 20126
+      },
+      {
+        "year": 1978,
+        "amount": 20996
+      },
+      {
+        "year": 1979,
+        "amount": 22343
+      },
+      {
+        "year": 1980,
+        "amount": 21773
+      },
+      {
+        "year": 1981,
+        "amount": 22897
+      },
+      {
+        "year": 1982,
+        "amount": 25546
+      },
+      {
+        "year": 1983,
+        "amount": 26105
+      },
+      {
+        "year": 1984,
+        "amount": 26875
+      },
+      {
+        "year": 1985,
+        "amount": 26607
+      },
+      {
+        "year": 1986,
+        "amount": 28410
+      },
+      {
+        "year": 1987,
+        "amount": 30912
+      },
+      {
+        "year": 1988,
+        "amount": 32838
+      },
+      {
+        "year": 1989,
+        "amount": 33097
+      },
+      {
+        "year": 1990,
+        "amount": 31834
+      },
+      {
+        "year": 1991,
+        "amount": 32283
+      },
+      {
+        "year": 1992,
+        "amount": 31355
+      },
+      {
+        "year": 1993,
+        "amount": 31522
+      },
+      {
+        "year": 1994,
+        "amount": 30743
+      },
+      {
+        "year": 1995,
+        "amount": 28077
+      },
+      {
+        "year": 1996,
+        "amount": 30938
+      },
+      {
+        "year": 1997,
+        "amount": 32440
+      },
+      {
+        "year": 1998,
+        "amount": 33513
+      },
+      {
+        "year": 1999,
+        "amount": 34824
+      },
+      {
+        "year": 2000,
+        "amount": 37147
+      },
+      {
+        "year": 2001,
+        "amount": 36537
+      },
+      {
+        "year": 2002,
+        "amount": 37535
+      },
+      {
+        "year": 2003,
+        "amount": 37841
+      },
+      {
+        "year": 2004,
+        "amount": 37965
+      },
+      {
+        "year": 2005,
+        "amount": 36525
+      },
+      {
+        "year": 2006,
+        "amount": 35342
+      },
+      {
+        "year": 2007,
+        "amount": 34333
+      },
+      {
+        "year": 2008,
+        "amount": 35755
+      },
+      {
+        "year": 2009,
+        "amount": 34583
+      },
+      {
+        "year": 2010,
+        "amount": 33595
+      },
+      {
+        "year": 2011,
+        "amount": 32900
+      },
+      {
+        "year": 2012,
+        "amount": 30411
+      },
+      {
+        "year": 2013,
+        "amount": 29247
+      },
+      {
+        "year": 2014,
+        "amount": 26999
+      },
+      {
+        "year": 2015,
+        "amount": 25853
+      },
+      {
+        "year": 2016,
+        "amount": 29287
+      },
+      {
+        "year": 2017,
+        "amount": 30129
+      },
+      {
+        "year": 2018,
+        "amount": 30430
+      },
+      {
+        "year": 2019,
+        "amount": 29598
+      },
+      {
+        "year": 2020,
+        "amount": 36337
+      },
+      {
+        "year": 2021,
+        "amount": 37829
+      },
+      {
+        "year": 2022,
+        "amount": 37639
+      },
+      {
+        "year": 2023,
+        "amount": 36933
+      },
+      {
+        "year": 2024,
+        "amount": 37444
+      }
+    ],
+    "Poland": [
+      {
+        "year": 1970,
+        "amount": 5937
+      },
+      {
+        "year": 1971,
+        "amount": 6337
+      },
+      {
+        "year": 1972,
+        "amount": 6378
+      },
+      {
+        "year": 1973,
+        "amount": 6796
+      },
+      {
+        "year": 1974,
+        "amount": 6866
+      },
+      {
+        "year": 1975,
+        "amount": 7314
+      },
+      {
+        "year": 1976,
+        "amount": 7608
+      },
+      {
+        "year": 1977,
+        "amount": 8094
+      },
+      {
+        "year": 1978,
+        "amount": 7760
+      },
+      {
+        "year": 1979,
+        "amount": 7797
+      },
+      {
+        "year": 1980,
+        "amount": 7363
+      },
+      {
+        "year": 1981,
+        "amount": 7442
+      },
+      {
+        "year": 1982,
+        "amount": 8206
+      },
+      {
+        "year": 1983,
+        "amount": 7299
+      },
+      {
+        "year": 1984,
+        "amount": 8245
+      },
+      {
+        "year": 1985,
+        "amount": 8889
+      },
+      {
+        "year": 1986,
+        "amount": 9224
+      },
+      {
+        "year": 1987,
+        "amount": 8966
+      },
+      {
+        "year": 1988,
+        "amount": 9270
+      },
+      {
+        "year": 1989,
+        "amount": 7532
+      },
+      {
+        "year": 1990,
+        "amount": 7824
+      },
+      {
+        "year": 1991,
+        "amount": 5509
+      },
+      {
+        "year": 1992,
+        "amount": 5337
+      },
+      {
+        "year": 1993,
+        "amount": 5850
+      },
+      {
+        "year": 1994,
+        "amount": 5840
+      },
+      {
+        "year": 1995,
+        "amount": 5876
+      },
+      {
+        "year": 1996,
+        "amount": 6184
+      },
+      {
+        "year": 1997,
+        "amount": 6776
+      },
+      {
+        "year": 1998,
+        "amount": 7038
+      },
+      {
+        "year": 1999,
+        "amount": 6929
+      },
+      {
+        "year": 2000,
+        "amount": 6735
+      },
+      {
+        "year": 2001,
+        "amount": 6945
+      },
+      {
+        "year": 2002,
+        "amount": 7065
+      },
+      {
+        "year": 2003,
+        "amount": 7351
+      },
+      {
+        "year": 2004,
+        "amount": 7700
+      },
+      {
+        "year": 2005,
+        "amount": 8225
+      },
+      {
+        "year": 2006,
+        "amount": 8743
+      },
+      {
+        "year": 2007,
+        "amount": 9877
+      },
+      {
+        "year": 2008,
+        "amount": 8984
+      },
+      {
+        "year": 2009,
+        "amount": 9476
+      },
+      {
+        "year": 2010,
+        "amount": 9928
+      },
+      {
+        "year": 2011,
+        "amount": 10067
+      },
+      {
+        "year": 2012,
+        "amount": 10155
+      },
+      {
+        "year": 2013,
+        "amount": 10073
+      },
+      {
+        "year": 2014,
+        "amount": 11206
+      },
+      {
+        "year": 2015,
+        "amount": 13336
+      },
+      {
+        "year": 2016,
+        "amount": 12598
+      },
+      {
+        "year": 2017,
+        "amount": 12882
+      },
+      {
+        "year": 2018,
+        "amount": 14591
+      },
+      {
+        "year": 2019,
+        "amount": 14837
+      },
+      {
+        "year": 2020,
+        "amount": 16980
+      },
+      {
+        "year": 2021,
+        "amount": 17836
+      },
+      {
+        "year": 2022,
+        "amount": 18057
+      },
+      {
+        "year": 2023,
+        "amount": 26343
+      },
+      {
+        "year": 2024,
+        "amount": 34488
+      }
+    ],
+    "Australia": [
+      {
+        "year": 1950,
+        "amount": 3111
+      },
+      {
+        "year": 1951,
+        "amount": 4469
+      },
+      {
+        "year": 1952,
+        "amount": 5707
+      },
+      {
+        "year": 1953,
+        "amount": 5745
+      },
+      {
+        "year": 1954,
+        "amount": 5152
+      },
+      {
+        "year": 1955,
+        "amount": 5232
+      },
+      {
+        "year": 1956,
+        "amount": 5071
+      },
+      {
+        "year": 1957,
+        "amount": 4867
+      },
+      {
+        "year": 1958,
+        "amount": 4823
+      },
+      {
+        "year": 1959,
+        "amount": 4850
+      },
+      {
+        "year": 1960,
+        "amount": 4772
+      },
+      {
+        "year": 1961,
+        "amount": 4768
+      },
+      {
+        "year": 1962,
+        "amount": 4969
+      },
+      {
+        "year": 1963,
+        "amount": 5588
+      },
+      {
+        "year": 1964,
+        "amount": 6470
+      },
+      {
+        "year": 1965,
+        "amount": 7472
+      },
+      {
+        "year": 1966,
+        "amount": 9094
+      },
+      {
+        "year": 1967,
+        "amount": 10698
+      },
+      {
+        "year": 1968,
+        "amount": 11498
+      },
+      {
+        "year": 1969,
+        "amount": 11115
+      },
+      {
+        "year": 1970,
+        "amount": 10392
+      },
+      {
+        "year": 1971,
+        "amount": 10098
+      },
+      {
+        "year": 1972,
+        "amount": 10103
+      },
+      {
+        "year": 1973,
+        "amount": 9678
+      },
+      {
+        "year": 1974,
+        "amount": 9544
+      },
+      {
+        "year": 1975,
+        "amount": 9699
+      },
+      {
+        "year": 1976,
+        "amount": 9847
+      },
+      {
+        "year": 1977,
+        "amount": 9899
+      },
+      {
+        "year": 1978,
+        "amount": 10008
+      },
+      {
+        "year": 1979,
+        "amount": 10343
+      },
+      {
+        "year": 1980,
+        "amount": 10877
+      },
+      {
+        "year": 1981,
+        "amount": 11613
+      },
+      {
+        "year": 1982,
+        "amount": 12209
+      },
+      {
+        "year": 1983,
+        "amount": 12630
+      },
+      {
+        "year": 1984,
+        "amount": 13617
+      },
+      {
+        "year": 1985,
+        "amount": 14278
+      },
+      {
+        "year": 1986,
+        "amount": 14360
+      },
+      {
+        "year": 1987,
+        "amount": 13872
+      },
+      {
+        "year": 1988,
+        "amount": 13380
+      },
+      {
+        "year": 1989,
+        "amount": 13267
+      },
+      {
+        "year": 1990,
+        "amount": 13332
+      },
+      {
+        "year": 1991,
+        "amount": 13560
+      },
+      {
+        "year": 1992,
+        "amount": 13955
+      },
+      {
+        "year": 1993,
+        "amount": 14484
+      },
+      {
+        "year": 1994,
+        "amount": 14646
+      },
+      {
+        "year": 1995,
+        "amount": 14187
+      },
+      {
+        "year": 1996,
+        "amount": 14013
+      },
+      {
+        "year": 1997,
+        "amount": 14265
+      },
+      {
+        "year": 1998,
+        "amount": 14963
+      },
+      {
+        "year": 1999,
+        "amount": 15695
+      },
+      {
+        "year": 2000,
+        "amount": 15652
+      },
+      {
+        "year": 2001,
+        "amount": 16272
+      },
+      {
+        "year": 2002,
+        "amount": 16971
+      },
+      {
+        "year": 2003,
+        "amount": 17287
+      },
+      {
+        "year": 2004,
+        "amount": 18000
+      },
+      {
+        "year": 2005,
+        "amount": 18629
+      },
+      {
+        "year": 2006,
+        "amount": 19624
+      },
+      {
+        "year": 2007,
+        "amount": 20830
+      },
+      {
+        "year": 2008,
+        "amount": 21589
+      },
+      {
+        "year": 2009,
+        "amount": 23216
+      },
+      {
+        "year": 2010,
+        "amount": 23486
+      },
+      {
+        "year": 2011,
+        "amount": 23160
+      },
+      {
+        "year": 2012,
+        "amount": 22349
+      },
+      {
+        "year": 2013,
+        "amount": 22155
+      },
+      {
+        "year": 2014,
+        "amount": 24045
+      },
+      {
+        "year": 2015,
+        "amount": 26505
+      },
+      {
+        "year": 2016,
+        "amount": 29024
+      },
+      {
+        "year": 2017,
+        "amount": 28972
+      },
+      {
+        "year": 2018,
+        "amount": 28281
+      },
+      {
+        "year": 2019,
+        "amount": 29047
+      },
+      {
+        "year": 2020,
+        "amount": 30467
+      },
+      {
+        "year": 2021,
+        "amount": 32540
+      },
+      {
+        "year": 2022,
+        "amount": 32764
+      },
+      {
+        "year": 2023,
+        "amount": 32388
+      },
+      {
+        "year": 2024,
+        "amount": 33006
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "countries": [
+    {
+      "country": "Pakistan",
+      "slug": "pakistan",
+      "years": "2004-2018",
+      "totalStrikes": 430,
+      "minKilled": 2515,
+      "maxKilled": 4026,
+      "minCivilians": 424,
+      "maxCivilians": 969,
+      "minChildren": 172,
+      "maxChildren": 207,
+      "minInjured": 1162,
+      "maxInjured": 1749,
+      "byPresident": [
+        {
+          "president": "Bush",
+          "strikes": 51,
+          "minKilled": 410,
+          "maxKilled": 595
+        },
+        {
+          "president": "Obama",
+          "strikes": 373,
+          "minKilled": 2089,
+          "maxKilled": 3406
+        },
+        {
+          "president": "Trump",
+          "strikes": 6,
+          "minKilled": 16,
+          "maxKilled": 25
+        }
+      ],
+      "byYear": [
+        {
+          "year": 2004,
+          "strikes": 1
+        },
+        {
+          "year": 2005,
+          "strikes": 3
+        },
+        {
+          "year": 2006,
+          "strikes": 2
+        },
+        {
+          "year": 2007,
+          "strikes": 5
+        },
+        {
+          "year": 2008,
+          "strikes": 38
+        },
+        {
+          "year": 2009,
+          "strikes": 54
+        },
+        {
+          "year": 2010,
+          "strikes": 128
+        },
+        {
+          "year": 2011,
+          "strikes": 75
+        },
+        {
+          "year": 2012,
+          "strikes": 50
+        },
+        {
+          "year": 2013,
+          "strikes": 27
+        },
+        {
+          "year": 2014,
+          "strikes": 25
+        },
+        {
+          "year": 2015,
+          "strikes": 13
+        },
+        {
+          "year": 2016,
+          "strikes": 3
+        },
+        {
+          "year": 2017,
+          "strikes": 5
+        },
+        {
+          "year": 2018,
+          "strikes": 1
+        }
+      ],
+      "notes": "Pakistan drone campaign was the most intense and controversial. CIA-operated Predator and Reaper drones struck targets primarily in FATA (Federally Administered Tribal Areas). The program was never officially acknowledged by the US until 2012.",
+      "controversies": "Double-tap strikes (hitting rescue workers), signature strikes (targeting behavior patterns not individuals), killing of US citizen Anwar al-Awlaki's 16-year-old son Abdulrahman."
+    },
+    {
+      "country": "Yemen",
+      "slug": "yemen",
+      "years": "2002-2023",
+      "totalStrikes": 374,
+      "minKilled": 1020,
+      "maxKilled": 1389,
+      "minCivilians": 100,
+      "maxCivilians": 204,
+      "minChildren": 44,
+      "maxChildren": 52,
+      "minInjured": 190,
+      "maxInjured": 332,
+      "byPresident": [
+        {
+          "president": "Bush",
+          "strikes": 2,
+          "minKilled": 18,
+          "maxKilled": 24
+        },
+        {
+          "president": "Obama",
+          "strikes": 185,
+          "minKilled": 562,
+          "maxKilled": 768
+        },
+        {
+          "president": "Trump",
+          "strikes": 187,
+          "minKilled": 440,
+          "maxKilled": 597
+        }
+      ],
+      "byYear": [
+        {
+          "year": 2002,
+          "strikes": 1
+        },
+        {
+          "year": 2009,
+          "strikes": 9
+        },
+        {
+          "year": 2010,
+          "strikes": 11
+        },
+        {
+          "year": 2011,
+          "strikes": 16
+        },
+        {
+          "year": 2012,
+          "strikes": 54
+        },
+        {
+          "year": 2013,
+          "strikes": 26
+        },
+        {
+          "year": 2014,
+          "strikes": 21
+        },
+        {
+          "year": 2015,
+          "strikes": 25
+        },
+        {
+          "year": 2016,
+          "strikes": 42
+        },
+        {
+          "year": 2017,
+          "strikes": 131
+        },
+        {
+          "year": 2018,
+          "strikes": 36
+        },
+        {
+          "year": 2019,
+          "strikes": 5
+        },
+        {
+          "year": 2020,
+          "strikes": 4
+        },
+        {
+          "year": 2021,
+          "strikes": 1
+        },
+        {
+          "year": 2022,
+          "strikes": 3
+        }
+      ],
+      "notes": "US drone strikes in Yemen targeted al-Qaeda in the Arabian Peninsula (AQAP). Trump dramatically escalated strikes — more in his first year than Obama's entire presidency. The first known US drone strike was in Yemen (2002)."
+    },
+    {
+      "country": "Somalia",
+      "slug": "somalia",
+      "years": "2003-2023",
+      "totalStrikes": 283,
+      "minKilled": 1210,
+      "maxKilled": 1783,
+      "minCivilians": 12,
+      "maxCivilians": 149,
+      "minChildren": 0,
+      "maxChildren": 5,
+      "minInjured": 60,
+      "maxInjured": 147,
+      "byPresident": [
+        {
+          "president": "Bush",
+          "strikes": 7,
+          "minKilled": 24,
+          "maxKilled": 55
+        },
+        {
+          "president": "Obama",
+          "strikes": 47,
+          "minKilled": 311,
+          "maxKilled": 502
+        },
+        {
+          "president": "Trump",
+          "strikes": 202,
+          "minKilled": 801,
+          "maxKilled": 1109
+        },
+        {
+          "president": "Biden",
+          "strikes": 27,
+          "minKilled": 74,
+          "maxKilled": 117
+        }
+      ],
+      "byYear": [
+        {
+          "year": 2003,
+          "strikes": 1
+        },
+        {
+          "year": 2007,
+          "strikes": 3
+        },
+        {
+          "year": 2008,
+          "strikes": 3
+        },
+        {
+          "year": 2009,
+          "strikes": 2
+        },
+        {
+          "year": 2010,
+          "strikes": 2
+        },
+        {
+          "year": 2011,
+          "strikes": 11
+        },
+        {
+          "year": 2012,
+          "strikes": 6
+        },
+        {
+          "year": 2013,
+          "strikes": 5
+        },
+        {
+          "year": 2014,
+          "strikes": 5
+        },
+        {
+          "year": 2015,
+          "strikes": 14
+        },
+        {
+          "year": 2016,
+          "strikes": 16
+        },
+        {
+          "year": 2017,
+          "strikes": 37
+        },
+        {
+          "year": 2018,
+          "strikes": 48
+        },
+        {
+          "year": 2019,
+          "strikes": 63
+        },
+        {
+          "year": 2020,
+          "strikes": 53
+        },
+        {
+          "year": 2021,
+          "strikes": 9
+        },
+        {
+          "year": 2022,
+          "strikes": 12
+        },
+        {
+          "year": 2023,
+          "strikes": 6
+        }
+      ],
+      "notes": "Somalia saw the most dramatic escalation under Trump, who declared southern Somalia an \"area of active hostilities\" in 2017. AFRICOM conducted more strikes in Somalia than the previous two administrations combined."
+    },
+    {
+      "country": "Afghanistan",
+      "slug": "afghanistan",
+      "years": "2015-2021",
+      "totalStrikes": 13072,
+      "minKilled": 4126,
+      "maxKilled": 10076,
+      "minCivilians": 300,
+      "maxCivilians": 909,
+      "minChildren": 66,
+      "maxChildren": 184,
+      "minInjured": 658,
+      "maxInjured": 1769,
+      "byPresident": [
+        {
+          "president": "Obama",
+          "strikes": 1337,
+          "minKilled": 510,
+          "maxKilled": 1297
+        },
+        {
+          "president": "Trump",
+          "strikes": 11502,
+          "minKilled": 3468,
+          "maxKilled": 8399
+        },
+        {
+          "president": "Biden",
+          "strikes": 233,
+          "minKilled": 148,
+          "maxKilled": 380
+        }
+      ],
+      "byYear": [
+        {
+          "year": 2015,
+          "strikes": 411
+        },
+        {
+          "year": 2016,
+          "strikes": 1337
+        },
+        {
+          "year": 2017,
+          "strikes": 2911
+        },
+        {
+          "year": 2018,
+          "strikes": 3199
+        },
+        {
+          "year": 2019,
+          "strikes": 3346
+        },
+        {
+          "year": 2020,
+          "strikes": 1631
+        },
+        {
+          "year": 2021,
+          "strikes": 237
+        }
+      ],
+      "notes": "Afghanistan was the most heavily droned country. Under Trump, drone strikes nearly tripled compared to Obama. The last US drone strike in Afghanistan killed 10 civilians including 7 children (Zemari Ahmadi family, Aug 29, 2021).",
+      "controversies": "The Zemari Ahmadi strike killed an aid worker and his family, initially called a \"righteous strike\" by Pentagon, later admitted as a \"tragic mistake.\" No one was disciplined."
+    },
+    {
+      "country": "Libya",
+      "slug": "libya",
+      "years": "2011-2019",
+      "totalStrikes": 550,
+      "minKilled": null,
+      "maxKilled": null,
+      "minCivilians": null,
+      "maxCivilians": null,
+      "minChildren": null,
+      "maxChildren": null,
+      "minInjured": null,
+      "maxInjured": null,
+      "byPresident": [
+        {
+          "president": "Obama",
+          "strikes": 496
+        },
+        {
+          "president": "Trump",
+          "strikes": 54
+        }
+      ],
+      "byYear": [
+        {
+          "year": 2011,
+          "strikes": 145
+        },
+        {
+          "year": 2012,
+          "strikes": 0
+        },
+        {
+          "year": 2013,
+          "strikes": 0
+        },
+        {
+          "year": 2014,
+          "strikes": 0
+        },
+        {
+          "year": 2015,
+          "strikes": 4
+        },
+        {
+          "year": 2016,
+          "strikes": 497
+        },
+        {
+          "year": 2017,
+          "strikes": 4
+        },
+        {
+          "year": 2018,
+          "strikes": 3
+        },
+        {
+          "year": 2019,
+          "strikes": 4
+        }
+      ],
+      "notes": "Libya was struck as part of Operation Unified Protector (NATO, 2011) and then in an anti-ISIS campaign in Sirte (2016). The 2011 intervention toppled Gaddafi; Libya has been in civil war ever since."
+    }
+  ],
+  "totals": {
+    "totalStrikes": 14709,
+    "minKilled": 8871,
+    "maxKilled": 17274,
+    "minCivilians": 836,
+    "maxCivilians": 2231,
+    "minChildren": 282,
+    "maxChildren": 448
+  }
+}

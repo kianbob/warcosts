@@ -426,6 +426,21 @@ export default function SpendingPage() {
         </ul>
       </div>
 
+      {/* Year-by-Year and Global Links */}
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Explore Spending Data</h3>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <Link href="/global-spending" className="bg-red-100 text-red-800 px-4 py-2 rounded-lg font-semibold hover:bg-red-200 transition">🌍 Global Spending Comparison</Link>
+          <Link href="/spending/2024" className="bg-red-100 text-red-800 px-4 py-2 rounded-lg font-semibold hover:bg-red-200 transition">📊 2024 Detail</Link>
+        </div>
+        <p className="text-sm text-stone-600 mb-2">Year-by-year spending detail (1949–2024):</p>
+        <div className="flex flex-wrap gap-1">
+          {Array.from({ length: 76 }, (_, i) => 1949 + i).map(y => (
+            <Link key={y} href={`/spending/${y}`} className="text-xs bg-stone-100 hover:bg-red-100 px-2 py-1 rounded transition text-stone-700 hover:text-red-800">{y}</Link>
+          ))}
+        </div>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
