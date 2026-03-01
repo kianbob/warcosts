@@ -36,6 +36,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/us-military-spending', '/cost-of-war', '/us-wars-list',
     '/veteran-suicide', '/defense-budget',
     '/nuclear', '/veterans', '/intelligence', '/modern-tactics',
+    '/bases/directory', '/bases/countries', '/bases/states',
+    '/weapons', '/contractors/directory',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
@@ -82,6 +84,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   decades.forEach(d => {
     entries.push({ url: `${base}/decades/${d}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
   })
+
+  // Base detail pages
+  try {
+    const baseIndex = loadData('base-index.json')
+    baseIndex.forEach((b: any) => {
+      entries.push({ url: `${base}/bases/${b.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 })
+    })
+  } catch {}
+
+  // Weapon detail pages
+  try {
+    const weapons = loadData('weapons.json')
+    weapons.forEach((w: any) => {
+      entries.push({ url: `${base}/weapons/${w.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
 
   return entries
 }

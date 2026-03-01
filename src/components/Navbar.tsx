@@ -26,6 +26,8 @@ const navItems = [
       { label: 'Foreign Aid', href: '/foreign-aid' },
       { label: 'Arms Sales', href: '/arms-sales' },
       { label: 'Defense Contractors', href: '/contractors' },
+      { label: 'Contractor Directory', href: '/contractors/directory' },
+      { label: 'Weapons Systems', href: '/weapons' },
       { label: 'What Else Could This Buy?', href: '/opportunity-cost' },
     ],
   },
@@ -41,6 +43,9 @@ const navItems = [
     label: 'Empire',
     items: [
       { label: 'Overseas Bases', href: '/bases' },
+      { label: 'Base Directory (1,500+)', href: '/bases/directory' },
+      { label: 'Bases by Country', href: '/bases/countries' },
+      { label: 'Bases by State', href: '/bases/states' },
       { label: 'Troop Deployments', href: '/deployments' },
       { label: 'Regime Changes', href: '/regime-changes' },
       { label: 'Intelligence Agencies', href: '/intelligence' },
