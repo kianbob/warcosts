@@ -14,6 +14,7 @@ export default function WarClockPage() {
 
   useEffect(() => {
     document.title = 'War Clock — Real-Time US Military Spending | WarCosts'
+    if (!document.querySelector('meta[name="description"]')) { const m = document.createElement('meta'); m.name = 'description'; m.content = 'Watch US military spending tick up in real-time. $28,095 per second. $1.7M per minute. $101M per hour. $2.4B per day.'; document.head.appendChild(m); }
     const meta = document.querySelector('meta[name="description"]')
     if (meta) meta.setAttribute('content', 'Watch US military spending tick up in real time. $28,095 every second. $101 million every hour. $2.4 billion every day.')
     const id = setInterval(() => {

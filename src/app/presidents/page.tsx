@@ -23,6 +23,7 @@ export default function PresidentsPage() {
 
   useEffect(() => {
     document.title = 'Presidents at War — Who Spent the Most? | WarCosts'
+    if (!document.querySelector('meta[name="description"]')) { const m = document.createElement('meta'); m.name = 'description'; m.content = 'Which presidents waged the most wars and spent the most? 22 presidents ranked by conflicts, costs, and casualties.'; document.head.appendChild(m); }
     fetch('/data/presidents.json').then(r => r.json()).then(setData)
   }, [])
 
