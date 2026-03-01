@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-  description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 108 schoolgirls killed. Strait of Hormuz closed. Dubai bombed. Who benefits? Not the American people.',
+  description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 3 US troops dead. 108 schoolgirls killed. 1,000+ targets hit. Senate kills War Powers vote 53-47. Strait of Hormuz closed. Who benefits?',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
     description: 'Operation Epic Fury launched without congressional approval. Who benefits? Not the American people.',
@@ -40,7 +40,14 @@ const timeline = [
   { date: 'Feb 28', event: 'Iran closes the Strait of Hormuz — 20% of global oil and 20% of global LNG flows through it. Bloomberg warns of major oil price spike. Cannot be replaced.' },
   { date: 'Feb 28', event: 'Houthis announce resumption of Red Sea attacks.' },
   { date: 'Mar 1', event: 'Iranian state media confirms Khamenei is dead. 40 days of mourning declared. Iran\'s parliament security chair warns: "You have started down a path that is beyond your control."' },
-  { date: 'Mar 1', event: 'Tucker Carlson calls the attack "absolutely disgusting and evil." Rand Paul and Tim Kaine co-sponsor War Powers resolution. MAGA base fractures. No end in sight.' },
+  { date: 'Mar 1', event: 'Tucker Carlson calls the attack "absolutely disgusting and evil." Rand Paul and Tim Kaine co-sponsor War Powers resolution. MAGA base fractures.' },
+  { date: 'Mar 1', event: 'US and Israel launch second wave of intensive strikes across Iran. CENTCOM announces 1,000+ targets hit. Trump says 48 Iranian leaders killed and 9 Iranian naval vessels sunk.' },
+  { date: 'Mar 1', event: 'Pentagon confirms 3 US service members killed in action, at least 5 seriously wounded — the first American combat casualties of Operation Epic Fury.' },
+  { date: 'Mar 1', event: 'Iran\'s IRGC announces sixth wave of "extensive missile and drone" attacks targeting Israeli military assets and 27 US bases across the Middle East. Blasts heard in Dubai, Doha, Erbil. Beit Shemesh (Israel) hit — 9 killed, 3 injured.' },
+  { date: 'Mar 1', event: 'Trump tells CNBC operations are "ahead of schedule" and estimates the campaign will take "four weeks or less." Says he\'s "willing to talk" to new Iranian leadership.' },
+  { date: 'Mar 1', event: 'Senate votes 53-47 AGAINST Kaine-Paul War Powers Resolution. Rand Paul is the only Republican to vote yes. The war continues without congressional authorization.' },
+  { date: 'Mar 1', event: 'Oil majors and top trading houses suspend crude shipments through Strait of Hormuz. Analysts warn oil could exceed $100/barrel. Insurance premiums for tankers triple. Thousands of flights cancelled across the Middle East.' },
+  { date: 'Mar 1 (eve)', event: 'Trump posts evening video vowing to "avenge" fallen service members. Says "there will likely be more" US casualties. Iran\'s FM: "We will resist as long as it takes." No end in sight.' },
 ]
 
 const regimeChangeHistory = [
@@ -83,12 +90,12 @@ const whoBenefits = [
 
 const whoLoses = [
   { who: 'American Taxpayers', how: 'Operation Midnight Hammer cost $2.25B for 37 hours. Epic Fury is open-ended. Iraq cost $2.4T over 8 years. Afghanistan cost $2.3T over 20 years. Iran is bigger than both combined (88M people, 2.5x Iraq\'s size). National debt: $38 trillion. Interest alone: $1T/year. We literally cannot afford this.' },
-  { who: 'American Troops', how: 'Iran has already fired missiles at US bases in Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, and UAE. 3 US service members killed, ~3 injured in first 24 hours. Troops are in harm\'s way for a war Congress never authorized and the American people never asked for.' },
+  { who: 'American Troops', how: 'Iran fired missiles at 27 US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, and UAE. 3 US service members killed in action, at least 5 seriously wounded by Day 2. Trump says "there will likely be more." Troops are in harm\'s way for a war Congress never authorized — the Senate voted 53-47 against the War Powers Resolution. Rand Paul was the only Republican to vote yes.' },
   { who: 'Iranian Children', how: '108 people killed at Shajareh Tayyebeh girls\' elementary school in Minab — 170 students ages 7-12 were in morning classes when the missile struck. The Guardian: "At least 100 children had been killed." Rescue workers searched wreckage; one man held up a child\'s knapsack. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
   { who: 'Iranian Civilians', how: 'Iran Red Crescent: 201 killed, 747 injured. Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan. Iran\'s foreign ministry says strikes targeted "non-military sites in various cities." Many of these people were protesting their own government just weeks ago.' },
   { who: 'The Entire Gulf Region', how: 'Dubai\'s Fairmont hotel on Palm Jumeirah in flames. Airports in Dubai and Abu Dhabi hit. 1 killed in Abu Dhabi from debris. 4 injured in Palm Jumeirah. 3 Kuwaiti soldiers injured. 12 total injured in Kuwait. British bases in Cyprus targeted. Bahrain evacuated around US base. 7+ countries under fire for a war they didn\'t start.' },
   { who: 'Global Economy', how: 'Strait of Hormuz CLOSED — 20% of world oil, 20% of world LNG. Cannot be replaced (CNBC). Oil heading to $80-100/barrel minimum, $150+ if prolonged. War-risk insurance premiums tripled. Gas prices, food prices, shipping costs — all rising. Every American pays.' },
-  { who: 'The Constitution', how: 'Another war launched without congressional authorization. Congress was briefed by Rubio to the "gang of eight" on Tuesday — 4 days before the bombs fell. No vote. Sen. Jack Reed: "Against the clear wishes of the American people, President Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought congressional authority for, and for which he has no endgame."' },
+  { who: 'The Constitution', how: 'Another war launched without congressional authorization. Congress was briefed by Rubio to the "gang of eight" on Tuesday — 4 days before the bombs fell. When Kaine and Paul forced a War Powers vote, the Senate killed it 53-47. Jack Reed: "Against the clear wishes of the American people, President Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought congressional authority for, and for which he has no endgame." Trump now says the campaign will last "four weeks or less" — the same timeframe promised for every war that became a decade.' },
   { who: 'The MAGA Movement', how: 'Trump ran on ending forever wars. His own base is fracturing. Tucker Carlson: "Absolutely disgusting and evil." Rand Paul co-sponsors War Powers resolution to block it. The Libertarian Alliance: "There is no good reason to sacrifice American soldiers and sailors in a war on Iran." This wasn\'t what they voted for.' },
 ]
 
@@ -102,6 +109,7 @@ export default function Iran2026Page() {
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
           <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 1, 2026</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
@@ -112,7 +120,8 @@ export default function Iran2026Page() {
           joint strike campaign against Iran aimed at regime change. They assassinated the Supreme Leader.
           They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
           108 people were killed at a girls&apos; elementary school. Iran closed the Strait of Hormuz and fired missiles at
-          7 countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
+          27 US bases across 7 countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
+          By Day 2: 3 US troops dead, 5 seriously wounded, 1,000+ targets hit, 48 Iranian leaders killed, 9 Iranian warships sunk.
         </p>
         <p className="text-stone-400 text-lg">
           No congressional vote. No declaration of war. No exit strategy. No clear American interest.
