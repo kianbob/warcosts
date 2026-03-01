@@ -24,6 +24,11 @@ export async function GET() {
     { slug: 'private-armies', title: 'Private Armies', desc: 'Blackwater, Wagner, DynCorp. 50,000+ contractors in Iraq. 8,000 deaths excluded from counts.' },
     { slug: 'hybrid-warfare', title: 'Hybrid Warfare', desc: 'Russia\'s little green men. China\'s artificial islands. Iran\'s proxy network. War without declaration.' },
     { slug: 'economic-warfare', title: 'Economic Warfare', desc: '$300B frozen Russian assets. SWIFT weaponization. Chip bans. The weaponized dollar.' },
+    { slug: 'cyber-warfare', title: 'Cyber Warfare: The Invisible Battlefield With No Rules', desc: 'Stuxnet, SolarWinds, NotPetya. $11B Cyber Command budget. No Geneva Convention for cyberspace.' },
+    { slug: 'sanctions-warfare', title: 'Sanctions Warfare: The Weapon That Kills More Than Bombs', desc: 'Iraq sanctions killed 500,000 children. Sanctions are undeclared war against civilians.' },
+    { slug: 'shadow-wars', title: 'Shadow Wars: America\'s Secret Wars in 134+ Countries', desc: 'JSOC in 134+ countries. 70,000 special operators. Kill lists with no congressional oversight.' },
+    { slug: 'ai-weapons', title: 'AI Weapons: Autonomous Killing Machines', desc: 'Lavender AI, Kargu-2 drones, Replicator initiative. Machines deciding who dies.' },
+    { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'NSA collects ALL phone metadata. 278K warrantless FBI searches. The 4th Amendment is dead.' },
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -25,6 +25,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/modern-wars', '/tools/cost-calculator',
     '/analysis/forever-wars', '/analysis/ukraine-proxy', '/analysis/iran-2026',
     '/analysis/israel-lobby',
+    '/analysis/cyber-warfare', '/analysis/sanctions-warfare',
+    '/analysis/shadow-wars', '/analysis/ai-weapons', '/analysis/surveillance-state',
     '/analysis/information-warfare', '/analysis/space-warfare',
     '/analysis/private-armies', '/analysis/hybrid-warfare',
     '/analysis/economic-warfare',

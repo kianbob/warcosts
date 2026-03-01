@@ -10,6 +10,16 @@ export const metadata: Metadata = {
 
 const sections = [
   {
+    theme: 'Modern Warfare',
+    articles: [
+      { slug: 'cyber-warfare', title: 'Cyber Warfare: The Invisible Battlefield', desc: 'Stuxnet, SolarWinds, NotPetya. $11B Cyber Command budget. No Geneva Convention, no rules, no accountability.' },
+      { slug: 'sanctions-warfare', title: 'Sanctions Warfare: The Weapon That Kills More Than Bombs', desc: 'Iraq sanctions killed 500,000 children. Cuba\'s 60-year embargo. $7B frozen from starving Afghanistan.' },
+      { slug: 'shadow-wars', title: 'Shadow Wars: America\'s Secret Wars in 134+ Countries', desc: 'JSOC in 134+ countries. 70,000 special operators. Kill lists. Classified budgets. No congressional vote.' },
+      { slug: 'ai-weapons', title: 'AI Weapons: Autonomous Killing Machines', desc: 'Lavender AI marked 37,000 Palestinians for assassination. Kargu-2 may have killed without human input.' },
+      { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'NSA collects ALL phone metadata. 278K warrantless FBI searches. $80B+ intelligence budget. The 4th Amendment is dead.' },
+    ],
+  },
+  {
     theme: 'Recent Conflicts',
     articles: [
       { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
