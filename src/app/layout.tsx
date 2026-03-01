@@ -9,13 +9,13 @@ const heading = Playfair_Display({ subsets: ['latin'], variable: '--font-heading
 const body = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: { default: 'OpenWar — The Cost of American Empire', template: '%s | OpenWar' },
+  title: { default: 'WarCosts — The Price of American Empire', template: '%s | WarCosts' },
   description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty. Data-driven analysis of American foreign policy.',
-  metadataBase: new URL('https://www.openwar.us'),
+  metadataBase: new URL('https://www.warcosts.org'),
   openGraph: {
     type: 'website',
-    siteName: 'OpenWar',
-    title: 'OpenWar — The Cost of American Empire',
+    siteName: 'WarCosts',
+    title: 'WarCosts — The Cost of American Empire',
     description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty.',
   },
   twitter: { card: 'summary_large_image' },

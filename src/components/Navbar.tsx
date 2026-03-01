@@ -44,7 +44,7 @@ const navItems = [
   {
     label: 'About',
     items: [
-      { label: 'About OpenWar', href: '/about' },
+      { label: 'About WarCosts', href: '/about' },
       { label: 'Methodology', href: '/methodology' },
       { label: 'FAQ', href: '/faq' },
       { label: 'Sources', href: '/sources' },
@@ -60,7 +60,7 @@ export default function Navbar() {
     <nav className="bg-stone-900 text-white sticky top-0 z-50 border-b border-stone-700">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">
         <Link href="/" className="text-xl font-bold font-[family-name:var(--font-heading)] text-red-500 hover:text-red-400 transition-colors">
-          OpenWar
+          WarCosts
         </Link>
 
         <div className="hidden lg:flex items-center gap-1">
