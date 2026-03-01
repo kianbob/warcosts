@@ -23,6 +23,11 @@ const sections = [
     theme: 'Recent Conflicts',
     articles: [
       { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
+      { slug: 'cost-of-iran', title: 'What Will Iran Cost?', desc: 'Projecting the price of Operation Epic Fury — from $20B air campaign to $5T+ occupation.' },
+      { slug: 'hormuz-crisis', title: 'The Strait of Hormuz Crisis', desc: 'How one 21-mile waterway could crash the global economy. Iran closed it. Now what?' },
+      { slug: 'aipac-war-machine', title: 'Follow the Money: AIPAC and the Path to War', desc: '$221M in political spending. The lobby that killed the Iran deal and shaped the path to war.' },
+      { slug: 'war-profiteering', title: 'War Is a Racket: Who Gets Rich', desc: 'Defense stocks up 1,200%+ since 9/11. CEO pay vs soldier pay. The revolving door.' },
+      { slug: 'what-could-we-buy', title: 'What $11.6 Trillion Could Have Bought', desc: 'Universal healthcare, free college, clean water for Earth — all cheaper than America\'s wars.' },
       { slug: 'forever-wars', title: 'The Forever Wars: How 60 Words Changed Everything', desc: 'The 2001 AUMF — 60 words that enabled 25 years of global war across 78 countries.' },
       { slug: 'ukraine-proxy', title: '$66.9 Billion: America\'s Proxy War in Ukraine', desc: 'The largest military aid since WWII Lend-Lease. European security on the American tab.' },
       { slug: 'war-on-terror', title: 'The War on Terror: $8 Trillion Later', desc: '929,000 dead. Four countries destabilized. Two decades of endless war. Was any of it worth it?' },
