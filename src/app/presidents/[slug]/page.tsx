@@ -7,6 +7,40 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import { PresidentSpendingChart } from '@/components/charts/PresidentSpendingChart'
 
+// Alias map for common URL slugs that differ from slugify(name)
+const slugAliases: Record<string, string> = {
+  'george-w-bush': 'bush-jr',
+  'george-hw-bush': 'bush-sr',
+  'george-h-w-bush': 'bush-sr',
+  'theodore-roosevelt': 'roosevelt',
+  'lyndon-johnson': 'johnson',
+  'lyndon-b-johnson': 'johnson',
+  'john-f-kennedy': 'kennedy',
+  'richard-nixon': 'nixon',
+  'ronald-reagan': 'reagan',
+  'abraham-lincoln': 'lincoln',
+  'william-mckinley': 'mckinley',
+  'james-madison': 'madison',
+  'james-polk': 'polk',
+  'george-washington': 'washington',
+  'john-adams': 'adams',
+  'thomas-jefferson': 'jefferson',
+  'dwight-eisenhower': 'eisenhower',
+  'dwight-d-eisenhower': 'eisenhower',
+  'woodrow-wilson': 'wilson',
+  'harry-truman': 'truman',
+  'harry-s-truman': 'truman',
+  'bill-clinton': 'clinton',
+  'barack-obama': 'obama',
+  'donald-trump': 'trump',
+  'joe-biden': 'biden',
+  'joseph-biden': 'biden',
+}
+
+function resolveSlug(slug: string): string {
+  return slugAliases[slug] || slug
+}
+
 const partyMap: Record<string, string> = {
   'Washington': 'None', 'Adams': 'Federalist', 'Jefferson': 'Democratic-Republican',
   'Madison': 'Democratic-Republican', 'Polk': 'Democrat', 'Lincoln': 'Republican',
@@ -31,13 +65,21 @@ const presidentYears: Record<string, string> = {
 
 export async function generateStaticParams() {
   const presidents = loadData('presidents.json')
-  return presidents.map((p: any) => ({ slug: slugify(p.name) }))
+  const params = presidents.map((p: any) => ({ slug: slugify(p.name) }))
+  // Also generate pages for common alias slugs
+  for (const alias of Object.keys(slugAliases)) {
+    if (!params.some((p: any) => p.slug === alias)) {
+      params.push({ slug: alias })
+    }
+  }
+  return params
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
   const presidents = loadData('presidents.json')
-  const p = presidents.find((x: any) => slugify(x.name) === slug)
+  const resolved = resolveSlug(slug)
+  const p = presidents.find((x: any) => slugify(x.name) === resolved)
   if (!p) return { title: 'President Not Found' }
   return {
     title: `${p.name} — War Record: ${fmtMoney(p.totalCost)} Spent, ${fmt(p.totalUSDeaths)} Deaths`,
@@ -50,7 +92,8 @@ export default async function PresidentDetailPage({ params }: { params: Promise<
   const presidents = loadData('presidents.json')
   const spending = loadData('military-spending.json')
   const conflicts = loadData('conflicts.json')
-  const p = presidents.find((x: any) => slugify(x.name) === slug)
+  const resolved = resolveSlug(slug)
+  const p = presidents.find((x: any) => slugify(x.name) === resolved)
   if (!p) notFound()
 
   const party = partyMap[p.name] || '—'

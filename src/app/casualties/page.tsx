@@ -4,7 +4,16 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import { DeathsByConflictChart, CostByConflictChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const DeathsByConflictChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.DeathsByConflictChart),
+  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
+)
+const CostByConflictChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.CostByConflictChart),
+  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
+)
 
 export const metadata: Metadata = {
   title: 'US War Casualties — Over 1M Americans, 5.2M Civilians Dead | WarCosts',
@@ -87,12 +96,16 @@ export default function CasualtiesPage() {
       {/* Charts */}
       <div className="bg-white rounded-lg p-6 shadow-sm border mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Deaths by Conflict</h2>
-        <DeathsByConflictChart data={deathData} />
+        <div style={{ width: '100%', minHeight: 500 }}>
+          <DeathsByConflictChart data={deathData} />
+        </div>
       </div>
 
       <div className="bg-white rounded-lg p-6 shadow-sm border mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Cost by Conflict (2023 Dollars)</h2>
-        <CostByConflictChart data={costData} />
+        <div style={{ width: '100%', minHeight: 500 }}>
+          <CostByConflictChart data={costData} />
+        </div>
       </div>
 
       {/* Veteran Aftermath */}

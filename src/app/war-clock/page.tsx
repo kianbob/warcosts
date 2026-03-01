@@ -1,7 +1,6 @@
 // @ts-nocheck
 'use client'
 import { useState, useEffect, useRef } from 'react'
-import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 
 const COST_PER_SECOND = 28095
@@ -95,7 +94,6 @@ export default function WarClockPage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   )
 }
