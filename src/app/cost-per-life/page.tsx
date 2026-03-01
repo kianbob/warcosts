@@ -2,7 +2,6 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
-import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -81,7 +80,6 @@ export default function CostPerLifePage() {
 
         <BackToTop />
       </div>
-      <Footer />
     </>
   )
 }
