@@ -166,7 +166,7 @@ export default function HomePage() {
             { title: '19 Wars Without Congress', href: '/analysis/congressional-authority', desc: 'How presidents bypassed the Constitution to wage war.' },
             { title: 'Blowback', href: '/analysis/blowback', desc: 'How US interventions created the enemies of tomorrow.' },
             { title: 'The Military-Industrial Complex', href: '/analysis/military-industrial-complex', desc: 'Eisenhower warned us. We didn\'t listen.' },
-            { title: 'The Human Cost', href: '/analysis/human-cost', desc: '22 veterans take their own lives every day.' },
+            { title: 'The Human Cost', href: '/analysis/human-cost', desc: '17 veterans take their own lives every day.' },
             { title: 'Empire of Bases', href: '/analysis/empire-of-bases', desc: '750 bases in 80 countries. Why?' },
           ].map(a => (
             <Link key={a.href} href={a.href} className="bg-white rounded-lg border p-6 hover:shadow-md transition">

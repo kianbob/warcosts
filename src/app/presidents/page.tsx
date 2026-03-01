@@ -2,7 +2,6 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -35,7 +34,6 @@ export default function PresidentsPage() {
 
   return (
     <>
-      <Navbar />
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Presidents at War' }]} />
         <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Presidents at War</h1>

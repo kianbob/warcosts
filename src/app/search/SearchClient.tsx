@@ -30,6 +30,36 @@ export default function SearchClient() {
         className="w-full p-4 border rounded-lg text-lg mb-6 focus:outline-none focus:ring-2 focus:ring-primary"
       />
       {query && <p className="text-muted mb-4">{results.length} result{results.length !== 1 ? 's' : ''}</p>}
+
+      {!query && (
+        <div className="space-y-8">
+          <p className="text-muted">Search across {conflicts.length} conflicts, 14 analysis articles, and more</p>
+
+          <div>
+            <h2 className="font-semibold text-lg mb-3">Popular Searches</h2>
+            <div className="flex flex-wrap gap-2">
+              {['Vietnam', 'Iraq', 'Afghanistan', 'World War II', 'Korea', 'War on Terror'].map(term => (
+                <button key={term} onClick={() => setQuery(term)} className="bg-stone-100 hover:bg-stone-200 rounded-full px-4 py-2 text-sm transition">{term}</button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h2 className="font-semibold text-lg mb-3">Browse by Category</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {[
+                { label: 'All Conflicts', href: '/conflicts' },
+                { label: 'Analysis', href: '/analysis' },
+                { label: 'Spending', href: '/spending' },
+                { label: 'Casualties', href: '/casualties' },
+              ].map(c => (
+                <Link key={c.href} href={c.href} className="bg-white border rounded-lg p-4 text-center hover:shadow-md transition font-medium">{c.label}</Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="space-y-4">
         {results.map(c => (
           <Link key={c.id} href={`/conflicts/${c.id}`} className="block bg-white rounded-lg border p-4 hover:shadow-md transition">

@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'The Human Cost of War — Beyond the Numbers',
-  description: 'Over 1 million Americans killed, 5.2 million civilians dead, 22 veterans commit suicide daily. The human cost of American wars.',
+  description: 'Over 1 million Americans killed, 5.2 million civilians dead, 17 veterans commit suicide daily. The human cost of American wars.',
 }
 
 export default function HumanCostPage() {
@@ -24,7 +24,7 @@ export default function HumanCostPage() {
         {[
           { val: fmt(stats.totalUSDeaths), label: 'Americans Killed in War' },
           { val: `${(stats.totalCivilianDeaths/1e6).toFixed(1)}M+`, label: 'Civilians Killed' },
-          { val: '22/day', label: 'Veteran Suicides' },
+          { val: '17/day', label: 'Veteran Suicides' },
           { val: '37M', label: 'War on Terror Displaced' },
           { val: '1.8M', label: 'US Veterans with PTSD' },
           { val: '530K', label: 'Post-9/11 Veterans with TBI' },
@@ -38,7 +38,7 @@ export default function HumanCostPage() {
 
       <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">Veteran Suicide</h2>
-        <p>Every day, approximately 22 American veterans take their own lives. That&apos;s over 8,000 per year — more than twice the number of troops killed in the entire 20-year Afghanistan war.</p>
+        <p>Every day, approximately 17 American veterans take their own lives. That&apos;s over 6,200 per year — more than twice the number of troops killed in the entire 20-year Afghanistan war.</p>
         <p>Among post-9/11 veterans, the suicide rate is 1.5 times higher than for non-veterans of the same age. Many waited months or years for VA mental health appointments. The VA mental health budget is a fraction of what we spend on a single aircraft carrier.</p>
 
         <h2 className="font-[family-name:var(--font-heading)]">PTSD</h2>

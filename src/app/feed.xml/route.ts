@@ -5,7 +5,7 @@ export async function GET() {
     { slug: 'congressional-authority', title: '19 Wars Without Congress', desc: 'How presidents bypassed the Constitution to wage war.' },
     { slug: 'blowback', title: 'Blowback: How Interventions Create Enemies', desc: 'The CIA\'s term for unintended consequences — and it keeps happening.' },
     { slug: 'military-industrial-complex', title: 'The Military-Industrial Complex', desc: 'Eisenhower warned us. We didn\'t listen.' },
-    { slug: 'human-cost', title: 'The Human Cost', desc: '22 veterans take their own lives every day.' },
+    { slug: 'human-cost', title: 'The Human Cost', desc: '17 veterans take their own lives every day.' },
     { slug: 'empire-of-bases', title: 'Empire of Bases', desc: '750 bases in 80 countries. More than any empire in history.' },
   ]
 

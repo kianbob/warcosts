@@ -1,7 +1,6 @@
 // @ts-nocheck
 'use client'
 import { useState, useEffect, useRef } from 'react'
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 
@@ -29,7 +28,6 @@ export default function WarClockPage() {
 
   return (
     <>
-      <Navbar />
       <div className="min-h-screen bg-stone-950 text-white">
         <div className="max-w-5xl mx-auto px-4 py-16 text-center">
           <p className="text-stone-500 text-sm uppercase tracking-widest mb-4">US Military Spending — Right Now</p>

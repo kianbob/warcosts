@@ -1,7 +1,7 @@
 // @ts-nocheck
 'use client'
 import { useState } from 'react'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Cell } from 'recharts'
 
 const SECTORS = [
   { sector: 'Education', jobs: 13, color: '#22c55e' },
@@ -60,14 +60,14 @@ export default function JobsCalcClient() {
       <div className="bg-white rounded-xl border p-6">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Jobs Created Per $1 Million by Sector</h2>
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={SECTORS} layout="vertical">
+          <BarChart data={SECTORS} layout="vertical" margin={{ left: 20 }}>
             <CartesianGrid strokeDasharray="3 3" />
-            <XAxis type="number" />
-            <YAxis dataKey="sector" type="category" width={100} />
+            <XAxis type="number" label={{ value: 'Jobs per $1M', position: 'insideBottom', offset: -5 }} />
+            <YAxis dataKey="sector" type="category" width={120} />
             <Tooltip />
             <Bar dataKey="jobs" name="Jobs per $1M">
               {SECTORS.map((s, i) => (
-                <rect key={i} fill={s.color} />
+                <Cell key={i} fill={s.color} />
               ))}
             </Bar>
           </BarChart>

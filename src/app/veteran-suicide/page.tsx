@@ -17,6 +17,12 @@ export default function VeteranSuicidePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Veteran Suicide' }]} />
+      <div className="bg-red-900 text-white rounded-lg p-4 mb-8 text-center">
+        <p className="font-bold text-lg">If you or someone you know is struggling</p>
+        <p className="text-2xl font-bold mt-1">988 Suicide &amp; Crisis Lifeline</p>
+        <p className="text-sm mt-1 text-red-200">Call or text 988 · Veterans press 1 · Available 24/7</p>
+      </div>
+
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">Veteran Suicide</h1>
       <p className="text-red-800 font-bold text-xl mb-4">17 veterans die by suicide every day.</p>
       <ShareButtons title="Veteran Suicide — 17 Per Day" />

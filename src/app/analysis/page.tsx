@@ -12,7 +12,7 @@ const articles = [
   { slug: 'congressional-authority', title: '19 Wars Without Congress', desc: 'The Constitution gives Congress the power to declare war. Presidents have ignored that 19 times out of 28.' },
   { slug: 'blowback', title: 'Blowback: How Interventions Create Enemies', desc: 'The CIA\'s term for unintended consequences. Iran 1953 → 1979. Afghanistan mujahideen → Taliban → Al-Qaeda.' },
   { slug: 'military-industrial-complex', title: 'The Military-Industrial Complex', desc: 'Eisenhower warned us in 1961. We didn\'t listen. Defense contractors now receive $400B+ per year.' },
-  { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (22/day), refugee displacement, and the lives destroyed by war.' },
+  { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
   { slug: 'empire-of-bases', title: 'Empire of Bases', desc: '750 military bases in 80 countries. $55 billion per year. More bases than any empire in human history.' },
   { slug: 'cost-per-life', title: 'The Price of a Life', desc: 'The cost per American death has skyrocketed from $96K to $935M. Modern wars cost 100× more per death than WWII.' },
   { slug: 'presidents-at-war', title: 'Presidents at War', desc: 'Which presidents waged the most wars and spent the most? The expansion of executive war powers.' },
@@ -32,8 +32,11 @@ export default function AnalysisPage() {
 
       <div className="grid md:grid-cols-2 gap-6">
         {articles.map(a => (
-          <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-6 hover:shadow-md transition">
-            <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">{a.title}</h2>
+          <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-6 hover:shadow-lg transition-shadow group">
+            <div className="flex justify-between items-start">
+              <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">{a.title}</h2>
+              <span className="text-stone-300 group-hover:text-red-600 transition-colors text-xl ml-2">→</span>
+            </div>
             <p className="text-muted">{a.desc}</p>
           </Link>
         ))}

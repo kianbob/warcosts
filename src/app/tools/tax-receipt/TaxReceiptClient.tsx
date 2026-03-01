@@ -49,8 +49,20 @@ export default function TaxReceiptClient() {
           onChange={e => setIncome(Number(e.target.value))}
           className="w-full accent-red-800"
         />
-        <div className="flex justify-between mt-2">
-          <span className="text-2xl font-bold font-[family-name:var(--font-heading)]">${income.toLocaleString()}</span>
+        <div className="flex justify-between text-xs text-stone-400 mt-1">
+          <span>$20K</span>
+          <span>$500K</span>
+        </div>
+        <div className="flex justify-between items-center mt-2">
+          <div className="flex items-center gap-2">
+            <span className="text-stone-500 text-sm">$</span>
+            <input
+              type="number"
+              min={20000} max={500000} step={1000} value={income}
+              onChange={e => { const v = Number(e.target.value); if (v >= 20000 && v <= 500000) setIncome(v) }}
+              className="w-32 border rounded px-2 py-1 text-lg font-bold font-[family-name:var(--font-heading)] focus:outline-none focus:ring-2 focus:ring-red-800"
+            />
+          </div>
           <span className="text-stone-500">Federal tax: ${Math.round(tax).toLocaleString()}</span>
         </div>
       </div>
