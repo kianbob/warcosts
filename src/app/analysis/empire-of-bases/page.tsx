@@ -4,124 +4,480 @@ import { loadData } from '@/lib/server-utils'
 import { fmt, fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import BackToTop from '@/components/BackToTop'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Empire of Bases — 750 Military Installations in 80 Countries | WarCosts',
-  description: 'The US maintains 750 overseas military bases in 80 countries — more than any empire in history. Cost: $55 billion per year.',
+  description: 'The US maintains 750 overseas military bases in 80 countries — more than any empire in history. Okinawa. Diego Garcia. Ramstein. $55B/year. Environmental contamination. Local opposition. The base nation.',
+  openGraph: {
+    title: 'Empire of Bases — 750 Bases in 80 Countries',
+    description: 'More than the Roman, British, and Soviet empires combined. $55B/year. No other country comes close.',
+    url: 'https://www.warcosts.org/analysis/empire-of-bases',
+  },
 }
+
+const empireComparison = [
+  { name: 'United States (2025)', bases: 750, countries: 80, note: 'Active military installations across every inhabited continent' },
+  { name: 'Roman Empire (peak, ~117 AD)', bases: 40, countries: 40, note: '~40 provinces with permanent legions. Lasted 500 years.' },
+  { name: 'British Empire (peak, ~1920)', bases: 36, countries: 36, note: 'Largest empire in history — 25% of Earth\'s land surface' },
+  { name: 'Soviet Union (peak, ~1980)', bases: 20, countries: 20, note: 'Primarily Warsaw Pact nations and allied states' },
+  { name: 'France (2025)', bases: 10, countries: 10, note: 'Mostly former colonies in Africa and overseas territories' },
+  { name: 'United Kingdom (2025)', bases: 7, countries: 7, note: 'Remnants of empire — Cyprus, Gibraltar, Diego Garcia, Falklands' },
+  { name: 'China (2025)', bases: 3, countries: 3, note: 'Djibouti (2017), Cambodia (suspected), and Tajikistan (suspected)' },
+  { name: 'Russia (2025)', bases: 9, countries: 9, note: 'Syria, Armenia, Belarus, Kyrgyzstan, Tajikistan, and a few others' },
+]
+
+const basesByRegion = [
+  { region: 'Europe', bases: '~300', troops: '~80,000', key: 'Germany (119 bases, 34,000 troops), Italy (44 bases), UK (25 bases), Spain, Turkey, Greece, Belgium, Netherlands, Poland, Romania', note: 'WWII and Cold War legacy — 80 years after the wars that put them there.' },
+  { region: 'East Asia & Pacific', bases: '~250', troops: '~80,000', key: 'Japan (120 bases, 54,000 troops — 70% on Okinawa), South Korea (73 bases, 28,500 troops), Guam, Australia, Philippines, Singapore, Diego Garcia', note: 'WWII and Korean War legacy. China containment strategy.' },
+  { region: 'Middle East & Central Asia', bases: '~60', troops: '~35,000', key: 'Bahrain (US 5th Fleet HQ), Kuwait, Qatar (Al Udeid — CENTCOM forward HQ), UAE, Saudi Arabia, Iraq, Jordan, Oman, Turkey (Incirlik — 50 nuclear weapons)', note: 'War on Terror expansion. Oil. Iran containment.' },
+  { region: 'Africa', bases: '~30', troops: '~7,000', key: 'Djibouti (Camp Lemonnier — 4,000+ personnel), Niger, Kenya, Somalia, Cameroon, Chad, Burkina Faso', note: 'Post-9/11 expansion. AFRICOM. Special operations. Drone strikes.' },
+  { region: 'Latin America & Caribbean', bases: '~20', troops: '~5,000', key: 'Guantánamo Bay (Cuba), Honduras (Soto Cano), Colombia, Curaçao, Aruba', note: 'Drug war. Regional influence. SOUTHCOM.' },
+]
 
 export default function EmpireOfBasesPage() {
   const presence = loadData('overseas-presence.json')
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <ArticleJsonLd title="Empire of Bases — 750 Military Installations in 80 Countries" description="More overseas military bases than any empire in history. Okinawa, Diego Garcia, Ramstein. The base network that sustains permanent war." slug="empire-of-bases" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Empire of Bases' }]} />
 
-      <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Empire of Bases</h1>
-      <p className="text-muted mb-6">{fmt(presence.totalBases)} military bases. {presence.totalCountries} countries. {fmt(presence.totalOverseasTroops)} troops. {fmtMoney(presence.annualBaseCost)} per year. No empire in history compares.</p>
-      <ShareButtons title="Empire of Bases" />
-
-      <div className="prose prose-stone max-w-none my-8">
-        <h2 className="font-[family-name:var(--font-heading)]">The Numbers</h2>
-        <p>The United States maintains approximately {fmt(presence.totalBases)} military bases and installations in {presence.totalCountries} countries, with {fmt(presence.totalOverseasTroops)} troops permanently stationed overseas. The annual cost of maintaining this global military footprint is approximately {fmtMoney(presence.annualBaseCost)}.</p>
-        <p>For comparison, the rest of the world&apos;s countries combined maintain roughly 30 overseas military bases. The US has 750.</p>
-
-        <h2 className="font-[family-name:var(--font-heading)]">Comparison to Other Empires</h2>
-        <p>At the height of the <strong>Roman Empire</strong> — the most famous military empire in history — Rome had legions deployed across roughly 25 provinces, from Britain to Mesopotamia. The empire lasted centuries and is still considered the peak of ancient military power.</p>
-        <p>The <strong>British Empire</strong>, the largest empire in human history covering 25% of the earth&apos;s land surface, maintained military garrisons in about 36 countries at its peak. The sun never set on the British Empire — but Britain never had bases in 80 countries.</p>
-        <p>The <strong>Soviet Union</strong> at the height of the Cold War maintained bases in roughly 10 countries, primarily Warsaw Pact nations. Despite being portrayed as America&apos;s military equal, the USSR&apos;s global military footprint was a fraction of America&apos;s.</p>
-        <p>The United States today has military installations in <strong>more than twice as many countries as the British Empire, the Roman Empire, and the Soviet Union combined</strong>.</p>
+      {/* Hero */}
+      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+        <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
+        <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4 mt-2">
+          Empire of Bases
+        </h1>
+        <p className="text-xl text-stone-300 mb-4">{fmt(presence.totalBases)} Bases. {presence.totalCountries} Countries. No Empire in History Compares.</p>
+        <p className="text-stone-400 text-lg">
+          The United States maintains approximately {fmt(presence.totalBases)} military bases and installations
+          in {presence.totalCountries} countries, with {fmt(presence.totalOverseasTroops)} troops permanently stationed
+          overseas. It is the largest global military footprint in human history — more than twice the combined
+          reach of the Roman Empire, the British Empire, and the Soviet Union at their respective peaks. The
+          annual cost exceeds {fmtMoney(presence.annualBaseCost)} — more than the entire budget of the Department
+          of Education. And no one voted for it.
+        </p>
       </div>
 
-      {/* Empire comparison visual */}
+      <ShareButtons title="Empire of Bases — 750 Bases in 80 Countries" />
+
+      {/* Stat cards */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+        {[
+          { val: fmt(presence.totalBases), label: 'Overseas Bases', sub: 'Across every inhabited continent' },
+          { val: `${presence.totalCountries}`, label: 'Countries', sub: '~40% of all nations on Earth' },
+          { val: fmt(presence.totalOverseasTroops), label: 'Troops Overseas', sub: 'Permanently stationed abroad' },
+          { val: fmtMoney(presence.annualBaseCost), label: 'Annual Cost', sub: 'More than Dept. of Education' },
+        ].map(s => (
+          <div key={s.label} className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.val}</p>
+            <p className="text-xs text-muted">{s.label}</p>
+            <p className="text-[10px] text-stone-400 mt-1">{s.sub}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Empire comparison */}
       <div className="bg-stone-50 rounded-xl p-8 my-8 border">
-        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-6 text-center">Foreign Military Presence: Empires Compared</h3>
-        <div className="space-y-3">
-          {[
-            { name: 'United States (2025)', count: 750, countries: 80 },
-            { name: 'British Empire (peak)', count: 36, countries: 36 },
-            { name: 'Roman Empire (peak)', count: 25, countries: 25 },
-            { name: 'Soviet Union (peak)', count: 10, countries: 10 },
-            { name: 'China (2025)', count: 1, countries: 1 },
-          ].map(e => {
-            const pct = (e.count / 750) * 100
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-6 text-center">Foreign Military Presence: Empires Compared</h2>
+        <div className="space-y-3 mb-4">
+          {empireComparison.map(e => {
+            const pct = (e.bases / 750) * 100
             return (
-              <div key={e.name} className="flex items-center gap-3">
-                <span className="w-44 text-sm font-medium text-right">{e.name}</span>
-                <div className="flex-1 bg-stone-200 rounded-full h-6 overflow-hidden">
-                  <div className="h-full rounded-full bg-red-600" style={{ width: `${Math.max(pct, 1)}%` }} />
+              <div key={e.name}>
+                <div className="flex items-center gap-3">
+                  <span className="w-52 text-sm font-medium text-right shrink-0">{e.name}</span>
+                  <div className="flex-1 bg-stone-200 rounded-full h-6 overflow-hidden">
+                    <div className="h-full rounded-full bg-red-600" style={{ width: `${Math.max(pct, 1)}%` }} />
+                  </div>
+                  <span className="w-20 text-sm font-semibold">{e.bases} bases</span>
                 </div>
-                <span className="w-24 text-sm font-semibold">{e.count} bases</span>
+                <p className="text-[10px] text-stone-400 ml-52 pl-3 mt-0.5">{e.note}</p>
               </div>
             )
           })}
         </div>
+        <p className="text-center text-sm text-stone-600 mt-4 font-semibold">
+          The US has more overseas military bases than the rest of the world combined — by a factor of 10.
+        </p>
       </div>
 
-      <div className="prose prose-stone max-w-none">
-        <h2 className="font-[family-name:var(--font-heading)]">The Legacy Bases</h2>
-        <p>Many US bases are remnants of conflicts that ended decades ago:</p>
-        <ul>
-          <li><strong>Germany:</strong> {fmt(presence.topDeployments[1]?.troops || 34000)} troops and {presence.topDeployments[1]?.bases || 119} bases — 80 years after WWII ended.</li>
-          <li><strong>Japan:</strong> {fmt(presence.topDeployments[0]?.troops || 53700)} troops and {presence.topDeployments[0]?.bases || 120} bases — also since 1945. 70% on Okinawa, where locals regularly protest.</li>
-          <li><strong>South Korea:</strong> {fmt(presence.topDeployments[2]?.troops || 28500)} troops — 70+ years after the Korean War armistice.</li>
-        </ul>
-
-        <h2 className="font-[family-name:var(--font-heading)]">The Base Network: Not Just Buildings</h2>
-        <p>A US overseas military base is more than a few buildings. It&apos;s a complete American enclave on foreign soil: housing, schools, hospitals, shopping centers, fast food chains, movie theaters, and golf courses. Ramstein Air Base in Germany has its own Burger King, Taco Bell, and Popeyes. It&apos;s a small American city transplanted 5,000 miles from home.</p>
-        <p>This base network serves as the infrastructure of global power projection. Any point on earth is within striking distance of a US military base. The network enables rapid deployment, intelligence gathering, and the constant threat of force that underpins American foreign policy.</p>
-
-        <h2 className="font-[family-name:var(--font-heading)]">Environmental Contamination</h2>
-        <p>US military bases are among the most polluted sites in the world. Common contamination issues include:</p>
-        <ul>
-          <li><strong>PFAS (&ldquo;forever chemicals&rdquo;):</strong> Firefighting foam used on military bases has contaminated groundwater near bases in Japan, Germany, South Korea, and the US itself. These chemicals are linked to cancer, thyroid disease, and immune disorders.</li>
-          <li><strong>Fuel spills:</strong> Underground fuel storage tanks have leaked millions of gallons of jet fuel and diesel at bases worldwide. The Red Hill facility in Hawaii contaminated the drinking water of 93,000 people.</li>
-          <li><strong>Unexploded ordnance:</strong> Former bombing ranges contain unexploded munitions that continue to maim and kill civilians decades later. Vieques, Puerto Rico used as a bombing range for 60 years — cancer rates are 27% higher than the Puerto Rican mainland.</li>
-          <li><strong>Depleted uranium:</strong> Used in ammunition in Iraq and the Balkans, contaminating soil and linked to birth defects and cancer clusters.</li>
-        </ul>
-
-        <h2 className="font-[family-name:var(--font-heading)]">Local Opposition Movements</h2>
-        <p>In <strong>Okinawa, Japan</strong>, residents have protested US military bases for decades. A 2019 referendum showed 72% of Okinawans opposed new base construction. Both the Japanese and US governments proceeded anyway. Okinawans have endured decades of noise pollution, aircraft crashes, environmental contamination, and crimes by US service members — including a horrific 1995 assault that triggered massive protests.</p>
-        <p>In <strong>Jeju Island, South Korea</strong>, villagers fought for years against construction of a naval base that destroyed centuries-old volcanic rock formations. The base was built over their objections.</p>
-        <p>In <strong>Vicenza, Italy</strong>, tens of thousands marched against base expansion. In <strong>Ramstein, Germany</strong>, annual protests target the base&apos;s role as a relay station for US drone strikes. In <strong>Ecuador</strong>, the base at Manta was closed in 2009 after the new president refused to renew the lease, saying &ldquo;We&apos;ll renew the base if the US lets us put one in Miami.&rdquo;</p>
-
-        <h2 className="font-[family-name:var(--font-heading)]">The Cost Question</h2>
-        <p>{fmtMoney(presence.annualBaseCost)} per year on overseas bases. That&apos;s more than the entire budget of the Department of Education ($79B). It&apos;s enough to make public college free for every American student. It&apos;s more than the combined budgets of the EPA, NASA, and the National Science Foundation.</p>
-        <p>The question isn&apos;t whether America needs a strong military. The question is whether it needs military bases in 80 countries, 80 years after the wars that put them there ended — and whether the people living near those bases have any say in the matter.</p>
+      {/* Bases by region */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Base Network by Region</h2>
+        <div className="space-y-4">
+          {basesByRegion.map(r => (
+            <div key={r.region} className="border rounded-lg p-4">
+              <div className="flex flex-wrap items-center gap-3 mb-2">
+                <h3 className="font-bold text-lg">{r.region}</h3>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700">{r.bases} bases</span>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-stone-600">{r.troops} troops</span>
+              </div>
+              <p className="text-sm text-stone-700 mb-1"><strong>Key installations:</strong> {r.key}</p>
+              <p className="text-xs text-stone-500">{r.note}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 mt-8">
-        <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
-          &ldquo;We&apos;ll renew your military base on our soil when you let us put an Ecuadorian military base in Miami.&rdquo;
+      {/* Okinawa deep dive */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">Okinawa: 80 Years of Occupation</h2>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">70%</p>
+            <p className="text-xs text-muted">Of Japan&apos;s US bases on one island</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">31</p>
+            <p className="text-xs text-muted">US military facilities</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">72%</p>
+            <p className="text-xs text-muted">Of Okinawans oppose new base construction (2019 referendum)</p>
+          </div>
+        </div>
+        <p className="text-stone-700 mb-4">
+          Okinawa is the most extreme example of what the US base network does to a community. The island — just
+          0.6% of Japan&apos;s total land area — hosts <strong>70% of all US military facilities in Japan</strong>.
+          Roughly <strong>18% of the island&apos;s land</strong> is occupied by the US military. The bases have been
+          there since 1945 — 80 years after World War II ended.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The human toll on Okinawans has been enormous:
+        </p>
+        <ul className="space-y-2 text-sm text-stone-700 mb-4">
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> <strong>Sexual assaults:</strong> Hundreds of documented cases of sexual assault by US military personnel against Okinawans, including the horrific 1995 kidnapping and rape of a 12-year-old girl by three US service members — which triggered the largest anti-base protests in Okinawa&apos;s history (85,000 people).</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> <strong>Aircraft crashes:</strong> A 2004 Marine helicopter crashed into Okinawa International University. A 2016 Osprey crashed off the coast. Dozens of other incidents. Okinawans live under the constant threat of military aircraft falling from the sky.</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> <strong>Noise pollution:</strong> Fighter jets taking off at all hours. Artillery exercises. Helicopter training. Schools near bases must pause classes when aircraft pass overhead. The noise has been documented to cause hearing damage, sleep disruption, and cardiovascular stress.</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> <strong>Environmental contamination:</strong> PFAS (&ldquo;forever chemicals&rdquo;) from firefighting foam detected in rivers and drinking water near bases. Fuel spills. Chemical dumping. Okinawans are drinking contaminated water because of bases they never asked for.</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> <strong>Land seizure:</strong> Much of the base land was seized from Okinawan farmers during and after WWII. Families lost ancestral land that had been farmed for generations. They&apos;ve been fighting to get it back for 80 years.</li>
+        </ul>
+        <p className="text-stone-700">
+          In a <strong>2019 referendum</strong>, 72% of Okinawans voted against new US base construction at Henoko.
+          Both the Japanese and US governments proceeded anyway. The will of the Okinawan people is irrelevant
+          to the base-building machine. As one Okinawan protester told the BBC: <em>&ldquo;We are not a colony.
+          We are human beings. But they treat us like the land beneath their bases — something to be used.&rdquo;</em>
+        </p>
+      </div>
+
+      {/* Diego Garcia */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Diego Garcia: Expelling an Entire Population to Build a Base</h2>
+        <p className="text-stone-700 mb-4">
+          In the late 1960s and early 1970s, the United Kingdom and the United States conspired to forcibly
+          remove the <strong>entire indigenous population of the Chagos Archipelago</strong> — approximately
+          2,000 Chagossians who had lived on the islands for generations — to make way for a US military base
+          on Diego Garcia.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The Chagossians were loaded onto cargo ships. Their pet dogs were rounded up and gassed with exhaust
+          fumes in front of their owners — a deliberate act of cruelty meant to show there was no going back.
+          The people were dumped in Mauritius and the Seychelles, where they lived in poverty. Many died of
+          what they called &ldquo;sagren&rdquo; — sadness, homesickness, a broken heart.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The base on Diego Garcia became one of the most strategically important US installations in the world:
+          a staging ground for operations in the Middle East, East Africa, and South Asia. B-52 and B-2 bombers
+          launched strikes on Iraq and Afghanistan from Diego Garcia. It may have been used as a CIA &ldquo;black
+          site&rdquo; for extraordinary rendition — the euphemism for kidnapping suspects and transporting them
+          to countries where they could be tortured.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The Chagossians have been fighting for the right to return for over 50 years. In 2019, the International
+          Court of Justice ruled that the UK&apos;s separation of the Chagos Archipelago from Mauritius was illegal.
+          In 2024, the UK agreed in principle to transfer sovereignty to Mauritius — but the US base will remain,
+          and the Chagossians&apos; right to return to Diego Garcia specifically remains uncertain.
+        </p>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;They forced us out of our home, killed our dogs, and put us on a ship like cargo. We had nothing.
+          We lost everything. And for what? So they could build a runway.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Liseby Elysé, Chagossian exile</span>
         </blockquote>
-        <p className="text-stone-400 mt-3">— Rafael Correa, President of Ecuador, 2008 (Manta base closed 2009)</p>
+      </div>
+
+      {/* Ramstein */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Ramstein: The Drone Relay Station</h2>
+        <p className="text-stone-700 mb-4">
+          Ramstein Air Base in Germany — the largest US military community outside the United States — plays a
+          critical role that few Germans or Americans understand: it is the <strong>relay station for US drone
+          strikes across the Middle East and Africa</strong>.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Because the signal from drone operators in Nevada cannot reach drones in Yemen or Somalia directly
+          (the curvature of the Earth and satellite limitations), the signal is bounced through a relay station
+          at Ramstein. Without Ramstein, the US drone program in Africa and the Middle East could not function
+          as it currently operates.
+        </p>
+        <p className="text-stone-700 mb-4">
+          This means that <strong>Germany — which has not authorized any of these drone strikes and which
+          officially opposes targeted killings — is an essential node</strong> in the US assassination program.
+          German courts have been asked to rule on whether Germany&apos;s participation (through hosting the relay
+          infrastructure) violates German and international law. Annual protests at Ramstein draw thousands.
+        </p>
+        <p className="text-stone-700">
+          Ramstein is also home to Burger King, Taco Bell, Popeyes, a movie theater, a bowling alley, and an
+          American-style shopping mall. It is a complete American city transplanted 5,000 miles from home — from
+          which missiles are launched that kill people on another continent. The cognitive dissonance is the
+          architecture of empire.
+        </p>
+      </div>
+
+      {/* Environmental contamination */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Environmental Contamination: Poisoning the Land</h2>
+        <p className="text-stone-700 mb-4">
+          US military bases are among the most polluted sites in the world. The contamination spans decades
+          and continents:
+        </p>
+        <div className="space-y-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">PFAS (&ldquo;Forever Chemicals&rdquo;)</h3>
+            <p className="text-sm text-stone-700">
+              Firefighting foam (AFFF) used on military bases for decades contains PFAS — per- and polyfluoroalkyl
+              substances that never break down in the environment. PFAS contamination has been detected in groundwater
+              near bases in Japan, Germany, South Korea, Australia, Belgium, and the US itself. These chemicals
+              are linked to cancer, thyroid disease, immune disorders, and reproductive problems. At hundreds of
+              bases worldwide, the water is contaminated — and the people living nearby are drinking it.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Red Hill, Hawaii: 93,000 People Poisoned</h3>
+            <p className="text-sm text-stone-700">
+              The Red Hill Bulk Fuel Storage Facility in Hawaii — underground tanks built during WWII holding
+              180 million gallons of jet fuel — leaked into the drinking water supply serving <strong>93,000
+              people</strong>, mostly military families. Residents reported fuel-smelling water coming from their
+              taps. Children fell ill. The Navy initially denied the contamination, then admitted it, then
+              dragged its feet on cleanup. The facility was finally ordered shut down in 2022, but full
+              remediation will take decades. The people affected are still dealing with health consequences.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Vieques, Puerto Rico: 60 Years as a Bombing Range</h3>
+            <p className="text-sm text-stone-700">
+              The US Navy used the island of Vieques as a live-fire bombing range for <strong>60 years</strong>
+              (1941–2003). Residents lived between two bombing zones. Cancer rates on Vieques are <strong>27%
+              higher</strong> than the Puerto Rican mainland. Rates of heart disease, diabetes, and respiratory
+              illness are dramatically elevated. The Navy used depleted uranium, napalm, Agent Orange, and
+              other toxic munitions. Cleanup has been glacial. The people of Vieques are still dying from
+              contamination that ended two decades ago.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Carbon Footprint</h3>
+            <p className="text-sm text-stone-700">
+              The Pentagon&apos;s overseas base network produces more CO₂ emissions than <strong>140 individual
+              countries</strong>. If the US military were a country, it would be the 47th largest emitter of
+              greenhouse gases in the world. The DOD is the single largest institutional consumer of fossil
+              fuels on Earth.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Cost question */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Cost: {fmtMoney(presence.annualBaseCost)}/Year (At Least)</h2>
+        <p className="text-stone-700 mb-4">
+          The official cost of maintaining overseas bases is approximately {fmtMoney(presence.annualBaseCost)}
+          per year. But this is almost certainly a dramatic undercount. David Vine, author of <em>Base Nation</em>,
+          estimates the true cost — including personnel, construction, maintenance, equipment, and support services —
+          could be <strong>$100-150 billion per year</strong>.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">What {fmtMoney(presence.annualBaseCost)}/yr Could Fund Instead</p>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• <strong>Free public college</strong> for every American ($80B/yr)</li>
+              <li>• <strong>End veteran homelessness</strong> ($20B/yr)</li>
+              <li>• <strong>Double the EPA budget</strong> ($12B → $24B)</li>
+              <li>• <strong>Triple NASA&apos;s budget</strong> ($25B → $75B)</li>
+              <li>• <strong>Fund the National Science Foundation</strong> for 5+ years</li>
+            </ul>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">Why Bases Never Close</p>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• Local economies in host countries depend on base spending</li>
+              <li>• US contractors profit from construction and services</li>
+              <li>• Congress members protect bases in allied countries for diplomatic leverage</li>
+              <li>• Military brass wants forward deployment for career advancement</li>
+              <li>• The &ldquo;threat&rdquo; that justified the base is always replaced by a new one</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          As Vine writes: <em>&ldquo;Once a base is built, it develops its own political constituency — both in
+          the host country and in Congress. The base creates jobs, contracts, and economic activity. Closing it
+          means eliminating all of that. So bases almost never close, regardless of whether the threat that
+          justified them still exists.&rdquo;</em>
+        </p>
+      </div>
+
+      {/* How bases create permanent war */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">How Bases Create Permanent War</h2>
+        <p className="text-stone-700 mb-4">
+          The base network isn&apos;t just a consequence of American military policy — it&apos;s a <em>cause</em>.
+          Bases don&apos;t just project power; they generate demand for their own existence:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">1. Bases Generate Resentment → New Threats</h3>
+            <p className="text-sm text-stone-700">
+              Foreign military bases on your soil breed resentment. Osama bin Laden cited US bases in Saudi Arabia
+              as his primary grievance. The presence of American troops — with their cultural differences, their
+              accidents, their occasional crimes — creates friction that local politicians and extremists exploit.
+              The bases that are supposed to contain threats actually generate them.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">2. New Threats → More Bases</h3>
+            <p className="text-sm text-stone-700">
+              When new threats emerge (often from blowback), the response is more bases, more deployments, more
+              infrastructure. The War on Terror expanded the base network from ~700 to 750+ installations. Each
+              new base creates new frictions, new resentments, new threats — justifying yet more bases.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">3. Bases Create Political Constituencies → Permanent Funding</h3>
+            <p className="text-sm text-stone-700">
+              Every base has contractors, suppliers, workers, and economic dependencies — both in the host country
+              and in the US. Defense contractors build the bases, supply the equipment, run the dining facilities,
+              and maintain the infrastructure. Closing a base means eliminating all of that economic activity.
+              The result: bases almost never close.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">4. The Cycle Is Self-Sustaining</h3>
+            <p className="text-sm text-stone-700">
+              Bases generate resentment → resentment creates threats → threats justify more bases → more bases
+              generate more resentment. The cycle has been running since 1945. It has never been broken because
+              too many people — contractors, military brass, politicians, local economies — profit from its continuation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Local opposition */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Local Opposition: The People Who Live Under the Bases</h2>
+        <div className="space-y-4">
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Okinawa, Japan</p>
+            <p className="text-sm text-stone-600">72% voted against new base construction (2019). Decades of protests. Largest demonstrations in Okinawa&apos;s history. Both governments proceeded anyway.</p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Jeju Island, South Korea</p>
+            <p className="text-sm text-stone-600">Villagers fought for years against a naval base that destroyed centuries-old volcanic rock formations and UNESCO-quality coastline. They were arrested. The base was built.</p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Vicenza, Italy</p>
+            <p className="text-sm text-stone-600">Tens of thousands marched against the expansion of the US Army&apos;s base (Camp Ederle/Del Din). 90,000 residents signed a petition. The expansion proceeded.</p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Ramstein, Germany</p>
+            <p className="text-sm text-stone-600">Annual protests target the base&apos;s role as a relay station for US drone strikes in Africa and the Middle East. German peace organizations call it complicity in extrajudicial killing.</p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Ecuador</p>
+            <p className="text-sm text-stone-600">President Rafael Correa refused to renew the US base lease at Manta in 2009, saying: <em>&ldquo;We&apos;ll renew your base when you let us put an Ecuadorian base in Miami.&rdquo;</em> The base closed.</p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Philippines</p>
+            <p className="text-sm text-stone-600">Closed US bases at Clark and Subic Bay in 1992 after massive protests and a Philippine Senate vote. The US later negotiated re-access through the Enhanced Defense Cooperation Agreement.</p>
+          </div>
+        </div>
       </div>
 
       {/* Did You Know */}
-      <div className="bg-blue-50 rounded-xl p-6 mt-8 border border-blue-200">
+      <div className="bg-blue-50 rounded-xl p-6 mb-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>
         <ul className="space-y-2 text-sm text-stone-700">
           <li>• The US has more overseas military bases than <strong>embassies and consulates combined</strong>.</li>
-          <li>• <strong>Incirlik Air Base, Turkey</strong> stores approximately 50 US nuclear weapons — in a NATO ally whose president has threatened to &ldquo;go it alone.&rdquo;</li>
+          <li>• <strong>Incirlik Air Base, Turkey</strong> stores approximately 50 US nuclear weapons — in a NATO ally whose president has threatened to &ldquo;go it alone&rdquo; and has purchased Russian air defense systems.</li>
           <li>• The Pentagon&apos;s overseas base network produces more CO₂ than <strong>140 individual countries</strong>.</li>
-          <li>• <strong>Diego Garcia</strong> — a US base in the Indian Ocean — was created by forcibly removing the entire indigenous Chagossian population in the 1960s-70s. They&apos;ve never been allowed to return.</li>
+          <li>• <strong>Diego Garcia</strong> was created by forcibly removing the entire indigenous population. They&apos;ve never been allowed to return.</li>
+          <li>• Ramstein Air Base in Germany has its own <strong>Burger King, Taco Bell, and Popeyes</strong> — and is the relay station for drone assassinations.</li>
+          <li>• Japan hosts <strong>120 US military facilities</strong> — 80 years after World War II ended. Germany hosts 119.</li>
+          <li>• The cost of overseas bases ({fmtMoney(presence.annualBaseCost)}/yr) is more than the <strong>combined budgets of the EPA, NASA, and the National Science Foundation</strong>.</li>
+          <li>• If the US military were a country, it would be the <strong>47th largest carbon emitter</strong> in the world.</li>
         </ul>
       </div>
 
-      <div className="text-center mt-8">
-        <Link href="/bases" className="text-primary font-semibold hover:underline text-lg">See Full Overseas Bases Data →</Link>
+      {/* Quotes */}
+      <div className="space-y-6 mb-8">
+        <div className="bg-stone-900 text-white rounded-xl p-6">
+          <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
+            &ldquo;We&apos;ll renew your military base on our soil when you let us put an Ecuadorian military base in Miami.&rdquo;
+          </blockquote>
+          <p className="text-stone-400 mt-3">— Rafael Correa, President of Ecuador, 2008 (Manta base closed 2009)</p>
+        </div>
+        <div className="bg-stone-100 rounded-xl p-6 border">
+          <blockquote className="font-[family-name:var(--font-heading)] text-xl italic text-stone-700">
+            &ldquo;Americans might consider how they would react if China, Russia, or another country established
+            even a single military base on American soil. A single base. Let alone 750.&rdquo;
+          </blockquote>
+          <p className="text-muted mt-3">— David Vine, <em>Base Nation: How U.S. Military Bases Abroad Harm America and the World</em></p>
+        </div>
+      </div>
+
+      {/* Bottom line */}
+      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Bottom Line</h2>
+        <p className="text-stone-300 mb-4">
+          The United States maintains the most extensive military base network in human history — 750 installations
+          in 80 countries, more than every other country on Earth combined. Many of these bases exist not because
+          of current threats but because of wars that ended decades ago. They persist because they create their own
+          political constituencies, their own economic dependencies, and their own self-justifying cycles of threat
+          and response.
+        </p>
+        <p className="text-stone-300 mb-4">
+          The people who live near these bases — in Okinawa, Diego Garcia, Vieques, Ramstein, and dozens of other
+          communities — have paid the price in contaminated water, noise pollution, sexual assaults, land seizures,
+          and the daily reality of living under a foreign military occupation that their governments accepted but
+          they never chose.
+        </p>
+        <p className="text-white font-semibold text-lg">
+          The question isn&apos;t whether America needs a strong military. The question is whether it needs military
+          bases in 80 countries, 80 years after the wars that put them there ended — and whether the people who
+          live under those bases have any say in the matter. So far, the answer has been no.
+        </p>
       </div>
 
       {/* Related */}
-      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
-        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Pages</h3>
-        <ul className="space-y-2">
-          <li><Link href="/bases" className="text-red-800 hover:underline">→ Overseas Bases — full data by country</Link></li>
-          <li><Link href="/deployments" className="text-red-800 hover:underline">→ Troop Deployments — 173K troops abroad</Link></li>
-          <li><Link href="/spending" className="text-red-800 hover:underline">→ Military Spending — $886B/yr</Link></li>
-        </ul>
+      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Related</h2>
+      <div className="grid md:grid-cols-2 gap-4 mb-8">
+        <Link href="/bases" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Overseas Bases Data →</h3>
+          <p className="text-stone-500 text-sm">Full data by country and region</p>
+        </Link>
+        <Link href="/deployments" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Troop Deployments →</h3>
+          <p className="text-stone-500 text-sm">{fmt(presence.totalOverseasTroops)} troops abroad</p>
+        </Link>
+        <Link href="/analysis/military-industrial-complex" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Military-Industrial Complex →</h3>
+          <p className="text-stone-500 text-sm">Who profits from the base network</p>
+        </Link>
+        <Link href="/spending" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Military Spending →</h3>
+          <p className="text-stone-500 text-sm">$886B/year and climbing</p>
+        </Link>
+        <Link href="/analysis/blowback" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Blowback →</h3>
+          <p className="text-stone-500 text-sm">How bases generate the resentment that justifies more bases</p>
+        </Link>
+        <Link href="/analysis/war-on-terror" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">The War on Terror →</h3>
+          <p className="text-stone-500 text-sm">The war that expanded the base network to 80 countries</p>
+        </Link>
       </div>
+
+      <BackToTop />
     </div>
   )
 }
