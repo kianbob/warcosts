@@ -1,0 +1,74 @@
+{
+  "state": "Georgia",
+  "abbr": "GA",
+  "slug": "georgia",
+  "totalBases": 21,
+  "activeBases": 21,
+  "byBranch": {
+    "U.S. Army": 6,
+    "Army National Guard": 6,
+    "Air Force Reserve": 1,
+    "U.S. Air Force": 3,
+    "U.S. Marine Corps": 2,
+    "U.S. Navy": 2,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 21.5,
+    "directJobs": 72400,
+    "contractValue": 9.8,
+    "pctGsp": 3
+  },
+  "majorInstallations": [
+    {
+      "name": "Camp Frank D Merrill",
+      "slug": "camp-frank-d-merrill",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Benning",
+      "slug": "fort-benning",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Eisenhower",
+      "slug": "fort-eisenhower",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Stewart",
+      "slug": "fort-stewart",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG VTS Catoosa",
+      "slug": "ng-vts-catoosa",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Dobbins ARB",
+      "slug": "dobbins-arb",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Moody Air Force Base",
+      "slug": "moody-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Robins AFB",
+      "slug": "robins-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Marine Corps Logistics Base Albany",
+      "slug": "marine-corps-logistics-base-albany",
+      "branch": "U.S. Marine Corps"
+    },
+    {
+      "name": "Naval Submarine Base Kings Bay",
+      "slug": "naval-submarine-base-kings-bay",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

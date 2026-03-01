@@ -1,0 +1,70 @@
+{
+  "state": "Colorado",
+  "abbr": "CO",
+  "slug": "colorado",
+  "totalBases": 12,
+  "activeBases": 11,
+  "byBranch": {
+    "U.S. Army": 4,
+    "U.S. Air Force": 7,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 18.7,
+    "directJobs": 44800,
+    "contractValue": 11.2,
+    "pctGsp": 4.1
+  },
+  "majorInstallations": [
+    {
+      "name": "Piñon Canyon Maneuver Site",
+      "slug": "pi-on-canyon-maneuver-site",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Carson",
+      "slug": "fort-carson",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Pueblo Chemical Depot",
+      "slug": "pueblo-chemical-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Schriever Space Force Base",
+      "slug": "schriever-space-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "USAF Academy Auxiliary Airfield",
+      "slug": "usaf-academy-auxiliary-airfield",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Cheyenne Mountain Space Force Station",
+      "slug": "cheyenne-mountain-space-force-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Peterson Space Force Base",
+      "slug": "peterson-space-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "The Farish Memorial Recreational Annex",
+      "slug": "the-farish-memorial-recreational-annex",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Buckley Space Force Base",
+      "slug": "buckley-space-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "USAF Academy Site 2",
+      "slug": "usaf-academy-site-2",
+      "branch": "U.S. Air Force"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "state": "New Hampshire",
+  "abbr": "NH",
+  "slug": "new-hampshire",
+  "totalBases": 4,
+  "activeBases": 4,
+  "byBranch": {
+    "Army National Guard": 1,
+    "U.S. Air Force": 2,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 3.8,
+    "directJobs": 5800,
+    "contractValue": 3.2,
+    "pctGsp": 3.9
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Training Site",
+      "slug": "ng-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "New Boston Air Station",
+      "slug": "new-boston-air-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Newington Defense Fuel Support Point",
+      "slug": "newington-defense-fuel-support-point",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Pease ANGB NH",
+      "slug": "pease-angb-nh",
+      "branch": "Air National Guard"
+    }
+  ]
+}

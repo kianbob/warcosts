@@ -1,0 +1,72 @@
+{
+  "state": "Indiana",
+  "abbr": "IN",
+  "slug": "indiana",
+  "totalBases": 13,
+  "activeBases": 10,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Army": 3,
+    "Air Force Reserve": 1,
+    "U.S. Navy": 1,
+    "Air National Guard": 3
+  },
+  "defense": {
+    "totalSpending": 7.8,
+    "directJobs": 21300,
+    "contractValue": 5.4,
+    "pctGsp": 1.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Camp Atterbury",
+      "slug": "ng-camp-atterbury",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Indianapolis 38 ID",
+      "slug": "ng-indianapolis-38-id",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Shelbyville",
+      "slug": "ng-shelbyville",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Muscatatuck Urban Training Center",
+      "slug": "muscatatuck-urban-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Knightstown",
+      "slug": "ng-knightstown",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Grissom ARB",
+      "slug": "grissom-arb",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Naval Support Activity Crane",
+      "slug": "naval-support-activity-crane",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Hulman Fld",
+      "slug": "hulman-fld",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Fort Wayne IAP-3 8785 Acres",
+      "slug": "fort-wayne-iap-3-8785-acres",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Fort Wayne IAP-2 1877 Acres",
+      "slug": "fort-wayne-iap-2-1877-acres",
+      "branch": "Air National Guard"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "state": "Tennessee",
+  "abbr": "TN",
+  "slug": "tennessee",
+  "totalBases": 16,
+  "activeBases": 16,
+  "byBranch": {
+    "U.S. Army": 3,
+    "Army National Guard": 5,
+    "Air National Guard": 3,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 6.2,
+    "directJobs": 14800,
+    "contractValue": 3.8,
+    "pctGsp": 1.4
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Campbell",
+      "slug": "fort-campbell",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Holston Army Ammunition Plant",
+      "slug": "holston-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Jackson Airport Armory",
+      "slug": "ng-jackson-airport-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Johnson City Gray",
+      "slug": "ng-johnson-city-gray",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Milan AAP",
+      "slug": "milan-aap",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Nashville",
+      "slug": "ng-nashville",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG VTS Smyrna",
+      "slug": "ng-vts-smyrna",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "McGhee Tyson Airport",
+      "slug": "mcghee-tyson-airport",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Arnold Air Force Base",
+      "slug": "arnold-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Northside Mid-South",
+      "slug": "northside-mid-south",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

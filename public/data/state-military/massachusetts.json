@@ -1,0 +1,74 @@
+{
+  "state": "Massachusetts",
+  "abbr": "MA",
+  "slug": "massachusetts",
+  "totalBases": 14,
+  "activeBases": 12,
+  "byBranch": {
+    "U.S. Army Reserve": 3,
+    "Army National Guard": 4,
+    "U.S. Army": 1,
+    "Air Force Reserve": 1,
+    "U.S. Air Force": 2,
+    "U.S. Navy": 2,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 21.3,
+    "directJobs": 28700,
+    "contractValue": 18.6,
+    "pctGsp": 3.1
+  },
+  "majorInstallations": [
+    {
+      "name": "Devens Reserve Forces Tng Area",
+      "slug": "devens-reserve-forces-tng-area",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG MTA Camp Curtis Guil",
+      "slug": "ng-mta-camp-curtis-guil",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Combat Capabilities Development Command Soldier Center",
+      "slug": "combat-capabilities-development-command-soldier-center",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Westover ARB",
+      "slug": "westover-arb",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Hanscom Air Force Base",
+      "slug": "hanscom-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Barnes Map ANG",
+      "slug": "barnes-map-ang",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Joint Base Cape Cod",
+      "slug": "joint-base-cape-cod",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Ayer",
+      "slug": "ng-ayer",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "1LT John A Fera USARC",
+      "slug": "1lt-john-a-fera-usarc",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Patriot Golf Course",
+      "slug": "patriot-golf-course",
+      "branch": "U.S. Air Force"
+    }
+  ]
+}

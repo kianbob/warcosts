@@ -1,0 +1,71 @@
+{
+  "state": "Idaho",
+  "abbr": "ID",
+  "slug": "idaho",
+  "totalBases": 10,
+  "activeBases": 10,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Air Force": 3,
+    "U.S. Navy": 1,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 2.1,
+    "directJobs": 7600,
+    "contractValue": 1.1,
+    "pctGsp": 2.1
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Edgemeade TS Mtn Home",
+      "slug": "ng-edgemeade-ts-mtn-home",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Orchard Cantonement Area",
+      "slug": "ng-camp-orchard-cantonement-area",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Orchard Combat Training Center",
+      "slug": "orchard-combat-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Mountain Home Air Force Base",
+      "slug": "mountain-home-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Saylor Creek Air Force Range",
+      "slug": "saylor-creek-air-force-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Surface Warfare Center Carderock Division – Acoustic Research Detachment",
+      "slug": "naval-surface-warfare-center-carderock-division-acoustic-research-detachment",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Boise Air Terminal",
+      "slug": "boise-air-terminal",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Juniper Butte Range",
+      "slug": "juniper-butte-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "NG Gowen Field Boise",
+      "slug": "ng-gowen-field-boise",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Wilder",
+      "slug": "ng-wilder",
+      "branch": "Army National Guard"
+    }
+  ]
+}

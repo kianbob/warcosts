@@ -1,0 +1,71 @@
+{
+  "state": "Alaska",
+  "abbr": "AK",
+  "slug": "alaska",
+  "totalBases": 29,
+  "activeBases": 29,
+  "byBranch": {
+    "U.S. Army": 3,
+    "Army National Guard": 1,
+    "U.S. Air Force": 22,
+    "U.S. Navy": 3
+  },
+  "defense": {
+    "totalSpending": 6.8,
+    "directJobs": 21700,
+    "contractValue": 2.4,
+    "pctGsp": 10.1
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Wainwright",
+      "slug": "fort-wainwright",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Alcantra Armory Complex",
+      "slug": "ng-alcantra-armory-complex",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Clear Space Force Station",
+      "slug": "clear-space-force-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Oliktok Long Range Radar Site",
+      "slug": "oliktok-long-range-radar-site",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Birch Lake Recreation Annex",
+      "slug": "birch-lake-recreation-annex",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "King Salmon Long Range Radar Site",
+      "slug": "king-salmon-long-range-radar-site",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Haarp Research Station",
+      "slug": "haarp-research-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Fort Yukon Long Range Radar Site",
+      "slug": "fort-yukon-long-range-radar-site",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Point Barrow Long Range Radar Site",
+      "slug": "point-barrow-long-range-radar-site",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Logistics Support Activity - Ketchikan",
+      "slug": "naval-logistics-support-activity-ketchikan",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

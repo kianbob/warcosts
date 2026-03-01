@@ -1,0 +1,72 @@
+{
+  "state": "Hawaii",
+  "abbr": "HI",
+  "slug": "hawaii",
+  "totalBases": 33,
+  "activeBases": 31,
+  "byBranch": {
+    "U.S. Army": 16,
+    "Army National Guard": 3,
+    "U.S. Air Force": 3,
+    "U.S. Navy": 6,
+    "U.S. Marine Corps": 5
+  },
+  "defense": {
+    "totalSpending": 12.4,
+    "directJobs": 51200,
+    "contractValue": 3.2,
+    "pctGsp": 12.3
+  },
+  "majorInstallations": [
+    {
+      "name": "Aliamanu Military Reservation",
+      "slug": "aliamanu-military-reservation",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Dillingham Mil Res",
+      "slug": "dillingham-mil-res",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort De Russy",
+      "slug": "fort-de-russy",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Shafter",
+      "slug": "fort-shafter",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Ft Ruger",
+      "slug": "ng-ft-ruger",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Helemano Military Reservation",
+      "slug": "helemano-military-reservation",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Kahuku Tng Area",
+      "slug": "kahuku-tng-area",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Kalaeloa",
+      "slug": "ng-kalaeloa",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Kawaihae Mil Reserve",
+      "slug": "kawaihae-mil-reserve",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Kilauea Mil Reserve",
+      "slug": "kilauea-mil-reserve",
+      "branch": "U.S. Army"
+    }
+  ]
+}

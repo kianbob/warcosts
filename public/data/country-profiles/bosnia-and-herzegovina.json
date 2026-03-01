@@ -1,0 +1,235 @@
+{
+  "name": "Bosnia and Herzegovina",
+  "slug": "bosnia-and-herzegovina",
+  "rawName": "Bosnia and Herzegovina",
+  "rank": 115,
+  "latest": {
+    "year": 2024,
+    "amount": 211,
+    "amountBillions": 0.2
+  },
+  "gdpPct": null,
+  "pctWorld": 0,
+  "peak": {
+    "year": 2002,
+    "amount": 437,
+    "amountBillions": 0.4
+  },
+  "trend10yr": 8.2,
+  "dataYears": 23,
+  "spending": [
+    {
+      "year": 2002,
+      "amount": 437,
+      "amountBillions": 0.44
+    },
+    {
+      "year": 2003,
+      "amount": 304,
+      "amountBillions": 0.3
+    },
+    {
+      "year": 2004,
+      "amount": 273,
+      "amountBillions": 0.27
+    },
+    {
+      "year": 2005,
+      "amount": 228,
+      "amountBillions": 0.23
+    },
+    {
+      "year": 2006,
+      "amount": 219,
+      "amountBillions": 0.22
+    },
+    {
+      "year": 2007,
+      "amount": 216,
+      "amountBillions": 0.22
+    },
+    {
+      "year": 2008,
+      "amount": 225,
+      "amountBillions": 0.23
+    },
+    {
+      "year": 2009,
+      "amount": 247,
+      "amountBillions": 0.25
+    },
+    {
+      "year": 2010,
+      "amount": 230,
+      "amountBillions": 0.23
+    },
+    {
+      "year": 2011,
+      "amount": 203,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2012,
+      "amount": 201,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2013,
+      "amount": 195,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2014,
+      "amount": 190,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2015,
+      "amount": 195,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2016,
+      "amount": 194,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2017,
+      "amount": 186,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2018,
+      "amount": 193,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2019,
+      "amount": 195,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2020,
+      "amount": 196,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2021,
+      "amount": 232,
+      "amountBillions": 0.23
+    },
+    {
+      "year": 2022,
+      "amount": 201,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2023,
+      "amount": 197,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2024,
+      "amount": 211,
+      "amountBillions": 0.21
+    }
+  ],
+  "gdp": [
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

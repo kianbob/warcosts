@@ -1,0 +1,257 @@
+{
+  "name": "Djibouti",
+  "slug": "djibouti",
+  "rawName": "Djibouti",
+  "rank": null,
+  "latest": {
+    "year": 2008,
+    "amount": 51,
+    "amountBillions": 0.1
+  },
+  "gdpPct": null,
+  "pctWorld": null,
+  "peak": {
+    "year": 1983,
+    "amount": 106,
+    "amountBillions": 0.1
+  },
+  "trend10yr": -1.9,
+  "dataYears": 29,
+  "spending": [
+    {
+      "year": 1980,
+      "amount": 6,
+      "amountBillions": 0.01
+    },
+    {
+      "year": 1981,
+      "amount": 19,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 1982,
+      "amount": 103,
+      "amountBillions": 0.1
+    },
+    {
+      "year": 1983,
+      "amount": 106,
+      "amountBillions": 0.11
+    },
+    {
+      "year": 1984,
+      "amount": 103,
+      "amountBillions": 0.1
+    },
+    {
+      "year": 1985,
+      "amount": 101,
+      "amountBillions": 0.1
+    },
+    {
+      "year": 1986,
+      "amount": 95,
+      "amountBillions": 0.1
+    },
+    {
+      "year": 1987,
+      "amount": 91,
+      "amountBillions": 0.09
+    },
+    {
+      "year": 1988,
+      "amount": 82,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1989,
+      "amount": 81,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1990,
+      "amount": 78,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1991,
+      "amount": 76,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1992,
+      "amount": 77,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1993,
+      "amount": 70,
+      "amountBillions": 0.07
+    },
+    {
+      "year": 1994,
+      "amount": 67,
+      "amountBillions": 0.07
+    },
+    {
+      "year": 1995,
+      "amount": 62,
+      "amountBillions": 0.06
+    },
+    {
+      "year": 1996,
+      "amount": 49,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 1997,
+      "amount": 52,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 1998,
+      "amount": 51,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 1999,
+      "amount": 52,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2000,
+      "amount": 49,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2001,
+      "amount": 48,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2002,
+      "amount": 61,
+      "amountBillions": 0.06
+    },
+    {
+      "year": 2003,
+      "amount": 75,
+      "amountBillions": 0.07
+    },
+    {
+      "year": 2004,
+      "amount": 65,
+      "amountBillions": 0.07
+    },
+    {
+      "year": 2005,
+      "amount": 76,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 2006,
+      "amount": 81,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 2007,
+      "amount": 54,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2008,
+      "amount": 51,
+      "amountBillions": 0.05
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1977,
+      "pct": 0
+    },
+    {
+      "year": 1978,
+      "pct": 0
+    },
+    {
+      "year": 1979,
+      "pct": 0
+    },
+    {
+      "year": 1980,
+      "pct": 0
+    },
+    {
+      "year": 1981,
+      "pct": 0.1
+    },
+    {
+      "year": 1982,
+      "pct": 0.1
+    },
+    {
+      "year": 1990,
+      "pct": 0.1
+    },
+    {
+      "year": 1991,
+      "pct": 0.1
+    },
+    {
+      "year": 1992,
+      "pct": 0.1
+    },
+    {
+      "year": 1993,
+      "pct": 0.1
+    },
+    {
+      "year": 1994,
+      "pct": 0.1
+    },
+    {
+      "year": 1995,
+      "pct": 0.1
+    },
+    {
+      "year": 1996,
+      "pct": 0.1
+    },
+    {
+      "year": 1997,
+      "pct": 0.1
+    },
+    {
+      "year": 1998,
+      "pct": 0.1
+    },
+    {
+      "year": 1999,
+      "pct": 0.1
+    },
+    {
+      "year": 2003,
+      "pct": 0.1
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    }
+  ],
+  "usBases": 2,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

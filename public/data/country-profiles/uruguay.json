@@ -1,0 +1,505 @@
+{
+  "name": "Uruguay",
+  "slug": "uruguay",
+  "rawName": "Uruguay",
+  "rank": 64,
+  "latest": {
+    "year": 2024,
+    "amount": 1715,
+    "amountBillions": 1.7
+  },
+  "gdpPct": null,
+  "pctWorld": 0.1,
+  "peak": {
+    "year": 1981,
+    "amount": 2184,
+    "amountBillions": 2.2
+  },
+  "trend10yr": 35.9,
+  "dataYears": 53,
+  "spending": [
+    {
+      "year": 1972,
+      "amount": 621,
+      "amountBillions": 0.62
+    },
+    {
+      "year": 1973,
+      "amount": 1113,
+      "amountBillions": 1.11
+    },
+    {
+      "year": 1974,
+      "amount": 1342,
+      "amountBillions": 1.34
+    },
+    {
+      "year": 1975,
+      "amount": 1257,
+      "amountBillions": 1.26
+    },
+    {
+      "year": 1976,
+      "amount": 1049,
+      "amountBillions": 1.05
+    },
+    {
+      "year": 1977,
+      "amount": 1124,
+      "amountBillions": 1.12
+    },
+    {
+      "year": 1978,
+      "amount": 1168,
+      "amountBillions": 1.17
+    },
+    {
+      "year": 1979,
+      "amount": 1368,
+      "amountBillions": 1.37
+    },
+    {
+      "year": 1980,
+      "amount": 1655,
+      "amountBillions": 1.66
+    },
+    {
+      "year": 1981,
+      "amount": 2184,
+      "amountBillions": 2.18
+    },
+    {
+      "year": 1982,
+      "amount": 1989,
+      "amountBillions": 1.99
+    },
+    {
+      "year": 1983,
+      "amount": 1516,
+      "amountBillions": 1.52
+    },
+    {
+      "year": 1984,
+      "amount": 1282,
+      "amountBillions": 1.28
+    },
+    {
+      "year": 1985,
+      "amount": 1237,
+      "amountBillions": 1.24
+    },
+    {
+      "year": 1986,
+      "amount": 1249,
+      "amountBillions": 1.25
+    },
+    {
+      "year": 1987,
+      "amount": 1051,
+      "amountBillions": 1.05
+    },
+    {
+      "year": 1988,
+      "amount": 1196,
+      "amountBillions": 1.2
+    },
+    {
+      "year": 1989,
+      "amount": 1316,
+      "amountBillions": 1.32
+    },
+    {
+      "year": 1990,
+      "amount": 1285,
+      "amountBillions": 1.28
+    },
+    {
+      "year": 1991,
+      "amount": 898,
+      "amountBillions": 0.9
+    },
+    {
+      "year": 1992,
+      "amount": 1092,
+      "amountBillions": 1.09
+    },
+    {
+      "year": 1993,
+      "amount": 1054,
+      "amountBillions": 1.05
+    },
+    {
+      "year": 1994,
+      "amount": 1002,
+      "amountBillions": 1
+    },
+    {
+      "year": 1995,
+      "amount": 1031,
+      "amountBillions": 1.03
+    },
+    {
+      "year": 1996,
+      "amount": 1108,
+      "amountBillions": 1.11
+    },
+    {
+      "year": 1997,
+      "amount": 1095,
+      "amountBillions": 1.09
+    },
+    {
+      "year": 1998,
+      "amount": 1092,
+      "amountBillions": 1.09
+    },
+    {
+      "year": 1999,
+      "amount": 1121,
+      "amountBillions": 1.12
+    },
+    {
+      "year": 2000,
+      "amount": 1106,
+      "amountBillions": 1.11
+    },
+    {
+      "year": 2001,
+      "amount": 1097,
+      "amountBillions": 1.1
+    },
+    {
+      "year": 2002,
+      "amount": 1011,
+      "amountBillions": 1.01
+    },
+    {
+      "year": 2003,
+      "amount": 880,
+      "amountBillions": 0.88
+    },
+    {
+      "year": 2004,
+      "amount": 850,
+      "amountBillions": 0.85
+    },
+    {
+      "year": 2005,
+      "amount": 861,
+      "amountBillions": 0.86
+    },
+    {
+      "year": 2006,
+      "amount": 900,
+      "amountBillions": 0.9
+    },
+    {
+      "year": 2007,
+      "amount": 860,
+      "amountBillions": 0.86
+    },
+    {
+      "year": 2008,
+      "amount": 971,
+      "amountBillions": 0.97
+    },
+    {
+      "year": 2009,
+      "amount": 993,
+      "amountBillions": 0.99
+    },
+    {
+      "year": 2010,
+      "amount": 1083,
+      "amountBillions": 1.08
+    },
+    {
+      "year": 2011,
+      "amount": 1053,
+      "amountBillions": 1.05
+    },
+    {
+      "year": 2012,
+      "amount": 1148,
+      "amountBillions": 1.15
+    },
+    {
+      "year": 2013,
+      "amount": 1205,
+      "amountBillions": 1.21
+    },
+    {
+      "year": 2014,
+      "amount": 1244,
+      "amountBillions": 1.24
+    },
+    {
+      "year": 2015,
+      "amount": 1262,
+      "amountBillions": 1.26
+    },
+    {
+      "year": 2016,
+      "amount": 1293,
+      "amountBillions": 1.29
+    },
+    {
+      "year": 2017,
+      "amount": 1365,
+      "amountBillions": 1.36
+    },
+    {
+      "year": 2018,
+      "amount": 1484,
+      "amountBillions": 1.48
+    },
+    {
+      "year": 2019,
+      "amount": 1433,
+      "amountBillions": 1.43
+    },
+    {
+      "year": 2020,
+      "amount": 1470,
+      "amountBillions": 1.47
+    },
+    {
+      "year": 2021,
+      "amount": 1616,
+      "amountBillions": 1.62
+    },
+    {
+      "year": 2022,
+      "amount": 1459,
+      "amountBillions": 1.46
+    },
+    {
+      "year": 2023,
+      "amount": 1511,
+      "amountBillions": 1.51
+    },
+    {
+      "year": 2024,
+      "amount": 1715,
+      "amountBillions": 1.72
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1971,
+      "pct": 0
+    },
+    {
+      "year": 1972,
+      "pct": 0
+    },
+    {
+      "year": 1973,
+      "pct": 0
+    },
+    {
+      "year": 1974,
+      "pct": 0
+    },
+    {
+      "year": 1975,
+      "pct": 0
+    },
+    {
+      "year": 1976,
+      "pct": 0
+    },
+    {
+      "year": 1977,
+      "pct": 0
+    },
+    {
+      "year": 1978,
+      "pct": 0
+    },
+    {
+      "year": 1979,
+      "pct": 0
+    },
+    {
+      "year": 1980,
+      "pct": 0.1
+    },
+    {
+      "year": 1981,
+      "pct": 0.1
+    },
+    {
+      "year": 1982,
+      "pct": 0.1
+    },
+    {
+      "year": 1983,
+      "pct": 0
+    },
+    {
+      "year": 1984,
+      "pct": 0
+    },
+    {
+      "year": 1985,
+      "pct": 0
+    },
+    {
+      "year": 1986,
+      "pct": 0
+    },
+    {
+      "year": 1987,
+      "pct": 0
+    },
+    {
+      "year": 1988,
+      "pct": 0
+    },
+    {
+      "year": 1989,
+      "pct": 0
+    },
+    {
+      "year": 1990,
+      "pct": 0
+    },
+    {
+      "year": 1991,
+      "pct": 0
+    },
+    {
+      "year": 1992,
+      "pct": 0
+    },
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 1994,
+      "pct": 0
+    },
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    },
+    {
+      "year": 1999,
+      "pct": 0
+    },
+    {
+      "year": 2000,
+      "pct": 0
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 1,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

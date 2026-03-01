@@ -1,0 +1,63 @@
+{
+  "state": "South Carolina",
+  "abbr": "SC",
+  "slug": "south-carolina",
+  "totalBases": 8,
+  "activeBases": 8,
+  "byBranch": {
+    "U.S. Army": 1,
+    "U.S. Air Force": 3,
+    "U.S. Marine Corps": 1,
+    "U.S. Navy": 1,
+    "Air National Guard": 1,
+    "Army National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 9.8,
+    "directJobs": 38200,
+    "contractValue": 4.2,
+    "pctGsp": 3.6
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Jackson",
+      "slug": "fort-jackson",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Poinsett Electronic Combat Range",
+      "slug": "poinsett-electronic-combat-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Marine Corps Air Station Beaufort",
+      "slug": "marine-corps-air-station-beaufort",
+      "branch": "U.S. Marine Corps"
+    },
+    {
+      "name": "NAVSUPPFAC Beaufort SC",
+      "slug": "navsuppfac-beaufort-sc",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "McEntire Joint National Guard Base",
+      "slug": "mcentire-joint-national-guard-base",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Shaw Air Force Base",
+      "slug": "shaw-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Joint Base Charleston",
+      "slug": "joint-base-charleston",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "NG MTA Clarks Hill Reservation",
+      "slug": "ng-mta-clarks-hill-reservation",
+      "branch": "Army National Guard"
+    }
+  ]
+}

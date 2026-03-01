@@ -1,0 +1,67 @@
+{
+  "state": "North Dakota",
+  "abbr": "ND",
+  "slug": "north-dakota",
+  "totalBases": 9,
+  "activeBases": 9,
+  "byBranch": {
+    "U.S. Air Force": 3,
+    "Air National Guard": 1,
+    "U.S. Navy": 1,
+    "Army National Guard": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 3.1,
+    "directJobs": 11200,
+    "contractValue": 0.8,
+    "pctGsp": 4.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Cavalier Space Force Station",
+      "slug": "cavalier-space-force-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Hector IAP",
+      "slug": "hector-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Minot Air Force Base",
+      "slug": "minot-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Logistics Support Activity LaMoure",
+      "slug": "naval-logistics-support-activity-lamoure",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "NG Bismarck RJB Complex",
+      "slug": "ng-bismarck-rjb-complex",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Grafton",
+      "slug": "ng-camp-grafton",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Lewis and Clark USARC",
+      "slug": "lewis-and-clark-usarc",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG Minot AFRC",
+      "slug": "ng-minot-afrc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Grand Forks AFB",
+      "slug": "grand-forks-afb",
+      "branch": "U.S. Air Force"
+    }
+  ]
+}

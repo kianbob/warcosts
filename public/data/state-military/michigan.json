@@ -1,0 +1,61 @@
+{
+  "state": "Michigan",
+  "abbr": "MI",
+  "slug": "michigan",
+  "totalBases": 8,
+  "activeBases": 8,
+  "byBranch": {
+    "Army National Guard": 3,
+    "U.S. Army": 1,
+    "Air National Guard": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 7.4,
+    "directJobs": 15800,
+    "contractValue": 5.2,
+    "pctGsp": 1.2
+  },
+  "majorInstallations": [
+    {
+      "name": "NG CTC Fort Custer Trng Center",
+      "slug": "ng-ctc-fort-custer-trng-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Detroit Arsenal",
+      "slug": "detroit-arsenal",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Lansing Joint Forces Readiness Center",
+      "slug": "ng-lansing-joint-forces-readiness-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Camp Grayling",
+      "slug": "camp-grayling",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "W K Kellogg",
+      "slug": "w-k-kellogg",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Selfridge ANGB",
+      "slug": "selfridge-angb",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Alpena County Regional Airport",
+      "slug": "alpena-county-regional-airport",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "CPT David D Phillips USARC",
+      "slug": "cpt-david-d-phillips-usarc",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

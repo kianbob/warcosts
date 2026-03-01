@@ -1,0 +1,75 @@
+{
+  "state": "New York",
+  "abbr": "NY",
+  "slug": "new-york",
+  "totalBases": 22,
+  "activeBases": 22,
+  "byBranch": {
+    "U.S. Army": 6,
+    "Army National Guard": 2,
+    "Air Force Reserve": 1,
+    "Marine Corps Reserve": 2,
+    "U.S. Navy": 4,
+    "Air National Guard": 4,
+    "U.S. Air Force": 2,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 15.8,
+    "directJobs": 32600,
+    "contractValue": 10.4,
+    "pctGsp": 0.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Stewart Annex",
+      "slug": "stewart-annex",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Camp Smith Tng Site",
+      "slug": "ng-camp-smith-tng-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Hamilton",
+      "slug": "fort-hamilton",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Youngstown Tng Site",
+      "slug": "ng-youngstown-tng-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "West Point Military Reservation",
+      "slug": "west-point-military-reservation",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Niagara Falls",
+      "slug": "niagara-falls",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Syracuse MCRC",
+      "slug": "syracuse-mcrc",
+      "branch": "Marine Corps Reserve"
+    },
+    {
+      "name": "NSA Saratoga Springs NY",
+      "slug": "nsa-saratoga-springs-ny",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Hancock Field",
+      "slug": "hancock-field",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Stewart IAP",
+      "slug": "stewart-iap",
+      "branch": "Air National Guard"
+    }
+  ]
+}

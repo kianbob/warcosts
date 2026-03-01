@@ -1,0 +1,235 @@
+{
+  "name": "Qatar",
+  "slug": "qatar",
+  "rawName": "Qatar",
+  "rank": null,
+  "latest": {
+    "year": 2022,
+    "amount": 15879,
+    "amountBillions": 15.9
+  },
+  "gdpPct": 0.1,
+  "pctWorld": null,
+  "peak": {
+    "year": 2022,
+    "amount": 15879,
+    "amountBillions": 15.9
+  },
+  "trend10yr": 929.8,
+  "dataYears": 22,
+  "spending": [
+    {
+      "year": 1980,
+      "amount": 2318,
+      "amountBillions": 2.32
+    },
+    {
+      "year": 1981,
+      "amount": 3652,
+      "amountBillions": 3.65
+    },
+    {
+      "year": 1982,
+      "amount": 4784,
+      "amountBillions": 4.78
+    },
+    {
+      "year": 1983,
+      "amount": 2873,
+      "amountBillions": 2.87
+    },
+    {
+      "year": 1984,
+      "amount": 2746,
+      "amountBillions": 2.75
+    },
+    {
+      "year": 1985,
+      "amount": 4709,
+      "amountBillions": 4.71
+    },
+    {
+      "year": 1987,
+      "amount": 2576,
+      "amountBillions": 2.58
+    },
+    {
+      "year": 1988,
+      "amount": 2796,
+      "amountBillions": 2.8
+    },
+    {
+      "year": 1989,
+      "amount": 2338,
+      "amountBillions": 2.34
+    },
+    {
+      "year": 1990,
+      "amount": 2115,
+      "amountBillions": 2.12
+    },
+    {
+      "year": 1991,
+      "amount": 2294,
+      "amountBillions": 2.29
+    },
+    {
+      "year": 2002,
+      "amount": 1529,
+      "amountBillions": 1.53
+    },
+    {
+      "year": 2003,
+      "amount": 1542,
+      "amountBillions": 1.54
+    },
+    {
+      "year": 2004,
+      "amount": 1421,
+      "amountBillions": 1.42
+    },
+    {
+      "year": 2005,
+      "amount": 1501,
+      "amountBillions": 1.5
+    },
+    {
+      "year": 2006,
+      "amount": 1611,
+      "amountBillions": 1.61
+    },
+    {
+      "year": 2007,
+      "amount": 2076,
+      "amountBillions": 2.08
+    },
+    {
+      "year": 2008,
+      "amount": 2677,
+      "amountBillions": 2.68
+    },
+    {
+      "year": 2009,
+      "amount": 2366,
+      "amountBillions": 2.37
+    },
+    {
+      "year": 2010,
+      "amount": 2336,
+      "amountBillions": 2.34
+    },
+    {
+      "year": 2021,
+      "amount": 12541,
+      "amountBillions": 12.54
+    },
+    {
+      "year": 2022,
+      "amount": 15879,
+      "amountBillions": 15.88
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1979,
+      "pct": 0.1
+    },
+    {
+      "year": 1980,
+      "pct": 0.1
+    },
+    {
+      "year": 1981,
+      "pct": 0.2
+    },
+    {
+      "year": 1982,
+      "pct": 0.1
+    },
+    {
+      "year": 1983,
+      "pct": 0.1
+    },
+    {
+      "year": 1984,
+      "pct": 0.2
+    },
+    {
+      "year": 1986,
+      "pct": 0.2
+    },
+    {
+      "year": 1987,
+      "pct": 0.2
+    },
+    {
+      "year": 1988,
+      "pct": 0.1
+    },
+    {
+      "year": 1989,
+      "pct": 0.1
+    },
+    {
+      "year": 1990,
+      "pct": 0.1
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0.1
+    },
+    {
+      "year": 2021,
+      "pct": 0.1
+    }
+  ],
+  "usBases": 7,
+  "armsSales": {
+    "total": 28000,
+    "topSystems": [
+      "F-15QA fighters ($12B)",
+      "Apache helicopters ($3B)",
+      "Patriot ($7.6B)",
+      "NASAMS"
+    ],
+    "note": "Home to Al Udeid Air Base, the largest US base in the Middle East. $28B in arms sales despite hosting Hamas leadership."
+  },
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

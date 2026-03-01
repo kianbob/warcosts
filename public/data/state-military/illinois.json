@@ -1,0 +1,73 @@
+{
+  "state": "Illinois",
+  "abbr": "IL",
+  "slug": "illinois",
+  "totalBases": 14,
+  "activeBases": 12,
+  "byBranch": {
+    "Army National Guard": 3,
+    "U.S. Army": 3,
+    "U.S. Army Reserve": 1,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 4,
+    "Air National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 10.2,
+    "directJobs": 23400,
+    "contractValue": 6.8,
+    "pctGsp": 1.1
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Marseilles (MTA Tng Area)",
+      "slug": "ng-marseilles-mta-tng-area",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Sparta Armory",
+      "slug": "ng-sparta-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Springfield (TS Cp Lincoln)",
+      "slug": "ng-springfield-ts-cp-lincoln",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Joliet USARC/JTA",
+      "slug": "joliet-usarc-jta",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Scott Air Force Base",
+      "slug": "scott-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Station Great Lakes IL",
+      "slug": "naval-station-great-lakes-il",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Fort Sheridan",
+      "slug": "fort-sheridan",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "GL Camp JPJ",
+      "slug": "gl-camp-jpj",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Glenview",
+      "slug": "glenview",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "General Wayne A Downing Peoria IAP",
+      "slug": "general-wayne-a-downing-peoria-iap",
+      "branch": "Air National Guard"
+    }
+  ]
+}

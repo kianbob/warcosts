@@ -1,0 +1,67 @@
+{
+  "state": "Puerto Rico",
+  "abbr": "PR",
+  "slug": "puerto-rico",
+  "totalBases": 20,
+  "activeBases": 16,
+  "byBranch": {
+    "U.S. Army Reserve": 6,
+    "Army National Guard": 5,
+    "U.S. Navy": 6,
+    "U.S. Air Force": 2,
+    "Navy Reserve": 1
+  },
+  "defense": null,
+  "majorInstallations": [
+    {
+      "name": "Fort Buchanan",
+      "slug": "fort-buchanan",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG Ft Allen Rq 177",
+      "slug": "ng-ft-allen-rq-177",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG MTA Camp Santiago",
+      "slug": "ng-mta-camp-santiago",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Vieques West PR",
+      "slug": "vieques-west-pr",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Luis Munoz Marin IAP",
+      "slug": "luis-munoz-marin-iap",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Ramey AF Solar Observatory Research Site",
+      "slug": "ramey-af-solar-observatory-research-site",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Logistics Support Facility Aguada",
+      "slug": "naval-logistics-support-facility-aguada",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "NAVRESCEN Puerto Rico",
+      "slug": "navrescen-puerto-rico",
+      "branch": "Navy Reserve"
+    },
+    {
+      "name": "PFC S C Aviles Salinas",
+      "slug": "pfc-s-c-aviles-salinas",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG Aguadilla Readiness Center",
+      "slug": "ng-aguadilla-readiness-center",
+      "branch": "Army National Guard"
+    }
+  ]
+}

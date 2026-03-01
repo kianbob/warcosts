@@ -1,0 +1,49 @@
+{
+  "state": "Vermont",
+  "abbr": "VT",
+  "slug": "vermont",
+  "totalBases": 6,
+  "activeBases": 6,
+  "byBranch": {
+    "Army National Guard": 5,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 1.2,
+    "directJobs": 3400,
+    "contractValue": 0.6,
+    "pctGsp": 2.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG TS Camp Johnson",
+      "slug": "ng-ts-camp-johnson",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Westminster Training Site",
+      "slug": "ng-westminster-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Burlington IAP",
+      "slug": "burlington-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Ethan Allen AFB MTA",
+      "slug": "ng-ethan-allen-afb-mta",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG TS Ethan Allen Range",
+      "slug": "ng-ts-ethan-allen-range",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG So Burlington AASF and RC",
+      "slug": "ng-so-burlington-aasf-and-rc",
+      "branch": "Army National Guard"
+    }
+  ]
+}

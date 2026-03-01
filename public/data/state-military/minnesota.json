@@ -1,0 +1,66 @@
+{
+  "state": "Minnesota",
+  "abbr": "MN",
+  "slug": "minnesota",
+  "totalBases": 10,
+  "activeBases": 9,
+  "byBranch": {
+    "Army National Guard": 7,
+    "Air Force Reserve": 1,
+    "Air National Guard": 1,
+    "U.S. Army": 1
+  },
+  "defense": {
+    "totalSpending": 5.2,
+    "directJobs": 9800,
+    "contractValue": 3.8,
+    "pctGsp": 1.2
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Arden Hills Army Training Site",
+      "slug": "ng-arden-hills-army-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Ripley",
+      "slug": "ng-camp-ripley",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Duluth NG Armory",
+      "slug": "ng-duluth-ng-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Rochester NGA and OMS 2",
+      "slug": "ng-rochester-nga-and-oms-2",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Rosemount NG Armory",
+      "slug": "ng-rosemount-ng-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG St Cloud AASF",
+      "slug": "ng-st-cloud-aasf",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG St Cloud NG Armory",
+      "slug": "ng-st-cloud-ng-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Minn-St Paul",
+      "slug": "minn-st-paul",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Duluth IAP",
+      "slug": "duluth-iap",
+      "branch": "Air National Guard"
+    }
+  ]
+}

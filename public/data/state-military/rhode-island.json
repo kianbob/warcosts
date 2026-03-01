@@ -1,0 +1,61 @@
+{
+  "state": "Rhode Island",
+  "abbr": "RI",
+  "slug": "rhode-island",
+  "totalBases": 8,
+  "activeBases": 8,
+  "byBranch": {
+    "U.S. Navy": 3,
+    "Air National Guard": 1,
+    "Army National Guard": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 3.2,
+    "directJobs": 8400,
+    "contractValue": 2.4,
+    "pctGsp": 4.6
+  },
+  "majorInstallations": [
+    {
+      "name": "Naval Station Newport",
+      "slug": "naval-station-newport",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Gould Island RI",
+      "slug": "gould-island-ri",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Fort Adams RI",
+      "slug": "fort-adams-ri",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Quonset State Airport",
+      "slug": "quonset-state-airport",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Camp Fogarty Tng Site",
+      "slug": "ng-camp-fogarty-tng-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Fogarty Tng Site",
+      "slug": "ng-camp-fogarty-tng-site-2",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Warwick",
+      "slug": "ng-warwick",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Ft Nathaniel Greene USARC",
+      "slug": "ft-nathaniel-greene-usarc",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

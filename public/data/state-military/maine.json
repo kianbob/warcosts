@@ -1,0 +1,71 @@
+{
+  "state": "Maine",
+  "abbr": "ME",
+  "slug": "maine",
+  "totalBases": 11,
+  "activeBases": 10,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 4,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 6.8,
+    "directJobs": 14200,
+    "contractValue": 6.2,
+    "pctGsp": 8.3
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Auburn Training Site",
+      "slug": "ng-auburn-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Bangor Training Site",
+      "slug": "ng-bangor-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Bog Brook Training Site",
+      "slug": "ng-bog-brook-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Hollis Plains Training Site",
+      "slug": "ng-hollis-plains-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "DFAS Annex",
+      "slug": "dfas-annex",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Portsmouth Naval Shipyard",
+      "slug": "portsmouth-naval-shipyard",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Redington Township",
+      "slug": "redington-township",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Bangor IAP",
+      "slug": "bangor-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Naval Logistics Support Facility Cutler",
+      "slug": "naval-logistics-support-facility-cutler",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "NG JFHQ Augusta ME",
+      "slug": "ng-jfhq-augusta-me",
+      "branch": "Army National Guard"
+    }
+  ]
+}

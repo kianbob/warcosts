@@ -94,7 +94,7 @@ export default function SearchClient() {
 
       {!query && (
         <div className="space-y-8">
-          <p className="text-muted">Search across {conflicts.length} conflicts, 28 analysis articles, {presidents.length} presidents, 1,500+ military bases, 25 weapons systems, and more</p>
+          <p className="text-muted">Search across {conflicts.length} conflicts, 167 country profiles, 28 analysis articles, {presidents.length} presidents, 1,500+ military bases, 25 weapons systems, and more</p>
           <div>
             <h2 className="font-semibold text-lg mb-3">Popular Searches</h2>
             <div className="flex flex-wrap gap-2">

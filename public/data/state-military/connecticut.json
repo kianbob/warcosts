@@ -1,0 +1,50 @@
+{
+  "state": "Connecticut",
+  "abbr": "CT",
+  "slug": "connecticut",
+  "totalBases": 6,
+  "activeBases": 6,
+  "byBranch": {
+    "U.S. Navy": 1,
+    "Air National Guard": 1,
+    "Army National Guard": 4
+  },
+  "defense": {
+    "totalSpending": 23.4,
+    "directJobs": 34500,
+    "contractValue": 21.8,
+    "pctGsp": 7.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Naval Submarine Base New London",
+      "slug": "naval-submarine-base-new-london",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Bradley IAP",
+      "slug": "bradley-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Camp Hartell",
+      "slug": "ng-camp-hartell",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Nett",
+      "slug": "ng-camp-nett",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Stones Ranch Military Res",
+      "slug": "ng-stones-ranch-military-res",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG AASF",
+      "slug": "ng-aasf",
+      "branch": "Army National Guard"
+    }
+  ]
+}

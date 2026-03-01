@@ -1,0 +1,50 @@
+{
+  "state": "South Dakota",
+  "abbr": "SD",
+  "slug": "south-dakota",
+  "totalBases": 6,
+  "activeBases": 6,
+  "byBranch": {
+    "Army National Guard": 4,
+    "U.S. Air Force": 1,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 1.8,
+    "directJobs": 6800,
+    "contractValue": 0.6,
+    "pctGsp": 2.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Mitchell Complex",
+      "slug": "ng-mitchell-complex",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG West Camp",
+      "slug": "ng-west-camp",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Ellsworth AFB",
+      "slug": "ellsworth-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Joe Foss Field",
+      "slug": "joe-foss-field",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Camp Rapid",
+      "slug": "ng-camp-rapid",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Sioux Falls Benson Rd Complex",
+      "slug": "ng-sioux-falls-benson-rd-complex",
+      "branch": "Army National Guard"
+    }
+  ]
+}

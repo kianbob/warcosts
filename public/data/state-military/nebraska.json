@@ -1,0 +1,66 @@
+{
+  "state": "Nebraska",
+  "abbr": "NE",
+  "slug": "nebraska",
+  "totalBases": 9,
+  "activeBases": 9,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Air Force": 1,
+    "Air National Guard": 1,
+    "U.S. Army Reserve": 2
+  },
+  "defense": {
+    "totalSpending": 3.2,
+    "directJobs": 12100,
+    "contractValue": 1.4,
+    "pctGsp": 2.1
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Camp Ashland",
+      "slug": "ng-camp-ashland",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Grand Island AASF/RC",
+      "slug": "ng-grand-island-aasf-rc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Lincoln AASF/Readiness Center",
+      "slug": "ng-lincoln-aasf-readiness-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Mead TS/FMS 06/Utes 02",
+      "slug": "ng-mead-ts-fms-06-utes-02",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Offutt Air Force Base",
+      "slug": "offutt-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Lincoln Map",
+      "slug": "lincoln-map",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Greenlief TS/UTES 01",
+      "slug": "ng-greenlief-ts-utes-01",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fremont USARC",
+      "slug": "fremont-usarc",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Mead LTA",
+      "slug": "mead-lta",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

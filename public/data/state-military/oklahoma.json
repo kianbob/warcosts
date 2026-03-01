@@ -1,0 +1,71 @@
+{
+  "state": "Oklahoma",
+  "abbr": "OK",
+  "slug": "oklahoma",
+  "totalBases": 14,
+  "activeBases": 14,
+  "byBranch": {
+    "U.S. Army": 2,
+    "Army National Guard": 5,
+    "U.S. Air Force": 5,
+    "Air National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 8.4,
+    "directJobs": 34200,
+    "contractValue": 3.2,
+    "pctGsp": 3.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Sill",
+      "slug": "fort-sill",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Lexington AASF No 1",
+      "slug": "ng-lexington-aasf-no-1",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "McAlester Army Ammunition Plant",
+      "slug": "mcalester-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Norman CSMS",
+      "slug": "ng-norman-csms",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Thunderbird Youth Academy",
+      "slug": "ng-thunderbird-youth-academy",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Muskogee AFRC",
+      "slug": "ng-muskogee-afrc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Tinker Air Force Base",
+      "slug": "tinker-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Vance Air Force Base",
+      "slug": "vance-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Kegelman Air Force Auxiliary Field",
+      "slug": "kegelman-air-force-auxiliary-field",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Will Rogers World Airport",
+      "slug": "will-rogers-world-airport",
+      "branch": "Air National Guard"
+    }
+  ]
+}

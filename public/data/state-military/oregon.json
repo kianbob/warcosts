@@ -1,0 +1,70 @@
+{
+  "state": "Oregon",
+  "abbr": "OR",
+  "slug": "oregon",
+  "totalBases": 10,
+  "activeBases": 10,
+  "byBranch": {
+    "U.S. Navy": 1,
+    "Air National Guard": 2,
+    "Army National Guard": 7
+  },
+  "defense": {
+    "totalSpending": 2.4,
+    "directJobs": 4200,
+    "contractValue": 1.6,
+    "pctGsp": 0.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Naval Weapons Systems Training Facility Boardman",
+      "slug": "naval-weapons-systems-training-facility-boardman",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Portland IAP ANG",
+      "slug": "portland-iap-ang",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Kingsley Field Cantonement Site 1",
+      "slug": "kingsley-field-cantonement-site-1",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Bend Cotef",
+      "slug": "ng-bend-cotef",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Biak Training Center COUTES",
+      "slug": "ng-biak-training-center-coutes",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Adair Corvallis",
+      "slug": "ng-camp-adair-corvallis",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Withycombe Clackamas",
+      "slug": "ng-camp-withycombe-clackamas",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Lane County AFRC FMS 5",
+      "slug": "ng-lane-county-afrc-fms-5",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG McNary Field Salem AASF",
+      "slug": "ng-mcnary-field-salem-aasf",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG MTA Camp Rilea",
+      "slug": "ng-mta-camp-rilea",
+      "branch": "Army National Guard"
+    }
+  ]
+}

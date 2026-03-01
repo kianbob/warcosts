@@ -1,0 +1,61 @@
+{
+  "state": "Wisconsin",
+  "abbr": "WI",
+  "slug": "wisconsin",
+  "totalBases": 9,
+  "activeBases": 8,
+  "byBranch": {
+    "Army National Guard": 1,
+    "U.S. Army Reserve": 2,
+    "Air National Guard": 5,
+    "U.S. Army": 1
+  },
+  "defense": {
+    "totalSpending": 4.2,
+    "directJobs": 8200,
+    "contractValue": 2.8,
+    "pctGsp": 1.1
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Camp Williams Tomah MTA",
+      "slug": "ng-camp-williams-tomah-mta",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort McCoy",
+      "slug": "fort-mccoy",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "W Silver Spring Complex",
+      "slug": "w-silver-spring-complex",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Gen Mitchell IAP",
+      "slug": "gen-mitchell-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Truax ANGB",
+      "slug": "truax-angb",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Volk ANGB",
+      "slug": "volk-angb",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Hardwood Range",
+      "slug": "hardwood-range",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "General Mitchell IAP Guard East",
+      "slug": "general-mitchell-iap-guard-east",
+      "branch": "Air National Guard"
+    }
+  ]
+}

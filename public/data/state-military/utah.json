@@ -1,0 +1,57 @@
+{
+  "state": "Utah",
+  "abbr": "UT",
+  "slug": "utah",
+  "totalBases": 8,
+  "activeBases": 7,
+  "byBranch": {
+    "U.S. Army": 3,
+    "Army National Guard": 2,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 1,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 6.8,
+    "directJobs": 21400,
+    "contractValue": 4.2,
+    "pctGsp": 2.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Tooele Army Depot ",
+      "slug": "tooele-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "West Desert Test Center",
+      "slug": "west-desert-test-center",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Camp Williams",
+      "slug": "camp-williams",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Saint George/FMS 5B",
+      "slug": "ng-saint-george-fms-5b",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Hill Air Force Base",
+      "slug": "hill-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "NAVPMOSSP Magna Utah",
+      "slug": "navpmossp-magna-utah",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Salt Lake City IAP",
+      "slug": "salt-lake-city-iap",
+      "branch": "Air National Guard"
+    }
+  ]
+}

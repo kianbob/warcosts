@@ -1,0 +1,42 @@
+{
+  "name": "USSR",
+  "slug": "ussr",
+  "rawName": "USSR",
+  "rank": null,
+  "latest": {
+    "year": 1990,
+    "amount": 221760,
+    "amountBillions": 221.8
+  },
+  "gdpPct": null,
+  "pctWorld": null,
+  "peak": {
+    "year": 1988,
+    "amount": 282701,
+    "amountBillions": 282.7
+  },
+  "trend10yr": -21.6,
+  "dataYears": 3,
+  "spending": [
+    {
+      "year": 1988,
+      "amount": 282701,
+      "amountBillions": 282.7
+    },
+    {
+      "year": 1989,
+      "amount": 262132,
+      "amountBillions": 262.13
+    },
+    {
+      "year": 1990,
+      "amount": 221760,
+      "amountBillions": 221.76
+    }
+  ],
+  "gdp": [],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

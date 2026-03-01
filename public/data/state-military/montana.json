@@ -1,0 +1,66 @@
+{
+  "state": "Montana",
+  "abbr": "MT",
+  "slug": "montana",
+  "totalBases": 9,
+  "activeBases": 9,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Air Force": 1,
+    "Air National Guard": 1,
+    "U.S. Army Reserve": 2
+  },
+  "defense": {
+    "totalSpending": 2.4,
+    "directJobs": 7200,
+    "contractValue": 0.8,
+    "pctGsp": 3.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Helena Aviation RC- AASF- C12",
+      "slug": "ng-helena-aviation-rc-aasf-c12",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG MTA Ft Wm Henry Harrison",
+      "slug": "ng-mta-ft-wm-henry-harrison",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Malmstrom Air Force Base",
+      "slug": "malmstrom-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Great Falls IAP",
+      "slug": "great-falls-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG MTA Limestone Hills",
+      "slug": "ng-mta-limestone-hills",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG MTA Limestone Hills",
+      "slug": "ng-mta-limestone-hills-2",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Wm Harrison AMSA 75 G",
+      "slug": "fort-wm-harrison-amsa-75-g",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG TS Waco LTA",
+      "slug": "ng-ts-waco-lta",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Butte USARC",
+      "slug": "butte-usarc",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

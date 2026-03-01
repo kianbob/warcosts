@@ -1,0 +1,72 @@
+{
+  "state": "Nevada",
+  "abbr": "NV",
+  "slug": "nevada",
+  "totalBases": 12,
+  "activeBases": 12,
+  "byBranch": {
+    "Army National Guard": 2,
+    "U.S. Army": 1,
+    "U.S. Navy": 2,
+    "Air National Guard": 1,
+    "U.S. Air Force": 6
+  },
+  "defense": {
+    "totalSpending": 5.8,
+    "directJobs": 14200,
+    "contractValue": 3.2,
+    "pctGsp": 2.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Floyd Edsall Training Center",
+      "slug": "ng-floyd-edsall-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Hawthorne Army Depot",
+      "slug": "hawthorne-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Anthony Cometa Complex",
+      "slug": "ng-anthony-cometa-complex",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fallon Range Complex",
+      "slug": "fallon-range-complex",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Reno Tahoe IAP",
+      "slug": "reno-tahoe-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Utah Test and Training Range",
+      "slug": "utah-test-and-training-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Creech Air Force Base",
+      "slug": "creech-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Nellis Air Force Base",
+      "slug": "nellis-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Nevada Test and Training Range",
+      "slug": "nevada-test-and-training-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Dixie Valley",
+      "slug": "dixie-valley",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

@@ -50,6 +50,7 @@ const navItems = [
       { label: 'Base Directory (1,500+)', href: '/bases/directory' },
       { label: 'Bases by Country', href: '/bases/countries' },
       { label: 'Bases by State', href: '/bases/states' },
+      { label: 'Country Profiles (167)', href: '/countries' },
       { label: 'Troop Deployments', href: '/deployments' },
       { label: 'Regime Changes', href: '/regime-changes' },
       { label: 'Intelligence Agencies', href: '/intelligence' },

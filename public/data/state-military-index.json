@@ -1,0 +1,488 @@
+[
+  {
+    "state": "California",
+    "abbr": "CA",
+    "slug": "california",
+    "bases": 79,
+    "dodSpending": 72.1,
+    "directJobs": 165400,
+    "pctGsp": 1.8
+  },
+  {
+    "state": "Virginia",
+    "abbr": "VA",
+    "slug": "virginia",
+    "bases": 47,
+    "dodSpending": 68.4,
+    "directJobs": 156200,
+    "pctGsp": 10.8
+  },
+  {
+    "state": "Texas",
+    "abbr": "TX",
+    "slug": "texas",
+    "bases": 32,
+    "dodSpending": 62.4,
+    "directJobs": 178500,
+    "pctGsp": 2.8
+  },
+  {
+    "state": "Maryland",
+    "abbr": "MD",
+    "slug": "maryland",
+    "bases": 28,
+    "dodSpending": 42.1,
+    "directJobs": 88600,
+    "pctGsp": 9.1
+  },
+  {
+    "state": "Florida",
+    "abbr": "FL",
+    "slug": "florida",
+    "bases": 49,
+    "dodSpending": 35.8,
+    "directJobs": 82100,
+    "pctGsp": 2.5
+  },
+  {
+    "state": "Connecticut",
+    "abbr": "CT",
+    "slug": "connecticut",
+    "bases": 6,
+    "dodSpending": 23.4,
+    "directJobs": 34500,
+    "pctGsp": 7.8
+  },
+  {
+    "state": "Georgia",
+    "abbr": "GA",
+    "slug": "georgia",
+    "bases": 21,
+    "dodSpending": 21.5,
+    "directJobs": 72400,
+    "pctGsp": 3
+  },
+  {
+    "state": "Massachusetts",
+    "abbr": "MA",
+    "slug": "massachusetts",
+    "bases": 14,
+    "dodSpending": 21.3,
+    "directJobs": 28700,
+    "pctGsp": 3.1
+  },
+  {
+    "state": "Arizona",
+    "abbr": "AZ",
+    "slug": "arizona",
+    "bases": 20,
+    "dodSpending": 20.3,
+    "directJobs": 45200,
+    "pctGsp": 4.8
+  },
+  {
+    "state": "Colorado",
+    "abbr": "CO",
+    "slug": "colorado",
+    "bases": 12,
+    "dodSpending": 18.7,
+    "directJobs": 44800,
+    "pctGsp": 4.1
+  },
+  {
+    "state": "Washington",
+    "abbr": "WA",
+    "slug": "washington",
+    "bases": 18,
+    "dodSpending": 18.4,
+    "directJobs": 42800,
+    "pctGsp": 2.4
+  },
+  {
+    "state": "Pennsylvania",
+    "abbr": "PA",
+    "slug": "pennsylvania",
+    "bases": 21,
+    "dodSpending": 18.2,
+    "directJobs": 34800,
+    "pctGsp": 2.1
+  },
+  {
+    "state": "North Carolina",
+    "abbr": "NC",
+    "slug": "north-carolina",
+    "bases": 14,
+    "dodSpending": 18.2,
+    "directJobs": 79600,
+    "pctGsp": 2.7
+  },
+  {
+    "state": "Alabama",
+    "abbr": "AL",
+    "slug": "alabama",
+    "bases": 30,
+    "dodSpending": 16.2,
+    "directJobs": 37600,
+    "pctGsp": 5.8
+  },
+  {
+    "state": "New York",
+    "abbr": "NY",
+    "slug": "new-york",
+    "bases": 22,
+    "dodSpending": 15.8,
+    "directJobs": 32600,
+    "pctGsp": 0.8
+  },
+  {
+    "state": "Missouri",
+    "abbr": "MO",
+    "slug": "missouri",
+    "bases": 16,
+    "dodSpending": 14.8,
+    "directJobs": 32400,
+    "pctGsp": 4
+  },
+  {
+    "state": "Ohio",
+    "abbr": "OH",
+    "slug": "ohio",
+    "bases": 15,
+    "dodSpending": 12.8,
+    "directJobs": 28300,
+    "pctGsp": 1.6
+  },
+  {
+    "state": "Hawaii",
+    "abbr": "HI",
+    "slug": "hawaii",
+    "bases": 33,
+    "dodSpending": 12.4,
+    "directJobs": 51200,
+    "pctGsp": 12.3
+  },
+  {
+    "state": "New Jersey",
+    "abbr": "NJ",
+    "slug": "new-jersey",
+    "bases": 8,
+    "dodSpending": 12.4,
+    "directJobs": 22100,
+    "pctGsp": 1.7
+  },
+  {
+    "state": "Kentucky",
+    "abbr": "KY",
+    "slug": "kentucky",
+    "bases": 5,
+    "dodSpending": 12.3,
+    "directJobs": 42100,
+    "pctGsp": 5.3
+  },
+  {
+    "state": "Illinois",
+    "abbr": "IL",
+    "slug": "illinois",
+    "bases": 14,
+    "dodSpending": 10.2,
+    "directJobs": 23400,
+    "pctGsp": 1.1
+  },
+  {
+    "state": "New Mexico",
+    "abbr": "NM",
+    "slug": "new-mexico",
+    "bases": 10,
+    "dodSpending": 10.2,
+    "directJobs": 28400,
+    "pctGsp": 8.8
+  },
+  {
+    "state": "South Carolina",
+    "abbr": "SC",
+    "slug": "south-carolina",
+    "bases": 8,
+    "dodSpending": 9.8,
+    "directJobs": 38200,
+    "pctGsp": 3.6
+  },
+  {
+    "state": "Mississippi",
+    "abbr": "MS",
+    "slug": "mississippi",
+    "bases": 15,
+    "dodSpending": 8.4,
+    "directJobs": 22300,
+    "pctGsp": 6.4
+  },
+  {
+    "state": "Oklahoma",
+    "abbr": "OK",
+    "slug": "oklahoma",
+    "bases": 14,
+    "dodSpending": 8.4,
+    "directJobs": 34200,
+    "pctGsp": 3.8
+  },
+  {
+    "state": "Indiana",
+    "abbr": "IN",
+    "slug": "indiana",
+    "bases": 13,
+    "dodSpending": 7.8,
+    "directJobs": 21300,
+    "pctGsp": 1.8
+  },
+  {
+    "state": "Michigan",
+    "abbr": "MI",
+    "slug": "michigan",
+    "bases": 8,
+    "dodSpending": 7.4,
+    "directJobs": 15800,
+    "pctGsp": 1.2
+  },
+  {
+    "state": "Louisiana",
+    "abbr": "LA",
+    "slug": "louisiana",
+    "bases": 15,
+    "dodSpending": 7.2,
+    "directJobs": 16300,
+    "pctGsp": 2.5
+  },
+  {
+    "state": "Alaska",
+    "abbr": "AK",
+    "slug": "alaska",
+    "bases": 29,
+    "dodSpending": 6.8,
+    "directJobs": 21700,
+    "pctGsp": 10.1
+  },
+  {
+    "state": "Maine",
+    "abbr": "ME",
+    "slug": "maine",
+    "bases": 11,
+    "dodSpending": 6.8,
+    "directJobs": 14200,
+    "pctGsp": 8.3
+  },
+  {
+    "state": "Utah",
+    "abbr": "UT",
+    "slug": "utah",
+    "bases": 8,
+    "dodSpending": 6.8,
+    "directJobs": 21400,
+    "pctGsp": 2.8
+  },
+  {
+    "state": "Tennessee",
+    "abbr": "TN",
+    "slug": "tennessee",
+    "bases": 16,
+    "dodSpending": 6.2,
+    "directJobs": 14800,
+    "pctGsp": 1.4
+  },
+  {
+    "state": "Nevada",
+    "abbr": "NV",
+    "slug": "nevada",
+    "bases": 12,
+    "dodSpending": 5.8,
+    "directJobs": 14200,
+    "pctGsp": 2.8
+  },
+  {
+    "state": "Kansas",
+    "abbr": "KS",
+    "slug": "kansas",
+    "bases": 9,
+    "dodSpending": 5.8,
+    "directJobs": 26700,
+    "pctGsp": 3.2
+  },
+  {
+    "state": "Minnesota",
+    "abbr": "MN",
+    "slug": "minnesota",
+    "bases": 10,
+    "dodSpending": 5.2,
+    "directJobs": 9800,
+    "pctGsp": 1.2
+  },
+  {
+    "state": "Wisconsin",
+    "abbr": "WI",
+    "slug": "wisconsin",
+    "bases": 9,
+    "dodSpending": 4.2,
+    "directJobs": 8200,
+    "pctGsp": 1.1
+  },
+  {
+    "state": "Arkansas",
+    "abbr": "AR",
+    "slug": "arkansas",
+    "bases": 6,
+    "dodSpending": 3.8,
+    "directJobs": 8900,
+    "pctGsp": 2.6
+  },
+  {
+    "state": "New Hampshire",
+    "abbr": "NH",
+    "slug": "new-hampshire",
+    "bases": 4,
+    "dodSpending": 3.8,
+    "directJobs": 5800,
+    "pctGsp": 3.9
+  },
+  {
+    "state": "Nebraska",
+    "abbr": "NE",
+    "slug": "nebraska",
+    "bases": 9,
+    "dodSpending": 3.2,
+    "directJobs": 12100,
+    "pctGsp": 2.1
+  },
+  {
+    "state": "Rhode Island",
+    "abbr": "RI",
+    "slug": "rhode-island",
+    "bases": 8,
+    "dodSpending": 3.2,
+    "directJobs": 8400,
+    "pctGsp": 4.6
+  },
+  {
+    "state": "North Dakota",
+    "abbr": "ND",
+    "slug": "north-dakota",
+    "bases": 9,
+    "dodSpending": 3.1,
+    "directJobs": 11200,
+    "pctGsp": 4.8
+  },
+  {
+    "state": "Oregon",
+    "abbr": "OR",
+    "slug": "oregon",
+    "bases": 10,
+    "dodSpending": 2.4,
+    "directJobs": 4200,
+    "pctGsp": 0.8
+  },
+  {
+    "state": "Montana",
+    "abbr": "MT",
+    "slug": "montana",
+    "bases": 9,
+    "dodSpending": 2.4,
+    "directJobs": 7200,
+    "pctGsp": 3.8
+  },
+  {
+    "state": "Idaho",
+    "abbr": "ID",
+    "slug": "idaho",
+    "bases": 10,
+    "dodSpending": 2.1,
+    "directJobs": 7600,
+    "pctGsp": 2.1
+  },
+  {
+    "state": "Iowa",
+    "abbr": "IA",
+    "slug": "iowa",
+    "bases": 7,
+    "dodSpending": 2.1,
+    "directJobs": 5200,
+    "pctGsp": 1
+  },
+  {
+    "state": "Delaware",
+    "abbr": "DE",
+    "slug": "delaware",
+    "bases": 4,
+    "dodSpending": 2.1,
+    "directJobs": 4800,
+    "pctGsp": 2.5
+  },
+  {
+    "state": "West Virginia",
+    "abbr": "WV",
+    "slug": "west-virginia",
+    "bases": 12,
+    "dodSpending": 1.8,
+    "directJobs": 4200,
+    "pctGsp": 2
+  },
+  {
+    "state": "South Dakota",
+    "abbr": "SD",
+    "slug": "south-dakota",
+    "bases": 6,
+    "dodSpending": 1.8,
+    "directJobs": 6800,
+    "pctGsp": 2.8
+  },
+  {
+    "state": "Wyoming",
+    "abbr": "WY",
+    "slug": "wyoming",
+    "bases": 3,
+    "dodSpending": 1.8,
+    "directJobs": 5400,
+    "pctGsp": 3.8
+  },
+  {
+    "state": "Vermont",
+    "abbr": "VT",
+    "slug": "vermont",
+    "bases": 6,
+    "dodSpending": 1.2,
+    "directJobs": 3400,
+    "pctGsp": 2.8
+  },
+  {
+    "state": "Puerto Rico",
+    "abbr": "PR",
+    "slug": "puerto-rico",
+    "bases": 20,
+    "dodSpending": null,
+    "directJobs": null,
+    "pctGsp": null
+  },
+  {
+    "state": "Guam",
+    "abbr": "GU",
+    "slug": "guam",
+    "bases": 5,
+    "dodSpending": null,
+    "directJobs": null,
+    "pctGsp": null
+  },
+  {
+    "state": "Washington DC",
+    "abbr": "",
+    "slug": "washington-dc",
+    "bases": 4,
+    "dodSpending": null,
+    "directJobs": null,
+    "pctGsp": null
+  },
+  {
+    "state": "Virgin Islands",
+    "abbr": "",
+    "slug": "virgin-islands",
+    "bases": 1,
+    "dodSpending": null,
+    "directJobs": null,
+    "pctGsp": null
+  }
+]

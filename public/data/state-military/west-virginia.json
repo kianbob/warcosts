@@ -1,0 +1,72 @@
+{
+  "state": "West Virginia",
+  "abbr": "WV",
+  "slug": "west-virginia",
+  "totalBases": 12,
+  "activeBases": 11,
+  "byBranch": {
+    "Army National Guard": 6,
+    "U.S. Navy": 1,
+    "Air National Guard": 2,
+    "Other": 1,
+    "U.S. Army Reserve": 2
+  },
+  "defense": {
+    "totalSpending": 1.8,
+    "directJobs": 4200,
+    "contractValue": 0.8,
+    "pctGsp": 2
+  },
+  "majorInstallations": [
+    {
+      "name": "NG CTC Camp Dawson-Kingwood",
+      "slug": "ng-ctc-camp-dawson-kingwood",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Williamstown",
+      "slug": "ng-williamstown",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Jackson County AFRC",
+      "slug": "ng-jackson-county-afrc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Elkins AFRC",
+      "slug": "ng-elkins-afrc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Allegany Ballistics Lab",
+      "slug": "allegany-ballistics-lab",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "McLaughlin ANGB",
+      "slug": "mclaughlin-angb",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "EWVRA Shepherd Field",
+      "slug": "ewvra-shepherd-field",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Biometric Technology Center Defense Forensics and Biometrics",
+      "slug": "biometric-technology-center-defense-forensics-and-biometrics",
+      "branch": "Other"
+    },
+    {
+      "name": "NG Volkstone",
+      "slug": "ng-volkstone",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Clarksburg AMSA 102 G",
+      "slug": "clarksburg-amsa-102-g",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

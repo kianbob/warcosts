@@ -1,0 +1,67 @@
+{
+  "state": "Kansas",
+  "abbr": "KS",
+  "slug": "kansas",
+  "totalBases": 9,
+  "activeBases": 9,
+  "byBranch": {
+    "U.S. Army": 2,
+    "U.S. Air Force": 1,
+    "Air National Guard": 2,
+    "Army National Guard": 2,
+    "U.S. Army Reserve": 2
+  },
+  "defense": {
+    "totalSpending": 5.8,
+    "directJobs": 26700,
+    "contractValue": 3.1,
+    "pctGsp": 3.2
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Riley",
+      "slug": "fort-riley",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "McConnell AFB",
+      "slug": "mcconnell-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Smoky Hill ANG Range",
+      "slug": "smoky-hill-ang-range",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Forbes Field ANG",
+      "slug": "forbes-field-ang",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Fort Leavenworth",
+      "slug": "fort-leavenworth",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG JFHQ-Kansas",
+      "slug": "ng-jfhq-kansas",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Salina KS Training Center",
+      "slug": "ng-salina-ks-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "1SG Robert L Kuhn USARC",
+      "slug": "1sg-robert-l-kuhn-usarc",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Dodge City USARC GTA",
+      "slug": "dodge-city-usarc-gta",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

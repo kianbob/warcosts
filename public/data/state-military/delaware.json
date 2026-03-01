@@ -1,0 +1,40 @@
+{
+  "state": "Delaware",
+  "abbr": "DE",
+  "slug": "delaware",
+  "totalBases": 4,
+  "activeBases": 4,
+  "byBranch": {
+    "U.S. Air Force": 1,
+    "Air National Guard": 1,
+    "Army National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 2.1,
+    "directJobs": 4800,
+    "contractValue": 0.8,
+    "pctGsp": 2.5
+  },
+  "majorInstallations": [
+    {
+      "name": "Dover Air Force Base",
+      "slug": "dover-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "New Castle Airport",
+      "slug": "new-castle-airport",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Bethany Beach Training Site",
+      "slug": "ng-bethany-beach-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG River Road Training Site",
+      "slug": "ng-river-road-training-site",
+      "branch": "Army National Guard"
+    }
+  ]
+}

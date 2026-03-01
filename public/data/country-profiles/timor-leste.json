@@ -1,0 +1,208 @@
+{
+  "name": "Timor Leste",
+  "slug": "timor-leste",
+  "rawName": "Timor Leste",
+  "rank": 134,
+  "latest": {
+    "year": 2024,
+    "amount": 45,
+    "amountBillions": 0
+  },
+  "gdpPct": null,
+  "pctWorld": 0,
+  "peak": {
+    "year": 2009,
+    "amount": 69,
+    "amountBillions": 0.1
+  },
+  "trend10yr": -2.2,
+  "dataYears": 20,
+  "spending": [
+    {
+      "year": 2005,
+      "amount": 20,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2006,
+      "amount": 39,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2007,
+      "amount": 49,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2008,
+      "amount": 45,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2009,
+      "amount": 69,
+      "amountBillions": 0.07
+    },
+    {
+      "year": 2010,
+      "amount": 47,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2011,
+      "amount": 32,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2012,
+      "amount": 47,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2013,
+      "amount": 40,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2014,
+      "amount": 37,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2015,
+      "amount": 46,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2016,
+      "amount": 33,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2017,
+      "amount": 32,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2018,
+      "amount": 25,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2019,
+      "amount": 42,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2020,
+      "amount": 46,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2021,
+      "amount": 46,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2022,
+      "amount": 48,
+      "amountBillions": 0.05
+    },
+    {
+      "year": 2023,
+      "amount": 55,
+      "amountBillions": 0.06
+    },
+    {
+      "year": 2024,
+      "amount": 45,
+      "amountBillions": 0.04
+    }
+  ],
+  "gdp": [
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0.1
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

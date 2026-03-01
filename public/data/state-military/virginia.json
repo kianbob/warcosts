@@ -1,0 +1,74 @@
+{
+  "state": "Virginia",
+  "abbr": "VA",
+  "slug": "virginia",
+  "totalBases": 47,
+  "activeBases": 46,
+  "byBranch": {
+    "Army National Guard": 3,
+    "U.S. Army": 9,
+    "U.S. Navy": 27,
+    "Washington HQ Services": 4,
+    "U.S. Marine Corps": 2,
+    "U.S. Air Force": 1,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 68.4,
+    "directJobs": 156200,
+    "contractValue": 48.6,
+    "pctGsp": 10.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Sandson AASF",
+      "slug": "ng-sandson-aasf",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Arlington National Cemetery",
+      "slug": "arlington-national-cemetery",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG State Military Reservation Camp Pendleton",
+      "slug": "ng-state-military-reservation-camp-pendleton",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Walker",
+      "slug": "fort-walker",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Belvoir",
+      "slug": "fort-belvoir",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Gregg-Adams",
+      "slug": "fort-gregg-adams",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Joint Base Myer-Henderson Hall",
+      "slug": "joint-base-myer-henderson-hall",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Fort Barfoot MTC & FMS 15",
+      "slug": "ng-fort-barfoot-mtc-fms-15",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Radford Army Ammunition Plant",
+      "slug": "radford-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Rivanna Station",
+      "slug": "rivanna-station",
+      "branch": "U.S. Army"
+    }
+  ]
+}

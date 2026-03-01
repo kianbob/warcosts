@@ -1,0 +1,72 @@
+{
+  "state": "Alabama",
+  "abbr": "AL",
+  "slug": "alabama",
+  "totalBases": 30,
+  "activeBases": 30,
+  "byBranch": {
+    "Army National Guard": 5,
+    "U.S. Army": 16,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 6,
+    "Air National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 16.2,
+    "directJobs": 37600,
+    "contractValue": 8.1,
+    "pctGsp": 5.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG AASF02 Birmingham",
+      "slug": "ng-aasf02-birmingham",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Allen Stagefield AL",
+      "slug": "allen-stagefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Anniston Army Depot",
+      "slug": "anniston-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Brown 4b Stagefield AL",
+      "slug": "brown-4b-stagefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Cairns Basefield AL",
+      "slug": "cairns-basefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Novosel ",
+      "slug": "fort-novosel",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Goldberg Stagefield AL",
+      "slug": "goldberg-stagefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Highbluff Stagefield AL",
+      "slug": "highbluff-stagefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Hunt Stagefield AL",
+      "slug": "hunt-stagefield-al",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Montgomery JFHQ AFRC / CSMS 01",
+      "slug": "ng-montgomery-jfhq-afrc-csms-01",
+      "branch": "Army National Guard"
+    }
+  ]
+}

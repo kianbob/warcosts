@@ -1,0 +1,70 @@
+{
+  "state": "New Mexico",
+  "abbr": "NM",
+  "slug": "new-mexico",
+  "totalBases": 10,
+  "activeBases": 10,
+  "byBranch": {
+    "Army National Guard": 3,
+    "U.S. Army": 2,
+    "U.S. Air Force": 5
+  },
+  "defense": {
+    "totalSpending": 10.2,
+    "directJobs": 28400,
+    "contractValue": 6.8,
+    "pctGsp": 8.8
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Las Cruces",
+      "slug": "ng-las-cruces",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Santa Fe - Onate Complex TS",
+      "slug": "ng-santa-fe-onate-complex-ts",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Rio Rancho TS",
+      "slug": "ng-rio-rancho-ts",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "White Sands Missile Range",
+      "slug": "white-sands-missile-range",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Cannon AFB Site 2",
+      "slug": "cannon-afb-site-2",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Holloman Air Force Base",
+      "slug": "holloman-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Melrose Air Force Range",
+      "slug": "melrose-air-force-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Cannon Air Force Base",
+      "slug": "cannon-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Fort Wingate Depot Activity",
+      "slug": "fort-wingate-depot-activity",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Kirtland Air Force Base",
+      "slug": "kirtland-air-force-base",
+      "branch": "U.S. Air Force"
+    }
+  ]
+}

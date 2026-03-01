@@ -1,0 +1,34 @@
+{
+  "state": "Washington DC",
+  "abbr": "",
+  "slug": "washington-dc",
+  "totalBases": 4,
+  "activeBases": 4,
+  "byBranch": {
+    "U.S. Navy": 3,
+    "U.S. Air Force": 1
+  },
+  "defense": null,
+  "majorInstallations": [
+    {
+      "name": "Naval Observatory",
+      "slug": "naval-observatory",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Naval Research Laboratory",
+      "slug": "naval-research-laboratory",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Joint Base Anacostia-Bolling",
+      "slug": "joint-base-anacostia-bolling",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Support Activity Wash",
+      "slug": "naval-support-activity-wash",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Equatorial Guinea",
+  "slug": "equatorial-guinea",
+  "rawName": "Equatorial Guinea",
+  "rank": 127,
+  "latest": {
+    "year": 2024,
+    "amount": 109,
+    "amountBillions": 0.1
+  },
+  "gdpPct": null,
+  "pctWorld": 0,
+  "peak": {
+    "year": 2009,
+    "amount": 436,
+    "amountBillions": 0.4
+  },
+  "trend10yr": -31,
+  "dataYears": 16,
+  "spending": [
+    {
+      "year": 1994,
+      "amount": 8,
+      "amountBillions": 0.01
+    },
+    {
+      "year": 1995,
+      "amount": 9,
+      "amountBillions": 0.01
+    },
+    {
+      "year": 2007,
+      "amount": 261,
+      "amountBillions": 0.26
+    },
+    {
+      "year": 2008,
+      "amount": 341,
+      "amountBillions": 0.34
+    },
+    {
+      "year": 2009,
+      "amount": 436,
+      "amountBillions": 0.44
+    },
+    {
+      "year": 2014,
+      "amount": 163,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2015,
+      "amount": 158,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2016,
+      "amount": 158,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2017,
+      "amount": 152,
+      "amountBillions": 0.15
+    },
+    {
+      "year": 2018,
+      "amount": 156,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2019,
+      "amount": 161,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2020,
+      "amount": 165,
+      "amountBillions": 0.17
+    },
+    {
+      "year": 2021,
+      "amount": 160,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2022,
+      "amount": 165,
+      "amountBillions": 0.17
+    },
+    {
+      "year": 2023,
+      "amount": 162,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2024,
+      "amount": 109,
+      "amountBillions": 0.11
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 1994,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

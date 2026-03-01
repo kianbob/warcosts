@@ -1,0 +1,316 @@
+{
+  "name": "Kazakhstan",
+  "slug": "kazakhstan",
+  "rawName": "Kazakhstan",
+  "rank": 73,
+  "latest": {
+    "year": 2024,
+    "amount": 1145,
+    "amountBillions": 1.1
+  },
+  "gdpPct": null,
+  "pctWorld": 0,
+  "peak": {
+    "year": 2019,
+    "amount": 2367,
+    "amountBillions": 2.4
+  },
+  "trend10yr": -44.9,
+  "dataYears": 32,
+  "spending": [
+    {
+      "year": 1993,
+      "amount": 507,
+      "amountBillions": 0.51
+    },
+    {
+      "year": 1994,
+      "amount": 325,
+      "amountBillions": 0.33
+    },
+    {
+      "year": 1995,
+      "amount": 335,
+      "amountBillions": 0.34
+    },
+    {
+      "year": 1996,
+      "amount": 362,
+      "amountBillions": 0.36
+    },
+    {
+      "year": 1997,
+      "amount": 338,
+      "amountBillions": 0.34
+    },
+    {
+      "year": 1998,
+      "amount": 336,
+      "amountBillions": 0.34
+    },
+    {
+      "year": 1999,
+      "amount": 281,
+      "amountBillions": 0.28
+    },
+    {
+      "year": 2000,
+      "amount": 294,
+      "amountBillions": 0.29
+    },
+    {
+      "year": 2001,
+      "amount": 432,
+      "amountBillions": 0.43
+    },
+    {
+      "year": 2002,
+      "amount": 474,
+      "amountBillions": 0.47
+    },
+    {
+      "year": 2003,
+      "amount": 561,
+      "amountBillions": 0.56
+    },
+    {
+      "year": 2004,
+      "amount": 641,
+      "amountBillions": 0.64
+    },
+    {
+      "year": 2005,
+      "amount": 808,
+      "amountBillions": 0.81
+    },
+    {
+      "year": 2006,
+      "amount": 944,
+      "amountBillions": 0.94
+    },
+    {
+      "year": 2007,
+      "amount": 1420,
+      "amountBillions": 1.42
+    },
+    {
+      "year": 2008,
+      "amount": 1348,
+      "amountBillions": 1.35
+    },
+    {
+      "year": 2009,
+      "amount": 1272,
+      "amountBillions": 1.27
+    },
+    {
+      "year": 2010,
+      "amount": 1397,
+      "amountBillions": 1.4
+    },
+    {
+      "year": 2011,
+      "amount": 1539,
+      "amountBillions": 1.54
+    },
+    {
+      "year": 2012,
+      "amount": 1796,
+      "amountBillions": 1.8
+    },
+    {
+      "year": 2013,
+      "amount": 2026,
+      "amountBillions": 2.03
+    },
+    {
+      "year": 2014,
+      "amount": 2020,
+      "amountBillions": 2.02
+    },
+    {
+      "year": 2015,
+      "amount": 2078,
+      "amountBillions": 2.08
+    },
+    {
+      "year": 2016,
+      "amount": 1756,
+      "amountBillions": 1.76
+    },
+    {
+      "year": 2017,
+      "amount": 1686,
+      "amountBillions": 1.69
+    },
+    {
+      "year": 2018,
+      "amount": 1814,
+      "amountBillions": 1.81
+    },
+    {
+      "year": 2019,
+      "amount": 2367,
+      "amountBillions": 2.37
+    },
+    {
+      "year": 2020,
+      "amount": 2002,
+      "amountBillions": 2
+    },
+    {
+      "year": 2021,
+      "amount": 1989,
+      "amountBillions": 1.99
+    },
+    {
+      "year": 2022,
+      "amount": 1350,
+      "amountBillions": 1.35
+    },
+    {
+      "year": 2023,
+      "amount": 1164,
+      "amountBillions": 1.16
+    },
+    {
+      "year": 2024,
+      "amount": 1145,
+      "amountBillions": 1.15
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1992,
+      "pct": 0
+    },
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 1994,
+      "pct": 0
+    },
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    },
+    {
+      "year": 1999,
+      "pct": 0
+    },
+    {
+      "year": 2000,
+      "pct": 0
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

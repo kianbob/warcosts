@@ -1,0 +1,73 @@
+{
+  "state": "Louisiana",
+  "abbr": "LA",
+  "slug": "louisiana",
+  "totalBases": 15,
+  "activeBases": 15,
+  "byBranch": {
+    "Army National Guard": 9,
+    "U.S. Army": 2,
+    "U.S. Air Force": 1,
+    "Navy Reserve": 1,
+    "U.S. Navy": 1,
+    "Marine Corps Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 7.2,
+    "directJobs": 16300,
+    "contractValue": 5.4,
+    "pctGsp": 2.5
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Carville Gillis Long Center",
+      "slug": "ng-carville-gillis-long-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Esler Field",
+      "slug": "ng-esler-field",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Johnson",
+      "slug": "fort-johnson",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Hammond Airport",
+      "slug": "ng-hammond-airport",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Jackson Bks",
+      "slug": "ng-jackson-bks",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Beauregard",
+      "slug": "ng-camp-beauregard",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Barksdale Air Force Base",
+      "slug": "barksdale-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Air Station Joint Reserve Base New Orleans",
+      "slug": "naval-air-station-joint-reserve-base-new-orleans",
+      "branch": "Navy Reserve"
+    },
+    {
+      "name": "West Bank",
+      "slug": "west-bank",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "England Authority",
+      "slug": "england-authority",
+      "branch": "U.S. Army"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Turkmenistan",
+  "slug": "turkmenistan",
+  "rawName": "Turkmenistan",
+  "rank": null,
+  "latest": {
+    "year": 1999,
+    "amount": 186,
+    "amountBillions": 0.2
+  },
+  "gdpPct": null,
+  "pctWorld": null,
+  "peak": {
+    "year": 1997,
+    "amount": 203,
+    "amountBillions": 0.2
+  },
+  "trend10yr": 19.2,
+  "dataYears": 6,
+  "spending": [
+    {
+      "year": 1994,
+      "amount": 156,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 1995,
+      "amount": 139,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 1996,
+      "amount": 134,
+      "amountBillions": 0.13
+    },
+    {
+      "year": 1997,
+      "amount": 203,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 1998,
+      "amount": 172,
+      "amountBillions": 0.17
+    },
+    {
+      "year": 1999,
+      "amount": 186,
+      "amountBillions": 0.19
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 1994,
+      "pct": 0
+    },
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

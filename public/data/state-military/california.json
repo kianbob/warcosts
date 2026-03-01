@@ -1,0 +1,75 @@
+{
+  "state": "California",
+  "abbr": "CA",
+  "slug": "california",
+  "totalBases": 79,
+  "activeBases": 73,
+  "byBranch": {
+    "U.S. Army": 6,
+    "U.S. Army Reserve": 3,
+    "Army National Guard": 4,
+    "Air Force Reserve": 2,
+    "U.S. Air Force": 13,
+    "U.S. Marine Corps": 11,
+    "U.S. Navy": 38,
+    "Air National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 72.1,
+    "directJobs": 165400,
+    "contractValue": 52.3,
+    "pctGsp": 1.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Military Ocean Terminal Concord",
+      "slug": "military-ocean-terminal-concord",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Hunter Liggett",
+      "slug": "fort-hunter-liggett",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "NG ITC Camp San Luis Obisbo",
+      "slug": "ng-itc-camp-san-luis-obisbo",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Camp Roberts",
+      "slug": "camp-roberts",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Irwin",
+      "slug": "fort-irwin",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Parks Reserve Forces Tng Area",
+      "slug": "parks-reserve-forces-tng-area",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Presidio of Monterey",
+      "slug": "presidio-of-monterey",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Sierra Army Depot",
+      "slug": "sierra-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Los Alamitos JFTB",
+      "slug": "ng-los-alamitos-jftb",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "USMCB Camp Pendleton",
+      "slug": "usmcb-camp-pendleton",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "state": "Arkansas",
+  "abbr": "AR",
+  "slug": "arkansas",
+  "totalBases": 6,
+  "activeBases": 6,
+  "byBranch": {
+    "Army National Guard": 2,
+    "U.S. Army": 1,
+    "U.S. Air Force": 1,
+    "Air National Guard": 1,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 3.8,
+    "directJobs": 8900,
+    "contractValue": 1.5,
+    "pctGsp": 2.6
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Camp Joseph T Robinson",
+      "slug": "ng-camp-joseph-t-robinson",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Pine Bluff Arsenal",
+      "slug": "pine-bluff-arsenal",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Little Rock Air Force Base",
+      "slug": "little-rock-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Fort Smith Map",
+      "slug": "fort-smith-map",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Fort Chaffee MTC",
+      "slug": "ng-fort-chaffee-mtc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Eldridge-Harrington USARC",
+      "slug": "eldridge-harrington-usarc",
+      "branch": "U.S. Army Reserve"
+    }
+  ]
+}

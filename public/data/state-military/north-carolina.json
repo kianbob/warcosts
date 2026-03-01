@@ -1,0 +1,73 @@
+{
+  "state": "North Carolina",
+  "abbr": "NC",
+  "slug": "north-carolina",
+  "totalBases": 14,
+  "activeBases": 14,
+  "byBranch": {
+    "U.S. Army": 4,
+    "Army National Guard": 2,
+    "U.S. Air Force": 3,
+    "Air National Guard": 1,
+    "U.S. Marine Corps": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 18.2,
+    "directJobs": 79600,
+    "contractValue": 5.4,
+    "pctGsp": 2.7
+  },
+  "majorInstallations": [
+    {
+      "name": "Camp MacKall",
+      "slug": "camp-mackall",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Military Ocean Terminal Sunny Point",
+      "slug": "military-ocean-terminal-sunny-point",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Raleigh",
+      "slug": "ng-raleigh",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG MTA Camp Butner",
+      "slug": "ng-mta-camp-butner",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Fort Bragg",
+      "slug": "fort-bragg",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Seymour Johnson Air Force Base",
+      "slug": "seymour-johnson-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Charlotte/Douglas IAP",
+      "slug": "charlotte-douglas-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Dare County Range",
+      "slug": "dare-county-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Blakeslee Air Force Recreation Area",
+      "slug": "blakeslee-air-force-recreation-area",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Marine Corps Air Station Cherry Point",
+      "slug": "marine-corps-air-station-cherry-point",
+      "branch": "U.S. Marine Corps"
+    }
+  ]
+}

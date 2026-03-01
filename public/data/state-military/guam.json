@@ -1,0 +1,39 @@
+{
+  "state": "Guam",
+  "abbr": "GU",
+  "slug": "guam",
+  "totalBases": 5,
+  "activeBases": 5,
+  "byBranch": {
+    "Army National Guard": 1,
+    "U.S. Navy": 4
+  },
+  "defense": null,
+  "majorInstallations": [
+    {
+      "name": "NG GUARNG Barrigada Complex",
+      "slug": "ng-guarng-barrigada-complex",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Naval Base Guam",
+      "slug": "naval-base-guam",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Andersen Air Force Base",
+      "slug": "andersen-air-force-base",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Camp Blaz",
+      "slug": "camp-blaz",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Santa Rosa Parcel A",
+      "slug": "santa-rosa-parcel-a",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

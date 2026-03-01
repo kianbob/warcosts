@@ -1,0 +1,57 @@
+{
+  "state": "New Jersey",
+  "abbr": "NJ",
+  "slug": "new-jersey",
+  "totalBases": 8,
+  "activeBases": 7,
+  "byBranch": {
+    "Army National Guard": 2,
+    "U.S. Navy": 2,
+    "U.S. Air Force": 1,
+    "U.S. Army": 2,
+    "Air National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 12.4,
+    "directJobs": 22100,
+    "contractValue": 8.8,
+    "pctGsp": 1.7
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Lawrenceville",
+      "slug": "ng-lawrenceville",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Sea Girt  NJ NGTC",
+      "slug": "ng-sea-girt-nj-ngtc",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Waterfront",
+      "slug": "waterfront",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Naval Weapons Station Earle NJ",
+      "slug": "naval-weapons-station-earle-nj",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Joint Base McGuire-Dix-Lakehurst",
+      "slug": "joint-base-mcguire-dix-lakehurst",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Picatinny Arsenal",
+      "slug": "picatinny-arsenal",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Atlantic City IAP",
+      "slug": "atlantic-city-iap",
+      "branch": "Air National Guard"
+    }
+  ]
+}

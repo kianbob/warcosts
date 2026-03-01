@@ -1,0 +1,45 @@
+{
+  "state": "Kentucky",
+  "abbr": "KY",
+  "slug": "kentucky",
+  "totalBases": 5,
+  "activeBases": 5,
+  "byBranch": {
+    "U.S. Army": 2,
+    "Air National Guard": 1,
+    "Army National Guard": 2
+  },
+  "defense": {
+    "totalSpending": 12.3,
+    "directJobs": 42100,
+    "contractValue": 4.8,
+    "pctGsp": 5.3
+  },
+  "majorInstallations": [
+    {
+      "name": "Blue Grass Army Depot",
+      "slug": "blue-grass-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Knox",
+      "slug": "fort-knox",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Louisville IAP-Standiford FL Site 1",
+      "slug": "louisville-iap-standiford-fl-site-1",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Frankfort Boone NG Center",
+      "slug": "ng-frankfort-boone-ng-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG WH Ford Regional Tng Ctr",
+      "slug": "ng-wh-ford-regional-tng-ctr",
+      "branch": "Army National Guard"
+    }
+  ]
+}

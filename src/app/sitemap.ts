@@ -137,6 +137,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
+  // Country profile pages
+  try {
+    const countryProfiles = loadData('country-profiles-index.json')
+    countryProfiles.forEach((c: any) => {
+      entries.push({ url: `${base}/countries/${c.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
   // Weapon detail pages
   try {
     const weapons = loadData('weapons.json')

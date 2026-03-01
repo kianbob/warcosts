@@ -1,0 +1,72 @@
+{
+  "state": "Missouri",
+  "abbr": "MO",
+  "slug": "missouri",
+  "totalBases": 16,
+  "activeBases": 15,
+  "byBranch": {
+    "U.S. Army": 3,
+    "Army National Guard": 6,
+    "U.S. Air Force": 3,
+    "Air National Guard": 1,
+    "U.S. Army Reserve": 3
+  },
+  "defense": {
+    "totalSpending": 14.8,
+    "directJobs": 32400,
+    "contractValue": 10.2,
+    "pctGsp": 4
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Leonard Wood",
+      "slug": "fort-leonard-wood",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Lake City Army Ammunition Plant",
+      "slug": "lake-city-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Lake Of The Ozarks Recreation",
+      "slug": "lake-of-the-ozarks-recreation",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG MTA Camp Clark Nevada",
+      "slug": "ng-mta-camp-clark-nevada",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG TS Mark Twain Natl Forest Wapp",
+      "slug": "ng-ts-mark-twain-natl-forest-wapp",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Springfield AVCRAD (New)",
+      "slug": "ng-springfield-avcrad-new",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Whiteman Air Force Base",
+      "slug": "whiteman-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "St Louis Air Force Station",
+      "slug": "st-louis-air-force-station",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Rosecrans MAP (139AG)",
+      "slug": "rosecrans-map-139ag",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "NG Macon TS",
+      "slug": "ng-macon-ts",
+      "branch": "Army National Guard"
+    }
+  ]
+}

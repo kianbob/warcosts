@@ -1,0 +1,72 @@
+{
+  "state": "Mississippi",
+  "abbr": "MS",
+  "slug": "mississippi",
+  "totalBases": 15,
+  "activeBases": 15,
+  "byBranch": {
+    "U.S. Air Force": 3,
+    "U.S. Navy": 6,
+    "Air National Guard": 2,
+    "Army National Guard": 3,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 8.4,
+    "directJobs": 22300,
+    "contractValue": 5.8,
+    "pctGsp": 6.4
+  },
+  "majorInstallations": [
+    {
+      "name": "Keesler AFB",
+      "slug": "keesler-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Columbus Air Force Base",
+      "slug": "columbus-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "OLF Bravo",
+      "slug": "olf-bravo",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Naval Air Station Meridian",
+      "slug": "naval-air-station-meridian",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Woolmarket (De Soto)",
+      "slug": "woolmarket-de-soto",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "CBC Gulfport MS",
+      "slug": "cbc-gulfport-ms",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Jackson IAP Thompson Field",
+      "slug": "jackson-iap-thompson-field",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Gulfport-Biloxi Regional Airport (ANG)",
+      "slug": "gulfport-biloxi-regional-airport-ang",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Naval Research Laboratory – Stennis Space Center",
+      "slug": "naval-research-laboratory-stennis-space-center",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "NG CTA Camp Mccain",
+      "slug": "ng-cta-camp-mccain",
+      "branch": "Army National Guard"
+    }
+  ]
+}

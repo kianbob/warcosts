@@ -1,0 +1,249 @@
+{
+  "name": "Vietnam",
+  "slug": "vietnam",
+  "rawName": "Viet Nam",
+  "rank": null,
+  "latest": {
+    "year": 2018,
+    "amount": 6124,
+    "amountBillions": 6.1
+  },
+  "gdpPct": null,
+  "pctWorld": null,
+  "peak": {
+    "year": 2018,
+    "amount": 6124,
+    "amountBillions": 6.1
+  },
+  "trend10yr": 77.9,
+  "dataYears": 24,
+  "spending": [
+    {
+      "year": 1987,
+      "amount": 866,
+      "amountBillions": 0.87
+    },
+    {
+      "year": 1988,
+      "amount": 1403,
+      "amountBillions": 1.4
+    },
+    {
+      "year": 1989,
+      "amount": 1853,
+      "amountBillions": 1.85
+    },
+    {
+      "year": 1990,
+      "amount": 2208,
+      "amountBillions": 2.21
+    },
+    {
+      "year": 1991,
+      "amount": 1571,
+      "amountBillions": 1.57
+    },
+    {
+      "year": 1992,
+      "amount": 991,
+      "amountBillions": 0.99
+    },
+    {
+      "year": 1993,
+      "amount": 777,
+      "amountBillions": 0.78
+    },
+    {
+      "year": 1994,
+      "amount": 1059,
+      "amountBillions": 1.06
+    },
+    {
+      "year": 2003,
+      "amount": 1958,
+      "amountBillions": 1.96
+    },
+    {
+      "year": 2004,
+      "amount": 2005,
+      "amountBillions": 2
+    },
+    {
+      "year": 2005,
+      "amount": 2092,
+      "amountBillions": 2.09
+    },
+    {
+      "year": 2006,
+      "amount": 2462,
+      "amountBillions": 2.46
+    },
+    {
+      "year": 2007,
+      "amount": 3172,
+      "amountBillions": 3.17
+    },
+    {
+      "year": 2008,
+      "amount": 3125,
+      "amountBillions": 3.13
+    },
+    {
+      "year": 2009,
+      "amount": 3443,
+      "amountBillions": 3.44
+    },
+    {
+      "year": 2010,
+      "amount": 3827,
+      "amountBillions": 3.83
+    },
+    {
+      "year": 2011,
+      "amount": 3572,
+      "amountBillions": 3.57
+    },
+    {
+      "year": 2012,
+      "amount": 4160,
+      "amountBillions": 4.16
+    },
+    {
+      "year": 2013,
+      "amount": 4350,
+      "amountBillions": 4.35
+    },
+    {
+      "year": 2014,
+      "amount": 4821,
+      "amountBillions": 4.82
+    },
+    {
+      "year": 2015,
+      "amount": 5269,
+      "amountBillions": 5.27
+    },
+    {
+      "year": 2016,
+      "amount": 5703,
+      "amountBillions": 5.7
+    },
+    {
+      "year": 2017,
+      "amount": 5686,
+      "amountBillions": 5.69
+    },
+    {
+      "year": 2018,
+      "amount": 6124,
+      "amountBillions": 6.12
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1986,
+      "pct": 0
+    },
+    {
+      "year": 1987,
+      "pct": 0.1
+    },
+    {
+      "year": 1988,
+      "pct": 0.1
+    },
+    {
+      "year": 1989,
+      "pct": 0.1
+    },
+    {
+      "year": 1990,
+      "pct": 0.1
+    },
+    {
+      "year": 1991,
+      "pct": 0
+    },
+    {
+      "year": 1992,
+      "pct": 0
+    },
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    }
+  ],
+  "usBases": 1,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": [
+    {
+      "name": "Vietnam War",
+      "slug": "vietnam-war"
+    }
+  ]
+}

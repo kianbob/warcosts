@@ -1,0 +1,357 @@
+{
+  "name": "China",
+  "slug": "china",
+  "rawName": "China",
+  "rank": 2,
+  "latest": {
+    "year": 2024,
+    "amount": 317561,
+    "amountBillions": 317.6
+  },
+  "gdpPct": null,
+  "pctWorld": 12.2,
+  "peak": {
+    "year": 2024,
+    "amount": 317561,
+    "amountBillions": 317.6
+  },
+  "trend10yr": 59.4,
+  "dataYears": 36,
+  "spending": [
+    {
+      "year": 1989,
+      "amount": 20219,
+      "amountBillions": 20.22
+    },
+    {
+      "year": 1990,
+      "amount": 21980,
+      "amountBillions": 21.98
+    },
+    {
+      "year": 1991,
+      "amount": 23363,
+      "amountBillions": 23.36
+    },
+    {
+      "year": 1992,
+      "amount": 28412,
+      "amountBillions": 28.41
+    },
+    {
+      "year": 1993,
+      "amount": 26128,
+      "amountBillions": 26.13
+    },
+    {
+      "year": 1994,
+      "amount": 25140,
+      "amountBillions": 25.14
+    },
+    {
+      "year": 1995,
+      "amount": 26112,
+      "amountBillions": 26.11
+    },
+    {
+      "year": 1996,
+      "amount": 27663,
+      "amountBillions": 27.66
+    },
+    {
+      "year": 1997,
+      "amount": 29512,
+      "amountBillions": 29.51
+    },
+    {
+      "year": 1998,
+      "amount": 32223,
+      "amountBillions": 32.22
+    },
+    {
+      "year": 1999,
+      "amount": 39283,
+      "amountBillions": 39.28
+    },
+    {
+      "year": 2000,
+      "amount": 42519,
+      "amountBillions": 42.52
+    },
+    {
+      "year": 2001,
+      "amount": 50416,
+      "amountBillions": 50.42
+    },
+    {
+      "year": 2002,
+      "amount": 57905,
+      "amountBillions": 57.91
+    },
+    {
+      "year": 2003,
+      "amount": 62667,
+      "amountBillions": 62.67
+    },
+    {
+      "year": 2004,
+      "amount": 69026,
+      "amountBillions": 69.03
+    },
+    {
+      "year": 2005,
+      "amount": 75800,
+      "amountBillions": 75.8
+    },
+    {
+      "year": 2006,
+      "amount": 87251,
+      "amountBillions": 87.25
+    },
+    {
+      "year": 2007,
+      "amount": 95911,
+      "amountBillions": 95.91
+    },
+    {
+      "year": 2008,
+      "amount": 104937,
+      "amountBillions": 104.94
+    },
+    {
+      "year": 2009,
+      "amount": 127335,
+      "amountBillions": 127.33
+    },
+    {
+      "year": 2010,
+      "amount": 133607,
+      "amountBillions": 133.61
+    },
+    {
+      "year": 2011,
+      "amount": 143429,
+      "amountBillions": 143.43
+    },
+    {
+      "year": 2012,
+      "amount": 158166,
+      "amountBillions": 158.17
+    },
+    {
+      "year": 2013,
+      "amount": 171025,
+      "amountBillions": 171.03
+    },
+    {
+      "year": 2014,
+      "amount": 184677,
+      "amountBillions": 184.68
+    },
+    {
+      "year": 2015,
+      "amount": 199175,
+      "amountBillions": 199.18
+    },
+    {
+      "year": 2016,
+      "amount": 210640,
+      "amountBillions": 210.64
+    },
+    {
+      "year": 2017,
+      "amount": 223595,
+      "amountBillions": 223.59
+    },
+    {
+      "year": 2018,
+      "amount": 236692,
+      "amountBillions": 236.69
+    },
+    {
+      "year": 2019,
+      "amount": 248223,
+      "amountBillions": 248.22
+    },
+    {
+      "year": 2020,
+      "amount": 259923,
+      "amountBillions": 259.92
+    },
+    {
+      "year": 2021,
+      "amount": 266692,
+      "amountBillions": 266.69
+    },
+    {
+      "year": 2022,
+      "amount": 278474,
+      "amountBillions": 278.47
+    },
+    {
+      "year": 2023,
+      "amount": 296821,
+      "amountBillions": 296.82
+    },
+    {
+      "year": 2024,
+      "amount": 317561,
+      "amountBillions": 317.56
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1988,
+      "pct": 0
+    },
+    {
+      "year": 1989,
+      "pct": 0
+    },
+    {
+      "year": 1990,
+      "pct": 0
+    },
+    {
+      "year": 1991,
+      "pct": 0
+    },
+    {
+      "year": 1992,
+      "pct": 0
+    },
+    {
+      "year": 1993,
+      "pct": 0
+    },
+    {
+      "year": 1994,
+      "pct": 0
+    },
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    },
+    {
+      "year": 1999,
+      "pct": 0
+    },
+    {
+      "year": 2000,
+      "pct": 0
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": [
+    {
+      "name": "Korean War",
+      "slug": "korean-war"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "state": "Florida",
+  "abbr": "FL",
+  "slug": "florida",
+  "totalBases": 49,
+  "activeBases": 49,
+  "byBranch": {
+    "Army National Guard": 2,
+    "U.S. Army": 3,
+    "U.S. Air Force": 11,
+    "U.S. Navy": 26,
+    "Air National Guard": 1,
+    "Marine Corps Reserve": 1,
+    "Air Force Reserve": 1,
+    "U.S. Marine Corps": 1,
+    "Navy Reserve": 2,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 35.8,
+    "directJobs": 82100,
+    "contractValue": 19.4,
+    "pctGsp": 2.5
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Snake Creek TS Miramar",
+      "slug": "ng-snake-creek-ts-miramar",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Destin Moreno Point",
+      "slug": "destin-moreno-point",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Eglin Air Force Base",
+      "slug": "eglin-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Tyndall Air Force Base",
+      "slug": "tyndall-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Eglin AFB Site 2 Santa Rosa Island",
+      "slug": "eglin-afb-site-2-santa-rosa-island",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Hurlburt Field",
+      "slug": "hurlburt-field",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Eglin Air Force Auxiliary Field 6",
+      "slug": "eglin-air-force-auxiliary-field-6",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "MacDill Air Force Base",
+      "slug": "macdill-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Corry Station",
+      "slug": "corry-station",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "NAS Jacksonville FL",
+      "slug": "nas-jacksonville-fl",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

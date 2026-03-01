@@ -1,0 +1,73 @@
+{
+  "state": "Ohio",
+  "abbr": "OH",
+  "slug": "ohio",
+  "totalBases": 15,
+  "activeBases": 15,
+  "byBranch": {
+    "Army National Guard": 6,
+    "U.S. Army": 2,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 1,
+    "Air National Guard": 4,
+    "Air Force Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 12.8,
+    "directJobs": 28300,
+    "contractValue": 8.4,
+    "pctGsp": 1.6
+  },
+  "majorInstallations": [
+    {
+      "name": "NG Beightler Armory",
+      "slug": "ng-beightler-armory",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Perry Joint Training Center",
+      "slug": "ng-camp-perry-joint-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Sherman Joint Training Center",
+      "slug": "ng-camp-sherman-joint-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Defense Supply Center Columbus",
+      "slug": "defense-supply-center-columbus",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG McConnelsville Training Site",
+      "slug": "ng-mcconnelsville-training-site",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Camp Ravenna Joint Military Training Center",
+      "slug": "ng-camp-ravenna-joint-military-training-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Rickenbacker",
+      "slug": "ng-rickenbacker",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Joint Systems Manufacturing Center - Lima",
+      "slug": "joint-systems-manufacturing-center-lima",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Wright-Patterson Air Force Base",
+      "slug": "wright-patterson-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Bratenahl",
+      "slug": "bratenahl",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

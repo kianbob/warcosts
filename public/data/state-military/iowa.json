@@ -1,0 +1,52 @@
+{
+  "state": "Iowa",
+  "abbr": "IA",
+  "slug": "iowa",
+  "totalBases": 7,
+  "activeBases": 6,
+  "byBranch": {
+    "Army National Guard": 1,
+    "U.S. Army": 1,
+    "Air National Guard": 3,
+    "Marine Corps Reserve": 1,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 2.1,
+    "directJobs": 5200,
+    "contractValue": 1.2,
+    "pctGsp": 1
+  },
+  "majorInstallations": [
+    {
+      "name": "Camp Dodge",
+      "slug": "camp-dodge",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Iowa Army Ammunition Plant",
+      "slug": "iowa-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Des Moines IAP",
+      "slug": "des-moines-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Sioux Gateway Airport (ANG)",
+      "slug": "sioux-gateway-airport-ang",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Des Moines, IA",
+      "slug": "des-moines-ia",
+      "branch": "Marine Corps Reserve"
+    },
+    {
+      "name": "Sioux Gateway Airport ANG-CE Site 2",
+      "slug": "sioux-gateway-airport-ang-ce-site-2",
+      "branch": "Air National Guard"
+    }
+  ]
+}

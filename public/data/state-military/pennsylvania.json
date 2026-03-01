@@ -1,0 +1,73 @@
+{
+  "state": "Pennsylvania",
+  "abbr": "PA",
+  "slug": "pennsylvania",
+  "totalBases": 21,
+  "activeBases": 20,
+  "byBranch": {
+    "U.S. Army": 5,
+    "Army National Guard": 7,
+    "Air Force Reserve": 1,
+    "U.S. Navy": 4,
+    "Air National Guard": 1,
+    "U.S. Army Reserve": 3
+  },
+  "defense": {
+    "totalSpending": 18.2,
+    "directJobs": 34800,
+    "contractValue": 13.4,
+    "pctGsp": 2.1
+  },
+  "majorInstallations": [
+    {
+      "name": "Carlisle Barracks",
+      "slug": "carlisle-barracks",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Defense Distrib Depot Susq",
+      "slug": "defense-distrib-depot-susq",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Letterkenny Army Depot",
+      "slug": "letterkenny-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Scranton Army Ammunition Plant",
+      "slug": "scranton-army-ammunition-plant",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Spring City Readiness Center",
+      "slug": "ng-spring-city-readiness-center",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Tobyhanna Army Depot",
+      "slug": "tobyhanna-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "NG Cambridge Springs Readiness Center and FMS 5",
+      "slug": "ng-cambridge-springs-readiness-center-and-fms-5",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "NG Collegeville FMS 4",
+      "slug": "ng-collegeville-fms-4",
+      "branch": "Army National Guard"
+    },
+    {
+      "name": "Pittsburgh IAP ARS",
+      "slug": "pittsburgh-iap-ars",
+      "branch": "Air Force Reserve"
+    },
+    {
+      "name": "Det Phil Pny Annex",
+      "slug": "det-phil-pny-annex",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

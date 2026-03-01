@@ -1,0 +1,289 @@
+{
+  "name": "North Macedonia",
+  "slug": "north-macedonia",
+  "rawName": "North Macedonia",
+  "rank": null,
+  "latest": {
+    "year": 2024,
+    "amount": 342,
+    "amountBillions": 0.3
+  },
+  "gdpPct": null,
+  "pctWorld": null,
+  "peak": {
+    "year": 2001,
+    "amount": 475,
+    "amountBillions": 0.5
+  },
+  "trend10yr": 161.1,
+  "dataYears": 29,
+  "spending": [
+    {
+      "year": 1996,
+      "amount": 182,
+      "amountBillions": 0.18
+    },
+    {
+      "year": 1997,
+      "amount": 143,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 1998,
+      "amount": 147,
+      "amountBillions": 0.15
+    },
+    {
+      "year": 1999,
+      "amount": 131,
+      "amountBillions": 0.13
+    },
+    {
+      "year": 2000,
+      "amount": 149,
+      "amountBillions": 0.15
+    },
+    {
+      "year": 2001,
+      "amount": 475,
+      "amountBillions": 0.47
+    },
+    {
+      "year": 2002,
+      "amount": 206,
+      "amountBillions": 0.21
+    },
+    {
+      "year": 2003,
+      "amount": 188,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2004,
+      "amount": 201,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 2005,
+      "amount": 187,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2006,
+      "amount": 178,
+      "amountBillions": 0.18
+    },
+    {
+      "year": 2007,
+      "amount": 206,
+      "amountBillions": 0.21
+    },
+    {
+      "year": 2008,
+      "amount": 189,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2009,
+      "amount": 184,
+      "amountBillions": 0.18
+    },
+    {
+      "year": 2010,
+      "amount": 157,
+      "amountBillions": 0.16
+    },
+    {
+      "year": 2011,
+      "amount": 146,
+      "amountBillions": 0.15
+    },
+    {
+      "year": 2012,
+      "amount": 138,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 2013,
+      "amount": 138,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 2014,
+      "amount": 136,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 2015,
+      "amount": 131,
+      "amountBillions": 0.13
+    },
+    {
+      "year": 2016,
+      "amount": 137,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 2017,
+      "amount": 129,
+      "amountBillions": 0.13
+    },
+    {
+      "year": 2018,
+      "amount": 144,
+      "amountBillions": 0.14
+    },
+    {
+      "year": 2019,
+      "amount": 184,
+      "amountBillions": 0.18
+    },
+    {
+      "year": 2020,
+      "amount": 188,
+      "amountBillions": 0.19
+    },
+    {
+      "year": 2021,
+      "amount": 232,
+      "amountBillions": 0.23
+    },
+    {
+      "year": 2022,
+      "amount": 247,
+      "amountBillions": 0.25
+    },
+    {
+      "year": 2023,
+      "amount": 267,
+      "amountBillions": 0.27
+    },
+    {
+      "year": 2024,
+      "amount": 342,
+      "amountBillions": 0.34
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    },
+    {
+      "year": 1999,
+      "pct": 0
+    },
+    {
+      "year": 2000,
+      "pct": 0.1
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

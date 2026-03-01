@@ -1,0 +1,35 @@
+{
+  "state": "Wyoming",
+  "abbr": "WY",
+  "slug": "wyoming",
+  "totalBases": 3,
+  "activeBases": 3,
+  "byBranch": {
+    "Air National Guard": 1,
+    "U.S. Air Force": 1,
+    "Army National Guard": 1
+  },
+  "defense": {
+    "totalSpending": 1.8,
+    "directJobs": 5400,
+    "contractValue": 0.4,
+    "pctGsp": 3.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Cheyenne Regional Airport",
+      "slug": "cheyenne-regional-airport",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Francis E. Warren Air Force Base",
+      "slug": "francis-e-warren-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "NG MTCH Camp Guernsey",
+      "slug": "ng-mtch-camp-guernsey",
+      "branch": "Army National Guard"
+    }
+  ]
+}

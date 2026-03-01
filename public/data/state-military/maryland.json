@@ -1,0 +1,73 @@
+{
+  "state": "Maryland",
+  "abbr": "MD",
+  "slug": "maryland",
+  "totalBases": 28,
+  "activeBases": 27,
+  "byBranch": {
+    "U.S. Army": 7,
+    "U.S. Air Force": 1,
+    "U.S. Navy": 14,
+    "Air National Guard": 1,
+    "Army National Guard": 4,
+    "U.S. Army Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 42.1,
+    "directJobs": 88600,
+    "contractValue": 28.4,
+    "pctGsp": 9.1
+  },
+  "majorInstallations": [
+    {
+      "name": "Naval Research Laboratory – Blossom Point",
+      "slug": "naval-research-laboratory-blossom-point",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Detrick",
+      "slug": "fort-detrick",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Meade",
+      "slug": "fort-meade",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Detrick Forest Glen Annex",
+      "slug": "fort-detrick-forest-glen-annex",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Detrick Glen Haven Annex",
+      "slug": "fort-detrick-glen-haven-annex",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Adelphi Laboratory Center",
+      "slug": "adelphi-laboratory-center",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Joint Base Andrews",
+      "slug": "joint-base-andrews",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Naval Research Laboratory – Tilghman",
+      "slug": "naval-research-laboratory-tilghman",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Gambrills MD",
+      "slug": "gambrills-md",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Naval Air Station Patuxent River",
+      "slug": "naval-air-station-patuxent-river",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

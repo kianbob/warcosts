@@ -1,0 +1,75 @@
+{
+  "state": "Texas",
+  "abbr": "TX",
+  "slug": "texas",
+  "totalBases": 32,
+  "activeBases": 31,
+  "byBranch": {
+    "U.S. Army": 5,
+    "U.S. Army Reserve": 1,
+    "U.S. Air Force": 7,
+    "U.S. Navy": 7,
+    "Navy Reserve": 1,
+    "Air National Guard": 1,
+    "Army National Guard": 9,
+    "Marine Corps Reserve": 1
+  },
+  "defense": {
+    "totalSpending": 62.4,
+    "directJobs": 178500,
+    "contractValue": 38.2,
+    "pctGsp": 2.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Bliss",
+      "slug": "fort-bliss",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Fort Cavazos",
+      "slug": "fort-cavazos",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Grand Prairie Reserve Complex",
+      "slug": "grand-prairie-reserve-complex",
+      "branch": "U.S. Army Reserve"
+    },
+    {
+      "name": "Red River Army Depot",
+      "slug": "red-river-army-depot",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Dyess Air Force Base",
+      "slug": "dyess-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Sheppard AFB",
+      "slug": "sheppard-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Laughlin AFB",
+      "slug": "laughlin-afb",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Joint Base San Antonio",
+      "slug": "joint-base-san-antonio",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "NAS Kingsville TX",
+      "slug": "nas-kingsville-tx",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "ALF Orange",
+      "slug": "alf-orange",
+      "branch": "U.S. Navy"
+    }
+  ]
+}

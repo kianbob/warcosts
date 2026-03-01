@@ -1,0 +1,294 @@
+{
+  "name": "Serbia",
+  "slug": "serbia",
+  "rawName": "Serbia",
+  "rank": 61,
+  "latest": {
+    "year": 2024,
+    "amount": 2220,
+    "amountBillions": 2.2
+  },
+  "gdpPct": null,
+  "pctWorld": 0.1,
+  "peak": {
+    "year": 2024,
+    "amount": 2220,
+    "amountBillions": 2.2
+  },
+  "trend10yr": 119.2,
+  "dataYears": 29,
+  "spending": [
+    {
+      "year": 1996,
+      "amount": 1383,
+      "amountBillions": 1.38
+    },
+    {
+      "year": 1997,
+      "amount": 1535,
+      "amountBillions": 1.53
+    },
+    {
+      "year": 1998,
+      "amount": 1405,
+      "amountBillions": 1.41
+    },
+    {
+      "year": 1999,
+      "amount": 1317,
+      "amountBillions": 1.32
+    },
+    {
+      "year": 2000,
+      "amount": 1905,
+      "amountBillions": 1.91
+    },
+    {
+      "year": 2001,
+      "amount": 1517,
+      "amountBillions": 1.52
+    },
+    {
+      "year": 2002,
+      "amount": 1678,
+      "amountBillions": 1.68
+    },
+    {
+      "year": 2003,
+      "amount": 1470,
+      "amountBillions": 1.47
+    },
+    {
+      "year": 2004,
+      "amount": 1358,
+      "amountBillions": 1.36
+    },
+    {
+      "year": 2005,
+      "amount": 1139,
+      "amountBillions": 1.14
+    },
+    {
+      "year": 2006,
+      "amount": 1149,
+      "amountBillions": 1.15
+    },
+    {
+      "year": 2007,
+      "amount": 1295,
+      "amountBillions": 1.29
+    },
+    {
+      "year": 2008,
+      "amount": 1257,
+      "amountBillions": 1.26
+    },
+    {
+      "year": 2009,
+      "amount": 1236,
+      "amountBillions": 1.24
+    },
+    {
+      "year": 2010,
+      "amount": 1199,
+      "amountBillions": 1.2
+    },
+    {
+      "year": 2011,
+      "amount": 1151,
+      "amountBillions": 1.15
+    },
+    {
+      "year": 2012,
+      "amount": 1128,
+      "amountBillions": 1.13
+    },
+    {
+      "year": 2013,
+      "amount": 1093,
+      "amountBillions": 1.09
+    },
+    {
+      "year": 2014,
+      "amount": 1095,
+      "amountBillions": 1.09
+    },
+    {
+      "year": 2015,
+      "amount": 1013,
+      "amountBillions": 1.01
+    },
+    {
+      "year": 2016,
+      "amount": 1148,
+      "amountBillions": 1.15
+    },
+    {
+      "year": 2017,
+      "amount": 1108,
+      "amountBillions": 1.11
+    },
+    {
+      "year": 2018,
+      "amount": 1334,
+      "amountBillions": 1.33
+    },
+    {
+      "year": 2019,
+      "amount": 1519,
+      "amountBillions": 1.52
+    },
+    {
+      "year": 2020,
+      "amount": 1599,
+      "amountBillions": 1.6
+    },
+    {
+      "year": 2021,
+      "amount": 2084,
+      "amountBillions": 2.08
+    },
+    {
+      "year": 2022,
+      "amount": 1681,
+      "amountBillions": 1.68
+    },
+    {
+      "year": 2023,
+      "amount": 1797,
+      "amountBillions": 1.8
+    },
+    {
+      "year": 2024,
+      "amount": 2220,
+      "amountBillions": 2.22
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1995,
+      "pct": 0
+    },
+    {
+      "year": 1996,
+      "pct": 0
+    },
+    {
+      "year": 1997,
+      "pct": 0
+    },
+    {
+      "year": 1998,
+      "pct": 0
+    },
+    {
+      "year": 1999,
+      "pct": 0
+    },
+    {
+      "year": 2000,
+      "pct": 0
+    },
+    {
+      "year": 2001,
+      "pct": 0
+    },
+    {
+      "year": 2002,
+      "pct": 0
+    },
+    {
+      "year": 2003,
+      "pct": 0
+    },
+    {
+      "year": 2004,
+      "pct": 0
+    },
+    {
+      "year": 2005,
+      "pct": 0
+    },
+    {
+      "year": 2006,
+      "pct": 0
+    },
+    {
+      "year": 2007,
+      "pct": 0
+    },
+    {
+      "year": 2008,
+      "pct": 0
+    },
+    {
+      "year": 2009,
+      "pct": 0
+    },
+    {
+      "year": 2010,
+      "pct": 0
+    },
+    {
+      "year": 2011,
+      "pct": 0
+    },
+    {
+      "year": 2012,
+      "pct": 0
+    },
+    {
+      "year": 2013,
+      "pct": 0
+    },
+    {
+      "year": 2014,
+      "pct": 0
+    },
+    {
+      "year": 2015,
+      "pct": 0
+    },
+    {
+      "year": 2016,
+      "pct": 0
+    },
+    {
+      "year": 2017,
+      "pct": 0
+    },
+    {
+      "year": 2018,
+      "pct": 0
+    },
+    {
+      "year": 2019,
+      "pct": 0
+    },
+    {
+      "year": 2020,
+      "pct": 0
+    },
+    {
+      "year": 2021,
+      "pct": 0
+    },
+    {
+      "year": 2022,
+      "pct": 0
+    },
+    {
+      "year": 2023,
+      "pct": 0
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": [
+    {
+      "name": "Bosnia Intervention",
+      "slug": "bosnia"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "state": "Arizona",
+  "abbr": "AZ",
+  "slug": "arizona",
+  "totalBases": 20,
+  "activeBases": 20,
+  "byBranch": {
+    "U.S. Army": 2,
+    "U.S. Air Force": 6,
+    "U.S. Marine Corps": 3,
+    "U.S. Navy": 1,
+    "Air National Guard": 2,
+    "Army National Guard": 6
+  },
+  "defense": {
+    "totalSpending": 20.3,
+    "directJobs": 45200,
+    "contractValue": 13.5,
+    "pctGsp": 4.8
+  },
+  "majorInstallations": [
+    {
+      "name": "Fort Huachuca",
+      "slug": "fort-huachuca",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Yuma Proving Ground",
+      "slug": "yuma-proving-ground",
+      "branch": "U.S. Army"
+    },
+    {
+      "name": "Davis-Monthan Air Force Base",
+      "slug": "davis-monthan-air-force-base",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "The Barry M Goldwater Air Force Range",
+      "slug": "the-barry-m-goldwater-air-force-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Marine Corps Air Station Yuma",
+      "slug": "marine-corps-air-station-yuma",
+      "branch": "U.S. Marine Corps"
+    },
+    {
+      "name": "Barry Goldwater Range",
+      "slug": "barry-goldwater-range",
+      "branch": "U.S. Marine Corps"
+    },
+    {
+      "name": "NAVOBSSTA Flagstaff AZ",
+      "slug": "navobssta-flagstaff-az",
+      "branch": "U.S. Navy"
+    },
+    {
+      "name": "Barry M Goldwater Range",
+      "slug": "barry-m-goldwater-range",
+      "branch": "U.S. Air Force"
+    },
+    {
+      "name": "Tucson IAP",
+      "slug": "tucson-iap",
+      "branch": "Air National Guard"
+    },
+    {
+      "name": "Goldwater ANGB",
+      "slug": "goldwater-angb",
+      "branch": "Air National Guard"
+    }
+  ]
+}
