@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 }
 
 const files = [
-  { name: 'conflicts.json', desc: '28 US conflicts with costs, casualties, outcomes, and analysis', size: '~15KB' },
+  { name: 'conflicts.json', desc: '36 US conflicts with costs, casualties, outcomes, and analysis — including 8 new modern conflicts (Kosovo, Somalia ongoing, Ukraine support, Red Sea/Houthis, Iran 2026, Niger/Sahel, ISIS, post-9/11 global)', size: '~25KB' },
   { name: 'military-spending.json', desc: 'Annual US military spending 1940–2024 with % GDP', size: '~3KB' },
   { name: 'foreign-aid.json', desc: 'Top foreign aid recipients since 2001', size: '~2KB' },
   { name: 'overseas-presence.json', desc: 'US military bases and troop deployments by country', size: '~2KB' },

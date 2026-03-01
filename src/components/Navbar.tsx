@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navItems = [
+  { label: 'Modern Wars', href: '/modern-wars' },
   { label: 'War Clock', href: '/war-clock' },
   { label: 'Timeline', href: '/timeline' },
   {
@@ -14,6 +15,8 @@ const navItems = [
       { label: 'Casualty Data', href: '/casualties' },
       { label: 'Cost Per Life', href: '/cost-per-life' },
       { label: 'Presidents at War', href: '/presidents' },
+      { label: 'Countries', href: '/countries' },
+      { label: 'Decades', href: '/decades' },
     ],
   },
   {
@@ -31,6 +34,7 @@ const navItems = [
     items: [
       { label: 'Tax Receipt', href: '/tools/tax-receipt' },
       { label: 'Jobs Calculator', href: '/tools/jobs-calculator' },
+      { label: 'Cost Calculator', href: '/tools/cost-calculator' },
     ],
   },
   {
@@ -45,6 +49,9 @@ const navItems = [
     label: 'Analysis',
     items: [
       { label: 'All Analysis', href: '/analysis' },
+      { label: 'Iran 2026: Undeclared War?', href: '/analysis/iran-2026' },
+      { label: 'The Forever Wars (AUMF)', href: '/analysis/forever-wars' },
+      { label: 'Ukraine: $66.9B Proxy War', href: '/analysis/ukraine-proxy' },
       { label: 'War on Terror', href: '/analysis/war-on-terror' },
       { label: 'Congressional Authority', href: '/analysis/congressional-authority' },
       { label: 'Blowback', href: '/analysis/blowback' },

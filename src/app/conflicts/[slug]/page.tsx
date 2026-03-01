@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { loadData } from '@/lib/server-utils'
-import { fmtMoney, fmt } from '@/lib/utils'
+import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import { ConflictStatsGrid } from '@/components/charts/ConflictStatsGrid'
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!c) return { title: 'Conflict Not Found' }
   return {
     title: `${c.name} — Cost, Casualties & Analysis`,
-    description: `${c.name} (${c.startYear}–${c.endYear}): ${fmtMoney(c.costInflationAdjusted)} cost, ${c.usCasualties?.deaths ? fmt(c.usCasualties.deaths) + ' US deaths' : 'covert operation'}. ${c.description}`,
+    description: `${c.name} (${c.startYear}–${c.endYear || 'Present'}): ${fmtMoney(c.costInflationAdjusted)} cost, ${c.usCasualties?.deaths ? fmt(c.usCasualties.deaths) + ' US deaths' : 'covert operation'}. ${c.description}`,
   }
 }
 
@@ -38,18 +38,23 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <div className="flex flex-wrap items-center gap-3 mb-2">
-          <span className="text-stone-400 text-sm">{c.era} · {c.type.replace(/_/g, ' ')}</span>
+          <Link href={`/eras/${slugify(c.era)}`} className="text-stone-400 text-sm hover:text-white">{c.era}</Link>
+          <span className="text-stone-400 text-sm">· {c.type.replace(/_/g, ' ')}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
             c.outcome?.includes('Victory') ? 'bg-green-600/20 text-green-400' :
             c.outcome?.includes('Defeat') ? 'bg-red-600/20 text-red-400' :
+            c.outcome?.includes('Ongoing') || c.outcome?.includes('Developing') ? 'bg-orange-600/20 text-orange-400' :
             'bg-yellow-600/20 text-yellow-400'
-          }`}>{c.outcome}</span>
+          }`}>{c.outcome || 'Developing'}</span>
+          {!c.endYear && (
+            <span className="text-xs px-2 py-0.5 rounded-full bg-orange-600/20 text-orange-400 animate-pulse">● Ongoing</span>
+          )}
           {!c.congressionalAuth && (
             <span className="text-xs px-2 py-0.5 rounded-full bg-red-600/20 text-red-400">No Congressional Authorization</span>
           )}
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">{c.name}</h1>
-        <p className="text-stone-400">{c.startYear}–{c.endYear} · {c.region} · {c.countries?.join(', ')}</p>
+        <p className="text-stone-400">{c.startYear}–{c.endYear || 'Present'}{c.years ? ` (${c.years} years)` : ''} · {c.region} · {c.countries?.map((co: string, i: number) => <span key={co}>{i > 0 && ', '}<Link href={`/countries/${slugify(co)}`} className="hover:text-white">{co}</Link></span>)}</p>
         <p className="text-stone-300 mt-3">{c.description}</p>
       </div>
 
@@ -94,8 +99,8 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       {/* Outcome */}
       <div className="bg-white rounded-lg p-6 mb-8 border">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Outcome</h2>
-        <p className="font-semibold text-lg mb-2">{c.outcome}</p>
-        <p className="text-muted">{c.outcomeDetail}</p>
+        <p className="font-semibold text-lg mb-2">{c.outcome || 'Developing — Too Early to Tell'}</p>
+        <p className="text-muted">{c.outcomeDetail || 'This conflict is ongoing or too recent to assess outcomes.'}</p>
       </div>
 
       {/* Congressional Authorization */}
@@ -125,12 +130,12 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       {c.objectives?.length > 0 && (
         <div className="bg-white rounded-lg p-6 mb-8 border">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">
-            Objectives {c.objectivesMet ? <span className="text-green-600 text-sm">(Met)</span> : <span className="text-red-600 text-sm">(Not Met / Partially Met)</span>}
+            Objectives {c.objectivesMet === true ? <span className="text-green-600 text-sm">(Met)</span> : c.objectivesMet === false ? <span className="text-red-600 text-sm">(Not Met / Partially Met)</span> : <span className="text-yellow-600 text-sm">(Too Early to Tell)</span>}
           </h2>
           <ul className="space-y-1">
             {c.objectives.map((o: string, i: number) => (
               <li key={i} className="flex items-center gap-2">
-                <span>{c.objectivesMet ? '✅' : '❌'}</span>
+                <span>{c.objectivesMet === true ? '✅' : c.objectivesMet === false ? '❌' : '⏳'}</span>
                 <span>{o}</span>
               </li>
             ))}

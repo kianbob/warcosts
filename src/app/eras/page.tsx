@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
-import { fmtMoney, fmt } from '@/lib/utils'
+import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
@@ -46,8 +46,11 @@ export default function ErasPage() {
           return (
             <div key={era} className="bg-white rounded-lg border shadow-sm p-6">
               <div className="flex flex-wrap items-baseline gap-4 mb-4">
-                <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">{era}</h2>
+                <Link href={`/eras/${slugify(era)}`} className="hover:underline">
+                  <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">{era}</h2>
+                </Link>
                 <span className="text-muted text-sm">{yearRange} · {items.length} conflicts</span>
+                <Link href={`/eras/${slugify(era)}`} className="text-xs text-primary hover:underline ml-auto">View Era →</Link>
               </div>
               <div className="grid grid-cols-3 gap-4 mb-4 text-center">
                 <div><p className="text-xl font-bold text-primary">{fmtMoney(totalCost)}</p><p className="text-xs text-muted">Total Cost</p></div>

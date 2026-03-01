@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Breadcrumbs from '@/components/Breadcrumbs'
-import { fmtMoney, fmt } from '@/lib/utils'
+import { fmtMoney, fmt, slugify } from '@/lib/utils'
 
 const PARTIES: Record<string, string> = {
   'Washington': 'Independent', 'Adams': 'Federalist', 'Jefferson': 'Dem-Rep',
@@ -72,7 +72,7 @@ export default function PresidentsPage() {
             <tbody>
               {data.map(d => (
                 <tr key={d.name} className="border-b border-stone-200 hover:bg-stone-50">
-                  <td className="py-3 pr-4 font-medium">{d.name}</td>
+                  <td className="py-3 pr-4 font-medium"><a href={`/presidents/${slugify(d.name)}`} className="text-primary hover:underline">{d.name}</a></td>
                   <td className="py-3 pr-4 text-stone-500">{PARTIES[d.name] || '—'}</td>
                   <td className="py-3 pr-4">{d.conflicts.join(', ')}</td>
                   <td className="py-3 pr-4 text-right font-bold text-red-800">{fmtMoney(d.totalCost)}</td>

@@ -9,9 +9,27 @@ export default function HomePage() {
 
   const featured = ['vietnam-war', 'afghanistan', 'iraq-war', 'korean-war', 'world-war-ii', 'gulf-war']
   const featuredConflicts = featured.map(id => conflicts.find((c: any) => c.id === id)).filter(Boolean)
+  const ongoingConflicts = conflicts.filter((c: any) => !c.endYear)
+  const iranConflict = conflicts.find((c: any) => c.id === 'iran-2026')
 
   return (
     <>
+      {/* Breaking: Iran 2026 */}
+      {iranConflict && (
+        <section className="bg-red-900 text-white py-4">
+          <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● DEVELOPING</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026: US launches military strikes — no congressional authorization</span>
+            </div>
+            <div className="flex gap-4 text-sm">
+              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-white underline">Conflict Data →</Link>
+              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Analysis →</Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Hero */}
       <section className="bg-stone-900 text-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 text-center">
@@ -89,6 +107,44 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* War on Terror callout */}
+      <section className="bg-red-900 text-white py-12">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <p className="font-[family-name:var(--font-heading)] text-2xl md:text-4xl font-bold mb-2">
+            Since 2001, the US has spent {fmtMoney(stats.warOnTerrorCost)} and lost {fmt(stats.warOnTerrorDeaths)} lives
+          </p>
+          <p className="text-red-200 text-lg mb-1">in the War on Terror</p>
+          <p className="text-red-300 text-sm mb-6">{stats.counterterrorCountries} countries. {(stats.warOnTerrorDisplaced / 1e6).toFixed(0)} million displaced. {stats.ongoing} operations still ongoing.</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/modern-wars" className="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-5 py-2 rounded-lg font-semibold transition text-sm">
+              Modern Wars →
+            </Link>
+            <Link href="/analysis/forever-wars" className="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-5 py-2 rounded-lg font-semibold transition text-sm">
+              How 60 Words Enabled It →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Ongoing Operations */}
+      {ongoingConflicts.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 py-12">
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-xs px-2 py-1 rounded-full bg-red-100 text-red-700 font-semibold animate-pulse">● ONGOING</span>
+            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">{ongoingConflicts.length} Active Operations</h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {ongoingConflicts.map((c: any) => (
+              <Link key={c.id} href={`/conflicts/${c.id}`} className="bg-white rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+                <h3 className="font-[family-name:var(--font-heading)] font-bold">{c.shortName || c.name}</h3>
+                <p className="text-muted text-sm">{c.startYear}–Present · {c.region}</p>
+                <p className="font-bold text-primary text-sm mt-1">{fmtMoney(c.costInflationAdjusted)}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Featured Conflicts */}
       <section className="max-w-7xl mx-auto px-4 py-16">
