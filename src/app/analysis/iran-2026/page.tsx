@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For | WarCosts',
-  description: 'Operation Epic Fury launched without congressional approval. Who benefits from war with Iran? Not the American people. A data-driven analysis of objectives, history, costs, and consequences.',
+  description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 108 schoolgirls killed. Strait of Hormuz closed. Dubai bombed. Who benefits? Not the American people.',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
     description: 'Operation Epic Fury launched without congressional approval. Who benefits? Not the American people.',
@@ -16,62 +16,80 @@ export const metadata: Metadata = {
 }
 
 const timeline = [
-  { date: 'Oct 2023', event: 'Hamas attacks Israel on October 7. Israel begins devastating campaign in Gaza, killing 40,000+ Palestinians.' },
-  { date: '2024', event: 'Israel systematically dismantles Hezbollah leadership and Hamas command structure with US intelligence support.' },
-  { date: 'Jan 2025', event: 'Trump returns to office. Names Israel a "model ally" in 2026 National Defense Strategy.' },
-  { date: 'Jan 2026', event: 'Iranian protests erupt. Trump tweets "keep protesting" and "take over your country." US repositions carrier strike groups.' },
+  { date: 'Oct 7, 2023', event: 'Hamas attacks Israel. Israel begins devastating 16-month campaign in Gaza, killing 40,000+ Palestinians. US provides intelligence and weapons throughout.' },
+  { date: '2024', event: 'Israel and Iran exchange strikes twice (April and October). Israel systematically dismantles Hezbollah leadership and Hamas command structure.' },
+  { date: 'June 2025', event: 'Operation Midnight Hammer: US conducts 37-hour strike campaign against Iran\'s nuclear facilities. Cost: $2.25 billion for less than 2 days.' },
+  { date: 'Late Dec 2025', event: 'Massive anti-government protests erupt across 100+ Iranian cities — the largest since 1979. Driven by economic collapse and the rial\'s crash.' },
+  { date: 'Jan 8-10, 2026', event: 'Iranian government massacres protesters. IRGC and Basij use live ammunition, mounted machine guns, and drones against civilians. Death toll estimates: 3,117 (govt), 7,000 (HRANA), 32,000 (Trump), 43,000 (Int\'l Centre for Human Rights). At least 26,541 detained.' },
+  { date: 'Jan 13', event: 'Trump tells Iranians to "keep protesting" and "take over your institutions." Adds: "help is on its way."' },
+  { date: 'Jan 23', event: 'Trump announces US "armada" heading to Middle East — USS Abraham Lincoln + USS Gerald R. Ford carrier strike groups + guided-missile destroyers. Largest buildup since 2003 Iraq invasion.' },
   { date: 'Feb 3', event: 'IRGC Navy attempts to board US-flagged tanker M/V Stena Imperative in Strait of Hormuz.' },
-  { date: 'Feb 2026', event: 'Oman\'s foreign minister makes urgent trip to Washington, pleading with Vance for more time for diplomacy. Rejected.' },
-  { date: 'Feb 24', event: 'Witkoff speaks at AIPAC conference. US ambassador in Israel tells staff to leave the country.' },
-  { date: 'Feb 28', event: 'Operation Epic Fury begins. Joint US-Israeli strikes across Iran. Khamenei assassinated. No congressional vote.' },
-  { date: 'Feb 28', event: 'Iran retaliates — fires missiles at Israel and US bases in Bahrain, Kuwait, Jordan, Qatar, and UAE.' },
-  { date: 'Mar 2026', event: 'Congress demands War Powers vote. Trump says bombing will continue "as long as necessary." No exit strategy.' },
+  { date: 'Feb 6', event: 'US-Iran indirect nuclear negotiations begin in Muscat, Oman. Iran says "progress depends on consultations." Second round scheduled for Geneva.' },
+  { date: 'Feb 11', event: '47th anniversary of 1979 revolution marked by pro-government rallies and strong anti-American rhetoric.' },
+  { date: 'Feb 13', event: 'Trump states regime change in Iran would be "the best thing that could happen."' },
+  { date: 'Feb 24', event: 'Trump envoy Witkoff speaks at AIPAC conference. AIPAC has spent $221 million on US political campaigns since 2021.' },
+  { date: 'Feb 26-27', event: 'Witkoff and Kushner meet Iranian delegation in Geneva. Araghchi says "good progress." Oman says talks will resume in Vienna. Americans say nothing. USS Gerald R. Ford arrives in Haifa — armada at full complement.' },
+  { date: 'Feb 27', event: 'CENTCOM commander and Joint Chiefs chair brief Trump on military options. US ambassador in Israel tells staff to leave the country immediately.' },
+  { date: 'Feb 27 (eve)', event: 'Oman\'s foreign minister Badr Albusaidi makes urgent trip to Washington, meets VP Vance, pleads for more time for diplomacy. Rejected.' },
+  { date: 'Feb 28, 9:15am Tehran', event: 'Bombs start falling in broad daylight. Not at night — in the morning, after workers arrived at their desks and children arrived at school. Deliberate timing for a decapitation strike.' },
+  { date: 'Feb 28, 10:30am', event: 'Two rounds of explosions along Pasteur Street — Iran\'s government zone. Supreme leader\'s compound, president\'s office, national security HQ all hit. Satellite photos show Khamenei\'s compound as "dark grey mess of dust and ash."' },
+  { date: 'Feb 28', event: 'Mossad posts Farsi message on Telegram calling for uprising: "Our Iranian brothers and sisters, you are not alone! Together we will return Iran to its glorious days."' },
+  { date: 'Feb 28', event: '108 people killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab, Hormozgan province. 170 students ages 7-12 were attending morning classes. IRGC base nearby may have been the target.' },
+  { date: 'Feb 28, 2:30am DC', event: 'Trump posts 8-minute video on Truth Social announcing "major combat operations in Iran" — Operation Epic Fury. Tells Iranians: "When we are finished, take over your government. This will be, probably, your only chance for generations."' },
+  { date: 'Feb 28', event: 'Iran retaliates with missiles and drones across the entire region: Israel, Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, Syria. Dubai\'s Fairmont hotel on Palm Jumeirah set ablaze. Airports in Dubai and Abu Dhabi hit. British bases in Cyprus targeted.' },
+  { date: 'Feb 28', event: 'Iran closes the Strait of Hormuz — 20% of global oil and 20% of global LNG flows through it. Bloomberg warns of major oil price spike. Cannot be replaced.' },
+  { date: 'Feb 28', event: 'Houthis announce resumption of Red Sea attacks.' },
+  { date: 'Mar 1', event: 'Iranian state media confirms Khamenei is dead. 40 days of mourning declared. Iran\'s parliament security chair warns: "You have started down a path that is beyond your control."' },
+  { date: 'Mar 1', event: 'Tucker Carlson calls the attack "absolutely disgusting and evil." Rand Paul and Tim Kaine co-sponsor War Powers resolution. MAGA base fractures. No end in sight.' },
 ]
 
 const regimeChangeHistory = [
-  { country: 'Iran', year: '1953', method: 'CIA coup (Operation Ajax)', result: 'Installed Shah → 1979 revolution → 45 years of hostility → current conflict', success: false },
-  { country: 'Guatemala', year: '1954', method: 'CIA coup (Operation PBSUCCESS)', result: '36-year civil war, 200,000 dead, ongoing instability', success: false },
-  { country: 'Chile', year: '1973', method: 'CIA-backed military coup', result: '17-year Pinochet dictatorship, 3,000+ killed, 30,000 tortured', success: false },
-  { country: 'Iraq', year: '2003', method: 'Full military invasion', result: '$2.4T cost, 300,000+ dead, created ISIS, Iran gained influence', success: false },
-  { country: 'Libya', year: '2011', method: 'NATO air campaign + rebels', result: 'Failed state, civil war, open slave markets, weapons flood Sahel', success: false },
-  { country: 'Syria', year: '2011–present', method: 'Armed rebel support', result: '500,000 dead, millions displaced, Russia/Iran gained ground', success: false },
+  { country: 'Iran', year: '1953', method: 'CIA coup (Operation Ajax)', result: 'Installed Shah → brutal 26-year dictatorship → 1979 Islamic Revolution → 45 years of hostility → current conflict. The regime we\'re bombing exists because of the last time we did this.', success: false },
+  { country: 'Guatemala', year: '1954', method: 'CIA coup (Operation PBSUCCESS)', result: '36-year civil war, 200,000 dead (mostly indigenous civilians), ongoing instability and migration crisis to this day.', success: false },
+  { country: 'Chile', year: '1973', method: 'CIA-backed military coup', result: '17-year Pinochet dictatorship, 3,000+ killed, 30,000 tortured. Democracy restored only after Pinochet left voluntarily.', success: false },
+  { country: 'Iraq', year: '2003', method: 'Full military invasion (150,000 troops)', result: '$2.4T cost, 300,000+ dead, destroyed civil society, created ISIS, Iran GAINED regional influence. 20 years later Iraq is still broken.', success: false },
+  { country: 'Libya', year: '2011', method: 'NATO air campaign + rebel support', result: 'Failed state, civil war, open slave markets, weapons flooded across Sahel fueling African insurgencies. Obama called it the "worst mistake" of his presidency.', success: false },
+  { country: 'Syria', year: '2011–present', method: 'Armed rebel support + airstrikes', result: '500,000 dead, 13 million displaced (half the population), Russia and Iran gained ground, ISIS rose and fell, Assad stayed until 2025.', success: false },
+  { country: 'Venezuela', year: '2026', method: 'Naval blockade + special operations + regime capture', result: 'Maduro captured and extracted. But 700+ political prisoners still held, Cabello controls security forces, armed gangs run streets. Trump already threatening new leader. "Tell me how this ends."', success: false },
 ]
 
 const whoBenefits = [
   {
     who: '🇮🇱 Israel / Netanyahu',
-    benefit: 'Eliminates existential rival. Netanyahu called it "historic." Buys political relief from domestic legal troubles and Gaza criticism. Israel named Iran its #1 threat and has lobbied for this for decades.',
+    benefit: 'Eliminates its self-described "existential" rival. Netanyahu called it "historic" and thanked Trump for his "leadership." Israel named the operation "Roaring Lion" and even designed a logo. Netanyahu gets political relief from domestic legal troubles, Gaza criticism, and corruption charges. Israel lobbied against the JCPOA, lobbied against the Oman negotiations, and pushed for exactly this outcome for decades. The US has given Israel $174 billion in cumulative aid.',
+    americanBenefit: false,
+  },
+  {
+    who: '🏛️ AIPAC & the Israel Lobby',
+    benefit: 'AIPAC has spent $221 million on US political campaigns since 2021 (FEC filings via AP). Spent $45.2 million in 2024 alone to defeat two progressive legislators critical of Israel (Jamaal Bowman and Cori Bush). Spent $20 million to kill the JCPOA — the nuclear deal that was actually working. Trump\'s envoy Witkoff spoke at the AIPAC conference 4 days before the bombs fell. This is the return on that investment.',
     americanBenefit: false,
   },
   {
     who: '🏭 Defense Contractors',
-    benefit: 'Lockheed Martin, RTX/Raytheon, Boeing, Northrop Grumman. Every Tomahawk missile costs $2M. Every F-35 sortie costs $42,000/hr. War is their business model. Stock prices surge on conflict.',
+    benefit: 'Lockheed Martin ($65B revenue), RTX/Raytheon ($69B), Boeing ($67B), Northrop Grumman ($39B), General Dynamics ($42B). Every Tomahawk costs $2M. Every F-35 sortie costs $42,000/hr. Operation Midnight Hammer (37 hours, 2025) cost $2.25 billion. Epic Fury is open-ended. Defense stocks surge on war.',
     americanBenefit: false,
   },
   {
-    who: '🛢️ Oil Speculators',
-    benefit: 'Oil jumps to $80-100/barrel. War-risk premiums triple. Energy traders make billions on volatility. Meanwhile, American families pay more at the pump.',
-    americanBenefit: false,
-  },
-  {
-    who: '🇸🇦 Saudi Arabia / Gulf States',
-    benefit: 'Rival Iran weakened. Ironic: Iran is retaliating by firing missiles at the very Gulf states hosting US bases — Bahrain, Kuwait, Qatar, UAE. They\'re taking hits for a war they didn\'t start.',
+    who: '🛢️ Oil Speculators & Energy Companies',
+    benefit: 'Iran has closed the Strait of Hormuz — 20% of global oil AND 20% of global LNG transit. Bloomberg warns of major price spikes. Oil heading to $80-100+/barrel. If prolonged closure, $150+. CNBC reports Asian countries would begin hoarding. Energy traders make billions. American families pay more at every pump and for every grocery delivery.',
     americanBenefit: false,
   },
   {
     who: '🇨🇳 China / 🇷🇺 Russia',
-    benefit: 'US distracted from Indo-Pacific strategy (again). Every president has tried to pivot away from the Middle East. None has succeeded. China fills the vacuum. Russia sells weapons.',
+    benefit: 'US distracted from Indo-Pacific strategy again. Chatham House: "Every recent US president has tried to redirect attention beyond the Middle East. To Asia. To the Western Hemisphere. None has succeeded." China fills the vacuum, continues building. Russia sells weapons. Both exploit the distraction.',
     americanBenefit: false,
   },
 ]
 
 const whoLoses = [
-  { who: 'American Taxpayers', how: 'Operation Midnight Hammer (2025 strikes) cost $2.25B for 37 hours. Epic Fury is an open-ended campaign. Iraq cost $2.4T. Afghanistan cost $2.3T. Iran is bigger than both.' },
-  { who: 'American Troops', how: 'US bases in Bahrain, Kuwait, Jordan, Qatar, and UAE are already under Iranian missile fire. Service members are in harm\'s way for a war Congress never authorized.' },
-  { who: 'Iranian Civilians', how: 'Iran\'s foreign ministry says strikes hit "non-military sites in various cities." 88 million people live there. The Iranian people — many of whom were already protesting their own government — now face bombs from ours.' },
-  { who: 'Gulf State Civilians', how: '5 countries hosting US bases have been hit by Iranian retaliation. Bahrain, Kuwait, Jordan, Qatar, and UAE — all collateral damage in someone else\'s war.' },
-  { who: 'The US Economy', how: 'Oil at $80-100/barrel means higher gas prices, higher inflation, higher interest rates. The national debt is $38T. We\'re paying $1T/year just in interest. We can\'t afford this.' },
-  { who: 'The Constitution', how: 'Another war launched without congressional authorization. Article I, Section 8 is clear: Congress declares war. Not the president. Not Israel.' },
+  { who: 'American Taxpayers', how: 'Operation Midnight Hammer cost $2.25B for 37 hours. Epic Fury is open-ended. Iraq cost $2.4T over 8 years. Afghanistan cost $2.3T over 20 years. Iran is bigger than both combined (88M people, 2.5x Iraq\'s size). National debt: $38 trillion. Interest alone: $1T/year. We literally cannot afford this.' },
+  { who: 'American Troops', how: 'Iran has already fired missiles at US bases in Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, and UAE. 3 US service members killed, ~3 injured in first 24 hours. Troops are in harm\'s way for a war Congress never authorized and the American people never asked for.' },
+  { who: 'Iranian Children', how: '108 people killed at Shajareh Tayyebeh girls\' elementary school in Minab — 170 students ages 7-12 were in morning classes when the missile struck. The Guardian: "At least 100 children had been killed." Rescue workers searched wreckage; one man held up a child\'s knapsack. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
+  { who: 'Iranian Civilians', how: 'Iran Red Crescent: 201 killed, 747 injured. Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan. Iran\'s foreign ministry says strikes targeted "non-military sites in various cities." Many of these people were protesting their own government just weeks ago.' },
+  { who: 'The Entire Gulf Region', how: 'Dubai\'s Fairmont hotel on Palm Jumeirah in flames. Airports in Dubai and Abu Dhabi hit. 1 killed in Abu Dhabi from debris. 4 injured in Palm Jumeirah. 3 Kuwaiti soldiers injured. 12 total injured in Kuwait. British bases in Cyprus targeted. Bahrain evacuated around US base. 7+ countries under fire for a war they didn\'t start.' },
+  { who: 'Global Economy', how: 'Strait of Hormuz CLOSED — 20% of world oil, 20% of world LNG. Cannot be replaced (CNBC). Oil heading to $80-100/barrel minimum, $150+ if prolonged. War-risk insurance premiums tripled. Gas prices, food prices, shipping costs — all rising. Every American pays.' },
+  { who: 'The Constitution', how: 'Another war launched without congressional authorization. Congress was briefed by Rubio to the "gang of eight" on Tuesday — 4 days before the bombs fell. No vote. Sen. Jack Reed: "Against the clear wishes of the American people, President Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought congressional authority for, and for which he has no endgame."' },
+  { who: 'The MAGA Movement', how: 'Trump ran on ending forever wars. His own base is fracturing. Tucker Carlson: "Absolutely disgusting and evil." Rand Paul co-sponsors War Powers resolution to block it. The Libertarian Alliance: "There is no good reason to sacrifice American soldiers and sailors in a war on Iran." This wasn\'t what they voted for.' },
 ]
 
 export default function Iran2026Page() {
@@ -83,45 +101,132 @@ export default function Iran2026Page() {
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
-          <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">Analysis</span>
+          <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
         </h1>
-        <p className="text-xl text-stone-300 mb-2">The Iran Conflict Nobody Asked For</p>
-        <p className="text-stone-400 text-lg">
+        <p className="text-xl text-stone-300 mb-4">The Iran Conflict Nobody Asked For</p>
+        <p className="text-stone-400 text-lg mb-4">
           On February 28, 2026, the United States and Israel launched &ldquo;Operation Epic Fury&rdquo; — a massive
-          strike campaign against Iran aimed at regime change. No congressional vote. No declaration of war.
-          No exit strategy. No clear American interest. The only question that matters: <em>whose war is this?</em>
+          joint strike campaign against Iran aimed at regime change. They assassinated the Supreme Leader.
+          They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
+          108 people were killed at a girls&apos; elementary school. Iran closed the Strait of Hormuz and fired missiles at
+          7 countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
+        </p>
+        <p className="text-stone-400 text-lg">
+          No congressional vote. No declaration of war. No exit strategy. No clear American interest.
+          Trump ran on ending forever wars. His own ally Tucker Carlson calls this &ldquo;absolutely disgusting and evil.&rdquo;
+          The only question that matters: <em className="text-white">whose war is this?</em>
         </p>
       </div>
 
       <ShareButtons title="Whose War Is This? The Iran Conflict Nobody Asked For" />
 
-      {/* Pull quote */}
+      {/* Oman diplomat quote */}
       <blockquote className="border-l-4 border-red-700 pl-6 my-8 text-xl text-stone-600 italic">
-        &ldquo;The constitution is clear: Congress has the sole authority to declare war. The president&apos;s
-        announcement today that the US has conducted military strikes in Iran without congressional approval
-        is yet another flagrant abuse of power.&rdquo;
-        <span className="block text-sm text-stone-500 mt-2 not-italic">— Project on Government Oversight (POGO), February 28, 2026</span>
+        &ldquo;Active and serious negotiations have yet again been undermined. Neither the interests of the United States
+        nor the cause of global peace are well served by this. And I pray for the innocents who will suffer.
+        I urge the United States not to get sucked in further. <strong>This is not your war.</strong>&rdquo;
+        <span className="block text-sm text-stone-500 mt-2 not-italic">— Badr Albusaidi, Oman&apos;s Foreign Minister, who brokered the US-Iran nuclear talks. He flew to Washington on Feb 27 to beg for more time for diplomacy. He was turned away. The bombs started the next morning.</span>
       </blockquote>
 
       {/* Cost comparison */}
-      <div className="grid md:grid-cols-3 gap-4 my-8">
-        <div className="bg-white rounded-lg p-6 shadow-sm border text-center">
-          <p className="text-sm text-stone-500 mb-1">Iraq War (8 years)</p>
-          <p className="text-2xl font-bold text-primary font-[family-name:var(--font-heading)]">{fmtMoney(2.4e12)}</p>
-          <p className="text-xs text-stone-500">Population: 26M</p>
+      <div className="grid md:grid-cols-4 gap-4 my-8">
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-sm text-stone-500 mb-1">Iraq War (8 yrs)</p>
+          <p className="text-xl font-bold text-primary font-[family-name:var(--font-heading)]">{fmtMoney(2.4e12)}</p>
+          <p className="text-xs text-stone-500">Pop: 26M</p>
         </div>
-        <div className="bg-white rounded-lg p-6 shadow-sm border text-center">
-          <p className="text-sm text-stone-500 mb-1">Afghanistan (20 years)</p>
-          <p className="text-2xl font-bold text-primary font-[family-name:var(--font-heading)]">{fmtMoney(2.3e12)}</p>
-          <p className="text-xs text-stone-500">Population: 38M</p>
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-sm text-stone-500 mb-1">Afghanistan (20 yrs)</p>
+          <p className="text-xl font-bold text-primary font-[family-name:var(--font-heading)]">{fmtMoney(2.3e12)}</p>
+          <p className="text-xs text-stone-500">Pop: 38M</p>
         </div>
-        <div className="bg-red-50 border-red-200 rounded-lg p-6 border text-center">
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-sm text-stone-500 mb-1">37-hr Iran strikes (2025)</p>
+          <p className="text-xl font-bold text-primary font-[family-name:var(--font-heading)]">{fmtMoney(2.25e9)}</p>
+          <p className="text-xs text-stone-500">Just 37 hours</p>
+        </div>
+        <div className="bg-red-50 border-red-200 rounded-lg p-5 border text-center">
           <p className="text-sm text-red-700 mb-1">Iran could cost</p>
-          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(3e12)}+</p>
-          <p className="text-xs text-red-600">Population: 88M — 2.5x Iraq</p>
+          <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(3e12)}+</p>
+          <p className="text-xs text-red-600">Pop: 88M (2.5x Iraq)</p>
+        </div>
+      </div>
+
+      {/* What happened section */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">What Happened</h2>
+        <div className="space-y-4 text-stone-700">
+          <p>
+            The bombs started falling on Tehran at 9:15am local time — in broad daylight, after the working day had started
+            and the streets were full. As The Guardian reported: <em>&ldquo;Bombing campaigns in the modern era usually start
+            at night, to heighten the target&apos;s sense of disorientation and minimise the effectiveness of air defence.
+            This time was different.&rdquo;</em>
+          </p>
+          <p>
+            The daytime attack was deliberate — a decapitation strike designed to hit government officials at their desks.
+            Plumes of smoke rose from Pasteur Street, where Iran&apos;s government buildings are clustered: the supreme
+            leader&apos;s compound, the president&apos;s office, the national security headquarters, and the assembly of experts.
+            Satellite photos showed Khamenei&apos;s compound as &ldquo;a dark grey mess of dust and ash.&rdquo;
+          </p>
+          <p>
+            But waiting for officials to arrive at their desks also means children have arrived at school.
+          </p>
+        </div>
+      </div>
+
+      {/* Minab school section */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">108 Killed at a Girls&apos; Elementary School</h2>
+        <div className="space-y-3 text-stone-700">
+          <p>
+            An Israeli strike hit the <strong>Shajareh Tayyebeh girls&apos; elementary school</strong> in Minab, Hormozgan province,
+            southern Iran. 170 students between the ages of <strong>7 and 12</strong> were attending morning classes when the missile
+            struck. At least <strong>108 people were killed</strong>, according to the Minab public prosecutor&apos;s office
+            (Al Jazeera, BBC, Washington Post, The Guardian, Drop Site News all confirmed).
+          </p>
+          <p>
+            The Guardian reported rescue workers and local residents searching the wreckage, with one man holding up
+            a child&apos;s knapsack. The IRGC has a military base in the city, which may have been the actual target —
+            but the decision to bomb during morning school hours made this tragedy inevitable.
+          </p>
+          <p>
+            Iran&apos;s ambassador to the United Nations said the strike killed &ldquo;more than 100 children.&rdquo;
+          </p>
+          <p className="text-sm text-red-700 italic">
+            Drop Site News headline: <em>&ldquo;Small Children Who Knew Nothing of Politics or Wars.&rdquo;</em>
+          </p>
+        </div>
+      </div>
+
+      {/* Retaliation section */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Retaliation: The Gulf Is on Fire</h2>
+        <div className="space-y-3 text-stone-700">
+          <p>
+            Within hours, Iran unleashed its entire missile and drone arsenal across the region:
+          </p>
+          <ul className="space-y-2 ml-4">
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Israel:</strong> Missiles fired. 1 civilian killed, 121 injured.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Dubai (UAE):</strong> Fairmont hotel on Palm Jumeirah set ablaze. Burj Al Arab hit. Airports in Dubai and Abu Dhabi struck. 1 killed in Abu Dhabi from debris. 4 injured in Palm Jumeirah.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Bahrain:</strong> US naval base south of Manama hit. Area evacuated.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Kuwait:</strong> 3 soldiers injured, 12 total injured.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Jordan, Qatar, Saudi Arabia, Iraq, Syria:</strong> All hit by Iranian missiles targeting US and allied bases.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Cyprus:</strong> British military bases targeted.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>3 US service members killed, ~3 injured</strong> across the region in first 24 hours.</li>
+          </ul>
+          <p className="mt-4">
+            <strong>Iran then closed the Strait of Hormuz</strong> — the narrow waterway through which <strong>20% of the world&apos;s
+            oil and 20% of global LNG exports</strong> flow. Bloomberg warns this would &ldquo;trigger a spike in oil prices&rdquo;
+            and cannot be replaced. CNBC reports Asian countries would begin hoarding. The Houthis announced they would
+            resume Red Sea attacks.
+          </p>
+          <p>
+            Seven countries are under fire. Global shipping is disrupted. The world&apos;s most important energy chokepoint
+            is closed. And this is <em>day one</em>.
+          </p>
         </div>
       </div>
 
@@ -129,13 +234,15 @@ export default function Iran2026Page() {
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">What Is the Objective?</h2>
         <p className="text-stone-700 mb-4">
-          The stated objectives have already shifted multiple times in the first 48 hours:
+          The stated objectives have already shifted multiple times. The CFR called this &ldquo;a profound change in
+          stated Israeli and U.S. goals: while the fall of the regime has long been wished for, it has never been the
+          objective of a joint military campaign.&rdquo;
         </p>
         <div className="space-y-3 mb-6">
           <div className="flex items-start gap-3">
             <span className="text-red-600 font-bold shrink-0">1.</span>
             <div>
-              <p className="font-semibold">Trump:</p>
+              <p className="font-semibold">Trump (2:30am video):</p>
               <p className="text-stone-600">&ldquo;Defend the American people by eliminating imminent threats from the Iranian regime.&rdquo;</p>
             </div>
           </div>
@@ -143,31 +250,43 @@ export default function Iran2026Page() {
             <span className="text-red-600 font-bold shrink-0">2.</span>
             <div>
               <p className="font-semibold">Also Trump:</p>
-              <p className="text-stone-600">&ldquo;Take back your country&rdquo; — calling on Iranians to overthrow the regime. That&apos;s regime change.</p>
+              <p className="text-stone-600">&ldquo;When we are finished, take over your government. It will be yours to take. This will be, probably, your only chance for generations.&rdquo; That&apos;s regime change.</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-red-600 font-bold shrink-0">3.</span>
             <div>
               <p className="font-semibold">Netanyahu:</p>
-              <p className="text-stone-600">&ldquo;Seize the opportunity&rdquo; to topple the regime. &ldquo;Eliminate the existential threat.&rdquo;</p>
+              <p className="text-stone-600">&ldquo;Eliminate the existential threat posed by the terrorist regime in Iran.&rdquo; <strong>Israel&apos;s</strong> existential threat. Not America&apos;s.</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
             <span className="text-red-600 font-bold shrink-0">4.</span>
             <div>
+              <p className="font-semibold">Mossad (Farsi Telegram post):</p>
+              <p className="text-stone-600">&ldquo;Our Iranian brothers and sisters, you are not alone! Together we will return Iran to its glorious days.&rdquo;</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="text-red-600 font-bold shrink-0">5.</span>
+            <div>
               <p className="font-semibold">Pentagon:</p>
-              <p className="text-stone-600">Suppress air defenses, degrade retaliatory capabilities, disrupt command-and-control.</p>
+              <p className="text-stone-600">Suppress air defenses, degrade retaliatory capabilities, disrupt command-and-control, destroy missile and military capabilities, prevent nuclear weapons.</p>
             </div>
           </div>
         </div>
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-          <p className="text-amber-800 font-semibold mb-1">🚩 The red flag</p>
+          <p className="text-amber-800 font-semibold mb-2">🚩 The problem with all of this</p>
+          <p className="text-stone-700 mb-2">
+            As The Atlantic noted: Iran is <strong>2.5 times the size of Iraq</strong>. America has exactly one openly
+            declared ally in this. No serious armed rebel force exists. No coalition of nations is assembling to march
+            into Tehran. And the Stimson Center warns: <em>&ldquo;Air strikes alone cannot topple a government, and Iran
+            in 2026 is likely to emerge battered but not broken — a costly example of American hubris and the limits
+            of airpower.&rdquo;</em>
+          </p>
           <p className="text-stone-700">
-            As the Council on Foreign Relations noted: <em>&ldquo;The fall of the regime has long been wished for,
-            but it has never been the objective of a joint military campaign.&rdquo;</em> This is unprecedented.
-            And as The Atlantic pointed out: Iran is 2.5x the size of Iraq, has no armed rebel force,
-            no coalition is assembling to march into Tehran, and America has exactly one openly declared ally in this.
+            The BBC: <em>&ldquo;There is no precedent for regime change happening just because of air strikes.&rdquo;</em>
+            Saddam required 150,000 ground troops. Gaddafi required NATO + armed rebels. What&apos;s the plan here?
           </p>
         </div>
       </div>
@@ -175,10 +294,13 @@ export default function Iran2026Page() {
       {/* Section: Has this ever worked? */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Has US Regime Change Ever Worked?</h2>
-        <p className="text-stone-700 mb-4">
-          The United States has attempted regime change dozens of times. The track record is catastrophic.
-          Not a single post-WWII regime change has produced a stable, democratic, pro-American government
-          without decades of occupation.
+        <p className="text-stone-700 mb-2">
+          The United States has attempted regime change dozens of times since WWII. The track record is catastrophic.
+          As Axios noted, historians point out that previous successful overthrows (Germany, Japan) &ldquo;were done
+          with future government infrastructure in mind — which is less clear in the Iran crisis so far.&rdquo;
+        </p>
+        <p className="text-stone-700 mb-4 italic">
+          As General David Petraeus said at the start of the Iraq War: <strong>&ldquo;Tell me how this ends.&rdquo;</strong>
         </p>
         <div className="space-y-4">
           {regimeChangeHistory.map((r, i) => (
@@ -186,7 +308,7 @@ export default function Iran2026Page() {
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-bold text-primary">{r.country}</span>
                 <span className="text-stone-500 text-sm">({r.year})</span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700">Failed</span>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700">{r.country === 'Venezuela' ? 'Unstable' : 'Failed'}</span>
               </div>
               <p className="text-sm text-stone-500 mb-1"><strong>Method:</strong> {r.method}</p>
               <p className="text-sm text-stone-700"><strong>Result:</strong> {r.result}</p>
@@ -195,12 +317,11 @@ export default function Iran2026Page() {
         </div>
         <div className="bg-stone-100 rounded-lg p-4 mt-6">
           <p className="text-stone-700">
-            <strong>The pattern is clear:</strong> Topple the government → power vacuum → civil war or worse →
-            spend trillions → leave → region is more unstable than before. Air strikes alone have
-            <em> never</em> toppled a government. The BBC notes there is &ldquo;no precedent for regime
-            change happening just because of air strikes.&rdquo; Saddam required 150,000 ground troops.
-            Gaddafi required NATO + armed rebels. Iran has 88 million people, a real military,
-            and mountainous terrain three times the size of France.
+            <strong>The pattern is 100%:</strong> Topple government → power vacuum → chaos or worse →
+            spend trillions → leave → region more unstable than before. And now we&apos;re doing it in a country
+            three times the size of France, with 88 million people, a real military, real ballistic missiles,
+            and no ground forces, no rebel army, and no plan for the day after. The Foreign Affairs headline:
+            <em> &ldquo;The U.S. and Israel Have Set a High Bar for Success in Their War on Iran.&rdquo;</em>
           </p>
         </div>
       </div>
@@ -212,39 +333,119 @@ export default function Iran2026Page() {
           The current Iranian regime exists <strong>because of the last time America tried regime change in Iran</strong>.
         </p>
         <p className="text-stone-700 mb-3">
-          In 1953, the CIA overthrew Iran&apos;s democratically elected Prime Minister Mossadegh and installed the Shah.
-          The Shah&apos;s 26-year authoritarian rule created the conditions for the 1979 Islamic Revolution.
-          That revolution produced the very regime we&apos;re now spending billions to destroy.
+          In 1953, the CIA overthrew Iran&apos;s <em>democratically elected</em> Prime Minister Mossadegh and installed
+          the Shah. The Shah&apos;s 26-year authoritarian rule — propped up by American money and weapons — created the
+          conditions for the 1979 Islamic Revolution. That revolution produced the very regime we just spent $2.25 billion
+          bombing in 2025 and are now bombing again in 2026.
+        </p>
+        <p className="text-stone-700 mb-3">
+          And the nuclear program? Iran accelerated enrichment to 60% (near weapons-grade) <em>after</em> Trump withdrew
+          from the JCPOA nuclear deal in 2018. The deal was working — Iran was in compliance. We destroyed the diplomatic
+          solution, then used the resulting threat as justification for war.
         </p>
         <p className="text-stone-700 font-semibold">
-          We created this enemy. And we&apos;re responding to the blowback from the last intervention
-          with another intervention that will produce its own blowback. This is the cycle.
+          We created this enemy. We destroyed the diplomatic solution. And now we&apos;re bombing them for the
+          problem we created. This isn&apos;t a strategy. It&apos;s a cycle.
         </p>
       </div>
 
-      {/* Section: Who benefits? */}
+      {/* Section: Did Israel drag us into this? */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Did Israel Drag Us Into This?</h2>
+        <p className="text-stone-700 mb-4">
+          Follow the timeline, follow the money, follow the lobbying:
+        </p>
+        <ul className="space-y-3 text-stone-700 mb-6">
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0 font-bold">$174B</span>
+            <span>Total US aid to Israel since 1948 — making Israel <strong>the largest cumulative recipient of US foreign aid in history</strong> (Congressional Research Service).</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0 font-bold">$221M</span>
+            <span>AIPAC spending on US political campaigns from Dec 2021 to Jan 2026 (AP/FEC filings). $100 million in 2024 alone across 389 races. $45.2 million to defeat just two progressive Israel critics.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0 font-bold">$20M</span>
+            <span>AIPAC spending to <strong>kill the JCPOA nuclear deal</strong> — the last diplomatic solution. It worked. Trump withdrew in 2018. Iran enriched uranium. Now we&apos;re at war.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Israel <strong>&ldquo;strongly opposed&rdquo;</strong> the US-Iran negotiations, lobbying against diplomatic efforts and threatening unilateral military action (Wikipedia, citing multiple sources).</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Trump&apos;s envoy Witkoff spoke at the <strong>AIPAC conference</strong> 4 days before the strikes.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Israeli military officials confirmed the two countries&apos; militaries <strong>&ldquo;worked hand in glove for months&rdquo;</strong> to prepare the joint attack (The Guardian).</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>The operation is codenamed <strong>&ldquo;Roaring Lion&rdquo;</strong> by Israel. They designed a logo — the Star of David with a roaring lion. They <em>branded</em> this war.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Mossad posted a <strong>Farsi Telegram message</strong> during the bombing calling for Iranians to revolt. Israel&apos;s spy agency is running regime-change operations using US military power.</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Netanyahu called the war an effort to &ldquo;eliminate the existential threat&rdquo; — <strong>Israel&apos;s</strong> existential threat — and thanked Trump for his &ldquo;historic leadership.&rdquo;</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Even Israeli analysts admit Netanyahu uses war for <strong>political relief</strong> — from corruption charges, Gaza criticism, and domestic troubles (Al Jazeera).</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-red-600 shrink-0">→</span>
+            <span>Oman&apos;s foreign minister — who brokered the talks — flew to Washington to beg for more time for diplomacy. Met Vance. <strong>Was turned away.</strong> Bombs fell the next morning.</span>
+          </li>
+        </ul>
+        <div className="bg-stone-100 rounded-lg p-4">
+          <p className="text-stone-700">
+            <strong>The question isn&apos;t whether Israel influenced this decision.</strong> The evidence is overwhelming
+            and publicly documented. The question is: <em>is there any American interest being served that
+            couldn&apos;t have been achieved through the diplomatic channels that were actively sabotaged?</em>
+          </p>
+          <p className="text-stone-700 mt-2">
+            Iran was at the negotiating table. Araghchi said &ldquo;good progress&rdquo; was made. Oman said
+            talks would continue. Witkoff and Kushner reportedly told Trump it would be &ldquo;difficult,
+            if not impossible&rdquo; to reach a deal. Was that an honest assessment — or the desired outcome
+            after months of planning a joint military operation?
+          </p>
+        </div>
+      </div>
+
+      {/* Who benefits */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Who Benefits?</h2>
         <p className="text-stone-700 mb-6">
-          Follow the money and the motives. Who actually gains from a war with Iran?
+          Follow the money and the motives. Ask <em>cui bono</em> — who benefits?
         </p>
         <div className="space-y-6">
           {whoBenefits.map((b, i) => (
             <div key={i} className="border rounded-lg p-4">
               <h3 className="font-bold text-lg mb-2">{b.who}</h3>
-              <p className="text-stone-700">{b.benefit}</p>
+              <p className="text-stone-700 text-sm">{b.benefit}</p>
             </div>
           ))}
         </div>
+        <div className="bg-stone-900 text-white rounded-lg p-4 mt-6">
+          <p className="font-semibold">Notice who&apos;s NOT on this list?</p>
+          <p className="text-stone-300 mt-1">
+            The American people. American taxpayers. American families paying for gas and groceries.
+            American troops stationed in 7 countries now under missile fire. None of them benefit. All of them pay.
+          </p>
+        </div>
       </div>
 
-      {/* Section: Who loses? */}
+      {/* Who loses */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Who Loses?</h2>
         <div className="space-y-4">
           {whoLoses.map((l, i) => (
             <div key={i} className="flex items-start gap-3">
-              <span className="text-red-600 text-xl">✕</span>
+              <span className="text-red-600 text-xl shrink-0">✕</span>
               <div>
                 <p className="font-semibold">{l.who}</p>
                 <p className="text-stone-600 text-sm">{l.how}</p>
@@ -254,115 +455,76 @@ export default function Iran2026Page() {
         </div>
       </div>
 
-      {/* Section: Israel's role */}
-      <div className="bg-white rounded-xl border p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Did Israel Drag Us Into This?</h2>
-        <p className="text-stone-700 mb-4">
-          The evidence is hard to ignore:
-        </p>
-        <ul className="space-y-3 text-stone-700 mb-6">
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Israel <strong>strongly opposed</strong> the US-Iran negotiations, lobbying against diplomatic efforts and threatening unilateral military action if the US didn&apos;t act.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>AIPAC spent <strong>$20 million</strong> opposing the 2015 JCPOA nuclear deal — the last diplomatic solution that was actually working. Trump withdrew from it in 2018.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Trump&apos;s special envoy Witkoff spoke at the <strong>AIPAC conference</strong> just days before the strikes began.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Israel&apos;s 2026 National Defense Strategy names Iran as its #1 existential threat. The US named Israel a <strong>&ldquo;model ally.&rdquo;</strong></span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Netanyahu thanked Trump for his &ldquo;historic leadership&rdquo; and called the operation an effort to &ldquo;eliminate the existential threat&rdquo; — <strong>Israel&apos;s</strong> existential threat, not America&apos;s.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>The operation is codenamed <strong>&ldquo;Roaring Lion&rdquo;</strong> by Israel. They planned this. We&apos;re executing it.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Oman&apos;s foreign minister made an <strong>urgent last-minute trip</strong> to Washington to beg for more time for diplomacy. He was turned away.</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-red-600 shrink-0">→</span>
-            <span>Even Israeli analysts admit Netanyahu is using the war for <strong>political relief</strong> from domestic troubles — the same pattern as his Gaza campaign.</span>
-          </li>
-        </ul>
-        <div className="bg-stone-100 rounded-lg p-4">
-          <p className="text-stone-700">
-            <strong>The question isn&apos;t whether Israel influenced this decision.</strong> The question is whether
-            there is any American interest being served that couldn&apos;t have been achieved through the
-            diplomatic channels that were <em>actively sabotaged</em>. Iran was at the negotiating table.
-            Witkoff and Kushner reportedly told Trump it would be &ldquo;difficult, if not impossible&rdquo;
-            to reach a deal. Was that an honest assessment — or the desired outcome?
-          </p>
-        </div>
-      </div>
-
       {/* How does this benefit America? */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">How Does This Benefit America?</h2>
         <p className="text-stone-700 mb-4">
-          Let&apos;s examine every claimed benefit:
+          Let&apos;s examine every claimed benefit honestly:
         </p>
         <div className="space-y-4">
           <div className="border-l-4 border-stone-300 pl-4">
             <p className="font-semibold">&ldquo;Prevent Iran from getting nuclear weapons&rdquo;</p>
             <p className="text-stone-600 text-sm">
-              The JCPOA was doing that. Trump withdrew from it in 2018. Iran was in compliance.
-              Since withdrawal, Iran has enriched uranium to 60% — closer to weapons-grade than ever.
-              We had a solution. We destroyed it. Now we&apos;re bombing them for the problem we created.
+              The JCPOA was doing exactly that. Iran was in compliance. AIPAC spent $20 million killing it.
+              Trump withdrew in 2018. Since then, Iran enriched uranium to 60% — closer to weapons-grade
+              than ever before. In 2025, the US struck nuclear facilities (Operation Midnight Hammer, $2.25B).
+              Now we&apos;re bombing again. <strong>We destroyed the solution, then bombed the resulting problem.</strong>
             </p>
           </div>
           <div className="border-l-4 border-stone-300 pl-4">
             <p className="font-semibold">&ldquo;Eliminate threats to American forces&rdquo;</p>
             <p className="text-stone-600 text-sm">
-              American forces are in the region because of previous interventions. Iran is now firing
-              missiles at US bases in 5 countries. Our troops are <em>less</em> safe than before the strikes.
-              The threat was escalated, not eliminated.
+              American forces are in the region because of previous interventions. Iran has now fired
+              missiles at US bases in <strong>7 countries</strong>. 3 US service members are dead. Our troops are
+              <em> less</em> safe than before the strikes. The threat was escalated, not eliminated.
             </p>
           </div>
           <div className="border-l-4 border-stone-300 pl-4">
             <p className="font-semibold">&ldquo;Free the Iranian people&rdquo;</p>
             <p className="text-stone-600 text-sm">
-              Iranians were already protesting — thousands killed by their own government. Bombing their
-              country historically rallies populations <em>around</em> their government, not against it.
-              Nothing unites a nation like foreign bombs. Ask any historian about the London Blitz.
+              The Iranian people were already protesting — the largest demonstrations since 1979, across 100+ cities.
+              Their own government massacred thousands. But bombing a country historically rallies populations
+              <em> around</em> their government, not against it. And the first victims of this &ldquo;liberation&rdquo;
+              were 108 schoolgirls at an elementary school in Minab.
             </p>
           </div>
           <div className="border-l-4 border-stone-300 pl-4">
             <p className="font-semibold">&ldquo;Stabilize the Middle East&rdquo;</p>
             <p className="text-stone-600 text-sm">
-              Five US-allied Gulf states are already under missile attack. Oil prices are surging toward
-              $100/barrel. The Strait of Hormuz — through which 20% of global oil flows — is in a war
-              zone. This is the opposite of stability.
+              7 countries are under missile attack. The Strait of Hormuz is closed. Dubai&apos;s Fairmont hotel
+              is on fire. Airports have been bombed. The Houthis are resuming Red Sea attacks.
+              This is the literal opposite of stability. <strong>The Gulf hasn&apos;t seen this level of
+              conflict since the Iran-Iraq War of the 1980s.</strong>
+            </p>
+          </div>
+          <div className="border-l-4 border-stone-300 pl-4">
+            <p className="font-semibold">&ldquo;Defend against imminent threats&rdquo;</p>
+            <p className="text-stone-600 text-sm">
+              Congress was briefed by Rubio on Tuesday. The bombs didn&apos;t fall until Saturday. If the
+              threat was &ldquo;imminent,&rdquo; why wait 4 days? And why was Oman still mediating negotiations
+              on Thursday? The &ldquo;imminent threat&rdquo; justification is the same one used for every
+              unconstitutional war since 9/11.
             </p>
           </div>
         </div>
         <div className="bg-red-50 border border-red-200 rounded-lg p-4 mt-6">
           <p className="text-red-800 font-semibold">
-            There is no honest case for how this war benefits ordinary Americans. Gas prices will rise.
-            Taxes will rise. Debt will rise. American troops are in danger. And when it&apos;s over,
-            history tells us the region will be <em>more</em> unstable, not less.
+            There is no honest case for how this war benefits ordinary Americans. Gas prices rise.
+            Taxes rise. Debt rises. Troops die. And when it&apos;s over, history tells us the region will
+            be <em>more</em> unstable, not less — and we&apos;ll have created the next generation of enemies.
           </p>
         </div>
       </div>
 
-      {/* Escalation timeline */}
+      {/* Full Timeline */}
       <div className="bg-white rounded-xl border p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Timeline: From Diplomacy to Bombs</h2>
-        <p className="text-stone-500 mb-4 text-sm">How a negotiation became a war in less than 6 months.</p>
-        <div className="space-y-4">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Complete Timeline: From October 7 to Epic Fury</h2>
+        <p className="text-stone-500 mb-4 text-sm">How a post-October 7 escalation, a sabotaged negotiation, and an AIPAC-funded political ecosystem produced a war.</p>
+        <div className="space-y-3">
           {timeline.map((t, i) => (
             <div key={i} className="flex items-start gap-4 border-l-2 border-red-200 pl-4">
-              <span className="text-red-700 font-bold font-[family-name:var(--font-heading)] shrink-0 w-20 text-sm">{t.date}</span>
-              <p className="text-stone-700">{t.event}</p>
+              <span className="text-red-700 font-bold font-[family-name:var(--font-heading)] shrink-0 w-28 text-xs">{t.date}</span>
+              <p className="text-stone-700 text-sm">{t.event}</p>
             </div>
           ))}
         </div>
@@ -376,76 +538,117 @@ export default function Iran2026Page() {
           <span className="block text-sm text-stone-500 mt-1 not-italic">— Article I, Section 8, United States Constitution</span>
         </blockquote>
         <p className="text-stone-300 mb-4">
-          Congress was not consulted before Operation Epic Fury. Members of Congress from both parties
-          are demanding a War Powers vote. NPR reports the strikes were &ldquo;launched without
-          congressional authorization.&rdquo;
+          Congress was not asked to vote before Operation Epic Fury. They were briefed by Rubio — on Tuesday, 4 days
+          before bombs fell. Senator Jack Reed: <em>&ldquo;Against the clear wishes of the American people, President
+          Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought
+          congressional authority for, and for which he has no endgame.&rdquo;</em>
         </p>
         <p className="text-stone-300 mb-4">
-          As constitutional law experts noted to TIME: <em>&ldquo;If Congress did nothing, that would be
-          a sign that Congress didn&apos;t approve an act of war, and so it would be illegal.&rdquo;</em>
+          Constitutional law experts told TIME: <em>&ldquo;If Congress did nothing, that would be a sign that
+          Congress didn&apos;t approve an act of war, and so it would be illegal.&rdquo;</em>
+        </p>
+        <p className="text-stone-300 mb-4">
+          <strong>Bipartisan opposition:</strong> Senator Rand Paul (R-KY) and Senator Tim Kaine (D-VA) have
+          co-sponsored a War Powers resolution to block the strikes. Rep. Thomas Massie (R-KY) and Rep. Ro Khanna
+          (D-CA) have introduced a companion resolution in the House. Paul — a libertarian who frequently clashes
+          with Trump — said on X that he does not support the strikes, based on constitutional principles (NBC News).
         </p>
         <p className="text-stone-300">
-          Trump ran on ending forever wars. He promised to bring troops home. Instead, he launched the
-          most significant US military campaign since the 2003 invasion of Iraq — without asking the
-          American people&apos;s representatives for permission.
+          This is not a partisan issue. This is the Constitution being ignored — again — for someone else&apos;s war.
         </p>
+      </div>
+
+      {/* MAGA fracture */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Trump&apos;s Own Base Is Fracturing</h2>
+        <blockquote className="border-l-4 border-red-700 pl-4 mb-4 text-xl text-stone-700 italic">
+          &ldquo;Absolutely disgusting and evil.&rdquo;
+          <span className="block text-sm text-stone-500 mt-2 not-italic">— Tucker Carlson, on the Iran strikes, to ABC&apos;s Jonathan Karl. February 28, 2026.</span>
+        </blockquote>
+        <div className="space-y-3 text-stone-700">
+          <p>
+            Tucker Carlson — perhaps Trump&apos;s most influential media ally — didn&apos;t just disagree.
+            He called the attack <strong>&ldquo;absolutely disgusting and evil&rdquo;</strong> (ABC News, Daily Mail,
+            Mediaite, The Independent all confirmed). He had previously described escalating conflicts with Iran as
+            &ldquo;a reckless effort to serve the interests of Tel Aviv.&rdquo;
+          </p>
+          <p>
+            Rand Paul doesn&apos;t support it. Thomas Massie doesn&apos;t support it. The Libertarian Alliance published
+            an essay days before the strikes: <em>&ldquo;There is no good reason to sacrifice American soldiers and
+            sailors in a war on Iran. No justice in killing Iranian civilians.&rdquo;</em>
+          </p>
+          <p>
+            Trump ran on ending forever wars. He promised to bring troops home. He was the president who
+            <em> didn&apos;t</em> start a new war in his first term. His base voted for that. Instead, they got the
+            largest US military operation since the 2003 invasion of Iraq — launched alongside a foreign government,
+            for that government&apos;s security priorities, without asking anyone.
+          </p>
+          <p className="font-semibold">
+            This is not what 74 million Americans voted for.
+          </p>
+        </div>
       </div>
 
       {/* Long-term effects */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Long-Term Consequences</h2>
         <p className="text-stone-700 mb-4">
-          History doesn&apos;t just rhyme here — it repeats verbatim. Here&apos;s what comes next:
+          History doesn&apos;t just rhyme here — it repeats word for word:
         </p>
         <div className="space-y-4">
           <div className="bg-stone-50 rounded-lg p-4">
             <h3 className="font-semibold text-primary mb-1">💰 Financial Black Hole</h3>
             <p className="text-stone-700 text-sm">
-              Iraq was supposed to be quick. It lasted 8 years and cost $2.4 trillion. Afghanistan lasted
-              20 years and cost $2.3 trillion. Iran is bigger, more sophisticated, and more capable than
-              either. The Stimson Center warns: &ldquo;Iran in 2026 is likely to emerge battered but not
-              broken — a costly example of American hubris and the limits of airpower.&rdquo;
+              37 hours of strikes in 2025 cost $2.25 billion (Forbes). Epic Fury is open-ended — Trump said bombing
+              will continue &ldquo;as long as necessary.&rdquo; Iraq lasted 8 years ($2.4T). Afghanistan lasted 20 years
+              ($2.3T). Iran is bigger, more sophisticated, and more capable than either. The Stimson Center:
+              <em> &ldquo;Iran in 2026 is likely to emerge battered but not broken — a costly example of American hubris
+              and the limits of airpower.&rdquo;</em> The national debt is $38 trillion. Interest costs: $1T/year.
             </p>
           </div>
           <div className="bg-stone-50 rounded-lg p-4">
-            <h3 className="font-semibold text-primary mb-1">🔥 Regional Conflagration</h3>
+            <h3 className="font-semibold text-primary mb-1">🔥 Regional Conflagration (Already Happening)</h3>
             <p className="text-stone-700 text-sm">
-              Iran has already fired missiles at 5 US-allied countries. Hezbollah is watching. The Houthis
-              are watching. Iraq&apos;s Shia militias are watching. This could become a multi-front regional
-              war dragging in Lebanon, Iraq, Yemen, and the entire Gulf.
+              This isn&apos;t a prediction — it&apos;s Day 1 reality. 7+ countries under fire. The Strait of Hormuz is closed.
+              Dubai&apos;s luxury hotels are burning. The Houthis are back. Iran&apos;s parliament security chair:
+              <em> &ldquo;We warned you, but now you have started down a path that is beyond your control.&rdquo;</em>
+              Hezbollah is watching. Iraq&apos;s militias are already launching attacks.
             </p>
           </div>
           <div className="bg-stone-50 rounded-lg p-4">
             <h3 className="font-semibold text-primary mb-1">⛽ Energy Crisis</h3>
             <p className="text-stone-700 text-sm">
-              Iran can threaten the Strait of Hormuz, through which 20% of global oil transits. Analysts
-              project oil at $80-100/barrel. If Hormuz is blocked, we&apos;re looking at $150+. American
-              families pay the price at every gas pump.
+              The Strait of Hormuz is closed — 20% of global oil, 20% of global LNG. Bloomberg says this would
+              &ldquo;trigger a spike in oil prices.&rdquo; CNBC: Asian countries would begin hoarding, and the LNG
+              &ldquo;would be unable to be replaced.&rdquo; Analysts project $80-100/barrel short-term, $150+ if
+              prolonged. Every American family pays more for gas, food, heating, and everything that gets shipped.
             </p>
           </div>
           <div className="bg-stone-50 rounded-lg p-4">
-            <h3 className="font-semibold text-primary mb-1">🔄 More Blowback</h3>
+            <h3 className="font-semibold text-primary mb-1">🔄 Generational Blowback</h3>
             <p className="text-stone-700 text-sm">
-              Every bomb creates enemies. The 1953 coup produced 1979. The Iraq War produced ISIS.
-              What will bombing 88 million people produce? A generation of Iranians who were
-              protesting their own government will now blame America for their destruction.
+              The 1953 coup produced 1979. The Iraq War produced ISIS. The Libya intervention produced failed states
+              and weapons flooding across Africa. What will killing 108 schoolgirls produce? What will bombing
+              88 million people — many of whom were protesting their own government — produce? A generation of
+              Iranians who blame America for their children&apos;s deaths. The next cycle of blowback.
             </p>
           </div>
           <div className="bg-stone-50 rounded-lg p-4">
-            <h3 className="font-semibold text-primary mb-1">🌏 Strategic Distraction</h3>
+            <h3 className="font-semibold text-primary mb-1">🌏 Strategic Catastrophe</h3>
             <p className="text-stone-700 text-sm">
-              As Chatham House noted: &ldquo;Every recent US president has tried to redirect attention
-              beyond the Middle East. To Asia. To the Western Hemisphere. None has succeeded.&rdquo;
-              While we&apos;re bombing Iran, China grows. The $38 trillion debt grows. Infrastructure
-              crumbles. The actual problems facing Americans go unsolved.
+              Chatham House: <em>&ldquo;Every recent US president has tried to redirect attention beyond the Middle East.
+              To Asia. To the Western Hemisphere. None has succeeded.&rdquo;</em> While we bomb Iran, China grows.
+              While we spend trillions, the debt grows. While we fight Israel&apos;s war, the actual problems
+              facing Americans — healthcare, infrastructure, housing, wages — go unsolved.
             </p>
           </div>
           <div className="bg-stone-50 rounded-lg p-4">
-            <h3 className="font-semibold text-primary mb-1">🪖 No Exit Strategy</h3>
+            <h3 className="font-semibold text-primary mb-1">🪖 No Exit Strategy. No Plan. No End.</h3>
             <p className="text-stone-700 text-sm">
               &ldquo;Tell me how this ends,&rdquo; General Petraeus asked at the start of the Iraq War.
-              Nobody could answer then. Nobody can answer now. Regime change with no ground force,
-              no coalition, no rebel army, and no plan for what comes after.
+              Nobody answered. 20 years and $2.4 trillion later, Iraq is still broken. Now: regime change
+              with no ground force, no coalition, no rebel army, no plan for governance, and a country of
+              88 million people with real ballistic missiles and a region already on fire. How does this end?
             </p>
           </div>
         </div>
@@ -464,13 +667,18 @@ export default function Iran2026Page() {
             We spent $8 trillion on the War on Terror. It produced ISIS, failed states across the
             Middle East, 900,000+ dead, and no measurable increase in American security. Now we&apos;re
             doing it again — in a country three times the size of Iraq, with a real military,
-            real ballistic missiles, and real allies.
+            real ballistic missiles, and real allies who are already retaliating across 7 countries.
           </p>
           <p>
-            The American people were never consulted. Their representatives were never consulted.
-            The diplomats trying to negotiate were sabotaged. And the primary beneficiary is a
-            foreign government whose leader used the word &ldquo;historic&rdquo; to describe a war
-            that will cost American lives and American treasure.
+            Iran was at the negotiating table. Their foreign minister said &ldquo;good progress&rdquo; was made.
+            Oman&apos;s foreign minister — who brokered the talks — literally flew to Washington to beg for more
+            time for diplomacy. He was turned away. The next morning, 108 children were dead in a school in Minab.
+          </p>
+          <p>
+            The president who promised to end forever wars just started the biggest one since Iraq. His own
+            strongest media ally calls it &ldquo;absolutely disgusting and evil.&rdquo; The primary beneficiary
+            is a foreign government that spent $221 million buying influence in American elections and branded
+            this war with a logo.
           </p>
         </div>
       </div>
@@ -484,15 +692,58 @@ export default function Iran2026Page() {
           <span className="block text-sm text-stone-500 mt-1 not-italic">— James Madison, 1795</span>
         </blockquote>
         <p className="text-stone-300 mb-4">
-          This is not America&apos;s war. This is a war fought for Israel&apos;s security priorities, the
-          defense industry&apos;s profit margins, and the political survival of leaders in both countries.
-          The American people will pay for it in blood, treasure, and blowback for decades to come —
-          just like they&apos;re still paying for Iraq, Afghanistan, Libya, and every other intervention
-          that was sold as quick, necessary, and in our interest.
+          This is not America&apos;s war. This is a war fought for Israel&apos;s security priorities —
+          planned for months, branded with a logo, enabled by $221 million in political spending, and
+          launched after diplomacy was actively sabotaged. It is funded by American taxpayers, fought by
+          American troops, and will be paid for by American families at the gas pump and in the national
+          debt for decades to come.
         </p>
-        <p className="text-stone-300 font-semibold">
-          It wasn&apos;t true then. It isn&apos;t true now.
+        <p className="text-stone-300 mb-4">
+          The American people were never consulted. Their representatives were never consulted.
+          The diplomats trying to negotiate were turned away. And 108 children at a girls&apos; school
+          in Minab paid the price on the first morning.
         </p>
+        <p className="text-stone-300 mb-4">
+          Tucker Carlson is right. This is disgusting and evil. Rand Paul is right. This is unconstitutional.
+          The Omani foreign minister is right. <strong>This is not our war.</strong>
+        </p>
+        <p className="text-white font-semibold text-lg">
+          Whose war is it? Follow the money. Follow the lobbying. Follow the $174 billion.
+          The answer has never been clearer.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-50 rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
+        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 1, 2026:</p>
+        <ul className="text-sm text-stone-600 space-y-1 columns-1 md:columns-2">
+          <li>The Guardian — War timeline, school bombing, Gulf retaliation, Fairmont hotel</li>
+          <li>BBC — School bombing, regime change precedent analysis</li>
+          <li>Al Jazeera — School bombing, war powers, AIPAC</li>
+          <li>Washington Post — School bombing, casualties</li>
+          <li>CNN — Operation Epic Fury announcement</li>
+          <li>NPR — Congressional authorization, oil impact</li>
+          <li>NBC News — Rand Paul, bipartisan War Powers resolution</li>
+          <li>New York Times — Congressional War Powers votes</li>
+          <li>PBS — War Powers demands</li>
+          <li>ABC News — Tucker Carlson quote</li>
+          <li>AP/FEC filings — AIPAC spending ($221M)</li>
+          <li>Congressional Research Service — US aid to Israel ($174B)</li>
+          <li>Council on Foreign Relations — Strike impact analysis</li>
+          <li>Chatham House — Expert analysis</li>
+          <li>The Atlantic — Regime change gamble analysis</li>
+          <li>Stimson Center — Limits of airpower</li>
+          <li>Foreign Policy — High bar for success</li>
+          <li>Forbes — Operation Midnight Hammer cost ($2.25B)</li>
+          <li>Bloomberg — Strait of Hormuz closure</li>
+          <li>CNBC — Oil/LNG impact</li>
+          <li>TIME — Constitutional law analysis</li>
+          <li>Axios — Regime change history comparison</li>
+          <li>Drop Site News — Minab school investigation</li>
+          <li>Wikipedia — Compiled timeline, casualties, crisis background</li>
+          <li>Libertarian Alliance — Anti-war analysis</li>
+        </ul>
       </div>
 
       {/* Cross-links */}
@@ -522,6 +773,14 @@ export default function Iran2026Page() {
           <h3 className="font-semibold">The Military-Industrial Complex →</h3>
           <p className="text-stone-500 text-sm">Who profits from permanent war</p>
         </Link>
+        <Link href="/tools/tax-receipt" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Your Tax Receipt →</h3>
+          <p className="text-stone-500 text-sm">See how much of your taxes fund war</p>
+        </Link>
+        <Link href="/analysis/war-on-terror" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">The War on Terror →</h3>
+          <p className="text-stone-500 text-sm">$8 trillion and counting</p>
+        </Link>
       </div>
 
       <BackToTop />
@@ -533,7 +792,7 @@ export default function Iran2026Page() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-            description: 'Operation Epic Fury launched without congressional approval. Who benefits from war with Iran? Not the American people.',
+            description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 108 schoolgirls killed. Who benefits from war with Iran? Not the American people.',
             datePublished: '2026-03-01',
             dateModified: '2026-03-01',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
