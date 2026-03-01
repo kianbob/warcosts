@@ -169,6 +169,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
+  // Operations pages
+  try {
+    const operations = loadData('operations.json')
+    entries.push({ url: `${base}/operations`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    operations.forEach((o: any) => {
+      entries.push({ url: `${base}/operations/${o.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
+  // Sanctions pages
+  try {
+    const sanctions = loadData('sanctions.json')
+    entries.push({ url: `${base}/sanctions`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    sanctions.forEach((s: any) => {
+      entries.push({ url: `${base}/sanctions/${s.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
   // Weapon detail pages
   try {
     const weapons = loadData('weapons.json')

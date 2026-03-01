@@ -64,6 +64,8 @@ const navItems = [
       { label: '── War & Peace ──', href: '/drone-strikes#section' },
       { label: 'Drone Strikes', href: '/drone-strikes' },
       { label: 'Congressional War Votes', href: '/war-votes' },
+      { label: 'Named Operations', href: '/operations' },
+      { label: 'US Sanctions', href: '/sanctions' },
       { label: 'Veterans by War', href: '/veterans/world-war-ii' },
     ],
   },
