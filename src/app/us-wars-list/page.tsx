@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'US Wars List — Every American War Since 1776 | WarCosts',
-  description: 'Complete list of all 28 major US wars and military conflicts since 1776, plus 469 total military interventions. How many wars has the US been in?',
+  description: 'Complete list of all 36 major US wars and military conflicts since 1776, plus 469 total military interventions. How many wars has the US been in?',
   keywords: ['us wars list', 'how many wars has the us been in', 'american wars', 'list of us wars'],
 }
 
@@ -62,7 +62,7 @@ export default function USWarsListPage() {
       <div className="prose max-w-3xl mx-auto my-12 text-stone-600">
         <h2 className="font-[family-name:var(--font-heading)]">469 Military Interventions</h2>
         <p>
-          Beyond the 28 major conflicts, the Congressional Research Service documents 469 instances
+          Beyond the 36 major conflicts, the Congressional Research Service documents 469 instances
           of the use of US armed forces abroad since 1798. 251 of those have occurred since 1991 alone —
           an acceleration of interventionism unprecedented in American history.
         </p>

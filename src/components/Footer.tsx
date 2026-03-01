@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="bg-stone-900 text-stone-400 mt-16">
-      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-5 gap-8 text-sm">
         <div>
           <h3 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Conflicts</h3>
           <ul className="space-y-2">
@@ -33,7 +33,16 @@ export default function Footer() {
             <li><Link href="/analysis" className="hover:text-white">Analysis</Link></li>
             <li><Link href="/dashboard" className="hover:text-white">Dashboard</Link></li>
             <li><Link href="/search" className="hover:text-white">Search</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Quick Links</h3>
+          <ul className="space-y-2">
+            <li><Link href="/war-clock" className="hover:text-white">War Clock</Link></li>
+            <li><Link href="/modern-wars" className="hover:text-white">Modern Wars</Link></li>
+            <li><Link href="/tools" className="hover:text-white">Tools</Link></li>
             <li><Link href="/downloads" className="hover:text-white">Downloads</Link></li>
+            <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
           </ul>
         </div>
         <div>
@@ -52,6 +61,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-stone-800 py-6 text-center text-xs text-stone-500">
+        <p className="mb-1">211+ pages of data · Last updated: March 2026</p>
         <p>&ldquo;Of all the enemies to public liberty, war is perhaps the most to be dreaded.&rdquo; — James Madison</p>
         <p className="mt-1">A <a href="https://thedataproject.ai" className="text-red-500 hover:underline">TheDataProject.ai</a> platform · © {new Date().getFullYear()}</p>
       </div>

@@ -3,12 +3,12 @@
     "name": "Bush Jr.",
     "conflicts": [
       "Afghanistan",
+      "GWOT (Other)",
       "Iraq War",
       "Drone Wars",
-      "Somalia (AFRICOM)",
-      "GWOT (Other)"
+      "Somalia (AFRICOM)"
     ],
-    "totalCost": 4333625000000,
+    "totalCost": 4323625000000,
     "totalUSDeaths": 7075
   },
   {
@@ -65,21 +65,6 @@
     "totalUSDeaths": 19407
   },
   {
-    "name": "Obama",
-    "conflicts": [
-      "Libya",
-      "Syria",
-      "Yemen",
-      "Drone Wars",
-      "Somalia (AFRICOM)",
-      "Niger/Sahel",
-      "Anti-ISIS",
-      "GWOT (Other)"
-    ],
-    "totalCost": 157658333333,
-    "totalUSDeaths": 71
-  },
-  {
     "name": "Bush Sr.",
     "conflicts": [
       "Panama",
@@ -90,32 +75,36 @@
     "totalUSDeaths": 428
   },
   {
-    "name": "Trump",
-    "conflicts": [
-      "Drone Wars",
-      "Somalia (AFRICOM)",
-      "Ukraine Aid",
-      "Iran 2026",
-      "Niger/Sahel",
-      "Anti-ISIS",
-      "GWOT (Other)"
-    ],
-    "totalCost": 110608333333,
-    "totalUSDeaths": 47
-  },
-  {
     "name": "Biden",
     "conflicts": [
+      "GWOT (Other)",
       "Drone Wars",
       "Somalia (AFRICOM)",
-      "Ukraine Aid",
-      "Red Sea (Houthis)",
       "Niger/Sahel",
+      "Syria",
       "Anti-ISIS",
-      "GWOT (Other)"
+      "Yemen",
+      "Ukraine Aid",
+      "Red Sea (Houthis)"
     ],
-    "totalCost": 110108333333,
-    "totalUSDeaths": 47
+    "totalCost": 113541666666,
+    "totalUSDeaths": 55
+  },
+  {
+    "name": "Trump",
+    "conflicts": [
+      "GWOT (Other)",
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "Niger/Sahel",
+      "Syria",
+      "Anti-ISIS",
+      "Yemen",
+      "Ukraine Aid",
+      "Iran 2026"
+    ],
+    "totalCost": 110941666666,
+    "totalUSDeaths": 55
   },
   {
     "name": "Lincoln",
@@ -124,6 +113,21 @@
     ],
     "totalCost": 80000000000,
     "totalUSDeaths": 364511
+  },
+  {
+    "name": "Obama",
+    "conflicts": [
+      "GWOT (Other)",
+      "Drone Wars",
+      "Somalia (AFRICOM)",
+      "Libya",
+      "Niger/Sahel",
+      "Syria",
+      "Anti-ISIS",
+      "Yemen"
+    ],
+    "totalCost": 76991666666,
+    "totalUSDeaths": 55
   },
   {
     "name": "Clinton",
@@ -153,28 +157,20 @@
     "totalUSDeaths": 13283
   },
   {
+    "name": "Washington",
+    "conflicts": [
+      "Revolutionary War"
+    ],
+    "totalCost": 2400000000,
+    "totalUSDeaths": 25000
+  },
+  {
     "name": "Madison",
     "conflicts": [
       "War of 1812"
     ],
     "totalCost": 1800000000,
     "totalUSDeaths": 15000
-  },
-  {
-    "name": "Washington",
-    "conflicts": [
-      "Revolutionary War"
-    ],
-    "totalCost": 1200000000,
-    "totalUSDeaths": 12500
-  },
-  {
-    "name": "Continental Congress",
-    "conflicts": [
-      "Revolutionary War"
-    ],
-    "totalCost": 1200000000,
-    "totalUSDeaths": 12500
   },
   {
     "name": "Reagan",

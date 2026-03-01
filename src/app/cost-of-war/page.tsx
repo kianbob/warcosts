@@ -75,7 +75,7 @@ export default function CostOfWarPage() {
         <ul>
           <li><Link href="/war-clock">War Clock</Link> — Watch spending tick in real time</li>
           <li><Link href="/cost-per-life">Cost Per Life</Link> — How much each death costs</li>
-          <li><Link href="/conflicts">All Conflicts</Link> — Browse all 28 major wars</li>
+          <li><Link href="/conflicts">All Conflicts</Link> — Browse all 36 major wars</li>
           <li><Link href="/tools/tax-receipt">Tax Receipt</Link> — Your personal military tax bill</li>
         </ul>
       </div>

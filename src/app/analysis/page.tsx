@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Analysis — Data-Driven Perspectives on US Wars',
@@ -38,7 +39,7 @@ const sections = [
   {
     theme: 'Human Cost',
     articles: [
-      { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (22/day), refugee displacement, and the lives destroyed by war.' },
+      { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
       { slug: 'cost-per-life', title: 'The Price of a Life', desc: 'The cost per American death has skyrocketed from $96K to $935M. Modern wars cost 100× more per death than WWII.' },
       { slug: 'the-aftermath', title: 'The Aftermath', desc: 'Wars don\'t end when troops come home. $2.5T in veteran care. 17 suicides per day. Environmental contamination.' },
       { slug: 'blowback', title: 'Blowback: How Interventions Create Enemies', desc: 'The CIA\'s term for unintended consequences. Iran 1953 → 1979. Afghanistan mujahideen → Taliban → Al-Qaeda.' },
@@ -66,6 +67,8 @@ export default function AnalysisPage() {
           </div>
         </div>
       ))}
+
+      <BackToTop />
     </div>
   )
 }

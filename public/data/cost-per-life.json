@@ -1,20 +1,20 @@
 [
   {
-    "name": "Yemen",
-    "id": "yemen",
-    "costPerUSdeath": 27000000000,
-    "costPerCivilianDeath": 360000,
-    "usDeaths": 2,
-    "civilianDeaths": 150000,
-    "cost": 54000000000
-  },
-  {
     "name": "Kosovo",
     "id": "kosovo",
     "costPerUSdeath": 5000000000,
     "costPerCivilianDeath": 20000000,
     "usDeaths": 2,
     "civilianDeaths": 500,
+    "cost": 10000000000
+  },
+  {
+    "name": "Yemen",
+    "id": "yemen",
+    "costPerUSdeath": 5000000000,
+    "costPerCivilianDeath": 66667,
+    "usDeaths": 2,
+    "civilianDeaths": 150000,
     "cost": 10000000000
   },
   {

@@ -1410,7 +1410,7 @@
     "era": "War on Terror",
     "type": "covert_operation",
     "startYear": 2004,
-    "endYear": 2025,
+    "endYear": null,
     "region": "Multiple (Pakistan, Yemen, Somalia, Libya)",
     "countries": [
       "Pakistan",
@@ -1420,7 +1420,7 @@
     ],
     "description": "Ongoing drone assassination program across multiple countries. The US kills people in countries it has never declared war on, often including civilians.",
     "costNominal": 70000000000,
-    "costInflationAdjusted": 70000000000,
+    "costInflationAdjusted": 30000000000,
     "costYear": 2023,
     "usCasualties": {
       "deaths": 0,
@@ -1446,17 +1446,17 @@
     ],
     "objectivesMet": false,
     "computed": {
-      "durationYears": 21,
-      "durationDays": 7665,
-      "costPerDay": 9132420,
+      "durationYears": 22,
+      "durationDays": 8030,
+      "costPerDay": 3735990,
       "costPerUSdeath": 0,
-      "costPerCivilianDeath": 3181818,
+      "costPerCivilianDeath": 1363636,
       "totalDeaths": 22000,
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 0,
-      "civilianDeathsPerYear": 1048
+      "civilianDeathsPerYear": 1000
     },
-    "years": "2004–2025"
+    "years": "2004–Present"
   },
   {
     "id": "somalia-ongoing",
@@ -1798,7 +1798,7 @@
     ],
     "description": "US military support for Saudi Arabia's bombing campaign in Yemen — the world's worst humanitarian crisis. US provides weapons, intelligence, and refueling.",
     "costNominal": 54000000000,
-    "costInflationAdjusted": 54000000000,
+    "costInflationAdjusted": 10000000000,
     "costYear": 2023,
     "usCasualties": {
       "deaths": 2,
@@ -1826,9 +1826,9 @@
     "computed": {
       "durationYears": 10,
       "durationDays": 3650,
-      "costPerDay": 14794521,
-      "costPerUSdeath": 27000000000,
-      "costPerCivilianDeath": 360000,
+      "costPerDay": 2739726,
+      "costPerUSdeath": 5000000000,
+      "costPerCivilianDeath": 66667,
       "totalDeaths": 150002,
       "civilianToMilitaryRatio": 75000,
       "deathsPerYear": 0,
@@ -1918,14 +1918,14 @@
     "era": "War on Terror",
     "type": "intervention",
     "startYear": 2023,
-    "endYear": null,
+    "endYear": 2025,
     "region": "Middle East",
     "countries": [
       "Yemen"
     ],
     "description": "Operation Prosperity Guardian — US-led coalition to protect Red Sea shipping from Houthi attacks after October 2023 Gaza war. US/UK launched airstrikes on Houthi targets in Yemen starting January 2024. $6.5M/day per carrier strike group deployed. Cost at least $4.5 billion through 2025.",
     "costNominal": 4500000000,
-    "costInflationAdjusted": 4500000000,
+    "costInflationAdjusted": 4600000000,
     "costYear": 2025,
     "usCasualties": {
       "deaths": 0,
@@ -1935,8 +1935,8 @@
     },
     "civilianDeaths": 30,
     "troopsDeployed": 12000,
-    "outcome": "Inconclusive",
-    "outcomeDetail": "Houthi attacks continued despite over 100 US/UK strikes. Ceasefire reached in 2025 but Houthis retained capability. Shipping disruption cost global economy billions.",
+    "outcome": "Ceasefire",
+    "outcomeDetail": "Houthi attacks continued despite 931+ US/UK airstrikes. US-Houthi ceasefire in May 2025. Houthis retained capability. Shipping disruption cost global economy billions.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization. Biden administration cited Article II self-defense authority. Bipartisan criticism from both parties.",
     "keyEvents": [
@@ -1968,17 +1968,17 @@
       "Degrade Houthi capabilities"
     ],
     "objectivesMet": false,
-    "years": "2023–Present",
+    "years": "2023–2025",
     "computed": {
-      "durationYears": 3,
-      "durationDays": 1095,
-      "costPerDay": 4109589,
+      "durationYears": 2,
+      "durationDays": 730,
+      "costPerDay": 6301370,
       "costPerUSdeath": 0,
-      "costPerCivilianDeath": 150000000,
+      "costPerCivilianDeath": 153333333,
       "totalDeaths": 30,
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 0,
-      "civilianDeathsPerYear": 10
+      "civilianDeathsPerYear": 15
     }
   },
   {
@@ -1995,7 +1995,7 @@
     ],
     "description": "In February 2026, the US and Israel conducted large-scale military strikes against Iran, described as the biggest US buildup in the Middle East since the 2003 Iraq invasion. Strikes targeted nuclear and military infrastructure. Carrier strike groups deployed at $6.5M/day each. Situation still developing.",
     "costNominal": 5000000000,
-    "costInflationAdjusted": 5000000000,
+    "costInflationAdjusted": 2000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 0,
@@ -2006,7 +2006,7 @@
     "civilianDeaths": 0,
     "troopsDeployed": 40000,
     "outcome": "Developing",
-    "outcomeDetail": "Joint US-Israeli strikes on February 28, 2026 targeted Iranian nuclear and military sites. Largest Middle East military buildup since 2003. Outcome still developing.",
+    "outcomeDetail": "Joint US-Israeli strikes on February 28, 2026 targeted Iranian nuclear and military sites. Largest Middle East military buildup since 2003. Khamenei reportedly killed. Situation still developing as of March 1, 2026.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -2037,7 +2037,7 @@
     "computed": {
       "durationYears": 1,
       "durationDays": 365,
-      "costPerDay": 13698630,
+      "costPerDay": 5479452,
       "costPerUSdeath": 0,
       "costPerCivilianDeath": 0,
       "totalDeaths": 0,

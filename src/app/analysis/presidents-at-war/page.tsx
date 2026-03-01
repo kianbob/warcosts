@@ -25,7 +25,7 @@ export default function AnalysisPresidentsPage() {
       <div className="prose text-stone-600 mt-8">
         <p className="text-lg">
           The Constitution gives Congress — not the President — the power to declare war. Yet of
-          America&apos;s 28 major conflicts, only 5 received a formal declaration. The rest were
+          America&apos;s 36 major conflicts, only 5 received a formal declaration. The rest were
           presidential wars, authorized by creative legal interpretations or nothing at all.
         </p>
 

@@ -1,6 +1,16 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
+
+export const metadata: Metadata = {
+  title: 'WarCosts — The True Cost of American Wars',
+  description: 'Every US war, intervention, and military action since 1776 — the cost in dollars, lives, and liberty. $11.3 trillion spent, 1 million Americans killed, 469 military interventions. Data-driven analysis of American foreign policy.',
+  openGraph: {
+    title: 'WarCosts — The True Cost of American Wars',
+    description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty.',
+  },
+}
 
 export default function HomePage() {
   const stats = loadData('stats.json')

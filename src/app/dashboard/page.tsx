@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import BackToTop from '@/components/BackToTop'
 import { SpendingAreaChart, CostByConflictChart, DeathsByConflictChart, BasesChart } from '@/components/charts/SpendingCharts'
 
 export const metadata: Metadata = {
@@ -115,6 +116,32 @@ export default function DashboardPage() {
         </div>
       </div>
 
+      {/* Quick Navigation */}
+      <div className="bg-stone-900 text-white rounded-xl p-8 mt-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">⚡ Quick Navigation</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          {[
+            { href: '/war-clock', icon: '⏱️', label: 'War Clock' },
+            { href: '/modern-wars', icon: '🔥', label: 'Modern Wars' },
+            { href: '/analysis', icon: '📊', label: 'Analysis' },
+            { href: '/tools', icon: '🧮', label: 'Tools' },
+            { href: '/presidents', icon: '🏛️', label: 'Presidents' },
+            { href: '/countries', icon: '🌍', label: 'Countries' },
+            { href: '/eras', icon: '📅', label: 'By Era' },
+            { href: '/decades', icon: '🗓️', label: 'By Decade' },
+            { href: '/regime-changes', icon: '🔄', label: 'Regime Changes' },
+            { href: '/downloads', icon: '💾', label: 'Downloads' },
+            { href: '/search', icon: '🔍', label: 'Search' },
+            { href: '/faq', icon: '❓', label: 'FAQ' },
+          ].map(n => (
+            <Link key={n.href} href={n.href} className="bg-white/10 hover:bg-white/20 rounded-lg p-3 text-center transition block">
+              <span className="text-2xl block mb-1">{n.icon}</span>
+              <span className="text-sm font-medium">{n.label}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 mt-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 By the Numbers</h3>
@@ -133,6 +160,8 @@ export default function DashboardPage() {
           </ul>
         </div>
       </div>
+
+      <BackToTop />
     </div>
   )
 }

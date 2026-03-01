@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@media print {
+  .no-print, nav, footer, [data-back-to-top] { display: none !important; }
+  body { background: white !important; }
+}
+
 @theme {
   --color-primary: #991b1b;
   --color-accent: #b91c1c;

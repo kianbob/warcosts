@@ -7,9 +7,17 @@ export async function GET() {
     { slug: 'military-industrial-complex', title: 'The Military-Industrial Complex', desc: 'Eisenhower warned us. We didn\'t listen.' },
     { slug: 'human-cost', title: 'The Human Cost', desc: '17 veterans take their own lives every day.' },
     { slug: 'empire-of-bases', title: 'Empire of Bases', desc: '750 bases in 80 countries. More than any empire in history.' },
-    { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
+    { slug: 'cost-per-life', title: 'The Price of a Life', desc: 'A single American death in Afghanistan cost $935 million.' },
+    { slug: 'presidents-at-war', title: 'Presidents at War', desc: 'Which presidents waged the most wars and spent the most?' },
+    { slug: 'the-aftermath', title: 'The Aftermath', desc: 'Wars don\'t end when troops come home. $2.5T in veteran care.' },
+    { slug: 'pentagon-climate', title: 'The Pentagon\'s Carbon Bootprint', desc: 'If the US military were a country, it would be the 55th largest emitter.' },
+    { slug: 'jobs-vs-war', title: 'Jobs vs. War', desc: 'Military spending creates fewer jobs than education, healthcare, or clean energy.' },
+    { slug: 'the-469', title: '469 Military Interventions', desc: '469 instances of US armed forces deployed abroad since 1798.' },
+    { slug: 'drone-wars', title: 'Drone Wars', desc: 'Obama 563 strikes vs Bush 57. Remote-control killing.' },
+    { slug: 'silicon-valley-pentagon', title: 'Silicon Valley & the Pentagon', desc: 'How Big Tech is transforming the military-industrial complex.' },
     { slug: 'forever-wars', title: 'The Forever Wars: How 60 Words Changed Everything', desc: 'The 2001 AUMF enabled 25 years of global war across 78 countries.' },
     { slug: 'ukraine-proxy', title: '$66.9 Billion: America\'s Proxy War in Ukraine', desc: 'The largest military aid since WWII Lend-Lease.' },
+    { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
