@@ -1,0 +1,209 @@
+[
+  {
+    "name": "Yemen",
+    "id": "yemen",
+    "costPerUSdeath": 27000000000,
+    "costPerCivilianDeath": 360000,
+    "usDeaths": 2,
+    "civilianDeaths": 150000,
+    "cost": 54000000000
+  },
+  {
+    "name": "Bosnia",
+    "id": "bosnia",
+    "costPerUSdeath": 2916666667,
+    "costPerCivilianDeath": 70000000,
+    "usDeaths": 12,
+    "civilianDeaths": 500,
+    "cost": 35000000000
+  },
+  {
+    "name": "Syria",
+    "id": "syria",
+    "costPerUSdeath": 1363636364,
+    "costPerCivilianDeath": 2500000,
+    "usDeaths": 22,
+    "civilianDeaths": 12000,
+    "cost": 30000000000
+  },
+  {
+    "name": "Afghanistan",
+    "id": "afghanistan",
+    "costPerUSdeath": 934579439,
+    "costPerCivilianDeath": 13068182,
+    "usDeaths": 2461,
+    "civilianDeaths": 176000,
+    "cost": 2300000000000
+  },
+  {
+    "name": "Iraq War",
+    "id": "iraq-war",
+    "costPerUSdeath": 434877147,
+    "costPerCivilianDeath": 6666667,
+    "usDeaths": 4599,
+    "civilianDeaths": 300000,
+    "cost": 2000000000000
+  },
+  {
+    "name": "Gulf War",
+    "id": "gulf-war",
+    "costPerUSdeath": 355091384,
+    "costPerCivilianDeath": 38857143,
+    "usDeaths": 383,
+    "civilianDeaths": 3500,
+    "cost": 136000000000
+  },
+  {
+    "name": "Bay of Pigs",
+    "id": "bay-of-pigs",
+    "costPerUSdeath": 115000000,
+    "costPerCivilianDeath": 2613636,
+    "usDeaths": 4,
+    "civilianDeaths": 176,
+    "cost": 460000000
+  },
+  {
+    "name": "Somalia",
+    "id": "somalia",
+    "costPerUSdeath": 76744186,
+    "costPerCivilianDeath": 3300000,
+    "usDeaths": 43,
+    "civilianDeaths": 1000,
+    "cost": 3300000000
+  },
+  {
+    "name": "Dominican Republic",
+    "id": "dominican-republic-1965",
+    "costPerUSdeath": 63636364,
+    "costPerCivilianDeath": 933333,
+    "usDeaths": 44,
+    "civilianDeaths": 3000,
+    "cost": 2800000000
+  },
+  {
+    "name": "Grenada",
+    "id": "grenada",
+    "costPerUSdeath": 21052632,
+    "costPerCivilianDeath": 16666667,
+    "usDeaths": 19,
+    "civilianDeaths": 24,
+    "cost": 400000000
+  },
+  {
+    "name": "Panama",
+    "id": "panama",
+    "costPerUSdeath": 17391304,
+    "costPerCivilianDeath": 800000,
+    "usDeaths": 23,
+    "civilianDeaths": 500,
+    "cost": 400000000
+  },
+  {
+    "name": "Vietnam War",
+    "id": "vietnam-war",
+    "costPerUSdeath": 17176228,
+    "costPerCivilianDeath": 500000,
+    "usDeaths": 58220,
+    "civilianDeaths": 2000000,
+    "cost": 1000000000000
+  },
+  {
+    "name": "World War II",
+    "id": "world-war-ii",
+    "costPerUSdeath": 11840187,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 405399,
+    "civilianDeaths": 0,
+    "cost": 4800000000000
+  },
+  {
+    "name": "Korean War",
+    "id": "korean-war",
+    "costPerUSdeath": 10635971,
+    "costPerCivilianDeath": 194500,
+    "usDeaths": 36574,
+    "civilianDeaths": 2000000,
+    "cost": 389000000000
+  },
+  {
+    "name": "Spanish-American War",
+    "id": "spanish-american-war",
+    "costPerUSdeath": 3924775,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 2446,
+    "civilianDeaths": 0,
+    "cost": 9600000000
+  },
+  {
+    "name": "Philippine War",
+    "id": "philippine-american-war",
+    "costPerUSdeath": 3336511,
+    "costPerCivilianDeath": 56000,
+    "usDeaths": 4196,
+    "civilianDeaths": 250000,
+    "cost": 14000000000
+  },
+  {
+    "name": "World War I",
+    "id": "world-war-i",
+    "costPerUSdeath": 3261355,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 116516,
+    "civilianDeaths": 0,
+    "cost": 380000000000
+  },
+  {
+    "name": "Barbary War",
+    "id": "barbary-wars",
+    "costPerUSdeath": 2285714,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 35,
+    "civilianDeaths": 0,
+    "cost": 80000000
+  },
+  {
+    "name": "Quasi-War",
+    "id": "quasi-war",
+    "costPerUSdeath": 311284,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 514,
+    "civilianDeaths": 0,
+    "cost": 160000000
+  },
+  {
+    "name": "Civil War",
+    "id": "civil-war",
+    "costPerUSdeath": 219472,
+    "costPerCivilianDeath": 1600000,
+    "usDeaths": 364511,
+    "civilianDeaths": 50000,
+    "cost": 80000000000
+  },
+  {
+    "name": "Mexican-American War",
+    "id": "mexican-american-war",
+    "costPerUSdeath": 188210,
+    "costPerCivilianDeath": 100000,
+    "usDeaths": 13283,
+    "civilianDeaths": 25000,
+    "cost": 2500000000
+  },
+  {
+    "name": "War of 1812",
+    "id": "war-of-1812",
+    "costPerUSdeath": 120000,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 15000,
+    "civilianDeaths": 0,
+    "cost": 1800000000
+  },
+  {
+    "name": "Revolutionary War",
+    "id": "revolutionary-war",
+    "costPerUSdeath": 96000,
+    "costPerCivilianDeath": 0,
+    "usDeaths": 25000,
+    "civilianDeaths": 0,
+    "cost": 2400000000
+  }
+]

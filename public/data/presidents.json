@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Bush Jr.",
+    "conflicts": [
+      "Afghanistan",
+      "Iraq War",
+      "Drone Wars"
+    ],
+    "totalCost": 4317500000000,
+    "totalUSDeaths": 7060
+  },
+  {
+    "name": "Truman",
+    "conflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "totalCost": 2789000000000,
+    "totalUSDeaths": 239274
+  },
+  {
+    "name": "Roosevelt",
+    "conflicts": [
+      "Philippine War",
+      "World War II"
+    ],
+    "totalCost": 2407000000000,
+    "totalUSDeaths": 204798
+  },
+  {
+    "name": "Wilson",
+    "conflicts": [
+      "World War I"
+    ],
+    "totalCost": 380000000000,
+    "totalUSDeaths": 116516
+  },
+  {
+    "name": "Johnson",
+    "conflicts": [
+      "Vietnam War",
+      "Dominican Republic"
+    ],
+    "totalCost": 336133333333,
+    "totalUSDeaths": 19451
+  },
+  {
+    "name": "Kennedy",
+    "conflicts": [
+      "Vietnam War",
+      "Bay of Pigs"
+    ],
+    "totalCost": 333793333333,
+    "totalUSDeaths": 19411
+  },
+  {
+    "name": "Nixon",
+    "conflicts": [
+      "Vietnam War",
+      "Chile Coup"
+    ],
+    "totalCost": 333413333333,
+    "totalUSDeaths": 19407
+  },
+  {
+    "name": "Bush Sr.",
+    "conflicts": [
+      "Panama",
+      "Gulf War",
+      "Somalia"
+    ],
+    "totalCost": 138050000000,
+    "totalUSDeaths": 428
+  },
+  {
+    "name": "Obama",
+    "conflicts": [
+      "Libya",
+      "Syria",
+      "Yemen",
+      "Drone Wars"
+    ],
+    "totalCost": 103000000000,
+    "totalUSDeaths": 24
+  },
+  {
+    "name": "Lincoln",
+    "conflicts": [
+      "Civil War"
+    ],
+    "totalCost": 80000000000,
+    "totalUSDeaths": 364511
+  },
+  {
+    "name": "Clinton",
+    "conflicts": [
+      "Somalia",
+      "Bosnia"
+    ],
+    "totalCost": 36650000000,
+    "totalUSDeaths": 34
+  },
+  {
+    "name": "Trump",
+    "conflicts": [
+      "Drone Wars"
+    ],
+    "totalCost": 17500000000,
+    "totalUSDeaths": 0
+  },
+  {
+    "name": "Biden",
+    "conflicts": [
+      "Drone Wars"
+    ],
+    "totalCost": 17500000000,
+    "totalUSDeaths": 0
+  },
+  {
+    "name": "McKinley",
+    "conflicts": [
+      "Spanish-American War",
+      "Philippine War"
+    ],
+    "totalCost": 16600000000,
+    "totalUSDeaths": 4544
+  },
+  {
+    "name": "Polk",
+    "conflicts": [
+      "Mexican-American War"
+    ],
+    "totalCost": 2500000000,
+    "totalUSDeaths": 13283
+  },
+  {
+    "name": "Madison",
+    "conflicts": [
+      "War of 1812"
+    ],
+    "totalCost": 1800000000,
+    "totalUSDeaths": 15000
+  },
+  {
+    "name": "Washington",
+    "conflicts": [
+      "Revolutionary War"
+    ],
+    "totalCost": 1200000000,
+    "totalUSDeaths": 12500
+  },
+  {
+    "name": "Continental Congress",
+    "conflicts": [
+      "Revolutionary War"
+    ],
+    "totalCost": 1200000000,
+    "totalUSDeaths": 12500
+  },
+  {
+    "name": "Reagan",
+    "conflicts": [
+      "Grenada"
+    ],
+    "totalCost": 400000000,
+    "totalUSDeaths": 19
+  },
+  {
+    "name": "Adams",
+    "conflicts": [
+      "Quasi-War"
+    ],
+    "totalCost": 160000000,
+    "totalUSDeaths": 514
+  },
+  {
+    "name": "Jefferson",
+    "conflicts": [
+      "Barbary War"
+    ],
+    "totalCost": 80000000,
+    "totalUSDeaths": 35
+  },
+  {
+    "name": "Eisenhower",
+    "conflicts": [
+      "Iran Coup",
+      "Guatemala Coup"
+    ],
+    "totalCost": 44000000,
+    "totalUSDeaths": 0
+  }
+]

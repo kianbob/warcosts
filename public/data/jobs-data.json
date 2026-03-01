@@ -1,0 +1,52 @@
+{
+  "sectorsPerMillion": [
+    {
+      "sector": "Education",
+      "jobs": 13,
+      "color": "#22c55e"
+    },
+    {
+      "sector": "Healthcare",
+      "jobs": 9,
+      "color": "#3b82f6"
+    },
+    {
+      "sector": "Clean Energy",
+      "jobs": 8,
+      "color": "#eab308"
+    },
+    {
+      "sector": "Infrastructure",
+      "jobs": 7,
+      "color": "#f97316"
+    },
+    {
+      "sector": "Military",
+      "jobs": 5,
+      "color": "#991b1b"
+    }
+  ],
+  "examples": [
+    {
+      "shift": 100000000000,
+      "label": "Move $100B from military",
+      "educationJobs": 1300000,
+      "militaryJobsLost": 500000,
+      "netGain": 800000
+    },
+    {
+      "shift": 200000000000,
+      "label": "Move $200B from military",
+      "educationJobs": 2600000,
+      "militaryJobsLost": 1000000,
+      "netGain": 1600000
+    },
+    {
+      "shift": 300000000000,
+      "label": "Move $300B from military",
+      "educationJobs": 3900000,
+      "militaryJobsLost": 1500000,
+      "netGain": 2400000
+    }
+  ]
+}

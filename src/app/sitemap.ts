@@ -13,7 +13,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis', '/analysis/war-on-terror', '/analysis/congressional-authority',
     '/analysis/blowback', '/analysis/military-industrial-complex',
     '/analysis/human-cost', '/analysis/empire-of-bases',
+    '/analysis/cost-per-life', '/analysis/presidents-at-war',
+    '/analysis/the-aftermath', '/analysis/pentagon-climate',
+    '/analysis/jobs-vs-war', '/analysis/the-469',
+    '/analysis/drone-wars', '/analysis/silicon-valley-pentagon',
     '/about', '/methodology', '/faq', '/sources',
+    '/war-clock', '/tools/tax-receipt', '/tools/jobs-calculator',
+    '/cost-per-life', '/presidents',
+    '/us-military-spending', '/cost-of-war', '/us-wars-list',
+    '/veteran-suicide', '/defense-budget',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({

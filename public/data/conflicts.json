@@ -37,7 +37,18 @@
       "Independence from Britain",
       "Self-governance"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 8,
+      "durationDays": 2920,
+      "costPerDay": 821918,
+      "costPerUSdeath": 96000,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 25000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 3125,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "quasi-war",
@@ -75,7 +86,18 @@
       "Protect American merchant shipping",
       "End French privateering"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 2,
+      "durationDays": 730,
+      "costPerDay": 219178,
+      "costPerUSdeath": 311284,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 514,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 257,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "barbary-wars",
@@ -114,7 +136,18 @@
       "End tribute payments",
       "Protect shipping"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 4,
+      "durationDays": 1460,
+      "costPerDay": 54795,
+      "costPerUSdeath": 2285714,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 35,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 9,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "war-of-1812",
@@ -154,7 +187,18 @@
       "Remove British from frontier forts",
       "Possibly annex Canada"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 1643836,
+      "costPerUSdeath": 120000,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 15000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 5000,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "mexican-american-war",
@@ -194,7 +238,18 @@
       "Acquire California and Southwest territories",
       "Resolve Texas border dispute"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 2,
+      "durationDays": 730,
+      "costPerDay": 3424658,
+      "costPerUSdeath": 188210,
+      "costPerCivilianDeath": 100000,
+      "totalDeaths": 38283,
+      "civilianToMilitaryRatio": 1.9,
+      "deathsPerYear": 6642,
+      "civilianDeathsPerYear": 12500
+    }
   },
   {
     "id": "civil-war",
@@ -235,7 +290,18 @@
       "Preserve the Union",
       "End slavery (evolved objective)"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 4,
+      "durationDays": 1460,
+      "costPerDay": 54794521,
+      "costPerUSdeath": 219472,
+      "costPerCivilianDeath": 1600000,
+      "totalDeaths": 414511,
+      "civilianToMilitaryRatio": 0.1,
+      "deathsPerYear": 91128,
+      "civilianDeathsPerYear": 12500
+    }
   },
   {
     "id": "spanish-american-war",
@@ -275,7 +341,18 @@
       "Liberate Cuba",
       "Acquire overseas territories"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 26301370,
+      "costPerUSdeath": 3924775,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 2446,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 2446,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "philippine-american-war",
@@ -315,7 +392,18 @@
       "Suppress independence movement",
       "Maintain colonial control"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 12785388,
+      "costPerUSdeath": 3336511,
+      "costPerCivilianDeath": 56000,
+      "totalDeaths": 254196,
+      "civilianToMilitaryRatio": 59.6,
+      "deathsPerYear": 1399,
+      "civilianDeathsPerYear": 83333
+    }
   },
   {
     "id": "world-war-i",
@@ -357,7 +445,18 @@
       "Make the world safe for democracy",
       "Protect freedom of the seas"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 1041095890,
+      "costPerUSdeath": 3261355,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 116516,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 116516,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "world-war-ii",
@@ -401,7 +500,18 @@
       "Defeat Axis powers",
       "Liberate occupied territories"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 4,
+      "durationDays": 1460,
+      "costPerDay": 3287671233,
+      "costPerUSdeath": 11840187,
+      "costPerCivilianDeath": 0,
+      "totalDeaths": 405399,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 101350,
+      "civilianDeathsPerYear": 0
+    }
   },
   {
     "id": "korean-war",
@@ -442,7 +552,18 @@
       "Repel North Korean invasion",
       "Unify Korea under democratic government"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 355251142,
+      "costPerUSdeath": 10635971,
+      "costPerCivilianDeath": 194500,
+      "totalDeaths": 2036574,
+      "civilianToMilitaryRatio": 54.7,
+      "deathsPerYear": 12191,
+      "civilianDeathsPerYear": 666667
+    }
   },
   {
     "id": "vietnam-war",
@@ -484,7 +605,18 @@
       "Prevent communist takeover of South Vietnam",
       "Contain communism in Southeast Asia"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 20,
+      "durationDays": 7300,
+      "costPerDay": 136986301,
+      "costPerUSdeath": 17176228,
+      "costPerCivilianDeath": 500000,
+      "totalDeaths": 2058220,
+      "civilianToMilitaryRatio": 34.4,
+      "deathsPerYear": 2911,
+      "civilianDeathsPerYear": 100000
+    }
   },
   {
     "id": "bay-of-pigs",
@@ -523,7 +655,18 @@
       "Overthrow Castro government",
       "Install pro-US regime"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 1260274,
+      "costPerUSdeath": 115000000,
+      "costPerCivilianDeath": 2613636,
+      "totalDeaths": 180,
+      "civilianToMilitaryRatio": 44,
+      "deathsPerYear": 4,
+      "civilianDeathsPerYear": 176
+    }
   },
   {
     "id": "dominican-republic-1965",
@@ -561,7 +704,18 @@
       "Prevent communist government",
       "Protect American citizens"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 7671233,
+      "costPerUSdeath": 63636364,
+      "costPerCivilianDeath": 933333,
+      "totalDeaths": 3044,
+      "civilianToMilitaryRatio": 68.2,
+      "deathsPerYear": 44,
+      "civilianDeathsPerYear": 3000
+    }
   },
   {
     "id": "grenada",
@@ -599,7 +753,18 @@
       "Protect American citizens",
       "Remove Marxist government"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 1095890,
+      "costPerUSdeath": 21052632,
+      "costPerCivilianDeath": 16666667,
+      "totalDeaths": 43,
+      "civilianToMilitaryRatio": 1.3,
+      "deathsPerYear": 19,
+      "civilianDeathsPerYear": 24
+    }
   },
   {
     "id": "panama",
@@ -638,7 +803,18 @@
       "Capture Noriega",
       "Restore democratic government"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 1095890,
+      "costPerUSdeath": 17391304,
+      "costPerCivilianDeath": 800000,
+      "totalDeaths": 523,
+      "civilianToMilitaryRatio": 21.7,
+      "deathsPerYear": 23,
+      "civilianDeathsPerYear": 500
+    }
   },
   {
     "id": "gulf-war",
@@ -679,7 +855,18 @@
       "Liberate Kuwait",
       "Protect Saudi Arabia"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 372602740,
+      "costPerUSdeath": 355091384,
+      "costPerCivilianDeath": 38857143,
+      "totalDeaths": 3883,
+      "civilianToMilitaryRatio": 9.1,
+      "deathsPerYear": 383,
+      "civilianDeathsPerYear": 3500
+    }
   },
   {
     "id": "somalia",
@@ -718,7 +905,18 @@
       "Deliver humanitarian aid",
       "Stabilize Somalia"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 2,
+      "durationDays": 730,
+      "costPerDay": 4520548,
+      "costPerUSdeath": 76744186,
+      "costPerCivilianDeath": 3300000,
+      "totalDeaths": 1043,
+      "civilianToMilitaryRatio": 23.3,
+      "deathsPerYear": 22,
+      "civilianDeathsPerYear": 500
+    }
   },
   {
     "id": "bosnia",
@@ -758,7 +956,18 @@
       "End ethnic cleansing",
       "Negotiate peace agreement"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 9,
+      "durationDays": 3285,
+      "costPerDay": 10654490,
+      "costPerUSdeath": 2916666667,
+      "costPerCivilianDeath": 70000000,
+      "totalDeaths": 512,
+      "civilianToMilitaryRatio": 41.7,
+      "deathsPerYear": 1,
+      "civilianDeathsPerYear": 56
+    }
   },
   {
     "id": "afghanistan",
@@ -802,7 +1011,18 @@
       "Remove Taliban from power",
       "Build democratic Afghan state"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 20,
+      "durationDays": 7300,
+      "costPerDay": 315068493,
+      "costPerUSdeath": 934579439,
+      "costPerCivilianDeath": 13068182,
+      "totalDeaths": 178461,
+      "civilianToMilitaryRatio": 71.5,
+      "deathsPerYear": 123,
+      "civilianDeathsPerYear": 8800
+    }
   },
   {
     "id": "iraq-war",
@@ -845,7 +1065,18 @@
       "End Saddam's support for terrorism",
       "Free the Iraqi people"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 8,
+      "durationDays": 2920,
+      "costPerDay": 684931507,
+      "costPerUSdeath": 434877147,
+      "costPerCivilianDeath": 6666667,
+      "totalDeaths": 304599,
+      "civilianToMilitaryRatio": 65.2,
+      "deathsPerYear": 575,
+      "civilianDeathsPerYear": 37500
+    }
   },
   {
     "id": "libya",
@@ -885,7 +1116,18 @@
       "Protect civilians from Gaddafi",
       "Support democratic transition"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 4109589,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 50000,
+      "totalDeaths": 30000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 30000
+    }
   },
   {
     "id": "syria",
@@ -926,7 +1168,18 @@
       "Defeat ISIS",
       "Support moderate rebels"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 11,
+      "durationDays": 4015,
+      "costPerDay": 7471980,
+      "costPerUSdeath": 1363636364,
+      "costPerCivilianDeath": 2500000,
+      "totalDeaths": 12022,
+      "civilianToMilitaryRatio": 545.5,
+      "deathsPerYear": 2,
+      "civilianDeathsPerYear": 1091
+    }
   },
   {
     "id": "yemen",
@@ -967,7 +1220,18 @@
       "Support Saudi Arabia against Houthis",
       "Counter Iranian influence"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 10,
+      "durationDays": 3650,
+      "costPerDay": 14794521,
+      "costPerUSdeath": 27000000000,
+      "costPerCivilianDeath": 360000,
+      "totalDeaths": 150002,
+      "civilianToMilitaryRatio": 75000,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 15000
+    }
   },
   {
     "id": "iran-1953",
@@ -1007,7 +1271,18 @@
       "Secure oil interests",
       "Install pro-Western government"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 30137,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 36667,
+      "totalDeaths": 300,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 300
+    }
   },
   {
     "id": "guatemala-1954",
@@ -1047,7 +1322,18 @@
       "Remove Árbenz",
       "Protect United Fruit Company interests"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 1,
+      "durationDays": 365,
+      "costPerDay": 90411,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 165,
+      "totalDeaths": 200000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 200000
+    }
   },
   {
     "id": "chile-1973",
@@ -1087,7 +1373,18 @@
       "Prevent socialist government",
       "Install pro-US regime"
     ],
-    "objectivesMet": true
+    "objectivesMet": true,
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 73059,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 25000,
+      "totalDeaths": 3200,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 1067
+    }
   },
   {
     "id": "drone-wars",
@@ -1130,6 +1427,17 @@
       "Kill suspected terrorists",
       "Disrupt terrorist networks"
     ],
-    "objectivesMet": false
+    "objectivesMet": false,
+    "computed": {
+      "durationYears": 21,
+      "durationDays": 7665,
+      "costPerDay": 9132420,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 3181818,
+      "totalDeaths": 22000,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 0,
+      "civilianDeathsPerYear": 1048
+    }
   }
 ]

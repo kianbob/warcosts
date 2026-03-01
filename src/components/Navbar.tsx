@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navItems = [
+  { label: 'War Clock', href: '/war-clock' },
   { label: 'Timeline', href: '/timeline' },
   {
     label: 'Explore',
@@ -11,6 +12,8 @@ const navItems = [
       { label: 'By Era', href: '/eras' },
       { label: 'Covert Operations', href: '/covert' },
       { label: 'Casualty Data', href: '/casualties' },
+      { label: 'Cost Per Life', href: '/cost-per-life' },
+      { label: 'Presidents at War', href: '/presidents' },
     ],
   },
   {
@@ -21,6 +24,13 @@ const navItems = [
       { label: 'Arms Sales', href: '/arms-sales' },
       { label: 'Defense Contractors', href: '/contractors' },
       { label: 'What Else Could This Buy?', href: '/opportunity-cost' },
+    ],
+  },
+  {
+    label: 'Tools',
+    items: [
+      { label: 'Tax Receipt', href: '/tools/tax-receipt' },
+      { label: 'Jobs Calculator', href: '/tools/jobs-calculator' },
     ],
   },
   {
@@ -41,6 +51,14 @@ const navItems = [
       { label: 'The Military-Industrial Complex', href: '/analysis/military-industrial-complex' },
       { label: 'The Human Cost', href: '/analysis/human-cost' },
       { label: 'Empire of Bases', href: '/analysis/empire-of-bases' },
+      { label: 'The Price of a Life', href: '/analysis/cost-per-life' },
+      { label: 'Presidents at War', href: '/analysis/presidents-at-war' },
+      { label: 'The Aftermath', href: '/analysis/the-aftermath' },
+      { label: 'Pentagon & Climate', href: '/analysis/pentagon-climate' },
+      { label: 'Jobs vs War', href: '/analysis/jobs-vs-war' },
+      { label: 'The 469 Interventions', href: '/analysis/the-469' },
+      { label: 'Drone Wars', href: '/analysis/drone-wars' },
+      { label: 'Silicon Valley & Pentagon', href: '/analysis/silicon-valley-pentagon' },
     ],
   },
   {
