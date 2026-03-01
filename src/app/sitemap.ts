@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/cost-per-life', '/presidents', '/countries', '/decades',
     '/us-military-spending', '/cost-of-war', '/us-wars-list',
     '/veteran-suicide', '/defense-budget',
+    '/nuclear', '/veterans', '/intelligence', '/modern-tactics',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({

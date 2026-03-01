@@ -43,6 +43,10 @@ const navItems = [
       { label: 'Overseas Bases', href: '/bases' },
       { label: 'Troop Deployments', href: '/deployments' },
       { label: 'Regime Changes', href: '/regime-changes' },
+      { label: 'Intelligence Agencies', href: '/intelligence' },
+      { label: 'Nuclear Weapons', href: '/nuclear' },
+      { label: 'Modern Warfare', href: '/modern-tactics' },
+      { label: 'Veterans Crisis', href: '/veterans' },
     ],
   },
   {
