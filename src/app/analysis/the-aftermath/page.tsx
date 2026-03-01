@@ -393,6 +393,263 @@ export default function AftermathPage() {
         </p>
       </div>
 
+      {/* Reconstruction costs */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Reconstruction: Breaking It Is Cheaper Than Fixing It</h2>
+        <p className="text-stone-700 mb-4">
+          The cost of destroying a country is always dwarfed by the cost of rebuilding it — and the US has a
+          dismal track record of following through on reconstruction promises:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { country: 'Iraq', destroy: '$2.4T', rebuild: '$220B attempted', result: 'Much of Iraq\'s infrastructure still worse than pre-invasion. ISIS destroyed what was rebuilt. Electricity still inconsistent in much of the country. 2.8M remain internally displaced.' },
+            { country: 'Afghanistan', destroy: '$2.3T', rebuild: '$145B attempted', result: 'SIGAR documented systematic waste. Taliban inherited or destroyed most infrastructure. Girls banned from school again. Country now in humanitarian crisis.' },
+            { country: 'Libya', destroy: '$1.1B (NATO campaign)', rebuild: '~$0', result: 'No reconstruction plan. Failed state. Two rival governments. Open-air slave markets. Weapons flowed across the Sahel. Obama called it his "worst mistake."' },
+            { country: 'Vietnam', destroy: '$1T (adjusted)', rebuild: 'Minimal', result: 'Agent Orange still killing 50 years later. 3 million Vietnamese affected. US has spent ~$400M on cleanup — for $1 trillion in destruction.' },
+          ].map(c => (
+            <div key={c.country} className="bg-stone-50 rounded-lg p-4">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="font-bold text-primary">{c.country}</span>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700">Spent: {c.destroy}</span>
+                <span className="text-xs px-2 py-0.5 rounded-full bg-stone-100 text-stone-600">Rebuild: {c.rebuild}</span>
+              </div>
+              <p className="text-sm text-stone-600">{c.result}</p>
+            </div>
+          ))}
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;You break it, you own it.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Secretary of State Colin Powell to President Bush before the Iraq invasion (the &ldquo;Pottery Barn rule&rdquo;). America broke it. Then walked away.</span>
+        </blockquote>
+      </div>
+
+      {/* Refugee crises */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Refugee Crises: The People Who Have to Leave</h2>
+        <p className="text-stone-700 mb-4">
+          The War on Terror has displaced an estimated <strong>38 million people</strong> — more than any
+          conflict since World War II. These are people who lost homes, livelihoods, communities, and futures:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { country: 'Syria', displaced: '13 million', pct: '~60% of population', note: 'Half fled the country entirely. Largest refugee crisis in 21st century. Triggered European migration crisis → far-right politics.' },
+            { country: 'Iraq', displaced: '9.2 million', pct: '~23% of population', note: 'Multiple waves: 2003 invasion, 2006 civil war, 2014 ISIS, 2016 Mosul battle. 2.8M still internally displaced.' },
+            { country: 'Afghanistan', displaced: '5.9 million', pct: '~15% of population', note: 'Decades of displacement. 2021 Taliban takeover triggered new wave. Many interpreters/allies stranded.' },
+            { country: 'Yemen', displaced: '4.4 million', pct: '~14% of population', note: 'US-backed Saudi bombing campaign. "World\'s worst humanitarian crisis" per UN.' },
+            { country: 'Somalia', displaced: '4.2 million', pct: '~25% of population', note: '30+ years of instability. Climate change + conflict. Many in refugee camps for decades.' },
+            { country: 'Pakistan', displaced: '3.7 million', pct: 'Tribal areas devastated', note: 'Military operations in FATA. Drone strikes. Millions displaced from ancestral lands.' },
+          ].map(c => (
+            <div key={c.country} className="bg-stone-50 rounded-lg p-4 border">
+              <p className="font-bold text-primary">{c.country}: <span className="text-red-700">{c.displaced}</span></p>
+              <p className="text-xs text-stone-500">{c.pct}</p>
+              <p className="text-sm text-stone-600 mt-1">{c.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          These millions of displaced people don&apos;t appear in casualty counts. They survived — but lost
+          everything. Many live in refugee camps with no prospect of returning home, no legal status, no
+          education for their children, and no path forward. They are the invisible cost of war — unseen
+          because they are still alive, uncounted because they are not dead.
+        </p>
+      </div>
+
+      {/* Environmental devastation */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Environmental Devastation: Wars That Poison the Land</h2>
+        <p className="text-stone-700 mb-4">
+          War doesn&apos;t just kill people — it poisons the environment for generations:
+        </p>
+        <div className="space-y-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Depleted Uranium (Iraq, Balkans)</h3>
+            <p className="text-sm text-stone-700">
+              The US fired <strong>300+ tons of depleted uranium munitions</strong> in Iraq in 1991 and
+              2003. DU remains radioactive for <strong>4.5 billion years</strong>. Cancer and birth defect
+              rates in Fallujah, Basra, and other heavily bombarded areas exceed those of Hiroshima and
+              Nagasaki survivors. The contamination is permanent.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Agent Orange (Vietnam, Laos, Cambodia)</h3>
+            <p className="text-sm text-stone-700">
+              20 million gallons sprayed. 3 million Vietnamese affected. 150,000+ children born with birth
+              defects. Dioxin persists in soil and water supply 50+ years later. Cleanup began in 2012 —
+              41 years after spraying ended.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Unexploded Ordnance (Laos, Vietnam, Cambodia, Iraq)</h3>
+            <p className="text-sm text-stone-700">
+              <strong>Laos</strong> is the most heavily bombed country per capita in history. The US dropped
+              <strong>2 million tons of bombs</strong> from 1964-1973 — more than was dropped on Germany and
+              Japan in WWII combined. Up to 30% failed to detonate. An estimated <strong>80 million cluster
+              bomblets</strong> remain in Laos. They continue to kill approximately 50 people per year —
+              52 years after the bombing ended. Many victims are children who mistake the bomblets for toys.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Kuwait Oil Fires (1991)</h3>
+            <p className="text-sm text-stone-700">
+              Iraqi forces set fire to over <strong>600 oil wells</strong> during the Gulf War. The fires
+              burned for 10 months, releasing massive quantities of toxic smoke, soot, and pollutants. The
+              environmental damage affected air quality across the region. Veterans exposed to the smoke
+              report chronic respiratory problems decades later.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Pentagon&apos;s Carbon Footprint</h3>
+            <p className="text-sm text-stone-700">
+              The US military is the <strong>single largest institutional consumer of fossil fuels</strong> on
+              Earth. If the DOD were a country, it would be the 47th largest carbon emitter in the world — more
+              than 140 individual nations. Military operations in Iraq and Afghanistan burned through billions
+              of gallons of jet fuel.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Generational trauma */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Generational Trauma: The Wound That Passes Down</h2>
+        <p className="text-stone-700 mb-4">
+          War trauma doesn&apos;t end with the individual. It passes through generations — through behavior,
+          through biology, and through the destruction of social structures:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Children of Veterans</h3>
+            <p className="text-sm text-stone-700">
+              Children of veterans with PTSD show higher rates of anxiety, depression, behavioral problems,
+              and secondary traumatization. Studies of Vietnam veterans&apos; children found elevated rates
+              of psychological distress lasting decades. Post-9/11 veterans&apos; children show similar patterns.
+              The war comes home through the parent who can&apos;t sleep, who erupts in anger, who self-medicates.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Epigenetic Transmission</h3>
+            <p className="text-sm text-stone-700">
+              Emerging research suggests trauma can be transmitted <strong>epigenetically</strong> — through
+              changes in gene expression that pass from parent to child. Studies of Holocaust survivors&apos;
+              children found altered cortisol levels. Research on Agent Orange-exposed veterans found elevated
+              rates of birth defects and health problems in their children and grandchildren — even those
+              conceived after exposure.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">War Zone Children</h3>
+            <p className="text-sm text-stone-700">
+              An estimated <strong>14 million children</strong> in Syria, Iraq, Yemen, and Afghanistan have been
+              directly affected by conflict — displaced from homes, separated from parents, exposed to violence,
+              denied education. Many show symptoms of PTSD, anxiety, and depression. This is a lost generation
+              whose psychological scars will shape the politics and stability of the region for decades.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Failed states */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Failed States: What America Leaves Behind</h2>
+        <p className="text-stone-700 mb-4">
+          The aftermath of US military intervention consistently produces failed or failing states:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { country: 'Libya (2011→)', status: 'Two rival governments. Militias control territory. Open-air slave markets. Arms trafficking hub. Ranked among world\'s most fragile states.' },
+            { country: 'Iraq (2003→)', status: 'Sectarian government. Iranian influence dominant. ISIS devastated the north. Corruption endemic. Millions displaced. Infrastructure still damaged.' },
+            { country: 'Afghanistan (2001→2021)', status: 'Taliban returned to power. Girls banned from school. Economic collapse. Humanitarian crisis. $83B in US equipment abandoned.' },
+            { country: 'Somalia (1992→)', status: 'Al-Shabaab controls large areas. Famine recurring. No effective central government for 30+ years. Ranked #1 on Failed States Index.' },
+            { country: 'Yemen (2015→)', status: '"World\'s worst humanitarian crisis." 150,000+ dead. 4.4M displaced. Cholera outbreaks. Famine. US-backed Saudi bombing continues.' },
+          ].map(c => (
+            <div key={c.country} className="border-l-4 border-red-200 pl-4">
+              <p className="font-semibold text-primary">{c.country}</p>
+              <p className="text-sm text-stone-600">{c.status}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The pattern: the US intervenes, removes a regime, provides no viable alternative, and leaves behind
+          a power vacuum that is filled by extremists, warlords, or rival governments. The failed state then
+          becomes a new &ldquo;threat&rdquo; that justifies continued intervention. It is a self-perpetuating
+          cycle of destruction that has never, in any case, produced the stable democratic outcome promised.
+        </p>
+      </div>
+
+      {/* Economic impacts on war zones */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Economic Destruction: Decades of Lost Development</h2>
+        <p className="text-stone-700 mb-4">
+          War doesn&apos;t just destroy buildings — it destroys economies for generations:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { stat: '-40%', label: 'Average GDP decline during major conflict', source: 'World Bank' },
+            { stat: '20 years', label: 'Average time to return to pre-war GDP', source: 'IMF analysis' },
+            { stat: '80%', label: 'Of Iraq\'s industrial infrastructure destroyed by 2006', source: 'UNDP' },
+            { stat: '$400B', label: 'Syria\'s GDP loss (2011-2023)', source: 'World Bank' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 text-center border">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.source}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Iraq&apos;s GDP per capita was <strong>$3,600 in 2002</strong> (pre-invasion). By 2007, it had fallen
+          to $1,900. It didn&apos;t recover to pre-invasion levels until 2013 — a decade lost. Syria&apos;s
+          economy contracted by <strong>60%</strong> during the civil war. Afghanistan&apos;s GDP collapsed
+          after the Taliban takeover. These aren&apos;t abstract numbers — they represent closed businesses,
+          lost livelihoods, children who couldn&apos;t afford school, and families who couldn&apos;t afford food.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case: Count the Full Cost Before You Start</h2>
+        <p className="text-stone-700 mb-4">
+          War is the single most destructive thing a government can do — to its own citizens, to foreign
+          populations, to economies, to the environment, and to the constitutional order itself. The aftermath
+          proves this in every case:
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;When you go to war, you don&apos;t just pay the cost of the bombs. You pay the cost for
+          50 years of veteran care, 50 years of debt interest, and 50 years of blowback. The politicians
+          who start wars will be long gone. The bill is paid by people who weren&apos;t born yet.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          Libertarians argue that war should be an absolute last resort — defensive only — because the
+          full cost can never be accurately predicted, always exceeds estimates, and falls on people who
+          had no say in the decision. The $8 trillion War on Terror was launched with estimates of $50-200
+          billion. The Iraq War was promised to &ldquo;pay for itself&rdquo; through oil revenue. Every
+          cost estimate was wrong by orders of magnitude.
+        </p>
+        <p className="text-stone-700">
+          If the full cost of war — including 50 years of veteran care, interest on war debt, reconstruction,
+          blowback, and the economic destruction inflicted on target countries — were calculated and presented
+          to the public before the first bomb dropped, democratic support for most wars would evaporate. That&apos;s
+          precisely why it&apos;s never done.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>Costs of War Project</strong>, Watson Institute — Veteran care costs, displacement data, long-term cost projections.</p>
+          <p>• <strong>VA National Suicide Prevention Annual Report</strong> — Published annually with veteran suicide data.</p>
+          <p>• <strong>SIGAR</strong> — Special Inspector General for Afghanistan Reconstruction. Quarterly and final reports.</p>
+          <p>• <strong>World Bank</strong> — Country-level economic impact assessments for conflict-affected nations.</p>
+          <p>• <strong>UNHCR</strong> — Global displacement data and refugee statistics.</p>
+          <p>• Stiglitz, Joseph & Bilmes, Linda — <em>The Three Trillion Dollar War</em> (2008). Long-term cost analysis.</p>
+          <p>• <strong>Legacies of War</strong> — UXO data for Laos. <Link href="https://legaciesofwar.org" className="text-red-800 hover:underline">legaciesofwar.org</Link></p>
+          <p>• <strong>ATSDR</strong> — Toxic exposure data for military bases and conflict zones.</p>
+          <p>• Ron Paul — <em>Swords into Plowshares</em> (2015). The full cost of war from a libertarian perspective.</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 my-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

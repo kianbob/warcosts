@@ -425,6 +425,132 @@ export default function ForeverWarsPage() {
         </div>
       </div>
 
+      {/* Generational soldiers */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">Generational Soldiers: Fighting Their Parents&apos; War</h2>
+        <p className="text-stone-700 mb-4">
+          The War on Terror has lasted so long that soldiers are now deploying to the same conflicts their
+          <strong> parents</strong> fought in. In 2020, the son of a soldier killed in Afghanistan in 2005
+          deployed to Afghanistan himself — the same country, the same war, 15 years later.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Service members who deployed to Afghanistan in 2019-2021 were often <strong>not yet born</strong>
+          when the 2001 AUMF was passed. An 18-year-old deploying in 2021 was born in 2003 — two years after
+          the war started. They grew up in a country that was always at war. War was not an event for them.
+          It was background noise.
+        </p>
+        <p className="text-stone-700">
+          This is what &ldquo;forever war&rdquo; means in practice: a conflict that outlasts the generation
+          that started it, fought by people who had no say in its beginning and no understanding of its
+          original purpose — because by the time they arrived, the purpose had long since been lost.
+        </p>
+      </div>
+
+      {/* Somalia deep dive */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Somalia: 30+ Years and Counting</h2>
+        <p className="text-stone-700 mb-4">
+          The US first intervened in Somalia in <strong>1992</strong> — Operation Restore Hope, a humanitarian
+          mission that devolved into urban combat. The &ldquo;Black Hawk Down&rdquo; incident in October 1993
+          killed 18 Americans and prompted withdrawal. But the US never really left:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { year: '1992-93', event: 'Operation Restore Hope → Black Hawk Down → withdrawal' },
+            { year: '2007', event: 'US supports Ethiopian invasion of Somalia; begins drone/CT operations' },
+            { year: '2011', event: 'Al-Shabaab designated as terrorist organization; strikes intensify' },
+            { year: '2017', event: 'Trump dramatically escalates strikes — more in first 2 years than Obama\'s entire presidency' },
+            { year: '2020', event: 'Trump orders withdrawal of 700 troops — then repositions them to neighboring countries' },
+            { year: '2022', event: 'Biden redeploys ~500 troops back to Somalia' },
+            { year: '2025', event: 'US operations continue. Al-Shabaab remains the dominant insurgent force.' },
+          ].map(t => (
+            <div key={t.year} className="flex gap-3 border-b border-stone-100 pb-2">
+              <span className="w-16 text-sm font-mono text-red-600 shrink-0">{t.year}</span>
+              <p className="text-sm text-stone-600">{t.event}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          After 30+ years of US involvement, Somalia remains one of the poorest, most unstable countries on
+          Earth. Al-Shabaab — which didn&apos;t exist when the US first intervened — controls large swaths
+          of territory and generates an estimated $100 million per year in revenue. The US intervention has
+          not stabilized Somalia. It has simply become a permanent feature of the landscape.
+        </p>
+      </div>
+
+      {/* The Constitution */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Constitutional Violation</h2>
+        <p className="text-stone-700 mb-4">
+          The forever wars are not just a policy failure. They are a <strong>constitutional violation</strong>.
+          The Founders gave Congress the power to declare war precisely to prevent permanent, open-ended
+          military engagements authorized by a single person. Every element of the current situation is
+          exactly what they designed the Constitution to prevent:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { founder: 'Madison warned:', quote: 'War is the parent of armies; from these proceed debts and taxes.', reality: '$8T in debt. $886B/yr in military spending. Exactly as predicted.' },
+            { founder: 'Jefferson warned:', quote: 'Peace, commerce, and honest friendship with all nations — entangling alliances with none.', reality: '750 bases in 80 countries. NATO. AUKUS. Military alliances across the globe.' },
+            { founder: 'Washington warned:', quote: 'The great rule of conduct for us in regard to foreign nations is... to have with them as little political connection as possible.', reality: 'Military operations in 80+ countries. Political entanglements everywhere.' },
+            { founder: 'Hamilton wrote:', quote: 'The President\'s authority as Commander-in-Chief would amount to nothing more than the supreme command and direction of the military forces.', reality: 'The President orders strikes in 7+ countries without congressional approval.' },
+          ].map(q => (
+            <div key={q.founder} className="bg-stone-50 rounded-lg p-4">
+              <p className="text-sm font-semibold text-primary">{q.founder} <span className="font-normal italic text-stone-600">&ldquo;{q.quote}&rdquo;</span></p>
+              <p className="text-xs text-red-600 mt-1">Reality: {q.reality}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case Against Forever Wars</h2>
+        <p className="text-stone-700 mb-4">
+          Forever wars are the ultimate expression of government power unchecked by democratic accountability.
+          They represent everything the libertarian tradition warns against:
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;Setting a precedent of war without end, and war without Congress, is wrong. War should
+          require a vote. Period.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The moral and constitutional obligations of our representatives in Washington are to protect
+          our liberty, not coddle the world, precipitating no-win wars, while bringing fiscal ruin to us
+          and the world.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          Randolph Bourne wrote in 1918 that &ldquo;war is the health of the state.&rdquo; Forever wars are
+          the permanent health of the permanent state — a condition in which the government&apos;s power
+          to surveil, tax, borrow, and kill is never questioned because &ldquo;we are at war.&rdquo; The
+          AUMF has been the enabling legislation for 25 years of unchecked executive power, warrantless
+          surveillance, indefinite detention, extrajudicial killing, and fiscal ruin.
+        </p>
+        <p className="text-stone-700">
+          The solution is not complicated: repeal the AUMF, require specific authorization for every military
+          engagement, enforce sunset clauses, and hold presidents accountable when they violate the War Powers
+          Resolution. These aren&apos;t radical proposals. They are the Constitution as written. The radical
+          position is the one we&apos;re currently living — where one person can wage war across the globe
+          based on a 60-word sentence passed a quarter-century ago.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>Costs of War Project</strong>, Watson Institute — Primary source for War on Terror costs, casualties, countries involved.</p>
+          <p>• Bacevich, Andrew — <em>The Age of Illusions</em> (2020) and <em>America&apos;s War for the Greater Middle East</em> (2016).</p>
+          <p>• Turse, Nick — <em>Tomorrow&apos;s Battlefield</em> (2015). US special operations expansion in Africa.</p>
+          <p>• Kennedy, Paul — <em>The Rise and Fall of the Great Powers</em> (1987). Imperial overextension and decline.</p>
+          <p>• <strong>Congressional Research Service</strong> — Reports on the AUMF, War Powers Resolution, and presidential war authority.</p>
+          <p>• Bourne, Randolph — &ldquo;War Is the Health of the State&rdquo; (1918). Classic anti-war essay.</p>
+          <p>• Schlesinger, Arthur — <em>The Imperial Presidency</em> (1973). History of executive power expansion.</p>
+          <p>• Ron Paul — <em>Swords into Plowshares</em> (2015). The libertarian case against perpetual war.</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 my-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

@@ -230,6 +230,68 @@ export default function AnalysisCostPerLifePage() {
         </p>
       </div>
 
+      {/* Hidden costs */}
+      <div className="prose prose-stone max-w-none mb-8">
+        <h2 className="font-[family-name:var(--font-heading)]">The Hidden Costs: Suicide, PTSD, and Moral Injury</h2>
+        <p>
+          The cost-per-life analysis focuses on deaths in combat. But combat deaths are only the beginning.
+          The aftermath of war produces a second wave of casualties that often exceeds the first:
+        </p>
+        <ul>
+          <li><strong>Veteran suicide:</strong> An estimated <strong>30,177 post-9/11 veterans</strong> have
+          died by suicide — more than <strong>4× the number killed in combat</strong> (7,073). The VA reports
+          an average of 17 veteran suicides per day. If these deaths were included in the cost-per-life
+          calculation, the figures would change dramatically.</li>
+          <li><strong>PTSD:</strong> An estimated 500,000+ Iraq and Afghanistan veterans have been diagnosed
+          with PTSD. The lifetime treatment cost per veteran is approximately $1.4 million. Total PTSD-related
+          costs for the War on Terror generation: over $700 billion.</li>
+          <li><strong>Traumatic Brain Injury:</strong> Over 400,000 service members suffered TBI during the
+          War on Terror — many from IED blasts. TBI increases the risk of depression, dementia, and suicide.
+          Lifetime care costs for severe TBI average $3-5 million per patient.</li>
+          <li><strong>Moral injury:</strong> The psychological wound from participating in events that violate
+          one&apos;s moral code. Drone operators who killed civilians from a screen. Soldiers who followed
+          rules of engagement that resulted in children&apos;s deaths. Medics who couldn&apos;t save their
+          friends. Moral injury is distinct from PTSD and often harder to treat.</li>
+          <li><strong>Family destruction:</strong> Deployment-related divorce rates are 60% higher than civilian
+          rates. Domestic violence rates among military families are 3-5× the civilian average. Children of
+          deployed parents show elevated rates of anxiety, depression, and behavioral problems.</li>
+        </ul>
+        <p>
+          When these hidden costs are included, the true &ldquo;cost per life&rdquo; of modern war extends
+          far beyond the dollars-per-combat-death figure. Each death radiates outward — through families,
+          communities, VA systems, and generations. The $935 million per combat death in Afghanistan is a
+          floor, not a ceiling.
+        </p>
+      </div>
+
+      {/* What war spending means domestically */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Total War on Terror: What $8 Trillion Could Have Bought</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          {[
+            { item: 'Universal healthcare for all Americans for 10 years', cost: '$3.5T' },
+            { item: 'Eliminate all student loan debt', cost: '$1.8T' },
+            { item: 'Rebuild every bridge, road, and water system', cost: '$2.0T' },
+            { item: 'Free public college for every American for 25 years', cost: '$2.0T' },
+            { item: 'End homelessness permanently', cost: '$20B/year × 20 years = $400B' },
+            { item: 'Global malaria eradication', cost: '$100B' },
+            { item: 'Clean water for every human on Earth', cost: '$150B' },
+            { item: 'Convert the US grid to 100% renewable energy', cost: '$4.5T' },
+          ].map((a, i) => (
+            <div key={i} className="bg-stone-50 rounded-lg p-4 border">
+              <p className="font-bold text-green-700">{a.cost}</p>
+              <p className="text-stone-600 text-sm">{a.item}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-muted text-sm mt-4">
+          The combined cost of the War on Terror — $8+ trillion — exceeds <em>any single item</em> on this
+          list and could fund <em>several of them simultaneously</em>. The opportunity cost of 25 years of
+          war is not abstract. It&apos;s the schools not built, the diseases not cured, the infrastructure
+          not repaired, and the lives not saved.
+        </p>
+      </div>
+
       <div className="prose prose-stone max-w-none mb-8">
         <h2 className="font-[family-name:var(--font-heading)]">The Moral Calculus</h2>
         <p>
@@ -339,6 +401,147 @@ export default function AnalysisCostPerLifePage() {
         </ul>
       </div>
 
+      {/* Contractor deaths */}
+      <div className="prose prose-stone max-w-none mb-8">
+        <h2 className="font-[family-name:var(--font-heading)]">The Invisible Dead: Contractor Deaths Excluded from Counts</h2>
+        <p>
+          Official US casualty figures count only active-duty military personnel. They exclude
+          <strong> private military contractors</strong> — the mercenaries, logistics workers, interpreters,
+          and security guards who now make up a substantial portion of the American war machine.
+        </p>
+        <p>
+          In Iraq and Afghanistan, contractors frequently outnumbered uniformed troops. At the peak of the
+          Iraq War, there were approximately <strong>180,000 contractors</strong> alongside 170,000 troops.
+          An estimated <strong>8,000+ contractors died</strong> in Iraq and Afghanistan between 2001 and 2021 —
+          a figure rarely mentioned in official casualty counts.
+        </p>
+        <p>
+          Contractor deaths are tracked by the Department of Labor (under the Defense Base Act) rather than
+          the DOD, and receive minimal public attention. Their families receive workers&apos; compensation
+          rather than military death benefits. There are no folded flags, no honor guards, no names on
+          memorials. They are the invisible dead — dying in the same wars, for the same government, but
+          excluded from the accounting.
+        </p>
+        <p>
+          If contractor deaths were included, the cost-per-death figures for Iraq and Afghanistan would
+          drop significantly — meaning the government spent even <em>more</em> money per death than the
+          official figures suggest, while simultaneously outsourcing the dying to reduce the visible
+          political cost.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The SGLIA Payout vs. the True Cost</h2>
+        <p>
+          When an American service member dies in combat, their family receives a <strong>$500,000
+          Servicemembers&apos; Group Life Insurance (SGLI) payout</strong> plus a $100,000 death gratuity.
+          Total: $600,000. That is the government&apos;s explicit valuation of a military life lost in
+          service.
+        </p>
+        <p>
+          Compare that to the <em>implicit</em> valuation — the cost per death based on total war spending:
+        </p>
+        <ul>
+          <li>Afghanistan: <strong>$935 million</strong> per US death — 1,558× the SGLI payout</li>
+          <li>Iraq: <strong>$435 million</strong> per US death — 725× the SGLI payout</li>
+          <li>Gulf War: <strong>$355 million</strong> per US death — 592× the SGLI payout</li>
+          <li>WWII: <strong>$11.8 million</strong> per US death — 20× the SGLI payout</li>
+          <li>Civil War: <strong>$219,000</strong> per US death — 0.37× (war was cheaper than the payout)</li>
+        </ul>
+        <p>
+          The gap between what the government pays the family ($600,000) and what the government spent on
+          the war that killed their loved one ($935 million) represents the true absurdity of modern warfare.
+          We spend nearly a billion dollars per death on the machinery of war — and $600,000 on the family
+          left behind.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">What the Fallen Could Have Done</h2>
+        <p>
+          The 7,073 Americans killed in Iraq and Afghanistan were disproportionately young — average age 26.
+          Using standard actuarial tables and average lifetime earnings, these deaths represent approximately
+          <strong> $8-12 billion in lost lifetime economic output</strong>. Many were highly trained specialists —
+          engineers, medics, linguists, intelligence analysts — whose skills could have contributed to the
+          civilian economy for decades.
+        </p>
+        <p>
+          The 53,000+ wounded — including 1,700+ amputees, thousands with traumatic brain injuries, and
+          tens of thousands with PTSD — represent additional billions in lost productivity and lifetime care
+          costs. The VA estimates that the long-term care cost for Iraq and Afghanistan veterans will exceed
+          <strong> $2.5 trillion</strong> over their lifetimes.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Foreign Civilian Deaths: The Uncounted</h2>
+        <p>
+          The cost-per-life analysis focuses primarily on American deaths because those are the costs the
+          American government incurred and the American public is expected to weigh. But the foreign civilian
+          death toll dwarfs American losses in every modern conflict:
+        </p>
+        <ul>
+          <li><strong>Vietnam:</strong> 58,220 American deaths vs. 2-3 million Vietnamese deaths (40-50× ratio)</li>
+          <li><strong>Iraq War:</strong> 4,599 American deaths vs. 300,000+ Iraqi deaths (65× ratio)</li>
+          <li><strong>Afghanistan:</strong> 2,461 American deaths vs. 176,000+ Afghan deaths (71× ratio)</li>
+          <li><strong>Korea:</strong> 36,574 American deaths vs. 2-3 million Korean/Chinese deaths (70× ratio)</li>
+          <li><strong>War on Terror total:</strong> ~7,073 American deaths vs. 900,000+ total deaths (127× ratio)</li>
+        </ul>
+        <p>
+          The United States does not systematically count foreign civilian deaths caused by its military
+          operations. When pressed, the Pentagon provides numbers that are consistently <strong>5-10× lower</strong>
+          than independent estimates by organizations like Iraq Body Count, the Lancet, and Brown University&apos;s
+          Costs of War Project. The implicit message: foreign lives are not worth counting.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Libertarian Case: War Is the Worst Possible Use of Resources</h2>
+        <p>
+          The cost-per-life data makes the libertarian case against war with devastating clarity. War is not
+          merely immoral — it is the single most inefficient allocation of resources in human civilization.
+        </p>
+        <p>
+          Consider: the free market values a human life at approximately $10-12.5 million (the &ldquo;value of
+          a statistical life&rdquo; used by federal agencies for cost-benefit analysis). The Afghanistan war
+          spent <strong>$935 million per American death</strong> — not to save lives, but in the process of
+          losing them. That&apos;s 75-93× the market value of the life lost.
+        </p>
+        <p>
+          No private enterprise would survive this kind of resource destruction. A company that spent 75× the
+          value of what it destroyed would be bankrupt in weeks. But government, insulated from market
+          discipline by the power to tax and borrow, can sustain this level of waste for decades — and it
+          has. The $8 trillion spent on the War on Terror represents the largest misallocation of resources
+          in American history.
+        </p>
+        <p>
+          Frédéric Bastiat&apos;s insight applies with special force here: the cost-per-life figure captures
+          only &ldquo;that which is seen&rdquo; — the dollars spent and the lives lost. &ldquo;That which is
+          not seen&rdquo; is the vastly greater wealth that those resources could have created if left in
+          private hands or directed to productive uses. Every dollar taxed to fund a Tomahawk missile is a
+          dollar not invested in a business, not spent on education, not saved for retirement. The true cost
+          of war is not just what was spent — it&apos;s everything that could have been.
+        </p>
+      </div>
+
+      <div className="bg-stone-100 rounded-xl p-6 my-8 border">
+        <blockquote className="font-[family-name:var(--font-heading)] text-xl italic text-stone-700">
+          &ldquo;The state can be and has been in the course of history the main source of mischief and
+          disaster... The state is that organization in society which attempts to maintain a monopoly of
+          the use of force and violence in a given territorial area.&rdquo;
+        </blockquote>
+        <p className="text-muted mt-3">— Murray Rothbard, <em>Anatomy of the State</em>, 1974</p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-50 rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources &amp; Further Reading</h2>
+        <ul className="text-sm text-stone-600 space-y-1">
+          <li>• Brown University Costs of War Project. &ldquo;Human and Budgetary Costs of the Post-9/11 Wars.&rdquo; (2023)</li>
+          <li>• Bilmes, Linda. &ldquo;The Long-Term Costs of United States Care for Veterans of the Afghanistan and Iraq Wars.&rdquo; Watson Institute (2021)</li>
+          <li>• Congressional Research Service. &ldquo;American War and Military Operations Casualties.&rdquo; RL32492 (updated regularly)</li>
+          <li>• Department of Labor. Defense Base Act case summary reports (contractor casualties)</li>
+          <li>• GiveWell.org. Cost-effectiveness analysis of global health interventions (2023)</li>
+          <li>• Stiglitz, Joseph &amp; Bilmes, Linda. <em>The Three Trillion Dollar War</em>. W.W. Norton (2008)</li>
+          <li>• Iraq Body Count. Documented civilian deaths from violence (2003-present)</li>
+          <li>• The Lancet. Iraqi mortality surveys (2004, 2006)</li>
+          <li>• Bastiat, Frédéric. &ldquo;That Which is Seen, and That Which is Not Seen.&rdquo; (1850)</li>
+          <li>• Butler, Smedley. <em>War Is a Racket</em>. Round Table Press (1935)</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
@@ -349,6 +552,10 @@ export default function AnalysisCostPerLifePage() {
           <Link href="/tools/cost-calculator" className="text-red-800 hover:underline block">→ War Cost Calculator</Link>
           <Link href="/analysis/the-aftermath" className="text-red-800 hover:underline block">→ The Aftermath — what happens after</Link>
           <Link href="/analysis/forever-wars" className="text-red-800 hover:underline block">→ The Forever Wars</Link>
+          <Link href="/analysis/presidents-at-war" className="text-red-800 hover:underline block">→ Presidents at War</Link>
+          <Link href="/analysis/the-469" className="text-red-800 hover:underline block">→ 469 Military Interventions</Link>
+          <Link href="/analysis/iran-2026" className="text-red-800 hover:underline block">→ Iran 2026</Link>
+          <Link href="/analysis/jobs-vs-war" className="text-red-800 hover:underline block">→ Jobs vs War — opportunity cost</Link>
         </div>
       </div>
 

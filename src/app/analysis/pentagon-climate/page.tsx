@@ -175,6 +175,84 @@ export default function PentagonClimatePage() {
           </p>
         </div>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The 750-Base Empire: A Pollution Network</h2>
+        <p>
+          The United States maintains approximately <strong>750 military bases in 80 countries</strong> around the world —
+          more foreign military bases than any empire in history. Each base is a node of environmental destruction:
+          fuel storage, vehicle maintenance, wastewater discharge, hazardous material handling, and in many cases,
+          live-fire training that contaminates soil and groundwater.
+        </p>
+        <p>
+          On the island of Okinawa, Japan — home to 32 US military facilities — decades of contamination have
+          produced <strong>PFAS levels 13.7× the Japanese safety standard</strong> in local water supplies. Residents
+          near Kadena Air Base have documented elevated cancer rates, and the Japanese government has pressed the
+          US for cleanup. Under the Status of Forces Agreement (SOFA), the US is not legally obligated to remediate
+          contamination on Japanese soil. It hasn&apos;t.
+        </p>
+        <p>
+          In South Korea, US bases at Yongsan, Camp Carroll, and others have contaminated surrounding areas with
+          Agent Orange (stored and buried in the 1960s-70s), PFAS, and industrial solvents. In 2011, US veterans
+          testified that they had buried hundreds of barrels of Agent Orange at Camp Carroll in 1978. The Army
+          initially denied it, then confirmed trace contamination.
+        </p>
+        <p>
+          In Germany, PFAS contamination from US air bases at Ramstein, Spangdahlem, and others has contaminated
+          local groundwater. German authorities have documented contamination levels exceeding EU limits by
+          <strong> hundreds of times</strong>. Cleanup costs are estimated in the billions — and it&apos;s unclear
+          who will pay.
+        </p>
+        <p>
+          The pattern repeats across every continent: Guam, Diego Garcia, Puerto Rico (Vieques), the Philippines,
+          Iceland, Greenland, Italy. American military bases leave a trail of contamination that persists for
+          decades after the bases close. Host nations bear the health consequences. American taxpayers bear the
+          cleanup costs — when cleanup happens at all.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Vieques: 60 Years of Bombing a Caribbean Island</h2>
+        <p>
+          From 1941 to 2003, the US Navy used the island of <strong>Vieques, Puerto Rico</strong> as a live-fire
+          bombing range — for 62 years. The Navy dropped an estimated <strong>22,000 bombs per year</strong> on
+          the eastern portion of the island, contaminating it with heavy metals, depleted uranium, napalm,
+          white phosphorus, and unexploded ordnance.
+        </p>
+        <p>
+          The 9,300 residents of Vieques have a cancer rate <strong>27% higher</strong> than the Puerto Rican
+          mainland. Rates of liver disease, diabetes, and respiratory illness are dramatically elevated. The
+          soil contains lead at 500× safe levels. Mercury, arsenic, cadmium, and uranium contaminate the
+          groundwater.
+        </p>
+        <p>
+          After decades of protests — including civil disobedience by thousands of Puerto Ricans, celebrity
+          involvement, and the jailing of protesters — the Navy finally ceased operations in 2003. The EPA
+          designated Vieques a Superfund site. Cleanup is expected to take <strong>until at least 2032</strong>
+          and cost over $400 million. Much of the island remains fenced off as a contaminated zone. The people
+          of Vieques — American citizens — were bombed for 62 years and will live with the consequences for
+          generations more.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">War Zone Environmental Destruction: Iraq, Afghanistan, Vietnam</h2>
+        <p>
+          The environmental destruction in actual war zones dwarfs the contamination at bases:
+        </p>
+        <ul>
+          <li><strong>Iraq:</strong> An estimated <strong>400-800 tons of depleted uranium</strong> were fired
+          during the 1991 and 2003 wars. DU contamination is concentrated in Basra, Fallujah, and Baghdad.
+          Iraqi doctors in Fallujah reported a <strong>12× increase in childhood cancer</strong> and a dramatic
+          rise in birth defects — including anencephaly, heart defects, and skeletal abnormalities — following
+          the 2004 US assault. A 2010 study in the International Journal of Environmental Research and Public
+          Health found cancer rates in Fallujah exceeding those of Hiroshima survivors.</li>
+          <li><strong>Afghanistan:</strong> 20 years of conflict produced an estimated <strong>31 million
+          metric tons of CO₂</strong> from military operations alone. Burn pits operated at every major base.
+          The Bagram Air Base burn pit — the largest — operated for nearly 10 years, burning 100+ tons of
+          waste per day within 1,000 feet of troop quarters. The landscape is littered with unexploded
+          cluster munitions that will kill Afghan children for decades.</li>
+          <li><strong>Vietnam:</strong> 20 million gallons of herbicide defoliated 5 million acres. The dioxin
+          in Agent Orange has a half-life of 7-11 years in soil and persists in sediments indefinitely.
+          Vietnam estimates <strong>3 million citizens</strong> continue to suffer from Agent Orange exposure,
+          including a third generation born with birth defects. The US has contributed approximately $400 million
+          to cleanup and victim assistance — roughly 1/50th of 1% of the war&apos;s total cost.</li>
+        </ul>
+
         <h2 className="font-[family-name:var(--font-heading)]">Environmental Destruction as a Weapon</h2>
         <p>
           The military doesn&apos;t just pollute as a side effect of operations — environmental destruction has
@@ -294,6 +372,116 @@ export default function PentagonClimatePage() {
         </blockquote>
       </div>
 
+      <div className="prose max-w-3xl mx-auto text-stone-600">
+        <h2 className="font-[family-name:var(--font-heading)]">Nuclear Testing: The Pacific Legacy</h2>
+        <p>
+          Between 1946 and 1962, the United States conducted <strong>67 nuclear weapons tests</strong> in
+          the Marshall Islands — including the 15-megaton Castle Bravo test on Bikini Atoll, the largest
+          US nuclear detonation ever, which was <strong>1,000 times more powerful</strong> than the Hiroshima bomb.
+        </p>
+        <p>
+          The Bikini Islanders were relocated — told the move was &ldquo;for the good of mankind&rdquo; —
+          and have never been able to return. Radiation contamination persists to this day, over 60 years later.
+          Background radiation on Bikini Atoll remains <strong>2-10× higher</strong> than normal levels.
+          Enewetak Atoll, another major test site, was &ldquo;cleaned up&rdquo; by mixing contaminated soil
+          with cement and pouring it into a bomb crater sealed with a concrete dome — the Runit Dome, now
+          cracking and leaking as sea levels rise.
+        </p>
+        <p>
+          The Marshallese people have experienced dramatically elevated rates of cancer, thyroid disorders,
+          birth defects, and miscarriages for three generations. The US has paid approximately
+          <strong> $600 million in compensation</strong> — a fraction of the estimated damages. A nuclear claims
+          tribunal awarded $2.3 billion to the Marshallese, but the US has never paid the full amount.
+        </p>
+        <p>
+          The domestic nuclear testing legacy is equally devastating. Over 900 nuclear tests at the Nevada
+          Test Site exposed &ldquo;downwinders&rdquo; across Utah, Nevada, and Arizona to fallout. The Radiation
+          Exposure Compensation Act has paid $2.6 billion to over 40,000 claimants — but eligibility criteria
+          exclude many exposed communities, and the program has repeatedly been allowed to lapse.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Military Superfund Sites: America&apos;s Toxic Legacy</h2>
+        <p>
+          The Pentagon is responsible for more Superfund toxic waste sites than any other entity in the United
+          States. The DOD has identified <strong>39,000 contaminated sites</strong> at 4,800 facilities across
+          all 50 states. Of these, <strong>141 are listed on the EPA&apos;s National Priorities List</strong> —
+          the most contaminated sites in the country.
+        </p>
+        <p>
+          The contamination includes:
+        </p>
+        <ul>
+          <li><strong>Trichloroethylene (TCE):</strong> A degreasing solvent used extensively at military
+          maintenance facilities, contaminating groundwater at hundreds of bases. TCE is a known carcinogen
+          linked to kidney cancer, liver cancer, and non-Hodgkin lymphoma.</li>
+          <li><strong>Perchlorate:</strong> A component of rocket fuel that has contaminated drinking water
+          near missile testing and production facilities. Disrupts thyroid function, particularly dangerous
+          for pregnant women and infants.</li>
+          <li><strong>Heavy metals:</strong> Lead, mercury, arsenic, and chromium from munitions production,
+          firing ranges, and industrial operations.</li>
+          <li><strong>Unexploded ordnance (UXO):</strong> An estimated <strong>10 million acres</strong> of
+          former US military land may contain UXO — making it dangerous or unusable for any civilian purpose.</li>
+        </ul>
+        <p>
+          The estimated cost of cleaning up all military contamination: <strong>$50+ billion</strong> over
+          multiple decades. Progress has been glacially slow — some sites have been on the cleanup list since
+          the 1980s and remain contaminated. Communities near military bases continue to drink contaminated
+          water and breathe contaminated air.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Libertarian Case: You Can&apos;t Police the World and Save It</h2>
+        <p>
+          The Pentagon&apos;s environmental record presents a uniquely libertarian dilemma. Libertarians are
+          generally skeptical of environmental regulation — but they are absolutely opposed to government
+          entities that poison citizens&apos; land, water, and air with impunity. The military&apos;s
+          environmental destruction represents the worst kind of government failure: an institution that
+          claims sovereign immunity while destroying the property and health of the citizens it claims to protect.
+        </p>
+        <p>
+          The fundamental problem is structural. A military establishment with 750 bases in 80 countries, a
+          fleet of 13,000+ aircraft, 500+ ships, and hundreds of thousands of vehicles will inevitably be a
+          massive polluter. The only way to significantly reduce the Pentagon&apos;s environmental footprint
+          is to reduce the Pentagon&apos;s footprint — fewer bases, fewer weapons, fewer wars, fewer deployments.
+        </p>
+        <p>
+          This is not an argument against national defense. It&apos;s an argument against empire. A military
+          sized for the defense of the United States — rather than the policing of the world — would consume a
+          fraction of the fuel, produce a fraction of the emissions, and contaminate a fraction of the land.
+          The environmental case against empire is as strong as the fiscal case, the constitutional case, and
+          the moral case.
+        </p>
+        <p>
+          The irony compounds: the Pentagon identifies climate change as a &ldquo;threat multiplier&rdquo; that
+          will destabilize nations and create new conflicts — requiring more military intervention, which will
+          burn more fuel, which will accelerate climate change, which will create more instability, which will
+          require more military intervention. The feedback loop is not a bug. For the defense industry, it&apos;s
+          a feature — an infinite market for an infinite war against a problem that military spending makes worse.
+        </p>
+
+        <blockquote className="border-l-4 border-red-800">
+          &ldquo;The government solution to a problem is usually as bad as the problem, and very often
+          makes the problem worse.&rdquo;
+          <br />— Milton Friedman
+        </blockquote>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-50 rounded-xl border p-6 mb-8 max-w-3xl mx-auto">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources &amp; Further Reading</h2>
+        <ul className="text-sm text-stone-600 space-y-1">
+          <li>• Crawford, Neta. &ldquo;Pentagon Fuel Use, Climate Change, and the Costs of War.&rdquo; Brown University Costs of War Project (2019)</li>
+          <li>• Sanders, Barry. <em>The Green Zone: The Environmental Costs of Militarism</em>. AK Press (2009)</li>
+          <li>• Vine, David. <em>Base Nation: How U.S. Military Bases Abroad Harm America and the World</em>. Metropolitan Books (2015)</li>
+          <li>• Government Accountability Office. &ldquo;PFAS Contamination at DOD Installations.&rdquo; GAO-22-105138 (2022)</li>
+          <li>• EPA. National Priorities List — Military Facilities (updated annually)</li>
+          <li>• PACT Act (2022). Public Law 117-168 — Sergeant First Class Heath Robinson PACT Act</li>
+          <li>• Radiation Exposure Compensation Act. DOJ annual reports (1990-present)</li>
+          <li>• DOD Climate Adaptation Plan. &ldquo;Climate Risk Analysis.&rdquo; (2021)</li>
+          <li>• Kyoto Protocol exemption negotiations. COP3 documents (1997)</li>
+          <li>• SIPRI. &ldquo;Military Expenditure and Environmental Sustainability.&rdquo; (2022)</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-12 bg-stone-50 rounded-lg p-6 border max-w-3xl mx-auto">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
@@ -303,6 +491,10 @@ export default function PentagonClimatePage() {
           <li><Link href="/analysis/empire-of-bases" className="text-red-800 hover:underline">→ Empire of Bases — 750 bases in 80 countries</Link></li>
           <li><Link href="/defense-budget" className="text-red-800 hover:underline">→ The $886B Defense Budget</Link></li>
           <li><Link href="/veteran-suicide" className="text-red-800 hover:underline">→ Veteran Suicide — 17 per day</Link></li>
+          <li><Link href="/analysis/the-469" className="text-red-800 hover:underline">→ 469 Military Interventions</Link></li>
+          <li><Link href="/analysis/cost-per-life" className="text-red-800 hover:underline">→ The Price of a Life</Link></li>
+          <li><Link href="/analysis/jobs-vs-war" className="text-red-800 hover:underline">→ Jobs vs War — opportunity cost</Link></li>
+          <li><Link href="/analysis/iran-2026" className="text-red-800 hover:underline">→ Iran 2026</Link></li>
         </ul>
       </div>
 

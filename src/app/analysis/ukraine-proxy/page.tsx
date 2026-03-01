@@ -319,6 +319,56 @@ export default function UkraineProxyPage() {
           used against American soldiers in the same mountains.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The EU Energy Crisis: Europe Pays the Price</h2>
+        <p>
+          The economic consequences of the Ukraine war extend far beyond military spending. European energy
+          markets — built around cheap Russian gas — were upended overnight:
+        </p>
+        <ul>
+          <li><strong>Natural gas prices in Europe</strong> spiked 10× in 2022, from ~€25/MWh to over €300/MWh</li>
+          <li><strong>Germany</strong> — Europe&apos;s largest economy — entered recession as its industrial model
+          (built on cheap Russian energy) collapsed. German industrial production fell 7% in 2023.</li>
+          <li><strong>European households</strong> faced energy bills 2-3× higher than pre-war levels. The EU
+          spent an estimated <strong>€800 billion ($870 billion)</strong> on energy crisis mitigation in 2022-2023.</li>
+          <li><strong>Nord Stream pipelines</strong> were sabotaged in September 2022 — the largest infrastructure
+          attack in European history. Investigations by Seymour Hersh alleged US involvement; the German
+          investigation remains inconclusive. Regardless of who did it, the destruction of Nord Stream eliminated
+          the possibility of returning to pre-war energy relations.</li>
+          <li><strong>European deindustrialization</strong> has accelerated as energy-intensive manufacturers
+          (chemicals, steel, glass) relocate to the US or Asia where energy is cheaper</li>
+        </ul>
+        <p>
+          The irony: European citizens are bearing enormous economic costs for a war that the US helped provoke
+          through NATO expansion, while American energy companies — now Europe&apos;s primary LNG suppliers —
+          have reaped <strong>record profits</strong>. US LNG exports to Europe tripled in 2022. ExxonMobil
+          reported $56 billion in profit. Chevron: $36 billion. The war has been a massive transfer of wealth
+          from European consumers to American energy corporations.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Human Cost: Ukraine&apos;s Demographic Catastrophe</h2>
+        <p>
+          Lost in the geopolitical debate are the actual human costs borne by Ukrainians:
+        </p>
+        <ul>
+          <li><strong>Military casualties:</strong> Estimated 70,000-200,000 Ukrainian soldiers killed or
+          seriously wounded (exact figures are classified by Ukraine). Some estimates run higher.</li>
+          <li><strong>Civilian deaths:</strong> At least 11,000 confirmed, likely much higher in occupied areas</li>
+          <li><strong>Refugees:</strong> Over 6.3 million Ukrainians fled the country — the largest refugee
+          crisis in Europe since WWII</li>
+          <li><strong>Internal displacement:</strong> An additional 5+ million displaced within Ukraine</li>
+          <li><strong>Infrastructure destruction:</strong> Over $150 billion in damage to housing, schools,
+          hospitals, energy infrastructure, and civilian buildings</li>
+          <li><strong>Demographic collapse:</strong> Ukraine&apos;s population has fallen from 44 million
+          (pre-war) to an estimated 29-35 million. Birth rates have plummeted. The median age of soldiers
+          is climbing as younger men flee or are killed. Ukraine faces a generational demographic crisis
+          regardless of the war&apos;s outcome.</li>
+        </ul>
+        <p>
+          The longer the war continues, the worse the demographic catastrophe becomes. Every month of fighting
+          kills more Ukrainians, drives more refugees abroad, and destroys more infrastructure. American military
+          aid sustains the war effort — but at what cost to the Ukrainian people it claims to help?
+        </p>
+
         <h2 className="font-[family-name:var(--font-heading)]">What Happens When Aid Stops</h2>
         <p>
           The six-month congressional delay in 2024 — when House Republicans held up the supplemental — offered
@@ -350,6 +400,146 @@ export default function UkraineProxyPage() {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* NATO expansion */}
+      <div className="prose max-w-3xl mx-auto text-stone-600">
+        <h2 className="font-[family-name:var(--font-heading)]">NATO Expansion: The Root Cause Nobody Discusses</h2>
+        <p>
+          In 1990, as Germany reunified, Secretary of State James Baker told Soviet Premier Mikhail Gorbachev
+          that NATO would expand &ldquo;not one inch eastward.&rdquo; Whether this was a binding commitment or
+          a verbal assurance is debated — but the Soviets clearly understood it as a promise.
+        </p>
+        <p>
+          What followed was the most dramatic expansion of a military alliance in modern history:
+        </p>
+        <ul>
+          <li><strong>1999:</strong> Poland, Czech Republic, Hungary join NATO</li>
+          <li><strong>2004:</strong> Estonia, Latvia, Lithuania, Romania, Bulgaria, Slovakia, Slovenia join — NATO is now on Russia&apos;s border</li>
+          <li><strong>2009:</strong> Albania, Croatia join</li>
+          <li><strong>2017:</strong> Montenegro joins</li>
+          <li><strong>2020:</strong> North Macedonia joins</li>
+          <li><strong>2023:</strong> Finland joins (after Russian invasion of Ukraine)</li>
+          <li><strong>2024:</strong> Sweden joins</li>
+          <li><strong>2008 Bucharest Summit:</strong> NATO declared Ukraine and Georgia &ldquo;will become members&rdquo; — the single most provocative statement in post-Cold War diplomacy</li>
+        </ul>
+        <p>
+          George Kennan — the architect of Cold War containment — called NATO expansion &ldquo;the most fateful
+          error of American policy in the entire post-Cold War era.&rdquo; He predicted in 1998 that it would
+          inflame Russian nationalism and lead to a new Cold War. He was exactly right.
+        </p>
+        <p>
+          William Burns — now CIA Director — wrote in a 2008 cable (leaked by WikiLeaks):
+          &ldquo;<em>Nyet means nyet: Russia&apos;s NATO enlargement redlines... Ukrainian entry into NATO is
+          the brightest of all redlines for the Russian elite (not just Putin).</em>&rdquo;
+        </p>
+        <p>
+          None of this excuses Russia&apos;s invasion — which was illegal, brutal, and unjustifiable. But
+          understanding the causes of war is essential to preventing the next one. The NATO expansion question
+          is not &ldquo;was Russia justified?&rdquo; — it&apos;s &ldquo;was this predictable, and was it
+          avoidable?&rdquo; The answer to both is yes.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Minsk Agreements: Diplomacy Sabotaged</h2>
+        <p>
+          The Minsk agreements (Minsk I in 2014, Minsk II in 2015) were the only diplomatic framework for
+          resolving the Donbas conflict. They called for a ceasefire, withdrawal of heavy weapons, and
+          constitutional reforms granting autonomy to the Donetsk and Luhansk regions while keeping them
+          within Ukraine.
+        </p>
+        <p>
+          In February 2022 — the same month as the Russian invasion — former German Chancellor Angela Merkel
+          gave an interview to Die Zeit in which she stated that Minsk II was used to &ldquo;buy time&rdquo;
+          for Ukraine to build up its military. Former French President François Hollande confirmed this in
+          a subsequent interview with Kyiv Independent.
+        </p>
+        <p>
+          These admissions were explosive. They confirmed what Russia had long alleged: that the Western-brokered
+          agreements were never intended to be implemented — they were a strategic deception to prepare Ukraine
+          for military confrontation with Russia. Whatever one thinks of the invasion, the destruction of
+          diplomatic good faith has consequences. If your adversary believes you negotiate in bad faith, they
+          stop negotiating.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Weapons Accountability: Where Did It All Go?</h2>
+        <p>
+          The US and allies have sent tens of billions of dollars in advanced weapons to Ukraine. Tracking
+          where those weapons end up has been a persistent challenge:
+        </p>
+        <ul>
+          <li>A 2022 CBS News investigation found that only about <strong>30% of weapons</strong> were reaching
+          the front lines — the rest were being diverted, stockpiled, or lost in transit</li>
+          <li>The Pentagon Inspector General has issued multiple reports flagging <strong>inadequate end-use
+          monitoring</strong> — the US cannot verify where many weapons end up</li>
+          <li>Europol warned in 2022 that weapons from Ukraine were already appearing on the <strong>European
+          black market</strong>, including in criminal networks</li>
+          <li>Javelins and NLAWs — portable anti-tank weapons designed to be carried by one or two people —
+          are especially difficult to track and easy to divert</li>
+          <li>The DOD Inspector General found that <strong>over $1 billion in military equipment</strong> lacked
+          proper tracking documentation in a 2023 audit</li>
+        </ul>
+        <p>
+          The lessons of previous proxy wars — where US-supplied weapons ended up being used against American
+          forces (Afghanistan&apos;s Stingers, Libya&apos;s weapons cache flooding the Sahel) — appear to have
+          been forgotten or ignored.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Libertarian Case: Not Our War, Not Our Problem</h2>
+        <p>
+          The libertarian position on Ukraine is straightforward: Russia&apos;s invasion is wrong, and Ukraine
+          has every right to defend itself. But <strong>it is not America&apos;s responsibility to fund that
+          defense</strong> — especially at $175 billion and counting, without a defined objective, exit strategy,
+          or endgame.
+        </p>
+        <p>
+          The libertarian critique encompasses several dimensions:
+        </p>
+        <ul>
+          <li><strong>Constitutional:</strong> Congress has not declared war on Russia. The aid packages are
+          funded through supplemental appropriations that bypass normal budget scrutiny. The president is
+          conducting a proxy war through executive action.</li>
+          <li><strong>Fiscal:</strong> $175 billion represents more than twice the annual budget of the
+          Department of Education. It exceeds the GDP of 100+ countries. It adds directly to the $38 trillion
+          national debt. American taxpayers are funding a war that provides no direct benefit to them.</li>
+          <li><strong>Strategic:</strong> European nations with a combined GDP of $18 trillion are more than
+          capable of defending their own continent. American subsidies for European security have created
+          dependency and disincentivized European military investment for 80 years.</li>
+          <li><strong>Risk:</strong> The conflict carries escalation risks up to and including nuclear war.
+          No American interest — however defined — justifies risking nuclear exchange.</li>
+          <li><strong>Historical:</strong> Every proxy war in American history has produced unintended
+          consequences. The mujahideen became al-Qaeda. Libyan weapons flooded the Sahel. The cycle of
+          blowback is well-documented and inevitable.</li>
+        </ul>
+        <p>
+          The libertarian position is not &ldquo;pro-Russia&rdquo; — it&apos;s pro-American. American taxpayers
+          should not fund other countries&apos; wars. American troops should not be put at risk for other
+          countries&apos; security. American foreign policy should serve American citizens — not defense
+          contractors, not NATO bureaucrats, and not the bipartisan foreign policy establishment that has
+          produced 25 years of catastrophic interventions.
+        </p>
+
+        <blockquote className="border-l-4 border-red-800">
+          &ldquo;The great rule of conduct for us, in regard to foreign nations, is in extending our
+          commercial relations, to have with them as little political connection as possible.&rdquo;
+          <br />— George Washington, Farewell Address, 1796
+        </blockquote>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-50 rounded-xl border p-6 mb-8 max-w-3xl mx-auto">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources &amp; Further Reading</h2>
+        <ul className="text-sm text-stone-600 space-y-1">
+          <li>• Kiel Institute for the World Economy. Ukraine Support Tracker (updated monthly)</li>
+          <li>• Congressional Research Service. &ldquo;U.S. Security Assistance to Ukraine.&rdquo; Multiple reports (2022-2025)</li>
+          <li>• DOD Inspector General. Audit reports on Ukraine military aid accountability (2023-2024)</li>
+          <li>• Kennan, George. &ldquo;A Fateful Error.&rdquo; New York Times op-ed (1997)</li>
+          <li>• Burns, William. &ldquo;Nyet Means Nyet.&rdquo; US Embassy Moscow cable (2008, via WikiLeaks)</li>
+          <li>• Merkel, Angela. Interview with Die Zeit (December 2022)</li>
+          <li>• Mearsheimer, John. &ldquo;Why the Ukraine Crisis Is the West&apos;s Fault.&rdquo; Foreign Affairs (2014)</li>
+          <li>• CBS News. &ldquo;Why Military Aid to Ukraine Doesn&apos;t Always Get to the Front Lines.&rdquo; (2022)</li>
+          <li>• Europol. &ldquo;Firearms Trafficking from Ukraine.&rdquo; Early Warning Notification (2022)</li>
+          <li>• Washington, George. Farewell Address (1796)</li>
+        </ul>
       </div>
 
       {/* Cross-links */}

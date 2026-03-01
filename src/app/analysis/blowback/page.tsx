@@ -310,6 +310,166 @@ export default function BlowbackPage() {
         <p className="text-xs text-stone-500 mt-3"><Link href="/analysis/drone-wars" className="text-red-800 hover:underline">→ Drone Wars — full analysis</Link></p>
       </div>
 
+      {/* Indonesia 1965 */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Indonesia 1965: The Forgotten Massacre</h2>
+        <p className="text-stone-700 mb-4">
+          In 1965, the CIA supported the Indonesian military&apos;s overthrow of President Sukarno and the
+          subsequent massacre of an estimated <strong>500,000 to 1 million people</strong> — suspected
+          communists, ethnic Chinese, trade unionists, and intellectuals. The US embassy provided lists
+          of suspected Communist Party members to the Indonesian military, who used them as kill lists.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Declassified cables show US officials were fully aware of the killings. Ambassador Marshall Green
+          cabled Washington: <em>&ldquo;The Army has... embarked on [a] destruction of the PKI.&rdquo;</em>
+          The State Department responded by offering support and communication equipment. The CIA
+          described the massacre as &ldquo;one of the worst mass murders of the 20th century.&rdquo;
+        </p>
+        <p className="text-stone-700">
+          The blowback: General Suharto ruled Indonesia as a dictator for <strong>31 years</strong>
+          (1967-1998), overseeing the invasion and occupation of East Timor (200,000 killed — one-third
+          of the population), widespread corruption, and systematic human rights abuses — all with
+          continued US support. The East Timor genocide was conducted with US-supplied weapons, and
+          the invasion was greenlit by President Ford and Secretary of State Kissinger during a visit
+          to Jakarta in 1975.
+        </p>
+      </div>
+
+      {/* Congo / Lumumba */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Congo 1960: Assassination and 60 Years of Chaos</h2>
+        <p className="text-stone-700 mb-4">
+          In 1960, the CIA plotted the assassination of <strong>Patrice Lumumba</strong>, the democratically
+          elected Prime Minister of the newly independent Congo. Lumumba&apos;s crime: he threatened to
+          nationalize mining interests and sought Soviet aid when Western nations refused to help.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The CIA shipped poison to its station chief in Leopoldville to kill Lumumba. In the end,
+          Lumumba was arrested with CIA assistance and handed over to Katangan secessionists (backed
+          by Belgian mining interests) who executed him on January 17, 1961. A Church Committee
+          investigation later confirmed CIA involvement.
+        </p>
+        <p className="text-stone-700">
+          The blowback: The US supported <strong>Mobutu Sese Seko</strong>, who ruled Congo (renamed Zaire)
+          as one of Africa&apos;s most corrupt dictators for <strong>32 years</strong> (1965-1997). He
+          looted an estimated <strong>$5 billion</strong> from one of Africa&apos;s most resource-rich
+          countries while his people starved. When Mobutu was finally overthrown, the resulting instability
+          led to the Congo Wars (1996-2003) — the deadliest conflict since WWII, killing an estimated
+          <strong>5.4 million people</strong>. The Congo remains unstable today, in large part because
+          the CIA destroyed its first democratic government 65 years ago.
+        </p>
+      </div>
+
+      {/* Nicaragua / Iran-Contra */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Nicaragua &amp; Iran-Contra: When Blowback Met Illegal Arms Deals</h2>
+        <p className="text-stone-700 mb-4">
+          In the 1980s, the Reagan administration funded the Contra rebels fighting Nicaragua&apos;s
+          Sandinista government. When Congress passed the Boland Amendment explicitly prohibiting this
+          funding, the administration created one of the most bizarre illegal schemes in American history:
+          <strong>selling weapons to Iran</strong> (then under an arms embargo, during the Iran-Iraq War)
+          and using the proceeds to illegally fund the Contras.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The Contras — whom Reagan called &ldquo;freedom fighters&rdquo; — committed widespread atrocities
+          documented by human rights organizations: massacres of civilians, kidnapping, torture, and the
+          deliberate targeting of healthcare workers and teachers. The International Court of Justice ruled
+          in 1986 that the US had violated international law by supporting the Contras and mining
+          Nicaraguan harbors. The US refused to recognize the court&apos;s jurisdiction.
+        </p>
+        <p className="text-stone-700">
+          The blowback was multilayered: the weapons sold to Iran strengthened the very regime the US
+          had been trying to contain since 1979. The Contra war killed <strong>30,000 Nicaraguans</strong>
+          and devastated the country&apos;s economy. The scandal nearly destroyed the Reagan presidency.
+          And the pattern of covertly arming violent groups to serve US policy goals — ignoring the
+          consequences — continued uninterrupted into Afghanistan, Iraq, Syria, and Libya.
+        </p>
+      </div>
+
+      {/* The full list */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Incomplete List: US Regime Change Operations Since 1945</h2>
+        <p className="text-stone-500 text-sm mb-4">Political scientist Lindsey O&apos;Rourke documented over 70 US regime change attempts in her book <em>Covert Regime Change</em> (2018). Here are some of the most significant:</p>
+        <div className="grid md:grid-cols-2 gap-2">
+          {[
+            { year: '1949', country: 'Syria', type: 'Coup' },
+            { year: '1953', country: 'Iran', type: 'Coup (Operation Ajax)' },
+            { year: '1954', country: 'Guatemala', type: 'Coup (PBSUCCESS)' },
+            { year: '1959-', country: 'Cuba', type: 'Attempted coup, assassination, Bay of Pigs, embargo' },
+            { year: '1960', country: 'Congo', type: 'Assassination of Lumumba' },
+            { year: '1961', country: 'Dominican Republic', type: 'Supported assassination of Trujillo' },
+            { year: '1963', country: 'South Vietnam', type: 'Supported coup against Diem' },
+            { year: '1964', country: 'Brazil', type: 'Supported military coup' },
+            { year: '1965', country: 'Indonesia', type: 'Supported Suharto coup & massacre' },
+            { year: '1970', country: 'Cambodia', type: 'Supported Lon Nol coup' },
+            { year: '1973', country: 'Chile', type: 'Coup against Allende (Pinochet)' },
+            { year: '1979-89', country: 'Afghanistan', type: 'Armed mujahideen (Operation Cyclone)' },
+            { year: '1980s', country: 'Nicaragua', type: 'Funded Contras (Iran-Contra)' },
+            { year: '1989', country: 'Panama', type: 'Invasion (removed Noriega — former CIA asset)' },
+            { year: '2003', country: 'Iraq', type: 'Invasion, regime change' },
+            { year: '2011', country: 'Libya', type: 'NATO bombing, regime change' },
+            { year: '2012-17', country: 'Syria', type: 'Armed rebels (Timber Sycamore)' },
+          ].map(r => (
+            <div key={r.year + r.country} className="flex items-center gap-2 text-sm border-b border-stone-100 py-1">
+              <span className="w-14 font-mono text-stone-400 shrink-0">{r.year}</span>
+              <span className="font-semibold text-primary w-28 shrink-0">{r.country}</span>
+              <span className="text-stone-600">{r.type}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-500 text-sm mt-4">
+          This is a partial list. Many operations remain classified. In virtually every case, the intervention
+          produced consequences worse than the problem it was intended to solve.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case: Non-Intervention Is Not Isolationism</h2>
+        <p className="text-stone-700 mb-4">
+          Critics dismiss non-interventionism as &ldquo;isolationism.&rdquo; This is a deliberate distortion.
+          Non-intervention means trade, diplomacy, and cultural exchange with all nations — while refusing to
+          bomb, invade, or overthrow governments. It is the foreign policy the Founders advocated:
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;Peace, commerce, and honest friendship with all nations — entangling alliances with none.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Thomas Jefferson, First Inaugural Address, 1801</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;She goes not abroad, in search of monsters to destroy. She is the well-wisher to the freedom
+          and independence of all. She is the champion and vindicator only of her own.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— John Quincy Adams, July 4, 1821</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;We don&apos;t have a tradition in this country of going around the world looking for enemies.
+          We have a tradition of defending ourselves. There&apos;s nothing isolationist about wanting to
+          follow the Constitution.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <p className="text-stone-700">
+          The pattern of blowback is not random. It is the predictable, documented consequence of a foreign
+          policy that substitutes military force for diplomacy, regime change for trade, and coercion for
+          engagement. Every case study on this page proves the same thing: intervention doesn&apos;t work.
+          It creates the next crisis. The libertarian position isn&apos;t theoretical — it&apos;s empirical.
+          Seventy years of evidence support it.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• Johnson, Chalmers — <em>Blowback</em> (2000), <em>The Sorrows of Empire</em> (2004), <em>Nemesis</em> (2006). The definitive trilogy on American imperial blowback.</p>
+          <p>• O&apos;Rourke, Lindsey — <em>Covert Regime Change</em> (2018). Documented 70+ US regime change operations since WWII.</p>
+          <p>• Kinzer, Stephen — <em>Overthrow: America&apos;s Century of Regime Change</em> (2006). Narrative account of 14 US-backed coups.</p>
+          <p>• Kinzer, Stephen — <em>All the Shah&apos;s Men</em> (2003). Definitive account of the 1953 Iran coup.</p>
+          <p>• Ron Paul — <em>A Foreign Policy of Freedom</em> (2007). 30 years of congressional speeches on non-intervention.</p>
+          <p>• Bacevich, Andrew — <em>The Limits of Power</em> (2008). Conservative/realist critique of American empire.</p>
+          <p>• <strong>National Security Archive, George Washington University</strong> — Declassified documents on CIA operations.</p>
+          <p>• <strong>Church Committee Report</strong> (1975) — Senate investigation of CIA assassination plots and covert operations.</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 mb-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

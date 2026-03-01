@@ -446,6 +446,234 @@ export default function HumanCostPage() {
         </p>
       </div>
 
+      {/* Burn Pits */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">Burn Pits: Poisoned by Their Own Military</h2>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">3.5M</p>
+            <p className="text-xs text-muted">Service members exposed</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">250+</p>
+            <p className="text-xs text-muted">Burn pit sites (Iraq & Afghanistan)</p>
+          </div>
+          <div className="bg-white rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">23</p>
+            <p className="text-xs text-muted">Conditions covered by PACT Act</p>
+          </div>
+        </div>
+        <p className="text-stone-700 mb-4">
+          For over a decade, the US military&apos;s primary method of waste disposal at bases across Iraq
+          and Afghanistan was to burn it in open-air pits. Everything went in: <strong>plastics, batteries,
+          medical waste, human waste, chemicals, ammunition, paint, tires, pesticides, and electronics</strong>.
+          The pits burned 24/7, creating toxic plumes that blanketed bases and surrounding areas.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Joint Base Balad in Iraq — nicknamed &ldquo;Camp Anaconda&rdquo; — operated a burn pit the size
+          of <strong>10 acres</strong>, burning an estimated 147 tons of waste per day. Service members
+          reported black smoke so thick they couldn&apos;t see across the base. They slept, ate, and
+          exercised in this air. For months and years.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The health consequences have been devastating: rare cancers (glioblastoma, pancreatic cancer,
+          lymphomas), constrictive bronchiolitis (permanent lung damage), autoimmune disorders, and
+          neurological symptoms. Many veterans were in their 20s and 30s when diagnosed. The VA&apos;s
+          burn pit registry has recorded over <strong>300,000 veterans</strong> reporting exposure.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The military knew the pits were toxic. A 2006 memo from the Air Force noted that burn pit
+          emissions included &ldquo;ichlorodioxin, particulate matter, volatile organic compounds,
+          carbon monoxide, hexachlorobenzene&rdquo; and other carcinogens. They used the pits anyway
+          because they were cheap and convenient. Contractor KBR was paid billions to provide base
+          services — and chose burn pits over incinerators to save money.
+        </p>
+        <p className="text-stone-700">
+          The <strong>PACT Act of 2022</strong> — passed after comedian Jon Stewart publicly shamed
+          Congress — finally expanded VA coverage for burn pit exposure. It was the largest expansion
+          of veteran health benefits in decades. But thousands of veterans had already died waiting.
+          The military that poisoned them spent years denying the connection.
+        </p>
+      </div>
+
+      {/* Camp Lejeune */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Camp Lejeune: 30 Years of Poisoned Water</h2>
+        <p className="text-stone-700 mb-4">
+          From the 1950s through the 1980s, up to <strong>1 million Marines, their families, and civilian
+          employees</strong> at Camp Lejeune, North Carolina were exposed to drinking water contaminated
+          with industrial solvents, benzene, trichloroethylene (TCE), and other toxic chemicals — at levels
+          <strong>240 to 3,400 times above safe limits</strong>.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The contamination came from leaking underground storage tanks, industrial spills, and an off-base
+          dry cleaning company. The Marine Corps knew about the contamination as early as 1982 — and continued
+          using the water supply until 1987. Internal documents show that Marine Corps officials were aware
+          of the contamination and failed to act for years.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Health effects include: adult leukemia, aplastic anemia, bladder cancer, kidney cancer, liver
+          cancer, multiple myeloma, non-Hodgkin lymphoma, Parkinson&apos;s disease, and birth defects
+          in children conceived or born during the contamination period. Babies born at Camp Lejeune
+          had elevated rates of spina bifida, cardiac defects, and childhood cancers.
+        </p>
+        <p className="text-stone-700">
+          The <strong>Camp Lejeune Justice Act of 2022</strong> finally allowed victims to file lawsuits
+          against the government — four decades after the contamination was discovered. As of 2025, over
+          <strong>200,000 claims</strong> have been filed. Many of the original victims have already died.
+        </p>
+      </div>
+
+      {/* Gulf War Syndrome */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Gulf War Syndrome: 35 Years of Denial</h2>
+        <p className="text-stone-700 mb-4">
+          Of the 700,000 US troops deployed to the 1991 Gulf War, an estimated <strong>250,000 — more than
+          one in three</strong> — developed a cluster of chronic, unexplained symptoms collectively known as
+          &ldquo;Gulf War Illness&rdquo;: chronic fatigue, joint pain, cognitive problems, gastrointestinal
+          issues, skin rashes, and neurological symptoms.
+        </p>
+        <p className="text-stone-700 mb-4">
+          For decades, the VA dismissed Gulf War Illness as psychosomatic — &ldquo;stress&rdquo; or
+          &ldquo;unexplained illness.&rdquo; A landmark 2008 federal report by the Research Advisory
+          Committee on Gulf War Veterans&apos; Illnesses finally concluded that the illness was
+          <strong>real and likely caused by exposure to pyridostigmine bromide</strong> (anti-nerve-agent
+          pills troops were ordered to take) and pesticides used extensively during the war. The report
+          stated that &ldquo;the extensive body of scientific research now available consistently indicates
+          that Gulf War illness is a real condition.&rdquo;
+        </p>
+        <p className="text-stone-700">
+          Other suspected causes include exposure to depleted uranium, oil well fire smoke, multiple
+          vaccinations given simultaneously, and low-level exposure to sarin nerve gas from the
+          destruction of Iraqi munitions at Khamisiyah. Thirty-five years later, the exact mechanism
+          remains debated — but the suffering of 250,000 veterans is undeniable.
+        </p>
+      </div>
+
+      {/* Military Sexual Trauma */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Military Sexual Trauma</h2>
+        <p className="text-stone-700 mb-4">
+          Military Sexual Trauma (MST) — sexual assault or repeated sexual harassment during military
+          service — is a widespread crisis the military has failed to address for decades:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { stat: '1 in 3', label: 'Women veterans screened positive for MST', source: 'VA data' },
+            { stat: '1 in 50', label: 'Men veterans screened positive for MST', source: 'VA data (likely underreported)' },
+            { stat: '20,000+', label: 'Sexual assaults estimated annually in military', source: 'DOD SAPRO 2023' },
+            { stat: '< 8%', label: 'Of reported cases result in conviction', source: 'DOD data' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 border text-center">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.source}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          For decades, sexual assault cases in the military were handled within the chain of command —
+          meaning victims had to report assaults to the same commanders who controlled their careers,
+          their evaluations, and their daily lives. Retaliation was rampant: a 2019 DOD survey found
+          that <strong>64% of women who reported sexual assault experienced retaliation</strong>.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Senator Kirsten Gillibrand fought for years to remove sexual assault prosecution from the
+          chain of command. The reform finally passed in 2021 as part of the NDAA, establishing
+          independent military prosecutors for sexual assault cases. But the cultural problem remains:
+          the military&apos;s hierarchical structure, its emphasis on unit cohesion over individual
+          rights, and the power imbalance inherent in the command structure create conditions where
+          sexual violence thrives and accountability fails.
+        </p>
+        <p className="text-stone-700">
+          MST is a leading cause of PTSD among women veterans and a significant factor in veteran
+          suicide. Women veterans die by suicide at <strong>2.2 times the rate of civilian women</strong>.
+          For many, the trauma they carry has nothing to do with combat — and everything to do with what
+          their own comrades and commanders did to them.
+        </p>
+      </div>
+
+      {/* War casualties by conflict */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">American War Dead by Conflict</h2>
+        <p className="text-stone-500 text-sm mb-4">Every war produces a bill in human lives.</p>
+        <div className="space-y-2">
+          {[
+            { war: 'Civil War (1861-1865)', dead: '620,000', bar: 100 },
+            { war: 'World War II (1941-1945)', dead: '405,399', bar: 65 },
+            { war: 'World War I (1917-1918)', dead: '116,516', bar: 19 },
+            { war: 'Vietnam War (1955-1975)', dead: '58,220', bar: 9 },
+            { war: 'Korean War (1950-1953)', dead: '36,574', bar: 6 },
+            { war: 'Revolutionary War (1775-1783)', dead: '25,000', bar: 4 },
+            { war: 'War of 1812 (1812-1815)', dead: '15,000', bar: 2 },
+            { war: 'War on Terror (2001-present)', dead: '7,075', bar: 1 },
+            { war: 'Spanish-American War (1898)', dead: '2,446', bar: 0.4 },
+          ].map(w => (
+            <div key={w.war} className="flex items-center gap-3">
+              <span className="w-52 text-sm text-right shrink-0">{w.war}</span>
+              <div className="flex-1 bg-stone-100 rounded-full h-5 overflow-hidden">
+                <div className="h-full rounded-full bg-red-600" style={{ width: `${Math.max(w.bar, 1)}%` }} />
+              </div>
+              <span className="w-20 text-sm font-semibold text-right">{w.dead}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-500 text-sm mt-4">
+          Note: War on Terror combat deaths appear low compared to earlier wars because modern military
+          medicine saves lives that would have been lost in earlier eras. However, the number of
+          <strong> wounded</strong> is proportionally much higher (over 52,000), and veteran suicides
+          (~130,000 since 2001) dwarf combat deaths. The nature of casualties has changed — fewer die
+          on the battlefield, more die slowly at home.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case: Every Life Has a Cost the State Ignores</h2>
+        <p className="text-stone-700 mb-4">
+          The human cost of war represents the ultimate failure of centralized government decision-making.
+          A handful of people in Washington — the President, a few advisors, pliant members of Congress —
+          make decisions that destroy millions of lives. The people who bear the consequences — soldiers,
+          civilians, veterans, families — have no meaningful say in the decision.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;It is not the function of our Government to keep the citizen from falling into error; it
+          is the function of the citizen to keep the Government from falling into error.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Justice Robert H. Jackson, Nuremberg prosecutor</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;War is never economically beneficial except for those in position to profit from war
+          expenditures.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <p className="text-stone-700">
+          From a liberty perspective, war is the health of the state. It expands government power,
+          justifies surveillance and conscription, generates debt that future generations must pay,
+          and — most fundamentally — treats human beings as expendable instruments of state policy.
+          The veteran sleeping under a bridge, the child in Fallujah born with birth defects, the
+          family in Yemen vaporized by a Hellfire missile — they are all products of a system that
+          concentrates the power to destroy in the hands of the few while distributing the suffering
+          to the many.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>VA National Suicide Prevention Annual Report</strong> — Primary source for veteran suicide data.</p>
+          <p>• <strong>Costs of War Project</strong>, Watson Institute, Brown University — Casualty data, displacement data, veteran care cost projections.</p>
+          <p>• <strong>Defense Casualty Analysis System (DCAS)</strong> — Official DOD casualty statistics for all US conflicts.</p>
+          <p>• <strong>Iraq Body Count</strong> — Documented civilian deaths from violence in Iraq.</p>
+          <p>• <strong>SIGAR</strong> — Special Inspector General for Afghanistan Reconstruction.</p>
+          <p>• University of Michigan / Busby, Chris et al. — Studies on cancer and birth defect rates in Fallujah, Iraq.</p>
+          <p>• <strong>ATSDR (Agency for Toxic Substances and Disease Registry)</strong> — Camp Lejeune contamination data.</p>
+          <p>• <strong>DOD Sexual Assault Prevention and Response Office (SAPRO)</strong> — Annual reports on military sexual assault.</p>
+          <p>• <strong>VA Burn Pit Registry</strong> — Self-reported exposure data from veterans.</p>
+          <p>• Jon Stewart — Congressional testimony on burn pit legislation (2019, 2022). Available on C-SPAN.</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 mb-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

@@ -314,6 +314,73 @@ export default function The469Page() {
         <p className="text-muted text-sm mt-2">— Ron Paul, Republican Presidential Debate, 2007</p>
       </div>
 
+      {/* The cost of 469 */}
+      <div className="prose prose-stone max-w-none mb-8">
+        <h2 className="font-[family-name:var(--font-heading)]">The Cumulative Cost: 228 Years of Intervention</h2>
+        <p>
+          The 469 interventions have not been free. While the CRS report doesn&apos;t include cost data,
+          aggregating data from the Congressional Budget Office, the Congressional Research Service, and
+          Brown University&apos;s Costs of War Project yields a staggering picture:
+        </p>
+        <ul>
+          <li><strong>Total cost of all major US wars (inflation-adjusted):</strong> Over $20 trillion</li>
+          <li><strong>Total American military deaths:</strong> Over 1.4 million across all conflicts</li>
+          <li><strong>Total foreign civilian deaths:</strong> Conservatively 12-15 million since 1900</li>
+          <li><strong>Total refugees and displaced persons:</strong> Over 60 million created by US-involved conflicts since 1945</li>
+          <li><strong>Countries with ongoing US military presence:</strong> 85+ as of 2025</li>
+          <li><strong>Active military bases abroad:</strong> ~750 in 80 countries</li>
+          <li><strong>Countries bombed since 1945:</strong> At least 30</li>
+        </ul>
+        <p>
+          The United States has spent more on its military than any nation in human history. The current
+          defense budget of $886 billion exceeds the combined military spending of the next 10 countries.
+          The national debt — now $38 trillion — is substantially attributable to war spending. The Brown
+          University Costs of War Project estimates that interest payments on war debt from the post-9/11
+          wars alone will exceed <strong>$6.5 trillion by 2050</strong>.
+        </p>
+        <p>
+          Every one of the 469 interventions cost money, required personnel, consumed resources, and had
+          consequences — intended and unintended. The aggregate effect has been the creation of a permanent
+          warfare state that consumes approximately 55% of federal discretionary spending and has produced
+          a military-industrial complex that Eisenhower warned about but could never have imagined.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Domestic Cost: What Empire Does at Home</h2>
+        <p>
+          The 469 interventions haven&apos;t just affected the countries on the receiving end. They&apos;ve
+          profoundly shaped American society:
+        </p>
+        <ul>
+          <li><strong>Civil liberties:</strong> Every major war has produced domestic repression — the Alien
+          and Sedition Acts (1798), suspension of habeas corpus (Civil War), Palmer Raids (WWI), Japanese
+          internment (WWII), McCarthyism (Cold War), COINTELPRO (Vietnam era), PATRIOT Act and mass
+          surveillance (War on Terror). War is the health of the state — and the enemy of liberty.</li>
+          <li><strong>Fiscal health:</strong> War spending has been the single largest contributor to
+          the national debt throughout American history. The current $38 trillion debt is overwhelmingly
+          attributable to military spending and its long-term consequences (veteran care, debt interest).</li>
+          <li><strong>Opportunity cost:</strong> Every dollar spent on intervention is a dollar not spent
+          on infrastructure, education, healthcare, or deficit reduction. The $8 trillion spent on the
+          War on Terror could have rebuilt every bridge, highway, and water system in America — twice.</li>
+          <li><strong>Veterans:</strong> 469 interventions have produced millions of veterans requiring
+          care — an estimated 18 million living veterans today. The VA healthcare system is chronically
+          underfunded and overwhelmed. An average of 17 veterans die by suicide every day.</li>
+          <li><strong>Democratic erosion:</strong> The concentration of war power in the executive branch
+          has fundamentally altered the constitutional balance. The president now commands a global military
+          empire with virtually no congressional constraint. The republic designed by the Founders has been
+          replaced by an imperial presidency.</li>
+        </ul>
+      </div>
+
+      <div className="bg-red-50 rounded-xl p-6 my-8 border border-red-200">
+        <blockquote className="italic text-stone-700 text-lg">
+          &ldquo;Of all the enemies to public liberty, war is, perhaps, the most to be dreaded, because
+          it comprises and develops the germ of every other. War is the parent of armies; from these proceed
+          debts and taxes; and armies, and debts, and taxes are the known instruments for bringing the many
+          under the domination of the few.&rdquo;
+        </blockquote>
+        <p className="text-muted text-sm mt-2">— James Madison, &ldquo;Political Observations,&rdquo; April 20, 1795</p>
+      </div>
+
       {/* What counts */}
       <div className="prose prose-stone max-w-none mb-8">
         <h2 className="font-[family-name:var(--font-heading)]">What the CRS List Doesn&apos;t Count</h2>
@@ -376,6 +443,231 @@ export default function The469Page() {
         </ul>
       </div>
 
+      {/* Categorizing the 469 */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Categorizing the 469: Types of Intervention</h2>
+        <p className="text-muted mb-4">Not all interventions are the same. They fall into distinct categories that reveal the true priorities behind American military power:</p>
+        <div className="space-y-4">
+          {[
+            { type: 'Protecting Commerce & Property', count: '~95', pct: '20%', desc: 'The original justification. From the Barbary Wars (1801) to protecting United Fruit Company assets in Central America to escorting oil tankers through the Persian Gulf. The through-line: American commerce must flow, and the military exists to ensure it.', era: '1798–present' },
+            { type: 'Regime Change & Political Manipulation', count: '~45', pct: '10%', desc: 'Overthrowing governments that displease Washington. Iran (1953), Guatemala (1954), Chile (1973), Panama (1989), Iraq (2003), Libya (2011). The track record: uniformly catastrophic. Every regime change has produced instability, blowback, or both.', era: '1893–present' },
+            { type: 'Counterterrorism / GWOT', count: '~85', pct: '18%', desc: 'The post-9/11 explosion. Special operations, drone strikes, training missions, and advisory deployments across 85+ countries. The 2001 AUMF — 60 words — has been used to justify military action in at least 22 countries.', era: '2001–present' },
+            { type: 'Occupation & Peacekeeping', count: '~40', pct: '9%', desc: 'Long-term military presence: Philippines (1899-1946), Haiti (1915-34), Dominican Republic (1916-24), Germany (1945-present), Japan (1945-present), Korea (1950-present), Iraq (2003-2011). Some occupations lasted decades.', era: '1898–present' },
+            { type: 'Naval Demonstrations / Gunboat Diplomacy', count: '~65', pct: '14%', desc: 'Parking warships off a country\'s coast to intimidate. The classic 19th-century tactic, but still used today — carrier strike groups deployed to the Taiwan Strait, Persian Gulf, and Mediterranean as "signals of resolve."', era: '1798–present' },
+            { type: 'Evacuation / Protection of Citizens', count: '~55', pct: '12%', desc: 'Deploying troops to evacuate American citizens from danger zones. Often legitimate, but frequently used as a pretext for broader military involvement. The "protect American lives" justification has preceded nearly every major intervention.', era: '1798–present' },
+            { type: 'Humanitarian Intervention', count: '~30', pct: '6%', desc: 'Somalia (1992), Bosnia (1995), Kosovo (1999), Haiti (2010). Ostensibly motivated by humanitarian concerns, but often entangled with strategic interests. Kosovo was also about NATO credibility. Somalia became Black Hawk Down.', era: '1898–present' },
+            { type: 'Drug War / Interdiction', count: '~35', pct: '7%', desc: 'Military operations against drug traffickers in Colombia, Bolivia, Peru, Honduras, Mexico, and the Caribbean. Plan Colombia alone cost $10 billion. Cocaine is still flowing. The war on drugs abroad has been as unsuccessful as the one at home.', era: '1970–present' },
+            { type: 'Covert / Classified', count: 'Unknown', pct: '?%', desc: 'CIA paramilitary operations, classified special operations deployments, cyber operations. By definition, these are not included in the CRS count of 469. The actual number of US military and paramilitary operations is certainly much higher.', era: '1947–present' },
+          ].map((t, i) => (
+            <div key={i} className="border-l-4 border-red-200 pl-4">
+              <div className="flex items-center justify-between mb-1">
+                <p className="font-bold">{t.type}</p>
+                <span className="text-red-700 font-bold font-[family-name:var(--font-heading)]">{t.count}</span>
+              </div>
+              <p className="text-muted text-xs mb-1">{t.era} • ~{t.pct} of total</p>
+              <p className="text-sm text-stone-600">{t.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Decade by decade acceleration */}
+      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Decade-by-Decade Acceleration</h2>
+        <p className="text-stone-400 mb-6">The pace of intervention has accelerated dramatically over 228 years:</p>
+        <div className="space-y-3">
+          {[
+            { decade: '1800s–1840s', count: 28, note: 'Barbary Wars, Indian wars, Mexican-American War' },
+            { decade: '1850s–1890s', count: 72, note: 'Civil War era, Manifest Destiny, Spanish-American War' },
+            { decade: '1900s–1910s', count: 25, note: 'Banana Wars begin, WWI' },
+            { decade: '1920s–1930s', count: 12, note: 'Interwar period, relatively quiet' },
+            { decade: '1940s', count: 13, note: 'WWII and immediate aftermath' },
+            { decade: '1950s', count: 15, note: 'Korea, CIA coups (Iran, Guatemala), Lebanon' },
+            { decade: '1960s', count: 18, note: 'Vietnam escalation, Dominican Republic, Congo' },
+            { decade: '1970s', count: 14, note: 'Vietnam wind-down, Cambodia, Mayaguez' },
+            { decade: '1980s', count: 21, note: 'Reagan buildup: Grenada, Lebanon, Libya, Central America' },
+            { decade: '1990s', count: 72, note: 'Post-Cold War explosion: Gulf War, Somalia, Bosnia, Kosovo, Haiti' },
+            { decade: '2000s', count: 85, note: 'War on Terror: Afghanistan, Iraq, global GWOT operations' },
+            { decade: '2010s', count: 65, note: 'Libya, Syria, Yemen, ISIS, Africa expansion' },
+            { decade: '2020s (5 years)', count: 29, note: 'Afghanistan withdrawal, Ukraine support, Red Sea, Iran' },
+          ].map((d, i) => (
+            <div key={i} className="flex items-center gap-4">
+              <span className="text-sm font-mono text-stone-500 w-28 shrink-0">{d.decade}</span>
+              <div className="flex-1 bg-stone-800 rounded-full h-6 overflow-hidden">
+                <div
+                  className="bg-red-600 h-full rounded-full flex items-center pl-2"
+                  style={{ width: `${(d.count / 90) * 100}%` }}
+                >
+                  <span className="text-white text-xs font-bold">{d.count}</span>
+                </div>
+              </div>
+              <span className="text-stone-500 text-xs w-56 shrink-0">{d.note}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* The War Powers Resolution */}
+      <div className="prose prose-stone max-w-none mb-8">
+        <h2 className="font-[family-name:var(--font-heading)]">The War Powers Resolution: A Dead Letter</h2>
+        <p>
+          In 1973, Congress passed the War Powers Resolution over Nixon&apos;s veto, attempting to reassert
+          its constitutional authority over military deployments. The law requires the president to:
+        </p>
+        <ol>
+          <li>Notify Congress within 48 hours of deploying armed forces</li>
+          <li>Withdraw forces within 60 days (extendable to 90) unless Congress authorizes continued deployment</li>
+          <li>Withdraw forces at any time if Congress passes a concurrent resolution demanding it</li>
+        </ol>
+        <p>
+          In the 52 years since its passage, <strong>every single president</strong> has declared the War Powers
+          Resolution unconstitutional. None has complied with it in full. Presidents have routinely deployed
+          forces and either ignored the 60-day clock entirely or argued that their particular military action
+          doesn&apos;t constitute &ldquo;hostilities&rdquo; under the law.
+        </p>
+        <p>
+          Obama&apos;s Libya intervention is the most egregious example. When US bombing of Libya exceeded the
+          60-day limit in 2011, Obama&apos;s legal team argued that dropping bombs from aircraft, firing cruise
+          missiles, and conducting drone strikes didn&apos;t constitute &ldquo;hostilities&rdquo; within the
+          meaning of the War Powers Resolution — because no American ground troops were at risk. His own Office
+          of Legal Counsel disagreed. He overruled them.
+        </p>
+        <p>
+          The War Powers Resolution was Congress&apos;s one serious attempt to reclaim its constitutional war
+          power. It has been a complete failure. The 469 interventions since 1798 include hundreds conducted
+          after 1973 — and the pace has only accelerated. The law is a dead letter, ignored by every president
+          and unenforced by every Congress.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The AUMF Problem: 60 Words That Changed Everything</h2>
+        <p>
+          On September 14, 2001 — three days after 9/11 — Congress passed the Authorization for Use of
+          Military Force (AUMF) with a single dissenting vote (Barbara Lee, D-CA). The operative clause
+          is just 60 words:
+        </p>
+      </div>
+
+      <div className="bg-stone-100 rounded-xl p-6 my-8 border">
+        <blockquote className="font-mono text-sm text-stone-700 leading-relaxed">
+          &ldquo;That the President is authorized to use all necessary and appropriate force against those
+          nations, organizations, or persons he determines planned, authorized, committed, or aided the
+          terrorist attacks that occurred on September 11, 2001, or harbored such organizations or persons,
+          in order to prevent any future acts of international terrorism against the United States by such
+          nations, organizations or persons.&rdquo;
+        </blockquote>
+        <p className="text-muted text-sm mt-3">— Authorization for Use of Military Force, Public Law 107-40, September 18, 2001</p>
+      </div>
+
+      <div className="prose prose-stone max-w-none mb-8">
+        <p>
+          These 60 words have been used to justify military action in at least <strong>22 countries</strong>
+          across four presidencies and 25 years. They were written to target al-Qaeda and the Taliban.
+          They have been stretched to cover ISIS (which didn&apos;t exist until 2014), al-Shabaab in Somalia,
+          various militias in Syria, Houthi rebels in Yemen, and groups in West Africa with tenuous or
+          nonexistent connections to 9/11.
+        </p>
+        <p>
+          The 2001 AUMF is the closest thing America has to a permanent authorization of global war. It has
+          no geographic limitation, no time limit, and no requirement for the president to demonstrate that
+          the target has any connection to the 9/11 attacks. It is, in practice, a blank check for endless
+          war — and it remains in effect today, 25 years after the attacks it was written to address.
+        </p>
+        <p>
+          Representative Barbara Lee — the sole &ldquo;no&rdquo; vote — warned from the floor of the House:
+          &ldquo;Let us not become the evil that we deplore.&rdquo; Her warning was prophetic.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Libertarian Case: Empire Is the Enemy of Liberty</h2>
+        <p>
+          The libertarian critique of 469 military interventions is not a policy disagreement — it&apos;s a
+          constitutional and philosophical one. The Founders explicitly designed a system where war-making
+          power was divided, checked, and constrained. They did this because they understood — from centuries
+          of European history — that executive war power is the greatest threat to liberty.
+        </p>
+        <p>
+          James Madison wrote in 1795: &ldquo;Of all the enemies to public liberty, war is, perhaps, the most
+          to be dreaded, because it comprises and develops the germ of every other. War is the parent of
+          armies; from these proceed debts and taxes; and armies, and debts, and taxes are the known
+          instruments for bringing the many under the domination of the few.&rdquo;
+        </p>
+        <p>
+          The 469 interventions represent the systematic destruction of that constitutional design. The war
+          power has migrated from Congress to the president. The standing army the Founders feared has become
+          a global military empire. The debts and taxes Madison warned about have reached $38 trillion. And
+          the liberties he sought to protect have been eroded by the surveillance state, the national security
+          apparatus, and the culture of permanent emergency that 469 interventions have created.
+        </p>
+        <p>
+          From a libertarian perspective, the CRS list is an indictment not just of interventionism but of the
+          concentration of state power. Every intervention expanded executive authority. Every war created new
+          bureaucracies. Every crisis justified new surveillance. The 469 aren&apos;t just military actions —
+          they&apos;re 469 expansions of government power, each one ratcheting up the state&apos;s authority
+          and ratcheting down individual liberty.
+        </p>
+        <p>
+          As Ron Paul has argued for decades: you cannot have a republic and an empire. The 469 prove it.
+          America has chosen empire — and the republic has suffered accordingly.
+        </p>
+      </div>
+
+      <div className="bg-red-50 rounded-xl p-6 my-8 border border-red-200">
+        <blockquote className="italic text-stone-700 text-lg">
+          &ldquo;A standing military force, with an overgrown Executive will not long be safe companions
+          to liberty. The means of defence against foreign danger have been always the instruments of
+          tyranny at home.&rdquo;
+        </blockquote>
+        <p className="text-muted text-sm mt-2">— James Madison, Constitutional Convention, June 29, 1787</p>
+      </div>
+
+      {/* The CRS Report */}
+      <div className="prose prose-stone max-w-none mb-8">
+        <h2 className="font-[family-name:var(--font-heading)]">About the CRS Report: R42738</h2>
+        <p>
+          The Congressional Research Service report &ldquo;Instances of Use of United States Armed Forces
+          Abroad, 1798–2024&rdquo; (report number R42738) is the primary source for the 469 figure. The CRS
+          is Congress&apos;s nonpartisan research arm — it works exclusively for members of Congress and is
+          generally considered the gold standard for policy research.
+        </p>
+        <p>
+          The report has been updated regularly since its original publication. Each entry includes:
+        </p>
+        <ul>
+          <li>Date and duration of the deployment</li>
+          <li>Geographic location</li>
+          <li>Brief description of the action</li>
+          <li>Whether congressional authorization was obtained</li>
+          <li>Legal authority cited by the president</li>
+        </ul>
+        <p>
+          The CRS list is not comprehensive — it includes only reported deployments of the regular military
+          and does not cover CIA operations, private contractors, cyber operations, or classified special
+          operations. The true number of American military and paramilitary actions abroad is certainly
+          much higher.
+        </p>
+        <p>
+          The report is publicly available and can be accessed through the CRS website or
+          EveryCRSReport.com. Every American should read it. It is perhaps the most important document most
+          Americans have never heard of — a 228-year record of their government&apos;s addiction to war.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-50 rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources &amp; Further Reading</h2>
+        <ul className="text-sm text-stone-600 space-y-1">
+          <li>• Congressional Research Service. &ldquo;Instances of Use of United States Armed Forces Abroad, 1798–2024.&rdquo; Report R42738 (updated regularly)</li>
+          <li>• Vine, David. <em>The United States of War</em>. University of California Press (2020)</li>
+          <li>• Johnson, Chalmers. <em>Blowback: The Costs and Consequences of American Empire</em>. Metropolitan Books (2000)</li>
+          <li>• Bacevich, Andrew. <em>The Age of Illusions: How America Squandered Its Cold War Victory</em>. Metropolitan Books (2020)</li>
+          <li>• Paul, Ron. <em>A Foreign Policy of Freedom</em>. Foundation for Rational Economics and Education (2007)</li>
+          <li>• Brown University Costs of War Project. <em>Multiple research papers</em> (2010-2024)</li>
+          <li>• Kinzer, Stephen. <em>Overthrow: America&apos;s Century of Regime Change</em>. Times Books (2006)</li>
+          <li>• Fisher, Louis. <em>Presidential War Power</em>. University Press of Kansas (3rd ed., 2013)</li>
+          <li>• Madison, James. &ldquo;Political Observations.&rdquo; (1795)</li>
+          <li>• Eisenhower, Dwight D. &ldquo;Farewell Address.&rdquo; January 17, 1961</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
@@ -386,6 +678,10 @@ export default function The469Page() {
           <Link href="/analysis/presidents-at-war" className="text-red-800 hover:underline block">→ Presidents at War — who waged the most</Link>
           <Link href="/covert" className="text-red-800 hover:underline block">→ Covert Operations</Link>
           <Link href="/analysis/forever-wars" className="text-red-800 hover:underline block">→ The Forever Wars</Link>
+          <Link href="/analysis/iran-2026" className="text-red-800 hover:underline block">→ Iran 2026 — intervention #470</Link>
+          <Link href="/analysis/ukraine-proxy" className="text-red-800 hover:underline block">→ Ukraine — $175B proxy war</Link>
+          <Link href="/analysis/cost-per-life" className="text-red-800 hover:underline block">→ Cost Per Life — the price of each death</Link>
+          <Link href="/analysis/jobs-vs-war" className="text-red-800 hover:underline block">→ Jobs vs War — military spending creates fewest jobs</Link>
         </div>
       </div>
 

@@ -781,6 +781,34 @@ export default function Iran2026Page() {
           <h3 className="font-semibold">The War on Terror →</h3>
           <p className="text-stone-500 text-sm">$8 trillion and counting</p>
         </Link>
+        <Link href="/analysis/the-469" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">469 Military Interventions →</h3>
+          <p className="text-stone-500 text-sm">Iran 2026 is intervention #470</p>
+        </Link>
+        <Link href="/analysis/cost-per-life" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">The Price of a Life →</h3>
+          <p className="text-stone-500 text-sm">What each death costs in every US war</p>
+        </Link>
+        <Link href="/analysis/presidents-at-war" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Presidents at War →</h3>
+          <p className="text-stone-500 text-sm">Every war president ranked</p>
+        </Link>
+        <Link href="/analysis/ukraine-proxy" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Ukraine — $175B Proxy War →</h3>
+          <p className="text-stone-500 text-sm">Another war without an endgame</p>
+        </Link>
+        <Link href="/analysis/silicon-valley-pentagon" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Silicon Valley &amp; Pentagon →</h3>
+          <p className="text-stone-500 text-sm">The tech powering the new wars</p>
+        </Link>
+        <Link href="/analysis/pentagon-climate" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Pentagon&apos;s Carbon Bootprint →</h3>
+          <p className="text-stone-500 text-sm">War&apos;s environmental cost</p>
+        </Link>
+        <Link href="/analysis/jobs-vs-war" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Jobs vs War →</h3>
+          <p className="text-stone-500 text-sm">Military spending creates the fewest jobs</p>
+        </Link>
       </div>
 
       <BackToTop />

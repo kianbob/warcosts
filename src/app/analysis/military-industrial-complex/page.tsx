@@ -354,6 +354,116 @@ export default function MICPage() {
         <p className="text-xs text-stone-500 mt-3"><Link href="/analysis/empire-of-bases" className="text-red-800 hover:underline">→ Empire of Bases — full analysis</Link></p>
       </div>
 
+      {/* Boeing scandal */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Case Study: Boeing — When Quality Control Meets Shareholder Value</h2>
+        <p className="text-stone-700 mb-4">
+          Boeing&apos;s trajectory illustrates what happens when defense-industrial thinking invades a company.
+          Once the gold standard of American aerospace engineering, Boeing has been plagued by a series of
+          catastrophic failures:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">KC-46 Tanker — $7 Billion Over Budget</h3>
+            <p className="text-sm text-stone-700">
+              The KC-46 Pegasus aerial refueling tanker was supposed to cost $4.9 billion for 18 aircraft.
+              As of 2024, Boeing has absorbed over $7 billion in cost overruns. The aircraft&apos;s remote
+              vision system — essential for refueling operations — has been repeatedly redesigned after it
+              was found to scratch the coatings of stealth aircraft during refueling. The Air Force has
+              identified over 600 deficiencies.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Starliner — NASA&apos;s $4.2 Billion Problem</h3>
+            <p className="text-sm text-stone-700">
+              Boeing&apos;s CST-100 Starliner spacecraft — part of NASA&apos;s Commercial Crew Program — has
+              been plagued by software errors, valve failures, and delays. The program is over $1.5 billion
+              over budget. Its first crewed flight in 2024 stranded two astronauts on the ISS due to thruster
+              malfunctions. SpaceX, paid roughly the same amount, has been flying crews since 2020.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The SLS — $23 Billion for a Rocket That Flies Once a Year</h3>
+            <p className="text-sm text-stone-700">
+              Boeing is the prime contractor for the Space Launch System (SLS) core stage. Originally
+              estimated at $10 billion, the total program cost has exceeded $23 billion. Each launch costs
+              approximately $4 billion. SpaceX&apos;s Starship aims to launch for under $10 million — 400×
+              cheaper. Boeing&apos;s SLS is perhaps the most expensive per-launch vehicle in spaceflight history.
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          The common thread: Boeing merged with McDonnell Douglas in 1997, and McDonnell Douglas&apos;s
+          management culture — prioritizing shareholder returns over engineering excellence — came to
+          dominate the combined company. As former Boeing engineer and whistleblowers have testified,
+          the company systematically deprioritized quality in favor of speed and cost-cutting. In defense
+          contracting, this doesn&apos;t matter — the government pays regardless.
+        </p>
+      </div>
+
+      {/* The Second Tier */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Beyond the Big Five: The Second Tier</h2>
+        <p className="text-stone-700 mb-4">
+          The defense industry extends far beyond the top 5 contractors. Hundreds of companies depend on
+          military spending — and they all lobby, contribute, and hire former officials:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { name: 'L3Harris Technologies', revenue: '$19B', specialty: 'Communications, surveillance, electronic warfare, night vision' },
+            { name: 'BAE Systems (US)', revenue: '$13B', specialty: 'Electronic systems, armored vehicles, munitions, cybersecurity' },
+            { name: 'Leidos', revenue: '$15B', specialty: 'IT, intelligence analysis, health IT, infrastructure' },
+            { name: 'Huntington Ingalls', revenue: '$12B', specialty: 'Aircraft carriers, submarines — the only builder of US carriers' },
+            { name: 'General Atomics', revenue: '$3B+', specialty: 'MQ-9 Reaper drones, MQ-1 Predator — monopoly on armed drones' },
+            { name: 'Textron', revenue: '$14B', specialty: 'Bell helicopters, V-22 Osprey, cluster munitions, armored vehicles' },
+            { name: 'Palantir', revenue: '$2.2B', specialty: 'Intelligence data analytics, battlefield AI, surveillance platforms' },
+            { name: 'Booz Allen Hamilton', revenue: '$9B', specialty: 'Intelligence consulting, cyber, analytics — "the world\'s most profitable spy organization"' },
+          ].map(c => (
+            <div key={c.name} className="flex items-center gap-3 border-b border-stone-100 pb-2">
+              <span className="w-44 text-sm font-medium shrink-0">{c.name}</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700 shrink-0">{c.revenue}</span>
+              <span className="text-xs text-stone-500">{c.specialty}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Combined with the Big Five, the top 13 defense contractors generate over <strong>$400 billion per
+          year</strong> in revenue — almost entirely from taxpayer money. Each company has its own lobbying
+          operation, its own revolving door officials, and its own congressional allies. The network is vast,
+          self-reinforcing, and extraordinarily difficult to reform.
+        </p>
+      </div>
+
+      {/* Think tanks */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Think Tank Pipeline: Manufacturing Consensus</h2>
+        <p className="text-stone-700 mb-4">
+          The military-industrial complex extends beyond contractors and politicians to the think tanks
+          that shape public discourse about national security. Many of Washington&apos;s most prominent
+          think tanks receive significant funding from defense contractors:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { tank: 'Center for a New American Security (CNAS)', note: 'Major donors include Northrop Grumman, Raytheon, Lockheed Martin. Described as a "think tank for the drone age."' },
+            { tank: 'Atlantic Council', note: 'Funded by Lockheed Martin, Raytheon, Boeing. Promotes NATO expansion and increased defense spending.' },
+            { tank: 'Center for Strategic & International Studies (CSIS)', note: 'Receives funding from all major defense contractors. Produces influential defense budget analysis.' },
+            { tank: 'Hudson Institute', note: 'Major defense contractor funding. Consistently advocates for higher defense budgets.' },
+            { tank: 'Heritage Foundation', note: 'Publishes annual "Index of U.S. Military Strength" arguing for increased spending.' },
+          ].map(t => (
+            <div key={t.tank} className="border-l-4 border-stone-200 pl-4">
+              <p className="text-sm font-semibold">{t.tank}</p>
+              <p className="text-xs text-stone-500">{t.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          These think tanks produce reports, host events, and provide &ldquo;experts&rdquo; for media
+          commentary — all promoting the need for more military spending. The experts are cited as independent
+          analysts, but their organizations are funded by the companies that profit from the spending they
+          recommend. It&apos;s laundering industry advocacy through the appearance of scholarly objectivity.
+        </p>
+      </div>
+
       {/* Campaign contributions detail */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Follow the Money: Campaign Contributions</h2>
@@ -416,6 +526,205 @@ export default function MICPage() {
           President Roosevelt and install a fascist government — the &ldquo;Business Plot.&rdquo; The congressional
           committee confirmed the plot was real. No one was prosecuted.
         </p>
+      </div>
+
+      {/* Littoral Combat Ship */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Case Study: The Littoral Combat Ship — $30 Billion for Ships the Navy Doesn&apos;t Want</h2>
+        <p className="text-stone-700 mb-4">
+          The Littoral Combat Ship (LCS) program is another masterclass in defense waste. Originally designed as a
+          fast, cheap, versatile coastal warship, the LCS has become a symbol of everything wrong with Pentagon
+          procurement:
+        </p>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$30B+</p>
+            <p className="text-xs text-muted">Total program cost</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$220M→$500M</p>
+            <p className="text-xs text-muted">Cost per ship (original → actual)</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">9</p>
+            <p className="text-xs text-muted">Ships decommissioned early</p>
+          </div>
+        </div>
+        <p className="text-stone-700 mb-4">
+          The original pitch: <strong>$220 million per ship</strong>, 52 ships planned, each capable of swapping
+          &ldquo;mission modules&rdquo; to perform different tasks. The reality: costs more than doubled. The
+          mission modules never worked as promised. The ships are so lightly armed they can&apos;t survive in
+          contested waters. The Navy began <strong>decommissioning LCS ships that are less than 10 years old</strong>
+          — some had been in service for only a few years.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The propulsion system on the Freedom-class variant (built by Lockheed Martin) suffers from a
+          combining gear defect that has sidelined multiple ships. The Independence-class variant (built by
+          Austal) has had structural cracking issues. A 2022 GAO report found the ships were available for
+          deployment only <strong>40% of the time</strong>.
+        </p>
+        <p className="text-stone-700">
+          But the program continues. Why? Lockheed Martin builds the Freedom class in Marinette, Wisconsin.
+          Austal builds the Independence class in Mobile, Alabama. Two congressional districts. Two sets of
+          jobs. Two companies. Bipartisan protection.
+        </p>
+      </div>
+
+      {/* Zumwalt Destroyer */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Case Study: The Zumwalt Destroyer — $22 Billion for 3 Ships</h2>
+        <p className="text-stone-700 mb-4">
+          The DDG-1000 Zumwalt class was supposed to revolutionize naval warfare. Originally, the Navy planned
+          to build <strong>32 ships at $1.3 billion each</strong>. The program was cut to 3 ships at
+          <strong> $7.5 billion each</strong> — making them the most expensive destroyers ever built.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The Zumwalt&apos;s Advanced Gun System was designed to fire Long Range Land Attack Projectiles
+          at $50,000 per round. When the fleet was cut from 32 to 3 ships, the per-round cost ballooned
+          to <strong>$800,000 per shell</strong> — making each round more expensive than a Tomahawk cruise
+          missile. The Navy canceled the ammunition program entirely, leaving the ships with two large guns
+          that literally <strong>have no ammunition</strong>.
+        </p>
+        <p className="text-stone-700">
+          The lead ship, USS Zumwalt, has suffered repeated engineering casualties, including propulsion
+          failures during sea trials. All three ships are being converted to carry hypersonic missiles —
+          an entirely different mission from their original design, at additional cost to taxpayers.
+        </p>
+      </div>
+
+      {/* Stock performance */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Defense Stocks vs. the S&amp;P 500: War Is Good Business</h2>
+        <p className="text-stone-700 mb-4">
+          Since September 11, 2001, defense contractor stocks have massively outperformed the broader market:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { name: 'Lockheed Martin (LMT)', return: '+1,800%', vs: 'vs S&P 500 +390%' },
+            { name: 'Northrop Grumman (NOC)', return: '+2,100%', vs: 'vs S&P 500 +390%' },
+            { name: 'General Dynamics (GD)', return: '+1,200%', vs: 'vs S&P 500 +390%' },
+            { name: 'RTX/Raytheon (RTX)', return: '+800%', vs: 'vs S&P 500 +390%' },
+            { name: 'L3Harris (LHX)', return: '+1,500%', vs: 'vs S&P 500 +390%' },
+          ].map(s => (
+            <div key={s.name} className="flex items-center gap-3 border-b border-stone-100 pb-2">
+              <span className="w-48 text-sm font-medium">{s.name}</span>
+              <span className="text-sm font-bold text-green-700">{s.return}</span>
+              <span className="text-xs text-stone-400">{s.vs}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          If you invested <strong>$10,000</strong> in a defense contractor index on September 10, 2001, you&apos;d
+          have roughly <strong>$150,000-$200,000</strong> today. The same $10,000 in the S&amp;P 500 would be
+          worth ~$49,000. War on Terror investors made 3-4× the return of the broader market.
+        </p>
+        <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
+          <p className="text-sm font-semibold text-blue-800 mb-1">💡 The 9/11 Trade</p>
+          <p className="text-sm text-stone-700">
+            In the weeks after 9/11, defense stocks initially fell with the broader market. Then they surged.
+            Investors who bought Lockheed Martin, Raytheon, and Northrop Grumman in the immediate aftermath
+            of the attacks made returns of <strong>10-20× their investment</strong> over the next two decades.
+            The most devastating attack on American soil became the most profitable investment thesis in
+            modern defense history.
+          </p>
+        </div>
+      </div>
+
+      {/* Jobs program */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The World&apos;s Most Expensive Jobs Program</h2>
+        <p className="text-stone-700 mb-4">
+          Defense spending is often justified as a jobs program: &ldquo;These contracts create jobs in your
+          district!&rdquo; But the economic research tells a different story:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Military Spending Creates Fewer Jobs Than Alternatives</h3>
+            <p className="text-sm text-stone-700">
+              A University of Massachusetts study found that <strong>$1 billion in military spending creates
+              approximately 11,200 jobs</strong>. The same $1 billion spent on education creates 26,700 jobs.
+              Healthcare: 17,200 jobs. Clean energy: 16,800 jobs. Infrastructure: 18,900 jobs. Military
+              spending is literally the <em>least</em> efficient way to create employment.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Pentagon as a Welfare Program</h3>
+            <p className="text-sm text-stone-700">
+              The Department of Defense employs 3.4 million people — making it the largest employer in the
+              world. Many of these jobs are in congressional districts where the military is the primary
+              economic driver. Cutting defense spending in these areas would cause economic pain — which
+              is exactly why it never happens. The Pentagon has become a welfare program disguised as
+              national defense: too many people depend on it for employment to allow meaningful reform.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Abrams Tank Nobody Wants</h3>
+            <p className="text-sm text-stone-700">
+              The Army has repeatedly told Congress it doesn&apos;t need more Abrams tanks. Congress keeps
+              funding them anyway — because the Lima Army Tank Plant in Ohio employs thousands of workers.
+              In 2013, Army Chief of Staff General Ray Odierno testified that &ldquo;we don&apos;t need
+              the tanks.&rdquo; Congress authorized $120 million for tanks the Army didn&apos;t want.
+              The tanks sit in storage depots in the California desert.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;The defense budget is not a jobs program. It is supposed to be based on strategy, threats,
+          and military requirements — not on which congressional districts need employment.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator John McCain, 2015</span>
+        </blockquote>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case Against the Military-Industrial Complex</h2>
+        <p className="text-stone-700 mb-4">
+          The military-industrial complex represents everything libertarians warn about: a permanent
+          alliance between government and industry that corrupts both, enriches the connected at taxpayer
+          expense, and creates self-perpetuating demand for its own expansion.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The defense budget is the mother&apos;s milk of the military-industrial complex. You cut
+          the budget, you cut the power. They will never allow it willingly.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <div className="space-y-3 mb-4">
+          <div className="bg-white rounded-lg p-4">
+            <p className="text-sm font-semibold text-amber-800">Corporate Welfare</p>
+            <p className="text-sm text-stone-600">Defense contractors receive guaranteed profits through cost-plus contracts where the government pays all costs plus a percentage markup. There is literally no incentive to be efficient. The F-35 is $1.7 trillion over budget? Lockheed Martin still gets paid. The LCS doesn&apos;t work? The contractors still profit.</p>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <p className="text-sm font-semibold text-amber-800">Crony Capitalism at Its Worst</p>
+            <p className="text-sm text-stone-600">Former Pentagon officials become defense lobbyists. Former lobbyists become Pentagon officials. They write the rules, award the contracts, and profit from both sides. This isn&apos;t a free market — it&apos;s a captured market where taxpayer money flows to politically connected companies regardless of performance.</p>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <p className="text-sm font-semibold text-amber-800">Threat Inflation</p>
+            <p className="text-sm text-stone-600">The defense industry has a financial incentive to exaggerate threats. More threats = more spending = more profit. The &ldquo;missile gap&rdquo; was fabricated. Iraq&apos;s WMDs didn&apos;t exist. The &ldquo;War on Terror&rdquo; is fought against an ever-expanding list of enemies. Each new threat justifies the next budget increase.</p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic">
+          &ldquo;The greatest threat to our liberty today comes from the military-industrial complex that
+          President Eisenhower warned us about. It has become exactly what he feared — a self-perpetuating
+          alliance of government and industry that consumes our wealth and threatens our freedom.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul</span>
+        </blockquote>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• Eisenhower, Dwight D. — Farewell Address, January 17, 1961. Full text and video available at the Eisenhower Presidential Library.</p>
+          <p>• Butler, Smedley D. — <em>War Is a Racket</em> (1935). Available free online.</p>
+          <p>• <strong>Government Accountability Office (GAO)</strong> — Annual weapons systems reports, DOD audit reports.</p>
+          <p>• <strong>Project on Government Oversight (POGO)</strong> — Revolving door database, contractor misconduct database.</p>
+          <p>• <strong>OpenSecrets.org</strong> — Defense industry lobbying data, campaign contribution data.</p>
+          <p>• <strong>DOD Inspector General</strong> — Annual audit reports and financial management assessments.</p>
+          <p>• Vine, David — <em>Base Nation</em> (2015). Comprehensive analysis of the overseas base network.</p>
+          <p>• Hartung, William D. — <em>Prophets of War</em> (2011). History of Lockheed Martin and the defense industry.</p>
+          <p>• University of Massachusetts — &ldquo;The U.S. Employment Effects of Military and Domestic Spending Priorities&rdquo; (2017).</p>
+          <p>• Ron Paul — <em>Swords into Plowshares</em> (2015). Libertarian critique of the warfare state.</p>
+        </div>
       </div>
 
       {/* Did You Know */}

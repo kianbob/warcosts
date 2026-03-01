@@ -480,6 +480,117 @@ export default function WarOnTerrorPage() {
         <p className="text-xs text-stone-500 mt-3"><Link href="/analysis/military-industrial-complex" className="text-red-800 hover:underline">→ The Military-Industrial Complex — full analysis</Link></p>
       </div>
 
+      {/* The Lies That Started It — WMDs */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Lies That Launched the Iraq War</h2>
+        <p className="text-stone-700 mb-4">
+          The most consequential lies of the 21st century were told to justify invading Iraq:
+        </p>
+        <div className="space-y-4 mb-4">
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">&ldquo;We know where they are&rdquo;</p>
+            <p className="text-sm text-stone-700">
+              Secretary of Defense Donald Rumsfeld, March 30, 2003: <em>&ldquo;We know where [the WMDs] are.
+              They&apos;re in the area around Tikrit and Baghdad and east, west, south, and north somewhat.&rdquo;</em>
+              There were no WMDs anywhere.
+            </p>
+          </div>
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">The Aluminum Tubes</p>
+            <p className="text-sm text-stone-700">
+              The Bush administration claimed Iraq was purchasing aluminum tubes for uranium enrichment centrifuges.
+              The Department of Energy&apos;s nuclear weapons experts — the people who actually build centrifuges —
+              said the tubes were the wrong specifications and were almost certainly for conventional rockets.
+              Their assessment was overruled. The tubes turned out to be for rockets, exactly as the experts said.
+            </p>
+          </div>
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">Curveball</p>
+            <p className="text-sm text-stone-700">
+              The primary source for claims about Iraq&apos;s mobile biological weapons labs was an Iraqi defector
+              codenamed &ldquo;Curveball&rdquo; — who German intelligence warned was a fabricator and alcoholic.
+              His claims were never independently verified. Colin Powell presented them to the UN as fact.
+              Curveball later admitted he lied.
+            </p>
+          </div>
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">The Yellowcake Uranium</p>
+            <p className="text-sm text-stone-700">
+              Bush&apos;s 2003 State of the Union: &ldquo;The British government has learned that Saddam Hussein
+              recently sought significant quantities of uranium from Africa.&rdquo; The claim was based on
+              forged documents. Ambassador Joseph Wilson was sent to investigate and reported the claim was
+              false. The administration retaliated by leaking the identity of his wife, CIA officer Valerie
+              Plame — a federal crime. Scooter Libby was convicted; Bush commuted his sentence.
+            </p>
+          </div>
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <p className="text-xs font-semibold text-red-600 uppercase mb-2">Powell at the UN</p>
+            <p className="text-sm text-stone-700">
+              On February 5, 2003, Secretary of State Colin Powell presented intelligence to the UN Security
+              Council. He held up a vial of white powder. He showed satellite photos. He played intercepted
+              audio. Every claim was wrong. Powell later called it a &ldquo;blot&rdquo; on his record and said
+              he felt &ldquo;terrible&rdquo; about it. 300,000+ Iraqi civilians died as a result.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;We were all wrong. And that is most disturbing.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— David Kay, head of Iraq Survey Group, after finding no WMDs, 2004</span>
+        </blockquote>
+      </div>
+
+      {/* The Disbanding of the Iraqi Army */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Decision That Created ISIS</h2>
+        <p className="text-stone-700 mb-4">
+          On May 23, 2003, L. Paul Bremer — the head of the Coalition Provisional Authority — signed
+          <strong>CPA Order Number 2</strong>, dissolving the entire Iraqi military, intelligence services,
+          and Ministry of Defense. In a single stroke, <strong>400,000 armed, trained men</strong> were sent
+          home with no pay, no pension, and no future.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The decision was made against the advice of the CIA, the State Department, and multiple military
+          commanders. General Jay Garner, Bremer&apos;s predecessor, had planned to recall the Iraqi army
+          and use it for reconstruction. Bremer overruled him.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The consequences were catastrophic and immediate: 400,000 humiliated men with weapons training,
+          weapons access, and nothing to lose formed the backbone of the insurgency. Many joined Al-Qaeda
+          in Iraq (AQI), which later became ISIS. When ISIS swept across Iraq in 2014, its military
+          leadership included <strong>dozens of former Iraqi army and intelligence officers</strong> —
+          the same men Bremer had fired 11 years earlier. They drove captured American Humvees and fired
+          captured American weapons.
+        </p>
+        <p className="text-stone-700">
+          The disbandment of the Iraqi army is widely considered the single most consequential decision
+          of the Iraq War — and one of the worst strategic decisions in American military history.
+          Every predicted consequence materialized. The people who predicted them were ignored.
+        </p>
+      </div>
+
+      {/* De-Baathification */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">De-Baathification: Dismantling a Country</h2>
+        <p className="text-stone-700 mb-4">
+          Alongside the military disbandment, Bremer&apos;s <strong>CPA Order Number 1</strong> banned
+          all senior members of Saddam&apos;s Ba&apos;ath Party from government employment. The Ba&apos;ath
+          Party had 2 million members — many of whom joined not out of ideology but because party membership
+          was required for any government job: teachers, doctors, engineers, civil servants.
+        </p>
+        <p className="text-stone-700 mb-4">
+          De-Baathification gutted Iraq&apos;s governing capacity overnight. Schools lost teachers. Hospitals
+          lost doctors. Ministries lost administrators. The electrical grid lost engineers. The people who
+          knew how to run the country were banned from doing so. Iraq went from a functioning (if authoritarian)
+          state to institutional chaos.
+        </p>
+        <p className="text-stone-700">
+          The policy was explicitly modeled on de-Nazification in post-WWII Germany — but implemented with
+          none of the nuance. In Germany, rank-and-file party members were eventually reintegrated. In Iraq,
+          the purge was sweeping and permanent, creating a massive class of educated, angry, unemployed people
+          with every reason to resist the occupation.
+        </p>
+      </div>
+
       {/* The drone wars within WoT */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Drone Wars</h2>
@@ -510,6 +621,424 @@ export default function WarOnTerrorPage() {
           making the program even less accountable.
         </p>
         <p className="text-xs text-stone-500 mt-3"><Link href="/analysis/drone-wars" className="text-red-800 hover:underline">→ Drone Wars — full analysis</Link></p>
+      </div>
+
+      {/* Torture and Black Sites */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Torture Program</h2>
+        <p className="text-stone-300 mb-4">
+          In the aftermath of 9/11, the CIA operated a global network of secret prisons — &ldquo;black sites&rdquo; —
+          in at least <strong>7 countries</strong> (Afghanistan, Poland, Romania, Lithuania, Thailand, Morocco, and
+          Diego Garcia). In these facilities, detainees were subjected to what the Bush administration called
+          &ldquo;enhanced interrogation techniques&rdquo; — a euphemism for torture.
+        </p>
+        <div className="space-y-4 mb-4">
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="font-semibold text-white">Waterboarding</p>
+            <p className="text-stone-400 text-sm">
+              Simulated drowning. The subject is strapped to a board, face covered with cloth, while water
+              is poured over their face. Khalid Sheikh Mohammed was waterboarded <strong>183 times</strong>. Abu Zubaydah was
+              waterboarded <strong>83 times</strong>. After WWII, the US prosecuted Japanese soldiers as war criminals for
+              waterboarding American POWs. The technique hadn&apos;t changed — only the perpetrators.
+            </p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="font-semibold text-white">Sleep Deprivation</p>
+            <p className="text-stone-400 text-sm">
+              Detainees were kept awake for up to <strong>180 hours</strong> (7.5 days) continuously — shackled in
+              stress positions, forced to stand, subjected to extreme cold and loud music. The medical consensus is
+              that prolonged sleep deprivation constitutes torture and can cause permanent psychological damage.
+            </p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="font-semibold text-white">Rectal Feeding / &ldquo;Rectal Rehydration&rdquo;</p>
+            <p className="text-stone-400 text-sm">
+              The Senate Torture Report documented that detainees were subjected to &ldquo;rectal rehydration&rdquo; and
+              &ldquo;rectal feeding&rdquo; — forced insertion of pureed food and fluids rectally. CIA medical officers
+              acknowledged this had no medical purpose. It was punishment — sexual assault dressed up as a procedure.
+            </p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="font-semibold text-white">&ldquo;Walling,&rdquo; Confinement Boxes, Ice Baths</p>
+            <p className="text-stone-400 text-sm">
+              Detainees were slammed against walls. Confined in coffin-sized boxes for hours. Stripped naked and
+              doused with cold water while chained to the ceiling. One detainee, Gul Rahman, died of hypothermia
+              at a CIA black site in Afghanistan in November 2002 — chained to a concrete floor, half-naked, in
+              near-freezing temperatures. No one was charged with his death.
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-300 mb-4">
+          The 2014 Senate Intelligence Committee report — over <strong>6,700 pages</strong>, of which only a 525-page
+          executive summary was declassified — found that the CIA&apos;s &ldquo;enhanced interrogation techniques&rdquo;
+          were <strong>far more brutal</strong> than the agency had disclosed to Congress, produced <strong>no
+          actionable intelligence</strong> that couldn&apos;t have been obtained through conventional interrogation,
+          and that the CIA had systematically lied to Congress and the public about the program&apos;s effectiveness.
+        </p>
+        <p className="text-stone-300 mb-4">
+          Of the <strong>119 known CIA detainees</strong>, at least 26 were later determined to have been
+          <strong>wrongfully held</strong>. They were innocent — tortured for months or years for nothing.
+          Not a single CIA officer has been prosecuted. The only person imprisoned in connection with the
+          torture program was <strong>John Kiriakou</strong> — the CIA officer who blew the whistle on it.
+        </p>
+        <blockquote className="border-l-4 border-red-500 pl-4 mt-4 text-stone-300 italic">
+          &ldquo;We tortured some folks.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— President Barack Obama, August 1, 2014</span>
+        </blockquote>
+      </div>
+
+      {/* Abu Ghraib */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">Abu Ghraib: The Photos That Shocked the World</h2>
+        <p className="text-stone-700 mb-4">
+          In April 2004, CBS News and <em>The New Yorker</em> published photographs from Abu Ghraib prison
+          in Iraq that showed US military personnel torturing and humiliating Iraqi detainees. The images —
+          naked prisoners stacked in human pyramids, hooded men standing on boxes with electrical wires
+          attached to their bodies, soldiers giving thumbs-up next to corpses, a female soldier holding a
+          naked prisoner on a leash — became the defining images of the Iraq War.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Eleven soldiers were convicted of crimes related to Abu Ghraib. The highest-ranking was a
+          <strong>staff sergeant</strong>. No officer above the rank of colonel was held accountable.
+          Secretary of Defense Donald Rumsfeld, who had authorized &ldquo;enhanced interrogation techniques&rdquo;
+          for use at Guantánamo and whose policies migrated to Iraq, kept his job until 2006. General
+          Ricardo Sanchez, who commanded all forces in Iraq, was never charged. The message was clear:
+          the enlisted suffer consequences; the powerful do not.
+        </p>
+        <p className="text-stone-700">
+          Major General Antonio Taguba, who investigated Abu Ghraib, later said: <em>&ldquo;There is no
+          longer any doubt as to whether the current administration has committed war crimes. The only
+          question that remains to be answered is whether those who ordered the use of torture will be
+          held to account.&rdquo;</em> They were not.
+        </p>
+      </div>
+
+      {/* Extraordinary Rendition */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Extraordinary Rendition: Outsourcing Torture</h2>
+        <p className="text-stone-700 mb-4">
+          When the CIA didn&apos;t want to torture people directly, it sent them to countries that would.
+          &ldquo;Extraordinary rendition&rdquo; was the program of kidnapping suspected terrorists and
+          flying them to countries like <strong>Egypt, Syria, Morocco, Jordan, and Uzbekistan</strong> —
+          nations known for brutal interrogation practices — where they were tortured by foreign intelligence
+          services on the CIA&apos;s behalf.
+        </p>
+        <p className="text-stone-700 mb-4">
+          <strong>Maher Arar</strong>, a Canadian citizen born in Syria, was detained by US authorities
+          during a layover at JFK Airport in 2002. He was rendered to Syria, where he was imprisoned
+          for nearly a year and tortured — beaten with electrical cables, confined in a coffin-sized cell.
+          A Canadian inquiry found he had <strong>no connection to terrorism</strong> whatsoever. The Canadian
+          government apologized and paid him $10.5 million in compensation. The US government has never
+          acknowledged wrongdoing and successfully blocked his lawsuit on &ldquo;state secrets&rdquo; grounds.
+        </p>
+        <p className="text-stone-700 mb-4">
+          <strong>Khaled El-Masri</strong>, a German citizen, was kidnapped by the CIA in Macedonia in 2003,
+          flown to Afghanistan, and tortured for five months. The CIA eventually realized they had the
+          <strong>wrong person</strong>. He was dumped on a roadside in Albania. The European Court of Human
+          Rights ruled that his treatment constituted torture. The US Supreme Court refused to hear his case.
+        </p>
+        <p className="text-stone-700">
+          The Open Society Justice Initiative documented at least <strong>136 individuals</strong> who were
+          rendered by the CIA, with the complicity of <strong>54 countries</strong>. The full scope of the
+          program remains classified.
+        </p>
+      </div>
+
+      {/* Mission Creep Timeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Mission Creep: How the War Changed Its Own Goals</h2>
+        <p className="text-stone-500 text-sm mb-4">The stated objectives shifted constantly — always expanding, never achieved.</p>
+        <div className="space-y-3">
+          {[
+            { year: '2001', mission: 'Destroy al-Qaeda. Capture or kill bin Laden.', reality: 'Bin Laden escaped Tora Bora in December. War shifted to Taliban.' },
+            { year: '2002', mission: 'Defeat the Taliban. Establish a new Afghan government.', reality: 'Nation-building begins. Mission expands from counterterrorism to state-building.' },
+            { year: '2003', mission: 'Disarm Iraq. Remove Saddam. Eliminate WMD threat.', reality: 'No WMDs found. 400,000 Iraqi soldiers disbanded. Insurgency begins.' },
+            { year: '2004-06', mission: 'Stabilize Iraq. Counter the insurgency. Build democratic institutions.', reality: 'Civil war erupts. Sectarian violence peaks at 3,000 deaths/month. Abu Ghraib scandal.' },
+            { year: '2007-08', mission: 'The "surge" — pacify Baghdad. Buy time for political reconciliation.', reality: 'Violence temporarily decreases. Political reconciliation never happens. Peak spending: $186B/year.' },
+            { year: '2009-10', mission: 'Afghan surge — 100,000 troops. Reverse Taliban gains. Train Afghan forces.', reality: 'Temporary gains. Corruption undermines Afghan government. Drone wars expand to Yemen, Somalia.' },
+            { year: '2011', mission: 'Kill bin Laden. Withdraw from Iraq. Protect Libyan civilians.', reality: 'Bin Laden killed (after 10 years). Libya bombed into a failed state. Iraq withdrawal creates vacuum.' },
+            { year: '2014-15', mission: 'Defeat ISIS. Re-enter Iraq. Arm Syrian rebels.', reality: 'ISIS created by Iraq War. CIA-backed rebels fight Pentagon-backed rebels in Syria.' },
+            { year: '2016-20', mission: 'Global counterterrorism. Maintain presence in 80+ countries.', reality: 'War becomes invisible. Special ops in 149 countries. Drone strikes accelerate. No exit strategy.' },
+            { year: '2021', mission: 'Withdraw from Afghanistan. End the "forever war."', reality: 'Taliban takes over in 11 days. Chaotic evacuation. 13 Americans killed at Abbey Gate. $83B in equipment abandoned.' },
+            { year: '2022-25', mission: 'Over-the-horizon counterterrorism. Global CT operations continue.', reality: 'Special operations in 80+ countries. CT budget exceeds $50B/yr. War on Terror never actually ended.' },
+          ].map(m => (
+            <div key={m.year} className="flex gap-4 border-b border-stone-100 pb-3">
+              <span className="w-20 text-sm font-mono text-red-600 shrink-0">{m.year}</span>
+              <div>
+                <p className="text-sm font-semibold text-stone-700">{m.mission}</p>
+                <p className="text-xs text-stone-500">{m.reality}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* The $83 Billion Abandonment */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The $83 Billion Abandonment</h2>
+        <p className="text-stone-700 mb-4">
+          When the US withdrew from Afghanistan in August 2021, it left behind an estimated <strong>$83 billion
+          worth of military equipment</strong> that the US had provided to the Afghan National Defense and Security
+          Forces — which collapsed without firing a meaningful shot:
+        </p>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          {[
+            { val: '75,000', label: 'Vehicles', note: 'Humvees, MRAPs, trucks' },
+            { val: '600,000+', label: 'Small arms & light weapons', note: 'M16s, M4s, machine guns, sniper rifles' },
+            { val: '208', label: 'Aircraft', note: 'Black Hawks, A-29s, C-130s, MD-530s' },
+            { val: '162,000', label: 'Pieces of communication equipment', note: 'Radios, satellite phones' },
+            { val: '16,000+', label: 'Night vision devices', note: 'The Taliban now has night vision' },
+            { val: '$900M', label: 'Ammunition', note: 'Millions of rounds' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-3 text-center border">
+              <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.val}</p>
+              <p className="text-xs text-muted">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The Taliban — a movement that began with pickup trucks and Kalashnikovs — now possesses one of the
+          best-equipped military forces in the region, courtesy of the American taxpayer. The Afghan air force
+          that the US built is now the Taliban&apos;s air force. The weapons that were supposed to fight the
+          Taliban are now wielded by the Taliban. This was arguably the most expensive equipment abandonment
+          in military history.
+        </p>
+      </div>
+
+      {/* Reconstruction failures */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Reconstruction: Billions Wasted, Nothing Built</h2>
+        <p className="text-stone-700 mb-4">
+          The Special Inspector General for Afghanistan Reconstruction (SIGAR) — created specifically to track
+          waste, fraud, and abuse in Afghanistan spending — documented <strong>decades of catastrophic waste</strong>:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { item: '$43 million gas station', detail: 'DOD spent $43M on a single compressed natural gas filling station in Afghanistan — a station that should have cost $500K. The Pentagon couldn\'t explain the cost.' },
+            { item: '$36 million military headquarters — never used', detail: 'A 64,000 sq ft facility at Camp Leatherneck, built against the objections of military commanders who said it wasn\'t needed. Completed. Never occupied.' },
+            { item: '$486 million aircraft — sold for scrap', detail: 'G222 cargo planes purchased from Italy for the Afghan Air Force. They were unusable and were scrapped for 6 cents per pound — netting $32,000 from a $486 million investment.' },
+            { item: '$7.8 billion counter-narcotics program', detail: 'After $7.8B spent fighting opium, Afghanistan\'s opium production reached record levels. The country produced 80% of the world\'s heroin.' },
+            { item: '$4.7 billion crop substitution program', detail: 'Designed to get farmers to grow legal crops instead of opium. Afghan farmers took the money, planted the alternative crops, then planted poppies in adjacent fields.' },
+            { item: '"Ghost soldiers" — $300M+/year', detail: 'Afghan commanders collected salaries for soldiers who didn\'t exist. At one point, up to 50% of security force personnel may have been "ghosts."' },
+          ].map(w => (
+            <div key={w.item} className="border-l-4 border-red-200 pl-4">
+              <p className="font-semibold text-red-700 text-sm">{w.item}</p>
+              <p className="text-sm text-stone-600">{w.detail}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          SIGAR&apos;s final report, <em>&ldquo;What We Need to Learn&rdquo;</em> (2021), concluded that the
+          US government <strong>&ldquo;consistently struggled to develop and implement effective reconstruction
+          strategies&rdquo;</strong> and that the failure was systemic: rotating personnel every 6-12 months
+          ensured no institutional knowledge, metrics were designed to show progress rather than measure reality,
+          and the incentive structure rewarded spending money rather than achieving outcomes.
+        </p>
+      </div>
+
+      {/* Terrorism increase */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">More Terrorism Than When We Started</h2>
+        <p className="text-stone-700 mb-4">
+          The stated goal of the War on Terror was to eliminate terrorism. By every measurable metric, it has
+          done the opposite:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { stat: '4× more', label: 'Active terrorist groups in 2024 vs 2001', source: 'RAND Corporation' },
+            { stat: '33 → 67', label: 'Countries experiencing significant terrorism', source: 'Global Terrorism Index' },
+            { stat: '~400 → 20,000+', label: 'Salafi-jihadist fighters (2001 vs 2024)', source: 'CSIS Transnational Threats Project' },
+            { stat: '1 → 22+', label: 'Countries with active US CT operations', source: 'Costs of War Project' },
+          ].map(s => (
+            <div key={s.label} className="bg-red-50 rounded-lg p-4 border border-red-200">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.source}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          A RAND Corporation study found that <strong>military force is the least effective method</strong> of
+          defeating terrorist organizations. Of 268 terrorist groups studied between 1968 and 2006, only 7%
+          were defeated by military force. The most successful approaches were political accommodation (43%)
+          and policing/intelligence (40%). The US chose the approach with the worst track record — and spent
+          {fmtMoney(stats.warOnTerrorCost)} doing so.
+        </p>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;You can&apos;t kill your way to victory in a war like this. For every terrorist you kill, you
+          create ten new enemies.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— General Stanley McChrystal, former commander of US forces in Afghanistan</span>
+        </blockquote>
+      </div>
+
+      {/* The Lies */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">The Afghanistan Papers: They Knew It Was Failing</h2>
+        <p className="text-stone-700 mb-4">
+          In December 2019, the <em>Washington Post</em> published the &ldquo;Afghanistan Papers&rdquo; — a trove
+          of internal government documents and interviews with 400+ officials, obtained through FOIA litigation,
+          revealing that <strong>US officials systematically lied to the public about the war in Afghanistan
+          for nearly two decades</strong>.
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-white rounded-lg p-4">
+            <blockquote className="text-sm text-stone-700 italic">
+              &ldquo;We were devoid of a fundamental understanding of Afghanistan — we didn&apos;t know what we
+              were doing.&rdquo;
+            </blockquote>
+            <p className="text-xs text-stone-500 mt-1">— Douglas Lute, Three-Star Army General, White House war czar under Bush and Obama</p>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <blockquote className="text-sm text-stone-700 italic">
+              &ldquo;If the American people knew the magnitude of this dysfunction... 2,400 lives lost. Who will
+              say this was in vain?&rdquo;
+            </blockquote>
+            <p className="text-xs text-stone-500 mt-1">— Douglas Lute</p>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <blockquote className="text-sm text-stone-700 italic">
+              &ldquo;Every data point was altered to present the best picture possible.&rdquo;
+            </blockquote>
+            <p className="text-xs text-stone-500 mt-1">— Bob Crowley, Army Colonel, counterinsurgency adviser</p>
+          </div>
+          <div className="bg-white rounded-lg p-4">
+            <blockquote className="text-sm text-stone-700 italic">
+              &ldquo;The [US] strategy became self-licking ice cream cone.&rdquo;
+            </blockquote>
+            <p className="text-xs text-stone-500 mt-1">— Unnamed senior NSC official</p>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          Three presidents — Bush, Obama, and Trump — told the American public that progress was being made.
+          Internally, their own officials knew the war was failing. The parallels to the Pentagon Papers — the
+          Vietnam-era documents showing similar systematic deception — were impossible to miss. The lesson of
+          Vietnam wasn&apos;t learned. It was repeated, at even greater cost.
+        </p>
+      </div>
+
+      {/* Cost comparison with other wars */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">In Historical Context</h2>
+        <p className="text-stone-500 text-sm mb-4">All costs in 2025 inflation-adjusted dollars.</p>
+        <div className="space-y-2">
+          {[
+            { war: 'War on Terror (2001–present)', cost: '$8.0T', bar: 100 },
+            { war: 'World War II (1941–1945)', cost: '$4.7T', bar: 59 },
+            { war: 'Vietnam War (1955–1975)', cost: '$1.0T', bar: 13 },
+            { war: 'Korean War (1950–1953)', cost: '$430B', bar: 5 },
+            { war: 'World War I (1917–1918)', cost: '$380B', bar: 5 },
+            { war: 'Gulf War (1990–1991)', cost: '$116B', bar: 1 },
+          ].map(w => (
+            <div key={w.war} className="flex items-center gap-3">
+              <span className="w-52 text-sm text-right shrink-0">{w.war}</span>
+              <div className="flex-1 bg-stone-100 rounded-full h-5 overflow-hidden">
+                <div className="h-full rounded-full bg-red-600" style={{ width: `${w.bar}%` }} />
+              </div>
+              <span className="w-16 text-sm font-semibold text-right">{w.cost}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-500 text-sm mt-4">
+          The War on Terror has cost more than every other American war since 1776 except World War II —
+          and it&apos;s still going. Unlike WWII, which lasted 4 years and resulted in the defeat of fascism
+          and the transformation of Europe and Asia, the War on Terror has lasted 25 years, produced no
+          comparable strategic achievement, and arguably left America less safe.
+        </p>
+      </div>
+
+      {/* What the troops say */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">What the Troops Say</h2>
+        <div className="space-y-4">
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="text-stone-300 italic">
+              &ldquo;We were told we were bringing democracy to Afghanistan. Twenty years later, the Taliban
+              is back and girls can&apos;t go to school. My friends died for nothing. I don&apos;t know how
+              to process that.&rdquo;
+            </p>
+            <p className="text-stone-500 text-sm mt-1">— Army veteran, 3 tours Afghanistan, NPR interview 2021</p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="text-stone-300 italic">
+              &ldquo;The war was a lie. Not just Iraq — all of it. We weren&apos;t defending America.
+              We were defending contractor profits and politicians&apos; careers.&rdquo;
+            </p>
+            <p className="text-stone-500 text-sm mt-1">— Marine veteran, 2 tours Iraq, Costs of War Project interview</p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="text-stone-300 italic">
+              &ldquo;The hardest part isn&apos;t the memories of combat. It&apos;s watching the same people who
+              sent us to war get rich off it while my buddy kills himself in a VA parking lot.&rdquo;
+            </p>
+            <p className="text-stone-500 text-sm mt-1">— Army medic veteran, Iraq, Reddit AMA 2023</p>
+          </div>
+        </div>
+        <p className="text-stone-300 mt-4">
+          A 2023 Pew survey found that <strong>73% of veterans</strong> said the Iraq War was &ldquo;not worth
+          fighting.&rdquo; 62% said the same about Afghanistan. The people who actually fought these wars
+          overwhelmingly believe they were a mistake.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case Against the War on Terror</h2>
+        <p className="text-stone-700 mb-4">
+          From a liberty perspective, the War on Terror represents the most catastrophic expansion of government
+          power in American history. It has eroded virtually every protection the Constitution was designed to provide:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { right: 'Due Process (5th Amendment)', violation: 'American citizens killed by drone strikes without trial. Indefinite detention without charges at Guantánamo.' },
+            { right: 'Protection from Unreasonable Search (4th Amendment)', violation: 'NSA mass surveillance of every American\'s phone records, emails, and internet activity — without warrants.' },
+            { right: 'Congressional War Power (Article I)', violation: '60 words used to authorize military operations in 22+ countries over 25 years without a new vote.' },
+            { right: 'Protection from Cruel & Unusual Punishment (8th Amendment)', violation: 'Waterboarding, sleep deprivation, rectal feeding — torture, euphemized as "enhanced interrogation."' },
+            { right: 'Freedom from Warrantless Surveillance (4th Amendment)', violation: 'PATRIOT Act Section 215, FISA Court rubber-stamps, National Security Letters without judicial review.' },
+            { right: 'Right to Trial (6th Amendment)', violation: 'Military commissions at Guantánamo bypass civilian courts. Secret evidence. Classified proceedings.' },
+          ].map(v => (
+            <div key={v.right} className="bg-white rounded-lg p-4">
+              <p className="text-sm font-semibold text-amber-800">{v.right}</p>
+              <p className="text-sm text-stone-600">{v.violation}</p>
+            </div>
+          ))}
+        </div>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The Patriot Act was written many, many years before 9/11. The attacks of 9/11 provided
+          the opportunity for it to be passed. Crises always serve as the catalyst for growing government power.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;We should not be in the business of nation-building. It doesn&apos;t work. It never has worked.
+          It&apos;s not constitutional. And it costs the American taxpayer trillions.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul</span>
+        </blockquote>
+        <p className="text-stone-700">
+          James Madison warned in 1795 that &ldquo;war is the parent of armies; from these proceed debts and
+          taxes; and armies, and debts, and taxes are the known instruments for bringing the many under the
+          domination of the few.&rdquo; The War on Terror has confirmed every word: {fmtMoney(stats.warOnTerrorCost)}
+          in debt, a permanent military establishment, a surveillance state, and the concentration of war-making
+          power in a single individual unchecked by Congress or the courts. The Founders&apos; worst fears,
+          realized in their entirety.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>Costs of War Project</strong>, Watson Institute, Brown University — Primary source for cost and casualty data. <Link href="https://watson.brown.edu/costsofwar/" className="text-red-800 hover:underline">watson.brown.edu/costsofwar</Link></p>
+          <p>• <strong>Senate Intelligence Committee Study of the CIA&apos;s Detention and Interrogation Program</strong> (2014) — The &ldquo;Torture Report.&rdquo; 525-page declassified executive summary.</p>
+          <p>• <strong>The Afghanistan Papers</strong>, Washington Post (2019) — Thousands of pages of internal documents showing systematic deception about the war.</p>
+          <p>• <strong>SIGAR Reports</strong> — Special Inspector General for Afghanistan Reconstruction. Quarterly reports documenting waste, fraud, and failure.</p>
+          <p>• <strong>Iraq Body Count</strong> — Database of documented civilian deaths from violence in Iraq. <Link href="https://www.iraqbodycount.org" className="text-red-800 hover:underline">iraqbodycount.org</Link></p>
+          <p>• <strong>Bureau of Investigative Journalism</strong> — Drone strike data: Pakistan, Yemen, Somalia, Afghanistan. <Link href="https://www.thebureauinvestigates.com/projects/drone-war" className="text-red-800 hover:underline">thebureauinvestigates.com</Link></p>
+          <p>• <strong>Congressional Research Service</strong> — &ldquo;Costs of Major U.S. Wars&rdquo; reports and annual defense budget analyses.</p>
+          <p>• <strong>RAND Corporation</strong> — &ldquo;How Terrorist Groups End&rdquo; (2008). Study of 268 terrorist organizations.</p>
+          <p>• Ron Paul, <em>Swords into Plowshares</em> (2015) — Libertarian case against interventionism.</p>
+          <p>• Chalmers Johnson, <em>Blowback</em> trilogy (2000-2006) — Definitive analysis of imperial consequences.</p>
+          <p>• Smedley Butler, <em>War Is a Racket</em> (1935) — The original insider critique of war profiteering.</p>
+        </div>
       </div>
 
       {/* Quotes section */}

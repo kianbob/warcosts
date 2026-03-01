@@ -393,6 +393,185 @@ export default function EmpireOfBasesPage() {
         </div>
       </div>
 
+      {/* Guantanamo Bay */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Guantánamo Bay: The Base That Won&apos;t Close</h2>
+        <p className="text-stone-700 mb-4">
+          The US naval base at Guantánamo Bay, Cuba is the oldest overseas US military base — and one of the
+          most controversial. The US has occupied it since <strong>1903</strong>, under a lease imposed on Cuba
+          after the Spanish-American War. The lease can only be terminated by mutual agreement — and the US
+          has never agreed. Cuba considers the occupation illegal. The rent checks — <strong>$4,085 per year</strong>,
+          unchanged since 1903 — have gone uncashed by Cuba since the revolution.
+        </p>
+        <p className="text-stone-700 mb-4">
+          After 9/11, Guantánamo became notorious as the site of the US detention facility for &ldquo;enemy
+          combatants.&rdquo; The Bush administration chose Guantánamo specifically because its legal status
+          was ambiguous — prisoners were technically not on US soil, allowing the government to argue they
+          had no constitutional rights.
+        </p>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          {[
+            { stat: '780', label: 'Total detainees held since 2002' },
+            { stat: '731', label: 'Transferred or released — most never charged' },
+            { stat: '15', label: 'Remain as of 2025' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 text-center border">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-xs text-muted">{s.label}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          Of the 780 men detained at Guantánamo, the vast majority were held for years without charges.
+          Many were tortured. The facility has cost over <strong>$13 million per detainee per year</strong> —
+          making it the most expensive prison on Earth. A single maximum-security federal prisoner costs
+          approximately $40,000 per year. Guantánamo costs 325× more.
+        </p>
+        <p className="text-stone-700">
+          Obama, Trump, and Biden all promised or discussed closing Guantánamo. None did. The base persists
+          because it serves a political function: it allows the government to detain people indefinitely
+          outside the reach of US courts, in a legal black hole that the Constitution was supposed to prevent.
+        </p>
+      </div>
+
+      {/* Status of Forces Agreements */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Status of Forces Agreements: Above the Law</h2>
+        <p className="text-stone-700 mb-4">
+          When US troops commit crimes overseas, they are typically shielded by <strong>Status of Forces
+          Agreements (SOFAs)</strong> — bilateral treaties that often give the US primary jurisdiction over
+          crimes committed by its personnel. This means that when a US service member commits a crime in a
+          host country — including assault, rape, or murder — they are often tried by US military courts
+          rather than local courts, if tried at all.
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Japan SOFA</p>
+            <p className="text-sm text-stone-600">
+              Under the US-Japan SOFA, the US has primary jurisdiction over crimes committed by service members
+              while on duty. Even off-duty crimes are often handled through negotiation rather than prosecution.
+              In Okinawa alone, US military personnel have been involved in hundreds of documented crimes —
+              including the 1995 kidnapping and gang rape of a 12-year-old girl. The light sentences imposed
+              by US military courts have been a source of enormous resentment.
+            </p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">South Korea SOFA</p>
+            <p className="text-sm text-stone-600">
+              Between 1967 and 2018, US troops in South Korea were involved in over 100,000 reported
+              criminal incidents. Only a fraction resulted in prosecution. The SOFA was revised in 2001
+              to give Korea greater jurisdiction, but controversies continue — particularly involving
+              drunk driving, assault, and sexual offenses.
+            </p>
+          </div>
+          <div className="border-l-4 border-red-200 pl-4">
+            <p className="font-semibold">Italy — The Cavalese Cable Car Disaster</p>
+            <p className="text-sm text-stone-600">
+              On February 3, 1998, a US Marine EA-6B Prowler flying illegally low severed a cable car line
+              in Cavalese, Italy, killing <strong>20 people</strong>. The pilot, Captain Richard Ashby,
+              was tried by US military court (per SOFA) and <strong>acquitted</strong> of all charges related
+              to the deaths. He was later convicted only of obstruction for destroying the cockpit video.
+              The acquittal caused outrage in Italy and across Europe.
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          SOFAs effectively create a two-tier legal system: local citizens are subject to local laws, while
+          American military personnel operate under a different — and often more lenient — legal framework.
+          As political scientist Alexander Cooley writes: <em>&ldquo;The fundamental issue is sovereignty.
+          When another country&apos;s military operates on your soil under its own legal system, you are
+          not fully sovereign.&rdquo;</em>
+        </p>
+      </div>
+
+      {/* The Roman Parallel */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Roman Parallel: From Republic to Empire</h2>
+        <p className="text-stone-300 mb-4">
+          The parallels between the American base network and the Roman Empire&apos;s frontier system are
+          striking — and ominous:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { roman: 'Permanent legions on the frontier', american: 'Permanent bases in 80 countries' },
+            { roman: 'Frontier garrisons justified by "barbarian" threats', american: 'Bases justified by "terrorist" or "adversary" threats' },
+            { roman: 'Military spending consumed the treasury', american: 'Military spending consumes >50% of discretionary budget' },
+            { roman: 'Generals became political power brokers', american: 'Retired generals sit on defense contractor boards' },
+            { roman: 'Provinces exploited to fund the military', american: 'Taxpayers fund bases in countries richer than most US states' },
+            { roman: 'Military expansion created new enemies at the frontier', american: 'Bases create resentment that generates new "threats"' },
+            { roman: 'Republic collapsed into empire as military power grew', american: 'Constitutional war powers transferred from Congress to President' },
+          ].map((p, i) => (
+            <div key={i} className="grid grid-cols-2 gap-4">
+              <div className="text-stone-400 text-sm"><span className="text-stone-500 font-semibold">Rome:</span> {p.roman}</div>
+              <div className="text-stone-300 text-sm"><span className="text-red-400 font-semibold">US:</span> {p.american}</div>
+            </div>
+          ))}
+        </div>
+        <blockquote className="border-l-4 border-red-500 pl-4 text-stone-300 italic mt-4">
+          &ldquo;A republic cannot be an empire. If we maintain this worldwide military footprint, we will
+          eventually lose the republic. That is the lesson of Rome, and we are repeating it.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Chalmers Johnson, <em>Nemesis</em>, 2006</span>
+        </blockquote>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case: Bring Them Home</h2>
+        <p className="text-stone-700 mb-4">
+          The global base network is the physical infrastructure of empire — and from a liberty perspective,
+          empire is incompatible with republican self-government.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;We should have the strongest national defense in the world. But national defense means
+          defending this nation — not running an empire of 900 bases in 130 countries.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The Constitution says provide for the common defense — not provide for the defense of
+          Japan, Germany, South Korea, and 77 other countries.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          Key libertarian arguments against the base network:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            'Bases cost $55-150B/year that could be returned to taxpayers or used for domestic priorities',
+            'They subsidize the defense of wealthy allies (Japan, Germany, South Korea) who can afford their own militaries',
+            'They create "moral hazard" — allies spend less on defense because the US covers them',
+            'They generate blowback — foreign bases breed the resentment that creates new enemies',
+            'They concentrate war-making power in the executive branch, undermining constitutional checks',
+            'They create permanent constituencies (contractors, local economies) that make reform impossible',
+            'They violate the Founders\' vision of a defensive republic, not an offensive empire',
+          ].map((point, i) => (
+            <p key={i} className="text-sm text-stone-600 flex items-start gap-2">
+              <span className="text-amber-700 shrink-0">•</span> {point}
+            </p>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Thomas Jefferson warned against &ldquo;entangling alliances.&rdquo; George Washington warned against
+          &ldquo;permanent alliances.&rdquo; The base network is the most entangling, most permanent alliance
+          structure in human history. The Founders would not recognize it as the foreign policy of a republic.
+          Because it isn&apos;t.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• Vine, David — <em>Base Nation: How U.S. Military Bases Abroad Harm America and the World</em> (2015). The definitive book on US overseas bases.</p>
+          <p>• Vine, David — <em>The United States of War</em> (2020). History of US military expansion.</p>
+          <p>• Johnson, Chalmers — <em>The Sorrows of Empire</em> (2004). Analysis of the base network as imperial infrastructure.</p>
+          <p>• Cooley, Alexander — <em>Base Politics: Democratic Change and the U.S. Military Overseas</em> (2008).</p>
+          <p>• <strong>DOD Base Structure Report</strong> — Annual Pentagon report on worldwide military installations.</p>
+          <p>• <strong>Overseas Basing Commission Report</strong> (2005) — Congressional commission on base restructuring.</p>
+          <p>• Lutz, Catherine — <em>The Bases of Empire</em> (2009). Critical perspectives on US military bases.</p>
+          <p>• Vine, David — <em>Island of Shame: The Secret History of the U.S. Military Base on Diego Garcia</em> (2009).</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 mb-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

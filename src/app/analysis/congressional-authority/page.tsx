@@ -545,6 +545,139 @@ export default function CongressionalAuthorityPage() {
         </p>
       </div>
 
+      {/* Why Congress Won't Act */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Why Congress Won&apos;t Reclaim Its Power</h2>
+        <p className="text-stone-700 mb-4">
+          The mystery isn&apos;t that presidents seize war power — Madison predicted they would. The mystery
+          is that Congress lets them. The answer lies in perverse political incentives:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">1. Voting for War Is Politically Dangerous</h3>
+            <p className="text-sm text-stone-700">
+              If a member votes for war and it goes badly (Vietnam, Iraq), the vote haunts their career forever.
+              Hillary Clinton&apos;s 2002 Iraq War vote arguably cost her the 2008 primary. If they vote against
+              war and an attack happens, they&apos;re labeled &ldquo;soft on terror.&rdquo; The rational political
+              calculation is to avoid the vote entirely — and let the President take responsibility.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">2. Defense Money Flows to Congress</h3>
+            <p className="text-sm text-stone-700">
+              Defense contractors contribute millions to campaigns, particularly to Armed Services and
+              Appropriations Committee members. Challenging presidential war authority means challenging the
+              military establishment — which means risking the flow of campaign contributions and defense
+              jobs in their districts. The military-industrial complex buys congressional silence.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">3. Party Loyalty Trumps Constitutional Duty</h3>
+            <p className="text-sm text-stone-700">
+              When their party&apos;s president is in the White House, members of Congress are reluctant to
+              challenge presidential war authority. Republicans didn&apos;t challenge Bush or Trump. Democrats
+              didn&apos;t challenge Obama or Biden. Constitutional principles take a back seat to partisan
+              solidarity. The rare exceptions — Barbara Lee, Rand Paul, Mike Lee — prove the rule.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">4. Ignorance Is Politically Convenient</h3>
+            <p className="text-sm text-stone-700">
+              When Senator Lindsey Graham — a member of the Armed Services Committee — said he
+              &ldquo;didn&apos;t know there were 1,000 troops in Niger,&rdquo; it was both shocking and
+              revealing. Many members of Congress genuinely don&apos;t know where US forces are deployed.
+              Not knowing means not being responsible. It&apos;s willful ignorance as political strategy.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* The 469 Interventions */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">469 Military Interventions — 5 Declared Wars</h2>
+        <p className="text-stone-700 mb-4">
+          The Congressional Research Service has documented <strong>469 instances of US armed forces
+          deployed abroad</strong> since 1798. Of these, Congress declared war exactly <strong>5 times</strong>:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { war: 'War of 1812', year: '1812', opponent: 'Great Britain', result: 'Inconclusive — Status quo ante bellum' },
+            { war: 'Mexican-American War', year: '1846', opponent: 'Mexico', result: 'US victory — acquired California, Nevada, Utah, Arizona, New Mexico' },
+            { war: 'Spanish-American War', year: '1898', opponent: 'Spain', result: 'US victory — acquired Philippines, Puerto Rico, Guam' },
+            { war: 'World War I', year: '1917', opponent: 'Germany, Austria-Hungary', result: 'Allied victory' },
+            { war: 'World War II', year: '1941', opponent: 'Japan, Germany, Italy', result: 'Allied victory' },
+          ].map(w => (
+            <div key={w.war} className="flex items-center gap-3 border-b border-stone-100 pb-2">
+              <span className="w-12 text-sm font-mono text-stone-400">{w.year}</span>
+              <span className="w-40 font-semibold text-sm">{w.war}</span>
+              <span className="text-xs text-stone-500">{w.result}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          That means <strong>464 out of 469 military deployments</strong> — 98.9% — occurred without a
+          declaration of war. The last declaration was in 1942. In the 83 years since, the US has fought
+          in Korea, Vietnam, Lebanon, Grenada, Panama, the Gulf War, Bosnia, Kosovo, Haiti, Afghanistan,
+          Iraq, Libya, Syria, Yemen, Somalia, and dozens of other countries — all without a formal declaration.
+        </p>
+        <p className="text-stone-700">
+          The constitutional requirement of a declaration of war has become, for all practical purposes,
+          a dead letter. The most solemn power the Constitution grants — the power to commit the nation to
+          war — has been rendered irrelevant by presidential usurpation and congressional abdication.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case: The War Power Is the People&apos;s Power</h2>
+        <p className="text-stone-700 mb-4">
+          The congressional war power is not an abstract constitutional principle. It is the mechanism by
+          which the people — through their elected representatives — decide whether their children will
+          be sent to kill and die. When that power is transferred to one person, democracy in its most
+          fundamental sense ceases to function.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The Founders specifically gave the war power to Congress because they knew that executives
+          would be too eager to start wars. They read history. They knew about kings. They designed a system
+          to prevent what is happening right now.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;I rise today to oppose this unconstitutional use of military force. The Constitution is clear.
+          The power to declare war belongs to Congress. I didn&apos;t become a senator to rubber-stamp
+          executive wars.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul, opposing military action in Syria, 2018</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          From a libertarian perspective, the war power is the most important check on government authority.
+          War is the ultimate expression of state power — the power to take life, to confiscate wealth through
+          taxation and borrowing, to restrict liberty in the name of security, and to expand government
+          permanently. If the executive can wage war unilaterally, no other constitutional restraint matters.
+        </p>
+        <p className="text-stone-700">
+          The solution is originalism in its purest form: enforce the Constitution as written. Require a
+          congressional declaration or specific authorization for every military engagement. Include sunset
+          clauses. Enforce the War Powers Resolution. Prosecute violations. This isn&apos;t a partisan
+          position — it&apos;s the document every member of Congress and every president swears an oath to uphold.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>Congressional Research Service</strong> — &ldquo;Instances of Use of United States Armed Forces Abroad, 1798-2024.&rdquo; Updated regularly.</p>
+          <p>• <strong>The Constitution of the United States</strong> — Article I, Section 8; Article II, Section 2.</p>
+          <p>• <strong>The Federalist Papers</strong> — No. 69 (Hamilton on Commander-in-Chief), No. 4 (Jay on war), No. 41 (Madison on military).</p>
+          <p>• Madison, James — &ldquo;Political Observations&rdquo; (1795). &ldquo;War is the parent of armies.&rdquo;</p>
+          <p>• Schlesinger, Arthur — <em>The Imperial Presidency</em> (1973, updated 2004).</p>
+          <p>• Fisher, Louis — <em>Presidential War Power</em> (3rd ed., 2013). The definitive legal analysis.</p>
+          <p>• Edelson, Chris — <em>Power Without Constraint: The Post-9/11 Presidency and National Security</em> (2016).</p>
+          <p>• <strong>War Powers Resolution</strong>, Public Law 93-148 (1973). Text available at congress.gov.</p>
+          <p>• Ron Paul — Congressional speeches on war powers, collected in <em>A Foreign Policy of Freedom</em> (2007).</p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 my-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>

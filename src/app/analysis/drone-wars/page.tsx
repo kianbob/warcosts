@@ -423,6 +423,174 @@ export default function DroneWarsPage() {
         </blockquote>
       </div>
 
+      {/* The SKYNET Algorithm */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">SKYNET: When Algorithms Decide Who Dies</h2>
+        <p className="text-stone-700 mb-4">
+          Yes, the NSA literally named its terrorist-hunting algorithm <strong>SKYNET</strong> — after the
+          AI that destroys humanity in the <em>Terminator</em> films. Revealed by Edward Snowden documents
+          in 2015, SKYNET was a machine-learning program that analyzed metadata from Pakistani cellphone
+          users — 55 million records — to identify &ldquo;likely terrorists&rdquo; based on behavioral patterns:
+          who they called, where they traveled, when they turned their phone off.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Independent analysis of SKYNET&apos;s methodology by data scientists found that it had a
+          <strong>false positive rate of up to 50%</strong>. This means that potentially half the people
+          flagged as terrorists by the algorithm were innocent. When combined with the &ldquo;signature
+          strike&rdquo; policy — killing people based on behavioral patterns rather than known identity —
+          SKYNET may have contributed to the deaths of thousands of innocent people.
+        </p>
+        <p className="text-stone-700">
+          Patrick Ball, a data scientist at the Human Rights Data Analysis Group, reviewed the SKYNET
+          methodology and concluded: <em>&ldquo;The NSA&apos;s SKYNET program may be killing thousands of
+          innocent people.&rdquo;</em> The program was fed into targeting decisions for drone strikes in
+          Pakistan. The people killed by these decisions were never identified. Their names will never be known.
+        </p>
+      </div>
+
+      {/* The Hellfire R9X */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Hellfire R9X: The &ldquo;Ninja Bomb&rdquo;</h2>
+        <p className="text-stone-700 mb-4">
+          In 2017, the US developed a classified variant of the Hellfire missile designated the <strong>AGM-114
+          R9X</strong>, colloquially known as the &ldquo;ninja bomb&rdquo; or &ldquo;flying Ginsu.&rdquo; Instead
+          of an explosive warhead, the R9X deploys <strong>six extendable blades</strong> moments before impact,
+          essentially turning the missile into a 100-pound kinetic blade that slices through its target.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The weapon was developed to reduce &ldquo;collateral damage&rdquo; — killing the intended target
+          without the blast radius that kills bystanders. It has been used in strikes in Syria, Yemen, Afghanistan,
+          and reportedly in the 2022 killing of al-Qaeda leader Ayman al-Zawahiri in Kabul. The strike that
+          killed Zawahiri reportedly left the building he was standing on largely intact, with his family
+          inside unharmed.
+        </p>
+        <p className="text-stone-700">
+          The R9X&apos;s existence raises a disturbing question: if a precision weapon that kills only the
+          intended target was available, why were thousands of conventional Hellfires — with blast radii that
+          kill everyone nearby — used in strikes that killed hundreds of civilians? The answer is that precision
+          was always possible. It was simply not prioritized.
+        </p>
+      </div>
+
+      {/* Countries bombed without declaration */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Countries Bombed by Drones Without a Declaration of War</h2>
+        <p className="text-stone-700 mb-4">
+          The US has conducted drone strikes in at least <strong>7 countries</strong> — none of which involved
+          a congressional declaration of war, and most of which were conducted without specific congressional
+          authorization:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { country: 'Pakistan', status: 'No declaration. No AUMF for Pakistan. CIA program — officially denied by the US government for years.' },
+            { country: 'Yemen', status: 'No declaration. 2001 AUMF stretched to cover AQAP. First strike: 2002 (killed a US citizen).' },
+            { country: 'Somalia', status: 'No declaration. AUMF stretched to cover al-Shabaab (didn\'t exist on 9/11).' },
+            { country: 'Libya', status: 'No declaration. No AUMF. Obama called it "not hostilities." Bombed during 2011 NATO campaign and ongoing CT strikes.' },
+            { country: 'Afghanistan', status: '2001 AUMF. The original and most active drone theater. Last strike killed 10 civilians (Aug 2021).' },
+            { country: 'Iraq & Syria', status: '2001/2002 AUMFs. Anti-ISIS campaign. Hundreds of documented civilian casualties in Mosul and Raqqa.' },
+          ].map(c => (
+            <div key={c.country} className="bg-stone-50 rounded-lg p-4">
+              <p className="font-semibold text-primary">{c.country}</p>
+              <p className="text-sm text-stone-600">{c.status}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The Constitution gives Congress alone the power to declare war. The drone program has killed people
+          in 7+ countries under legal authorities that range from stretched to nonexistent. No member of
+          Congress ever voted to authorize drone strikes in Pakistan, Yemen, or Somalia. The American people
+          were never asked. The people being bombed were never consulted. This is governance by assassination.
+        </p>
+      </div>
+
+      {/* Living Under Drones */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Living Under Drones: The Psychological Toll</h2>
+        <p className="text-stone-300 mb-4">
+          In 2012, Stanford Law School and NYU School of Law published <em>Living Under Drones</em>, a
+          groundbreaking report based on interviews with Pakistani civilians in Waziristan. Their findings
+          painted a picture of communities living in perpetual terror:
+        </p>
+        <div className="space-y-4 mb-4">
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="text-stone-300 italic">
+              &ldquo;God knows whether they&apos;ll strike us again or not. But they&apos;re always surveilling
+              us, they&apos;re always over us, and you never know when they&apos;re going to strike.&rdquo;
+            </p>
+            <p className="text-stone-500 text-sm mt-1">— Pakistani civilian, Living Under Drones report</p>
+          </div>
+          <div className="border-l-4 border-red-500 pl-4">
+            <p className="text-stone-300 italic">
+              &ldquo;Everyone is scared all the time. When we&apos;re sitting together to have a meal, we
+              think we might be struck. When you can hear the drone circling in the sky, you think it
+              might strike you. We&apos;re always scared. We always have this fear.&rdquo;
+            </p>
+            <p className="text-stone-500 text-sm mt-1">— Anonymous interviewee, Waziristan</p>
+          </div>
+        </div>
+        <p className="text-stone-300 mb-4">
+          The report documented how the constant presence of drones had transformed daily life: children
+          were afraid to go to school. Adults were afraid to gather for funerals, weddings, or communal
+          meals — all of which had been targeted by strikes. People avoided gathering in groups larger
+          than three. Psychological symptoms — PTSD, anxiety, depression, insomnia — were pervasive
+          across entire communities.
+        </p>
+        <p className="text-stone-300">
+          An estimated <strong>8-12 million people</strong> in Pakistan, Yemen, and Somalia have lived
+          under the persistent presence of armed American drones. They are, effectively, living under
+          a permanent state of siege by a country most of them will never visit, governed by people
+          who have never heard their names.
+        </p>
+      </div>
+
+      {/* The Libertarian Case */}
+      <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-amber-800">The Libertarian Case Against Drone Warfare</h2>
+        <p className="text-stone-700 mb-4">
+          The drone program is a libertarian&apos;s nightmare: unchecked executive power, extrajudicial
+          killing, no due process, no congressional authorization, no judicial review, and the creation
+          of a permanent, invisible war that the public never voted for and can never end.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;If you allow the government to kill American citizens without due process overseas, eventually
+          that power will be used at home. The Bill of Rights doesn&apos;t have a geographic limitation.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul, during his 13-hour filibuster against drone strikes, March 6, 2013</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          Rand Paul&apos;s 2013 filibuster — lasting <strong>12 hours and 52 minutes</strong> — was specifically
+          about the drone program. He demanded that the Obama administration confirm it would not use drones to
+          kill American citizens on American soil. The administration initially refused to answer. Paul&apos;s
+          filibuster drew bipartisan support and briefly made drone policy a mainstream political issue.
+        </p>
+        <blockquote className="border-l-4 border-amber-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;The power to kill a citizen without a trial is the most dangerous power a government can
+          possess. Today it&apos;s used against people we&apos;re told are terrorists. Tomorrow it could
+          be used against anyone the government designates as an enemy.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+        <p className="text-stone-700">
+          The Fifth Amendment states that no person shall &ldquo;be deprived of life, liberty, or property,
+          without due process of law.&rdquo; The drone program has killed at least three American citizens
+          without any form of due process. If the government can kill its own citizens without a trial based
+          on secret evidence reviewed by no court, the Constitution has no meaning.
+        </p>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>
+        <div className="space-y-2 text-sm text-stone-600">
+          <p>• <strong>Bureau of Investigative Journalism</strong> — Primary drone strike database: Pakistan, Yemen, Somalia, Afghanistan. <Link href="https://www.thebureauinvestigates.com/projects/drone-war" className="text-red-800 hover:underline">thebureauinvestigates.com</Link></p>
+          <p>• <strong>New America Foundation</strong> — Drone strike data and analysis. <Link href="https://www.newamerica.org/international-security/reports/americas-counterterrorism-wars/" className="text-red-800 hover:underline">newamerica.org</Link></p>
+          <p>• Stanford/NYU — <em>Living Under Drones</em> (2012). First comprehensive report on the human impact of drone strikes in Pakistan.</p>
+          <p>• Scahill, Jeremy — <em>The Assassination Complex</em> (2016). Based on leaked documents about the drone program.</p>
+          <p>• The Intercept — &ldquo;The Drone Papers&rdquo; (2015). Leaked documents on targeted killing operations.</p>
+          <p>• Stimson Center — Task Force Report on US Drone Policy (2015).</p>
+          <p>• Reprieve — Legal organization documenting drone strike casualties and representing drone strike victims.</p>
+          <p>• Airwars — Monitoring and assessing civilian harm from international airstrikes. <Link href="https://airwars.org" className="text-red-800 hover:underline">airwars.org</Link></p>
+        </div>
+      </div>
+
       {/* Did You Know */}
       <div className="bg-blue-50 rounded-xl p-6 mb-8 border border-blue-200">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 text-blue-800">💡 Did You Know?</h3>
