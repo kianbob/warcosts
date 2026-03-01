@@ -12,7 +12,7 @@ interface Contractor {
   name: string; slug: string; amount: number; rank: number;
   subsidiaries: Subsidiary[]; yearly?: Record<string, number>;
 }
-interface Weapon { name: string; slug: string; contractor: string; costBillions: number | null; category: string; status: string }
+interface Weapon { name: string; slug: string; contractor?: string; manufacturer?: string; costBillions: number | null; category: string; status: string }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
@@ -58,8 +58,9 @@ export default async function ContractorDetailPage({ params }: { params: Promise
 
   const weapons = loadData('weapons.json') as Weapon[]
   const linkedWeapons = weapons.filter(w =>
-    w.contractor.toLowerCase().includes(c.name.toLowerCase()) ||
-    c.name.toLowerCase().includes(w.contractor.split('/')[0].toLowerCase())
+    w.manufacturer?.toLowerCase().includes(c.name.toLowerCase()) ||
+    w.contractor?.toLowerCase().includes(c.name.toLowerCase()) ||
+    c.name.toLowerCase().includes((w.manufacturer || w.contractor || '').split('/')[0].toLowerCase())
   )
 
   const yearlyEntries = c.yearly ? Object.entries(c.yearly).sort((a, b) => a[0].localeCompare(b[0])) : []

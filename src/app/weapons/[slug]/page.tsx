@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 interface Weapon {
-  name: string; slug: string; category: string; service: string; contractor: string;
+  name: string; slug: string; category: string; service?: string; contractor?: string; manufacturer?: string;
   unitCost: number | null; totalCost: number | null; costOverrun: number | null;
   units: number | null; delivered: number | null; description: string; lifetimeCost?: string;
   status: string; startYear: number; iocYear: number | null; notes: string;
@@ -60,7 +60,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
         </span>
       </div>
 
-      <p className="text-stone-400 text-lg mb-6">{w.category} · {w.service} · {w.contractor}</p>
+      <p className="text-stone-400 text-lg mb-6">{w.category} · {w.service || "Multiple"} · {w.contractor || w.manufacturer || "Unknown"}</p>
 
       <p className="text-stone-300 leading-relaxed text-lg mb-6">{w.description}</p>
 
@@ -179,7 +179,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
             {related.map(r => (
               <Link key={r.slug} href={`/weapons/${r.slug}`} className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium">{r.name}</div>
-                <div className="text-stone-400 text-sm">{r.category} · {r.contractor} · {r.costBillions ? `$${r.costBillions}B` : '—'}</div>
+                <div className="text-stone-400 text-sm">{r.category} · {r.contractor || r.manufacturer || "Unknown"} · {r.costBillions ? `$${r.costBillions}B` : '—'}</div>
               </Link>
             ))}
           </div>
