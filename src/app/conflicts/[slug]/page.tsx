@@ -54,7 +54,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           )}
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">{c.name}</h1>
-        <p className="text-stone-400">{c.startYear}–{c.endYear || 'Present'}{c.years ? ` (${c.years} years)` : ''} · {c.region} · {c.countries?.map((co: string, i: number) => <span key={co}>{i > 0 && ', '}<Link href={`/countries/${slugify(co)}`} className="hover:text-white">{co}</Link></span>)}</p>
+        <p className="text-stone-400">{c.startYear}–{c.endYear || 'Present'}{c.computed?.durationYears ? ` (${c.computed.durationYears} years)` : ''} · {c.region} · {c.countries?.map((co: string, i: number) => <span key={co}>{i > 0 && ', '}<Link href={`/countries/${slugify(co)}`} className="hover:text-white">{co}</Link></span>)}</p>
         <p className="text-stone-300 mt-3">{c.description}</p>
       </div>
 
@@ -116,10 +116,10 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="bg-white rounded-lg p-6 mb-8 border">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Key Events</h2>
           <ul className="space-y-2">
-            {c.keyEvents.map((e: string, i: number) => (
+            {c.keyEvents.map((e: any, i: number) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-red-500 mt-1">▸</span>
-                <span>{e}</span>
+                <span>{typeof e === 'string' ? e : <><strong className="text-stone-700">{e.year}</strong> — {e.event}</>}</span>
               </li>
             ))}
           </ul>
