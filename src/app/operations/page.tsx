@@ -8,10 +8,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Named Military Operations — US Wars & Conflicts',
-  description: 'Explore 14 named US military operations from WWII to the War on ISIS. Costs, casualties, troop deployments, and outcomes for every major operation.',
+  description: 'Explore 19 named US military operations from WWII to Iran 2026. Costs, casualties, troop deployments, and outcomes for every major operation.',
   openGraph: {
     title: 'Named Military Operations — US Wars & Conflicts',
-    description: '14 named US military operations from D-Day to the War on ISIS.',
+    description: '19 named US military operations from D-Day to Operation Epic Fury.',
   },
 }
 
@@ -41,7 +41,7 @@ export default function OperationsPage() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Named Operations' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Named Military Operations</h1>
-      <p className="text-stone-300 mb-6">14 named US military operations spanning 80 years of American warfare — from the beaches of Normandy to the deserts of Iraq.</p>
+      <p className="text-stone-300 mb-6">19 named US military operations spanning 80 years of American warfare — from the beaches of Normandy to the skies over Tehran.</p>
       <ShareButtons title="Named Military Operations — US Wars & Conflicts" />
 
       {/* Summary stats */}

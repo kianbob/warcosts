@@ -11,7 +11,7 @@ interface Weapon {
   name: string; slug: string; category: string; service?: string; contractor?: string; manufacturer?: string;
   unitCost: number | null; totalCost: number | null; costOverrun: number | null;
   units: number | null; delivered: number | null; description: string; lifetimeCost?: string;
-  status: string; startYear: number; iocYear: number | null; notes: string;
+  status?: string; startYear?: number; iocYear?: number | null; notes?: string; keyFact?: string; inService?: boolean;
   costBillions: number | null; unitCostLabel?: string; costOverrunLabel?: string;
 }
 
@@ -55,9 +55,16 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
         <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white">
           {w.name}
         </h1>
-        <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-400' : 'bg-stone-800 border-stone-700 ' + (statusColors[w.status] || 'text-white')}`}>
-          {w.status}
-        </span>
+        {w.status && (
+          <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-400' : 'bg-stone-800 border-stone-700 ' + (statusColors[w.status || ''] || 'text-white')}`}>
+            {w.status}
+          </span>
+        )}
+        {!w.status && w.inService !== undefined && (
+          <span className={`text-sm font-bold px-3 py-1 rounded-full border bg-stone-800 border-stone-700 ${w.inService ? 'text-green-400' : 'text-yellow-400'}`}>
+            {w.inService ? 'In Service' : 'In Development'}
+          </span>
+        )}
       </div>
 
       <p className="text-stone-400 text-lg mb-6">{w.category} · {w.service || "Multiple"} · {w.contractor || w.manufacturer || "Unknown"}</p>
@@ -101,10 +108,12 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
             <div className="text-2xl font-bold text-green-400">{fmt(w.delivered)}</div>
           </div>
         )}
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
-          <div className="text-xs text-stone-400 uppercase tracking-wider">Start Year</div>
-          <div className="text-2xl font-bold text-white">{w.startYear}</div>
-        </div>
+        {w.startYear && (
+          <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+            <div className="text-xs text-stone-400 uppercase tracking-wider">Start Year</div>
+            <div className="text-2xl font-bold text-white">{w.startYear}</div>
+          </div>
+        )}
         {w.iocYear && (
           <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
             <div className="text-xs text-stone-400 uppercase tracking-wider">IOC Year</div>

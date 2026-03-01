@@ -16,15 +16,15 @@ interface Country {
   slug: string
   years: string
   totalStrikes: number
-  minKilled: number
-  maxKilled: number
-  minCivilians: number
-  maxCivilians: number
+  minKilled: number | null
+  maxKilled: number | null
+  minCivilians: number | null
+  maxCivilians: number | null
   minChildren: number
   maxChildren: number
   minInjured: number
   maxInjured: number
-  byPresident: { president: string; strikes: number; minKilled: number; maxKilled: number }[]
+  byPresident: { president: string; strikes: number; minKilled: number | null; maxKilled: number | null }[]
   byYear: { year: number; strikes: number }[]
 }
 
@@ -32,10 +32,10 @@ interface DroneData {
   countries: Country[]
   totals: {
     totalStrikes: number
-    minKilled: number
-    maxKilled: number
-    minCivilians: number
-    maxCivilians: number
+    minKilled: number | null
+    maxKilled: number | null
+    minCivilians: number | null
+    maxCivilians: number | null
     minChildren: number
     maxChildren: number
   }
@@ -50,9 +50,8 @@ export default function DroneStrikesPage() {
   countries.forEach(c => {
     c.byPresident.forEach(p => {
       if (!byPres[p.president]) byPres[p.president] = { strikes: 0, minKilled: 0, maxKilled: 0 }
-      byPres[p.president].strikes += p.strikes
-      byPres[p.president].minKilled += p.minKilled
-      byPres[p.president].maxKilled += p.maxKilled
+      const bp = byPres[p.president]
+      if (bp) { bp.strikes += p.strikes; bp.minKilled += (p.minKilled || 0); bp.maxKilled += (p.maxKilled || 0) }
     })
   })
   const presOrder = ['Bush', 'Obama', 'Trump', 'Biden']
@@ -67,7 +66,7 @@ export default function DroneStrikesPage() {
           US Drone Strikes
         </h1>
         <p className="text-stone-400 mt-2">
-          {fmt(totals.totalStrikes)} confirmed strikes across 5 countries. {fmt(totals.minCivilians)}–{fmt(totals.maxCivilians)} civilians killed, including {fmt(totals.minChildren)}–{fmt(totals.maxChildren)} children.
+          {fmt(totals.totalStrikes)} confirmed strikes across 5 countries. {fmt(totals.minCivilians || 0)}–{fmt(totals.maxCivilians || 0)} civilians killed, including {fmt(totals.minChildren || 0)}–{fmt(totals.maxChildren || 0)} children.
         </p>
       </div>
 
@@ -80,15 +79,15 @@ export default function DroneStrikesPage() {
           <p className="text-xs text-stone-400">Total Strikes</p>
         </div>
         <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minKilled)}–{fmt(totals.maxKilled)}</p>
+          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minKilled || 0)}–{fmt(totals.maxKilled || 0)}</p>
           <p className="text-xs text-stone-400">Total Killed</p>
         </div>
         <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minCivilians)}–{fmt(totals.maxCivilians)}</p>
+          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minCivilians || 0)}–{fmt(totals.maxCivilians || 0)}</p>
           <p className="text-xs text-stone-400">Civilians Killed</p>
         </div>
         <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minChildren)}–{fmt(totals.maxChildren)}</p>
+          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totals.minChildren || 0)}–{fmt(totals.maxChildren || 0)}</p>
           <p className="text-xs text-stone-400">Children Killed</p>
         </div>
       </div>
@@ -109,8 +108,8 @@ export default function DroneStrikesPage() {
               </div>
               <div className="flex gap-6 text-sm text-stone-400">
                 <span>{c.years}</span>
-                <span>{fmt(c.minKilled)}–{fmt(c.maxKilled)} killed</span>
-                <span>{fmt(c.minCivilians)}–{fmt(c.maxCivilians)} civilians</span>
+                <span>{c.minKilled != null ? `${fmt(c.minKilled || 0)}–${fmt(c.maxKilled || 0)} killed` : 'Casualties unknown'}</span>
+                <span>{c.minCivilians != null ? `${fmt(c.minCivilians || 0)}–${fmt(c.maxCivilians || 0)} civilians` : ''}</span>
               </div>
             </Link>
           )
@@ -125,7 +124,7 @@ export default function DroneStrikesPage() {
             <p className="font-semibold text-white text-lg">{p.president}</p>
             <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(p.strikes)}</p>
             <p className="text-xs text-stone-400">strikes</p>
-            <p className="text-sm text-stone-300 mt-1">{fmt(p.minKilled)}–{fmt(p.maxKilled)} killed</p>
+            <p className="text-sm text-stone-300 mt-1">{fmt(p.minKilled || 0)}–{fmt(p.maxKilled || 0)} killed</p>
           </div>
         ))}
       </div>
