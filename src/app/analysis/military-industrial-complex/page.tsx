@@ -331,6 +331,111 @@ export default function MICPage() {
         </div>
       </div>
 
+      {/* The Media-Military Connection */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Media-Military Pipeline: Selling War on Television</h2>
+        <p className="text-stone-700 mb-4">
+          In 2008, the <em>New York Times</em> revealed that the Pentagon had recruited <strong>75 retired
+          military officers</strong> as &ldquo;military analysts&rdquo; who appeared on major TV networks as
+          supposedly independent experts. In reality, they were briefed by the Pentagon, given talking points,
+          and many had financial ties to defense contractors.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The program was designed to create a &ldquo;surround sound&rdquo; effect: viewers heard the same
+          pro-war message from every channel, from people they believed were independent experts. Many of these
+          analysts had financial interests in the wars they were promoting — sitting on defense contractor boards
+          or working as consultants for companies that profited from the conflicts they discussed on air.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The DOD Inspector General investigated and concluded the program was legal — because the analysts
+          were &ldquo;volunteers&rdquo; and not technically paid by the Pentagon. But the financial ties to
+          defense contractors were clear. CNN analyst General James &ldquo;Spider&rdquo; Marks, for example,
+          advocated for the Iraq War on television while serving as a consultant for a defense contractor
+          seeking Iraq War contracts.
+        </p>
+        <p className="text-stone-700">
+          Today, retired generals and admirals are ubiquitous on cable news. Most are never asked about their
+          financial ties to defense contractors. The viewer sees an authoritative figure in a suit; they don&apos;t
+          see the contractor paycheck in their pocket.
+        </p>
+      </div>
+
+      {/* International comparisons */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The US vs. The World: Military Spending in Context</h2>
+        <p className="text-stone-700 mb-4">
+          US military spending is not just the highest in the world — it&apos;s so far ahead that comparison
+          seems absurd:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { country: 'United States', spend: '$886B', bar: 100 },
+            { country: 'China', spend: '$296B', bar: 33 },
+            { country: 'Russia', spend: '$109B', bar: 12 },
+            { country: 'India', spend: '$84B', bar: 9 },
+            { country: 'Saudi Arabia', spend: '$76B', bar: 9 },
+            { country: 'UK', spend: '$75B', bar: 8 },
+            { country: 'Germany', spend: '$67B', bar: 8 },
+            { country: 'France', spend: '$61B', bar: 7 },
+            { country: 'South Korea', spend: '$47B', bar: 5 },
+            { country: 'Japan', spend: '$46B', bar: 5 },
+          ].map(c => (
+            <div key={c.country} className="flex items-center gap-3">
+              <span className="w-28 text-sm text-right shrink-0">{c.country}</span>
+              <div className="flex-1 bg-stone-100 rounded-full h-5 overflow-hidden">
+                <div className="h-full rounded-full bg-red-600" style={{ width: `${c.bar}%` }} />
+              </div>
+              <span className="w-14 text-sm font-semibold text-right">{c.spend}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          The US spends more than the <strong>next 10 countries combined</strong>. It spends 3× more than
+          China and 8× more than Russia. No country on Earth comes within a factor of 3 of US military spending.
+        </p>
+        <p className="text-stone-700">
+          Despite this overwhelming spending advantage, the US has not won a decisive military victory since
+          1945. Korea was a draw. Vietnam was a loss. Afghanistan was a loss. Iraq is debatable at best. The
+          $886 billion per year buys the world&apos;s most expensive military — but not the world&apos;s most
+          effective one, at least not in the conflicts it has actually fought.
+        </p>
+      </div>
+
+      {/* Cost overrun culture */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Cost Overrun Culture</h2>
+        <p className="text-stone-700 mb-4">
+          Cost overruns are not bugs in the defense procurement system — they are features. The GAO tracks
+          major weapons program costs, and the pattern is consistent: programs are initially sold at low
+          estimates, then costs balloon after Congress has committed:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { program: 'F-35 Joint Strike Fighter', original: '$233B', current: '$1.7T', overrun: '+630%' },
+            { program: 'DDG-1000 Zumwalt Destroyer', original: '$9.6B (32 ships)', current: '$22.5B (3 ships)', overrun: '+7× per ship' },
+            { program: 'Littoral Combat Ship', original: '$220M/ship', current: '$500M+/ship', overrun: '+127%' },
+            { program: 'KC-46 Pegasus Tanker', original: '$4.9B', current: '$12B+', overrun: '+145%' },
+            { program: 'Gerald R. Ford Aircraft Carrier', original: '$10.5B', current: '$13.3B', overrun: '+27%' },
+            { program: 'Future Combat Systems (canceled)', original: '$92B', current: '$18B spent before cancellation', overrun: 'Total loss' },
+            { program: 'V-22 Osprey', original: '$2.5B', current: '$35B+', overrun: '+1,300%' },
+          ].map(p => (
+            <div key={p.program} className="flex items-center gap-3 border-b border-stone-100 pb-2">
+              <span className="w-52 text-sm shrink-0">{p.program}</span>
+              <span className="text-xs text-stone-400">{p.original} →</span>
+              <span className="text-xs font-bold text-red-700">{p.current}</span>
+              <span className="text-[10px] text-stone-400 ml-auto">{p.overrun}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          In any other industry, a company that routinely delivered products at 200-600% over budget would
+          lose its contracts. In the defense industry, the same companies keep getting contracts because
+          they&apos;ve designed the system to be unreformable. By the time the overruns are discovered,
+          too much has been invested to cancel. Too many jobs depend on continuation. Too many congressional
+          districts would be affected. The program becomes &ldquo;too big to fail&rdquo; — by design.
+        </p>
+      </div>
+
       {/* Bases and permanent demand */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">750 Bases in 80 Countries: Creating Permanent Demand</h2>

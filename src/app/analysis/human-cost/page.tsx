@@ -232,6 +232,107 @@ export default function HumanCostPage() {
         </div>
       </div>
 
+      {/* The VA scandal */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">The VA Waitlist Scandal: Dying While Waiting for Help</h2>
+        <p className="text-stone-700 mb-4">
+          In April 2014, CNN reported that at least <strong>40 veterans had died</strong> while waiting for
+          appointments at the Phoenix VA Health Care System. An investigation revealed that VA administrators
+          had maintained a <strong>secret waitlist</strong> — keeping the official wait times artificially low
+          while veterans languished for months without care.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The scandal spread: similar practices were found at <strong>VA facilities across the country</strong>.
+          The VA Inspector General found that 120,000 veterans were either waiting for appointments or never
+          got them. Wait times in some facilities exceeded 115 days. Veterans with urgent medical needs —
+          including cancer patients — waited months for treatment.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The VA Secretary was fired. Congress passed the Veterans Access, Choice, and Accountability Act,
+          allowing veterans to seek private care when VA wait times exceeded 30 days. But the fundamental
+          problem remained: the VA is chronically underfunded relative to the number of veterans it serves,
+          and each new conflict adds decades of future obligations.
+        </p>
+        <div className="bg-white rounded-lg p-4 mt-4">
+          <p className="text-sm font-semibold text-red-800 mb-2">💡 The Cruel Math</p>
+          <p className="text-sm text-stone-700">
+            The VA&apos;s annual budget for mental health is approximately <strong>$12 billion</strong>.
+            A single Gerald R. Ford-class aircraft carrier costs <strong>$13 billion</strong> to build.
+            America spends more on one ship than on the mental health of all its veterans. We fund the weapons
+            that create trauma but not the treatment for the trauma they create.
+          </p>
+        </div>
+      </div>
+
+      {/* The military recruiting pipeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Recruiting Pipeline: Targeting the Vulnerable</h2>
+        <p className="text-stone-700 mb-4">
+          The human cost of war begins before the first shot is fired — in the recruiting offices that
+          disproportionately target poor, rural, and minority communities:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Economic Conscription</h3>
+            <p className="text-sm text-stone-700">
+              Military recruiting concentrates in areas with fewer economic opportunities. Counties with
+              household incomes below the national median produce a disproportionate share of recruits.
+              The GI Bill, healthcare, housing allowances, and steady employment draw people who lack
+              alternatives — not people eager for war. Smedley Butler called it &ldquo;war is a racket&rdquo;
+              because the rich start wars and the poor fight them.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">High School Recruiting</h3>
+            <p className="text-sm text-stone-700">
+              Under the No Child Left Behind Act, high schools that receive federal funding must provide
+              military recruiters the same access as college recruiters — including student contact information.
+              In some low-income school districts, there are more <strong>military recruiters than college
+              counselors</strong>. The military spends approximately <strong>$600 million per year</strong> on
+              recruiting — targeting 17 and 18-year-olds who are not yet old enough to drink.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Rural Burden</h3>
+            <p className="text-sm text-stone-700">
+              Rural Americans serve at significantly higher rates than urban Americans. Rural communities
+              suffered disproportionate casualties in Iraq and Afghanistan. The communities with the least
+              political power bore the heaviest burden — exactly the pattern the Founders feared when they
+              debated whether a standing army would threaten liberty.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* The divorce and family crisis */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Family Crisis: When War Comes Home</h2>
+        <p className="text-stone-700 mb-4">
+          The human cost extends beyond the service member to their families:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { stat: '3×', label: 'Domestic violence rate in military families vs civilian', source: 'Multiple DOD studies' },
+            { stat: '~30%', label: 'Higher divorce rate for combat veterans', source: 'RAND Corporation' },
+            { stat: '1M+', label: 'Children had a parent deploy (post-9/11)', source: 'Blue Star Families' },
+            { stat: '2×', label: 'Rate of child abuse in military families during deployment', source: 'Journal of the American Medical Association' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 text-center border">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.source}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Over 1 million children had a parent deploy to Iraq or Afghanistan. These children experienced
+          higher rates of anxiety, depression, behavioral problems, and academic difficulties. Many grew up
+          with a parent who came home different — withdrawn, explosive, emotionally absent, or addicted. Some
+          grew up with a parent who didn&apos;t come home at all. The war didn&apos;t just cost 7,000 American
+          lives — it damaged millions of American families.
+        </p>
+      </div>
+
       {/* Veteran homelessness */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Veteran Homelessness</h2>
@@ -376,6 +477,108 @@ export default function HumanCostPage() {
           rates of cancer and birth defects in their children. A 2001 study of Gulf War veterans found uranium
           in their urine <strong>10 years after exposure</strong>. The VA has been slow to recognize DU-related
           conditions.
+        </p>
+      </div>
+
+      {/* The Invisible Wounded */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Invisible Wounded: Injuries That Don&apos;t Make Headlines</h2>
+        <p className="text-stone-700 mb-4">
+          Modern military medicine saves lives that would have been lost in every previous war. The survival
+          rate for combat wounds in Iraq and Afghanistan exceeded <strong>90%</strong> — compared to 76% in
+          Vietnam. But survival comes at a cost: the number of severely wounded is dramatically higher.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { stat: '52,000+', label: 'Wounded in action (post-9/11)', note: 'Many with multiple amputations, severe burns, or paralysis' },
+            { stat: '1,700+', label: 'Major limb amputations', note: 'Highest rate since the Civil War' },
+            { stat: '330,000+', label: 'Reported hearing damage', note: '#1 VA disability claim — from IED blasts and weapons fire' },
+            { stat: '~200,000', label: 'Living with chronic pain', note: 'Leading cause of opioid prescriptions in VA system' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 text-center border">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          The nature of IED warfare means injuries are often catastrophic: multiple limb loss, severe
+          burns, genital injuries, traumatic brain injury, and blast-related lung damage. Many veterans
+          require lifetime care — prosthetics, surgeries, rehabilitation, mental health treatment —
+          that will continue for decades.
+        </p>
+        <p className="text-stone-700">
+          The Walter Reed Army Medical Center scandal of 2007 revealed the conditions wounded warriors
+          faced: moldy walls, cockroaches, rats, bureaucratic nightmares, and months of waiting for
+          treatment. The scandal led to the firing of the hospital commander and the Secretary of the
+          Army — but the underlying problem of underfunded, overwhelmed veteran care persists.
+        </p>
+      </div>
+
+      {/* Children in war zones */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Children: The Most Innocent Victims</h2>
+        <p className="text-stone-700 mb-4">
+          Children bear a disproportionate burden in every war. They are killed by airstrikes. They step
+          on unexploded ordnance. They are orphaned, displaced, and recruited as child soldiers. They
+          suffer from malnutrition when food supply chains are destroyed. And they carry psychological
+          scars that shape the rest of their lives.
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Yemen: 11,000+ Children Killed or Injured</h3>
+            <p className="text-sm text-stone-700">
+              UNICEF estimates that <strong>11,000+ children</strong> have been killed or injured in Yemen
+              since 2015. Millions more face acute malnutrition. Schools have been bombed. Hospitals destroyed.
+              A generation of Yemeni children has known nothing but war — a war enabled by US weapons, US
+              intelligence, and US political support.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Iraq: Children of Conflict</h3>
+            <p className="text-sm text-stone-700">
+              An estimated <strong>5 million Iraqi children</strong> were orphaned by the war. The UN estimated
+              that 500,000 Iraqi children died from sanctions between 1990 and 2003 — before the invasion.
+              When asked about this on 60 Minutes in 1996, Secretary of State Madeleine Albright said:
+              <em> &ldquo;We think the price is worth it.&rdquo;</em> Half a million dead children. Worth it.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Drone Strikes: 253+ Children Confirmed Killed</h3>
+            <p className="text-sm text-stone-700">
+              The Bureau of Investigative Journalism has confirmed at least <strong>253 children killed</strong>
+              in US drone strikes — a number that is certainly an undercount, as many strikes occur in areas
+              with no independent observers. The last US drone strike in Afghanistan killed 7 children from
+              a single family. No one was held accountable.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* The hidden epidemic: opioids and veterans */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Opioid Connection: From Combat Injury to Addiction</h2>
+        <p className="text-stone-700 mb-4">
+          The veteran opioid crisis is one of the least-discussed consequences of the War on Terror.
+          Veterans with chronic pain from combat injuries were prescribed opioids at alarming rates:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            'VA opioid prescriptions quadrupled between 2001 and 2012',
+            'At peak, 1 in 3 VA patients was prescribed opioids',
+            'Veterans are twice as likely as non-veterans to die from accidental opioid overdose',
+            'The VA prescribed opioids to veterans with TBI and PTSD — populations at highest risk for addiction',
+            'Many veterans, unable to get VA prescriptions, turned to heroin and fentanyl',
+          ].map((point, i) => (
+            <p key={i} className="text-sm text-stone-600 flex items-start gap-2">
+              <span className="text-red-600 shrink-0">•</span> {point}
+            </p>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The military sent them to war. The war gave them chronic pain. The VA gave them opioids. The
+          opioids gave them addiction. And the system that created each step washes its hands of the next.
         </p>
       </div>
 

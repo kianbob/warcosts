@@ -17,6 +17,7 @@ const sections = [
       { slug: 'ukraine-proxy', title: '$66.9 Billion: America\'s Proxy War in Ukraine', desc: 'The largest military aid since WWII Lend-Lease. European security on the American tab.' },
       { slug: 'war-on-terror', title: 'The War on Terror: $8 Trillion Later', desc: '929,000 dead. Four countries destabilized. Two decades of endless war. Was any of it worth it?' },
       { slug: 'drone-wars', title: 'Drone Wars', desc: 'Obama 563 strikes vs Bush 57. 10,000-17,000 killed. Signature strikes. Remote-control killing.' },
+      { slug: 'israel-lobby', title: 'The Israel Lobby: How One Country Captured US Foreign Policy', desc: '$310B+ in aid. $221M in lobbying. Wars fought on their behalf. The most consequential foreign influence operation in American history.' },
     ],
   },
   {

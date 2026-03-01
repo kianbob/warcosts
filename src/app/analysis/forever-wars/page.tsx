@@ -307,6 +307,69 @@ export default function ForeverWarsPage() {
         </p>
       </div>
 
+      {/* Syria: forgotten front */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Syria: 10 Years of War Nobody Talks About</h2>
+        <p className="text-stone-700 mb-4">
+          The US has been militarily involved in Syria since <strong>2014</strong> — over a decade — and most
+          Americans have no idea troops are still there. As of 2025, approximately <strong>900 US troops remain
+          in northeastern Syria</strong>, nominally fighting ISIS remnants but effectively serving as a check
+          on Iranian, Russian, and Turkish influence.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The US involvement in Syria encompasses multiple contradictory operations:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            'CIA Operation Timber Sycamore ($1B+) armed "moderate rebels" against Assad',
+            'Pentagon program trained Syrian fighters — many defected to jihadist groups',
+            'US bombed ISIS while ISIS fought Assad (the US\'s also enemy) — attacking the enemy of our enemy',
+            'US armed Kurdish SDF forces — infuriating NATO ally Turkey',
+            'Turkey invaded Kurdish areas, attacking US allies with US-made weapons',
+            'Russia intervened to support Assad — US and Russian forces in proximity',
+            'Iran deployed forces to support Assad — adding another hostile actor',
+            'Israeli strikes on Iranian targets in Syria — another overlapping conflict',
+          ].map((point, i) => (
+            <p key={i} className="text-sm text-stone-600 flex items-start gap-2">
+              <span className="text-red-600 shrink-0">•</span> {point}
+            </p>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Syria represents the forever war in its most absurd form: a conflict with no clear objective, no
+          exit strategy, no congressional authorization, no public debate, and no conceivable definition of
+          &ldquo;victory.&rdquo; American troops are there because they were sent there, and no one has
+          ordered them home.
+        </p>
+      </div>
+
+      {/* Niger: the war nobody knew about */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Niger: The War Nobody Knew About</h2>
+        <p className="text-stone-700 mb-4">
+          On October 4, 2017, four US soldiers were killed in an ambush in Niger — <strong>Staff Sgt. Bryan
+          Black, Staff Sgt. Jeremiah Johnson, Sgt. La David Johnson, and Staff Sgt. Dustin Wright</strong>.
+          The attack shocked America — not because four soldiers died, but because most Americans and many
+          members of Congress had no idea US troops were in Niger.
+        </p>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;I didn&apos;t know there was 1,000 troops in Niger.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Lindsey Graham, member of the Armed Services Committee</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          Graham sits on the committee responsible for military oversight. If he didn&apos;t know about the
+          deployment, the democratic accountability the Constitution requires is a fiction. The Niger incident
+          revealed the true scope of the forever wars: the US had quietly deployed special operations forces
+          across Africa, with minimal congressional knowledge and zero public awareness.
+        </p>
+        <p className="text-stone-700">
+          At the time, the US had approximately <strong>6,000 troops across Africa</strong> — in Niger,
+          Somalia, Cameroon, Chad, Kenya, Djibouti, and other countries. Most of these deployments were
+          authorized under the 2001 AUMF, targeting groups that had no connection to 9/11. The forever
+          wars had metastasized to a continent most Americans couldn&apos;t identify the countries on.
+        </p>
+      </div>
+
       {/* Why nobody notices */}
       <div className="prose prose-stone max-w-none mb-8">
         <h2 className="font-[family-name:var(--font-heading)]">Why Americans Don&apos;t Notice</h2>
@@ -334,6 +397,76 @@ export default function ForeverWarsPage() {
           The US can wage war in a country without most Americans — or most members of Congress — even knowing
           about it. When four US soldiers were killed in Niger in 2017, most Americans and many senators
           were stunned to learn that US troops were operating there at all.
+        </p>
+      </div>
+
+      {/* Afghanistan: the full arc */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Afghanistan: 20 Years, $2.3 Trillion, Back to Square One</h2>
+        <p className="text-stone-700 mb-4">
+          Afghanistan is the case study that proves everything about forever wars. The longest war in
+          American history — <strong>20 years, $2.3 trillion, 2,461 Americans killed, 20,752 wounded</strong> —
+          ended exactly where it started: with the Taliban in power.
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The 11-Day Collapse</h3>
+            <p className="text-sm text-stone-700">
+              In August 2021, as the US withdrew, the Afghan National Defense and Security Forces — which the
+              US had spent <strong>$83 billion</strong> building — collapsed in <strong>11 days</strong>.
+              Provincial capitals fell like dominoes. The Afghan president fled. The Taliban walked into Kabul
+              virtually unopposed. An army of 300,000 (on paper) dissolved overnight — because many of those
+              soldiers were &ldquo;ghosts&rdquo; (fictitious), many had no will to fight, and the government
+              they were fighting for had no legitimacy.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Kabul Evacuation</h3>
+            <p className="text-sm text-stone-700">
+              The evacuation from Kabul was the most chaotic US withdrawal since Saigon in 1975. Images of
+              Afghans clinging to departing C-17 aircraft — and falling to their deaths — became iconic symbols
+              of the war&apos;s failure. On August 26, an ISIS-K suicide bomber killed <strong>13 US service
+              members and 170 Afghan civilians</strong> outside Abbey Gate. The youngest American killed was
+              20 years old — born after 9/11.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">What Was It All For?</h3>
+            <p className="text-sm text-stone-700">
+              Girls are banned from school again. Women are banned from most employment. The Taliban enforces
+              strict sharia law. Al-Qaeda still operates in Afghanistan. The country faces humanitarian
+              catastrophe. Everything the US claimed to be fighting for — women&apos;s rights, democracy,
+              counterterrorism — reverted to the pre-2001 status quo within weeks of withdrawal. Twenty years
+              and $2.3 trillion bought exactly nothing permanent.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;We were devoid of a fundamental understanding of Afghanistan — we didn&apos;t know what we
+          were doing.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Lt. Gen. Douglas Lute, White House war czar for Afghanistan</span>
+        </blockquote>
+      </div>
+
+      {/* Iraq: still there */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iraq: 22 Years and No End in Sight</h2>
+        <p className="text-stone-700 mb-4">
+          The US has been militarily involved in Iraq almost continuously since <strong>1991</strong> —
+          over 34 years. The 2003 invasion was supposed to be quick: &ldquo;weeks, not months&rdquo; according
+          to Donald Rumsfeld. Vice President Cheney predicted Americans would be &ldquo;greeted as liberators.&rdquo;
+          Deputy Secretary Wolfowitz told Congress Iraqi oil revenue would cover reconstruction costs.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Instead: a 20+ year occupation. 4,599 Americans killed. Over 300,000 Iraqi civilians dead. $2.4
+          trillion spent. A civil war. The rise of ISIS. Iranian dominance. And as of 2025, <strong>2,500
+          US troops remain in Iraq</strong> — along with contractors, special operations forces, and an
+          embassy the size of Vatican City (the largest embassy in the world, built for $750 million).
+        </p>
+        <p className="text-stone-700">
+          The original casus belli — weapons of mass destruction — didn&apos;t exist. Every justification
+          offered was wrong. Every timeline was wrong. Every cost estimate was wrong. Every prediction about
+          the aftermath was wrong. And the war continues.
         </p>
       </div>
 

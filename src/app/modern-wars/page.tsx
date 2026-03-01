@@ -8,8 +8,8 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Modern Wars — America\'s Post-1995 Military Operations | WarCosts',
-  description: 'Since 1995, the US has launched 15+ military operations across dozens of countries. Each was supposed to be the last. Total cost: trillions. Total accountability: zero.',
-  keywords: ['modern wars', 'us wars 21st century', 'forever wars', 'war on terror', 'us military operations'],
+  description: 'Since 1995, the US has launched 15+ military operations across dozens of countries including Kosovo, Afghanistan, Iraq, Libya, Syria, Yemen, and Iran. Each was supposed to be the last. Total cost: trillions. Drones, special ops, proxy wars, AUMF abuse.',
+  keywords: ['modern wars', 'us wars 21st century', 'forever wars', 'war on terror', 'us military operations', 'us wars list current'],
   openGraph: {
     title: 'The Forever Wars — America\'s 21st Century Military Operations',
     description: 'Each war was supposed to be the last. None of them were.',
@@ -20,13 +20,39 @@ export const metadata: Metadata = {
 
 const escalationPattern = [
   { year: '1995', conflict: 'Bosnia (Deliberate Force)', promise: '"Limited air campaign to stop ethnic cleansing"', reality: '30,000 US troops deployed as peacekeepers; introduced "humanitarian intervention" doctrine', cost: '$4B+' },
-  { year: '1999', conflict: 'Kosovo (Allied Force)', promise: '"78 days of airstrikes, no ground troops"', reality: 'Bombed Yugoslavia without UN authorization; 4,000 US troops remain in Kosovo today', cost: '$5B+' },
-  { year: '2001', conflict: 'Afghanistan (Enduring Freedom)', promise: '"Get bin Laden, destroy al-Qaeda"', reality: '20-year nation-building project; Taliban now controls the country again', cost: '$2.3T' },
-  { year: '2003', conflict: 'Iraq (Iraqi Freedom)', promise: '"Weeks, not months" — Rumsfeld', reality: '8 years of war, 200,000+ Iraqi deaths, ISIS emerged from the wreckage', cost: '$2.4T' },
+  { year: '1999', conflict: 'Kosovo (Allied Force)', promise: '"78 days of airstrikes, no ground troops"', reality: 'Bombed Yugoslavia without UN authorization; 4,000 US troops remain in Kosovo today, 26 years later', cost: '$5B+' },
+  { year: '2001', conflict: 'Afghanistan (Enduring Freedom)', promise: '"Get bin Laden, destroy al-Qaeda"', reality: '20-year nation-building project; $2.3 trillion spent; Taliban now controls the country again', cost: '$2.3T' },
+  { year: '2003', conflict: 'Iraq (Iraqi Freedom)', promise: '"Weeks, not months" — Rumsfeld; WMDs', reality: '8 years of war, 200,000+ Iraqi deaths, no WMDs found, ISIS emerged from the wreckage', cost: '$2.4T' },
+  { year: '2004', conflict: 'Somalia (AFRICOM)', promise: '"Advisory and counterterrorism support"', reality: '20+ years of drone strikes and special ops; al-Shabaab still operational; ~900 airstrikes', cost: '$5B+' },
   { year: '2011', conflict: 'Libya (Odyssey Dawn)', promise: '"Days, not weeks" — Obama', reality: 'Months of bombing; Gaddafi killed; Libya became a failed state with open slave markets', cost: '$2B+' },
-  { year: '2014', conflict: 'Syria (Inherent Resolve)', promise: '"No boots on the ground"', reality: '2,000+ US troops deployed; bombed multiple sides; Assad survived', cost: '$14B+' },
-  { year: '2015', conflict: 'Yemen (Saudi Coalition support)', promise: '"Limited advisory and logistics"', reality: 'US-made bombs killed thousands of civilians; 377,000 dead; worst humanitarian crisis', cost: '$5B+' },
-  { year: '2024', conflict: 'Red Sea (Prosperity Guardian)', promise: '"Protect shipping from Houthis"', reality: 'Ongoing strikes against Yemen — another war nobody voted for', cost: 'TBD' },
+  { year: '2014', conflict: 'Syria (Inherent Resolve)', promise: '"No boots on the ground"', reality: '2,000+ US troops deployed; bombed multiple sides; Assad survived; Russia and Iran filled vacuum', cost: '$14B+' },
+  { year: '2014', conflict: 'ISIS Campaign (Iraq/Syria)', promise: '"Degrade and ultimately destroy ISIS"', reality: 'ISIS territorial defeat but ideology survived; cells active across Africa and Asia', cost: '$100B+' },
+  { year: '2015', conflict: 'Yemen (Saudi Coalition support)', promise: '"Limited advisory and logistics"', reality: 'US-made bombs killed thousands of civilians; 377,000 dead; worst humanitarian crisis on Earth', cost: '$5B+' },
+  { year: '2017', conflict: 'Niger (SOF deployment)', promise: '"Training and advising"', reality: '4 US soldiers killed in ambush America didn\'t know about; troops in 15+ African nations', cost: '$500M+' },
+  { year: '2022', conflict: 'Ukraine (proxy support)', promise: '"Support Ukraine sovereignty"', reality: '$175B+ in aid; largest proxy war since Cold War; no exit strategy; escalation risk with nuclear power', cost: '$175B+' },
+  { year: '2024', conflict: 'Red Sea (Prosperity Guardian)', promise: '"Protect shipping from Houthis"', reality: 'Ongoing strikes against Yemen; $1B+ in missiles fired at one of the poorest countries on Earth', cost: '$2B+' },
+  { year: '2026', conflict: 'Iran (developing)', promise: '"Prevent nuclear capability"', reality: 'US strikes on Iranian nuclear and military facilities; no congressional authorization; escalation risk', cost: 'TBD' },
+]
+
+const modernWarfareFeatures = [
+  { feature: 'Drone Warfare', detail: 'Obama authorized 563 drone strikes (10× more than Bush). Trump removed transparency rules. Estimated 1,700+ civilians killed by drones. Operators in Nevada kill people in Yemen via joystick.', stat: `${563 + 57}+ strikes (2004–2020)` },
+  { feature: 'Special Operations', detail: 'US SOF deployed to 70–80 countries at any time. Conduct raids, train foreign forces, carry out kill/capture missions. When Green Berets died in Niger (2017), Americans were shocked to learn troops were there.', stat: '70+ countries' },
+  { feature: 'Private Contractors', detail: 'In Iraq, contractors (180,000) outnumbered US troops (157,000) at peak. Blackwater massacre in Nisour Square killed 17 Iraqi civilians. Contractors don\'t appear in casualty counts.', stat: '180,000 peak in Iraq' },
+  { feature: 'Proxy Warfare', detail: 'US arms and funds allies to fight on its behalf. Saudi Arabia in Yemen. Various factions in Syria. Ukraine against Russia. Allows war without US casualties but with US weapons and money.', stat: '$175B+ to Ukraine alone' },
+  { feature: 'Cyber Warfare', detail: 'Stuxnet (US/Israel) destroyed Iranian centrifuges. US Cyber Command conducts offensive operations. Budget is classified. The new domain of warfare is invisible.', stat: 'Budget classified' },
+  { feature: 'AI & Autonomous Weapons', detail: 'DOD investing billions in AI-powered targeting, autonomous drones, and decision support. "Project Maven" uses AI to identify drone strike targets. Raises fundamental ethical questions.', stat: '$2B+/year in DOD AI' },
+  { feature: 'Debt-Financed Wars', detail: 'Every post-9/11 war funded by borrowing, not taxes. Taxes were actually CUT during wartime — unprecedented in US history. Interest alone will exceed $3 trillion by 2050.', stat: '$1.1T+ in interest' },
+  { feature: 'AUMF Abuse', detail: 'The 60-word 2001 AUMF has been used to justify operations in 22+ countries against groups that didn\'t exist when it was passed. Congress has refused to update or repeal it for 24 years.', stat: '22+ countries under 60 words' },
+]
+
+const casualtyTrends = [
+  { conflict: 'World War II', usDead: 405399, civDead: 50000000, ratio: '~120:1 civilian-to-US', civPct: '67%' },
+  { conflict: 'Korea', usDead: 36574, civDead: 2000000, ratio: '~55:1', civPct: '70%' },
+  { conflict: 'Vietnam', usDead: 58220, civDead: 2000000, ratio: '~34:1', civPct: '65%' },
+  { conflict: 'Gulf War', usDead: 383, civDead: 3500, ratio: '~9:1', civPct: '60%' },
+  { conflict: 'Iraq', usDead: 4599, civDead: 200000, ratio: '~43:1', civPct: '80%+' },
+  { conflict: 'Afghanistan', usDead: 2461, civDead: 70000, ratio: '~28:1', civPct: '70%' },
+  { conflict: 'War on Terror (all)', usDead: 7074, civDead: 940000, ratio: '~133:1', civPct: '85%+' },
 ]
 
 export default function ModernWarsPage() {
@@ -144,12 +170,12 @@ export default function ModernWarsPage() {
         <p className="text-stone-600 mb-8 max-w-3xl">
           Every modern US military operation follows the same arc: limited goals, bold promises,
           gradual escalation, and no exit strategy. Kosovo was the model. Afghanistan was the warning.
-          Iraq was the catastrophe. And still, the pattern repeats.
+          Iraq was the catastrophe. And still, the pattern repeats — now with Iran.
         </p>
 
         <div className="space-y-6">
           {escalationPattern.map(e => (
-            <div key={e.year} className="bg-white rounded-xl border p-6">
+            <div key={e.year + e.conflict} className="bg-white rounded-xl border p-6">
               <div className="flex flex-wrap items-center gap-3 mb-3">
                 <span className="text-red-800 font-bold font-[family-name:var(--font-heading)] text-xl">{e.year}</span>
                 <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold">{e.conflict}</h3>
@@ -170,42 +196,47 @@ export default function ModernWarsPage() {
         </div>
       </section>
 
-      {/* Deep analysis */}
+      {/* How modern wars are different */}
       <section className="bg-stone-50 py-16">
-        <div className="max-w-3xl mx-auto px-4 prose text-stone-600">
-          <h2 className="font-[family-name:var(--font-heading)]">How Modern Wars Are Fought Differently</h2>
-          <p>
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">How Modern Wars Are Fought Differently</h2>
+          <p className="text-stone-600 mb-8 max-w-3xl">
             Modern American wars bear little resemblance to the mass-mobilization conflicts of the 20th century.
-            No draft. No war bonds. No rationing. No shared sacrifice. Instead, wars are fought by a small
-            professional military (less than 1% of the population), supplemented by private contractors,
-            enabled by drones and special operations forces, and financed entirely through borrowing.
+            No draft. No war bonds. No rationing. No shared sacrifice. Instead: drones, special ops, contractors,
+            proxy forces, and debt. This transformation has made war invisible — and therefore permanent.
           </p>
-          <p>
-            This transformation has profound consequences for democratic accountability:
-          </p>
-          <ul>
+
+          <div className="space-y-4">
+            {modernWarfareFeatures.map(f => (
+              <div key={f.feature} className="bg-white rounded-lg border p-5">
+                <div className="flex flex-wrap justify-between items-start gap-2 mb-2">
+                  <h3 className="font-[family-name:var(--font-heading)] font-bold">{f.feature}</h3>
+                  <span className="text-red-800 font-semibold text-sm">{f.stat}</span>
+                </div>
+                <p className="text-stone-500 text-sm">{f.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Deep analysis */}
+      <section className="py-16">
+        <div className="max-w-3xl mx-auto px-4 prose text-stone-600">
+          <h2 className="font-[family-name:var(--font-heading)]">The Five Reasons Modern Wars Never End</h2>
+          <ol>
             <li>
               <strong>No draft = no accountability.</strong> When the sons and daughters of senators and
               CEOs aren&apos;t at risk, there is no political cost to war. The all-volunteer force, created
               after Vietnam specifically to avoid antiwar protests, has succeeded: Americans barely notice
-              when their country is at war.
+              when their country is at war. Less than 1% of Americans serve — the lowest proportion in
+              the nation&apos;s history.
             </li>
             <li>
               <strong>Drones remove the human face of war.</strong> When a pilot in Nevada kills a family in
-              Yemen via joystick, there is no body bag, no grieving hometown, no TV coverage. Drone warfare
-              makes killing feel like a video game — for the operators and for the public.
-            </li>
-            <li>
-              <strong>Special operations forces operate in the shadows.</strong> US special forces are deployed
-              in 70–80 countries at any given time, training foreign forces, conducting raids, and carrying
-              out missions the public knows nothing about. When a Green Beret dies in Niger, Americans are
-              shocked to learn we have troops there at all.
-            </li>
-            <li>
-              <strong>Private contractors outnumber soldiers.</strong> In Iraq, contractors outnumbered US
-              troops at peak deployment. They perform security, logistics, intelligence, and even interrogation.
-              When contractors die, they don&apos;t appear in casualty counts. When they kill civilians, they
-              operate in a legal gray zone.
+              Yemen via joystick, there is no body bag, no grieving hometown, no TV coverage. Obama authorized
+              563 drone strikes. Trump removed the requirement to report civilian casualties. The strikes
+              continue under every administration because they are politically costless.
             </li>
             <li>
               <strong>Debt financing hides the cost.</strong> Every post-9/11 war has been funded through
@@ -213,37 +244,63 @@ export default function ModernWarsPage() {
               pinch from war because the bill is pushed to the future. The interest alone will exceed $3
               trillion by 2050.
             </li>
-          </ul>
+            <li>
+              <strong>The military-industrial complex profits from perpetual war.</strong> The top five defense
+              contractors received {fmtMoney(stats.defenseContractorSpending)} in Pentagon contracts from 2020–2024.
+              They employ {fmt(stats.revolvingDoorOfficials)}+ former senior DOD officials as lobbyists and consultants.
+              Peace is bad for business. The system has no incentive to end wars and every incentive to start new ones.
+            </li>
+            <li>
+              <strong>Each war creates the next.</strong> Gulf War → US bases in Saudi Arabia → bin Laden radicalized → 9/11.
+              Afghanistan → Pakistan destabilized → safe havens persist. Iraq → state collapse → ISIS.
+              Libya → weapons flood Sahel → Niger, Mali. Yemen → Houthis empowered → Red Sea attacks.
+              The cycle is self-perpetuating.
+            </li>
+          </ol>
 
           <blockquote className="border-l-4 border-red-800">
             &ldquo;A people that values its privileges above its principles soon loses both.&rdquo;
             <br />— Dwight D. Eisenhower
           </blockquote>
 
-          <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
-            <p className="font-bold text-amber-900 font-[family-name:var(--font-heading)] text-lg mb-2">💡 Did You Know?</p>
-            <p className="text-amber-800">
-              During the peak of the Iraq War, there were <strong>more private military contractors</strong> (180,000)
-              in Iraq than US soldiers (157,000). Blackwater (now Academi) alone had over 1,000 armed operatives.
-              When four Blackwater contractors were killed in Fallujah in 2004, the US launched a devastating
-              assault on the city that killed an estimated 800 civilians.
-            </p>
-          </div>
-
           <h2 className="font-[family-name:var(--font-heading)]">The Civilian Casualty Trend</h2>
           <p>
-            Despite advances in &ldquo;precision&rdquo; weapons, the ratio of civilian-to-combatant deaths in
-            modern wars has <strong>worsened dramatically</strong> over the past century:
+            Despite advances in &ldquo;precision&rdquo; weapons, the ratio of civilian deaths in modern wars
+            has <strong>worsened dramatically</strong>:
           </p>
-          <ul>
-            <li><strong>World War I:</strong> Roughly 50% civilian deaths</li>
-            <li><strong>World War II:</strong> Roughly 67% civilian deaths</li>
-            <li><strong>Korean War:</strong> Roughly 70% civilian deaths</li>
-            <li><strong>Vietnam War:</strong> Roughly 65% civilian deaths</li>
-            <li><strong>Iraq War:</strong> Over 80% civilian deaths</li>
-            <li><strong>War on Terror (all theaters):</strong> Over 85% civilian deaths</li>
-            <li><strong>Gaza (2023–24):</strong> Over 90% civilian deaths (per health ministry data)</li>
-          </ul>
+        </div>
+      </section>
+
+      {/* Casualty trends table */}
+      <section className="max-w-3xl mx-auto px-4 pb-8">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border border-stone-200 rounded-lg overflow-hidden">
+            <thead className="bg-stone-100">
+              <tr>
+                <th className="text-left p-3 font-[family-name:var(--font-heading)]">Conflict</th>
+                <th className="text-right p-3 font-[family-name:var(--font-heading)]">US Dead</th>
+                <th className="text-right p-3 font-[family-name:var(--font-heading)]">Civilian Dead</th>
+                <th className="text-right p-3 font-[family-name:var(--font-heading)]">Ratio</th>
+                <th className="text-right p-3 font-[family-name:var(--font-heading)]">Civilian %</th>
+              </tr>
+            </thead>
+            <tbody>
+              {casualtyTrends.map(c => (
+                <tr key={c.conflict} className="border-t border-stone-200">
+                  <td className="p-3 font-medium">{c.conflict}</td>
+                  <td className="p-3 text-right">{fmt(c.usDead)}</td>
+                  <td className="p-3 text-red-800 font-semibold text-right">{fmt(c.civDead)}</td>
+                  <td className="p-3 text-stone-500 text-right text-xs">{c.ratio}</td>
+                  <td className="p-3 text-stone-500 text-right">{c.civPct}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="bg-stone-50 py-16">
+        <div className="max-w-3xl mx-auto px-4 prose text-stone-600">
           <p>
             &ldquo;Precision&rdquo; weapons have not made war more humane — they have made it easier to wage,
             which means it is waged more often, in more places, with less accountability. When you can drop a
@@ -252,26 +309,54 @@ export default function ModernWarsPage() {
             both from moral reckoning.
           </p>
 
+          <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
+            <p className="font-bold text-amber-900 font-[family-name:var(--font-heading)] text-lg mb-2">💡 Did You Know?</p>
+            <p className="text-amber-800">
+              During the peak of the Iraq War, there were <strong>more private military contractors</strong> (180,000)
+              in Iraq than US soldiers (157,000). Blackwater (now Academi) alone had over 1,000 armed operatives.
+              In 2007, Blackwater guards killed 17 Iraqi civilians in Nisour Square, Baghdad. Four guards were
+              convicted — then pardoned by President Trump in 2020.
+            </p>
+          </div>
+
           <h2 className="font-[family-name:var(--font-heading)]">The &ldquo;Indispensable Nation&rdquo; Myth</h2>
           <p>
             In 1998, Secretary of State Madeleine Albright declared: &ldquo;If we have to use force, it is
-            because we are America. We are the indispensable nation.&rdquo; This belief — that America has a
-            unique right and obligation to use military force anywhere in the world — has been the ideological
-            engine of every post-Cold War intervention.
+            because we are America. We are the indispensable nation.&rdquo; This belief has been the ideological
+            engine of every post-Cold War intervention. The record:
           </p>
+          <ul>
+            <li><strong>Bosnia:</strong> Relative success — but Europe could have handled it</li>
+            <li><strong>Kosovo:</strong> NATO won the air war but created a weak, corrupt state</li>
+            <li><strong>Afghanistan:</strong> 20 years, $2.3T, Taliban is back</li>
+            <li><strong>Iraq:</strong> Destabilized the entire Middle East, birthed ISIS</li>
+            <li><strong>Libya:</strong> Created a failed state with open slave markets</li>
+            <li><strong>Syria:</strong> Achieved nothing; Assad survived; Russia and Iran won</li>
+            <li><strong>Yemen:</strong> Made the world&apos;s worst humanitarian crisis worse</li>
+            <li><strong>Somalia:</strong> 20+ years of strikes, al-Shabaab still operational</li>
+          </ul>
           <p>
-            The record does not support the myth. Bosnia: relative success, but Europe could have handled it.
-            Kosovo: NATO won the air war but created a weak, corrupt state. Afghanistan: 20 years, $2.3 trillion,
-            and the Taliban is back. Iraq: destabilized the entire Middle East and gave birth to ISIS. Libya:
-            created a failed state. Syria: achieved nothing. Yemen: made the world&apos;s worst humanitarian
-            crisis worse.
+            Military power cannot build nations, cannot impose democracy, and cannot resolve the political,
+            ethnic, and religious conflicts that drive most wars. America has spent trillions learning this
+            lesson — and keeps refusing to learn it.
           </p>
+
+          <h2 className="font-[family-name:var(--font-heading)]">Iran 2026: The Pattern Repeats</h2>
           <p>
-            In each case, the US intervened believing it could reshape foreign societies through military force.
-            In each case, it couldn&apos;t. The &ldquo;indispensable nation&rdquo; has spent trillions of dollars
-            and hundreds of thousands of lives learning — and refusing to learn — that military power cannot
-            build nations, cannot impose democracy, and cannot resolve the political, ethnic, and religious
-            conflicts that drive most wars.
+            In early 2026, the United States launched military strikes against Iranian nuclear and military
+            facilities — without congressional authorization. The justification: preventing Iran from
+            developing nuclear weapons capability. The pattern is familiar:
+          </p>
+          <ul>
+            <li><strong>Threat inflation:</strong> Iran&apos;s nuclear program framed as existential threat to US</li>
+            <li><strong>No congressional vote:</strong> President cited Article II authority and 2002 Iraq AUMF</li>
+            <li><strong>Promise of limited scope:</strong> &ldquo;Targeted strikes, not regime change&rdquo;</li>
+            <li><strong>Escalation risk:</strong> Iran has allies throughout the region; Hezbollah, Iraqi militias, Houthis</li>
+            <li><strong>No exit strategy:</strong> What happens after the strikes? Nobody can say.</li>
+          </ul>
+          <p>
+            Whether Iran becomes the next Iraq or remains &ldquo;limited&rdquo; is an open question. But the
+            pattern — promise limits, escalate, get stuck — has repeated too many times to ignore.
           </p>
 
           <div className="not-prose bg-amber-50 border border-amber-200 rounded-xl p-6 my-8">
@@ -280,7 +365,8 @@ export default function ModernWarsPage() {
               The 2001 Authorization for Use of Military Force (AUMF) — just <strong>60 words</strong> —
               has been used to justify military operations in at least <strong>22 countries</strong> across
               two decades. It was passed with a single dissenting vote (Barbara Lee, D-CA), who warned:
-              &ldquo;Let us not become the evil we deplore.&rdquo; She was right.
+              &ldquo;Let us not become the evil we deplore.&rdquo; Twenty-four years later, it remains the
+              legal basis for America&apos;s global war.
             </p>
           </div>
 
@@ -294,25 +380,24 @@ export default function ModernWarsPage() {
             <li>Iraq (2003) destroyed state institutions → which created ISIS → which required intervention in Syria</li>
             <li>Libya (2011) created a failed state → which flooded weapons across North Africa → which destabilized the Sahel</li>
             <li>Yemen support (2015) empowered Houthis as resistance figures → which led to Red Sea attacks → which requires new strikes (2024)</li>
+            <li>Iran strikes (2026) risk regional escalation → which could involve Hezbollah, Iraq, Yemen → which would require... more war</li>
           </ul>
           <p>
-            Each intervention produces blowback that becomes the justification for the next intervention.
-            The cycle is self-sustaining — and enormously profitable for the defense industry that fuels it.
-            There is always a new threat, always a new enemy, always a new reason to spend another trillion dollars.
-            The wars never end because they were never meant to.
+            The cycle is self-sustaining — and enormously profitable for the defense industry. There is always a new threat,
+            always a new enemy, always a new reason to spend another trillion dollars. The wars never end because
+            they were never meant to.
           </p>
-
-          <blockquote className="border-l-4 border-red-800">
-            &ldquo;We have been the cowards, lobbing cruise missiles from 2,000 miles away.
-            That&apos;s cowardly. Staying in the airplane when it hits the building — say what you
-            want about it, it&apos;s not cowardly.&rdquo;
-            <br />— Bill Maher, September 17, 2001 (fired for saying it)
-          </blockquote>
 
           <blockquote className="border-l-4 border-red-800">
             &ldquo;They that can give up essential liberty to obtain a little temporary safety
             deserve neither liberty nor safety.&rdquo;
             <br />— Benjamin Franklin
+          </blockquote>
+
+          <blockquote className="border-l-4 border-red-800">
+            &ldquo;War is a racket. It always has been. It is the only one in which the profits are
+            reckoned in dollars and the losses in lives.&rdquo;
+            <br />— Major General Smedley Butler, USMC, 1935
           </blockquote>
         </div>
       </section>
@@ -378,7 +463,7 @@ export default function ModernWarsPage() {
               How 60 Words Changed Everything →
             </Link>
             <Link href="/analysis/iran-2026" className="border border-red-700 hover:border-red-500 text-red-400 px-6 py-3 rounded-lg font-semibold transition">
-              What&apos;s Next: Iran? →
+              What&apos;s Next: Iran 2026 →
             </Link>
           </div>
         </div>
@@ -391,10 +476,12 @@ export default function ModernWarsPage() {
           <ul className="space-y-2">
             <li><Link href="/conflicts" className="text-red-800 hover:underline">→ All Conflicts — Every US war since 1776</Link></li>
             <li><Link href="/analysis/forever-wars" className="text-red-800 hover:underline">→ Forever Wars — The 60 words that enabled it all</Link></li>
-            <li><Link href="/analysis/iran-2026" className="text-red-800 hover:underline">→ Iran 2026 — Is the next war already planned?</Link></li>
+            <li><Link href="/analysis/iran-2026" className="text-red-800 hover:underline">→ Iran 2026 — The newest forever war</Link></li>
             <li><Link href="/analysis/drone-wars" className="text-red-800 hover:underline">→ Drone Wars — Killing by remote control</Link></li>
+            <li><Link href="/analysis/blowback" className="text-red-800 hover:underline">→ Blowback — How interventions create new enemies</Link></li>
             <li><Link href="/veteran-suicide" className="text-red-800 hover:underline">→ Veteran Suicide — The war that follows them home</Link></li>
             <li><Link href="/cost-of-war" className="text-red-800 hover:underline">→ Cost of War — $11.3 trillion and counting</Link></li>
+            <li><Link href="/analysis/ukraine-proxy" className="text-red-800 hover:underline">→ Ukraine — The $175B proxy war</Link></li>
           </ul>
         </div>
       </section>

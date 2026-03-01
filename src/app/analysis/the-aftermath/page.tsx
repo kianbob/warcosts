@@ -373,6 +373,72 @@ export default function AftermathPage() {
         </div>
       </div>
 
+      {/* Broken promises */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Broken Promises: What They Said vs. What Happened</h2>
+        <p className="text-stone-700 mb-4">
+          Every war begins with promises. Every aftermath reveals them as lies:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { promise: '"The war will pay for itself through Iraqi oil revenues."', who: 'Deputy Secretary Paul Wolfowitz, 2003', reality: 'Cost: $2.4 trillion. Iraqi oil revenue covered a tiny fraction. American taxpayers paid for everything.' },
+            { promise: '"We will be greeted as liberators."', who: 'Vice President Dick Cheney, 2003', reality: 'Insurgency within months. Civil war by 2006. 300,000+ Iraqi civilians killed.' },
+            { promise: '"Weeks, not months."', who: 'Secretary Donald Rumsfeld, on the Iraq War timeline', reality: '20+ years. US troops still in Iraq in 2025.' },
+            { promise: '"Mission Accomplished."', who: 'Banner on USS Abraham Lincoln, May 2003', reality: '4,431 of the 4,599 US deaths in Iraq occurred after the "Mission Accomplished" declaration.' },
+            { promise: '"We will rebuild Afghanistan into a stable democracy."', who: 'Multiple administrations, 2001-2021', reality: 'Taliban returned to power in 11 days. Girls banned from school. Humanitarian crisis.' },
+            { promise: '"The Afghan security forces are capable of defending their country."', who: 'Pentagon assessments through 2021', reality: '300,000 troops (on paper) collapsed in 11 days. $83B in equipment abandoned.' },
+            { promise: '"We\'re turning the corner in Afghanistan."', who: 'Said by officials in 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019', reality: 'The Afghanistan Papers revealed officials knew they were losing throughout.' },
+          ].map(p => (
+            <div key={p.promise} className="bg-stone-50 rounded-lg p-4">
+              <p className="text-sm italic text-stone-700">{p.promise}</p>
+              <p className="text-xs text-stone-500">— {p.who}</p>
+              <p className="text-xs text-red-600 mt-1"><strong>Reality:</strong> {p.reality}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Political instability after intervention */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Political Instability: War Exports Chaos</h2>
+        <p className="text-stone-700 mb-4">
+          The aftermath of war doesn&apos;t stay in the war zone. It radiates outward, destabilizing entire
+          regions and reshaping the politics of distant countries:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The Syrian Refugee Crisis → European Far-Right</h3>
+            <p className="text-sm text-stone-700">
+              The US-involved Syrian conflict produced 6.8 million refugees. Millions fled to Europe, triggering
+              the 2015 migration crisis. This fueled the rise of far-right, anti-immigrant parties across Europe:
+              Brexit in the UK. Le Pen in France. AfD in Germany. Orbán in Hungary. The Meloni government in Italy.
+              The political map of Europe was redrawn by the aftermath of a war in which the US armed rebels,
+              bombed ISIS, and refused to accept significant numbers of the resulting refugees.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Libyan Weapons → Sahel Insurgencies</h3>
+            <p className="text-sm text-stone-700">
+              After the 2011 NATO bombing of Libya, Gaddafi&apos;s massive weapons stockpiles — including
+              anti-aircraft missiles, RPGs, and heavy weapons — flooded across the Sahel. These weapons
+              fueled insurgencies in Mali (2012 coup), Niger, Burkina Faso, and Nigeria (Boko Haram). France
+              deployed troops. The US deployed special operations forces. An entirely new theater of the
+              War on Terror was created by the aftermath of the previous intervention.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Iraq → Iran&apos;s Regional Dominance</h3>
+            <p className="text-sm text-stone-700">
+              The invasion of Iraq removed Iran&apos;s primary regional enemy (Saddam) and installed a
+              Shia-majority government aligned with Tehran. Iran now exerts enormous influence over Iraq&apos;s
+              government, military, and economy — through militias, political parties, and economic ties.
+              The US spent $2.4 trillion and over 4,500 American lives to hand Iraq to the very country
+              it was supposedly containing.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* The pattern */}
       <div className="prose prose-stone max-w-none mb-8">
         <h2 className="font-[family-name:var(--font-heading)]">The Pattern: Expose, Deny, Delay, Concede</h2>
@@ -663,6 +729,118 @@ export default function AftermathPage() {
           <li>• An estimated <strong>37,000 veterans</strong> are homeless on any given night. The nation that asks them to die for it can&apos;t house them.</li>
           <li>• Jon Stewart&apos;s viral testimony before Congress in 2022 is widely credited with shaming legislators into passing the PACT Act for burn pit victims.</li>
         </ul>
+      </div>
+
+      {/* The debt burden */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Debt Burden: Wars Paid For With Borrowed Money</h2>
+        <p className="text-stone-700 mb-4">
+          Unlike World War II — which was partly funded through war bonds, tax increases, and rationing —
+          the post-9/11 wars have been funded <strong>entirely through borrowing</strong>. The Bush
+          administration cut taxes <em>while</em> launching two wars — the first time in American history
+          a president reduced taxes during wartime.
+        </p>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          {[
+            { stat: '$1.1T+', label: 'Interest paid on war borrowing to date', source: 'Costs of War Project' },
+            { stat: '$6.5T', label: 'Projected interest payments through 2050', source: 'Watson Institute' },
+            { stat: '~$0', label: 'War taxes imposed on current generation', source: 'All costs pushed to future taxpayers' },
+          ].map(s => (
+            <div key={s.label} className="bg-stone-50 rounded-lg p-4 text-center border">
+              <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="text-sm font-medium">{s.label}</p>
+              <p className="text-[10px] text-stone-400">{s.source}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          The interest on war borrowing alone — <strong>$1.1 trillion already, $6.5 trillion projected</strong> —
+          will eventually exceed the direct cost of the wars themselves. Future generations will be paying
+          interest on wars that were fought before they were born, for objectives that were never achieved,
+          based on intelligence that was wrong.
+        </p>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;It is incumbent on every generation to pay its own debts as it goes. A principle which if
+          acted on, would save one-half the wars of the world.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Thomas Jefferson, 1820</span>
+        </blockquote>
+      </div>
+
+      {/* The veteran care timeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The 50-Year Tail: Why War Costs Keep Growing</h2>
+        <p className="text-stone-700 mb-4">
+          The long-term cost pattern of veteran care follows a predictable but devastating timeline:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { war: 'World War I (1917-1918)', peak: 'VA costs peaked in 1969 — 51 years later', note: 'Last WWI veteran died in 2011, age 110' },
+            { war: 'World War II (1941-1945)', peak: 'VA costs peaked in 1986 — 41 years later', note: 'WWII veterans still receiving VA care into the 2020s' },
+            { war: 'Korean War (1950-1953)', peak: 'Costs peaked ~1995', note: 'Korean War veterans average age: 88' },
+            { war: 'Vietnam War (1955-1975)', peak: 'VA costs peaking NOW', note: 'Agent Orange claims still growing. 6 million Vietnam-era vets still alive' },
+            { war: 'Gulf War (1990-1991)', peak: 'Gulf War Illness costs still rising', note: '250,000 affected. Recognition delayed decades.' },
+            { war: 'War on Terror (2001-present)', peak: 'Peak costs projected: 2050s-2060s', note: 'Youngest veterans won\'t reach peak care needs for 30+ years' },
+          ].map(w => (
+            <div key={w.war} className="flex gap-3 border-b border-stone-100 pb-2">
+              <div className="flex-1">
+                <p className="text-sm font-semibold">{w.war}</p>
+                <p className="text-xs text-red-600">{w.peak}</p>
+                <p className="text-[10px] text-stone-400">{w.note}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The pattern is clear and inescapable: <strong>the peak cost of caring for veterans comes 30-50 years
+          after a war ends</strong>. War on Terror veterans are currently in their 20s through 50s. Their
+          healthcare needs — PTSD treatment, TBI management, prosthetics, chronic pain, cancer screening for
+          burn pit exposure — will increase as they age. The true cost of Iraq and Afghanistan won&apos;t be
+          known until the 2060s. America won&apos;t stop paying for these wars until the last veteran dies,
+          likely around 2090.
+        </p>
+      </div>
+
+      {/* What other countries got wrong */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Lessons Never Learned: The Same Mistakes, Every Time</h2>
+        <p className="text-stone-700 mb-4">
+          The British Empire learned in Afghanistan. The Soviet Union learned in Afghanistan. The US
+          refused to learn:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Britain: 3 Afghan Wars (1839, 1878, 1919)</h3>
+            <p className="text-sm text-stone-700">
+              Britain invaded Afghanistan three times, losing each time. The First Anglo-Afghan War (1839-1842)
+              resulted in the destruction of an entire British army — 16,500 soldiers and camp followers.
+              One survivor reached Jalalabad. Britain eventually concluded that Afghanistan could not be
+              conquered. America did not read the memo.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Soviet Union: Afghanistan (1979-1989)</h3>
+            <p className="text-sm text-stone-700">
+              The Soviet Union spent 10 years in Afghanistan, lost 15,000 soldiers, killed approximately
+              1.5 million Afghans, and withdrew in defeat. The experience contributed to the collapse of
+              the Soviet Union itself. American officials who witnessed the Soviet debacle then repeated
+              it — with a 20-year war that produced the same result: withdrawal, Taliban victory, nothing
+              accomplished.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">France: Indochina → America: Vietnam</h3>
+            <p className="text-sm text-stone-700">
+              France fought and lost in Indochina (1946-1954). The decisive defeat at Dien Bien Phu led to
+              French withdrawal. America immediately stepped in, eventually committing 536,000 troops and
+              losing 58,220 Americans in a war that ended in the same result: communist victory. The US
+              learned nothing from France&apos;s experience.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;Those who cannot remember the past are condemned to repeat it.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— George Santayana</span>
+        </blockquote>
       </div>
 
       {/* The real cost */}

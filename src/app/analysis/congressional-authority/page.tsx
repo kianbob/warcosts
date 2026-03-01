@@ -492,6 +492,74 @@ export default function CongressionalAuthorityPage() {
         </div>
       </div>
 
+      {/* Other unauthorized interventions */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Creeping Expansion: Lesser-Known Unauthorized Operations</h2>
+        <p className="text-stone-700 mb-4">
+          Beyond the major wars, dozens of smaller military operations have been conducted without
+          meaningful congressional authorization:
+        </p>
+        <div className="space-y-3 mb-4">
+          {[
+            { year: '1983', op: 'Lebanon (241 Marines killed in barracks bombing)', auth: 'Reagan deployed Marines as "peacekeepers" — no AUMF. Deadliest day for Marines since Iwo Jima.' },
+            { year: '1983', op: 'Grenada invasion', auth: 'Reagan invaded without congressional authorization. Justified as "protecting" American medical students.' },
+            { year: '1986', op: 'Libya bombing', auth: 'Reagan bombed Gaddafi\'s compound. Killed his adopted infant daughter. No congressional vote.' },
+            { year: '1989', op: 'Panama invasion', auth: 'Bush Sr. invaded to arrest Noriega — a former CIA asset. 500+ Panamanian civilians killed. No declaration.' },
+            { year: '1993', op: 'Somalia — Black Hawk Down', auth: 'Humanitarian mission devolved into combat. 18 Americans killed. No war authorization.' },
+            { year: '1998', op: 'Sudan/Afghanistan cruise missiles', auth: 'Clinton bombed a pharmaceutical factory in Sudan and camps in Afghanistan. No authorization. Sudan factory was not making WMDs.' },
+            { year: '1999', op: 'Kosovo — 78-day bombing campaign', auth: 'Clinton bombed Serbia for 78 days without congressional authorization. Exceeded 60-day War Powers limit. Administration said it wasn\'t "hostilities."' },
+            { year: '2017', op: 'Syria — cruise missile strike', auth: 'Trump fired 59 Tomahawks at Syria. No authorization sought. Justified as response to chemical weapons attack.' },
+            { year: '2018', op: 'Syria — second strike', auth: 'Trump ordered strikes again. Congress not consulted. UK and France joined. No UN authorization.' },
+            { year: '2024', op: 'Yemen — Houthi strikes', auth: 'Biden ordered strikes on Houthi targets. No new authorization. Cited self-defense of shipping lanes.' },
+          ].map(o => (
+            <div key={o.year + o.op} className="border-l-4 border-red-200 pl-4">
+              <p className="text-sm"><span className="font-mono text-red-600">{o.year}</span> — <strong>{o.op}</strong></p>
+              <p className="text-xs text-stone-500">{o.auth}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The pattern is bipartisan: Republican and Democratic presidents alike wage war without authorization.
+          The justifications change — &ldquo;police action,&rdquo; &ldquo;not hostilities,&rdquo;
+          &ldquo;self-defense,&rdquo; &ldquo;inherent Article II authority&rdquo; — but the result is the
+          same: the President bombs whoever he wants, whenever he wants, and Congress does nothing.
+        </p>
+      </div>
+
+      {/* The Rand Paul filibuster */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Rand Paul&apos;s Filibuster: 12 Hours and 52 Minutes</h2>
+        <p className="text-stone-700 mb-4">
+          On March 6, 2013, Senator Rand Paul held a <strong>12-hour, 52-minute filibuster</strong> against
+          the nomination of John Brennan as CIA director — demanding the Obama administration answer a
+          simple question: <em>Does the President have the authority to use drones to kill American citizens
+          on American soil without due process?</em>
+        </p>
+        <p className="text-stone-700 mb-4">
+          The administration initially refused to answer. Attorney General Eric Holder had previously sent
+          a letter suggesting the President could theoretically order drone strikes on US soil in
+          &ldquo;extraordinary circumstances.&rdquo; Paul found this unacceptable:
+        </p>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic mb-4">
+          &ldquo;I will speak until I can no longer speak. I will speak as long as it takes, until the
+          alarm is sounded from coast to coast that our Constitution is important, that your rights to
+          trial by jury are precious, that no American should be killed by a drone on American soil
+          without first being charged with a crime, without first being found guilty by a court.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Senator Rand Paul, March 6, 2013</span>
+        </blockquote>
+        <p className="text-stone-700 mb-4">
+          The filibuster drew bipartisan support — Senators Ron Wyden (D-OR), Ted Cruz (R-TX), and
+          Mike Lee (R-UT) joined. #StandWithRand trended nationally. The next day, the administration
+          finally confirmed that the President does not have authority to kill a non-combatant American
+          citizen on US soil.
+        </p>
+        <p className="text-stone-700">
+          It was a rare moment when a single senator forced the executive branch to acknowledge a
+          constitutional limit on its power. But the broader pattern — executive war-making without
+          congressional authorization — continued unchanged.
+        </p>
+      </div>
+
       {/* The Imperial Presidency */}
       <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Imperial Presidency</h2>
@@ -515,6 +583,66 @@ export default function CongressionalAuthorityPage() {
             of war.
           </p>
         </div>
+      </div>
+
+      {/* The Secret Wars */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Secret Wars: Covert Operations Congress Never Authorized</h2>
+        <p className="text-stone-700 mb-4">
+          Beyond the acknowledged wars, the executive branch has conducted hundreds of covert operations
+          that Congress was never asked to authorize — and often wasn&apos;t told about until years later:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Section 127e Operations</h3>
+            <p className="text-sm text-stone-700">
+              Section 127e of Title 10 allows the Pentagon to use foreign forces as surrogates — providing
+              them with equipment, training, and intelligence to conduct operations the US doesn&apos;t want
+              to carry out directly. These &ldquo;127e programs&rdquo; operate in <strong>dozens of countries</strong>
+              across Africa and the Middle East with minimal congressional oversight. They are, in effect,
+              proxy wars that Congress never voted for.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">CIA Covert Action (Title 50)</h3>
+            <p className="text-sm text-stone-700">
+              Under Title 50 of the US Code, the President can authorize covert action through a
+              &ldquo;finding&rdquo; — a classified document signed by the President and briefed to
+              the &ldquo;Gang of Eight&rdquo; (congressional leadership and intelligence committee chairs).
+              These members cannot share the information, cannot debate it publicly, and have no power to
+              veto the action. The result: the President can wage secret wars with the knowledge of 8
+              people in Congress, who are sworn to silence.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Cyber Operations</h3>
+            <p className="text-sm text-stone-700">
+              US Cyber Command conducts offensive cyber operations — attacking computer systems, disrupting
+              infrastructure, and conducting espionage — in countries around the world. Many of these
+              operations are classified. The legal framework for cyber warfare is murky, with no clear
+              congressional authorization. The Stuxnet attack on Iran&apos;s nuclear centrifuges — widely
+              attributed to the US and Israel — was an act of sabotage against a sovereign nation&apos;s
+              critical infrastructure, conducted without any form of congressional authorization or public debate.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Special Operations: 149 Countries in One Year</h3>
+            <p className="text-sm text-stone-700">
+              As journalist Nick Turse documented, US special operations forces deployed to <strong>149
+              countries</strong> in 2017 — 75% of the world&apos;s nations. These deployments include
+              direct action missions, training foreign forces, intelligence gathering, and &ldquo;advise
+              and assist&rdquo; operations that sometimes cross into combat. Most are conducted under
+              blanket authorities that require no specific congressional approval.
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          The cumulative effect: the United States is waging war in some form in most of the world, most
+          of the time, with minimal democratic input. The Constitution&apos;s requirement that Congress
+          authorize military force has been bypassed not through a single dramatic act but through a thousand
+          small erosions — each one expanding presidential authority incrementally until the original
+          constraint is meaningless.
+        </p>
       </div>
 
       {/* What the Founders Would Say */}

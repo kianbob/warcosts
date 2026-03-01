@@ -221,6 +221,121 @@ export default function DroneWarsPage() {
         </blockquote>
       </div>
 
+      {/* The cost of drone warfare */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Economics of Remote-Control Killing</h2>
+        <p className="text-stone-700 mb-4">
+          Drone warfare is often sold as cheaper than conventional military operations. The numbers tell
+          a more complex story:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { item: 'MQ-9 Reaper drone', cost: '$32M each', note: 'General Atomics. 300+ in USAF fleet.' },
+            { item: 'AGM-114 Hellfire missile', cost: '$150K each', note: 'Lockheed Martin. ~100,000 produced.' },
+            { item: 'Flight hour cost (Reaper)', cost: '$4,762/hour', note: '14+ hour missions = $66K+ per sortie' },
+            { item: 'Ground control station', cost: '$12M each', note: 'Plus satellite bandwidth: $500K+/yr per drone' },
+            { item: 'Total drone program cost (est.)', cost: '$50B+ since 2001', note: 'Acquisition, operation, intelligence support' },
+            { item: 'Cost per strike (estimated)', cost: '$3-4M', note: 'Including intelligence, planning, missile, flight time' },
+          ].map(i => (
+            <div key={i.item} className="bg-stone-50 rounded-lg p-3 border">
+              <p className="text-sm font-semibold">{i.item}: <span className="text-red-700">{i.cost}</span></p>
+              <p className="text-[10px] text-stone-400">{i.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 mb-4">
+          General Atomics — the sole manufacturer of the Predator and Reaper drones — has been one of the
+          War on Terror&apos;s biggest beneficiaries. A privately held company (not publicly traded), it has
+          earned billions from drone production. The Linden and Blue families, who own General Atomics, have
+          contributed millions to political campaigns. The company has spent over <strong>$60 million on
+          lobbying</strong> since 2001.
+        </p>
+        <p className="text-stone-700">
+          The proliferation risk is also enormous. At least <strong>30 countries</strong> now operate armed
+          drones — including China, Turkey, Iran, and the UAE. Turkey used drones to devastating effect in
+          Libya, Syria, and the Armenia-Azerbaijan conflict. The US pioneered armed drone warfare; now every
+          authoritarian regime on Earth wants the same capability. The precedents the US set — extrajudicial
+          killing, signature strikes, civilian casualty tolerance — will be cited by every future drone user.
+        </p>
+      </div>
+
+      {/* The transparency problem */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Transparency Black Hole</h2>
+        <p className="text-stone-700 mb-4">
+          The drone program has been characterized by systematic opacity — making accountability impossible:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">CIA Strikes: Officially They Don&apos;t Exist</h3>
+            <p className="text-sm text-stone-700">
+              CIA drone strikes are classified. The US government&apos;s official position is that they did not
+              occur. When a CIA drone kills people in Pakistan, the US government cannot acknowledge it happened,
+              cannot confirm or deny casualties, and cannot be held accountable for the results. The strikes
+              exist in a legal and factual void — documented by journalists and NGOs, denied by the perpetrator.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Civilian Casualty Counting: Designed to Undercount</h3>
+            <p className="text-sm text-stone-700">
+              The government counts civilian casualties using a methodology designed to minimize the number:
+              all military-age males in a strike zone are counted as combatants by default. Only individuals
+              posthumously proven to be civilians are reclassified. The dead cannot prove their innocence.
+              Independent organizations (Bureau of Investigative Journalism, Airwars) consistently document
+              <strong>2-10× more civilian casualties</strong> than the government acknowledges.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Trump&apos;s Transparency Rollback</h3>
+            <p className="text-sm text-stone-700">
+              In 2019, Trump revoked Obama&apos;s executive order requiring the government to publish an annual
+              report on drone strikes and civilian casualties outside active war zones. The executive order was
+              itself inadequate — but Trump eliminated even that minimal transparency. Drone strikes became
+              officially invisible: no acknowledgment, no casualty count, no accountability.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Congressional Oversight: Minimal to Nonexistent</h3>
+            <p className="text-sm text-stone-700">
+              The intelligence committees receive classified briefings on the drone program — but the information
+              is often incomplete, and members are prohibited from discussing it publicly. When Senator Ron Wyden
+              asked the administration to disclose the legal basis for killing American citizens with drones, it
+              took <strong>years of demands</strong> before a heavily redacted memo was released.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* International proliferation */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Global Proliferation: America&apos;s Precedent Goes Worldwide</h2>
+        <p className="text-stone-700 mb-4">
+          The US established the norms for armed drone use. Those norms are now being adopted by the world:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { country: 'China', drones: 'CH-4, CH-5, Wing Loong II', note: 'Sold armed drones to Pakistan, UAE, Saudi Arabia, Nigeria, Egypt, Myanmar. Fewer restrictions than US arms sales.' },
+            { country: 'Turkey', drones: 'Bayraktar TB2', note: 'Used devastatingly in Libya, Syria, Armenia-Azerbaijan war. Game-changer in modern warfare. Exported widely.' },
+            { country: 'Iran', drones: 'Shahed-136, Mohajer-6', note: 'Supplied to Russia for use in Ukraine. Used by Houthi rebels in Yemen. Growing export market.' },
+            { country: 'Israel', drones: 'Hermes 450/900, Heron', note: 'Extensive use in Gaza and Lebanon. Exported to India, Azerbaijan, and others.' },
+            { country: 'Russia', drones: 'Orion, Orlan-10, Iranian Shahed', note: 'Extensive use in Ukraine. Initially behind but rapidly developing.' },
+          ].map(c => (
+            <div key={c.country} className="border-l-4 border-stone-200 pl-4">
+              <p className="text-sm font-semibold">{c.country}: <span className="text-stone-500 font-normal">{c.drones}</span></p>
+              <p className="text-xs text-stone-500">{c.note}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The precedent the US set — that a country can use armed drones to kill people in other countries
+          without a declaration of war, without judicial process, and without accountability — has been
+          enthusiastically adopted by authoritarian regimes worldwide. When China eventually uses armed
+          drones to kill Uyghur dissidents abroad, or when Russia uses them to assassinate opposition
+          figures, they will cite American precedent. The norms America established will be America&apos;s
+          blowback.
+        </p>
+      </div>
+
       {/* By president */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Escalation: President by President</h2>
@@ -365,6 +480,110 @@ export default function DroneWarsPage() {
           them as combat veterans, denying them combat-related benefits. Many who left the military report being unable
           to discuss their work due to classification — unable to get help for trauma they can&apos;t describe.
         </p>
+      </div>
+
+      {/* The Intercept Drone Papers */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Drone Papers: What the Government Doesn&apos;t Want You to Know</h2>
+        <p className="text-stone-700 mb-4">
+          In October 2015, <em>The Intercept</em> published &ldquo;The Drone Papers&rdquo; — a series based
+          on classified documents leaked by a whistleblower inside the intelligence community. The documents
+          revealed:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">90% of People Killed Were Not the Intended Target</h3>
+            <p className="text-sm text-stone-700">
+              During one five-month period of operations in northeastern Afghanistan (Operation Haymaker),
+              <strong>nearly 90% of the people killed in airstrikes were not the intended targets</strong>.
+              These unintended deaths were classified as &ldquo;enemies killed in action&rdquo; (EKIA) —
+              enemy combatants — regardless of whether they actually were. The government&apos;s civilian
+              casualty counts are, by design, massive undercounts.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The &ldquo;Kill Chain&rdquo;</h3>
+            <p className="text-sm text-stone-700">
+              The documents described the bureaucratic process for approving targeted killings — a 60-day
+              cycle from identification to authorization. During this period, the target is tracked, analyzed,
+              and placed on a &ldquo;kill list&rdquo; that the President reviews. The process was designed to
+              be efficient — to maximize throughput of killing decisions.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Signals Intelligence Over Human Intelligence</h3>
+            <p className="text-sm text-stone-700">
+              The documents showed heavy reliance on signals intelligence (phone metadata, email patterns)
+              rather than human intelligence for targeting decisions. In practice, this means targets were
+              often identified by their phone&apos;s location — and if someone else was carrying the phone
+              (or the phone was in the wrong location), the wrong person died.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">The &ldquo;Baseball Card&rdquo;</h3>
+            <p className="text-sm text-stone-700">
+              Each approved target received a &ldquo;baseball card&rdquo; — a one-page profile with their
+              photo, biographical information, and justification for killing. These cards were presented to
+              the President during &ldquo;Terror Tuesday&rdquo; meetings. The President would review the card
+              and approve or defer. The formality of the process — its bureaucratic neatness — belied the
+              reality: a human being was being sentenced to death by executive fiat, without trial, based on
+              intelligence that was often wrong.
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-700">
+          The whistleblower who leaked the documents said: <em>&ldquo;This outrageous explosion of watchlisting
+          — of monitoring people and then potentially killing them — has been at the center of the government&apos;s
+          anti-terrorism strategy. Anyone caught up in the dragnet of the watchlist can be forever affected.&rdquo;</em>
+          Daniel Hale was later identified as the leaker. He was sentenced to <strong>45 months in federal prison</strong>
+          in 2021 — while the officials who authorized the killing of thousands of people, including American
+          citizens, faced no consequences.
+        </p>
+      </div>
+
+      {/* Autonomous weapons */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Future: Autonomous Weapons and AI-Driven Killing</h2>
+        <p className="text-stone-700 mb-4">
+          The current drone program — with human operators making kill decisions — may represent the
+          <em>most restrained</em> version of remote-control warfare we&apos;ll ever see. The military is
+          actively developing autonomous weapons systems that can select and engage targets without human intervention:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Project Maven</h3>
+            <p className="text-sm text-stone-700">
+              The Pentagon&apos;s Project Maven uses AI to analyze drone footage and identify targets. Google
+              employees protested their company&apos;s involvement, and Google withdrew. But the program continues
+              with other contractors. The goal: machines that identify &ldquo;targets of interest&rdquo; faster
+              than humans can.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Collaborative Combat Aircraft (CCA)</h3>
+            <p className="text-sm text-stone-700">
+              The Air Force is developing autonomous &ldquo;wingman&rdquo; drones that fly alongside manned
+              fighters. These AI-piloted aircraft can make tactical decisions in real-time. The question of
+              when — not whether — these systems will be authorized to fire without human approval is one of
+              the most important ethical questions of the century.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Replicator Initiative</h3>
+            <p className="text-sm text-stone-700">
+              In 2023, the Pentagon launched the Replicator Initiative to field &ldquo;autonomous systems at
+              scale of multiple thousands, in multiple domains, within 18 to 24 months.&rdquo; The initiative
+              aims to counter China with masses of small, cheap, autonomous drones. The ethics of deploying
+              thousands of AI-controlled killing machines have barely been discussed.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;The question is not whether machines will be able to kill humans. They already can. The
+          question is whether we will allow machines to decide which humans to kill — without a human in
+          the loop. That line, once crossed, cannot be uncrossed.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— International Committee for Robot Arms Control</span>
+        </blockquote>
       </div>
 
       {/* The chart */}

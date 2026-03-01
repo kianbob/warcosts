@@ -278,6 +278,62 @@ export default function EmpireOfBasesPage() {
         </div>
       </div>
 
+      {/* Incirlik and Nuclear Weapons */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">Incirlik: 50 Nuclear Weapons in an Unstable NATO Ally</h2>
+        <p className="text-stone-700 mb-4">
+          Incirlik Air Base in Turkey stores approximately <strong>50 US B61 nuclear gravity bombs</strong> —
+          making it one of the largest nuclear weapons storage sites in Europe. These weapons are part of
+          NATO&apos;s &ldquo;nuclear sharing&rdquo; arrangement, intended to be deliverable by Turkish F-16s
+          in wartime.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The security implications are alarming. Turkey under President Erdogan has:
+        </p>
+        <ul className="space-y-1 text-sm text-stone-700 mb-4">
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> Purchased the Russian S-400 air defense system — leading to US sanctions and expulsion from the F-35 program</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> Invaded Kurdish areas in Syria, attacking US-allied Kurdish forces</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> Experienced an attempted military coup in 2016 — during which the base was briefly surrounded</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> Jailed more journalists than any other country</li>
+          <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">•</span> Threatened to &ldquo;go it alone&rdquo; on multiple foreign policy issues</li>
+        </ul>
+        <p className="text-stone-700">
+          During the 2016 coup attempt, power to Incirlik was cut. Turkish authorities temporarily blocked
+          US operations from the base. For a period of hours, 50 nuclear weapons were in a base surrounded
+          by forces whose loyalty was uncertain. The weapons remain there today.
+        </p>
+      </div>
+
+      {/* Japan paying for bases */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Host Nation Support: Making Allies Pay for Their Own Occupation</h2>
+        <p className="text-stone-700 mb-4">
+          Several US allies pay significant &ldquo;host nation support&rdquo; to offset the cost of US
+          bases on their territory — a system Trump called &ldquo;protection money&rdquo;:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { country: 'Japan', amount: '$1.9B/year', note: 'Covers ~75% of US basing costs in Japan. Called "Omoiyari Yosan" (sympathy budget). Okinawans call it the price of occupation.' },
+            { country: 'South Korea', amount: '$1.1B/year', note: 'Covers ~40% of US basing costs. Trump demanded Korea pay 500% more. Negotiations ongoing.' },
+            { country: 'Germany', amount: '$1B/year (est.)', note: 'Various forms of support. Trump threatened to withdraw troops unless Germany paid more.' },
+            { country: 'Qatar', amount: 'Billions (construction)', note: 'Built Al Udeid Air Base largely at its own expense — the most important US air base in the Middle East.' },
+          ].map(c => (
+            <div key={c.country} className="flex items-center gap-3 border-b border-stone-100 pb-2">
+              <span className="w-24 text-sm font-semibold shrink-0">{c.country}</span>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700 shrink-0">{c.amount}</span>
+              <span className="text-xs text-stone-500">{c.note}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          The arrangement creates a perverse dynamic: wealthy allies spend less on their own defense because
+          the US provides it for them. This &ldquo;free-riding&rdquo; means American taxpayers subsidize the
+          defense of nations with per-capita GDPs exceeding their own. Japan has the world&apos;s 4th largest
+          economy. Germany has the largest economy in Europe. South Korea is a tech powerhouse. Yet American
+          soldiers defend their borders 80 years after the wars that put them there ended.
+        </p>
+      </div>
+
       {/* Cost question */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Cost: {fmtMoney(presence.annualBaseCost)}/Year (At Least)</h2>
@@ -314,6 +370,92 @@ export default function EmpireOfBasesPage() {
           the host country and in Congress. The base creates jobs, contracts, and economic activity. Closing it
           means eliminating all of that. So bases almost never close, regardless of whether the threat that
           justified them still exists.&rdquo;</em>
+        </p>
+      </div>
+
+      {/* South Korea deep dive */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">South Korea: 75 Years After the Armistice</h2>
+        <p className="text-stone-700 mb-4">
+          The US has maintained military bases in South Korea since 1950 — <strong>75 years</strong> after
+          the Korean War armistice. Approximately <strong>28,500 US troops</strong> are permanently stationed
+          there, at 73 military installations.
+        </p>
+        <p className="text-stone-700 mb-4">
+          South Korea is one of the world&apos;s most technologically advanced nations, with the 10th
+          largest GDP. Its military is among the most capable in Asia, with 500,000 active personnel and
+          advanced weapons systems. By any reasonable assessment, South Korea is capable of defending itself.
+          Yet the US maintains a military presence as if the 1953 armistice was signed yesterday.
+        </p>
+        <p className="text-stone-700 mb-4">
+          The US presence has generated significant friction. Crimes by US service members — including
+          assaults, drunk driving incidents, and a 2002 incident where a US military vehicle killed two
+          Korean schoolgirls — have triggered massive anti-American protests. The SOFA (Status of Forces
+          Agreement) has been revised multiple times due to public anger over perceived American impunity.
+        </p>
+        <p className="text-stone-700">
+          The US also maintains <strong>Camp Humphreys</strong> — the largest overseas US military installation
+          in the world, rebuilt at a cost of <strong>$11 billion</strong>. It houses 36,000 people. The base
+          is so large it has its own zip code. Building the most expensive overseas base in history doesn&apos;t
+          suggest planning for eventual withdrawal.
+        </p>
+      </div>
+
+      {/* Germany deep dive */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Germany: 80 Years After V-E Day</h2>
+        <p className="text-stone-700 mb-4">
+          The US maintains <strong>119 military installations</strong> in Germany — 80 years after the end
+          of World War II. Approximately <strong>34,000 US troops</strong> are permanently stationed there,
+          plus thousands of civilian employees and family members.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Key US installations in Germany include:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { base: 'Ramstein Air Base', role: 'Largest US air base in Europe. NATO Allied Air Command HQ. Drone relay station for Africa/Middle East operations.' },
+            { base: 'Landstuhl Regional Medical Center', role: 'Largest US military hospital outside the US. Primary trauma center for casualties from Middle East/Africa.' },
+            { base: 'US Army Garrison Stuttgart', role: 'AFRICOM and EUCOM headquarters. Commands all US military operations in Europe and Africa.' },
+            { base: 'Grafenwöhr Training Area', role: 'Largest US military training area in Europe. Live-fire exercises. NATO joint training.' },
+          ].map(b => (
+            <div key={b.base} className="border-l-4 border-stone-200 pl-4">
+              <p className="text-sm font-semibold">{b.base}</p>
+              <p className="text-xs text-stone-500">{b.role}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Germany has the largest economy in Europe, spends $67 billion per year on defense, and has one of
+          the most capable militaries in NATO. The Soviet Union — the threat that justified the US presence —
+          collapsed 34 years ago. Yet the US military presence in Germany is larger than in most countries
+          the US is actively at war with. The bases persist because they serve as staging areas for Middle
+          Eastern and African operations — and because 80 years of institutional inertia, economic dependency,
+          and political convenience make closure unthinkable.
+        </p>
+      </div>
+
+      {/* Djibouti and Africa */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Djibouti: America&apos;s Only Permanent African Base</h2>
+        <p className="text-stone-700 mb-4">
+          Camp Lemonnier in Djibouti is the only official permanent US military base in Africa — home to
+          <strong>4,000+ personnel</strong> and the hub for all US military and intelligence operations across
+          East Africa and the Arabian Peninsula. From Djibouti, the US conducts drone strikes in Somalia and
+          Yemen, special operations raids, intelligence gathering, and counterterrorism operations.
+        </p>
+        <p className="text-stone-700 mb-4">
+          Djibouti — a tiny nation of less than 1 million people — hosts military bases from the US,
+          France, China, Japan, and Italy. The country&apos;s primary source of revenue is base leasing fees.
+          The US pays approximately <strong>$63 million per year</strong> in rent. The base was expanded from
+          88 acres to 600 acres after 9/11, with $1.4 billion in construction spending.
+        </p>
+        <p className="text-stone-700">
+          Beyond Djibouti, the US operates a network of <strong>29+ sites across Africa</strong> — airfields,
+          drone bases, surveillance outposts, and special operations staging areas. Most are classified. Many
+          were established without public announcement. AFRICOM, created in 2007, commands all US military
+          operations on the continent. The expansion of US military presence in Africa is perhaps the least
+          reported story of the War on Terror.
         </p>
       </div>
 

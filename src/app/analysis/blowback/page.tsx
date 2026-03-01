@@ -255,6 +255,84 @@ export default function BlowbackPage() {
         </p>
       </div>
 
+      {/* Sanctions as blowback */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sanctions: The Slow-Motion Blowback</h2>
+        <p className="text-stone-700 mb-4">
+          Economic sanctions are often presented as an alternative to military force. In practice, they inflict
+          massive suffering on civilian populations while rarely changing regime behavior — and they generate
+          their own form of blowback:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Iraq Sanctions (1990-2003): 500,000 Children</h3>
+            <p className="text-sm text-stone-700">
+              UN sanctions on Iraq from 1990 to 2003 devastated the civilian population. UNICEF estimated that
+              <strong>500,000 Iraqi children under 5 died</strong> from sanctions-related causes — contaminated
+              water, lack of medicine, malnutrition. Iraq&apos;s healthcare system, once the best in the Middle
+              East, collapsed. Saddam remained in power throughout. The suffering of Iraqi civilians became a
+              powerful recruitment tool for extremists across the Muslim world.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Iran Sanctions (1979-present)</h3>
+            <p className="text-sm text-stone-700">
+              Decades of US sanctions on Iran have impoverished ordinary Iranians while the regime has endured.
+              Medical supplies, though technically exempt, are often unavailable due to banking restrictions.
+              Iranian citizens — not the government — bear the cost. Meanwhile, the regime uses sanctions
+              as propaganda: &ldquo;The Americans want to starve you.&rdquo; Sanctions have strengthened the
+              regime&apos;s narrative and weakened the Iranian middle class that might otherwise push for reform.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">North Korea: Sanctions Since 1950</h3>
+            <p className="text-sm text-stone-700">
+              The US has maintained sanctions on North Korea for over 70 years. North Korea has nuclear weapons.
+              The regime is stronger than ever. Ordinary North Koreans suffer famine and deprivation. The
+              sanctions have achieved nothing except demonstrating their own futility.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;Sanctions are not an alternative to war. They are war by other means — and civilians always
+          pay the price.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Ron Paul</span>
+        </blockquote>
+      </div>
+
+      {/* The Arming Pipeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Arming Pipeline: Today&apos;s Ally Is Tomorrow&apos;s Enemy</h2>
+        <p className="text-stone-700 mb-4">
+          One of the most consistent patterns of blowback: the US arms a group to fight a current enemy,
+          then fights that same group a decade later:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { armed: 'Afghan mujahideen (1979-89)', became: 'Taliban and al-Qaeda', result: '9/11, 20-year Afghan War' },
+            { armed: 'Saddam Hussein (1980s)', became: 'Enemy in Gulf War and Iraq War', result: '$5T+ spent fighting the regime we armed' },
+            { armed: 'Syrian "moderate rebels" (2012-17)', became: 'Weapons went to al-Nusra (al-Qaeda)', result: 'CIA-backed rebels fought Pentagon-backed rebels' },
+            { armed: 'Libyan rebels (2011)', became: 'Various militias and extremist groups', result: 'Failed state, weapons flooding the Sahel' },
+            { armed: 'Iraqi military ($83B in equipment)', became: 'Captured by ISIS (2014) and Taliban (2021)', result: 'Enemies used American weapons against Americans' },
+            { armed: 'Saudi Arabia ($110B+ in arms)', became: 'Bombing Yemen with US weapons', result: '"World\'s worst humanitarian crisis" (UN)' },
+          ].map(a => (
+            <div key={a.armed} className="flex gap-2 items-start border-b border-stone-100 pb-2">
+              <span className="text-red-600 shrink-0">→</span>
+              <div>
+                <p className="text-sm"><strong>Armed:</strong> {a.armed}</p>
+                <p className="text-sm"><strong>Became:</strong> {a.became}</p>
+                <p className="text-xs text-stone-500"><strong>Result:</strong> {a.result}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          As Congressman Ron Paul repeatedly warned: <em>&ldquo;You cannot have an interventionist foreign
+          policy without eventually arming both sides.&rdquo;</em> The US has, in effect, been fighting an
+          arms race against itself for 40 years.
+        </p>
+      </div>
+
       {/* Israel/Palestine */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Israel/Palestine: Blowback from Colonial Decisions</h2>
@@ -278,6 +356,78 @@ export default function BlowbackPage() {
           that followed — leading ultimately to the 2026 Iran war — represent the latest iteration of a
           blowback chain that stretches back over a century.
         </p>
+      </div>
+
+      {/* The Mossadegh lesson */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran 1953: The Blowback Chain That Won&apos;t End</h2>
+        <p className="text-stone-700 mb-4">
+          The 1953 Iran coup deserves special attention because its blowback chain is <strong>73 years long
+          and still growing</strong>. It is the single most consequential covert operation in CIA history:
+        </p>
+        <div className="space-y-2 mb-4">
+          {[
+            { year: '1953', event: 'CIA overthrows Mossadegh, installs Shah' },
+            { year: '1953-79', event: 'Shah\'s SAVAK secret police tortures thousands. US provides training and weapons.' },
+            { year: '1979', event: 'Islamic Revolution. Ayatollah Khomeini comes to power. 52 American hostages held 444 days.' },
+            { year: '1980-88', event: 'US supports Iraq (Saddam) in Iran-Iraq War. Provides intelligence, weapons, and chemical weapons precursors.' },
+            { year: '1988', event: 'USS Vincennes shoots down Iran Air Flight 655. 290 civilians killed. US never formally apologized.' },
+            { year: '1995-', event: 'Escalating sanctions on Iran impoverish civilians while regime endures.' },
+            { year: '2002', event: 'Bush names Iran part of "Axis of Evil." Iran accelerates nuclear program.' },
+            { year: '2015', event: 'Obama negotiates JCPOA nuclear deal — brief de-escalation.' },
+            { year: '2018', event: 'Trump withdraws from JCPOA. Re-imposes sanctions. Iran resumes enrichment.' },
+            { year: '2020', event: 'Trump assassinates General Soleimani. Iran retaliates with ballistic missiles.' },
+            { year: '2026', event: 'US bombing Iran — the regime that exists because of the 1953 coup. Full circle.' },
+          ].map(t => (
+            <div key={t.year} className="flex gap-3 border-b border-stone-100 pb-2">
+              <span className="w-14 text-sm font-mono text-red-600 shrink-0">{t.year}</span>
+              <p className="text-sm text-stone-600">{t.event}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700">
+          Seven decades. One continuous chain of cause and effect, from Eisenhower to the present day. The
+          Iranians remember 1953. Americans don&apos;t. This asymmetry of memory is the engine of blowback:
+          the country that commits the original act forgets it; the country that suffers the consequences
+          never does.
+        </p>
+      </div>
+
+      {/* The academic evidence */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Academic Evidence: Regime Change Doesn&apos;t Work</h2>
+        <p className="text-stone-700 mb-4">
+          The empirical evidence against regime change is overwhelming:
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Lindsey O&apos;Rourke — <em>Covert Regime Change</em> (2018)</h3>
+            <p className="text-sm text-stone-700">
+              O&apos;Rourke studied all US regime change operations from 1947-1989 and found that covert
+              regime change <strong>rarely installs stable democracies</strong>. Instead, it typically
+              produces authoritarian governments, civil wars, or failed states. The US succeeded in
+              installing its preferred leader in about 40% of cases — but those leaders often became
+              dictators who generated new blowback.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Alexander Downes — <em>Catastrophic Success</em> (2021)</h3>
+            <p className="text-sm text-stone-700">
+              Downes found that foreign-imposed regime change is followed by civil war in the target
+              state <strong>40% of the time</strong> — compared to 12% for states that didn&apos;t
+              experience regime change. The act of forcibly removing a government creates precisely the
+              conditions — power vacuums, score-settling, institutional collapse — that produce civil war.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">RAND Corporation — &ldquo;How Terrorist Groups End&rdquo; (2008)</h3>
+            <p className="text-sm text-stone-700">
+              RAND studied 268 terrorist groups and found that military force defeated only <strong>7%</strong>
+              of them. The most effective approaches were political accommodation (43%) and policing/intelligence
+              (40%). The US has spent $8 trillion on the least effective approach.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Drone strikes creating enemies */}

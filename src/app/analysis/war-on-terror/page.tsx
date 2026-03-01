@@ -1023,6 +1023,123 @@ export default function WarOnTerrorPage() {
         </p>
       </div>
 
+      {/* The PATRIOT Act in detail */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The PATRIOT Act: How Fear Killed the Fourth Amendment</h2>
+        <p className="text-stone-700 mb-4">
+          The USA PATRIOT Act — &ldquo;Uniting and Strengthening America by Providing Appropriate Tools Required to
+          Intercept and Obstruct Terrorism&rdquo; — was signed into law on October 26, 2001, just 45 days after 9/11.
+          The 342-page bill was introduced on October 23 and voted on October 25. Most members of Congress later
+          admitted they hadn&apos;t read it.
+        </p>
+        <div className="space-y-3 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Section 215: Bulk Data Collection</h3>
+            <p className="text-sm text-stone-700">
+              Used by the NSA to justify collecting metadata on <strong>every phone call made in America</strong> —
+              who called whom, when, for how long. The FISA Court approved the collection in secret orders.
+              When Edward Snowden revealed the program in 2013, Director of National Intelligence James Clapper
+              denied it existed — under oath, before Congress. He was never prosecuted for perjury.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">National Security Letters (NSLs)</h3>
+            <p className="text-sm text-stone-700">
+              NSLs allow the FBI to demand customer records from banks, phone companies, and internet providers
+              <strong>without a warrant or judicial review</strong>. The recipient is subject to a gag order —
+              they cannot tell anyone, including the target, that the records were demanded. Between 2003 and 2006,
+              the FBI issued <strong>192,499 NSLs</strong>. A 2007 audit found widespread abuse and violations of
+              even the Act&apos;s limited safeguards.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">Sneak and Peek Warrants</h3>
+            <p className="text-sm text-stone-700">
+              Section 213 authorized &ldquo;sneak and peek&rdquo; search warrants — allowing law enforcement to
+              search homes without notifying the occupant until later. Sold as a counterterrorism tool, <strong>only
+              0.5% of sneak-and-peek warrants have been used for terrorism</strong> cases. The vast majority (62%)
+              are used for drug cases. The PATRIOT Act&apos;s surveillance tools were repurposed for the drug war
+              almost immediately.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-semibold text-primary mb-1">PRISM and Upstream Collection</h3>
+            <p className="text-sm text-stone-700">
+              The NSA&apos;s PRISM program — revealed by Snowden — gave the agency direct access to the servers of
+              Google, Apple, Facebook, Microsoft, Yahoo, and other tech companies. &ldquo;Upstream&rdquo; collection
+              tapped directly into the fiber optic cables carrying internet traffic. The NSA was reading emails,
+              monitoring chats, and accessing cloud storage of millions of Americans — all under a secret
+              interpretation of laws most Americans had never heard of.
+            </p>
+          </div>
+        </div>
+        <blockquote className="border-l-4 border-red-700 pl-4 text-stone-600 italic">
+          &ldquo;The NSA is turning the internet into a total surveillance system. They&apos;re not just
+          listening to terrorists. They&apos;re listening to everyone. And they&apos;re storing it.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Edward Snowden, 2013</span>
+        </blockquote>
+      </div>
+
+      {/* The financial cost breakdown */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Where Did the {fmtMoney(stats.warOnTerrorCost)} Go?</h2>
+        <p className="text-stone-500 text-sm mb-4">Costs of War Project breakdown of total War on Terror spending.</p>
+        <div className="space-y-2">
+          {[
+            { category: 'DOD Overseas Contingency Operations', amount: '$2.1T', pct: 26 },
+            { category: 'DOD Base Budget Increases (War-Related)', amount: '$914B', pct: 11 },
+            { category: 'State Department / USAID', amount: '$127B', pct: 2 },
+            { category: 'Veteran Care (to date)', amount: '$465B', pct: 6 },
+            { category: 'Future Veteran Care (projected)', amount: '$2.2T', pct: 28 },
+            { category: 'Homeland Security (DHS)', amount: '$1.1T', pct: 14 },
+            { category: 'Interest on War Borrowing (to date)', amount: '$1.1T', pct: 14 },
+          ].map(c => (
+            <div key={c.category} className="flex items-center gap-3">
+              <span className="w-64 text-sm text-right shrink-0">{c.category}</span>
+              <div className="flex-1 bg-stone-100 rounded-full h-5 overflow-hidden">
+                <div className="h-full rounded-full bg-red-600" style={{ width: `${(c.pct / 28) * 100}%` }} />
+              </div>
+              <span className="w-16 text-sm font-semibold text-right">{c.amount}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-500 text-sm mt-4">
+          Note that future veteran care ($2.2T) and interest on borrowing ($1.1T) are the largest single
+          categories — and they will continue growing for decades. The peak cost of caring for War on Terror
+          veterans won&apos;t arrive until the 2050s or 2060s. We are still in the early stages of paying for
+          these wars.
+        </p>
+      </div>
+
+      {/* The war economy */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The War Economy: Who Won?</h2>
+        <p className="text-stone-700 mb-4">
+          If the War on Terror was a failure in military and humanitarian terms, it was an extraordinary
+          success for the defense industry and the national security state:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          {[
+            { winner: 'Defense contractors', gain: 'Stock prices up 1,000%+. Combined revenue: $400B+/year. Record profits every year since 2001.' },
+            { winner: 'Intelligence agencies', gain: '16 intelligence agencies → 17. NSA budget tripled. DIA expanded massively. New agencies created (DNI, NCTC).' },
+            { winner: 'Private military companies', gain: 'Blackwater, DynCorp, Triple Canopy earned billions. Private contractors outnumbered US troops in both theaters.' },
+            { winner: 'Surveillance companies', gain: 'Palantir, Booz Allen, SAIC, Leidos built empires on War on Terror contracts. Surveillance tech developed for war came home.' },
+            { winner: 'Congressional hawks', gain: 'Defense committee members receive largest campaign contributions. War = political power.' },
+            { winner: 'Executive branch', gain: 'Presidential war powers expanded enormously. Surveillance authority. Kill lists. Indefinite detention.' },
+          ].map(w => (
+            <div key={w.winner} className="bg-stone-50 rounded-lg p-4 border">
+              <p className="font-semibold text-primary text-sm">{w.winner}</p>
+              <p className="text-xs text-stone-600">{w.gain}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 font-semibold">
+          The losers: 900,000+ dead. 38 million displaced. 130,000+ veteran suicides. $8 trillion in debt.
+          Constitutional rights eroded. And an America less safe, less free, and less respected than before
+          September 11, 2001.
+        </p>
+      </div>
+
       {/* Sources */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources &amp; Further Reading</h2>

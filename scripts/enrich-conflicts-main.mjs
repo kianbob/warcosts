@@ -1,9 +1,5 @@
-// Script to enrich all 36 conflicts with narrative fields
-import { readFileSync, writeFileSync } from 'fs';
-
-const data = JSON.parse(readFileSync('./public/data/conflicts.json', 'utf8'));
-
-const enrichments = {
+// Enrichment data for conflicts missing narrative fields
+export const enrichments = {
   "revolutionary-war": {
     narrative: "The American Revolutionary War began not as a quest for independence but as a dispute over taxation and representation. After decades of salutary neglect, Britain's attempts to recoup the costs of the Seven Years' War through the Stamp Act, Townshend Acts, and Tea Act ignited colonial resistance. The \"shot heard round the world\" at Lexington and Concord on April 19, 1775, transformed political protest into armed rebellion.\n\nWhat followed was eight years of grinding warfare against the world's most powerful empire. The Continental Army, chronically underfunded and poorly supplied, survived through Washington's dogged persistence rather than battlefield brilliance. Valley Forge's brutal winter of 1777-78 became the crucible of American military identity — 2,000 soldiers died of disease and exposure while Congress debated funding.\n\nThe war's true turning point was the 1778 French alliance, which transformed a colonial rebellion into a global conflict. French naval power proved decisive at Yorktown in 1781, where Cornwallis's surrender effectively ended major combat operations. The Treaty of Paris (1783) recognized American independence.\n\nFrom a libertarian perspective, the Revolution embodies the core principle that people have the right to resist tyrannical government. Yet the Founders themselves immediately grappled with the tension between liberty and order — Shays' Rebellion (1786-87) and the Whiskey Rebellion (1794) showed that the new government could be just as willing to use force against its own citizens as the Crown had been. The Revolution's legacy is paradoxical: it created the world's first constitutional republic dedicated to individual rights, while simultaneously building the framework for an increasingly powerful federal government.",
     didYouKnow: [
@@ -713,4 +709,13 @@ const enrichments = {
     controversies: [
       "The campaign is conducted without specific congressional authorization — the administration relies on Article II self-defense powers, despite conducting offensive strikes inside Yemen.",
       "The cost-exchange ratio is wildly unfavorable — the U.S. is spending billions to counter a threat costing the Houthis millions, a financially unsustainable approach.",
-      "Strikes on Houthi positions in Yemen risk escal
+      "Strikes on Houthi positions in Yemen risk escalating the broader Yemen conflict and drawing the U.S. deeper into the region.",
+      "The campaign primarily benefits international shipping corporations while the costs are borne entirely by American taxpayers."
+    ],
+    keyFigures: [
+      { name: "Abdul-Malik al-Houthi", role: "Leader of the Houthi Movement", note: "Ordered attacks on Red Sea shipping, forcing a massive U.S. naval response." },
+      { name: "Joe Biden", role: "President of the United States", note: "Ordered strikes on Houthi positions without congressional authorization." },
+      { name: "Lloyd Austin", role: "Secretary of Defense", note: "Announced Operation Prosperity Guardian and oversaw the naval deployment." }
+    ]
+  }
+};
