@@ -46,8 +46,13 @@ export default function HomePage() {
           <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             The Price of <span className="text-red-600">American Empire</span>
           </h1>
-          <p className="text-stone-400 text-lg md:text-xl max-w-3xl mx-auto mb-12">
+          <p className="text-stone-400 text-lg md:text-xl max-w-3xl mx-auto mb-4">
             Every US war, intervention, and military action — the cost in dollars, lives, and liberty.
+          </p>
+          <p className="text-stone-500 text-sm max-w-2xl mx-auto mb-12">
+            WarCosts is a free, data-driven transparency platform. No ads. No paywall. No defense industry
+            sponsors. Just the numbers — sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
+            own reports.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
@@ -99,6 +104,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Quick Facts Strip */}
+      <section className="bg-red-800 text-white py-3">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm">
+            <span><strong>${fmt(stats.costPerSecond)}</strong>/second on defense</span>
+            <span><strong>229</strong> years at war (of 249)</span>
+            <span><strong>{stats.veteranSuicidePerDay}</strong> veteran suicides/day</span>
+            <span><strong>{fmt(stats.overseasBases)}</strong> overseas bases</span>
+            <span><strong>0</strong> Pentagon audits passed</span>
+          </div>
+        </div>
+      </section>
+
       {/* Quick Stats */}
       <section className="bg-stone-100 py-12">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
@@ -114,6 +132,30 @@ export default function HomePage() {
               <p className="font-semibold text-sm mt-1">{s.label}</p>
               <p className="text-muted text-xs">{s.sub}</p>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Start Exploring Pathways */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2">Start Exploring</h2>
+        <p className="text-stone-500 mb-8">Choose your entry point into the data.</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { href: '/us-military-spending', icon: '💰', title: 'US Military Spending', desc: '$886B/year — more than the next 10 countries combined' },
+            { href: '/cost-of-war', icon: '📊', title: 'Cost of War', desc: '$11.3 trillion since 1776. $8T since 9/11 alone.' },
+            { href: '/us-wars-list', icon: '⚔️', title: 'Every US War', desc: '36 wars, 469 interventions, 5 declared by Congress' },
+            { href: '/veteran-suicide', icon: '🎗️', title: 'Veteran Suicide', desc: '17 per day. More than die in combat.' },
+            { href: '/modern-wars', icon: '🔥', title: 'Modern Wars', desc: 'The forever wars — 1995 to present' },
+            { href: '/defense-budget', icon: '🏛️', title: 'Defense Budget', desc: 'Where every dollar goes. Never audited.' },
+            { href: '/tools/tax-receipt', icon: '🧾', title: 'Your Tax Receipt', desc: 'How much of YOUR money funds the military' },
+            { href: '/tools/cost-calculator', icon: '🧮', title: 'Your War Cost', desc: 'Lifetime military spending in your name' },
+          ].map(p => (
+            <Link key={p.href} href={p.href} className="bg-white rounded-lg border p-6 hover:shadow-md transition">
+              <span className="text-3xl block mb-2">{p.icon}</span>
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-1">{p.title}</h3>
+              <p className="text-stone-500 text-sm">{p.desc}</p>
+            </Link>
           ))}
         </div>
       </section>
@@ -195,6 +237,37 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Data Sources - Social Proof */}
+      <section className="bg-stone-100 py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">Our Data Sources</h2>
+          <p className="text-stone-500 text-center mb-8 max-w-2xl mx-auto">
+            Every number on this site is sourced from official government reports, peer-reviewed academic research,
+            and established investigative organizations.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
+            {[
+              { name: 'Brown University', sub: 'Costs of War Project' },
+              { name: 'Congressional Research Service', sub: 'CRS Reports' },
+              { name: 'SIPRI', sub: 'Military Expenditure Database' },
+              { name: 'Dept. of Defense', sub: 'DMDC, Base Structure Reports' },
+              { name: 'OMB', sub: 'Historical Budget Tables' },
+              { name: 'Bureau of Labor Statistics', sub: 'CPI Inflation Data' },
+            ].map(s => (
+              <div key={s.name} className="bg-white rounded-lg p-4 border">
+                <p className="font-bold text-sm">{s.name}</p>
+                <p className="text-stone-500 text-xs">{s.sub}</p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link href="/sources" className="text-primary font-semibold hover:underline text-sm">View All Sources →</Link>
+            <span className="mx-2 text-stone-300">|</span>
+            <Link href="/methodology" className="text-primary font-semibold hover:underline text-sm">Our Methodology →</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Opportunity Cost Preview */}
       <section className="bg-stone-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -240,6 +313,32 @@ export default function HomePage() {
               <p className="text-muted text-sm">{a.desc}</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Why This Site Exists */}
+      <section className="bg-stone-50 py-16">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">Why This Site Exists</h2>
+          <p className="text-stone-600 text-lg mb-4">
+            The Founders believed that a free people must understand what their government does in their name —
+            especially when it comes to war. James Madison warned that &ldquo;of all the enemies to public liberty,
+            war is, perhaps, the most to be dreaded.&rdquo;
+          </p>
+          <p className="text-stone-600 mb-4">
+            WarCosts exists to make the costs of American military power visible, measurable, and undeniable.
+            Not through opinion or ideology, but through data — sourced from the government&apos;s own reports,
+            peer-reviewed academic research, and established investigative organizations.
+          </p>
+          <p className="text-stone-500 text-sm mb-8">
+            Free. No ads. No paywall. No defense industry sponsors. A <Link href="https://thedataproject.ai" className="text-primary hover:underline">TheDataProject.ai</Link> platform.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/about" className="text-primary font-semibold hover:underline">About Us →</Link>
+            <Link href="/methodology" className="text-primary font-semibold hover:underline">Our Methodology →</Link>
+            <Link href="/sources" className="text-primary font-semibold hover:underline">Data Sources →</Link>
+            <Link href="/faq" className="text-primary font-semibold hover:underline">FAQ →</Link>
+          </div>
         </div>
       </section>
     </>
