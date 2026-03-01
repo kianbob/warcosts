@@ -129,6 +129,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
+  // State military footprint pages
+  try {
+    const stateIndex = loadData('state-military-index.json')
+    entries.push({ url: `${base}/states`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    stateIndex.forEach((s: any) => {
+      entries.push({ url: `${base}/states/${s.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
+    })
+  } catch {}
+
   // Base detail pages
   try {
     const baseIndex = loadData('base-index.json')
