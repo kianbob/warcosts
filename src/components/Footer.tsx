@@ -31,6 +31,9 @@ export default function Footer() {
             <li><Link href="/deployments" className="hover:text-white">Troop Deployments</Link></li>
             <li><Link href="/regime-changes" className="hover:text-white">Regime Changes</Link></li>
             <li><Link href="/analysis" className="hover:text-white">Analysis</Link></li>
+            <li><Link href="/dashboard" className="hover:text-white">Dashboard</Link></li>
+            <li><Link href="/search" className="hover:text-white">Search</Link></li>
+            <li><Link href="/downloads" className="hover:text-white">Downloads</Link></li>
           </ul>
         </div>
         <div>
@@ -42,6 +45,8 @@ export default function Footer() {
             <li><a href="https://www.vaccinewatch.org" className="hover:text-white">VaccineWatch</a></li>
             <li><a href="https://www.opensubsidies.org" className="hover:text-white">OpenSubsidies</a></li>
             <li><a href="https://www.openimmigration.us" className="hover:text-white">OpenImmigration</a></li>
+            <li><a href="https://www.openlobby.us" className="hover:text-white">OpenLobby</a></li>
+            <li><a href="https://www.openfeds.org" className="hover:text-white">OpenFeds</a></li>
             <li><a href="https://thedataproject.ai" className="hover:text-white">TheDataProject.ai</a></li>
           </ul>
         </div>

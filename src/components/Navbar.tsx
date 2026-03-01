@@ -39,15 +39,20 @@ const navItems = [
       { label: 'Congressional Authority', href: '/analysis/congressional-authority' },
       { label: 'Blowback', href: '/analysis/blowback' },
       { label: 'The Military-Industrial Complex', href: '/analysis/military-industrial-complex' },
+      { label: 'The Human Cost', href: '/analysis/human-cost' },
+      { label: 'Empire of Bases', href: '/analysis/empire-of-bases' },
     ],
   },
   {
     label: 'About',
     items: [
       { label: 'About WarCosts', href: '/about' },
+      { label: 'Dashboard', href: '/dashboard' },
       { label: 'Methodology', href: '/methodology' },
       { label: 'FAQ', href: '/faq' },
       { label: 'Sources', href: '/sources' },
+      { label: 'Downloads', href: '/downloads' },
+      { label: 'Search', href: '/search' },
     ],
   },
 ]
