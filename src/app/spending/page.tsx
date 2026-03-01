@@ -3,6 +3,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { SpendingAreaChart, GdpChart } from '@/components/charts/SpendingCharts'
 
 export const metadata: Metadata = {
@@ -64,6 +65,15 @@ export default function SpendingPage() {
           <li>• Post-9/11 spending surge added approximately $2 trillion beyond baseline budgets.</li>
           <li>• Pentagon is the world&apos;s largest employer with 3.2 million employees.</li>
           <li>• The US has never passed an independent audit of the Department of Defense.</li>
+        </ul>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><Link href="/analysis/military-industrial-complex" className="text-red-800 hover:underline">→ The Military-Industrial Complex</Link></li>
+          <li><Link href="/defense-budget" className="text-red-800 hover:underline">→ The Defense Budget — $886B in FY2024</Link></li>
+          <li><Link href="/analysis/jobs-vs-war" className="text-red-800 hover:underline">→ Jobs vs. War — what else the money could fund</Link></li>
         </ul>
       </div>
     </div>

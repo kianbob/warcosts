@@ -17,7 +17,24 @@ export default function ErasPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'By Era' }]} />
-      <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-8">US Conflicts by Era</h1>
+      <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Conflicts by Era</h1>
+
+      {(() => { const stats = loadData('stats.json'); return (
+        <div className="grid grid-cols-3 gap-4 mb-8 max-w-lg">
+          <div className="bg-green-50 rounded-lg p-3 text-center border border-green-200">
+            <p className="text-2xl font-bold text-green-700 font-[family-name:var(--font-heading)]">{stats.victories}</p>
+            <p className="text-xs text-stone-500">Victories</p>
+          </div>
+          <div className="bg-red-50 rounded-lg p-3 text-center border border-red-200">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{stats.defeats}</p>
+            <p className="text-xs text-stone-500">Defeats</p>
+          </div>
+          <div className="bg-yellow-50 rounded-lg p-3 text-center border border-yellow-200">
+            <p className="text-2xl font-bold text-yellow-700 font-[family-name:var(--font-heading)]">{stats.inconclusive}</p>
+            <p className="text-xs text-stone-500">Inconclusive</p>
+          </div>
+        </div>
+      )})()}
 
       <div className="space-y-8">
         {Object.entries(eras).map(([era, items]) => {

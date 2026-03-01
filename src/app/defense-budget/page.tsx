@@ -34,7 +34,7 @@ export default function DefenseBudgetPage() {
       </p>
       <ShareButtons title="Defense Budget — $886 Billion in FY2024" />
 
-      <div className="grid md:grid-cols-3 gap-4 my-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
         <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
           <p className="text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{fmtMoney(stats.currentAnnualBudget)}</p>
           <p className="text-stone-500 text-sm">FY2024 Budget</p>
@@ -46,6 +46,18 @@ export default function DefenseBudgetPage() {
         <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
           <p className="text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{fmtMoney(stats.costPerDay)}</p>
           <p className="text-stone-500 text-sm">Cost Per Day</p>
+        </div>
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{fmtMoney(stats.f35LifetimeCost)}</p>
+          <p className="text-stone-500 text-sm">F-35 Lifetime Cost</p>
+        </div>
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{stats.counterterrorCountries}</p>
+          <p className="text-stone-500 text-sm">Countries with CT operations</p>
+        </div>
+        <div className="bg-white rounded-lg p-5 shadow-sm border text-center">
+          <p className="text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{fmtMoney(stats.defenseContractorSpending)}</p>
+          <p className="text-stone-500 text-sm">Contractor spending (2020–24)</p>
         </div>
       </div>
 
@@ -96,6 +108,15 @@ export default function DefenseBudgetPage() {
         <Link href="/war-clock" className="inline-block bg-red-800 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition">
           Watch It Tick → War Clock
         </Link>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border max-w-3xl mx-auto">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><Link href="/analysis/military-industrial-complex" className="text-red-800 hover:underline">→ The Military-Industrial Complex</Link></li>
+          <li><Link href="/spending" className="text-red-800 hover:underline">→ Historical Military Spending</Link></li>
+          <li><Link href="/analysis/pentagon-climate" className="text-red-800 hover:underline">→ The Pentagon&apos;s Carbon Bootprint</Link></li>
+        </ul>
       </div>
 
       <BackToTop />

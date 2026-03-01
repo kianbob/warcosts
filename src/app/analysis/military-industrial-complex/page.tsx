@@ -28,13 +28,31 @@ export default function MICPage() {
         <p className="text-stone-400 mt-3">— President Dwight D. Eisenhower, January 17, 1961</p>
       </div>
 
+      <div className="not-prose grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
+        <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(stats.defenseContractorSpending)}</p>
+          <p className="text-xs text-muted">Contractor spending (2020–2024)</p>
+        </div>
+        <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{stats.revolvingDoorOfficials}+</p>
+          <p className="text-xs text-muted">Officials through revolving door</p>
+        </div>
+        <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(stats.defenseLobbying2023)}</p>
+          <p className="text-xs text-muted">Defense lobbying (2023)</p>
+        </div>
+        <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(stats.campaignContributions)}</p>
+          <p className="text-xs text-muted">Campaign contributions</p>
+        </div>
+      </div>
+
       <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Numbers</h2>
-        <p>The US military budget for 2024 is {fmtMoney(stats.currentAnnualBudget)} — more than the next 10 countries combined. The top five defense contractors alone receive over $200 billion per year in government contracts.</p>
-        <p>The Pentagon has never passed an independent audit. It is the only federal agency that cannot account for its own spending.</p>
+        <p>The US military budget for 2024 is {fmtMoney(stats.currentAnnualBudget)} — more than the next 10 countries combined. Defense contractors received {fmtMoney(stats.defenseContractorSpending)} from 2020–2024. The Pentagon has never passed an independent audit.</p>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Revolving Door</h2>
-        <p>Between 2004 and 2008, 80% of retiring three- and four-star generals went to work for defense contractors or consulting firms. Pentagon officials who approve weapons programs later join the companies that build them. Company executives take government positions overseeing their former employers.</p>
+        <p>Over <strong>{stats.revolvingDoorOfficials} senior officials</strong> have moved between the Pentagon and defense contractors. Between 2004 and 2008, 80% of retiring three- and four-star generals went to work for defense contractors or consulting firms. Pentagon officials who approve weapons programs later join the companies that build them.</p>
         <p>This isn&apos;t conspiracy theory — it&apos;s documented fact. The Government Accountability Office has flagged this revolving door repeatedly.</p>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Incentive Structure</h2>
@@ -42,7 +60,7 @@ export default function MICPage() {
         <p>The F-35 program has a lifetime cost of $1.7 trillion. It is the most expensive weapons system in human history. Parts are manufactured in 45 states — ensuring that almost every member of Congress has a financial incentive to keep the program funded.</p>
 
         <h2 className="font-[family-name:var(--font-heading)]">Campaign Contributions</h2>
-        <p>Defense industry PACs and employees contribute tens of millions to political campaigns every election cycle. Members of the Armed Services and Appropriations committees — who decide how much the Pentagon gets — are among the largest recipients.</p>
+        <p>Defense industry PACs and employees have contributed <strong>{fmtMoney(stats.campaignContributions)}</strong> to political campaigns. In 2023 alone, the industry spent <strong>{fmtMoney(stats.defenseLobbying2023)}</strong> on lobbying. Members of the Armed Services and Appropriations committees — who decide how much the Pentagon gets — are among the largest recipients.</p>
 
         <h2 className="font-[family-name:var(--font-heading)]">Smedley Butler Knew</h2>
         <p>In 1935, Major General Smedley Butler — at the time the most decorated Marine in history — wrote:</p>
@@ -57,6 +75,15 @@ export default function MICPage() {
 
       <div className="text-center mt-8">
         <Link href="/contractors" className="text-primary font-semibold hover:underline">See the Top Defense Contractors →</Link>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related</h3>
+        <ul className="space-y-2">
+          <li><Link href="/spending" className="text-red-800 hover:underline">→ Military Spending Data</Link></li>
+          <li><Link href="/defense-budget" className="text-red-800 hover:underline">→ The Defense Budget</Link></li>
+          <li><Link href="/analysis/congressional-authority" className="text-red-800 hover:underline">→ 19 Wars Without Congress</Link></li>
+        </ul>
       </div>
     </div>
   )

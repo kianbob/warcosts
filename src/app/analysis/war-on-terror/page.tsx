@@ -33,12 +33,27 @@ export default function WarOnTerrorPage() {
           <p className="text-xs text-muted">People Killed</p>
         </div>
         <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
-          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">37M</p>
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(stats.warOnTerrorDisplaced / 1e6)}M</p>
           <p className="text-xs text-muted">Displaced</p>
         </div>
         <div className="bg-red-50 rounded-lg p-4 text-center border border-red-200">
           <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">0</p>
           <p className="text-xs text-muted">Objectives Fully Met</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+        <div className="bg-stone-100 rounded-lg p-4 text-center border">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{(stats.warOnTerrorIndirectDeaths / 1e6).toFixed(1)}M</p>
+          <p className="text-xs text-muted">Indirect deaths</p>
+        </div>
+        <div className="bg-stone-100 rounded-lg p-4 text-center border">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{stats.counterterrorCountries}</p>
+          <p className="text-xs text-muted">Countries with CT operations</p>
+        </div>
+        <div className="bg-stone-100 rounded-lg p-4 text-center border col-span-2 md:col-span-1">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{(stats.warOnTerrorTotalDeaths / 1e6).toFixed(1)}M</p>
+          <p className="text-xs text-muted">Total deaths (direct + indirect)</p>
         </div>
       </div>
 

@@ -5,6 +5,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import { ConflictStatsGrid } from '@/components/charts/ConflictStatsGrid'
 
 export async function generateStaticParams() {
   const conflicts = loadData('conflicts.json')
@@ -73,6 +74,9 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <p className="text-xs text-muted">Troops Deployed</p>
         </div>
       </div>
+
+      {/* Computed Stats */}
+      {c.computed && <ConflictStatsGrid computed={c.computed} />}
 
       {/* Additional casualty data */}
       {(c.usCasualties?.wounded > 0 || c.usCasualties?.battleDeaths > 0) && (

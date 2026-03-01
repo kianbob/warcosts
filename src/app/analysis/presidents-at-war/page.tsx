@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import { PresidentCostChart } from '@/components/charts/PresidentCharts'
 
 export const metadata: Metadata = {
   title: 'Presidents at War — Who Waged the Most Wars? | WarCosts',
@@ -45,6 +46,10 @@ export default function AnalysisPresidentsPage() {
               <span className="text-red-800 font-bold">{fmtMoney(p.totalCost)}</span>
             </div>
           ))}
+        </div>
+
+        <div className="not-prose my-8">
+          <PresidentCostChart />
         </div>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Erosion of Congressional Authority</h2>

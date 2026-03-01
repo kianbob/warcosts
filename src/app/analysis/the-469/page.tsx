@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { loadData } from '@/lib/server-utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 export default function The469Page() {
+  const stats = loadData('stats.json')
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The 469' }]} />
@@ -58,6 +60,11 @@ export default function The469Page() {
           embassy evacuations, naval escorts, and drone strikes. Many lasted days or hours. Others lasted decades.
           The list almost certainly undercounts covert operations.
         </p>
+
+        <div className="not-prose bg-stone-100 rounded-xl p-5 border text-center my-6">
+          <p className="text-4xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{stats.counterterrorCountries}</p>
+          <p className="text-stone-600">countries with active US counterterrorism operations today</p>
+        </div>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Constitutional Crisis</h2>
         <p>

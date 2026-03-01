@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
+import { loadData } from '@/lib/server-utils'
+import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -10,6 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function VeteranSuicidePage() {
+  const stats = loadData('stats.json')
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Veteran Suicide' }]} />
@@ -42,13 +46,19 @@ export default function VeteranSuicidePage() {
         <h2 className="font-[family-name:var(--font-heading)]">PTSD by War Era</h2>
         <div className="not-prose grid md:grid-cols-2 gap-4 my-4">
           <div className="bg-white rounded-lg border p-5">
-            <p className="text-2xl font-bold text-red-800">29%</p>
+            <p className="text-2xl font-bold text-red-800">{stats.veteranPTSDrateIraqAfghan}%</p>
             <p className="text-stone-600">Iraq/Afghanistan veterans with PTSD</p>
           </div>
           <div className="bg-white rounded-lg border p-5">
-            <p className="text-2xl font-bold text-red-800">10%</p>
+            <p className="text-2xl font-bold text-red-800">{stats.veteranPTSDrateVietnam}%</p>
             <p className="text-stone-600">Vietnam veterans with PTSD (lifetime)</p>
           </div>
+        </div>
+
+        <div className="not-prose bg-stone-100 rounded-xl p-5 border my-4">
+          <p className="text-sm text-stone-500">The broader context</p>
+          <p className="text-2xl font-bold text-red-800 font-[family-name:var(--font-heading)]">{(stats.warOnTerrorTotalDeaths / 1e6).toFixed(1)}M</p>
+          <p className="text-stone-600">total deaths from the War on Terror — the trauma that feeds this epidemic</p>
         </div>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Numbers</h2>
@@ -89,6 +99,15 @@ export default function VeteranSuicidePage() {
           shall be directly proportional to how they perceive veterans of earlier wars were treated and appreciated by our nation.&rdquo;
           <br />— George Washington
         </blockquote>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><Link href="/analysis/the-aftermath" className="text-red-800 hover:underline">→ The Aftermath — War doesn&apos;t end when troops come home</Link></li>
+          <li><Link href="/analysis/human-cost" className="text-red-800 hover:underline">→ The Human Cost of War</Link></li>
+          <li><Link href="/casualties" className="text-red-800 hover:underline">→ Casualty data by conflict</Link></li>
+        </ul>
       </div>
 
       <BackToTop />

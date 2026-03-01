@@ -3,6 +3,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import Link from 'next/link'
 import { DeathsByConflictChart, CostByConflictChart } from '@/components/charts/SpendingCharts'
 
 export const metadata: Metadata = {
@@ -73,6 +74,15 @@ export default function CasualtiesPage() {
           &ldquo;War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious.&rdquo;
         </blockquote>
         <p className="text-stone-400 mt-3">— Major General Smedley Butler, 1935</p>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><Link href="/analysis/human-cost" className="text-red-800 hover:underline">→ The Human Cost of War</Link></li>
+          <li><Link href="/analysis/the-aftermath" className="text-red-800 hover:underline">→ The Aftermath — long-term costs</Link></li>
+          <li><Link href="/veteran-suicide" className="text-red-800 hover:underline">→ Veteran Suicide — 17 per day</Link></li>
+        </ul>
       </div>
     </div>
   )

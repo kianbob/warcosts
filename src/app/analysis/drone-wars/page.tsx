@@ -1,7 +1,9 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import { DroneStrikesChart } from '@/components/charts/DroneCharts'
 
 export const metadata: Metadata = {
   title: 'Drone Wars — Remote-Control Killing | WarCosts',
@@ -80,10 +82,24 @@ export default function DroneWarsPage() {
           has made perpetual, invisible war the new normal.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The Data</h2>
+        <div className="not-prose my-8">
+          <DroneStrikesChart />
+        </div>
+
         <blockquote className="border-l-4 border-red-800">
           &ldquo;If you live in a tribal area of Pakistan, you have a 1 in 50 chance of being killed
           by a US drone. How would Americans feel if a foreign power killed their citizens at that rate?&rdquo;
         </blockquote>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related</h3>
+        <ul className="space-y-2">
+          <li><Link href="/casualties" className="text-red-800 hover:underline">→ Full casualty data by conflict</Link></li>
+          <li><Link href="/analysis/war-on-terror" className="text-red-800 hover:underline">→ The War on Terror: $8 Trillion Later</Link></li>
+          <li><Link href="/analysis/blowback" className="text-red-800 hover:underline">→ Blowback — how interventions create enemies</Link></li>
+        </ul>
       </div>
 
       <BackToTop />

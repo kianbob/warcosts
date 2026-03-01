@@ -1,8 +1,11 @@
 import { Metadata } from 'next'
+import { loadData } from '@/lib/server-utils'
+import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import { AftermathCards } from '@/components/charts/AftermathCharts'
 
 export const metadata: Metadata = {
   title: 'The Aftermath — War Doesn\'t End When Troops Come Home | WarCosts',
@@ -10,6 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function AftermathPage() {
+  const stats = loadData('stats.json')
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Aftermath' }]} />
@@ -17,11 +21,15 @@ export default function AftermathPage() {
       <p className="text-stone-500 mb-2">Wars don&apos;t end when the troops come home.</p>
       <ShareButtons title="The Aftermath — The True Long-Term Costs of War" />
 
+      <AftermathCards />
+
       <div className="prose text-stone-600 mt-8">
         <p className="text-lg">
           The fighting may stop, but the costs compound for decades. Veteran care for post-9/11 wars
-          alone will cost an estimated <strong>$2.5 trillion through 2050</strong>. And the human toll
-          is incalculable.
+          alone will cost an estimated <strong>{fmtMoney(stats.veteranCareFutureCost)} through 2050</strong>. The War on Terror
+          displaced <strong>{fmt(stats.warOnTerrorDisplaced / 1e6)}M people</strong> and caused an
+          estimated <strong>{(stats.warOnTerrorIndirectDeaths / 1e6).toFixed(1)}M indirect deaths</strong> from
+          disease, displacement, and loss of infrastructure. The human toll is incalculable.
         </p>
 
         <h2 className="font-[family-name:var(--font-heading)]">The Mental Health Crisis</h2>
@@ -73,6 +81,8 @@ export default function AftermathPage() {
         </blockquote>
 
         <p><Link href="/veteran-suicide">→ Read more about veteran suicide</Link></p>
+        <p><Link href="/analysis/human-cost">→ The Human Cost of War</Link></p>
+        <p><Link href="/casualties">→ Full casualty data by conflict</Link></p>
       </div>
 
       <BackToTop />

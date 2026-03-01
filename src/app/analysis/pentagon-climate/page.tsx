@@ -1,4 +1,6 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
+import { loadData } from '@/lib/server-utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -9,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 export default function PentagonClimatePage() {
+  const stats = loadData('stats.json')
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Pentagon & Climate' }]} />
@@ -18,8 +21,8 @@ export default function PentagonClimatePage() {
 
       <div className="prose text-stone-600 mt-8">
         <div className="not-prose bg-red-50 rounded-xl p-6 border border-red-200 text-center my-8">
-          <p className="text-5xl font-bold text-red-800 font-[family-name:var(--font-heading)]">#55</p>
-          <p className="text-stone-600">Largest carbon emitter globally</p>
+          <p className="text-5xl font-bold text-red-800 font-[family-name:var(--font-heading)]">#{stats.pentagonCO2Rank}</p>
+          <p className="text-stone-600">If the Pentagon were a country, it would be the {stats.pentagonCO2Rank}th largest CO₂ emitter</p>
           <p className="text-stone-400 text-sm">Larger than Portugal, Sweden, or Denmark</p>
         </div>
 
@@ -62,6 +65,14 @@ export default function PentagonClimatePage() {
           &ldquo;You cannot simultaneously prevent and prepare for war.&rdquo;
           <br />— Albert Einstein
         </blockquote>
+      </div>
+
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related</h3>
+        <ul className="space-y-2">
+          <li><Link href="/defense-budget" className="text-red-800 hover:underline">→ The Defense Budget</Link></li>
+          <li><Link href="/analysis/empire-of-bases" className="text-red-800 hover:underline">→ Empire of Bases — 750 bases in 80 countries</Link></li>
+        </ul>
       </div>
 
       <BackToTop />

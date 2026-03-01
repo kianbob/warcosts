@@ -22,7 +22,7 @@ export default function HomePage() {
             Every US war, intervention, and military action — the cost in dollars, lives, and liberty.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>
               <p className="text-3xl md:text-5xl font-bold text-red-500 font-[family-name:var(--font-heading)]">{fmtMoney(stats.totalCostInflationAdjusted)}</p>
               <p className="text-stone-400 text-sm mt-1">Total Cost</p>
@@ -37,7 +37,26 @@ export default function HomePage() {
             </div>
             <div>
               <p className="text-3xl md:text-5xl font-bold text-red-500 font-[family-name:var(--font-heading)]">{stats.totalConflicts}</p>
-              <p className="text-stone-400 text-sm mt-1">Conflicts Since 1775</p>
+              <p className="text-stone-400 text-sm mt-1">Major Conflicts</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto mb-12 text-sm">
+            <div className="bg-white/10 rounded-lg p-3">
+              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(stats.totalInterventions)}</p>
+              <p className="text-stone-400">Military interventions since 1798</p>
+            </div>
+            <div className="bg-white/10 rounded-lg p-3">
+              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(stats.costPerSecond)}/sec</p>
+              <p className="text-stone-400">Current military spending rate</p>
+            </div>
+            <div className="bg-white/10 rounded-lg p-3">
+              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.victories}W–{stats.defeats}L–{stats.inconclusive}I</p>
+              <p className="text-stone-400">Win/Loss/Inconclusive record</p>
+            </div>
+            <div className="bg-white/10 rounded-lg p-3">
+              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.undeclaredWars} of {stats.totalConflicts}</p>
+              <p className="text-stone-400">Wars without Congress</p>
             </div>
           </div>
 
@@ -105,6 +124,8 @@ export default function HomePage() {
         </div>
         <div className="text-center mt-8">
           <Link href="/conflicts" className="text-primary font-semibold hover:underline">View All {stats.totalConflicts} Conflicts →</Link>
+          <span className="mx-3 text-stone-300">|</span>
+          <Link href="/analysis/the-469" className="text-primary font-semibold hover:underline">The {fmt(stats.totalInterventions)} Interventions →</Link>
         </div>
       </section>
 
