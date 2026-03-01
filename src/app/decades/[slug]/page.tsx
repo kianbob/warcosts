@@ -109,16 +109,16 @@ export default async function DecadeDetailPage({ params }: { params: Promise<{ s
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Key Events</h2>
           <ul className="space-y-2">
             {activeConflicts.flatMap((c: any) =>
-              (c.keyEvents || []).filter((e: string) => {
-                const yearMatch = e.match(/\((\d{4})\)/)
-                if (!yearMatch) return false
-                const y = parseInt(yearMatch[1])
+              (c.keyEvents || []).filter((e: any) => {
+                const y = typeof e === 'object' ? e.year : null
+                if (!y) return false
                 return y >= decadeStart && y <= decadeEnd
-              })
-            ).map((e: string, i: number) => (
+              }).map((e: any) => ({ ...( typeof e === 'object' ? e : { event: e }), conflict: c.shortName || c.name }))
+            ).sort((a: any, b: any) => (a.year || 0) - (b.year || 0))
+            .map((e: any, i: number) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-red-500 mt-1">▸</span>
-                <span>{e}</span>
+                <span>{e.year && <strong className="text-stone-700">{e.year}</strong>} {e.event} <span className="text-stone-400 text-sm">— {e.conflict}</span></span>
               </li>
             ))}
           </ul>
