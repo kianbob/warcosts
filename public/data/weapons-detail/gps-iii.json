@@ -1,0 +1,20 @@
+{
+  "name": "GPS III",
+  "slug": "gps-iii",
+  "category": "Space",
+  "service": "Space Force",
+  "contractor": "Lockheed Martin",
+  "unitCost": 529,
+  "totalCost": 5800,
+  "costOverrun": 20,
+  "units": 10,
+  "delivered": 6,
+  "description": "Next-generation GPS satellites with improved accuracy and anti-jamming.",
+  "status": "In Production",
+  "startYear": 2008,
+  "iocYear": 2020,
+  "notes": "3x more accuracy, 8x better anti-jam capability than GPS IIF.",
+  "costBillions": 5.8,
+  "costOverrunLabel": "20% over budget",
+  "unitCostLabel": "$0.5B per unit"
+}

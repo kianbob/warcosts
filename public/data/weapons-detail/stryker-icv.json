@@ -1,0 +1,13 @@
+{
+  "name": "Stryker ICV",
+  "slug": "stryker-icv",
+  "category": "Infantry Vehicle",
+  "manufacturer": "General Dynamics",
+  "unitCost": 5.5,
+  "totalCost": 16000,
+  "units": 4400,
+  "inService": true,
+  "description": "8-wheeled armored vehicle carrying 9 infantry. Core of Stryker Brigade Combat Teams. Faster and lighter than tracked vehicles but criticized for thin armor. Variants include mortar carrier, recon, nuclear/bio detection.",
+  "costOverrun": 20,
+  "keyFact": "Can be airlifted by C-130 — designed for rapid deployment. But infantry joke it's an \"armored coffin\" against IEDs."
+}

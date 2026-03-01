@@ -1,0 +1,20 @@
+{
+  "name": "Gerald R. Ford Class Carrier",
+  "slug": "ford-class",
+  "category": "Aircraft Carrier",
+  "service": "Navy",
+  "contractor": "Huntington Ingalls",
+  "unitCost": 13300,
+  "totalCost": 120000,
+  "costOverrun": 27,
+  "units": 4,
+  "delivered": 1,
+  "description": "Next-generation nuclear-powered aircraft carrier. Most expensive warship ever built.",
+  "status": "In Production",
+  "startYear": 2005,
+  "iocYear": 2017,
+  "notes": "USS Gerald R. Ford (CVN-78) commissioned 2017. EMALS catapult system had major problems. Each carrier deploys with ~70 aircraft and 4,500 crew.",
+  "costBillions": 120,
+  "costOverrunLabel": "27% over budget",
+  "unitCostLabel": "$13.3B per unit"
+}

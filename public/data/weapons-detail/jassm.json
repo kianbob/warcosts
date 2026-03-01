@@ -1,0 +1,13 @@
+{
+  "name": "JASSM / JASSM-ER",
+  "slug": "jassm",
+  "category": "Cruise Missile",
+  "manufacturer": "Lockheed Martin",
+  "unitCost": 1.4,
+  "totalCost": 15000,
+  "units": 5000,
+  "inService": true,
+  "description": "Air-launched stealth cruise missile with 575+ mile range. The primary standoff weapon for Air Force bombers and fighters. JASSM-ER extended range version has 600+ mile reach.",
+  "costOverrun": 10,
+  "keyFact": "Stealthy enough to penetrate modern air defenses. Being mass-produced for a potential Taiwan scenario."
+}

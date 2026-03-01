@@ -1,0 +1,13 @@
+{
+  "name": "San Antonio-class LPD",
+  "slug": "san-antonio-lpd",
+  "category": "Amphibious",
+  "manufacturer": "HII",
+  "unitCost": 1800,
+  "totalCost": 30000,
+  "units": 15,
+  "inService": true,
+  "description": "Amphibious transport dock that carries 800 Marines and their equipment. Enables power projection from sea to shore. Program plagued by quality control issues.",
+  "costOverrun": 60,
+  "keyFact": "Cost 60% more than planned. Quality control was so bad that the Navy returned the first ship to the shipyard."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Next Generation Interceptor (NGI)",
+  "slug": "ngi",
+  "category": "Missile Defense",
+  "manufacturer": "Northrop Grumman",
+  "unitCost": null,
+  "totalCost": 18000,
+  "units": 20,
+  "inService": false,
+  "description": "Replacement for the Ground-based Midcourse Defense (GMD) system. Designed to intercept ICBMs from North Korea or Iran. Previous GMD interceptors had a 55% test success rate — a coin flip against nuclear annihilation.",
+  "costOverrun": null,
+  "keyFact": "The current ICBM interceptors succeed only 55% of the time in tests. Against a real nuclear attack, you get one chance."
+}

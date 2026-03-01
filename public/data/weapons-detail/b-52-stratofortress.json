@@ -1,0 +1,13 @@
+{
+  "name": "B-52 Stratofortress",
+  "slug": "b-52-stratofortress",
+  "category": "Bomber",
+  "manufacturer": "Boeing",
+  "unitCost": 84,
+  "totalCost": 30000,
+  "units": 76,
+  "inService": true,
+  "description": "First flew in 1952, expected to serve until 2050s — nearly 100 years. \"BUFF\" (Big Ugly Fat Fellow). Has been in every US conflict since Vietnam. Getting new engines (Rolls-Royce F130) to extend life further.",
+  "costOverrun": 0,
+  "keyFact": "Will serve 100 years — your grandfather's bomber is still dropping bombs today."
+}

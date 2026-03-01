@@ -1,0 +1,13 @@
+{
+  "name": "Joint Light Tactical Vehicle (JLTV)",
+  "slug": "jltv",
+  "category": "Tactical Vehicle",
+  "manufacturer": "Oshkosh",
+  "unitCost": 0.4,
+  "totalCost": 17000,
+  "units": 49000,
+  "inService": true,
+  "description": "Humvee replacement with V-shaped hull for IED protection. Costs $400K each vs $70K for a Humvee. Program to buy 49,099 vehicles. Already being replaced by more advanced concepts after just entering service.",
+  "costOverrun": 25,
+  "keyFact": "Costs 6x what a Humvee cost. And the Army is already talking about replacing it."
+}

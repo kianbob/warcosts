@@ -1,0 +1,18 @@
+{
+  "name": "W93 / Mk7 Warhead",
+  "slug": "w93",
+  "category": "Nuclear Weapon",
+  "service": "NNSA/Navy",
+  "contractor": "Various",
+  "unitCost": null,
+  "totalCost": 15000,
+  "costOverrun": null,
+  "units": null,
+  "delivered": 0,
+  "description": "New nuclear warhead for Trident II submarine-launched ballistic missiles.",
+  "status": "Development",
+  "startYear": 2020,
+  "iocYear": 2034,
+  "notes": "First entirely new US nuclear warhead design since the 1980s. Estimated $14.8B through production.",
+  "costBillions": 15
+}

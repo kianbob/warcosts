@@ -1,0 +1,13 @@
+{
+  "name": "RQ-170 Sentinel",
+  "slug": "rq-170-sentinel",
+  "category": "Drone",
+  "manufacturer": "Lockheed Martin",
+  "unitCost": null,
+  "totalCost": null,
+  "units": null,
+  "inService": true,
+  "description": "Classified stealth surveillance drone. The \"Beast of Kandahar.\" Was monitoring Osama bin Laden's compound before the SEAL raid. Iran captured one in 2011 and reverse-engineered it.",
+  "costOverrun": null,
+  "keyFact": "So secret the Pentagon won't confirm its existence. Iran captured one in 2011 and claims to have copied it."
+}

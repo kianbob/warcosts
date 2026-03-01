@@ -1,0 +1,20 @@
+{
+  "name": "DDG-51 Flight III (Arleigh Burke)",
+  "slug": "ddg-51",
+  "category": "Destroyer",
+  "service": "Navy",
+  "contractor": "HII/General Dynamics",
+  "unitCost": 2200,
+  "totalCost": 85000,
+  "costOverrun": 15,
+  "units": 89,
+  "delivered": 73,
+  "description": "Guided-missile destroyer with advanced Aegis combat system. Backbone of the Navy surface fleet.",
+  "status": "In Production",
+  "startYear": 1985,
+  "iocYear": 1991,
+  "notes": "Flight III adds AN/SPY-6(V)1 radar. Program spans 40+ years of continuous production.",
+  "costBillions": 85,
+  "costOverrunLabel": "15% over budget",
+  "unitCostLabel": "$2.2B per unit"
+}

@@ -232,5 +232,296 @@
       "CH-47F"
     ],
     "note": "Key US naval logistics hub. Changi Naval Base accommodates US aircraft carriers."
+  },
+  {
+    "country": "Iraq",
+    "slug": "iraq",
+    "region": "Middle East",
+    "totalSince2009": 18000,
+    "recentFY": 2024,
+    "recentAmount": 400,
+    "topSystems": [
+      "F-16 fighters ($6.5B)",
+      "M1A1 Abrams tanks ($2.4B)",
+      "Apache helicopters",
+      "AT-6 Texan II",
+      "Scan Eagle drones"
+    ],
+    "note": "US rebuilt Iraq's military after destroying it in 2003. Ironic: billions to arm the same military we spent trillions fighting.",
+    "controversies": "Iraqi forces using US weapons collapsed against ISIS in 2014, abandoning billions in equipment. US-supplied Abrams tanks ended up in ISIS propaganda videos."
+  },
+  {
+    "country": "Morocco",
+    "slug": "morocco",
+    "region": "Africa",
+    "totalSince2009": 5000,
+    "recentFY": 2024,
+    "recentAmount": 800,
+    "topSystems": [
+      "F-16V fighters ($3.8B)",
+      "AH-64E Apache ($4.25B)",
+      "HIMARS",
+      "Patriot PAC-3"
+    ],
+    "note": "Arms sales surged after Morocco normalized relations with Israel (Abraham Accords). Western Sahara conflict ongoing."
+  },
+  {
+    "country": "Norway",
+    "slug": "norway",
+    "region": "Europe",
+    "totalSince2009": 7000,
+    "recentFY": 2024,
+    "recentAmount": 800,
+    "topSystems": [
+      "F-35A fighters ($10B)",
+      "P-8A Poseidon ($1.75B)",
+      "NSM missiles (Norwegian-made, joint production)"
+    ],
+    "note": "NATO ally. F-35 program was partly designed with Norwegian requirements in mind."
+  },
+  {
+    "country": "Greece",
+    "slug": "greece",
+    "region": "Europe",
+    "totalSince2009": 5000,
+    "recentFY": 2024,
+    "recentAmount": 1200,
+    "topSystems": [
+      "F-35A ($8.6B approved)",
+      "F-16V upgrade ($1.5B)",
+      "C-130J",
+      "Patriot"
+    ],
+    "note": "NATO ally buying F-35s partly to maintain parity with Turkey (which was kicked out of F-35 program for buying Russian S-400)."
+  },
+  {
+    "country": "Finland",
+    "slug": "finland",
+    "region": "Europe",
+    "totalSince2009": 4000,
+    "recentFY": 2024,
+    "recentAmount": 800,
+    "topSystems": [
+      "F-35A ($10.4B)",
+      "JASSM-ER",
+      "AMRAAM missiles"
+    ],
+    "note": "Joined NATO in 2023 after Russia invaded Ukraine. Immediately ordered 64 F-35s — Finland's largest defense purchase ever."
+  },
+  {
+    "country": "Romania",
+    "slug": "romania",
+    "region": "Europe",
+    "totalSince2009": 3000,
+    "recentFY": 2024,
+    "recentAmount": 600,
+    "topSystems": [
+      "F-35A ($6.5B approved)",
+      "Patriot ($3.9B)",
+      "HIMARS ($1.25B)",
+      "F-16 fighters"
+    ],
+    "note": "NATO's eastern flank. Hosting US Aegis Ashore missile defense site at Deveselu — a major irritant for Russia."
+  },
+  {
+    "country": "Czech Republic",
+    "slug": "czech-republic",
+    "region": "Europe",
+    "totalSince2009": 2000,
+    "recentFY": 2024,
+    "recentAmount": 500,
+    "topSystems": [
+      "F-35A ($5.6B approved)",
+      "UH-1Y Venom helicopters",
+      "HIMARS"
+    ],
+    "note": "Former Warsaw Pact country now buying US stealth fighters. Shows how far NATO expansion has reached."
+  },
+  {
+    "country": "Canada",
+    "slug": "canada",
+    "region": "North America",
+    "totalSince2009": 6000,
+    "recentFY": 2024,
+    "recentAmount": 800,
+    "topSystems": [
+      "F-35A ($19B CAD)",
+      "P-8A Poseidon",
+      "CH-47F Chinook",
+      "AARGM-ER missiles"
+    ],
+    "note": "Closest US ally. F-35 purchase delayed for years by politics. Canada a NORAD partner with integrated air defense."
+  },
+  {
+    "country": "Bahrain",
+    "slug": "bahrain",
+    "region": "Middle East",
+    "totalSince2009": 5000,
+    "recentFY": 2024,
+    "recentAmount": 300,
+    "topSystems": [
+      "F-16V fighters ($3.8B)",
+      "Patriot PAC-3",
+      "AH-1Z Viper helicopters ($912M)"
+    ],
+    "note": "Home to US Fifth Fleet (Naval Support Activity Bahrain). Tiny island nation of 1.5M people hosting the US Navy's Middle East headquarters."
+  },
+  {
+    "country": "Jordan",
+    "slug": "jordan",
+    "region": "Middle East",
+    "totalSince2009": 4000,
+    "recentFY": 2024,
+    "recentAmount": 500,
+    "topSystems": [
+      "F-16V upgrade",
+      "AH-1Z Viper helicopters",
+      "Javelin missiles",
+      "Black Hawk helicopters"
+    ],
+    "note": "Key US ally bordering Israel, Iraq, Syria. Receives ~$1.7B/year in US aid. Hosts 3,000+ US troops at Muwaffaq Salti Air Base — a base Iran attacked in 2026."
+  },
+  {
+    "country": "Philippines",
+    "slug": "philippines",
+    "region": "Indo-Pacific",
+    "totalSince2009": 3000,
+    "recentFY": 2024,
+    "recentAmount": 400,
+    "topSystems": [
+      "F-16V fighters ($2.43B approved)",
+      "HIMARS",
+      "C-130J",
+      "Brahmos missiles (via India)"
+    ],
+    "note": "US returned to Philippine bases under Marcos Jr. after Duterte era chill. Critical for containing China in South China Sea."
+  },
+  {
+    "country": "Thailand",
+    "slug": "thailand",
+    "region": "Indo-Pacific",
+    "totalSince2009": 2000,
+    "recentFY": 2024,
+    "recentAmount": 300,
+    "topSystems": [
+      "Stryker vehicles ($425M)",
+      "Black Hawk helicopters",
+      "M1126 ICVs",
+      "AMRAAM missiles"
+    ],
+    "note": "US treaty ally since 1954. Annual Cobra Gold exercises. Balancing US and Chinese military ties."
+  },
+  {
+    "country": "Colombia",
+    "slug": "colombia",
+    "region": "Americas",
+    "totalSince2009": 3000,
+    "recentFY": 2024,
+    "recentAmount": 200,
+    "topSystems": [
+      "Black Hawk helicopters",
+      "A-29 Super Tucano",
+      "Scan Eagle drones",
+      "Javelin missiles"
+    ],
+    "note": "Received $12B+ in US military/counter-narcotics aid since Plan Colombia (2000). Now the largest US military partner in Latin America."
+  },
+  {
+    "country": "Indonesia",
+    "slug": "indonesia",
+    "region": "Indo-Pacific",
+    "totalSince2009": 2500,
+    "recentFY": 2024,
+    "recentAmount": 600,
+    "topSystems": [
+      "F-15ID fighters ($13.9B approved)",
+      "MV-22 Osprey ($2B)",
+      "C-130J"
+    ],
+    "note": "Largest Muslim-majority country. US rebuilding mil-to-mil ties cut after 1999 East Timor massacre. F-15 sale is a strategic counter to Chinese influence."
+  },
+  {
+    "country": "Netherlands",
+    "slug": "netherlands",
+    "region": "Europe",
+    "totalSince2009": 5000,
+    "recentFY": 2024,
+    "recentAmount": 400,
+    "topSystems": [
+      "F-35A ($5.5B)",
+      "MQ-9 Reaper drones",
+      "AIM-120 AMRAAM",
+      "Patriot"
+    ],
+    "note": "NATO ally. Home to Volkel Air Base — one of six European sites storing US nuclear weapons (B61 bombs, officially \"neither confirmed nor denied\")."
+  },
+  {
+    "country": "Belgium",
+    "slug": "belgium",
+    "region": "Europe",
+    "totalSince2009": 3000,
+    "recentFY": 2024,
+    "recentAmount": 300,
+    "topSystems": [
+      "F-35A ($4.3B)",
+      "MQ-9B SkyGuardian ($600M)"
+    ],
+    "note": "Home to NATO headquarters. Kleine Brogel Air Base stores US nuclear weapons. Belgium's parliament debated removing them — US objected."
+  },
+  {
+    "country": "Switzerland",
+    "slug": "switzerland",
+    "region": "Europe",
+    "totalSince2009": 1000,
+    "recentFY": 2024,
+    "recentAmount": 600,
+    "topSystems": [
+      "F-35A ($6.5B)",
+      "Patriot"
+    ],
+    "note": "Neutral country buying American stealth fighters. Controversial referendum narrowly approved ($6.5B purchase). Shows F-35 market dominance."
+  },
+  {
+    "country": "Denmark",
+    "slug": "denmark",
+    "region": "Europe",
+    "totalSince2009": 3000,
+    "recentFY": 2024,
+    "recentAmount": 300,
+    "topSystems": [
+      "F-35A ($3.3B)",
+      "Harpoon missiles",
+      "ScanEagle drones"
+    ],
+    "note": "Contributed to Afghanistan and Libya campaigns. Trump famously offered to buy Greenland (Danish territory) — twice."
+  },
+  {
+    "country": "Turkey",
+    "slug": "turkey",
+    "region": "Middle East/Europe",
+    "totalSince2009": 8000,
+    "recentFY": 2024,
+    "recentAmount": 200,
+    "topSystems": [
+      "F-16V upgrade ($23B approved)",
+      "AIM-120 AMRAAM",
+      "previously F-35 partner"
+    ],
+    "note": "NATO ally kicked out of F-35 program for buying Russian S-400 air defense system. Turkey then built its own 5th-gen fighter (KAAN). Relationship remains tense.",
+    "controversies": "Bought Russian S-400 despite US threats. Used US-supplied weapons against US-allied Kurds in Syria. Blocked Sweden's NATO membership for over a year."
+  },
+  {
+    "country": "Brazil",
+    "slug": "brazil",
+    "region": "Americas",
+    "totalSince2009": 1500,
+    "recentFY": 2024,
+    "recentAmount": 300,
+    "topSystems": [
+      "C-130J Hercules",
+      "AH-1Z Viper ($800M proposed)",
+      "AGM-84L Harpoon"
+    ],
+    "note": "Largest economy in Latin America. Chose Sweden's Gripen over F-35/F-18. US arms sales limited but growing under closer defense cooperation."
   }
 ]

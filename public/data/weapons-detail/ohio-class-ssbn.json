@@ -1,0 +1,13 @@
+{
+  "name": "Ohio-class SSBN",
+  "slug": "ohio-class-ssbn",
+  "category": "Nuclear Submarine",
+  "manufacturer": "General Dynamics",
+  "unitCost": 2000,
+  "totalCost": 36000,
+  "units": 14,
+  "inService": true,
+  "description": "Ballistic missile submarine carrying 20 Trident II D5 missiles, each with up to 8 nuclear warheads. A single Ohio-class submarine can destroy an entire country. The ultimate deterrent.",
+  "costOverrun": 10,
+  "keyFact": "A single Ohio-class submarine carries enough nuclear weapons to end civilization. The US has 14 of them."
+}

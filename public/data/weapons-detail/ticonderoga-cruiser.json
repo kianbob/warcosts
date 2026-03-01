@@ -1,0 +1,13 @@
+{
+  "name": "Ticonderoga-class Cruiser",
+  "slug": "ticonderoga-cruiser",
+  "category": "Cruiser",
+  "manufacturer": "HII",
+  "unitCost": 1800,
+  "totalCost": 48000,
+  "units": 22,
+  "inService": true,
+  "description": "Aegis guided-missile cruiser with 122 vertical launch cells. Primary air defense escort for carrier battle groups. Being decommissioned without replacement — a concerning capability gap.",
+  "costOverrun": 20,
+  "keyFact": "Being retired with no replacement. The Navy is losing its most capable air defense ships."
+}

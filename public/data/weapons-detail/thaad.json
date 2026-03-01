@@ -1,0 +1,18 @@
+{
+  "name": "THAAD",
+  "slug": "thaad",
+  "category": "Missile Defense",
+  "service": "Army/MDA",
+  "contractor": "Lockheed Martin",
+  "unitCost": null,
+  "totalCost": 24000,
+  "costOverrun": null,
+  "units": 7,
+  "delivered": 7,
+  "description": "Terminal High Altitude Area Defense. Designed to shoot down short and medium-range ballistic missiles.",
+  "status": "Active",
+  "startYear": 1992,
+  "iocYear": 2008,
+  "notes": "Deployed to South Korea, Guam, UAE, Israel. Each battery costs ~$1B. 7 batteries operational.",
+  "costBillions": 24
+}

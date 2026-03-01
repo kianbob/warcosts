@@ -1,0 +1,20 @@
+{
+  "name": "Columbia Class Submarine",
+  "slug": "columbia-class",
+  "category": "Submarine",
+  "service": "Navy",
+  "contractor": "General Dynamics",
+  "unitCost": 15200,
+  "totalCost": 132000,
+  "costOverrun": 10,
+  "units": 12,
+  "delivered": 0,
+  "description": "Nuclear ballistic missile submarine (SSBN) to replace the Ohio class. Navy's #1 acquisition priority.",
+  "status": "Development",
+  "startYear": 2017,
+  "iocYear": 2031,
+  "notes": "Each carries 16 Trident II D5LE missiles with nuclear warheads. $132B lifecycle cost. Critical to nuclear triad.",
+  "costBillions": 132,
+  "costOverrunLabel": "10% over budget",
+  "unitCostLabel": "$15.2B per unit"
+}

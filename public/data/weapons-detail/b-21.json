@@ -1,0 +1,19 @@
+{
+  "name": "B-21 Raider",
+  "slug": "b-21",
+  "category": "Bomber",
+  "service": "Air Force",
+  "contractor": "Northrop Grumman",
+  "unitCost": 753,
+  "totalCost": 203000,
+  "costOverrun": null,
+  "units": 100,
+  "delivered": 0,
+  "description": "Next-generation stealth strategic bomber to replace the B-2 Spirit.",
+  "status": "Development",
+  "startYear": 2015,
+  "iocYear": 2027,
+  "notes": "First flight December 2023. One of few recent programs on cost/schedule. Classified program details.",
+  "costBillions": 203,
+  "unitCostLabel": "$0.8B per unit"
+}

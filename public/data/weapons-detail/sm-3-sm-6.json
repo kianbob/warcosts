@@ -1,0 +1,13 @@
+{
+  "name": "SM-3 / SM-6",
+  "slug": "sm-3-sm-6",
+  "category": "Naval Missile Defense",
+  "manufacturer": "RTX (Raytheon)",
+  "unitCost": 28,
+  "totalCost": 20000,
+  "units": 500,
+  "inService": true,
+  "description": "Ship-launched ballistic missile interceptors. SM-3 Block IIA can intercept ICBMs in space. SM-6 is a multi-mission missile for air defense, anti-ship, and BMD. At $28M per SM-3 Block IIA, it's the most expensive interceptor in the US arsenal.",
+  "costOverrun": 30,
+  "keyFact": "SM-3 can hit a satellite in orbit — the US demonstrated this in 2008 by shooting down a failing spy satellite at 150 miles altitude."
+}

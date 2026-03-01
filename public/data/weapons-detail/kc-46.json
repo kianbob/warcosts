@@ -1,0 +1,20 @@
+{
+  "name": "KC-46 Pegasus",
+  "slug": "kc-46",
+  "category": "Tanker",
+  "service": "Air Force",
+  "contractor": "Boeing",
+  "unitCost": 178,
+  "totalCost": 44400,
+  "costOverrun": 27,
+  "units": 179,
+  "delivered": 79,
+  "description": "Aerial refueling and strategic military transport aircraft.",
+  "status": "In Production",
+  "startYear": 2011,
+  "iocYear": 2019,
+  "notes": "Plagued by Remote Vision System deficiencies. Boeing absorbed $7B+ in cost overruns.",
+  "costBillions": 44.4,
+  "costOverrunLabel": "27% over budget",
+  "unitCostLabel": "$0.2B per unit"
+}

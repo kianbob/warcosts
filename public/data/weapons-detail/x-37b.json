@@ -1,0 +1,13 @@
+{
+  "name": "X-37B Orbital Test Vehicle",
+  "slug": "x-37b",
+  "category": "Space",
+  "manufacturer": "Boeing",
+  "unitCost": null,
+  "totalCost": null,
+  "units": 2,
+  "inService": true,
+  "description": "Classified unmanned space plane that has spent years orbiting Earth on secret missions. Largest mission: 908 days in orbit. Operated by US Space Force. Nobody outside the Pentagon knows what it does.",
+  "costOverrun": null,
+  "keyFact": "Has spent over 3,774 cumulative days in orbit on classified missions. No one outside the Pentagon knows what it actually does."
+}

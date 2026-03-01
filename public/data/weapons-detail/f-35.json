@@ -1,0 +1,21 @@
+{
+  "name": "F-35 Lightning II",
+  "slug": "f-35",
+  "category": "Fighter Aircraft",
+  "service": "Multi-Service",
+  "contractor": "Lockheed Martin",
+  "unitCost": 80,
+  "totalCost": 1700000,
+  "costOverrun": 183,
+  "units": 2456,
+  "delivered": 1000,
+  "description": "Fifth-generation stealth multirole combat aircraft. The most expensive weapons program in history.",
+  "lifetimeCost": "$1.7 trillion",
+  "status": "In Production",
+  "startYear": 2001,
+  "iocYear": 2015,
+  "notes": "Lifetime cost includes 66 years of operations. Unit cost dropped from $237M to ~$80M. Program has faced chronic delays, software issues, and engine problems.",
+  "costBillions": 1700,
+  "costOverrunLabel": "183% over budget",
+  "unitCostLabel": "$80M per unit"
+}

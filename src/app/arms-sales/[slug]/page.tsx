@@ -14,8 +14,7 @@ interface ArmsSaleCountry {
 }
 
 export async function generateStaticParams() {
-  const data: ArmsSaleCountry[] = loadData('arms-sales-countries.json')
-  return data.map(d => ({ slug: d.slug }))
+  return []
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -68,7 +67,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
 
       {/* Size comparison bar */}
       <div className="bg-stone-800 border border-stone-700 rounded-lg p-5 mb-8">
-        <p className="text-sm text-stone-400 mb-2">Share of top 15 buyers</p>
+        <p className="text-sm text-stone-400 mb-2">Share of top buyers</p>
         <div className="w-full bg-stone-700 rounded-full h-4">
           <div className="bg-red-600 h-4 rounded-full" style={{ width: `${(entry.totalSince2009 / maxTotal) * 100}%` }} />
         </div>

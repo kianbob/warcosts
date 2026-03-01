@@ -7,8 +7,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'US Arms Sales by Country — Top 15 Buyers',
-  description: 'Which countries buy the most US weapons? Complete breakdown of arms sales to 15 major buyer nations with systems sold and controversies.',
+  title: 'US Arms Sales by Country — Top 35 Buyers',
+  description: 'Which countries buy the most US weapons? Complete breakdown of arms sales to 35 major buyer nations with systems sold and controversies.',
 }
 
 interface ArmsSaleCountry {

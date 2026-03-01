@@ -1,0 +1,20 @@
+{
+  "name": "Virginia Class Submarine",
+  "slug": "virginia-class",
+  "category": "Submarine",
+  "service": "Navy",
+  "contractor": "General Dynamics/HII",
+  "unitCost": 3450,
+  "totalCost": 114000,
+  "costOverrun": 12,
+  "units": 66,
+  "delivered": 23,
+  "description": "Nuclear-powered fast attack submarine designed for a broad range of missions.",
+  "status": "In Production",
+  "startYear": 1998,
+  "iocYear": 2004,
+  "notes": "Block V adds Virginia Payload Module for 28 additional Tomahawk missiles. Critical for AUKUS submarine deal.",
+  "costBillions": 114,
+  "costOverrunLabel": "12% over budget",
+  "unitCostLabel": "$3.5B per unit"
+}

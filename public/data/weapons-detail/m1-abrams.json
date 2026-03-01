@@ -1,0 +1,19 @@
+{
+  "name": "M1A2 SEPv3 Abrams",
+  "slug": "m1-abrams",
+  "category": "Main Battle Tank",
+  "service": "Army",
+  "contractor": "General Dynamics",
+  "unitCost": 10,
+  "totalCost": 50000,
+  "costOverrun": null,
+  "units": 3500,
+  "delivered": 3500,
+  "description": "Third-generation main battle tank. In service since 1980 with continuous upgrades.",
+  "status": "Active/Upgrading",
+  "startYear": 1972,
+  "iocYear": 1980,
+  "notes": "SEPv3 upgrade adds Trophy active protection system. Deployed to Europe after Ukraine invasion. 70 tons.",
+  "costBillions": 50,
+  "unitCostLabel": "$10M per unit"
+}

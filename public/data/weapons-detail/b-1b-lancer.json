@@ -1,0 +1,13 @@
+{
+  "name": "B-1B Lancer",
+  "slug": "b-1b-lancer",
+  "category": "Bomber",
+  "manufacturer": "Rockwell/Boeing",
+  "unitCost": 283,
+  "totalCost": 28000,
+  "units": 100,
+  "inService": true,
+  "description": "Supersonic strategic bomber capable of Mach 1.25. Can carry 75,000 lbs of ordnance — more than any other US aircraft. Being retired as B-21 enters service.",
+  "costOverrun": 50,
+  "keyFact": "Carries more bombs than any other US aircraft — 75,000 lbs. Three times the B-52's internal payload."
+}

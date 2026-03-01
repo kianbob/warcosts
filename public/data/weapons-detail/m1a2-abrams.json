@@ -1,0 +1,13 @@
+{
+  "name": "M1A2 Abrams SEPv3",
+  "slug": "m1a2-abrams",
+  "category": "Main Battle Tank",
+  "manufacturer": "General Dynamics",
+  "unitCost": 10,
+  "totalCost": 24000,
+  "units": 2500,
+  "inService": true,
+  "description": "America's main battle tank since 1980. The SEPv3 variant includes improved armor, electronics, and Trophy active protection system. 70 tons. Gas-turbine engine burns 300 gallons/day.",
+  "costOverrun": 15,
+  "keyFact": "Burns 300 gallons of fuel per day whether moving or not. A single Abrams costs $10M and costs $500/hour to operate."
+}

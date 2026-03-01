@@ -1,0 +1,13 @@
+{
+  "name": "MQ-9 Reaper",
+  "slug": "mq-9-reaper",
+  "category": "Drone",
+  "manufacturer": "General Atomics",
+  "unitCost": 32,
+  "totalCost": 12000,
+  "units": 300,
+  "inService": true,
+  "description": "The primary US hunter-killer drone. Can carry Hellfire missiles and 500lb bombs. Loiter for 27 hours. Used extensively in Pakistan, Yemen, Somalia, Afghanistan, and Iraq. Has killed thousands.",
+  "costOverrun": 5,
+  "keyFact": "The drone that changed warfare — 14,000+ strikes, killed thousands including US citizens, with operators sitting in Nevada."
+}

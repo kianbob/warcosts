@@ -1,0 +1,13 @@
+{
+  "name": "F/A-18 Super Hornet",
+  "slug": "fa-18-super-hornet",
+  "category": "Fighter Aircraft",
+  "manufacturer": "Boeing",
+  "unitCost": 67,
+  "totalCost": 40000,
+  "units": 608,
+  "inService": true,
+  "description": "Navy/Marine carrier-based multirole fighter. Backbone of carrier air wings since 1999. Being replaced by F-35C but remains in active service.",
+  "costOverrun": 8,
+  "keyFact": "Each Super Hornet costs $67M — cheaper than F-35 but less stealthy."
+}

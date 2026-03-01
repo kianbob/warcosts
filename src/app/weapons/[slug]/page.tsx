@@ -28,8 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export function generateStaticParams() {
-  const weapons = loadData('weapons.json') as Weapon[]
-  return weapons.map(w => ({ slug: w.slug }))
+  return []
 }
 
 const statusColors: Record<string, string> = {

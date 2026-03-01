@@ -1,0 +1,20 @@
+{
+  "name": "MQ-4C Triton",
+  "slug": "mq-4c",
+  "category": "Drone",
+  "service": "Navy",
+  "contractor": "Northrop Grumman",
+  "unitCost": 176,
+  "totalCost": 14700,
+  "costOverrun": 52,
+  "units": 68,
+  "delivered": 4,
+  "description": "High-altitude, long-endurance unmanned maritime surveillance aircraft.",
+  "status": "Low-Rate Production",
+  "startYear": 2008,
+  "iocYear": 2024,
+  "notes": "Based on Global Hawk design. Provides persistent maritime ISR.",
+  "costBillions": 14.7,
+  "costOverrunLabel": "52% over budget",
+  "unitCostLabel": "$0.2B per unit"
+}

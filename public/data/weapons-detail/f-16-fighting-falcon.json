@@ -1,0 +1,13 @@
+{
+  "name": "F-16 Fighting Falcon",
+  "slug": "f-16-fighting-falcon",
+  "category": "Fighter Aircraft",
+  "manufacturer": "Lockheed Martin",
+  "unitCost": 34,
+  "totalCost": 34000,
+  "units": 1000,
+  "inService": true,
+  "description": "Most produced Western fighter jet in history (4,600+ built). First flew in 1978. Still in production as F-16V/Block 70/72 for export. The \"workhorse\" of the US Air Force.",
+  "costOverrun": 5,
+  "keyFact": "Over 25 countries fly the F-16. At $34M each, it's the \"affordable\" fighter."
+}

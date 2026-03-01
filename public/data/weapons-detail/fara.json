@@ -1,0 +1,18 @@
+{
+  "name": "FARA (Future Attack Reconnaissance)",
+  "slug": "fara",
+  "category": "Helicopter",
+  "service": "Army",
+  "contractor": "Bell",
+  "unitCost": null,
+  "totalCost": 30000,
+  "costOverrun": null,
+  "units": 0,
+  "delivered": 0,
+  "description": "Next-generation armed reconnaissance helicopter. CANCELLED in 2024.",
+  "status": "Cancelled",
+  "startYear": 2019,
+  "iocYear": null,
+  "notes": "Army cancelled February 2024 after spending $2.2B. Redirecting funds to drones. Follows cancellation of Comanche ($7B wasted) and ARH-70 ($450M wasted).",
+  "costBillions": 30
+}

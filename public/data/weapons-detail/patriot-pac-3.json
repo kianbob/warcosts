@@ -1,0 +1,13 @@
+{
+  "name": "Patriot PAC-3",
+  "slug": "patriot-pac-3",
+  "category": "Air Defense",
+  "manufacturer": "RTX (Raytheon)",
+  "unitCost": 4,
+  "totalCost": 30000,
+  "units": 1100,
+  "inService": true,
+  "description": "Premier US air defense missile system. Each interceptor costs $4M. A full battery costs $1B+. Successfully shot down ballistic missiles in Ukraine and Saudi Arabia. Limitation: each $4M interceptor might be used against a $50K drone.",
+  "costOverrun": 20,
+  "keyFact": "A $4M Patriot missile shooting down a $50K drone is a 80:1 cost asymmetry that's bankrupting air defense."
+}

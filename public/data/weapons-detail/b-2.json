@@ -1,0 +1,20 @@
+{
+  "name": "B-2 Spirit",
+  "slug": "b-2",
+  "category": "Bomber",
+  "service": "Air Force",
+  "contractor": "Northrop Grumman",
+  "unitCost": 2100,
+  "totalCost": 44750,
+  "costOverrun": 200,
+  "units": 21,
+  "delivered": 21,
+  "description": "Stealth strategic heavy bomber. At $2.1B each, the most expensive aircraft ever built.",
+  "status": "Active (Retiring)",
+  "startYear": 1979,
+  "iocYear": 1997,
+  "notes": "Originally planned 132 aircraft, cut to 21 after Cold War ended. Cost per flight hour: ~$130,000.",
+  "costBillions": 44.8,
+  "costOverrunLabel": "200% over budget",
+  "unitCostLabel": "$2.1B per unit"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Space-Based Infrared System (SBIRS)",
+  "slug": "sbirs",
+  "category": "Space",
+  "service": "Space Force",
+  "contractor": "Lockheed Martin",
+  "unitCost": null,
+  "totalCost": 19200,
+  "costOverrun": 300,
+  "units": 6,
+  "delivered": 6,
+  "description": "Missile warning satellite constellation. Massively over budget.",
+  "status": "Active",
+  "startYear": 1996,
+  "iocYear": 2013,
+  "notes": "Original estimate $4.2B, final cost $19.2B. 17 years late. Being replaced by Next-Gen OPIR.",
+  "costBillions": 19.2,
+  "costOverrunLabel": "300% over budget"
+}

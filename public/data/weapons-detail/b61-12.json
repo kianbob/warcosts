@@ -1,0 +1,20 @@
+{
+  "name": "B61-12 Nuclear Bomb",
+  "slug": "b61-12",
+  "category": "Nuclear Weapon",
+  "service": "NNSA/DOE",
+  "contractor": "Various",
+  "unitCost": 28,
+  "totalCost": 14800,
+  "costOverrun": 50,
+  "units": 480,
+  "delivered": 200,
+  "description": "Life-extended gravity nuclear bomb with new guided tail kit.",
+  "status": "In Production",
+  "startYear": 2012,
+  "iocYear": 2022,
+  "notes": "Most expensive nuclear weapon refurbishment in history. Deployed to Europe and available for F-35, B-2, B-21.",
+  "costBillions": 14.8,
+  "costOverrunLabel": "50% over budget",
+  "unitCostLabel": "$28M per unit"
+}

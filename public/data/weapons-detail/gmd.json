@@ -1,0 +1,18 @@
+{
+  "name": "Ground Based Midcourse Defense",
+  "slug": "gmd",
+  "category": "Missile Defense",
+  "service": "MDA",
+  "contractor": "Boeing",
+  "unitCost": null,
+  "totalCost": 67000,
+  "costOverrun": null,
+  "units": 44,
+  "delivered": 44,
+  "description": "Ground-based missile defense system designed to intercept ICBMs. Questionable effectiveness.",
+  "status": "Active",
+  "startYear": 1997,
+  "iocYear": 2004,
+  "notes": "Only successful in 50% of controlled tests. $67B spent on system physicists say cannot reliably work. Based in Alaska and California.",
+  "costBillions": 67
+}

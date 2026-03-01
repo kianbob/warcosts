@@ -1,0 +1,19 @@
+{
+  "name": "Long Range Anti-Ship Missile (LRASM)",
+  "slug": "lrasm",
+  "category": "Cruise Missile",
+  "service": "Navy/Air Force",
+  "contractor": "Lockheed Martin",
+  "unitCost": 3.5,
+  "totalCost": 5000,
+  "costOverrun": null,
+  "units": null,
+  "delivered": null,
+  "description": "Stealthy anti-ship cruise missile designed for contested environments.",
+  "status": "In Production",
+  "startYear": 2009,
+  "iocYear": 2018,
+  "notes": "Critical capability for Pacific theater. Can be launched from B-1B, F/A-18, and surface ships.",
+  "costBillions": 5,
+  "unitCostLabel": "$3.5M per unit"
+}

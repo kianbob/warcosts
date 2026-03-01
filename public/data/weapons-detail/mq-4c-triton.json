@@ -1,0 +1,13 @@
+{
+  "name": "MQ-4C Triton",
+  "slug": "mq-4c-triton",
+  "category": "Drone",
+  "manufacturer": "Northrop Grumman",
+  "unitCost": 189,
+  "totalCost": 14000,
+  "units": 68,
+  "inService": true,
+  "description": "Maritime surveillance drone based on Global Hawk. Can survey 7 million square km in a single mission. Navy uses it for persistent ocean surveillance.",
+  "costOverrun": 60,
+  "keyFact": "Can survey an area larger than the contiguous US in a single 30-hour mission."
+}

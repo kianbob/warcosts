@@ -1,0 +1,13 @@
+{
+  "name": "F-22 Raptor",
+  "slug": "f-22-raptor",
+  "category": "Fighter Aircraft",
+  "manufacturer": "Lockheed Martin",
+  "unitCost": 350,
+  "totalCost": 67000,
+  "units": 195,
+  "inService": true,
+  "description": "The world's first operational 5th-generation stealth fighter. Originally planned 750 aircraft; cut to 195 due to cost. $350M per plane with development costs. Being retired in the 2030s for NGAD.",
+  "costOverrun": 100,
+  "keyFact": "Planned 750 fighters, built 195. At $350M each, the most expensive fighter ever built."
+}

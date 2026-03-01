@@ -1,0 +1,13 @@
+{
+  "name": "Tomahawk Cruise Missile",
+  "slug": "tomahawk-cruise-missile",
+  "category": "Cruise Missile",
+  "manufacturer": "RTX (Raytheon)",
+  "unitCost": 2,
+  "totalCost": 20000,
+  "units": 4000,
+  "inService": true,
+  "description": "The iconic land-attack cruise missile. Range: 1,000+ miles. GPS-guided. Can be launched from ships and submarines. Used in every US conflict since 1991. Each one costs $2 million.",
+  "costOverrun": 0,
+  "keyFact": "At $2M each, every Tomahawk fired costs more than the average American home. The US has fired 2,000+ in combat."
+}

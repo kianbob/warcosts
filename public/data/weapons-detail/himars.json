@@ -1,0 +1,13 @@
+{
+  "name": "HIMARS",
+  "slug": "himars",
+  "category": "Rocket Artillery",
+  "manufacturer": "Lockheed Martin",
+  "unitCost": 5.1,
+  "totalCost": 10000,
+  "units": 500,
+  "inService": true,
+  "description": "High Mobility Artillery Rocket System. Each launch unit costs $5.1M. Fires GPS-guided rockets to 190 miles. Game-changer in Ukraine — destroyed Russian command posts and ammo depots. Now every US ally wants one.",
+  "costOverrun": 5,
+  "keyFact": "Ukraine used HIMARS to destroy 400+ Russian targets. Now every US ally is buying them — 18 countries and counting."
+}

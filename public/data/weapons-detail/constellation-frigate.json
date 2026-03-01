@@ -1,0 +1,13 @@
+{
+  "name": "Constellation-class Frigate",
+  "slug": "constellation-frigate",
+  "category": "Frigate",
+  "manufacturer": "Fincantieri",
+  "unitCost": 1280,
+  "totalCost": 25000,
+  "units": 20,
+  "inService": false,
+  "description": "New-design frigate to replace the cancelled LCS. Based on Italian FREMM design. Expected to enter service in 2029, already 3 years behind schedule and 50% over budget.",
+  "costOverrun": 50,
+  "keyFact": "Ordered to replace the LCS disaster. Already 3 years late and 50% over budget before a single ship is delivered."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Arleigh Burke-class Destroyer",
+  "slug": "arleigh-burke-destroyer",
+  "category": "Destroyer",
+  "manufacturer": "General Dynamics/HII",
+  "unitCost": 2200,
+  "totalCost": 165000,
+  "units": 73,
+  "inService": true,
+  "description": "Most numerous surface combatant in the US Navy. Equipped with Aegis combat system and 96 vertical launch cells for Tomahawk missiles and SM-3 interceptors. The \"backbone of the fleet.\"",
+  "costOverrun": 30,
+  "keyFact": "Each destroyer carries 96 missiles that can hit targets 1,000 miles away. The US has 73 of them."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Constellation Class Frigate",
+  "slug": "constellation-class",
+  "category": "Frigate",
+  "service": "Navy",
+  "contractor": "Fincantieri",
+  "unitCost": 1230,
+  "totalCost": 24500,
+  "costOverrun": 58,
+  "units": 20,
+  "delivered": 0,
+  "description": "Next-generation guided-missile frigate based on Italian FREMM design.",
+  "status": "Development",
+  "startYear": 2020,
+  "iocYear": 2029,
+  "notes": "Already 3+ years behind schedule with significant design changes. First hull not yet laid. GAO flagged major risks.",
+  "costBillions": 24.5,
+  "costOverrunLabel": "58% over budget",
+  "unitCostLabel": "$1.2B per unit"
+}

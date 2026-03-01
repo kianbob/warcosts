@@ -1,0 +1,13 @@
+{
+  "name": "America-class LHA",
+  "slug": "america-class-lha",
+  "category": "Amphibious",
+  "manufacturer": "HII",
+  "unitCost": 4000,
+  "totalCost": 20000,
+  "units": 4,
+  "inService": true,
+  "description": "Amphibious assault ship that looks like a small aircraft carrier. Operates F-35B stealth fighters. At 45,000 tons, it's larger than most countries' aircraft carriers.",
+  "costOverrun": 25,
+  "keyFact": "At 45,000 tons with F-35Bs, it's more capable than most countries' aircraft carriers — and the US has 11 actual carriers too."
+}

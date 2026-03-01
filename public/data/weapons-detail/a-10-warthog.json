@@ -1,0 +1,13 @@
+{
+  "name": "A-10 Thunderbolt II (Warthog)",
+  "slug": "a-10-warthog",
+  "category": "Attack Aircraft",
+  "manufacturer": "Fairchild Republic",
+  "unitCost": 19,
+  "totalCost": 6500,
+  "units": 281,
+  "inService": true,
+  "description": "Close air support aircraft built around the massive GAU-8 Avenger 30mm rotary cannon. Beloved by ground troops, repeatedly saved from retirement by Congress despite Air Force opposition. \"The plane the military doesn't want but soldiers need.\"",
+  "costOverrun": 0,
+  "keyFact": "The Air Force has tried to retire the A-10 seven times. Congress keeps saving it because ground troops love it."
+}

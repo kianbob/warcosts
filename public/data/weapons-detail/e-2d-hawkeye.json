@@ -1,0 +1,13 @@
+{
+  "name": "E-2D Hawkeye",
+  "slug": "e-2d-hawkeye",
+  "category": "Early Warning",
+  "manufacturer": "Northrop Grumman",
+  "unitCost": 176,
+  "totalCost": 15000,
+  "units": 75,
+  "inService": true,
+  "description": "Carrier-based airborne early warning aircraft. The \"eyes of the fleet\" — detects threats 300+ miles away. Critical for carrier battle group defense.",
+  "costOverrun": 15,
+  "keyFact": "The \"eyes of the fleet\" — can track 2,000 targets simultaneously at 300+ mile range."
+}

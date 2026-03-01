@@ -1,0 +1,19 @@
+{
+  "name": "MQ-9 Reaper",
+  "slug": "mq-9",
+  "category": "Drone",
+  "service": "Air Force",
+  "contractor": "General Atomics",
+  "unitCost": 32,
+  "totalCost": 14000,
+  "costOverrun": null,
+  "units": 360,
+  "delivered": 360,
+  "description": "Unmanned aerial vehicle used for surveillance and precision strikes.",
+  "status": "Active",
+  "startYear": 2001,
+  "iocYear": 2007,
+  "notes": "Workhorse of the drone war. Has conducted thousands of strikes in Afghanistan, Pakistan, Yemen, Somalia, Iraq, Syria, Libya.",
+  "costBillions": 14,
+  "unitCostLabel": "$32M per unit"
+}

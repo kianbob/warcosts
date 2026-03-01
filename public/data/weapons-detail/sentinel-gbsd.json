@@ -1,0 +1,19 @@
+{
+  "name": "Sentinel (GBSD)",
+  "slug": "sentinel-gbsd",
+  "category": "ICBM",
+  "service": "Air Force",
+  "contractor": "Northrop Grumman",
+  "unitCost": null,
+  "totalCost": 141000,
+  "costOverrun": 81,
+  "units": 400,
+  "delivered": 0,
+  "description": "Next-generation ICBM to replace Minuteman III. 81% over original budget.",
+  "status": "Development",
+  "startYear": 2020,
+  "iocYear": 2030,
+  "notes": "Nunn-McCurdy breach triggered in 2024. Cost grew from $77.7B to $140.9B. Critics argue land-based ICBMs are obsolete in the submarine age.",
+  "costBillions": 141,
+  "costOverrunLabel": "81% over budget"
+}

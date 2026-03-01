@@ -1,0 +1,18 @@
+{
+  "name": "RAH-66 Comanche",
+  "slug": "rah-66",
+  "category": "Helicopter",
+  "service": "Army",
+  "contractor": "Boeing/Sikorsky",
+  "unitCost": null,
+  "totalCost": 7000,
+  "costOverrun": null,
+  "units": 0,
+  "delivered": 0,
+  "description": "Stealth armed reconnaissance helicopter. CANCELLED in 2004 after $7B spent.",
+  "status": "Cancelled",
+  "startYear": 1983,
+  "iocYear": null,
+  "notes": "21 years of development with nothing to show. Only 2 prototypes built. Poster child for Pentagon waste.",
+  "costBillions": 7
+}

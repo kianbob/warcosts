@@ -1,0 +1,20 @@
+{
+  "name": "Littoral Combat Ship",
+  "slug": "lcs",
+  "category": "Surface Ship",
+  "service": "Navy",
+  "contractor": "Lockheed Martin/Austal",
+  "unitCost": 478,
+  "totalCost": 30000,
+  "costOverrun": 125,
+  "units": 35,
+  "delivered": 31,
+  "description": "Small surface combatant intended for near-shore operations. Widely considered a failed program.",
+  "status": "Active (Decommissioning)",
+  "startYear": 2002,
+  "iocYear": 2008,
+  "notes": "Navy began early retirement of LCS ships as young as 4 years old. Anti-submarine module never worked. Called \"Little Crappy Ship\" by critics.",
+  "costBillions": 30,
+  "costOverrunLabel": "125% over budget",
+  "unitCostLabel": "$0.5B per unit"
+}

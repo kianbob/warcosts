@@ -1,0 +1,20 @@
+{
+  "name": "V-22 Osprey",
+  "slug": "v-22",
+  "category": "Tiltrotor",
+  "service": "Marines/Air Force",
+  "contractor": "Boeing/Bell",
+  "unitCost": 72,
+  "totalCost": 56100,
+  "costOverrun": 200,
+  "units": 458,
+  "delivered": 400,
+  "description": "Tiltrotor military aircraft combining vertical takeoff with airplane speed.",
+  "status": "Grounded (2024)",
+  "startYear": 1981,
+  "iocYear": 2007,
+  "notes": "Entire fleet grounded in 2024 after fatal crashes. 46 deaths in crashes since testing began. 26 years from concept to IOC.",
+  "costBillions": 56.1,
+  "costOverrunLabel": "200% over budget",
+  "unitCostLabel": "$72M per unit"
+}

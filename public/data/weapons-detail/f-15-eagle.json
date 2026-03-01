@@ -1,0 +1,13 @@
+{
+  "name": "F-15 Eagle / Strike Eagle",
+  "slug": "f-15-eagle",
+  "category": "Fighter Aircraft",
+  "manufacturer": "Boeing",
+  "unitCost": 88,
+  "totalCost": 45000,
+  "units": 483,
+  "inService": true,
+  "description": "Air superiority fighter with a 104-0 combat record (zero air-to-air losses). F-15E Strike Eagle variant carries 23,000 lbs of ordnance. New F-15EX costs $88M.",
+  "costOverrun": 10,
+  "keyFact": "104 kills, zero losses in air-to-air combat — the most dominant fighter ever built."
+}
