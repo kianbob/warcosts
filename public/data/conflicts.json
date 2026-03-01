@@ -3647,40 +3647,60 @@
     "endYear": null,
     "region": "Middle East",
     "countries": [
-      "Iran"
+      "Iran",
+      "Israel",
+      "Bahrain",
+      "Kuwait",
+      "Jordan",
+      "Qatar",
+      "Iraq",
+      "Saudi Arabia",
+      "UAE"
     ],
-    "description": "In February 2026, the US and Israel conducted large-scale military strikes against Iran, described as the biggest US buildup in the Middle East since the 2003 Iraq invasion. Strikes targeted nuclear and military infrastructure. Carrier strike groups deployed at $6.5M/day each. Situation still developing.",
-    "costNominal": 5000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes against Iran to destroy nuclear capabilities and decapitate leadership. Supreme Leader Khamenei killed. Iran retaliated with missiles against 27 US bases across 7 countries and closed the Strait of Hormuz. 3 US service members killed, 1,000+ targets hit, 48 Iranian leaders killed, 9 naval vessels sunk. Trump says campaign will take \"four weeks or less.\" Senate killed War Powers Resolution 53-47.",
+    "costNominal": 10000000000,
     "costInflationAdjusted": 2000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 0,
-      "wounded": 0,
-      "battleDeaths": 0,
+      "deaths": 3,
+      "wounded": 5,
+      "battleDeaths": 3,
       "missing": 0
     },
-    "civilianDeaths": 0,
+    "civilianDeaths": 300,
     "troopsDeployed": 40000,
     "outcome": "Developing",
-    "outcomeDetail": "Joint US-Israeli strikes on February 28, 2026 targeted Iranian nuclear and military sites. Largest Middle East military buildup since 2003. Khamenei reportedly killed. Situation still developing as of March 1, 2026.",
+    "outcomeDetail": "Joint US-Israeli strikes launched Feb 28, 2026. Khamenei killed. Iran retaliating with missiles at 27 US bases, closed Strait of Hormuz. 3 US troops dead, 5 wounded. Senate voted 53-47 against War Powers Resolution. Trump says \"four weeks or less.\" Oil shipments through Hormuz suspended. No exit strategy. Situation rapidly escalating.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
       {
-        "year": 2026,
-        "event": "Trump declares \"massive armada heading to Iran\" (January 28)"
+        "year": 2025,
+        "event": "Operation Midnight Hammer: 37-hour strike campaign on nuclear sites. Cost: $2.25B."
       },
       {
         "year": 2026,
-        "event": "Largest US buildup in Middle East since 2003 Iraq invasion (February)"
+        "event": "Jan 8-10: IRGC massacres protesters in 100+ cities. Thousands killed."
       },
       {
         "year": 2026,
-        "event": "Trump says regime change would be \"the best thing that could happen\" (February 13)"
+        "event": "Feb 28: Operation Epic Fury launched. Strikes on Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz in broad daylight."
       },
       {
         "year": 2026,
-        "event": "US and Israel strike Iranian nuclear and military targets (February 28)"
+        "event": "Feb 28: Khamenei killed in strike on compound. 108 killed at girls'  school in Minab."
+      },
+      {
+        "year": 2026,
+        "event": "Feb 28: Iran closes Strait of Hormuz. Fires missiles at 7 countries. Dubai Fairmont hotel hit."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 1: 3 US troops killed, 5 wounded. 1,000+ targets hit. Senate kills War Powers vote 53-47."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 1: Trump says campaign will take \"four weeks or less.\" Iran FM: \"We will resist as long as it takes.\""
       }
     ],
     "libertarianNote": "Another undeclared war. No congressional vote. No public debate. The founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim.",
