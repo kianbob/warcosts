@@ -173,6 +173,89 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         </div>
       )}
 
+      {/* Narrative */}
+      {c.narrative && (
+        <div className="bg-white rounded-lg p-6 mb-8 border">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Deep Dive</h2>
+          <div className="prose prose-stone max-w-none space-y-4">
+            {(c.narrative as string).split('\n\n').map((p: string, i: number) => (
+              <p key={i} className="text-stone-700 leading-relaxed">{p}</p>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Key Quote */}
+      {c.keyQuote && (
+        <div className="bg-stone-900 rounded-lg p-6 mb-8">
+          <blockquote className="border-l-4 border-red-700 pl-6">
+            <p className="text-white text-lg italic leading-relaxed">&ldquo;{(c.keyQuote as any).text}&rdquo;</p>
+            <footer className="text-stone-400 mt-3 text-sm">— {(c.keyQuote as any).attribution}</footer>
+          </blockquote>
+        </div>
+      )}
+
+      {/* Did You Know? */}
+      {c.didYouKnow && (c.didYouKnow as string[]).length > 0 && (
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-amber-900">💡 Did You Know?</h2>
+          <ul className="space-y-3">
+            {(c.didYouKnow as string[]).map((fact: string, i: number) => (
+              <li key={i} className="flex items-start gap-3">
+                <span className="text-amber-600 font-bold mt-0.5">•</span>
+                <span className="text-amber-900">{fact}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Controversies */}
+      {c.controversies && (c.controversies as string[]).length > 0 && (
+        <div className="mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Controversies</h2>
+          <div className="space-y-3">
+            {(c.controversies as string[]).map((item: string, i: number) => (
+              <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-4">
+                <p className="text-red-900">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Key Figures */}
+      {c.keyFigures && (c.keyFigures as any[]).length > 0 && (
+        <div className="mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Key Figures</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {(c.keyFigures as any[]).map((fig: any, i: number) => (
+              <div key={i} className="bg-white border rounded-lg p-4">
+                <h3 className="font-bold text-stone-900">{fig.name}</h3>
+                <p className="text-sm text-muted">{fig.role}</p>
+                <p className="text-sm text-stone-600 mt-1">{fig.note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Legacy & Impact */}
+      {c.legacyImpact && (
+        <div className="bg-stone-50 rounded-lg p-6 mb-8 border">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Legacy &amp; Impact</h2>
+          <p className="text-stone-700 leading-relaxed">{c.legacyImpact}</p>
+        </div>
+      )}
+
+      {/* Cost Breakdown */}
+      {c.costBreakdown && (
+        <div className="bg-white rounded-lg p-6 mb-8 border">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">💰 Where the Money Went</h2>
+          <p className="text-stone-700 leading-relaxed">{c.costBreakdown}</p>
+        </div>
+      )}
+
       {/* Further Reading */}
       {relevantArticles.length > 0 && (
         <div className="mb-8">

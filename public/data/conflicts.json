@@ -307,7 +307,53 @@
       "deathsPerYear": 91128,
       "civilianDeathsPerYear": 12500
     },
-    "years": "1861–1865"
+    "years": "1861–1865",
+    "narrative": "The Civil War is America's bloodiest conflict — 620,000 dead, more than all other American wars combined up to that point. It ended the moral catastrophe of slavery, which alone justifies the tremendous sacrifice. But the war also transformed the American republic in ways that have nothing to do with emancipation — ways that expanded federal power, established precedents for executive overreach, and created the centralized nation-state that made future imperial adventures possible.\n\nThe war's causes were simultaneously simpler and more complex than popular narratives suggest. Slavery was the central, indispensable cause — Confederate leaders said so explicitly. Alexander Stephens, Vice President of the Confederacy, declared that the new government's \"cornerstone rests upon the great truth that the negro is not equal to the white man.\" The idea that the war was primarily about states' rights or tariffs is revisionist history contradicted by the Confederates' own words.\n\nBut the war's economic dimensions matter too. The South's economy was built on forced labor — slavery was the largest financial asset in America, worth more than all manufacturing and railroads combined. Northern industrialists didn't oppose slavery on purely moral grounds; they wanted a free-labor economy that would produce consumers for their goods. The war was, in part, a conflict between two economic systems.\n\nLincoln's wartime actions established dangerous precedents that echo through American history. He suspended habeas corpus, imprisoned 13,000 political prisoners without trial, shut down over 300 newspapers, instituted the first federal draft (with a $300 buyout clause that let the wealthy avoid service), and created the first federal income tax. These measures may have been necessary to win the war, but they permanently expanded the scope of presidential power.\n\nThe human toll was apocalyptic. Two percent of the American population died — equivalent to 7 million today. Entire towns lost every man of fighting age. Disease killed twice as many soldiers as combat. The Battle of Antietam alone produced 23,000 casualties in a single day — still the bloodiest day in American history.\n\nReconstruction, the war's aftermath, represents one of America's greatest moral failures. The brief period of Black political participation and economic progress was destroyed by white supremacist violence, Northern fatigue, and the corrupt bargain of 1877 that withdrew federal troops from the South. What followed was 90 years of Jim Crow, sharecropping, convict leasing (slavery by another name), and lynching. The promises of emancipation went largely unfulfilled for nearly a century.\n\nThe Civil War's deepest legacy is the nation-state it created. Before 1861, Americans said \"the United States are\"; after 1865, they said \"the United States is.\" The plural became singular. Federal supremacy was established by force, and the centralized government that emerged would go on to build an empire, wage wars around the world, and accumulate powers the founders never imagined.",
+    "didYouKnow": [
+      "The Civil War killed 620,000 Americans — more than every other American war combined until Vietnam. Adjusted for population, it would be equivalent to 7 million deaths today.",
+      "The federal draft included a $300 commutation fee — about $7,000 today — allowing wealthy men to buy their way out. This sparked the 1863 New York Draft Riots, the deadliest civil disturbance in US history.",
+      "Disease killed twice as many soldiers as combat. Dysentery, typhoid, and malaria were the war's true mass killers. A soldier was more likely to die of diarrhea than a bullet.",
+      "Lincoln suspended habeas corpus and imprisoned an estimated 13,000 political prisoners without trial, including newspaper editors, state legislators, and even a congressman.",
+      "The Confederacy's VP explicitly stated slavery was the 'cornerstone' of their new government — demolishing the later 'states' rights' revisionist narrative."
+    ],
+    "keyQuote": {
+      "text": "Our new government is founded upon the great truth that the negro is not equal to the white man; that slavery, subordination to the superior race, is his natural and normal condition.",
+      "attribution": "Alexander Stephens, Vice President of the Confederacy (Cornerstone Speech, 1861)"
+    },
+    "costBreakdown": "Of $80 billion (inflation-adjusted): Union costs were roughly $68 billion, Confederate costs about $12 billion. Both sides financed through bonds, taxes, and printing money (contributing to massive inflation, especially in the South). The first federal income tax was created to fund the Union war effort. The war destroyed the Southern economy — the value of enslaved people ($3.5 billion in 1860 dollars) was eliminated overnight.",
+    "legacyImpact": "Abolished slavery — the defining moral achievement. But Reconstruction's failure led to 90 years of Jim Crow, lynching, and de facto servitude through sharecropping and convict leasing. Established federal supremacy over states. Created precedents for executive war powers, conscription, income tax, and suspension of civil liberties. The war's unresolved racial legacy continues to shape American politics and society today.",
+    "controversies": [
+      "Reconstruction failure: The brief period of Black political and economic advancement was destroyed by white supremacist violence (KKK), Northern political fatigue, and the 1877 compromise that withdrew federal troops — abandoning freed people to their former masters.",
+      "Lincoln's civil liberties record: Suspension of habeas corpus, 13,000 political prisoners, shutting 300+ newspapers, and military tribunals for civilians raised fundamental questions about executive power in wartime.",
+      "The draft and class warfare: The $300 commutation fee made it 'a rich man's war and a poor man's fight.' The 1863 New York Draft Riots killed over 100 people, many of them Black New Yorkers targeted by white mobs."
+    ],
+    "keyFigures": [
+      {
+        "name": "Abraham Lincoln",
+        "role": "President of the United States",
+        "note": "Preserved the Union and ended slavery, but also suspended habeas corpus and imprisoned thousands without trial"
+      },
+      {
+        "name": "Robert E. Lee",
+        "role": "Commander, Army of Northern Virginia",
+        "note": "Brilliant tactician who fought to preserve slavery. Later mythologized by Lost Cause revisionism"
+      },
+      {
+        "name": "Frederick Douglass",
+        "role": "Abolitionist leader",
+        "note": "Escaped slave who became the most powerful voice for emancipation, pushed Lincoln toward the Emancipation Proclamation"
+      },
+      {
+        "name": "Ulysses S. Grant",
+        "role": "Commanding General, Union Army / Later President",
+        "note": "Won the war through attrition. As president, fought the KKK but couldn't sustain Reconstruction"
+      },
+      {
+        "name": "William T. Sherman",
+        "role": "Union General",
+        "note": "His March to the Sea destroyed Southern infrastructure and civilian property — pioneering 'total war' doctrine"
+      }
+    ]
   },
   {
     "id": "spanish-american-war",
@@ -465,7 +511,53 @@
       "deathsPerYear": 116516,
       "civilianDeathsPerYear": 0
     },
-    "years": "1917–1918"
+    "years": "1917–1918",
+    "narrative": "World War I is the war that proves the catastrophic danger of entangling alliances — the very thing George Washington warned against in his farewell address. A single assassination in Sarajevo triggered a cascade of treaty obligations that dragged the entire Western world into a meat grinder that killed 20 million people. America had no business entering it, and its entry extended the war, enabled the punitive Treaty of Versailles, and planted the seeds for an even worse war twenty years later.\n\nFor three years, Woodrow Wilson kept America out of the European slaughter. He won reelection in 1916 on the slogan \"He Kept Us Out of War.\" Five months later, he asked Congress for a declaration of war. The pretexts — unrestricted submarine warfare and the Zimmermann Telegram — were real but manageable. The deeper truth was that American banks had loaned the Allies $2.3 billion (about $50 billion today), and an Allied defeat would mean financial catastrophe for Wall Street.\n\nThe war brought unprecedented expansion of federal power at home. The Espionage Act of 1917 and the Sedition Act of 1918 criminalized dissent. Eugene Debs was sentenced to 10 years in prison for giving an anti-war speech. The Committee on Public Information, America's first propaganda agency, manufactured consent for the war through systematic manipulation of public opinion. The draft conscripted 2.8 million men.\n\nIn the trenches of France, 116,516 Americans died — 53,000 in battle and 63,000 from disease, particularly the 1918 influenza pandemic that killed more American soldiers than German bullets. Chemical weapons, used for the first time in modern warfare, maimed tens of thousands more.\n\nThe true catastrophe came at the peace table. Wilson's Fourteen Points were idealistic; the Treaty of Versailles was vindictive. Germany was forced to accept sole responsibility for the war, stripped of territory, and burdened with $33 billion in reparations (about $500 billion today). The resulting economic devastation and national humiliation created the conditions that brought Hitler to power.\n\nSmedley Butler, the most decorated Marine of his era, later wrote: \"War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious.\" He identified who actually benefited from WWI: DuPont's stock went from $20 to $1,000 per share. Bethlehem Steel's profits went from $6 million to $49 million. The soldiers got $30 a month. The corporations got billions.",
+    "didYouKnow": [
+      "More American soldiers died from the 1918 flu pandemic (63,000+) than from combat in WWI (53,000). The military's crowded camps and troopships were superspreaders.",
+      "Eugene Debs, a presidential candidate, was sentenced to 10 years in prison for giving a speech opposing the draft. He received nearly a million votes while in prison.",
+      "The Zimmermann Telegram, a key justification for US entry, was intercepted and decoded by British intelligence — who held it for weeks, manipulating the timing of its release for maximum political impact.",
+      "DuPont corporation's stock price rose from $20 to $1,000 per share during WWI. Average soldier pay was $30 per month.",
+      "The Treaty of Versailles imposed $33 billion in reparations on Germany (about $500 billion today), creating the economic devastation that enabled Hitler's rise."
+    ],
+    "keyQuote": {
+      "text": "War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious.",
+      "attribution": "Major General Smedley Butler, USMC (two-time Medal of Honor recipient)"
+    },
+    "costBreakdown": "Of $380 billion (inflation-adjusted): Military mobilization and personnel costs dominated. Massive government contracts enriched steel, chemical, and munitions manufacturers. DuPont, Bethlehem Steel, and US Steel saw profits increase by 300-1,000%. The government financed the war through Liberty Bonds and the first broad income tax.",
+    "legacyImpact": "The Treaty of Versailles directly caused World War II by humiliating and impoverishing Germany. Introduced chemical warfare to the modern battlefield. Established precedents for conscription, domestic propaganda, and criminalization of dissent. The Espionage Act of 1917 is still used today to prosecute whistleblowers. Created the modern national security state. The war's aftermath redrew the Middle East map (Sykes-Picot), creating borders that fuel conflicts to this day.",
+    "controversies": [
+      "The Lusitania: The ship was carrying 4.2 million rounds of ammunition — a fact the US and British governments concealed for decades. Germany had published newspaper warnings to passengers. 1,198 died.",
+      "Criminalization of dissent: The Espionage and Sedition Acts imprisoned over 2,000 people for opposing the war, including presidential candidate Eugene Debs. The Supreme Court upheld these convictions.",
+      "Chemical weapons: All sides used poison gas — chlorine, phosgene, mustard gas — killing 90,000 and injuring 1.2 million. The US later stockpiled these weapons despite public horror at their use."
+    ],
+    "keyFigures": [
+      {
+        "name": "Woodrow Wilson",
+        "role": "President of the United States",
+        "note": "Won reelection promising peace, entered war 5 months later. Pushed League of Nations, which the Senate rejected"
+      },
+      {
+        "name": "Smedley Butler",
+        "role": "Major General, USMC",
+        "note": "Most decorated Marine of his era. Later wrote 'War Is a Racket' exposing war profiteering"
+      },
+      {
+        "name": "Eugene Debs",
+        "role": "Socialist Party presidential candidate",
+        "note": "Imprisoned for 10 years for an anti-war speech. Won nearly 1 million votes from prison"
+      },
+      {
+        "name": "J.P. Morgan",
+        "role": "Banker",
+        "note": "Served as purchasing agent for Britain and France, loaned Allies $2.3 billion — giving Wall Street a massive financial stake in Allied victory"
+      },
+      {
+        "name": "John J. Pershing",
+        "role": "Commander of American Expeditionary Forces",
+        "note": "Insisted US troops fight as independent force rather than reinforcements for depleted European armies"
+      }
+    ]
   },
   {
     "id": "world-war-ii",
@@ -521,7 +613,53 @@
       "deathsPerYear": 101350,
       "civilianDeathsPerYear": 0
     },
-    "years": "1941–1945"
+    "years": "1941–1945",
+    "narrative": "World War II occupies a unique position in the American psyche: the \"Good War,\" the one everyone agrees was justified. And in many ways it was — responding to a direct attack at Pearl Harbor and fighting genuine genocidal evil. But the mythology of the Good War obscures uncomfortable truths about how America fought it, what it cost, and what it built in its aftermath.\n\nThe war killed 405,399 Americans — more than any conflict except the Civil War. But the civilian toll dwarfs even that: 70-85 million people died worldwide, making it the deadliest event in human history. The Holocaust murdered 6 million Jews and 5 million others. The Japanese killed millions across Asia. The Soviet Union lost 27 million. The scale of death is almost incomprehensible.\n\nAmerica's entry came after Pearl Harbor on December 7, 1941 — but the path to war was longer and more deliberate than the mythology suggests. FDR had been maneuvering toward intervention for over a year, using Lend-Lease, the Atlantic Charter, and increasingly aggressive naval patrols to support Britain while technically remaining neutral. Whether he knew Pearl Harbor was coming remains debated, but he clearly wanted war and was working toward it.\n\nThe moral compromises of the Good War deserve scrutiny. Japanese internment imprisoned 120,000 people — 62% of them American citizens — based solely on their ancestry. No Japanese American was ever convicted of espionage. The government later formally apologized and paid reparations, but the precedent of imprisoning citizens by ethnicity remains one of the worst civil liberties violations in American history.\n\nThe strategic bombing campaigns raise equally difficult questions. The firebombing of Tokyo on March 9-10, 1945, killed approximately 100,000 civilians in a single night — more than either atomic bomb. The firebombing of Dresden killed 25,000. These were deliberate attacks on civilian population centers designed to break morale through terror. Curtis LeMay, who oversaw the firebombing campaign, later acknowledged: \"If we'd lost the war, we'd all have been prosecuted as war criminals.\"\n\nThen came the atomic bombs. Hiroshima (80,000 dead instantly, 140,000 by year's end) and Nagasaki (40,000 dead instantly, 70,000 by year's end) remain the only nuclear weapons ever used in combat. The conventional justification — that invasion would have cost far more lives — is debated by historians who note that Japan was already seeking surrender terms through the Soviet Union.\n\nThe war's deepest legacy may be institutional. WWII created the military-industrial complex that Eisenhower would later warn about: a permanent wartime economy, a national security state, the CIA, the NSA, nuclear weapons, and a network of military bases spanning the globe. America never demobilized. The \"temporary\" wartime institutions became permanent, and the exceptional became the new normal.",
+    "didYouKnow": [
+      "The firebombing of Tokyo (March 1945) killed more people in a single night (~100,000) than either atomic bomb did on impact. 16 square miles of the city were incinerated.",
+      "120,000 Japanese Americans were imprisoned in internment camps — 62% were US citizens. Not a single one was ever found guilty of espionage or sabotage.",
+      "The US rejected the MS St. Louis, a ship carrying 937 Jewish refugees, in 1939. Forced to return to Europe, 254 of them died in the Holocaust.",
+      "Exposed to enemy fire, the African American 761st Tank Battalion fought for 183 continuous days in Europe — while their families faced segregation and violence at home.",
+      "Curtis LeMay, architect of the firebombing campaign, admitted: 'If we'd lost the war, we'd all have been prosecuted as war criminals.'"
+    ],
+    "keyQuote": {
+      "text": "In the councils of government, we must guard against the acquisition of unwarranted influence by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist.",
+      "attribution": "President Dwight D. Eisenhower, Farewell Address (1961)"
+    },
+    "costBreakdown": "Of $4.8 trillion (inflation-adjusted): The war consumed 40% of GDP at its peak. Major beneficiaries included aircraft manufacturers (Boeing, Lockheed, Douglas), shipbuilders, and munitions companies. The Manhattan Project alone cost $28 billion (adjusted). War bonds financed much of the effort. The war permanently established the military-industrial base Eisenhower warned about.",
+    "legacyImpact": "Created the permanent military-industrial complex and national security state. Established the CIA (1947), NSA, and the architecture of global military hegemony. Nuclear weapons changed the nature of warfare and geopolitics forever. Led to the Cold War, which drove US interventionism for 45 years. The 750+ overseas military bases established during and after WWII remain today. Also produced the GI Bill, the UN, and the international liberal order — but at the cost of permanent mobilization.",
+    "controversies": [
+      "Japanese internment: 120,000 people imprisoned by race. The Supreme Court upheld it in Korematsu v. United States — a decision only formally repudiated in 2018.",
+      "Atomic bombings: Whether Hiroshima and Nagasaki were militarily necessary remains debated. Several top US generals, including Eisenhower and MacArthur, said the bombs were unnecessary. Japan was seeking peace through Soviet channels.",
+      "Strategic bombing of civilians: The deliberate firebombing of German and Japanese cities killed hundreds of thousands of civilians. The doctrine of targeting civilian morale through mass death raises profound moral questions — especially since studies showed it actually stiffened enemy resolve."
+    ],
+    "keyFigures": [
+      {
+        "name": "Franklin D. Roosevelt",
+        "role": "President of the United States",
+        "note": "Led the nation into war after Pearl Harbor, oversaw the Manhattan Project, died in office April 1945"
+      },
+      {
+        "name": "Dwight D. Eisenhower",
+        "role": "Supreme Allied Commander / Later President",
+        "note": "Led D-Day invasion. Later warned of the military-industrial complex the war created"
+      },
+      {
+        "name": "Curtis LeMay",
+        "role": "Commander, Strategic Air Forces",
+        "note": "Architect of the firebombing campaign that killed hundreds of thousands of Japanese civilians"
+      },
+      {
+        "name": "J. Robert Oppenheimer",
+        "role": "Scientific Director, Manhattan Project",
+        "note": "Created the atomic bomb. Later quoted Hindu scripture: 'Now I am become Death, the destroyer of worlds'"
+      },
+      {
+        "name": "Harry Truman",
+        "role": "President (after FDR's death)",
+        "note": "Ordered the atomic bombings of Hiroshima and Nagasaki, the only use of nuclear weapons in warfare"
+      }
+    ]
   },
   {
     "id": "korean-war",
@@ -574,7 +712,48 @@
       "deathsPerYear": 12191,
       "civilianDeathsPerYear": 666667
     },
-    "years": "1950–1953"
+    "years": "1950–1953",
+    "narrative": "The Korean War is America's \"Forgotten War\" — and it's forgotten for a reason. It established every dangerous precedent that would define the next seven decades of American foreign policy: undeclared wars, presidential war-making without Congress, permanent forward deployment of troops, and the substitution of international authority for constitutional authority.\n\nWhen North Korea invaded South Korea on June 25, 1950, President Truman didn't go to Congress for a declaration of war. He called it a \"police action\" and cited United Nations authority. This was constitutionally revolutionary: for the first time, a president committed major ground forces to a full-scale war without congressional approval. Every president since has followed Truman's example.\n\nThe war's military trajectory reads like a cautionary tale about hubris. After the brilliant Inchon landing reversed North Korean gains, General Douglas MacArthur pushed north toward the Chinese border, ignoring warnings that China would intervene. China did — sending 300,000 troops across the Yalu River and driving US forces into the longest retreat in American military history. The Battle of Chosin Reservoir, fought in minus-35-degree temperatures, remains one of the most harrowing episodes in Marine Corps history.\n\nMacArthur wanted to use nuclear weapons against China. Truman fired him — establishing civilian control over the military but also revealing how close the world came to nuclear war over the Korean peninsula. The firing triggered a constitutional crisis, with MacArthur receiving a hero's welcome and addressed Congress while Truman's approval rating dropped to 22%.\n\nThe war ended in 1953 with an armistice — not a peace treaty. The border returned to roughly where it started: the 38th parallel. Technically, the Korean War has never ended. 36,574 Americans died to maintain a status quo that existed before the first shot was fired.\n\nThe most damning legacy is what persists today: 28,500 American troops are still stationed in South Korea, 70+ years after the armistice. South Korea, with the world's 10th largest economy and 500,000 active-duty military personnel, is more than capable of defending itself. Yet American taxpayers continue to subsidize its defense, while the permanent garrison serves as a tripwire that could drag the US into a nuclear confrontation with North Korea at any moment.\n\nThe Forgotten War set the template for everything that followed: Vietnam, Iraq, Afghanistan, Syria. The lesson was clear — a president can wage war anywhere, for any duration, without the consent of the people's representatives. And that lesson has been applied again and again.",
+    "didYouKnow": [
+      "The Korean War has technically never ended — only an armistice was signed in 1953, not a peace treaty. The two Koreas are still technically at war.",
+      "General MacArthur wanted to drop 30-50 nuclear bombs on China and create a radioactive cobalt barrier along the Korean-Chinese border. Truman fired him.",
+      "28,500 US troops are still stationed in South Korea 70+ years later, at a cost of roughly $3.5 billion per year to American taxpayers.",
+      "During the war, the US Air Force destroyed virtually every building in North Korea. General Curtis LeMay estimated the bombing killed 20% of the North Korean population.",
+      "More Korean civilians died (2-3 million) than soldiers on all sides combined — making it one of the deadliest wars for civilians in modern history."
+    ],
+    "keyQuote": {
+      "text": "If we let Korea down, the Soviet[s] will keep right on going and swallow up one piece of Asia after another.",
+      "attribution": "President Harry Truman (1950) — domino theory that proved as wrong for Korea as it later would for Vietnam"
+    },
+    "costBreakdown": "Of $389 billion (inflation-adjusted): The bulk went to military operations, troop deployment, and equipment. The US military expanded dramatically — from 1.5 million to 3.6 million personnel during the war. Defense spending jumped from 5% to 14% of GDP and never returned to pre-Korean War levels, establishing the permanent military-industrial economy.",
+    "legacyImpact": "Established the precedent for presidential war-making without Congress — used for Vietnam, Kosovo, Libya, Syria, and more. Created the permanent US military presence in East Asia (still 28,500 troops in South Korea, 50,000 in Japan). Defense spending permanently increased from 5% to 10%+ of GDP. North Korea's resulting isolation and militarization created today's nuclear crisis. The war's unresolved status continues to threaten global stability.",
+    "controversies": [
+      "No Kum-ri / civilian massacres: US forces killed large numbers of Korean refugees fearing North Korean infiltrators. The No Gun Ri massacre killed an estimated 250-300 civilians. The Pentagon initially denied it for 50 years.",
+      "MacArthur's insubordination: His push to the Chinese border, against orders, triggered Chinese intervention and extended the war by two years. His calls for nuclear weapons nearly caused WWIII.",
+      "POW controversy: 7,140 US POWs were captured. 2,701 died in captivity. 21 US soldiers refused repatriation and stayed in China — sparking fears of 'brainwashing' that influenced Cold War culture for decades."
+    ],
+    "keyFigures": [
+      {
+        "name": "Harry Truman",
+        "role": "President of the United States",
+        "note": "Committed to war without Congress, fired MacArthur, established precedent for undeclared presidential wars"
+      },
+      {
+        "name": "Douglas MacArthur",
+        "role": "Supreme Commander, UN Forces",
+        "note": "Brilliant Inchon landing, then disastrous push to China border. Fired for insubordination and advocating nuclear weapons"
+      },
+      {
+        "name": "Matthew Ridgway",
+        "role": "Commander, Eighth Army / MacArthur's replacement",
+        "note": "Restored military situation after MacArthur's disasters, advocated restraint over escalation"
+      },
+      {
+        "name": "Kim Il-sung",
+        "role": "Leader of North Korea",
+        "note": "Launched the invasion with Soviet and Chinese support, established the Kim dynasty that rules to this day"
+      }
+    ]
   },
   {
     "id": "iran-1953",
@@ -732,7 +911,53 @@
       "deathsPerYear": 2911,
       "civilianDeathsPerYear": 100000
     },
-    "years": "1955–1975"
+    "years": "1955–1975",
+    "narrative": "The Vietnam War stands as the most damning indictment of American interventionism in the 20th century — a conflict built on lies, sustained by conscription, and ended in total defeat. It began with a fabrication: the Gulf of Tonkin incident of August 1964, in which the Johnson administration claimed North Vietnamese boats attacked US destroyers. The second \"attack\" never happened, as declassified NSA documents later confirmed. Yet Congress, operating on false intelligence, passed the Gulf of Tonkin Resolution granting the president virtually unlimited war powers. No formal declaration of war was ever made.\n\nThe domino theory — the idea that if Vietnam fell to communism, all of Southeast Asia would follow — became the intellectual justification for sending 2.7 million Americans into the jungle. It was wrong. Vietnam fell, and the dominoes didn't. Today, Vietnam is a US trading partner with a market economy. Every American who died there died for a theory that was debunked by history.\n\nThe draft forced 2.2 million men into service against their will — a form of involuntary servitude that the government euphemistically called \"selective service.\" Those with money and connections avoided it. Those without were shipped to the jungle. Muhammad Ali went to prison rather than serve. Over 125,000 Americans fled to Canada. The class warfare embedded in the draft system radicalized a generation.\n\nThe Pentagon Papers, leaked by Daniel Ellsberg in 1971, revealed that the government had systematically lied to the public about the war's progress for years. Four administrations — Truman, Eisenhower, Kennedy, and Johnson — had privately acknowledged the war was likely unwinnable while publicly promising victory.\n\nThe human toll is staggering: 58,220 Americans dead, 153,000 wounded, 2 million Vietnamese civilians killed. Agent Orange, a chemical defoliant sprayed across 4.5 million acres, caused birth defects and cancer in hundreds of thousands of Vietnamese — and in the American veterans who handled it. The My Lai massacre, where US soldiers murdered between 347 and 504 unarmed civilians including women and children, was covered up for over a year.\n\nThe war cost $1 trillion in today's dollars and achieved precisely nothing. Saigon fell on April 30, 1975. The last Americans evacuated by helicopter from the embassy roof — an image that should be seared into every policymaker's memory but never seems to be.",
+    "didYouKnow": [
+      "The Gulf of Tonkin 'second attack' that justified the war never actually happened — NSA documents declassified in 2005 confirmed it was fabricated.",
+      "More Vietnam veterans have died by suicide than were killed in the actual war — an estimated 60,000+ compared to 58,220 combat deaths.",
+      "The US sprayed 20 million gallons of Agent Orange on Vietnam. The Red Cross estimates 1 million Vietnamese are still disabled from its effects.",
+      "President Nixon secretly bombed Cambodia for 14 months (Operation Menu) without telling Congress or the public, dropping 110,000 tons of bombs.",
+      "Draft deferments meant that men from the wealthiest families had a 1-in-15 chance of serving compared to 1-in-4 for the poorest — making it effectively a poor man's war."
+    ],
+    "keyQuote": {
+      "text": "We were wrong, terribly wrong. We owe it to future generations to explain why.",
+      "attribution": "Robert McNamara, Secretary of Defense (1995 memoir)"
+    },
+    "costBreakdown": "Of the $1 trillion (inflation-adjusted), roughly 40% went to military operations and personnel, 25% to equipment and munitions, 15% to air operations (including the massive bombing campaigns), and 20% to logistics, construction, and support. Defense contractors like Dow Chemical (Agent Orange), Bell Helicopter, and General Dynamics profited enormously.",
+    "legacyImpact": "Created the 'Vietnam Syndrome' — public skepticism of military intervention that lasted until the Gulf War. Established PTSD as a recognized condition. Led to the War Powers Act (1973), which presidents have largely ignored. Destroyed public trust in government — polls show trust dropped from 77% in 1964 to 36% by 1974. Produced 500,000+ veterans with PTSD and 150,000 Vietnam-era veteran suicides. Agent Orange contamination continues to cause birth defects in Vietnam today.",
+    "controversies": [
+      "The My Lai Massacre (1968): US soldiers murdered 347-504 unarmed civilians. Only Lt. William Calley was convicted — he served 3.5 years of house arrest.",
+      "The Pentagon Papers (1971): Daniel Ellsberg leaked 7,000 pages proving the government had systematically lied about the war for decades. The Nixon administration tried to destroy him.",
+      "Operation Rolling Thunder: The US dropped more bombs on Vietnam than all of WWII combined — 7.5 million tons — devastating civilian infrastructure while failing to break North Vietnamese resolve."
+    ],
+    "keyFigures": [
+      {
+        "name": "Robert McNamara",
+        "role": "Secretary of Defense (1961-1968)",
+        "note": "Architect of escalation who later admitted 'we were wrong, terribly wrong'"
+      },
+      {
+        "name": "Daniel Ellsberg",
+        "role": "Military analyst / Whistleblower",
+        "note": "Leaked the Pentagon Papers proving government deception, risked life in prison"
+      },
+      {
+        "name": "Henry Kissinger",
+        "role": "National Security Advisor / Secretary of State",
+        "note": "Expanded war into Cambodia secretly, won Nobel Peace Prize while bombing continued"
+      },
+      {
+        "name": "Ho Chi Minh",
+        "role": "North Vietnamese leader",
+        "note": "Had requested US support for Vietnamese independence in 1945, citing the Declaration of Independence"
+      },
+      {
+        "name": "Muhammad Ali",
+        "role": "Heavyweight boxing champion / Draft resister",
+        "note": "Refused induction: 'I ain't got no quarrel with them Viet Cong.' Stripped of title, convicted of draft evasion."
+      }
+    ]
   },
   {
     "id": "bay-of-pigs",
@@ -1039,7 +1264,53 @@
       "deathsPerYear": 383,
       "civilianDeathsPerYear": 3500
     },
-    "years": "1990–1991"
+    "years": "1990–1991",
+    "narrative": "The Gulf War is remembered as America's clean, decisive military victory — a 100-hour ground war that liberated Kuwait and showcased American technological superiority. This narrative is largely accurate in the short term and entirely misleading in the long term. The Gulf War didn't end anything; it started everything that followed.\n\nThe background is crucial. Saddam Hussein invaded Kuwait on August 2, 1990, after the US Ambassador to Iraq, April Glaspie, appeared to signal American indifference to an Iraq-Kuwait border dispute. Whether this was diplomatic negligence or a deliberate green light remains debated, but Glaspie told Saddam: \"We have no opinion on your Arab-Arab conflicts.\" A week later, Iraqi tanks rolled into Kuwait City.\n\nThe propaganda campaign to build public support was remarkable. A 15-year-old Kuwaiti girl, identified only as \"Nayirah,\" testified before Congress that she had witnessed Iraqi soldiers taking babies from hospital incubators and leaving them to die on the floor. The story was repeated by President Bush, senators, and the media. It was fabricated. \"Nayirah\" was actually the daughter of the Kuwaiti ambassador to the US, and her testimony was organized by the PR firm Hill & Knowlton, paid $10.7 million by the Kuwaiti government. The incubator story was a lie — but it worked.\n\nThe military campaign was devastating. The air war lasted 42 days, with over 100,000 sorties. The \"Highway of Death\" — the bombing of retreating Iraqi forces on Highway 80 out of Kuwait City — killed thousands of soldiers and civilians in a convoy stretching for miles. Images of the charred wreckage shocked the world and raised questions about proportional force. General Norman Schwarzkopf called a ceasefire partly because the imagery was becoming politically untenable.\n\nThe war's true cost wasn't measured in its 383 American dead or $136 billion price tag. It was measured in consequences. The US established permanent military bases in Saudi Arabia — Osama bin Laden's primary grievance and his stated reason for the 9/11 attacks. The war's unfinished business (leaving Saddam in power) became the justification for 13 years of devastating sanctions that killed an estimated 500,000 Iraqi children, followed by the 2003 invasion that destroyed the country entirely.\n\nGulf War Syndrome affected over 250,000 veterans — roughly a third of all who served. Symptoms included chronic fatigue, joint pain, cognitive problems, and increased cancer rates. The VA initially denied any connection to service. Potential causes include depleted uranium ammunition, chemical weapon exposure from destroyed Iraqi stockpiles, and experimental vaccines given to troops without proper consent.",
+    "didYouKnow": [
+      "The 'Nayirah testimony' about Iraqi soldiers killing babies in incubators was fabricated by the PR firm Hill & Knowlton, paid $10.7 million by the Kuwaiti government. The witness was the Kuwaiti ambassador's daughter.",
+      "US Ambassador April Glaspie told Saddam Hussein 'We have no opinion on your Arab-Arab conflicts' days before his invasion of Kuwait — a possible green light that the US later denied.",
+      "Gulf War Syndrome affected over 250,000 veterans (~33% of those deployed). The VA initially denied any service connection for years.",
+      "The Highway of Death killed thousands of retreating Iraqi soldiers and civilians in a 60-mile convoy. Journalists described it as a 'turkey shoot.'",
+      "The US military used depleted uranium ammunition for the first time — an estimated 320 tons. Areas where it was used showed dramatically increased cancer and birth defect rates."
+    ],
+    "keyQuote": {
+      "text": "If Kuwait grew carrots, we wouldn't give a damn.",
+      "attribution": "Lawrence Korb, former Assistant Secretary of Defense"
+    },
+    "costBreakdown": "Of $136 billion (inflation-adjusted): Allies reimbursed roughly $53 billion (Kuwait, Saudi Arabia, Japan, Germany). Major spending went to the massive military deployment (694,550 troops), air campaign (100,000+ sorties), and smart weapons. Defense contractors showcased new weapons systems that drove post-war arms sales worth tens of billions.",
+    "legacyImpact": "Established permanent US military bases in Saudi Arabia — Osama bin Laden's stated primary motivation for 9/11. Led to 13 years of sanctions that devastated Iraqi civilians (estimated 500,000 child deaths). Created the unfinished business used to justify the 2003 Iraq War. Gulf War Syndrome affected 250,000+ veterans. Pioneered the '24-hour war' media coverage model that shaped all subsequent conflicts.",
+    "controversies": [
+      "The Highway of Death: US forces bombed retreating Iraqi soldiers and civilians on Highway 80, creating a 60-mile graveyard of charred vehicles and bodies. Critics called it a massacre of a retreating army.",
+      "Incubator babies hoax: The key Congressional testimony justifying the war was fabricated by a PR firm. This manufactured atrocity propaganda was used to manipulate both Congress and the public.",
+      "Gulf War Syndrome: 250,000+ veterans developed chronic health problems. The government spent years denying any connection, and the exact causes — depleted uranium, chemical exposure, experimental vaccines — remain contested."
+    ],
+    "keyFigures": [
+      {
+        "name": "George H.W. Bush",
+        "role": "President of the United States",
+        "note": "Built international coalition but left Saddam in power, creating 'unfinished business' that his son would use to justify the 2003 invasion"
+      },
+      {
+        "name": "Norman Schwarzkopf",
+        "role": "Commander, US Central Command",
+        "note": "Led the military campaign to a swift victory, called ceasefire partly due to Highway of Death imagery"
+      },
+      {
+        "name": "Dick Cheney",
+        "role": "Secretary of Defense",
+        "note": "Managed the war effort, later as VP pushed for the 2003 Iraq invasion to finish what 1991 started"
+      },
+      {
+        "name": "Colin Powell",
+        "role": "Chairman, Joint Chiefs of Staff",
+        "note": "Advocated the 'Powell Doctrine' of overwhelming force and clear exit strategy — principles abandoned in Iraq 2003"
+      },
+      {
+        "name": "April Glaspie",
+        "role": "US Ambassador to Iraq",
+        "note": "Her meeting with Saddam days before the invasion appeared to signal US indifference to Iraq-Kuwait disputes"
+      }
+    ]
   },
   {
     "id": "somalia",
@@ -1270,7 +1541,53 @@
       "deathsPerYear": 123,
       "civilianDeathsPerYear": 8800
     },
-    "years": "2001–2021"
+    "years": "2001–2021",
+    "narrative": "The war in Afghanistan is the story of a justified reprisal that mutated into a two-decade, $2.3 trillion exercise in futility. When American Special Forces and CIA operatives toppled the Taliban in late 2001 with fewer than 1,000 personnel on the ground, it was one of the most effective military operations in history. Then the mission changed — from punishing those who harbored al-Qaeda to building a Western-style democracy in a tribal society that had defeated every empire that tried to reshape it.\n\nThe numbers tell the story of madness: $300 million per day, every day, for twenty years. The US spent $88 billion training an Afghan army that dissolved in 11 days when the Taliban returned. We built schools that were never used, hospitals that were never staffed, and a government so corrupt that Afghan officials were literally shipping pallets of cash to Dubai. The Special Inspector General for Afghanistan Reconstruction (SIGAR) documented waste so staggering it reads like satire — $43 million for a gas station, $150 million for luxury villas for contractors, $36 million for a military facility no one ever used.\n\nThe 2009 troop surge under Obama, adding 30,000 troops, was supposed to turn the tide. It didn't. The Afghanistan Papers, published by the Washington Post in 2019, revealed what the Pentagon knew all along: senior officials consistently lied about progress. \"We were devoid of a fundamental understanding of Afghanistan — we didn't know what we were doing,\" admitted Lt. Gen. Douglas Lute, the White House war czar.\n\nOpium production, which the Taliban had virtually eliminated in 2001, exploded under the US occupation. By 2017, Afghanistan produced 90% of the world's heroin. The drug trade funded the very insurgency Americans were fighting against — a feedback loop of absurdity.\n\nThe final chapter was the most damning. On August 15, 2021, the Taliban walked into Kabul without firing a shot. President Ghani fled the country. The Afghan army, trained and equipped at a cost of $88 billion, simply vanished. Thirteen US service members were killed in a suicide bombing at the airport during the chaotic evacuation. Twenty years of nation-building evaporated in eleven days.\n\nToday, the Taliban govern Afghanistan exactly as they did on September 10, 2001. Women are banned from education. Sharia law is enforced. The graveyard of empires claimed another victim — and American taxpayers are $2.3 trillion poorer for it.",
+    "didYouKnow": [
+      "The US spent $88 billion training an Afghan military that collapsed in 11 days — roughly $8 million per day of resistance.",
+      "Opium production increased 40-fold under US occupation. Afghanistan went from producing virtually no heroin in 2001 to 90% of global supply.",
+      "The Afghanistan Papers revealed that senior officials privately admitted the war was unwinnable while publicly claiming progress for nearly two decades.",
+      "The US spent $43 million building a single gas station in Afghanistan that should have cost $500,000 — and no one was held accountable.",
+      "At the war's peak, there were more private military contractors (117,000) in Afghanistan than US troops (100,000)."
+    ],
+    "keyQuote": {
+      "text": "We were devoid of a fundamental understanding of Afghanistan — we didn't know what we were doing.",
+      "attribution": "Lt. Gen. Douglas Lute, White House War Czar (Afghanistan Papers)"
+    },
+    "costBreakdown": "Of $2.3 trillion: $800B+ on direct military operations, $88B training Afghan forces, $145B on reconstruction (much wasted or stolen), $530B on interest on war borrowing, $296B on veteran care. Private contractors received hundreds of billions — companies like DynCorp, KBR, and Academi (formerly Blackwater) were primary beneficiaries.",
+    "legacyImpact": "2,461 US service members killed. 20,752 wounded. An estimated 176,000 total deaths including Afghan civilians and security forces. Veteran suicide rate for Afghanistan veterans is 4x the civilian rate. The hasty withdrawal triggered a refugee crisis and left behind $7 billion in US military equipment now in Taliban hands. The 2001 AUMF, never repealed, continues to authorize military operations worldwide.",
+    "controversies": [
+      "The Afghanistan Papers (2019): Washington Post obtained documents showing officials systematically lied about progress. Three-star generals admitted privately the war was unwinnable while telling Congress the opposite.",
+      "The 2021 Kabul evacuation: 13 US service members killed. Thousands of Afghan allies left behind. A retaliatory drone strike killed 10 civilians including 7 children — the Pentagon initially called it a 'righteous strike.'",
+      "Opium complicity: US forces were ordered not to destroy poppy fields to avoid alienating local allies, effectively allowing the drug trade to fund the Taliban insurgency."
+    ],
+    "keyFigures": [
+      {
+        "name": "Donald Rumsfeld",
+        "role": "Secretary of Defense (2001-2006)",
+        "note": "Architect of the invasion, dismissed need for more troops as 'old thinking'"
+      },
+      {
+        "name": "Stanley McChrystal",
+        "role": "Commander, US Forces Afghanistan",
+        "note": "Fired for criticizing the Obama administration in Rolling Stone interview"
+      },
+      {
+        "name": "Ashraf Ghani",
+        "role": "President of Afghanistan",
+        "note": "Fled the country as Kabul fell, reportedly with $169 million in cash"
+      },
+      {
+        "name": "Pat Tillman",
+        "role": "NFL player turned Army Ranger",
+        "note": "Killed by friendly fire in 2004; Pentagon covered it up and fabricated a heroic story"
+      },
+      {
+        "name": "John Sopko",
+        "role": "Special Inspector General (SIGAR)",
+        "note": "Documented billions in waste and fraud, reports largely ignored by Congress"
+      }
+    ]
   },
   {
     "id": "post-911-global",
@@ -1401,7 +1718,53 @@
       "deathsPerYear": 575,
       "civilianDeathsPerYear": 37500
     },
-    "years": "2003–2011"
+    "years": "2003–2011",
+    "narrative": "The Iraq War is the single greatest strategic blunder in American history — a war launched on fabricated evidence that killed hundreds of thousands, cost $2 trillion, destabilized an entire region, and created the conditions for ISIS. No one who orchestrated it has faced any consequences.\n\nIt began with a lie. In the aftermath of 9/11, the Bush administration claimed Saddam Hussein possessed weapons of mass destruction and was linked to al-Qaeda. Neither claim was true. On February 5, 2003, Secretary of State Colin Powell sat before the United Nations Security Council and presented what he called irrefutable evidence of Iraqi WMDs — satellite photos, intercepted communications, and a vial of fake anthrax. Powell later called it a \"blot\" on his record. The intelligence had been manipulated, cherry-picked, and in some cases fabricated by the Office of Special Plans, a Pentagon unit created specifically to build the case for war.\n\nThe invasion itself was swift. Baghdad fell in three weeks. On May 1, 2003, President Bush landed on an aircraft carrier beneath a banner reading \"Mission Accomplished.\" The real war was just beginning. The decision to disband the Iraqi army — 400,000 armed, trained men suddenly unemployed — was perhaps the most catastrophic policy decision of the 21st century. Those men, humiliated and desperate, became the backbone of the insurgency and eventually ISIS.\n\nAbu Ghraib destroyed whatever moral authority America claimed. Photographs of US soldiers torturing, humiliating, and sexually abusing Iraqi prisoners shocked the world. Only low-ranking soldiers were punished. The architects of the torture program — including those who wrote legal memos authorizing it — were promoted.\n\nThe financial corruption was breathtaking. Halliburton, where Vice President Cheney had been CEO, received $39.5 billion in no-bid contracts. The Coalition Provisional Authority lost track of $8.8 billion in Iraqi reconstruction funds. Pallets of shrink-wrapped $100 bills were flown into Baghdad and simply vanished.\n\nThe human cost is nearly incomprehensible: 4,599 Americans dead, 32,000 wounded, 300,000+ Iraqi civilians killed. Millions displaced. A country that had nothing to do with 9/11 was shattered, and the power vacuum spawned ISIS — which at its peak controlled territory the size of Britain across Iraq and Syria.\n\nThe war's architects — Bush, Cheney, Rumsfeld, Wolfowitz, Feith — never faced accountability. They write memoirs, give speeches, and collect consulting fees. This is the moral of the Iraq War: you can lie a nation into war, destroy a country, kill hundreds of thousands, waste trillions, and face no consequences whatsoever.",
+    "didYouKnow": [
+      "The US flew $12 billion in shrink-wrapped cash to Iraq — the largest cash transfer in history. $8.8 billion of it simply disappeared with no accounting.",
+      "Halliburton (where VP Cheney was formerly CEO) received $39.5 billion in Iraq contracts, many of them no-bid. Cheney still held stock options.",
+      "The Iraqi WMD claim was partly based on testimony from a single source codenamed 'Curveball' — a German-held defector who German intelligence had warned was unreliable and likely fabricating.",
+      "Iraq had nothing to do with 9/11, yet by 2003, 70% of Americans believed Saddam was personally involved — the result of a deliberate administration messaging campaign.",
+      "Paul Bremer's decision to disband the Iraqi army put 400,000 armed men on the street with no income — many of them became insurgents and later ISIS commanders."
+    ],
+    "keyQuote": {
+      "text": "Every nation, in every region, now has a decision to make. Either you are with us, or you are with the terrorists.",
+      "attribution": "George W. Bush, September 20, 2001"
+    },
+    "costBreakdown": "Of $2 trillion: $750B+ on military operations, $60B on reconstruction (much lost to fraud), hundreds of billions to private military contractors including Halliburton/KBR ($39.5B), Blackwater, and others. $300B+ in long-term veteran healthcare costs. Interest on war borrowing adds hundreds of billions more.",
+    "legacyImpact": "Created ISIS by disbanding the Iraqi army and creating a power vacuum. Killed 300,000+ Iraqi civilians. Displaced 4 million Iraqis. Strengthened Iran's regional influence (the exact opposite of the stated goal). Destroyed US credibility on intelligence claims globally. Cost of veteran care will exceed $1 trillion over coming decades. Established precedents for preventive war that undermined international law.",
+    "controversies": [
+      "WMD fabrication: The entire basis for the war was false. No weapons of mass destruction were ever found. The intelligence was cherry-picked and manipulated by the Office of Special Plans.",
+      "Abu Ghraib torture: US soldiers tortured and sexually humiliated Iraqi prisoners. Only low-ranking soldiers were punished. The legal architects of the torture program faced no consequences.",
+      "Halliburton no-bid contracts: VP Cheney's former company received $39.5 billion in government contracts, many without competitive bidding. Multiple investigations found overcharging and fraud."
+    ],
+    "keyFigures": [
+      {
+        "name": "George W. Bush",
+        "role": "President of the United States",
+        "note": "Ordered the invasion based on false WMD intelligence, declared 'Mission Accomplished' 6 weeks in"
+      },
+      {
+        "name": "Dick Cheney",
+        "role": "Vice President",
+        "note": "Primary architect of the war. Former Halliburton CEO whose company received $39.5B in contracts"
+      },
+      {
+        "name": "Colin Powell",
+        "role": "Secretary of State",
+        "note": "Presented false WMD evidence to the UN. Later called it a 'blot' on his record"
+      },
+      {
+        "name": "Paul Bremer",
+        "role": "Head of Coalition Provisional Authority",
+        "note": "Disbanded the Iraqi army — the decision that created the insurgency and eventually ISIS"
+      },
+      {
+        "name": "Donald Rumsfeld",
+        "role": "Secretary of Defense",
+        "note": "Dismissed looting as 'stuff happens,' insisted on minimal troop levels that proved catastrophically insufficient"
+      }
+    ]
   },
   {
     "id": "drone-wars",
@@ -1456,7 +1819,53 @@
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 1000
     },
-    "years": "2004–Present"
+    "years": "2004–Present",
+    "narrative": "The drone war is the most Orwellian development in American military history. The United States government claims the legal authority to execute anyone, anywhere on earth — including its own citizens — based on secret evidence, reviewed by secret courts, with no public accountability. The targeted killing program has operated across at least seven countries, killed thousands of people (including hundreds of civilians and dozens of children), and faces virtually no oversight or democratic control.\n\nThe program began under Bush, expanded massively under Obama, and continued under Trump and Biden. Obama personally approved kill lists every \"Terror Tuesday\" in the White House Situation Room. The program uses \"signature strikes\" — attacks based not on identifying a specific target, but on patterns of behavior that analysts, watching through cameras from thousands of miles away, interpret as potentially suspicious. The term \"military-age male\" became the classification for any man between 16 and 65 in a strike zone — all of whom were automatically counted as combatants unless posthumously proven otherwise. This accounting trick allowed the administration to claim remarkably low civilian casualty numbers.\n\nThe killing of Anwar al-Awlaki on September 30, 2011, crossed a line that should have provoked a constitutional crisis. Al-Awlaki was an American citizen, born in New Mexico, killed by a drone strike in Yemen without trial, indictment, or any judicial process. Two weeks later, his 16-year-old son, Abdulrahman — also an American citizen — was killed in a separate strike. When pressed about the killing of a teenager, White House Press Secretary Robert Gibbs said he \"should have had a more responsible father.\" In 2017, al-Awlaki's 8-year-old daughter, Nawar, was killed in a Navy SEAL raid in Yemen.\n\nThe \"double-tap\" technique — striking a target, waiting for rescuers to arrive, then striking again — has been documented by multiple human rights organizations. This tactic, when used by other countries, is classified as a war crime. When used by the United States, it's classified policy.\n\nThe human cost extends beyond the strike zones. Drone operators, sitting in air-conditioned trailers in Nevada, watch their targets for days or weeks before killing them. They see the aftermath in high-definition video. PTSD rates among drone operators are comparable to those of combat troops. The psychological toll of killing by remote control — watching a person through a screen, pressing a button, and watching them die — has created a new category of moral injury.\n\nThe strategic failure is as clear as the moral one. The drone program was supposed to be a surgical tool for eliminating terrorists. Instead, it has proven to be a recruitment tool for extremism. Every civilian killed by a drone strike creates a family of people with legitimate grievances against the United States. Studies by Stanford, NYU, and the Stimson Center all concluded that drone strikes create more terrorists than they eliminate.\n\nThe Bureau of Investigative Journalism estimates that US drone strikes have killed between 8,858 and 16,901 people across Pakistan, Yemen, Somalia, and Libya. Between 910 and 2,200 of those were civilians, including 283 to 454 children. These are conservative estimates — the true numbers are likely higher because the US classifies any military-age male killed in a strike zone as a combatant.",
+    "didYouKnow": [
+      "The US killed three members of the al-Awlaki family — father Anwar (US citizen), 16-year-old son Abdulrahman (US citizen), and 8-year-old granddaughter Nawar — across three separate strikes in Yemen, spanning two administrations.",
+      "Obama administration policy counted all 'military-age males' (16-65) killed in drone strike zones as combatants unless posthumously proven otherwise — artificially deflating civilian casualty counts.",
+      "'Double-tap' strikes — hitting a target, waiting for rescuers, then hitting again — are a documented US drone tactic. When other nations use this technique, the US classifies it as terrorism.",
+      "Drone operators in Nevada have PTSD rates comparable to combat troops. They watch targets for weeks, kill them by remote control, then drive home to their families for dinner.",
+      "Stanford/NYU research concluded that only 2% of drone strike victims in Pakistan were 'high-value targets.' The other 98% were lower-level fighters or civilians."
+    ],
+    "keyQuote": {
+      "text": "He should have had a more responsible father.",
+      "attribution": "Robert Gibbs, White House Press Secretary, when asked about the drone killing of 16-year-old American citizen Abdulrahman al-Awlaki"
+    },
+    "costBreakdown": "Of an estimated $30 billion: Individual MQ-9 Reaper drones cost $32 million each. Operating costs run approximately $3,600 per flight hour. Each Hellfire missile costs $150,000. The satellite infrastructure, intelligence apparatus, and ground stations supporting the program cost billions more. General Atomics, the manufacturer of Predator and Reaper drones, is the primary corporate beneficiary.",
+    "legacyImpact": "Established the precedent that the US government can execute its own citizens without trial. Normalized extrajudicial killing as routine policy. Created a new form of warfare with zero political cost (no American casualties) that removes democratic accountability for the decision to kill. Studies show drone strikes radicalize local populations and create more terrorists than they eliminate. The 'drone playbook' has been adopted by other nations — creating a world where any government with drones claims the same authority the US pioneered.",
+    "controversies": [
+      "Killing of US citizens: Anwar al-Awlaki and his 16-year-old son were American citizens killed without trial. The legal memos justifying extrajudicial killing of citizens remain partly classified.",
+      "Civilian casualties and 'signature strikes': Attacks based on behavioral patterns rather than identified targets killed unknown numbers of civilians. The US government's own accounting was designed to minimize reported civilian deaths.",
+      "Recruitment tool for terrorism: Multiple studies concluded that drone strikes create more extremists than they eliminate. Each civilian killed generates a family of people with legitimate grievances, fueling the cycle of violence the program was supposed to end."
+    ],
+    "keyFigures": [
+      {
+        "name": "Barack Obama",
+        "role": "President of the United States",
+        "note": "Expanded the drone program 10-fold compared to Bush. Personally approved kill lists on 'Terror Tuesdays'"
+      },
+      {
+        "name": "John Brennan",
+        "role": "CIA Director / Counterterrorism advisor",
+        "note": "Architect of the expanded drone program, claimed in 2011 there had been zero civilian casualties — a statement widely regarded as false"
+      },
+      {
+        "name": "Anwar al-Awlaki",
+        "role": "US citizen / al-Qaeda propagandist",
+        "note": "American citizen killed by drone strike without trial. His 16-year-old son and 8-year-old daughter were also killed in separate US operations"
+      },
+      {
+        "name": "Daniel Hale",
+        "role": "Air Force intelligence analyst / Whistleblower",
+        "note": "Leaked documents revealing civilian casualties were far higher than reported. Sentenced to 45 months in federal prison"
+      },
+      {
+        "name": "Brandon Bryant",
+        "role": "Former drone sensor operator",
+        "note": "Went public about the psychological toll of remote killing and the civilian casualties he witnessed. Diagnosed with PTSD"
+      }
+    ]
   },
   {
     "id": "somalia-ongoing",
@@ -1581,7 +1990,48 @@
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 30000
     },
-    "years": "2011–2011"
+    "years": "2011–2011",
+    "narrative": "Libya is the war that everyone agreed to forget. In 2011, the United States and NATO launched a bombing campaign to overthrow Muammar Gaddafi under the banner of humanitarian intervention. President Obama did not seek congressional authorization, arguing the operation didn't constitute \"hostilities\" because no American boots were on the ground — a legal fiction that would be laughable if its consequences weren't so devastating.\n\nBefore NATO's intervention, Libya had the highest Human Development Index in Africa. It had free healthcare, free education, and the continent's highest literacy rate. Gaddafi was a brutal dictator — but he was a brutal dictator who kept the country stable and functional. What replaced him was infinitely worse.\n\nThe justification for intervention was that Gaddafi was about to massacre civilians in Benghazi. This was the \"Responsibility to Protect\" (R2P) doctrine in action — the idea that sovereignty is conditional and the international community can intervene to prevent atrocities. What R2P actually meant in practice was regime change. UN Resolution 1973 authorized a no-fly zone to protect civilians. NATO interpreted this as a mandate to bomb Gaddafi's forces until the regime collapsed. Russia and China, who had abstained on the resolution, accused the West of bait-and-switch — and never trusted another R2P resolution again.\n\nGaddafi was captured on October 20, 2011, sodomized with a bayonet by rebel fighters, and murdered. Hillary Clinton, then Secretary of State, responded: \"We came, we saw, he died\" — laughing on camera. No one in the administration seemed to have a plan for what came after.\n\nWhat came after was hell. Libya fractured into rival militia fiefdoms. Two competing governments claimed legitimacy. ISIS established a foothold. Most shockingly, open-air slave markets appeared in 2017 — selling sub-Saharan African migrants for as little as $400. The country that once had the highest standard of living in Africa became a lawless wasteland where human beings were bought and sold.\n\nGaddafi's vast weapons arsenals — including thousands of shoulder-fired anti-aircraft missiles — spread across the Sahel, fueling conflicts in Mali, Niger, Nigeria, and beyond. The destabilization of Libya contributed directly to the rise of Boko Haram and the collapse of security across West Africa.\n\nObama himself called Libya the \"worst mistake\" of his presidency. But the lesson was never learned. The same people who championed regime change in Libya — without any plan for the aftermath — continue to shape American foreign policy. The destroyed lives, the slave markets, the regional destabilization: no one was held accountable.\n\nLibya cost American taxpayers $1.5 billion. It cost the Libyan people their country.",
+    "didYouKnow": [
+      "Before NATO's intervention, Libya had the highest Human Development Index (HDI) in Africa — higher than Saudi Arabia, Brazil, and Mexico.",
+      "Open-air slave markets appeared in Libya after Gaddafi's overthrow, selling sub-Saharan African migrants for as little as $400. CNN filmed an actual slave auction in 2017.",
+      "Obama called Libya the 'worst mistake' of his presidency — yet the same interventionist playbook was applied to Syria almost immediately.",
+      "Gaddafi's weapons arsenals spread across the Sahel after his overthrow, fueling conflicts in Mali, Niger, and Nigeria. Thousands of shoulder-fired missiles remain unaccounted for.",
+      "Hillary Clinton laughed on camera saying 'We came, we saw, he died' about Gaddafi's murder — which involved him being sodomized with a bayonet by rebel fighters."
+    ],
+    "keyQuote": {
+      "text": "Probably failing to plan for the day after what I think was the right thing to do in intervening in Libya.",
+      "attribution": "President Barack Obama, when asked his 'worst mistake' (2016)"
+    },
+    "costBreakdown": "Of $1.5 billion: Primarily Tomahawk cruise missiles ($2M each — over 220 fired), aerial sorties (NATO flew 26,000+ sorties), and intelligence operations. The cost to the US was relatively small; the cost to Libya — a destroyed state, civil war, and slave markets — is incalculable.",
+    "legacyImpact": "Transformed Africa's most prosperous nation into a failed state. Open slave markets. Two rival governments. ISIS presence. Weapons proliferation across the Sahel fueled terrorism in Mali, Niger, Nigeria, and beyond. Destroyed the R2P doctrine's credibility — Russia and China now veto any similar resolutions. Set the precedent for executive war-making under the fiction that airstrikes don't constitute 'hostilities.'",
+    "controversies": [
+      "Congressional authorization: Obama never sought congressional approval. His administration argued that the bombing campaign didn't constitute 'hostilities' under the War Powers Act — a claim even his own Office of Legal Counsel disagreed with.",
+      "R2P bait-and-switch: UN Resolution 1973 authorized civilian protection. NATO used it for regime change. Russia and China called it a violation of the resolution's intent and have blocked similar interventions ever since.",
+      "Post-intervention slave markets: The collapse of the Libyan state led to open-air slave markets selling African migrants. The 'humanitarian intervention' created conditions worse than what it ostensibly prevented."
+    ],
+    "keyFigures": [
+      {
+        "name": "Barack Obama",
+        "role": "President of the United States",
+        "note": "Authorized the intervention without Congress. Later called it his 'worst mistake'"
+      },
+      {
+        "name": "Hillary Clinton",
+        "role": "Secretary of State",
+        "note": "Key advocate for intervention. Said 'We came, we saw, he died' about Gaddafi's murder"
+      },
+      {
+        "name": "Muammar Gaddafi",
+        "role": "Leader of Libya (1969-2011)",
+        "note": "Brutal dictator who maintained stability. Captured, tortured, and killed by rebels"
+      },
+      {
+        "name": "Samantha Power",
+        "role": "Senior Advisor / UN Ambassador",
+        "note": "Leading advocate for 'Responsibility to Protect' doctrine that justified the intervention"
+      }
+    ]
   },
   {
     "id": "niger-sahel",
@@ -1706,7 +2156,53 @@
       "deathsPerYear": 2,
       "civilianDeathsPerYear": 1091
     },
-    "years": "2014–2025"
+    "years": "2014–2025",
+    "narrative": "The Syrian intervention is the perfect case study in the total incoherence of American foreign policy. Over the course of a decade, the United States simultaneously armed rebels fighting the Syrian government, bombed ISIS (which was also fighting the Syrian government), supported Kurdish forces (who were fighting both ISIS and Turkey, a NATO ally), and conducted airstrikes against Syrian government forces — all without congressional authorization, with no clearly defined objective, and with results that made every faction's situation worse.\n\nThe Syrian Civil War began in 2011 as part of the Arab Spring. The Obama administration declared that Assad \"must go\" and began arming and training rebel groups. The CIA's Timber Sycamore program spent $1 billion per year on weapons and training for Syrian rebels. The problem: many of these weapons ended up in the hands of extremists. Al-Nusra Front (al-Qaeda's Syrian affiliate) and ISIS fighters were often found carrying American-supplied weapons. In at least one documented case, CIA-backed rebels and Pentagon-backed rebels were literally fighting each other.\n\nISIS exploited the chaos, capturing territory across Iraq and Syria and declaring a caliphate. The US launched Operation Inherent Resolve in 2014, bombing ISIS targets. But destroying ISIS created a vacuum that benefited Assad and his Russian and Iranian backers — the very actors the US was supposedly opposing. American policy was working at cross-purposes with itself.\n\nRussia's military intervention in September 2015 changed the equation entirely. Russian air power, combined with Iranian ground forces and Hezbollah fighters, turned the tide in Assad's favor. The US was outmaneuvered — its rebel proxies were crushed between Assad's forces, Russian bombers, and ISIS. The \"moderate opposition\" that Washington had invested billions in largely evaporated.\n\nThe human toll is catastrophic: over 500,000 dead, 6.8 million refugees (the largest refugee crisis since WWII), and 6.9 million internally displaced. Chemical weapons were used repeatedly — sarin, chlorine, and other agents killed thousands. The US launched cruise missiles twice in response (2017 and 2018) but took no sustained action.\n\nThe refugee crisis destabilized European politics, fueling the rise of nationalist and anti-immigrant parties across the continent. Brexit, the rise of the Alternative for Germany (AfD), and similar movements across Europe were all partly driven by the Syrian refugee wave — itself a consequence of a civil war that US intervention helped prolong.\n\nAs of 2025, roughly 900 US troops remain in Syria with no congressional authorization, no defined mission, no exit strategy, and no public debate. They guard oil fields — a mission that even defenders of the deployment struggle to justify under any legal framework. The 2001 AUMF, written to target those responsible for 9/11, is cited as the legal basis for operations against ISIS, an organization that didn't exist in 2001 and was actively fighting al-Qaeda.",
+    "didYouKnow": [
+      "CIA-backed rebels and Pentagon-backed rebels literally fought each other in Syria — American proxies shooting at American proxies with American weapons.",
+      "The CIA's Timber Sycamore program spent $1 billion per year arming Syrian rebels. Many weapons ended up with al-Qaeda affiliates and ISIS fighters.",
+      "6.8 million Syrians became refugees — the largest refugee crisis since WWII. The resulting migration crisis destabilized European politics and contributed to Brexit.",
+      "900 US troops remain in Syria as of 2025, primarily guarding oil fields, with no congressional authorization and no exit strategy.",
+      "The 2001 AUMF — written 3 days after 9/11 to target al-Qaeda — is used as legal justification for operations against ISIS, an organization that was fighting al-Qaeda."
+    ],
+    "keyQuote": {
+      "text": "We always wanted Bashar Assad to go, we always preferred the bad guys who weren't backed by Iran to the bad guys who were backed by Iran.",
+      "attribution": "Former Israeli Ambassador Michael Oren (2013), revealing the cynicism of regional proxy warfare"
+    },
+    "costBreakdown": "Of $30 billion (direct US costs): Primarily airstrikes (34,000+ sorties), special operations forces, and the CIA's Timber Sycamore rebel support program ($1B/year). Additional tens of billions in related anti-ISIS operations across Iraq and Syria. Humanitarian aid costs add billions more.",
+    "legacyImpact": "500,000+ dead. 6.8 million refugees destabilized European politics. Chemical weapons normalized as a battlefield weapon. Russia reestablished itself as a Middle Eastern power. ISIS, though territorially defeated, continues as an insurgency. Iran strengthened its regional position through the 'Shia Crescent.' The failure of US Syria policy emboldened authoritarian leaders worldwide who concluded that American threats lacked follow-through.",
+    "controversies": [
+      "Arming extremists: US weapons intended for 'moderate rebels' repeatedly ended up with al-Nusra (al-Qaeda) and ISIS. The vetting process was widely acknowledged as inadequate.",
+      "Chemical weapons 'red line': Obama declared chemical weapons use a 'red line,' then failed to act when Assad crossed it. The credibility damage affected US deterrence globally.",
+      "The abandoned Kurds: Kurdish fighters (SDF) were America's most effective ground partner against ISIS. The US repeatedly abandoned them to Turkish military operations, most notably in 2019."
+    ],
+    "keyFigures": [
+      {
+        "name": "Bashar al-Assad",
+        "role": "President of Syria",
+        "note": "Survived the civil war with Russian and Iranian support despite US calls for his removal"
+      },
+      {
+        "name": "Barack Obama",
+        "role": "President of the United States",
+        "note": "Drew a 'red line' on chemical weapons, then didn't enforce it — one of the most consequential foreign policy decisions of the decade"
+      },
+      {
+        "name": "Vladimir Putin",
+        "role": "President of Russia",
+        "note": "Intervened militarily in 2015, turning the tide for Assad and reestablishing Russia as a Middle Eastern power"
+      },
+      {
+        "name": "Abu Bakr al-Baghdadi",
+        "role": "Leader of ISIS",
+        "note": "Declared the caliphate in 2014, killed in US special operations raid in 2019"
+      },
+      {
+        "name": "James Mattis",
+        "role": "Secretary of Defense (2017-2018)",
+        "note": "Resigned over Trump's decision to withdraw troops from Syria, calling it an abandonment of allies"
+      }
+    ]
   },
   {
     "id": "isis-iraq-syria",
@@ -2044,6 +2540,47 @@
       "civilianToMilitaryRatio": null,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 0
-    }
+    },
+    "narrative": "The Iran strikes of 2026 represent the most dangerous escalation of American military power since the 2003 Iraq invasion — and they share the same DNA: no congressional authorization, dubious intelligence, and the unmistakable influence of a foreign policy establishment that has sought confrontation with Iran for decades.\n\nOn February 28, 2026, the United States and Israel launched coordinated strikes against Iranian nuclear and military infrastructure. The scale was staggering — the largest US military buildup in the Middle East since the Iraq invasion, with 40,000 troops deployed, multiple carrier strike groups, and B-2 stealth bombers flying missions from Diego Garcia and Whiteman Air Force Base. Within hours, Supreme Leader Ayatollah Ali Khamenei was reported killed.\n\nBut the strikes didn't occur in a vacuum. They followed a deliberate escalation pattern: President Trump declared a \"massive armada heading to Iran\" on January 28, stated on February 13 that regime change would be \"the best thing that could happen,\" and authorized strikes without seeking congressional authorization. The War Powers Resolution, already weakened by decades of presidential defiance, was again treated as optional.\n\nThe humanitarian costs emerged quickly. Iran's retaliatory closure of the Strait of Hormuz — through which 20% of the world's oil flows — sent energy prices soaring and threatened global economic stability. Then came the Minab school bombing: 108 children killed when an airstrike hit a school in the Iranian city of Minab. The Pentagon claimed the building was being used as a military command center. Independent verification was impossible.\n\nThe conflict rapidly expanded beyond Iran. Seven countries came under fire as the US targeted Iranian proxy networks across the region. The scope of operations made the 2003 Iraq invasion look focused by comparison.\n\nThe domestic political dynamics are revealing. AIPAC spent $221 million on the 2024 election cycle, and the correlation between its spending and congressional support for confrontation with Iran is impossible to ignore. Tucker Carlson, once a reliable conservative voice for the administration, called the strikes \"disgusting and evil\" — a measure of how far the intervention exceeded even hawkish expectations.\n\nNo congressional authorization was sought or given. The Constitution is unambiguous: Congress has the power to declare war. Yet once again, a president launched a major military operation against a sovereign nation without the consent of the people's representatives. The founders designed the system this way precisely because they understood that executives, left unchecked, will always choose war.\n\nAs of March 2026, the situation continues to develop. The costs — financial, human, strategic — are mounting daily. Whether this becomes another multi-trillion-dollar quagmire or a contained operation depends on decisions being made without democratic input or oversight.",
+    "didYouKnow": [
+      "AIPAC spent $221 million in the 2024 election cycle — more than any other lobbying group. The correlation with congressional support for Iran confrontation is striking.",
+      "The Minab school bombing killed 108 children. The Pentagon claimed the building was a military command center — a claim that cannot be independently verified.",
+      "No congressional authorization was sought for strikes against Iran — continuing a pattern that has made the constitutional requirement for congressional war declarations effectively dead letter.",
+      "The Strait of Hormuz closure threatened 20% of global oil supply, causing immediate economic disruption worldwide — costs borne by ordinary people, not the policymakers who chose escalation.",
+      "Tucker Carlson, previously a strong Trump ally, called the Iran strikes 'disgusting and evil' — indicating the operation exceeded even hawkish expectations."
+    ],
+    "keyQuote": {
+      "text": "The founders gave Congress the power to declare war precisely because they knew executives, left unchecked, will always find reasons to fight.",
+      "attribution": "Adapted from James Madison's notes on the Constitutional Convention"
+    },
+    "costBreakdown": "Estimated $2 billion+ in the first week alone. Carrier strike groups cost $6.5 million per day each. B-2 bomber sorties from the continental US cost $130,000+ per flight hour. Tomahawk cruise missiles cost $2 million each — hundreds were fired. The full cost remains unknown as operations continue.",
+    "legacyImpact": "Too early to fully assess, but immediate impacts include: global oil price spikes from Strait of Hormuz closure, 108 children killed in the Minab school bombing, further erosion of congressional war powers, expansion of conflict to 7 countries, and potential for a wider regional war. The assassination of Khamenei creates succession uncertainty that could destabilize Iran for years.",
+    "controversies": [
+      "The Minab school bombing: 108 children killed. The Pentagon's claim that the school was a military command center has not been independently verified. Human rights organizations have demanded an independent investigation.",
+      "No congressional authorization: Despite the scale of operations — the largest US military buildup since 2003 — no vote was taken in Congress. Both parties expressed concern but took no action.",
+      "AIPAC influence: The $221 million spent by AIPAC in the 2024 cycle raised questions about whether US foreign policy was being driven by domestic lobbying rather than national interest."
+    ],
+    "keyFigures": [
+      {
+        "name": "Donald Trump",
+        "role": "President of the United States",
+        "note": "Ordered strikes without congressional authorization, declared regime change would be 'the best thing'"
+      },
+      {
+        "name": "Ali Khamenei",
+        "role": "Supreme Leader of Iran (reportedly killed)",
+        "note": "Led Iran for 37 years. His assassination creates unprecedented succession uncertainty"
+      },
+      {
+        "name": "Tucker Carlson",
+        "role": "Conservative commentator",
+        "note": "Former Trump ally who called the strikes 'disgusting and evil,' breaking with the administration"
+      },
+      {
+        "name": "Benjamin Netanyahu",
+        "role": "Prime Minister of Israel",
+        "note": "Coordinated the joint US-Israeli strikes, long-time advocate for military action against Iran"
+      }
+    ]
   }
 ]
