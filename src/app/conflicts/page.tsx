@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'All US Wars & Military Conflicts',
   description: 'Complete database of all 36 American wars, military interventions, and covert operations from 1775 to present. Filter by era, type, outcome. Costs, casualties, and outcomes.',
   openGraph: {
-    title: 'All US Wars & Military Conflicts | WarCosts',
+    title: 'All US Wars & Military Conflicts',
     description: 'Complete database of every American war, military intervention, and covert operation from 1775 to present.',
   },
 }

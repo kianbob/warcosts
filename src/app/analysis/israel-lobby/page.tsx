@@ -5,7 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Israel Lobby: How One Country Captured American Foreign Policy | WarCosts',
+  title: 'The Israel Lobby: How One Country Captured American Foreign Policy',
   description: 'The US has given Israel $310+ billion in aid since 1948 — more than any other country in history. How AIPAC, neoconservatives, and decades of lobbying bent American foreign policy to serve Israeli interests at the expense of American security and treasure.',
   openGraph: {
     title: 'The Israel Lobby: How One Country Captured American Foreign Policy',

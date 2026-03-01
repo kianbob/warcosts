@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 
 
 export const metadata: Metadata = {
-  title: 'US Overseas Military Bases — 750 Bases in 80 Countries | WarCosts',
+  title: 'US Overseas Military Bases — 750 Bases in 80 Countries',
   description: 'The US maintains 750 military bases in 80 countries with 173,000 troops deployed overseas. Annual cost: $55 billion. More than any empire in history.',
 }
 

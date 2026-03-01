@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '469 Military Interventions Since 1798 — The Full Accounting | WarCosts',
+  title: '469 Military Interventions Since 1798 — The Full Accounting',
   description: 'The Congressional Research Service documents 469 instances of US armed forces deployed abroad. Only 5 were declared wars. 251 since 1991 alone. The acceleration of American interventionism.',
   openGraph: {
     title: '469 Military Interventions Since 1798',

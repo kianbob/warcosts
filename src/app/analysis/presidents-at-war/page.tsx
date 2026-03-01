@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Presidents at War — Ranking Every War President by Cost & Deaths | WarCosts',
+  title: 'Presidents at War — Ranking Every War President by Cost & Deaths',
   description: 'Which presidents started the most wars, spent the most money, and caused the most deaths? A complete ranking of every US president who waged war.',
   openGraph: {
     title: 'Presidents at War — Every War President Ranked',

@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'US Wars List — Every American War & Military Intervention Since 1776 | WarCosts',
+  title: 'US Wars List — Every American War & Military Intervention Since 1776',
   description: 'Complete list of all 36 major US wars plus 469 total military interventions. Only 5 were declared by Congress. The US has been at war for 229 of its 249 years. Sortable by cost, casualties, and era.',
   keywords: ['us wars list', 'how many wars has the us been in', 'american wars', 'list of us wars', 'us military interventions', 'us wars timeline'],
   openGraph: {

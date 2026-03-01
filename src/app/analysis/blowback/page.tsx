@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Blowback — The Concept That Explains Everything | WarCosts',
+  title: 'Blowback — The Concept That Explains Everything',
   description: 'The CIA coined "blowback" for unintended consequences of covert operations. Iran 1953→1979. Afghanistan→9/11. Iraq→ISIS. The pattern never breaks.',
   openGraph: {
     title: 'Blowback — The Concept That Explains Everything',

@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Aftermath — War Doesn\'t End When Troops Come Home | WarCosts',
+  title: 'The Aftermath — War Doesn\'t End When Troops Come Home',
   description: 'Veteran care through 2050: $2.5 trillion. 17 veteran suicides per day. 500K+ with PTSD. 380K+ TBI. 3.5M exposed to burn pits. The true cost of war.',
   openGraph: {
     title: 'The Aftermath — War Doesn\'t End When Troops Come Home',

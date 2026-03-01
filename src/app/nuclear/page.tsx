@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Nuclear Weapons — $10+ Trillion and Counting | WarCosts',
+  title: 'Nuclear Weapons — $10+ Trillion and Counting',
   description: 'The full cost of America\'s nuclear arsenal: from the $30B Manhattan Project to the $2 trillion modernization program. 5,500 warheads, close calls, testing legacy, and the trillions spent on weapons that can never be used.',
   keywords: ['nuclear weapons cost', 'nuclear arsenal', 'nuclear modernization', 'Manhattan Project cost', 'nuclear triad', 'nuclear close calls', 'nuclear testing', 'Columbia class submarine', 'B-21 Raider', 'Sentinel ICBM'],
   openGraph: {

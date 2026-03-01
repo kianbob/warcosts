@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Modern Warfare Tactics — Invisible Wars, Zero Accountability | WarCosts',
+  title: 'Modern Warfare Tactics — Invisible Wars, Zero Accountability',
   description: 'How war changed: no declarations, no frontlines, no rules. Cyber warfare, economic sanctions, information operations, AI weapons, private military contractors, drone warfare, space militarization, and hybrid warfare.',
   keywords: ['modern warfare', 'cyber warfare', 'drone warfare', 'sanctions', 'information warfare', 'hybrid warfare', 'AI weapons', 'private military contractors', 'PMC', 'space warfare', 'proxy wars'],
   openGraph: {

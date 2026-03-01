@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Sanctions Warfare — The Weapon That Kills More Than Bombs | WarCosts',
+  title: 'Sanctions Warfare — The Weapon That Kills More Than Bombs',
   description: 'Iraq sanctions killed 500,000 children. Cuba\'s 60-year embargo. Iran\'s medicine shortages. Afghanistan\'s frozen $7B. Sanctions are undeclared war against civilians.',
   openGraph: {
     title: 'Sanctions Warfare — The Weapon That Kills More Than Bombs',

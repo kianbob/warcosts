@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import CostCalcClient from './CostCalcClient'
 
 export const metadata: Metadata = {
-  title: 'Your Personal War Cost — How Much Has the US Spent on War During Your Lifetime? | WarCosts',
+  title: 'Your Personal War Cost — How Much Has the US Spent on War During Your Lifetime?',
   description: 'Enter your birth year and state to see how much the US has spent on wars and military operations during your lifetime. Includes per-capita share, total military spending, and what else it could have funded.',
   keywords: ['personal war cost', 'how much war costs me', 'lifetime military spending', 'war cost per person', 'military spending per capita'],
 }

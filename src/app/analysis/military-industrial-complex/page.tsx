@@ -8,7 +8,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Military-Industrial Complex — Eisenhower\'s Warning Come True | WarCosts',
+  title: 'The Military-Industrial Complex — Eisenhower\'s Warning Come True',
   description: 'In 1961, Eisenhower warned of the military-industrial complex. Today, 5 contractors earn $282B/year, the Pentagon has never passed an audit, and the revolving door spins faster than ever.',
   openGraph: {
     title: 'The Military-Industrial Complex — Eisenhower\'s Warning Come True',

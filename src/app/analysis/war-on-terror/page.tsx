@@ -8,7 +8,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The War on Terror: $8 Trillion, 900,000 Dead, 37 Million Displaced | WarCosts',
+  title: 'The War on Terror: $8 Trillion, 900,000 Dead, 37 Million Displaced',
   description: 'The most expensive military campaign in modern history. $8 trillion spent, 900,000+ killed, 37 million displaced, zero objectives fully met. A comprehensive accounting.',
   openGraph: {
     title: 'The War on Terror: $8 Trillion Later',

@@ -8,7 +8,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Human Cost of War — Every Number Was a Person | WarCosts',
+  title: 'The Human Cost of War — Every Number Was a Person',
   description: 'Over 1 million Americans killed, 5.2 million civilians dead, 17 veterans commit suicide daily, 37 million displaced. The human cost America ignores.',
   openGraph: {
     title: 'The Human Cost of War — Every Number Was a Person',

@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Space Warfare — Militarizing the Final Frontier | WarCosts',
+  title: 'Space Warfare — Militarizing the Final Frontier',
   description: 'Space Force: $26B budget. ASAT tests creating thousands of debris pieces. GPS military dependency. Starlink as a weapon. X-37B secret space plane. The weaponization of orbit.',
   openGraph: {
     title: 'Space Warfare — Militarizing the Final Frontier',

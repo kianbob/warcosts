@@ -113,6 +113,24 @@ img, svg, video, canvas, iframe { max-width: 100%; height: auto; }
 table { max-width: 100%; overflow-x: auto; display: block; }
 pre, code { overflow-x: auto; max-width: 100%; }
 
+/* Mobile responsive fixes */
+@media (max-width: 640px) {
+  /* Larger base text on mobile */
+  .prose { font-size: 1rem; line-height: 1.8; }
+  .prose p { margin-top: 1em; margin-bottom: 1em; }
+
+  /* Chart containers - prevent overflow */
+  .recharts-wrapper, .recharts-surface { max-width: 100% !important; }
+
+  /* Stat cards - ensure readable text */
+  .text-2xl { font-size: 1.25rem; }
+  .text-xs { font-size: 0.75rem; line-height: 1.4; }
+
+  /* Footer - better touch targets */
+  footer a { display: inline-block; padding: 4px 0; min-height: 36px; line-height: 28px; }
+  footer .grid { gap: 1.5rem; }
+}
+
 @theme {
   --color-primary: #991b1b;
   --color-accent: #b91c1c;

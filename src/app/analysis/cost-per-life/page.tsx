@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Price of a Life — Cost Per Death in Every US War | WarCosts',
+  title: 'The Price of a Life — Cost Per Death in Every US War',
   description: 'From $96K in the Revolution to $935M in Afghanistan. The cost per American death has risen 10,000×. What does it mean when war becomes too expensive to notice?',
   openGraph: {
     title: 'The Price of a Life — Cost Per Death in Every US War',

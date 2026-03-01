@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Tools — Interactive War Cost Calculators | WarCosts',
+  title: 'Tools — Interactive War Cost Calculators',
   description: 'Interactive tools to explore military spending: live war clock, personal tax receipt calculator, jobs comparison, and state-by-state cost calculator.',
 }
 

@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: '$175 Billion: America\'s Proxy War in Ukraine | WarCosts',
+  title: '$175 Billion: America\'s Proxy War in Ukraine',
   description: 'The US has committed $175 billion to Ukraine since 2022 — the largest military aid package since WWII. Who profits, who pays, and what comes next.',
   keywords: ['ukraine proxy war', 'ukraine military aid', 'us ukraine spending', 'ukraine war cost'],
   openGraph: {

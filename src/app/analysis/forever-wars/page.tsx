@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Forever Wars: How 60 Words Authorized 25 Years of Global War | WarCosts',
+  title: 'The Forever Wars: How 60 Words Authorized 25 Years of Global War',
   description: 'The 2001 AUMF — just 60 words — has been used to justify military operations in 78+ countries, costing $8 trillion and killing nearly a million people. Why they never end.',
   openGraph: {
     title: 'The Forever Wars: How 60 Words Changed Everything',

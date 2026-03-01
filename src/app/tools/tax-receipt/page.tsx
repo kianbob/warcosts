@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import TaxReceiptClient from './TaxReceiptClient'
 
 export const metadata: Metadata = {
-  title: 'Your Military Tax Receipt — See Where Your Tax Dollars Go | WarCosts',
+  title: 'Your Military Tax Receipt — See Where Your Tax Dollars Go',
   description: 'Enter your income and see exactly how much of your federal taxes fund the military. ~24% of income tax goes to defense spending. See the breakdown: Pentagon, veterans, nuclear weapons, war debt interest.',
   keywords: ['military tax receipt', 'how much of my taxes go to military', 'defense spending taxes', 'war tax', 'federal tax breakdown'],
 }

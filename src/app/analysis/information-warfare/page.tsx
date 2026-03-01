@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Information Warfare — When Your Government Is the Propagandist | WarCosts',
+  title: 'Information Warfare — When Your Government Is the Propagandist',
   description: 'Pentagon PR budget: $4.7 billion. Russian troll farms reached 126M Americans on Facebook. Deepfakes, psyops, embedded journalism, and the death of independent war reporting.',
   openGraph: {
     title: 'Information Warfare — When Your Government Is the Propagandist',

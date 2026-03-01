@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Sources — Data References & Bibliography | WarCosts',
+  title: 'Sources — Data References & Bibliography',
   description: 'Complete list of all data sources used by WarCosts, including Brown Costs of War, CRS, SIPRI, DMDC, USAID, DoD reports, and more. Every number on the site can be traced to a primary source.',
   keywords: ['warcosts sources', 'military spending data sources', 'war cost sources', 'defense data bibliography'],
 }

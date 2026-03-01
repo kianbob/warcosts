@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Private Armies — Mercenaries, Contractors, and the Outsourcing of War | WarCosts',
+  title: 'Private Armies — Mercenaries, Contractors, and the Outsourcing of War',
   description: 'Blackwater, Wagner Group, DynCorp. 50,000+ contractors in Iraq. 8,000+ contractor deaths excluded from official counts. Privatizing war removes democratic accountability.',
   openGraph: {
     title: 'Private Armies — Mercenaries, Contractors, and the Outsourcing of War',

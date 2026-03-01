@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import JobsCalcClient from './JobsCalcClient'
 
 export const metadata: Metadata = {
-  title: 'Jobs Calculator — Military vs Education & Healthcare Spending | WarCosts',
+  title: 'Jobs Calculator — Military vs Education & Healthcare Spending',
   description: 'Military spending creates the fewest jobs per dollar of any major sector. Move money from military to education, healthcare, or clean energy and see the net job gain. Based on UMass PERI research.',
   keywords: ['military spending jobs', 'defense spending jobs', 'military vs education spending', 'jobs per billion military', 'defense spending economic impact'],
 }

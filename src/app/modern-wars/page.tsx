@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Modern Wars — America\'s Post-1995 Military Operations | WarCosts',
+  title: 'Modern Wars — America\'s Post-1995 Military Operations',
   description: 'Since 1995, the US has launched 15+ military operations across dozens of countries including Kosovo, Afghanistan, Iraq, Libya, Syria, Yemen, and Iran. Each was supposed to be the last. Total cost: trillions. Drones, special ops, proxy wars, AUMF abuse.',
   keywords: ['modern wars', 'us wars 21st century', 'forever wars', 'war on terror', 'us military operations', 'us wars list current'],
   openGraph: {

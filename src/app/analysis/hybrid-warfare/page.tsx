@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition | WarCosts',
+  title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition',
   description: 'Russia\'s "little green men" in Crimea. China\'s artificial islands. Iran\'s proxy network with 100K+ Hezbollah rockets. How hybrid warfare makes democratic response impossible.',
   openGraph: {
     title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition',

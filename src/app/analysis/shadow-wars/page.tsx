@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Shadow Wars — America\'s Secret Wars in 134+ Countries | WarCosts',
+  title: 'Shadow Wars — America\'s Secret Wars in 134+ Countries',
   description: 'JSOC operates in 134+ countries. 70,000 special operators. Classified budgets. Kill lists. Signature strikes. Secret wars the Founders never authorized.',
   openGraph: {
     title: 'Shadow Wars — America\'s Secret Wars in 134+ Countries',

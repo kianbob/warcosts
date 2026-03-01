@@ -5,7 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Silicon Valley & the Pentagon — The New Military-Industrial Complex | WarCosts',
+  title: 'Silicon Valley & the Pentagon — The New Military-Industrial Complex',
   description: 'Big Tech is the new defense industry. Google, Amazon, Microsoft, Palantir, and Anduril are reshaping warfare with AI, autonomous weapons, and surveillance tech.',
   keywords: ['silicon valley pentagon', 'military tech', 'project maven', 'palantir military', 'anduril', 'autonomous weapons', 'AI warfare'],
   openGraph: {

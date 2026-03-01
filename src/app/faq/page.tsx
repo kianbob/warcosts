@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'FAQ — Frequently Asked Questions | WarCosts',
+  title: 'FAQ — Frequently Asked Questions',
   description: 'Common questions about WarCosts data, methodology, sources, libertarian perspective, war costs, and how to use the site. 20 comprehensive FAQs.',
   keywords: ['warcosts faq', 'military spending questions', 'war cost methodology', 'defense spending data'],
 }

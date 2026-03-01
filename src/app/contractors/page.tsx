@@ -6,7 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Top Defense Contractors — Who Profits from War | WarCosts',
+  title: 'Top Defense Contractors — Who Profits from War',
   description: 'The top 5 defense contractors receive hundreds of billions in government contracts. Lockheed Martin, Boeing, Raytheon — the military-industrial complex exposed.',
 }
 

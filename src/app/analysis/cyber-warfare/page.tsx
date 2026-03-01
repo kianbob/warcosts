@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'Cyber Warfare — The Invisible Battlefield With No Rules | WarCosts',
+  title: 'Cyber Warfare — The Invisible Battlefield With No Rules',
   description: 'Stuxnet, SolarWinds, NotPetya, Colonial Pipeline. $11B Cyber Command budget. No Geneva Convention, no rules of engagement, no accountability. The NSA hoards zero-days instead of fixing them.',
   openGraph: {
     title: 'Cyber Warfare — The Invisible Battlefield With No Rules',

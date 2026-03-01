@@ -11,7 +11,7 @@ export default function CostPerLifePage() {
   const [data, setData] = useState<any[]>([])
 
   useEffect(() => {
-    document.title = 'The Price of a Life — Cost Per Death by Conflict | WarCosts'
+    document.title = 'The Price of a Life — Cost Per Death by Conflict'
     document.querySelector('meta[name="description"]')?.setAttribute('content', 'How much does each American death "cost" per conflict? From $96K in WWII to $935M in Afghanistan. The economics of human life in wartime.')
     if (!document.querySelector('meta[name="description"]')) {
       const meta = document.createElement('meta'); meta.name = 'description'; meta.content = 'How much does each American death cost per conflict? From $96K in WWII to $935M in Afghanistan.'; document.head.appendChild(meta);

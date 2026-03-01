@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cost of War — $8 Trillion Since 9/11, $11.3T Since 1776 | WarCosts',
+  title: 'Cost of War — $8 Trillion Since 9/11, $11.3T Since 1776',
   description: 'The total cost of US wars: $8 trillion since 9/11, $11.3 trillion since 1776. $70,000 per taxpayer. $100,000 per household. Per-conflict breakdowns, hidden costs, interest, and generational cost transfers.',
   keywords: ['cost of war', 'how much do wars cost', 'us war spending', 'war costs', 'cost of iraq war', 'cost of afghanistan war', 'war on terror cost'],
   openGraph: {

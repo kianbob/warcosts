@@ -5,7 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Jobs vs War — Military Spending Creates the Fewest Jobs | WarCosts',
+  title: 'Jobs vs War — Military Spending Creates the Fewest Jobs',
   description: 'Military spending creates 5 jobs per $1 million — fewer than education (13), healthcare (9), or clean energy (8). The UMass Amherst study, BRAC politics, and the opportunity cost of empire.',
   keywords: ['military spending jobs', 'defense spending employment', 'jobs per million military', 'BRAC base closure', 'military industrial complex jobs', 'opportunity cost defense'],
   openGraph: {

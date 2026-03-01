@@ -6,7 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Whose War Is This? The Iran Conflict Nobody Asked For | WarCosts',
+  title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
   description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 108 schoolgirls killed. Strait of Hormuz closed. Dubai bombed. Who benefits? Not the American people.',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',

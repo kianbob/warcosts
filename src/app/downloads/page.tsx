@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 
 export const metadata: Metadata = {
-  title: 'Downloads — Raw Data Files & Data Dictionary | WarCosts',
+  title: 'Downloads — Raw Data Files & Data Dictionary',
   description: 'Download raw WarCosts data files: conflicts, military spending, foreign aid, overseas presence, arms sales, and opportunity costs. Open data for researchers.',
 }
 

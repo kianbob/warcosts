@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Veteran Suicide — 17 Per Day, 6,000+ Per Year | WarCosts',
+  title: 'Veteran Suicide — 17 Per Day, 6,000+ Per Year',
   description: '17 veterans die by suicide every day in America — 4x more than die in combat. Detailed statistics by era, age, gender, branch. PTSD, TBI, moral injury, Agent Orange, burn pits. 988 crisis info.',
   keywords: ['veteran suicide', 'veteran suicide rate', 'veteran suicide statistics', 'PTSD veterans', 'veteran mental health', '22 a day', 'veteran crisis line', 'veteran PTSD'],
   openGraph: {

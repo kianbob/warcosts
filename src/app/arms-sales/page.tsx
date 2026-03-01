@@ -8,7 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 
 
 export const metadata: Metadata = {
-  title: 'US Arms Sales — $238B/Year, World\'s Largest Weapons Dealer | WarCosts',
+  title: 'US Arms Sales — $238B/Year, World\'s Largest Weapons Dealer',
   description: '$238 billion per year in arms sales. The US is the world\'s largest weapons dealer. See who buys, where weapons end up, and who profits.',
 }
 

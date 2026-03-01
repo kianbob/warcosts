@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'AI Weapons — Autonomous Killing Machines With No Accountability | WarCosts',
+  title: 'AI Weapons — Autonomous Killing Machines With No Accountability',
   description: 'Project Maven, Israel\'s Lavender AI targeting system, Kargu-2 autonomous drones, the Replicator initiative. Machines deciding who dies with no due process.',
   openGraph: {
     title: 'AI Weapons — Autonomous Killing Machines With No Accountability',
