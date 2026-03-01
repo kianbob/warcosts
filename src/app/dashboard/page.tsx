@@ -1,3 +1,4 @@
+import { SpendingAreaChart, CostByConflictChart, DeathsByConflictChart, BasesChart } from '@/components/charts/SpendingCharts'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
@@ -5,24 +6,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import dynamic from 'next/dynamic'
 
-const SpendingAreaChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.SpendingAreaChart),
-  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
-)
-const CostByConflictChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.CostByConflictChart),
-  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
-)
-const DeathsByConflictChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.DeathsByConflictChart),
-  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
-)
-const BasesChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.BasesChart),
-  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
-)
 
 export const metadata: Metadata = {
   title: 'Dashboard — The State of the American Empire | WarCosts',

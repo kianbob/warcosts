@@ -1,19 +1,11 @@
+import { DeathsByConflictChart, CostByConflictChart } from '@/components/charts/SpendingCharts'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import dynamic from 'next/dynamic'
 
-const DeathsByConflictChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.DeathsByConflictChart),
-  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
-)
-const CostByConflictChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.CostByConflictChart),
-  { ssr: false, loading: () => <div style={{ height: 500 }} /> }
-)
 
 export const metadata: Metadata = {
   title: 'US War Casualties — Over 1M Americans, 5.2M Civilians Dead | WarCosts',

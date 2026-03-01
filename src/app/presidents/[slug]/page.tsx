@@ -1,3 +1,4 @@
+import { PresidentSpendingChart } from '@/components/charts/PresidentSpendingChart'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -5,12 +6,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import dynamic from 'next/dynamic'
 
-const PresidentSpendingChart = dynamic(
-  () => import('@/components/charts/PresidentSpendingChart').then(mod => mod.PresidentSpendingChart),
-  { ssr: false, loading: () => <div style={{ height: 350 }} /> }
-)
 
 // Alias map for common URL slugs that differ from slugify(name)
 const slugAliases: Record<string, string> = {

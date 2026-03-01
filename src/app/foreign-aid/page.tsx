@@ -1,15 +1,11 @@
+import { ForeignAidChart } from '@/components/charts/SpendingCharts'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import dynamic from 'next/dynamic'
 
-const ForeignAidChart = dynamic(
-  () => import('@/components/charts/SpendingCharts').then(mod => mod.ForeignAidChart),
-  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
-)
 
 export const metadata: Metadata = {
   title: 'US Foreign Aid — $68B/Year, Where Your Tax Dollars Go | WarCosts',
