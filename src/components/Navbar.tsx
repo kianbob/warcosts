@@ -52,24 +52,31 @@ const navItems = [
   {
     label: 'Analysis',
     items: [
-      { label: 'All Analysis', href: '/analysis' },
+      { label: 'All Analysis →', href: '/analysis' },
+      { label: '── Recent Conflicts ──', href: '/analysis#recent' },
       { label: 'Iran 2026: Undeclared War?', href: '/analysis/iran-2026' },
-      { label: 'The Forever Wars (AUMF)', href: '/analysis/forever-wars' },
+      { label: 'Israel Lobby & US Foreign Policy', href: '/analysis/israel-lobby' },
+      { label: 'War on Terror: $8T Later', href: '/analysis/war-on-terror' },
       { label: 'Ukraine: $66.9B Proxy War', href: '/analysis/ukraine-proxy' },
-      { label: 'War on Terror', href: '/analysis/war-on-terror' },
+      { label: 'The Forever Wars (AUMF)', href: '/analysis/forever-wars' },
+      { label: '── Modern Warfare ──', href: '/analysis#modern' },
+      { label: 'Cyber Warfare', href: '/analysis/cyber-warfare' },
+      { label: 'Sanctions Warfare', href: '/analysis/sanctions-warfare' },
+      { label: 'AI Weapons', href: '/analysis/ai-weapons' },
+      { label: 'Shadow Wars (JSOC)', href: '/analysis/shadow-wars' },
+      { label: 'Surveillance State', href: '/analysis/surveillance-state' },
+      { label: 'Information Warfare', href: '/analysis/information-warfare' },
+      { label: 'Space Warfare', href: '/analysis/space-warfare' },
+      { label: 'Private Armies', href: '/analysis/private-armies' },
+      { label: 'Hybrid Warfare', href: '/analysis/hybrid-warfare' },
+      { label: 'Economic Warfare', href: '/analysis/economic-warfare' },
+      { label: '── Deep Analysis ──', href: '/analysis#deep' },
+      { label: 'Military-Industrial Complex', href: '/analysis/military-industrial-complex' },
       { label: 'Congressional Authority', href: '/analysis/congressional-authority' },
       { label: 'Blowback', href: '/analysis/blowback' },
-      { label: 'The Military-Industrial Complex', href: '/analysis/military-industrial-complex' },
       { label: 'The Human Cost', href: '/analysis/human-cost' },
-      { label: 'Empire of Bases', href: '/analysis/empire-of-bases' },
-      { label: 'The Price of a Life', href: '/analysis/cost-per-life' },
-      { label: 'Presidents at War', href: '/analysis/presidents-at-war' },
-      { label: 'The Aftermath', href: '/analysis/the-aftermath' },
-      { label: 'Pentagon & Climate', href: '/analysis/pentagon-climate' },
-      { label: 'Jobs vs War', href: '/analysis/jobs-vs-war' },
-      { label: 'The 469 Interventions', href: '/analysis/the-469' },
       { label: 'Drone Wars', href: '/analysis/drone-wars' },
-      { label: 'Silicon Valley & Pentagon', href: '/analysis/silicon-valley-pentagon' },
+      { label: 'Empire of Bases', href: '/analysis/empire-of-bases' },
     ],
   },
   {
@@ -109,9 +116,15 @@ export default function Navbar() {
                 {dropdown === item.label && (
                   <div className="absolute top-full left-0 bg-stone-800 shadow-lg rounded-lg border border-stone-700 py-1 min-w-[220px]">
                     {item.items!.map(sub => (
-                      <Link key={sub.href} href={sub.href} className="block px-4 py-2 text-sm text-stone-300 hover:bg-stone-700 hover:text-white">
-                        {sub.label}
-                      </Link>
+                      sub.label.startsWith('──') ? (
+                        <div key={sub.label} className="px-4 py-1.5 text-xs text-stone-500 font-semibold uppercase tracking-wider border-t border-stone-700 mt-1 pt-2">
+                          {sub.label.replace(/──/g, '').trim()}
+                        </div>
+                      ) : (
+                        <Link key={sub.href} href={sub.href} className="block px-4 py-2 text-sm text-stone-300 hover:bg-stone-700 hover:text-white">
+                          {sub.label}
+                        </Link>
+                      )
                     ))}
                   </div>
                 )}
