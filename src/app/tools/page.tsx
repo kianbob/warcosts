@@ -37,6 +37,20 @@ const tools = [
     icon: '🧮',
     color: 'bg-green-50 border-green-200',
   },
+  {
+    title: 'Compare Countries',
+    desc: 'Compare any two countries\' military spending side by side: budgets, % GDP, global rank, 10-year trends, and US bases.',
+    href: '/tools/compare-countries',
+    icon: '⚖️',
+    color: 'bg-purple-50 border-purple-200',
+  },
+  {
+    title: 'Aid Calculator',
+    desc: 'Enter your income and see exactly how your tax dollars are split between the military, foreign aid, and which countries receive your money.',
+    href: '/tools/aid-calculator',
+    icon: '🌍',
+    color: 'bg-teal-50 border-teal-200',
+  },
 ]
 
 export default function ToolsPage() {

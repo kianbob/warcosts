@@ -1,0 +1,13 @@
+{
+  "country": "Colombia",
+  "slug": "colombia",
+  "region": "Americas",
+  "totalSince2001": 15000,
+  "annual2024": 500,
+  "militaryPct": 50,
+  "type": "Military + Counter-narcotics",
+  "population": 52,
+  "gdpPerCapita": 6600,
+  "note": "$15B+ since Plan Colombia (2000). Military aid for counter-narcotics. Coca production actually increased despite $12B spent fighting it. Colombia now largest US military partner in Latin America.",
+  "controversies": "Colombian military \"false positives\" scandal — soldiers killed 6,400+ civilians and dressed them as guerrillas to boost body counts while receiving US aid."
+}

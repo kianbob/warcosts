@@ -7,105 +7,175 @@
       "totalSince2001": 158000000000,
       "annual2023": 3800000000,
       "type": "Military + Economic",
-      "note": "Largest cumulative recipient. $3.8B/yr guaranteed since 1999 MOU."
+      "note": "Largest cumulative US aid recipient."
     },
     {
       "country": "Ukraine",
       "totalSince2001": 113000000000,
-      "annual2023": 24400000000,
+      "annual2023": 8000000000,
       "type": "Military + Economic",
-      "note": "Massive increase since 2022 Russian invasion."
+      "note": "Aid exploded from ~$500M/yr to $24B+ after Russia's 2022 invasion."
     },
     {
       "country": "Afghanistan",
       "totalSince2001": 136000000000,
       "annual2023": 300000000,
-      "type": "Military + Economic + Humanitarian",
-      "note": "$136B over 20 years. Now minimal after Taliban takeover."
+      "type": "Military + Economic",
+      "note": "$136B in aid over 20 years — built an army that collapsed in 11 days (Aug 2021)."
     },
     {
       "country": "Iraq",
       "totalSince2001": 82000000000,
-      "annual2023": 600000000,
+      "annual2023": 1500000000,
       "type": "Military + Economic",
-      "note": "$82B over 20 years of war and reconstruction."
+      "note": "$82B in reconstruction and military aid after destroying the country in 2003."
     },
     {
       "country": "Egypt",
       "totalSince2001": 43000000000,
-      "annual2023": 1500000000,
+      "annual2023": 1300000000,
       "type": "Military + Economic",
-      "note": "$1.5B/yr since Camp David Accords (1978). Funds military dictatorship."
+      "note": "$1."
     },
     {
       "country": "Jordan",
       "totalSince2001": 28000000000,
       "annual2023": 1700000000,
       "type": "Military + Economic",
-      "note": "Key regional ally for Middle East operations."
+      "note": "$1."
     },
     {
       "country": "Pakistan",
       "totalSince2001": 25000000000,
-      "annual2023": 500000000,
+      "annual2023": 200000000,
       "type": "Military + Economic",
-      "note": "Ostensible ally that harbored bin Laden."
+      "note": "Received $25B+ as \"War on Terror\" ally while harboring Osama bin Laden in Abbottabad."
     },
     {
       "country": "Ethiopia",
       "totalSince2001": 18000000000,
-      "annual2023": 1800000000,
-      "type": "Humanitarian + Development",
-      "note": "Largest recipient in sub-Saharan Africa."
+      "annual2023": 1200000000,
+      "type": "Economic + Humanitarian",
+      "note": "Largest US aid recipient in Africa."
     },
     {
       "country": "South Sudan",
       "totalSince2001": 12000000000,
-      "annual2023": 900000000,
+      "annual2023": 600000000,
       "type": "Humanitarian",
-      "note": "Perpetual humanitarian crisis since 2011 independence."
+      "note": "Born in 2011 as world's newest country — largely a US project."
     },
     {
       "country": "Colombia",
       "totalSince2001": 15000000000,
       "annual2023": 500000000,
-      "type": "Military + Development",
-      "note": "Plan Colombia and counter-narcotics support."
+      "type": "Military + Counter-narcotics",
+      "note": "$15B+ since Plan Colombia (2000)."
     },
     {
       "country": "Nigeria",
       "totalSince2001": 11000000000,
-      "annual2023": 800000000,
-      "type": "Health + Development",
-      "note": "Major PEPFAR recipient."
+      "annual2023": 500000000,
+      "type": "Economic + Health",
+      "note": "Mostly health aid (PEPFAR, malaria)."
     },
     {
       "country": "Kenya",
       "totalSince2001": 14000000000,
-      "annual2023": 900000000,
-      "type": "Health + Development",
-      "note": "Counter-terrorism and PEPFAR."
+      "annual2023": 800000000,
+      "type": "Health + Economic",
+      "note": "Key US counter-terrorism partner in East Africa."
     },
     {
       "country": "Somalia",
       "totalSince2001": 8000000000,
-      "annual2023": 800000000,
-      "type": "Humanitarian + Military",
-      "note": "Decades of aid with no functioning government."
+      "annual2023": 400000000,
+      "type": "Military + Humanitarian",
+      "note": "US has conducted 283+ drone strikes killing 1,200-1,800 people."
     },
     {
       "country": "Syria",
       "totalSince2001": 15000000000,
-      "annual2023": 500000000,
-      "type": "Humanitarian",
-      "note": "Humanitarian crisis from civil war US helped fuel."
+      "annual2023": 200000000,
+      "type": "Military + Humanitarian",
+      "note": "Largest humanitarian crisis (13M displaced)."
     },
     {
       "country": "Taiwan",
       "totalSince2001": 5000000000,
-      "annual2023": 2000000000,
+      "annual2023": 500000000,
       "type": "Military",
-      "note": "Rapidly increasing military aid amid China tensions."
+      "note": "US provides weapons but Taiwan pays for them (FMS)."
+    },
+    {
+      "country": "Philippines",
+      "totalSince2001": 4000000000,
+      "annual2023": 300000000,
+      "type": "Military + Economic",
+      "note": "Renewed US military access under EDCA (9 bases)."
+    },
+    {
+      "country": "Lebanon",
+      "totalSince2001": 5000000000,
+      "annual2023": 200000000,
+      "type": "Military + Economic",
+      "note": "US arms Lebanese military to counter Hezbollah — while Hezbollah is part of the Lebanese government."
+    },
+    {
+      "country": "Tunisia",
+      "totalSince2001": 3000000000,
+      "annual2023": 200000000,
+      "type": "Military + Economic",
+      "note": "Only Arab Spring success story — until President Saied's 2021 self-coup."
+    },
+    {
+      "country": "Djibouti",
+      "totalSince2001": 1500000000,
+      "annual2023": 100000000,
+      "type": "Military",
+      "note": "Hosts Camp Lemonnier — the only permanent US military base in Africa."
+    },
+    {
+      "country": "Morocco",
+      "totalSince2001": 4000000000,
+      "annual2023": 400000000,
+      "type": "Military + Economic",
+      "note": "Arms sales surged after Abraham Accords normalization with Israel."
+    },
+    {
+      "country": "India",
+      "totalSince2001": 5000000000,
+      "annual2023": 500000000,
+      "type": "Military + Development",
+      "note": "Shifting from Russian to US weapons."
+    },
+    {
+      "country": "Japan",
+      "totalSince2001": 2000000000,
+      "annual2023": 200000000,
+      "type": "Military",
+      "note": "Hosts 54,000 US troops — largest overseas US military presence."
+    },
+    {
+      "country": "South Korea",
+      "totalSince2001": 1500000000,
+      "annual2023": 100000000,
+      "type": "Military",
+      "note": "28,500 US troops stationed since 1953."
+    },
+    {
+      "country": "Germany",
+      "totalSince2001": 1000000000,
+      "annual2023": 100000000,
+      "type": "Military cooperation",
+      "note": "Hosts 35,000 US troops, nuclear weapons at Büchel."
+    },
+    {
+      "country": "Saudi Arabia",
+      "totalSince2001": 3000000000,
+      "annual2023": 200000000,
+      "type": "Military training",
+      "note": "Pays for its own weapons ($110B+ since 2009) but receives US military training, intelligence sharing, and base access."
     }
   ],
   "byCategory": [

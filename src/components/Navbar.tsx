@@ -33,6 +33,7 @@ const navItems = [
       { label: 'Year-by-Year Spending', href: '/spending/2024' },
       { label: 'Global Comparison', href: '/global-spending' },
       { label: 'Arms Sales by Country', href: '/arms-sales/countries' },
+      { label: 'Foreign Aid by Country', href: '/foreign-aid/countries' },
     ],
   },
   {
@@ -41,6 +42,8 @@ const navItems = [
       { label: 'Tax Receipt', href: '/tools/tax-receipt' },
       { label: 'Jobs Calculator', href: '/tools/jobs-calculator' },
       { label: 'Cost Calculator', href: '/tools/cost-calculator' },
+      { label: 'Compare Countries', href: '/tools/compare-countries' },
+      { label: 'Aid Calculator', href: '/tools/aid-calculator' },
     ],
   },
   {

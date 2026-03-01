@@ -1,0 +1,13 @@
+{
+  "country": "Nigeria",
+  "slug": "nigeria",
+  "region": "Africa",
+  "totalSince2001": 11000,
+  "annual2024": 500,
+  "militaryPct": 15,
+  "type": "Economic + Health",
+  "population": 220,
+  "gdpPerCapita": 2200,
+  "note": "Mostly health aid (PEPFAR, malaria). Military aid limited by human rights concerns. Nigeria faces Boko Haram insurgency and massive corruption.",
+  "controversies": "Military aid restricted after Nigerian forces massacred Shia protesters (2015). Corruption endemic."
+}

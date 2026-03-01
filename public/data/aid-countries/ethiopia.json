@@ -1,0 +1,13 @@
+{
+  "country": "Ethiopia",
+  "slug": "ethiopia",
+  "region": "Africa",
+  "totalSince2001": 18000,
+  "annual2024": 1200,
+  "militaryPct": 10,
+  "type": "Economic + Humanitarian",
+  "population": 126,
+  "gdpPerCapita": 1020,
+  "note": "Largest US aid recipient in Africa. Mostly food and health aid (PEPFAR). Aid suspended during Tigray civil war (2020-22) where Ethiopian forces committed atrocities.",
+  "controversies": "Tigray war: 600,000+ killed, mass rapes, ethnic cleansing. US aid suspended then partially resumed."
+}

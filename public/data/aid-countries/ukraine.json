@@ -1,0 +1,13 @@
+{
+  "country": "Ukraine",
+  "slug": "ukraine",
+  "region": "Europe",
+  "totalSince2001": 113000,
+  "annual2024": 8000,
+  "militaryPct": 70,
+  "type": "Military + Economic",
+  "population": 37,
+  "gdpPerCapita": 4500,
+  "note": "Aid exploded from ~$500M/yr to $24B+ after Russia's 2022 invasion. Includes HIMARS, Patriot, Abrams tanks, F-16s. $175B total committed since 2022. Largest US security assistance since WWII Lend-Lease.",
+  "controversies": "Accountability concerns ($175B with limited oversight), escalation risk with nuclear Russia, corruption in Ukraine."
+}

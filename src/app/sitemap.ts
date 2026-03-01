@@ -146,6 +146,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   } catch {}
 
+  // Aid country pages
+  try {
+    const aidCountries = loadData('aid-countries-index.json')
+    entries.push({ url: `${base}/foreign-aid/countries`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    aidCountries.forEach((c: any) => {
+      entries.push({ url: `${base}/foreign-aid/${c.slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+    })
+  } catch {}
+
+  // New tool pages
+  const toolPages = ['/tools/compare-countries', '/tools/aid-calculator']
+  toolPages.forEach(route => {
+    entries.push({ url: `${base}${route}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
+  })
+
   // Country profile pages
   try {
     const countryProfiles = loadData('country-profiles-index.json')

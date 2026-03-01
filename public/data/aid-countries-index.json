@@ -1,0 +1,227 @@
+[
+  {
+    "country": "Israel",
+    "slug": "israel",
+    "region": "Middle East",
+    "totalSince2001": 158000,
+    "annual2024": 3800,
+    "militaryPct": 95,
+    "population": 9.8
+  },
+  {
+    "country": "Afghanistan",
+    "slug": "afghanistan",
+    "region": "Central Asia",
+    "totalSince2001": 136000,
+    "annual2024": 300,
+    "militaryPct": 60,
+    "population": 42
+  },
+  {
+    "country": "Ukraine",
+    "slug": "ukraine",
+    "region": "Europe",
+    "totalSince2001": 113000,
+    "annual2024": 8000,
+    "militaryPct": 70,
+    "population": 37
+  },
+  {
+    "country": "Iraq",
+    "slug": "iraq",
+    "region": "Middle East",
+    "totalSince2001": 82000,
+    "annual2024": 1500,
+    "militaryPct": 55,
+    "population": 43
+  },
+  {
+    "country": "Egypt",
+    "slug": "egypt",
+    "region": "Middle East",
+    "totalSince2001": 43000,
+    "annual2024": 1300,
+    "militaryPct": 75,
+    "population": 110
+  },
+  {
+    "country": "Jordan",
+    "slug": "jordan",
+    "region": "Middle East",
+    "totalSince2001": 28000,
+    "annual2024": 1700,
+    "militaryPct": 45,
+    "population": 11
+  },
+  {
+    "country": "Pakistan",
+    "slug": "pakistan",
+    "region": "South Asia",
+    "totalSince2001": 25000,
+    "annual2024": 200,
+    "militaryPct": 60,
+    "population": 230
+  },
+  {
+    "country": "Ethiopia",
+    "slug": "ethiopia",
+    "region": "Africa",
+    "totalSince2001": 18000,
+    "annual2024": 1200,
+    "militaryPct": 10,
+    "population": 126
+  },
+  {
+    "country": "Colombia",
+    "slug": "colombia",
+    "region": "Americas",
+    "totalSince2001": 15000,
+    "annual2024": 500,
+    "militaryPct": 50,
+    "population": 52
+  },
+  {
+    "country": "Syria",
+    "slug": "syria",
+    "region": "Middle East",
+    "totalSince2001": 15000,
+    "annual2024": 200,
+    "militaryPct": 40,
+    "population": 22
+  },
+  {
+    "country": "Kenya",
+    "slug": "kenya",
+    "region": "Africa",
+    "totalSince2001": 14000,
+    "annual2024": 800,
+    "militaryPct": 15,
+    "population": 55
+  },
+  {
+    "country": "South Sudan",
+    "slug": "south-sudan",
+    "region": "Africa",
+    "totalSince2001": 12000,
+    "annual2024": 600,
+    "militaryPct": 5,
+    "population": 11
+  },
+  {
+    "country": "Nigeria",
+    "slug": "nigeria",
+    "region": "Africa",
+    "totalSince2001": 11000,
+    "annual2024": 500,
+    "militaryPct": 15,
+    "population": 220
+  },
+  {
+    "country": "Somalia",
+    "slug": "somalia",
+    "region": "Africa",
+    "totalSince2001": 8000,
+    "annual2024": 400,
+    "militaryPct": 30,
+    "population": 17
+  },
+  {
+    "country": "Taiwan",
+    "slug": "taiwan",
+    "region": "Indo-Pacific",
+    "totalSince2001": 5000,
+    "annual2024": 500,
+    "militaryPct": 90,
+    "population": 24
+  },
+  {
+    "country": "Lebanon",
+    "slug": "lebanon",
+    "region": "Middle East",
+    "totalSince2001": 5000,
+    "annual2024": 200,
+    "militaryPct": 50,
+    "population": 5.5
+  },
+  {
+    "country": "India",
+    "slug": "india",
+    "region": "South Asia",
+    "totalSince2001": 5000,
+    "annual2024": 500,
+    "militaryPct": 70,
+    "population": 1400
+  },
+  {
+    "country": "Philippines",
+    "slug": "philippines",
+    "region": "Indo-Pacific",
+    "totalSince2001": 4000,
+    "annual2024": 300,
+    "militaryPct": 45,
+    "population": 115
+  },
+  {
+    "country": "Morocco",
+    "slug": "morocco",
+    "region": "Africa",
+    "totalSince2001": 4000,
+    "annual2024": 400,
+    "militaryPct": 40,
+    "population": 37
+  },
+  {
+    "country": "Tunisia",
+    "slug": "tunisia",
+    "region": "Africa",
+    "totalSince2001": 3000,
+    "annual2024": 200,
+    "militaryPct": 40,
+    "population": 12
+  },
+  {
+    "country": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "region": "Middle East",
+    "totalSince2001": 3000,
+    "annual2024": 200,
+    "militaryPct": 80,
+    "population": 36
+  },
+  {
+    "country": "Japan",
+    "slug": "japan",
+    "region": "Indo-Pacific",
+    "totalSince2001": 2000,
+    "annual2024": 200,
+    "militaryPct": 80,
+    "population": 125
+  },
+  {
+    "country": "Djibouti",
+    "slug": "djibouti",
+    "region": "Africa",
+    "totalSince2001": 1500,
+    "annual2024": 100,
+    "militaryPct": 60,
+    "population": 1
+  },
+  {
+    "country": "South Korea",
+    "slug": "south-korea",
+    "region": "Indo-Pacific",
+    "totalSince2001": 1500,
+    "annual2024": 100,
+    "militaryPct": 85,
+    "population": 52
+  },
+  {
+    "country": "Germany",
+    "slug": "germany",
+    "region": "Europe",
+    "totalSince2001": 1000,
+    "annual2024": 100,
+    "militaryPct": 90,
+    "population": 84
+  }
+]
