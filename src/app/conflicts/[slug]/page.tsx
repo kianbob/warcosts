@@ -5,7 +5,23 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import BackToTop from '@/components/BackToTop'
 import { ConflictStatsGrid } from '@/components/charts/ConflictStatsGrid'
+
+const ANALYSIS_LINKS = [
+  { slug: 'war-on-terror', title: 'The War on Terror', keywords: ['afghanistan', 'iraq', 'war-on-terror', 'syria', 'isis'] },
+  { slug: 'forever-wars', title: 'The Forever Wars', keywords: ['afghanistan', 'iraq', 'somalia', 'syria', 'yemen'] },
+  { slug: 'drone-wars', title: 'Drone Wars', keywords: ['afghanistan', 'yemen', 'somalia', 'pakistan', 'drone'] },
+  { slug: 'blowback', title: 'Blowback', keywords: ['iran', 'afghanistan', 'iraq', 'regime', 'covert'] },
+  { slug: 'congressional-authority', title: '19 Wars Without Congress', keywords: ['undeclared', 'authorization'] },
+  { slug: 'human-cost', title: 'The Human Cost', keywords: ['casualties', 'veteran', 'ptsd'] },
+  { slug: 'empire-of-bases', title: 'Empire of Bases', keywords: ['bases', 'deployment'] },
+  { slug: 'military-industrial-complex', title: 'The Military-Industrial Complex', keywords: ['contractors', 'spending'] },
+  { slug: 'presidents-at-war', title: 'Presidents at War', keywords: ['president', 'executive'] },
+  { slug: 'iran-2026', title: 'Iran 2026', keywords: ['iran'] },
+  { slug: 'ukraine-proxy', title: 'America\'s Proxy War in Ukraine', keywords: ['ukraine'] },
+  { slug: 'cost-per-life', title: 'The Price of a Life', keywords: ['cost', 'deaths'] },
+]
 
 export async function generateStaticParams() {
   const conflicts = loadData('conflicts.json')
@@ -29,7 +45,13 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
   const c = conflicts.find((x: any) => x.id === slug)
   if (!c) notFound()
 
-  const related = conflicts.filter((x: any) => x.era === c.era && x.id !== c.id)
+  const related = conflicts.filter((x: any) => x.era === c.era && x.id !== c.id).slice(0, 3)
+  const regionRelated = conflicts.filter((x: any) => x.region === c.region && x.id !== c.id && !related.some((r: any) => r.id === x.id)).slice(0, 3 - related.length)
+  const allRelated = [...related, ...regionRelated].slice(0, 3)
+
+  const relevantArticles = ANALYSIS_LINKS.filter(a =>
+    a.keywords.some(k => c.id.includes(k) || c.name.toLowerCase().includes(k) || (c.countries || []).some((co: string) => co.toLowerCase().includes(k)))
+  ).slice(0, 4)
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -151,20 +173,38 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         </div>
       )}
 
-      {/* Related Conflicts */}
-      {related.length > 0 && (
+      {/* Further Reading */}
+      {relevantArticles.length > 0 && (
         <div className="mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Other {c.era} Conflicts</h2>
-          <div className="grid md:grid-cols-2 gap-4">
-            {related.map((r: any) => (
-              <Link key={r.id} href={`/conflicts/${r.id}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
-                <h3 className="font-semibold">{r.shortName || r.name}</h3>
-                <p className="text-muted text-sm">{r.startYear}–{r.endYear} · {fmtMoney(r.costInflationAdjusted)}</p>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">📖 Further Reading</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {relevantArticles.map(a => (
+              <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-stone-50 rounded-lg border p-4 hover:shadow-md transition">
+                <h3 className="font-semibold text-primary">{a.title}</h3>
+                <p className="text-muted text-sm">Analysis →</p>
               </Link>
             ))}
           </div>
         </div>
       )}
+
+      {/* Related Conflicts */}
+      {allRelated.length > 0 && (
+        <div className="mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Related Conflicts</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {allRelated.map((r: any) => (
+              <Link key={r.id} href={`/conflicts/${r.id}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+                <h3 className="font-semibold">{r.shortName || r.name}</h3>
+                <p className="text-muted text-sm">{r.startYear}–{r.endYear || 'Present'}</p>
+                <p className="text-primary font-bold text-sm mt-1">{fmtMoney(r.costInflationAdjusted)}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <BackToTop />
     </div>
   )
 }

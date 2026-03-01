@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'The War on Terror: $8 Trillion Later',
@@ -17,6 +18,7 @@ export default function WarOnTerrorPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <ArticleJsonLd title="The War on Terror: $8 Trillion Later" description="Analysis of the War on Terror: $8 trillion spent, 929,000 dead, four countries destabilized." slug="war-on-terror" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'War on Terror' }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">The War on Terror: {fmtMoney(stats.warOnTerrorCost)} Later</h1>
