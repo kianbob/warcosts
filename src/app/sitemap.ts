@@ -22,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/the-aftermath', '/analysis/pentagon-climate',
     '/analysis/jobs-vs-war', '/analysis/the-469',
     '/analysis/drone-wars', '/analysis/silicon-valley-pentagon',
+    '/modern-wars', '/tools/cost-calculator',
+    '/analysis/forever-wars', '/analysis/ukraine-proxy', '/analysis/iran-2026',
     '/about', '/methodology', '/faq', '/sources',
     '/war-clock', '/tools/tax-receipt', '/tools/jobs-calculator',
     '/cost-per-life', '/presidents', '/countries', '/decades',
