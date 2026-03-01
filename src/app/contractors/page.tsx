@@ -177,6 +177,9 @@ export default function ContractorsPage() {
             <p className="text-sm"><strong>Products:</strong> {c.products}</p>
             <p className="text-muted text-sm mt-2">{c.note}</p>
             <p className="text-muted text-sm mt-2">{c.details}</p>
+            <Link href={`/contractors/${c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '').replace('rtx-raytheon-', 'rtx-corporation')}`} className="inline-block mt-3 text-sm text-primary hover:underline font-medium">
+              View full profile with USAspending data →
+            </Link>
           </div>
         ))}
       </div>
@@ -338,7 +341,30 @@ export default function ContractorsPage() {
           <li><Link href="/arms-sales" className="text-red-800 hover:underline">→ Arms Sales — who buys American weapons</Link></li>
           <li><Link href="/analysis/jobs-vs-war" className="text-red-800 hover:underline">→ Jobs vs. War — military spending creates the fewest jobs</Link></li>
           <li><Link href="/analysis/silicon-valley-pentagon" className="text-red-800 hover:underline">→ Silicon Valley & the Pentagon — the new military-tech complex</Link></li>
+          <li><Link href="/weapons" className="text-red-800 hover:underline">→ Weapons Systems — $3T in programs, massive overruns</Link></li>
+          <li><Link href="/contractors/directory" className="text-red-800 hover:underline">→ Full Contractor Directory — 62 companies with USAspending data</Link></li>
         </ul>
+      </div>
+
+      {/* Full USAspending Directory */}
+      <div className="mt-8 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">All DoD Contractors (FY2024 USAspending Data)</h2>
+        <p className="text-muted text-sm mb-4">Contract award data from <a href="https://www.usaspending.gov" target="_blank" rel="noopener noreferrer" className="underline">USAspending.gov</a>. Subsidiaries consolidated under parent companies.</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border">
+            <thead><tr className="bg-stone-100 text-left"><th className="p-2">#</th><th className="p-2">Contractor</th><th className="p-2 text-right">FY2024 Awards</th></tr></thead>
+            <tbody>
+              {(loadData('contractors.json') as { name: string; slug: string; amount: number; rank: number }[]).slice(0, 30).map(c => (
+                <tr key={c.slug} className="border-t hover:bg-stone-50">
+                  <td className="p-2 text-muted">{c.rank}</td>
+                  <td className="p-2"><Link href={`/contractors/${c.slug}`} className="text-primary hover:underline font-medium">{c.name}</Link></td>
+                  <td className="p-2 text-right font-mono">{fmtMoney(c.amount)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-center mt-4"><Link href="/contractors/directory" className="text-primary hover:underline font-medium">View all 62 contractors →</Link></p>
       </div>
     </div>
   )

@@ -2,57 +2,33 @@
   {
     "name": "Lockheed Martin",
     "slug": "lockheed-martin",
-    "amount": 37172530676.18999,
+    "amount": 47782333907.02999,
     "subsidiaries": [
       {
         "name": "LOCKHEED MARTIN CORPORATION",
         "amount": 14356651900.58
       },
       {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 7250485019.76
+        "name": "SIKORSKY AIRCRAFT CORPORATION",
+        "amount": 4732322030.79
       },
       {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 4832263310.73
+        "name": "LOCKHEED MARTIN CORP",
+        "amount": 1897300669.67
       },
       {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 2244210582.94
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 2163352099.32
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 1735042419.91
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 1722907554.44
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 1311103921.43
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 792890535.45
-      },
-      {
-        "name": "LOCKHEED MARTIN CORPORATION",
-        "amount": 763623331.63
+        "name": "RAYTHEON/LOCKHEED MARTIN JAVELIN JV",
+        "amount": 1208660696.48
       }
     ],
     "awards": 0,
     "rank": 1,
     "yearly": {
-      "FY2024": 37172530676.18999,
-      "FY2023": 53289674267.85999,
-      "FY2022": 33299988128.140007,
-      "FY2021": 26804032482.699993,
-      "FY2020": 62730852817.16
+      "FY2024": 47782333907.02999,
+      "FY2023": 67067938427.409996,
+      "FY2022": 43348510361.14001,
+      "FY2021": 37726211424.369995,
+      "FY2020": 72867623975.37001
     }
   },
   {
@@ -63,26 +39,6 @@
       {
         "name": "THE BOEING COMPANY",
         "amount": 8599726194.57
-      },
-      {
-        "name": "THE BOEING COMPANY",
-        "amount": 4969601621.71
-      },
-      {
-        "name": "THE BOEING COMPANY",
-        "amount": 1769525739.31
-      },
-      {
-        "name": "THE BOEING COMPANY",
-        "amount": 1523897190.54
-      },
-      {
-        "name": "THE BOEING COMPANY",
-        "amount": 1313840769.46
-      },
-      {
-        "name": "THE BOEING COMPANY",
-        "amount": 1226737952.1
       }
     ],
     "awards": 0,
@@ -107,22 +63,6 @@
       {
         "name": "RTX CORPORATION",
         "amount": 5033125001.46
-      },
-      {
-        "name": "RAYTHEON COMPANY",
-        "amount": 3018670090
-      },
-      {
-        "name": "RAYTHEON COMPANY",
-        "amount": 1269428953.55
-      },
-      {
-        "name": "RAYTHEON COMPANY",
-        "amount": 1016580092.23
-      },
-      {
-        "name": "RAYTHEON COMPANY",
-        "amount": 729217543.34
       }
     ],
     "awards": 0,
@@ -138,21 +78,53 @@
   {
     "name": "General Dynamics",
     "slug": "general-dynamics",
-    "amount": 8584959335.3,
+    "amount": 12505648879.810001,
     "subsidiaries": [
       {
         "name": "ELECTRIC BOAT CORPORATION",
         "amount": 8584959335.3
+      },
+      {
+        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
+        "amount": 1271204430.05
+      },
+      {
+        "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+        "amount": 2649485114.46
       }
     ],
     "awards": 0,
     "rank": 4,
     "yearly": {
-      "FY2024": 8584959335.3,
-      "FY2023": 10832262197.66,
-      "FY2022": 9426835904.21,
-      "FY2021": 8680217652.07,
-      "FY2020": 11628482757.71
+      "FY2024": 12505648879.810001,
+      "FY2023": 15603367096.72,
+      "FY2022": 14688212718.26,
+      "FY2021": 12181651342.18,
+      "FY2020": 14744608082.769999
+    }
+  },
+  {
+    "name": "Northrop Grumman",
+    "slug": "northrop-grumman",
+    "amount": 10504296451.039999,
+    "subsidiaries": [
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount": 2103720079.94
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORP",
+        "amount": 3486048164.7
+      }
+    ],
+    "awards": 0,
+    "rank": 5,
+    "yearly": {
+      "FY2024": 10504296451.039999,
+      "FY2023": 9303398876.810001,
+      "FY2022": 7186719166.110001,
+      "FY2021": 5864760751.39,
+      "FY2020": 5650689347.55
     }
   },
   {
@@ -166,7 +138,7 @@
       }
     ],
     "awards": 0,
-    "rank": 5,
+    "rank": 6,
     "yearly": {
       "FY2024": 8029206899.38,
       "FY2023": 7779551423.4,
@@ -176,43 +148,27 @@
     }
   },
   {
-    "name": "Northrop Grumman",
-    "slug": "northrop-grumman",
-    "amount": 7018248286.339999,
+    "name": "Huntington Ingalls Industries",
+    "slug": "huntington-ingalls-industries",
+    "amount": 7460658699.57,
     "subsidiaries": [
       {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 2103720079.94
+        "name": "HUNTINGTON INGALLS INCORPORATED",
+        "amount": 3879293686.22
       },
       {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 1119173429.81
-      },
-      {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 1091676597.11
-      },
-      {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 1026654409.33
-      },
-      {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 866780851.66
-      },
-      {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
-        "amount": 810242918.49
+        "name": "HUNTINGTON INGALLS INC",
+        "amount": 3581365013.35
       }
     ],
     "awards": 0,
-    "rank": 6,
+    "rank": 7,
     "yearly": {
-      "FY2024": 7018248286.339999,
-      "FY2023": 6429708968.070002,
-      "FY2022": 5158447923.76,
-      "FY2021": 4774635174.56,
-      "FY2020": 5650689347.55
+      "FY2024": 7460658699.57,
+      "FY2023": 9130340864.71,
+      "FY2022": 4613313436.38,
+      "FY2021": 5658918615.99,
+      "FY2020": 7469987970.08
     }
   },
   {
@@ -226,7 +182,7 @@
       }
     ],
     "awards": 0,
-    "rank": 7,
+    "rank": 8,
     "yearly": {
       "FY2024": 6079640935.43,
       "FY2023": 4392827444.45,
@@ -236,56 +192,8 @@
     }
   },
   {
-    "name": "SIKORSKY AIRCRAFT CORPORATION",
-    "slug": "sikorsky-aircraft-corporation",
-    "amount": 4732322030.79,
-    "subsidiaries": [
-      {
-        "name": "SIKORSKY AIRCRAFT CORPORATION",
-        "amount": 4732322030.79
-      }
-    ],
-    "awards": 0,
-    "rank": 8,
-    "yearly": {
-      "FY2024": 4732322030.79,
-      "FY2023": 5230258127.53,
-      "FY2022": 3393050931.62,
-      "FY2021": 4665011542.46,
-      "FY2020": 4202004929.47
-    }
-  },
-  {
-    "name": "LOCKHEED MARTIN CORP",
-    "slug": "lockheed-martin-corp",
-    "amount": 4668820503.57,
-    "subsidiaries": [
-      {
-        "name": "LOCKHEED MARTIN CORP",
-        "amount": 1897300669.67
-      },
-      {
-        "name": "LOCKHEED MARTIN CORP",
-        "amount": 1715574002.37
-      },
-      {
-        "name": "LOCKHEED MARTIN CORP",
-        "amount": 1055945831.53
-      }
-    ],
-    "awards": 0,
-    "rank": 9,
-    "yearly": {
-      "FY2024": 4668820503.57,
-      "FY2023": 7010476181.26,
-      "FY2022": 5909599014.38,
-      "FY2021": 6257167399.21,
-      "FY2020": 5934766228.74
-    }
-  },
-  {
-    "name": "ATLANTIC DIVING SUPPLY, INC.",
-    "slug": "atlantic-diving-supply-inc",
+    "name": "Atlantic Diving Supply",
+    "slug": "atlantic-diving-supply",
     "amount": 4650072073.7,
     "subsidiaries": [
       {
@@ -294,7 +202,7 @@
       }
     ],
     "awards": 0,
-    "rank": 10,
+    "rank": 9,
     "yearly": {
       "FY2024": 4650072073.7,
       "FY2023": 4423508831.3,
@@ -304,48 +212,64 @@
     }
   },
   {
-    "name": "HUNTINGTON INGALLS INCORPORATED",
-    "slug": "huntington-ingalls-incorporated",
-    "amount": 3879293686.22,
+    "name": "BAE Systems",
+    "slug": "bae-systems",
+    "amount": 4597897599.12,
     "subsidiaries": [
       {
-        "name": "HUNTINGTON INGALLS INCORPORATED",
-        "amount": 3879293686.22
+        "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+        "amount": 2301394809.96
+      },
+      {
+        "name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
+        "amount": 1197037553.34
+      },
+      {
+        "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+        "amount": 1099465235.82
+      }
+    ],
+    "awards": 0,
+    "rank": 10,
+    "yearly": {
+      "FY2024": 4597897599.12,
+      "FY2023": 3185598284.15,
+      "FY2022": 1458155914.33,
+      "FY2021": 1494645074.3600001,
+      "FY2020": 2667414634.4100003
+    }
+  },
+  {
+    "name": "L3Harris Technologies",
+    "slug": "l3harris-technologies",
+    "amount": 3648509064.4500003,
+    "subsidiaries": [
+      {
+        "name": "L3HARRIS TECHNOLOGIES INTEGRATED SYSTEMS L.P.",
+        "amount": 1536778167.68
+      },
+      {
+        "name": "L3HARRIS TECHNOLOGIES, INC.",
+        "amount": 1079329539.58
+      },
+      {
+        "name": "L3HARRIS GLOBAL COMMUNICATIONS, INC.",
+        "amount": 1032401357.19
       }
     ],
     "awards": 0,
     "rank": 11,
     "yearly": {
-      "FY2024": 3879293686.22,
-      "FY2023": 5947009942.98,
-      "FY2022": 1646190315.25,
-      "FY2021": 2026090866.15,
-      "FY2020": 4047393693.22
+      "FY2024": 1536778167.68,
+      "FY2023": 1478542629.37,
+      "FY2022": 1570548355.29,
+      "FY2021": 1474409940.12,
+      "FY2020": 1494624980.24
     }
   },
   {
-    "name": "HUNTINGTON INGALLS INC",
-    "slug": "huntington-ingalls-inc",
-    "amount": 3581365013.35,
-    "subsidiaries": [
-      {
-        "name": "HUNTINGTON INGALLS INC",
-        "amount": 3581365013.35
-      }
-    ],
-    "awards": 0,
-    "rank": 12,
-    "yearly": {
-      "FY2024": 3581365013.35,
-      "FY2023": 3183330921.73,
-      "FY2022": 2967123121.13,
-      "FY2021": 3632827749.84,
-      "FY2020": 3422594276.86
-    }
-  },
-  {
-    "name": "HEALTH NET FEDERAL SERVICES, LLC",
-    "slug": "health-net-federal-services-llc",
+    "name": "Health Net Federal Services",
+    "slug": "health-net-federal-services",
     "amount": 3545991795.3,
     "subsidiaries": [
       {
@@ -354,7 +278,7 @@
       }
     ],
     "awards": 0,
-    "rank": 13,
+    "rank": 12,
     "yearly": {
       "FY2024": 3545991795.3,
       "FY2023": 3601081143.53,
@@ -364,28 +288,8 @@
     }
   },
   {
-    "name": "NORTHROP GRUMMAN SYSTEMS CORP",
-    "slug": "northrop-grumman-systems-corp",
-    "amount": 3486048164.7,
-    "subsidiaries": [
-      {
-        "name": "NORTHROP GRUMMAN SYSTEMS CORP",
-        "amount": 3486048164.7
-      }
-    ],
-    "awards": 0,
-    "rank": 14,
-    "yearly": {
-      "FY2024": 3486048164.7,
-      "FY2023": 2873689908.74,
-      "FY2022": 2028271242.35,
-      "FY2021": 1090125576.83,
-      "FY2020": 0
-    }
-  },
-  {
-    "name": "AMENTUM SERVICES, INC.",
-    "slug": "amentum-services-inc",
+    "name": "Amentum",
+    "slug": "amentum",
     "amount": 3241589690.37,
     "subsidiaries": [
       {
@@ -394,33 +298,13 @@
       }
     ],
     "awards": 0,
-    "rank": 15,
+    "rank": 13,
     "yearly": {
       "FY2024": 3241589690.37,
       "FY2023": 2119332178.83,
       "FY2022": 1413569253.01,
       "FY2021": 1158194140.1,
       "FY2020": 1148934311.28
-    }
-  },
-  {
-    "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
-    "slug": "general-dynamics-land-systems-inc",
-    "amount": 2649485114.46,
-    "subsidiaries": [
-      {
-        "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
-        "amount": 2649485114.46
-      }
-    ],
-    "awards": 0,
-    "rank": 16,
-    "yearly": {
-      "FY2024": 2649485114.46,
-      "FY2023": 3523195501.64,
-      "FY2022": 3954276191.28,
-      "FY2021": 2512494988.24,
-      "FY2020": 2190728525.66
     }
   },
   {
@@ -434,7 +318,7 @@
       }
     ],
     "awards": 0,
-    "rank": 17,
+    "rank": 14,
     "yearly": {
       "FY2024": 2642435596.17,
       "FY2023": 2481796882.08,
@@ -444,21 +328,17 @@
     }
   },
   {
-    "name": "GENERAL ELECTRIC COMPANY",
-    "slug": "general-electric-company",
+    "name": "General Electric",
+    "slug": "general-electric",
     "amount": 2557369430.22,
     "subsidiaries": [
       {
         "name": "GENERAL ELECTRIC COMPANY",
         "amount": 1592351805.06
-      },
-      {
-        "name": "GENERAL ELECTRIC COMPANY",
-        "amount": 965017625.16
       }
     ],
     "awards": 0,
-    "rank": 18,
+    "rank": 15,
     "yearly": {
       "FY2024": 2557369430.22,
       "FY2023": 3852476080.82,
@@ -468,8 +348,8 @@
     }
   },
   {
-    "name": "LEIDOS, INC.",
-    "slug": "leidos-inc",
+    "name": "Leidos",
+    "slug": "leidos",
     "amount": 2455115206.2,
     "subsidiaries": [
       {
@@ -478,33 +358,13 @@
       }
     ],
     "awards": 0,
-    "rank": 19,
+    "rank": 16,
     "yearly": {
       "FY2024": 2455115206.2,
       "FY2023": 2831630938.7200003,
       "FY2022": 2922058924.3599997,
       "FY2021": 2407704549.11,
       "FY2020": 2270894116.38
-    }
-  },
-  {
-    "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
-    "slug": "bae-systems-land-armaments-l-p",
-    "amount": 2301394809.96,
-    "subsidiaries": [
-      {
-        "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
-        "amount": 2301394809.96
-      }
-    ],
-    "awards": 0,
-    "rank": 20,
-    "yearly": {
-      "FY2024": 2301394809.96,
-      "FY2023": 2146217419.15,
-      "FY2022": 0,
-      "FY2021": 0,
-      "FY2020": 1095492718.2
     }
   },
   {
@@ -518,7 +378,7 @@
       }
     ],
     "awards": 0,
-    "rank": 21,
+    "rank": 17,
     "yearly": {
       "FY2024": 2244008884.68,
       "FY2023": 1721696503.61,
@@ -538,7 +398,7 @@
       }
     ],
     "awards": 0,
-    "rank": 22,
+    "rank": 18,
     "yearly": {
       "FY2024": 2211820686.15,
       "FY2023": 2411867362.77,
@@ -558,7 +418,7 @@
       }
     ],
     "awards": 0,
-    "rank": 23,
+    "rank": 19,
     "yearly": {
       "FY2024": 2204814859.34,
       "FY2023": 2110595218.74,
@@ -578,7 +438,7 @@
       }
     ],
     "awards": 0,
-    "rank": 24,
+    "rank": 20,
     "yearly": {
       "FY2024": 2181732373,
       "FY2023": 1429547727,
@@ -598,7 +458,7 @@
       }
     ],
     "awards": 0,
-    "rank": 25,
+    "rank": 21,
     "yearly": {
       "FY2024": 2082161580.7,
       "FY2023": 2122566289.75,
@@ -618,7 +478,7 @@
       }
     ],
     "awards": 0,
-    "rank": 26,
+    "rank": 22,
     "yearly": {
       "FY2024": 1810774185.41,
       "FY2023": 856176742.13,
@@ -638,7 +498,7 @@
       }
     ],
     "awards": 0,
-    "rank": 27,
+    "rank": 23,
     "yearly": {
       "FY2024": 1810295415.74,
       "FY2023": 1402975424.78,
@@ -658,7 +518,7 @@
       }
     ],
     "awards": 0,
-    "rank": 28,
+    "rank": 24,
     "yearly": {
       "FY2024": 1616740327.61,
       "FY2023": 1541864818.17,
@@ -678,7 +538,7 @@
       }
     ],
     "awards": 0,
-    "rank": 29,
+    "rank": 25,
     "yearly": {
       "FY2024": 1606507315.55,
       "FY2023": 1985837005.51,
@@ -698,33 +558,13 @@
       }
     ],
     "awards": 0,
-    "rank": 30,
+    "rank": 26,
     "yearly": {
       "FY2024": 1538694270.08,
       "FY2023": 1030138117.84,
       "FY2022": 1069165567.05,
       "FY2021": 633296205.63,
       "FY2020": 1018626063.47
-    }
-  },
-  {
-    "name": "L3HARRIS TECHNOLOGIES INTEGRATED SYSTEMS L.P.",
-    "slug": "l3harris-technologies-integrated-systems-l-p",
-    "amount": 1536778167.68,
-    "subsidiaries": [
-      {
-        "name": "L3HARRIS TECHNOLOGIES INTEGRATED SYSTEMS L.P.",
-        "amount": 1536778167.68
-      }
-    ],
-    "awards": 0,
-    "rank": 31,
-    "yearly": {
-      "FY2024": 1536778167.68,
-      "FY2023": 1478542629.37,
-      "FY2022": 1570548355.29,
-      "FY2021": 1474409940.12,
-      "FY2020": 1494624980.24
     }
   },
   {
@@ -738,7 +578,7 @@
       }
     ],
     "awards": 0,
-    "rank": 32,
+    "rank": 27,
     "yearly": {
       "FY2024": 1514764294.03,
       "FY2023": 1469500699.06,
@@ -758,7 +598,7 @@
       }
     ],
     "awards": 0,
-    "rank": 33,
+    "rank": 28,
     "yearly": {
       "FY2024": 1462427899.38,
       "FY2023": 1059342502.53,
@@ -778,7 +618,7 @@
       }
     ],
     "awards": 0,
-    "rank": 34,
+    "rank": 29,
     "yearly": {
       "FY2024": 1460909736.87,
       "FY2023": 1360850990.59,
@@ -798,7 +638,7 @@
       }
     ],
     "awards": 0,
-    "rank": 35,
+    "rank": 30,
     "yearly": {
       "FY2024": 1404595303.18,
       "FY2023": 1156359451.57,
@@ -818,33 +658,13 @@
       }
     ],
     "awards": 0,
-    "rank": 36,
+    "rank": 31,
     "yearly": {
       "FY2024": 1345529346.76,
       "FY2023": 1959063788.11,
       "FY2022": 1620381941.15,
       "FY2021": 2157639921.47,
       "FY2020": 2403899277.16
-    }
-  },
-  {
-    "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
-    "slug": "general-dynamics-information-technology-inc",
-    "amount": 1271204430.05,
-    "subsidiaries": [
-      {
-        "name": "GENERAL DYNAMICS INFORMATION TECHNOLOGY, INC.",
-        "amount": 1271204430.05
-      }
-    ],
-    "awards": 0,
-    "rank": 37,
-    "yearly": {
-      "FY2024": 1271204430.05,
-      "FY2023": 1247909397.42,
-      "FY2022": 1307100622.77,
-      "FY2021": 988938701.87,
-      "FY2020": 925396799.4
     }
   },
   {
@@ -858,7 +678,7 @@
       }
     ],
     "awards": 0,
-    "rank": 38,
+    "rank": 32,
     "yearly": {
       "FY2024": 1260122194.85,
       "FY2023": 0,
@@ -878,33 +698,13 @@
       }
     ],
     "awards": 0,
-    "rank": 39,
+    "rank": 33,
     "yearly": {
       "FY2024": 1234840353.95,
       "FY2023": 1239789796.02,
       "FY2022": 2127136495.69,
       "FY2021": 1568578370.03,
       "FY2020": 928034150.45
-    }
-  },
-  {
-    "name": "RAYTHEON/LOCKHEED MARTIN JAVELIN JV",
-    "slug": "raytheon-lockheed-martin-javelin-jv",
-    "amount": 1208660696.48,
-    "subsidiaries": [
-      {
-        "name": "RAYTHEON/LOCKHEED MARTIN JAVELIN JV",
-        "amount": 1208660696.48
-      }
-    ],
-    "awards": 0,
-    "rank": 40,
-    "yearly": {
-      "FY2024": 1208660696.48,
-      "FY2023": 1537529850.76,
-      "FY2022": 745872287,
-      "FY2021": 0,
-      "FY2020": 0
     }
   },
   {
@@ -918,7 +718,7 @@
       }
     ],
     "awards": 0,
-    "rank": 41,
+    "rank": 34,
     "yearly": {
       "FY2024": 1205980154.14,
       "FY2023": 953013553.44,
@@ -928,8 +728,8 @@
     }
   },
   {
-    "name": "BELL TEXTRON INC",
-    "slug": "bell-textron-inc",
+    "name": "Textron",
+    "slug": "textron",
     "amount": 1202471287.18,
     "subsidiaries": [
       {
@@ -938,33 +738,13 @@
       }
     ],
     "awards": 0,
-    "rank": 42,
+    "rank": 35,
     "yearly": {
       "FY2024": 1202471287.18,
       "FY2023": 984435465.22,
       "FY2022": 0,
       "FY2021": 0,
       "FY2020": 0
-    }
-  },
-  {
-    "name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
-    "slug": "bae-systems-technology-solutions-services-inc",
-    "amount": 1197037553.34,
-    "subsidiaries": [
-      {
-        "name": "BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.",
-        "amount": 1197037553.34
-      }
-    ],
-    "awards": 0,
-    "rank": 43,
-    "yearly": {
-      "FY2024": 1197037553.34,
-      "FY2023": 1039380865,
-      "FY2022": 768990002.51,
-      "FY2021": 795107170.9,
-      "FY2020": 822125760.87
     }
   },
   {
@@ -978,7 +758,7 @@
       }
     ],
     "awards": 0,
-    "rank": 44,
+    "rank": 36,
     "yearly": {
       "FY2024": 1183774534.32,
       "FY2023": 1002998773.02,
@@ -998,7 +778,7 @@
       }
     ],
     "awards": 0,
-    "rank": 45,
+    "rank": 37,
     "yearly": {
       "FY2024": 1170112254.7,
       "FY2023": 975502103.83,
@@ -1018,7 +798,7 @@
       }
     ],
     "awards": 0,
-    "rank": 46,
+    "rank": 38,
     "yearly": {
       "FY2024": 1156208070.57,
       "FY2023": 1110325737,
@@ -1038,33 +818,13 @@
       }
     ],
     "awards": 0,
-    "rank": 47,
+    "rank": 39,
     "yearly": {
       "FY2024": 1146389682.61,
       "FY2023": 0,
       "FY2022": 637112067.78,
       "FY2021": 562389288,
       "FY2020": 802165451
-    }
-  },
-  {
-    "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
-    "slug": "bae-systems-information-and-electronic-systems-integration-inc",
-    "amount": 1099465235.82,
-    "subsidiaries": [
-      {
-        "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
-        "amount": 1099465235.82
-      }
-    ],
-    "awards": 0,
-    "rank": 48,
-    "yearly": {
-      "FY2024": 1099465235.82,
-      "FY2023": 0,
-      "FY2022": 689165911.82,
-      "FY2021": 699537903.46,
-      "FY2020": 749796155.34
     }
   },
   {
@@ -1078,7 +838,7 @@
       }
     ],
     "awards": 0,
-    "rank": 49,
+    "rank": 40,
     "yearly": {
       "FY2024": 1087437009.82,
       "FY2023": 682288125.3,
@@ -1098,7 +858,7 @@
       }
     ],
     "awards": 0,
-    "rank": 50,
+    "rank": 41,
     "yearly": {
       "FY2024": 1079849076.61,
       "FY2023": 1042422074.87,
@@ -1106,19 +866,6 @@
       "FY2021": 0,
       "FY2020": 0
     }
-  },
-  {
-    "name": "L3HARRIS TECHNOLOGIES, INC.",
-    "slug": "l3harris-technologies-inc",
-    "amount": 1079329539.58,
-    "subsidiaries": [
-      {
-        "name": "L3HARRIS TECHNOLOGIES, INC.",
-        "amount": 1079329539.58
-      }
-    ],
-    "awards": 0,
-    "rank": 51
   },
   {
     "name": "CLARK CONSTRUCTION GROUP LLC",
@@ -1131,7 +878,7 @@
       }
     ],
     "awards": 0,
-    "rank": 52
+    "rank": 42
   },
   {
     "name": "VALERO MARKETING AND SUPPLY CO",
@@ -1144,7 +891,7 @@
       }
     ],
     "awards": 0,
-    "rank": 53
+    "rank": 43
   },
   {
     "name": "AUSTAL USA, LLC",
@@ -1157,7 +904,7 @@
       }
     ],
     "awards": 0,
-    "rank": 54
+    "rank": 44
   },
   {
     "name": "CANADIAN COMMERCIAL CORPORATION",
@@ -1170,7 +917,7 @@
       }
     ],
     "awards": 0,
-    "rank": 55
+    "rank": 45
   },
   {
     "name": "OLIN WINCHESTER LLC",
@@ -1183,20 +930,7 @@
       }
     ],
     "awards": 0,
-    "rank": 56
-  },
-  {
-    "name": "L3HARRIS GLOBAL COMMUNICATIONS, INC.",
-    "slug": "l3harris-global-communications-inc",
-    "amount": 1032401357.19,
-    "subsidiaries": [
-      {
-        "name": "L3HARRIS GLOBAL COMMUNICATIONS, INC.",
-        "amount": 1032401357.19
-      }
-    ],
-    "awards": 0,
-    "rank": 57
+    "rank": 46
   },
   {
     "name": "ROCKWELL COLLINS, INC.",
@@ -1209,7 +943,7 @@
       }
     ],
     "awards": 0,
-    "rank": 58
+    "rank": 47
   },
   {
     "name": "BP PRODUCTS NORTH AMERICA INC.",
@@ -1222,7 +956,7 @@
       }
     ],
     "awards": 0,
-    "rank": 59
+    "rank": 48
   },
   {
     "name": "CARAHSOFT TECHNOLOGY CORP",
@@ -1235,7 +969,7 @@
       }
     ],
     "awards": 0,
-    "rank": 60
+    "rank": 49
   },
   {
     "name": "M1 SUPPORT SERVICES, L.P.",
@@ -1248,7 +982,7 @@
       }
     ],
     "awards": 0,
-    "rank": 61
+    "rank": 50
   },
   {
     "name": "KBR WYLE SERVICES, LLC",
@@ -1261,7 +995,7 @@
       }
     ],
     "awards": 0,
-    "rank": 62
+    "rank": 51
   },
   {
     "name": "BELL BOEING JOINT PROJECT OFFICE",
@@ -1274,7 +1008,7 @@
       }
     ],
     "awards": 0,
-    "rank": 63
+    "rank": 52
   },
   {
     "name": "PATRIOT TEAM",
@@ -1287,7 +1021,7 @@
       }
     ],
     "awards": 0,
-    "rank": 64
+    "rank": 53
   },
   {
     "name": "ROLLS-ROYCE CORPORATION",
@@ -1300,7 +1034,7 @@
       }
     ],
     "awards": 0,
-    "rank": 65
+    "rank": 54
   },
   {
     "name": "ACCENTURE FEDERAL SERVICES LLC",
@@ -1313,7 +1047,7 @@
       }
     ],
     "awards": 0,
-    "rank": 66
+    "rank": 55
   },
   {
     "name": "DRAGADOS/HAWAIIAN DREDGING/ORION JV",
@@ -1326,7 +1060,7 @@
       }
     ],
     "awards": 0,
-    "rank": 67
+    "rank": 56
   },
   {
     "name": "MINISTRY OF DEFENSE",
@@ -1339,7 +1073,7 @@
       }
     ],
     "awards": 0,
-    "rank": 68
+    "rank": 57
   },
   {
     "name": "TRUMBULL CORPORATION AND BRAYMAN CONSTRUCTION CORPORATION, A JOINT VENTURE",
@@ -1352,7 +1086,7 @@
       }
     ],
     "awards": 0,
-    "rank": 69
+    "rank": 58
   },
   {
     "name": "THE CHARLES STARK DRAPER LABORATORY, INC.",
@@ -1365,7 +1099,7 @@
       }
     ],
     "awards": 0,
-    "rank": 70
+    "rank": 59
   },
   {
     "name": "THE MITRE CORPORATION",
@@ -1378,7 +1112,7 @@
       }
     ],
     "awards": 0,
-    "rank": 71
+    "rank": 60
   },
   {
     "name": "BL HARBERT INTERNATIONAL LLC",
@@ -1391,7 +1125,7 @@
       }
     ],
     "awards": 0,
-    "rank": 72
+    "rank": 61
   },
   {
     "name": "HII MISSION TECHNOLOGIES CORP",
@@ -1404,6 +1138,6 @@
       }
     ],
     "awards": 0,
-    "rank": 73
+    "rank": 62
   }
 ]
