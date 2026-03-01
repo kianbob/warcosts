@@ -4,7 +4,16 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import { SpendingAreaChart, GdpChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const SpendingAreaChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.SpendingAreaChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
+const GdpChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.GdpChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
 import Link from 'next/link'
 
 export const metadata: Metadata = {

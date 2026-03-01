@@ -4,7 +4,12 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import { ArmsSalesChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const ArmsSalesChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.ArmsSalesChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
 
 export const metadata: Metadata = {
   title: 'US Arms Sales — $238B/Year, World\'s Largest Weapons Dealer | WarCosts',

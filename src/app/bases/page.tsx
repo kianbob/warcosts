@@ -4,7 +4,16 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import { BasesChart, TroopsChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const BasesChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.BasesChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
+const TroopsChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.TroopsChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
 
 export const metadata: Metadata = {
   title: 'US Overseas Military Bases — 750 Bases in 80 Countries | WarCosts',

@@ -37,7 +37,7 @@ export default function WarClockPage() {
 
           <div className="my-16">
             <p className="text-stone-400 text-lg mb-4">Since you opened this page:</p>
-            <p className="font-[family-name:var(--font-heading)] text-6xl md:text-8xl lg:text-9xl font-bold text-red-500 tabular-nums tracking-tight">
+            <p className="font-[family-name:var(--font-heading)] text-6xl md:text-8xl lg:text-9xl font-bold text-red-500 tabular-nums tracking-normal">
               {formatted}
             </p>
             <p className="text-stone-500 mt-4 text-sm">{elapsed.toFixed(1)} seconds</p>

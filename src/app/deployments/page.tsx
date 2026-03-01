@@ -4,7 +4,12 @@ import { loadData } from '@/lib/server-utils'
 import { fmt, fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import { TroopsChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const TroopsChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.TroopsChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
 
 export const metadata: Metadata = {
   title: 'US Troop Deployments Worldwide — 173,000 Troops in 80 Countries',

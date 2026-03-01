@@ -4,7 +4,12 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
-import { ForeignAidChart } from '@/components/charts/SpendingCharts'
+import dynamic from 'next/dynamic'
+
+const ForeignAidChart = dynamic(
+  () => import('@/components/charts/SpendingCharts').then(mod => mod.ForeignAidChart),
+  { ssr: false, loading: () => <div style={{ height: 400 }} /> }
+)
 
 export const metadata: Metadata = {
   title: 'US Foreign Aid — $68B/Year, Where Your Tax Dollars Go | WarCosts',
@@ -57,7 +62,7 @@ export default function ForeignAidPage() {
         ].map(s => (
           <div key={s.label} className="bg-white rounded-lg p-5 shadow-sm border text-center">
             <p className="text-2xl font-bold text-primary font-[family-name:var(--font-heading)]">{s.val}</p>
-            <p className="text-muted text-xs">{s.label}</p>
+            <p className="text-muted text-sm">{s.label}</p>
           </div>
         ))}
       </div>
