@@ -35,7 +35,7 @@ export function MediaWarCharts({ data }: { data: OpinionShift[] }) {
           <YAxis dataKey="name" type="category" width={130} stroke="#a8a29e" tick={{ fontSize: 11 }} />
           <Tooltip
             contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-            formatter={(v: number) => [`${v}%`]}
+            formatter={(v) => [`${v}%`]}
           />
           <Legend />
           <Bar dataKey="before" name="Before Media Campaign" fill="#525252" />

@@ -75,7 +75,7 @@ export function SecrecyCharts() {
             </Pie>
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [`$${v}B`]}
+              formatter={(v) => [`$${v}B`]}
             />
             <Legend />
           </PieChart>

@@ -41,7 +41,7 @@ export function RefugeeCharts() {
             <YAxis dataKey="name" type="category" width={100} stroke="#a8a29e" tick={{ fontSize: 12 }} />
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [`${v}M`]}
+              formatter={(v) => [`${v}M`]}
             />
             <Legend />
             <Bar dataKey="displaced" name="Displaced (Millions)" fill="#991b1b" />
@@ -64,7 +64,7 @@ export function RefugeeCharts() {
             <YAxis dataKey="country" type="category" width={80} stroke="#a8a29e" tick={{ fontSize: 12 }} />
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [`${v}%`, 'Refugees as % of population']}
+              formatter={(v) => [`${v}%`, 'Refugees as % of population']}
             />
             <Bar dataKey="pct" name="Refugees as % of Population" fill="#b91c1c" />
           </BarChart>

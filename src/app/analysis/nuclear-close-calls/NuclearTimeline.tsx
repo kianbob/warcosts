@@ -28,7 +28,7 @@ export function NuclearTimeline({ arsenalData }: { arsenalData: ArsenalEntry[] }
           <YAxis stroke="#a8a29e" tickFormatter={(v: number) => v >= 1000 ? `${(v / 1000).toFixed(0)}K` : `${v}`} tick={{ fontSize: 12 }} />
           <Tooltip
             contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-            formatter={(v: number) => [v.toLocaleString(), '']}
+            formatter={(v) => [v.toLocaleString(), '']}
             labelFormatter={(l: string) => `Year: ${l}`}
           />
           <Legend />

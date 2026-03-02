@@ -49,7 +49,7 @@ export function WarEconomyCharts() {
             <YAxis stroke="#a8a29e" tickFormatter={(v: number) => `$${v}B`} tick={{ fontSize: 12 }} />
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [`$${v}B`, 'Spending']}
+              formatter={(v) => [`$${v}B`, 'Spending']}
               labelFormatter={(l: string) => `Year: ${l}`}
             />
             <Area type="monotone" dataKey="amount" stroke="#991b1b" fill="#991b1b" fillOpacity={0.3} />
@@ -70,7 +70,7 @@ export function WarEconomyCharts() {
             <YAxis stroke="#a8a29e" tickFormatter={(v: number) => `${v}%`} tick={{ fontSize: 12 }} />
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [`${v}%`, '% of GDP']}
+              formatter={(v) => [`${v}%`, '% of GDP']}
               labelFormatter={(l: string) => `Year: ${l}`}
             />
             <Area type="monotone" dataKey="pctGdp" stroke="#b91c1c" fill="#b91c1c" fillOpacity={0.3} />
@@ -91,7 +91,7 @@ export function WarEconomyCharts() {
             <YAxis stroke="#a8a29e" tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 12 }} />
             <Tooltip
               contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', color: '#fff' }}
-              formatter={(v: number) => [v.toLocaleString(), 'Jobs per $1B']}
+              formatter={(v) => [v.toLocaleString(), 'Jobs per $1B']}
             />
             <Bar dataKey="jobs" name="Jobs per $1B">
               {jobsData.map((entry, index) => (
