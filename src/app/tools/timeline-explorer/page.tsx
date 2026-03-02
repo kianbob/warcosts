@@ -120,12 +120,12 @@ export default function TimelineExplorerPage() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
-      <nav className="text-sm text-stone-400 mb-4">
-        <Link href="/" className="hover:text-white">Home</Link>
+      <nav className="text-sm text-stone-500 mb-4">
+        <Link href="/" className="hover:text-stone-900">Home</Link>
         <span className="mx-2">›</span>
-        <Link href="/tools" className="hover:text-white">Tools</Link>
+        <Link href="/tools" className="hover:text-stone-900">Tools</Link>
         <span className="mx-2">›</span>
-        <span className="text-white">Timeline Explorer</span>
+        <span className="text-stone-900 font-medium">Timeline Explorer</span>
       </nav>
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">
@@ -162,13 +162,13 @@ export default function TimelineExplorerPage() {
           From:
           <input type="number" min={1776} max={rangeEnd - 1} value={rangeStart}
             onChange={e => setRangeStart(Number(e.target.value))}
-            className="bg-stone-800 border border-stone-700 rounded px-2 py-1 w-20 text-white" />
+            className="bg-stone-100 border border-stone-300 rounded px-2 py-1 w-20 text-stone-900" />
         </label>
         <label className="flex items-center gap-2">
           To:
           <input type="number" min={rangeStart + 1} max={2026} value={rangeEnd}
             onChange={e => setRangeEnd(Number(e.target.value))}
-            className="bg-stone-800 border border-stone-700 rounded px-2 py-1 w-20 text-white" />
+            className="bg-stone-100 border border-stone-300 rounded px-2 py-1 w-20 text-stone-900" />
         </label>
         <span className="text-stone-500">
           Showing {items.length} events
