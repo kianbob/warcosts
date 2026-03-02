@@ -57,6 +57,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/military-families', '/nuclear-arsenal',
     '/war-powers', '/military-aid', '/civilian-casualties',
     '/war-propaganda', '/defense-budget-explained',
+    '/us-military-budget', '/iraq-war', '/afghanistan-war', '/vietnam-war',
+    '/military-spending-by-country',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
