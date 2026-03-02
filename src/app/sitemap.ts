@@ -47,6 +47,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/nuclear', '/veterans', '/intelligence', '/modern-tactics',
     '/bases/directory', '/bases/countries', '/bases/states',
     '/weapons', '/contractors/directory',
+    '/tools/war-quiz', '/tools/casualty-calculator', '/tools/compare-wars',
+    '/military-families', '/nuclear-arsenal',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({

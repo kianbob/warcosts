@@ -65,6 +65,27 @@ const tools = [
     icon: '💰',
     color: 'bg-indigo-50 border-indigo-200',
   },
+  {
+    title: 'War Quiz',
+    desc: 'How much do you know about America\'s wars? 20 questions with shocking answers drawn from real data. Track your score and share your result.',
+    href: '/tools/war-quiz',
+    icon: '❓',
+    color: 'bg-orange-50 border-orange-200',
+  },
+  {
+    title: 'Casualty Calculator',
+    desc: 'What would war casualties look like in your city? Enter a population, select a conflict, and see what percentage would be gone.',
+    href: '/tools/casualty-calculator',
+    icon: '🏙️',
+    color: 'bg-red-50 border-red-200',
+  },
+  {
+    title: 'Compare Wars',
+    desc: 'Side-by-side comparison of 2–4 conflicts. Compare cost, duration, casualties, cost-per-day, and cost-per-life with interactive charts.',
+    href: '/tools/compare-wars',
+    icon: '📊',
+    color: 'bg-cyan-50 border-cyan-200',
+  },
 ]
 
 export default function ToolsPage() {
