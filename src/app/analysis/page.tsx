@@ -100,6 +100,16 @@ const sections = [
     ],
   },
   {
+    theme: 'Accountability & Truth',
+    articles: [
+      { slug: 'torture-program', title: "America's Torture Program", desc: "119+ detainees in CIA black sites. 266 waterboardings. Rectal feeding. Senate confirmed zero useful intelligence. Nobody prosecuted. Architects promoted." },
+      { slug: 'oil-and-war', title: 'Oil & War: Every Middle East War Is About Oil', desc: "Carter Doctrine. Gulf War. Iraq no-bid Halliburton contracts. Petrodollar system. Pipeline politics. America fights for oil it no longer needs." },
+      { slug: 'private-military', title: 'Private Military Contractors', desc: "Blackwater, Nisour Square massacre, 8,000+ contractor deaths. DynCorp trafficking scandal. Erik Prince's revolving door. 207,000 contractors at peak." },
+      { slug: 'lies-that-started-wars', title: 'Lies That Started Wars', desc: "Gulf of Tonkin fabricated. WMDs didn't exist. Incubator babies staged. USS Maine was an accident. 100+ years of the same pattern." },
+      { slug: 'what-victory-looks-like', title: 'What Victory Looks Like', desc: "Iraq: ISIS, 500K dead. Afghanistan: Taliban back in 11 days. Libya: slave markets. Vietnam: communist anyway. What did $8T achieve?" },
+    ],
+  },
+  {
     theme: 'Human Cost',
     articles: [
       { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
