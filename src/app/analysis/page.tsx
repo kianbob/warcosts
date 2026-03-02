@@ -90,6 +90,16 @@ const sections = [
     ],
   },
   {
+    theme: 'Power & Inequality',
+    articles: [
+      { slug: 'allies-and-enemies', title: 'Allies & Enemies: How America Arms Its Future Wars', desc: 'Saddam was a CIA asset. Bin Laden was funded. Noriega was on the payroll. The Taliban were armed. The pattern: arm today\'s ally, fight tomorrow\'s enemy.' },
+      { slug: 'war-and-civil-liberties', title: 'War & Civil Liberties: Every War Shrinks Freedom', desc: 'Sedition Acts, Japanese internment, McCarthyism, COINTELPRO, PATRIOT Act, NSA mass surveillance. The ratchet only turns one way.' },
+      { slug: 'forgotten-wars', title: 'Forgotten Wars: The Conflicts Americans Don\'t Remember', desc: 'Korean War (36K dead), Philippine-American War (1M civilians), Laotian Secret War (most bombed country per capita). Wars that disappeared from memory.' },
+      { slug: 'draft-and-inequality', title: 'The Draft & Inequality: Who Fights America\'s Wars?', desc: '80% of Vietnam combatants from poor families. McNamara\'s Project 100,000. The poverty draft. Rural overrepresentation. Those who vote for war don\'t fight it.' },
+      { slug: 'cost-of-empire', title: 'The Cost of Empire: $1.3 Trillion/Year', desc: '750+ bases, $1.3T/year true cost, more than the next 15 nations combined. Opportunity cost: free college, ending homelessness, and more — for a fraction.' },
+    ],
+  },
+  {
     theme: 'Human Cost',
     articles: [
       { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
