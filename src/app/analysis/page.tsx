@@ -80,6 +80,16 @@ const sections = [
     ],
   },
   {
+    theme: 'The Invisible Casualties',
+    articles: [
+      { slug: 'womens-war', title: "Women's War: The Invisible Casualties", desc: "20,000+ military sexual assaults annually. 50,000 women raped in Bosnia. Agent Orange birth defects. War widows at 26. The war women fight on every front." },
+      { slug: 'childrens-war', title: "Children's War: 400,000+ Killed", desc: "400,000+ children killed in post-9/11 wars. 250,000 child soldiers worldwide. School bombings. Drone strikes on families. An entire generation with PTSD." },
+      { slug: 'veterans-betrayed', title: "Veterans Betrayed", desc: "17 suicides/day. 37,000+ homeless. VA wait times. Agent Orange denial. Burn pit denial. America sends them to war and forgets them." },
+      { slug: 'environmental-cost', title: "The Environmental Cost of War", desc: "3.5M veterans exposed to burn pits. Depleted uranium. Agent Orange still killing. The Pentagon is the world's largest polluter." },
+      { slug: 'pentagon-waste', title: "Pentagon Waste: Trillions Unaccounted For", desc: "6 failed audits. $1.7T F-35. $43M gas station. $640 toilet seats. $6.6B in cash lost in Iraq. The most expensive incompetence in history." },
+    ],
+  },
+  {
     theme: 'Human Cost',
     articles: [
       { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
