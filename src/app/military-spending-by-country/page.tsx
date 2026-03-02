@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
-import { SpendingByCountryCharts, SortableCountryTable } from './charts'
+import { Top10Bar, GlobalTrends, SortableCountryTable } from './charts'
 
 export const metadata: Metadata = {
   title: 'Military Spending by Country 2024 — Top 40 Nations Ranked | WarCosts',
@@ -118,7 +118,7 @@ export default function MilitarySpendingByCountryPage() {
           <h2 className="text-2xl font-[family-name:var(--font-heading)] text-[#1c1917] mb-4">
             Top 10 Military Spenders
           </h2>
-          <SpendingByCountryCharts.Top10Bar data={top10.map((c) => ({ name: c.name, amount: c.amountBillions }))} />
+          <Top10Bar data={top10.map((c) => ({ name: c.name, amount: c.amountBillions }))} />
           <p className="text-sm text-stone-500 mt-3">
             Source: SIPRI Military Expenditure Database, 2024 figures. All amounts in current US dollars (billions).
           </p>
@@ -151,7 +151,7 @@ export default function MilitarySpendingByCountryPage() {
             Global military spending has surged since 2000, driven by the War on Terror, Russia&apos;s invasion of Ukraine,
             and US-China competition. The world is now spending more on military than at any point since WWII (in real terms).
           </p>
-          <SpendingByCountryCharts.GlobalTrends data={globalTrends} />
+          <GlobalTrends data={globalTrends} />
         </section>
 
         {/* NATO */}

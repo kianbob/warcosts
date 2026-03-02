@@ -39,4 +39,4 @@ function TroopLevels({ data }: { data: { year: number; troops: number }[] }) {
   )
 }
 
-export const AfghanistanCharts = { YearlySpending, TroopLevels }
+export { YearlySpending, TroopLevels }

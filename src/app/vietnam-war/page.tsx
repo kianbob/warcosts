@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
-import { VietnamWarCharts } from './charts'
+import { YearlySpending, TroopLevels } from "./charts"
 
 export const metadata: Metadata = {
   title: 'Vietnam War Cost — $1 Trillion, 58,220 US Dead, 2-3 Million Vietnamese | WarCosts',
@@ -187,7 +187,7 @@ export default function VietnamWarPage() {
               </tbody>
             </table>
           </div>
-          <VietnamWarCharts.YearlySpending data={yearlySpending} />
+          <YearlySpending data={yearlySpending} />
         </section>
 
         {/* Troop Levels */}
@@ -199,7 +199,7 @@ export default function VietnamWarPage() {
             From 900 advisors to 536,000 combat troops in under a decade. Each escalation was presented as
             the decisive step toward victory. Each failed. The pattern would repeat in Afghanistan 40 years later.
           </p>
-          <VietnamWarCharts.TroopLevels data={troopLevels} />
+          <TroopLevels data={troopLevels} />
         </section>
 
         {/* Timeline */}

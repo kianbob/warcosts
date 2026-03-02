@@ -133,4 +133,4 @@ export function SortableCountryTable({ data }: { data: CountryRow[] }) {
   )
 }
 
-export const SpendingByCountryCharts = { Top10Bar, GlobalTrends }
+export { Top10Bar, GlobalTrends }

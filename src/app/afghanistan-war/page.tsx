@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
-import { AfghanistanCharts } from './charts'
+import { YearlySpending, TroopLevels } from './charts'
 
 export const metadata: Metadata = {
   title: 'Afghanistan War Cost — $2.3 Trillion, 20 Years, Taliban Wins | WarCosts',
@@ -206,7 +206,7 @@ export default function AfghanistanWarPage() {
               </tbody>
             </table>
           </div>
-          <AfghanistanCharts.YearlySpending data={yearlySpending} />
+          <YearlySpending data={yearlySpending} />
         </section>
 
         {/* Troop Levels */}
@@ -219,7 +219,7 @@ export default function AfghanistanWarPage() {
             Too few troops for too long, then a surge that came a decade too late, followed by a withdrawal
             that left allies stranded.
           </p>
-          <AfghanistanCharts.TroopLevels data={troopLevels} />
+          <TroopLevels data={troopLevels} />
         </section>
 
         {/* Timeline */}

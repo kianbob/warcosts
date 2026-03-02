@@ -61,4 +61,4 @@ function GlobalComparison({ data }: { data: { country: string; amount: number }[
   )
 }
 
-export const USMilitaryBudgetCharts = { DoDBreakdown, HistoricalTrend, GlobalComparison }
+export { DoDBreakdown, HistoricalTrend, GlobalComparison }

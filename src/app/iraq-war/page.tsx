@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
-import { IraqWarCharts } from './charts'
+import { YearlySpending, CasualtiesByYear } from "./charts"
 
 export const metadata: Metadata = {
   title: 'Iraq War Cost — $3 Trillion, 4,500 US Dead, 200K+ Iraqi Civilians | WarCosts',
@@ -204,7 +204,7 @@ export default function IraqWarPage() {
               </tbody>
             </table>
           </div>
-          <IraqWarCharts.YearlySpending data={yearlySpending} />
+          <YearlySpending data={yearlySpending} />
         </section>
 
         {/* Casualties */}
@@ -238,7 +238,7 @@ export default function IraqWarPage() {
               </ul>
             </div>
           </div>
-          <IraqWarCharts.CasualtiesByYear data={casualties} />
+          <CasualtiesByYear data={casualties} />
           <p className="text-sm text-stone-500 mt-3">
             Iraqi civilian figures are conservative estimates. The Lancet study (2006) estimated 654,000 excess deaths;
             the ORB survey (2007) estimated over 1 million. Exact numbers may never be known.

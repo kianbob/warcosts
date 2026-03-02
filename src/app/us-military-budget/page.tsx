@@ -3,7 +3,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
-import { USMilitaryBudgetCharts } from './charts'
+import { DoDBreakdown, HistoricalTrend, GlobalComparison } from "./charts"
 
 export const metadata: Metadata = {
   title: 'US Military Budget 2025 — $886B Official, $1.4T Real | WarCosts',
@@ -188,7 +188,7 @@ export default function USMilitaryBudgetPage() {
             Even the &ldquo;official&rdquo; budget reveals distorted priorities. One-third goes to operations and maintenance —
             the day-to-day cost of maintaining 750+ overseas bases and a global military footprint.
           </p>
-          <USMilitaryBudgetCharts.DoDBreakdown data={dodBreakdown} />
+          <DoDBreakdown data={dodBreakdown} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-6">
             {dodBreakdown.map((item) => (
               <div key={item.label} className="flex items-center gap-3 bg-stone-50 rounded-lg p-3 border border-stone-200">
@@ -212,7 +212,7 @@ export default function USMilitaryBudgetPage() {
             that persists long after the conflict ends — the &ldquo;ratchet effect&rdquo; that Eisenhower warned about.
             All figures in 2024 dollars.
           </p>
-          <USMilitaryBudgetCharts.HistoricalTrend data={historicalBudget} />
+          <HistoricalTrend data={historicalBudget} />
         </section>
 
         {/* Global Comparison */}
@@ -224,7 +224,7 @@ export default function USMilitaryBudgetPage() {
             The United States spends more on its military than the next <strong>10 countries combined</strong>.
             This isn&apos;t defense — it&apos;s the infrastructure of global empire.
           </p>
-          <USMilitaryBudgetCharts.GlobalComparison data={globalComparison} />
+          <GlobalComparison data={globalComparison} />
           <p className="text-sm text-stone-500 mt-3">
             Source: SIPRI Military Expenditure Database, 2024. China figures are estimates; actual spending may be higher.
           </p>

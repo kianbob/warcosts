@@ -41,4 +41,4 @@ function CasualtiesByYear({ data }: { data: { year: number; us: number; iraqi: n
   )
 }
 
-export const IraqWarCharts = { YearlySpending, CasualtiesByYear }
+export { YearlySpending, CasualtiesByYear }
