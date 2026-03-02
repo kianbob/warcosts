@@ -52,6 +52,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/weapons', '/contractors/directory',
     '/tools/war-quiz', '/tools/casualty-calculator', '/tools/compare-wars',
     '/military-families', '/nuclear-arsenal',
+    '/war-powers', '/military-aid', '/civilian-casualties',
+    '/war-propaganda', '/defense-budget-explained',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
