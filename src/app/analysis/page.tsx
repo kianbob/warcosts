@@ -70,6 +70,16 @@ const sections = [
     ],
   },
   {
+    theme: 'Deep Dives',
+    articles: [
+      { slug: 'war-economy', title: 'The War Economy', desc: 'How war built — and trapped — the American economy. WW2 ended the Depression. Cold War R&D gave us the internet. $886B/year is the economy now.' },
+      { slug: 'media-and-war', title: 'Manufacturing Consent: How Media Sells Every War', desc: 'Gulf of Tonkin was a lie. WMDs didn\'t exist. Incubator babies were staged. Every war starts with a media campaign. The pattern from 1898 to 2026.' },
+      { slug: 'refugee-crisis', title: 'We Break It, They Flee, We Say No', desc: '38 million displaced by the War on Terror. America creates refugees, then refuses them. Lebanon hosts 27% refugees; the US: 0.1%.' },
+      { slug: 'nuclear-close-calls', title: 'Minutes from Midnight: Nuclear Close Calls', desc: 'At least 22 times, the world came within minutes of nuclear war. Stanislav Petrov. Vasili Arkhipov. Able Archer 83. We survived by luck.' },
+      { slug: 'cost-of-secrecy', title: 'The Black Budget: $23 Trillion Unaccounted', desc: '6 failed audits. $23T in missing transactions. $90B+ black budget. CIA black sites. Classification as a weapon against accountability.' },
+    ],
+  },
+  {
     theme: 'Human Cost',
     articles: [
       { slug: 'human-cost', title: 'The Human Cost', desc: 'Beyond the statistics: PTSD, veteran suicide (17/day), refugee displacement, and the lives destroyed by war.' },
