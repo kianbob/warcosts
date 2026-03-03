@@ -65,9 +65,14 @@ const timeline = [
   { date: 'Mar 3', event: 'Netanyahu and Katz approve Israeli GROUND INCURSION into southern Lebanon. Israel issues "urgent" evacuation orders for 59 areas in Lebanon. IDF says "all options on table."' },
   { date: 'Mar 3', event: 'UAE: 186 missiles and 812 drones sent toward country since start of conflict. Two ports in Oman targeted in drone strikes.' },
   { date: 'Mar 3', event: 'Qatar intercepts dozens of Iranian missiles/drones; 2 missiles hit Al Udeid Air Base; Qatar air force shoots down 2 Iranian jets — QATAR STRIKES IRAN in retaliation (first Gulf state to directly engage).' },
-  { date: 'Mar 3', event: 'US embassy in Kuwait closed "until further notice." US embassy in Jordan (Amman) temporarily evacuated all staff. Multiple countries organizing citizen evacuations — Spain, Italy, Germany, France, UK.' },
+  { date: 'Mar 3', event: 'US embassies in BOTH Saudi Arabia and Kuwait fully closed. US embassy in Jordan (Amman) temporarily evacuated all staff. Multiple countries organizing citizen evacuations — Spain, Italy, Germany, France, UK.' },
   { date: 'Mar 3', event: 'Iran Revolutionary Guards threaten to "burn any ship" in Strait of Hormuz. US CENTCOM disputes — says strait is not fully closed.' },
-  { date: 'Mar 3', event: 'Shifting US justifications: Trump (regime change + denuclearize), Rubio (pre-emptive self-defense), Hegseth (destroy missile/naval capabilities) — all different. No coherent strategy.' },
+  { date: 'Mar 3', event: 'Trump denies Israel pulled US into war — says he "might have forced Israel\'s hand." Says most people US had in mind to lead post-regime Iran "are dead." Trump: campaign "was our last, best chance to strike."' },
+  { date: 'Mar 3', event: 'Israel says it "dismantled" Iranian regime\'s headquarters. Israel bolsters forces in southern Lebanon.' },
+  { date: 'Mar 3', event: 'Brent crude tops $83/barrel. US gas prices poised to jump to $3.35/gallon (from ~$3.10). Oil supertanker rates hit ALL-TIME HIGHS. Insurers dropping war risk coverage entirely.' },
+  { date: 'Mar 3', event: 'Amazon Web Services: multiple data centers knocked OFFLINE by drone attacks in Middle East — disrupting cloud services globally.' },
+  { date: 'Mar 3', event: 'Sen. Mark Warner: "We have seen the goals change four or five times." Europe told of Iran strikes just "minutes" before they started.' },
+  { date: 'Mar 3', event: 'US military says more forces headed to region, declines to say how long war could last. Shifting justifications exposed: nuclear weapons → ballistic missiles → regime change → sinking Iranian fleet. No coherent strategy.' },
 ]
 
 const regimeChangeHistory = [
