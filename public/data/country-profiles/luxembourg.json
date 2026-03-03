@@ -8,7 +8,7 @@
     "amount": 849,
     "amountBillions": 0.8
   },
-  "gdpPct": null,
+  "gdpPct": 1,
   "pctWorld": 0,
   "peak": {
     "year": 2024,
@@ -401,304 +401,304 @@
   ],
   "gdp": [
     {
-      "year": 1949,
-      "pct": 0
-    },
-    {
       "year": 1950,
-      "pct": 0
+      "pct": 1.2
     },
     {
       "year": 1951,
-      "pct": 0
+      "pct": 1.4
     },
     {
       "year": 1952,
-      "pct": 0
+      "pct": 2.1
     },
     {
       "year": 1953,
-      "pct": 0
+      "pct": 2.6
     },
     {
       "year": 1954,
-      "pct": 0
+      "pct": 2.9
     },
     {
       "year": 1955,
-      "pct": 0
+      "pct": 2.9
     },
     {
       "year": 1956,
-      "pct": 0
+      "pct": 1.7
     },
     {
       "year": 1957,
-      "pct": 0
+      "pct": 1.8
     },
     {
       "year": 1958,
-      "pct": 0
+      "pct": 1.7
     },
     {
       "year": 1959,
-      "pct": 0
+      "pct": 1.6
     },
     {
       "year": 1960,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1961,
-      "pct": 0
+      "pct": 1
     },
     {
       "year": 1962,
-      "pct": 0
+      "pct": 1.2
     },
     {
       "year": 1963,
-      "pct": 0
+      "pct": 1.1
     },
     {
       "year": 1964,
-      "pct": 0
+      "pct": 1.2
     },
     {
       "year": 1965,
-      "pct": 0
+      "pct": 1.2
     },
     {
       "year": 1966,
-      "pct": 0
+      "pct": 1.2
     },
     {
       "year": 1967,
-      "pct": 0
+      "pct": 1
     },
     {
       "year": 1968,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1969,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1970,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1971,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1972,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1973,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1974,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1975,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1976,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1977,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1978,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1979,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1980,
-      "pct": 0
+      "pct": 1
     },
     {
       "year": 1981,
-      "pct": 0
+      "pct": 1.1
     },
     {
       "year": 1982,
-      "pct": 0
+      "pct": 1.1
     },
     {
       "year": 1983,
-      "pct": 0
+      "pct": 1.1
     },
     {
       "year": 1984,
-      "pct": 0
+      "pct": 1
     },
     {
       "year": 1985,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1986,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1987,
-      "pct": 0
+      "pct": 0.9
     },
     {
       "year": 1988,
-      "pct": 0
+      "pct": 1
     },
     {
       "year": 1989,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1990,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1991,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1992,
-      "pct": 0
+      "pct": 0.8
     },
     {
       "year": 1993,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1994,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 1995,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 1996,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 1997,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 1998,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 1999,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2000,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2001,
-      "pct": 0
+      "pct": 0.7
     },
     {
       "year": 2002,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2003,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2004,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2005,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2006,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2007,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2008,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2009,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2010,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2011,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2012,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2013,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2014,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2015,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2016,
-      "pct": 0
+      "pct": 0.4
     },
     {
       "year": 2017,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2018,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2019,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2020,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2021,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 2022,
-      "pct": 0
+      "pct": 0.6
     },
     {
       "year": 2023,
-      "pct": 0
+      "pct": 0.8
+    },
+    {
+      "year": 2024,
+      "pct": 1
     }
   ],
   "usBases": 1,

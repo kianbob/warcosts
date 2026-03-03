@@ -96,7 +96,7 @@ export default function HomePage() {
               <p className="text-stone-400 text-sm mt-1">Total Cost</p>
             </div>
             <div>
-              <p className="text-3xl md:text-5xl font-bold text-red-500 font-[family-name:var(--font-heading)]">{fmt(stats.totalUSDeaths)}</p>
+              <p className="text-3xl md:text-5xl font-bold text-red-500 font-[family-name:var(--font-heading)]">{stats.totalUSDeaths >= 1e6 ? `${(stats.totalUSDeaths / 1e6).toFixed(1)}M+` : `${Math.round(stats.totalUSDeaths / 1e3).toLocaleString()}K+`}</p>
               <p className="text-stone-400 text-sm mt-1">Americans Killed</p>
             </div>
             <div>

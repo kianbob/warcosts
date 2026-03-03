@@ -8,7 +8,7 @@
     "amount": 919,
     "amountBillions": 0.9
   },
-  "gdpPct": null,
+  "gdpPct": 2,
   "pctWorld": null,
   "peak": {
     "year": 2011,
@@ -116,72 +116,72 @@
   ],
   "gdp": [
     {
-      "year": 2007,
-      "pct": 0.1
-    },
-    {
       "year": 2008,
-      "pct": 0
+      "pct": 5.8
     },
     {
       "year": 2009,
-      "pct": 0
+      "pct": 5
     },
     {
       "year": 2010,
-      "pct": 0.1
+      "pct": 4.1
     },
     {
       "year": 2011,
-      "pct": 0.1
+      "pct": 6.1
     },
     {
       "year": 2012,
-      "pct": 0.1
+      "pct": 8.8
     },
     {
       "year": 2013,
-      "pct": 0.1
+      "pct": 6.6
     },
     {
       "year": 2014,
-      "pct": 0.1
+      "pct": 8.6
     },
     {
       "year": 2015,
-      "pct": 0
+      "pct": 8.6
     },
     {
       "year": 2016,
-      "pct": 0
+      "pct": 4.8
     },
     {
       "year": 2017,
-      "pct": 0
+      "pct": 4
     },
     {
       "year": 2018,
-      "pct": 0
+      "pct": 4.8
     },
     {
       "year": 2019,
-      "pct": 0
+      "pct": 3.8
     },
     {
       "year": 2020,
-      "pct": 0
+      "pct": 1.9
     },
     {
       "year": 2021,
-      "pct": 0
+      "pct": 1.5
     },
     {
       "year": 2022,
-      "pct": 0
+      "pct": 1.6
     },
     {
       "year": 2023,
-      "pct": 0
+      "pct": 2.1
+    },
+    {
+      "year": 2024,
+      "pct": 2
     }
   ],
   "usBases": 0,

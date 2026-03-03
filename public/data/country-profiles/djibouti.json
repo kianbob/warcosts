@@ -8,7 +8,7 @@
     "amount": 51,
     "amountBillions": 0.1
   },
-  "gdpPct": null,
+  "gdpPct": 2.6,
   "pctWorld": null,
   "peak": {
     "year": 1983,
@@ -166,88 +166,80 @@
   ],
   "gdp": [
     {
-      "year": 1977,
-      "pct": 0
-    },
-    {
-      "year": 1978,
-      "pct": 0
-    },
-    {
-      "year": 1979,
-      "pct": 0
-    },
-    {
       "year": 1980,
-      "pct": 0
+      "pct": 0.5
     },
     {
       "year": 1981,
-      "pct": 0.1
+      "pct": 1.4
     },
     {
       "year": 1982,
-      "pct": 0.1
+      "pct": 7.5
     },
     {
-      "year": 1990,
-      "pct": 0.1
+      "year": 1983,
+      "pct": 7.7
     },
     {
       "year": 1991,
-      "pct": 0.1
+      "pct": 6.7
     },
     {
       "year": 1992,
-      "pct": 0.1
+      "pct": 6.8
     },
     {
       "year": 1993,
-      "pct": 0.1
+      "pct": 6.2
     },
     {
       "year": 1994,
-      "pct": 0.1
+      "pct": 5.8
     },
     {
       "year": 1995,
-      "pct": 0.1
+      "pct": 5.8
     },
     {
       "year": 1996,
-      "pct": 0.1
+      "pct": 5.1
     },
     {
       "year": 1997,
-      "pct": 0.1
+      "pct": 5.5
     },
     {
       "year": 1998,
-      "pct": 0.1
+      "pct": 5.7
     },
     {
       "year": 1999,
-      "pct": 0.1
+      "pct": 5.5
     },
     {
-      "year": 2003,
-      "pct": 0.1
+      "year": 2000,
+      "pct": 5.1
     },
     {
       "year": 2004,
-      "pct": 0
+      "pct": 5.6
     },
     {
       "year": 2005,
-      "pct": 0
+      "pct": 4.5
     },
     {
       "year": 2006,
-      "pct": 0
+      "pct": 4.6
     },
     {
       "year": 2007,
-      "pct": 0
+      "pct": 2.9
+    },
+    {
+      "year": 2008,
+      "pct": 2.6
     }
   ],
   "usBases": 2,

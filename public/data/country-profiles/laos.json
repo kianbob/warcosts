@@ -1,1 +1,226 @@
-{"name":"Laos","slug":"laos","rawName":"Laos","rank":null,"latest":{"year":2013,"amount":19,"amountBillions":0},"gdpPct":0.2,"pctWorld":null,"peak":{"year":1992,"amount":207,"amountBillions":0.2},"trend10yr":-9.5,"dataYears":22,"spending":[{"year":1992,"amount":207,"amountBillions":0.21},{"year":1993,"amount":205,"amountBillions":0.2},{"year":1994,"amount":207,"amountBillions":0.21},{"year":1995,"amount":174,"amountBillions":0.17},{"year":1996,"amount":133,"amountBillions":0.13},{"year":1997,"amount":122,"amountBillions":0.12},{"year":1998,"amount":83,"amountBillions":0.08},{"year":1999,"amount":37,"amountBillions":0.04},{"year":2000,"amount":29,"amountBillions":0.03},{"year":2001,"amount":28,"amountBillions":0.03},{"year":2002,"amount":26,"amountBillions":0.03},{"year":2003,"amount":23,"amountBillions":0.02},{"year":2004,"amount":21,"amountBillions":0.02},{"year":2005,"amount":21,"amountBillions":0.02},{"year":2006,"amount":21,"amountBillions":0.02},{"year":2007,"amount":21,"amountBillions":0.02},{"year":2008,"amount":19,"amountBillions":0.02},{"year":2009,"amount":16,"amountBillions":0.02},{"year":2010,"amount":16,"amountBillions":0.02},{"year":2011,"amount":18,"amountBillions":0.02},{"year":2012,"amount":19,"amountBillions":0.02},{"year":2013,"amount":19,"amountBillions":0.02}],"gdp":[{"year":1991,"pct":0.1},{"year":1992,"pct":0.1},{"year":1993,"pct":0.1},{"year":1994,"pct":0.1},{"year":1995,"pct":0},{"year":1996,"pct":0},{"year":1997,"pct":0},{"year":1998,"pct":0},{"year":1999,"pct":0},{"year":2000,"pct":0},{"year":2001,"pct":0},{"year":2002,"pct":0},{"year":2003,"pct":0},{"year":2004,"pct":0},{"year":2005,"pct":0},{"year":2006,"pct":0},{"year":2007,"pct":0},{"year":2008,"pct":0},{"year":2009,"pct":0},{"year":2010,"pct":0},{"year":2011,"pct":0},{"year":2012,"pct":0.2}],"usBases":0,"armsSales":null,"droneStrikes":null,"relatedConflicts":[]}
+{
+  "name": "Laos",
+  "slug": "laos",
+  "rawName": "Laos",
+  "rank": null,
+  "latest": {
+    "year": 2013,
+    "amount": 19,
+    "amountBillions": 0
+  },
+  "gdpPct": 0.2,
+  "pctWorld": null,
+  "peak": {
+    "year": 1992,
+    "amount": 207,
+    "amountBillions": 0.2
+  },
+  "trend10yr": -9.5,
+  "dataYears": 22,
+  "spending": [
+    {
+      "year": 1992,
+      "amount": 207,
+      "amountBillions": 0.21
+    },
+    {
+      "year": 1993,
+      "amount": 205,
+      "amountBillions": 0.2
+    },
+    {
+      "year": 1994,
+      "amount": 207,
+      "amountBillions": 0.21
+    },
+    {
+      "year": 1995,
+      "amount": 174,
+      "amountBillions": 0.17
+    },
+    {
+      "year": 1996,
+      "amount": 133,
+      "amountBillions": 0.13
+    },
+    {
+      "year": 1997,
+      "amount": 122,
+      "amountBillions": 0.12
+    },
+    {
+      "year": 1998,
+      "amount": 83,
+      "amountBillions": 0.08
+    },
+    {
+      "year": 1999,
+      "amount": 37,
+      "amountBillions": 0.04
+    },
+    {
+      "year": 2000,
+      "amount": 29,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2001,
+      "amount": 28,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2002,
+      "amount": 26,
+      "amountBillions": 0.03
+    },
+    {
+      "year": 2003,
+      "amount": 23,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2004,
+      "amount": 21,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2005,
+      "amount": 21,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2006,
+      "amount": 21,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2007,
+      "amount": 21,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2008,
+      "amount": 19,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2009,
+      "amount": 16,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2010,
+      "amount": 16,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2011,
+      "amount": 18,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2012,
+      "amount": 19,
+      "amountBillions": 0.02
+    },
+    {
+      "year": 2013,
+      "amount": 19,
+      "amountBillions": 0.02
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1992,
+      "pct": 8.7
+    },
+    {
+      "year": 1993,
+      "pct": 8.1
+    },
+    {
+      "year": 1994,
+      "pct": 7.5
+    },
+    {
+      "year": 1995,
+      "pct": 5.8
+    },
+    {
+      "year": 1996,
+      "pct": 4.2
+    },
+    {
+      "year": 1997,
+      "pct": 3.8
+    },
+    {
+      "year": 1998,
+      "pct": 2.6
+    },
+    {
+      "year": 1999,
+      "pct": 1.1
+    },
+    {
+      "year": 2000,
+      "pct": 0.8
+    },
+    {
+      "year": 2001,
+      "pct": 0.7
+    },
+    {
+      "year": 2002,
+      "pct": 0.6
+    },
+    {
+      "year": 2003,
+      "pct": 0.5
+    },
+    {
+      "year": 2004,
+      "pct": 0.4
+    },
+    {
+      "year": 2005,
+      "pct": 0.4
+    },
+    {
+      "year": 2006,
+      "pct": 0.3
+    },
+    {
+      "year": 2007,
+      "pct": 0.3
+    },
+    {
+      "year": 2008,
+      "pct": 0.3
+    },
+    {
+      "year": 2009,
+      "pct": 0.2
+    },
+    {
+      "year": 2010,
+      "pct": 0.2
+    },
+    {
+      "year": 2011,
+      "pct": 0.2
+    },
+    {
+      "year": 2012,
+      "pct": 0.2
+    },
+    {
+      "year": 2013,
+      "pct": 0.2
+    }
+  ],
+  "usBases": 0,
+  "armsSales": null,
+  "droneStrikes": null,
+  "relatedConflicts": []
+}

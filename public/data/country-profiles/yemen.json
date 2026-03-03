@@ -1,1 +1,267 @@
-{"name":"Yemen","slug":"yemen","rawName":"Yemen","rank":null,"latest":{"year":2014,"amount":5515,"amountBillions":5.5},"gdpPct":4,"pctWorld":null,"peak":{"year":2009,"amount":7556,"amountBillions":7.6},"trend10yr":-10.2,"dataYears":25,"spending":[{"year":1990,"amount":5945,"amountBillions":5.95},{"year":1991,"amount":5570,"amountBillions":5.57},{"year":1992,"amount":5470,"amountBillions":5.47},{"year":1993,"amount":4734,"amountBillions":4.73},{"year":1994,"amount":4857,"amountBillions":4.86},{"year":1995,"amount":3647,"amountBillions":3.65},{"year":1996,"amount":3320,"amountBillions":3.32},{"year":1997,"amount":4258,"amountBillions":4.26},{"year":1998,"amount":4090,"amountBillions":4.09},{"year":1999,"amount":4434,"amountBillions":4.43},{"year":2000,"amount":5276,"amountBillions":5.28},{"year":2001,"amount":5607,"amountBillions":5.61},{"year":2002,"amount":7101,"amountBillions":7.1},{"year":2003,"amount":7327,"amountBillions":7.33},{"year":2004,"amount":5976,"amountBillions":5.98},{"year":2005,"amount":6143,"amountBillions":6.14},{"year":2006,"amount":5748,"amountBillions":5.75},{"year":2007,"amount":6872,"amountBillions":6.87},{"year":2008,"amount":6605,"amountBillions":6.61},{"year":2009,"amount":7556,"amountBillions":7.56},{"year":2010,"amount":7499,"amountBillions":7.5},{"year":2011,"amount":6800,"amountBillions":6.8},{"year":2012,"amount":6229,"amountBillions":6.23},{"year":2013,"amount":5732,"amountBillions":5.73},{"year":2014,"amount":5515,"amountBillions":5.51}],"gdp":[{"year":1989,"pct":0.1},{"year":1990,"pct":0.1},{"year":1991,"pct":0.1},{"year":1992,"pct":0.1},{"year":1993,"pct":0.1},{"year":1994,"pct":0.1},{"year":1995,"pct":0.1},{"year":1996,"pct":0.1},{"year":1997,"pct":0.1},{"year":1998,"pct":0.1},{"year":1999,"pct":0},{"year":2000,"pct":0.1},{"year":2001,"pct":0.1},{"year":2002,"pct":0.1},{"year":2003,"pct":0.1},{"year":2004,"pct":0},{"year":2005,"pct":0},{"year":2006,"pct":0},{"year":2007,"pct":0},{"year":2008,"pct":0.1},{"year":2009,"pct":0},{"year":2010,"pct":0},{"year":2011,"pct":0},{"year":2012,"pct":0},{"year":2013,"pct":4}],"usBases":1,"armsSales":null,"droneStrikes":{"totalStrikes":374,"years":"2002-2023","minKilled":1020,"maxKilled":1389},"relatedConflicts":[{"name":"Yemen War (Saudi Support)","slug":"yemen"},{"name":"Global Drone Campaign","slug":"drone-wars"}]}
+{
+  "name": "Yemen",
+  "slug": "yemen",
+  "rawName": "Yemen",
+  "rank": null,
+  "latest": {
+    "year": 2014,
+    "amount": 5515,
+    "amountBillions": 5.5
+  },
+  "gdpPct": 4,
+  "pctWorld": null,
+  "peak": {
+    "year": 2009,
+    "amount": 7556,
+    "amountBillions": 7.6
+  },
+  "trend10yr": -10.2,
+  "dataYears": 25,
+  "spending": [
+    {
+      "year": 1990,
+      "amount": 5945,
+      "amountBillions": 5.95
+    },
+    {
+      "year": 1991,
+      "amount": 5570,
+      "amountBillions": 5.57
+    },
+    {
+      "year": 1992,
+      "amount": 5470,
+      "amountBillions": 5.47
+    },
+    {
+      "year": 1993,
+      "amount": 4734,
+      "amountBillions": 4.73
+    },
+    {
+      "year": 1994,
+      "amount": 4857,
+      "amountBillions": 4.86
+    },
+    {
+      "year": 1995,
+      "amount": 3647,
+      "amountBillions": 3.65
+    },
+    {
+      "year": 1996,
+      "amount": 3320,
+      "amountBillions": 3.32
+    },
+    {
+      "year": 1997,
+      "amount": 4258,
+      "amountBillions": 4.26
+    },
+    {
+      "year": 1998,
+      "amount": 4090,
+      "amountBillions": 4.09
+    },
+    {
+      "year": 1999,
+      "amount": 4434,
+      "amountBillions": 4.43
+    },
+    {
+      "year": 2000,
+      "amount": 5276,
+      "amountBillions": 5.28
+    },
+    {
+      "year": 2001,
+      "amount": 5607,
+      "amountBillions": 5.61
+    },
+    {
+      "year": 2002,
+      "amount": 7101,
+      "amountBillions": 7.1
+    },
+    {
+      "year": 2003,
+      "amount": 7327,
+      "amountBillions": 7.33
+    },
+    {
+      "year": 2004,
+      "amount": 5976,
+      "amountBillions": 5.98
+    },
+    {
+      "year": 2005,
+      "amount": 6143,
+      "amountBillions": 6.14
+    },
+    {
+      "year": 2006,
+      "amount": 5748,
+      "amountBillions": 5.75
+    },
+    {
+      "year": 2007,
+      "amount": 6872,
+      "amountBillions": 6.87
+    },
+    {
+      "year": 2008,
+      "amount": 6605,
+      "amountBillions": 6.61
+    },
+    {
+      "year": 2009,
+      "amount": 7556,
+      "amountBillions": 7.56
+    },
+    {
+      "year": 2010,
+      "amount": 7499,
+      "amountBillions": 7.5
+    },
+    {
+      "year": 2011,
+      "amount": 6800,
+      "amountBillions": 6.8
+    },
+    {
+      "year": 2012,
+      "amount": 6229,
+      "amountBillions": 6.23
+    },
+    {
+      "year": 2013,
+      "amount": 5732,
+      "amountBillions": 5.73
+    },
+    {
+      "year": 2014,
+      "amount": 5515,
+      "amountBillions": 5.51
+    }
+  ],
+  "gdp": [
+    {
+      "year": 1990,
+      "pct": 6.6
+    },
+    {
+      "year": 1991,
+      "pct": 7
+    },
+    {
+      "year": 1992,
+      "pct": 7.3
+    },
+    {
+      "year": 1993,
+      "pct": 7.1
+    },
+    {
+      "year": 1994,
+      "pct": 8.4
+    },
+    {
+      "year": 1995,
+      "pct": 6.4
+    },
+    {
+      "year": 1996,
+      "pct": 5.3
+    },
+    {
+      "year": 1997,
+      "pct": 5.8
+    },
+    {
+      "year": 1998,
+      "pct": 6.1
+    },
+    {
+      "year": 1999,
+      "pct": 5.2
+    },
+    {
+      "year": 2000,
+      "pct": 4.9
+    },
+    {
+      "year": 2001,
+      "pct": 5.5
+    },
+    {
+      "year": 2002,
+      "pct": 6.9
+    },
+    {
+      "year": 2003,
+      "pct": 6.9
+    },
+    {
+      "year": 2004,
+      "pct": 5.3
+    },
+    {
+      "year": 2005,
+      "pct": 4.9
+    },
+    {
+      "year": 2006,
+      "pct": 4.3
+    },
+    {
+      "year": 2007,
+      "pct": 4.9
+    },
+    {
+      "year": 2008,
+      "pct": 4.4
+    },
+    {
+      "year": 2009,
+      "pct": 5.7
+    },
+    {
+      "year": 2010,
+      "pct": 4.7
+    },
+    {
+      "year": 2011,
+      "pct": 4.9
+    },
+    {
+      "year": 2012,
+      "pct": 4.6
+    },
+    {
+      "year": 2013,
+      "pct": 4.1
+    },
+    {
+      "year": 2014,
+      "pct": 4
+    }
+  ],
+  "usBases": 1,
+  "armsSales": null,
+  "droneStrikes": {
+    "totalStrikes": 374,
+    "years": "2002-2023",
+    "minKilled": 1020,
+    "maxKilled": 1389
+  },
+  "relatedConflicts": [
+    {
+      "name": "Yemen War (Saudi Support)",
+      "slug": "yemen"
+    },
+    {
+      "name": "Global Drone Campaign",
+      "slug": "drone-wars"
+    }
+  ]
+}
