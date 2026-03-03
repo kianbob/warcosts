@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-  description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 3 US troops dead. 108 schoolgirls killed. 1,000+ targets hit. Senate kills War Powers vote 53-47. Strait of Hormuz closed. Who benefits?',
+  description: 'Operation Epic Fury Day 4: 6 US troops dead, 18 injured. 787+ Iranians killed. 168 schoolgirls killed. 1,250+ targets hit. Qatar strikes Iran. Israel invades Lebanon. Oil at $82. Strait of Hormuz contested. Who benefits?',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
     description: 'Operation Epic Fury launched without congressional approval. Who benefits? Not the American people.',
@@ -34,7 +34,7 @@ const timeline = [
   { date: 'Feb 28, 9:15am Tehran', event: 'Bombs start falling in broad daylight. Not at night — in the morning, after workers arrived at their desks and children arrived at school. Deliberate timing for a decapitation strike.' },
   { date: 'Feb 28, 10:30am', event: 'Two rounds of explosions along Pasteur Street — Iran\'s government zone. Supreme leader\'s compound, president\'s office, national security HQ all hit. Satellite photos show Khamenei\'s compound as "dark grey mess of dust and ash."' },
   { date: 'Feb 28', event: 'Mossad posts Farsi message on Telegram calling for uprising: "Our Iranian brothers and sisters, you are not alone! Together we will return Iran to its glorious days."' },
-  { date: 'Feb 28', event: '108 people killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab, Hormozgan province. 170 students ages 7-12 were attending morning classes. IRGC base nearby may have been the target.' },
+  { date: 'Feb 28', event: '168 people killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab, Hormozgan province (initial reports said 108, later revised to 168). 170 students ages 7-12 were attending morning classes. IRGC base nearby may have been the target.' },
   { date: 'Feb 28, 2:30am DC', event: 'Trump posts 8-minute video on Truth Social announcing "major combat operations in Iran" — Operation Epic Fury. Tells Iranians: "When we are finished, take over your government. This will be, probably, your only chance for generations."' },
   { date: 'Feb 28', event: 'Iran retaliates with missiles and drones across the entire region: Israel, Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, Syria. Dubai\'s Fairmont hotel on Palm Jumeirah set ablaze. Airports in Dubai and Abu Dhabi hit. British bases in Cyprus targeted.' },
   { date: 'Feb 28', event: 'Iran closes the Strait of Hormuz — 20% of global oil and 20% of global LNG flows through it. Bloomberg warns of major oil price spike. Cannot be replaced.' },
@@ -48,6 +48,26 @@ const timeline = [
   { date: 'Mar 1', event: 'Senate votes 53-47 AGAINST Kaine-Paul War Powers Resolution. Rand Paul is the only Republican to vote yes. The war continues without congressional authorization.' },
   { date: 'Mar 1', event: 'Oil majors and top trading houses suspend crude shipments through Strait of Hormuz. Analysts warn oil could exceed $100/barrel. Insurance premiums for tankers triple. Thousands of flights cancelled across the Middle East.' },
   { date: 'Mar 1 (eve)', event: 'Trump posts evening video vowing to "avenge" fallen service members. Says "there will likely be more" US casualties. Iran\'s FM: "We will resist as long as it takes." No end in sight.' },
+  { date: 'Mar 2', event: '6 US service members now confirmed killed (ground forces in Kuwait), 18 injured. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire) — all 6 crew ejected safely.' },
+  { date: 'Mar 2', event: 'Iranian Red Crescent: 555+ Iranians killed (later revised to 787+). Hengaw (Norway-based human rights org): 1,500+ dead including 200 civilians and 1,300 Iranian forces.' },
+  { date: 'Mar 2', event: '168 schoolgirls killed in Minab school strike (updated from 108). Rescue operations ongoing.' },
+  { date: 'Mar 2', event: 'Hezbollah launches attacks on Israel from Lebanon in revenge for Khamenei killing. Israel responds with strikes killing 31+ in Lebanon. Lebanon bans Hezbollah military actions, trying to avoid being drawn in. Israeli strikes kill 52 in Lebanon total, displace 30,000+.' },
+  { date: 'Mar 2', event: 'Iran claims it targeted 500 US/Israeli sites, hit 3 US/UK oil tankers in Gulf. US embassy in Riyadh hit by 2 drones — fire at compound, embassy closed. Saudi Ras Tanura refinery hit by drone, operations halted. QatarEnergy halts LNG production.' },
+  { date: 'Mar 2', event: 'Oil hits $82/barrel, European diesel up 20%, analysts warning $100+. State Dept urges Americans to "DEPART NOW" from 14 Middle Eastern countries.' },
+  { date: 'Mar 2', event: 'Trump says war will last "4-5 weeks" but has "capability to go far longer." Doesn\'t rule out boots on ground.' },
+  { date: 'Mar 2', event: 'Rubio admits US attacked "pre-emptively" — "We knew Israel was going to strike... we knew that would precipitate an attack against American forces." Rubio: "The hardest hits are yet to come."' },
+  { date: 'Mar 2', event: 'White House: 49 senior Iranian leaders killed in strikes. Iran: "We will not negotiate with the United States" (Ali Larijani). Iran FM Araghchi: "We left Geneva with understanding that we\'d seal a deal... Mr. Trump ordered bombing of the negotiating table."' },
+  { date: 'Mar 2', event: 'US military says it destroyed all Iranian ships in Gulf of Oman, sunk 11 warships total. US struck 1,250+ targets in Iran since operations began. Iran says it shot down a US F-15, fired 15 cruise missiles at Ali al-Salem base in Kuwait.' },
+  { date: 'Mar 2', event: 'Australian airbase in UAE hit by Iranian drones. RAF Akrotiri (Cyprus) targeted — 2 drones intercepted. Iran-backed militias in Iraq fire at US base in Erbil, drone attack on Baghdad airport. Saudi Arabia intercepts 8 drones near Riyadh and Al-Kharj.' },
+  { date: 'Mar 2', event: 'Netanyahu says war won\'t be "endless" — "quick and decisive." Says Iran\'s nuclear bunkers would have been "immune within months." UK PM Starmer: UK "doesn\'t believe in regime change from the skies."' },
+  { date: 'Mar 3', event: 'Iran death toll tops 787 per Red Crescent (Hengaw says 1,500+). Israeli air force attacks Tehran and Beirut SIMULTANEOUSLY — "extensive strikes" against Iranian regime and Hezbollah.' },
+  { date: 'Mar 3', event: 'IRIB (state broadcaster) complex struck in Tehran. Historic Golestan Palace (UNESCO World Heritage Site) damaged. IAEA confirms Natanz fuel enrichment plant entrance buildings damaged.' },
+  { date: 'Mar 3', event: 'Netanyahu and Katz approve Israeli GROUND INCURSION into southern Lebanon. Israel issues "urgent" evacuation orders for 59 areas in Lebanon. IDF says "all options on table."' },
+  { date: 'Mar 3', event: 'UAE: 186 missiles and 812 drones sent toward country since start of conflict. Two ports in Oman targeted in drone strikes.' },
+  { date: 'Mar 3', event: 'Qatar intercepts dozens of Iranian missiles/drones; 2 missiles hit Al Udeid Air Base; Qatar air force shoots down 2 Iranian jets — QATAR STRIKES IRAN in retaliation (first Gulf state to directly engage).' },
+  { date: 'Mar 3', event: 'US embassy in Kuwait closed "until further notice." US embassy in Jordan (Amman) temporarily evacuated all staff. Multiple countries organizing citizen evacuations — Spain, Italy, Germany, France, UK.' },
+  { date: 'Mar 3', event: 'Iran Revolutionary Guards threaten to "burn any ship" in Strait of Hormuz. US CENTCOM disputes — says strait is not fully closed.' },
+  { date: 'Mar 3', event: 'Shifting US justifications: Trump (regime change + denuclearize), Rubio (pre-emptive self-defense), Hegseth (destroy missile/naval capabilities) — all different. No coherent strategy.' },
 ]
 
 const regimeChangeHistory = [
@@ -90,10 +110,10 @@ const whoBenefits = [
 
 const whoLoses = [
   { who: 'American Taxpayers', how: 'Operation Midnight Hammer cost $2.25B for 37 hours. Epic Fury is open-ended. Iraq cost $2.4T over 8 years. Afghanistan cost $2.3T over 20 years. Iran is bigger than both combined (88M people, 2.5x Iraq\'s size). National debt: $38 trillion. Interest alone: $1T/year. We literally cannot afford this.' },
-  { who: 'American Troops', how: 'Iran fired missiles at 27 US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, and UAE. 3 US service members killed in action, at least 5 seriously wounded by Day 2. Trump says "there will likely be more." Troops are in harm\'s way for a war Congress never authorized — the Senate voted 53-47 against the War Powers Resolution. Rand Paul was the only Republican to vote yes.' },
-  { who: 'Iranian Children', how: '108 people killed at Shajareh Tayyebeh girls\' elementary school in Minab — 170 students ages 7-12 were in morning classes when the missile struck. The Guardian: "At least 100 children had been killed." Rescue workers searched wreckage; one man held up a child\'s knapsack. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
-  { who: 'Iranian Civilians', how: 'Iran Red Crescent: 201 killed, 747 injured. Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan. Iran\'s foreign ministry says strikes targeted "non-military sites in various cities." Many of these people were protesting their own government just weeks ago.' },
-  { who: 'The Entire Gulf Region', how: 'Dubai\'s Fairmont hotel on Palm Jumeirah in flames. Airports in Dubai and Abu Dhabi hit. 1 killed in Abu Dhabi from debris. 4 injured in Palm Jumeirah. 3 Kuwaiti soldiers injured. 12 total injured in Kuwait. British bases in Cyprus targeted. Bahrain evacuated around US base. 7+ countries under fire for a war they didn\'t start.' },
+  { who: 'American Troops', how: 'Iran fired missiles at 27+ US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, and more. 6 US service members killed, 18 injured by Day 4. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire). Trump says "there will likely be more." Troops are in harm\'s way for a war Congress never authorized — the Senate voted 53-47 against the War Powers Resolution. Rand Paul was the only Republican to vote yes.' },
+  { who: 'Iranian Children', how: '168 schoolgirls killed at Shajareh Tayyebeh girls\' elementary school in Minab (revised up from initial 108 reports) — 170 students ages 7-12 were in morning classes when the missile struck. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
+  { who: 'Iranian Civilians', how: 'Iran Red Crescent: 787+ killed by Day 4. Hengaw (Norway-based): 1,500+ dead including 200 civilians. Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan. IRIB complex, Golestan Palace (UNESCO World Heritage Site) damaged. IAEA confirms Natanz damage. Many of these people were protesting their own government just weeks ago.' },
+  { who: 'The Entire Gulf Region', how: 'Dubai\'s Fairmont hotel on Palm Jumeirah in flames. UAE: 186 missiles and 812 drones targeting country. 52 killed in Lebanon, 153 injured. 12 killed in Israel. Two ports in Oman targeted. Qatar\'s Al Udeid Air Base hit — Qatar strikes Iran in retaliation. Israel approves ground incursion into Lebanon. US embassies in Riyadh, Kuwait, Jordan closed or evacuated. Multiple countries evacuating citizens. 10+ countries under fire.' },
   { who: 'Global Economy', how: 'Strait of Hormuz CLOSED — 20% of world oil, 20% of world LNG. Cannot be replaced (CNBC). Oil heading to $80-100/barrel minimum, $150+ if prolonged. War-risk insurance premiums tripled. Gas prices, food prices, shipping costs — all rising. Every American pays.' },
   { who: 'The Constitution', how: 'Another war launched without congressional authorization. Congress was briefed by Rubio to the "gang of eight" on Tuesday — 4 days before the bombs fell. When Kaine and Paul forced a War Powers vote, the Senate killed it 53-47. Jack Reed: "Against the clear wishes of the American people, President Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought congressional authority for, and for which he has no endgame." Trump now says the campaign will last "four weeks or less" — the same timeframe promised for every war that became a decade.' },
   { who: 'The MAGA Movement', how: 'Trump ran on ending forever wars. His own base is fracturing. Tucker Carlson: "Absolutely disgusting and evil." Rand Paul co-sponsors War Powers resolution to block it. The Libertarian Alliance: "There is no good reason to sacrifice American soldiers and sailors in a war on Iran." This wasn\'t what they voted for.' },
@@ -109,7 +129,7 @@ export default function Iran2026Page() {
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
           <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
-          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 1, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 3, 2026</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
@@ -119,9 +139,10 @@ export default function Iran2026Page() {
           On February 28, 2026, the United States and Israel launched &ldquo;Operation Epic Fury&rdquo; — a massive
           joint strike campaign against Iran aimed at regime change. They assassinated the Supreme Leader.
           They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
-          108 people were killed at a girls&apos; elementary school. Iran closed the Strait of Hormuz and fired missiles at
-          27 US bases across 7 countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
-          By Day 2: 3 US troops dead, 5 seriously wounded, 1,000+ targets hit, 48 Iranian leaders killed, 9 Iranian warships sunk.
+          168 schoolgirls were killed at an elementary school. Iran closed the Strait of Hormuz and fired missiles at
+          27 US bases across 7+ countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
+          By Day 4: 6 US troops dead, 18 injured. 787+ Iranians killed (Red Crescent says; Hengaw says 1,500+). 1,250+ targets hit. 49 Iranian leaders killed. 11 warships sunk.
+          Hezbollah attacked Israel; Israel is invading Lebanon. Qatar struck Iran. Oil at $82/barrel. UNESCO World Heritage sites damaged.
         </p>
         <p className="text-stone-400 text-lg">
           No congressional vote. No declaration of war. No exit strategy. No clear American interest.
@@ -188,12 +209,12 @@ export default function Iran2026Page() {
 
       {/* Minab school section */}
       <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">108 Killed at a Girls&apos; Elementary School</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3 text-red-800">168 Killed at a Girls&apos; Elementary School</h2>
         <div className="space-y-3 text-stone-700">
           <p>
             An Israeli strike hit the <strong>Shajareh Tayyebeh girls&apos; elementary school</strong> in Minab, Hormozgan province,
             southern Iran. 170 students between the ages of <strong>7 and 12</strong> were attending morning classes when the missile
-            struck. At least <strong>108 people were killed</strong>, according to the Minab public prosecutor&apos;s office
+            struck. At least <strong>168 people were killed</strong> (revised up from initial reports of 108), according to the Minab public prosecutor&apos;s office
             (Al Jazeera, BBC, Washington Post, The Guardian, Drop Site News all confirmed).
           </p>
           <p>
@@ -202,7 +223,7 @@ export default function Iran2026Page() {
             but the decision to bomb during morning school hours made this tragedy inevitable.
           </p>
           <p>
-            Iran&apos;s ambassador to the United Nations said the strike killed &ldquo;more than 100 children.&rdquo;
+            Iran&apos;s ambassador to the United Nations said the strike killed &ldquo;more than 100 children.&rdquo; The death toll was later revised upward to 168.
           </p>
           <p className="text-sm text-red-700 italic">
             Drop Site News headline: <em>&ldquo;Small Children Who Knew Nothing of Politics or Wars.&rdquo;</em>
@@ -224,7 +245,7 @@ export default function Iran2026Page() {
             <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Kuwait:</strong> 3 soldiers injured, 12 total injured.</li>
             <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Jordan, Qatar, Saudi Arabia, Iraq, Syria:</strong> All hit by Iranian missiles targeting US and allied bases.</li>
             <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>Cyprus:</strong> British military bases targeted.</li>
-            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>3 US service members killed, ~3 injured</strong> across the region in first 24 hours.</li>
+            <li className="flex items-start gap-2"><span className="text-red-600 shrink-0">🚀</span> <strong>6 US service members killed, 18 injured</strong> across the region by Day 4. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire).</li>
           </ul>
           <p className="mt-4">
             <strong>Iran then closed the Strait of Hormuz</strong> — the narrow waterway through which <strong>20% of the world&apos;s
@@ -233,8 +254,8 @@ export default function Iran2026Page() {
             resume Red Sea attacks.
           </p>
           <p>
-            Seven countries are under fire. Global shipping is disrupted. The world&apos;s most important energy chokepoint
-            is closed. And this is <em>day one</em>.
+            By Day 4, ten countries are under fire. Global shipping is disrupted. The world&apos;s most important energy chokepoint
+            is contested. Qatar has struck Iran directly. Israel is invading Lebanon. And there is no end in sight.
           </p>
         </div>
       </div>
@@ -494,7 +515,7 @@ export default function Iran2026Page() {
               The Iranian people were already protesting — the largest demonstrations since 1979, across 100+ cities.
               Their own government massacred thousands. But bombing a country historically rallies populations
               <em> around</em> their government, not against it. And the first victims of this &ldquo;liberation&rdquo;
-              were 108 schoolgirls at an elementary school in Minab.
+              were 168 schoolgirls at an elementary school in Minab.
             </p>
           </div>
           <div className="border-l-4 border-stone-300 pl-4">
@@ -637,7 +658,7 @@ export default function Iran2026Page() {
             <h3 className="font-semibold text-primary mb-1">🔄 Generational Blowback</h3>
             <p className="text-stone-700 text-sm">
               The 1953 coup produced 1979. The Iraq War produced ISIS. The Libya intervention produced failed states
-              and weapons flooding across Africa. What will killing 108 schoolgirls produce? What will bombing
+              and weapons flooding across Africa. What will killing 168 schoolgirls produce? What will bombing
               88 million people — many of whom were protesting their own government — produce? A generation of
               Iranians who blame America for their children&apos;s deaths. The next cycle of blowback.
             </p>
@@ -681,7 +702,7 @@ export default function Iran2026Page() {
           <p>
             Iran was at the negotiating table. Their foreign minister said &ldquo;good progress&rdquo; was made.
             Oman&apos;s foreign minister — who brokered the talks — literally flew to Washington to beg for more
-            time for diplomacy. He was turned away. The next morning, 108 children were dead in a school in Minab.
+            time for diplomacy. He was turned away. The next morning, 168 children were dead in a school in Minab.
           </p>
           <p>
             The president who promised to end forever wars just started the biggest one since Iraq. His own
@@ -709,7 +730,7 @@ export default function Iran2026Page() {
         </p>
         <p className="text-stone-300 mb-4">
           The American people were never consulted. Their representatives were never consulted.
-          The diplomats trying to negotiate were turned away. And 108 children at a girls&apos; school
+          The diplomats trying to negotiate were turned away. And 168 children at a girls&apos; school
           in Minab paid the price on the first morning.
         </p>
         <p className="text-stone-300 mb-4">
@@ -725,7 +746,7 @@ export default function Iran2026Page() {
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
-        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 1, 2026:</p>
+        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 3, 2026:</p>
         <ul className="text-sm text-stone-600 space-y-1 columns-1 md:columns-2">
           <li>The Guardian — War timeline, school bombing, Gulf retaliation, Fairmont hotel</li>
           <li>BBC — School bombing, regime change precedent analysis</li>
@@ -829,9 +850,9 @@ export default function Iran2026Page() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-            description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 108 schoolgirls killed. Who benefits from war with Iran? Not the American people.',
+            description: 'Operation Epic Fury launched without congressional approval. Khamenei assassinated. 168 schoolgirls killed. Qatar strikes Iran. Israel invades Lebanon. Who benefits? Not the American people.',
             datePublished: '2026-03-01',
-            dateModified: '2026-03-01',
+            dateModified: '2026-03-03',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-2026',
           }),
