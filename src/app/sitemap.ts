@@ -65,6 +65,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/war-propaganda', '/defense-budget-explained',
     '/us-military-budget', '/iraq-war', '/afghanistan-war', '/vietnam-war',
     '/military-spending-by-country',
+    '/tools', '/tools/budget-simulator', '/tools/compare-countries',
+    '/tools/aid-calculator', '/tools/timeline-explorer',
+    '/foreign-aid/countries', '/operations', '/sanctions', '/states',
+    '/how-much-does-us-spend-on-military', '/iran-war-2026',
+    '/largest-defense-contractors', '/us-foreign-aid-by-country',
+    '/us-military-bases-around-the-world',
+    '/drone-strikes', '/war-votes', '/global-spending',
+    '/arms-sales/countries',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
