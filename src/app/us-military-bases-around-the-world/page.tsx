@@ -4,6 +4,8 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -42,7 +44,14 @@ export default function USMilitaryBasesAroundTheWorld() {
   return (
     <div className="bg-stone-900 min-h-screen text-stone-300 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
+        <FaqJsonLd faqs={[
+          { q: 'How many military bases does the US have around the world?', a: 'The US operates over 750 military bases and installations in more than 80 countries and territories worldwide, plus approximately 800 domestic bases. This is the largest network of foreign military bases in world history.' },
+          { q: 'How much do US overseas military bases cost?', a: 'US overseas military bases cost approximately $55 billion per year to maintain — more than the entire budget of the Department of Education.' },
+          { q: 'Which country has the most US military bases?', a: 'Japan hosts the most US military bases with over 120 installations, followed by Germany with approximately 119, and South Korea with around 73.' },
+          { q: 'Why does the US have so many overseas bases?', a: 'Most were established during WWII and the Cold War to contain the Soviet Union. Despite the Cold War ending 34 years ago, the base network has largely persisted due to alliance commitments, force projection doctrine, and congressional resistance to base closures.' },
+        ]} />
         <Breadcrumbs items={[{ label: 'Bases', href: '/bases' }, { label: 'US Military Bases Around the World' }]} />
+        <LastUpdated />
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
           US Military Bases Around the World

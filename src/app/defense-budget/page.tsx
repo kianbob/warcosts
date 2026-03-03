@@ -4,6 +4,8 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -118,7 +120,14 @@ export default function DefenseBudgetPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <FaqJsonLd faqs={[
+        { q: 'How big is the US defense budget?', a: 'The FY2024 defense budget is $886 billion. When hidden costs are included — veterans care ($325B), intelligence ($90B+), nuclear weapons ($50B+), and homeland security ($62B) — the true national security budget exceeds $1.4 trillion.' },
+        { q: 'Has the Pentagon ever passed an audit?', a: 'No. The Pentagon has failed every audit since mandatory audits began in 2018 — 7 consecutive failures. It is the only major federal agency that has never passed a comprehensive financial audit.' },
+        { q: 'How does the defense budget get decided?', a: 'The President submits a budget request, Congress passes the National Defense Authorization Act (NDAA) setting policy and spending caps, then passes appropriations bills to fund it. Congress consistently adds billions above what the President requests.' },
+        { q: 'What percentage of the federal budget is defense?', a: 'Defense spending is about 53% of federal discretionary spending and roughly 13% of total federal spending (including mandatory programs like Social Security and Medicare). It accounts for 3.4% of GDP.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'Defense Budget' }]} />
+      <LastUpdated />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">The Defense Budget</h1>
       <p className="text-stone-500 mb-2 max-w-3xl text-lg">

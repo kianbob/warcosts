@@ -4,6 +4,8 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -94,7 +96,14 @@ export default function USWarsListPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <FaqJsonLd faqs={[
+        { q: 'How many wars has the US been in?', a: 'The US has fought 36 major wars and conducted 469 total military interventions since 1776. Only 5 wars were formally declared by Congress: the War of 1812, the Mexican-American War, the Spanish-American War, World War I, and World War II.' },
+        { q: 'How many years has the US been at war?', a: 'The United States has been at war for approximately 229 of its 249 years of existence — about 92% of its history.' },
+        { q: 'How many US wars were declared by Congress?', a: 'Only 5 out of 36 major wars were formally declared by Congress. The remaining 31 were fought under presidential authority, UN resolutions, or congressional authorizations short of a declaration.' },
+        { q: 'What is the US military win/loss record?', a: 'Of 36 major conflicts, the US record is approximately 13 victories, 5 defeats, and 13 inconclusive outcomes, with 5 still ongoing.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'US Wars List' }]} />
+      <LastUpdated />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">Every US War Since 1776</h1>
       <p className="text-stone-500 mb-2 max-w-3xl text-lg">

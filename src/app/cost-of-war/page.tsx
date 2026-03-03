@@ -4,6 +4,8 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -92,7 +94,14 @@ export default function CostOfWarPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <FaqJsonLd faqs={[
+        { q: 'How much has the US spent on war?', a: 'The US has spent approximately $11.3 trillion on wars since 1776 (inflation-adjusted). Since 9/11 alone, the War on Terror has cost over $8 trillion, according to Brown University\'s Costs of War Project.' },
+        { q: 'How much does the War on Terror cost per taxpayer?', a: 'The War on Terror has cost approximately $70,000 per US taxpayer, or over $100,000 per household. This includes direct military spending, veterans care, and interest on war debt.' },
+        { q: 'What is the most expensive US war?', a: 'World War II was the most expensive at $4.7 trillion (inflation-adjusted). The War on Terror is second at $8+ trillion when future veterans care and interest costs are included.' },
+        { q: 'How much will future war costs add?', a: 'Future obligations including veterans care ($2.5T+), interest on war debt, and ongoing operations could push the total cost of post-9/11 wars above $14 trillion by 2050.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'Cost of War' }]} />
+      <LastUpdated />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">The Cost of War</h1>
       <p className="text-stone-500 mb-2 max-w-3xl text-lg">

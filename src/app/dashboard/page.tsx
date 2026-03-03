@@ -6,6 +6,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
 
 export const metadata: Metadata = {
   title: 'Dashboard — The State of the American Empire',
@@ -31,6 +32,7 @@ export default function DashboardPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Dashboard' }]} />
+      <LastUpdated />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-2">The State of the Empire</h1>
       <p className="text-muted mb-4 max-w-3xl">A comprehensive overview of America&apos;s military footprint — spending, casualties, overseas presence, and the true cost of 249 years of war.</p>
       <ShareButtons title="Dashboard — The State of the American Empire" />

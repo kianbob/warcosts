@@ -2,13 +2,22 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
+import { LiveCostCounter } from '@/components/LiveCostCounter'
 
 export const metadata: Metadata = {
-  title: 'WarCosts — The True Cost of American Wars',
-  description: 'Every US war, intervention, and military action since 1776 — the cost in dollars, lives, and liberty. $11.3 trillion spent, 1 million Americans killed, 469 military interventions. Data-driven analysis of American foreign policy.',
+  title: 'WarCosts — The True Cost of American Wars | $11.3 Trillion & Counting',
+  description: 'The US has spent $11.3 trillion on war, killed 1 million of its own soldiers, and intervened militarily 469 times. $28,095 per second. 229 years at war. Free, ad-free data from Brown University, CRS, SIPRI & Pentagon reports.',
   openGraph: {
-    title: 'WarCosts — The True Cost of American Wars',
-    description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty.',
+    title: 'WarCosts — $11.3 Trillion Spent. 1 Million Americans Killed. 469 Interventions.',
+    description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Every dollar, every life, every conflict — exposed with data. Free. No ads. No paywall.',
+    url: 'https://warcosts.org',
+    type: 'website',
+    siteName: 'WarCosts',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WarCosts — $28,095/Second on War',
+    description: '$11.3 trillion spent. 1M Americans killed. 469 interventions. The data the defense industry doesn\'t want you to see.',
   },
 }
 
@@ -30,11 +39,36 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● DEVELOPING</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026: US launches military strikes — no congressional authorization</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 4: 787+ killed, 6 US troops dead, Strait of Hormuz closed, war spreading to Lebanon</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-white underline">Conflict Data →</Link>
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Analysis →</Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Latest Developments */}
+      {iranConflict && (
+        <section className="bg-stone-950 text-white py-6 border-b border-red-900/50">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="flex items-center gap-2 mb-4">
+              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments</h2>
+            </div>
+            <div className="grid md:grid-cols-4 gap-3">
+              {[
+                { time: 'Day 4', text: 'Strait of Hormuz closed — oil prices surge past $130/barrel', link: '/analysis/iran-2026' },
+                { time: 'Day 3', text: 'Hezbollah launches rockets into northern Israel; IDF retaliates in Lebanon', link: '/conflicts/iran-2026' },
+                { time: 'Day 2', text: '6 US service members killed in Iranian ballistic missile counterattack', link: '/conflicts/iran-2026' },
+                { time: 'Day 1', text: 'US strikes Iranian nuclear & military sites — no congressional vote', link: '/analysis/iran-2026' },
+              ].map((d, i) => (
+                <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
+                  <span className="text-red-400 text-xs font-bold">{d.time}</span>
+                  <p className="text-sm text-stone-300 mt-1">{d.text}</p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
@@ -49,11 +83,12 @@ export default function HomePage() {
           <p className="text-stone-400 text-lg md:text-xl max-w-3xl mx-auto mb-4">
             Every US war, intervention, and military action — the cost in dollars, lives, and liberty.
           </p>
-          <p className="text-stone-500 text-sm max-w-2xl mx-auto mb-12">
+          <p className="text-stone-500 text-sm max-w-2xl mx-auto mb-2">
             WarCosts is a free, data-driven transparency platform. No ads. No paywall. No defense industry
             sponsors. Just the numbers — sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
             own reports.
           </p>
+          <p className="text-stone-600 text-xs mb-12">Last updated: March 3, 2026</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>
@@ -91,6 +126,10 @@ export default function HomePage() {
               <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.undeclaredWars} of {stats.totalConflicts}</p>
               <p className="text-stone-400">Wars without Congress</p>
             </div>
+          </div>
+
+          <div className="max-w-md mx-auto mb-12">
+            <LiveCostCounter costPerSecond={stats.costPerSecond} />
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">

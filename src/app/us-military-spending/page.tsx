@@ -4,6 +4,8 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import LastUpdated from '@/components/LastUpdated'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { SpendingAreaChart } from '@/components/charts/SpendingCharts'
 import Link from 'next/link'
 
@@ -138,7 +140,15 @@ export default function USMilitarySpendingPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <FaqJsonLd faqs={[
+        { q: 'How much does the US spend on military?', a: 'The US spends $886 billion per year on defense (FY2024), more than the next 10 countries combined. When hidden costs like veterans care, intelligence, and nuclear weapons are included, the true figure exceeds $1.4 trillion.' },
+        { q: 'How much does the US spend on military per second?', a: 'The US spends approximately $28,095 per second on defense, or $1.69 million per minute, $101 million per hour, and $2.43 billion per day.' },
+        { q: 'What percentage of the US budget goes to military?', a: 'Defense spending accounts for about 53% of federal discretionary spending and 3.4% of GDP. It is the largest single category of discretionary spending.' },
+        { q: 'How does US military spending compare to other countries?', a: 'The US spends more on its military than the next 10 countries combined, including China ($292B), Russia ($109B), India ($83B), and Saudi Arabia ($75B).' },
+        { q: 'Has the Pentagon ever passed an audit?', a: 'No. The Pentagon has failed every audit since mandatory audits began in 2018 — 7 consecutive failures. It is the only federal agency that has never passed an audit.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'US Military Spending' }]} />
+      <LastUpdated />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">US Military Spending</h1>
       <p className="text-stone-500 mb-2 max-w-3xl text-lg">
