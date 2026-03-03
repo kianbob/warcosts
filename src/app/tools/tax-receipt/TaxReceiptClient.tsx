@@ -20,14 +20,16 @@ const COMPARISONS = [
 ]
 
 function effectiveRate(income: number): number {
-  // simplified 2024 brackets for single filer
+  // 2024 brackets for single filer with standard deduction
+  const standardDeduction = 14600
+  const taxableIncome = Math.max(0, income - standardDeduction)
   const brackets = [
     [11600, 0.10], [47150, 0.12], [100525, 0.22], [191950, 0.24],
     [243725, 0.32], [609350, 0.35], [Infinity, 0.37],
   ]
   let tax = 0, prev = 0
   for (const [cap, rate] of brackets) {
-    const taxable = Math.min(income, cap as number) - prev
+    const taxable = Math.min(taxableIncome, cap as number) - prev
     if (taxable <= 0) break
     tax += taxable * (rate as number)
     prev = cap as number

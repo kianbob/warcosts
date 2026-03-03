@@ -120,6 +120,25 @@ export default function CompareCountriesPage() {
           </>
         )}
 
+        {/* Related Tools */}
+        <div className="mt-12 pt-8 border-t border-stone-700">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">More Tools</h2>
+          <div className="grid md:grid-cols-3 gap-4">
+            <Link href="/tools/compare-wars" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <p className="font-bold">📊 Compare Wars</p>
+              <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
+            </Link>
+            <Link href="/tools/aid-calculator" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <p className="font-bold">🌍 Aid Calculator</p>
+              <p className="text-stone-500 text-sm">Where your tax dollars go abroad</p>
+            </Link>
+            <Link href="/tools/budget-simulator" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <p className="font-bold">💰 Budget Simulator</p>
+              <p className="text-stone-500 text-sm">Redesign the federal budget</p>
+            </Link>
+          </div>
+        </div>
+
         <BackToTop />
       </div>
     </div>
