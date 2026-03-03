@@ -1,8 +1,8 @@
 {
   "totalConflicts": 36,
   "totalInterventions": 469,
-  "totalUSDeaths": 1049463,
-  "totalCivilianDeaths": 5241380,
+  "totalUSDeaths": 1049469,
+  "totalCivilianDeaths": 5200000,
   "totalCostInflationAdjusted": 11493124000000,
   "warsSinceWWII": 26,
   "undeclaredWars": 26,
@@ -45,5 +45,5 @@
   "inconclusive": 13,
   "objectivesMetCount": 16,
   "objectivesNotMetCount": 12,
-  "ongoing": 5
+  "ongoing": 6
 }

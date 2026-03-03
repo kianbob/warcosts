@@ -33,6 +33,18 @@ export default function HomePage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'WarCosts',
+        url: 'https://www.warcosts.org',
+        description: 'The cost of American empire: every war, every dollar, every life. Free, data-driven transparency platform.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://www.warcosts.org/search?q={search_term_string}',
+          'query-input': 'required name=search_term_string',
+        },
+      }) }} />
       {/* Breaking: Iran 2026 */}
       {iranConflict && (
         <section className="bg-red-900 text-white py-4">

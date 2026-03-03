@@ -138,7 +138,25 @@ export default function AnalysisPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis' }]} />
       <BreadcrumbSchema items={[{ label: "Analysis" }]} />
-      <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-8">Analysis</h1>
+      <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-2">Analysis</h1>
+      <p className="text-stone-500 mb-8">{sections.reduce((s, sec) => s + sec.articles.length, 0)} in-depth articles on US military policy, wars, and their consequences.</p>
+
+      {/* Featured */}
+      <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-800 mb-4">📌 Featured</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          {[
+            { slug: 'iran-day-by-day', title: 'Iran 2026: Day-by-Day', tag: 'LIVE' },
+            { slug: 'war-on-terror', title: 'The War on Terror: $8T Later', tag: 'DEEP DIVE' },
+            { slug: 'lies-that-started-wars', title: 'Lies That Started Wars', tag: 'EDITORIAL' },
+          ].map(f => (
+            <Link key={f.slug} href={`/analysis/${f.slug}`} className="bg-white rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+              <span className="text-xs font-bold text-red-600 uppercase">{f.tag}</span>
+              <h3 className="font-[family-name:var(--font-heading)] font-bold mt-1">{f.title}</h3>
+            </Link>
+          ))}
+        </div>
+      </div>
 
       {sections.map(section => (
         <div key={section.theme} className="mb-12">
