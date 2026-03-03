@@ -94,6 +94,8 @@ export default function WeaponsPage() {
         </p>
         <div className="flex gap-3 mt-3 flex-wrap">
           <Link href="/analysis/military-industrial-complex" className="text-red-400 hover:text-red-300 text-sm underline">Military-Industrial Complex →</Link>
+          <Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-300 text-sm underline">Pentagon Waste →</Link>
+          <Link href="/analysis/silicon-valley-pentagon" className="text-red-400 hover:text-red-300 text-sm underline">Silicon Valley & Pentagon →</Link>
           <Link href="/contractors" className="text-red-400 hover:text-red-300 text-sm underline">Defense Contractors →</Link>
           <Link href="/spending" className="text-red-400 hover:text-red-300 text-sm underline">Military Spending →</Link>
         </div>
