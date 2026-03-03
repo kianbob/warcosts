@@ -619,7 +619,9 @@
     "description": "Classified stealth surveillance drone. The \"Beast of Kandahar.\" Was monitoring Osama bin Laden's compound before the SEAL raid. Iran captured one in 2011 and reverse-engineered it.",
     "costOverrun": null,
     "keyFact": "So secret the Pentagon won't confirm its existence. Iran captured one in 2011 and claims to have copied it.",
-    "contractor": "Lockheed Martin"
+    "contractor": "Lockheed Martin",
+    "costNote": "Classified program",
+    "type": "Drone"
   },
   {
     "name": "Arleigh Burke-class Destroyer",
@@ -815,7 +817,9 @@
     "description": "Classified unmanned space plane that has spent years orbiting Earth on secret missions. Largest mission: 908 days in orbit. Operated by US Space Force. Nobody outside the Pentagon knows what it does.",
     "costOverrun": null,
     "keyFact": "Has spent over 3,774 cumulative days in orbit on classified missions. No one outside the Pentagon knows what it actually does.",
-    "contractor": "Boeing"
+    "contractor": "Boeing",
+    "costNote": "Classified program",
+    "type": "Space"
   },
   {
     "name": "Next Generation Interceptor (NGI)",

@@ -11,6 +11,14 @@ import LastUpdated from '@/components/LastUpdated'
 export const metadata: Metadata = {
   title: 'Dashboard — The State of the American Empire',
   description: 'Visual overview of US military data: $11.6T total cost, 1M+ Americans killed, 5.2M civilians, 750 overseas bases, $886B annual budget, 17 veteran suicides per day. The full picture at a glance.',
+  openGraph: {
+    title: 'Dashboard — The State of the American Empire',
+    description: 'Visual overview: $11.5T total cost, 1M+ Americans killed, 5.2M civilians, 750 overseas bases, $886B annual budget, 17 veteran suicides per day.',
+    url: 'https://www.warcosts.org',
+    siteName: 'WarCosts',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://www.warcosts.org/dashboard' },
 }
 
 export default function DashboardPage() {

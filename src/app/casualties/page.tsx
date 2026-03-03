@@ -10,6 +10,7 @@ import ShareButtons from '@/components/ShareButtons'
 export const metadata: Metadata = {
   title: 'US War Casualties — Over 1M Americans, 5.2M Civilians Dead',
   description: 'Over 1 million Americans and 5.2 million civilians killed in US wars. The human cost by conflict, era, and the veteran aftermath.',
+  alternates: { canonical: 'https://www.warcosts.org/casualties' },
 }
 
 const conflictDeathTable = [

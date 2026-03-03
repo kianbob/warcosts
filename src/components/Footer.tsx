@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-stone-800 py-6 text-center text-xs text-stone-500">
-        <p className="mb-1">2,200+ pages of data · Last updated: March 2026</p>
+        <p className="mb-1">2,300+ pages of data · Last updated: March 2026</p>
         <p>&ldquo;Of all the enemies to public liberty, war is perhaps the most to be dreaded.&rdquo; — James Madison</p>
         <p className="mt-1">A <a href="https://thedataproject.ai" className="text-red-500 hover:underline">TheDataProject.ai</a> platform · © {new Date().getFullYear()}</p>
       </div>

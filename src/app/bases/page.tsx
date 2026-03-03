@@ -4,12 +4,21 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
 
 
 export const metadata: Metadata = {
   title: 'US Overseas Military Bases — 750 Bases in 80 Countries',
   description: 'The US maintains 750 military bases in 80 countries with 173,000 troops deployed overseas. Annual cost: $55 billion. More than any empire in history.',
+  openGraph: {
+    title: 'US Overseas Military Bases — 750+ Bases in 80 Countries',
+    description: '1,518 US military installations worldwide. Explore bases by country, state, service branch, and environmental impact.',
+    url: 'https://www.warcosts.org',
+    siteName: 'WarCosts',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://www.warcosts.org/bases' },
 }
 
 const regionMap: Record<string, string> = {
@@ -72,6 +81,7 @@ export default function BasesPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Overseas Bases' }]} />
+      <BreadcrumbSchema items={[{ label: "Overseas Bases" }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Overseas Military Bases</h1>
       <p className="text-muted mb-6 max-w-3xl">The United States maintains {fmt(presence.totalBases)} military bases in {presence.totalCountries} countries — more than any empire in history. Annual cost: {fmtMoney(presence.annualBaseCost)}. Many of these bases were established during wars that ended decades ago. The troops stayed. The bases expanded. The bill keeps growing.</p>
       <ShareButtons title="US Overseas Military Bases — 750 in 80 Countries" />

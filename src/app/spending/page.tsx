@@ -4,12 +4,21 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
 
 
 export const metadata: Metadata = {
   title: 'US Military Spending — $886B/Year, More Than Next 10 Countries Combined',
   description: 'Track US military spending from WWII to today. Currently $886 billion per year — more than the next 10 countries combined. Pentagon never passed an audit.',
+  openGraph: {
+    title: 'US Military Spending — $886B and Counting',
+    description: 'Track every dollar of US military spending from 1949 to 2024. SIPRI data, GDP percentages, decade trends, and what the money could have bought instead.',
+    url: 'https://www.warcosts.org',
+    siteName: 'WarCosts',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://www.warcosts.org/spending' },
 }
 
 const globalComparison = [
@@ -72,6 +81,7 @@ export default function SpendingPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Military Spending' }]} />
+      <BreadcrumbSchema items={[{ label: "Military Spending", href: "/spending" }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Military Spending</h1>
       <p className="text-muted mb-6 max-w-3xl">

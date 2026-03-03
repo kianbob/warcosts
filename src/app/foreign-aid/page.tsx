@@ -10,6 +10,7 @@ import ShareButtons from '@/components/ShareButtons'
 export const metadata: Metadata = {
   title: 'US Foreign Aid — $68B/Year, Where Your Tax Dollars Go',
   description: '$68 billion per year in foreign aid. $850 billion since 2001. Israel gets $3.8B/yr guaranteed. See where US foreign aid really goes.',
+  alternates: { canonical: 'https://www.warcosts.org/foreign-aid' },
 }
 
 const recipientFlags: Record<string, string> = {

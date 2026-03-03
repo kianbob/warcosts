@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 export const metadata: Metadata = {
   title: 'Timeline of US Wars & Interventions — 248 Years of Conflict',
   description: 'Every American war, military intervention, and covert operation from 1775 to present. 248 years, 28+ conflicts, 1M+ Americans dead.',
+  alternates: { canonical: 'https://www.warcosts.org/timeline' },
 }
 
 const eraColors: Record<string, string> = {

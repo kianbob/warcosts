@@ -1,11 +1,20 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Analysis — Data-Driven Perspectives on US Wars',
   description: 'In-depth analysis of American military policy: the War on Terror, congressional authority, blowback, the military-industrial complex, and more.',
+  openGraph: {
+    title: '60+ Analysis Articles — WarCosts',
+    description: 'In-depth analysis of US military spending, interventions, and their consequences. From the War on Terror to the military-industrial complex.',
+    url: 'https://www.warcosts.org',
+    siteName: 'WarCosts',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://www.warcosts.org/analysis' },
 }
 
 const sections = [
@@ -128,6 +137,7 @@ export default function AnalysisPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis' }]} />
+      <BreadcrumbSchema items={[{ label: "Analysis" }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-8">Analysis</h1>
 
       {sections.map(section => (

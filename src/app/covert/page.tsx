@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 export const metadata: Metadata = {
   title: 'US Covert Operations & Secret Wars — CIA Coups, Black Sites, MK-Ultra',
   description: 'CIA coups, covert operations, assassination plots, MK-Ultra, extraordinary rendition, and secret wars — from Iran 1953 to the global drone campaign.',
+  alternates: { canonical: 'https://www.warcosts.org/covert' },
 }
 
 const narratives: Record<string, string> = {

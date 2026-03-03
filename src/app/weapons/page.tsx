@@ -3,11 +3,19 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'US Weapons Systems — $3 Trillion in Programs | WarCosts',
   description: 'The Pentagon\'s major weapons programs represent over $3 trillion in spending. From the $1.7T F-35 to cancelled boondoggles, explore every major system.',
+  openGraph: {
+    title: 'US Weapons Systems — 48 Major Programs',
+    description: 'Every major US weapons system: F-35, B-21, Ford-class carriers, hypersonics. Costs, overruns, contractors, and delivery status.',
+    url: 'https://www.warcosts.org/weapons',
+    siteName: 'WarCosts',
+    type: 'website',
+  },
   alternates: { canonical: 'https://www.warcosts.org/weapons' },
 }
 
@@ -22,6 +30,7 @@ export default function WeaponsPage() {
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Weapons Systems' }]} />
+      <BreadcrumbSchema items={[{ label: "Weapons Systems" }]} />
 
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         US Weapons Systems
@@ -48,7 +57,7 @@ export default function WeaponsPage() {
               <div className="text-stone-400 text-sm">{w.category} · {w.contractor} · {w.status}</div>
             </div>
             <div className="text-right">
-              <div className="text-red-400 font-bold">{w.costBillions ? `$${w.costBillions}B` : '—'}</div>
+              <div className="text-red-400 font-bold">{w.costBillions ? `$${w.costBillions}B` : ((w as any).costNote || '—')}</div>
               {w.costOverrun && <div className="text-yellow-400 text-xs">+{w.costOverrun}% overrun</div>}
             </div>
           </Link>
@@ -67,7 +76,7 @@ export default function WeaponsPage() {
                 {catWeapons.map(w => (
                   <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex justify-between text-sm hover:text-red-300">
                     <span className="text-stone-300">{w.name}</span>
-                    <span className="text-red-400">{w.costBillions ? `$${w.costBillions}B` : '—'}</span>
+                    <span className="text-red-400">{w.costBillions ? `$${w.costBillions}B` : ((w as any).costNote || '—')}</span>
                   </Link>
                 ))}
               </div>

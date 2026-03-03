@@ -8,6 +8,7 @@ import ShareButtons from '@/components/ShareButtons'
 export const metadata: Metadata = {
   title: 'US-Backed Regime Changes — Coups, Invasions & Their Consequences',
   description: 'From Iran 1953 to Libya 2011, the US has overthrown or attempted to overthrow governments in 20+ countries. See the full list and the devastating blowback.',
+  alternates: { canonical: 'https://www.warcosts.org/regime-changes' },
 }
 
 const regimeChanges = [

@@ -9,6 +9,7 @@ import BackToTop from '@/components/BackToTop'
 export const metadata: Metadata = {
   title: 'Intelligence Agencies — $90B, 18 Agencies, Zero Accountability',
   description: 'The US intelligence community: 18 agencies, $90 billion budget, 854,000 security clearances, 1,271 government organizations, 1,931 private companies. CIA coups, NSA surveillance, FBI abuses, and the intelligence-industrial complex.',
+  alternates: { canonical: 'https://www.warcosts.org/intelligence' },
   keywords: ['intelligence agencies', 'CIA', 'NSA', 'FBI', 'intelligence budget', 'surveillance', 'MK-Ultra', 'COINTELPRO', 'black sites', 'intelligence industrial complex', 'Booz Allen', 'Palantir'],
   openGraph: {
     title: 'Intelligence Agencies — $90B, 18 Agencies, Zero Accountability',

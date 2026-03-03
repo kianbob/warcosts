@@ -6,6 +6,7 @@ import BackToTop from '@/components/BackToTop'
 export const metadata: Metadata = {
   title: 'About WarCosts — Free, Open, Data-Driven Military Transparency',
   description: 'WarCosts is a free, data-driven platform documenting every US war, military intervention, and covert operation since 1776. Sourced from Brown University, CRS, SIPRI, and Pentagon reports. A TheDataProject.ai platform.',
+  alternates: { canonical: 'https://www.warcosts.org/about' },
   keywords: ['about warcosts', 'military transparency', 'war cost data', 'defense spending transparency'],
 }
 

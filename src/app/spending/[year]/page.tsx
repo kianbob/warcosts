@@ -66,7 +66,7 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
           {fmtMoney(amountMillions * 1e6)}
         </p>
         <p className="text-stone-400 mt-2">
-          {amountBillions.toFixed(1)} billion in 2024 inflation-adjusted dollars
+          {amountBillions.toFixed(1)} billion in constant 2023 US dollars (SIPRI)
         </p>
       </div>
 

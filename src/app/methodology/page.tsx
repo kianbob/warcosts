@@ -6,6 +6,7 @@ import BackToTop from '@/components/BackToTop'
 export const metadata: Metadata = {
   title: 'Methodology — Data Sources, Methods & Limitations',
   description: 'How WarCosts compiles its data: cost estimates, casualty counting, inflation adjustment, spending data, and acknowledged limitations. Sources include Brown University, CRS, SIPRI, DMDC, USAID, DoD reports.',
+  alternates: { canonical: 'https://www.warcosts.org/methodology' },
   keywords: ['warcosts methodology', 'military spending data methodology', 'war cost calculation', 'defense spending data sources'],
 }
 

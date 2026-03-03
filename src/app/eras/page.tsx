@@ -3,10 +3,12 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
   title: 'US Wars by Era — From Revolution to War on Terror',
   description: 'American military conflicts organized by historical era. See how US war-making evolved from founding to global empire.',
+  alternates: { canonical: 'https://www.warcosts.org/eras' },
 }
 
 export default function ErasPage() {
@@ -17,6 +19,7 @@ export default function ErasPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'By Era' }]} />
+      <BreadcrumbSchema items={[{ label: "Conflicts by Era" }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Conflicts by Era</h1>
 
       {(() => { const stats = loadData('stats.json'); return (

@@ -5,6 +5,7 @@ import SearchClient from './SearchClient'
 export const metadata: Metadata = {
   title: 'Search Conflicts',
   description: 'Search all US wars, military interventions, and covert operations by name, country, or era.',
+  alternates: { canonical: 'https://www.warcosts.org/search' },
 }
 
 export default function SearchPage() {
