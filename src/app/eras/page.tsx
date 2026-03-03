@@ -49,7 +49,7 @@ export default function ErasPage() {
                 <Link href={`/eras/${slugify(era)}`} className="hover:underline">
                   <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">{era}</h2>
                 </Link>
-                <span className="text-muted text-sm">{yearRange} · {items.length} conflicts</span>
+                <span className="text-muted text-sm">{yearRange} · {items.length} conflict{items.length !== 1 ? 's' : ''}</span>
                 <Link href={`/eras/${slugify(era)}`} className="text-xs text-primary hover:underline ml-auto">View Era →</Link>
               </div>
               <div className="grid grid-cols-3 gap-4 mb-4 text-center">

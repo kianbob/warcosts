@@ -4,7 +4,7 @@ type Item = { label: string; href?: string }
 
 export default function Breadcrumbs({ items }: { items: Item[] }) {
   return (
-    <nav className="text-sm text-stone-500 mb-4 flex items-center gap-2 flex-wrap">
+    <nav className="text-sm text-stone-600 mb-4 flex items-center gap-2 flex-wrap">
       <Link href="/" className="hover:text-red-700">Home</Link>
       {items.map((item, i) => (
         <span key={i} className="flex items-center gap-2">

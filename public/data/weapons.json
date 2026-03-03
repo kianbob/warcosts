@@ -552,20 +552,6 @@
     "contractor": "Boeing"
   },
   {
-    "name": "F-22 Raptor",
-    "slug": "f-22-raptor",
-    "category": "Fighter Aircraft",
-    "manufacturer": "Lockheed Martin",
-    "unitCost": 350,
-    "totalCost": 67000,
-    "units": 195,
-    "inService": true,
-    "description": "The world's first operational 5th-generation stealth fighter. Originally planned 750 aircraft; cut to 195 due to cost. $350M per plane with development costs. Being retired in the 2030s for NGAD.",
-    "costOverrun": 100,
-    "keyFact": "Planned 750 fighters, built 195. At $350M each, the most expensive fighter ever built.",
-    "contractor": "Lockheed Martin"
-  },
-  {
     "name": "A-10 Thunderbolt II (Warthog)",
     "slug": "a-10-warthog",
     "category": "Attack Aircraft",
@@ -619,34 +605,6 @@
     "description": "Carrier-based airborne early warning aircraft. The \"eyes of the fleet\" — detects threats 300+ miles away. Critical for carrier battle group defense.",
     "costOverrun": 15,
     "keyFact": "The \"eyes of the fleet\" — can track 2,000 targets simultaneously at 300+ mile range.",
-    "contractor": "Northrop Grumman"
-  },
-  {
-    "name": "MQ-9 Reaper",
-    "slug": "mq-9-reaper",
-    "category": "Drone",
-    "manufacturer": "General Atomics",
-    "unitCost": 32,
-    "totalCost": 12000,
-    "units": 300,
-    "inService": true,
-    "description": "The primary US hunter-killer drone. Can carry Hellfire missiles and 500lb bombs. Loiter for 27 hours. Used extensively in Pakistan, Yemen, Somalia, Afghanistan, and Iraq. Has killed thousands.",
-    "costOverrun": 5,
-    "keyFact": "The drone that changed warfare — 14,000+ strikes, killed thousands including US citizens, with operators sitting in Nevada.",
-    "contractor": "General Atomics"
-  },
-  {
-    "name": "MQ-4C Triton",
-    "slug": "mq-4c-triton",
-    "category": "Drone",
-    "manufacturer": "Northrop Grumman",
-    "unitCost": 189,
-    "totalCost": 14000,
-    "units": 68,
-    "inService": true,
-    "description": "Maritime surveillance drone based on Global Hawk. Can survey 7 million square km in a single mission. Navy uses it for persistent ocean surveillance.",
-    "costOverrun": 60,
-    "keyFact": "Can survey an area larger than the contiguous US in a single 30-hour mission.",
     "contractor": "Northrop Grumman"
   },
   {
@@ -732,20 +690,6 @@
     "costOverrun": 10,
     "keyFact": "A single Ohio-class submarine carries enough nuclear weapons to end civilization. The US has 14 of them.",
     "contractor": "General Dynamics"
-  },
-  {
-    "name": "Constellation-class Frigate",
-    "slug": "constellation-frigate",
-    "category": "Frigate",
-    "manufacturer": "Fincantieri",
-    "unitCost": 1280,
-    "totalCost": 25000,
-    "units": 20,
-    "inService": false,
-    "description": "New-design frigate to replace the cancelled LCS. Based on Italian FREMM design. Expected to enter service in 2029, already 3 years behind schedule and 50% over budget.",
-    "costOverrun": 50,
-    "keyFact": "Ordered to replace the LCS disaster. Already 3 years late and 50% over budget before a single ship is delivered.",
-    "contractor": "Fincantieri"
   },
   {
     "name": "Tomahawk Cruise Missile",

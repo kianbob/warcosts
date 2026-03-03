@@ -59,7 +59,7 @@ const presidentYears: Record<string, string> = {
   'Truman': '1945–1953', 'Eisenhower': '1953–1961', 'Kennedy': '1961–1963',
   'Johnson': '1963–1969', 'Nixon': '1969–1974', 'Reagan': '1981–1989',
   'Bush Sr.': '1989–1993', 'Clinton': '1993–2001', 'Bush Jr.': '2001–2009',
-  'Obama': '2009–2017', 'Trump': '2017–2021', 'Biden': '2021–2025',
+  'Obama': '2009–2017', 'Trump': '2017–2021, 2025–Present', 'Biden': '2021–2025',
   'Continental Congress': '1775–1789',
 }
 
@@ -176,7 +176,7 @@ export default async function PresidentDetailPage({ params }: { params: Promise<
 
   const presConflicts = conflicts.filter((c: any) =>
     p.conflicts.some((name: string) =>
-      c.name.includes(name) || c.shortName?.includes(name) || name.includes(c.shortName || '')
+      c.shortName === name || c.name === name || (name.length > 5 && (c.name.includes(name) || name.includes(c.shortName || '')))
     )
   )
 

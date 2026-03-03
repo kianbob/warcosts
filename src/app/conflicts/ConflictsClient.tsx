@@ -103,6 +103,15 @@ export default function ConflictsClient({ conflicts }: { conflicts: Conflict[] }
         </div>
       </div>
 
+      {/* Legend */}
+      <div className="flex flex-wrap gap-3 mb-3 text-xs">
+        <span className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded-full bg-green-100 border border-green-300"></span> Victory</span>
+        <span className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded-full bg-red-100 border border-red-300"></span> Defeat</span>
+        <span className="flex items-center gap-1"><span className="inline-block w-3 h-3 rounded-full bg-yellow-100 border border-yellow-300"></span> Ongoing/Inconclusive</span>
+        <span className="flex items-center gap-1">✅ Congressional authorization</span>
+        <span className="flex items-center gap-1">❌ No authorization</span>
+      </div>
+
       {/* Table */}
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
@@ -115,12 +124,12 @@ export default function ConflictsClient({ conflicts }: { conflicts: Conflict[] }
               <th className="py-3 pr-4 text-right">US Deaths</th>
               <th className="py-3 pr-4 text-right">Civilian Deaths</th>
               <th className="py-3 pr-4">Outcome</th>
-              <th className="py-3">Auth?</th>
+              <th className="py-3" title="Congressional Authorization under Article I, Section 8">Congress?</th>
             </tr>
           </thead>
           <tbody>
             {filtered.map((c) => (
-              <tr key={c.id} className="border-b border-stone-200 hover:bg-stone-50">
+              <tr key={c.id} className={`border-b border-stone-200 hover:bg-stone-50 ${filtered.indexOf(c) % 2 === 1 ? 'bg-stone-50/50' : ''}`}>
                 <td className="py-3 pr-4">
                   <Link href={`/conflicts/${c.id}`} className="text-primary font-semibold hover:underline">
                     {c.shortName || c.name}

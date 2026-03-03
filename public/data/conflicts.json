@@ -821,7 +821,7 @@
       "battleDeaths": 53402,
       "missing": 0
     },
-    "civilianDeaths": null,
+    "civilianDeaths": 6500000,
     "troopsDeployed": 4734991,
     "outcome": "Victory (Allied)",
     "outcomeDetail": "Armistice November 11, 1918. Treaty of Versailles imposed harsh terms on Germany — which directly led to World War II.",
@@ -843,11 +843,11 @@
       "durationDays": 365,
       "costPerDay": 1041095890,
       "costPerUSdeath": 3261355,
-      "costPerCivilianDeath": 0,
+      "costPerCivilianDeath": 58462,
       "totalDeaths": 116516,
-      "civilianToMilitaryRatio": null,
+      "civilianToMilitaryRatio": 55.8,
       "deathsPerYear": 116516,
-      "civilianDeathsPerYear": 0
+      "civilianDeathsPerYear": 6500000
     },
     "years": "1917–1918",
     "narrative": "World War I is the war that proves the catastrophic danger of entangling alliances — the very thing George Washington warned against in his farewell address. A single assassination in Sarajevo triggered a cascade of treaty obligations that dragged the entire Western world into a meat grinder that killed 20 million people. America had no business entering it, and its entry extended the war, enabled the punitive Treaty of Versailles, and planted the seeds for an even worse war twenty years later.\n\nFor three years, Woodrow Wilson kept America out of the European slaughter. He won reelection in 1916 on the slogan \"He Kept Us Out of War.\" Five months later, he asked Congress for a declaration of war. The pretexts — unrestricted submarine warfare and the Zimmermann Telegram — were real but manageable. The deeper truth was that American banks had loaned the Allies $2.3 billion (about $50 billion today), and an Allied defeat would mean financial catastrophe for Wall Street.\n\nThe war brought unprecedented expansion of federal power at home. The Espionage Act of 1917 and the Sedition Act of 1918 criminalized dissent. Eugene Debs was sentenced to 10 years in prison for giving an anti-war speech. The Committee on Public Information, America's first propaganda agency, manufactured consent for the war through systematic manipulation of public opinion. The draft conscripted 2.8 million men.\n\nIn the trenches of France, 116,516 Americans died — 53,000 in battle and 63,000 from disease, particularly the 1918 influenza pandemic that killed more American soldiers than German bullets. Chemical weapons, used for the first time in modern warfare, maimed tens of thousands more.\n\nThe true catastrophe came at the peace table. Wilson's Fourteen Points were idealistic; the Treaty of Versailles was vindictive. Germany was forced to accept sole responsibility for the war, stripped of territory, and burdened with $33 billion in reparations (about $500 billion today). The resulting economic devastation and national humiliation created the conditions that brought Hitler to power.\n\nSmedley Butler, the most decorated Marine of his era, later wrote: \"War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious.\" He identified who actually benefited from WWI: DuPont's stock went from $20 to $1,000 per share. Bethlehem Steel's profits went from $6 million to $49 million. The soldiers got $30 a month. The corporations got billions.",
@@ -931,7 +931,7 @@
       "battleDeaths": 291557,
       "missing": 30314
     },
-    "civilianDeaths": null,
+    "civilianDeaths": 50000000,
     "troopsDeployed": 16112566,
     "outcome": "Victory (Allied)",
     "outcomeDetail": "Unconditional surrender of Germany (May 1945) and Japan (August 1945). US emerged as global superpower.",
@@ -955,11 +955,11 @@
       "durationDays": 1460,
       "costPerDay": 3287671233,
       "costPerUSdeath": 11840187,
-      "costPerCivilianDeath": 0,
-      "totalDeaths": 405399,
-      "civilianToMilitaryRatio": null,
+      "costPerCivilianDeath": 96000,
+      "totalDeaths": 50405399,
+      "civilianToMilitaryRatio": 123.3,
       "deathsPerYear": 101350,
-      "civilianDeathsPerYear": 0
+      "civilianDeathsPerYear": 12500000
     },
     "years": "1941–1945",
     "narrative": "World War II occupies a unique position in the American psyche: the \"Good War,\" the one everyone agrees was justified. And in many ways it was — responding to a direct attack at Pearl Harbor and fighting genuine genocidal evil. But the mythology of the Good War obscures uncomfortable truths about how America fought it, what it cost, and what it built in its aftermath.\n\nThe war killed 405,399 Americans — more than any conflict except the Civil War. But the civilian toll dwarfs even that: 70-85 million people died worldwide, making it the deadliest event in human history. The Holocaust murdered 6 million Jews and 5 million others. The Japanese killed millions across Asia. The Soviet Union lost 27 million. The scale of death is almost incomprehensible.\n\nAmerica's entry came after Pearl Harbor on December 7, 1941 — but the path to war was longer and more deliberate than the mythology suggests. FDR had been maneuvering toward intervention for over a year, using Lend-Lease, the Atlantic Charter, and increasingly aggressive naval patrols to support Britain while technically remaining neutral. Whether he knew Pearl Harbor was coming remains debated, but he clearly wanted war and was working toward it.\n\nThe moral compromises of the Good War deserve scrutiny. Japanese internment imprisoned 120,000 people — 62% of them American citizens — based solely on their ancestry. No Japanese American was ever convicted of espionage. The government later formally apologized and paid reparations, but the precedent of imprisoning citizens by ethnicity remains one of the worst civil liberties violations in American history.\n\nThe strategic bombing campaigns raise equally difficult questions. The firebombing of Tokyo on March 9-10, 1945, killed approximately 100,000 civilians in a single night — more than either atomic bomb. The firebombing of Dresden killed 25,000. These were deliberate attacks on civilian population centers designed to break morale through terror. Curtis LeMay, who oversaw the firebombing campaign, later acknowledged: \"If we'd lost the war, we'd all have been prosecuted as war criminals.\"\n\nThen came the atomic bombs. Hiroshima (80,000 dead instantly, 140,000 by year's end) and Nagasaki (40,000 dead instantly, 70,000 by year's end) remain the only nuclear weapons ever used in combat. The conventional justification — that invasion would have cost far more lives — is debated by historians who note that Japan was already seeking surrender terms through the Soviet Union.\n\nThe war's deepest legacy may be institutional. WWII created the military-industrial complex that Eisenhower would later warn about: a permanent wartime economy, a national security state, the CIA, the NSA, nuclear weapons, and a network of military bases spanning the globe. America never demobilized. The \"temporary\" wartime institutions became permanent, and the exceptional became the new normal.",

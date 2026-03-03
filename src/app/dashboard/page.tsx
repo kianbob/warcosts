@@ -55,7 +55,7 @@ export default function DashboardPage() {
           { val: fmt(stats.totalUSDeaths), label: 'US Deaths' },
           { val: `${(stats.totalCivilianDeaths/1e6).toFixed(1)}M+`, label: 'Civilian Deaths' },
           { val: fmt(stats.overseasBases), label: 'Overseas Bases' },
-          { val: fmtMoney(stats.currentAnnualBudget) + '/yr', label: 'Annual Budget' },
+          { val: fmtMoney(stats.currentAnnualBudget) + '/yr', label: 'DoD Budget (FY2024)' },
         ].map(s => (
           <div key={s.label} className="bg-white rounded-lg p-4 shadow-sm border text-center">
             <p className="text-xl md:text-2xl font-bold text-primary font-[family-name:var(--font-heading)]">{s.val}</p>
