@@ -332,7 +332,7 @@ export default async function PresidentDetailPage({ params }: { params: Promise<
                         match.congressionalAuth ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
                       }`}>{match.congressionalAuth ? '✅ Authorized' : '❌ Unauthorized'}</span>
                     </div>
-                    <p className="text-sm text-muted">{match.startYear}–{match.endYear || 'Present'} · {fmtMoney(match.costInflationAdjusted)} · {match.usCasualties?.deaths ? fmt(match.usCasualties.deaths) + ' US deaths' : 'Covert'}</p>
+                    <p className="text-sm text-muted">{match.startYear}{match.endYear && match.endYear !== match.startYear ? `–${match.endYear}` : match.endYear ? '' : '–Present'} · {fmtMoney(match.costInflationAdjusted)} · {match.usCasualties?.deaths ? fmt(match.usCasualties.deaths) + ' US deaths' : 'Covert'}</p>
                     <p className="text-sm text-muted mt-1">{match.outcome}</p>
                     {match.keyQuote && (
                       <p className="text-xs italic text-stone-500 mt-2 border-l-2 border-stone-300 pl-2">&ldquo;{(match.keyQuote as any).text.substring(0, 120)}...&rdquo;</p>
@@ -352,7 +352,7 @@ export default async function PresidentDetailPage({ params }: { params: Promise<
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">🗽 The Libertarian Assessment</h2>
         <p className="text-stone-300 leading-relaxed">
           {p.totalUSDeaths > 10000
-            ? `${p.name}'s military record cost ${fmt(p.totalUSDeaths)} American lives and ${fmtMoney(p.totalCost)} in treasure. ${unauthorizedConflicts.length > 0 ? `Of ${p.conflicts.length} conflicts, ${unauthorizedConflicts.length} were waged without congressional authorization — a fundamental violation of the constitutional order.` : ''} Every dollar spent on war is a dollar not spent on reducing the tax burden, and every life lost is a permanent cost borne by American families.`
+            ? `${p.name}'s military record cost ${fmt(p.totalUSDeaths)} American lives and ${fmtMoney(p.totalCost)} in treasure. ${unauthorizedConflicts.length > 0 ? `Of ${presConflicts.length} conflicts, ${unauthorizedConflicts.length} were waged without congressional authorization — a fundamental violation of the constitutional order.` : ''} Every dollar spent on war is a dollar not spent on reducing the tax burden, and every life lost is a permanent cost borne by American families.`
             : `${p.name} ${p.conflicts.length > 2 ? 'involved the nation in ' + p.conflicts.length + ' military conflicts' : 'used military force ' + p.conflicts.length + ' time' + (p.conflicts.length > 1 ? 's' : '')}, at a cost of ${fmtMoney(p.totalCost)}. ${unauthorizedConflicts.length > 0 ? `${unauthorizedConflicts.length} of these lacked congressional authorization.` : ''} The question libertarians must always ask: were these conflicts truly necessary for the defense of American liberty?`
           }
         </p>

@@ -120,7 +120,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
         {armsSales && (
           <div className="bg-stone-800 rounded-xl border border-stone-700 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🔫 Arms Sales</h2>
-            <p className="text-3xl font-bold text-red-400">{fmtMoney(armsSales.total)}</p>
+            <p className="text-3xl font-bold text-red-400">{fmtMoney(armsSales.total * 1e6)}</p>
             {armsSales.topSystems && armsSales.topSystems.length > 0 && (
               <div className="mt-3">
                 <p className="text-stone-400 text-sm font-semibold mb-1">Top Systems:</p>
