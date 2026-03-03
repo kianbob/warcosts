@@ -22,6 +22,7 @@ const sections = [
   {
     theme: 'Recent Conflicts',
     articles: [
+      { slug: 'iran-day-by-day', title: 'Iran 2026: A Day-by-Day Account', desc: 'A factual chronological war diary. Verified casualties, running cost estimate, countries drawn in — updated daily.' },
       { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
       { slug: 'cost-of-iran', title: 'What Will Iran Cost?', desc: 'Projecting the price of Operation Epic Fury — from $20B air campaign to $5T+ occupation.' },
       { slug: 'hormuz-crisis', title: 'The Strait of Hormuz Crisis', desc: 'How one 21-mile waterway could crash the global economy. Iran closed it. Now what?' },
@@ -72,6 +73,8 @@ const sections = [
   {
     theme: 'Deep Dives',
     articles: [
+      { slug: 'americas-wars-by-the-numbers', title: "America's Wars By The Numbers", desc: 'Every US war ranked by cost, deaths, and duration. The definitive statistical reference with interactive charts.' },
+      { slug: 'cost-of-doing-nothing', title: "What If We'd Done Nothing?", desc: 'Vietnam, Iraq, Afghanistan, Libya — what if the US hadn\'t intervened? The data says inaction was almost always cheaper.' },
       { slug: 'war-economy', title: 'The War Economy', desc: 'How war built — and trapped — the American economy. WW2 ended the Depression. Cold War R&D gave us the internet. $886B/year is the economy now.' },
       { slug: 'media-and-war', title: 'Manufacturing Consent: How Media Sells Every War', desc: 'Gulf of Tonkin was a lie. WMDs didn\'t exist. Incubator babies were staged. Every war starts with a media campaign. The pattern from 1898 to 2026.' },
       { slug: 'refugee-crisis', title: 'We Break It, They Flee, We Say No', desc: '38 million displaced by the War on Terror. America creates refugees, then refuses them. Lebanon hosts 27% refugees; the US: 0.1%.' },

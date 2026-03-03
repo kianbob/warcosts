@@ -29,6 +29,9 @@ export async function GET() {
     { slug: 'shadow-wars', title: 'Shadow Wars: America\'s Secret Wars in 134+ Countries', desc: 'JSOC in 134+ countries. 70,000 special operators. Kill lists with no congressional oversight.' },
     { slug: 'ai-weapons', title: 'AI Weapons: Autonomous Killing Machines', desc: 'Lavender AI, Kargu-2 drones, Replicator initiative. Machines deciding who dies.' },
     { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'NSA collects ALL phone metadata. 278K warrantless FBI searches. The 4th Amendment is dead.' },
+    { slug: 'iran-day-by-day', title: 'Iran 2026: A Day-by-Day Account', desc: 'A factual chronological war diary with verified casualties, running cost estimates, and countries drawn in.' },
+    { slug: 'americas-wars-by-the-numbers', title: "America's Wars By The Numbers: A Complete Statistical Breakdown", desc: 'Every US war ranked by cost, deaths, and duration. The definitive data reference.' },
+    { slug: 'cost-of-doing-nothing', title: "What If We'd Done Nothing? The Counterfactual Cost of War", desc: 'Vietnam, Iraq, Afghanistan, Libya — the data says inaction was almost always cheaper than intervention.' },
   ]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
