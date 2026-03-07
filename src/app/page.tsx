@@ -45,42 +45,80 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
-      {/* Breaking: Iran 2026 */}
+      {/* Breaking: Iran 2026 — Day 7 */}
       {iranConflict && (
         <section className="bg-red-900 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● DEVELOPING</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 4: 787+ killed, 6 US troops dead, Strait of Hormuz closed, war spreading to Lebanon</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 7: 1,332+ killed, 6 US troops dead, 11 countries under fire, Hormuz closed, Russia aiding Iran</span>
             </div>
             <div className="flex gap-4 text-sm">
-              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-white underline">Conflict Data →</Link>
-              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Analysis →</Link>
+              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Coverage →</Link>
+              <Link href="/analysis/iran-cost-per-second" className="text-red-200 hover:text-white underline">Cost Tracker →</Link>
+              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-white underline">Data →</Link>
             </div>
           </div>
         </section>
       )}
 
-      {/* Latest Developments */}
+      {/* Iran War Hub — Latest Developments */}
       {iranConflict && (
-        <section className="bg-stone-950 text-white py-6 border-b border-red-900/50">
+        <section className="bg-stone-950 text-white py-8 border-b border-red-900/50">
           <div className="max-w-7xl mx-auto px-4">
+            {/* Key Stats Bar */}
+            <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
+              {[
+                { value: '1,332+', label: 'Killed in Iran' },
+                { value: '6', label: 'US Troops Dead' },
+                { value: '11+', label: 'Countries Under Fire' },
+                { value: '$3.6B', label: 'Week 1 Cost (est.)' },
+                { value: '$130+', label: 'Oil per Barrel' },
+                { value: '21M bbl', label: 'Daily Oil Halted' },
+              ].map((s, i) => (
+                <div key={i} className="text-center">
+                  <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
+                  <div className="text-xs text-stone-500">{s.label}</div>
+                </div>
+              ))}
+            </div>
+
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 7 (March 6)</h2>
             </div>
-            <div className="grid md:grid-cols-4 gap-3">
+            <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 4', text: 'Strait of Hormuz closed — oil prices surge past $130/barrel', link: '/analysis/iran-2026' },
-                { time: 'Day 3', text: 'Hezbollah launches rockets into northern Israel; IDF retaliates in Lebanon', link: '/conflicts/iran-2026' },
-                { time: 'Day 2', text: '6 US service members killed in Iranian ballistic missile counterattack', link: '/conflicts/iran-2026' },
-                { time: 'Day 1', text: 'US strikes Iranian nuclear & military sites — no congressional vote', link: '/analysis/iran-2026' },
+                { time: 'Day 7', text: 'B-2 bombers strike buried missile launchers. Mehrabad Airport hit. Trump demands unconditional surrender. Iran delays naming new Supreme Leader.', link: '/analysis/iran-2026' },
+                { time: 'Day 6', text: 'Russia reportedly sharing US military positions with Iran. European warships deploying. Azerbaijan intelligence plots foiled.', link: '/analysis/iran-russia-shadow-war' },
+                { time: 'Day 5', text: '30+ Iranian warships sunk. Iran\'s navy effectively destroyed. Oil surges past $130. Tanker insurance triples.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 4', text: 'Qatar strikes Iran after Al Udeid hit — first Qatari offensive action ever. Israel approves Lebanon ground incursion. 11+ countries under fire.', link: '/analysis/iran-regional-war' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>
                   <p className="text-sm text-stone-300 mt-1">{d.text}</p>
                 </Link>
               ))}
+            </div>
+
+            {/* Analysis Hub Links */}
+            <div className="border-t border-white/10 pt-4">
+              <h3 className="text-xs text-stone-500 uppercase tracking-wide mb-3">Iran War 2026 — Analysis & Data</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                {[
+                  { title: 'Full Timeline', href: '/analysis/iran-2026', icon: '📋' },
+                  { title: 'Cost Breakdown', href: '/analysis/iran-cost-per-second', icon: '💰' },
+                  { title: 'Civilian Toll', href: '/analysis/iran-civilian-cost', icon: '🏥' },
+                  { title: 'Regional Spread', href: '/analysis/iran-regional-war', icon: '🗺️' },
+                  { title: 'Russia\'s Role', href: '/analysis/iran-russia-shadow-war', icon: '🕵️' },
+                  { title: 'Hormuz Crisis', href: '/analysis/hormuz-crisis', icon: '⛽' },
+                ].map((a, i) => (
+                  <Link key={i} href={a.href} className="bg-white/5 hover:bg-white/10 rounded px-3 py-2 text-sm text-stone-300 hover:text-white transition flex items-center gap-2">
+                    <span>{a.icon}</span>
+                    <span>{a.title}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </section>
@@ -100,7 +138,7 @@ export default function HomePage() {
             sponsors. Just the numbers — sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
             own reports.
           </p>
-          <p className="text-stone-600 text-xs mb-12">Last updated: March 3, 2026</p>
+          <p className="text-stone-600 text-xs mb-12">Last updated: March 6, 2026</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>
@@ -347,9 +385,33 @@ export default function HomePage() {
         <p className="text-muted mt-4">— Dwight D. Eisenhower, 1953</p>
       </section>
 
+      {/* Iran 2026 Analysis — Featured */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <div className="flex items-center gap-3 mb-2">
+          <span className="text-xs px-2 py-1 rounded-full bg-red-100 text-red-700 font-semibold">NEW</span>
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold">Iran War 2026 — Deep Analysis</h2>
+        </div>
+        <p className="text-stone-500 mb-8">The most comprehensive coverage of Operation Epic Fury&apos;s costs, casualties, and consequences.</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            { title: 'Whose War Is This?', href: '/analysis/iran-2026', desc: 'The full Day 1–7 timeline. How diplomacy failed and bombs started falling.' },
+            { title: 'The $28,095-Per-Second War', href: '/analysis/iran-cost-per-second', desc: 'Every Tomahawk ($2.5M), B-2 sortie ($4.5M), and SM-3 interceptor ($36M) — priced and sourced.' },
+            { title: 'The Civilian Cost', href: '/analysis/iran-civilian-cost', desc: '180 schoolgirls. Grand Bazaar destroyed. Golestan Palace in rubble. What "precision" looks like.' },
+            { title: '11 Countries, 7 Days', href: '/analysis/iran-regional-war', desc: 'How a two-country war engulfed Iran, Israel, Lebanon, UAE, Qatar, Bahrain, Kuwait, Iraq, Saudi Arabia, Cyprus, Azerbaijan.' },
+            { title: 'Russia\'s Shadow War', href: '/analysis/iran-russia-shadow-war', desc: 'Moscow is sharing US military positions with Iran. Americans are dying with Russian help.' },
+            { title: 'Hormuz: The $80B Chokepoint', href: '/analysis/hormuz-crisis', desc: '21 miles wide. 20% of global oil. Iran closed it. There is no detour.' },
+          ].map(a => (
+            <Link key={a.href} href={a.href} className="bg-white rounded-lg border border-red-200 p-6 hover:shadow-md transition">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-2">{a.title}</h3>
+              <p className="text-muted text-sm">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Analysis Preview */}
       <section className="max-w-7xl mx-auto px-4 pb-16">
-        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-8">Analysis</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-8">More Analysis</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             { title: 'The War on Terror: $8 Trillion Later', href: '/analysis/war-on-terror', desc: '929,000 dead. Four countries destabilized. Was it worth it?' },

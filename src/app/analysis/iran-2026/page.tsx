@@ -969,12 +969,35 @@ export default function Iran2026Page() {
       </div>
 
       {/* Cross-links */}
-      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Related</h2>
-      <div className="grid md:grid-cols-2 gap-4 mb-8">
-        <Link href="/conflicts/iran-2026" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
-          <h3 className="font-semibold">Iran 2026 — Conflict Data →</h3>
-          <p className="text-stone-500 text-sm">Costs, casualties, and key events</p>
+      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Iran War 2026 — Deep Dives</h2>
+      <div className="grid md:grid-cols-2 gap-4 mb-4">
+        <Link href="/analysis/iran-cost-per-second" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">The $28,095-Per-Second War →</h3>
+          <p className="text-stone-500 text-sm">Every Tomahawk, B-2 sortie, and interceptor — priced and sourced. $3.6B in Week 1.</p>
         </Link>
+        <Link href="/analysis/iran-civilian-cost" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">The Civilian Cost: Schools, Hospitals, Grand Bazaar →</h3>
+          <p className="text-stone-500 text-sm">180 schoolgirls killed. UNESCO sites destroyed. What &quot;precision strikes&quot; look like.</p>
+        </Link>
+        <Link href="/analysis/iran-regional-war" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">11 Countries, 7 Days →</h3>
+          <p className="text-stone-500 text-sm">How a two-country war became a regional catastrophe. Every country mapped.</p>
+        </Link>
+        <Link href="/analysis/iran-russia-shadow-war" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Russia&apos;s Shadow War →</h3>
+          <p className="text-stone-500 text-sm">Moscow is sharing US military positions with Iran. Americans are dying with Russian help.</p>
+        </Link>
+        <Link href="/analysis/hormuz-crisis" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Hormuz: The $80 Billion Chokepoint →</h3>
+          <p className="text-stone-500 text-sm">21 miles wide. 20% of global oil. Iran closed it. There is no detour.</p>
+        </Link>
+        <Link href="/conflicts/iran-2026" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold">Iran 2026 — Conflict Data →</h3>
+          <p className="text-stone-500 text-sm">Raw numbers: costs, casualties, key events timeline</p>
+        </Link>
+      </div>
+      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4 mt-8">Related</h2>
+      <div className="grid md:grid-cols-2 gap-4 mb-8">
         <Link href="/conflicts/iran-1953" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
           <h3 className="font-semibold">Iran 1953 — The Original Sin →</h3>
           <p className="text-stone-500 text-sm">CIA overthrow of Mossadegh started all of this</p>

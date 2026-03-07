@@ -3639,7 +3639,7 @@
   },
   {
     "id": "iran-2026",
-    "name": "Iran Strikes (2026)",
+    "name": "Iran War (2026)",
     "shortName": "Iran 2026",
     "era": "War on Terror",
     "type": "intervention",
@@ -3649,17 +3649,20 @@
     "countries": [
       "Iran",
       "Israel",
+      "Lebanon",
       "Bahrain",
       "Kuwait",
-      "Jordan",
+      "UAE",
       "Qatar",
       "Iraq",
       "Saudi Arabia",
-      "UAE"
+      "Oman",
+      "Cyprus",
+      "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes against Iran to destroy nuclear capabilities and decapitate leadership. Supreme Leader Khamenei killed. Iran retaliated with missiles against 27 US bases across 7+ countries and closed the Strait of Hormuz. By Day 4: 6 US service members killed, 18 injured; 787+ Iranians dead (Red Crescent), possibly 1,500+ (Hengaw); 168 schoolgirls killed in Minab; 52 killed in Lebanon; 12 killed in Israel. 1,250+ targets hit. Qatar strikes Iran after Al Udeid hit. Israel approves ground incursion into Lebanon. Oil at $82/barrel. No exit strategy.",
-    "costNominal": 10000000000,
-    "costInflationAdjusted": 2000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 7 (March 6): 6 US troops killed, 18+ wounded; 1,230-1,332+ Iranians killed; 180 schoolgirls killed at Minab; 52 killed in Lebanon; 12+ killed in Israel; Dubai, Kuwait, Bahrain, Qatar, Iraq, Saudi Arabia all under Iranian missile fire. 2,500+ targets struck. 30+ Iranian warships sunk. B-2 bombers hitting buried missile launchers. Russia reportedly feeding Iran US military positions. Strait of Hormuz closed — 21M barrels/day of oil halted. Oil above $130/barrel. Trump demands unconditional surrender. No exit strategy. Largest US military operation since Iraq 2003.",
+    "costNominal": 15000000000,
+    "costInflationAdjusted": 3600000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 6,
@@ -3667,10 +3670,10 @@
       "battleDeaths": 6,
       "missing": 0
     },
-    "civilianDeaths": 1000,
+    "civilianDeaths": 1332,
     "troopsDeployed": 40000,
     "outcome": "Developing",
-    "outcomeDetail": "Joint US-Israeli strikes launched Feb 28, 2026. Khamenei killed. Iran retaliating across region. By Day 4: 6 US troops dead, 18 wounded. 787+ Iranians killed (Red Crescent), 1,500+ (Hengaw). 168 schoolgirls killed at Minab school. 52 killed in Lebanon, 12 in Israel. Qatar strikes Iran after Al Udeid Air Base hit. Israel approves ground incursion into Lebanon. Strait of Hormuz contested. Oil at $82/barrel. UAE reports 186 missiles and 812 drones targeting country. No exit strategy. Rapidly escalating into regional war.",
+    "outcomeDetail": "Day 7 (March 6): Joint US-Israeli strikes ongoing. Khamenei dead, no successor named. 6 US troops dead, 18+ wounded. 1,230-1,332+ Iranians killed. 180 schoolgirls killed at Minab school. Russia sharing US positions with Iran. 30+ Iranian naval vessels sunk. Hormuz closed. Oil above $130. Trump demands surrender. Iran refuses. Hezbollah opened Lebanon front. Qatar struck Iran. 11+ countries under fire. War escalating daily with no diplomacy in sight.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -3737,6 +3740,10 @@
       {
         "year": 2026,
         "event": "Mar 3: US embassies in Kuwait and Jordan closed/evacuated. Iran threatens to \"burn any ship\" in Strait of Hormuz."
+      },
+      {
+        "year": 2026,
+        "event": "Day 5-7: B-2 bombers strike buried missile launchers. Russia reportedly sharing US military positions with Iran. Trump demands unconditional surrender. Iran delays naming new Supreme Leader. 30+ Iranian warships sunk. Estimated $3.6B cost for Week 1."
       }
     ],
     "libertarianNote": "Another undeclared war. No congressional vote. No public debate. The founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim.",
