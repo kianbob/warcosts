@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import ArticleSchema from '@/components/ArticleSchema'
 import { loadData } from '@/lib/server-utils'
 import { fmt } from '@/lib/utils'
 
@@ -35,8 +34,30 @@ export default function DronesKillListPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'The Kill List: How America Decides Who Dies by Drone',
+        description: '14,000+ drone strikes across 7 countries. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed. The data behind America\'s remote-control war.',
+        url: 'https://www.warcosts.org/analysis/drones-kill-list',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Kill List' }]} />
-      <ArticleSchema title="The Kill List: How America Decides Who Dies by Drone" description="14,000+ drone strikes across 7 countries. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed. The data behind America\" url="/analysis/drones-kill-list" />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">US drone strikes have killed 17,000+ people across 7 countries, with civilian casualties comprising 20-40% of all deaths according to independent estimates.</p>
+          </div>
+        </div>
+      </div>
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">
         The Kill List: How America Decides Who Dies by <span className="text-red-400">Drone</span>
       </h1>

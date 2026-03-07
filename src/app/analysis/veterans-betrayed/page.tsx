@@ -6,7 +6,6 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
-import ArticleSchema from '@/components/ArticleSchema'
 import { SuicideChart, HomelessChart, WaitTimesChart, DenialTimelineChart } from './VeteransCharts'
 
 export const metadata: Metadata = {
@@ -104,8 +103,30 @@ export default function VeteransBetrayedPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Veterans Betrayed: 17 Suicides a Day, 37,000 Homeless & the VA\'s Broken Promises',
+        description: '17 veteran suicides per day. 37,000+ homeless veterans. The VA wait time scandal. Agent Orange denial. Burn pit denial. Gulf War Syndrome denial. America sends them to war and forgets them when they come home.',
+        url: 'https://www.warcosts.org/analysis/veterans-betrayed',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Veterans Betrayed' }]} />
-      <ArticleSchema title="Veterans Betrayed: 17 Suicides a Day, 37,000 Homeless & the VA\" description="17 veteran suicides per day. 37,000+ homeless veterans. The VA wait time scandal. Agent Orange denial. Burn pit denial. Gulf War Syndrome denial. America sends " url="/analysis/veterans-betrayed" />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">Over 22 veterans commit suicide daily in the US, while the VA struggles with a $15 billion maintenance backlog affecting veteran healthcare.</p>
+          </div>
+        </div>
+      </div>
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>

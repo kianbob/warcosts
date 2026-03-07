@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Sanctions Warfare — The Weapon That Kills More Than Bombs',
@@ -91,8 +90,30 @@ const sanctionsRegimes = [
 export default function SanctionsWarfarePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <ArticleJsonLd title="Sanctions Warfare — The Weapon That Kills More Than Bombs" description="Iraq sanctions killed 500,000 children. Cuba's 60-year embargo. Afghanistan's frozen $7B. Sanctions are undeclared war against civilians." slug="sanctions-warfare" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Sanctions Warfare — The Weapon That Kills More Than Bombs',
+        description: 'Iraq sanctions killed 500,000 children. Cuba\'s 60-year embargo. Iran\'s medicine shortages. Afghanistan\'s frozen $7B. Sanctions are undeclared war against civilians.',
+        url: 'https://www.warcosts.org/analysis/sanctions-warfare',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Sanctions Warfare' }]} />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">Economic sanctions killed 500,000+ Iraqi children under age 5, yet failed to remove Saddam Hussein who stayed in power for 13 more years.</p>
+          </div>
+        </div>
+      </div>
 
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">

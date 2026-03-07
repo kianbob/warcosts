@@ -4,7 +4,6 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
-import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Israel Lobby: How One Country Captured American Foreign Policy',
@@ -19,8 +18,30 @@ export const metadata: Metadata = {
 export default function IsraelLobbyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'The Israel Lobby: How One Country Captured American Foreign Policy',
+        description: 'The US has given Israel $310+ billion in aid since 1948 — more than any other country in history. How AIPAC, neoconservatives, and decades of lobbying bent American foreign policy to serve Israeli interests at the expense of American security and treasure.',
+        url: 'https://www.warcosts.org/analysis/israel-lobby',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Israel Lobby' }]} />
-      <ArticleSchema title="The Israel Lobby: How One Country Captured American Foreign Policy" description="The US has given Israel $310+ billion in aid since 1948 — more than any other country in history. How AIPAC, neoconservatives, and decades of lobbying bent Amer" url="/analysis/israel-lobby" />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">AIPAC has spent $221M on US elections since 2021, helping secure Israel's position as the largest cumulative recipient of US foreign aid at $310+ billion.</p>
+          </div>
+        </div>
+      </div>
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>

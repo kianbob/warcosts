@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Private Armies — Mercenaries, Contractors, and the Outsourcing of War',
@@ -84,12 +83,30 @@ const contractorVsMilitary = [
 export default function PrivateArmiesPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <ArticleJsonLd
-        title="Private Armies — Mercenaries, Contractors, and the Outsourcing of War"
-        description="Blackwater, Wagner Group, DynCorp. Privatizing war removes democratic accountability."
-        slug="private-armies"
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Private Armies — Mercenaries, Contractors, and the Outsourcing of War',
+        description: 'Blackwater, Wagner Group, DynCorp. 50,000+ contractors in Iraq. 8,000+ contractor deaths excluded from official counts. Privatizing war removes democratic accountability.',
+        url: 'https://www.warcosts.org/analysis/private-armies',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Private Armies' }]} />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">Private military contractors outnumber US troops 3:1 in recent conflicts, costing taxpayers $370+ billion since 2001 without meaningful oversight.</p>
+          </div>
+        </div>
+      </div>
 
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">

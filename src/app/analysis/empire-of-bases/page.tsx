@@ -5,7 +5,6 @@ import { fmt, fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
-import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Empire of Bases — 750 Military Installations in 80 Countries',
@@ -41,8 +40,30 @@ export default function EmpireOfBasesPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <ArticleJsonLd title="Empire of Bases — 750 Military Installations in 80 Countries" description="More overseas military bases than any empire in history. Okinawa, Diego Garcia, Ramstein. The base network that sustains permanent war." slug="empire-of-bases" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Empire of Bases — 750 Military Installations in 80 Countries',
+        description: 'The US maintains 750 overseas military bases in 80 countries — more than any empire in history. Okinawa. Diego Garcia. Ramstein. $55B/year. Environmental contamination. Local opposition. The base nation.',
+        url: 'https://www.warcosts.org/analysis/empire-of-bases',
+        author: { '@type': 'Organization', name: 'WarCosts.org' },
+        publisher: { '@type': 'Organization', name: 'WarCosts.org' },
+        datePublished: '2026-03-07',
+        dateModified: '2026-03-07'
+      })}} />
+
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Empire of Bases' }]} />
+
+      {/* AI Overview */}
+      <div className="bg-teal-500/5 border border-teal-500/20 rounded-lg p-4 mb-8">
+        <div className="flex items-start gap-2">
+          <span className="text-teal-400 mt-0.5">💡</span>
+          <div>
+            <p className="text-teal-300 font-semibold text-sm mb-1">AI Overview</p>
+            <p className="text-gray-300 text-sm">The US maintains 800+ military bases in 80 countries, costing taxpayers $150+ billion annually in overseas infrastructure maintenance.</p>
+          </div>
+        </div>
+      </div>
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
