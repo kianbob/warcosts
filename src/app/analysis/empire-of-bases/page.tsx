@@ -43,7 +43,6 @@ export default function EmpireOfBasesPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="Empire of Bases — 750 Military Installations in 80 Countries" description="More overseas military bases than any empire in history. Okinawa, Diego Garcia, Ramstein. The base network that sustains permanent war." slug="empire-of-bases" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Empire of Bases' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

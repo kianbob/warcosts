@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
@@ -53,7 +55,7 @@ export default function HormuzCrisisPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Hormuz Crisis' }]} />
-
+      <ArticleSchema title="The Strait of Hormuz: How One Waterway Could Crash the Global Economy" description="20% of global oil and 20% of global LNG flows through a 21-mile-wide strait. Iran closed it on February 28, 2026. Oil is heading past $100. The global economy i" url="/analysis/hormuz-crisis" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <div className="flex items-center gap-3 mb-4">
@@ -357,7 +359,9 @@ export default function HormuzCrisisPage() {
         </ul>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"iran-2026","title":"Iran 2026: Full Analysis","desc":"The complete story of Operation Epic Fury."},{"slug":"oil-and-war","title":"Oil & War","desc":"Every Middle East war is about oil."},{"slug":"economic-warfare","title":"Economic Warfare","desc":"Sanctions, SWIFT, and the weaponized dollar."}]} />
+
+        <BackToTop />
     </div>
   )
 }

@@ -4,6 +4,8 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'What $11.6 Trillion Could Have Bought Instead of War',
@@ -56,7 +58,7 @@ export default function WhatCouldWeBuyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'What Could We Buy' }]} />
-
+      <ArticleSchema title="What $11.6 Trillion Could Have Bought Instead of War" description="America has spent $11.6 trillion on war. That could have paid for universal healthcare for 20 years, free college for 100 years, or clean water for every person" url="/analysis/what-could-we-buy" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Opportunity Cost</p>
@@ -290,7 +292,9 @@ export default function WhatCouldWeBuyPage() {
         </ul>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"pentagon-waste","title":"Pentagon Waste","desc":"$640 toilet seats and failed audits."},{"slug":"jobs-vs-war","title":"Jobs vs. War","desc":"Military spending creates fewer jobs."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."}]} />
+
+        <BackToTop />
     </div>
   )
 }

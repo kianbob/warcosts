@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Israel Lobby: How One Country Captured American Foreign Policy',
@@ -18,7 +20,7 @@ export default function IsraelLobbyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Israel Lobby' }]} />
-
+      <ArticleSchema title="The Israel Lobby: How One Country Captured American Foreign Policy" description="The US has given Israel $310+ billion in aid since 1948 — more than any other country in history. How AIPAC, neoconservatives, and decades of lobbying bent Amer" url="/analysis/israel-lobby" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>
@@ -527,7 +529,9 @@ export default function IsraelLobbyPage() {
         </ul>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"aipac-war-machine","title":"Follow the Money: AIPAC","desc":"$221M in political spending."},{"slug":"iran-2026","title":"Iran 2026","desc":"The war AIPAC helped make possible."},{"slug":"congressional-authority","title":"Congressional Authority","desc":"Who has the power to declare war?"}]} />
+
+        <BackToTop />
     </div>
   )
 }

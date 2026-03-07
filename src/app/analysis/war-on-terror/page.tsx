@@ -5,6 +5,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
@@ -84,7 +85,6 @@ export default function WarOnTerrorPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="The War on Terror: $8 Trillion, 900,000 Dead, 37 Million Displaced" description="The most expensive military campaign in modern history. A comprehensive accounting of what America spent, who died, and what it achieved." slug="war-on-terror" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'War on Terror' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">Flagship Analysis</span>
@@ -1277,7 +1277,9 @@ export default function WarOnTerrorPage() {
         </Link>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"forever-wars","title":"The Forever Wars","desc":"How 60 words enabled 25 years of global war."},{"slug":"911-to-forever-war","title":"From 9/11 to Forever War","desc":"How 19 hijackers changed America forever."},{"slug":"what-victory-looks-like","title":"What Victory Looks Like","desc":"Iraq, Afghanistan, Libya — what did we achieve?"},{"slug":"human-cost","title":"The Human Cost","desc":"Every number was a person."}]} />
+
+        <BackToTop />
     </div>
   )
 }

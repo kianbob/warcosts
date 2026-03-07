@@ -102,7 +102,6 @@ export default function CyberWarfarePage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="Cyber Warfare — The Invisible Battlefield With No Rules" description="Stuxnet, SolarWinds, NotPetya, Colonial Pipeline. The new battlefield has no Geneva Convention, no rules of engagement, and no accountability." slug="cyber-warfare" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Cyber Warfare' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

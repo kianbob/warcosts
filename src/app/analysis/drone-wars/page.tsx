@@ -38,7 +38,6 @@ export default function DroneWarsPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="Drone Wars — The Invisible War Nobody Voted For" description="14,000+ strikes, thousands of civilians killed. How drones made war invisible, permanent, and unconstitutional." slug="drone-wars" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Drone Wars' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

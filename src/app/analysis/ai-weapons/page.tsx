@@ -80,7 +80,6 @@ export default function AIWeaponsPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="AI Weapons — Autonomous Killing Machines With No Accountability" description="Project Maven, Israel's Lavender AI, Kargu-2 autonomous drones. When algorithms decide who lives and dies, accountability disappears." slug="ai-weapons" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'AI Weapons' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

@@ -4,6 +4,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'What Will Iran Cost? Projecting the Price of Operation Epic Fury',
@@ -67,7 +68,7 @@ export default function CostOfIranPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Cost of Iran' }]} />
-
+      <ArticleSchema title="What Will Iran Cost? Projecting the Price of Operation Epic Fury" description="Iraq cost $2.4 trillion for 26 million people. Afghanistan cost $2.3 trillion for 38 million. Iran has 88 million people, a real military, and the Strait of Hor" url="/analysis/cost-of-iran" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Cost Analysis</p>

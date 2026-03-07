@@ -4,6 +4,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Follow the Money: How AIPAC Shaped the Path to War with Iran',
@@ -64,7 +65,7 @@ export default function AIPACWarMachinePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'AIPAC & the Path to War' }]} />
-
+      <ArticleSchema title="Follow the Money: How AIPAC Shaped the Path to War with Iran" description="AIPAC spent $221 million on US political campaigns since 2021. $45.2M to defeat anti-war candidates. $20M to kill the Iran nuclear deal. Then the bombs fell. Fo" url="/analysis/aipac-war-machine" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Follow the Money</p>

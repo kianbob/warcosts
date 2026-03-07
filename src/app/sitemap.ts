@@ -51,7 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/iran-day-by-day',
     '/analysis/americas-wars-by-the-numbers',
     '/analysis/cost-of-doing-nothing',
-    '/about', '/methodology', '/faq', '/sources',
+    '/about', '/methodology', '/faq', '/sources', '/contact', '/privacy',
     '/war-clock', '/tools/tax-receipt', '/tools/jobs-calculator',
     '/cost-per-life', '/presidents', '/countries', '/decades',
     '/us-military-spending', '/cost-of-war', '/us-wars-list',

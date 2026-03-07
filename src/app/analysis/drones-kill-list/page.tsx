@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 import { loadData } from '@/lib/server-utils'
 import { fmt } from '@/lib/utils'
 
@@ -35,7 +36,7 @@ export default function DronesKillListPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Kill List' }]} />
-
+      <ArticleSchema title="The Kill List: How America Decides Who Dies by Drone" description="14,000+ drone strikes across 7 countries. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed. The data behind America\" url="/analysis/drones-kill-list" />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">
         The Kill List: How America Decides Who Dies by <span className="text-red-400">Drone</span>
       </h1>

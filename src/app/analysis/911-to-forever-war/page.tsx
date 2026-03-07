@@ -5,6 +5,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'From 9/11 to Forever War — How 19 Hijackers Changed America',
@@ -52,7 +53,7 @@ export default function NineElevenForeverWarPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: '9/11 to Forever War' }]} />
-
+      <ArticleSchema title="From 9/11 to Forever War — How 19 Hijackers Changed America" description="2,977 deaths on 9/11 → $8 trillion spent, 900,000+ killed, 38 million displaced, civil liberties gutted. The 60-word AUMF authorized wars in 22 countries for 25" url="/analysis/911-to-forever-war" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>

@@ -33,6 +33,10 @@ const sections = [
     articles: [
       { slug: 'iran-day-by-day', title: 'Iran 2026: A Day-by-Day Account', desc: 'A factual chronological war diary. Verified casualties, running cost estimate, countries drawn in — updated daily.' },
       { slug: 'iran-2026', title: 'Iran 2026: Another Undeclared War?', desc: 'The US launches strikes on Iran with no congressional vote. History repeats.' },
+      { slug: 'iran-cost-per-second', title: 'The $28,095-Per-Second War', desc: 'Every dollar broken down: Tomahawks at $2.5M each, B-2 sorties at $150K/hour, two carrier groups at $13M/day.' },
+      { slug: 'iran-civilian-cost', title: 'The Civilian Cost of the Iran War', desc: '180 schoolgirls killed in Minab. Hospitals hit. Neighborhoods flattened. The human toll of Operation Epic Fury.' },
+      { slug: 'iran-regional-war', title: '11 Countries, 7 Days: How Iran Became a Regional War', desc: 'Iran struck back across the entire Middle East. Qatar, Israel, Bahrain, Kuwait — everyone is in it now.' },
+      { slug: 'iran-russia-shadow-war', title: 'Russia\'s Shadow War: Feeding Iran US Positions', desc: 'Moscow is reportedly sharing US military positions with Tehran. The proxy war nobody expected.' },
       { slug: 'cost-of-iran', title: 'What Will Iran Cost?', desc: 'Projecting the price of Operation Epic Fury — from $20B air campaign to $5T+ occupation.' },
       { slug: 'hormuz-crisis', title: 'The Strait of Hormuz Crisis', desc: 'How one 21-mile waterway could crash the global economy. Iran closed it. Now what?' },
       { slug: 'aipac-war-machine', title: 'Follow the Money: AIPAC and the Path to War', desc: '$221M in political spending. The lobby that killed the Iran deal and shaped the path to war.' },

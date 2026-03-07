@@ -4,6 +4,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
@@ -1056,7 +1057,9 @@ export default function Iran2026Page() {
         </Link>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"iran-day-by-day","title":"Iran Day-by-Day","desc":"Verified casualties and events — updated daily."},{"slug":"iran-cost-per-second","title":"The $28,095/Second War","desc":"Every dollar broken down."},{"slug":"hormuz-crisis","title":"The Hormuz Crisis","desc":"21M barrels/day halted."},{"slug":"iran-civilian-cost","title":"The Civilian Cost","desc":"Schools, hospitals, neighborhoods destroyed."}]} />
+
+        <BackToTop />
 
       <script
         type="application/ld+json"

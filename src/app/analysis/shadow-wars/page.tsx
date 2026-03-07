@@ -95,7 +95,6 @@ export default function ShadowWarsPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="Shadow Wars — America's Secret Wars in 134+ Countries" description="JSOC operates in 134+ countries with classified budgets, kill lists, and no congressional oversight. The Founders gave war power to Congress — presidents took it back." slug="shadow-wars" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Shadow Wars' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

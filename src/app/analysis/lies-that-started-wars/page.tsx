@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 import { TruthDelayChart, DeathsByLieChart, MediaComplicityChart, LieTimelineChart } from './LiesCharts'
 
 export const metadata: Metadata = {
@@ -84,7 +86,7 @@ export default function LiesThatStartedWarsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Lies That Started Wars' }]} />
-
+      <ArticleSchema title="Lies That Started Wars: Gulf of Tonkin, WMDs, Nayirah & the Pattern of Deception" description="Gulf of Tonkin was fabricated. WMDs didn\" url="/analysis/lies-that-started-wars" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
@@ -361,7 +363,9 @@ export default function LiesThatStartedWarsPage() {
         </div>
       </div>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"media-and-war","title":"Manufacturing Consent","desc":"How media sells every war."},{"slug":"war-on-terror","title":"War on Terror: $8T Later","desc":"The most expensive campaign in history."},{"slug":"blowback","title":"Blowback","desc":"How interventions create enemies."}]} />
+
+        <BackToTop />
     </div>
   )
 }

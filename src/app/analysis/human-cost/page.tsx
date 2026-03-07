@@ -34,7 +34,6 @@ export default function HumanCostPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="The Human Cost of War — Every Number Was a Person" description="17 veteran suicides per day. 37 million displaced. Agent Orange. Depleted uranium. The human cost America ignores." slug="human-cost" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Human Cost' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

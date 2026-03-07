@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navItems = [
+  { label: '🔴 Iran War', href: '/iran-war-2026' },
   { label: 'Modern Wars', href: '/modern-wars' },
   { label: 'War Clock', href: '/war-clock' },
   { label: 'Timeline', href: '/timeline' },
@@ -115,6 +116,8 @@ const navItems = [
       { label: 'Sources', href: '/sources' },
       { label: 'Downloads', href: '/downloads' },
       { label: 'Search', href: '/search' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Privacy', href: '/privacy' },
     ],
   },
 ]

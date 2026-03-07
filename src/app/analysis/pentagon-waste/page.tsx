@@ -4,6 +4,8 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 import { AuditChart, AfghanWasteChart, WeaponOverrunsChart } from './PentagonWasteCharts'
 
 export const metadata: Metadata = {
@@ -50,7 +52,7 @@ export default function PentagonWastePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Pentagon Waste' }]} />
-
+      <ArticleSchema title="Pentagon Waste: $640 Toilet Seats, Failed Audits & Trillions Unaccounted For" description="The Pentagon has failed 6 consecutive audits. The F-35 program: $1.7 trillion. A $43 million gas station in Afghanistan. $6.6 billion in cash lost in Iraq. The " url="/analysis/pentagon-waste" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
@@ -400,7 +402,9 @@ export default function PentagonWastePage() {
         </div>
       </section>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"cost-of-secrecy","title":"The Black Budget","desc":"$23 trillion unaccounted for."},{"slug":"military-industrial-complex","title":"Military-Industrial Complex","desc":"Eisenhower warned us."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"Healthcare, education, and more."}]} />
+
+        <BackToTop />
     </div>
   )
 }

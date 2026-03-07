@@ -4,6 +4,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'War Is a Racket: Who Gets Rich When America Goes to War',
@@ -63,7 +64,7 @@ export default function WarProfiteeringPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'War Profiteering' }]} />
-
+      <ArticleSchema title="War Is a Racket: Who Gets Rich When America Goes to War" description="Lockheed Martin stock up 1,236% since 9/11. General Dynamics up 1,450%. CEO pay: $30M. Enlisted soldier pay: $24K. 672 Pentagon officials became defense lobbyis" url="/analysis/war-profiteering" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>

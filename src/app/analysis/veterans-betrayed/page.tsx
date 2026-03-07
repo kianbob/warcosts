@@ -5,6 +5,8 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 import { SuicideChart, HomelessChart, WaitTimesChart, DenialTimelineChart } from './VeteransCharts'
 
 export const metadata: Metadata = {
@@ -47,7 +49,7 @@ export default function VeteransBetrayedPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Veterans Betrayed' }]} />
-
+      <ArticleSchema title="Veterans Betrayed: 17 Suicides a Day, 37,000 Homeless & the VA\" description="17 veteran suicides per day. 37,000+ homeless veterans. The VA wait time scandal. Agent Orange denial. Burn pit denial. Gulf War Syndrome denial. America sends " url="/analysis/veterans-betrayed" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
@@ -404,7 +406,9 @@ export default function VeteransBetrayedPage() {
         </div>
       </section>
 
-      <BackToTop />
+      <RelatedArticles articles={[{"slug":"human-cost","title":"The Human Cost","desc":"Beyond the statistics."},{"slug":"the-aftermath","title":"The Aftermath","desc":"Wars don't end when troops come home."},{"slug":"environmental-cost","title":"Environmental Cost","desc":"Burn pits, depleted uranium, Agent Orange."}]} />
+
+        <BackToTop />
     </div>
   )
 }

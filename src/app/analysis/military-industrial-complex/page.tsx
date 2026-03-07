@@ -82,7 +82,6 @@ export default function MICPage() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="The Military-Industrial Complex — Eisenhower's Warning Come True" description="$886B/year budget. 5 contractors earning $282B. Pentagon never audited. The revolving door. The warning we ignored." slug="military-industrial-complex" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Military-Industrial Complex' }]} />
-
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>

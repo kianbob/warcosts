@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import ArticleSchema from '@/components/ArticleSchema'
 import { DetaineeChart, TortureTimelineChart, TechniqueChart, AccountabilityChart, BlackSitesTable } from './TortureCharts'
 
 export const metadata: Metadata = {
@@ -57,7 +58,7 @@ export default function TortureProgramPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'America\'s Torture Program' }]} />
-
+      <ArticleSchema title="America\" description="The CIA tortured at least 119 detainees across black sites in Poland, Thailand, Romania, and beyond. 266 waterboardings. Rectal feeding. The Senate confirmed it" url="/analysis/torture-program" />
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
