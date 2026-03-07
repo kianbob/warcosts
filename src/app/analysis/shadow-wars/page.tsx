@@ -53,6 +53,8 @@ const legalAuthorities = [
     text: '"The President is authorized to use all necessary and appropriate force against those nations, organizations, or persons he determines planned, authorized, committed, or aided the terrorist attacks that occurred on September 11, 2001."',
     scope: '60 words. Intended to authorize force against Al-Qaeda and the Taliban. Has been stretched to justify operations in 22+ countries against groups that didn\'t exist on 9/11.',
     uses: 'Used to justify operations against ISIS (founded 2013), Al-Shabaab (Somalia), AQAP (Yemen), ISIS-K (Afghanistan), and dozens of other groups with tenuous or no connection to 9/11.',
+    votes: 'House: 420-1 (Barbara Lee dissented). Senate: 98-0. Total debate time: ~3 hours. No amendments allowed.',
+    cost: 'Total cost of operations under 2001 AUMF: $8+ trillion (2001-2024, Costs of War Project)',
   },
   {
     name: 'Section 1202 Authority',
@@ -60,6 +62,8 @@ const legalAuthorities = [
     text: 'Authorizes DOD to provide support to "foreign forces, irregular forces, groups, or individuals" engaged in operations supporting US special operations.',
     scope: 'Creates a legal framework for the US to support proxy forces and paramilitaries worldwide with minimal congressional notification.',
     uses: 'Classified. The exact operations conducted under Section 1202 are not publicly known. Reporting requirements to Congress are minimal — 15-day notification, classified briefing.',
+    votes: 'Passed as part of larger defense bill with minimal debate. Most members unaware of Section 1202\'s implications.',
+    cost: 'Budget allocation classified. Estimated $3-5 billion annually (Stephanie Savell, Brown University)',
   },
   {
     name: 'Article II Commander-in-Chief Authority',
@@ -67,6 +71,8 @@ const legalAuthorities = [
     text: 'Presidents claim inherent constitutional authority to deploy military forces for short-term operations, self-defense, and protection of US nationals.',
     scope: 'Essentially unlimited as interpreted by modern presidents. Used to justify everything from Libya bombing to Syria strikes to Iranian general assassinations.',
     uses: 'Every president since Truman has used Article II authority to conduct military operations without congressional authorization. The War Powers Resolution (1973) was supposed to check this — it has been ignored by every president since.',
+    votes: 'Constitutional provision. War Powers Resolution passed in 1973 over Nixon\'s veto.',
+    cost: 'Impossible to calculate — encompasses most military operations since 1950',
   },
   {
     name: 'Title 50 Covert Action Authority',
@@ -74,6 +80,211 @@ const legalAuthorities = [
     text: 'Authorizes the CIA to conduct covert actions abroad as directed by the president through a signed "finding."',
     scope: 'CIA operations are classified by definition. Oversight is limited to the "Gang of Eight" — the top 4 leaders of each chamber and the chairs/ranking members of the intelligence committees.',
     uses: 'CIA paramilitary operations, drone strikes (pre-2013), arming insurgent groups, regime change operations. By definition, the US government denies these activities exist.',
+    votes: 'Original National Security Act passed 253-136 in House, 47-36 in Senate. Amendments classified.',
+    cost: 'CIA budget classified. Total intelligence community: $98.2 billion (FY2023)',
+  },
+  {
+    name: 'Section 1208 Authority',
+    passed: '2005 NDAA',
+    text: 'Authorizes SOCOM to provide support to "foreign forces, irregular forces, or groups or individuals" supporting US counterterrorism operations.',
+    scope: 'Predecessor to Section 1202. Allows US special forces to arm, train, and support foreign paramilitaries and militias.',
+    uses: 'Used to support Kurdish peshmerga in Iraq, Syrian Democratic Forces, various African militias, Colombian paramilitaries, and other proxy forces.',
+    votes: 'Passed as part of defense authorization with minimal congressional awareness or debate.',
+    cost: '$1.2 billion annually at peak (2015-2018). Funding through OCO and classified accounts.',
+  },
+  {
+    name: 'War Powers Resolution of 1973',
+    passed: 'November 7, 1973',
+    text: 'Requires the President to notify Congress within 48 hours of committing armed forces and withdraw them within 60 days unless Congress authorizes continued use.',
+    scope: 'Intended to reassert congressional war powers after Vietnam. Has been systematically ignored by every president since passage.',
+    uses: 'Presidents claim it\'s unconstitutional. Have consistently refused to comply with notification or withdrawal requirements. Military operations routinely exceed 60-day limit without congressional authorization.',
+    votes: 'House: 284-135, Senate: 75-18. Passed over Nixon\'s veto.',
+    cost: 'Compliance cost: $0. No president has ever fully complied with the resolution.',
+  },
+]
+
+const droneStrikesByCountry = [
+  {
+    country: 'Pakistan',
+    period: '2004-2018',
+    strikes: '431 strikes',
+    killed: '4,024-10,076 people',
+    civilians: '424-969 civilians',
+    children: '172-207 children',
+    peakYear: '2010: 128 strikes under Obama',
+    legalBasis: '2001 AUMF (Al-Qaeda), CIA Title 50 authority',
+    notes: 'Stopped after Pakistan formally objected in 2018. Operated from Shamsi Airbase until 2011.',
+  },
+  {
+    country: 'Yemen',
+    period: '2002-2024',
+    strikes: '400+ strikes',
+    killed: '1,500-2,400 people',
+    civilians: '200-400+ civilians',
+    children: '50+ children',
+    peakYear: '2017: 130 strikes under Trump',
+    legalBasis: '2001 AUMF (AQAP), self-defense against Houthis',
+    notes: 'Ongoing. Strikes increased 300% under Trump. Al-Awlaki family killed here.',
+  },
+  {
+    country: 'Somalia',
+    period: '2007-2024',
+    strikes: '280+ strikes',
+    killed: '1,200-1,750 people',
+    civilians: '50-100+ civilians',
+    children: '10+ children',
+    peakYear: '2020: 54 strikes under Trump',
+    legalBasis: '2001 AUMF (Al-Shabaab allegedly tied to AQ)',
+    notes: 'Longest-running drone campaign. "Areas of active hostilities" designation removes civilian protections.',
+  },
+  {
+    country: 'Libya',
+    period: '2011-2020',
+    strikes: '600+ strikes',
+    killed: '600-1,000 people',
+    civilians: '50-100+ civilians',
+    children: '15+ children',
+    peakYear: '2016: 496 strikes under Obama',
+    legalBasis: 'Initially humanitarian intervention, later counter-ISIS',
+    notes: 'Massive escalation after Gaddafi\'s fall. Country remains in chaos.',
+  },
+  {
+    country: 'Syria',
+    period: '2014-2024',
+    strikes: '17,000+ strikes',
+    killed: '15,000+ ISIS fighters',
+    civilians: '1,600+ civilians (Airwars)',
+    children: '300+ children',
+    peakYear: '2017: 12,192 strikes under Trump',
+    legalBasis: 'Collective self-defense of Iraq (disputed)',
+    notes: 'No congressional authorization. US troops remain illegally under international law.',
+  },
+  {
+    country: 'Iraq',
+    period: '2014-2024',
+    strikes: '16,000+ strikes',
+    killed: '20,000+ ISIS fighters',
+    civilians: '1,200+ civilians',
+    children: '250+ children',
+    peakYear: '2017: 7,968 strikes',
+    legalBasis: '2001 AUMF (ISIS), Iraqi government invitation',
+    notes: 'Resumed bombing after 2011 withdrawal. Mosul campaign devastated city.',
+  },
+]
+
+const soccomEvolution = [
+  {
+    year: '1980',
+    personnel: '11,200',
+    budget: '$441M',
+    countries: '10-15',
+    event: 'SOCOM doesn\'t exist yet. Operation Eagle Claw (Iran hostage rescue) fails catastrophically, spurring special operations reform.',
+  },
+  {
+    year: '1987',
+    personnel: '25,000',
+    budget: '$1.2B',
+    countries: '20-25',
+    event: 'SOCOM established by Congress after Goldwater-Nichols Act. Centralizes special operations under single command.',
+  },
+  {
+    year: '2001',
+    personnel: '37,000',
+    budget: '$3.1B',
+    countries: '30-40',
+    event: 'September 11 attacks. SOCOM begins rapid expansion. 2001 AUMF provides legal framework for global operations.',
+  },
+  {
+    year: '2008',
+    personnel: '54,000',
+    budget: '$6.9B',
+    countries: '75-85',
+    event: 'McChrystal transforms JSOC into "industrial counterterrorism killing machine." Peak Iraq surge operations.',
+  },
+  {
+    year: '2012',
+    personnel: '66,000',
+    budget: '$10.4B',
+    countries: '100-110',
+    event: 'Obama\'s "light footprint" warfare. Drone strikes peak. Kill list formalized. Libya intervention.',
+  },
+  {
+    year: '2016',
+    personnel: '69,700',
+    budget: '$11.9B',
+    countries: '120-130',
+    event: 'Counter-ISIS campaign at peak. SOCOM operates on every continent except Antarctica.',
+  },
+  {
+    year: '2020',
+    personnel: '72,000',
+    budget: '$13.6B',
+    countries: '134+',
+    event: 'Trump removes civilian casualty restrictions. SOCOM budget exceeds State Department entire budget.',
+  },
+  {
+    year: '2024',
+    personnel: '70,000+',
+    budget: '$13.1B',
+    countries: '134+',
+    event: 'Biden continues expansion despite Afghanistan withdrawal. New focus on "great power competition" with China and Russia.',
+  },
+]
+
+const covertOperationsHistory = [
+  {
+    operation: 'Operation Cyclone',
+    period: '1979-1989',
+    country: 'Afghanistan/Pakistan',
+    cost: '$3.2 billion (largest CIA operation in history)',
+    description: 'CIA arms and trains mujahideen to fight Soviet occupation. Creates networks that later become Taliban and Al-Qaeda.',
+    outcome: 'Soviet withdrawal, but Afghanistan remains in chaos. Many US weapons end up with anti-American fighters.',
+    blowback: 'Osama bin Laden and much of Al-Qaeda leadership trained and equipped by CIA. 9/11 attacks partially result of this operation.',
+  },
+  {
+    operation: 'Operation Phoenix',
+    period: '1967-1971',
+    country: 'South Vietnam',
+    cost: '$1+ billion',
+    description: 'CIA program to identify and "neutralize" Viet Cong infrastructure through assassination, torture, and imprisonment.',
+    outcome: '26,369 alleged Viet Cong killed, 33,358 captured. Many innocent civilians murdered. Did not prevent US defeat.',
+    blowback: 'Torture techniques developed in Phoenix later used in Central America, Iraq, and Afghanistan.',
+  },
+  {
+    operation: 'Iran-Contra',
+    period: '1981-1987',
+    country: 'Nicaragua/Iran',
+    cost: '$47+ million illegally diverted',
+    description: 'Reagan administration illegally sells weapons to Iran to fund Nicaraguan Contras after Congress banned aid.',
+    outcome: 'Congressional hearings, multiple convictions (later pardoned). Nicaragua remains impoverished.',
+    blowback: 'Constitutional crisis. Contras engaged in drug trafficking. Iranian weapons used against US forces.',
+  },
+  {
+    operation: 'Bay of Pigs Invasion',
+    period: '1961',
+    country: 'Cuba',
+    cost: '$46 million',
+    description: 'CIA-trained Cuban exiles attempt to overthrow Castro government.',
+    outcome: 'Complete failure. 118 killed, 1,202 captured. Castro consolidates power.',
+    blowback: 'Pushes Cuba into Soviet sphere. Leads to Cuban Missile Crisis (1962). Failed assassination attempts on Castro.',
+  },
+  {
+    operation: 'Operation Condor',
+    period: '1975-1983',
+    country: 'South America',
+    cost: 'Unknown (classified)',
+    description: 'US supports network of South American dictatorships conducting transnational assassinations and disappearances.',
+    outcome: '60,000+ killed or disappeared. Democracy destroyed across the region.',
+    blowback: 'Mass refugee flows to US. Drug cartels fill power vacuum. Anti-American sentiment throughout region.',
+  },
+  {
+    operation: 'Timber Sycamore',
+    period: '2012-2017',
+    country: 'Syria',
+    cost: '$1+ billion annually',
+    description: 'CIA program to arm and train Syrian rebels to overthrow Assad government.',
+    outcome: 'Program shut down after rebels fight each other and join jihadist groups. Assad remains in power.',
+    blowback: 'US weapons end up with ISIS and Al-Qaeda affiliates. Prolonged Syrian civil war, massive refugee crisis.',
   },
 ]
 
@@ -309,9 +520,145 @@ export default function ShadowWarsPage() {
                 {auth.text}
               </div>
               <p className="text-sm text-stone-600 mb-2"><strong>Scope:</strong> {auth.scope}</p>
-              <p className="text-sm text-stone-600"><strong>Used for:</strong> {auth.uses}</p>
+              <p className="text-sm text-stone-600 mb-2"><strong>Used for:</strong> {auth.uses}</p>
+              {auth.votes && <p className="text-xs text-stone-500 mb-1"><strong>Congressional vote:</strong> {auth.votes}</p>}
+              {auth.cost && <p className="text-xs text-stone-500"><strong>Cost:</strong> {auth.cost}</p>}
             </div>
           ))}
+        </div>
+        <div className="mt-6 p-4 bg-amber-50 border border-amber-300 rounded-lg">
+          <h3 className="font-bold text-amber-800 mb-2">💡 The Legal Absurdity</h3>
+          <p className="text-sm text-stone-700">
+            These six legal authorities allow the President to wage war anywhere on Earth, against any group,
+            for any reason tangentially related to &ldquo;terrorism&rdquo; or &ldquo;national security.&rdquo;
+            The 2001 AUMF — written for Al-Qaeda — is now used to bomb ISIS (formed 2013), Al-Shabaab (2006),
+            and dozens of other groups that didn&apos;t exist on September 11. By this elastic logic, the
+            60 words passed three days after 9/11 could theoretically authorize military action forever,
+            against anyone, anywhere. See our full analysis: <Link href="/analysis/congressional-authority" className="text-red-700 underline">19 Wars Without Congress</Link>.
+          </p>
+        </div>
+      </div>
+
+      {/* SOCOM evolution */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The Growth of America&apos;s Secret Army: 1980-2024</h2>
+        <div className="space-y-3 mb-6">
+          {soccomEvolution.map(year => (
+            <div key={year.year} className="flex gap-4 items-start border-l-2 border-red-300 pl-4">
+              <div className="shrink-0">
+                <span className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">{year.year}</span>
+                <div className="text-xs text-stone-500 mt-1">
+                  <div>{year.personnel} personnel</div>
+                  <div>{year.budget} budget</div>
+                  <div>{year.countries} countries</div>
+                </div>
+              </div>
+              <p className="text-sm text-stone-700">{year.event}</p>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-stone-50 rounded-lg p-4">
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">89%</p>
+            <p className="text-xs text-stone-600">Personnel growth since 9/11</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">323%</p>
+            <p className="text-xs text-stone-600">Budget growth since 9/11</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">335%</p>
+            <p className="text-xs text-stone-600">Country presence growth</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">100%</p>
+            <p className="text-xs text-stone-600">Of presidents who expanded this</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Drone strikes by country */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Death From Above: Drone Strikes by Country</h2>
+        <div className="space-y-4">
+          {droneStrikesByCountry.map(strike => (
+            <div key={strike.country} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <h3 className="font-bold text-xl text-red-400">{strike.country}</h3>
+                <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">{strike.period}</span>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3 text-sm">
+                <div>
+                  <p className="text-stone-400 text-xs">Total Strikes</p>
+                  <p className="font-bold text-white">{strike.strikes}</p>
+                </div>
+                <div>
+                  <p className="text-stone-400 text-xs">People Killed</p>
+                  <p className="font-bold text-red-400">{strike.killed}</p>
+                </div>
+                <div>
+                  <p className="text-stone-400 text-xs">Civilians</p>
+                  <p className="font-bold text-yellow-400">{strike.civilians}</p>
+                </div>
+                <div>
+                  <p className="text-stone-400 text-xs">Children</p>
+                  <p className="font-bold text-orange-400">{strike.children}</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-300 mb-2"><strong>Peak year:</strong> {strike.peakYear}</p>
+              <p className="text-sm text-stone-300 mb-2"><strong>Legal basis:</strong> {strike.legalBasis}</p>
+              <p className="text-xs text-stone-400 italic">{strike.notes}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-stone-800 rounded-lg">
+          <h3 className="font-bold text-red-400 mb-2">The Human Cost</h3>
+          <p className="text-sm text-stone-300">
+            Total confirmed minimum: <strong>47,000+ people killed</strong> in drone and air strikes since 2001. 
+            Conservative estimates of civilian casualties: <strong>7,500+ civilians killed</strong>, including 
+            <strong>1,800+ children</strong>. These numbers are likely vast underestimates due to classification,
+            remote locations, and the US government&apos;s practice of counting all military-age males as combatants.
+            For detailed cost analysis, see: <Link href="/analysis/cost-per-life" className="text-red-400 underline">Cost Per Life</Link>.
+          </p>
+        </div>
+      </div>
+
+      {/* Covert operations history */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">CIA Covert Operations: A History of Blowback</h2>
+        <p className="text-stone-700 mb-6">
+          The CIA has conducted thousands of covert operations since 1947. Most remain classified. Here are six
+          major operations that illustrate a consistent pattern: short-term tactical gains that create long-term
+          strategic disasters. The common thread: actions taken in secret, without democratic oversight, that
+          ultimately harm American security and global stability.
+        </p>
+        <div className="space-y-6">
+          {covertOperationsHistory.map(op => (
+            <div key={op.operation} className="border rounded-lg p-5 bg-stone-50">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <h3 className="font-bold text-lg text-stone-900">{op.operation}</h3>
+                <span className="text-xs px-2 py-1 rounded-full bg-red-100 text-red-700">{op.period}</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-stone-200 text-stone-600">{op.country}</span>
+              </div>
+              <div className="mb-3">
+                <p className="text-sm font-semibold text-red-700">Cost: {op.cost}</p>
+              </div>
+              <p className="text-sm text-stone-700 mb-2"><strong>Operation:</strong> {op.description}</p>
+              <p className="text-sm text-stone-700 mb-2"><strong>Outcome:</strong> {op.outcome}</p>
+              <p className="text-sm text-stone-600"><strong>Blowback:</strong> {op.blowback}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-red-50 border border-red-300 rounded-lg">
+          <h3 className="font-bold text-red-800 mb-2">The Pattern: Covert Action Creates More Enemies</h3>
+          <p className="text-sm text-stone-700">
+            Every major CIA covert operation since 1947 has followed the same trajectory: initial success,
+            unintended consequences, and eventual blowback that harms US security. The 9/11 attacks were
+            largely the result of Operation Cyclone — the CIA&apos;s arming of mujahideen in Afghanistan.
+            ISIS emerged from the chaos of the Iraq War. The refugee crisis in Europe stems partly from
+            US interventions in Libya and Syria. Secret operations inevitably produce public disasters.
+            Related analysis: <Link href="/analysis/lies-that-started-wars" className="text-red-700 underline">Lies That Started Wars</Link>.
+          </p>
         </div>
       </div>
 
@@ -367,12 +714,285 @@ export default function ShadowWarsPage() {
           identifies new targets that are added to the matrix — an ever-expanding cycle of targeted killing
           with no natural endpoint.
         </p>
-        <p className="text-stone-700">
+        <p className="text-stone-700 mb-4">
           As one senior Obama administration official told the Post: <em>&ldquo;We can&apos;t possibly kill
           everyone who wants to harm us... but we&apos;ve built an infrastructure to keep killing them for
           the foreseeable future.&rdquo;</em> The phrase &ldquo;for the foreseeable future&rdquo; is the
           quiet part said loud — this system is designed to operate forever.
         </p>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6 bg-stone-50 rounded-lg p-4">
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">40,000+</p>
+            <p className="text-xs text-stone-600">Names in disposition matrix (est. 2016)</p>
+          </div>
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">18</p>
+            <p className="text-xs text-stone-600">Intelligence agencies contributing</p>
+          </div>
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">7,500+</p>
+            <p className="text-xs text-stone-600">People killed from matrix (est.)</p>
+          </div>
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">24/7/365</p>
+            <p className="text-xs text-stone-600">Operating hours</p>
+          </div>
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">∞</p>
+            <p className="text-xs text-stone-600">Planned end date</p>
+          </div>
+          <div className="text-center">
+            <p className="text-lg font-bold text-red-700 font-[family-name:var(--font-heading)]">0</p>
+            <p className="text-xs text-stone-600">Congressional oversight</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Congressional oversight failure */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-800">Congressional Oversight: Missing in Action</h2>
+        <p className="text-stone-700 mb-4">
+          The Constitution gives Congress the power to declare war, raise armies, and regulate military spending.
+          In practice, Congress has abdicated all three responsibilities when it comes to shadow wars. The
+          result: the world&apos;s most powerful military operates with virtually no legislative oversight.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-white rounded-lg p-4 border">
+            <h3 className="font-bold text-red-700 mb-2">What Congress Doesn&apos;t Know</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• JSOC&apos;s classified budget and operations</li>
+              <li>• CIA paramilitary activities worldwide</li>
+              <li>• Drone strike target selection and approval</li>
+              <li>• Special operations casualty figures</li>
+              <li>• Partner force activities and civilian casualties</li>
+              <li>• Section 1202 and 1208 program details</li>
+              <li>• Intelligence sharing with foreign militaries</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-lg p-4 border">
+            <h3 className="font-bold text-red-700 mb-2">What Congress Pretends Not to Know</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• US troops fighting in Syria, Somalia, Niger</li>
+              <li>• Proxy wars in Yemen, Libya, multiple African countries</li>
+              <li>• Support for Saudi coalition bombing Yemen</li>
+              <li>• Training foreign forces that commit atrocities</li>
+              <li>• Arms sales to regimes that sponsor terrorism</li>
+              <li>• Intelligence operations leading to civilian deaths</li>
+              <li>• War crimes by US partners using American weapons</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-stone-900 text-white rounded-lg p-4 mb-4">
+          <h3 className="font-bold text-red-400 mb-2">The Gang of Eight: Oversight Theater</h3>
+          <p className="text-sm text-stone-300 mb-3">
+            The most sensitive intelligence operations are reported only to the &ldquo;Gang of Eight&rdquo; —
+            the Speaker and Minority Leader of the House, the Majority and Minority Leaders of the Senate,
+            and the chairs and ranking members of the intelligence committees. In practice, this creates
+            a system where eight members of Congress know what the other 527 don&apos;t.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+            <div>
+              <p className="text-red-400 font-semibold">House Leadership</p>
+              <p>Speaker, Minority Leader</p>
+            </div>
+            <div>
+              <p className="text-red-400 font-semibold">Senate Leadership</p>
+              <p>Majority, Minority Leaders</p>
+            </div>
+            <div>
+              <p className="text-red-400 font-semibold">House Intel</p>
+              <p>Chair, Ranking Member</p>
+            </div>
+            <div>
+              <p className="text-red-400 font-semibold">Senate Intel</p>
+              <p>Chair, Ranking Member</p>
+            </div>
+          </div>
+          <p className="text-xs text-stone-400 mt-3">
+            Gang of Eight members cannot discuss classified briefings with staff, colleagues, or the public.
+            They cannot take notes. They cannot consult lawyers. They can only listen — and they cannot
+            stop operations they object to.
+          </p>
+        </div>
+
+        <div className="bg-white rounded-lg p-4 border">
+          <h3 className="font-bold text-red-700 mb-2">Case Study: Senator Lindsey Graham&apos;s Niger Moment</h3>
+          <p className="text-sm text-stone-700 mb-2">
+            On October 21, 2017, Senator Lindsey Graham — a member of the Armed Services Committee for 15 years —
+            appeared on Meet the Press after the Niger ambush that killed four US soldiers. Host Chuck Todd
+            asked if he knew there were US troops in Niger.
+          </p>
+          <div className="bg-stone-50 rounded p-3 text-sm italic text-stone-700 mb-2">
+            <p><strong>Graham:</strong> &ldquo;I didn&apos;t know there was 1,000 troops in Niger.&rdquo;</p>
+            <p><strong>Todd:</strong> &ldquo;You sit on the Armed Services Committee. How is it that you don&apos;t know?&rdquo;</p>
+            <p><strong>Graham:</strong> &ldquo;They&apos;re doing a lot of things I don&apos;t know about.&rdquo;</p>
+          </div>
+          <p className="text-sm text-stone-700">
+            Graham&apos;s admission crystallized the problem: even senior members of relevant committees don&apos;t
+            know where American soldiers are fighting and dying. If Congress doesn&apos;t know, how can the
+            American people? And if the people don&apos;t know, how is this a democracy?
+          </p>
+        </div>
+      </div>
+
+      {/* Military-industrial complex and shadow wars */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The Shadow War Economy: Who Profits From Secret Operations</h2>
+        <p className="text-stone-300 mb-4">
+          Shadow wars are big business. The companies that build the drones, satellites, and specialized
+          equipment for covert operations have strong incentives to keep the machinery of secret warfare
+          running. Unlike conventional wars that generate public opposition, shadow wars can continue
+          indefinitely with minimal political cost — a contractor&apos;s dream scenario.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <h3 className="font-bold text-red-400 mb-3">Top Shadow War Contractors</h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex justify-between">
+                <span>General Atomics (Predator/Reaper drones)</span>
+                <span className="text-green-400">$2.8B/year</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Lockheed Martin (satellites, missiles)</span>
+                <span className="text-green-400">$65.4B total</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Boeing (surveillance aircraft)</span>
+                <span className="text-green-400">$26.9B defense</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Raytheon (precision missiles)</span>
+                <span className="text-green-400">$29.2B total</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Northrop Grumman (Global Hawk)</span>
+                <span className="text-green-400">$39.6B total</span>
+              </div>
+            </div>
+          </div>
+          <div className="bg-stone-800 rounded-lg p-4">
+            <h3 className="font-bold text-red-400 mb-3">Private Military Contractors</h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex justify-between">
+                <span>DynCorp (training, logistics)</span>
+                <span className="text-green-400">$3.1B/year</span>
+              </div>
+              <div className="flex justify-between">
+                <span>CACI (interrogation, intelligence)</span>
+                <span className="text-green-400">$1.8B/year</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Booz Allen Hamilton (cyber, intel)</span>
+                <span className="text-green-400">$4.1B gov&apos;t</span>
+              </div>
+              <div className="flex justify-between">
+                <span>MPRI/L3Harris (training)</span>
+                <span className="text-green-400">$18.2B total</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Academi (Blackwater successor)</span>
+                <span className="text-green-400">~$1B/year</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-300 mb-4">
+          The revolving door between the Pentagon, CIA, and defense contractors is particularly pronounced
+          in the shadow war sector. Former SOCOM commanders routinely join drone manufacturers. Ex-CIA
+          officials start consulting firms. NSA alumni found cybersecurity companies. The people who plan
+          secret wars profit from them after leaving government.
+        </p>
+
+        <div className="bg-red-900 rounded-lg p-4 mb-4">
+          <h3 className="font-bold text-red-200 mb-2">The Hellfire Missile Economy</h3>
+          <p className="text-sm text-stone-300 mb-2">
+            Each Hellfire missile costs approximately <strong>$115,000</strong>. The US has fired an estimated
+            <strong>14,000+ Hellfire missiles</strong> in targeted killings since 2001 — roughly <strong>$1.6
+            billion</strong> in missiles alone, not counting the drones, satellites, bases, personnel, and
+            intelligence apparatus required to deliver them.
+          </p>
+          <p className="text-sm text-stone-300">
+            Lockheed Martin, which makes Hellfire missiles, earned approximately <strong>$184 million annually</strong>
+            from drone-launched missile sales at the peak of the targeted killing program (2010-2016). Each
+            &ldquo;precision strike&rdquo; represents a $115,000 purchase order. From an accountant&apos;s
+            perspective, peace is bad for business.
+          </p>
+        </div>
+
+        <p className="text-stone-300">
+          Related reading: <Link href="/analysis/private-armies" className="text-red-400 underline">Private Armies</Link> examines the role of contractors in modern warfare, while <Link href="/analysis/silicon-valley-pentagon" className="text-red-400 underline">Silicon Valley and the Pentagon</Link> explores how tech companies profit from surveillance and cyber warfare.
+        </p>
+      </div>
+
+      {/* International law violations */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Violating International Law: America&apos;s Legal Exceptionalism</h2>
+        <p className="text-stone-700 mb-4">
+          Under international law, military force on another nation&apos;s territory is legal only in three
+          circumstances: (1) with that nation&apos;s consent, (2) in collective self-defense under Article 51
+          of the UN Charter, or (3) with UN Security Council authorization. Most US shadow wars violate all three.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          <div className="border border-red-300 rounded-lg p-4">
+            <h3 className="font-bold text-red-700 mb-2">Legal Operations (Per Int&apos;l Law)</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• <strong>Iraq (2014-):</strong> Iraqi government invitation</li>
+              <li>• <strong>Afghanistan (2001-2021):</strong> UN authorization post-9/11</li>
+              <li>• <strong>Djibouti:</strong> Base agreements, government consent</li>
+            </ul>
+          </div>
+          <div className="border border-red-300 rounded-lg p-4">
+            <h3 className="font-bold text-red-700 mb-2">Illegal Operations (Per Int&apos;l Law)</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• <strong>Syria (2014-):</strong> No government consent, dubious self-defense claim</li>
+              <li>• <strong>Pakistan (2004-2018):</strong> Covert strikes without formal consent</li>
+              <li>• <strong>Yemen:</strong> Limited government consent, massive civilian casualties</li>
+              <li>• <strong>Somalia:</strong> Weak government, elastic self-defense justification</li>
+              <li>• <strong>Libya (2011, 2014-2020):</strong> Exceeded UN mandate, no government</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-stone-50 rounded-lg p-4 mb-4">
+          <h3 className="font-bold text-stone-900 mb-2">The &ldquo;Unwilling or Unable&rdquo; Doctrine</h3>
+          <p className="text-sm text-stone-700 mb-2">
+            To justify strikes in countries like Pakistan and Yemen, the US invokes the &ldquo;unwilling or
+            unable&rdquo; doctrine — claiming the right to use force in a state that is &ldquo;unwilling or
+            unable&rdquo; to prevent terrorist attacks from its territory. Problem: this doctrine doesn&apos;t
+            exist in international law.
+          </p>
+          <p className="text-sm text-stone-700">
+            The doctrine is purely a US invention, rejected by most international legal scholars and never
+            endorsed by the UN or International Court of Justice. It essentially claims the US can bomb any
+            country if it decides that country isn&apos;t doing enough to stop terrorism — a recipe for
+            permanent global war.
+          </p>
+        </div>
+
+        <div className="bg-stone-900 text-white rounded-lg p-4">
+          <h3 className="font-bold text-red-400 mb-2">War Crimes and Shadow Operations</h3>
+          <p className="text-sm text-stone-300 mb-2">
+            Several aspects of shadow wars may constitute war crimes under the Geneva Conventions and Rome Statute:
+          </p>
+          <ul className="text-sm text-stone-300 space-y-1">
+            <li>• <strong>Targeting civilians:</strong> Signature strikes on unknown individuals</li>
+            <li>• <strong>Excessive force:</strong> Hellfire missiles against unconfirmed combatants</li>
+            <li>• <strong>Medical facilities:</strong> Kunduz hospital (2015), multiple Yemen facilities</li>
+            <li>• <strong>Schools and mosques:</strong> Regular targets in Pakistan, Afghanistan, Somalia</li>
+            <li>• <strong>Weddings and funerals:</strong> At least 12 wedding parties bombed since 2001</li>
+            <li>• <strong>Double-tap strikes:</strong> Follow-up strikes targeting rescuers</li>
+          </ul>
+          <p className="text-xs text-stone-400 mt-3">
+            The US is not a party to the International Criminal Court, so American officials enjoy effective
+            immunity from war crimes prosecution. This legal impunity enables the continuation of operations
+            that would be prosecuted if conducted by smaller nations.
+          </p>
+        </div>
       </div>
 
       {/* Budget */}
@@ -449,36 +1069,118 @@ export default function ShadowWarsPage() {
 
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
-        <ul className="text-xs text-stone-600 space-y-1">
-          <li>• Jeremy Scahill, <em>Dirty Wars: The World Is a Battlefield</em> (2013)</li>
-          <li>• Nick Turse, <em>Tomorrow&apos;s Battlefield: US Proxy Wars and Secret Ops in Africa</em> (2015)</li>
-          <li>• Brown University Costs of War Project, &ldquo;US Counterterrorism Operations 2018–2020&rdquo;</li>
-          <li>• New York Times, &ldquo;Secret &apos;Kill List&apos; Proves a Test of Obama&apos;s Principles and Will&rdquo; (May 29, 2012)</li>
-          <li>• Washington Post, &ldquo;Plan for Hunting Terrorists Signals US Intends to Keep Adding Names to Kill Lists&rdquo; (Oct 23, 2012)</li>
-          <li>• DOD Africa Command (AFRICOM) posture statements and testimony</li>
-          <li>• Congressional Research Service, &ldquo;US Special Operations Forces&rdquo; (2023)</li>
-          <li>• Bureau of Investigative Journalism, drone strike databases</li>
-          <li>• Pentagon investigation into Tongo Tongo ambush (2018)</li>
-          <li>• Senate Armed Services Committee hearings on SOCOM (2020–2024)</li>
-          <li>• Stephanie Savell, &ldquo;The Costs of United States Post-9/11 &apos;Security Assistance&apos;&rdquo; (Brown University, 2023)</li>
-        </ul>
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources & Further Reading</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-2">Books & Investigations</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Jeremy Scahill, <em>Dirty Wars: The World Is a Battlefield</em> (2013)</li>
+              <li>• Nick Turse, <em>Tomorrow&apos;s Battlefield: US Proxy Wars and Secret Ops in Africa</em> (2015)</li>
+              <li>• Dana Priest & William Arkin, <em>Top Secret America</em> (2011)</li>
+              <li>• Mark Mazzetti, <em>The Way of the Knife: The CIA, a Secret Army, and a War at the Ends of the Earth</em> (2013)</li>
+              <li>• Daniel Klaidman, <em>Kill or Capture: The War on Terror and the Soul of the Obama Presidency</em> (2012)</li>
+              <li>• Charlie Savage, <em>Power Wars: Inside Obama&apos;s Post-9/11 Presidency</em> (2015)</li>
+              <li>• Steve Coll, <em>Directorate S: The C.I.A. and America&apos;s Secret Wars in Afghanistan and Pakistan</em> (2018)</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="font-bold text-sm mb-2">Government & Academic Sources</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Brown University Costs of War Project, &ldquo;US Counterterrorism Operations 2018–2020&rdquo;</li>
+              <li>• Congressional Research Service, &ldquo;US Special Operations Forces&rdquo; (2023)</li>
+              <li>• DOD Africa Command (AFRICOM) posture statements and testimony (2020-2024)</li>
+              <li>• Pentagon investigation into Tongo Tongo ambush (Army AR 15-6, 2018)</li>
+              <li>• Senate Armed Services Committee hearings on SOCOM budget and operations</li>
+              <li>• Stephanie Savell, &ldquo;The Costs of United States Post-9/11 &apos;Security Assistance&apos;&rdquo; (Brown University, 2023)</li>
+              <li>• Watson Institute for International and Public Affairs, &ldquo;Summary of Findings&rdquo; (2021)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-2">Journalism & Reporting</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• New York Times, &ldquo;Secret &apos;Kill List&apos; Proves a Test of Obama&apos;s Principles and Will&rdquo; (May 29, 2012)</li>
+              <li>• Washington Post, &ldquo;Plan for Hunting Terrorists Signals US Intends to Keep Adding Names to Kill Lists&rdquo; (Oct 23, 2012)</li>
+              <li>• Bureau of Investigative Journalism, comprehensive drone strike databases</li>
+              <li>• Airwars civilian casualty monitoring project</li>
+              <li>• The Intercept, &ldquo;The Drone Papers&rdquo; series (2015)</li>
+              <li>• ProPublica investigations into special operations and civilian casualties</li>
+              <li>• Associated Press, &ldquo;American Hostage&rdquo; investigation into CIA torture program</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-sm mb-2">Legal & Policy Analysis</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Columbia Law School Human Rights Clinic, &ldquo;The Civilian Impact of Drones&rdquo; (2017)</li>
+              <li>• Stanford/NYU Law Schools, &ldquo;Living Under Drones&rdquo; (2012)</li>
+              <li>• American Civil Liberties Union, &ldquo;A License to Kill&rdquo; legal analysis (2020)</li>
+              <li>• International Committee of the Red Cross, &ldquo;Direct Participation in Hostilities&rdquo; (2009)</li>
+              <li>• UN Special Rapporteur reports on extrajudicial executions (Alston, Heyns, Callamard)</li>
+              <li>• Council on Foreign Relations, &ldquo;Reforming U.S. Drone Strike Policies&rdquo; (2018)</li>
+              <li>• Cato Institute, &ldquo;Drone Wars&rdquo; policy analysis series</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 p-4 bg-amber-50 border border-amber-300 rounded-lg">
+          <h3 className="font-bold text-amber-800 mb-2">💡 Want Real-Time Data?</h3>
+          <p className="text-sm text-stone-700">
+            For live tracking of US military operations and costs, visit our <Link href="/analysis/iran-cost-per-second" className="text-red-700 underline">Iran Cost Per Second</Link> page.
+            Historical analysis of war authorizations is available at <Link href="/analysis/congressional-authority" className="text-red-700 underline">19 Wars Without Congress</Link>.
+            Specific conflict data can be found on our <Link href="/conflicts" className="text-red-700 underline">Conflicts database</Link>.
+          </p>
+        </div>
       </div>
 
       {/* Related */}
       <div className="mt-12 pt-8 border-t">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Related Analysis</h2>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
           {[
-            { slug: 'drone-wars', title: 'Drone Wars', desc: '14,000+ strikes. Remote-control killing with no accountability.' },
+            { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'NSA, mass surveillance, and the death of privacy after 9/11.' },
+            { slug: 'torture-program', title: 'Torture Program', desc: 'Enhanced interrogation, black sites, and systematic torture.' },
             { slug: 'congressional-authority', title: '19 Wars Without Congress', desc: 'How presidents stole the war power the Constitution gave to Congress.' },
-            { slug: 'forever-wars', title: 'The Forever Wars', desc: '60 words that authorized 25 years of global war across 78 countries.' },
           ].map(a => (
             <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
               <h3 className="font-bold mb-1">{a.title}</h3>
               <p className="text-sm text-muted">{a.desc}</p>
             </Link>
           ))}
+        </div>
+        
+        <div className="grid md:grid-cols-3 gap-4">
+          {[
+            { slug: 'private-armies', title: 'Private Armies', desc: 'Mercenaries, contractors, and the privatization of war.' },
+            { slug: 'sanctions-warfare', title: 'Sanctions Warfare', desc: 'Economic weapons that kill more than bombs.' },
+            { slug: 'cost-per-life', title: 'Cost Per Life', desc: 'What America spends to kill each person in each war.' },
+          ].map(a => (
+            <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-sm text-muted">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+
+        <div className="mt-6 p-4 bg-stone-100 rounded-lg">
+          <h3 className="font-bold text-stone-800 mb-2">🌍 Explore Specific Conflicts</h3>
+          <p className="text-sm text-stone-700 mb-3">
+            For detailed analysis of current conflicts, cost tracking, and historical context:
+          </p>
+          <div className="flex flex-wrap gap-2 text-xs">
+            <Link href="/conflicts/afghanistan" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Afghanistan</Link>
+            <Link href="/conflicts/iraq" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Iraq</Link>
+            <Link href="/conflicts/syria" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Syria</Link>
+            <Link href="/conflicts/yemen" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Yemen</Link>
+            <Link href="/conflicts/somalia" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Somalia</Link>
+            <Link href="/conflicts/libya" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Libya</Link>
+            <Link href="/analysis/iran-day-by-day" className="px-2 py-1 bg-orange-100 text-orange-700 rounded hover:bg-orange-200">Iran Timeline</Link>
+            <Link href="/analysis/ukraine-proxy" className="px-2 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200">Ukraine Proxy War</Link>
+          </div>
         </div>
       </div>
 

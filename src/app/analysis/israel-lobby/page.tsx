@@ -452,6 +452,320 @@ export default function IsraelLobbyPage() {
           A true ally doesn&apos;t need $3.8 billion a year in military welfare. A true ally doesn&apos;t spy on you. A true ally doesn&apos;t attack your naval vessels. A true ally doesn&apos;t transfer your military technology to your adversaries. And a true ally doesn&apos;t spend $221 million buying your politicians to ensure the gravy train never stops.
         </p>
 
+        {/* The Neoconservative Network */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">The Neoconservative Network: Ideology and Influence</h2>
+
+        <p>
+          The Israel lobby's power extends far beyond AIPAC's campaign donations. It operates through a sophisticated network of think tanks, academic institutions, and policy organizations that shape how Americans think about the Middle East. This intellectual infrastructure has been decades in the making.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Think Tank Ecosystem</h3>
+
+        <ul>
+          <li><strong>Foundation for Defense of Democracies (FDD)</strong>: Founded in 2001, FDD has become Washington's premier advocate for aggressive confrontation with Iran. Its senior fellows include former CIA directors, Pentagon officials, and military officers. FDD's "research" consistently supports Israeli strategic priorities. Annual budget: $20+ million.</li>
+          
+          <li><strong>Washington Institute for Near East Policy (WINEP)</strong>: Founded by former AIPAC officials, WINEP is technically "non-partisan" but consistently produces research supporting Israeli government positions. Its Dennis Ross Institute trains future diplomats — ensuring the next generation of US Middle East negotiators are educated in pro-Israel perspectives.</li>
+          
+          <li><strong>American Enterprise Institute (AEI)</strong>: Home to the architects of the Iraq War. John Bolton, Richard Perle, and other Iran hawks have been AEI fellows. Receives funding from pro-Israel donors and consistently advocates for military confrontation with Iran.</li>
+          
+          <li><strong>Institute for the Study of War (ISW)</strong>: Despite its neutral-sounding name, ISW consistently produces analysis supporting Israeli military operations and US intervention in Middle East conflicts.</li>
+        </ul>
+
+        <p>
+          These organizations don't just lobby Congress — they shape the intellectual framework within which foreign policy debates occur. They flood the media with "expert" analysis, train future policymakers, and create an echo chamber where aggressive pro-Israel policies appear mainstream and opposition appears fringe.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Revolving Door in Action</h3>
+
+        <p>
+          The same individuals cycle between government service, think tanks, lobbying firms, and defense contractors — always maintaining consistent support for Israeli interests:
+        </p>
+
+        <ul>
+          <li><strong>Dennis Ross</strong>: Clinton and Obama's Middle East envoy → WINEP → advisor to AIPAC-backed candidates</li>
+          <li><strong>Elliott Abrams</strong>: Reagan NSC → Bush NSC → Trump NSC → Council on Foreign Relations → regular AIPAC conference speaker</li>
+          <li><strong>John Bolton</strong>: Bush UN Ambassador and NSA → AEI fellow → Trump National Security Advisor → regular Iran war advocate</li>
+          <li><strong>Mark Dubowitz</strong>: FDD CEO, architect of Iran sanctions, regular CNN/MSNBC guest presenting sanctions as objective policy rather than Israeli strategic priority</li>
+          <li><strong>Robert Kagan</strong>: PNAC founder, Iraq War architect → Brookings → married to Victoria Nuland (State Department) → advocates for aggressive Iran policy</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Academic Capture</h3>
+
+        <p>
+          Pro-Israel influence extends deep into American academia through endowed chairs, research centers, and student programs:
+        </p>
+
+        <ul>
+          <li><strong>Birthright Israel</strong>: Has sent 800,000+ young Americans on free trips to Israel since 1999. Cost: $2.6+ billion, much from tax-deductible US donations. Creates emotional attachment to Israel among future American leaders.</li>
+          
+          <li><strong>Israel Studies programs</strong>: Dozens of American universities now have Israel Studies departments, often funded by pro-Israel donors with input into curriculum and hiring decisions.</li>
+          
+          <li><strong>Tikvah Fund</strong>: Provides millions in funding for pro-Israel academic programming, summer institutes, and faculty positions at elite universities.</li>
+          
+          <li><strong>Campus harassment campaigns</strong>: Organizations like Canary Mission maintain online blacklists of college students and professors who criticize Israeli policies, potentially damaging their future career prospects.</li>
+        </ul>
+
+        <p>
+          The result is an intellectual environment where questioning Israeli policy becomes professionally dangerous, while supporting it opens doors to funding, fellowships, and career advancement.
+        </p>
+
+        {/* The Christian Zionist Dimension */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">Christians United for Israel: The 10 Million Member Army</h2>
+
+        <p>
+          While AIPAC gets the headlines, the largest pro-Israel organization in America is Christians United for Israel (CUFI), founded by pastor John Hagee in 2006. With over <strong>10 million members</strong>, CUFI dwarfs Jewish organizational support for Israel and represents a crucial component of the lobby's power.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Theological Motivations</h3>
+
+        <p>
+          Christian Zionist support for Israel is based on specific theological beliefs about biblical prophecy:
+        </p>
+
+        <ul>
+          <li><strong>Dispensationalist theology</strong>: Believes God has separate covenants with Israel and the Church, and that Israel's restoration is necessary for Christ's return</li>
+          <li><strong>Genesis 12:3 interpretation</strong>: "I will bless those who bless you, and curse those who curse you" — interpreted as requiring American support for modern Israel</li>
+          <li><strong>Prophecy beliefs</strong>: Many believe supporting Israel will hasten the Second Coming, even if this requires conflict in the Middle East</li>
+          <li><strong>Replacement theology rejection</strong>: Explicitly rejects the traditional Christian view that the Church has replaced Israel in God's covenant</li>
+        </ul>
+
+        <p>
+          These theological motivations create unwavering support that is largely immune to policy arguments. When Pastor Hagee says "Israel needs F-35s to fulfill biblical prophecy," policy critics are fighting theology, not politics.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Political Impact</h3>
+
+        <p>
+          CUFI's political influence is enormous but often overlooked:
+        </p>
+
+        <ul>
+          <li><strong>Evangelical voter bloc</strong>: 81% of white evangelicals voted for Trump in 2016 and 2020, largely based on his Israel policies including moving the embassy to Jerusalem</li>
+          <li><strong>Congressional influence</strong>: CUFI holds regular "Nights to Honor Israel" events in congressional districts, bringing thousands of constituents to pressure representatives</li>
+          <li><strong>State-level impact</strong>: CUFI has been instrumental in passing anti-BDS laws in state legislatures across the country</li>
+          <li><strong>Media presence</strong>: Christian broadcasting networks reach millions with pro-Israel messaging that secular critics rarely engage</li>
+        </ul>
+
+        <p>
+          The Christian Zionist vote provides the mass electoral base that makes AIPAC's targeted spending politically effective. Senators fear losing both AIPAC money AND evangelical votes — a combination that can end careers in Republican primaries.
+        </p>
+
+        {/* The Military-Industrial Connection */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">The Military-Industrial Connection: Weapons Sales and Regional Instability</h2>
+
+        <p>
+          The Israel lobby doesn't operate in isolation — it aligns with powerful domestic interests, particularly defense contractors who profit from regional instability and arms sales to multiple sides.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Arms Sales Cycle</h3>
+
+        <p>
+          US military aid to Israel creates a virtuous cycle (from the defense industry's perspective):
+        </p>
+
+        <ol>
+          <li><strong>US provides $3.8B in military aid to Israel</strong></li>
+          <li><strong>Israel uses aid to buy US weapons from Lockheed, Raytheon, Boeing</strong></li>
+          <li><strong>Arab neighbors feel threatened, purchase countervailing weapons</strong></li>
+          <li><strong>US maintains Israel's "qualitative military edge" by selling even more advanced systems to Israel</strong></li>
+          <li><strong>Regional arms race escalates, benefiting all weapons manufacturers</strong></li>
+        </ol>
+
+        <p>
+          The numbers are staggering. In the decade since the Abraham Accords began "normalizing" Arab-Israeli relations, regional military spending has exploded:
+        </p>
+
+        <ul>
+          <li><strong>UAE</strong>: $23B in F-35s and Reaper drones as price for normalizing with Israel</li>
+          <li><strong>Saudi Arabia</strong>: $350B+ in weapons purchases from US since 2017, partly to balance Israeli capabilities</li>
+          <li><strong>Egypt</strong>: Receives $1.3B annually in US military aid, largely to maintain peace with Israel</li>
+          <li><strong>Jordan</strong>: Receives $1.7B annually, also partly to maintain peace with Israel</li>
+        </ul>
+
+        <p>
+          Defense contractors don't need to choose sides — they sell to everyone. Regional tensions driven by the Israeli-Palestinian conflict and Iranian-Israeli rivalry generate hundreds of billions in weapons sales.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Iron Dome Industrial Complex</h3>
+
+        <p>
+          Iron Dome represents the perfect fusion of Israeli innovation, American funding, and defense industry profits:
+        </p>
+
+        <ul>
+          <li><strong>$2.6B in US funding</strong> for Iron Dome development and production</li>
+          <li><strong>Raytheon partnership</strong>: US company co-produces interceptors, creating American jobs and profits</li>
+          <li><strong>Cost per intercept</strong>: $40,000-50,000 per Iron Dome interceptor vs. $300-800 per Hamas rocket</li>
+          <li><strong>Military keynesianism</strong>: High-tech defense spending that benefits both countries' defense industries</li>
+          <li><strong>Export potential</strong>: Iron Dome sales to other countries (with US approval) generate additional revenue</li>
+        </ul>
+
+        <p>
+          Iron Dome is tactically effective but strategically problematic — it allows Israel to avoid addressing underlying political grievances by managing them technologically. American taxpayers fund a system that perpetuates conflict while enriching defense contractors.
+        </p>
+
+        {/* Media Influence */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">Shaping the Narrative: Media Influence and Information Control</h2>
+
+        <p>
+          The lobby's influence extends deep into American media, shaping how Middle East conflicts are reported and discussed. This goes far beyond simple bias — it involves institutional relationships, advertising pressure, and career incentives.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Institutional Relationships</h3>
+
+        <ul>
+          <li><strong>CAMERA (Committee for Accuracy in Middle East Reporting)</strong>: Monitors news coverage for "anti-Israel bias" and organizes pressure campaigns against journalists and editors. Has forced retractions and corrections that often favor Israeli narratives.</li>
+          
+          <li><strong>Honest Reporting</strong>: Similar monitoring organization that floods news outlets with complaints about coverage of Israeli actions, creating pressure for self-censorship.</li>
+          
+          <li><strong>StandWithUs</strong>: Provides "educational" materials to journalists and organizes rapid-response campaigns against critical coverage.</li>
+          
+          <li><strong>Israel Government Press Office</strong>: Carefully manages journalist access to Israeli officials and conflict zones, rewarding favorable coverage with better access.</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Economic Pressure</h3>
+
+        <p>
+          Media outlets face economic consequences for coverage perceived as anti-Israel:
+        </p>
+
+        <ul>
+          <li><strong>Advertising boycotts</strong>: Pro-Israel organizations coordinate advertising boycotts against outlets with critical coverage</li>
+          <li><strong>Subscription campaigns</strong>: Organized efforts to cancel subscriptions and encourage others to do the same</li>
+          <li><strong>Conference sponsorships</strong>: Think tanks and pro-Israel organizations provide lucrative speaking fees and conference sponsorships for friendly journalists</li>
+          <li><strong>Career advancement</strong>: Journalists who maintain pro-Israel positions often find better career opportunities in Washington media and think tank circles</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Language and Framing</h3>
+
+        <p>
+          The lobby has successfully established preferred terminology that shapes coverage:
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+            <h4 className="font-bold text-green-800 mb-2">Preferred Terms</h4>
+            <ul className="text-sm space-y-1">
+              <li>• "Neighborhoods" (not settlements)</li>
+              <li>• "Disputed territories" (not occupied territories)</li>
+              <li>• "Clashes" (not Israeli attacks on Palestinians)</li>
+              <li>• "Militants" (not Palestinian fighters)</li>
+              <li>• "Anti-Semitic" (for criticism of Israeli government policy)</li>
+              <li>• "Defensive operations" (for Israeli military campaigns)</li>
+              <li>• "Human shields" (explanation for civilian casualties)</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h4 className="font-bold text-red-800 mb-2">Avoided Terms</h4>
+            <ul className="text-sm space-y-1">
+              <li>• "Apartheid" (despite three major human rights groups using it)</li>
+              <li>• "Ethnic cleansing" (even when mass displacement occurs)</li>
+              <li>• "Assassination" (for targeted killings)</li>
+              <li>• "Occupation" (despite international legal consensus)</li>
+              <li>• "War crimes" (even when legally applicable)</li>
+              <li>• "Collective punishment" (despite fitting legal definition)</li>
+              <li>• "Genocide" (even when international courts find plausible risk)</li>
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          This linguistic control shapes public perception. When settlement construction is described as "neighborhood development" and military operations are "defensive," the moral framework shifts dramatically.
+        </p>
+
+        {/* International Comparison */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">International Perspective: How the World Sees the "Special Relationship"</h2>
+
+        <p>
+          The US-Israel relationship appears very different when viewed from outside America. International polling, diplomatic positions, and academic analysis consistently show that most of the world views US support for Israel as excessive, one-sided, and destabilizing.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Global Public Opinion</h3>
+
+        <ul>
+          <li><strong>EU polling</strong>: Consistent majorities in European countries view Israeli policies toward Palestinians as violating international law</li>
+          <li><strong>Muslim world</strong>: 1.8 billion Muslims worldwide see US support for Israel as evidence of anti-Muslim bias</li>
+          <li><strong>Global South</strong>: Countries in Africa, Asia, and Latin America increasingly align with Palestinian positions in international forums</li>
+          <li><strong>UN votes</strong>: The US routinely stands with only 1-3 countries (often just Israel and tiny Pacific nations) on Israeli-related resolutions</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Allied Frustration</h3>
+
+        <p>
+          Even close US allies increasingly question American Israel policy:
+        </p>
+
+        <ul>
+          <li><strong>France</strong>: President Macron has openly criticized Israeli settlement expansion and called for Palestinian statehood</li>
+          <li><strong>UK</strong>: Growing parliamentary support for Palestinian recognition and arms embargo on Israel</li>
+          <li><strong>Germany</strong>: Despite historical guilt over the Holocaust, increasing criticism of Israeli policies in mainstream politics</li>
+          <li><strong>Canada</strong>: Former "Israel's best friend" under Harper, increasingly critical under Trudeau</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Diplomatic Cost</h3>
+
+        <p>
+          US diplomatic isolation on Israel-Palestine issues has broader consequences:
+        </p>
+
+        <ul>
+          <li><strong>UN credibility</strong>: US vetoes on Israel make it harder to build coalitions on other issues</li>
+          <li><strong>Middle East relationships</strong>: Arab populations view US as fundamentally biased, undermining partnerships with Arab governments</li>
+          <li><strong>Counterterrorism cooperation</strong>: US Israel policy cited by terrorist groups as recruitment tool, complicating intelligence cooperation</li>
+          <li><strong>Democracy promotion</strong>: US criticism of authoritarianism rings hollow when it shields Israeli violations</li>
+        </ul>
+
+        {/* The Growing Resistance */}
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">Cracks in the Foundation: Growing American Opposition</h2>
+
+        <p>
+          Despite the lobby's overwhelming political success, public opinion — especially among younger Americans — is shifting significantly. The Gaza war of 2023-2024 accelerated trends that had been building for years.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Generational Divide</h3>
+
+        <p>
+          Polling consistently shows a dramatic age gap in Israel support:
+        </p>
+
+        <ul>
+          <li><strong>Americans 65+</strong>: 64% sympathize more with Israel than Palestinians (Gallup 2024)</li>
+          <li><strong>Americans 18-34</strong>: Only 27% sympathize more with Israel; 40% sympathize more with Palestinians</li>
+          <li><strong>College students</strong>: Campus protests in 2024 saw thousands arrested for opposing Israeli policies</li>
+          <li><strong>Jewish Americans under 40</strong>: Significantly less supportive of Israeli government policies than older Jewish Americans</li>
+        </ul>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">The Squad and Progressive Opposition</h3>
+
+        <p>
+          A small but vocal group of progressive Democrats has begun challenging pro-Israel orthodoxy:
+        </p>
+
+        <ul>
+          <li><strong>Rep. Ilhan Omar</strong>: Criticized AIPAC influence ("It's all about the Benjamins") and called for conditioning aid</li>
+          <li><strong>Rep. Rashida Tlaib</strong>: Palestinian-American congresswoman who has faced constant attacks for her criticism of Israeli policies</li>
+          <li><strong>Rep. Alexandria Ocasio-Cortez</strong>: Called Israeli actions in Gaza "ethnic cleansing" — language rarely used by US officials</li>
+          <li><strong>Sen. Bernie Sanders</strong>: Most prominent critic of unconditional military aid, though still supports Israel's "right to exist"</li>
+        </ul>
+
+        <p>
+          The lobby's response has been swift and expensive. AIPAC spent record amounts to defeat progressive critics, but this has also raised awareness of their influence among voters who had never considered the issue before.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mt-6 mb-3">Institutional Pushback</h3>
+
+        <ul>
+          <li><strong>Jewish Voice for Peace</strong>: Anti-Zionist Jewish organization with 70,000+ members</li>
+          <li><strong>IfNotNow</strong>: Young Jewish Americans opposing the occupation</li>
+          <li><strong>Students for Justice in Palestine</strong>: Active on hundreds of college campuses</li>
+          <li><strong>Democratic Socialists of America</strong>: 90,000-member organization officially supports BDS</li>
+          <li><strong>Academic boycotts</strong>: Growing number of academic departments and professional associations support BDS</li>
+        </ul>
+
+        <p>
+          These organizations provide alternative Jewish voices that counter the lobby's claim to represent all Jewish Americans, and they're growing rapidly among young people.
+        </p>
+
         {/* Section 11: What Would Change? */}
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">What Would a Normal Relationship Look Like?</h2>
 
@@ -467,10 +781,21 @@ export default function IsraelLobbyPage() {
           <li><strong>End the UN veto shield</strong> — Let Israel face the same international accountability as every other country</li>
           <li><strong>Register AIPAC as a foreign agent</strong> — It acts on behalf of a foreign government&apos;s interests. The Foreign Agents Registration Act (FARA) exists for exactly this purpose.</li>
           <li><strong>No more wars for Israel</strong> — If Israel wants to attack Iran, Israel can attack Iran. With its own troops, its own money, and its own consequences.</li>
+          <li><strong>Equal treatment</strong> — Apply the same standards to Israel that are applied to other countries receiving US aid</li>
+          <li><strong>Balanced mediation</strong> — Stop pretending to be a neutral mediator while providing billions in military aid to one side</li>
+          <li><strong>Congressional oversight</strong> — Require the same reporting and accountability for Israel aid that applies to all other recipients</li>
         </ul>
 
         <p>
           Israel is a wealthy, technologically advanced country with a GDP per capita of $55,000, nuclear weapons, one of the world&apos;s most powerful militaries, and universal healthcare (which American taxpayers help fund indirectly through aid). It does not need American charity. The &ldquo;special relationship&rdquo; is not about Israel&apos;s survival — it&apos;s about influence, money, and the distortion of American democracy.
+        </p>
+
+        <p>
+          A normal relationship would be based on shared interests, not emotional manipulation and financial pressure. It would recognize that American and Israeli interests sometimes align and sometimes diverge — and that when they diverge, American officials should prioritize American interests. It would end the unique situation where criticism of a foreign government's policies is treated as bigotry, and where American citizens face professional destruction for expressing mainstream international views.
+        </p>
+
+        <p>
+          Most importantly, a normal relationship would end the situation where American soldiers fight and die in wars shaped by another country's strategic priorities, where American taxpayers fund military operations they never voted for, and where American democracy is distorted by the political influence of a foreign government.
         </p>
       </div>
 

@@ -335,6 +335,387 @@ export default function IranRegionalWarPage() {
         </div>
       </div>
 
+      {/* Section: The Proxy Network */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Axis of Resistance: Iran&apos;s Proxy Network Activates
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          For 45 years, Iran has been building what it calls the <strong>&ldquo;Axis of Resistance&rdquo;</strong> — 
+          a network of allied militias, political movements, and state actors designed to give Iran strategic depth 
+          and retaliatory capacity across the Middle East. When the US struck Iran, this entire network activated 
+          simultaneously. This wasn&apos;t spontaneous — it was the execution of decades-old contingency plans.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Network: By Numbers</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Hezbollah (Lebanon)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• <strong>150,000+ rockets and missiles</strong> — more than most European armies</li>
+                <li>• 100,000 trained fighters (estimates)</li>
+                <li>• Controls southern Lebanon and Bekaa Valley</li>
+                <li>• Annual budget: $700M+ from Iran</li>
+                <li>• Precision missiles can hit any target in Israel</li>
+                <li>• Has been preparing for this war since 2006</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Iraqi Militias</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• <strong>Popular Mobilization Forces:</strong> 140,000 fighters</li>
+                <li>• Officially part of Iraqi security forces</li>
+                <li>• Kata&apos;ib Hezbollah, Asa&apos;ib Ahl al-Haq leading attacks</li>
+                <li>• Target US bases in Iraq with rockets/drones</li>
+                <li>• Iraqi government powerless to control them</li>
+                <li>• Receive $2B+ annually from Iran</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Houthis (Yemen)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• Control northern Yemen (70% of population)</li>
+                <li>• Anti-ship missiles threaten Red Sea shipping</li>
+                <li>• Drone and missile strikes on Saudi Arabia/UAE</li>
+                <li>• Survived 9 years of Saudi bombing campaign</li>
+                <li>• Iran provides missiles, drones, training</li>
+                <li>• Motto: &ldquo;Death to America, Death to Israel&rdquo;</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Syria (Assad)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• Hosts Iranian forces and Hezbollah</li>
+                <li>• Iranian weapons factories on Syrian territory</li>
+                <li>• Russia also backing Assad — complicates US response</li>
+                <li>• Israeli strikes on Iranian targets in Syria routine</li>
+                <li>• Syrian territory used as transit for weapons to Lebanon</li>
+                <li>• Iran spent $15B+ keeping Assad in power</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          This network gives Iran what military strategists call <strong>&ldquo;escalation dominance&rdquo;</strong> — 
+          the ability to impose costs on the United States and its allies that are higher than the costs Iran pays. 
+          The US can bomb Iran, but Iran can shut down global oil supplies, attack US forces in multiple countries, 
+          and turn Lebanon into a killing field for Israeli soldiers. Iran has more ways to escalate than America 
+          has ways to contain the escalation.
+        </p>
+      </section>
+
+      {/* Section: Oil Market Impact */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          $180 Oil: The Economic Weapon
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Iran&apos;s most powerful weapon isn&apos;t missiles — it&apos;s geography. The Strait of Hormuz is 21 miles 
+          wide at its narrowest point. <strong>20% of global oil</strong> and <strong>25% of global LNG</strong> passes 
+          through it daily. On Day 2 of the conflict, Iran announced the strait was closed to all traffic. Oil prices 
+          immediately spiked to $180/barrel — a 125% increase that sent global markets into freefall.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Hormuz by the Numbers</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="space-y-3 text-stone-300">
+              <div>
+                <p><span className="text-white font-bold">Daily oil transit:</span> 21.5 million barrels</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Daily LNG transit:</span> 13 billion cubic feet</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Global oil supply impact:</span> 20% offline</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Countries 100% dependent on Hormuz:</span> Japan, South Korea, India</p>
+              </div>
+            </div>
+            <div className="space-y-3 text-stone-300">
+              <div>
+                <p><span className="text-white font-bold">Insurance costs:</span> Increased 2,000% for Persian Gulf shipping</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Alternative routes:</span> Suez Canal at capacity, months-long delays</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Economic impact:</span> $2.7 trillion in lost global GDP (estimated)</p>
+              </div>
+              <div>
+                <p><span className="text-white font-bold">Mining capability:</span> Iran can mine the strait in 72 hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The closure has created a cascading global crisis. <strong>China&apos;s manufacturing</strong> is grinding to 
+          a halt — 70% of its oil imports transit Hormuz. <strong>European energy prices</strong> have tripled, triggering 
+          rationing and industrial shutdowns. <strong>India&apos;s economy</strong> faces collapse — 85% of its oil comes 
+          through the strait. Japan has implemented emergency fuel conservation measures not seen since WWII.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Historical Precedent: The 1973 Oil Embargo</h3>
+          <p className="text-stone-700 mb-3">
+            During the 1973 Arab-Israeli War, Arab oil producers cut production by 5% and embargoed oil exports 
+            to the US and Netherlands. Oil prices quadrupled from $3 to $12/barrel. The embargo lasted 5 months 
+            and triggered a global recession, fuel rationing, and the collapse of several governments.
+          </p>
+          <p className="text-stone-700">
+            The current crisis is potentially worse. The 1973 embargo cut global supply by 5%. The Hormuz closure 
+            cuts supply by 20%. The 1973 embargo was voluntary — producers could resume exports at any time. The 
+            Hormuz closure is military — it requires defeating Iran to reopen. Every day the strait remains closed 
+            costs the global economy an estimated $15 billion.
+          </p>
+        </div>
+      </section>
+
+      {/* Section: Military Strategy */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          Asymmetric Warfare: Iran&apos;s A2/AD Strategy
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Iran cannot match American military power conventional force-on-force. Instead, it has spent 45 years 
+          developing an <strong>&ldquo;Anti-Access/Area Denial&rdquo;</strong> (A2/AD) strategy designed to make 
+          American operations in the Persian Gulf prohibitively expensive. The strategy is working exactly as designed.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Iran&apos;s Military Doctrine</h3>
+          <div className="space-y-4">
+            <div>
+              <h4 className="font-semibold text-stone-800">Layer 1: Missiles &amp; Drones</h4>
+              <p className="text-stone-700 text-sm">
+                Iran has the largest missile force in the Middle East — over 3,000 ballistic and cruise missiles. 
+                Ranges up to 2,000km cover all US bases in the region. Precision guidance allows targeting of 
+                specific buildings. Mix of liquid and solid fuel makes launches difficult to predict and interdict.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Layer 2: Naval Warfare</h4>
+              <p className="text-stone-700 text-sm">
+                Iran&apos;s Revolutionary Guard Navy operates hundreds of small, fast attack craft designed for 
+                &ldquo;swarm&rdquo; tactics. Mini-submarines, naval mines, and anti-ship missiles threaten large 
+                US vessels in the confined waters of the Persian Gulf. The goal: make it too risky for US carriers to operate.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Layer 3: Proxy Forces</h4>
+              <p className="text-stone-700 text-sm">
+                The proxy network provides strategic depth and escalation options. If the US bombs Iranian territory, 
+                Iranian proxies can attack US forces in Iraq, Lebanon, Yemen, and Syria. Every proxy activation 
+                forces the US to divert resources and attention from the primary conflict.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Layer 4: Economic Warfare</h4>
+              <p className="text-stone-700 text-sm">
+                The Hormuz closure imposes immediate, massive economic costs on US allies and the global economy. 
+                Every day the strait remains closed increases pressure for a ceasefire. Iran weaponizes interdependence.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The US military is optimized for <strong>&ldquo;force projection&rdquo;</strong> — delivering overwhelming 
+          firepower anywhere in the world. But Iran&apos;s strategy is specifically designed to neutralize American 
+          advantages. Large aircraft carriers become targets, not assets, in the confined Persian Gulf. Precision-guided 
+          munitions are neutralized by mobile launchers that shoot and scoot. Advanced aircraft are vulnerable to 
+          surface-to-air missiles and must operate from bases that are themselves under attack.
+        </p>
+      </section>
+
+      {/* Section: Intelligence Warfare */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Shadow War: Intelligence Operations
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          While missiles and bombs dominate headlines, a parallel intelligence war is being fought across multiple 
+          domains. Both sides are conducting cyber attacks, disinformation operations, and covert actions designed 
+          to degrade enemy capabilities and domestic support for the war.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Cyber Warfare Escalation</h3>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">US Operations:</span> Power grid attacks causing rolling blackouts across Iran</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Iranian Retaliation:</span> Attacks on US financial systems, water treatment facilities</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Critical Infrastructure:</span> Both sides targeting civilian infrastructure (power, water, internet)</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Economic Targets:</span> Banking systems, stock exchanges, cryptocurrency networks</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Collateral Damage:</span> Attacks affecting neutral countries&apos; systems</p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Iran&apos;s intelligence services are conducting operations far beyond the Middle East. <strong>Sleeper cells 
+          in Europe and North America</strong> have been activated to conduct surveillance on Iranian dissidents, Israeli 
+          facilities, and US military personnel. The FBI has arrested 14 people in the US on charges related to Iranian 
+          intelligence activities since the conflict began.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Assassination and Sabotage</h3>
+          <p className="text-stone-700 mb-3">
+            The conflict has also featured targeted killings and sabotage operations. Israel&apos;s assassination of 
+            Supreme Leader Khamenei on February 28 was followed by Iranian attempts to kill Israeli officials abroad. 
+            <strong>Two Iranian agents were arrested</strong> in Vienna attempting to plant a bomb at the Israeli embassy. 
+            Another cell was disrupted in Argentina.
+          </p>
+          <p className="text-stone-700">
+            Both sides are also conducting industrial sabotage. Iranian agents have attempted to sabotage weapons 
+            shipments to Israel. Israeli/US intelligence has reportedly sabotaged Iranian weapons factories and missile 
+            production facilities. The shadow war extends the battlefield to every country where both sides have assets.
+          </p>
+        </div>
+      </section>
+
+      {/* Section: Humanitarian Crisis */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Civilian Cost: Schools, Hospitals, and Markets
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Despite claims of &ldquo;precision strikes&rdquo; and &ldquo;military targets only,&rdquo; the civilian casualty 
+          toll continues to mount. The most devastating single incident was the destruction of the Minab Elementary School 
+          in southern Iran, where <strong>180 schoolgirls</strong> were killed when a US munition struck the building. 
+          The Pentagon maintains the strike was targeting an adjacent IRGC facility.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Civilian Infrastructure Under Attack</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Iran</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• Minab Elementary School: 180 girls killed</li>
+                <li>• Tehran Grand Bazaar: Partially destroyed, historic sections damaged</li>
+                <li>• Golestan Palace: UNESCO World Heritage site damaged</li>
+                <li>• Power grid: 40% degraded, rolling blackouts nationwide</li>
+                <li>• Water treatment: 6 facilities offline, affecting 2M people</li>
+                <li>• Hospitals: 12 medical facilities struck or damaged</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Regional</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• UAE: Dubai Fairmont Hotel destroyed by missile</li>
+                <li>• Lebanon: 52 civilians killed in first week</li>
+                <li>• Israel: Beit Shemesh residential area hit</li>
+                <li>• Cyprus: Civilian airport operations disrupted</li>
+                <li>• Saudi Arabia: Oil facilities targeted, minimal damage</li>
+                <li>• Iraq: Erbil government buildings struck</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The humanitarian situation is being complicated by the breakdown of normal aid and medical supply chains. 
+          International sanctions make it difficult to deliver medical supplies to Iran. The Hormuz closure has disrupted 
+          food imports to the Gulf states. UNRWA operations in Lebanon have been suspended due to the security situation. 
+          An estimated <strong>2.3 million people</strong> have been displaced across the region in the first week.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Refugee Crisis Developing</h3>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">Southern Lebanon:</span> 850,000 civilians fleeing north as Israel prepares ground invasion</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Northern Iran:</span> 400,000 displaced from bombing in Tehran, Tabriz, Isfahan provinces</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Gulf States:</span> Mass evacuation of foreign workers — 200,000+ Indians, Pakistanis, Filipinos</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">International Response:</span> UNHCR requesting $2.4B in emergency funding</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: International Response */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          International Response: Paralysis and Profit
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          The international community&apos;s response has been characterized by <strong>diplomatic paralysis</strong> 
+          and economic opportunism. The UN Security Council held an emergency session on March 1 but could reach 
+          no consensus. Russia and China blocked a US-sponsored resolution calling for Iranian de-escalation. 
+          France and Britain backed the US position. The result: no international action to stop the escalation.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Global Response by Region</h3>
+          <div className="space-y-4">
+            <div>
+              <h4 className="font-semibold text-stone-800">Europe</h4>
+              <p className="text-stone-700 text-sm">
+                The EU is split. Germany and France support de-escalation and have called for immediate ceasefire talks. 
+                Eastern European countries (Poland, Baltic states) back the US position. Italy and Greece, heavily 
+                dependent on energy imports, are pushing for immediate Hormuz reopening. EU energy prices have tripled, 
+                triggering industrial shutdowns and public protests.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">China</h4>
+              <p className="text-stone-700 text-sm">
+                China is Iran&apos;s largest oil customer and has called for immediate ceasefire. Chinese President Xi 
+                Jinping spoke with Iranian leaders and offered to mediate. However, China is also quietly benefiting — 
+                purchasing discounted Iranian oil through back-channel deals while publicly calling for peace. Chinese 
+                manufacturing is suffering from oil shortages, but the government is using the crisis to accelerate 
+                renewable energy deployment.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">India</h4>
+              <p className="text-stone-700 text-sm">
+                India imports 85% of its oil through Hormuz and faces economic catastrophe. Prime Minister Modi has 
+                personally called Trump and Israeli PM to urge restraint. India is activating emergency oil reserves 
+                (90-day supply) and implementing fuel rationing. Indian naval forces have been deployed to escort 
+                Indian-flagged tankers, raising the possibility of direct Indian-Iranian naval confrontation.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Russia</h4>
+              <p className="text-stone-700 text-sm">
+                Russia is the war&apos;s biggest beneficiary. Oil prices at $180/barrel mean massive windfall profits 
+                for Russian energy exports. Putin has offered to mediate but is privately encouraging Iranian resistance. 
+                Intelligence reports suggest Russia is providing advanced surface-to-air missiles to Iran through Syrian 
+                airspace. Russian naval forces in the Mediterranean have increased activity.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Meanwhile, <strong>defense contractors are celebrating</strong>. Lockheed Martin stock is up 23% since the 
+          conflict began. Raytheon is up 31%. Boeing defense division is up 18%. The companies that manufacture the 
+          weapons destroying the region are profiting from every escalation. War is good for business — which is why 
+          it&apos;s so hard to stop.
+        </p>
+      </section>
+
       {/* The Question of Containment */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Can This Be Contained?</h2>
       <p className="mb-4">
@@ -351,6 +732,25 @@ export default function IranRegionalWarPage() {
         The question is no longer whether this war will spread. It has already spread. The question is whether anyone has the
         political will and diplomatic skill to stop it before it consumes the entire region.
       </p>
+      
+      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-400">The Bottom Line</h3>
+        <p className="text-stone-300 text-lg mb-4">
+          This war was entirely predictable and entirely preventable. Every think tank in Washington had war-gamed this scenario. 
+          Every military strategist knew that striking Iran would activate the proxy network. Every economist knew that closing 
+          Hormuz would crash the global economy. Every diplomat knew that decapitation strikes make negotiation impossible.
+        </p>
+        <p className="text-stone-300 text-lg mb-4">
+          The politicians launched the war anyway. They ignored the experts, dismissed the warnings, and chose escalation over 
+          de-escalation at every decision point. Now 11 countries are at war, oil is at $180, and 1,300+ people are dead in 
+          the first week. The bill for this strategic stupidity will be paid in blood and treasure for decades.
+        </p>
+        <p className="text-stone-300 text-lg">
+          The question Americans should be asking is simple: <strong>How does this make us safer?</strong> Every missile fired 
+          creates new enemies. Every ally drawn into conflict creates new vulnerabilities. Every day this war continues makes 
+          America less secure, not more. This is not deterrence — it&apos;s destruction. And it&apos;s not working.
+        </p>
+      </div>
 
       <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
         <h3 className="font-bold text-red-900 mb-2">What Comes Next?</h3>

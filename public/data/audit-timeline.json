@@ -1,0 +1,55 @@
+{
+  "audits": [
+    {
+      "year": 2018,
+      "passed": false,
+      "budget": 700000000000,
+      "finding": "First-ever comprehensive audit. Failed across most categories."
+    },
+    {
+      "year": 2019,
+      "passed": false,
+      "budget": 716000000000,
+      "finding": "Failed again. Only 7 of 24 sub-audits received clean opinions."
+    },
+    {
+      "year": 2020,
+      "passed": false,
+      "budget": 721000000000,
+      "finding": "Third failure. COVID cited as complication."
+    },
+    {
+      "year": 2021,
+      "passed": false,
+      "budget": 742000000000,
+      "finding": "Fourth failure. 1,600 auditors, still can't pass."
+    },
+    {
+      "year": 2022,
+      "passed": false,
+      "budget": 782000000000,
+      "finding": "Fifth failure. Marine Corps passed for first time, rest failed."
+    },
+    {
+      "year": 2023,
+      "passed": false,
+      "budget": 816000000000,
+      "finding": "Sixth failure. Can't account for 63% of $3.8T in assets."
+    },
+    {
+      "year": 2024,
+      "passed": false,
+      "budget": 824000000000,
+      "finding": "Seventh failure. $2.5T unaccounted. Pentagon says 'momentum on our side.'"
+    },
+    {
+      "year": 2025,
+      "passed": false,
+      "budget": 886000000000,
+      "finding": "Eighth consecutive failure. GOP senator introduces audit legislation."
+    }
+  ],
+  "totalUnaccounted": 2500000000000,
+  "totalAssets": 3800000000000,
+  "percentUnaccounted": 63
+}

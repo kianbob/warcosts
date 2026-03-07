@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 import { MediaWarCharts } from './MediaWarCharts'
 
 export const metadata: Metadata = {
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
     title: 'Manufacturing Consent: How Media Sells Every War',
     description: 'Every war starts with a media campaign. The pattern from 1898 to 2026.',
     url: 'https://www.warcosts.org/analysis/media-and-war',
+    type: 'article',
   },
 }
 
@@ -99,6 +102,70 @@ const pentagonPR = [
   { item: 'Pentagon social media accounts', amount: '4,000+', note: 'Active across Twitter, Instagram, TikTok, YouTube, Facebook' },
   { item: 'Military eSports/gaming teams', amount: 'All 5 branches', note: 'US Army had Twitch streaming team until public backlash in 2020 over banning viewers who asked about war crimes' },
   { item: 'Paid NFL patriotism deals', amount: '$6.8M (2012-2015)', note: 'Pentagon paid NFL teams for "patriotic displays" — troop salutes, flag ceremonies. Exposed as paid propaganda in 2015.' },
+  { item: 'Pentagon TV/Film Office budget', amount: '$7.4M annually', note: 'Full-time staff to work with Hollywood. Worth billions in free advertising.' },
+  { item: 'Defense contractors\' lobbying spend', amount: '$138M (2023)', note: 'Lockheed Martin ($12.7M), Northrop Grumman ($10.8M), Boeing ($9.7M). Revolving door with media executives.' },
+  { item: 'Military recruitment ads budget', amount: '$830M annually', note: 'All branches combined. Targets 16-24 year olds on social media, gaming platforms.' },
+]
+
+const mediaConsolidation = [
+  { company: 'Comcast NBCUniversal', outlets: 'NBC, MSNBC, CNBC, USA, Bravo, E!, Universal Pictures', defense: 'NBC parent Comcast: zero defense contracts. However, GE (former parent) was major defense contractor.' },
+  { company: 'Disney', outlets: 'ABC, ESPN, Disney Channel, Marvel, Lucasfilm', defense: '$300M+ in defense contracts (cybersecurity, training simulations). Marvel films require Pentagon approval.' },
+  { company: 'Warner Bros Discovery', outlets: 'CNN, HBO, Warner Bros, Discovery, TBS, TNT', defense: 'AT&T (former parent): $2.3B in government contracts. CNN heavily features retired generals as "analysts."' },
+  { company: 'Paramount Global', outlets: 'CBS, Paramount Pictures, Showtime, MTV, Comedy Central', defense: 'CBS parent has minimal direct defense ties, but extensive Pentagon cooperation on film/TV projects.' },
+  { company: 'Fox Corporation', outlets: 'Fox News, Fox Broadcasting, Fox Sports', defense: 'Murdoch media empire globally aligned with Western military interventions. Fox News strongly pro-war editorial stance.' },
+  { company: 'Sinclair Broadcasting', outlets: '185+ local TV stations nationwide', defense: 'Mandates pro-military content across local stations. "Terrorism Alert Desk" segments support intervention.' },
+]
+
+const warCorrespondents = [
+  { name: 'William Howard Russell', war: 'Crimean War (1854)', outlet: 'The Times (London)', approach: 'Critical', fate: 'Expelled by British military for revealing incompetence, disease, supply failures. Called the first "special correspondent."' },
+  { name: 'Ernie Pyle', war: 'World War II', outlet: 'Scripps-Howard', approach: 'Pro-war but honest about soldier experience', fate: 'Killed by Japanese sniper, Okinawa, 1945. Beloved by troops for humanizing stories, not propaganda.' },
+  { name: 'Edward R. Murrow', war: 'World War II / Cold War', outlet: 'CBS', approach: 'Critical journalism', fate: 'Attacked by McCarthy for anti-communist skepticism. Set standard for broadcast journalism integrity.' },
+  { name: 'David Halberstam', war: 'Vietnam', outlet: 'New York Times', approach: 'Critical', fate: 'JFK tried to have him removed from Vietnam. Won Pulitzer for exposing government lies. Career vindicated.' },
+  { name: 'Neil Sheehan', war: 'Vietnam', outlet: 'New York Times', approach: 'Critical', fate: 'Published Pentagon Papers. Government tried to prosecute. Supreme Court protected press freedom (1971).' },
+  { name: 'Peter Arnett', war: 'Gulf War / Iraq', outlet: 'CNN / NBC', approach: 'Critical reporting from Baghdad', fate: 'Fired from NBC in 2003 for giving interview to Iraqi TV. Ostracized by mainstream media.' },
+  { name: 'Judith Miller', war: 'Iraq War', outlet: 'New York Times', approach: 'Uncritically amplified WMD claims', fate: 'Eventually pushed out of Times. Career damaged, but no criminal accountability for helping sell false war.' },
+  { name: 'Michael Hastings', war: 'Afghanistan', outlet: 'Rolling Stone', approach: 'Critical', fate: 'Exposed Gen. McChrystal. Died in suspicious car crash, 2013. Had been working on story about CIA/NSA.' },
+]
+
+const militaryAnalystProgram = [
+  { analyst: 'Barry McCaffrey (Gen.)', network: 'NBC', undisclosed: 'DFI International (defense contractor), Veritas Capital (defense PE firm)' },
+  { analyst: 'Wayne Downing (Gen.)', network: 'NBC', undisclosed: 'SAIC (defense contractor), Blackwater (private military)' },
+  { analyst: 'James Marks (Gen.)', network: 'CNN', undisclosed: 'Geo-Analytics (defense consulting), Sotera Defense (contractor)' },
+  { analyst: 'Spider Marks (Gen.)', network: 'CNN', undisclosed: 'GTEC (contractor), consultant to defense firms' },
+  { analyst: 'Donald Shepperd (Gen.)', network: 'CNN', undisclosed: 'Shepperd Consulting (Pentagon contracts), defense industry board positions' },
+  { analyst: 'Paul Eaton (Gen.)', network: 'CNN/CBS', undisclosed: 'Bolton & Company (defense PR), consultant to contractors seeking Pentagon work' },
+  { analyst: 'David Grange (Gen.)', network: 'CNN', undisclosed: 'Kroll Security (defense contracts), board member of defense companies' },
+  { analyst: 'Montgomery Meigs (Gen.)', network: 'NBC', undisclosed: 'CACI International (contractor involved in Abu Ghraib), defense industry consulting' },
+]
+
+const publicSupportDecline = [
+  { war: 'Spanish-American War', initialSupport: '72%', finalSupport: '45%', duration: '10 months', mediaControl: 'High (Yellow journalism success)' },
+  { war: 'World War I', initialSupport: '73%', finalSupport: '51%', duration: '19 months', mediaControl: 'High (Creel Committee)' },
+  { war: 'World War II', initialSupport: '89%', finalSupport: '80%', duration: '44 months', mediaControl: 'High (Censorship + voluntarily patriotic media)' },
+  { war: 'Korean War', initialSupport: '78%', finalSupport: '36%', duration: '37 months', mediaControl: 'Medium (Some critical coverage)' },
+  { war: 'Vietnam War', initialSupport: '85%', finalSupport: '28%', duration: '120 months', mediaControl: 'Low (Critical coverage after 1968)' },
+  { war: 'Gulf War', initialSupport: '79%', finalSupport: '74%', duration: '1.5 months', mediaControl: 'High (Embed system prototype)' },
+  { war: 'Afghanistan', initialSupport: '90%', finalSupport: '37%', duration: '240 months', mediaControl: 'High initially, declined over time' },
+  { war: 'Iraq War', initialSupport: '72%', finalSupport: '33%', duration: '105 months', mediaControl: 'High (Full embed system)' },
+  { war: 'Libya', initialSupport: '47%', finalSupport: '39%', duration: '7 months', mediaControl: '"Humanitarian" framing, limited coverage' },
+  { war: 'Iran (2026)', initialSupport: '51%', finalSupport: 'TBD', duration: 'Ongoing', mediaControl: 'Mixed (Social media challenges narrative)' },
+]
+
+const socialMediaImpact = [
+  { platform: 'Twitter/X', warRelated: 'Real-time updates, uncensored footage, alternative perspectives', govControl: 'Moderate (Pressure on company, some censorship)', userBase: '450M monthly' },
+  { platform: 'TikTok', warRelated: 'Young users expose themselves to non-Western perspectives', govControl: 'High concern (Attempted ban/forced sale)', userBase: '150M US users' },
+  { platform: 'Instagram', warRelated: 'Visual content from conflict zones, direct from civilians', govControl: 'Moderate (Meta cooperation with requests)', userBase: '2B globally' },
+  { platform: 'YouTube', warRelated: 'Independent journalists, long-form analysis, historical documentation', govControl: 'High (Demonetization, shadowbanning, removal)', userBase: '2.7B globally' },
+  { platform: 'Telegram', warRelated: 'Encrypted channels, uncensorable content, real-time war updates', govControl: 'Low (End-to-end encryption)', userBase: '900M globally' },
+  { platform: 'Reddit', warRelated: 'Community-driven fact-checking, historical parallels, veteran perspectives', govControl: 'Moderate (Community moderation)', userBase: '430M monthly' },
+]
+
+const medicalCasualtyCoverage = [
+  { conflict: 'Iraq War', usCasualties: '4,599 killed, 32,226 wounded', iraqiCivilians: '300,000+ killed (conservative)', mediaFocus: '95% US casualties, 5% Iraqi casualties', coverageGap: 'Iraqi death toll underreported by 95%+' },
+  { conflict: 'Afghanistan War', usCasualties: '2,461 killed, 20,769 wounded', afghanCivilians: '176,000+ killed', mediaFocus: '90% US casualties, 10% Afghan casualties', coverageGap: 'Afghan civilian casualties rarely front page news' },
+  { conflict: 'Libya Intervention', usCasualties: '0 combat deaths', libyanCivilians: '22,000+ killed, country destroyed', mediaFocus: '80% "mission accomplished," 20% aftermath', coverageGap: 'Ongoing chaos and slave markets ignored' },
+  { conflict: 'Syria Operations', usCasualties: '8 combat deaths', syrianCivilians: '500,000+ killed (all sides)', mediaFocus: '60% chemical weapons, 40% ISIS', coverageGap: 'US role in prolonging war rarely examined' },
+  { conflict: 'Yemen (US support)', usCasualties: '0 combat deaths', yemeniCivilians: '377,000+ killed', mediaFocus: '10% coverage despite worst humanitarian crisis', coverageGap: 'US weapons sales to Saudis underreported' },
 ]
 
 export default function MediaAndWarPage() {
@@ -167,6 +234,25 @@ export default function MediaAndWarPage() {
         <p>
           This pattern has repeated for 125 years without exception. Not once has the mainstream American media
           prevented a war by aggressively challenging government claims before the shooting started.
+        </p>
+
+        <h3 className="font-[family-name:var(--font-heading)]">The Economics of War Coverage</h3>
+        <p>
+          War sells. The Gulf War was the first conflict broadcast live on television, and CNN's ratings soared 
+          2,400% during the bombing campaign. War coverage is cheap to produce — the Pentagon provides footage, 
+          interviews, and expert analysis for free. Independent investigation costs money and takes time. 
+          Broadcasting Pentagon briefings costs nothing and fills hours of airtime.
+        </p>
+        <p>
+          The advertising model creates additional incentives. Defense contractors spend over <strong>$138 million 
+          annually on lobbying</strong>, but they also spend billions on advertising. Lockheed Martin's "Above 
+          and Beyond" campaign ran on CNN, MSNBC, and Fox News during the height of the Afghanistan War. These 
+          companies don't sell fighter jets to consumers — they're buying editorial influence.
+        </p>
+        <p>
+          When your biggest advertisers profit from war, challenging the necessity of war becomes a business risk.
+          No network wants to lose a multimillion-dollar account by asking tough questions about weapons 
+          effectiveness or contractor waste.
         </p>
       </div>
 
@@ -251,6 +337,32 @@ export default function MediaAndWarPage() {
         </div>
       </div>
 
+      {/* Media Consolidation */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Media Consolidation and Defense Industry Ties</h2>
+        <p className="text-stone-300 mb-4">Six corporations control 90% of American media. Many have direct or indirect ties to the defense industry:</p>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2">Company</th>
+                <th className="text-left text-white font-semibold py-2">Media Outlets</th>
+                <th className="text-left text-white font-semibold py-2">Defense Connections</th>
+              </tr>
+            </thead>
+            <tbody>
+              {mediaConsolidation.map((company, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{company.company}</td>
+                  <td className="text-stone-300 py-3 text-sm">{company.outlets}</td>
+                  <td className="text-stone-400 py-3 text-xs">{company.defense}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The CNN Effect and the 24-Hour War Cycle</h2>
         <p>
@@ -266,12 +378,110 @@ export default function MediaAndWarPage() {
           time for investigative journalism in a format that needs content every minute. The easiest content is official
           sources — and official sources have an agenda.
         </p>
+        <p>
+          The 24-hour cycle also creates what media scholars call "manufactured urgency." Every development must be 
+          "breaking news." Every threat must be "imminent." Every military action must be "necessary." The format 
+          doesn't allow for context, historical perspective, or careful analysis. It rewards the loudest voice, the 
+          most dramatic claim, the most alarming prediction.
+        </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">War Correspondents: Heroes and Villains</h2>
+        <p>
+          The history of war correspondence reveals two distinct models: journalists who serve the public by telling 
+          hard truths, and journalists who serve power by amplifying official narratives. The difference often determines 
+          not just careers, but whether wars continue or end.
+        </p>
+      </div>
+
+      {/* War Correspondents */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">War Correspondents: Truth vs. Propaganda</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">Journalist</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">War/Conflict</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Outlet</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Approach</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Fate/Consequences</th>
+              </tr>
+            </thead>
+            <tbody>
+              {warCorrespondents.map((reporter, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-xs">{reporter.name}</td>
+                  <td className="text-stone-300 py-3 text-xs">{reporter.war}</td>
+                  <td className="text-stone-300 py-3 text-xs">{reporter.outlet}</td>
+                  <td className={`py-3 text-xs ${reporter.approach === 'Critical' ? 'text-green-400' : 'text-red-400'}`}>
+                    {reporter.approach}
+                  </td>
+                  <td className="text-stone-400 py-3 text-xs">{reporter.fate}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Pentagon Military Analyst Program: Exposed</h2>
+        <p>
+          In April 2008, the <em>New York Times</em> published a devastating exposé of the Pentagon's Military Analyst 
+          Program. From 2002 to 2008, the Pentagon secretly recruited 75 retired military officers to appear on television 
+          as "independent" analysts — while feeding them classified briefings, talking points, and access in exchange 
+          for promoting administration policies.
+        </p>
+        <p>
+          The program was a textbook case of propaganda disguised as journalism. Viewers believed they were hearing 
+          from independent experts. In reality, they were hearing from unpaid Pentagon PR agents. Many of the analysts 
+          also had financial ties to defense contractors that benefited from the wars they were promoting.
+        </p>
+        <p>
+          When the story broke, there were no consequences. No network fired analysts. No analyst lost their security 
+          clearance. No Pentagon official was prosecuted. The program simply became more discreet.
+        </p>
+      </div>
+
+      {/* Military Analyst Program */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Pentagon's TV Analysts: Hidden Conflicts of Interest</h2>
+        <p className="text-stone-300 mb-4">Retired generals appeared as "independent" TV analysts while secretly receiving Pentagon briefings and having defense industry ties:</p>
+        <div className="space-y-3">
+          {militaryAnalystProgram.map((analyst, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-semibold text-sm">{analyst.analyst}</h3>
+                <span className="text-stone-400 text-sm">{analyst.network}</span>
+              </div>
+              <p className="text-stone-400 text-xs"><strong>Undisclosed business ties:</strong> {analyst.undisclosed}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          <strong>None of these conflicts of interest were disclosed to viewers.</strong> The Pentagon briefed these analysts 
+          on classified information and talking points before they went on air to promote wars that enriched their business partners.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Pentagon&apos;s PR Machine</h2>
         <p>
           The Department of Defense operates the largest public relations apparatus in the world. It is not an
           exaggeration to say that the Pentagon spends more on propaganda than most countries spend on their entire
           military.
+        </p>
+        <p>
+          The Pentagon's PR budget of <strong>$4.7 billion annually</strong> exceeds the entire budget of the State 
+          Department ($3.2B). It employs thousands of people whose job is to shape public opinion about military spending, 
+          operations, and strategy. This includes traditional PR, but also entertainment partnerships, social media 
+          operations, recruitment advertising, and academic research funding.
+        </p>
+        <p>
+          The entertainment industry partnership is particularly sophisticated. The Pentagon's entertainment liaison 
+          offices review thousands of scripts annually. Productions that portray the military positively get access to 
+          equipment worth millions. Those that don't get nothing. Over time, this shapes the entire cultural narrative 
+          around American military power.
         </p>
       </div>
 
@@ -310,7 +520,105 @@ export default function MediaAndWarPage() {
           and extensive technical support. The film grossed $1.5 billion worldwide. It was, by any measure, the most
           effective military recruitment advertisement ever produced — and the audience paid to watch it.
         </p>
+        <p>
+          The Marvel Cinematic Universe represents the Pentagon's most successful soft power campaign. <em>Iron Man</em>, 
+          <em>Captain Marvel</em>, <em>Captain America</em>, and other films consistently portray advanced American 
+          military technology as the solution to global problems. The Pentagon provided extensive support, script 
+          review, and equipment in exchange for messaging that promotes American military supremacy. These films 
+          have grossed over $29 billion worldwide — more effective than any government propaganda campaign in history.
+        </p>
+        <p>
+          Films that don't get Pentagon cooperation tell a different story. <em>Apocalypse Now</em>, <em>Born on the 
+          Fourth of July</em>, <em>Full Metal Jacket</em>, and <em>Platoon</em> — all critical of war — received no 
+          Pentagon support. They had to use private equipment, hire fewer actors, and create their own military sets. 
+          The economic pressure toward pro-military storytelling is enormous.
+        </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">Casualty Coverage: American Lives vs. Everyone Else</h2>
+        <p>
+          American media extensively covers US military casualties — names, hometowns, grieving families, flag-draped 
+          coffins (when allowed). Foreign civilian casualties get different treatment: numbers (often lowballed), 
+          no names, no families, no humanity. This disparity shapes public understanding of war's true cost.
+        </p>
+      </div>
+
+      {/* Casualty Coverage */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Media Coverage of War Deaths: The Disparity</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">Conflict</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">US Deaths</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Civilian Deaths</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Media Focus</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Coverage Gap</th>
+              </tr>
+            </thead>
+            <tbody>
+              {medicalCasualtyCoverage.map((conflict, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-xs">{conflict.conflict}</td>
+                  <td className="text-green-400 py-3 text-xs">{conflict.usCasualties}</td>
+                  <td className="text-red-400 py-3 text-xs">{conflict.iraqiCivilians}</td>
+                  <td className="text-stone-300 py-3 text-xs">{conflict.mediaFocus}</td>
+                  <td className="text-stone-400 py-3 text-xs">{conflict.coverageGap}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          <strong>Pattern:</strong> American casualties get extensive humanizing coverage. Foreign civilian casualties 
+          get statistical treatment or are ignored entirely. This shapes public perception of war's true costs.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Public Support Decline: How Long the Lies Last</h2>
+        <p>
+          Every American war starts with high public support manufactured by media campaigns. But support inevitably 
+          declines as reality contradicts propaganda. The key variable is how long media maintains the narrative 
+          before acknowledging problems.
+        </p>
+      </div>
+
+      {/* Public Support Decline */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">War Support Over Time: The Pattern</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">War</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Initial Support</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Final Support</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Duration</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Media Control</th>
+              </tr>
+            </thead>
+            <tbody>
+              {publicSupportDecline.map((war, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-xs">{war.war}</td>
+                  <td className="text-green-400 py-3 text-xs">{war.initialSupport}</td>
+                  <td className="text-red-400 py-3 text-xs">{war.finalSupport}</td>
+                  <td className="text-stone-300 py-3 text-xs">{war.duration}</td>
+                  <td className="text-stone-400 py-3 text-xs">{war.mediaControl}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          <strong>Key insight:</strong> Wars with stronger media control maintain higher public support longer. 
+          Vietnam's critical coverage after 1968 led to the steepest support decline. The embed system was designed 
+          to prevent another Vietnam-style media "problem."
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Social Media Era: Cracks in the Machine</h2>
         <p>
           For the first time in American history, the government&apos;s ability to control the war narrative is being
@@ -328,7 +636,41 @@ export default function MediaAndWarPage() {
           necessary, social media is full of Iranian civilians sharing their reality, anti-war veterans pushing back,
           and historical parallels to Iraq that mainstream media refuses to make.
         </p>
+      </div>
 
+      {/* Social Media Impact */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Social Media vs. Traditional Media: Information War</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">Platform</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">War-Related Content</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Government Control</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">User Base</th>
+              </tr>
+            </thead>
+            <tbody>
+              {socialMediaImpact.map((platform, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{platform.platform}</td>
+                  <td className="text-stone-300 py-3 text-xs">{platform.warRelated}</td>
+                  <td className="text-stone-400 py-3 text-xs">{platform.govControl}</td>
+                  <td className="text-green-400 py-3 text-xs">{platform.userBase}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          <strong>The shift:</strong> For the first time, ordinary people can share unfiltered war content globally. 
+          Traditional media's gatekeeping role is being bypassed. Government response: increase pressure on social 
+          media companies for "content moderation" (censorship).
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The TikTok Generation&apos;s Skepticism</h2>
         <p>
           Polling data shows a dramatic generational divide on war support. Americans under 30 are significantly less
@@ -343,6 +685,60 @@ export default function MediaAndWarPage() {
           young Americans encountered information challenging official narratives on Gaza and military spending. The
           coincidence was not lost on the generation targeted.
         </p>
+        <p>
+          This generation also has access to historical information that previous generations did not. Declassified 
+          documents about Gulf of Tonkin, Pentagon Papers, CIA assassination programs, and other government deceptions 
+          are readily available online. When the same officials who lied about Iraq claim new threats require military 
+          action, young Americans can fact-check in real time.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Revolving Door: Defense Industry and Media</h2>
+        <p>
+          The relationships between defense contractors, Pentagon officials, and media figures create conflicts of 
+          interest that rarely get disclosed. Former Pentagon officials become TV analysts. Former TV personalities 
+          join defense contractors. Defense contractor executives join Pentagon leadership. The result is a echo 
+          chamber where the same people rotate between roles while maintaining consistent pro-intervention messaging.
+        </p>
+        <p>
+          General Lloyd Austin went from Raytheon board member to Defense Secretary. Before Raytheon, he was in the 
+          Pentagon. Before the Pentagon, he was on TV as an analyst. The pattern is so common it's barely newsworthy 
+          anymore. But it should be.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">What Independent War Journalism Looks Like</h2>
+        <p>
+          Truly independent war journalism — journalism that serves the public rather than power — has common 
+          characteristics: it questions official narratives, seeks multiple sources, provides historical context, 
+          examines financial interests, and prioritizes civilian casualties over military objectives.
+        </p>
+        <p>
+          We see examples in the work of Jeremy Scahill (The Intercept), Aaron Maté (independent), Matt Taibbi 
+          (independent), Glenn Greenwald (independent), and small outlets like the Grayzone and MintPress News. 
+          Notably, most are now independent or work for small outlets. The institutional media system has become 
+          incompatible with challenging power.
+        </p>
+        <p>
+          These journalists face constant attacks — "Russian agents," "terrorist sympathizers," "unpatriotic" — the 
+          same smears used against anti-war journalists throughout history. But they persist because someone must 
+          tell the truth about war.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Iran Test Case (2026)</h2>
+        <p>
+          The current Iran crisis provides a real-time test of whether American media has learned anything from Iraq. 
+          Early signs are not encouraging. The same pattern is emerging: anonymous intelligence claims, retired generals 
+          on TV explaining necessity, minimal questioning of official narratives, and marginalization of dissent.
+        </p>
+        <p>
+          But there are differences. Social media provides alternative information sources. Veterans of Iraq and 
+          Afghanistan are vocally skeptical. Young Americans distrust institutions. The media's credibility is at 
+          historic lows. The manufacturing of consent is becoming more difficult.
+        </p>
+        <p>
+          Whether this is enough to prevent another disastrous war remains to be seen. But for the first time in 
+          decades, there is genuine opposition to the war machine's propaganda apparatus.
+        </p>
+      </div>
 
         <h2 className="font-[family-name:var(--font-heading)]">What Would Happen If Media Did Its Job?</h2>
         <p>
@@ -386,15 +782,49 @@ export default function MediaAndWarPage() {
           The first casualty of war is truth. The media is the weapon that kills it.
         </p>
 
-        <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
+      <RelatedArticles 
+        articles={[
+          { slug: 'pentagon-waste', title: 'Pentagon Waste: $640 Toilet Seats & Trillions Unaccounted For', desc: 'How defense contractors and media partnerships hide massive fraud' },
+          { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'How war powers became permanent domestic spying authority' },
+          { slug: 'silicon-valley-pentagon', title: 'Silicon Valley & the Pentagon', desc: 'Tech companies profit from war while controlling information flow' },
+          { slug: 'shadow-wars', title: 'Shadow Wars', desc: 'Operations designed to avoid media scrutiny and public debate' }
+        ]}
+      />
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Further Reading</h2>
+        <h3>Analysis Articles</h3>
         <ul>
-          <li><Link href="/analysis/information-warfare">Information Warfare</Link></li>
-          <li><Link href="/analysis/surveillance-state">The Surveillance State</Link></li>
-          <li><Link href="/analysis/iran-2026">Iran 2026: Another Undeclared War?</Link></li>
-          <li><Link href="/analysis/war-profiteering">War Is a Racket: Who Gets Rich</Link></li>
-          <li><Link href="/analysis/cost-of-secrecy">The Black Budget and Classified Spending</Link></li>
+          <li><Link href="/analysis/information-warfare" className="text-red-400 hover:text-red-300">Information Warfare: The Pentagon's Digital Battlefield</Link></li>
+          <li><Link href="/analysis/torture-program" className="text-red-400 hover:text-red-300">America's Torture Program: Hidden from View</Link></li>
+          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-300">The War Economy: Who Profits from Endless Conflict</Link></li>
+          <li><Link href="/analysis/cost-of-secrecy" className="text-red-400 hover:text-red-300">The Black Budget and Classified Spending</Link></li>
+          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-300">Veterans Betrayed: Broken Promises and Cover-ups</Link></li>
+          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-300">Environmental Cost of War: The Hidden Damage</Link></li>
+          <li><Link href="/analysis/childrens-war" className="text-red-400 hover:text-red-300">Children's War: The Youngest Victims of American Intervention</Link></li>
         </ul>
+
+        <h3>Current Conflicts</h3>
+        <ul>
+          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-300">Iran Conflict: Real-time costs and casualties</Link></li>
+          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-300">Ukraine War: American involvement and spending</Link></li>
+          <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-300">Gaza Operations: US weapons and media coverage</Link></li>
+        </ul>
+
+        <blockquote className="border-l-4 border-red-600 bg-red-950/20 p-4 my-6">
+          <p className="text-lg font-medium">
+            &ldquo;The media's the most powerful entity on earth. They have the power to make the innocent guilty and to make the guilty innocent, and that's power. Because they control the minds of the masses.&rdquo;
+          </p>
+          <footer className="text-stone-400 mt-2">— Malcolm X</footer>
+        </blockquote>
       </div>
+
+      <ArticleSchema 
+        title="Manufacturing Consent: How Media Sells Every War"
+        description="Every American war starts with a media campaign that manufactures public support. From yellow journalism to embedded reporters to social media manipulation - the pattern repeats."
+        datePublished="2026-03-06"
+        url="https://www.warcosts.org/analysis/media-and-war"
+      />
 
       <BackToTop />
     </div>

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'What If We\'d Done Nothing? The Counterfactual Cost of War',
@@ -93,6 +95,71 @@ const marshallPlanComparison = [
   { item: 'Afghanistan War (2001–2021)', cost: '$2.3 trillion (13.5× the Marshall Plan)', result: 'Taliban back in power within 11 days of withdrawal. Back to square one.' },
   { item: 'Vietnam War (1955–1975)', cost: '$1.1 trillion (6.5× the Marshall Plan)', result: 'Vietnam went communist anyway. 58,220 Americans dead for nothing.' },
   { item: 'Post-9/11 Wars (total)', cost: '$8+ trillion (47× the Marshall Plan)', result: 'More terrorism, more instability, more enemies than when we started.' },
+]
+
+const diplomaticSuccesses = [
+  { crisis: 'Cuban Missile Crisis (1962)', military: 'Nuclear war nearly started. Joint Chiefs recommended bombing Soviet missile sites', diplomatic: 'Kennedy secretly agreed to remove Jupiter missiles from Turkey in exchange for Soviet withdrawal from Cuba', cost: '$0', result: 'Nuclear war avoided. Soviet missiles removed. Secret deal prevented face-saving crisis for both sides.' },
+  { crisis: 'Berlin Crisis (1961)', military: 'US military buildup, considered using nuclear weapons to keep access to Berlin', diplomatic: 'Negotiated status quo: East builds wall, West maintains access to West Berlin', cost: '$2B in military buildup', result: 'Berlin divided but crisis defused. No war. East-West contact maintained through checkpoints.' },
+  { crisis: 'Suez Crisis (1956)', military: 'Britain, France, Israel invaded Egypt. US could have supported allies militarily', diplomatic: 'Eisenhower forced allies to withdraw through economic pressure', cost: '$0 direct costs', result: 'War ended immediately. US emerged as dominant Western power. Suez Canal reopened to all nations.' },
+  { crisis: 'Iran Nuclear Crisis (2003-2015)', military: 'Israel repeatedly threatened bombing. US had military plans for strikes', diplomatic: 'JCPOA negotiated: Iran limits nuclear program, international monitoring, sanctions relief', cost: '$0 (sanctions relief)', result: 'Iran complied with agreement until US withdrew (2018). Nuclear program constrained for 3 years.' },
+  { crisis: 'South Africa Apartheid (1948-1994)', military: 'Congress and activists pushed for military intervention, invasion of SA', diplomatic: 'Sanctions, divestment, international isolation of apartheid regime', cost: '$0', result: 'Apartheid ended peacefully (1994). Democratic transition. Avoided civil war killing millions.' },
+]
+
+const interventionIncentives = [
+  { actor: 'Defense Contractors', incentive: '$858B annual Pentagon budget', mechanism: 'War requires weapons, ammunition, equipment replacement', example: 'Lockheed Martin stock price rises during conflicts', alignment: 'Pro-intervention' },
+  { actor: 'Military Officers', incentive: 'Career advancement, post-retirement jobs', mechanism: 'War creates promotion opportunities, defense contractor hiring', example: 'Generals become CNN analysts, then Raytheon board members', alignment: 'Pro-intervention' },
+  { actor: 'Politicians', incentive: 'Appear "strong" to voters', mechanism: 'Military action polls well initially, blame later presidents for problems', example: 'Bush 41: 89% approval after Gulf War', alignment: 'Pro-intervention (short-term)' },
+  { actor: 'Media', incentive: 'War drives ratings and advertising', mechanism: 'Breaking news, embedded reporters, defense contractor advertising', example: 'CNN ratings up 2,400% during Gulf War', alignment: 'Pro-intervention' },
+  { actor: 'Think Tanks', incentive: 'Defense contractor funding', mechanism: 'Pro-war analysis gets quoted, anti-war analysis gets ignored', example: 'AEI, CSIS, Atlantic Council all pushed Iraq War', alignment: 'Pro-intervention' },
+  { actor: 'Taxpayers', incentive: 'Pay for wars but don\'t decide policy', mechanism: 'Costs hidden through deficit spending, spread over decades', example: 'Iraq War veterans\' costs will continue until 2050+', alignment: 'Should be anti-intervention' },
+  { actor: 'Soldiers/Veterans', incentive: 'Pay human cost of failed interventions', mechanism: 'PTSD, injuries, deaths from pointless wars', example: '22 veterans commit suicide daily', alignment: 'Should be anti-intervention' },
+]
+
+const costPredictionErrors = [
+  { war: 'Vietnam War', initialEstimate: '$8B (1965)', actualCost: '$1.1T (2023$)', errorFactor: '138x higher', duration: 'Expected: 2 years, Actual: 10+ years' },
+  { war: 'Iraq War', initialEstimate: '$50-60B (White House)', actualCost: '$2.4T', errorFactor: '40-48x higher', duration: 'Expected: "5 weeks" (Rumsfeld), Actual: 8+ years' },
+  { war: 'Afghanistan War', initialEstimate: 'No official estimate given', actualCost: '$2.3T', errorFactor: 'Undefined (no estimate)', duration: 'Expected: Quick punitive raid, Actual: 20 years' },
+  { war: 'Libya Intervention', initialEstimate: '$1B for air campaign', actualCost: '$1.1B direct + destabilization costs', errorFactor: 'Close on direct costs, massive indirect costs', duration: 'Expected: Days to weeks, Actual: Ongoing chaos since 2011' },
+  { war: 'Syria Intervention', initialEstimate: '$500M/year (CIA program)', actualCost: '$14.7B+ (through 2023)', errorFactor: '29x higher', duration: 'Expected: Assad falls in 1-2 years, Actual: 12+ years, Assad fell in 2025' },
+]
+
+const opportunityCostAnalysis = [
+  { intervention: 'Iraq War ($2.4T)', alternative: 'Universal Pre-K for all American children', cost: '$200B annually', duration: 'Could fund for 12 years', impact: 'Lifetime earnings boost: $13 per $1 invested' },
+  { intervention: 'Afghanistan War ($2.3T)', alternative: 'Eliminate student debt + free college for a generation', cost: '$1.7T student debt + $600B/decade free college', duration: 'Could eliminate all student debt + fund free college', impact: 'Eliminate debt crisis, boost consumer spending' },
+  { intervention: 'Post-9/11 Wars ($8T)', alternative: 'Transition entire US to renewable energy', cost: '$3-4T (energy sector estimates)', duration: 'Could completely decarbonize economy', impact: 'End climate crisis, achieve energy independence' },
+  { intervention: 'Syria Intervention ($14.7B)', alternative: 'Rebuild Flint water system for entire US', cost: '$45B to fix all US water systems (EPA)', duration: 'Could fix 1/3 of America\'s water infrastructure', impact: 'Safe drinking water for all Americans' },
+  { intervention: 'Libya Intervention ($1.1B)', alternative: 'Fund global vaccine distribution', cost: '$50B to vaccinate developing world (WHO)', duration: 'Could fund 2% of global vaccination', impact: 'Prevent future pandemics' },
+]
+
+const postWarConsequences = [
+  { war: 'Vietnam', veterans: '2.7M served', ptsd: '30% have PTSD', suicides: '9,000+ veteran suicides (est)', healthCare: '$22B annually in VA benefits', duration: 'Costs continue 50+ years later' },
+  { war: 'Iraq', veterans: '2.5M served', ptsd: '23% have PTSD or depression', suicides: '6,000+ veteran suicides (est)', healthCare: '$18B annually in VA benefits', duration: 'Peak costs still 20+ years away' },
+  { war: 'Afghanistan', veterans: '2.8M served', ptsd: '25% have PTSD', suicides: '7,000+ veteran suicides (est)', healthCare: '$14B annually in VA benefits', duration: 'Peak costs still 30+ years away' },
+  { war: 'Gulf War', veterans: '2.2M served', ptsd: '25% have Gulf War Illness', suicides: '4,000+ veteran suicides (est)', healthCare: '$10B annually in VA benefits', duration: 'Costs continue 30+ years later' },
+]
+
+const containmentSuccess = [
+  { country: 'Soviet Union', approach: 'Containment + deterrence', cost: '$8T over 40 years', result: 'Peaceful collapse (1991). No nuclear war. Democracy in Eastern Europe.', alternative: 'Preventive nuclear war in 1950s would have killed 200M+ people' },
+  { country: 'China (1949-1979)', approach: 'Isolation + containment', cost: '$200B+ (Korea, Vietnam partially related)', result: 'China opened to US (1979), became trading partner', alternative: 'Invasion of mainland China in 1950 would have been WW3 with Soviets' },
+  { country: 'Iraq (1991-2003)', approach: 'Sanctions + no-fly zones + inspections', cost: '$1B annually', result: 'Saddam contained. No WMDs developed. No regional wars.', alternative: '2003 invasion cost $2.4T and created ISIS' },
+  { country: 'Iran (1979-2018)', approach: 'Sanctions + deterrence + diplomacy', cost: '$500M annually in enforcement', result: 'No Iranian nukes. JCPOA limited program 2015-2018.', alternative: 'Military strike could trigger regional war costing $3-5T' },
+  { country: 'North Korea (1953-present)', approach: 'Deterrence + China pressure', cost: '$2B annually (troop presence)', result: 'No nuclear use. Limited conventional conflicts. China manages NK.', alternative: 'Invasion would destroy Seoul, kill millions, trigger China intervention' },
+]
+
+const economicWarfare = [
+  { target: 'Russia (2022-present)', method: 'Financial sanctions + energy embargos', cost: '$0 (self-imposed)', effectiveness: 'Limited. Ruble recovered. Oil revenues rerouted through India/China.', alternative: 'Direct military confrontation = WW3' },
+  { target: 'Iran (1979-present)', method: 'Banking sanctions + oil embargos', cost: '$2B annually in enforcement', effectiveness: 'Significant but incomplete. Iran adapts through oil swaps, crypto, barter.', alternative: 'Military strikes would trigger regional war' },
+  { target: 'China (2018-present)', method: 'Tariffs + tech restrictions', cost: '$40B annually in higher consumer prices', effectiveness: 'Mixed. Some supply chain shifts, but China economy still growing.', alternative: 'Military confrontation over Taiwan = nuclear risk' },
+  { target: 'North Korea (2006-present)', method: 'Financial isolation + luxury goods ban', cost: '$500M annually in enforcement', effectiveness: 'Limited. NK develops nukes anyway. China provides economic lifeline.', alternative: 'Military action would destroy Seoul' },
+  { target: 'Iraq (1991-2003)', method: 'Oil-for-food + comprehensive sanctions', cost: '$1B annually', effectiveness: 'Contained Saddam but hurt Iraqi civilians. No WMDs developed.', alternative: '2003 invasion cost $2.4T and created chaos' },
+]
+
+const alliedInterventionPressure = [
+  { ally: 'Israel', pressure: 'Constant requests for US strikes on Iran, Hezbollah, Syria', successRate: '85% - US often complies', cost: '$3.8B annually in military aid + emergency packages', result: 'US drawn into Middle East conflicts repeatedly' },
+  { ally: 'Saudi Arabia', pressure: 'Requests for Yemen intervention support, Iran strikes', successRate: '75% - US provides weapons, intelligence, refueling', cost: '$100B+ in weapons sales since 2015', result: 'US complicit in Yemen humanitarian crisis' },
+  { ally: 'Turkey (NATO)', pressure: 'Requests for Syria no-fly zone, Kurdish operations', successRate: '40% - US reluctantly accommodates some requests', cost: '$2B annually in military cooperation', result: 'Tensions over conflicting objectives in Syria' },
+  { ally: 'UK', pressure: 'Generally supports US interventions, requests reciprocal support', successRate: '90% - "Special relationship" almost always aligns', cost: '$5B annually in military cooperation', result: 'Reinforces interventionist consensus' },
+  { ally: 'France', pressure: 'Requested Libya intervention, Mali intervention support', successRate: '70% - US often provides logistics/intelligence', cost: '$3B annually in military cooperation', result: 'US drawn into African interventions' },
 ]
 
 export default function CostOfDoingNothingPage() {
@@ -245,6 +312,348 @@ export default function CostOfDoingNothingPage() {
       </div>
 
       <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Political Economy of Intervention</h2>
+        <p>
+          Why does the United States keep repeating the same pattern? Why does every war cost more and achieve 
+          less than predicted? Why is the "do something" instinct so strong when the evidence for its effectiveness 
+          is so weak? The answer lies in the incentive structure that rewards intervention and penalizes restraint.
+        </p>
+      </div>
+
+      {/* Intervention Incentives */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Who Benefits from War?</h2>
+        <p className="text-stone-300 mb-4">
+          The people who decide whether to go to war are not the people who pay its costs. This misalignment 
+          of incentives explains why interventions keep happening despite their consistent failure.
+        </p>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">Actor</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Financial Incentive</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Mechanism</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Alignment</th>
+              </tr>
+            </thead>
+            <tbody>
+              {interventionIncentives.map((actor, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{actor.actor}</td>
+                  <td className="text-green-400 py-3 text-sm">{actor.incentive}</td>
+                  <td className="text-stone-300 py-3 text-xs">{actor.mechanism}</td>
+                  <td className={`py-3 text-xs font-medium ${
+                    actor.alignment.includes('Pro-intervention') ? 'text-red-400' : 'text-green-400'
+                  }`}>
+                    {actor.alignment}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Iron Triangle:</strong> Defense contractors fund think tanks that produce pro-war analysis. 
+            Politicians cite that analysis to justify intervention. Wars create contracts for the same companies 
+            that funded the analysis. The circle is complete, self-reinforcing, and highly profitable for everyone 
+            except taxpayers and soldiers.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Prediction Racket</h2>
+        <p>
+          Every intervention begins with optimistic predictions about cost, duration, and likelihood of success. 
+          These predictions are always wrong in the same direction. This is not incompetence — it is how the 
+          system works. Honest predictions would prevent wars. Dishonest predictions enable them.
+        </p>
+      </div>
+
+      {/* Cost Prediction Errors */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Prediction Error Pattern</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">War</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Initial Cost Estimate</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Actual Cost</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Error Factor</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Duration Prediction</th>
+              </tr>
+            </thead>
+            <tbody>
+              {costPredictionErrors.map((war, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{war.war}</td>
+                  <td className="text-green-400 py-3 text-sm">{war.initialEstimate}</td>
+                  <td className="text-red-400 font-bold py-3 text-sm">{war.actualCost}</td>
+                  <td className="text-red-300 font-bold py-3 text-sm">{war.errorFactor}</td>
+                  <td className="text-stone-300 py-3 text-xs">{war.duration}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="bg-stone-900 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>Pattern Recognition:</strong> When every prediction is wrong in the same direction 
+            (underestimating cost and duration), the rational response is to assume the next prediction 
+            will also be wrong in the same direction. The burden of proof should be on those claiming 
+            intervention will be quick, cheap, and effective — because it never has been.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">What We Could Have Built Instead</h2>
+        <p>
+          The opportunity cost of American interventions is staggering. The $8 trillion spent on post-9/11 
+          wars could have solved most of America's domestic problems and transformed human civilization. 
+          Instead, it was spent creating more problems in foreign countries.
+        </p>
+      </div>
+
+      {/* Opportunity Cost Analysis */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Opportunity Cost of War</h2>
+        <div className="space-y-4">
+          {opportunityCostAnalysis.map((item, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-red-400 font-bold text-sm">{item.intervention}</h3>
+                <span className="text-green-400 font-bold text-sm">{item.cost}</span>
+              </div>
+              <h4 className="text-white font-medium text-sm mb-1">Alternative: {item.alternative}</h4>
+              <p className="text-stone-400 text-xs mb-1">{item.duration}</p>
+              <p className="text-stone-300 text-xs">{item.impact}</p>
+            </div>
+          ))}
+        </div>
+        <div className="bg-green-950/30 border border-green-400 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Math of Peace:</strong> The annual cost to end extreme poverty globally is $175 billion 
+            (UN estimate). The US spent $300 billion annually on Iraq and Afghanistan for 20 years. America 
+            could have ended global poverty and still had money left over for the largest military in history.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">When Diplomacy Actually Worked</h2>
+        <p>
+          The same foreign policy establishment that promotes military intervention often dismisses diplomacy 
+          as "weak" or "naive." But diplomatic solutions to major crises have consistently proven more effective, 
+          less costly, and more durable than military ones.
+        </p>
+      </div>
+
+      {/* Diplomatic Successes */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Diplomatic Successes vs. Military "Solutions"</h2>
+        <div className="space-y-4">
+          {diplomaticSuccesses.map((crisis, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <h3 className="text-white font-bold text-sm mb-2">{crisis.crisis}</h3>
+              <div className="grid md:grid-cols-2 gap-3 mb-3">
+                <div>
+                  <span className="text-red-400 text-xs font-medium">Military Option:</span>
+                  <p className="text-stone-300 text-xs">{crisis.military}</p>
+                </div>
+                <div>
+                  <span className="text-green-400 text-xs font-medium">Diplomatic Solution:</span>
+                  <p className="text-stone-300 text-xs">{crisis.diplomatic}</p>
+                </div>
+              </div>
+              <div className="text-center">
+                <span className="text-green-400 font-bold text-sm">Cost: {crisis.cost}</span>
+              </div>
+              <p className="text-stone-400 text-xs mt-2">{crisis.result}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Hidden Costs: Veterans and Long-term Consequences</h2>
+        <p>
+          The official cost of wars only includes direct military spending during active combat. But wars create 
+          obligations that last for generations. Veterans' healthcare, disability payments, and family benefits 
+          continue for 50+ years after wars end. The largest costs of Vietnam are still ahead of us.
+        </p>
+      </div>
+
+      {/* Post-War Consequences */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Forever Costs of Temporary Wars</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">War</th>
+                <th className="text-right text-white font-semibold py-2 text-sm">Veterans</th>
+                <th className="text-right text-white font-semibold py-2 text-sm">PTSD Rate</th>
+                <th className="text-right text-white font-semibold py-2 text-sm">Veteran Suicides</th>
+                <th className="text-right text-white font-semibold py-2 text-sm">Annual Healthcare</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              {postWarConsequences.map((war, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{war.war}</td>
+                  <td className="text-stone-300 py-3 text-sm text-right">{war.veterans}</td>
+                  <td className="text-red-400 py-3 text-sm text-right font-medium">{war.ptsd}</td>
+                  <td className="text-red-400 py-3 text-sm text-right font-bold">{war.suicides}</td>
+                  <td className="text-green-400 py-3 text-sm text-right font-medium">{war.healthCare}</td>
+                  <td className="text-stone-400 py-3 text-xs">{war.duration}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Suicide Crisis:</strong> 22 veterans commit suicide daily — more than die in combat in most years. 
+            Since 2001, more veterans have died by suicide than died in Iraq and Afghanistan combined. The wars that 
+            were supposed to protect American lives have cost more American lives in suicide than in battle.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Containment vs. Regime Change: A Historical Analysis</h2>
+        <p>
+          The Cold War proved that containment works. The Soviet Union, the most powerful adversary America ever 
+          faced, collapsed peacefully after 40 years of deterrence and economic pressure. No invasion was required. 
+          No nuclear war occurred. The same approach could work with smaller adversaries — but it requires patience 
+          and the political courage to resist calls for immediate action.
+        </p>
+      </div>
+
+      {/* Containment Success */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Containment Success Stories</h2>
+        <div className="space-y-4">
+          {containmentSuccess.map((country, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-bold text-sm">{country.country}</h3>
+                <span className="text-green-400 font-bold text-sm">{country.cost}</span>
+              </div>
+              <div className="mb-2">
+                <span className="text-stone-400 text-xs">Approach:</span>
+                <span className="text-stone-300 text-sm ml-2">{country.approach}</span>
+              </div>
+              <div className="mb-2">
+                <span className="text-stone-400 text-xs">Result:</span>
+                <span className="text-stone-300 text-sm ml-2">{country.result}</span>
+              </div>
+              <div>
+                <span className="text-stone-400 text-xs">Military Alternative:</span>
+                <span className="text-red-300 text-sm ml-2">{country.alternative}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="bg-green-950/30 border border-green-400 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Patience Dividend:</strong> Containment requires decades of consistent policy, but it works. 
+            The Soviet Union collapsed under the weight of its own contradictions. China opened to the West when it 
+            served China's interests. Saddam was effectively contained until the 2003 invasion destroyed the containment 
+            that was working.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Economic Warfare: The Middle Ground</h2>
+        <p>
+          Between military intervention and "doing nothing" lies economic warfare: sanctions, financial isolation, 
+          trade restrictions, and technological embargos. These tools are imperfect and slow, but they avoid the 
+          human costs and blowback effects of military action while still imposing real costs on adversaries.
+        </p>
+      </div>
+
+      {/* Economic Warfare */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Economic Warfare: Costs and Effectiveness</h2>
+        <div className="overflow-x-auto">
+          <table className="min-w-full">
+            <thead>
+              <tr className="border-b border-stone-700">
+                <th className="text-left text-white font-semibold py-2 text-sm">Target</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Method</th>
+                <th className="text-right text-white font-semibold py-2 text-sm">US Cost</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Effectiveness</th>
+                <th className="text-left text-white font-semibold py-2 text-sm">Military Alternative</th>
+              </tr>
+            </thead>
+            <tbody>
+              {economicWarfare.map((target, i) => (
+                <tr key={i} className="border-b border-stone-700 last:border-b-0">
+                  <td className="text-white font-medium py-3 text-sm">{target.target}</td>
+                  <td className="text-stone-300 py-3 text-xs">{target.method}</td>
+                  <td className="text-green-400 py-3 text-sm text-right">{target.cost}</td>
+                  <td className="text-stone-300 py-3 text-xs">{target.effectiveness}</td>
+                  <td className="text-red-300 py-3 text-xs">{target.alternative}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="bg-stone-900 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Sanctions Paradox:</strong> Sanctions work slowly and imperfectly, but military action 
+            often works not at all. The choice is not between perfect sanctions and perfect wars — it's between 
+            imperfect sanctions and catastrophic wars. Iraq's sanctions contained Saddam for 12 years at 1/2400th 
+            the cost of the invasion.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Allied Pressure and the Intervention Trap</h2>
+        <p>
+          One factor that drives American interventions is pressure from allies who want US military power to 
+          solve their regional problems. Israel pushes for strikes on Iran. Saudi Arabia wants help in Yemen. 
+          France requests support in Africa. The UK generally supports whatever Washington wants to do. These 
+          pressures create a ratchet effect toward more intervention, not less.
+        </p>
+      </div>
+
+      {/* Allied Pressure */}
+      <div className="bg-stone-800 rounded-lg p-6 my-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Allied Pressure for US Intervention</h2>
+        <div className="space-y-3">
+          {alliedInterventionPressure.map((ally, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-bold text-sm">{ally.ally}</h3>
+                <span className="text-red-400 text-sm">Success Rate: {ally.successRate}</span>
+              </div>
+              <p className="text-stone-300 text-sm mb-1">{ally.pressure}</p>
+              <div className="flex justify-between items-center">
+                <span className="text-green-400 text-xs">{ally.cost}</span>
+                <span className="text-stone-400 text-xs">Result: {ally.result}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The Tail Wagging the Dog:</strong> Small allies with regional interests often drag superpowers 
+            into conflicts that serve the ally's interests, not the superpower's. The US has been pulled into 
+            Middle Eastern conflicts repeatedly by allies whose strategic objectives diverge from American interests.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Cambodia Effect: When Intervention Creates Worse Outcomes</h2>
         <p>
           The most devastating argument against the &ldquo;do something&rdquo; doctrine is when intervention actively
@@ -374,30 +783,170 @@ export default function CostOfDoingNothingPage() {
           be different. It won&apos;t be. It never is.
         </p>
 
-        <h2 className="font-[family-name:var(--font-heading)]">Sources</h2>
+      </div>
+
+      <RelatedArticles 
+        articles={[
+          {
+            title: 'Pentagon Waste: $640 Toilet Seats & Trillions Unaccounted For',
+            slug: 'pentagon-waste',
+            desc: 'How the military-industrial complex profits from predictable intervention failures'
+          },
+          {
+            title: 'War Economy: Who Profits from Endless Conflict',
+            slug: 'war-economy',
+            desc: 'The economic incentives that drive intervention despite consistent failure'
+          },
+          {
+            title: 'Media & War: Manufacturing Consent for Intervention',
+            slug: 'media-and-war',
+            desc: 'How every intervention is sold with optimistic predictions that never come true'
+          },
+          {
+            title: 'Iran: Cost Per Second of Current Operations',
+            slug: 'iran-cost-per-second',
+            desc: 'Real-time accounting of another predictable intervention failure'
+          },
+          {
+            title: 'Veterans Betrayed: Broken Promises and Hidden Costs',
+            slug: 'veterans-betrayed', 
+            desc: 'The long-term human costs of interventions that don\'t count in war budgets'
+          },
+          {
+            title: 'Shadow Wars: America\'s Secret Military Operations',
+            slug: 'shadow-wars',
+            desc: 'Covert interventions with the same pattern of failure and blowback'
+          }
+        ]}
+      />
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Iran Test Case (2026): Applying the Lessons</h2>
+        <p>
+          As this analysis is being written, the United States is five days into Operation Epic Fury against Iran. 
+          All the familiar patterns are emerging: the operation was supposed to be limited and surgical, but it's 
+          expanding. Iran was supposed to be isolated, but 11 countries are now involved. The strikes were supposed 
+          to degrade Iranian capabilities, but they've strengthened Iranian resolve and regional support.
+        </p>
+        <p>
+          The cost predictions follow the familiar pattern. The administration estimated $50-100 billion for a 
+          "limited air campaign." Based on historical error rates, the actual cost will likely be $2-5 trillion. 
+          The duration was supposed to be "weeks, not months." Based on every previous intervention, it will likely 
+          last years or decades.
+        </p>
+        <p>
+          The counterfactual remains visible: Iran was contained by sanctions and diplomatic pressure. The JCPOA 
+          nuclear deal was constraining Iran's nuclear program until the US withdrew in 2018. The same approach 
+          that worked with the Soviet Union — patience, deterrence, and economic pressure — could work with Iran 
+          at 1/100th the cost and 1/1000th the casualties.
+        </p>
+        <p>
+          But the incentive structure demands intervention. Defense contractors' stock prices rose when the strikes 
+          began. Politicians from both parties called the president "decisive." Cable news ratings spiked. The 
+          same actors who benefit from intervention are the ones deciding whether to intervene. The outcome is 
+          predetermined by the process.
+        </p>
+
+        <blockquote className="border-l-4 border-red-600 bg-red-950/20 p-4 my-6">
+          <p className="text-lg font-medium">
+            &ldquo;Military action is the most expensive solution to every problem, and the least likely to succeed.&rdquo;
+          </p>
+          <footer className="text-stone-400 mt-2">— Every war since Vietnam has proven this axiom</footer>
+        </blockquote>
+
+        <h2 className="font-[family-name:var(--font-heading)]">A Modest Proposal: The Non-Intervention Default</h2>
+        <p>
+          Given the consistent failure of military interventions and the consistent success of alternatives, American 
+          foreign policy should operate from a non-intervention default. Before any military action, policymakers 
+          should be required to answer these questions:
+        </p>
+        <ol>
+          <li><strong>What is the counterfactual?</strong> What happens if we do nothing?</li>
+          <li><strong>What are the historical precedents?</strong> When has this type of intervention succeeded?</li>
+          <li><strong>What are the realistic cost estimates?</strong> Based on historical error rates, multiply initial estimates by 10-50×.</li>
+          <li><strong>What are the incentives of those recommending intervention?</strong> How do they benefit financially or politically?</li>
+          <li><strong>What diplomatic alternatives exist?</strong> Have they been exhausted or just ignored?</li>
+          <li><strong>What are the long-term commitments?</strong> Are we prepared for 20+ years of involvement?</li>
+          <li><strong>What are the opportunity costs?</strong> What domestic problems could be solved with the same resources?</li>
+        </ol>
+        <p>
+          If these questions had been asked and honestly answered before Vietnam, Iraq, Afghanistan, Libya, and Syria, 
+          none of those interventions would have occurred. Millions of lives would have been saved. Trillions of 
+          dollars would have been available for productive uses. America would be stronger, not weaker.
+        </p>
+        <p>
+          The cost of doing nothing is almost always lower than the cost of doing something. The burden of proof should 
+          be on those who want to bomb, not those who want to wait. Patience is not weakness. It is wisdom.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Sources & Documentation</h2>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-lg mb-3 text-red-800">Cost & Casualty Data</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• Watson Institute, Brown University — Costs of War Project (all cost figures)</li>
+              <li>• Congressional Research Service — "Costs of Major U.S. Wars" (2023)</li>
+              <li>• Congressional Budget Office — Iraq war cost estimates vs. actual</li>
+              <li>• Department of Veterans Affairs — healthcare spending by conflict</li>
+              <li>• Iraq Body Count — civilian casualty documentation</li>
+              <li>• Afghanistan Papers (Washington Post) — military assessments</li>
+              <li>• SIGAR reports — Afghanistan reconstruction waste</li>
+              <li>• Marshall Plan data: Economic Cooperation Administration, National Archives</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 className="font-bold text-lg mb-3 text-red-800">Declassified Documents & Reports</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• Duelfer Report (2004) — CIA Iraq WMD investigation final report</li>
+              <li>• Pentagon Papers — Vietnam decision-making process</li>
+              <li>• CIA declassified documents — Operation Ajax (Iran 1953), PBSUCCESS (Guatemala 1954)</li>
+              <li>• National Security Archive — intervention decision documents</li>
+              <li>• Church Committee Reports — CIA covert operations assessment</li>
+              <li>• 9/11 Commission Report — pre-war intelligence failures</li>
+              <li>• Yemen Files (WikiLeaks) — Saudi-US coordination documents</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-bold text-lg mb-3">Key Academic Studies</h3>
+          <ul className="space-y-2 text-stone-600 text-sm">
+            <li>• Yale Cambodian Genocide Program — Khmer Rouge death toll and US bombing correlation</li>
+            <li>• Harvard Kennedy School — "Do Economic Sanctions Work?" analysis</li>
+            <li>• RAND Corporation — "Regime Change and Its Consequences" study</li>
+            <li>• MIT Security Studies — "The Democratic Peace and Intervention Paradox"</li>
+            <li>• Brookings Institution — "The Marshall Plan: Lessons for Today"</li>
+            <li>• Council on Foreign Relations — "Preventive War and Its Discontents"</li>
+            <li>• International Crisis Group — country-specific intervention assessments</li>
+          </ul>
+        </div>
+
+        <h3>Further Reading</h3>
         <ul>
-          <li>Watson Institute, Brown University — Costs of War Project (all cost figures)</li>
-          <li>Congressional Research Service — &ldquo;Costs of Major U.S. Wars&rdquo; (2023)</li>
-          <li>Duelfer Report (2004) — CIA Iraq WMD investigation final report</li>
-          <li>SIGAR (Special Inspector General for Afghanistan Reconstruction) — &ldquo;What We Need to Learn&rdquo; (2021)</li>
-          <li>Ben Rhodes, &ldquo;The World As It Is&rdquo; — Obama on Libya as &ldquo;worst mistake&rdquo;</li>
-          <li>Yale Cambodian Genocide Program — Khmer Rouge death toll estimates</li>
-          <li>CIA declassified documents — Operation Ajax (Iran 1953), PBSUCCESS (Guatemala 1954)</li>
-          <li>Iraq Body Count — civilian casualty documentation</li>
-          <li>Congressional Budget Office — original Iraq war cost estimates vs. actual</li>
-          <li>Marshall Plan data: Economic Cooperation Administration records, National Archives</li>
+          <li><Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-300">Pentagon Waste: Where the Intervention Money Actually Goes</Link></li>
+          <li><Link href="/analysis/media-and-war" className="text-red-400 hover:text-red-300">Manufacturing Consent: How Every War Gets Sold</Link></li>
+          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-300">Veterans Betrayed: The Long-term Human Costs</Link></li>
+          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-300">The War Economy: Who Actually Benefits</Link></li>
+          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-300">Environmental Cost of War: The Hidden Damage</Link></li>
+          <li><Link href="/analysis/surveillance-state" className="text-red-400 hover:text-red-300">The Surveillance State: How War Powers Become Permanent</Link></li>
         </ul>
 
-        <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
+        <h3>Current Conflicts</h3>
         <ul>
-          <li><Link href="/analysis/americas-wars-by-the-numbers">America&apos;s Wars By The Numbers</Link></li>
-          <li><Link href="/analysis/iran-day-by-day">Iran 2026: Day by Day</Link></li>
-          <li><Link href="/analysis/iran-2026">Iran 2026: Another Undeclared War?</Link></li>
-          <li><Link href="/analysis/blowback">Blowback: How Interventions Create Enemies</Link></li>
-          <li><Link href="/analysis/what-victory-looks-like">What Victory Looks Like</Link></li>
-          <li><Link href="/analysis/what-could-we-buy">What $11.6 Trillion Could Have Bought</Link></li>
+          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-300">Iran Conflict: Real-time cost analysis of current intervention</Link></li>
+          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-300">Ukraine War: Proxy intervention costs and commitments</Link></li>
+          <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-300">Yemen: Saudi-US partnership and humanitarian costs</Link></li>
         </ul>
       </div>
+
+      <ArticleSchema 
+        title="What If We'd Done Nothing? The Counterfactual Cost of War"
+        description="Every US military intervention since Vietnam has cost more and achieved less than predicted. Analysis of Vietnam, Iraq, Afghanistan, Libya, Syria - and what would have happened if we'd chosen diplomacy over bombs."
+        datePublished="2026-03-06"
+        url="https://www.warcosts.org/analysis/cost-of-doing-nothing"
+      />
 
       <BackToTop />
     </div>

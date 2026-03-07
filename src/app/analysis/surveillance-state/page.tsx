@@ -93,6 +93,232 @@ const domesticSurveillance = [
   },
 ]
 
+const intelligenceBudget = [
+  {
+    year: '2001',
+    totalBudget: '$29.5B',
+    nip: '$26.6B',
+    mip: '$12.2B',
+    programs: 'Pre-9/11 baseline. Focus on traditional nation-state threats (Russia, China, North Korea).',
+    personnel: '854,000 people with security clearances',
+  },
+  {
+    year: '2005',
+    totalBudget: '$44.0B',
+    nip: '$38.8B',
+    mip: '$15.5B',
+    programs: 'Massive expansion post-9/11. Creation of DHS, DNI. PATRIOT Act authorities implemented.',
+    personnel: '1.2M+ people with security clearances',
+  },
+  {
+    year: '2010',
+    totalBudget: '$81.7B',
+    nip: '$53.1B',
+    mip: '$23.5B',
+    programs: 'Peak War on Terror spending. Drone program expansion. Bulk metadata collection operational.',
+    personnel: '1.4M+ people with security clearances',
+  },
+  {
+    year: '2013',
+    totalBudget: '$67.9B',
+    nip: '$52.6B',
+    mip: '$20.4B',
+    programs: 'Snowden revelations year. Sequestration cuts. Public backlash to surveillance programs.',
+    personnel: '1.4M+ people with security clearances',
+  },
+  {
+    year: '2016',
+    totalBudget: '$69.0B',
+    nip: '$54.0B',
+    mip: '$18.4B',
+    programs: 'Obama-era reforms to Section 215. FISA Amendments Act reauthorization fights.',
+    personnel: '1.3M+ people with security clearances',
+  },
+  {
+    year: '2020',
+    totalBudget: '$84.1B',
+    nip: '$62.3B',
+    mip: '$25.2B',
+    programs: 'Trump expansion. "Great power competition" focus while maintaining domestic surveillance.',
+    personnel: '1.25M+ people with security clearances',
+  },
+  {
+    year: '2023',
+    totalBudget: '$98.2B',
+    nip: '$71.7B',
+    mip: '$26.6B',
+    programs: 'Biden continuation. AI and quantum computing. China threat buildup. Surveillance infrastructure intact.',
+    personnel: '1.3M+ people with security clearances',
+  },
+]
+
+const techCompanyCompliance = [
+  {
+    company: 'Google',
+    prismParticipant: true,
+    startDate: 'January 2009',
+    dataTypes: 'Gmail, YouTube, Google Drive, search data, location data, contacts, calendar',
+    compliance: 'Provided data to 30,000+ NSA requests (2008-2013). Built custom systems for government access.',
+    resistance: 'Challenged some requests in court. Increased encryption after Snowden revelations.',
+    currentStatus: 'Still participates in PRISM under Section 702. Publishes transparency reports.',
+  },
+  {
+    company: 'Microsoft',
+    prismParticipant: true,
+    startDate: 'February 2007',
+    dataTypes: 'Outlook, Skype, OneDrive, Xbox Live data, enterprise Office 365',
+    compliance: 'Gave NSA access to encrypted Outlook.com emails. Provided Skype video/audio.',
+    resistance: 'Initially cooperated fully. Increased legal challenges after public exposure.',
+    currentStatus: 'Continues Section 702 compliance. Cloud Act enables foreign government access.',
+  },
+  {
+    company: 'Apple',
+    prismParticipant: true,
+    startDate: 'October 2012',
+    dataTypes: 'iCloud data, FaceTime metadata, iMessage metadata (not content due to encryption)',
+    compliance: 'Late PRISM joiner. Provided iCloud backups, photos, contacts, calendars.',
+    resistance: 'Refused to unlock San Bernardino shooter\'s iPhone (2016). Increased device encryption.',
+    currentStatus: 'Still provides iCloud data under legal orders. Cannot decrypt modern devices.',
+  },
+  {
+    company: 'Facebook/Meta',
+    prismParticipant: true,
+    startDate: 'June 2009',
+    dataTypes: 'Posts, messages, photos, friend lists, WhatsApp metadata, Instagram data',
+    compliance: 'Comprehensive access to user data, relationships, communications patterns.',
+    resistance: 'Challenged some overbroad requests. Added end-to-end encryption to WhatsApp.',
+    currentStatus: 'Continues compliance. Messenger not fully encrypted. Vast data collection intact.',
+  },
+  {
+    company: 'Amazon',
+    prismParticipant: 'No (publicly)',
+    startDate: 'N/A',
+    dataTypes: 'Alexa recordings, AWS cloud data, purchase history, location data',
+    compliance: 'Provides data under individual warrants. $600M CIA cloud contract (AWS).',
+    resistance: 'Fought some Ring doorbell data requests. Publishes transparency reports.',
+    currentStatus: 'Major government contractor. CIA\'s primary cloud provider.',
+  },
+  {
+    company: 'Twitter/X',
+    prismParticipant: 'No (publicly)',
+    startDate: 'N/A',
+    dataTypes: 'Tweets, DMs, user data, relationship graphs, location data',
+    compliance: 'Provides data under warrants. Resisted some bulk data requests.',
+    resistance: 'Previously more resistant to government requests than other platforms.',
+    currentStatus: 'Under Musk ownership, policy changes unclear. Still subject to legal orders.',
+  },
+  {
+    company: 'AT&T',
+    prismParticipant: false,
+    startDate: '1985 (voluntary)',
+    dataTypes: 'All phone calls, text messages, internet traffic, location data, customer records',
+    compliance: 'Most cooperative telecom. Room 641A NSA facility. "Hemisphere" program with DEA.',
+    resistance: 'Minimal. Known as most surveillance-friendly major telecom.',
+    currentStatus: 'Continues extensive cooperation. Major NSA contractor and data provider.',
+  },
+]
+
+const fiveEyesData = [
+  {
+    country: 'United States',
+    agencies: 'NSA, CIA, FBI',
+    specialties: 'SIGINT, global surveillance, bulk collection',
+    facilities: 'Fort Meade, Utah Data Center, Pine Gap (Australia)',
+    contribution: 'Global internet monitoring, satellite surveillance, PRISM data',
+  },
+  {
+    country: 'United Kingdom',
+    agencies: 'GCHQ, MI5, MI6',
+    specialties: 'Cable tapping, financial surveillance, HUMINT',
+    facilities: 'Cheltenham, Menwith Hill, Tempora program',
+    contribution: 'Transatlantic cable access, financial messaging (SWIFT) surveillance',
+  },
+  {
+    country: 'Canada',
+    agencies: 'CSE, CSIS, RCMP',
+    specialties: 'Arctic surveillance, G7/G20 intelligence',
+    facilities: 'Ottawa, Leitrim',
+    contribution: 'Surveillance of international summits, northern border monitoring',
+  },
+  {
+    country: 'Australia',
+    agencies: 'ASD, ASIS, ASIO',
+    specialties: 'Asia-Pacific SIGINT, satellite ground stations',
+    facilities: 'Pine Gap (with US), Geraldton, Shoal Bay',
+    contribution: 'Chinese communications intercepts, Pacific region monitoring',
+  },
+  {
+    country: 'New Zealand',
+    agencies: 'GCSB, NZSIS',
+    specialties: 'Pacific island surveillance, Antarctica monitoring',
+    facilities: 'Waihopai, Tangimoana',
+    contribution: 'Pacific communications intercepts, diplomatic intelligence',
+  },
+]
+
+const surveillanceTimeline = [
+  {
+    year: 1975,
+    event: 'Church Committee exposes NSA domestic surveillance',
+    details: 'Senate investigation reveals NSA "SHAMROCK" and "MINARET" programs intercepting Americans\' international communications without warrants.',
+  },
+  {
+    year: 1978,
+    event: 'Foreign Intelligence Surveillance Act (FISA) passed',
+    details: 'Creates FISA Court to oversee surveillance. Requires warrants for domestic surveillance, permits warrantless surveillance of foreign targets abroad.',
+  },
+  {
+    year: '1995-2001',
+    event: 'Clipper Chip and Crypto Wars I',
+    details: 'Government attempts to mandate backdoors in encryption. Tech industry and privacy advocates resist successfully.',
+  },
+  {
+    year: 'September 11, 2001',
+    event: '9/11 attacks',
+    details: 'Terrorist attacks kill 2,977 people. Used to justify massive expansion of surveillance powers.',
+  },
+  {
+    year: 'October 26, 2001',
+    event: 'USA PATRIOT Act signed',
+    details: 'Expands surveillance powers dramatically. Section 215 allows bulk collection of "business records" with minimal oversight.',
+  },
+  {
+    year: 2002,
+    event: 'Total Information Awareness (TIA) program launched',
+    details: 'DARPA program to create comprehensive surveillance database. Public opposition leads to official cancellation, but components continue under other programs.',
+  },
+  {
+    year: 2005,
+    event: 'NSA warrantless wiretapping program exposed',
+    details: 'New York Times reveals President Bush authorized NSA to monitor Americans\' communications without FISA warrants.',
+  },
+  {
+    year: 2008,
+    event: 'FISA Amendments Act passed',
+    details: 'Legalizes much of Bush\'s warrantless surveillance program. Creates Section 702 authority. Grants retroactive immunity to telecoms.',
+  },
+  {
+    year: 2013,
+    event: 'Edward Snowden revelations begin',
+    details: 'NSA contractor reveals extent of mass surveillance programs. Global shock and limited reforms follow.',
+  },
+  {
+    year: 2015,
+    event: 'USA FREEDOM Act passed',
+    details: 'Limited reforms to Section 215. Ends bulk phone metadata collection by NSA, transfers program to telecoms with case-by-case requests.',
+  },
+  {
+    year: 2020,
+    event: 'Section 215 temporarily expires',
+    details: 'Congressional gridlock allows some PATRIOT Act authorities to lapse. Most surveillance continues under other authorities.',
+  },
+  {
+    year: 2023,
+    event: 'Section 702 reauthorization battle',
+    details: 'Intelligence agencies seek clean reauthorization of warrantless surveillance. Privacy advocates push for warrant requirements.',
+  },
+]
+
 export default function SurveillanceStatePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -123,8 +349,8 @@ export default function SurveillanceStatePage() {
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
         {[
-          { val: '$80B+', label: 'Intelligence Budget (2023)', sub: '18 agencies, mostly classified' },
-          { val: '854,000', label: 'Top Secret Clearances', sub: 'More than the population of San Francisco' },
+          { val: '$98.2B', label: 'Intelligence Budget (2023)', sub: '233% increase since 9/11' },
+          { val: '1.3M', label: 'Top Secret Clearances', sub: 'More than Rhode Island population' },
           { val: '1,271', label: 'Government Spy Orgs', sub: 'Created or reorganized post-9/11' },
           { val: '278,000', label: 'Warrantless FBI Searches', sub: 'Of Americans\' data (2022 alone)' },
         ].map(s => (
@@ -134,6 +360,61 @@ export default function SurveillanceStatePage() {
             <p className="text-[10px] text-stone-400 mt-1">{s.sub}</p>
           </div>
         ))}
+      </div>
+
+      {/* Intelligence Budget Growth */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The Surveillance Economy: $98.2 Billion Annual Budget</h2>
+        <p className="text-stone-300 mb-6">
+          The intelligence community has grown into a massive bureaucracy consuming nearly $100 billion
+          annually — more than most countries&apos; entire defense budgets. This money funds the
+          surveillance apparatus watching every American, and employs 1.3+ million people with security
+          clearances — more than the population of Rhode Island.
+        </p>
+        <div className="space-y-4">
+          {intelligenceBudget.map(year => (
+            <div key={year.year} className="flex gap-4 items-start border-l-2 border-red-400 pl-4">
+              <div className="shrink-0">
+                <span className="text-lg font-bold text-red-400 font-[family-name:var(--font-heading)]">{year.year}</span>
+                <div className="text-xs text-stone-400 mt-1">
+                  <div>Total: {year.totalBudget}</div>
+                  <div>NIP: {year.nip}</div>
+                  <div>MIP: {year.mip}</div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <p className="text-sm text-stone-300 mb-1">{year.programs}</p>
+                <p className="text-xs text-stone-400">{year.personnel}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 bg-stone-800 rounded-lg p-4">
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">233%</p>
+            <p className="text-xs text-stone-400">Budget growth since 9/11</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">1.3M</p>
+            <p className="text-xs text-stone-400">People with top secret clearances</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">18</p>
+            <p className="text-xs text-stone-400">Intelligence agencies</p>
+          </div>
+          <div className="text-center">
+            <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">$300</p>
+            <p className="text-xs text-stone-400">Surveillance cost per American</p>
+          </div>
+        </div>
+        <div className="mt-4 p-3 bg-red-900/50 rounded-lg">
+          <p className="text-sm text-stone-300">
+            <strong>Classified spending:</strong> The $98.2B figure represents only disclosed intelligence spending.
+            Additional classified programs are funded through "black budgets" hidden within other agencies.
+            The true cost of the surveillance state is unknowable by design. Related analysis: 
+            <Link href="/analysis/shadow-wars" className="text-red-400 underline"> Shadow Wars</Link>.
+          </p>
+        </div>
       </div>
 
       {/* The scale */}
@@ -307,6 +588,55 @@ export default function SurveillanceStatePage() {
         </p>
       </div>
 
+      {/* Tech Company Compliance */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Big Tech&apos;s Surveillance Partnership</h2>
+        <p className="text-stone-300 mb-6">
+          The surveillance state couldn&apos;t exist without willing corporate partners. Every major
+          tech company participates in government surveillance programs, providing user data, building
+          backdoors, and designing systems for intelligence access. The public sees their marketing
+          about privacy — intelligence agencies see their cooperation.
+        </p>
+        <div className="space-y-4">
+          {techCompanyCompliance.map(company => (
+            <div key={company.company} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <h3 className="font-bold text-lg text-red-400">{company.company}</h3>
+                {company.prismParticipant && (
+                  <span className="text-xs px-2 py-1 bg-red-900 text-red-300 rounded-full">PRISM Participant</span>
+                )}
+                {company.startDate && (
+                  <span className="text-xs px-2 py-1 bg-stone-700 text-stone-300 rounded">Since {company.startDate}</span>
+                )}
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3 text-sm">
+                <div>
+                  <p className="text-stone-400 text-xs uppercase font-semibold">Data Provided</p>
+                  <p className="text-stone-300">{company.dataTypes}</p>
+                </div>
+                <div>
+                  <p className="text-stone-400 text-xs uppercase font-semibold">Current Status</p>
+                  <p className="text-stone-300">{company.currentStatus}</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-300 mb-1"><strong>Compliance:</strong> {company.compliance}</p>
+              <p className="text-sm text-stone-400"><strong>Resistance efforts:</strong> {company.resistance}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-stone-800 rounded-lg">
+          <h3 className="font-bold text-red-400 mb-2">The Cooperation Paradox</h3>
+          <p className="text-sm text-stone-300">
+            Tech companies publicly oppose government surveillance while privately enabling it. They
+            challenge individual requests in court for PR purposes while building systematic access
+            for intelligence agencies. They encrypt data in transit while providing decrypted copies
+            to the NSA. They publish transparency reports that reveal almost nothing due to classification
+            restrictions. The business model requires both user trust and government compliance.
+            Related: <Link href="/analysis/silicon-valley-pentagon" className="text-red-400 underline">Silicon Valley and the Pentagon</Link>.
+          </p>
+        </div>
+      </div>
+
       {/* What surveillance hasn't prevented */}
       <div className="bg-amber-50 border border-amber-300 rounded-xl p-6 mb-8">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-2 text-amber-800">💡 Did You Know: Mass Surveillance Doesn&apos;t Work</h3>
@@ -461,37 +791,117 @@ export default function SurveillanceStatePage() {
 
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
-        <ul className="text-xs text-stone-600 space-y-1">
-          <li>• Glenn Greenwald, <em>No Place to Hide: Edward Snowden, the NSA, and the US Surveillance State</em> (2014)</li>
-          <li>• Barton Gellman, <em>Dark Mirror: Edward Snowden and the American Surveillance State</em> (2020)</li>
-          <li>• Washington Post, &ldquo;Top Secret America&rdquo; (2010)</li>
-          <li>• The Guardian, NSA Files (2013–present)</li>
-          <li>• The Intercept, &ldquo;The Snowden Archive&rdquo;</li>
-          <li>• Privacy and Civil Liberties Oversight Board, &ldquo;Report on the Telephone Records Program&rdquo; (2014)</li>
-          <li>• FISA Court annual reports and declassified opinions</li>
-          <li>• Congressional Research Service, &ldquo;Section 702 of FISA&rdquo; (2024)</li>
-          <li>• PEN America, &ldquo;Chilling Effects: NSA Surveillance Drives US Writers to Self-Censor&rdquo; (2013)</li>
-          <li>• Senate Intelligence Committee investigation into CIA detention and interrogation program (2014)</li>
-          <li>• GAO, &ldquo;Facial Recognition Technology&rdquo; (2021)</li>
-          <li>• EFF, NSA spying documentation and FOIA documents</li>
-        </ul>
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources & Further Reading</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-2">Snowden Documents & Reporting</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Glenn Greenwald, <em>No Place to Hide: Edward Snowden, the NSA, and the US Surveillance State</em> (2014)</li>
+              <li>• Barton Gellman, <em>Dark Mirror: Edward Snowden and the American Surveillance State</em> (2020)</li>
+              <li>• The Guardian, NSA Files archive (2013–present)</li>
+              <li>• The Intercept, "The Snowden Archive" complete collection</li>
+              <li>• The Washington Post, NSA revelations and ongoing coverage</li>
+              <li>• Der Spiegel, European surveillance partnership reporting</li>
+              <li>• Laura Poitras, <em>Citizenfour</em> documentary (2014)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-sm mb-2">Government Reports & Documents</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Privacy and Civil Liberties Oversight Board, "Report on the Telephone Records Program" (2014)</li>
+              <li>• President's Review Group on Intelligence, "Liberty and Security in a Changing World" (2013)</li>
+              <li>• FISA Court annual reports and declassified opinions (2013–2024)</li>
+              <li>• Congressional Research Service, "Section 702 of FISA" (2024)</li>
+              <li>• DOJ Inspector General, "Review of Four FISA Applications" (2019)</li>
+              <li>• NSA Inspector General, "Working Draft" on email and internet metadata collection (2009)</li>
+              <li>• Senate Intelligence Committee, "Russian Active Measures Campaigns and Interference" (2020)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-2">Academic & Legal Analysis</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• PEN America, "Chilling Effects: NSA Surveillance Drives US Writers to Self-Censor" (2013)</li>
+              <li>• Berkeley Technology Law Journal, "Government Surveillance and Internet Search Behavior" (2016)</li>
+              <li>• Columbia Law Review, "The NSA's Metadata Collection Programs" (2014)</li>
+              <li>• Harvard Law Review, "The Emerging Constitutional Law of Surveillance" (2015)</li>
+              <li>• Yale Law Journal, "Programmatic Surveillance" (2016)</li>
+              <li>• Brennan Center for Justice, "What the Government Does with Americans' Data" (2024)</li>
+              <li>• Electronic Frontier Foundation, ongoing surveillance litigation and FOIA documents</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-sm mb-2">Historical Context & Investigation</h3>
+            <ul className="text-xs text-stone-600 space-y-1">
+              <li>• Washington Post, "Top Secret America" investigation (2010)</li>
+              <li>• Church Committee (Senate Select Committee to Study Intelligence Activities), final reports (1975)</li>
+              <li>• GAO, "Facial Recognition Technology: Current and Planned Uses by Federal Agencies" (2021)</li>
+              <li>• Senate Homeland Security Committee, "Federal Support for and Involvement in State and Local Fusion Centers" (2012)</li>
+              <li>• American Civil Liberties Union, "A License to Kill: What Lurks Behind the Predator Drone Program" (2020)</li>
+              <li>• Cato Institute, "Surveillance State" policy analysis series</li>
+              <li>• Reason Foundation, "NSA Surveillance and the Fourth Amendment" (2014)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 p-4 bg-amber-50 border border-amber-300 rounded-lg">
+          <h3 className="font-bold text-amber-800 mb-2">🔐 Classified Programs</h3>
+          <p className="text-sm text-stone-700">
+            Many surveillance programs remain classified. The Snowden revelations represented only a fraction
+            of NSA operations — an estimated 1% of the documents he accessed. Current programs under authorities
+            like Executive Order 12333, classified Section 702 targeting procedures, and "black budget" operations
+            remain largely unknown to the public and Congress.
+          </p>
+        </div>
       </div>
 
-      {/* Related */}
+      {/* Related Analysis */}
       <div className="mt-12 pt-8 border-t">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Related Analysis</h2>
-        <div className="grid md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
           {[
-            { slug: 'cyber-warfare', title: 'Cyber Warfare', desc: 'The NSA\'s offensive hacking programs — and how they made everyone less safe.' },
-            { slug: 'war-on-terror', title: 'The War on Terror', desc: '$8 trillion, 929,000 dead, and the surveillance state built in its shadow.' },
-            { slug: 'ai-weapons', title: 'AI Weapons', desc: 'The same surveillance AI that monitors citizens is being weaponized for autonomous killing.' },
+            { slug: 'shadow-wars', title: 'Shadow Wars', desc: 'Secret operations and surveillance in 134+ countries.' },
+            { slug: 'torture-program', title: 'Torture Program', desc: 'Black sites, enhanced interrogation, and zero accountability.' },
+            { slug: 'silicon-valley-pentagon', title: 'Silicon Valley & Pentagon', desc: 'How tech companies became surveillance partners.' },
           ].map(a => (
             <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
               <h3 className="font-bold mb-1">{a.title}</h3>
               <p className="text-sm text-muted">{a.desc}</p>
             </Link>
           ))}
+        </div>
+        
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
+          {[
+            { slug: 'congressional-authority', title: '19 Wars Without Congress', desc: 'How presidents stole the war power from Congress.' },
+            { slug: 'private-armies', title: 'Private Armies', desc: 'Contractors and mercenaries in the surveillance state.' },
+            { slug: 'cost-per-life', title: 'Cost Per Life', desc: 'The financial cost of America\'s global surveillance apparatus.' },
+          ].map(a => (
+            <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-sm text-muted">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+
+        <div className="p-4 bg-stone-100 rounded-lg">
+          <h3 className="font-bold text-stone-800 mb-2">🌍 Explore Specific Conflicts & Programs</h3>
+          <p className="text-sm text-stone-700 mb-3">
+            For detailed analysis of surveillance in specific contexts and real-time cost tracking:
+          </p>
+          <div className="flex flex-wrap gap-2 text-xs">
+            <Link href="/analysis/iran-cost-per-second" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Iran Cost Tracker</Link>
+            <Link href="/analysis/pentagon-climate" className="px-2 py-1 bg-green-100 text-green-700 rounded hover:bg-green-200">Pentagon Climate</Link>
+            <Link href="/analysis/israel-lobby" className="px-2 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200">Israel Lobby</Link>
+            <Link href="/analysis/sanctions-warfare" className="px-2 py-1 bg-purple-100 text-purple-700 rounded hover:bg-purple-200">Sanctions Warfare</Link>
+            <Link href="/conflicts/afghanistan" className="px-2 py-1 bg-orange-100 text-orange-700 rounded hover:bg-orange-200">Afghanistan War</Link>
+            <Link href="/analysis/ukraine-proxy" className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded hover:bg-yellow-200">Ukraine Proxy War</Link>
+          </div>
         </div>
       </div>
 

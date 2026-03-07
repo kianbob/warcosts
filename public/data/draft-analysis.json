@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "draftEra": "1917-1973",
+    "volunteerEra": "1973-present",
+    "keyFinding": "Draft wars averaged 5.0 years, volunteer wars averaged -630.5 years"
+  },
+  "draftWars": {
+    "wars": [
+      {
+        "name": "World War I",
+        "drafted": 2800000,
+        "totalServed": 4700000,
+        "duration": 2,
+        "outcome": "Victory"
+      },
+      {
+        "name": "World War II",
+        "drafted": 10000000,
+        "totalServed": 16100000,
+        "duration": 4,
+        "outcome": "Victory"
+      },
+      {
+        "name": "Korean War",
+        "drafted": 1500000,
+        "totalServed": 5700000,
+        "duration": 3,
+        "outcome": "Stalemate"
+      },
+      {
+        "name": "Vietnam War",
+        "drafted": 2200000,
+        "totalServed": 8700000,
+        "duration": 11,
+        "outcome": "Defeat"
+      }
+    ],
+    "stats": {
+      "averageDuration": 5,
+      "successRate": 0.5,
+      "totalDrafted": 16500000,
+      "totalServed": 35200000
+    }
+  },
+  "volunteerWars": {
+    "wars": [
+      {
+        "name": "Invasion of Grenada",
+        "duration": 1,
+        "outcome": "Victory"
+      },
+      {
+        "name": "Invasion of Panama",
+        "duration": 2,
+        "outcome": "Victory"
+      },
+      {
+        "name": "Gulf War (Desert Storm)",
+        "duration": 2,
+        "outcome": "Victory"
+      },
+      {
+        "name": "Somalia Intervention",
+        "duration": 3,
+        "outcome": "Withdrawal"
+      },
+      {
+        "name": "Bosnia Intervention",
+        "duration": 10,
+        "outcome": "Dayton Accords"
+      },
+      {
+        "name": "Kosovo War (NATO Bombing)",
+        "duration": 2,
+        "outcome": "Objective Met"
+      },
+      {
+        "name": "War in Afghanistan",
+        "duration": 21,
+        "outcome": "Defeat"
+      },
+      {
+        "name": "Global War on Terror (Other Operations)",
+        "duration": -2000,
+        "outcome": "Ongoing"
+      },
+      {
+        "name": "Iraq War",
+        "duration": 9,
+        "outcome": "Pyrrhic victory / Strategic defeat"
+      },
+      {
+        "name": "Global Drone Campaign",
+        "duration": -2003,
+        "outcome": "Ongoing"
+      }
+    ],
+    "stats": {
+      "averageDuration": -630.4736842105264,
+      "successRate": 0.15789473684210525,
+      "totalWars": 19
+    }
+  },
+  "analysis": {
+    "draftAdvantages": [
+      "Higher public investment in quick victory",
+      "Democratic brake on war enthusiasm",
+      "Shared sacrifice across social classes"
+    ],
+    "volunteerAdvantages": [
+      "Professional military competence",
+      "No domestic draft resistance",
+      "Easier to deploy globally"
+    ],
+    "volunteerDisadvantages": [
+      "Wars can drag on indefinitely",
+      "Public disconnected from costs",
+      "Military-civilian gap widens"
+    ]
+  }
+}

@@ -128,6 +128,454 @@ export default function WomensWarPage() {
             still holds mass graves containing women who were killed when they were no longer &ldquo;useful.&rdquo;
           </p>
         </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Syria: Rape Dungeons &amp; Chemical Torture</h3>
+          <p className="text-stone-700 mb-3">
+            Syrian government forces operated a systematic torture and sexual violence program in Assad&apos;s 
+            prisons. The Association of Detainees and Missing Persons in Sednaya Prison estimates <strong>17,000 
+            people were tortured to death</strong> in Sednaya alone — including thousands of women. Amnesty 
+            International documented systematic rape, sexual torture, and forced nudity.
+          </p>
+          <p className="text-stone-700">
+            Women prisoners were subjected to &ldquo;sexual torture&rdquo; — rape with objects, electric shocks 
+            to genitals, and forced nudity in front of male guards. Chemical weapons attacks deliberately targeted 
+            pregnant women and children. The Syrian Network for Human Rights documented 222 chemical attacks that 
+            killed 1,514 civilians — 26% of them women and children. The international response was limited to rhetoric.
+          </p>
+        </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Myanmar: Genocidal Rape</h3>
+          <p className="text-stone-700 mb-3">
+            During Myanmar&apos;s 2017 military campaign against the Rohingya, UN investigators documented systematic 
+            rape as a tool of genocide. Over <strong>1 million Rohingya</strong> were forced to flee to Bangladesh. 
+            Médecins Sans Frontières estimated that in one month alone, Myanmar security forces killed at least 
+            9,000 Rohingya — including 1,000 children under 5.
+          </p>
+          <p className="text-stone-700">
+            Women survivors testified to gang rape by soldiers, rape with objects, and being forced to watch family 
+            members being killed. Children as young as 8 were raped. Pregnant women were tortured. The UN called it 
+            &ldquo;a textbook example of ethnic cleansing.&rdquo; No Myanmar military officials have been prosecuted.
+          </p>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          These are not isolated incidents or cultural anomalies. They represent a <strong>systematic military 
+          strategy</strong> — rape as a weapon of war. The goal is not sexual gratification. It&apos;s terror. 
+          Humiliation. Social destruction. The message is clear: we can do anything to you, and no one will stop us. 
+          And tragically, they&apos;re usually right.
+        </p>
+      </section>
+
+      {/* Section: International Legal Failure */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          International Justice: 13 Convictions for 641,000 Rapes
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          The international legal system has utterly failed to protect women from wartime sexual violence. Since 
+          the International Criminal Court was established in 2002, it has issued <strong>13 convictions for 
+          crimes involving sexual violence</strong>. Conservative UN estimates suggest over 641,000 women have 
+          been raped in major conflicts since 1990. That&apos;s one conviction for every 49,000 rapes.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">ICC: Toothless Justice</h3>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">Cases opened:</span> 32 situations, 30 cases</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Indictments issued:</span> 52 individuals</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Convictions:</span> 10 individuals</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Sexual violence convictions:</span> 13 charges across all cases</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Countries that comply with arrest warrants:</span> ~30 of 123 member states</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">US cooperation:</span> Zero — US is not a member, actively opposes ICC</p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The problem is jurisdictional and political. The ICC can only prosecute cases where countries refer 
+          themselves (unlikely for sexual violence), where the UN Security Council refers a case (Russia and 
+          China block most resolutions), or where non-member states accept jurisdiction (rare). <strong>The US 
+          actively opposes the ICC</strong> and passed a law authorizing military force to free any American 
+          held by the court.
+        </p>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Regional courts fare no better. The International Criminal Tribunal for the former Yugoslavia took 
+          <strong>8 years</strong> to prosecute its first rape case. The International Criminal Tribunal for 
+          Rwanda initially failed to charge sexual violence despite evidence that 250,000-500,000 women were 
+          raped during the 1994 genocide. The European Court of Human Rights has never ordered reparations 
+          for wartime sexual violence.
+        </p>
+      </section>
+
+      {/* Section: Women Peacekeepers */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          Women Peacekeepers: Assaulted by Their Own
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          UN peacekeepers are supposed to protect civilians, especially women and children in conflict zones. 
+          Instead, many have become perpetrators themselves. The UN has documented <strong>2,000+ allegations 
+          of sexual exploitation and abuse</strong> by peacekeepers since 2000. The majority of victims are 
+          women and girls in the communities peacekeepers were sent to protect.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">UN&apos;s Sexual Abuse Crisis</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <h4 className="font-semibold text-stone-800 mb-2">Central African Republic (2014-2016)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• 108 allegations of sexual abuse by peacekeepers</li>
+                <li>• Victims included children as young as 7</li>
+                <li>• French Sangaris forces paid children for sex</li>
+                <li>• UN whistleblower Anders Kompass was retaliated against</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800 mb-2">Democratic Republic of Congo (2004-2017)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• 850+ allegations of sexual exploitation</li>
+                <li>• Pakistani peacekeepers ran a child sex ring</li>
+                <li>• Uruguayan peacekeepers traded food for sex</li>
+                <li>• Zero prosecutions by contributing countries</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800 mb-2">Haiti (2004-2017)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• 265+ documented cases of sexual abuse</li>
+                <li>• Sri Lankan peacekeepers exploited street children</li>
+                <li>• Hundreds of &ldquo;peacekeeper babies&rdquo; abandoned</li>
+                <li>• Cholera outbreak killed 10,000+ due to UN negligence</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800 mb-2">Bosnia (1995-2002)</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• UN police were customers of sex traffickers</li>
+                <li>• DynCorp employees bought women and girls</li>
+                <li>• Whistleblower Kathryn Bolkovac was fired</li>
+                <li>• Movie &ldquo;The Whistleblower&rdquo; tells her story</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The UN&apos;s response to these scandals has been institutional ass-covering. When Anders Kompass, a 
+          UN human rights official, tried to alert French authorities about their soldiers&apos; child abuse 
+          in CAR, <strong>the UN suspended him for &ldquo;breach of protocol.&rdquo;</strong> The UN spent more 
+          energy investigating the leak than investigating the child rape.
+        </p>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Contributing countries — the nations that provide peacekeeping troops — have prosecuted fewer than 
+          <strong>20 peacekeepers</strong> for sexual abuse since 2000. Most allegations are simply ignored. 
+          The UN has no authority to prosecute peacekeepers itself. The message is clear: you can rape with 
+          impunity as long as you&apos;re wearing a blue helmet.
+        </p>
+      </section>
+
+      {/* Section: Refugee Women */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          84 Million Displaced, 50% Are Women
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Wars create refugees. Of the world&apos;s <strong>84 million forcibly displaced people</strong>, 
+          roughly half are women and girls. They face violence during flight, in refugee camps, and in 
+          host communities. Women refugees are 5 times more likely to experience sexual violence than 
+          women in stable communities.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">The Journey of Trauma</h3>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">During Flight:</span> Checkpoint rape, trafficking, exploitation by smugglers and border guards</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">In Camps:</span> Unsafe latrines, lack of lighting, sexual violence by camp security and other refugees</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">In Host Communities:</span> Economic exploitation, &ldquo;survival sex,&rdquo; discrimination, lack of legal protection</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Children:</span> Unaccompanied minors face trafficking, child marriage, and sexual exploitation</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Syrian Refugee Crisis: 13 Million Displaced</h3>
+          <p className="text-stone-700 mb-3">
+            The Syrian war has displaced over 13 million people — the largest refugee crisis since WWII. 
+            <strong>6.8 million are women and children.</strong> In Jordan&apos;s Zaatari camp — which housed 
+            80,000 people at its peak — UNICEF documented widespread child marriage. Girls as young as 12 
+            were married off by families desperate to reduce the number of mouths to feed.
+          </p>
+          <p className="text-stone-700 mb-3">
+            In Lebanon, Syrian refugee women report widespread sexual harassment and assault. A 2016 survey 
+            found that <strong>90% of Syrian refugee women</strong> experienced sexual harassment by employers, 
+            landlords, or aid workers. Many cannot report the abuse because they lack legal status and fear deportation.
+          </p>
+          <p className="text-stone-700">
+            The international response has been woefully inadequate. The UN&apos;s Syrian refugee appeal is 
+            only 37% funded. Women and children bear the cost of this funding gap through reduced protection, 
+            limited healthcare, and cuts to food assistance that force families into survival prostitution.
+          </p>
+        </div>
+      </section>
+
+      {/* Section: Women Veterans Healthcare */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          Healthcare Designed for Men, Delivered to Women
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          The VA healthcare system was designed for male veterans of conventional wars. Today, <strong>2.2 
+          million women</strong> are veterans, but many VA facilities still lack basic gynecological care. 
+          Mental health screening tools are designed around male experiences. The assumption that veterans 
+          are men is killing women.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Gender Gaps in VA Care</h3>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Physical Health</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• 37% of VA facilities lack on-site gynecological care</li>
+                <li>• Women veterans wait 25% longer for specialty appointments</li>
+                <li>• Breast and cervical cancer screening rates below civilian standards</li>
+                <li>• Higher rates of autoimmune diseases (often undiagnosed)</li>
+                <li>• Gulf War Syndrome affects 25% of women veterans vs 15% of men</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-red-800 mb-2">Mental Health</h4>
+              <ul className="text-stone-700 text-sm space-y-1">
+                <li>• PTSD screening tools miss female-specific trauma symptoms</li>
+                <li>• Women veterans are 2.5x more likely to commit suicide than civilian women</li>
+                <li>• MST survivors often misdiagnosed with personality disorders</li>
+                <li>• Higher rates of depression and anxiety (often untreated)</li>
+                <li>• Homelessness among women veterans increased 40% (2010-2019)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          The VA&apos;s Military Sexual Trauma program theoretically provides specialized care for MST survivors. 
+          In practice, many facilities lack trained staff. A 2020 GAO report found that <strong>40% of 
+          designated MST coordinators</strong> had no specialized training in sexual trauma. Some facilities 
+          assign MST coordination as a part-time duty to staff who also handle other responsibilities.
+        </p>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Women veterans face a Catch-22 when seeking care: prove you were in combat to qualify for PTSD 
+          treatment, but accept that women weren&apos;t officially in combat until 2015. Many women veterans 
+          receive less-than-honorable discharges — often after reporting sexual assault — which disqualifies 
+          them from most VA benefits. They served their country. Their country failed them. Then it abandoned them.
+        </p>
+      </section>
+
+      {/* Section: Economic Impact */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Economic War on Women
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          War doesn&apos;t just kill women — it impoverishes them. In every conflict zone, women&apos;s economic 
+          opportunities disappear. Schools close (girls are pulled out first). Markets shut down (women lose 
+          informal sector jobs). Healthcare collapses (maternal mortality spikes). And when peace comes, 
+          women are excluded from reconstruction jobs that go to men.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Afghanistan: 20 Years of False Promises</h3>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">2001 Promise:</span> &ldquo;Afghan women will be liberated from Taliban oppression&rdquo;</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">2021 Reality:</span> Taliban back in power, women banned from education and work</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">$2.3 trillion spent</span> on war, ~$200 million total on women&apos;s programs (0.009%)</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Female literacy:</span> Rose from 12% to 17% over 20 years — now back to 0% in rural areas</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Maternal mortality:</span> Remains among world&apos;s highest at 638 deaths per 100,000 births</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Girls in school:</span> 2.5 million in 2020 — now zero above age 12</p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          In Iraq, women made up 25% of the workforce before 2003. By 2015, it had fallen to 14%. Violence 
+          against women increased dramatically after the US invasion — honor killings, kidnappings, and 
+          forced marriages spiked. The &ldquo;liberation&rdquo; of Iraq made women prisoners in their own homes.
+        </p>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Post-conflict reconstruction systematically excludes women. In Iraq, <strong>less than 1%</strong> 
+          of reconstruction contracts went to women-owned businesses. In Afghanistan, women were explicitly 
+          banned from working on most US-funded projects — because of &ldquo;cultural sensitivities.&rdquo; 
+          The same women who were supposedly being liberated were prohibited from participating in their 
+          countries&apos; reconstruction.
+        </p>
+      </section>
+
+      {/* Section: Women in Peace Negotiations */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          Excluded from Peace: When Wars End, Women Are Forgotten
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Despite bearing the brunt of war&apos;s violence, women are systematically excluded from peace 
+          negotiations. Of the 1,168 peace agreements signed between 1992 and 2019, only <strong>299 
+          included women as negotiators, mediators, or signatories</strong> (25%). Only 6% had women 
+          as chief mediators. The men who start wars also control how they end.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Major Peace Processes: Male-Only Clubs</h3>
+          <div className="space-y-4">
+            <div>
+              <h4 className="font-semibold text-stone-800">Dayton Accords (Bosnia, 1995)</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Women negotiators: 0</strong> | Despite systematic rape being a central war crime, no women 
+                were included in peace talks. The agreement made no mention of sexual violence, war crimes prosecutions, 
+                or women&apos;s rights. Women&apos;s groups had to lobby for years to be included in implementation.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Oslo Accords (Israel-Palestine, 1993)</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Women negotiators: 0</strong> | Secret negotiations included no women. The agreement 
+                ignored women&apos;s rights, education access, and economic participation. Palestinian and 
+                Israeli women&apos;s peace groups were actively excluded from the process.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Good Friday Agreement (Northern Ireland, 1998)</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Women negotiators: 2 of 10 parties</strong> | The Northern Ireland Women&apos;s Coalition 
+                secured seats at the table only through grassroots mobilization. They successfully pushed for 
+                integrated education and mixed housing — provisions that male negotiators had ignored.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Doha Agreement (Afghanistan, 2020)</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Women negotiators: 0</strong> | The US-Taliban agreement was negotiated entirely by men. 
+                Afghan women&apos;s rights were not protected. Within months of the Taliban&apos;s return to power, 
+                women were banned from education and work. The negotiators knew this would happen.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          Research consistently shows that peace agreements with women&apos;s participation are more likely 
+          to last. A study of 40 peace processes found that agreements with women&apos;s involvement had a 
+          <strong>64% higher probability of lasting 15+ years</strong>. But the international community 
+          continues to treat women&apos;s participation as optional, not essential.
+        </p>
+
+        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">UN Resolution 1325: 23 Years of Empty Promises</h3>
+          <p className="text-stone-300 mb-3">
+            In 2000, the UN Security Council passed Resolution 1325, calling for women&apos;s participation 
+            in peace processes. It was groundbreaking — the first time the Security Council recognized women 
+            as essential to peace and security.
+          </p>
+          <p className="text-stone-300 mb-3">
+            <strong>23 years later:</strong> Women&apos;s participation in peace processes has barely improved. 
+            The UN has adopted 10 additional resolutions on women, peace, and security. Implementation remains 
+            minimal. Words are cheap. Action is expensive.
+          </p>
+          <div className="text-stone-300">
+            <p className="font-semibold text-white">Key failures:</p>
+            <ul className="space-y-1 ml-4">
+              <li>• No enforcement mechanisms or penalties for excluding women</li>
+              <li>• Funding for women&apos;s peace organizations remains &lt;1% of peace building budgets</li>
+              <li>• Security Council members routinely violate their own resolutions</li>
+              <li>• &ldquo;Cultural sensitivity&rdquo; is used to justify excluding women from negotiations</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Solutions */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          Solutions: What It Would Take to End Women&apos;s War
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Ending the war on women requires more than resolutions and rhetoric. It requires structural change 
+          in how wars are conducted, how peace is negotiated, and how justice is delivered. The solutions 
+          exist — what&apos;s missing is political will.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Military Reforms</h3>
+          <ul className="space-y-2 text-stone-700">
+            <li><strong>1. Independent military justice system:</strong> Remove sexual assault cases from chain of command entirely</li>
+            <li><strong>2. Mandatory prosecution:</strong> Commanders who fail to report MST lose rank and benefits</li>
+            <li><strong>3. Victim support guarantee:</strong> No discharge or punishment for reporting assault</li>
+            <li><strong>4. Public accountability:</strong> Annual public reporting of sexual assault rates by unit and base</li>
+            <li><strong>5. Cultural transformation:</strong> Zero tolerance for misogyny, racism, and sexual harassment</li>
+          </ul>
+        </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">International Justice</h3>
+          <ul className="space-y-2 text-stone-700">
+            <li><strong>1. Universal ICC jurisdiction:</strong> All UN member states must accept ICC authority for sexual violence crimes</li>
+            <li><strong>2. Hybrid courts:</strong> Create special courts in conflict zones with international/local judges</li>
+            <li><strong>3. Victim compensation fund:</strong> International fund providing reparations for sexual violence survivors</li>
+            <li><strong>4. Sanctions enforcement:</strong> Economic sanctions on countries that use rape as a weapon of war</li>
+            <li><strong>5. Corporate accountability:</strong> Hold contractors liable for sex trafficking and exploitation</li>
+          </ul>
+        </div>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Peace Building</h3>
+          <ul className="space-y-2 text-stone-700">
+            <li><strong>1. 50% representation requirement:</strong> All peace negotiations must include equal women&apos;s participation</li>
+            <li><strong>2. Women&apos;s rights veto:</strong> Peace agreements cannot remove existing women&apos;s rights protections</li>
+            <li><strong>3. Economic inclusion mandate:</strong> Post-conflict reconstruction must reserve 30% of contracts for women</li>
+            <li><strong>4. Education protection:</strong> Attacks on girls&apos; schools classified as war crimes</li>
+            <li><strong>5. Transitional justice inclusion:</strong> Truth commissions must document gender-based violence</li>
+          </ul>
+        </div>
+
+        <p className="text-stone-700 text-lg mb-4">
+          But the most important solution is the hardest: <strong>stop starting wars</strong>. Every war creates 
+          new victims. Every intervention generates new refugees. Every &ldquo;humanitarian&rdquo; bombing 
+          campaign spawns new widows. As long as powerful men can start wars without counting the cost to 
+          women, women will continue to pay that cost.
+        </p>
       </section>
 
       {/* Section: Military Sexual Assault */}

@@ -129,7 +129,7 @@ export default function AlliesAndEnemiesPage() {
 
       {/* Case Studies */}
       <section className="my-12">
-        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Case Studies</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Case Studies: From Asset to Enemy</h2>
 
         {caseStudies.map((cs, i) => (
           <div key={cs.name} className="mb-12">
@@ -156,6 +156,155 @@ export default function AlliesAndEnemiesPage() {
             {i < caseStudies.length - 1 && <hr className="my-8 border-stone-200" />}
           </div>
         ))}
+      </section>
+
+      {/* Additional Historical Cases */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Historical Pattern: More Cases</h2>
+        <p className="text-stone-600 mb-6">
+          The six major cases above are just the most documented examples. The ally-to-enemy pipeline has been 
+          a consistent feature of American foreign policy for decades. Here are additional cases that follow the same pattern:
+        </p>
+
+        <div className="space-y-6">
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇳🇮 The Somoza Dynasty (Nicaragua, 1936-1979)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (1936-1979)</h4>
+                <p className="text-stone-600 text-sm">
+                  The US installed Anastasio Somoza García in 1936 and supported three generations of Somoza dictators 
+                  for 43 years. They provided military aid, training, and diplomatic cover. FDR's famous quote about 
+                  Somoza — "He may be a son of a bitch, but he's our son of a bitch" — defined the relationship.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-red-700 font-semibold text-sm mb-1">BLOWBACK (1979-1990)</h4>
+                <p className="text-stone-600 text-sm">
+                  The Sandinista Revolution overthrew Somoza in 1979. The US then spent $2.8 billion funding the 
+                  Contra rebels in an 11-year proxy war that killed 50,000+ Nicaraguans. The Iran-Contra affair 
+                  nearly brought down the Reagan administration. Nicaragua remained hostile to the US for decades.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>ROI:</strong> $500M invested in Somoza → $2.8B+ spent fighting the Sandinistas (6× cost multiplier)</p>
+          </div>
+
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇺🇦 Ukraine: The Azov Battalion (2014-present)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (2014-present)</h4>
+                <p className="text-stone-600 text-sm">
+                  After the 2014 Maidan coup, the US and NATO began training and arming Ukrainian forces, including 
+                  the Azov Battalion — a unit with documented neo-Nazi origins and symbols. The Pentagon initially 
+                  banned aid to Azov (2018) but quietly lifted restrictions. Azov fighters have received US training and weapons.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-amber-700 font-semibold text-sm mb-1">FUTURE RISK (?)</h4>
+                <p className="text-stone-600 text-sm">
+                  Ukrainian ultra-nationalists have a history of turning on former allies when political winds shift. 
+                  The weapons flowing to Ukraine — including advanced anti-tank and anti-aircraft systems — could 
+                  eventually be used against US interests if Ukraine's political situation changes or the war ends badly.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>Status:</strong> $120B+ invested in Ukraine; outcome TBD</p>
+          </div>
+
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇰🇭 The Khmer Rouge (Cambodia, 1979-1991)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (1979-1991)</h4>
+                <p className="text-stone-600 text-sm">
+                  After Vietnam invaded Cambodia and ousted the Khmer Rouge (1979), the US backed the Khmer Rouge 
+                  at the UN and provided covert support through Thailand and China. The logic: they were fighting 
+                  Soviet-backed Vietnam. The fact that they had committed genocide was overlooked for Cold War purposes.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-red-700 font-semibold text-sm mb-1">MORAL COST</h4>
+                <p className="text-stone-600 text-sm">
+                  The US prolonged the Cambodian conflict by supporting the Khmer Rouge's diplomatic legitimacy and 
+                  providing indirect military support. This helped sustain a genocidal regime that had killed 2 million 
+                  Cambodians. The policy was so morally bankrupt that it was classified for decades.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>Legacy:</strong> The US backed genocidaires for 12 years because they opposed Vietnam</p>
+          </div>
+
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇦🇴 Jonas Savimbi/UNITA (Angola, 1975-2002)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (1975-1991)</h4>
+                <p className="text-stone-600 text-sm">
+                  The US provided $250 million in weapons and support to Jonas Savimbi's UNITA rebels fighting 
+                  Angola's Marxist government. Reagan called Savimbi "Angola's Abraham Lincoln." The US overlooked 
+                  Savimbi's use of child soldiers, land mines, and brutal tactics because UNITA opposed Soviet influence.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-red-700 font-semibold text-sm mb-1">AFTERMATH (1991-2002)</h4>
+                <p className="text-stone-600 text-sm">
+                  When the Cold War ended, Savimbi refused to accept election results and continued fighting. 
+                  The war dragged on for another 11 years, killing 500,000+ Angolans. Angola became one of the 
+                  most heavily mined countries on Earth. The US-backed "freedom fighter" became a warlord.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>Legacy:</strong> "Angola's Abraham Lincoln" became a genocidal warlord who refused to stop fighting</p>
+          </div>
+
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇱🇦 Hmong Army/CIA (Laos, 1961-1975)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (1961-1975)</h4>
+                <p className="text-stone-600 text-sm">
+                  The CIA recruited the Hmong ethnic group in Laos to fight a "Secret War" against communist forces. 
+                  Led by General Vang Pao, 30,000+ Hmong fighters were armed, trained, and funded by the CIA. 
+                  They conducted guerrilla operations and protected US radar installations. The war was hidden from Congress.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-red-700 font-semibold text-sm mb-1">ABANDONMENT (1975)</h4>
+                <p className="text-stone-600 text-sm">
+                  When the US withdrew from Vietnam (1975), the Hmong were abandoned. Communist forces took revenge 
+                  on US collaborators. 100,000+ Hmong fled to refugee camps in Thailand. Many were killed or imprisoned. 
+                  The CIA's "secret army" was left to face retribution alone. Some Hmong veterans later turned to crime.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>Legacy:</strong> The CIA's largest paramilitary operation abandoned its allies when convenient</p>
+          </div>
+
+          <div className="bg-stone-50 rounded-lg p-6">
+            <h3 className="font-bold text-xl mb-2">🇨🇩 Mobutu Sese Seko (Zaire, 1965-1997)</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <h4 className="text-green-700 font-semibold text-sm mb-1">ALLIANCE (1965-1991)</h4>
+                <p className="text-stone-600 text-sm">
+                  The CIA helped Mobutu seize power in Congo (renamed Zaire) in 1965. He received $300 million in US aid 
+                  over 30 years — despite looting the treasury, creating a personality cult, and impoverishing his people. 
+                  The US overlooked his corruption because Zaire was strategically located and anti-communist.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-red-700 font-semibold text-sm mb-1">COLLAPSE (1991-1997)</h4>
+                <p className="text-stone-600 text-sm">
+                  When the Cold War ended, the US lost interest in Mobutu. His regime collapsed in the First Congo War (1996-1997). 
+                  The resulting instability led to the Second Congo War (1998-2003) — the deadliest conflict since WWII, 
+                  killing 5.4 million people. The resource-rich country remains unstable today.
+                </p>
+              </div>
+            </div>
+            <p className="text-stone-500 text-xs"><strong>Legacy:</strong> 32 years of supporting a kleptocrat led to Africa's deadliest war</p>
+          </div>
+        </div>
       </section>
 
       <PatternChart />

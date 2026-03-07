@@ -12,12 +12,18 @@ export default function Footer() {
             <li><Link href="/eras" className="hover:text-white">By Era</Link></li>
             <li><Link href="/covert" className="hover:text-white">Covert Operations</Link></li>
             <li><Link href="/casualties" className="hover:text-white">Casualty Data</Link></li>
+            <li><Link href="/who-fights" className="hover:text-white">Who Fights</Link></li>
+            <li><Link href="/blowback-map" className="hover:text-white">Blowback Map</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Money & Power</h3>
           <ul className="space-y-2">
             <li><Link href="/spending" className="hover:text-white">Military Spending</Link></li>
+            <li><Link href="/pentagon-audit" className="hover:text-white">Pentagon Audit</Link></li>
+            <li><Link href="/revolving-door" className="hover:text-white">Revolving Door</Link></li>
+            <li><Link href="/cost-overruns" className="hover:text-white">Cost Overruns</Link></li>
+            <li><Link href="/war-roi" className="hover:text-white">War ROI</Link></li>
             <li><Link href="/foreign-aid" className="hover:text-white">Foreign Aid</Link></li>
             <li><Link href="/arms-sales" className="hover:text-white">Arms Sales</Link></li>
             <li><Link href="/contractors" className="hover:text-white">Defense Contractors</Link></li>
@@ -41,6 +47,7 @@ export default function Footer() {
             <li><Link href="/war-clock" className="hover:text-white">War Clock</Link></li>
             <li><Link href="/modern-wars" className="hover:text-white">Modern Wars</Link></li>
             <li><Link href="/tools" className="hover:text-white">Tools</Link></li>
+            <li><Link href="/glossary" className="hover:text-white">Glossary</Link></li>
             <li><Link href="/downloads" className="hover:text-white">Downloads</Link></li>
             <li><Link href="/faq" className="hover:text-white">FAQ</Link></li>
             <li><Link href="/contact" className="hover:text-white">Contact</Link></li>

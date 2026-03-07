@@ -150,13 +150,34 @@ export default function AnalysisPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-800 mb-4">📌 Featured</h2>
         <div className="grid md:grid-cols-3 gap-4">
           {[
-            { slug: 'iran-day-by-day', title: 'Iran 2026: Day-by-Day', tag: 'LIVE' },
-            { slug: 'war-on-terror', title: 'The War on Terror: $8T Later', tag: 'DEEP DIVE' },
-            { slug: 'lies-that-started-wars', title: 'Lies That Started Wars', tag: 'EDITORIAL' },
+            { slug: 'iran-day-by-day', title: 'Iran 2026: Day-by-Day', tag: 'LIVE', readingTime: '12 min read' },
+            { slug: 'war-on-terror', title: 'The War on Terror: $8T Later', tag: 'DEEP DIVE', readingTime: '15 min read' },
+            { slug: 'blowback', title: 'Blowback: How Interventions Create Enemies', tag: 'ESSENTIAL', readingTime: '21 min read' },
           ].map(f => (
             <Link key={f.slug} href={`/analysis/${f.slug}`} className="bg-white rounded-lg border border-red-200 p-4 hover:shadow-md transition">
-              <span className="text-xs font-bold text-red-600 uppercase">{f.tag}</span>
-              <h3 className="font-[family-name:var(--font-heading)] font-bold mt-1">{f.title}</h3>
+              <div className="flex justify-between items-start mb-2">
+                <span className="text-xs font-bold text-red-600 uppercase">{f.tag}</span>
+                <span className="text-xs text-stone-500">{f.readingTime}</span>
+              </div>
+              <h3 className="font-[family-name:var(--font-heading)] font-bold">{f.title}</h3>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      {/* Quick Links to New Features */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-800 mb-4">🆕 New on WarCosts</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {[
+            { href: '/pentagon-audit', title: 'Pentagon Audit Tracker', desc: '6 failed audits, $23T unaccounted' },
+            { href: '/revolving-door', title: 'Revolving Door Database', desc: 'Pentagon-contractor pipeline exposed' },
+            { href: '/war-roi', title: 'War ROI Rankings', desc: 'Which wars delivered "bang for buck"?' },
+            { href: '/blowback-map', title: 'Interactive Blowback Map', desc: 'Visualize intervention consequences' },
+          ].map(link => (
+            <Link key={link.href} href={link.href} className="bg-white rounded-lg border border-blue-200 p-3 hover:shadow-md transition">
+              <h3 className="font-[family-name:var(--font-heading)] font-bold text-sm mb-1">{link.title}</h3>
+              <p className="text-stone-600 text-xs">{link.desc}</p>
             </Link>
           ))}
         </div>
@@ -166,12 +187,27 @@ export default function AnalysisPage() {
         <div key={section.theme} className="mb-12">
           <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-stone-700">{section.theme}</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {section.articles.map(a => (
-              <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-6 hover:shadow-md transition">
-                <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">{a.title}</h3>
-                <p className="text-muted">{a.desc}</p>
-              </Link>
-            ))}
+            {section.articles.map(a => {
+              // Estimate reading time based on article length/complexity
+              const estimateReadingTime = (slug: string) => {
+                const longFormArticles = ['war-on-terror', 'military-industrial-complex', 'blowback', 'congressional-authority', 'iran-2026', 'forever-wars']
+                const mediumArticles = ['cyber-warfare', 'sanctions-warfare', 'shadow-wars', 'drone-wars', 'empire-of-bases']
+                
+                if (longFormArticles.includes(slug)) return '15-20 min read'
+                if (mediumArticles.includes(slug)) return '8-12 min read'
+                return '5-8 min read'
+              }
+              
+              return (
+                <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-6 hover:shadow-md transition">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold">{a.title}</h3>
+                    <span className="text-xs text-stone-500 ml-2 flex-shrink-0">{estimateReadingTime(a.slug)}</span>
+                  </div>
+                  <p className="text-muted">{a.desc}</p>
+                </Link>
+              )
+            })}
           </div>
         </div>
       ))}

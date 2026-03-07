@@ -214,26 +214,290 @@ export default function BaseNationPage() {
       {/* Environmental damage */}
       <section className="mb-12">
         <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">
-          Environmental <span className="text-red-400">Destruction</span>
+          Environmental <span className="text-red-400">Destruction</span>: The Pentagon as Global Polluter
         </h2>
 
         <p className="text-stone-300 mb-4">
-          US military bases are among the worst polluters on the planet. The Pentagon is the single largest
-          institutional consumer of fossil fuels in the world and has contaminated countless communities:
+          The Pentagon is the single largest institutional consumer of fossil fuels in the world, burning through
+          approximately 350,000 barrels of oil per day — more than most countries. US military bases are among 
+          the worst polluters on the planet, leaving behind contaminated soil, poisoned water, and toxic air 
+          in communities around the world.
         </p>
-
-        <ul className="space-y-2 text-stone-300 mb-6">
-          <li>• <strong className="text-white">PFAS contamination</strong> from firefighting foam at hundreds of bases worldwide — linked to cancer, thyroid disease, and developmental problems</li>
-          <li>• <strong className="text-white">Depleted uranium</strong> residue in Iraq, Kosovo, and testing ranges</li>
-          <li>• <strong className="text-white">Agent Orange</strong> stored and tested at bases in Okinawa, Guam, and Korea</li>
-          <li>• <strong className="text-white">Fuel spills and leaks</strong> — the Red Hill facility in Hawaii leaked jet fuel into the drinking water of 93,000 people in 2021</li>
-          <li>• <strong className="text-white">Unexploded ordnance</strong> — Vieques, Puerto Rico, used as a bombing range for 60 years; cancer rates 30% higher than mainland PR</li>
-        </ul>
 
         <p className="text-stone-300 mb-4">
           Under Status of Forces Agreements (SOFAs), the US typically avoids liability for environmental cleanup.
-          When bases close, contaminated land is often returned to host nations without remediation.
+          When bases close, contaminated land is often returned to host nations without remediation — a form of
+          environmental colonialism that dumps the long-term costs on the very communities harmed by US operations.
         </p>
+
+        {/* Environmental Cases */}
+        <div className="space-y-6 my-8">
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">🧪 PFAS Contamination: "Forever Chemicals" Worldwide</h3>
+            <p className="text-stone-300 text-sm mb-3">
+              Per- and polyfluoroalkyl substances (PFAS) from military firefighting foam have contaminated drinking 
+              water at over 400 US military installations worldwide. These "forever chemicals" don't break down 
+              naturally and are linked to cancer, thyroid disease, liver damage, and developmental problems.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="text-white font-semibold mb-2">Contaminated Locations</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• Kadena Air Base, Okinawa: PFAS levels 50× safe levels in local water</li>
+                  <li>• Ramstein Air Base, Germany: 6,500 residents on bottled water since 2021</li>
+                  <li>• Naval Air Station Fallon, Nevada: PFAS in breast milk of base families</li>
+                  <li>• Yokota Air Base, Japan: Water wells closed after contamination discovered</li>
+                  <li>• Andersen AFB, Guam: PFAS leaching into Guam's sole-source aquifer</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-2">Health Impact</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• Kidney and testicular cancer rates elevated near bases</li>
+                  <li>• Thyroid disease in military families 3× national average</li>
+                  <li>• Pregnancy complications and low birth weights</li>
+                  <li>• Liver damage and elevated cholesterol</li>
+                  <li>• Compromised immune system response</li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-red-400 text-xs mt-3">
+              <strong>Pentagon Response:</strong> Spent $2B+ on studies, $200M+ on water filters, $0 on community healthcare for affected populations.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">⛽ Red Hill: Poisoning Pearl Harbor</h3>
+            <p className="text-stone-300 text-sm mb-3">
+              The Red Hill Underground Fuel Storage Facility in Hawaii — built during WWII — stores 250 million
+              gallons of jet fuel in 20 massive underground tanks just 100 feet above Oahu's main aquifer.
+            </p>
+            <div className="space-y-3">
+              <div className="bg-red-950/30 border border-red-800/50 rounded p-3">
+                <h4 className="text-red-400 font-semibold text-sm mb-1">November 2021 Crisis</h4>
+                <p className="text-stone-300 text-xs">
+                  Jet fuel leaked into Navy water system serving 93,000+ people. Families reported symptoms:
+                  nausea, vomiting, diarrhea, skin rashes. Military families fled base housing. Navy initially 
+                  denied the problem, then claimed water was "safe to drink."
+                </p>
+              </div>
+              <div className="grid md:grid-cols-2 gap-3">
+                <div>
+                  <h4 className="text-white font-semibold text-sm mb-1">By the Numbers</h4>
+                  <ul className="text-stone-400 text-xs space-y-1">
+                    <li>• 19,000 gallons of fuel leaked (confirmed)</li>
+                    <li>• 93,000+ people affected</li>
+                    <li>• 4,000 military families relocated</li>
+                    <li>• $1.2B+ estimated cleanup cost</li>
+                    <li>• 80+ years of operation with no leak monitoring</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm mb-1">Health Reports</h4>
+                  <ul className="text-stone-400 text-xs space-y-1">
+                    <li>• 6,000+ people sought medical care</li>
+                    <li>• Miscarriages reported by military spouses</li>
+                    <li>• Children hospitalized with respiratory issues</li>
+                    <li>• Pets became sick, some died</li>
+                    <li>• Long-term health impacts unknown</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <p className="text-red-400 text-xs mt-3">
+              <strong>Outcome:</strong> Hawaii forced Navy to close Red Hill in 2024. Defueling expected to take years, cleanup decades.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">☢️ Vieques: 60 Years of Bombing Practice</h3>
+            <p className="text-stone-300 text-sm mb-3">
+              The US Navy used Vieques, Puerto Rico as a bombing range from 1941-2003, dropping an estimated
+              22 million pounds of ordnance on the island. The environmental and health legacy persists today.
+            </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <h4 className="text-white font-semibold mb-2">Environmental Damage</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• 900+ tons of unexploded ordnance still buried</li>
+                  <li>• Heavy metals in soil exceed EPA limits by 10×</li>
+                  <li>• Agent Orange and depleted uranium residue</li>
+                  <li>• Coral reefs damaged by ship-to-shore bombardment</li>
+                  <li>• 14,000 acres still off-limits due to contamination</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold mb-2">Health Impact</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• Cancer rate 27% higher than mainland Puerto Rico</li>
+                  <li>• Respiratory diseases 300% above PR average</li>
+                  <li>• Birth defects and developmental delays</li>
+                  <li>• Fishermen report deformed catch</li>
+                  <li>• $100M+ in health damages (Harvard study)</li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-red-400 text-xs mt-3">
+              <strong>Navy cleanup:</strong> $1.8B spent since 2003. EPA estimates cleanup will take 30+ more years at current pace.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">🧪 Agent Orange: Chemical Weapons Storage</h3>
+            <p className="text-stone-300 text-sm mb-3">
+              Agent Orange and other herbicides weren't just used in Vietnam. They were stored, tested, and 
+              leaked at US bases worldwide, creating health crises that persist 50+ years later.
+            </p>
+            <div className="space-y-3">
+              <div className="grid md:grid-cols-3 gap-3">
+                <div>
+                  <h4 className="text-white font-semibold text-sm mb-1">Okinawa</h4>
+                  <p className="text-stone-400 text-xs">
+                    25,000+ barrels buried on Kadena AB. Dioxin levels 280× WHO safety limits. 
+                    Birth defects 2.5× Japan average in affected areas.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm mb-1">Korea</h4>
+                  <p className="text-stone-400 text-xs">
+                    Camp Carroll: 250 barrels dumped in 1970s. Local farmers' cancer rates elevated.
+                    Groundwater contamination spread to 3 villages.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm mb-1">Guam</h4>
+                  <p className="text-stone-400 text-xs">
+                    Andersen AFB herbicide storage. Soil contamination in surrounding villages.
+                    Chamorro people: diabetes and cancer rates among world's highest.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-red-500/10 border border-red-500/30 rounded-xl p-6 my-6">
+          <h3 className="text-red-400 font-bold text-lg mb-3">The Pentagon's Environmental Get-Out-of-Jail-Free Card</h3>
+          <p className="text-stone-300 text-sm mb-3">
+            Status of Forces Agreements (SOFAs) typically include environmental liability waivers that protect 
+            the US from cleanup costs. Even when contamination is proven, the Pentagon rarely pays:
+          </p>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <h4 className="text-white font-semibold mb-2">Standard SOFA Language</h4>
+              <ul className="text-stone-400 text-xs space-y-1">
+                <li>• "US not liable for pre-existing contamination"</li>
+                <li>• "Host nation assumes cleanup responsibility"</li>
+                <li>• "Environmental standards: US military discretion"</li>
+                <li>• "No third-party damage claims allowed"</li>
+                <li>• "Classified activities exempt from oversight"</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-semibold mb-2">Real-World Results</h4>
+              <ul className="text-stone-400 text-xs space-y-1">
+                <li>• Clark AB, Philippines: $2B contamination, $0 US payment</li>
+                <li>• Subic Bay: Agent Orange, no US liability accepted</li>
+                <li>• Germany: 2,000+ contaminated sites, minimal US contribution</li>
+                <li>• South Korea: $9B+ in environmental damage claims pending</li>
+                <li>• Okinawa: Cancer clusters, US denies connection</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sexual Violence and Impunity */}
+      <section className="mb-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">
+          Sexual Violence and <span className="text-red-400">Legal Impunity</span>
+        </h2>
+
+        <p className="text-stone-300 mb-4">
+          US military personnel accused of crimes abroad are often protected by SOFAs that grant the US 
+          primary jurisdiction over its troops. The result: a two-tier justice system where American 
+          servicemembers escape accountability for crimes against local populations.
+        </p>
+
+        <div className="space-y-6 my-8">
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">🔍 Okinawa: Decades of Violence, Minimal Justice</h3>
+            <div className="space-y-4">
+              <div className="border-l-4 border-red-600 pl-4">
+                <h4 className="text-white font-bold mb-1">September 1995: The Rape That Changed Everything</h4>
+                <p className="text-stone-300 text-sm mb-2">
+                  Three US servicemen kidnapped and gang-raped a 12-year-old Okinawan girl. The crime sparked 
+                  massive protests — 85,000 people demanded base closures. It was a turning point in 
+                  Okinawan consciousness about the US presence.
+                </p>
+                <p className="text-stone-400 text-xs">
+                  <strong>US Response:</strong> Initially refused to hand over suspects. Later agreed to 
+                  limited transfers to Japanese custody. Sentences: 6.5-7 years (served 3-4 years each).
+                </p>
+              </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <h4 className="text-white font-semibold mb-2">Documented Cases (1995-2024)</h4>
+                  <ul className="text-stone-400 text-xs space-y-1">
+                    <li>• 2008: US marine raped 14-year-old girl</li>
+                    <li>• 2012: Two marines gang-raped woman</li>
+                    <li>• 2016: Civilian contractor murdered 20-year-old woman</li>
+                    <li>• 2017: Marine arrested for rape and assault</li>
+                    <li>• 2021: Sexual assault near Kadena Air Base</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold mb-2">Pattern of Impunity</h4>
+                  <ul className="text-stone-400 text-xs space-y-1">
+                    <li>• Most cases tried in US military courts</li>
+                    <li>• Sentences typically lighter than Japanese law</li>
+                    <li>• Many suspects transferred back to US before trial</li>
+                    <li>• Victims often not consulted on jurisdiction</li>
+                    <li>• No comprehensive database of incidents maintained</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+            <h3 className="font-bold text-white mb-3 text-lg">📊 Global Pattern: Crime Without Consequence</h3>
+            <p className="text-stone-300 text-sm mb-3">
+              Sexual violence by US military personnel is documented worldwide, but prosecutions are rare 
+              and convictions rarer still. SOFAs typically grant the US primary jurisdiction, meaning 
+              crimes are investigated by the military itself.
+            </p>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div>
+                <h4 className="text-white font-semibold text-sm mb-2">South Korea</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• 2002: GI murdered woman near Camp Casey</li>
+                  <li>• 2011: Soldier stabbed Korean woman 7 times</li>
+                  <li>• 2019: Sexual assault case at Osan AB</li>
+                  <li>• Pattern: transferred to US before prosecution</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold text-sm mb-2">Italy</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• 1998: EA-6B Prowler cut cable car line (20 dead)</li>
+                  <li>• 2016: Sailor accused of rape in Naples</li>
+                  <li>• Multiple incidents at Vicenza, Aviano</li>
+                  <li>• Italian courts rarely get jurisdiction</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-white font-semibold text-sm mb-2">Philippines</h4>
+                <ul className="text-stone-400 text-xs space-y-1">
+                  <li>• 2005: Four marines raped Filipino transgender woman</li>
+                  <li>• 2014: USS Guardian destroyed protected coral reef</li>
+                  <li>• VFA grants US custody over accused personnel</li>
+                  <li>• Victims' families denied legal recourse</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Why so many? */}

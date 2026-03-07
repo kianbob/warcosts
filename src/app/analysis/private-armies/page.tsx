@@ -40,6 +40,9 @@ const contractors = [
       'Mali: Replaced French forces in 2022. Human Rights Watch documented massacres of 300+ civilians in Moura (March 2022).',
       'Central African Republic: Became de facto security force for President Touadéra. Accused of mass killings, torture, and sexual violence by UN investigators.',
       'June 2023: Prigozhin mutiny — Wagner forces marched on Moscow, shooting down Russian military aircraft, before turning back. Prigozhin killed in plane crash two months later.',
+      'Ukraine 2022-2023: Recruited 50,000+ convicts from Russian prisons with promise of pardons. Used human wave attacks around Bakhmut, losing an estimated 20,000 men.',
+      'Venezuela 2019: Wagner advisors deployed to protect Maduro regime. Estimated 400-1,000 personnel providing security and training.',
+      'Madagascar 2023: Wagner attempted to establish foothold but was blocked by French diplomatic pressure and AU opposition.',
     ],
     current: 'Rebranded as "Africa Corps" under Russian military intelligence (GRU) control after Prigozhin\'s death. Operations continue in Mali, CAR, Libya, Burkina Faso, Niger, and expanding.',
   },
@@ -333,6 +336,123 @@ export default function PrivateArmiesPage() {
         </div>
       </div>
 
+      {/* Additional PMC Profiles */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Global PMC Ecosystem: Beyond the Big Four
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The private military industry extends far beyond Blackwater, DynCorp, and Wagner. A complex network of companies, subcontractors, and shell corporations operates in every major conflict zone — often with overlapping ownership and revolving-door leadership.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">G4S (UK/Global)</h3>
+            <p className="text-stone-600 text-sm">
+              The world&apos;s largest security company by revenue ($10B+/year). Operates in 90+ countries. Provides prison management (including immigration detention centers), embassy security, and military base protection. In 2012, G4S failed to provide adequate security for the London Olympics, requiring 3,500 additional military personnel at the last minute.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Control Risks (UK)</h3>
+            <p className="text-stone-600 text-sm">
+              Specializes in "risk consulting" and crisis management. Revenue: $500M+/year. Provides security assessments, kidnap recovery, and "asset protection" for multinational corporations. Founded by former SAS officers. Operates in every major oil-producing region globally.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">MPRI (Military Professional Resources Inc.)</h3>
+            <p className="text-stone-600 text-sm">
+              Founded by retired US military officers. Trained the Croatian military before Operation Storm (1995) — the largest ethnic cleansing operation in Europe since WWII. Now owned by L3Harris. Provides "training and advisory services" globally. Revenue: $200M+/year from US government contracts alone.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Olive Group (UK)</h3>
+            <p className="text-stone-600 text-sm">
+              Provides security for oil installations, embassies, and aid organizations. Founded by former British Army officers. Operations in Iraq, Afghanistan, Libya, and across Africa. Acquired by Constellis Group in 2015 as part of the industry consolidation wave.
+            </p>
+          </div>
+        </div>
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <p className="text-stone-800 text-sm">
+            <strong>Industry consolidation:</strong> The PMC industry has undergone massive consolidation since 2010. Constellis Group now owns Academi (formerly Blackwater), Triple Canopy, Olive Group, and others. This creates "too big to fail" contractors with diversified revenue streams and reduced competition — the exact opposite of the market dynamics that supposedly justify privatization.
+          </p>
+        </div>
+      </div>
+
+      {/* The Economics of War Privatization */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Economics of War Privatization: A $200 Billion Industry
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The private military industry is now worth over $200 billion globally, with projected growth to $457 billion by 2030. This growth isn&apos;t driven by market demand — it&apos;s driven by government spending and deliberate policy choices to privatize what were once exclusively state functions.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Revenue Streams</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• <strong>Government contracts:</strong> $120B+/year globally. US DoD alone spends $50B+/year on contractors.</li>
+              <li>• <strong>Corporate security:</strong> $40B+/year. Oil companies, mining firms, tech giants, and banks hire PMCs for "asset protection."</li>
+              <li>• <strong>Training and advisory:</strong> $25B+/year. "Building partner capacity" and foreign military training programs.</li>
+              <li>• <strong>Logistics and support:</strong> $15B+/year. Everything from catering to vehicle maintenance in conflict zones.</li>
+            </ul>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">The Contractor-to-Soldier Ratio</h3>
+            <div className="grid md:grid-cols-3 gap-4 text-sm">
+              <div>
+                <span className="font-bold text-stone-900">Iraq War Peak (2008)</span>
+                <p className="text-stone-600">163,000 US troops, 155,000 contractors (95% ratio)</p>
+              </div>
+              <div>
+                <span className="font-bold text-stone-900">Afghanistan Peak (2012)</span>
+                <p className="text-stone-600">90,000 US troops, 117,000 contractors (130% ratio)</p>
+              </div>
+              <div>
+                <span className="font-bold text-stone-900">Syria (2018)</span>
+                <p className="text-stone-600">2,000 US troops, 5,500+ contractors (275% ratio)</p>
+              </div>
+            </div>
+            <p className="text-stone-700 text-sm mt-3">
+              <strong>The trend is clear:</strong> As public opposition to "boots on the ground" grows, contractor ratios increase. In Syria, there were nearly 3 contractors for every US soldier — allowing the government to claim a "light footprint" while maintaining a massive presence.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* The Accountability Gap: Legal Black Holes */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Accountability Gap: Legal Black Holes by Design
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The legal status of private military contractors exists in a deliberately constructed gray zone. They&apos;re not soldiers, so military law doesn&apos;t apply. They&apos;re not civilians, so civilian law often doesn&apos;t reach them. They operate under Status of Forces Agreements that grant immunity, in countries with weak judicial systems, accountable to distant corporate headquarters.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="font-bold text-red-900 mb-2">Legal Immunity Mechanisms</h3>
+            <ul className="space-y-2 text-stone-700 text-sm">
+              <li>• <strong>Status of Forces Agreements (SOFAs):</strong> Grant contractors immunity from local prosecution. Iraq&apos;s CPA Order 17 (2004) made all contractors immune from Iraqi law.</li>
+              <li>• <strong>Diplomatic immunity:</strong> State Department contractors like Blackwater often held diplomatic passports, making them untouchable.</li>
+              <li>• <strong>Corporate shells:</strong> Complex corporate structures obscure ownership and liability. Blackwater became Xe Services, then Academi, now part of Constellis.</li>
+              <li>• <strong>Extraterritorial jurisdiction gaps:</strong> US law applies abroad only under specific circumstances. Many contractor crimes fall through the cracks.</li>
+              <li>• <strong>Classification and state secrets:</strong> Many contractor activities are classified, making prosecution difficult or impossible.</li>
+            </ul>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Prosecution Statistics: The Numbers Don&apos;t Lie</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• <strong>Iraq War contractors:</strong> 155,000 at peak. Documented incidents: 200+. Prosecutions: &lt;10.</li>
+              <li>• <strong>DynCorp sex trafficking (Bosnia):</strong> Multiple employees involved. Prosecutions: 0.</li>
+              <li>• <strong>DynCorp child trafficking (Afghanistan):</strong> Multiple employees involved. Prosecutions: 0.</li>
+              <li>• <strong>Blackwater shootings:</strong> 200+ incidents documented by FBI. Prosecutions: 4 (later pardoned).</li>
+              <li>• <strong>Contractor fraud:</strong> Commission on Wartime Contracting estimated $31-60B lost. Major prosecutions: &lt;5.</li>
+            </ul>
+            <p className="text-stone-700 text-sm mt-3">
+              <strong>Conviction rate:</strong> Less than 0.01% of contractors involved in documented incidents have been successfully prosecuted. If this were a police department, it would be disbanded. For contractors, it&apos;s business as usual.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Wagner in Africa */}
       <div className="bg-white rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
@@ -341,22 +461,67 @@ export default function PrivateArmiesPage() {
         <p className="text-stone-700 mb-4">
           Wagner Group&apos;s expansion across Africa follows a consistent playbook: provide security to
           embattled governments in exchange for mining concessions and geopolitical influence. The model
-          is profitable, violent, and expanding.
+          is profitable, violent, and expanding rapidly across the continent.
         </p>
-        <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
           {[
-            { country: 'Mali', detail: 'Replaced French forces (Operation Barkhane) in 2022. Human Rights Watch documented the Moura massacre (March 2022): Wagner and Malian forces executed 300+ civilians. Bodies found in mass graves. Mali\'s military junta depends on Wagner for survival.' },
-            { country: 'Central African Republic', detail: 'Wagner has been the de facto security force since 2018. Russian advisors sit in the presidential palace. Gold and diamond mining concessions provide revenue. UN Panel of Experts documented extrajudicial killings, torture, and sexual violence by Wagner forces.' },
-            { country: 'Libya', detail: 'Supported warlord Khalifa Haftar\'s attempt to overthrow the UN-recognized government. Deployed snipers, anti-aircraft systems, and landmines — including in civilian areas. Thousands of mines laid in Tripoli suburbs still kill civilians.' },
-            { country: 'Sudan', detail: 'Wagner supplied the Rapid Support Forces (RSF) with weapons via Libya and CAR. When civil war erupted in April 2023, both sides had connections to Wagner/Russia. Gold mining operations continue regardless of which side wins.' },
-            { country: 'Burkina Faso & Niger', detail: 'Both countries experienced military coups in 2022-2023. Both expelled French forces and invited Russian military cooperation. The Wagner/Africa Corps model is spreading across the Sahel.' },
-            { country: 'Mozambique', detail: 'Wagner deployed to fight ISIS-linked insurgency in Cabo Delgado (2019). Wagner forces suffered significant casualties and withdrew. Replaced by Rwandan forces. One of Wagner\'s few failures.' },
+            { country: 'Mali', detail: 'Replaced French forces (Operation Barkhane) in 2022. Human Rights Watch documented the Moura massacre (March 2022): Wagner and Malian forces executed 300+ civilians. Bodies found in mass graves. Mali\'s military junta depends on Wagner for survival. Wagner profits from gold mining concessions in Kidal region.' },
+            { country: 'Central African Republic', detail: 'Wagner has been the de facto security force since 2018. Russian advisors sit in the presidential palace. Gold and diamond mining concessions provide revenue. UN Panel of Experts documented extrajudicial killings, torture, and sexual violence by Wagner forces. Wagner controls Ndassima gold mine — CAR\'s largest.' },
+            { country: 'Libya', detail: 'Supported warlord Khalifa Haftar\'s attempt to overthrow the UN-recognized government. Deployed snipers, anti-aircraft systems, and landmines — including in civilian areas. Thousands of mines laid in Tripoli suburbs still kill civilians. Wagner profits from oil facility protection contracts.' },
+            { country: 'Sudan', detail: 'Wagner supplied the Rapid Support Forces (RSF) with weapons via Libya and CAR. When civil war erupted in April 2023, both sides had connections to Wagner/Russia. Gold mining operations continue regardless of which side wins. Wagner operates Jebel Amir gold mine.' },
+            { country: 'Burkina Faso & Niger', detail: 'Both countries experienced military coups in 2022-2023. Both expelled French forces and invited Russian military cooperation. The Wagner/Africa Corps model is spreading across the Sahel. Wagner advisors arrived in Burkina Faso in 2023.' },
+            { country: 'Mozambique', detail: 'Wagner deployed to fight ISIS-linked insurgency in Cabo Delgado (2019). Wagner forces suffered significant casualties and withdrew after 6 months. Replaced by Rwandan forces and Southern African Development Community troops. One of Wagner\'s few failures.' },
           ].map(item => (
             <div key={item.country} className="bg-stone-50 rounded-lg p-4">
               <h3 className="font-bold text-stone-900 mb-1">{item.country}</h3>
               <p className="text-stone-600 text-sm">{item.detail}</p>
             </div>
           ))}
+        </div>
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <p className="text-stone-800 text-sm">
+            <strong>The Wagner model:</strong> Security for resources. Wagner doesn&apos;t just provide military services — it extracts value through mining concessions, oil contracts, and infrastructure deals. It&apos;s not just a PMC; it&apos;s a neo-colonial extraction mechanism. African governments trade sovereignty for survival, and Wagner profits from both.
+          </p>
+        </div>
+      </div>
+
+      {/* The Prison-to-Battlefield Pipeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Prison-to-Battlefield Pipeline: Wagner&apos;s Human Wave Strategy
+        </h2>
+        <p className="text-stone-700 mb-4">
+          Wagner&apos;s recruitment of 50,000+ Russian prisoners for the Ukraine war represents a disturbing evolution in PMC tactics: using convicts as expendable shock troops. This isn&apos;t innovation — it&apos;s desperation disguised as efficiency.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">The Recruitment Pitch</h3>
+            <p className="text-stone-600 text-sm mb-3">
+              Prigozhin personally visited prisons across Russia, offering convicts a deal: six months of military service with Wagner in exchange for full pardons. The pitch was filmed and widely circulated:
+            </p>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Full pardons for all crimes, including murder and rape</li>
+              <li>• $2,000/month salary (high by Russian standards)</li>
+              <li>• Death benefits for families: $50,000+ per KIA</li>
+              <li>• Promise of hero status and veteran benefits</li>
+              <li>• Alternative: finish prison sentence (often 10+ years)</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="font-bold text-red-900 mb-2">The Human Cost</h3>
+            <ul className="space-y-2 text-stone-700 text-sm">
+              <li>• <strong>Bakhmut casualties:</strong> Wagner lost an estimated 20,000 men capturing the city — roughly 40% of their convict force.</li>
+              <li>• <strong>Survival rates:</strong> UK intelligence estimated only 10-20% of Wagner convicts survived their six-month contracts.</li>
+              <li>• <strong>Tactical use:</strong> Convicts were used as "human wave" attacks to identify Ukrainian positions, followed by better-equipped regular forces.</li>
+              <li>• <strong>Punishment for desertion:</strong> Documented executions of convicts who attempted to flee. Bodies left as warnings.</li>
+            </ul>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Legal and Ethical Implications</h3>
+            <p className="text-stone-600 text-sm">
+              Using prisoners as expendable soldiers violates multiple international laws and norms. The UN Working Group on Mercenaries called it a form of "contemporary slavery." Russia effectively emptied its prisons to feed a private army&apos;s human wave tactics. The survivors returned to Russia as hardened killers with military training and government-granted immunity for their original crimes.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -397,6 +562,163 @@ export default function PrivateArmiesPage() {
             <li>• <strong>Again, no criminal prosecutions</strong></li>
             <li>• DynCorp continued receiving contracts worth billions of dollars per year</li>
           </ul>
+        </div>
+      </div>
+
+      {/* The Revolving Door: How PMCs Capture Government */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Revolving Door: How PMCs Capture Government
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The private military industry doesn&apos;t just depend on government contracts — it shapes government policy through a revolving door of former officials, targeted lobbying, and strategic political donations. This isn&apos;t corruption in the traditional sense. It&apos;s legal regulatory capture.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Notable Revolving Door Cases</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• <strong>Erik Prince:</strong> Sister Betsy DeVos served as Trump&apos;s Education Secretary. Brother-in-law Dick DeVos is heir to Amway fortune and major Republican donor.</li>
+              <li>• <strong>James Mattis:</strong> General Dynamics board member before becoming Defense Secretary. Approved contracts worth billions to his former employer.</li>
+              <li>• <strong>William Cohen:</strong> Defense Secretary under Clinton (1997-2001). Founded The Cohen Group consulting firm, which advised defense contractors on Pentagon contracts.</li>
+              <li>• <strong>Stephen Hadley:</strong> National Security Advisor under Bush. Joined Raytheon board after leaving office. Now advises private military firms.</li>
+              <li>• <strong>Leon Panetta:</strong> CIA Director and Defense Secretary under Obama. Joined Oracle board (major NSA contractor) and speaks at PMC conferences for $100K+ per appearance.</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="font-bold text-red-900 mb-2">The Numbers: PMC Political Influence</h3>
+            <ul className="space-y-2 text-stone-700 text-sm">
+              <li>• <strong>Lobbying spending:</strong> Defense contractors spend $100M+/year on lobbying. PMCs are part of this ecosystem.</li>
+              <li>• <strong>Campaign contributions:</strong> Defense industry contributed $285M to federal candidates in 2022 election cycle.</li>
+              <li>• <strong>Revolving door hires:</strong> 70% of former 3- and 4-star generals work for defense contractors within two years of retirement.</li>
+              <li>• <strong>Congressional staff:</strong> 1,400+ former Pentagon and Congressional staff now work for defense contractors (according to Government Accountability Institute).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* International Regulation Attempts */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          Failed Regulation: The Montreux Document and Other Paper Tigers
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The international community has made multiple attempts to regulate private military companies. All have failed spectacularly — not because the law is unclear, but because enforcement is impossible and major powers refuse to constrain their own contractors.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">The Montreux Document (2008)</h3>
+            <p className="text-stone-600 text-sm mb-3">
+              17 countries agreed on legal obligations for PMCs under international law. Key provisions:
+            </p>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Hiring states remain responsible for PMC actions</li>
+              <li>• PMCs must respect international humanitarian law</li>
+              <li>• Home states must investigate and prosecute crimes</li>
+              <li>• Territorial states can prosecute under their jurisdiction</li>
+            </ul>
+            <p className="text-stone-700 text-sm mt-3">
+              <strong>Result:</strong> Non-binding. No enforcement mechanism. US signed but continues practices that violate the document&apos;s spirit. Russia never signed and Wagner operates with impunity.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">UN Working Group on Mercenaries</h3>
+            <p className="text-stone-600 text-sm">
+              Established in 2005 to monitor mercenary activities and PMC regulation. Has documented thousands of violations, issued hundreds of reports, and made dozens of recommendations. Impact: essentially zero. Major PMC-using countries ignore the group&apos;s findings and continue expanding contractor use.
+            </p>
+          </div>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="font-bold text-red-900 mb-2">Why Regulation Fails</h3>
+            <ul className="space-y-2 text-stone-700 text-sm">
+              <li>• <strong>Sovereignty concerns:</strong> Countries won&apos;t let international bodies prosecute their contractors</li>
+              <li>• <strong>Classification barriers:</strong> Most PMC activities are classified, preventing oversight</li>
+              <li>• <strong>Corporate mobility:</strong> PMCs can relocate, rename, or dissolve to escape jurisdiction</li>
+              <li>• <strong>Political protection:</strong> PMCs serve state interests — governments protect them</li>
+              <li>• <strong>Weak local courts:</strong> PMCs operate in failed states with dysfunctional judicial systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* The Future of Private Warfare */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Future of Private Warfare: Autonomous Weapons and Corporate Armies
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The PMC industry is evolving rapidly. Artificial intelligence, autonomous weapons, cyber capabilities, and space-based assets are transforming private military contractors from supplemental forces into independent military powers. The implications are staggering.
+        </p>
+        <div className="space-y-4">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Emerging Capabilities</h3>
+            <ul className="space-y-2 text-stone-600 text-sm">
+              <li>• <strong>Autonomous drones:</strong> Companies like Anduril develop AI-powered weapons systems sold directly to PMCs</li>
+              <li>• <strong>Cyber warfare:</strong> PMCs now offer "cyber mercenary" services — hacking, disinformation, and digital espionage</li>
+              <li>• <strong>Space assets:</strong> Private satellite networks provide PMCs with independent intelligence and communications</li>
+              <li>• <strong>Biometric surveillance:</strong> PMCs deploy facial recognition and tracking systems across conflict zones</li>
+              <li>• <strong>Private intelligence:</strong> Companies like Stratfor and Cambridge Analytica blur the line between intelligence and influence operations</li>
+            </ul>
+          </div>
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="font-bold text-red-900 mb-2">The Corporate Army Scenario</h3>
+            <p className="text-stone-700 text-sm mb-3">
+              Current trends point toward a future where major PMCs possess capabilities rivaling nation-states:
+            </p>
+            <ul className="space-y-1 text-stone-700 text-sm">
+              <li>• Independent satellite intelligence networks</li>
+              <li>• Autonomous weapons systems requiring no human operators</li>
+              <li>• Cyber capabilities to disrupt national infrastructure</li>
+              <li>• Global logistics networks for rapid deployment</li>
+              <li>• Captured regulatory systems preventing oversight</li>
+            </ul>
+            <p className="text-stone-700 text-sm mt-3">
+              <strong>The question:</strong> At what point does a "private military contractor" become a private army? At what point does a private army become a threat to the very governments that created it? Wagner already answered that question in June 2023.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Cross-References and Related Analysis */}
+      <div className="bg-stone-100 rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          Related Analysis: The Bigger Picture
+        </h2>
+        <p className="text-stone-700 mb-4">
+          Private military contractors are just one piece of the military-industrial complex that profits from perpetual war. Understanding the full scope requires examining the connections:
+        </p>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="space-y-2">
+            <h3 className="font-bold text-stone-900 mb-2">Technology &amp; Surveillance</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• <Link href="/analysis/silicon-valley-pentagon" className="text-red-600 hover:underline">Silicon Valley-Pentagon Fusion</Link> — How tech companies became defense contractors</li>
+              <li>• Project Maven and AI warfare development</li>
+              <li>• Palantir&apos;s intelligence integration platforms</li>
+              <li>• The militarization of big tech</li>
+            </ul>
+          </div>
+          <div className="space-y-2">
+            <h3 className="font-bold text-stone-900 mb-2">Economics &amp; Influence</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• <Link href="/analysis/israel-lobby" className="text-red-600 hover:underline">The Israel Lobby</Link> — $337B in aid driving private contractor demand</li>
+              <li>• <Link href="/analysis/sanctions-warfare" className="text-red-600 hover:underline">Sanctions Warfare</Link> — Economic coercion driving proxy conflicts</li>
+              <li>• <Link href="/analysis/ukraine-proxy" className="text-red-600 hover:underline">Ukraine Proxy War</Link> — $66.9B in aid flowing to contractors</li>
+            </ul>
+          </div>
+          <div className="space-y-2">
+            <h3 className="font-bold text-stone-900 mb-2">Current Conflicts</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• <Link href="/analysis/iran-day-by-day" className="text-red-600 hover:underline">Iran War Timeline</Link> — Private contractors in Operation Epic Fury</li>
+              <li>• <Link href="/analysis/iran-cost-per-second" className="text-red-600 hover:underline">Iran Cost Per Second</Link> — Real-time war profiteering</li>
+              <li>• <Link href="/conflicts/syria" className="text-red-600 hover:underline">Syria Conflict</Link> — Wagner vs. US contractors</li>
+            </ul>
+          </div>
+          <div className="space-y-2">
+            <h3 className="font-bold text-stone-900 mb-2">Historical Context</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• <Link href="/analysis/cost-per-life" className="text-red-600 hover:underline">Cost Per Life Analysis</Link> — Contractor deaths excluded from official counts</li>
+              <li>• <Link href="/conflicts/iraq" className="text-red-600 hover:underline">Iraq War</Link> — The birth of modern PMC industry</li>
+              <li>• <Link href="/conflicts/afghanistan" className="text-red-600 hover:underline">Afghanistan War</Link> — 20 years of contractor dependency</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -451,6 +773,18 @@ export default function PrivateArmiesPage() {
               of both worlds: government power with corporate greed and zero oversight.
             </p>
           </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-1">The Constitutional Threat</h3>
+            <p className="text-sm">
+              The Founders gave Congress — not the president — the power to "raise and support armies" for a reason. They understood that standing armies were a threat to liberty. Private armies are worse: they&apos;re standing armies without democratic control. When Prigozhin marched on Moscow, he proved that private military contractors can become threats to the very governments that create them. What happens when an American Erik Prince decides the contract isn&apos;t worth honoring?
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-1">The Path Back to Accountability</h3>
+            <p className="text-sm">
+              Real privatization would subject PMCs to market discipline: competition, liability, and consumer choice. Instead, they operate as monopolistic government contractors with legal immunity. The solution isn&apos;t more regulation — it&apos;s ending the use of private military contractors entirely. Bring military functions back under democratic control, subject to constitutional oversight, accountable to the people who pay for them and whose sons and daughters serve in them.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -479,18 +813,84 @@ export default function PrivateArmiesPage() {
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Sources &amp; Further Reading</h2>
-        <ul className="space-y-1 text-stone-600 text-sm">
-          <li>• Commission on Wartime Contracting in Iraq and Afghanistan, Final Report (2011)</li>
-          <li>• Jeremy Scahill, &quot;Blackwater: The Rise of the World&apos;s Most Powerful Mercenary Army&quot; (2007)</li>
-          <li>• Sean McFate, &quot;The Modern Mercenary: Private Armies and What They Mean for World Order&quot; (2014)</li>
-          <li>• Human Rights Watch, &quot;Massacre by the River: Killings in Moura, Mali&quot; (2022)</li>
-          <li>• UN Panel of Experts on the Central African Republic, Reports (2020-2024)</li>
-          <li>• Department of Labor, Defense Base Act case summary database</li>
-          <li>• Congressional Research Service, &quot;Department of Defense Contractor and Troop Levels in Iraq and Afghanistan&quot; (2020)</li>
-          <li>• Mueller Report, Vol. I — Seychelles meeting with Erik Prince</li>
-          <li>• Kathryn Bolkovac, &quot;The Whistleblower: Sex Trafficking, Military Contractors, and One Woman&apos;s Fight for Justice&quot; (2011)</li>
-          <li>• Niccolò Machiavelli, &quot;The Prince&quot; — Chapter XII: On Mercenary Forces (1532)</li>
-        </ul>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">Government Reports &amp; Documents</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Commission on Wartime Contracting in Iraq and Afghanistan, Final Report (2011)</li>
+              <li>• Congressional Research Service, "Department of Defense Contractor and Troop Levels in Iraq and Afghanistan" (2020)</li>
+              <li>• Department of Labor, Defense Base Act case summary database</li>
+              <li>• Mueller Report, Vol. I — Seychelles meeting with Erik Prince</li>
+              <li>• Pentagon Inspector General reports on contractor oversight (2003-2023)</li>
+              <li>• State Department Inspector General Report on DynCorp contracts</li>
+              <li>• Senate Armed Services Committee hearings on contractor accountability</li>
+              <li>• GAO Reports: "Military Operations: Background Briefing on the Results of Operations in Iraq" (multiple years)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">International Organizations</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Human Rights Watch, "Massacre by the River: Killings in Moura, Mali" (2022)</li>
+              <li>• UN Panel of Experts on the Central African Republic, Reports (2020-2024)</li>
+              <li>• UN Working Group on Mercenaries, Annual Reports (2005-2024)</li>
+              <li>• International Committee of the Red Cross, "The Montreux Document" (2008)</li>
+              <li>• Amnesty International, "Lives in the Balance: The Human Cost of Private Military Contractors" (2023)</li>
+              <li>• Transparency International, "Defense Companies Anti-Corruption Index" (2020, 2023)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">Academic &amp; Analytical Works</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Jeremy Scahill, "Blackwater: The Rise of the World's Most Powerful Mercenary Army" (2007)</li>
+              <li>• Sean McFate, "The Modern Mercenary: Private Armies and What They Mean for World Order" (2014)</li>
+              <li>• Peter Singer, "Corporate Warriors: The Rise of the Privatized Military Industry" (2003)</li>
+              <li>• Sarah Percy, "Mercenaries: The History of a Norm in International Relations" (2007)</li>
+              <li>• Christopher Kinsey, "Corporate Soldiers and International Security" (2006)</li>
+              <li>• Deborah Avant, "The Market for Force: The Consequences of Privatizing Security" (2005)</li>
+              <li>• Allison Stanger, "One Nation Under Contract: The Outsourcing of American Power" (2009)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">Investigative Reporting &amp; Memoirs</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Kathryn Bolkovac, "The Whistleblower: Sex Trafficking, Military Contractors" (2011)</li>
+              <li>• Robert Young Pelton, "Licensed to Kill: Hired Guns in the War on Terror" (2006)</li>
+              <li>• Suzanne Simons, "Master of War: Blackwater USA's Erik Prince" (2009)</li>
+              <li>• Washington Post, "Afghanistan Papers" investigation (2019)</li>
+              <li>• ProPublica investigations into contractor fraud (2010-2023)</li>
+              <li>• The Intercept, Wagner Group investigations (2019-2023)</li>
+              <li>• Financial Times, "Wagner's Web" investigation series (2023)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">Historical &amp; Theoretical Sources</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Niccolò Machiavelli, "The Prince" — Chapter XII: On Mercenary Forces (1532)</li>
+              <li>• Max Weber, "Politics as a Vocation" — on the state monopoly of violence (1919)</li>
+              <li>• Geneva Conventions and Additional Protocols (1949, 1977)</li>
+              <li>• International Convention against Recruitment of Mercenaries (1989)</li>
+              <li>• OECD Guidelines for Multinational Enterprises (2011 revision)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-stone-900 mb-2">Industry &amp; Financial Data</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Stockholm International Peace Research Institute (SIPRI) Arms Industry Database</li>
+              <li>• Defense News Top 100 defense contractors rankings (annual)</li>
+              <li>• Global PMC market analysis by Grand View Research (2023)</li>
+              <li>• USAspending.gov contractor database</li>
+              <li>• Center for Responsive Politics, defense contractor political contributions</li>
+              <li>• Government Accountability Institute, "Profiles in Cronyism" (2021)</li>
+              <li>• Project on Government Oversight (POGO) contractor databases</li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-6 bg-amber-50 border border-amber-200 rounded-lg p-4">
+          <h3 className="font-bold text-stone-900 mb-2">Research Methodology Note</h3>
+          <p className="text-stone-700 text-sm">
+            This analysis draws on government documents, international organization reports, academic research, and investigative journalism. PMC operations are often classified or deliberately obscured, making comprehensive analysis challenging. We rely on multiple source verification and focus on documented incidents with reliable evidence. Contractor casualty figures come primarily from Department of Labor Defense Base Act databases, which may undercount actual deaths and injuries.
+          </p>
+        </div>
       </div>
 
       <div className="text-center text-stone-500 text-sm mt-8 mb-4">

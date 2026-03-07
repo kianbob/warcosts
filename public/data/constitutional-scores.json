@@ -1,0 +1,405 @@
+{
+  "conflicts": [
+    {
+      "name": "American Revolutionary War",
+      "slug": "revolutionary-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Pre-Constitution. Continental Congress authorized."
+    },
+    {
+      "name": "Quasi-War with France",
+      "slug": "quasi-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Never declared by Congress. Adams acted on executive authority."
+    },
+    {
+      "name": "First Barbary War",
+      "slug": "barbary-wars",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Congress authorized use of force (1802)."
+    },
+    {
+      "name": "War of 1812",
+      "slug": "war-of-1812",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Declared by Congress June 18, 1812."
+    },
+    {
+      "name": "Mexican-American War",
+      "slug": "mexican-american-war",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Declared by Congress May 13, 1846."
+    },
+    {
+      "name": "American Civil War",
+      "slug": "civil-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Lincoln acted on executive authority to suppress rebellion. Congress authorized military expansion."
+    },
+    {
+      "name": "Spanish-American War",
+      "slug": "spanish-american-war",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Declared by Congress April 25, 1898."
+    },
+    {
+      "name": "Philippine-American War",
+      "slug": "philippine-american-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "No congressional declaration. Executive action under McKinley."
+    },
+    {
+      "name": "World War I",
+      "slug": "world-war-i",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Declared by Congress April 6, 1917."
+    },
+    {
+      "name": "World War II",
+      "slug": "world-war-ii",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Declared by Congress December 8, 1941 (Japan), December 11, 1941 (Germany/Italy)."
+    },
+    {
+      "name": "Korean War",
+      "slug": "korean-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Never declared by Congress. Truman called it a \"police action\" under UN authority."
+    },
+    {
+      "name": "Iranian Coup (Operation Ajax)",
+      "slug": "iran-1953",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Covert CIA operation. No congressional knowledge."
+    },
+    {
+      "name": "Guatemalan Coup",
+      "slug": "guatemala-1954",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Covert CIA operation (Operation PBSUCCESS)."
+    },
+    {
+      "name": "Vietnam War",
+      "slug": "vietnam-war",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Gulf of Tonkin Resolution (1964) — later revealed to be based on fabricated intelligence. Never a formal declaration of war."
+    },
+    {
+      "name": "Bay of Pigs Invasion",
+      "slug": "bay-of-pigs",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Covert CIA operation. No congressional authorization or knowledge."
+    },
+    {
+      "name": "Dominican Republic Intervention",
+      "slug": "dominican-republic-1965",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Executive action by Johnson. No congressional authorization."
+    },
+    {
+      "name": "Chilean Coup Support",
+      "slug": "chile-1973",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Covert CIA operation. Nixon/Kissinger directive."
+    },
+    {
+      "name": "Invasion of Grenada",
+      "slug": "grenada",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Reagan invoked executive authority. UN General Assembly condemned invasion 108-9."
+    },
+    {
+      "name": "Invasion of Panama",
+      "slug": "panama",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Executive action by Bush. No congressional authorization."
+    },
+    {
+      "name": "Gulf War (Desert Storm)",
+      "slug": "gulf-war",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Congress authorized use of force January 12, 1991."
+    },
+    {
+      "name": "Somalia Intervention",
+      "slug": "somalia",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "UN peacekeeping mission. Executive action by Bush and Clinton."
+    },
+    {
+      "name": "Bosnia Intervention",
+      "slug": "bosnia",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "NATO authority. Clinton did not seek congressional authorization for bombing campaign."
+    },
+    {
+      "name": "Kosovo War (NATO Bombing)",
+      "slug": "kosovo",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "No congressional authorization. Clinton bypassed War Powers Resolution. Congress voted down authorization but also voted down defunding."
+    },
+    {
+      "name": "War in Afghanistan",
+      "slug": "afghanistan",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "AUMF passed September 14, 2001. Later used to justify operations in 22 countries."
+    },
+    {
+      "name": "Global War on Terror (Other Operations)",
+      "slug": "post-911-global",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "All conducted under the 2001 AUMF — a 60-word authorization written in 3 days that has been used to justify military operations in at least 22 countries."
+    },
+    {
+      "name": "Iraq War",
+      "slug": "iraq-war",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Authorization for Use of Military Force Against Iraq Resolution (2002). Based on false WMD intelligence."
+    },
+    {
+      "name": "Global Drone Campaign",
+      "slug": "drone-wars",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Justified under 2001 AUMF. No specific authorization for most target countries."
+    },
+    {
+      "name": "Somalia (AFRICOM Operations)",
+      "slug": "somalia-ongoing",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Conducted under 2001 AUMF — stretched to cover al-Shabaab despite no connection to 9/11."
+    },
+    {
+      "name": "Libya Intervention",
+      "slug": "libya",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Obama did not seek congressional authorization. Justified under NATO/UN authority. Exceeded 60-day War Powers Act limit."
+    },
+    {
+      "name": "Niger & Sahel Operations",
+      "slug": "niger-sahel",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Conducted under 2001 AUMF. Most Americans unaware US troops were in Niger until the 2017 ambush."
+    },
+    {
+      "name": "Syrian Civil War Intervention",
+      "slug": "syria",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Justified under 2001 AUMF — written to target al-Qaeda, applied to ISIS 13 years later."
+    },
+    {
+      "name": "War Against ISIS",
+      "slug": "isis-iraq-syria",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "Obama used 2001 AUMF (designed for 9/11 attackers) to justify war against ISIS — a group that didn't exist in 2001 and was actually fighting al-Qaeda."
+    },
+    {
+      "name": "Yemen War (Saudi Support)",
+      "slug": "yemen",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "No congressional authorization. Congress voted to end support in 2019; Trump vetoed. Biden pledged to end but continued."
+    },
+    {
+      "name": "Ukraine Military Support",
+      "slug": "ukraine-support",
+      "score": 60,
+      "congressionalAuth": true,
+      "authDetail": "Congress approved multiple supplemental funding packages. Bipartisan support initially; grew contentious by 2024."
+    },
+    {
+      "name": "Red Sea / Houthi Campaign",
+      "slug": "red-sea-houthis",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "No congressional authorization. Biden administration cited Article II self-defense authority. Bipartisan criticism from both parties."
+    },
+    {
+      "name": "Iran War (2026)",
+      "slug": "iran-2026",
+      "score": 30,
+      "congressionalAuth": false,
+      "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation."
+    }
+  ],
+  "presidents": [
+    {
+      "name": "Washington",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Adams",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Jefferson",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Madison",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Polk",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Lincoln",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "McKinley",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Roosevelt",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Wilson",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Truman",
+      "averageScore": 45,
+      "totalConflicts": 2,
+      "declared": 1,
+      "undeclared": 1
+    },
+    {
+      "name": "Eisenhower",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Kennedy",
+      "averageScore": 30,
+      "totalConflicts": 1,
+      "declared": 0,
+      "undeclared": 1
+    },
+    {
+      "name": "Johnson",
+      "averageScore": 30,
+      "totalConflicts": 1,
+      "declared": 0,
+      "undeclared": 1
+    },
+    {
+      "name": "Nixon",
+      "averageScore": 30,
+      "totalConflicts": 1,
+      "declared": 0,
+      "undeclared": 1
+    },
+    {
+      "name": "Reagan",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Bush Sr.",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Clinton",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Obama",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Bush Jr.",
+      "averageScore": 60,
+      "totalConflicts": 1,
+      "declared": 1,
+      "undeclared": 0
+    },
+    {
+      "name": "Biden",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    },
+    {
+      "name": "Trump",
+      "averageScore": 0,
+      "totalConflicts": 0,
+      "declared": 0,
+      "undeclared": 0
+    }
+  ]
+}

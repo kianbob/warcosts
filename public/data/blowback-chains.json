@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Iran Chain",
+    "description": "1953 coup → 1979 revolution → Iran-Iraq War → 2026 war",
+    "nodes": [
+      {
+        "year": 1953,
+        "event": "CIA overthrows democratically elected Mossadegh",
+        "conflictId": "iran-coup-1953",
+        "consequence": "Installs Shah, builds secret police SAVAK"
+      },
+      {
+        "year": 1979,
+        "event": "Iranian Revolution overthrows US-backed Shah",
+        "conflictId": null,
+        "consequence": "Anti-American theocracy takes power"
+      },
+      {
+        "year": 1980,
+        "event": "Iran-Iraq War begins",
+        "conflictId": "iran-iraq-war",
+        "consequence": "US arms both sides, 1M+ die"
+      },
+      {
+        "year": 2026,
+        "event": "US-Iran War",
+        "conflictId": "iran-war",
+        "consequence": "Predicted escalation from decades of hostility"
+      }
+    ]
+  },
+  {
+    "name": "Afghanistan Chain",
+    "description": "1980s CIA funding → Taliban → 9/11 → 20-year war → Taliban takeover",
+    "nodes": [
+      {
+        "year": 1979,
+        "event": "CIA arms Afghan mujahideen against Soviets",
+        "conflictId": "afghanistan-soviet",
+        "consequence": "$3B+ creates international jihadist network"
+      },
+      {
+        "year": 1996,
+        "event": "Taliban emerges from CIA-funded fighters",
+        "conflictId": null,
+        "consequence": "Provides safe haven for Al Qaeda"
+      },
+      {
+        "year": 2001,
+        "event": "September 11 attacks",
+        "conflictId": null,
+        "consequence": "3,000 Americans killed by CIA's former assets"
+      },
+      {
+        "year": 2001,
+        "event": "US invades Afghanistan",
+        "conflictId": "afghanistan",
+        "consequence": "20-year war, $2.3T spent, 175K+ dead"
+      },
+      {
+        "year": 2021,
+        "event": "Taliban retakes Afghanistan",
+        "conflictId": null,
+        "consequence": "Back to square one after 20 years"
+      }
+    ]
+  },
+  {
+    "name": "Iraq Chain",
+    "description": "Gulf War → sanctions → Iraq War → ISIS → regional chaos",
+    "nodes": [
+      {
+        "year": 1991,
+        "event": "Gulf War devastates Iraq infrastructure",
+        "conflictId": "gulf-war",
+        "consequence": "500K+ Iraqi children die from sanctions"
+      },
+      {
+        "year": 2003,
+        "event": "US invades Iraq based on WMD lies",
+        "conflictId": "iraq-war",
+        "consequence": "Destroys government, disbands army"
+      },
+      {
+        "year": 2006,
+        "event": "Iraqi civil war begins",
+        "conflictId": null,
+        "consequence": "Sectarian violence kills 100K+ civilians"
+      },
+      {
+        "year": 2014,
+        "event": "ISIS emerges from Iraqi chaos",
+        "conflictId": "isis",
+        "consequence": "Conquers territory size of Britain"
+      },
+      {
+        "year": 2020,
+        "event": "Regional proxy wars continue",
+        "conflictId": null,
+        "consequence": "Syria, Yemen devastated, millions refugees"
+      }
+    ]
+  },
+  {
+    "name": "Libya Chain",
+    "description": "2011 intervention → failed state → weapons to ISIS/Sahel",
+    "nodes": [
+      {
+        "year": 2011,
+        "event": "NATO bombs Libya for 'humanitarian intervention'",
+        "conflictId": "libya-intervention",
+        "consequence": "Gaddafi killed, government collapses"
+      },
+      {
+        "year": 2012,
+        "event": "Benghazi attack kills US ambassador",
+        "conflictId": null,
+        "consequence": "Libya becomes failed state with multiple governments"
+      },
+      {
+        "year": 2014,
+        "event": "Libyan weapons flow to ISIS and African groups",
+        "conflictId": null,
+        "consequence": "Arms bazaar destabilizes entire Sahel region"
+      },
+      {
+        "year": 2020,
+        "event": "Sahel coups cascade across Africa",
+        "conflictId": null,
+        "consequence": "Mali, Burkina Faso, Niger reject Western presence"
+      }
+    ]
+  },
+  {
+    "name": "Guatemala Chain",
+    "description": "1954 CIA coup → 36-year civil war → 200K dead",
+    "nodes": [
+      {
+        "year": 1954,
+        "event": "CIA overthrows democratically elected Árbenz",
+        "conflictId": "guatemala-coup",
+        "consequence": "Protects United Fruit Company's land"
+      },
+      {
+        "year": 1960,
+        "event": "Guatemalan Civil War begins",
+        "conflictId": "guatemala-civil-war",
+        "consequence": "36-year conflict starts"
+      },
+      {
+        "year": 1996,
+        "event": "Civil war ends",
+        "conflictId": null,
+        "consequence": "200,000 dead, 83% indigenous Maya"
+      },
+      {
+        "year": 2024,
+        "event": "Migrants flee generational poverty",
+        "conflictId": null,
+        "consequence": "Legacy of violence drives Central American migration"
+      }
+    ]
+  },
+  {
+    "name": "Chile Chain",
+    "description": "1973 CIA coup → Pinochet → 40K tortured",
+    "nodes": [
+      {
+        "year": 1973,
+        "event": "CIA helps overthrow democratically elected Allende",
+        "conflictId": "chile-coup",
+        "consequence": "General Pinochet takes power"
+      },
+      {
+        "year": 1974,
+        "event": "Pinochet begins Operation Condor",
+        "conflictId": null,
+        "consequence": "Cross-border assassination program"
+      },
+      {
+        "year": 1990,
+        "event": "Pinochet leaves power",
+        "conflictId": null,
+        "consequence": "40,000+ tortured, 3,200+ killed/disappeared"
+      },
+      {
+        "year": 2006,
+        "event": "Pinochet dies, never prosecuted",
+        "conflictId": null,
+        "consequence": "US blocks international justice for decades"
+      }
+    ]
+  },
+  {
+    "name": "Vietnam Chain",
+    "description": "Domino theory → 20-year war → 58K dead → dominoes didn't fall",
+    "nodes": [
+      {
+        "year": 1954,
+        "event": "US backs South Vietnam after French defeat",
+        "conflictId": "vietnam-war",
+        "consequence": "Domino theory: stop communism spreading"
+      },
+      {
+        "year": 1964,
+        "event": "Gulf of Tonkin lie escalates war",
+        "conflictId": "vietnam-war",
+        "consequence": "False flag attack justifies massive escalation"
+      },
+      {
+        "year": 1975,
+        "event": "North Vietnam conquers South",
+        "conflictId": "vietnam-war",
+        "consequence": "58,220 Americans dead, 3.8M Vietnamese"
+      },
+      {
+        "year": 1976,
+        "event": "Dominoes don't fall",
+        "conflictId": null,
+        "consequence": "Thailand, Malaysia, Singapore remain capitalist"
+      }
+    ]
+  },
+  {
+    "name": "Somalia Chain",
+    "description": "1992 intervention → Black Hawk Down → Al-Shabaab → AFRICOM return",
+    "nodes": [
+      {
+        "year": 1992,
+        "event": "US humanitarian intervention in Somalia",
+        "conflictId": "somalia-intervention",
+        "consequence": "Mission creep leads to nation-building"
+      },
+      {
+        "year": 1993,
+        "event": "Black Hawk Down disaster",
+        "conflictId": "somalia-intervention",
+        "consequence": "18 Americans killed, hasty withdrawal"
+      },
+      {
+        "year": 2006,
+        "event": "Islamic Courts Union brings stability",
+        "conflictId": null,
+        "consequence": "US backs Ethiopian invasion to destroy it"
+      },
+      {
+        "year": 2007,
+        "event": "Al-Shabaab emerges from chaos",
+        "conflictId": null,
+        "consequence": "More radical than Islamic Courts"
+      },
+      {
+        "year": 2022,
+        "event": "AFRICOM returns with drone war",
+        "conflictId": "somalia-drone-war",
+        "consequence": "30 years later, back where we started"
+      }
+    ]
+  }
+]

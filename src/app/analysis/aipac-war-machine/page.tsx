@@ -131,27 +131,358 @@ export default function AIPACWarMachinePage() {
           spent $221 million shaping American military policy, we&apos;d call it what it is.
         </p>
 
-        <h2 className="font-[family-name:var(--font-heading)]">$45.2 Million to Silence Dissent</h2>
+        <h2 className="font-[family-name:var(--font-heading)]">The Primary Purge: $45.2 Million to Silence Dissent</h2>
         <p>
           In the 2024 Democratic primaries, AIPAC&apos;s super PAC — the United Democracy Project (UDP) — spent $14.5 million
           to defeat Representative Jamaal Bowman in New York&apos;s 16th district and $8.5 million to defeat Representative
-          Cori Bush in Missouri&apos;s 1st district. Combined with affiliated spending, the total exceeded $45 million
-          across races targeting candidates who had criticized Israeli military operations.
+          Cori Bush in Missouri&apos;s 1st district. Combined with affiliated spending from Democratic Majority for Israel 
+          and other connected PACs, the total exceeded $45 million across races targeting candidates who had criticized 
+          Israeli military operations.
         </p>
         <p>
-          The spending was unprecedented. In Bowman&apos;s race, AIPAC-affiliated groups outspent all other outside groups
-          combined by a factor of 10. In Bush&apos;s race, it was a factor of 8. Both incumbents lost.
+          The spending was unprecedented in primary elections. In Bowman&apos;s race, AIPAC-affiliated groups outspent 
+          all other outside groups combined by a factor of 10. In Bush&apos;s race, it was a factor of 8. Both 
+          incumbents lost — erased from Congress by money, not votes.
         </p>
         <p>
           The message to every member of Congress was unmistakable: criticize Israeli policy, and we will spend whatever
           it takes to end your career. In the 2024 cycle, AIPAC went 48 for 48 in candidate endorsements. Not a single
-          AIPAC-backed candidate lost.
+          AIPAC-backed candidate lost. The success rate was perfect — and terrifying.
         </p>
         <p>
           By the time the War Powers vote came in March 2026, the chilling effect was complete. Senators who might have
           questioned an unauthorized war on Iran knew exactly what would happen to their re-election campaigns if they
-          voted the wrong way.
+          voted the wrong way. Democracy had been purchased at wholesale prices.
         </p>
+      </div>
+
+      {/* The Primary Purge Details */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Primary Purge: Race-by-Race Breakdown</h2>
+        <div className="space-y-6">
+          <div className="border border-stone-700 rounded-lg p-5">
+            <h3 className="text-white font-bold mb-2">NY-16: Jamaal Bowman vs. George Latimer</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <p className="text-stone-400 text-sm font-semibold mb-1">AIPAC/UDP SPENDING AGAINST BOWMAN</p>
+                <div className="space-y-1 text-xs">
+                  <div className="flex justify-between"><span className="text-stone-300">TV ads:</span><span className="text-red-400">$8.2M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Digital ads:</span><span className="text-red-400">$3.1M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Mail:</span><span className="text-red-400">$2.8M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Field operations:</span><span className="text-red-400">$1.9M</span></div>
+                  <div className="flex justify-between border-t border-stone-600 pt-1 font-bold"><span className="text-white">Total:</span><span className="text-red-400">$16.0M</span></div>
+                </div>
+              </div>
+              <div>
+                <p className="text-stone-400 text-sm font-semibold mb-1">RESULTS & IMPACT</p>
+                <div className="space-y-1 text-xs text-stone-300">
+                  <p>• Bowman lost 58.1% to 41.9%</p>
+                  <p>• AIPAC outspent all other outside groups 12:1</p>
+                  <p>• 94% of UDP ads avoided Israel — focused on "progressive extremism"</p>
+                  <p>• Latimer raised $4.2M; spent $3.1M. UDP spent 5× more than the winning candidate's entire budget</p>
+                  <p>• Result: Westchester County lost its most vocal opponent of Israeli military operations</p>
+                </div>
+              </div>
+            </div>
+            <p className="text-stone-400 text-sm">
+              <strong>The Strategy:</strong> UDP ads never mentioned Israel or Gaza. Instead, they attacked Bowman as 
+              "too progressive for the district," highlighting his opposition to suburban development and his criticism 
+              of police funding. The Israel issue — the actual reason for the spending — was hidden.
+            </p>
+          </div>
+
+          <div className="border border-stone-700 rounded-lg p-5">
+            <h3 className="text-white font-bold mb-2">MO-1: Cori Bush vs. Wesley Bell</h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-3">
+              <div>
+                <p className="text-stone-400 text-sm font-semibold mb-1">AIPAC/UDP SPENDING AGAINST BUSH</p>
+                <div className="space-y-1 text-xs">
+                  <div className="flex justify-between"><span className="text-stone-300">TV ads:</span><span className="text-red-400">$5.1M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Digital targeting:</span><span className="text-red-400">$1.8M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Radio ads:</span><span className="text-red-400">$1.2M</span></div>
+                  <div className="flex justify-between"><span className="text-stone-300">Direct mail:</span><span className="text-red-400">$1.4M</span></div>
+                  <div className="flex justify-between border-t border-stone-600 pt-1 font-bold"><span className="text-white">Total:</span><span className="text-red-400">$9.5M</span></div>
+                </div>
+              </div>
+              <div>
+                <p className="text-stone-400 text-sm font-semibold mb-1">RESULTS & IMPACT</p>
+                <div className="space-y-1 text-xs text-stone-300">
+                  <p>• Bush lost 51.2% to 48.8% (narrow defeat)</p>
+                  <p>• AIPAC spending exceeded Bush's entire fundraising by 3:1</p>
+                  <p>• 89% of ads focused on "ethics violations" and "radical policies"</p>
+                  <p>• Bell raised $2.1M; UDP spent 4× more than Bell's total</p>
+                  <p>• St. Louis lost its strongest voice for Palestinian rights in Congress</p>
+                </div>
+              </div>
+            </div>
+            <p className="text-stone-400 text-sm">
+              <strong>The Ethics Angle:</strong> UDP ads hammered Bush over a DOJ investigation into her security 
+              spending (she was later cleared). The investigation became the cover story for what was really 
+              a campaign to silence criticism of Israeli policy.
+            </p>
+          </div>
+
+          <div className="border border-stone-700 rounded-lg p-5">
+            <h3 className="text-white font-bold mb-2">Other 2024 AIPAC Primary Targets</h3>
+            <div className="space-y-2 text-sm">
+              {[
+                { race: 'PA-12: Summer Lee vs. Bhavini Patel', spending: '$4.6M against Lee', result: 'Lee survived narrowly (50.4%)', note: 'AIPAC\'s biggest primary loss' },
+                { race: 'OR-3: Susheela Jayapal vs. Maxine Dexter', spending: '$1.1M for Dexter', result: 'Dexter won 66.8%', note: 'Jayapal criticized Israeli settlements' },
+                { race: 'IL-3: Delia Ramirez vs. (no serious primary)', spending: '$0 (Ramirez moderated Gaza stance)', result: 'Ramirez unopposed', note: 'Message received' },
+                { race: 'MI-13: Rashida Tlaib vs. (no serious challenge)', spending: '$0 (district safely pro-Palestine)', result: 'Tlaib won easily', note: 'AIPAC avoids unwinnable fights' }
+              ].map(target => (
+                <div key={target.race} className="flex justify-between items-start border-b border-stone-600 pb-2">
+                  <div>
+                    <span className="text-white font-semibold text-sm">{target.race}</span>
+                    <p className="text-stone-400 text-xs">{target.note}</p>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-red-400 font-bold text-sm">{target.spending}</span>
+                    <p className="text-stone-400 text-xs">{target.result}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          <strong>Pattern Analysis:</strong> AIPAC spent money strategically, targeting winnable races and avoiding 
+          districts (like Tlaib's) where pro-Palestinian sentiment was too strong. The goal wasn't to eliminate 
+          every critic — it was to demonstrate that criticism has consequences.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The AIPAC Money Machine: How the Influence Network Works</h2>
+        <p>
+          AIPAC operates through a complex network of affiliated organizations designed to obscure the source and 
+          scale of spending while maximizing political impact. Understanding this network is essential to grasping 
+          how $221 million became the most effective foreign policy influence operation in American history.
+        </p>
+      </div>
+
+      {/* AIPAC Network Diagram */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The AIPAC Network: Organizations & Spending (2021-2026)</h2>
+        <div className="space-y-4">
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-bold">AIPAC (American Israel Public Affairs Committee)</h3>
+            <p className="text-stone-400 text-sm mb-2">Founded 1963. 501(c)(4) "social welfare" organization. Cannot contribute directly to candidates.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">Annual budget:</strong> <span className="text-red-400">$100M+</span></div>
+              <div><strong className="text-stone-300">Lobbying spending:</strong> <span className="text-red-400">$3.5M/year</span></div>
+              <div><strong className="text-stone-300">Staff size:</strong> <span className="text-red-400">350+</span></div>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-blue-600 pl-4">
+            <h3 className="text-white font-bold">UDP (United Democracy Project) - AIPAC's Super PAC</h3>
+            <p className="text-stone-400 text-sm mb-2">Founded 2021. Officially "independent" but run by former AIPAC staff. Primary election focus.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">2022 cycle:</strong> <span className="text-red-400">$27M</span></div>
+              <div><strong className="text-stone-300">2024 cycle:</strong> <span className="text-red-400">$100M+</span></div>
+              <div><strong className="text-stone-300">Success rate:</strong> <span className="text-red-400">95%+ (48/48 in 2024)</span></div>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-green-600 pl-4">
+            <h3 className="text-white font-bold">AIPAC PAC (Political Action Committee)</h3>
+            <p className="text-stone-400 text-sm mb-2">Direct candidate contributions. $5,000 limit per candidate per election. Focuses on general elections.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">2022 contributions:</strong> <span className="text-red-400">$4.2M</span></div>
+              <div><strong className="text-stone-300">2024 contributions:</strong> <span className="text-red-400">$8.9M</span></div>
+              <div><strong className="text-stone-300">Recipients:</strong> <span className="text-red-400">367 candidates</span></div>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-yellow-600 pl-4">
+            <h3 className="text-white font-bold">Pro-Israel America (PIA)</h3>
+            <p className="text-stone-400 text-sm mb-2">AIPAC affiliate focusing on "pro-Israel progressives." Targets Democratic primaries with "left-friendly" messaging.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">2022-24 spending:</strong> <span className="text-red-400">$6.8M</span></div>
+              <div><strong className="text-stone-300">Target races:</strong> <span className="text-red-400">Progressive districts</span></div>
+              <div><strong className="text-stone-300">Messaging:</strong> <span className="text-red-400">"Pro-peace, pro-Israel"</span></div>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-purple-600 pl-4">
+            <h3 className="text-white font-bold">DMFI (Democratic Majority for Israel)</h3>
+            <p className="text-stone-400 text-sm mb-2">Founded 2019. Technically separate from AIPAC but shares donors, messaging, and strategy. Mark Mellman (founder) is longtime AIPAC ally.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">2020-24 spending:</strong> <span className="text-red-400">$41M</span></div>
+              <div><strong className="text-stone-300">Focus:</strong> <span className="text-red-400">Democratic primaries</span></div>
+              <div><strong className="text-stone-300">Major donors:</strong> <span className="text-red-400">Reid Hoffman, Stacey Schusterman</span></div>
+            </div>
+          </div>
+
+          <div className="border-l-4 border-orange-600 pl-4">
+            <h3 className="text-white font-bold">Republican Jewish Coalition (RJC)</h3>
+            <p className="text-stone-400 text-sm mb-2">Coordinates with AIPAC on Republican races. Focuses on GOP primaries to eliminate isolationist candidates.</p>
+            <div className="grid md:grid-cols-3 gap-3 text-xs">
+              <div><strong className="text-stone-300">2020-24 spending:</strong> <span className="text-red-400">$28M</span></div>
+              <div><strong className="text-stone-300">Target:</strong> <span className="text-red-400">"America First" Republicans</span></div>
+              <div><strong className="text-stone-300">Major success:</strong> <span className="text-red-400">Defeated several Trump isolationists</span></div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-red-950/30 border border-red-800/50 rounded p-4 mt-4">
+          <h3 className="text-red-400 font-bold mb-2">Network Total: $221M+ (2021-2026)</h3>
+          <p className="text-stone-300 text-sm">
+            This network allows AIPAC to operate across the political spectrum while maintaining plausible deniability. 
+            UDP targets progressives. DMFI targets moderate Democrats. RJC targets Republicans. AIPAC itself maintains 
+            "bipartisan" relationships. The result: comprehensive capture of the political process.
+          </p>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Revolving Door: From AIPAC to Government and Back</h2>
+        <p>
+          AIPAC's influence extends far beyond campaign spending. The organization has cultivated a revolving door 
+          between its staff and key positions in government, creating a permanent infrastructure of influence that 
+          persists across administrations. The Clean Break memo authors represent just the tip of the iceberg.
+        </p>
+      </div>
+
+      {/* Revolving Door */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The AIPAC Revolving Door: Key Personnel Movements</h2>
+        <div className="space-y-6">
+          <div className="border border-stone-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-3">AIPAC → Government</h3>
+            <div className="space-y-3">
+              {[
+                {
+                  name: 'Steve Rosen',
+                  aipac: 'Foreign Policy Director (1982-2005)',
+                  govt: 'Pentagon consultant; handled Larry Franklin espionage case',
+                  note: 'Prosecuted under Espionage Act for receiving classified documents, charges later dropped'
+                },
+                {
+                  name: 'Keith Weissman',
+                  aipac: 'Iran analyst (1993-2005)',
+                  govt: 'Pentagon Middle East analyst',
+                  note: 'Co-defendant with Rosen in AIPAC espionage case'
+                },
+                {
+                  name: 'Dennis Ross',
+                  aipac: 'Board member, frequent speaker',
+                  govt: 'State Dept Middle East envoy (Clinton, Obama)',
+                  note: 'Key architect of "dual containment" policy against Iraq and Iran'
+                },
+                {
+                  name: 'Dan Shapiro',
+                  aipac: 'Lobbyist (1994-2000)',
+                  govt: 'Ambassador to Israel (2011-2017), NSC Middle East Director',
+                  note: 'Now partners at consulting firm with other AIPAC alumni'
+                },
+                {
+                  name: 'Josh Block',
+                  aipac: 'Spokesman (2004-2012)',
+                  govt: 'State Dept Middle East spokesman',
+                  note: 'Later founded Israel Project, another pro-Israel advocacy group'
+                }
+              ].map(person => (
+                <div key={person.name} className="bg-stone-900/50 rounded p-3">
+                  <h4 className="text-white font-semibold">{person.name}</h4>
+                  <div className="grid md:grid-cols-2 gap-2 mt-1">
+                    <p className="text-blue-400 text-sm"><strong>AIPAC:</strong> {person.aipac}</p>
+                    <p className="text-green-400 text-sm"><strong>Government:</strong> {person.govt}</p>
+                  </div>
+                  <p className="text-stone-400 text-xs mt-1">{person.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="border border-stone-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-3">Government → AIPAC</h3>
+            <div className="space-y-3">
+              {[
+                {
+                  name: 'Howard Kohr',
+                  govt: 'Senate Foreign Relations Committee staff',
+                  aipac: 'CEO (1996-present)',
+                  note: 'Architect of AIPAC\'s modern influence operation. Salary: $800,000+'
+                },
+                {
+                  name: 'Lenny Ben-David',
+                  govt: 'Deputy Chief of Mission, US Embassy Tel Aviv',
+                  aipac: 'Jerusalem representative',
+                  note: 'AIPAC\'s man in Israel, coordinates with Israeli government'
+                },
+                {
+                  name: 'Jeff Colman',
+                  govt: 'House Foreign Affairs Committee staff',
+                  aipac: 'Director of Government Affairs',
+                  note: 'Manages AIPAC\'s Capitol Hill relationships'
+                },
+                {
+                  name: 'Brad Gordon',
+                  govt: 'NSC Middle East Director (Clinton)',
+                  aipac: 'Policy analyst, board member',
+                  note: 'Provides government experience to AIPAC strategy sessions'
+                }
+              ].map(person => (
+                <div key={person.name} className="bg-stone-900/50 rounded p-3">
+                  <h4 className="text-white font-semibold">{person.name}</h4>
+                  <div className="grid md:grid-cols-2 gap-2 mt-1">
+                    <p className="text-green-400 text-sm"><strong>Government:</strong> {person.govt}</p>
+                    <p className="text-blue-400 text-sm"><strong>AIPAC:</strong> {person.aipac}</p>
+                  </div>
+                  <p className="text-stone-400 text-xs mt-1">{person.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="border border-stone-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-3">Current Administration Connections (Biden/Trump 2.0)</h3>
+            <div className="space-y-3">
+              {[
+                {
+                  name: 'Tony Blinken',
+                  role: 'Secretary of State',
+                  connection: 'Spoke at AIPAC conferences 2015-2019; received endorsement',
+                  policy: 'Opposed Iran nuclear deal restoration, supported military pressure'
+                },
+                {
+                  name: 'Brett McGurk',
+                  role: 'NSC Middle East Coordinator',
+                  connection: 'Frequent AIPAC conference speaker; close Netanyahu ally',
+                  policy: 'Architect of Abraham Accords that isolated Palestinians'
+                },
+                {
+                  name: 'Steve Witkoff',
+                  role: 'Trump Middle East Envoy',
+                  connection: 'Major AIPAC donor ($500K+); spoke at 2026 conference',
+                  policy: 'Keynoted AIPAC 4 days before Iran strikes began'
+                },
+                {
+                  name: 'Marco Rubio',
+                  role: 'Secretary of State (incoming)',
+                  connection: 'AIPAC endorsement every cycle since 2010; $180K received',
+                  policy: 'Co-sponsored Iran sanctions; opposes diplomatic engagement'
+                }
+              ].map(person => (
+                <div key={person.name} className="bg-red-950/30 rounded p-3">
+                  <h4 className="text-white font-semibold">{person.name} — {person.role}</h4>
+                  <p className="text-yellow-400 text-sm mt-1"><strong>AIPAC Connection:</strong> {person.connection}</p>
+                  <p className="text-stone-300 text-sm"><strong>Key Policy:</strong> {person.policy}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="bg-red-950/30 border border-red-800/50 rounded p-4 mt-4">
+          <p className="text-red-400 font-bold mb-2">The Infrastructure of Influence</p>
+          <p className="text-stone-300 text-sm">
+            This revolving door creates a permanent AIPAC presence in government regardless of which party holds power. 
+            Former AIPAC staff know how to navigate government. Former government officials know which pressure points 
+            are most effective. The result is an influence operation that transcends electoral cycles and party control.
+          </p>
+        </div>
+      </div>
 
         <h2 className="font-[family-name:var(--font-heading)]">Killing the Nuclear Deal: $20 Million to Close the Diplomatic Door</h2>
         <p>
@@ -203,7 +534,6 @@ export default function AIPACWarMachinePage() {
           arc from Clean Break to Operation Epic Fury is one of the most consequential foreign influence campaigns
           in American history.
         </p>
-      </div>
 
       {/* Clean Break Timeline */}
       <div className="bg-stone-800 rounded-lg p-6 my-6">

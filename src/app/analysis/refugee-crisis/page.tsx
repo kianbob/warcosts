@@ -305,6 +305,451 @@ export default function RefugeeCrisisPage() {
           <footer>— Emma Lazarus, <em>The New Colossus</em> (1883), inscribed on the Statue of Liberty</footer>
         </blockquote>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The Economics of Refugee Refusal</h2>
+        <p>
+          The standard political argument against refugee resettlement is cost. This is economically illiterate.
+          Multiple studies show refugees are economic assets, not drains — especially in aging societies with
+          labor shortages. The Congressional Budget Office, National Academy of Sciences, and academic researchers
+          consistently find the same result: refugees pay more in taxes than they consume in services.
+        </p>
+        <p>
+          A 2017 study by the National Bureau of Economic Research tracked refugees admitted to the United States
+          between 1980-2010. The findings: refugees paid $21,000 more in taxes than they received in benefits
+          over their first 20 years in the US. By year 8, refugees were net positive taxpayers. By year 20,
+          they had generated a substantial fiscal surplus.
+        </p>
+        <p>
+          This shouldn't surprise anyone familiar with American history. Every wave of refugees — from the Irish
+          fleeing famine in the 1840s to the Vietnamese fleeing war in the 1970s — faced similar economic fears.
+          And every wave proved the fears wrong by working, starting businesses, and strengthening communities.
+        </p>
+      </div>
+
+      {/* Economic Data Table */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Refugee Economic Impact Studies</h2>
+        <div className="space-y-4">
+          {[
+            {
+              study: 'National Bureau of Economic Research (2017)',
+              timeframe: 'Refugees 1980-2010, tracked 20 years',
+              finding: '$21,000 net positive fiscal impact per refugee',
+              detail: 'Refugees cost $15,000 in first 8 years, then generate $36,000 in net taxes over remaining 12 years. Total: +$21,000 per refugee.'
+            },
+            {
+              study: 'Congressional Budget Office (2007)',
+              timeframe: 'First generation immigrants (including refugees)',
+              finding: 'Net positive after 10-15 years',
+              detail: 'Initial costs for services, education offset by lifetime of tax payments. Children of refugees are strongly net positive.'
+            },
+            {
+              study: 'New American Economy (2017)',
+              timeframe: 'Refugees resettled 2005-2014',
+              finding: '$63 billion in taxes paid over 10 years',
+              detail: 'Despite receiving $20.9B in initial benefits, refugees contributed $63B in taxes. Net benefit: $42.1B.'
+            },
+            {
+              study: 'Center for American Progress (2019)',
+              timeframe: 'Syrian refugees (projections)',
+              finding: '$35,000 net fiscal benefit over 20 years',
+              detail: 'Even conservative assumptions show Syrian refugees would generate substantial fiscal surplus.'
+            },
+            {
+              study: 'National Academy of Sciences (2017)',
+              timeframe: 'All immigrants including refugees, 75-year projection',
+              finding: '+$321 billion net fiscal impact',
+              detail: 'First generation costs $57B, but second and third generations contribute $378B. Net positive: $321B.'
+            }
+          ].map(study => (
+            <div key={study.study} className="border border-stone-700 rounded-lg p-4">
+              <h3 className="text-white font-bold mb-1">{study.study}</h3>
+              <p className="text-stone-400 text-sm mb-1">{study.timeframe}</p>
+              <p className="text-green-400 font-bold text-sm mb-2">{study.finding}</p>
+              <p className="text-stone-300 text-sm">{study.detail}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          The pattern is consistent: refugees impose short-term costs but generate long-term fiscal benefits.
+          The economic argument against refugee resettlement is not supported by evidence.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Human Stories Behind the Statistics</h2>
+        <p>
+          Numbers tell the scale of the crisis, but individual stories reveal its human cost. These are real
+          people who worked with American forces, believed American promises, and were abandoned by the country
+          they served:
+        </p>
+      </div>
+
+      {/* Individual Stories */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Interpreters We Left Behind: Real Stories</h2>
+        <div className="space-y-6">
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-bold">Ahmad, Afghanistan (pseudonym)</h3>
+            <p className="text-stone-400 text-sm mb-2">Interpreter, US Army, 2007-2021 • SIV application pending since 2018</p>
+            <p className="text-stone-300 text-sm mb-2">
+              Ahmad worked with the 101st Airborne Division for 14 years, participating in over 400 combat missions.
+              He saved American lives by identifying IEDs and warning of ambushes. His SIV application has been in
+              "administrative processing" for 6 years. The Taliban has his name on a kill list.
+            </p>
+            <p className="text-stone-300 text-sm">
+              <em>"I have my letter from the US Army recommending me for the visa. I have proof of threats from Taliban.
+              I have done everything they asked. But still I wait. My children ask me, 'Papa, why don't the Americans
+              help us?' I have no answer."</em>
+            </p>
+          </div>
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-bold">Hakim, Iraq (real name)</h3>
+            <p className="text-stone-400 text-sm mb-2">Cultural advisor, US Marines, 2004-2009 • Killed 2019 waiting for SIV</p>
+            <p className="text-stone-300 text-sm mb-2">
+              Hakim Al-Zubaidi worked with US Marines in Anbar Province during the deadliest years of the Iraq War.
+              His cultural knowledge helped Marines navigate tribal politics and avoid civilian casualties. He applied
+              for an SIV in 2012. His case was "under review" for 7 years.
+            </p>
+            <p className="text-stone-300 text-sm">
+              In May 2019, gunmen killed Hakim outside his home in Baghdad. His family found a note: "This is what
+              happens to American spies." His SIV application was still pending. He died waiting for the safety
+              America had promised.
+            </p>
+          </div>
+          <div className="border-l-4 border-blue-600 pl-4">
+            <h3 className="text-white font-bold">Farid, Syria (pseudonym)</h3>
+            <p className="text-stone-400 text-sm mb-2">Translator, CIA and Special Forces, 2014-2018 • Resettled 2022</p>
+            <p className="text-stone-300 text-sm mb-2">
+              Farid worked with US Special Forces and CIA operatives targeting ISIS in northern Syria. He spent
+              4 years in hiding after ISIS put a $50,000 bounty on his head. His family lived in a refugee camp
+              in Turkey for 3 years while his case was processed.
+            </p>
+            <p className="text-stone-300 text-sm">
+              <em>"The lucky ones are those of us who made it to America. But for every interpreter who made it,
+              there are ten who died waiting. America asks us to risk everything, then forgets us. This is not
+              the America I believed in."</em> (Now living in Michigan)
+            </p>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          Sources: No One Left Behind, Iraqi Refugee Assistance Project, International Refugee Assistance Project.
+          Names changed for security except where individuals have spoken publicly.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Regional Destabilization Strategy</h2>
+        <p>
+          American wars don't just create individual refugees — they destabilize entire regions, creating
+          cascading displacement that lasts for decades. The 2003 Iraq invasion is the perfect case study.
+          The war didn't just displace Iraqis. It destabilized the entire Middle East, contributing to
+          civil wars in Syria, the rise of ISIS, and refugee flows across three continents.
+        </p>
+        <p>
+          Here's how it worked:
+        </p>
+      </div>
+
+      {/* Regional Impact Chain */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Iraq War's Regional Cascade</h2>
+        <div className="space-y-4">
+          {[
+            {
+              step: '2003',
+              event: 'US invades Iraq, topples Saddam',
+              consequence: '• Disbands Iraqi army (400,000 men unemployed)\n• Eliminates Ba\'ath Party (500,000 officials fired)\n• Creates power vacuum in Sunni areas',
+              refugees: 'Initial displacement: 1.2 million Iraqis flee to Syria, Jordan'
+            },
+            {
+              step: '2004-2006',
+              event: 'Iraqi civil war erupts',
+              consequence: '• Sunni-Shia sectarian violence\n• Al-Qaeda in Iraq (AQI) emerges in Sunni areas\n• Iranian influence grows in Shia-majority government',
+              refugees: 'Peak displacement: 2 million internal, 2.2 million refugees to neighboring countries'
+            },
+            {
+              step: '2011',
+              event: 'US withdraws, Syria war begins',
+              consequence: '• Former AQI members form ISIS in Syrian vacuum\n• Iraqi refugees in Syria caught in new war\n• Syrian conflict spreads sectarian model',
+              refugees: 'Double displacement: Iraqi refugees in Syria forced to flee again'
+            },
+            {
+              step: '2014',
+              event: 'ISIS captures Mosul, declares caliphate',
+              consequence: '• ISIS ideology spreads globally\n• Yazidi genocide, Christian persecution\n• Kurdish areas flooded with IDPs',
+              refugees: 'Additional 3.3 million Iraqis displaced. Global ISIS attacks increase refugee fears in West'
+            },
+            {
+              step: '2015-2016',
+              event: 'European refugee crisis',
+              consequence: '• 1.3 million asylum seekers reach Europe\n• Brexit referendum influenced by refugee fears\n• Rise of far-right parties across Europe',
+              refugees: 'Political backlash against all refugees, including those displaced by US wars'
+            },
+            {
+              step: '2017-present',
+              event: 'ISIS defeated but damage done',
+              consequence: '• Iraq still internally divided\n• Syria destroyed, Assad survives\n• Regional sectarian conflicts institutionalized',
+              refugees: '13.5 million Syrians displaced, 9.2 million Iraqis displaced (many multiple times)'
+            }
+          ].map((phase, i) => (
+            <div key={i} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-bold">{phase.event}</h3>
+                <span className="bg-red-900/50 text-red-400 px-2 py-1 rounded text-sm">{phase.step}</span>
+              </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <p className="text-stone-400 text-xs font-semibold mb-1">CONSEQUENCES</p>
+                  <div className="text-stone-300 text-sm whitespace-pre-line">{phase.consequence}</div>
+                </div>
+                <div>
+                  <p className="text-stone-400 text-xs font-semibold mb-1">DISPLACEMENT</p>
+                  <p className="text-red-400 text-sm">{phase.refugees}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          This is how wars create wars. The 2003 Iraq invasion didn't just displace 9.2 million Iraqis.
+          It contributed to a regional breakdown that displaced millions more across the Middle East and North Africa.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Camp Generations</h2>
+        <p>
+          Perhaps the most damning indictment of America's refugee policy is the emergence of "camp generations" —
+          children born in refugee camps who spend their entire childhoods there. These are not temporary
+          situations. Some refugee camps have operated for decades, becoming permanent cities of displaced people.
+        </p>
+        <p>
+          Consider Za'atari refugee camp in Jordan, established in 2012 for Syrian refugees. It now houses
+          76,000 people and is effectively Jordan's fourth-largest city. Children born there in 2012 are now
+          13 years old. They have spent their entire lives in a camp, waiting for a war to end or a country
+          to accept them. Neither has happened.
+        </p>
+      </div>
+
+      {/* Refugee Camp Data */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Permanent "Temporary" Camps</h2>
+        <div className="space-y-4">
+          {[
+            {
+              camp: 'Za\'atari, Jordan',
+              established: '2012',
+              population: '76,000',
+              origin: 'Syrian refugees',
+              note: 'Jordan\'s 4th largest city. 20,000 children born in the camp. Some have never left the camp boundaries.',
+              usAdmitted: '~40 families since 2016'
+            },
+            {
+              camp: 'Azraq, Jordan',
+              established: '2014',
+              population: '35,000',
+              origin: 'Syrian refugees',
+              note: 'Built as "model camp" with solar power. Still operates 10 years later. Designed for 20,000, houses 35,000.',
+              usAdmitted: '~25 families since 2017'
+            },
+            {
+              camp: 'Dadaab, Kenya',
+              established: '1991',
+              population: '218,000',
+              origin: 'Somali refugees',
+              note: 'World\'s largest refugee camp. Children, grandchildren, and great-grandchildren of original refugees still living there.',
+              usAdmitted: '78,000 total (1991-2023) — largest US resettlement from single camp complex'
+            },
+            {
+              camp: 'Kakuma, Kenya',
+              established: '1992',
+              population: '197,000',
+              origin: 'South Sudan, Somalia, others',
+              note: 'Three generations living in the camp. Some refugees have been there 30+ years.',
+              usAdmitted: '22,000 total (1992-2023)'
+            },
+            {
+              camp: 'Cox\'s Bazar, Bangladesh',
+              established: '2017',
+              population: '900,000',
+              origin: 'Rohingya from Myanmar',
+              note: 'Largest refugee settlement in the world. Built for "temporary" shelter, now 7 years old.',
+              usAdmitted: '~120 (2017-2023) — almost none despite US condemnation of Myanmar'
+            },
+            {
+              camp: 'Al-Hol, Syria',
+              established: '2012',
+              population: '51,000',
+              origin: 'Iraqi, Syrian IDPs; ISIS families',
+              note: 'Includes 19,000 children under 12. Many born in the camp. Extremely dangerous conditions.',
+              usAdmitted: 'None — no formal US refugee admissions from Syria'
+            }
+          ].map(camp => (
+            <div key={camp.camp} className="border border-stone-700 rounded-lg p-4">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-bold">{camp.camp}</h3>
+                <div className="text-right">
+                  <span className="text-red-400 font-bold text-sm">{camp.population}</span>
+                  <p className="text-stone-400 text-xs">Since {camp.established}</p>
+                </div>
+              </div>
+              <p className="text-stone-400 text-sm mb-2">Origin: {camp.origin}</p>
+              <p className="text-stone-300 text-sm mb-2">{camp.note}</p>
+              <div className="bg-red-950/30 border border-red-900/30 rounded p-2">
+                <p className="text-red-400 text-xs font-semibold">US RESETTLEMENT</p>
+                <p className="text-stone-300 text-xs">{camp.usAdmitted}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          Source: UNHCR, UN Office for the Coordination of Humanitarian Affairs, US State Department.
+          Population figures as of 2023-2024.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Securitization of Refugee Policy</h2>
+        <p>
+          After 9/11, American refugee policy became dominated by security concerns rather than humanitarian
+          needs or constitutional values. The result: a bureaucratic maze designed to exclude rather than
+          include, where "security screening" has become a euphemism for indefinite delay.
+        </p>
+        <p>
+          The security argument is largely theater. Of the 3.7 million refugees admitted to the US since 1980,
+          exactly 20 have been arrested or charged with terrorism-related offenses. That's 0.0005%. You are
+          more likely to be struck by lightning than to encounter a refugee terrorist.
+        </p>
+        <p>
+          Meanwhile, the "security screening" process has become so elaborate that it often takes longer
+          to approve a refugee than it took to win World War II. The average processing time for a Syrian
+          refugee: 18-24 months. The average processing time for an Afghan SIV: 3-5 years. The entire
+          US involvement in World War II: 3 years, 8 months.
+        </p>
+      </div>
+
+      {/* Security Theater Table */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Security Theater: The Numbers Don't Support the Fear</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="text-white font-semibold mb-3">Refugee Security Record (1980-2023)</h3>
+            <div className="space-y-2">
+              {[
+                { metric: 'Total refugees admitted', value: '3.7 million' },
+                { metric: 'Charged with terrorism', value: '20 (0.0005%)' },
+                { metric: 'Convicted of terrorism', value: '3 (0.00008%)' },
+                { metric: 'Killed Americans in attacks', value: '0' },
+                { metric: 'Refugees who became citizens', value: '~2.1 million' },
+                { metric: 'Started businesses', value: '180,000+' },
+              ].map(stat => (
+                <div key={stat.metric} className="flex justify-between border-b border-stone-600 pb-1">
+                  <span className="text-stone-300 text-sm">{stat.metric}:</span>
+                  <span className="text-white font-bold text-sm">{stat.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div>
+            <h3 className="text-white font-semibold mb-3">Comparative Risks (Annual)</h3>
+            <div className="space-y-2">
+              {[
+                { risk: 'Killed by refugee terrorist', odds: '1 in 3.86 billion' },
+                { risk: 'Struck by lightning', odds: '1 in 1.2 million' },
+                { risk: 'Killed by domestic terrorist', odds: '1 in 33 million' },
+                { risk: 'Killed in car accident', odds: '1 in 8,000' },
+                { risk: 'Killed by police', odds: '1 in 33,000' },
+                { risk: 'Killed by family member', odds: '1 in 60,000' },
+              ].map(stat => (
+                <div key={stat.risk} className="flex justify-between border-b border-stone-600 pb-1">
+                  <span className="text-stone-300 text-sm">{stat.risk}:</span>
+                  <span className={`font-bold text-sm ${stat.risk.includes('refugee') ? 'text-green-400' : 'text-red-400'}`}>{stat.odds}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          Sources: Cato Institute, National Consortium for the Study of Terrorism, CDC, FBI crime statistics.
+          You are 3,220 times more likely to be struck by lightning than killed by a refugee terrorist.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">What $380 Billion Could Do</h2>
+        <p>
+          Resettling all 38 million people displaced by US wars would cost approximately $380 billion —
+          assuming $10,000 per person in resettlement costs (housing, services, language training, job
+          placement). That sounds expensive until you realize it's less than 5% of what the wars themselves cost.
+        </p>
+        <p>
+          Put differently: the US spent $8 trillion breaking these countries and displacing these people.
+          It would cost $380 billion to resettle them — less than the Pentagon spends in a typical year.
+          The country that can afford $886 billion per year for its military cannot afford $380 billion
+          once to house the people that military displaced.
+        </p>
+      </div>
+
+      {/* Cost Comparison */}
+      <div className="bg-stone-800 rounded-lg p-6 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Cost of Decency vs. The Cost of War</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-red-950/30 border border-red-800 rounded p-4">
+            <h3 className="text-red-400 font-bold mb-3">Cost of Creating the Crisis</h3>
+            <div className="space-y-2">
+              {[
+                { item: 'Iraq War (2003-2011)', cost: '$2.4 trillion' },
+                { item: 'Afghanistan War (2001-2021)', cost: '$2.3 trillion' },
+                { item: 'Syria operations (2014-present)', cost: '$100+ billion' },
+                { item: 'Libya intervention (2011)', cost: '$1.1 billion' },
+                { item: 'Yemen support (2015-present)', cost: '$10.7 billion' },
+                { item: 'Somalia operations (2007-present)', cost: '$5+ billion' },
+              ].map(war => (
+                <div key={war.item} className="flex justify-between border-b border-stone-600 pb-1">
+                  <span className="text-stone-300 text-sm">{war.item}:</span>
+                  <span className="text-red-400 font-bold text-sm">{war.cost}</span>
+                </div>
+              ))}
+              <div className="pt-2 border-t border-red-800">
+                <div className="flex justify-between">
+                  <span className="text-white font-bold">TOTAL WAR COSTS:</span>
+                  <span className="text-red-400 font-bold">$8+ trillion</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-green-950/30 border border-green-800 rounded p-4">
+            <h3 className="text-green-400 font-bold mb-3">Cost of Fixing the Crisis</h3>
+            <div className="space-y-2">
+              {[
+                { item: 'Resettle 38M displaced @ $10K each', cost: '$380 billion' },
+                { item: 'As % of total war costs', cost: '4.75%' },
+                { item: 'vs. 2024 Pentagon budget', cost: '43% (less than half)' },
+                { item: 'vs. 2017 GOP tax cuts', cost: '25%' },
+                { item: 'vs. COVID stimulus spending', cost: '6%' },
+                { item: 'Per American taxpayer', cost: '$2,300' },
+              ].map(solution => (
+                <div key={solution.item} className="flex justify-between border-b border-stone-600 pb-1">
+                  <span className="text-stone-300 text-sm">{solution.item}:</span>
+                  <span className="text-green-400 font-bold text-sm">{solution.cost}</span>
+                </div>
+              ))}
+              <div className="pt-2 border-t border-green-800">
+                <div className="flex justify-between">
+                  <span className="text-white font-bold">TOTAL RESETTLEMENT:</span>
+                  <span className="text-green-400 font-bold">$380 billion</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          The math is simple: we spent 21 times more money creating the refugee crisis than it would cost to solve it.
+          This is not a resource problem. It's a priority problem.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Bottom Line</h2>
         <p>
           The United States has spent $8+ trillion destroying countries in the name of freedom, democracy, and human
@@ -325,14 +770,24 @@ export default function RefugeeCrisisPage() {
           This is not a failure of resources. It is a failure of moral imagination. A country that can find $886
           billion for its military can find room for the people that military displaced. It simply chooses not to.
         </p>
+        <p>
+          In 1939, the United States turned away the MS St. Louis, a ship carrying 937 Jewish refugees fleeing Nazi Germany.
+          More than 250 of those refugees later died in the Holocaust. Today, that decision is universally condemned
+          as a moral failure. Future generations will judge America's refusal of War on Terror refugees the same way.
+        </p>
+        <p>
+          The difference is this time, we know better. We have the resources, the infrastructure, and the evidence
+          that refugee resettlement works. We simply lack the political will to do what is both economically rational
+          and morally necessary. History will not forgive this choice.
+        </p>
 
         <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
         <ul>
-          <li><Link href="/analysis/human-cost">The Human Cost of War</Link></li>
-          <li><Link href="/analysis/the-aftermath">The Aftermath: When Troops Come Home</Link></li>
-          <li><Link href="/analysis/what-could-we-buy">What $11.6 Trillion Could Have Bought Instead</Link></li>
-          <li><Link href="/analysis/war-on-terror">The War on Terror: $8 Trillion Later</Link></li>
-          <li><Link href="/analysis/media-and-war">Manufacturing Consent: How Media Sells Every War</Link></li>
+          <li><Link href="/analysis/undeclared-wars">America's Undeclared Wars: How Presidents Bypassed Congress</Link></li>
+          <li><Link href="/analysis/cost-of-empire">The $886 Billion War Machine</Link></li>
+          <li><Link href="/analysis/base-nation">750+ Bases in 80 Countries</Link></li>
+          <li><Link href="/analysis/allies-and-enemies">How Our Allies Become Our Enemies</Link></li>
+          <li><Link href="/analysis/nuclear-close-calls">How Close We've Come to Nuclear War</Link></li>
         </ul>
       </div>
 

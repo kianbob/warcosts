@@ -380,6 +380,389 @@ export default function WarEconomyPage() {
           infrastructure. You can&apos;t. But military spending? Rubber-stamped every year, often with increases beyond
           what the Pentagon even requests.
         </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Opportunity Cost: What $8 Trillion Could Have Built</h2>
+        <p>
+          The United States has spent over <strong>$8 trillion on post-9/11 wars</strong> according to Brown University&apos;s 
+          Costs of War Project. This figure includes direct spending, veteran care, homeland security increases, and 
+          interest on war debt. To understand the true cost of the war economy, we must ask: what could that $8 trillion 
+          have built instead?
+        </p>
+      </div>
+
+      {/* Opportunity Cost Analysis */}
+      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-4">What $8 Trillion Could Have Bought</h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="space-y-3">
+            <div>
+              <p className="text-white font-semibold">Universal Healthcare for 40 years</p>
+              <p className="text-stone-300 text-sm">Medicare for All estimated cost: $200B/year savings over current system</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">Eliminate all student debt 4.7 times over</p>
+              <p className="text-stone-300 text-sm">Total US student loan debt: $1.7 trillion (2024)</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">Replace every bridge in America</p>
+              <p className="text-stone-300 text-sm">ASCE estimates $164B needed for bridge repair nationwide</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">100% renewable electricity grid</p>
+              <p className="text-stone-300 text-sm">Berkeley Lab estimates $4.5T for complete grid transformation</p>
+            </div>
+          </div>
+          <div className="space-y-3">
+            <div>
+              <p className="text-white font-semibold">Free college for every American for 160 years</p>
+              <p className="text-stone-300 text-sm">Public college tuition: ~$50B annually for all students</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">High-speed rail connecting every major city</p>
+              <p className="text-stone-300 text-sm">National HSR network estimated cost: $500B-1T</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">End homelessness permanently</p>
+              <p className="text-stone-300 text-sm">HUD estimates $20B annually would end homelessness</p>
+            </div>
+            <div>
+              <p className="text-white font-semibold">NASA budget for 320 years</p>
+              <p className="text-stone-300 text-sm">2024 NASA budget: $25B</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4 italic">
+          These are not hypothetical investments — they are the actual opportunity cost of choosing war over development, 
+          destruction over construction, empire over infrastructure.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">Congressional Complicity: The Iron Triangle</h2>
+        <p>
+          Military spending persists not because of external threats, but because of what political scientists call 
+          the <strong>&ldquo;Iron Triangle&rdquo;</strong> — the mutually beneficial relationship between Congress, 
+          the Pentagon, and defense contractors. Each vertex of the triangle has something the others need, and all 
+          three have an incentive to increase spending regardless of strategic necessity.
+        </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Iron Triangle Explained</h3>
+          <div className="space-y-4">
+            <div>
+              <h4 className="font-semibold text-stone-800">Congress</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Provides:</strong> Funding through defense appropriations bills<br/>
+                <strong>Gets:</strong> Jobs in their districts, campaign contributions, revolving door opportunities<br/>
+                <strong>Incentive:</strong> Military spending = jobs = votes. Defense contractors spread production across multiple states/districts.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Pentagon</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Provides:</strong> Requirements, contracts, and revolving door jobs for congressional staff<br/>
+                <strong>Gets:</strong> Larger budgets, advanced weapons, institutional prestige<br/>
+                <strong>Incentive:</strong> Bigger threats = bigger budgets = more power and influence
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-stone-800">Defense Contractors</h4>
+              <p className="text-stone-700 text-sm">
+                <strong>Provides:</strong> Campaign contributions, lobbying, jobs for former officials<br/>
+                <strong>Gets:</strong> Multi-billion dollar contracts, often no-bid or cost-plus<br/>
+                <strong>Incentive:</strong> More spending = more contracts = more profit = higher stock prices
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p>
+          This system operates independently of strategic necessity. The F-35 fighter jet program has cost $1.7 trillion 
+          over its lifetime — more than the annual GDP of India — and the plane still doesn&apos;t work properly. It can&apos;t 
+          fly in lightning, its guns don&apos;t work, and it requires 45 hours of maintenance for every hour of flight. 
+          But it has suppliers in <strong>48 states</strong>, making it politically invincible.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Case Study: The F-35 Program</h2>
+        <p>
+          The F-35 Joint Strike Fighter is the perfect symbol of the war economy. Designed to replace multiple aircraft 
+          for the Air Force, Navy, and Marines, it has become the most expensive weapons program in history while failing 
+          to meet almost all of its performance requirements.
+        </p>
+      </div>
+
+      {/* F-35 Case Study */}
+      <div className="bg-stone-100 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">F-35: The $1.7 Trillion Failure</h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-red-800 mb-2">The Problems</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li>• 13 years behind original schedule</li>
+              <li>• 70% above original cost estimate</li>
+              <li>• Can&apos;t fly in lightning (grounded by weather)</li>
+              <li>• Gun doesn&apos;t work (software problems)</li>
+              <li>• 45 hours maintenance per flight hour</li>
+              <li>• Oxygen system failures causing pilot blackouts</li>
+              <li>• Software bugs make it vulnerable to cyber attacks</li>
+              <li>• Too heavy, slower than planes it&apos;s replacing</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-red-800 mb-2">Why It Can&apos;t Be Cancelled</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li>• Suppliers in 48 states (by design)</li>
+              <li>• 298,000 jobs across 1,800+ suppliers</li>
+              <li>• $15B+ in campaign contributions since 1990s</li>
+              <li>• Revolving door: 645 former Pentagon officials at Lockheed</li>
+              <li>• International partners locked in (UK, Italy, Netherlands, etc.)</li>
+              <li>• &ldquo;Too big to fail&rdquo; — cancellation would be political disaster</li>
+              <li>• Sunk cost fallacy: already spent $400B+</li>
+              <li>• No alternative aircraft in production</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-stone-700 text-sm mt-4">
+          <strong>The Result:</strong> A plane that doesn&apos;t work consuming resources that could have built 340 hospitals, 
+          funded 680,000 teachers for 10 years, or provided universal pre-K for every American child for 17 years. 
+          But it employs people in 48 states, so it&apos;s politically untouchable.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">International Comparisons: The Rest of the World</h2>
+        <p>
+          To understand how abnormal American military spending has become, we need international perspective. The US 
+          spends 3.5% of GDP on defense — higher than most NATO countries that face actual land borders with adversaries.
+        </p>
+      </div>
+
+      {/* International Comparisons */}
+      <div className="bg-stone-100 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Military Spending as % of GDP (2024)</h3>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div>
+            <h4 className="font-semibold text-stone-800 mb-2">High Military Spending</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li><strong>United States:</strong> 3.5%</li>
+              <li><strong>Saudi Arabia:</strong> 6.8%</li>
+              <li><strong>Israel:</strong> 5.3%</li>
+              <li><strong>Russia:</strong> 4.1%</li>
+              <li><strong>South Korea:</strong> 3.1%</li>
+              <li><strong>Greece:</strong> 2.9%</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-stone-800 mb-2">NATO Allies</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li><strong>Poland:</strong> 3.9%</li>
+              <li><strong>UK:</strong> 2.3%</li>
+              <li><strong>France:</strong> 2.0%</li>
+              <li><strong>Germany:</strong> 1.6%</li>
+              <li><strong>Italy:</strong> 1.5%</li>
+              <li><strong>Spain:</strong> 1.3%</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-stone-800 mb-2">Prosperous Democracies</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li><strong>Japan:</strong> 1.1%</li>
+              <li><strong>Canada:</strong> 1.3%</li>
+              <li><strong>Australia:</strong> 2.1%</li>
+              <li><strong>Sweden:</strong> 1.3%</li>
+              <li><strong>Denmark:</strong> 1.6%</li>
+              <li><strong>Switzerland:</strong> 0.7%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <p>
+          Countries like Germany, Japan, and Switzerland spend 1-2% of GDP on defense and enjoy higher living standards, 
+          better infrastructure, universal healthcare, free or low-cost university education, and stronger social safety nets 
+          than the United States. They prove that high military spending is a choice, not a necessity.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The German Model: Butter Instead of Guns</h2>
+        <p>
+          Germany is the perfect counter-example to American military Keynesianism. Devastated by WWII, constitutionally 
+          prohibited from maintaining large military forces, and surrounded by potential enemies during the Cold War, 
+          Germany instead invested in civilian infrastructure, education, and manufacturing. The results speak for themselves.
+        </p>
+      </div>
+
+      {/* Germany vs US Comparison */}
+      <div className="bg-stone-100 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Germany vs. United States: Different Priorities</h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-stone-800 mb-2">United States</h4>
+            <ul className="text-stone-700 text-sm space-y-2">
+              <li><strong>Military spending:</strong> $886B (3.5% GDP)</li>
+              <li><strong>Infrastructure grade:</strong> C- (ASCE)</li>
+              <li><strong>Healthcare costs:</strong> 18% of GDP</li>
+              <li><strong>University tuition:</strong> $35K+/year average</li>
+              <li><strong>Paid maternity leave:</strong> 0 weeks (federal)</li>
+              <li><strong>High-speed rail:</strong> 375 miles operational</li>
+              <li><strong>Income inequality:</strong> 0.486 Gini coefficient</li>
+              <li><strong>Life expectancy:</strong> 76.4 years</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-stone-800 mb-2">Germany</h4>
+            <ul className="text-stone-700 text-sm space-y-2">
+              <li><strong>Military spending:</strong> $56B (1.6% GDP)</li>
+              <li><strong>Infrastructure:</strong> World-class roads, rail, broadband</li>
+              <li><strong>Healthcare costs:</strong> 11% of GDP</li>
+              <li><strong>University tuition:</strong> €0-350/semester</li>
+              <li><strong>Paid maternity leave:</strong> 14 weeks minimum</li>
+              <li><strong>High-speed rail:</strong> 1,658 miles operational</li>
+              <li><strong>Income inequality:</strong> 0.327 Gini coefficient</li>
+              <li><strong>Life expectancy:</strong> 80.9 years</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-stone-700 text-sm mt-4">
+          Germany spends 2% less of its GDP on military and gets better outcomes in almost every measure of social welfare. 
+          Their engineers build cars, trains, and renewable energy systems. Ours build weapons.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Regional Trap: Military Dependence by State</h2>
+        <p>
+          The war economy isn&apos;t distributed evenly across the United States. Some states and regions are far more 
+          dependent on military spending than others, creating powerful constituencies for continued war spending regardless 
+          of strategic necessity.
+        </p>
+      </div>
+
+      {/* State Dependencies */}
+      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-4">States Most Dependent on Defense Spending</h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">Virginia:</span> $86B annual defense spending (18.3% of state GDP)</p>
+              <p className="text-xs">Pentagon, Norfolk Naval Base, CIA, countless contractors</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Hawaii:</span> $14.7B annual (17.2% of state GDP)</p>
+              <p className="text-xs">Pacific Fleet HQ, multiple air bases, Pacific Command</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Alaska:</span> $8.4B annual (15.3% of state GDP)</p>
+              <p className="text-xs">Missile defense, Arctic operations, strategic location</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Maryland:</span> $40.2B annual (11.8% of state GDP)</p>
+              <p className="text-xs">NSA, Fort Meade, Aberdeen Proving Ground, contractors</p>
+            </div>
+          </div>
+          <div className="space-y-3 text-stone-300">
+            <div>
+              <p><span className="text-white font-bold">Connecticut:</span> $15.8B annual (6.2% of state GDP)</p>
+              <p className="text-xs">Electric Boat (submarines), Pratt &amp; Whitney (jets)</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Alabama:</span> $12.9B annual (5.8% of state GDP)</p>
+              <p className="text-xs">Redstone Arsenal, Boeing, Lockheed facilities</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">South Carolina:</span> $9.1B annual (4.1% of state GDP)</p>
+              <p className="text-xs">Boeing 787 factory, Marine Corps bases</p>
+            </div>
+            <div>
+              <p><span className="text-white font-bold">Texas:</span> $85.4B annual (3.8% of state GDP)</p>
+              <p className="text-xs">Massive size means huge absolute numbers despite lower %</p>
+            </div>
+          </div>
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          These dependencies explain why military spending cuts are politically impossible. Senators from these states 
+          aren&apos;t voting on national security — they&apos;re voting on their state&apos;s economic survival.
+        </p>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <h2 className="font-[family-name:var(--font-heading)]">The Human Cost: Defense Workers</h2>
+        <p>
+          Behind every statistic about military spending is a human being whose paycheck depends on the war economy. 
+          <strong>3.4 million Americans</strong> work directly for defense contractors. Millions more work in supporting 
+          industries. These are real people with real families who have built their lives around the assumption that 
+          America will continue spending nearly a trillion dollars a year on weapons.
+        </p>
+        <p>
+          The tragedy is that most of these workers are highly skilled engineers, machinists, and technicians who could 
+          build civilian infrastructure instead of weapons. But the economic transition would be wrenching. A Lockheed 
+          Martin engineer in Fort Worth building F-35s makes $120,000 per year. The nearest alternative job might be 
+          $80,000. The difference represents a family&apos;s mortgage, their children&apos;s college fund, their retirement 
+          security.
+        </p>
+        
+        <h2 className="font-[family-name:var(--font-heading)]">The Innovation Myth: Military vs. Civilian R&amp;D</h2>
+        <p>
+          The most persistent defense of military spending is the innovation argument: the Pentagon funds R&D that 
+          creates civilian technologies. This argument has some historical truth — the internet, GPS, and microprocessors 
+          all had military origins. But it ignores a crucial question: could civilian agencies have produced the same 
+          innovations more efficiently?
+        </p>
+      </div>
+
+      {/* R&D Comparison */}
+      <div className="bg-stone-100 rounded-lg p-6 my-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Military vs. Civilian Innovation</h3>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-red-800 mb-2">Military R&D Success Stories</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li>• Internet (ARPANET) → $4.9T digital economy</li>
+              <li>• GPS → $1.4T economic value</li>
+              <li>• Microchips → $580B semiconductor industry</li>
+              <li>• Jet engines → $878B commercial aviation</li>
+              <li>• Nuclear energy → 18% of US electricity</li>
+            </ul>
+            <p className="text-stone-600 text-xs mt-2">
+              But: these took decades to reach civilian use, often required additional civilian investment to commercialize
+            </p>
+          </div>
+          <div>
+            <h4 className="font-semibold text-red-800 mb-2">Civilian R&D Success Stories</h4>
+            <ul className="text-stone-700 text-sm space-y-1">
+              <li>• Penicillin (university research) → saved millions of lives</li>
+              <li>• mRNA vaccines (NIH/university) → ended COVID pandemic</li>
+              <li>• Solar panels (Bell Labs) → renewable energy revolution</li>
+              <li>• MRI (university research) → medical revolution</li>
+              <li>• World Wide Web (CERN) → transformed the internet</li>
+            </ul>
+            <p className="text-stone-600 text-xs mt-2">
+              These reached civilian use faster, cost less to develop, and created more immediate human benefit
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="prose prose-stone max-w-none">
+        <p>
+          The key difference is incentive structure. Military R&D optimizes for performance regardless of cost — because 
+          the Pentagon pays whatever contractors charge. Civilian R&D optimizes for cost-effectiveness and scalability — 
+          because civilian customers won&apos;t pay infinite prices. Military R&D creates $50,000 toilet seats. Civilian 
+          R&D creates $500 smartphones that are more powerful than 1990s supercomputers.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Environmental Cost</h2>
+        <p>
+          The war economy has massive environmental costs that never appear in Defense Department budgets. The US military 
+          is the world&apos;s largest institutional consumer of petroleum, burning through 4.6 billion gallons per year. 
+          That&apos;s more than entire countries like Sweden or Denmark consume.
+        </p>
+        <p>
+          Military spending also diverts resources from climate change mitigation. The $886 billion defense budget could 
+          fund a complete renewable energy transition. Instead, it funds weapons to fight wars that climate change makes 
+          more likely. The Pentagon acknowledges climate change as a &ldquo;threat multiplier&rdquo; that destabilizes 
+          regions and creates conflicts. The solution? More weapons to fight climate wars instead of preventing climate change.
+        </p>
         <p>
           This is the trap. The United States has built an economy that depends on military spending not because
           military spending is the best use of resources, but because it is the only form of large-scale government

@@ -1,0 +1,610 @@
+[
+  {
+    "year": 1949,
+    "total": 175907000000,
+    "perTaxpayer": 1173,
+    "perHousehold": 1343,
+    "perSecond": 5574,
+    "perDay": 481607118
+  },
+  {
+    "year": 1950,
+    "total": 189049000000,
+    "perTaxpayer": 1260,
+    "perHousehold": 1443,
+    "perSecond": 5991,
+    "perDay": 517587953
+  },
+  {
+    "year": 1951,
+    "total": 404493000000,
+    "perTaxpayer": 2697,
+    "perHousehold": 3088,
+    "perSecond": 12818,
+    "perDay": 1107441478
+  },
+  {
+    "year": 1952,
+    "total": 569793000000,
+    "perTaxpayer": 3799,
+    "perHousehold": 4350,
+    "perSecond": 18056,
+    "perDay": 1560008214
+  },
+  {
+    "year": 1953,
+    "total": 586649000000,
+    "perTaxpayer": 3911,
+    "perHousehold": 4478,
+    "perSecond": 18590,
+    "perDay": 1606157426
+  },
+  {
+    "year": 1954,
+    "total": 506171000000,
+    "perTaxpayer": 3374,
+    "perHousehold": 3864,
+    "perSecond": 16040,
+    "perDay": 1385820671
+  },
+  {
+    "year": 1955,
+    "total": 479136000000,
+    "perTaxpayer": 3194,
+    "perHousehold": 3658,
+    "perSecond": 15183,
+    "perDay": 1311802875
+  },
+  {
+    "year": 1956,
+    "total": 485405000000,
+    "perTaxpayer": 3236,
+    "perHousehold": 3705,
+    "perSecond": 15382,
+    "perDay": 1328966461
+  },
+  {
+    "year": 1957,
+    "total": 499255000000,
+    "perTaxpayer": 3328,
+    "perHousehold": 3811,
+    "perSecond": 15820,
+    "perDay": 1366885695
+  },
+  {
+    "year": 1958,
+    "total": 496294000000,
+    "perTaxpayer": 3309,
+    "perHousehold": 3789,
+    "perSecond": 15727,
+    "perDay": 1358778919
+  },
+  {
+    "year": 1959,
+    "total": 499770000000,
+    "perTaxpayer": 3332,
+    "perHousehold": 3815,
+    "perSecond": 15837,
+    "perDay": 1368295688
+  },
+  {
+    "year": 1960,
+    "total": 487469000000,
+    "perTaxpayer": 3250,
+    "perHousehold": 3721,
+    "perSecond": 15447,
+    "perDay": 1334617385
+  },
+  {
+    "year": 1961,
+    "total": 508088000000,
+    "perTaxpayer": 3387,
+    "perHousehold": 3879,
+    "perSecond": 16100,
+    "perDay": 1391069131
+  },
+  {
+    "year": 1962,
+    "total": 550544000000,
+    "perTaxpayer": 3670,
+    "perHousehold": 4203,
+    "perSecond": 17446,
+    "perDay": 1507307324
+  },
+  {
+    "year": 1963,
+    "total": 543047000000,
+    "perTaxpayer": 3620,
+    "perHousehold": 4145,
+    "perSecond": 17208,
+    "perDay": 1486781656
+  },
+  {
+    "year": 1964,
+    "total": 524941000000,
+    "perTaxpayer": 3500,
+    "perHousehold": 4007,
+    "perSecond": 16634,
+    "perDay": 1437210130
+  },
+  {
+    "year": 1965,
+    "total": 527240000000,
+    "perTaxpayer": 3515,
+    "perHousehold": 4025,
+    "perSecond": 16707,
+    "perDay": 1443504449
+  },
+  {
+    "year": 1966,
+    "total": 623403000000,
+    "perTaxpayer": 4156,
+    "perHousehold": 4759,
+    "perSecond": 19754,
+    "perDay": 1706784394
+  },
+  {
+    "year": 1967,
+    "total": 715710000000,
+    "perTaxpayer": 4771,
+    "perHousehold": 5463,
+    "perSecond": 22679,
+    "perDay": 1959507187
+  },
+  {
+    "year": 1968,
+    "total": 738696000000,
+    "perTaxpayer": 4925,
+    "perHousehold": 5639,
+    "perSecond": 23408,
+    "perDay": 2022439425
+  },
+  {
+    "year": 1969,
+    "total": 706246000000,
+    "perTaxpayer": 4708,
+    "perHousehold": 5391,
+    "perSecond": 22380,
+    "perDay": 1933596167
+  },
+  {
+    "year": 1970,
+    "total": 654513000000,
+    "perTaxpayer": 4363,
+    "perHousehold": 4996,
+    "perSecond": 20740,
+    "perDay": 1791958932
+  },
+  {
+    "year": 1971,
+    "total": 588883000000,
+    "perTaxpayer": 3926,
+    "perHousehold": 4495,
+    "perSecond": 18661,
+    "perDay": 1612273785
+  },
+  {
+    "year": 1972,
+    "total": 588036000000,
+    "perTaxpayer": 3920,
+    "perHousehold": 4489,
+    "perSecond": 18634,
+    "perDay": 1609954825
+  },
+  {
+    "year": 1973,
+    "total": 558825000000,
+    "perTaxpayer": 3726,
+    "perHousehold": 4266,
+    "perSecond": 17708,
+    "perDay": 1529979466
+  },
+  {
+    "year": 1974,
+    "total": 551528000000,
+    "perTaxpayer": 3677,
+    "perHousehold": 4210,
+    "perSecond": 17477,
+    "perDay": 1510001369
+  },
+  {
+    "year": 1975,
+    "total": 521239000000,
+    "perTaxpayer": 3475,
+    "perHousehold": 3979,
+    "perSecond": 16517,
+    "perDay": 1427074606
+  },
+  {
+    "year": 1976,
+    "total": 507060000000,
+    "perTaxpayer": 3380,
+    "perHousehold": 3871,
+    "perSecond": 16068,
+    "perDay": 1388254620
+  },
+  {
+    "year": 1977,
+    "total": 526197000000,
+    "perTaxpayer": 3508,
+    "perHousehold": 4017,
+    "perSecond": 16674,
+    "perDay": 1440648871
+  },
+  {
+    "year": 1978,
+    "total": 529525000000,
+    "perTaxpayer": 3530,
+    "perHousehold": 4042,
+    "perSecond": 16780,
+    "perDay": 1449760438
+  },
+  {
+    "year": 1979,
+    "total": 532564000000,
+    "perTaxpayer": 3550,
+    "perHousehold": 4065,
+    "perSecond": 16876,
+    "perDay": 1458080767
+  },
+  {
+    "year": 1980,
+    "total": 531335000000,
+    "perTaxpayer": 3542,
+    "perHousehold": 4056,
+    "perSecond": 16837,
+    "perDay": 1454715948
+  },
+  {
+    "year": 1981,
+    "total": 591835000000,
+    "perTaxpayer": 3946,
+    "perHousehold": 4518,
+    "perSecond": 18754,
+    "perDay": 1620355921
+  },
+  {
+    "year": 1982,
+    "total": 699941000000,
+    "perTaxpayer": 4666,
+    "perHousehold": 5343,
+    "perSecond": 22180,
+    "perDay": 1916334018
+  },
+  {
+    "year": 1983,
+    "total": 683520000000,
+    "perTaxpayer": 4557,
+    "perHousehold": 5218,
+    "perSecond": 21659,
+    "perDay": 1871375770
+  },
+  {
+    "year": 1984,
+    "total": 718935000000,
+    "perTaxpayer": 4793,
+    "perHousehold": 5488,
+    "perSecond": 22782,
+    "perDay": 1968336756
+  },
+  {
+    "year": 1985,
+    "total": 770712000000,
+    "perTaxpayer": 5138,
+    "perHousehold": 5883,
+    "perSecond": 24422,
+    "perDay": 2110094456
+  },
+  {
+    "year": 1986,
+    "total": 821655000000,
+    "perTaxpayer": 5478,
+    "perHousehold": 6272,
+    "perSecond": 26037,
+    "perDay": 2249568789
+  },
+  {
+    "year": 1987,
+    "total": 814913000000,
+    "perTaxpayer": 5433,
+    "perHousehold": 6221,
+    "perSecond": 25823,
+    "perDay": 2231110198
+  },
+  {
+    "year": 1988,
+    "total": 797866000000,
+    "perTaxpayer": 5319,
+    "perHousehold": 6091,
+    "perSecond": 25283,
+    "perDay": 2184438056
+  },
+  {
+    "year": 1989,
+    "total": 791126000000,
+    "perTaxpayer": 5274,
+    "perHousehold": 6039,
+    "perSecond": 25069,
+    "perDay": 2165984942
+  },
+  {
+    "year": 1990,
+    "total": 758217000000,
+    "perTaxpayer": 5055,
+    "perHousehold": 5788,
+    "perSecond": 24026,
+    "perDay": 2075885010
+  },
+  {
+    "year": 1991,
+    "total": 669787000000,
+    "perTaxpayer": 4465,
+    "perHousehold": 5113,
+    "perSecond": 21224,
+    "perDay": 1833776865
+  },
+  {
+    "year": 1992,
+    "total": 705820000000,
+    "perTaxpayer": 4705,
+    "perHousehold": 5388,
+    "perSecond": 22366,
+    "perDay": 1932429843
+  },
+  {
+    "year": 1993,
+    "total": 668047000000,
+    "perTaxpayer": 4454,
+    "perHousehold": 5100,
+    "perSecond": 21169,
+    "perDay": 1829013005
+  },
+  {
+    "year": 1994,
+    "total": 633319000000,
+    "perTaxpayer": 4222,
+    "perHousehold": 4834,
+    "perSecond": 20069,
+    "perDay": 1733932923
+  },
+  {
+    "year": 1995,
+    "total": 591580000000,
+    "perTaxpayer": 3944,
+    "perHousehold": 4516,
+    "perSecond": 18746,
+    "perDay": 1619657769
+  },
+  {
+    "year": 1996,
+    "total": 559401000000,
+    "perTaxpayer": 3729,
+    "perHousehold": 4270,
+    "perSecond": 17726,
+    "perDay": 1531556468
+  },
+  {
+    "year": 1997,
+    "total": 556507000000,
+    "perTaxpayer": 3710,
+    "perHousehold": 4248,
+    "perSecond": 17635,
+    "perDay": 1523633128
+  },
+  {
+    "year": 1998,
+    "total": 543941000000,
+    "perTaxpayer": 3626,
+    "perHousehold": 4152,
+    "perSecond": 17236,
+    "perDay": 1489229295
+  },
+  {
+    "year": 1999,
+    "total": 545280000000,
+    "perTaxpayer": 3635,
+    "perHousehold": 4162,
+    "perSecond": 17279,
+    "perDay": 1492895277
+  },
+  {
+    "year": 2000,
+    "total": 566381000000,
+    "perTaxpayer": 3776,
+    "perHousehold": 4324,
+    "perSecond": 17948,
+    "perDay": 1550666667
+  },
+  {
+    "year": 2001,
+    "total": 570981000000,
+    "perTaxpayer": 3807,
+    "perHousehold": 4359,
+    "perSecond": 18093,
+    "perDay": 1563260780
+  },
+  {
+    "year": 2002,
+    "total": 641103000000,
+    "perTaxpayer": 4274,
+    "perHousehold": 4894,
+    "perSecond": 20315,
+    "perDay": 1755244353
+  },
+  {
+    "year": 2003,
+    "total": 729681000000,
+    "perTaxpayer": 4865,
+    "perHousehold": 5570,
+    "perSecond": 23122,
+    "perDay": 1997757700
+  },
+  {
+    "year": 2004,
+    "total": 795294000000,
+    "perTaxpayer": 5302,
+    "perHousehold": 6071,
+    "perSecond": 25201,
+    "perDay": 2177396304
+  },
+  {
+    "year": 2005,
+    "total": 831924000000,
+    "perTaxpayer": 5546,
+    "perHousehold": 6351,
+    "perSecond": 26362,
+    "perDay": 2277683778
+  },
+  {
+    "year": 2006,
+    "total": 843912000000,
+    "perTaxpayer": 5626,
+    "perHousehold": 6442,
+    "perSecond": 26742,
+    "perDay": 2310505133
+  },
+  {
+    "year": 2007,
+    "total": 866430000000,
+    "perTaxpayer": 5776,
+    "perHousehold": 6614,
+    "perSecond": 27456,
+    "perDay": 2372156057
+  },
+  {
+    "year": 2008,
+    "total": 929458000000,
+    "perTaxpayer": 6196,
+    "perHousehold": 7095,
+    "perSecond": 29453,
+    "perDay": 2544717317
+  },
+  {
+    "year": 2009,
+    "total": 1002596000000,
+    "perTaxpayer": 6684,
+    "perHousehold": 7653,
+    "perSecond": 31770,
+    "perDay": 2744958248
+  },
+  {
+    "year": 2010,
+    "total": 1031257000000,
+    "perTaxpayer": 6875,
+    "perHousehold": 7872,
+    "perSecond": 32679,
+    "perDay": 2823427789
+  },
+  {
+    "year": 2011,
+    "total": 1019046000000,
+    "perTaxpayer": 6794,
+    "perHousehold": 7779,
+    "perSecond": 32292,
+    "perDay": 2789995893
+  },
+  {
+    "year": 2012,
+    "total": 962443000000,
+    "perTaxpayer": 6416,
+    "perHousehold": 7347,
+    "perSecond": 30498,
+    "perDay": 2635025325
+  },
+  {
+    "year": 2013,
+    "total": 888413000000,
+    "perTaxpayer": 5923,
+    "perHousehold": 6782,
+    "perSecond": 28152,
+    "perDay": 2432342231
+  },
+  {
+    "year": 2014,
+    "total": 833765000000,
+    "perTaxpayer": 5558,
+    "perHousehold": 6365,
+    "perSecond": 26420,
+    "perDay": 2282724162
+  },
+  {
+    "year": 2015,
+    "total": 814831000000,
+    "perTaxpayer": 5432,
+    "perHousehold": 6220,
+    "perSecond": 25820,
+    "perDay": 2230885695
+  },
+  {
+    "year": 2016,
+    "total": 812331000000,
+    "perTaxpayer": 5416,
+    "perHousehold": 6201,
+    "perSecond": 25741,
+    "perDay": 2224041068
+  },
+  {
+    "year": 2017,
+    "total": 803961000000,
+    "perTaxpayer": 5360,
+    "perHousehold": 6137,
+    "perSecond": 25476,
+    "perDay": 2201125257
+  },
+  {
+    "year": 2018,
+    "total": 828158000000,
+    "perTaxpayer": 5521,
+    "perHousehold": 6322,
+    "perSecond": 26243,
+    "perDay": 2267373032
+  },
+  {
+    "year": 2019,
+    "total": 875217000000,
+    "perTaxpayer": 5835,
+    "perHousehold": 6681,
+    "perSecond": 27734,
+    "perDay": 2396213552
+  },
+  {
+    "year": 2020,
+    "total": 916417000000,
+    "perTaxpayer": 6109,
+    "perHousehold": 6996,
+    "perSecond": 29040,
+    "perDay": 2509013005
+  },
+  {
+    "year": 2021,
+    "total": 906594000000,
+    "perTaxpayer": 6044,
+    "perHousehold": 6921,
+    "perSecond": 28728,
+    "perDay": 2482119097
+  },
+  {
+    "year": 2022,
+    "total": 896121000000,
+    "perTaxpayer": 5974,
+    "perHousehold": 6841,
+    "perSecond": 28396,
+    "perDay": 2453445585
+  },
+  {
+    "year": 2023,
+    "total": 916015000000,
+    "perTaxpayer": 6107,
+    "perHousehold": 6992,
+    "perSecond": 29027,
+    "perDay": 2507912389
+  },
+  {
+    "year": 2024,
+    "total": 968382000000,
+    "perTaxpayer": 6456,
+    "perHousehold": 7392,
+    "perSecond": 30686,
+    "perDay": 2651285421
+  }
+]

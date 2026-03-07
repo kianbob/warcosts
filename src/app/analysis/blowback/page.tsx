@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import { getReadingTimeFromWordCount } from '@/lib/reading-time'
 
 export const metadata: Metadata = {
   title: 'Blowback — The Concept That Explains Everything',
@@ -75,6 +76,10 @@ const cases = [
 ]
 
 export default function BlowbackPage() {
+  // Estimate article word count for reading time
+  const estimatedWordCount = 4200 // Approximate word count for this article
+  const readingTime = getReadingTimeFromWordCount(estimatedWordCount)
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <ArticleJsonLd title="Blowback — The Concept That Explains Everything" description="The CIA coined the term. Iran, Afghanistan, Iraq, Libya, Syria — every US intervention creates the next crisis. The pattern has never broken." slug="blowback" />
@@ -87,6 +92,11 @@ export default function BlowbackPage() {
           Blowback
         </h1>
         <p className="text-xl text-stone-300 mb-4">The Concept That Explains Everything</p>
+        <div className="flex items-center gap-4 text-stone-400 text-sm mb-4">
+          <span>📖 {readingTime}</span>
+          <span>•</span>
+          <span>Last updated: March 2026</span>
+        </div>
         <p className="text-stone-400 text-lg">
           The CIA coined the term &ldquo;blowback&rdquo; in a classified post-action report on the 1953 Iranian coup.
           The concept is devastatingly simple: covert actions have unintended consequences that &ldquo;blow back&rdquo;

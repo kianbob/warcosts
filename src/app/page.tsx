@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import { LiveCostCounter } from '@/components/LiveCostCounter'
+import ThisDayInWarHistory from '@/components/ThisDayInWarHistory'
 
 export const metadata: Metadata = {
   title: 'WarCosts — The True Cost of American Wars | $11.3 Trillion & Counting',
@@ -229,6 +230,31 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 py-16">
         <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2">Start Exploring</h2>
         <p className="text-stone-500 mb-8">Choose your entry point into the data.</p>
+        
+        {/* This Day in War History */}
+        <div className="mb-8">
+          <ThisDayInWarHistory />
+        </div>
+        
+        {/* Featured New Tools */}
+        <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
+          <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-800 mb-4">🆕 New Features</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: '/pentagon-audit', icon: '🔍', title: 'Pentagon Audit Tracker', desc: '6 failed audits. $23T unaccounted. Track the money.' },
+              { href: '/revolving-door', icon: '🚪', title: 'Revolving Door', desc: 'Pentagon to contractor pipelines exposed' },
+              { href: '/war-roi', icon: '📈', title: 'War ROI Rankings', desc: 'Which wars delivered "bang for buck"?' },
+              { href: '/blowback-map', icon: '🗺️', title: 'Blowback Map', desc: 'Interactive map of intervention consequences' },
+            ].map(p => (
+              <Link key={p.href} href={p.href} className="bg-white rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+                <span className="text-2xl block mb-2">{p.icon}</span>
+                <h4 className="font-[family-name:var(--font-heading)] text-sm font-bold mb-1">{p.title}</h4>
+                <p className="text-stone-500 text-xs">{p.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+        
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { href: '/us-military-spending', icon: '💰', title: 'US Military Spending', desc: '$886B/year — more than the next 10 countries combined' },
@@ -237,8 +263,12 @@ export default function HomePage() {
             { href: '/veteran-suicide', icon: '🎗️', title: 'Veteran Suicide', desc: '17 per day. More than die in combat.' },
             { href: '/modern-wars', icon: '🔥', title: 'Modern Wars', desc: 'The forever wars — 1995 to present' },
             { href: '/defense-budget', icon: '🏛️', title: 'Defense Budget', desc: 'Where every dollar goes. Never audited.' },
+            { href: '/who-fights', icon: '👥', title: 'Who Fights Our Wars?', desc: 'The demographics of those who die for America' },
+            { href: '/cost-overruns', icon: '📈', title: 'Cost Overruns Database', desc: 'F-35: $1.7T and counting. Every boondoggle documented.' },
             { href: '/tools/tax-receipt', icon: '🧾', title: 'Your Tax Receipt', desc: 'How much of YOUR money funds the military' },
             { href: '/tools/cost-calculator', icon: '🧮', title: 'Your War Cost', desc: 'Lifetime military spending in your name' },
+            { href: '/glossary', icon: '📚', title: 'Military Glossary', desc: 'Decode the acronyms: JSOC, CENTCOM, MIC, and more' },
+            { href: '/timeline', icon: '📅', title: 'Interactive Timeline', desc: 'Every war, intervention, and covert op since 1776' },
           ].map(p => (
             <Link key={p.href} href={p.href} className="bg-white rounded-lg border p-6 hover:shadow-md transition">
               <span className="text-3xl block mb-2">{p.icon}</span>

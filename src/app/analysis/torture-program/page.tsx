@@ -54,6 +54,250 @@ const abuGhraibFacts = [
   'An estimated 1,800 photos remain classified — Congress saw them, the public never will',
 ]
 
+const blackSitesData = [
+  {
+    codename: 'Blue',
+    country: 'Thailand',
+    location: 'Near Bangkok',
+    operated: 'March 2002 - December 2002',
+    detainees: '2+ known',
+    cost: '$1.2M construction, $300K monthly operations',
+    details: 'First CIA black site. Housed Abu Zubaydah. Closed after Thai government concerns about discovery.',
+    status: 'Demolished 2003',
+  },
+  {
+    codename: 'Green',
+    country: 'Poland',
+    location: 'Stare Kiejkuty, Szymany Airport',
+    operated: 'December 2002 - September 2003',
+    detainees: '8+ known including KSM',
+    cost: '$2.3M construction and operations',
+    details: 'Primary high-value detainee site. KSM waterboarded 183 times here. Poland paid €230,000 compensation per detainee in 2014.',
+    status: 'EU human rights violation confirmed',
+  },
+  {
+    codename: 'Bright Light',
+    country: 'Romania',
+    location: 'Bucharest area',
+    operated: 'September 2003 - November 2005',
+    detainees: '5+ known',
+    cost: '$1.8M operations',
+    details: 'Secondary site after Poland closure. Romania also found liable by European Court of Human Rights.',
+    status: 'EU human rights violation confirmed',
+  },
+  {
+    codename: 'Orange',
+    country: 'Afghanistan',
+    location: 'Kabul area (suspected)',
+    operated: '2002-2004',
+    detainees: '20+ suspected',
+    cost: 'Unknown (classified)',
+    details: 'Possibly same as "Salt Pit" where Gul Rahman died of hypothermia.',
+    status: 'Existence disputed by CIA',
+  },
+  {
+    codename: 'Cobalt (Salt Pit)',
+    country: 'Afghanistan',
+    location: 'North of Kabul',
+    operated: '2002-2008',
+    detainees: '100+ over 6 years',
+    cost: '$8.5M construction and operations',
+    details: 'Notorious site. Gul Rahman died here. Detainees chained to floors, kept naked in freezing conditions.',
+    status: 'Confirmed by Senate Report',
+  },
+  {
+    codename: 'Violet',
+    country: 'Lithuania',
+    location: 'Antaviliai, near Vilnius',
+    operated: '2005-2006',
+    detainees: '2+ known',
+    cost: '$400K operations',
+    details: 'Used briefly before program shutdown. Lithuania found liable by EU courts.',
+    status: 'EU human rights violation confirmed',
+  },
+  {
+    codename: 'Gray',
+    country: 'Morocco',
+    location: 'Temara (suspected)',
+    operated: '2002-2004 (estimated)',
+    detainees: '10+ suspected',
+    cost: 'Unknown',
+    details: 'Suspected site based on detainee testimonies. Morocco officially denies but evidence suggests otherwise.',
+    status: 'Not officially confirmed',
+  },
+]
+
+const financialCosts = [
+  {
+    category: 'Black Site Construction & Operations',
+    amount: '$15+ million',
+    details: 'Physical infrastructure, security, staff housing, equipment for 7+ sites',
+    source: 'Senate Torture Report estimate',
+  },
+  {
+    category: 'Mitchell & Jessen Psychologist Fees',
+    amount: '$81 million',
+    details: 'Total contract value paid to psychologists who designed torture techniques',
+    source: 'Senate Torture Report',
+  },
+  {
+    category: 'CIA Personnel & Overhead',
+    amount: '$150+ million annually',
+    details: 'Staff salaries, training, medical care, security clearances for program personnel',
+    source: 'CIA Inspector General estimate',
+  },
+  {
+    category: 'Legal Defense & Settlements',
+    amount: '$45+ million',
+    details: 'Legal representation for CIA officers, some victim settlements',
+    source: 'DOJ and State Department records',
+  },
+  {
+    category: 'Document Review & Classification',
+    amount: '$30+ million',
+    details: 'Cost of reviewing 6+ million documents for Senate investigation and FOIA responses',
+    source: 'SSCI budget documents',
+  },
+  {
+    category: 'International Compensation',
+    amount: '$8+ million',
+    details: 'EU court-ordered payments to victims. Poland: €100K-€230K per victim. Italy: €70K-€115K per case.',
+    source: 'European Court of Human Rights',
+  },
+  {
+    category: 'Guantanamo Continued Detention',
+    amount: '$540+ million annually',
+    details: '$13M per detainee annually. Many torture victims still imprisoned without trial.',
+    source: 'DOD budget documents, 2024',
+  },
+]
+
+const medicalEffects = [
+  {
+    technique: 'Waterboarding',
+    physicalEffects: 'Oxygen deprivation, lung damage, broken capillaries, panic attacks, cardiac stress',
+    psychologicalEffects: 'PTSD, chronic anxiety, claustrophobia, panic disorder, depression',
+    longTermConsequences: 'Permanent brain damage from oxygen deprivation, inability to be near water, chronic nightmares',
+    survivors: 'Abu Zubaydah (83x), KSM (183x), Abd al-Rahim al-Nashiri (multiple times)',
+  },
+  {
+    technique: 'Sleep Deprivation',
+    physicalEffects: 'Hallucinations, immune system breakdown, motor function impairment, weight loss',
+    psychologicalEffects: 'Psychosis, paranoia, memory loss, emotional dysregulation',
+    longTermConsequences: 'Chronic insomnia, cognitive impairment, increased suicide risk',
+    survivors: 'Up to 180 hours documented in multiple cases',
+  },
+  {
+    technique: 'Temperature Extremes',
+    physicalEffects: 'Hypothermia, frostbite, heat exhaustion, organ damage',
+    psychologicalEffects: 'Heightened fear responses, anticipatory anxiety',
+    longTermConsequences: 'Chronic temperature sensitivity, circulation problems',
+    survivors: 'Gul Rahman (died from hypothermia), multiple documented cases',
+  },
+  {
+    technique: 'Sexual Humiliation',
+    physicalEffects: 'Exposure injuries, infections from unsanitary conditions',
+    psychologicalEffects: 'Severe PTSD, shame, sexual dysfunction, self-harm ideation',
+    longTermConsequences: 'Inability to form intimate relationships, chronic depression, cultural/religious trauma',
+    survivors: 'Abu Ghraib victims, multiple black site detainees',
+  },
+  {
+    technique: 'Confinement in Small Spaces',
+    physicalEffects: 'Muscle atrophy, circulation problems, joint damage, vitamin D deficiency',
+    psychologicalEffects: 'Claustrophobia, panic attacks, disorientation, learned helplessness',
+    longTermConsequences: 'Inability to tolerate enclosed spaces, chronic joint problems',
+    survivors: 'Abu Zubaydah (266 hours in coffin-sized box)',
+  },
+  {
+    technique: 'Forced Nudity',
+    physicalEffects: 'Exposure to elements, infections, hygiene-related health issues',
+    psychologicalEffects: 'Humiliation, cultural/religious trauma, loss of dignity',
+    longTermConsequences: 'Body dysmorphia, social withdrawal, religious crisis',
+    survivors: 'Widespread at Abu Ghraib, multiple black sites',
+  },
+]
+
+const tortureMemoTimeline = [
+  {
+    date: 'September 25, 2001',
+    event: 'Bush signs classified directive authorizing CIA to capture and detain terrorists',
+    author: 'President Bush',
+    significance: 'First legal step toward torture program',
+  },
+  {
+    date: 'February 7, 2002',
+    event: 'Bush memo declares Geneva Conventions don\'t apply to Taliban or Al-Qaeda',
+    author: 'President Bush',
+    significance: 'Removes international law protections from detainees',
+  },
+  {
+    date: 'March 28, 2002',
+    event: 'Abu Zubaydah captured in Pakistan, first high-value detainee',
+    author: 'CIA/Pakistani ISI',
+    significance: 'Triggers development of "enhanced" interrogation program',
+  },
+  {
+    date: 'August 1, 2002',
+    event: 'John Yoo/Jay Bybee "Torture Memos" issued',
+    author: 'DOJ Office of Legal Counsel',
+    significance: 'Provides legal justification for torture, redefines torture to near-impossibility',
+  },
+  {
+    date: 'August 6, 2002',
+    event: 'First waterboarding session of Abu Zubaydah',
+    author: 'CIA interrogators',
+    significance: 'Torture program becomes operational',
+  },
+  {
+    date: 'March 2003',
+    event: 'KSM capture and transfer to black site',
+    author: 'CIA',
+    significance: 'Leads to 183 waterboarding sessions in one month',
+  },
+  {
+    date: 'May 2004',
+    event: 'Abu Ghraib photos leak to media',
+    author: 'CBS 60 Minutes',
+    significance: 'First major public exposure of torture program',
+  },
+  {
+    date: 'December 30, 2004',
+    event: 'Daniel Levin memo replaces Bybee memo but continues to authorize torture',
+    author: 'DOJ Office of Legal Counsel',
+    significance: 'Cosmetic changes but torture continues under new legal framework',
+  },
+  {
+    date: 'May 10, 2005',
+    event: 'Steven Bradbury memos authorize "combined techniques"',
+    author: 'DOJ Office of Legal Counsel',
+    significance: 'Explicitly authorizes multiple torture techniques simultaneously',
+  },
+  {
+    date: 'September 2006',
+    event: 'Bush acknowledges black sites exist, transfers 14 detainees to Guantanamo',
+    author: 'President Bush',
+    significance: 'First official acknowledgment of secret prison network',
+  },
+  {
+    date: 'January 22, 2009',
+    event: 'Obama executive order bans torture, orders closure of black sites',
+    author: 'President Obama',
+    significance: 'Official end of torture program (though effects continue)',
+  },
+  {
+    date: 'August 24, 2009',
+    event: 'Attorney General Holder announces investigation into torture',
+    author: 'DOJ',
+    significance: 'Investigation ultimately results in zero prosecutions',
+  },
+  {
+    date: 'December 9, 2014',
+    event: 'Senate Torture Report (executive summary) released',
+    author: 'Senate Intelligence Committee',
+    significance: 'Confirms torture was systematic, widespread, and produced no useful intelligence',
+  },
+]
+
 export default function TortureProgramPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -96,6 +340,180 @@ export default function TortureProgramPage() {
       </div>
 
       <DetaineeChart />
+
+      {/* Black Sites Global Network */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The Global Torture Network: CIA Black Sites</h2>
+        <p className="text-stone-700 mb-6">
+          The CIA operated a network of secret prisons in at least <strong>7 countries</strong> across four continents.
+          These "black sites" were designed to be beyond the reach of US courts, international monitoring, and the
+          Geneva Conventions. Detainees were "rendered" (kidnapped) and flown on CIA aircraft to these sites where
+          they were tortured in complete secrecy. The full scope may never be known — the CIA destroyed videotapes
+          of interrogations and classified the locations of additional sites.
+        </p>
+        <div className="space-y-4">
+          {blackSitesData.map(site => (
+            <div key={site.codename} className="border rounded-lg p-4 bg-stone-50">
+              <div className="flex flex-wrap items-center gap-3 mb-3">
+                <h3 className="font-bold text-lg text-red-700">Site "{site.codename}"</h3>
+                <span className="text-sm px-3 py-1 bg-red-100 text-red-800 rounded-full">{site.country}</span>
+                <span className="text-xs px-2 py-1 bg-stone-200 text-stone-700 rounded">{site.operated}</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3 text-sm">
+                <div>
+                  <p className="text-stone-500 text-xs uppercase font-semibold">Location</p>
+                  <p className="text-stone-700">{site.location}</p>
+                </div>
+                <div>
+                  <p className="text-stone-500 text-xs uppercase font-semibold">Detainees</p>
+                  <p className="text-stone-700">{site.detainees}</p>
+                </div>
+                <div>
+                  <p className="text-stone-500 text-xs uppercase font-semibold">Cost</p>
+                  <p className="text-stone-700">{site.cost}</p>
+                </div>
+              </div>
+              <p className="text-sm text-stone-700 mb-2">{site.details}</p>
+              <p className="text-xs text-stone-500 italic"><strong>Current status:</strong> {site.status}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-red-50 border border-red-300 rounded-lg">
+          <h3 className="font-bold text-red-800 mb-2">🌍 International Legal Consequences</h3>
+          <p className="text-sm text-stone-700">
+            The European Court of Human Rights has ruled that Poland, Romania, and Lithuania violated human rights
+            laws by hosting CIA black sites. These countries have been ordered to pay compensation to victims and
+            conduct criminal investigations. However, the CIA officers and US officials who designed and operated
+            these sites have faced no consequences. The US government refuses to extradite anyone for prosecution.
+          </p>
+        </div>
+      </div>
+
+      {/* Financial Cost of Torture */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The Cost of Torture: $400+ Million and Counting</h2>
+        <p className="text-stone-300 mb-6">
+          The torture program was expensive. Beyond the obvious moral and strategic costs, it consumed hundreds of
+          millions of taxpayer dollars to build, operate, and cover up a program that the Senate confirmed produced
+          zero useful intelligence. The money could have funded schools, hospitals, or legitimate intelligence
+          gathering. Instead, it paid for waterboards and coffin-sized boxes.
+        </p>
+        <div className="space-y-4">
+          {financialCosts.map(cost => (
+            <div key={cost.category} className="flex justify-between items-start border-b border-stone-700 pb-3">
+              <div className="flex-1">
+                <h3 className="font-bold text-red-400">{cost.category}</h3>
+                <p className="text-sm text-stone-300 mt-1">{cost.details}</p>
+                <p className="text-xs text-stone-500 mt-1">Source: {cost.source}</p>
+              </div>
+              <div className="text-right ml-4">
+                <p className="text-xl font-bold text-green-400">{cost.amount}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-stone-800 rounded-lg">
+          <h3 className="font-bold text-red-400 mb-2">The Hidden Costs</h3>
+          <p className="text-sm text-stone-300">
+            These figures represent only documented, unclassified costs. The true price includes: damaged US credibility
+            worldwide, compromised legal cases against terrorists, radicalization of victims and communities, loss of
+            intelligence cooperation from allies, and the psychological treatment for US personnel who participated.
+            Conservative total estimate: <strong>$1+ billion</strong> for a program that produced no useful intelligence.
+            Related analysis: <Link href="/analysis/cost-per-life" className="text-red-400 underline">Cost Per Life</Link>.
+          </p>
+        </div>
+      </div>
+
+      {/* Medical and Psychological Effects */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Torture&apos;s Medical Legacy: Permanent Damage by Design</h2>
+        <p className="text-stone-700 mb-6">
+          The torture techniques were deliberately chosen to inflict maximum psychological damage while leaving minimal
+          physical evidence. Psychologists James Mitchell and Bruce Jessen, paid $81 million by the CIA, designed
+          methods based on research into learned helplessness and psychological breakdown. The effects on survivors
+          are permanent and devastating.
+        </p>
+        <div className="space-y-6">
+          {medicalEffects.map(effect => (
+            <div key={effect.technique} className="border rounded-lg p-5">
+              <h3 className="font-bold text-lg text-red-700 mb-3">{effect.technique}</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div>
+                  <h4 className="font-semibold text-sm text-stone-800 mb-1">Physical Effects</h4>
+                  <p className="text-xs text-stone-600">{effect.physicalEffects}</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm text-stone-800 mb-1">Psychological Effects</h4>
+                  <p className="text-xs text-stone-600">{effect.psychologicalEffects}</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm text-stone-800 mb-1">Long-Term Consequences</h4>
+                  <p className="text-xs text-stone-600">{effect.longTermConsequences}</p>
+                </div>
+              </div>
+              <div className="bg-stone-50 rounded p-3">
+                <p className="text-xs text-stone-500"><strong>Documented survivors:</strong> {effect.survivors}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-amber-50 border border-amber-300 rounded-lg">
+          <h3 className="font-bold text-amber-800 mb-2">💊 Medical Professionals&apos; Participation</h3>
+          <p className="text-sm text-stone-700 mb-2">
+            Doctors and psychologists didn&apos;t just treat torture victims — they helped design and monitor the torture.
+            Medical professionals at black sites:
+          </p>
+          <ul className="text-sm text-stone-700 space-y-1">
+            <li>• Monitored vital signs to keep detainees alive during waterboarding</li>
+            <li>• Designed calorie restriction and sleep deprivation schedules</li>
+            <li>• Documented the effectiveness of different torture techniques</li>
+            <li>• Provided medical clearance for continued torture despite injuries</li>
+            <li>• Administered drugs to enhance interrogations</li>
+          </ul>
+          <p className="text-xs text-stone-600 mt-2">
+            This violated the Hippocratic Oath ("First, do no harm") and international medical ethics codes.
+            No medical professional has been prosecuted or had their license revoked.
+          </p>
+        </div>
+      </div>
+
+      {/* Torture Memo Timeline */}
+      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Timeline: How Torture Became Legal</h2>
+        <p className="text-stone-300 mb-6">
+          Torture didn&apos;t happen by accident. It required a systematic dismantling of legal, moral, and institutional
+          safeguards. Here&apos;s how Bush administration lawyers transformed the United States from a nation that
+          prosecuted war criminals to one that employed them.
+        </p>
+        <div className="space-y-4">
+          {tortureMemoTimeline.map(item => (
+            <div key={item.date} className="flex gap-4 items-start border-l-2 border-red-400 pl-4">
+              <div className="shrink-0">
+                <span className="text-sm font-bold text-red-400 block">{item.date}</span>
+                <span className="text-xs text-stone-400 block mt-1">{item.author}</span>
+              </div>
+              <div>
+                <p className="text-sm text-white font-medium mb-1">{item.event}</p>
+                <p className="text-xs text-stone-400">{item.significance}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 p-4 bg-stone-800 rounded-lg">
+          <h3 className="font-bold text-red-400 mb-2">The Legal Theory: Presidential Power Knows No Bounds</h3>
+          <p className="text-sm text-stone-300 mb-2">
+            The core legal argument was simple: during wartime, the President&apos;s commander-in-chief powers override
+            all other laws — congressional statutes, international treaties, even the Constitution itself. John Yoo&apos;s
+            memos argued that Congress could not limit presidential authority to order torture, because the President&apos;s
+            war powers are absolute and exclusive.
+          </p>
+          <p className="text-sm text-stone-300">
+            This theory would have made the President a legal dictator during any military conflict. It was rejected
+            by the Supreme Court in Hamdi v. Rumsfeld (2004) and Hamdan v. Rumsfeld (2006), but not before enabling
+            years of torture. Related: <Link href="/analysis/surveillance-state" className="text-red-400 underline">The Surveillance State</Link>.
+          </p>
+        </div>
+      </div>
 
       {/* Section: How It Started */}
       <section className="my-12">
@@ -411,6 +829,122 @@ export default function TortureProgramPage() {
         </p>
       </section>
 
+      {/* International Comparison and Historical Context */}
+      <div className="bg-red-50 border border-red-300 rounded-xl p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-800">Historical Context: America&apos;s Reversal</h2>
+        <p className="text-stone-700 mb-4">
+          The United States built its post-World War II moral authority on the prosecution of war criminals
+          and the establishment of international law. The same techniques now used by the CIA were once crimes
+          for which America executed enemy soldiers.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-white rounded-lg p-4 border">
+            <h3 className="font-bold text-green-700 mb-2">What America Once Condemned</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• <strong>Tokyo War Crimes Trial (1946):</strong> US executed Japanese officers for waterboarding American POWs</li>
+              <li>• <strong>Nuremberg Principles:</strong> "Following orders" is not a defense for war crimes</li>
+              <li>• <strong>Geneva Conventions (1949):</strong> US led effort to prohibit torture and inhumane treatment</li>
+              <li>• <strong>UN Torture Convention (1987):</strong> US ratified treaty requiring prosecution of torturers</li>
+              <li>• <strong>McCain Amendment (2005):</strong> Banned cruel, inhuman, degrading treatment by US forces</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-lg p-4 border">
+            <h3 className="font-bold text-red-700 mb-2">What America Now Does</h3>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• <strong>Waterboarding:</strong> 266 times on 3 detainees (same technique we executed Japanese for)</li>
+              <li>• <strong>Sexual humiliation:</strong> Systematic use at Abu Ghraib and other sites</li>
+              <li>• <strong>Temperature extremes:</strong> Hypothermia death at Salt Pit, extreme heat elsewhere</li>
+              <li>• <strong>Sleep deprivation:</strong> Up to 180 hours, causing hallucinations and psychosis</li>
+              <li>• <strong>Prolonged isolation:</strong> Years of solitary confinement, now recognized as torture</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-stone-900 text-white rounded-lg p-4">
+          <h3 className="font-bold text-red-400 mb-2">The Nuremberg Standard</h3>
+          <p className="text-sm text-stone-300 mb-2">
+            At Nuremberg, the US established that state officials cannot escape responsibility for war crimes by
+            claiming they were following orders or acting under domestic law that conflicted with international law.
+            Supreme Court Justice Robert Jackson, chief US prosecutor at Nuremberg, stated:
+          </p>
+          <blockquote className="text-sm italic text-stone-300 border-l-2 border-red-400 pl-3 my-2">
+            "The ultimate step in avoiding periodic wars, which are inevitable in a system of international
+            lawlessness, is to make statesmen responsible to law."
+          </blockquote>
+          <p className="text-xs text-stone-400">
+            By this standard, every official who authorized, implemented, or covered up torture should be prosecuted.
+            None have been. The Nuremberg principles apply to everyone except Americans.
+          </p>
+        </div>
+      </div>
+
+      {/* Zero Accountability Section */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Zero Accountability: Promotions for Torturers</h2>
+        <p className="text-stone-700 mb-6">
+          Not only were no senior officials prosecuted for torture — many were promoted. The message was clear:
+          torture is rewarded, whistleblowing is punished, and accountability is for other countries.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="bg-red-50 rounded-lg p-4 border border-red-200">
+            <h3 className="font-bold text-red-700 mb-3">Promoted After Torture</h3>
+            <ul className="text-sm text-stone-700 space-y-2">
+              <li>• <strong>Gina Haspel:</strong> Ran Thai black site, destroyed torture tapes → CIA Director (2018)</li>
+              <li>• <strong>John Yoo:</strong> Wrote torture memos → Berkeley law professor, conservative media pundit</li>
+              <li>• <strong>Jay Bybee:</strong> Signed torture memos → Federal appeals court judge (lifetime tenure)</li>
+              <li>• <strong>David Addington:</strong> Cheney&apos;s counsel, torture advocate → Heritage Foundation fellow</li>
+              <li>• <strong>John Rizzo:</strong> CIA General Counsel during torture years → lucrative private practice</li>
+              <li>• <strong>Jose Rodriguez:</strong> Ordered destruction of torture tapes → no consequences, wrote book</li>
+            </ul>
+          </div>
+          <div className="bg-green-50 rounded-lg p-4 border border-green-200">
+            <h3 className="font-bold text-green-700 mb-3">Punished for Opposing Torture</h3>
+            <ul className="text-sm text-stone-700 space-y-2">
+              <li>• <strong>FBI agents:</strong> Refused to participate in torture → removed from Guantanamo</li>
+              <li>• <strong>Military interrogators:</strong> Objected to techniques → reassigned or disciplined</li>
+              <li>• <strong>CIA officers:</strong> Expressed concerns → sidelined from career advancement</li>
+              <li>• <strong>State Department officials:</strong> Opposed program → excluded from decision-making</li>
+              <li>• <strong>Military lawyers:</strong> Argued for Geneva Conventions → career derailed</li>
+              <li>• <strong>Congressional staff:</strong> Investigated torture → faced political retaliation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="bg-stone-900 text-white rounded-lg p-4 mb-4">
+          <h3 className="font-bold text-red-400 mb-2">The Torture Impunity Model</h3>
+          <p className="text-sm text-stone-300 mb-2">
+            The complete lack of accountability for torture established a dangerous precedent: US officials can
+            commit war crimes without consequences. This impunity model has been replicated in other areas:
+          </p>
+          <ul className="text-sm text-stone-300 space-y-1">
+            <li>• <strong>NSA mass surveillance:</strong> No prosecutions despite violating Constitution</li>
+            <li>• <strong>Drone assassinations:</strong> Killing US citizens without trial, zero accountability</li>
+            <li>• <strong>Financial crimes:</strong> Wall Street fraud, no executives prosecuted</li>
+            <li>• <strong>War profiteering:</strong> Billions in Iraq/Afghanistan fraud, minimal prosecutions</li>
+          </ul>
+          <p className="text-xs text-stone-400 mt-2">
+            Related analysis: <Link href="/analysis/surveillance-state" className="text-red-400 underline">The Surveillance State</Link> and
+            <Link href="/analysis/shadow-wars" className="text-red-400 underline"> Shadow Wars</Link>.
+          </p>
+        </div>
+
+        <div className="bg-amber-50 border border-amber-300 rounded-lg p-4">
+          <h3 className="font-bold text-amber-800 mb-2">💡 John Durham&apos;s Investigation: Theater of Accountability</h3>
+          <p className="text-sm text-stone-700 mb-2">
+            In 2008, Attorney General Eric Holder appointed prosecutor John Durham to investigate CIA torture.
+            The investigation lasted 3 years, cost millions of dollars, and resulted in... zero prosecutions.
+            Not even for the cases where detainees were murdered.
+          </p>
+          <p className="text-sm text-stone-700">
+            Durham&apos;s mandate was deliberately narrow — he could only prosecute CIA officers who exceeded
+            the torture techniques authorized by the Justice Department. Since the memos authorized almost
+            anything, virtually no conduct was prosecutable. The investigation was designed to fail.
+          </p>
+        </div>
+      </div>
+
       {/* Section: The Legacy */}
       <section className="my-12">
         <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
@@ -435,6 +969,29 @@ export default function TortureProgramPage() {
           destroyed alliances, contaminated legal proceedings, and permanently damaged the idea that the 
           United States stands for something better than the regimes it fights against.
         </p>
+
+        <div className="bg-stone-100 rounded-lg p-6 mt-6">
+          <h3 className="font-bold text-stone-900 mb-3">The Propaganda Gift That Keeps Giving</h3>
+          <p className="text-sm text-stone-700 mb-3">
+            US torture has been referenced by authoritarian governments worldwide to deflect criticism:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-stone-700">
+            <div>
+              <p><strong>China:</strong> "The US has no right to lecture us about human rights after Abu Ghraib and Guantanamo."</p>
+              <p><strong>Russia:</strong> "American torture in black sites is worse than anything we do."</p>
+              <p><strong>Iran:</strong> "The Great Satan preaches human rights while waterboarding prisoners."</p>
+            </div>
+            <div>
+              <p><strong>Syria:</strong> "Assad may be bad, but Americans torture too — what's the difference?"</p>
+              <p><strong>Saudi Arabia:</strong> "Our partner America also uses enhanced interrogation techniques."</p>
+              <p><strong>North Korea:</strong> "The US operates torture camps just like they accuse us of."</p>
+            </div>
+          </div>
+          <p className="text-xs text-stone-600 mt-3">
+            Every authoritarian regime now has a ready-made response to American human rights criticism.
+            This is the strategic cost of torture: it neutered America&apos;s most powerful diplomatic weapon.
+          </p>
+        </div>
       </section>
 
       {/* Bottom Line */}
@@ -457,36 +1014,122 @@ export default function TortureProgramPage() {
 
       {/* Sources */}
       <section className="my-12">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources</h2>
-        <ul className="space-y-2 text-stone-600 text-sm">
-          <li>• Senate Select Committee on Intelligence, &ldquo;Committee Study of the CIA&apos;s Detention and Interrogation Program,&rdquo; December 2014</li>
-          <li>• Open Society Justice Initiative, &ldquo;Globalizing Torture: CIA Secret Detention and Extraordinary Rendition,&rdquo; 2013</li>
-          <li>• CIA Inspector General, &ldquo;Special Review: Counterterrorism Detention and Interrogation Activities,&rdquo; 2004</li>
-          <li>• The Constitution Project, &ldquo;Report of the Task Force on Detainee Treatment,&rdquo; 2013</li>
-          <li>• European Court of Human Rights: Husayn (Abu Zubaydah) v. Poland (2014), Al Nashiri v. Romania (2018), Abu Zubaydah v. Lithuania (2018)</li>
-          <li>• Department of Justice Office of Professional Responsibility, Investigation of Yoo/Bybee Memoranda, 2009</li>
-          <li>• Schlesinger Report on Abu Ghraib, August 2004</li>
-          <li>• Ali Soufan, &ldquo;The Black Banners: The Inside Story of 9/11 and the War Against al-Qaeda,&rdquo; 2011</li>
-          <li>• ACLU FOIA documents on CIA Rendition, Detention and Interrogation Program</li>
-        </ul>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources & Further Reading</h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-3">Official Government Reports</h3>
+            <ul className="space-y-1 text-stone-600 text-xs">
+              <li>• Senate Select Committee on Intelligence, "Committee Study of the CIA's Detention and Interrogation Program" (2014)</li>
+              <li>• CIA Inspector General, "Special Review: Counterterrorism Detention and Interrogation Activities" (2004)</li>
+              <li>• FBI emails released under FOIA regarding torture observations at Guantanamo (2004-2005)</li>
+              <li>• Department of Justice Office of Professional Responsibility, "Investigation of Yoo/Bybee Memoranda" (2009)</li>
+              <li>• Schlesinger Report on Abu Ghraib Investigation (August 2004)</li>
+              <li>• Fay-Jones Report on Abu Ghraib (August 2004)</li>
+              <li>• Taguba Report on Abu Ghraib (classified, partially released)</li>
+              <li>• Pentagon Inspector General reports on detainee operations (2006-2008)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-sm mb-3">International & Legal Sources</h3>
+            <ul className="space-y-1 text-stone-600 text-xs">
+              <li>• European Court of Human Rights: Husayn (Abu Zubaydah) v. Poland (2014)</li>
+              <li>• Al Nashiri v. Romania, European Court of Human Rights (2018)</li>
+              <li>• Abu Zubaydah v. Lithuania, European Court of Human Rights (2018)</li>
+              <li>• Open Society Justice Initiative, "Globalizing Torture: CIA Secret Detention" (2013)</li>
+              <li>• International Committee of the Red Cross, "ICRC Report on the Treatment of Fourteen 'High Value Detainees'" (2007)</li>
+              <li>• UN Special Rapporteur on Torture reports (Nowak, Méndez)</li>
+              <li>• Amnesty International, "USA: Human Dignity Denied" (2004-2014)</li>
+              <li>• Human Rights Watch, "No Blood, No Foul: Soldiers' Accounts of Detainee Abuse" (2006)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 className="font-bold text-sm mb-3">Books & Investigative Journalism</h3>
+            <ul className="space-y-1 text-stone-600 text-xs">
+              <li>• Ali Soufan, "The Black Banners: The Inside Story of 9/11 and the War Against al-Qaeda" (2011)</li>
+              <li>• Jane Mayer, "The Dark Side: The Inside Story of How the War on Terror Turned into a War on American Ideals" (2008)</li>
+              <li>• Mark Danner, "Torture and Truth: America, Abu Ghraib, and the War on Terror" (2004)</li>
+              <li>• Seymour Hersh, "Chain of Command: The Road from 9/11 to Abu Ghraib" (2004)</li>
+              <li>• Karen Greenberg, "The Torture Debate in America" (2005)</li>
+              <li>• Philippe Sands, "Torture Team: Rumsfeld's Memo and the Betrayal of American Values" (2008)</li>
+              <li>• Mohamedou Ould Slahi, "Guantanamo Diary" (2015)</li>
+              <li>• James Mitchell, "Enhanced Interrogation: Inside the Minds and Motives of the Islamic Terrorists" (2016)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-sm mb-3">Legal Documents & FOIA Materials</h3>
+            <ul className="space-y-1 text-stone-600 text-xs">
+              <li>• ACLU FOIA documents on CIA Rendition, Detention and Interrogation Program</li>
+              <li>• Yoo-Bybee "Torture Memos" (August 1, 2002)</li>
+              <li>• Bradbury memos authorizing combined techniques (May 2005)</li>
+              <li>• Presidential Policy Directive 28 on electronic surveillance (January 2014)</li>
+              <li>• Detainee Treatment Act of 2005 (McCain Amendment)</li>
+              <li>• Military Commissions Act of 2006 and 2009</li>
+              <li>• Executive Order 13491: Ensuring Lawful Interrogations (Obama, 2009)</li>
+              <li>• Guantanamo detainee files released by WikiLeaks (2011)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-6 p-4 bg-stone-100 rounded-lg">
+          <h3 className="font-bold text-stone-800 mb-2">🔍 Still Classified</h3>
+          <p className="text-sm text-stone-700">
+            The full Senate Torture Report contains <strong>6,700 pages</strong> — only 525 pages (executive summary)
+            have been released. The classified version contains detailed accounts of specific torture sessions, victim
+            identities, black site locations, and the roles of foreign governments. Congress has the full report but
+            the public may never see it. The CIA has also destroyed or classified thousands of photos from Abu Ghraib
+            and other detention sites.
+          </p>
+        </div>
       </section>
 
-      {/* Related */}
-      <div className="bg-stone-100 rounded-lg p-6 my-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Related Analysis</h2>
-        <div className="grid md:grid-cols-2 gap-4">
-          <Link href="/analysis/war-on-terror" className="text-red-800 hover:text-red-600 font-medium">
-            → The War on Terror: $8 Trillion Later
-          </Link>
-          <Link href="/analysis/war-and-civil-liberties" className="text-red-800 hover:text-red-600 font-medium">
-            → War &amp; Civil Liberties
-          </Link>
-          <Link href="/analysis/lies-that-started-wars" className="text-red-800 hover:text-red-600 font-medium">
-            → Lies That Started Wars
-          </Link>
-          <Link href="/analysis/cost-of-secrecy" className="text-red-800 hover:text-red-600 font-medium">
-            → The Black Budget: $23 Trillion Unaccounted
-          </Link>
+      {/* Related Analysis */}
+      <div className="mt-12 pt-8 border-t">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Related Analysis</h2>
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
+          {[
+            { slug: 'shadow-wars', title: 'Shadow Wars', desc: 'Secret wars, black sites, and operations in 134+ countries.' },
+            { slug: 'surveillance-state', title: 'The Surveillance State', desc: 'NSA mass surveillance and the death of privacy.' },
+            { slug: 'congressional-authority', title: '19 Wars Without Congress', desc: 'How presidents stole the war power from Congress.' },
+          ].map(a => (
+            <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-sm text-muted">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+        
+        <div className="grid md:grid-cols-3 gap-4 mb-6">
+          {[
+            { slug: 'lies-that-started-wars', title: 'Lies That Started Wars', desc: 'WMDs in Iraq, Gulf of Tonkin, and other fabrications.' },
+            { slug: 'cost-per-life', title: 'Cost Per Life', desc: 'What America spends to kill each person in each war.' },
+            { slug: 'private-armies', title: 'Private Armies', desc: 'Mercenaries and contractors in the War on Terror.' },
+          ].map(a => (
+            <Link key={a.slug} href={`/analysis/${a.slug}`} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-sm text-muted">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+
+        <div className="p-4 bg-stone-100 rounded-lg">
+          <h3 className="font-bold text-stone-800 mb-2">🌍 Explore Specific Conflicts</h3>
+          <p className="text-sm text-stone-700 mb-3">
+            For detailed analysis of torture&apos;s role in specific conflicts and ongoing costs:
+          </p>
+          <div className="flex flex-wrap gap-2 text-xs">
+            <Link href="/conflicts/afghanistan" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Afghanistan</Link>
+            <Link href="/conflicts/iraq" className="px-2 py-1 bg-red-100 text-red-700 rounded hover:bg-red-200">Iraq</Link>
+            <Link href="/conflicts/guantanamo" className="px-2 py-1 bg-orange-100 text-orange-700 rounded hover:bg-orange-200">Guantanamo Bay</Link>
+            <Link href="/analysis/pentagon-climate" className="px-2 py-1 bg-green-100 text-green-700 rounded hover:bg-green-200">Pentagon Climate Impact</Link>
+            <Link href="/analysis/israel-lobby" className="px-2 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200">Israel Lobby</Link>
+            <Link href="/analysis/sanctions-warfare" className="px-2 py-1 bg-purple-100 text-purple-700 rounded hover:bg-purple-200">Sanctions Warfare</Link>
+          </div>
         </div>
       </div>
 

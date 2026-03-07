@@ -60,6 +60,59 @@ const f35States = [
   'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'Wisconsin',
 ]
 
+const lobbyingSpending = [
+  { company: 'Lockheed Martin', spending2023: '$13.0M', lobbyists: 48, topTargets: 'House/Senate Armed Services, Defense Appropriations', keyLegislation: 'NDAA, F-35 funding, Missile defense' },
+  { company: 'Northrop Grumman', spending2023: '$11.2M', lobbyists: 42, topTargets: 'Armed Services, Intelligence, Space Subcommittee', keyLegislation: 'B-21 funding, Space Force contracts, Cyber defense' },
+  { company: 'Raytheon/RTX', spending2023: '$9.8M', lobbyists: 38, topTargets: 'Defense Appropriations, Foreign Affairs', keyLegislation: 'Foreign Military Sales, Missile exports, NATO funding' },
+  { company: 'General Dynamics', spending2023: '$8.7M', lobbyists: 35, topTargets: 'Armed Services, Shipbuilding Caucus', keyLegislation: 'Navy shipbuilding, Army vehicles, IT contracts' },
+  { company: 'Boeing Defense', spending2023: '$7.4M', lobbyists: 31, topTargets: 'Armed Services, Transportation', keyLegislation: 'KC-46 tanker, Apache helicopter, Naval aviation' },
+  { company: 'L3Harris', spending2023: '$5.2M', lobbyists: 24, topTargets: 'Intelligence, Space, Tactical Air', keyLegislation: 'Communication systems, Electronic warfare, Space contracts' },
+]
+
+const wasteExamples = [
+  { program: 'F-22 Raptor', waste: 'Never used in combat; $67B for 187 planes = $358M each', details: 'Designed to fight Soviet fighters that never existed. Killed in 2011. Never fired a shot in anger. Most expensive fighter ever built per unit.' },
+  { program: 'Comanche Helicopter', waste: '$6.9B spent; 0 helicopters delivered before cancellation', details: 'Army spent 22 years developing stealth helicopter. Cancelled in 2004 with nothing to show for it. Boeing and Sikorsky kept the money.' },
+  { program: 'Future Combat Systems', waste: '$20B spent; entire program cancelled', details: 'Army\'s attempt to digitize the battlefield. Cancelled in 2009 after 10 years of development. Boeing got paid, Army got nothing.' },
+  { program: 'Expeditionary Fighting Vehicle', waste: '$3.3B spent; 0 vehicles delivered', details: 'Marine amphibious vehicle. Cancelled in 2011 after 15 years. General Dynamics collected billions for prototypes that never worked.' },
+  { program: 'Crusader Artillery System', waste: '$2B spent; 0 systems delivered', details: 'Self-propelled howitzer. Cancelled in 2002. United Defense (now BAE) spent 8 years and delivered nothing.' },
+  { program: 'Advanced Seal Delivery System', waste: '$887M spent; 0 operational submarines', details: 'Mini-submarine for Navy SEALs. All delivered subs were defective and scrapped. Northrop Grumman kept the money.' },
+]
+
+const contractorAbuse = [
+  { company: 'KBR (Halliburton)', abuse: 'Overcharged $2.7B for fuel in Iraq', investigation: 'Pentagon audits found systematic overcharging for fuel delivery. Used Kuwaiti suppliers at inflated rates.' },
+  { company: 'Blackwater', abuse: 'Nisour Square Massacre - 17 Iraqi civilians killed', investigation: '4 contractors convicted of murder/manslaughter. Company rebranded, continued operations.' },
+  { company: 'CACI', abuse: 'Torture at Abu Ghraib prison', investigation: 'Contractors participated in prisoner abuse. No criminal charges filed against company or executives.' },
+  { company: 'DynCorp', abuse: '$2.1B missing equipment in Iraq', investigation: 'Lost weapons, vehicles, computers. State Dept Inspector General found "inadequate oversight."' },
+  { company: 'Fluor', abuse: '$1.3B Iraq reconstruction waste/fraud', investigation: 'SIGIR found extensive cost overruns, defective work, missing materials.' },
+  { company: 'Parsons Corporation', abuse: '$1B Iraq reconstruction failures', investigation: 'Hospitals, clinics that don\'t function. Schools without plumbing. Roads that collapse.' },
+]
+
+const foreignMilitarySales = [
+  { country: 'Saudi Arabia', sales2023: '$13.8B', topItems: 'F-15 fighters, Apache helicopters, Patriot missiles', controversy: 'Yemen war crimes, Khashoggi murder, 9/11 connections' },
+  { country: 'Israel', sales2023: '$3.8B', topItems: 'F-35 fighters, Iron Dome, Joint Direct Attack Munitions', controversy: 'Gaza civilian casualties, settlements, apartheid allegations' },
+  { country: 'Poland', sales2023: '$2.9B', topItems: 'HIMARS systems, Abrams tanks, Apache helicopters', controversy: 'Democratic backsliding, media restrictions' },
+  { country: 'Qatar', sales2023: '$2.1B', topItems: 'F-15EX fighters, air defense systems', controversy: 'World Cup worker deaths, Taliban ties, regional blockade' },
+  { country: 'Egypt', sales2023: '$1.9B', topItems: 'F-16 fighters, Abrams tanks, Harpoon missiles', controversy: 'Military dictatorship, political prisoners, human rights abuses' },
+  { country: 'India', sales2023: '$1.7B', topItems: 'Apache helicopters, C-130J transport aircraft', controversy: 'Kashmir crackdown, minority persecution, press freedom decline' },
+]
+
+const defenseContracts2024 = [
+  { contractor: 'Lockheed Martin', contractValue: '$71.9B', percentOfRevenue: '98%', majorPrograms: 'F-35 ($15.7B), Missiles/Fire Control ($13.1B), Space ($12.8B)' },
+  { contractor: 'Raytheon/RTX', contractValue: '$42.3B', percentOfRevenue: '58%', majorPrograms: 'Collins Aerospace ($24.1B), Raytheon Intelligence ($18.2B)' },
+  { contractor: 'General Dynamics', contractValue: '$24.7B', percentOfRevenue: '78%', majorPrograms: 'Electric Boat subs ($11.2B), Land Systems ($8.9B)' },
+  { contractor: 'Northrop Grumman', contractValue: '$35.8B', percentOfRevenue: '89%', majorPrograms: 'Aerospace ($15.2B), Defense Systems ($12.1B)' },
+  { contractor: 'Boeing Defense', contractValue: '$26.9B', percentOfRevenue: '41%', majorPrograms: 'KC-46 tanker ($8.7B), Apache ($4.2B), Navy programs ($6.8B)' },
+  { contractor: 'L3Harris', contractValue: '$18.2B', percentOfRevenue: '92%', majorPrograms: 'Communication Systems ($8.1B), Electronic Systems ($6.7B)' },
+]
+
+const executiveCompensation = [
+  { name: 'Jim Taiclet', company: 'Lockheed Martin', totalComp2024: '$30.2M', salary: '$1.7M', bonus: '$3.8M', stockAwards: '$24.7M', notes: 'Former airline CEO, now runs America\'s #1 weapons maker' },
+  { name: 'Chris Calio', company: 'Raytheon/RTX', totalComp2024: '$22.4M', salary: '$1.5M', bonus: '$3.1M', stockAwards: '$17.8M', notes: 'Former Bush admin official, Tomahawk missile profiteer' },
+  { name: 'Kathy Warden', company: 'Northrop Grumman', totalComp2024: '$23.5M', salary: '$1.6M', bonus: '$3.4M', stockAwards: '$18.5M', notes: 'Rare female defense CEO, B-21 bomber program manager' },
+  { name: 'Phebe Novakovic', company: 'General Dynamics', totalComp2024: '$22.8M', salary: '$1.6M', bonus: '$3.3M', stockAwards: '$17.9M', notes: 'Former CIA analyst, now submarine/tank profiteer' },
+  { name: 'Dave Calhoun', company: 'Boeing', totalComp2024: '$21.1M', salary: '$1.4M', bonus: '$2.8M', stockAwards: '$16.9M', notes: 'Oversaw 737 MAX crashes and KC-46 failures, still richly rewarded' },
+]
+
 export default function WarProfiteeringPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -279,6 +332,45 @@ export default function WarProfiteeringPage() {
           casualties) while massively increasing costs.
         </p>
 
+      </div>
+
+      {/* Lobbying Industrial Complex */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Lobbying Industrial Complex</h2>
+        <p className="text-stone-600 mb-6">
+          Defense contractors don&apos;t just make weapons — they make policy. In 2023, the top six defense contractors 
+          spent over $55 million on lobbying and employed 218 registered lobbyists. Many are former Pentagon officials, 
+          congressional staff, or military officers who use their connections to secure contracts.
+        </p>
+        <div className="bg-stone-800 rounded-lg p-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">Defense Lobbying Spending (2023)</h3>
+          <div className="space-y-3">
+            {lobbyingSpending.map(company => (
+              <div key={company.company} className="border border-stone-700 rounded-lg p-4">
+                <div className="flex justify-between items-start mb-2">
+                  <h4 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{company.company}</h4>
+                  <div className="text-right">
+                    <span className="text-red-400 font-bold text-xl">{company.spending2023}</span>
+                    <p className="text-stone-400 text-sm">{company.lobbyists} lobbyists</p>
+                  </div>
+                </div>
+                <div className="grid md:grid-cols-2 gap-3 text-sm">
+                  <div>
+                    <span className="text-stone-400">Primary Targets:</span>
+                    <p className="text-stone-300">{company.topTargets}</p>
+                  </div>
+                  <div>
+                    <span className="text-stone-400">Key Legislation:</span>
+                    <p className="text-stone-300">{company.keyLegislation}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">The Pentagon Has Never Passed an Audit</h2>
         <p>
           The Department of Defense is the only federal agency that has <strong>never passed a financial audit</strong>.
@@ -290,7 +382,88 @@ export default function WarProfiteeringPage() {
           traded company that couldn&apos;t produce auditable financials would be delisted. The Pentagon — which receives
           $886 billion per year of taxpayer money — simply shrugs and asks for more.
         </p>
+        <p>
+          The failed audits aren&apos;t just accounting problems — they&apos;re evidence of systemic corruption. When you can&apos;t 
+          track where $3.8 trillion went, it&apos;s because you don&apos;t want to. The Pentagon&apos;s accounting failures provide 
+          perfect cover for contractor fraud, cost overruns, and military-industrial complex profiteering.
+        </p>
+      </div>
 
+      {/* Executive Compensation Deep Dive */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">Executive Compensation: Obscene Rewards for Death Dealing</h2>
+        <p className="text-stone-600 mb-6">
+          Defense CEOs are among the highest-paid executives in America. Their compensation packages dwarf those of 
+          CEOs at companies that actually create value rather than destroy it. Here&apos;s what the merchants of death earned in 2024:
+        </p>
+        <div className="space-y-4">
+          {executiveCompensation.map(exec => (
+            <div key={exec.name} className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+              <div className="flex justify-between items-start mb-3">
+                <div>
+                  <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{exec.name}</h3>
+                  <p className="text-stone-400 text-sm">{exec.company}</p>
+                </div>
+                <span className="text-red-400 font-bold text-2xl">{exec.totalComp2024}</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-3 text-sm">
+                <div>
+                  <span className="text-stone-400">Base Salary</span>
+                  <p className="text-white">{exec.salary}</p>
+                </div>
+                <div>
+                  <span className="text-stone-400">Bonus</span>
+                  <p className="text-white">{exec.bonus}</p>
+                </div>
+                <div>
+                  <span className="text-stone-400">Stock Awards</span>
+                  <p className="text-white">{exec.stockAwards}</p>
+                </div>
+                <div>
+                  <span className="text-stone-400">Per Day</span>
+                  <p className="text-red-400 font-semibold">${(parseFloat(exec.totalComp2024.replace('$', '').replace('M', '')) * 1000000 / 365).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</p>
+                </div>
+              </div>
+              <p className="text-stone-400 text-sm mt-3">{exec.notes}</p>
+            </div>
+          ))}
+        </div>
+        <div className="bg-stone-100 rounded-lg p-4 mt-6">
+          <p className="text-stone-600 text-sm">
+            <strong>Reality check:</strong> These five executives earned a combined $120 million in 2024 — 
+            enough to pay the base salaries of 4,984 E-1 Privates. The people who actually risk their lives 
+            earn less than 1/1000th of what the people who profit from their risk earn.
+          </p>
+        </div>
+      </section>
+
+      {/* Hall of Shame */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Hall of Shame: Canceled Programs That Enriched Contractors</h2>
+        <p className="text-stone-600 mb-6">
+          The defense industry&apos;s dirty secret: canceled programs are as profitable as successful ones. When the 
+          Pentagon cancels a program after spending billions, contractors keep the money. Failure is rewarded. 
+          Taxpayers get nothing. Here are some of the worst examples:
+        </p>
+        <div className="space-y-4">
+          {wasteExamples.map(waste => (
+            <div key={waste.program} className="bg-red-50 border-l-4 border-red-600 p-5 rounded-r-lg">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-800 mb-2">{waste.program}</h3>
+              <p className="text-red-700 font-semibold mb-2">{waste.waste}</p>
+              <p className="text-stone-600 text-sm">{waste.details}</p>
+            </div>
+          ))}
+        </div>
+        <div className="bg-stone-100 rounded-lg p-4 mt-6">
+          <p className="text-stone-600 text-sm">
+            <strong>Total waste from just these six programs:</strong> $33.1 billion. Contractors were paid in full. 
+            American taxpayers got nothing but debt. This is just a small sample — the Pentagon has canceled hundreds 
+            of programs after spending trillions.
+          </p>
+        </div>
+      </section>
+
+      <div className="prose prose-stone max-w-none">
         <blockquote className="border-l-4 border-red-600">
           <p>&ldquo;War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely
           the most vicious. It is the only one international in scope. It is the only one in which the profits are
@@ -315,14 +488,91 @@ export default function WarProfiteeringPage() {
           do anything about it.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The Iran War: Profit Projections</h2>
+        <p>
+          <Link href="/analysis/aipac-war-machine" className="text-red-600 hover:text-red-700">The push for war with Iran</Link> isn&apos;t 
+          just geopolitical — it&apos;s financial. Defense contractors are already counting the profits from what could be the most 
+          expensive war in American history. Here&apos;s what they stand to gain:
+        </p>
+        <ul>
+          <li><strong>Raytheon:</strong> Tomahawk missiles ($2M each), Patriot systems, air defense — projected $50-100B in Iran war contracts</li>
+          <li><strong>Lockheed Martin:</strong> F-35 combat missions, THAAD systems, satellite intelligence — projected $80-150B</li>
+          <li><strong>Northrop Grumman:</strong> B-21 bomber missions, Global Hawk surveillance, cyber warfare — projected $40-80B</li>
+          <li><strong>General Dynamics:</strong> Nuclear submarine operations, IT systems, ground vehicles — projected $30-60B</li>
+          <li><strong>Boeing:</strong> KC-46 tanker operations, Apache helicopters, munitions — projected $25-50B</li>
+        </ul>
+        <p>
+          A full-scale Iran war could generate <strong>$225-540 billion</strong> in defense contractor revenue over 5-10 years. 
+          That&apos;s why <Link href="/analysis/undeclared-wars" className="text-red-600 hover:text-red-700">presidents can start wars unilaterally</Link> — 
+          the military-industrial complex has captured both parties.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">The Solution: Nationalize Defense Production</h2>
+        <p>
+          The military-industrial complex exists because we&apos;ve privatized the production of weapons while socializing 
+          the costs. The solution is obvious: <strong>nationalize defense production</strong>. If we need weapons for 
+          national defense, produce them in government arsenals with government employees at cost.
+        </p>
+        <p>
+          This isn&apos;t radical — it&apos;s how America won World War II. Government factories produced most of the planes, 
+          tanks, ships, and munitions that defeated fascism. Private contractors played a supporting role, not the dominant 
+          one they play today.
+        </p>
+        <p>
+          Nationalizing defense production would:
+        </p>
+        <ul>
+          <li>Eliminate cost-plus profiteering</li>
+          <li>End the revolving door between Pentagon and contractors</li>
+          <li>Remove the political pressure to start wars for profit</li>
+          <li>Reduce weapon costs by 50-80% (no profit margin)</li>
+          <li>Focus on defense rather than offense</li>
+          <li>Make <Link href="/analysis/what-could-we-buy" className="text-red-600 hover:text-red-700">hundreds of billions available for domestic priorities</Link></li>
+        </ul>
+
         <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
         <ul>
-          <li><Link href="/analysis/military-industrial-complex">The Military-Industrial Complex</Link></li>
-          <li><Link href="/analysis/cost-of-iran">What Will Iran Cost?</Link></li>
-          <li><Link href="/analysis/what-could-we-buy">What $11.6 Trillion Could Have Bought Instead</Link></li>
-          <li><Link href="/analysis/jobs-vs-war">Jobs vs. War</Link></li>
-          <li><Link href="/analysis/private-armies">Private Armies</Link></li>
+          <li><Link href="/analysis/what-could-we-buy" className="text-red-600 hover:text-red-700">What $11.6 Trillion Could Have Bought Instead</Link></li>
+          <li><Link href="/analysis/aipac-war-machine" className="text-red-600 hover:text-red-700">AIPAC & War Machine: Who Pushes for War</Link></li>
+          <li><Link href="/analysis/undeclared-wars" className="text-red-600 hover:text-red-700">Undeclared Wars: Presidents Bypass Congress</Link></li>
+          <li><Link href="/analysis/cost-of-empire" className="text-red-600 hover:text-red-700">Cost of Empire: $1.3 Trillion Per Year</Link></li>
+          <li><Link href="/analysis/draft-and-inequality" className="text-red-600 hover:text-red-700">Draft & Inequality: Who Fights America&apos;s Wars</Link></li>
+          <li><Link href="/analysis/base-nation" className="text-red-600 hover:text-red-700">Base Nation: 800+ Military Bases Worldwide</Link></li>
+          <li><Link href="/conflicts/" className="text-red-600 hover:text-red-700">Conflicts Database: Every US War Since 1775</Link></li>
         </ul>
+
+        <div className="bg-stone-900 border border-stone-700 rounded-lg p-6 my-8">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">💡 The Bottom Line</h3>
+          <div className="space-y-4">
+            <div className="flex items-start gap-3">
+              <span className="text-2xl">💰</span>
+              <div>
+                <p className="text-stone-300">
+                  <strong className="text-white">Defense stocks up 1,000%+ since 9/11</strong> while soldier pay stagnated.
+                  CEO compensation: $22-30M annually. E-1 Private: $24K annually. War is the best investment in America.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-2xl">🔄</span>
+              <div>
+                <p className="text-stone-300">
+                  <strong className="text-white">672 Pentagon officials became defense lobbyists.</strong> The revolving door 
+                  between Pentagon and contractors ensures profitable wars continue indefinitely.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-2xl">📈</span>
+              <div>
+                <p className="text-stone-300">
+                  <strong className="text-white">Iran war projected to generate $225-540B</strong> for defense contractors.
+                  Every missile, every bombing run, every deployment is somebody&apos;s payday.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <BackToTop />

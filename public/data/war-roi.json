@@ -1,0 +1,650 @@
+[
+  {
+    "name": "World War I",
+    "slug": "world-war-i",
+    "grade": "D",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 380000000000,
+    "costPerYear": 190000000000,
+    "costPerDeath": 57432,
+    "deaths": {
+      "us": 116516,
+      "civilian": 6500000,
+      "total": 6616516
+    },
+    "duration": 2,
+    "outcome": "Victory (Allied)",
+    "humanCostScore": 3308258
+  },
+  {
+    "name": "War in Afghanistan",
+    "slug": "afghanistan",
+    "grade": "D",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 2300000000000,
+    "costPerYear": 109523809524,
+    "costPerDeath": 12887970,
+    "deaths": {
+      "us": 2461,
+      "civilian": 176000,
+      "total": 178461
+    },
+    "duration": 21,
+    "outcome": "Defeat",
+    "humanCostScore": 8498
+  },
+  {
+    "name": "Iraq War",
+    "slug": "iraq-war",
+    "grade": "D",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 2000000000000,
+    "costPerYear": 222222222222,
+    "costPerDeath": 6566010,
+    "deaths": {
+      "us": 4599,
+      "civilian": 300000,
+      "total": 304599
+    },
+    "duration": 9,
+    "outcome": "Pyrrhic victory / Strategic defeat",
+    "humanCostScore": 33844
+  },
+  {
+    "name": "War Against ISIS",
+    "slug": "isis-iraq-syria",
+    "grade": "D",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 115000000000,
+    "costPerYear": 115000000000,
+    "costPerDeath": 8783319,
+    "deaths": {
+      "us": 93,
+      "civilian": 13000,
+      "total": 13093
+    },
+    "duration": 1,
+    "outcome": "Partial Victory",
+    "humanCostScore": 13093
+  },
+  {
+    "name": "Korean War",
+    "slug": "korean-war",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 389000000000,
+    "costPerYear": 97250000000,
+    "costPerDeath": 191007,
+    "deaths": {
+      "us": 36574,
+      "civilian": 2000000,
+      "total": 2036574
+    },
+    "duration": 4,
+    "outcome": "Stalemate / Armistice",
+    "humanCostScore": 509144
+  },
+  {
+    "name": "Vietnam War",
+    "slug": "vietnam-war",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 1000000000000,
+    "costPerYear": 47619047619,
+    "costPerDeath": 485857,
+    "deaths": {
+      "us": 58220,
+      "civilian": 2000000,
+      "total": 2058220
+    },
+    "duration": 21,
+    "outcome": "Defeat",
+    "humanCostScore": 98010
+  },
+  {
+    "name": "Global War on Terror (Other Operations)",
+    "slug": "post-911-global",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 60000000000,
+    "costPerYear": 60000000000,
+    "costPerDeath": 109090909,
+    "deaths": {
+      "us": 50,
+      "civilian": 500,
+      "total": 550
+    },
+    "duration": 1,
+    "outcome": "Ongoing",
+    "humanCostScore": 550
+  },
+  {
+    "name": "Global Drone Campaign",
+    "slug": "drone-wars",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 30000000000,
+    "costPerYear": 30000000000,
+    "costPerDeath": 1363636,
+    "deaths": {
+      "us": 0,
+      "civilian": 22000,
+      "total": 22000
+    },
+    "duration": 1,
+    "outcome": "Ongoing",
+    "humanCostScore": 22000
+  },
+  {
+    "name": "Somalia (AFRICOM Operations)",
+    "slug": "somalia-ongoing",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 4500000000,
+    "costPerYear": 4500000000,
+    "costPerDeath": 28481013,
+    "deaths": {
+      "us": 8,
+      "civilian": 150,
+      "total": 158
+    },
+    "duration": 1,
+    "outcome": "Ongoing",
+    "humanCostScore": 158
+  },
+  {
+    "name": "Niger & Sahel Operations",
+    "slug": "niger-sahel",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 600000000,
+    "costPerYear": 50000000,
+    "costPerDeath": 150000000,
+    "deaths": {
+      "us": 4,
+      "civilian": 0,
+      "total": 4
+    },
+    "duration": 12,
+    "outcome": "Withdrawal",
+    "humanCostScore": 0
+  },
+  {
+    "name": "Ukraine Military Support",
+    "slug": "ukraine-support",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 66900000000,
+    "costPerYear": 66900000000,
+    "costPerDeath": 0,
+    "deaths": {
+      "us": 0,
+      "civilian": 0,
+      "total": 0
+    },
+    "duration": 1,
+    "outcome": "Ongoing",
+    "humanCostScore": 0
+  },
+  {
+    "name": "Red Sea / Houthi Campaign",
+    "slug": "red-sea-houthis",
+    "grade": "C",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 4600000000,
+    "costPerYear": 1533333333,
+    "costPerDeath": 153333333,
+    "deaths": {
+      "us": 0,
+      "civilian": 30,
+      "total": 30
+    },
+    "duration": 3,
+    "outcome": "Ceasefire",
+    "humanCostScore": 10
+  },
+  {
+    "name": "War of 1812",
+    "slug": "war-of-1812",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 1800000000,
+    "costPerYear": 450000000,
+    "costPerDeath": 120000,
+    "deaths": {
+      "us": 15000,
+      "civilian": 0,
+      "total": 15000
+    },
+    "duration": 4,
+    "outcome": "Inconclusive / Status Quo",
+    "humanCostScore": 3750
+  },
+  {
+    "name": "World War II",
+    "slug": "world-war-ii",
+    "grade": "B",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 4800000000000,
+    "costPerYear": 960000000000,
+    "costPerDeath": 95228,
+    "deaths": {
+      "us": 405399,
+      "civilian": 50000000,
+      "total": 50405399
+    },
+    "duration": 5,
+    "outcome": "Victory (Allied)",
+    "humanCostScore": 10081080
+  },
+  {
+    "name": "Bay of Pigs Invasion",
+    "slug": "bay-of-pigs",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 460000000,
+    "costPerYear": 460000000,
+    "costPerDeath": 2555556,
+    "deaths": {
+      "us": 4,
+      "civilian": 176,
+      "total": 180
+    },
+    "duration": 1,
+    "outcome": "Defeat",
+    "humanCostScore": 180
+  },
+  {
+    "name": "Gulf War (Desert Storm)",
+    "slug": "gulf-war",
+    "grade": "B",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 136000000000,
+    "costPerYear": 68000000000,
+    "costPerDeath": 35024466,
+    "deaths": {
+      "us": 383,
+      "civilian": 3500,
+      "total": 3883
+    },
+    "duration": 2,
+    "outcome": "Victory",
+    "humanCostScore": 1942
+  },
+  {
+    "name": "Somalia Intervention",
+    "slug": "somalia",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 3300000000,
+    "costPerYear": 1100000000,
+    "costPerDeath": 3163950,
+    "deaths": {
+      "us": 43,
+      "civilian": 1000,
+      "total": 1043
+    },
+    "duration": 3,
+    "outcome": "Withdrawal",
+    "humanCostScore": 348
+  },
+  {
+    "name": "Bosnia Intervention",
+    "slug": "bosnia",
+    "grade": "B",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 35000000000,
+    "costPerYear": 3500000000,
+    "costPerDeath": 68359375,
+    "deaths": {
+      "us": 12,
+      "civilian": 500,
+      "total": 512
+    },
+    "duration": 10,
+    "outcome": "Dayton Accords",
+    "humanCostScore": 51
+  },
+  {
+    "name": "Kosovo War (NATO Bombing)",
+    "slug": "kosovo",
+    "grade": "B",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 10000000000,
+    "costPerYear": 5000000000,
+    "costPerDeath": 19920319,
+    "deaths": {
+      "us": 2,
+      "civilian": 500,
+      "total": 502
+    },
+    "duration": 2,
+    "outcome": "Objective Met",
+    "humanCostScore": 251
+  },
+  {
+    "name": "Libya Intervention",
+    "slug": "libya",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 1500000000,
+    "costPerYear": 1500000000,
+    "costPerDeath": 50000,
+    "deaths": {
+      "us": 0,
+      "civilian": 30000,
+      "total": 30000
+    },
+    "duration": 1,
+    "outcome": "Regime change / State collapse",
+    "humanCostScore": 30000
+  },
+  {
+    "name": "Syrian Civil War Intervention",
+    "slug": "syria",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 30000000000,
+    "costPerYear": 2500000000,
+    "costPerDeath": 2495425,
+    "deaths": {
+      "us": 22,
+      "civilian": 12000,
+      "total": 12022
+    },
+    "duration": 12,
+    "outcome": "Ongoing / ISIS territorial defeat",
+    "humanCostScore": 1002
+  },
+  {
+    "name": "Yemen War (Saudi Support)",
+    "slug": "yemen",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 10000000000,
+    "costPerYear": 909090909,
+    "costPerDeath": 66666,
+    "deaths": {
+      "us": 2,
+      "civilian": 150000,
+      "total": 150002
+    },
+    "duration": 11,
+    "outcome": "Ongoing humanitarian catastrophe",
+    "humanCostScore": 13637
+  },
+  {
+    "name": "Iran War (2026)",
+    "slug": "iran-2026",
+    "grade": "B",
+    "objectivesMet": false,
+    "objectivesMetRatio": 0,
+    "cost": 3600000000,
+    "costPerYear": 3600000000,
+    "costPerDeath": 2690583,
+    "deaths": {
+      "us": 6,
+      "civilian": 1332,
+      "total": 1338
+    },
+    "duration": 1,
+    "outcome": "Developing",
+    "humanCostScore": 1338
+  },
+  {
+    "name": "American Revolutionary War",
+    "slug": "revolutionary-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 2400000000,
+    "costPerYear": 266666667,
+    "costPerDeath": 96000,
+    "deaths": {
+      "us": 25000,
+      "civilian": 0,
+      "total": 25000
+    },
+    "duration": 9,
+    "outcome": "Victory",
+    "humanCostScore": 2778
+  },
+  {
+    "name": "Quasi-War with France",
+    "slug": "quasi-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 160000000,
+    "costPerYear": 53333333,
+    "costPerDeath": 311284,
+    "deaths": {
+      "us": 514,
+      "civilian": 0,
+      "total": 514
+    },
+    "duration": 3,
+    "outcome": "Treaty / Inconclusive",
+    "humanCostScore": 171
+  },
+  {
+    "name": "First Barbary War",
+    "slug": "barbary-wars",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 80000000,
+    "costPerYear": 16000000,
+    "costPerDeath": 2285714,
+    "deaths": {
+      "us": 35,
+      "civilian": 0,
+      "total": 35
+    },
+    "duration": 5,
+    "outcome": "Victory",
+    "humanCostScore": 7
+  },
+  {
+    "name": "Mexican-American War",
+    "slug": "mexican-american-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 2500000000,
+    "costPerYear": 833333333,
+    "costPerDeath": 65303,
+    "deaths": {
+      "us": 13283,
+      "civilian": 25000,
+      "total": 38283
+    },
+    "duration": 3,
+    "outcome": "Victory",
+    "humanCostScore": 12761
+  },
+  {
+    "name": "American Civil War",
+    "slug": "civil-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 80000000000,
+    "costPerYear": 16000000000,
+    "costPerDeath": 192998,
+    "deaths": {
+      "us": 364511,
+      "civilian": 50000,
+      "total": 414511
+    },
+    "duration": 5,
+    "outcome": "Victory (Union)",
+    "humanCostScore": 82902
+  },
+  {
+    "name": "Spanish-American War",
+    "slug": "spanish-american-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 9600000000,
+    "costPerYear": 9600000000,
+    "costPerDeath": 3924775,
+    "deaths": {
+      "us": 2446,
+      "civilian": 0,
+      "total": 2446
+    },
+    "duration": 1,
+    "outcome": "Victory",
+    "humanCostScore": 2446
+  },
+  {
+    "name": "Philippine-American War",
+    "slug": "philippine-american-war",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 14000000000,
+    "costPerYear": 3500000000,
+    "costPerDeath": 55076,
+    "deaths": {
+      "us": 4196,
+      "civilian": 250000,
+      "total": 254196
+    },
+    "duration": 4,
+    "outcome": "Victory (US)",
+    "humanCostScore": 63549
+  },
+  {
+    "name": "Iranian Coup (Operation Ajax)",
+    "slug": "iran-1953",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 11000000,
+    "costPerYear": 11000000,
+    "costPerDeath": 36667,
+    "deaths": {
+      "us": 0,
+      "civilian": 300,
+      "total": 300
+    },
+    "duration": 1,
+    "outcome": "Regime change",
+    "humanCostScore": 300
+  },
+  {
+    "name": "Guatemalan Coup",
+    "slug": "guatemala-1954",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 33000000,
+    "costPerYear": 33000000,
+    "costPerDeath": 165,
+    "deaths": {
+      "us": 0,
+      "civilian": 200000,
+      "total": 200000
+    },
+    "duration": 1,
+    "outcome": "Regime change",
+    "humanCostScore": 200000
+  },
+  {
+    "name": "Dominican Republic Intervention",
+    "slug": "dominican-republic-1965",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 2800000000,
+    "costPerYear": 1400000000,
+    "costPerDeath": 919842,
+    "deaths": {
+      "us": 44,
+      "civilian": 3000,
+      "total": 3044
+    },
+    "duration": 2,
+    "outcome": "Regime installed",
+    "humanCostScore": 1522
+  },
+  {
+    "name": "Chilean Coup Support",
+    "slug": "chile-1973",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 80000000,
+    "costPerYear": 20000000,
+    "costPerDeath": 25000,
+    "deaths": {
+      "us": 0,
+      "civilian": 3200,
+      "total": 3200
+    },
+    "duration": 4,
+    "outcome": "Regime change",
+    "humanCostScore": 800
+  },
+  {
+    "name": "Invasion of Grenada",
+    "slug": "grenada",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 400000000,
+    "costPerYear": 400000000,
+    "costPerDeath": 9302326,
+    "deaths": {
+      "us": 19,
+      "civilian": 24,
+      "total": 43
+    },
+    "duration": 1,
+    "outcome": "Victory",
+    "humanCostScore": 43
+  },
+  {
+    "name": "Invasion of Panama",
+    "slug": "panama",
+    "grade": "A",
+    "objectivesMet": true,
+    "objectivesMetRatio": 1,
+    "cost": 400000000,
+    "costPerYear": 200000000,
+    "costPerDeath": 764818,
+    "deaths": {
+      "us": 23,
+      "civilian": 500,
+      "total": 523
+    },
+    "duration": 2,
+    "outcome": "Victory",
+    "humanCostScore": 262
+  }
+]

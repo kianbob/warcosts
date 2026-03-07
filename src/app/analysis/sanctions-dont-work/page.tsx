@@ -316,6 +316,293 @@ export default function SanctionsDontWorkPage() {
         </p>
       </div>
 
+      {/* The Sanctions Machinery */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Sanctions Machine: How OFAC Controls the Global Economy</h2>
+        <p className="text-stone-300 mb-4">
+          The Office of Foreign Assets Control (OFAC) — a 200-person agency tucked inside the Treasury Department — 
+          wields more power over the global economy than any other organization on Earth. With a few keystrokes, 
+          OFAC can freeze billions in assets, destroy entire industries, and cut countries off from the international 
+          financial system. And it operates with virtually no oversight.
+        </p>
+        
+        <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4 mb-4">
+          <h3 className="text-red-400 font-semibold mb-2">OFAC by the Numbers</h3>
+          <div className="grid md:grid-cols-2 gap-4 text-sm text-stone-300">
+            <div>
+              <ul className="space-y-1">
+                <li>• <strong>$42 billion</strong> in assets frozen globally</li>
+                <li>• <strong>12,000+</strong> individuals/entities on SDN list</li>
+                <li>• <strong>40+</strong> active sanctions programs</li>
+                <li>• <strong>$3.7 billion</strong> in fines collected (2023)</li>
+              </ul>
+            </div>
+            <div>
+              <ul className="space-y-1">
+                <li>• <strong>200</strong> OFAC staff members</li>
+                <li>• <strong>50,000+</strong> banks worldwide must comply</li>
+                <li>• <strong>$50+ billion</strong> annual compliance costs</li>
+                <li>• <strong>Zero</strong> congressional oversight of day-to-day operations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-stone-300 mb-4">
+          OFAC&apos;s power derives from the dollar&apos;s dominance in global finance. Because most international 
+          transactions flow through US banks or use US dollars, American sanctions have global reach. A Chinese 
+          company buying Iranian oil with euros through a European bank can still be sanctioned by OFAC — because 
+          the transaction might touch a US correspondent bank somewhere in the chain.
+        </p>
+        
+        <div className="bg-stone-800/50 rounded p-4">
+          <h3 className="text-white font-semibold mb-2">The Compliance Industry</h3>
+          <p className="text-stone-300 text-sm mb-2">
+            US sanctions created an entire industry: sanctions compliance. Major banks employ thousands of compliance 
+            officers whose sole job is ensuring they don&apos;t accidentally process sanctioned transactions.
+          </p>
+          <div className="grid md:grid-cols-2 gap-3 text-stone-300 text-sm">
+            <div>
+              <p><strong>JPMorgan Chase:</strong> 4,000+ compliance staff</p>
+              <p><strong>Bank of America:</strong> 3,500+ compliance staff</p>
+              <p><strong>Wells Fargo:</strong> 3,000+ compliance staff</p>
+            </div>
+            <div>
+              <p><strong>Annual cost:</strong> $50+ billion globally</p>
+              <p><strong>Software vendors:</strong> $2+ billion market</p>
+              <p><strong>Consultants:</strong> Big 4 firms all have sanctions practices</p>
+            </div>
+          </div>
+          <p className="text-stone-400 text-xs mt-2">
+            These compliance costs are passed on to consumers through higher banking fees. Everyone pays for America&apos;s sanctions.
+          </p>
+        </div>
+      </div>
+
+      {/* More Case Studies */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">More Case Studies: The Pattern Never Changes</h2>
+        
+        <div className="space-y-6">
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-semibold text-lg">Myanmar (2021-present)</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              <strong>Goal:</strong> Restore democracy after military coup<br/>
+              <strong>Result:</strong> Military junta consolidated power, crackdown intensified<br/>
+              <strong>Civilian cost:</strong> Economy collapsed 20%, 2.6 million internally displaced, 
+              civil war ongoing. Healthcare system destroyed — tuberculosis and HIV treatment stopped. 
+              Banking system paralyzed — people can&apos;t access their own savings.
+            </p>
+            <p className="text-stone-400 text-sm">
+              <strong>Leadership impact:</strong> Military generals control jade mines, timber exports, and smuggling networks. 
+              Their wealth is untouchable. Sanctions gave them an excuse to crush dissent &ldquo;to defend against foreign interference.&rdquo;
+            </p>
+          </div>
+
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-semibold text-lg">Syria (2011-present)</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              <strong>Goal:</strong> Force Assad from power, end civil war<br/>
+              <strong>Result:</strong> Assad won the civil war, remains in power, now seeking normalization<br/>
+              <strong>Civilian cost:</strong> 350,000+ dead, 6.8 million refugees, 6.7 million internally displaced. 
+              Economy shrank 85%. Reconstruction impossible due to sanctions — Syrians live in ruins.
+            </p>
+            <p className="text-stone-400 text-sm">
+              <strong>Leadership impact:</strong> Assad and his family live in palaces. Business elite profited from war economy. 
+              Iran and Russia provided alternative financial systems. The war devastated Syria; sanctions prevented recovery.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-semibold text-lg">Belarus (2020-present)</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              <strong>Goal:</strong> Force democratic elections after disputed 2020 election<br/>
+              <strong>Result:</strong> Lukashenko crushed protests, opposition fled to exile, closer ties with Russia<br/>
+              <strong>Civilian cost:</strong> Unemployment spiked 40%. IT sector — Belarus&apos;s Silicon Valley — devastated 
+              as companies relocated. Young professionals emigrated en masse.
+            </p>
+            <p className="text-stone-400 text-sm">
+              <strong>Leadership impact:</strong> Lukashenko turned to Putin for economic support. Russian subsidies replaced Western trade. 
+              The sanctions drove Belarus deeper into Russia&apos;s orbit — the opposite of the intended effect.
+            </p>
+          </div>
+
+          <div className="border-l-4 border-red-600 pl-4">
+            <h3 className="text-white font-semibold text-lg">Afghanistan (2021-present)</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              <strong>Goal:</strong> Pressure Taliban on women&apos;s rights, counterterrorism cooperation<br/>
+              <strong>Result:</strong> Taliban banned women from work, education. Al-Qaeda returned. ISIS-K active.<br/>
+              <strong>Civilian cost:</strong> 28 million people need humanitarian assistance. 1.1 million children 
+              acutely malnourished. Healthcare system collapsed — maternal mortality spiked 25%.
+            </p>
+            <p className="text-stone-400 text-sm">
+              <strong>Leadership impact:</strong> Taliban leadership lives comfortably while enforcing increasingly harsh restrictions. 
+              External pressure gave hardliners ammunition to justify oppressing women &ldquo;to resist foreign interference.&rdquo;
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Secondary Sanctions */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Secondary Sanctions: When America Sanctions Its Own Allies</h2>
+        <p className="text-stone-300 mb-4">
+          Primary sanctions target the &ldquo;bad guys.&rdquo; Secondary sanctions target anyone who does business with the bad guys — 
+          including US allies. This extraterritorial overreach has created massive friction with friendly countries and businesses.
+        </p>
+
+        <div className="space-y-4">
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-1">European Companies Punished</h3>
+            <p className="text-sm text-stone-300 mb-2">
+              <strong>BNP Paribas (France):</strong> Fined $8.9 billion for processing Iranian transactions that were legal under EU law<br/>
+              <strong>Deutsche Bank (Germany):</strong> Fined $7.2 billion for correspondent banking with sanctioned entities<br/>
+              <strong>ING (Netherlands):</strong> Fined $619 million for Iranian/Cuban transactions legal in Europe<br/>
+              <strong>Standard Chartered (UK):</strong> Fined $1.1 billion for Iran sanctions violations
+            </p>
+            <p className="text-stone-400 text-xs">
+              These banks followed their own countries&apos; laws but violated US laws. America fined them anyway, 
+              asserting global jurisdiction over any transaction that touched US financial system.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-1">Energy Sector Chaos</h3>
+            <p className="text-sm text-stone-300 mb-2">
+              <strong>Nord Stream 2:</strong> US sanctioned German companies building pipeline on German territory with Russian gas. 
+              Germany called it a violation of sovereignty.<br/>
+              <strong>TurkStream:</strong> US threatened sanctions on Turkish companies for pipeline project that Turkey considers vital to energy security.<br/>
+              <strong>South Pars:</strong> Total (France), Shell (Netherlands), and Eni (Italy) all abandoned Iranian gas projects due to US threats.
+            </p>
+            <p className="text-stone-400 text-xs">
+              US sanctions forced allies to abandon energy projects worth hundreds of billions. European energy security was subordinated to US foreign policy.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-1">The INSTEX Rebellion</h3>
+            <p className="text-sm text-stone-300 mb-2">
+              In 2019, Germany, France, and Britain created INSTEX — a payment mechanism to trade with Iran while avoiding US sanctions. 
+              It was supposed to preserve the Iran nuclear deal after Trump&apos;s withdrawal. 
+              <strong>Result:</strong> INSTEX processed exactly zero significant transactions. US secondary sanctions made it unusable.
+            </p>
+            <p className="text-stone-400 text-xs">
+              Even America&apos;s closest allies couldn&apos;t escape US financial dominance. European sovereignty was meaningless.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Sanctions Evasion Networks */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The $2 Trillion Shadow Economy</h2>
+        <p className="text-stone-300 mb-4">
+          Sanctions don&apos;t eliminate trade — they drive it underground. The result is a massive global shadow economy 
+          where sanctioned countries trade through shell companies, cryptocurrency, gold, and barter systems. This shadow economy 
+          is estimated at over $2 trillion annually and growing.
+        </p>
+
+        <div className="space-y-4">
+          <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4">
+            <h3 className="text-red-400 font-semibold mb-2">Iran&apos;s Sanctions Evasion Playbook</h3>
+            <div className="grid md:grid-cols-2 gap-4 text-sm text-stone-300">
+              <div>
+                <p><strong>Oil exports:</strong> Ship-to-ship transfers in international waters, fake documents, front companies</p>
+                <p><strong>Banking:</strong> Cryptocurrency, hawala networks, gold trading, barter arrangements</p>
+                <p><strong>Technology:</strong> Import through Dubai, Turkey, Malaysia using shell companies</p>
+              </div>
+              <div>
+                <p><strong>Revenue:</strong> $50+ billion annually despite &ldquo;maximum pressure&rdquo;</p>
+                <p><strong>Partners:</strong> China (largest customer), Russia, Venezuela, North Korea</p>
+                <p><strong>Methods:</strong> Ghost tankers, digital currencies, precious metals</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-2">The Cryptocurrency Revolution</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              Sanctioned countries are among the world&apos;s largest cryptocurrency adopters. Why? Crypto transactions 
+              are borderless, pseudonymous, and don&apos;t require traditional banking. North Korea has stolen $3+ billion 
+              in cryptocurrency. Iran mines Bitcoin to sell on global markets. Russia is building state-sponsored crypto systems.
+            </p>
+            <p className="text-stone-400 text-xs">
+              The US Treasury is now trying to sanction cryptocurrency addresses — a technologically impossible task that shows how little policymakers understand the systems they&apos;re trying to control.
+            </p>
+          </div>
+
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-2">China: The Sanctions Superstore</h3>
+            <p className="text-stone-300 text-sm mb-2">
+              China has become the world&apos;s largest sanctions-evading hub. Chinese companies import sanctioned oil, 
+              export banned technology, and provide financial services to sanctioned entities. China&apos;s position is simple: 
+              we don&apos;t recognize unilateral US sanctions. Only UN Security Council sanctions are legitimate.
+            </p>
+            <p className="text-stone-400 text-xs">
+              As the world&apos;s second-largest economy, China provides sanctioned countries with everything they need. US sanctions become unilateral trade restrictions rather than multilateral pressure.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Historical Evolution */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">From Trading with the Enemy to Financial Warfare</h2>
+        <p className="text-stone-300 mb-4">
+          US sanctions began during World War I as &ldquo;Trading with the Enemy Act&rdquo; — a wartime emergency measure. 
+          Over a century, they evolved into the primary tool of American foreign policy. The transformation shows how 
+          emergency powers become permanent, and how narrow wartime authorities expand into peacetime control.
+        </p>
+
+        <div className="space-y-3">
+          <div className="border-l-4 border-stone-600 pl-4">
+            <h4 className="text-white font-semibold">1917: Trading with the Enemy Act</h4>
+            <p className="text-stone-300 text-sm">Emergency wartime legislation to prevent trade with Germany and Austria-Hungary. 
+            Limited to actual wartime with actual enemies.</p>
+          </div>
+
+          <div className="border-l-4 border-stone-600 pl-4">
+            <h4 className="text-white font-semibold">1950: Korea and the Cold War</h4>
+            <p className="text-stone-300 text-sm">Truman used emergency powers to freeze Chinese assets during Korean War. 
+            First use of sanctions against communist countries. Set precedent for ideological sanctions.</p>
+          </div>
+
+          <div className="border-l-4 border-stone-600 pl-4">
+            <h4 className="text-white font-semibold">1977: International Emergency Economic Powers Act (IEEPA)</h4>
+            <p className="text-stone-300 text-sm">Created legal framework for presidential sanctions powers. Presidents can 
+            declare &ldquo;national emergencies&rdquo; and impose sanctions with minimal oversight. 
+            <strong>Every sanctions program since 1977 uses IEEPA.</strong></p>
+          </div>
+
+          <div className="border-l-4 border-stone-600 pl-4">
+            <h4 className="text-white font-semibold">2001: USA PATRIOT Act</h4>
+            <p className="text-stone-300 text-sm">Post-9/11 legislation gave Treasury unprecedented powers to freeze assets, 
+            force banks to close accounts, and investigate transactions. Section 311 allows Treasury to designate foreign 
+            banks as &ldquo;money laundering concerns&rdquo; — a death sentence for international banks.</p>
+          </div>
+
+          <div className="border-l-4 border-stone-600 pl-4">
+            <h4 className="text-white font-semibold">2010s: Secondary Sanctions Revolution</h4>
+            <p className="text-stone-300 text-sm">US began sanctioning foreign companies for trading with sanctioned countries. 
+            Turned American banks into global enforcement agents. Any transaction touching US financial system became subject to US law.</p>
+          </div>
+
+          <div className="border-l-4 border-red-600 pl-4">
+            <h4 className="text-red-400 font-semibold">2020s: Weaponized Finance</h4>
+            <p className="text-stone-300 text-sm">Russia sanctions froze $300+ billion in foreign reserves — showing that 
+            even central bank assets aren&apos;t safe. Sanctions now target entire financial systems, not just individuals or companies.</p>
+          </div>
+        </div>
+
+        <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4 mt-4">
+          <p className="text-stone-300 text-sm">
+            <strong>The pattern:</strong> Each crisis expands sanctions powers. Each expansion becomes permanent. 
+            What began as wartime trade restrictions became a global financial surveillance and control system operated 
+            by the US Treasury with minimal oversight.
+          </p>
+        </div>
+      </div>
+
       {/* Unintended Consequences */}
       <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Unintended Consequences</h2>
@@ -353,6 +640,22 @@ export default function SanctionsDontWorkPage() {
               In practice, banks refuse to process any transactions with sanctioned countries for fear of
               penalties. This &ldquo;over-compliance&rdquo; means humanitarian goods never arrive. The
               exemptions exist on paper; they don&apos;t exist in reality.
+            </p>
+          </div>
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-1">Creating Black Markets</h3>
+            <p className="text-sm text-stone-300">
+              Sanctions don&apos;t eliminate demand — they criminalize supply. This creates massive black market 
+              premiums and enriches smugglers, money launderers, and organized crime networks. Iran&apos;s oil 
+              trades at $10-20 below market price, but sanctions evaders capture the margin. Crime pays, literally.
+            </p>
+          </div>
+          <div className="bg-stone-800/50 rounded p-4">
+            <h3 className="text-white font-semibold mb-1">Innovation in Authoritarian Finance</h3>
+            <p className="text-sm text-stone-300">
+              Sanctions force target countries to innovate around the US financial system. Russia developed 
+              alternative payment systems (SPFS, Mir cards). China built CIPS for yuan transactions. Iran uses 
+              crypto mining to generate hard currency. These innovations reduce global dependence on US systems.
             </p>
           </div>
         </div>

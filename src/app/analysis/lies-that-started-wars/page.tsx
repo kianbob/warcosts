@@ -30,10 +30,14 @@ const keyStats = [
 const lies = [
   {
     title: 'USS Maine: "Remember the Maine!" (1898)',
-    lie: 'The battleship USS Maine exploded in Havana Harbor on February 15, 1898, killing 266 American sailors. The US blamed Spain — William Randolph Hearst\'s newspapers ran the headline "DESTRUCTION OF THE WAR SHIP MAINE WAS THE WORK OF AN ENEMY" before any investigation.',
-    truth: 'Multiple investigations — including a 1976 study by Admiral Hyman Rickover — concluded the explosion was almost certainly an internal accident, likely a coal bunker fire that ignited the ammunition magazine. Spain had nothing to do with it.',
-    consequence: 'The Spanish-American War. The US seized Cuba, Puerto Rico, the Philippines, and Guam. In the Philippines alone, the subsequent occupation killed 200,000–1,000,000 Filipino civilians in what is now called the Philippine-American War.',
+    lie: 'The battleship USS Maine exploded in Havana Harbor on February 15, 1898, killing 266 American sailors. The US blamed Spain — William Randolph Hearst\'s newspapers ran the headline "DESTRUCTION OF THE WAR SHIP MAINE WAS THE WORK OF AN ENEMY" before any investigation. The Navy\'s official board of inquiry concluded it was an external mine, despite no evidence of Spanish involvement.',
+    truth: 'Multiple investigations — including a 1976 study by Admiral Hyman Rickover — concluded the explosion was almost certainly an internal accident, likely a coal bunker fire that ignited the ammunition magazine. The 1898 Navy investigation was fundamentally flawed: they didn\'t examine the ship\'s coal bunkers, ignored the pattern of hull damage, and were under political pressure to find Spanish culpability. Modern naval engineering analysis shows the damage pattern is consistent with internal explosion, not external mining.',
+    consequence: 'The Spanish-American War. The US seized Cuba, Puerto Rico, the Philippines, and Guam. In the Philippines alone, the subsequent occupation killed 200,000–1,000,000 Filipino civilians in what is now called the Philippine-American War. The war cost $250 million (equivalent to $8 billion today) and established the US as a global imperial power.',
     delay: '73 years to definitive debunking',
+    deaths: '~500,000 (including Philippine-American War)',
+    cost: '$250M (1898) / ~$8B (2024)',
+    keyFigures: ['William Randolph Hearst', 'Joseph Pulitzer', 'Theodore Roosevelt', 'McKinley'],
+    documents: 'Rickover Report (1976), Spanish archives, contemporaneous naval engineering studies',
   },
   {
     title: 'The Lusitania: "Innocent Civilian Ship" (1915)',
@@ -58,10 +62,14 @@ const lies = [
   },
   {
     title: 'WMDs in Iraq: The Lie That Killed 500,000 (2003)',
-    lie: 'The Bush administration claimed that Saddam Hussein possessed weapons of mass destruction — chemical, biological, and potentially nuclear weapons — that posed an imminent threat to the United States. Secretary of State Colin Powell presented "evidence" to the UN Security Council on February 5, 2003, including satellite photos, intercepted communications, and testimony from "Curveball" — an Iraqi defector. VP Cheney said: "There is no doubt that Saddam Hussein now has weapons of mass destruction."',
-    truth: 'There were no WMDs. The Iraq Survey Group — 1,400 inspectors spending $1 billion over 18 months — found nothing. "Curveball" (Rafid Ahmed Alwan al-Janabi) later admitted he fabricated the entire biological weapons story. The aluminum tubes were for rockets, not centrifuges. The satellite photos showed nothing incriminating. The "mobile biological weapons labs" were hydrogen generators for weather balloons. Every single piece of evidence presented to the UN was wrong, and much of it was known to be wrong at the time.',
-    consequence: 'The Iraq War. $3 trillion in costs. 4,600 Americans dead. 500,000+ Iraqis dead. 5 million refugees. ISIS emerged from the chaos. Iran was empowered as Iraq\'s Sunni counterbalance was destroyed. Colin Powell called it a "blot" on his record. The war created the conditions for the next two decades of Middle East instability.',
+    lie: 'The Bush administration claimed that Saddam Hussein possessed weapons of mass destruction — chemical, biological, and potentially nuclear weapons — that posed an imminent threat to the United States. Secretary of State Colin Powell presented "evidence" to the UN Security Council on February 5, 2003, including satellite photos, intercepted communications, and testimony from "Curveball" — an Iraqi defector. VP Cheney said: "There is no doubt that Saddam Hussein now has weapons of mass destruction." Bush claimed Iraq could attack the US within 45 minutes. Condoleezza Rice warned that "we don\'t want the smoking gun to be a mushroom cloud."',
+    truth: 'There were no WMDs. The Iraq Survey Group — 1,400 inspectors spending $1 billion over 18 months — found nothing. "Curveball" (Rafid Ahmed Alwan al-Janabi) later admitted he fabricated the entire biological weapons story to get asylum in Germany. The aluminum tubes were for conventional rockets, not uranium enrichment centrifuges — this was known by experts at the time. The satellite photos showed routine maintenance of facilities, not weapons production. The "mobile biological weapons labs" were hydrogen generators for weather balloons, exactly as Iraq claimed. The Niger yellowcake uranium documents were crude forgeries that the CIA and State Department knew were fake. Every single piece of evidence presented to the UN was wrong, and intelligence analysts had expressed doubts about much of it before Powell\'s presentation.',
+    consequence: 'The Iraq War. $3 trillion in costs (Brown University estimate). 4,600 Americans dead, 32,000+ wounded. 500,000+ Iraqis dead (conservative estimate). 5 million refugees and internally displaced persons. ISIS emerged from the chaos of the occupation and de-Baathification policies. Iran was empowered as Iraq\'s Sunni counterbalance was destroyed. Sectarian civil war lasted for years. Colin Powell called it a "blot" on his record but faced no consequences. The war created the conditions for the next two decades of Middle East instability, including the Syrian civil war, the rise of ISIS, and the current Iran crisis.',
     delay: '1 year (Iraq Survey Group preliminary report, 2004)',
+    deaths: '500,000+ (Iraq Body Count, Lancet study estimates higher)',
+    cost: '$3 trillion (Brown University Costs of War)',
+    keyFigures: ['George W. Bush', 'Colin Powell', 'Dick Cheney', 'Donald Rumsfeld', 'Condoleezza Rice', 'Doug Feith', 'Paul Wolfowitz'],
+    documents: 'Iraq Survey Group Report (Duelfer Report), Senate Intelligence Committee Report, Powell\'s UN presentation, Niger documents',
   },
   {
     title: 'The Domino Theory: If One Falls, They All Fall (1950s–1975)',

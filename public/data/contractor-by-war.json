@@ -1,0 +1,184 @@
+[
+  {
+    "contractor": "Halliburton/KBR",
+    "wars": [
+      {
+        "conflictId": "iraq-war",
+        "role": "Logistics support (LOGCAP)",
+        "estimatedValue": 39500000000,
+        "notes": "Largest Iraq contractor, no-bid contracts"
+      },
+      {
+        "conflictId": "afghanistan",
+        "role": "Base construction & support",
+        "estimatedValue": 8000000000,
+        "notes": "Bagram, Kandahar operations"
+      }
+    ]
+  },
+  {
+    "contractor": "Lockheed Martin",
+    "wars": [
+      {
+        "conflictId": "iraq-war",
+        "role": "F-16s, Hellfire missiles",
+        "estimatedValue": 15000000000,
+        "notes": "Primary weapons supplier"
+      },
+      {
+        "conflictId": "afghanistan",
+        "role": "F-35 development, missiles",
+        "estimatedValue": 12000000000,
+        "notes": "Next-gen fighter development"
+      },
+      {
+        "conflictId": "iran-war",
+        "role": "F-35s, THAAD systems",
+        "estimatedValue": 25000000000,
+        "notes": "Projected 2026 conflict spending"
+      }
+    ]
+  },
+  {
+    "contractor": "Boeing",
+    "wars": [
+      {
+        "conflictId": "gulf-war",
+        "role": "B-52 bombers, cruise missiles",
+        "estimatedValue": 5000000000,
+        "notes": "Air campaign backbone"
+      },
+      {
+        "conflictId": "iraq-war",
+        "role": "Apache helicopters, bombs",
+        "estimatedValue": 8000000000,
+        "notes": "Close air support"
+      },
+      {
+        "conflictId": "afghanistan",
+        "role": "Chinook helicopters, tankers",
+        "estimatedValue": 6000000000,
+        "notes": "Transport and refueling"
+      }
+    ]
+  },
+  {
+    "contractor": "Raytheon",
+    "wars": [
+      {
+        "conflictId": "gulf-war",
+        "role": "Tomahawk cruise missiles",
+        "estimatedValue": 3000000000,
+        "notes": "First major Tomahawk use"
+      },
+      {
+        "conflictId": "kosovo",
+        "role": "Tomahawk missiles",
+        "estimatedValue": 500000000,
+        "notes": "Precision strikes"
+      },
+      {
+        "conflictId": "libya-intervention",
+        "role": "Tomahawks",
+        "estimatedValue": 300000000,
+        "notes": "Opening strikes"
+      },
+      {
+        "conflictId": "iran-war",
+        "role": "Patriot, Tomahawk systems",
+        "estimatedValue": 15000000000,
+        "notes": "Projected air defense needs"
+      }
+    ]
+  },
+  {
+    "contractor": "General Dynamics",
+    "wars": [
+      {
+        "conflictId": "iraq-war",
+        "role": "Abrams tanks, Stryker vehicles",
+        "estimatedValue": 12000000000,
+        "notes": "Primary ground vehicles"
+      },
+      {
+        "conflictId": "afghanistan",
+        "role": "Mine-resistant vehicles",
+        "estimatedValue": 7000000000,
+        "notes": "IED protection systems"
+      }
+    ]
+  },
+  {
+    "contractor": "Northrop Grumman",
+    "wars": [
+      {
+        "conflictId": "afghanistan",
+        "role": "Global Hawk drones",
+        "estimatedValue": 4000000000,
+        "notes": "Surveillance and reconnaissance"
+      },
+      {
+        "conflictId": "iraq-war",
+        "role": "B-2 stealth bombers",
+        "estimatedValue": 2000000000,
+        "notes": "Precision bombing missions"
+      }
+    ]
+  },
+  {
+    "contractor": "Blackwater/Academi",
+    "wars": [
+      {
+        "conflictId": "iraq-war",
+        "role": "Security services",
+        "estimatedValue": 1200000000,
+        "notes": "Diplomatic protection, infamous for civilian killings"
+      },
+      {
+        "conflictId": "afghanistan",
+        "role": "Security & training",
+        "estimatedValue": 800000000,
+        "notes": "Private military operations"
+      }
+    ]
+  },
+  {
+    "contractor": "Dow Chemical",
+    "wars": [
+      {
+        "conflictId": "vietnam-war",
+        "role": "Agent Orange production",
+        "estimatedValue": 400000000,
+        "notes": "Defoliant causing birth defects and cancer"
+      }
+    ]
+  },
+  {
+    "contractor": "Bell Helicopter",
+    "wars": [
+      {
+        "conflictId": "vietnam-war",
+        "role": "UH-1 Huey helicopters",
+        "estimatedValue": 2000000000,
+        "notes": "Iconic Vietnam War aircraft"
+      }
+    ]
+  },
+  {
+    "contractor": "DynCorp",
+    "wars": [
+      {
+        "conflictId": "afghanistan",
+        "role": "Police training program",
+        "estimatedValue": 3000000000,
+        "notes": "Failed Afghan National Police training"
+      },
+      {
+        "conflictId": "iraq-war",
+        "role": "Police & infrastructure",
+        "estimatedValue": 2000000000,
+        "notes": "Post-invasion reconstruction"
+      }
+    ]
+  }
+]
