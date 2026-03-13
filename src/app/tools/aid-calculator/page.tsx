@@ -60,7 +60,7 @@ export default function AidCalculatorPage() {
   const teachers = militaryShare / TEACHER_SALARY
 
   return (
-    <div className="min-h-screen bg-stone-900 text-white">
+    <div className="min-h-screen bg-stone-900 text-stone-900">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Tools', href: '/tools' }, { label: 'Aid Calculator' }]} />
 
@@ -74,17 +74,17 @@ export default function AidCalculatorPage() {
             <div className="relative flex-1">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-stone-500">$</span>
               <input type="number" value={income} onChange={e => setIncome(Number(e.target.value))}
-                className="w-full bg-stone-700 border border-stone-200 rounded-lg pl-8 pr-4 py-3 text-white text-lg font-mono" />
+                className="w-full bg-stone-200 border border-stone-200 rounded-lg pl-8 pr-4 py-3 text-stone-900 text-lg font-mono" />
             </div>
             <button onClick={() => setSubmitted(true)}
-              className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+              className="bg-red-600 hover:bg-red-700 text-stone-900 px-6 py-3 rounded-lg font-semibold transition">
               Calculate
             </button>
           </div>
           <div className="flex gap-2 mt-3">
             {[50000, 75000, 100000, 150000, 250000].map(v => (
               <button key={v} onClick={() => { setIncome(v); setSubmitted(true) }}
-                className="px-3 py-1 text-xs bg-stone-700 hover:bg-stone-600 rounded-lg text-stone-600 transition">
+                className="px-3 py-1 text-xs bg-stone-200 hover:border-red-300 hover:shadow-md rounded-lg text-stone-600 transition">
                 {fmtMoney(v)}
               </button>
             ))}
@@ -141,7 +141,7 @@ export default function AidCalculatorPage() {
                         <span className="text-stone-600">{c.country}</span>
                         <span className="text-red-700 font-mono">{fmtMoney(c.yourShare)}</span>
                       </div>
-                      <div className="h-2 bg-stone-700 rounded-full overflow-hidden">
+                      <div className="h-2 bg-stone-200 rounded-full overflow-hidden">
                         <div className="h-full bg-red-600 rounded-full" style={{ width: `${c.pct}%` }} />
                       </div>
                     </div>

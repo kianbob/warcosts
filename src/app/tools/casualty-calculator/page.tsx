@@ -156,7 +156,7 @@ export default function CasualtyCalculatorPage() {
           {/* Visual */}
           <div className="mb-4">
             <p className="text-stone-500 text-sm mb-2">
-              That&apos;s <strong className="text-white">{pct >= 100 ? 'the entire city and more' : `${pct.toFixed(2)}% of the population`}</strong> gone.
+              That&apos;s <strong className="text-stone-900">{pct >= 100 ? 'the entire city and more' : `${pct.toFixed(2)}% of the population`}</strong> gone.
             </p>
 
             {pct <= 100 && (

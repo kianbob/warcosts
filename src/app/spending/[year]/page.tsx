@@ -58,7 +58,7 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Spending', href: '/spending' }, { label: String(entry.year) }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           US Military Spending: {entry.year}
         </h1>
@@ -157,13 +157,13 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
         {prev ? (
           <Link href={`/spending/${prev.year}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition">
             <p className="text-xs text-stone-500">← Previous</p>
-            <p className="font-semibold text-white">{prev.year} · ${(prev.amountBillions ?? prev.amount / 1000).toFixed(0)}B</p>
+            <p className="font-semibold text-stone-900">{prev.year} · ${(prev.amountBillions ?? prev.amount / 1000).toFixed(0)}B</p>
           </Link>
         ) : <div />}
         {next ? (
           <Link href={`/spending/${next.year}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition text-right">
             <p className="text-xs text-stone-500">Next →</p>
-            <p className="font-semibold text-white">{next.year} · ${(next.amountBillions ?? next.amount / 1000).toFixed(0)}B</p>
+            <p className="font-semibold text-stone-900">{next.year} · ${(next.amountBillions ?? next.amount / 1000).toFixed(0)}B</p>
           </Link>
         ) : <div />}
       </div>

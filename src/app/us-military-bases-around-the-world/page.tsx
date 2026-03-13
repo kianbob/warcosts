@@ -60,8 +60,8 @@ export default function USMilitaryBasesAroundTheWorld() {
         <p className="text-lg text-stone-600 max-w-3xl mb-4">
           The United States maintains the largest network of foreign military bases in world history —
           over <strong className="text-red-700">{fmt(totalOverseas)} overseas installations</strong> across{' '}
-          <strong className="text-white">{totalCountries} countries and territories</strong>, plus{' '}
-          <strong className="text-white">{fmt(baseStats.domesticBases)}</strong> domestic bases across all 50 states.
+          <strong className="text-stone-900">{totalCountries} countries and territories</strong>, plus{' '}
+          <strong className="text-stone-900">{fmt(baseStats.domesticBases)}</strong> domestic bases across all 50 states.
           No other country comes close. The UK has 16 overseas bases. France has 11. Russia has about 20. China has 1.
         </p>
 
@@ -91,7 +91,7 @@ export default function USMilitaryBasesAroundTheWorld() {
             The Pentagon uses various terms to obscure the true scale. Major bases, &ldquo;lily pad&rdquo; outposts,
             cooperative security locations, forward operating sites, and US-funded installations in allied countries
             all form the network. David Vine&apos;s research at American University documented{' '}
-            <strong className="text-white">750+ sites</strong> across 80+ countries — and the true number may be higher
+            <strong className="text-stone-900">750+ sites</strong> across 80+ countries — and the true number may be higher
             due to classified facilities and secret agreements.
           </p>
           <ul className="text-stone-500 text-sm space-y-1">
@@ -116,11 +116,11 @@ export default function USMilitaryBasesAroundTheWorld() {
                     <span className="text-stone-500 font-mono mr-2">#{i + 1}</span>
                     {c.country}
                   </Link>
-                  <span className="font-medium text-white">
+                  <span className="font-medium text-stone-900">
                     {c.total} {c.total === 1 ? 'base' : 'bases'}
                   </span>
                 </div>
-                <div className="h-3 bg-stone-700 rounded-full overflow-hidden">
+                <div className="h-3 bg-stone-200 rounded-full overflow-hidden">
                   <div className={`h-full rounded-full ${i < 3 ? 'bg-red-600' : 'bg-red-400/60'}`} style={{ width: `${widthPct}%` }} />
                 </div>
               </div>
@@ -187,10 +187,10 @@ export default function USMilitaryBasesAroundTheWorld() {
             💡 The Hidden Costs of Overseas Bases
           </h3>
           <ul className="space-y-2 text-stone-600 text-sm">
-            <li>• <strong className="text-white">Environmental damage:</strong> PFAS contamination in Okinawa, toxic waste at Clark Air Base (Philippines), depleted uranium in Vieques (Puerto Rico)</li>
-            <li>• <strong className="text-white">Forced displacement:</strong> The entire Chagossian population was removed from Diego Garcia to build a US base. They&apos;ve fought 50+ years to return.</li>
-            <li>• <strong className="text-white">Host nation tension:</strong> Okinawans have protested since 1945. South Korea has seen massive rallies against THAAD deployment.</li>
-            <li>• <strong className="text-white">Status of Forces Agreements:</strong> US personnel often enjoy immunity from local law, fueling resentment</li>
+            <li>• <strong className="text-stone-900">Environmental damage:</strong> PFAS contamination in Okinawa, toxic waste at Clark Air Base (Philippines), depleted uranium in Vieques (Puerto Rico)</li>
+            <li>• <strong className="text-stone-900">Forced displacement:</strong> The entire Chagossian population was removed from Diego Garcia to build a US base. They&apos;ve fought 50+ years to return.</li>
+            <li>• <strong className="text-stone-900">Host nation tension:</strong> Okinawans have protested since 1945. South Korea has seen massive rallies against THAAD deployment.</li>
+            <li>• <strong className="text-stone-900">Status of Forces Agreements:</strong> US personnel often enjoy immunity from local law, fueling resentment</li>
           </ul>
         </div>
 

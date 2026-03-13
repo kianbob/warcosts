@@ -47,7 +47,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Drone Strikes', href: '/drone-strikes' }, { label: country.country }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Drone Strikes: {country.country}
         </h1>
@@ -84,10 +84,10 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
           return (
             <div key={p.president} className="bg-white border border-stone-200 rounded-lg p-4">
               <div className="flex items-center justify-between mb-2">
-                <span className="font-semibold text-white">{p.president}</span>
+                <span className="font-semibold text-stone-900">{p.president}</span>
                 <span className="text-red-700 font-bold">{fmt(p.strikes)} strikes ({pct}%)</span>
               </div>
-              <div className="w-full bg-stone-700 rounded-full h-2 mb-1">
+              <div className="w-full bg-stone-200 rounded-full h-2 mb-1">
                 <div className="bg-red-600 h-2 rounded-full" style={{ width: `${pct}%` }} />
               </div>
               <p className="text-sm text-stone-500">{fmt(p.minKilled)}–{fmt(p.maxKilled)} killed</p>
@@ -103,13 +103,13 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
           {country.byYear.map(y => (
             <div key={y.year} className="flex items-center gap-3">
               <span className="text-stone-500 text-sm w-12">{y.year}</span>
-              <div className="flex-1 bg-stone-700 rounded-full h-4">
+              <div className="flex-1 bg-stone-200 rounded-full h-4">
                 <div
                   className="bg-red-600 h-4 rounded-full flex items-center justify-end pr-2"
                   style={{ width: `${Math.max((y.strikes / maxYearStrikes) * 100, 3)}%` }}
                 >
                   {y.strikes > maxYearStrikes * 0.15 && (
-                    <span className="text-white text-xs font-bold">{y.strikes}</span>
+                    <span className="text-stone-900 text-xs font-bold">{y.strikes}</span>
                   )}
                 </div>
               </div>

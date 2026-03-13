@@ -26,7 +26,7 @@ export default function ArmsSalesCountriesPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Arms Sales', href: '/arms-sales' }, { label: 'By Country' }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Arms Sales by Country
         </h1>
@@ -39,19 +39,19 @@ export default function ArmsSalesCountriesPage() {
 
       <div className="space-y-4 my-8">
         {data.sort((a, b) => b.totalSince2009 - a.totalSince2009).map((c, i) => (
-          <Link key={c.slug} href={`/arms-sales/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg p-5 hover:bg-stone-700 transition">
+          <Link key={c.slug} href={`/arms-sales/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg p-5 hover:border-red-300 hover:shadow-md transition">
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-3">
-                <span className="text-stone-500 text-sm">#{i + 1}</span>
-                <h3 className="text-lg font-semibold text-white">{c.country}</h3>
+                <span className="text-stone-400 text-sm">#{i + 1}</span>
+                <h3 className="text-lg font-semibold text-stone-900">{c.country}</h3>
                 <span className="text-xs text-stone-500">{c.region}</span>
               </div>
               <span className="text-red-700 font-bold">{fmtMoney(c.totalSince2009 * 1e6)}</span>
             </div>
-            <div className="w-full bg-stone-700 rounded-full h-2 mb-2">
+            <div className="w-full bg-stone-200 rounded-full h-2 mb-2">
               <div className="bg-red-600 h-2 rounded-full" style={{ width: `${(c.totalSince2009 / maxAmount) * 100}%` }} />
             </div>
-            <p className="text-sm text-stone-400">
+            <p className="text-sm text-stone-600">
               FY{c.recentFY}: {fmtMoney(c.recentAmount * 1e6)} · {c.topSystems.slice(0, 2).join(', ')}
             </p>
             {c.controversies && <p className="text-xs text-red-700/70 mt-1">⚠️ {c.controversies.substring(0, 80)}...</p>}
@@ -60,7 +60,7 @@ export default function ArmsSalesCountriesPage() {
       </div>
 
       <div className="text-center">
-        <Link href="/arms-sales" className="text-red-700 hover:text-red-300 text-sm">← Arms Sales Overview</Link>
+        <Link href="/arms-sales" className="text-red-700 hover:text-red-800 text-sm">← Arms Sales Overview</Link>
       </div>
 
       <BackToTop />

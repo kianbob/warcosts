@@ -84,7 +84,7 @@ export default function CompareWarsPage() {
               onClick={() => toggle(c.id)}
               className={`text-left text-sm px-3 py-2 rounded-lg transition ${
                 selected.includes(c.id)
-                  ? 'bg-red-900/60 border border-red-700 text-white'
+                  ? 'bg-red-900/60 border border-red-700 text-stone-900'
                   : 'bg-white border border-stone-200 text-stone-400 hover:border-stone-500'
               } ${!selected.includes(c.id) && selected.length >= 4 ? 'opacity-40 cursor-not-allowed' : ''}`}
               disabled={!selected.includes(c.id) && selected.length >= 4}
@@ -196,18 +196,18 @@ export default function CompareWarsPage() {
 
       {/* Related Tools */}
       <div className="mt-12 pt-8 border-t border-stone-800">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">More Tools</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/tools/casualty-calculator" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
-            <p className="font-bold text-white">🏙️ Casualty Calculator</p>
+            <p className="font-bold text-stone-900">🏙️ Casualty Calculator</p>
             <p className="text-stone-400 text-sm">War casualties in your city</p>
           </Link>
           <Link href="/tools/budget-simulator" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
-            <p className="font-bold text-white">💰 Budget Simulator</p>
+            <p className="font-bold text-stone-900">💰 Budget Simulator</p>
             <p className="text-stone-400 text-sm">Redesign the federal budget</p>
           </Link>
           <Link href="/tools/compare-countries" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
-            <p className="font-bold text-white">⚖️ Compare Countries</p>
+            <p className="font-bold text-stone-900">⚖️ Compare Countries</p>
             <p className="text-stone-400 text-sm">Military spending face-off</p>
           </Link>
         </div>

@@ -48,7 +48,7 @@ export default function USForeignAidByCountry() {
         <p className="text-lg text-stone-600 max-w-3xl mb-4">
           The United States is the world&apos;s largest provider of foreign aid, distributing approximately{' '}
           <strong className="text-red-700">{fmtMoney(totalAnnual2024 * 1e6)}</strong> across 200+ countries in 2024.
-          Since 2001, the US has provided over <strong className="text-white">{fmtMoney(totalSince2001 * 1e6)}</strong> in
+          Since 2001, the US has provided over <strong className="text-stone-900">{fmtMoney(totalSince2001 * 1e6)}</strong> in
           total aid. But where does the money actually go — and how much is really &ldquo;aid&rdquo; versus subsidies
           for the US defense industry?
         </p>
@@ -76,19 +76,19 @@ export default function USForeignAidByCountry() {
             Military Aid vs. Economic Aid
           </h2>
           <p className="text-stone-600 mb-3">
-            A significant portion of US &ldquo;foreign aid&rdquo; is actually <strong className="text-white">military
+            A significant portion of US &ldquo;foreign aid&rdquo; is actually <strong className="text-stone-900">military
             assistance</strong> — weapons, training, and defense equipment provided to allied governments. This money
             often flows directly back to US defense contractors. For example, Israel&apos;s $3.8 billion in annual
             military aid must be spent on American-made weapons — it&apos;s effectively a subsidy to Lockheed Martin,
             Boeing, and RTX routed through Tel Aviv.
           </p>
           <div className="grid grid-cols-2 gap-4 mt-4">
-            <div className="bg-stone-700/50 rounded-lg p-4 text-center">
+            <div className="bg-stone-200/50 rounded-lg p-4 text-center">
               <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">~37%</p>
               <p className="text-stone-500 text-xs">Military / Security Aid</p>
               <p className="text-stone-500 text-xs mt-1">Weapons, training, equipment, counter-terrorism</p>
             </div>
-            <div className="bg-stone-700/50 rounded-lg p-4 text-center">
+            <div className="bg-stone-200/50 rounded-lg p-4 text-center">
               <p className="text-2xl font-bold text-stone-600 font-[family-name:var(--font-heading)]">~63%</p>
               <p className="text-stone-500 text-xs">Economic / Development Aid</p>
               <p className="text-stone-500 text-xs mt-1">Health, education, governance, humanitarian relief</p>
@@ -117,7 +117,7 @@ export default function USForeignAidByCountry() {
                 <tr key={c.slug} className="border-t border-stone-200/50">
                   <td className="p-3 text-stone-500 font-mono">{i + 1}</td>
                   <td className="p-3">
-                    <Link href={`/foreign-aid/countries/${c.slug}`} className="text-white font-medium hover:text-red-700">
+                    <Link href={`/foreign-aid/countries/${c.slug}`} className="text-stone-900 font-medium hover:text-red-700">
                       {c.country}
                     </Link>
                   </td>
@@ -152,7 +152,7 @@ export default function USForeignAidByCountry() {
                   <span className={i === 0 ? 'font-bold text-stone-900' : 'text-stone-600'}>{c.country}</span>
                   <span className="font-medium text-stone-600">{fmtMoney(c.totalSince2001 * 1e6)}</span>
                 </div>
-                <div className="h-3 bg-stone-700 rounded-full overflow-hidden">
+                <div className="h-3 bg-stone-200 rounded-full overflow-hidden">
                   <div
                     className={`h-full rounded-full ${c.militaryPct >= 70 ? 'bg-red-600' : 'bg-red-400/60'}`}
                     style={{ width: `${widthPct}%` }}
@@ -170,10 +170,10 @@ export default function USForeignAidByCountry() {
             How Big Is $68 Billion in Context?
           </h2>
           <ul className="space-y-2 text-stone-600 text-sm">
-            <li>• Foreign aid is approximately <strong className="text-white">1% of the federal budget</strong> — yet polls show Americans think it&apos;s 25%</li>
-            <li>• The entire foreign aid budget is less than what the Pentagon spends in <strong className="text-white">3 weeks</strong></li>
+            <li>• Foreign aid is approximately <strong className="text-stone-900">1% of the federal budget</strong> — yet polls show Americans think it&apos;s 25%</li>
+            <li>• The entire foreign aid budget is less than what the Pentagon spends in <strong className="text-stone-900">3 weeks</strong></li>
             <li>• <strong className="text-red-700">Lockheed Martin alone</strong> received more in DoD contracts ($48B in FY2024) than the top 5 aid recipients combined</li>
-            <li>• The US ranks <strong className="text-white">last among major developed nations</strong> in aid as a percentage of GDP (0.18% vs the UN target of 0.7%)</li>
+            <li>• The US ranks <strong className="text-stone-900">last among major developed nations</strong> in aid as a percentage of GDP (0.18% vs the UN target of 0.7%)</li>
           </ul>
         </div>
 
@@ -187,8 +187,8 @@ export default function USForeignAidByCountry() {
               Which country receives the most US foreign aid?
             </h3>
             <p className="text-stone-600 text-sm">
-              Cumulatively since 2001, <strong className="text-white">Israel</strong> has received the most US foreign aid
-              at over $158 billion — virtually all of it military. In 2024, <strong className="text-white">Ukraine</strong> received
+              Cumulatively since 2001, <strong className="text-stone-900">Israel</strong> has received the most US foreign aid
+              at over $158 billion — virtually all of it military. In 2024, <strong className="text-stone-900">Ukraine</strong> received
               the most at approximately $8 billion due to the ongoing war with Russia. Israel receives a guaranteed $3.8
               billion annually under a 10-year agreement signed in 2016.
             </p>

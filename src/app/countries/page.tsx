@@ -21,7 +21,7 @@ export default function CountriesPage() {
   const usShare = usEntry ? ((usEntry.amountBillions / worldTotal) * 100).toFixed(1) : '—'
 
   return (
-    <div className="min-h-screen bg-stone-900 text-white">
+    <div className="min-h-screen bg-stone-900 text-stone-900">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Country Profiles' }]} />
 

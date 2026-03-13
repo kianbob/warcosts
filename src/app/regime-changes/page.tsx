@@ -237,7 +237,7 @@ export default function RegimeChangesPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Why do they hate us? Let me count the coups.&rdquo;
         </blockquote>
@@ -326,7 +326,7 @@ export default function RegimeChangesPage() {
       </div>
 
       {/* Operation Condor */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-12">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 my-12">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">🦅 Operation Condor: Continental State Terror</h2>
         <p className="text-stone-600 mb-6">In the 1970s and 1980s, the US backed a network of South American military dictatorships that coordinated the kidnapping, torture, and murder of political opponents across borders. Known as Operation Condor, this network was supported by the CIA and operated with the knowledge of Henry Kissinger. An estimated 60,000-80,000 people were killed.</p>
         <div className="space-y-3">
@@ -397,7 +397,7 @@ export default function RegimeChangesPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;We have no eternal allies, and we have no perpetual enemies. Our interests are eternal and perpetual, and those interests it is our duty to follow.&rdquo;
         </blockquote>

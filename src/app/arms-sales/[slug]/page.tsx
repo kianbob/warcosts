@@ -40,7 +40,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Arms Sales', href: '/arms-sales' }, { label: 'By Country', href: '/arms-sales/countries' }, { label: entry.country }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Arms Sales: {entry.country}
         </h1>
@@ -68,7 +68,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
       {/* Size comparison bar */}
       <div className="bg-white border border-stone-200 rounded-lg p-5 mb-8">
         <p className="text-sm text-stone-500 mb-2">Share of top buyers</p>
-        <div className="w-full bg-stone-700 rounded-full h-4">
+        <div className="w-full bg-stone-200 rounded-full h-4">
           <div className="bg-red-600 h-4 rounded-full" style={{ width: `${(entry.totalSince2009 / maxTotal) * 100}%` }} />
         </div>
       </div>
@@ -108,7 +108,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">⚔️ Related Conflicts</h2>
           <div className="flex flex-wrap gap-2">
             {entry.relatedConflicts.map((c, i) => (
-              <Link key={i} href={`/conflicts/${c}`} className="bg-stone-700 text-stone-600 px-3 py-1 rounded-full text-sm hover:bg-stone-600 transition">
+              <Link key={i} href={`/conflicts/${c}`} className="bg-stone-200 text-stone-600 px-3 py-1 rounded-full text-sm hover:border-red-300 hover:shadow-md transition">
                 {c}
               </Link>
             ))}

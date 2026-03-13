@@ -122,7 +122,7 @@ export default function NuclearArsenalPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-red-700'
+              activeSection === s.id ? 'bg-red-900 text-stone-900' : 'bg-white border border-stone-200 text-stone-500 hover:text-red-700'
             }`}
           >
             {s.label}
@@ -177,7 +177,7 @@ export default function NuclearArsenalPage() {
             {triadData.map((t, i) => (
               <div key={i} className="bg-stone-900 rounded-xl p-5 border-l-4" style={{ borderColor: COLORS[i] }}>
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="font-semibold text-white">{t.name}</h3>
+                  <h3 className="font-semibold text-stone-900">{t.name}</h3>
                   <span className="text-red-700 font-mono text-sm">{t.warheads} warheads</span>
                 </div>
                 <p className="text-stone-500 text-sm">{t.desc}</p>
@@ -245,7 +245,7 @@ export default function NuclearArsenalPage() {
                 <span className="font-mono text-stone-500 w-12 shrink-0">{t.year}</span>
                 <div className="w-2 h-2 rounded-full bg-red-700 mt-1.5 shrink-0" />
                 <div>
-                  <span className="text-white font-medium">{t.tests} tests</span>
+                  <span className="text-stone-900 font-medium">{t.tests} tests</span>
                   <span className="text-stone-500 ml-2">{t.event}</span>
                 </div>
               </div>
@@ -258,7 +258,7 @@ export default function NuclearArsenalPage() {
             {testSites.map((site, i) => (
               <div key={i} className="bg-stone-900 rounded-xl p-4">
                 <div className="flex justify-between items-start mb-1">
-                  <h4 className="font-semibold text-white text-sm">{site.name}</h4>
+                  <h4 className="font-semibold text-stone-900 text-sm">{site.name}</h4>
                   <span className="text-red-700 text-xs font-mono">{site.tests} tests</span>
                 </div>
                 <p className="text-stone-500 text-xs">{site.location} • {site.years}</p>
@@ -305,7 +305,7 @@ export default function NuclearArsenalPage() {
                   style={{ backgroundColor: d.minutes <= 3 ? '#dc2626' : d.minutes <= 7 ? '#f59e0b' : '#22c55e' }}
                 />
                 <div>
-                  <span className="text-white font-medium">{d.minutes < 2 ? `${Math.round(d.minutes * 60)} seconds` : `${d.minutes} minutes`}</span>
+                  <span className="text-stone-900 font-medium">{d.minutes < 2 ? `${Math.round(d.minutes * 60)} seconds` : `${d.minutes} minutes`}</span>
                   <span className="text-stone-500 ml-2">{d.event}</span>
                 </div>
               </div>
@@ -332,7 +332,7 @@ export default function NuclearArsenalPage() {
             ].map((p, i) => (
               <div key={i} className="bg-stone-900 rounded-xl p-5">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="font-semibold text-white">{p.name}</h3>
+                  <h3 className="font-semibold text-stone-900">{p.name}</h3>
                   <span className="text-red-700 font-mono text-sm">{p.cost}</span>
                 </div>
                 <p className="text-stone-500 text-sm mb-2">{p.desc}</p>

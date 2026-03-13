@@ -33,7 +33,7 @@ export default function CompareCountriesPage() {
   const maxSpending = ca && cb ? Math.max(ca.amountBillions, cb.amountBillions) : 1
 
   return (
-    <div className="min-h-screen bg-stone-900 text-white">
+    <div className="min-h-screen bg-stone-900 text-stone-900">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Tools', href: '/tools' }, { label: 'Compare Countries' }]} />
 
@@ -68,7 +68,7 @@ export default function CompareCountriesPage() {
                     <span className="text-stone-600">{ca.name}</span>
                     <span className="text-red-700 font-mono">${ca.amountBillions}B</span>
                   </div>
-                  <div className="h-8 bg-stone-700 rounded-lg overflow-hidden">
+                  <div className="h-8 bg-stone-200 rounded-lg overflow-hidden">
                     <div className="h-full bg-red-600 rounded-lg transition-all duration-500"
                       style={{ width: `${(ca.amountBillions / maxSpending) * 100}%` }} />
                   </div>
@@ -78,7 +78,7 @@ export default function CompareCountriesPage() {
                     <span className="text-stone-600">{cb.name}</span>
                     <span className="text-red-700 font-mono">${cb.amountBillions}B</span>
                   </div>
-                  <div className="h-8 bg-stone-700 rounded-lg overflow-hidden">
+                  <div className="h-8 bg-stone-200 rounded-lg overflow-hidden">
                     <div className="h-full bg-red-400 rounded-lg transition-all duration-500"
                       style={{ width: `${(cb.amountBillions / maxSpending) * 100}%` }} />
                   </div>

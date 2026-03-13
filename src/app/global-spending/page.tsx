@@ -39,7 +39,7 @@ export default function GlobalSpendingPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Spending', href: '/spending' }, { label: 'Global Comparison' }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Global Military Spending
         </h1>
@@ -97,7 +97,7 @@ export default function GlobalSpendingPage() {
                     {fmtMoney(e.amount * 1e6)}
                   </span>
                 </div>
-                <div className="w-full bg-stone-700 rounded-full h-3">
+                <div className="w-full bg-stone-200 rounded-full h-3">
                   <div
                     className={`h-3 rounded-full ${isUS ? 'bg-red-600' : 'bg-stone-500'}`}
                     style={{ width: `${Math.max(pct, 2)}%` }}
@@ -121,7 +121,7 @@ export default function GlobalSpendingPage() {
               const maxAmt = Math.max(...recent.map(e => e.amount))
               return (
                 <div key={country} className="bg-white border border-stone-200 rounded-lg p-5">
-                  <h3 className="font-semibold text-white mb-3">{flagMap[country] || ''} {country}</h3>
+                  <h3 className="font-semibold text-stone-900 mb-3">{flagMap[country] || ''} {country}</h3>
                   <div className="flex items-end gap-1 h-20">
                     {recent.map(e => (
                       <div key={e.year} className="flex-1 flex flex-col items-center">

@@ -182,7 +182,7 @@ export default function WarQuizPage() {
       <div className="max-w-2xl mx-auto px-4 py-12">
         <div className="bg-stone-900 rounded-2xl p-8 text-center">
           <div className="text-6xl mb-4">{grade.emoji}</div>
-          <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2 text-white">
+          <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2 text-stone-900">
             {score} / {questions.length}
           </h1>
           <p className="text-xl text-red-700 font-semibold mb-2">{grade.label}</p>
@@ -190,17 +190,17 @@ export default function WarQuizPage() {
 
           <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 mb-6">
             <p className="text-stone-500 text-sm">Share your result</p>
-            <p className="text-white font-semibold">
+            <p className="text-stone-900 font-semibold">
               I scored {score}/{questions.length} on the WarCosts War Quiz — How Much Do You Know About America&apos;s Wars?
             </p>
             <ShareButtons title={`I scored ${score}/${questions.length} on the WarCosts War Quiz! How much do YOU know about America's wars? Take the quiz:`} />
           </div>
 
           <div className="flex gap-4 justify-center">
-            <button onClick={restart} className="bg-red-800 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+            <button onClick={restart} className="bg-red-800 hover:bg-red-700 text-stone-900 px-6 py-3 rounded-lg font-semibold transition">
               Try Again
             </button>
-            <Link href="/tools" className="bg-stone-700 hover:bg-stone-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+            <Link href="/tools" className="bg-stone-200 hover:border-red-300 hover:shadow-md text-stone-900 px-6 py-3 rounded-lg font-semibold transition">
               More Tools
             </Link>
           </div>
@@ -233,7 +233,7 @@ export default function WarQuizPage() {
 
       {/* Question */}
       <div className="bg-stone-900 rounded-xl p-6 mb-4">
-        <h2 className="text-lg font-semibold text-white mb-6">{q.question}</h2>
+        <h2 className="text-lg font-semibold text-stone-900 mb-6">{q.question}</h2>
 
         <div className="space-y-3">
           {q.options.map((opt, i) => {
@@ -269,7 +269,7 @@ export default function WarQuizPage() {
       )}
 
       {showResult && (
-        <button onClick={handleNext} className="bg-red-800 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition w-full">
+        <button onClick={handleNext} className="bg-red-800 hover:bg-red-700 text-stone-900 px-6 py-3 rounded-lg font-semibold transition w-full">
           {current + 1 >= questions.length ? 'See Results' : 'Next Question →'}
         </button>
       )}

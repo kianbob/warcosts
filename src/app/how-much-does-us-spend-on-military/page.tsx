@@ -64,7 +64,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
         <p className="text-lg text-stone-600 max-w-3xl mb-4">
           In 2024, the United States spent <strong className="text-red-700">$968 billion</strong> on its military — according to
           SIPRI, the Stockholm International Peace Research Institute. That&apos;s{' '}
-          <strong className="text-white">3.4% of GDP</strong>, <strong className="text-white">38% of all global military
+          <strong className="text-stone-900">3.4% of GDP</strong>, <strong className="text-stone-900">38% of all global military
           spending</strong>, and more than the next 10 countries combined. Every second, the Pentagon
           spends roughly <strong className="text-red-700">$30,700</strong>.
         </p>
@@ -96,7 +96,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
             supplemental spending). The official DoD base budget was $886 billion, but when you add nuclear weapons
             managed by the Department of Energy, veterans&apos; care, intelligence agencies, and interest on war debt,
             the true national security budget exceeds <strong className="text-red-700">$1.4 trillion</strong> — roughly{' '}
-            <strong className="text-white">$4,200 per American per year</strong>.
+            <strong className="text-stone-900">$4,200 per American per year</strong>.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
             <tbody>
               {recent.map((s) => (
                 <tr key={s.year} className="border-t border-stone-200/50">
-                  <td className="p-3 font-medium text-white">{s.year}</td>
+                  <td className="p-3 font-medium text-stone-900">{s.year}</td>
                   <td className="p-3 text-red-700 font-semibold text-right">{fmtMoney(s.amountBillions * 1e9)}</td>
                   <td className="p-3 text-stone-500">{s.president}</td>
                   <td className="p-3 text-stone-500 text-xs">{s.war || '—'}</td>
@@ -133,7 +133,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
         </h2>
         <p className="text-stone-600 mb-6 max-w-3xl">
           The US spends more on its military than China, Russia, India, Saudi Arabia, the UK, Germany,
-          France, Japan, and South Korea <strong className="text-white">combined</strong>. China — the next highest
+          France, Japan, and South Korea <strong className="text-stone-900">combined</strong>. China — the next highest
           spender — allocates roughly $318 billion, about a third of the US figure. Russia spends $151 billion.
         </p>
         <div className="space-y-3 mb-8">
@@ -146,7 +146,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
                   <span className={i === 0 ? 'font-bold text-stone-900' : 'text-stone-600'}>{c.country}</span>
                   <span className="font-medium text-stone-600">{fmtMoney(c.amount)} · {c.pctWorld}% of world</span>
                 </div>
-                <div className="h-4 bg-stone-700 rounded-full overflow-hidden">
+                <div className="h-4 bg-stone-200 rounded-full overflow-hidden">
                   <div
                     className={`h-full rounded-full ${i === 0 ? 'bg-red-600' : 'bg-stone-500'}`}
                     style={{ width: `${widthPct}%` }}
@@ -175,7 +175,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
                 <span className="text-stone-600">{b.label}</span>
                 <span className="font-medium text-red-700">{fmtMoney(b.amount)} ({b.pct}%)</span>
               </div>
-              <div className="h-4 bg-stone-700 rounded-full overflow-hidden">
+              <div className="h-4 bg-stone-200 rounded-full overflow-hidden">
                 <div className="h-full bg-red-600 rounded-full" style={{ width: `${b.pct * 1.5}%` }} />
               </div>
               <p className="text-stone-500 text-xs mt-1">{b.desc}</p>
@@ -189,10 +189,10 @@ export default function HowMuchDoesUSSpendOnMilitary() {
             What Does $968 Billion Actually Mean?
           </h2>
           <ul className="space-y-3 text-stone-600">
-            <li>• <strong className="text-white">$2.65 billion per day</strong> — more than the annual GDP of many small nations</li>
-            <li>• <strong className="text-white">$110 million per hour</strong> — enough to fund 2,200 teachers for a year, every hour</li>
-            <li>• <strong className="text-white">$30,700 per second</strong> — the median American salary, spent every second on defense</li>
-            <li>• <strong className="text-white">53% of discretionary spending</strong> — more than education, health, housing, energy, and EPA combined</li>
+            <li>• <strong className="text-stone-900">$2.65 billion per day</strong> — more than the annual GDP of many small nations</li>
+            <li>• <strong className="text-stone-900">$110 million per hour</strong> — enough to fund 2,200 teachers for a year, every hour</li>
+            <li>• <strong className="text-stone-900">$30,700 per second</strong> — the median American salary, spent every second on defense</li>
+            <li>• <strong className="text-stone-900">53% of discretionary spending</strong> — more than education, health, housing, energy, and EPA combined</li>
             <li>• The Pentagon has <strong className="text-red-700">never passed a financial audit</strong> despite being required by law since 1990</li>
           </ul>
         </div>

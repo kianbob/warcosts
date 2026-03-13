@@ -84,7 +84,7 @@ export default function MilitaryFamiliesPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-red-700'
+              activeSection === s.id ? 'bg-red-900 text-stone-900' : 'bg-white border border-stone-200 text-stone-500 hover:text-red-700'
             }`}
           >
             {s.label}
@@ -168,7 +168,7 @@ export default function MilitaryFamiliesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-stone-900 rounded-xl p-5">
-              <h3 className="font-semibold text-white mb-2">Spouse Employment Crisis</h3>
+              <h3 className="font-semibold text-stone-900 mb-2">Spouse Employment Crisis</h3>
               <ul className="text-stone-500 text-sm space-y-1">
                 <li>• 22% unemployment rate (vs 3.7% national)</li>
                 <li>• Spouses earn 26% less than civilian peers</li>
@@ -178,7 +178,7 @@ export default function MilitaryFamiliesPage() {
               </ul>
             </div>
             <div className="bg-stone-900 rounded-xl p-5">
-              <h3 className="font-semibold text-white mb-2">Financial Strain</h3>
+              <h3 className="font-semibold text-stone-900 mb-2">Financial Strain</h3>
               <ul className="text-stone-500 text-sm space-y-1">
                 <li>• 24% of junior enlisted qualify for food stamps</li>
                 <li>• Predatory lenders cluster near military bases</li>
@@ -241,7 +241,7 @@ export default function MilitaryFamiliesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-stone-900 rounded-xl p-5">
-              <h3 className="font-semibold text-white mb-2">Privatization Failures</h3>
+              <h3 className="font-semibold text-stone-900 mb-2">Privatization Failures</h3>
               <ul className="text-stone-500 text-sm space-y-1">
                 <li>• Companies like Balfour Beatty and Lendlease profit billions</li>
                 <li>• BAH (housing allowance) goes directly to corporations</li>
@@ -251,7 +251,7 @@ export default function MilitaryFamiliesPage() {
               </ul>
             </div>
             <div className="bg-stone-900 rounded-xl p-5">
-              <h3 className="font-semibold text-white mb-2">Health Consequences</h3>
+              <h3 className="font-semibold text-stone-900 mb-2">Health Consequences</h3>
               <ul className="text-stone-500 text-sm space-y-1">
                 <li>• Chronic respiratory illness from mold</li>
                 <li>• Lead exposure affecting children&apos;s development</li>

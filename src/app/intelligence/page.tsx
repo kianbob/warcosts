@@ -173,7 +173,7 @@ export default function IntelligencePage() {
       </div>
 
       {/* Libertarian framing */}
-      <div className="bg-stone-900 text-white rounded-xl p-6 mb-10">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-6 mb-10">
         <p className="text-lg italic leading-relaxed">
           &ldquo;Secret agencies with secret budgets, conducting secret operations, reviewed by secret courts under
           secret interpretations of the law — this is not a feature of a free republic. It is the architecture of a
@@ -284,7 +284,7 @@ export default function IntelligencePage() {
       </div>
 
       <div className="prose max-w-3xl text-stone-600">
-        <div className="not-prose bg-stone-900 text-white rounded-xl p-6 my-8">
+        <div className="not-prose bg-stone-900 text-stone-900 rounded-xl p-6 my-8">
           <p className="text-lg italic leading-relaxed">
             &ldquo;The CIA has overthrown more democracies than it has protected. It armed the mujahideen who became
             the Taliban and Al-Qaeda. It provided the intelligence that justified the Iraq War based on fabricated
@@ -307,7 +307,7 @@ export default function IntelligencePage() {
         {domesticAbuses.map(abuse => (
           <div key={abuse.program} className="bg-white rounded-xl shadow-sm border p-6">
             <div className="flex items-center gap-3 mb-2">
-              <span className="bg-white border border-stone-200 text-white text-sm font-bold px-3 py-1 rounded">{abuse.agency}</span>
+              <span className="bg-white border border-stone-200 text-stone-900 text-sm font-bold px-3 py-1 rounded">{abuse.agency}</span>
               <h4 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-800">{abuse.program}</h4>
             </div>
             <p className="text-stone-600 text-sm mb-2">{abuse.detail}</p>
@@ -388,7 +388,7 @@ export default function IntelligencePage() {
           <li><strong>Russia/Ukraine (mixed):</strong> The IC correctly predicted Russia&rsquo;s 2022 invasion of Ukraine — a notable success. But it also overestimated Russia&rsquo;s military capabilities and underestimated Ukraine&rsquo;s resistance.</li>
         </ul>
 
-        <div className="not-prose bg-stone-900 text-white rounded-xl p-6 my-8">
+        <div className="not-prose bg-stone-900 text-stone-900 rounded-xl p-6 my-8">
           <p className="text-lg italic leading-relaxed">
             &ldquo;The intelligence community has had one primary job since 9/11: prevent another 9/11. To do this,
             they asked for — and received — virtually unlimited money, unprecedented surveillance powers, secret

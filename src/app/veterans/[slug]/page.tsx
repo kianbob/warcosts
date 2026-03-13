@@ -43,7 +43,7 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Veterans', href: '/veterans' }, { label: war.war }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           {war.war} Veterans
         </h1>

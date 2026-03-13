@@ -38,7 +38,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
   const { name, rank, latest, gdpPct, pctWorld, peak, trend10yr, spending, gdp, usBases, armsSales, droneStrikes, relatedConflicts } = data
 
   return (
-    <div className="min-h-screen bg-stone-900 text-white">
+    <div className="min-h-screen bg-stone-900 text-stone-900">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Country Profiles', href: '/countries' }, { label: name }]} />
 
@@ -169,7 +169,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
             <div className="space-y-2">
               {relatedConflicts.map((c: any) => (
                 <Link key={c.slug} href={`/conflicts/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg border border-stone-200 p-4 hover:border-red-600 transition">
-                  <span className="font-semibold text-white">{c.name}</span>
+                  <span className="font-semibold text-stone-900">{c.name}</span>
                   <span className="text-stone-500 text-sm ml-2">{c.years}</span>
                 </Link>
               ))}

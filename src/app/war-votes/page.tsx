@@ -25,7 +25,7 @@ export default function WarVotesPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'War Votes' }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Congressional War Votes
         </h1>
@@ -55,7 +55,7 @@ export default function WarVotesPage() {
       {/* Timeline */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-6">📜 Complete Timeline</h2>
       <div className="relative">
-        <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-stone-700" />
+        <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-stone-200" />
         <div className="space-y-6">
           {votes.map(v => (
             <Link key={v.slug} href={`/war-votes/${v.slug}`} className="block relative pl-10 group">
@@ -64,13 +64,13 @@ export default function WarVotesPage() {
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-red-700 font-bold font-[family-name:var(--font-heading)]">{v.year}</span>
                   <span className={`text-xs px-2 py-0.5 rounded-full ${
-                    v.type === 'declaration' ? 'bg-red-900 text-red-600' : 'bg-stone-700 text-stone-600'
+                    v.type === 'declaration' ? 'bg-red-900 text-red-600' : 'bg-stone-200 text-stone-600'
                   }`}>{v.type}</span>
                   <span className={`text-xs px-2 py-0.5 rounded-full ${
                     v.result === 'Passed' ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-600'
                   }`}>{v.result}</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{v.name}</h3>
+                <h3 className="text-lg font-semibold text-stone-900 mb-2">{v.name}</h3>
                 <div className="flex gap-6 text-sm text-stone-500">
                   <span>🏛️ House: {v.houseVote}</span>
                   <span>🏛️ Senate: {v.senateVote}</span>

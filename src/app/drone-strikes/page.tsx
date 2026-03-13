@@ -61,7 +61,7 @@ export default function DroneStrikesPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Drone Strikes' }]} />
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           US Drone Strikes
         </h1>
@@ -100,10 +100,10 @@ export default function DroneStrikesPage() {
           return (
             <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg p-5 hover:border-red-300 hover:shadow-md transition">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-lg font-semibold text-white">{c.country}</h3>
+                <h3 className="text-lg font-semibold text-stone-900">{c.country}</h3>
                 <span className="text-red-700 font-bold">{fmt(c.totalStrikes)} strikes</span>
               </div>
-              <div className="w-full bg-stone-700 rounded-full h-2 mb-3">
+              <div className="w-full bg-stone-200 rounded-full h-2 mb-3">
                 <div className="bg-red-600 h-2 rounded-full" style={{ width: `${pct}%` }} />
               </div>
               <div className="flex gap-6 text-sm text-stone-500">
@@ -121,7 +121,7 @@ export default function DroneStrikesPage() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         {presList.map(p => (
           <div key={p.president} className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-            <p className="font-semibold text-white text-lg">{p.president}</p>
+            <p className="font-semibold text-stone-900 text-lg">{p.president}</p>
             <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(p.strikes)}</p>
             <p className="text-xs text-stone-500">strikes</p>
             <p className="text-sm text-stone-600 mt-1">{fmt(p.minKilled || 0)}–{fmt(p.maxKilled || 0)} killed</p>

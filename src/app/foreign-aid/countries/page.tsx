@@ -21,7 +21,7 @@ export default async function AidCountriesPage() {
   const avgMilPct = countries.reduce((s: number, c: any) => s + c.militaryPct, 0) / countries.length
 
   return (
-    <div className="min-h-screen bg-stone-900 text-white">
+    <div className="min-h-screen bg-stone-900 text-stone-900">
       <div className="max-w-6xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Foreign Aid', href: '/foreign-aid' }, { label: 'By Country' }]} />
 

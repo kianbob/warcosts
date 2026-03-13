@@ -190,7 +190,7 @@ export default function TimelineExplorerPage() {
         {/* The line */}
         <div className="relative h-2 bg-white border border-stone-200 rounded-full">
           {decades.map(d => (
-            <div key={d} className="absolute top-0 w-px h-2 bg-stone-700"
+            <div key={d} className="absolute top-0 w-px h-2 bg-stone-200"
               style={{ left: `${getPosition(d)}%` }} />
           ))}
         </div>
@@ -252,7 +252,7 @@ export default function TimelineExplorerPage() {
             <div className="flex items-center gap-3">
               <span className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${TYPE_COLORS[item.type].dot}`} />
               <span className="text-stone-500 font-mono text-sm w-12">{item.year}</span>
-              <span className="text-white font-medium">{item.name}</span>
+              <span className="text-stone-900 font-medium">{item.name}</span>
               <span className={`text-xs uppercase ml-auto ${TYPE_COLORS[item.type].label}`}>{item.type}</span>
             </div>
           </button>
