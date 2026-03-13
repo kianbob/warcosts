@@ -93,7 +93,7 @@ export default function The469Page() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The 469' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           The 469
@@ -170,7 +170,7 @@ export default function The469Page() {
       </div>
 
       {/* By Region */}
-      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Interventions by Region</h2>
         <div className="space-y-3">
           {byRegion.map((r, i) => (
@@ -262,7 +262,7 @@ export default function The469Page() {
       </div>
 
       {/* Blowback */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Blowback: How Interventions Create Future Enemies</h2>
         <p className="text-stone-400 mb-6">
           Many of America&apos;s most dangerous enemies were created — directly or indirectly — by
@@ -472,7 +472,7 @@ export default function The469Page() {
       </div>
 
       {/* Decade by decade acceleration */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Decade-by-Decade Acceleration</h2>
         <p className="text-stone-400 mb-6">The pace of intervention has accelerated dramatically over 228 years:</p>
         <div className="space-y-3">

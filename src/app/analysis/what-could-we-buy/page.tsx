@@ -143,7 +143,7 @@ export default function WhatCouldWeBuyPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'What Could We Buy' }]} />
       <ArticleSchema title="What $11.6 Trillion Could Have Bought Instead of War" description="America has spent $11.6 trillion on war. That could have paid for universal healthcare for 20 years, free college for 100 years, or clean water for every person" url="/analysis/what-could-we-buy" />
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Opportunity Cost</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           What {fmtMoney(11_600_000_000_000)} Could Have Bought Instead of War
@@ -159,7 +159,7 @@ export default function WhatCouldWeBuyPage() {
       <ShareButtons title="What $11.6 Trillion Could Have Bought" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -422,7 +422,7 @@ export default function WhatCouldWeBuyPage() {
       </div>
 
       {/* Iran War Cost Projections */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">⚡ Iran War Scenarios — Cost Projections</h2>
         <div className="space-y-4">
           {whatIranWillCost.map(scenario => (
@@ -665,7 +665,7 @@ export default function WhatCouldWeBuyPage() {
           </div>
         </div>
 
-        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+        <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-200 mb-4">🚨 Urgent: What Iran Will Cost Your Family</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>

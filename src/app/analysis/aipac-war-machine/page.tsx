@@ -67,7 +67,7 @@ export default function AIPACWarMachinePage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'AIPAC & the Path to War' }]} />
       <ArticleSchema title="Follow the Money: How AIPAC Shaped the Path to War with Iran" description="AIPAC spent $221 million on US political campaigns since 2021. $45.2M to defeat anti-war candidates. $20M to kill the Iran nuclear deal. Then the bombs fell. Fo" url="/analysis/aipac-war-machine" />
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Follow the Money</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           How AIPAC Shaped the Path to War with Iran
@@ -84,7 +84,7 @@ export default function AIPACWarMachinePage() {
       <ShareButtons title="How AIPAC Shaped the Path to War" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -325,7 +325,7 @@ export default function AIPACWarMachinePage() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-800 border border-slate-700 rounded p-4 mt-4">
+        <div className="not-prose bg-slate-800 border border-slate-700 rounded p-4 mt-4">
           <h3 className="text-red-400 font-bold mb-2">Network Total: $221M+ (2021-2026)</h3>
           <p className="text-stone-300 text-sm">
             This network allows AIPAC to operate across the political spectrum while maintaining plausible deniability. 
@@ -474,7 +474,7 @@ export default function AIPACWarMachinePage() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-800 border border-slate-700 rounded p-4 mt-4">
+        <div className="not-prose bg-slate-800 border border-slate-700 rounded p-4 mt-4">
           <p className="text-red-400 font-bold mb-2">The Infrastructure of Influence</p>
           <p className="text-stone-300 text-sm">
             This revolving door creates a permanent AIPAC presence in government regardless of which party holds power. 

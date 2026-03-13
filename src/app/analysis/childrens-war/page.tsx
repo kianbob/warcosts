@@ -108,7 +108,7 @@ export default function ChildrensWarPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: "Children's War" }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Children&apos;s War
@@ -129,7 +129,7 @@ export default function ChildrensWarPage() {
       <ShareButtons title="Children's War: 400,000+ Killed in America's Post-9/11 Wars" />
 
       {/* Key Numbers */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {childrenByTheNumbers.map((item) => (
@@ -301,7 +301,7 @@ export default function ChildrensWarPage() {
 
         <PTSDChart />
 
-        <div className="bg-stone-900 text-white rounded-lg p-6 my-6">
+        <div className="not-prose bg-stone-900 text-white rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">What PTSD Looks Like in a 6-Year-Old</h3>
           <p className="text-stone-300 mb-3">
             PTSD in children doesn&apos;t look like PTSD in adults. Children don&apos;t talk about flashbacks 
@@ -814,7 +814,7 @@ export default function ChildrensWarPage() {
           ))}
         </div>
 
-        <div className="bg-stone-900 text-white rounded-lg p-6 my-6">
+        <div className="not-prose bg-stone-900 text-white rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">The Science of Inherited Trauma</h3>
           <p className="text-stone-300 mb-3">
             Epigenetic research shows that trauma can be passed to children through changes in gene 
@@ -837,7 +837,7 @@ export default function ChildrensWarPage() {
 
       {/* Bottom line */}
       <section className="my-12">
-        <div className="bg-stone-900 text-white rounded-xl p-8">
+        <div className="not-prose bg-stone-900 text-white rounded-xl p-8">
           <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">The Bottom Line</h2>
           <p className="text-stone-300 text-lg mb-4">
             400,000 children are dead. Not combatants. Not threats. Not collateral damage. Children. They were 

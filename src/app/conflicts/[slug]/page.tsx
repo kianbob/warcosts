@@ -197,7 +197,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: c.shortName || c.name }]} />
 
         {/* Hero Section - Enhanced */}
-        <div className="bg-slate-900 text-white rounded-xl p-8 mb-8 border border-slate-700 shadow-2xl">
+        <div className="not-prose bg-slate-900 text-white rounded-xl p-8 mb-8 border border-slate-700 shadow-2xl">
           <div className="flex flex-wrap items-center gap-3 mb-4">
             <Link href={`/eras/${slugify(c.era)}`} className="text-slate-400 text-sm hover:text-red-700 transition-colors px-2 py-1 rounded-md hover:bg-stone-50">
               📅 {c.era}
@@ -675,7 +675,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         </div>
 
         {/* Founders' Intent Box */}
-        <div className="mt-6 bg-slate-900 text-white rounded-lg p-6">
+        <div className="mt-6 not-prose bg-slate-900 text-white rounded-lg p-6">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 flex items-center gap-2">
             <span>👥</span>
             What the Founders Said

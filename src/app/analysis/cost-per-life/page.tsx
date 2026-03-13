@@ -50,7 +50,7 @@ export default function AnalysisCostPerLifePage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Price of a Life' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           The Price of a Life
@@ -120,7 +120,7 @@ export default function AnalysisCostPerLifePage() {
       </div>
 
       {/* The American vs civilian disparity */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Disparity: American vs. Foreign Lives</h2>
         <p className="text-stone-400 mb-6">
           The most disturbing pattern in the data isn&apos;t the cost per American death — it&apos;s the
@@ -200,7 +200,7 @@ export default function AnalysisCostPerLifePage() {
       </div>
 
       {/* What those dollars could save */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">What $935 Million Could Save Instead</h2>
         <p className="text-stone-400 mb-6">
           For the cost of one American death in Afghanistan, the US could have:

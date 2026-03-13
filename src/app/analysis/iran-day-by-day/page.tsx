@@ -57,7 +57,7 @@ export default function IranDayByDayPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Iran: Day by Day' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 12, 2026</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Iran 2026: A Day-by-Day Account

@@ -43,7 +43,7 @@ export default function AnalysisPresidentsPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Presidents at War' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Presidents at War
@@ -419,7 +419,7 @@ export default function AnalysisPresidentsPage() {
       </div>
 
       {/* The Peace Presidents myth */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The &ldquo;Peace President&rdquo; Myth</h2>
         <div className="space-y-4 text-stone-300">
           <p>
@@ -509,7 +509,7 @@ export default function AnalysisPresidentsPage() {
       </div>
 
       {/* Lies that started wars */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Lies That Started Wars</h2>
         <p className="text-stone-400 mb-6">Nearly every major American war has been preceded by deception, fabrication, or manipulation:</p>
         <div className="space-y-4">

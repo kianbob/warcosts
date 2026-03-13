@@ -39,7 +39,7 @@ export default function CongressionalAuthorityPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Congressional Authority' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           19 Wars Without Congress
@@ -113,7 +113,7 @@ export default function CongressionalAuthorityPage() {
       </div>
 
       {/* Madison quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;The constitution supposes, what the History of all Governments demonstrates, that the
           Executive is the branch of power most interested in war, and most prone to it. It has accordingly
@@ -362,7 +362,7 @@ export default function CongressionalAuthorityPage() {
       </div>
 
       {/* 22 countries */}
-      <div className="bg-stone-900 text-white rounded-xl p-6 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">
           22+ Countries Under the 2001 AUMF
         </h2>
@@ -561,7 +561,7 @@ export default function CongressionalAuthorityPage() {
       </div>
 
       {/* The Imperial Presidency */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Imperial Presidency</h2>
         <div className="space-y-4 text-stone-300">
           <p>

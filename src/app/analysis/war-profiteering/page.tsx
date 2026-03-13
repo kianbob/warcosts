@@ -119,7 +119,7 @@ export default function WarProfiteeringPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'War Profiteering' }]} />
       <ArticleSchema title="War Is a Racket: Who Gets Rich When America Goes to War" description="Lockheed Martin stock up 1,236% since 9/11. General Dynamics up 1,450%. CEO pay: $30M. Enlisted soldier pay: $24K. 672 Pentagon officials became defense lobbyis" url="/analysis/war-profiteering" />
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           War Is a Racket
@@ -136,7 +136,7 @@ export default function WarProfiteeringPage() {
       <ShareButtons title="War Is a Racket: Who Gets Rich" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -398,7 +398,7 @@ export default function WarProfiteeringPage() {
         </p>
         <div className="space-y-4">
           {executiveCompensation.map(exec => (
-            <div key={exec.name} className="bg-slate-800 border border-slate-700 rounded-lg p-5">
+            <div key={exec.name} className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-5">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{exec.name}</h3>

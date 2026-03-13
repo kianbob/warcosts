@@ -67,7 +67,7 @@ export default function RefugeeCrisisPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Refugee Crisis' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           We Break It, They Flee, We Say No
@@ -84,7 +84,7 @@ export default function RefugeeCrisisPage() {
       <ShareButtons title="America's Wars Create Refugees — Then America Refuses Them" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -595,7 +595,7 @@ export default function RefugeeCrisisPage() {
               </div>
               <p className="text-stone-400 text-sm mb-2">Origin: {camp.origin}</p>
               <p className="text-stone-300 text-sm mb-2">{camp.note}</p>
-              <div className="bg-slate-800 border border-slate-700 rounded p-2">
+              <div className="not-prose bg-slate-800 border border-slate-700 rounded p-2">
                 <p className="text-red-400 text-xs font-semibold">US RESETTLEMENT</p>
                 <p className="text-stone-300 text-xs">{camp.usAdmitted}</p>
               </div>

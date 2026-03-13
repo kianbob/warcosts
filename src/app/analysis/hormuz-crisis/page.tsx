@@ -59,7 +59,7 @@ export default function HormuzCrisisPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Hormuz Crisis' }]} />
       <ArticleSchema title="The Strait of Hormuz: How One Waterway Could Crash the Global Economy" description="20% of global oil and 20% of global LNG flows through a 21-mile-wide strait. Iran closed it on February 28, 2026. Oil is heading past $100. The global economy i" url="/analysis/hormuz-crisis" />
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CRISIS</span>
           <span className="text-red-400 text-sm font-semibold uppercase tracking-wider">Energy Security</span>
@@ -80,7 +80,7 @@ export default function HormuzCrisisPage() {
       <ShareButtons title="The Strait of Hormuz Crisis" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -296,7 +296,7 @@ export default function HormuzCrisisPage() {
         </p>
         </div>
 
-        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
+        <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">Hormuz Escalation: Week 2</h3>
           <div className="space-y-4">
             <div className="border-l-2 border-red-600 pl-4">
@@ -326,7 +326,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
 
-        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
+        <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">The Mining Math</h3>
           <div className="grid md:grid-cols-3 gap-4 text-center">
             <div>
@@ -390,7 +390,7 @@ export default function HormuzCrisisPage() {
           deployed an estimated 2,000+ anti-ship cruise missiles in multiple defensive layers:
         </p>
 
-        <div className="bg-stone-800 text-white rounded-lg p-6 my-6">
+        <div className="not-prose bg-stone-800 text-white rounded-lg p-6 my-6">
           <h4 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-4">Iran's Anti-Ship Missile Arsenal</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
@@ -775,7 +775,7 @@ export default function HormuzCrisisPage() {
           business costs across all sectors.
         </p>
 
-        <div className="bg-stone-800 text-white rounded-lg p-6 my-6">
+        <div className="not-prose bg-stone-800 text-white rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Historical Oil Crisis Comparison</h3>
           <div className="space-y-4">
             <div className="border-b border-stone-600 pb-3">
@@ -911,7 +911,7 @@ export default function HormuzCrisisPage() {
           starting from a higher inflation baseline, the required interest rate shock could be even more severe.
         </p>
 
-        <div className="bg-stone-900 text-white rounded-lg p-6 my-6">
+        <div className="not-prose bg-stone-900 text-white rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Economic Scenarios: Three Paths Forward</h3>
           <div className="grid md:grid-cols-3 gap-4">
             <div className="bg-green-800/50 border border-green-600 rounded-lg p-4">

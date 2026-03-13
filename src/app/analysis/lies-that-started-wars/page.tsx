@@ -467,7 +467,7 @@ export default function LiesThatStartedWarsPage() {
       />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 font-semibold text-sm uppercase tracking-wide mb-3">Deep Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Lies That Started Wars
@@ -487,7 +487,7 @@ export default function LiesThatStartedWarsPage() {
       <ShareButtons title="Lies That Started Wars: Gulf of Tonkin, WMDs & the Pattern of Deception" />
 
       {/* Key Numbers */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400">AI Overview — Key Data</h2>
@@ -591,7 +591,7 @@ export default function LiesThatStartedWarsPage() {
       {/* Each Major Lie - Detailed Analysis */}
       {lies.map((lie) => (
         <section key={lie.title} className="my-12">
-          <div className="bg-stone-900 text-white rounded-xl p-6 mb-6">
+          <div className="not-prose bg-stone-900 text-white rounded-xl p-6 mb-6">
             <div className="flex justify-between items-start mb-4">
               <div>
                 <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">{lie.title}</h2>
@@ -793,7 +793,7 @@ export default function LiesThatStartedWarsPage() {
       </section>
 
       {/* Current Pattern: Iran */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">2026: The Pattern Repeats with Iran</h2>
         <p className="text-stone-300 mb-4">
           The Iran crisis follows the exact same script as Iraq, Vietnam, and the Gulf War. 
@@ -936,7 +936,7 @@ export default function LiesThatStartedWarsPage() {
       </section>
 
       {/* Bottom Line */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-400">The Bottom Line</h2>
         <div className="prose prose-stone max-w-none text-stone-300">
           <p className="text-lg mb-4">

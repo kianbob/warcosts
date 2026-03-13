@@ -38,7 +38,7 @@ export default function AftermathPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Aftermath' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           The Aftermath
@@ -83,7 +83,7 @@ export default function AftermathPage() {
       </div>
 
       {/* Veteran Suicide Deep Dive */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Suicide Epidemic</h2>
         <div className="grid md:grid-cols-3 gap-6 mb-6">
           <div className="text-center">
@@ -262,7 +262,7 @@ export default function AftermathPage() {
       </div>
 
       {/* Moral Injury */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Moral Injury: The Wound That Doesn&apos;t Heal</h2>
         <div className="space-y-4 text-stone-300">
           <p>
@@ -844,7 +844,7 @@ export default function AftermathPage() {
       </div>
 
       {/* The real cost */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Real Cost of War</h2>
         <div className="space-y-4 text-stone-300">
           <p>

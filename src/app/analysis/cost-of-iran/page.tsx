@@ -294,7 +294,7 @@ export default function CostOfIranPage() {
       />
       
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Cost Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           What Will Iran Cost?
@@ -312,7 +312,7 @@ export default function CostOfIranPage() {
       <ShareButtons title="What Will Iran Cost?" />
 
       {/* AI Overview */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -404,7 +404,7 @@ export default function CostOfIranPage() {
             </tbody>
           </table>
         </div>
-        <div className="mt-4 p-4 bg-slate-800 border border-slate-700 rounded-lg">
+        <div className="mt-4 p-4 not-prose bg-slate-800 border border-slate-700 rounded-lg">
           <p className="text-red-400 font-semibold text-sm mb-2">⚠️ This excludes:</p>
           <ul className="text-stone-300 text-sm space-y-1">
             <li>• Classified programs (cyber operations, special operations, intelligence)</li>
@@ -483,7 +483,7 @@ export default function CostOfIranPage() {
       </div>
 
       {/* Strait of Hormuz Economic Impact */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Strait of Hormuz: Economic Weapon of Mass Destruction</h2>
         <p className="text-stone-300 mb-4">
           Even if Operation Epic Fury lasted only one week, the economic damage from the Strait of Hormuz closure would
@@ -608,7 +608,7 @@ export default function CostOfIranPage() {
             </tbody>
           </table>
         </div>
-        <div className="mt-4 p-4 bg-slate-800 border border-slate-700 rounded-lg">
+        <div className="mt-4 p-4 not-prose bg-slate-800 border border-slate-700 rounded-lg">
           <h3 className="text-red-400 font-semibold mb-2">The Bottom Line</h3>
           <p className="text-stone-300 text-sm">
             Even using the lower 6.5:1000 ratio (which failed in Iraq), occupying Iran would require <strong>572,000 troops</strong> — 
@@ -637,7 +637,7 @@ export default function CostOfIranPage() {
       </div>
 
       {/* Debt Impact Analysis */}
-      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
+      <div className="not-prose bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">Debt Crisis: The Hidden Cost of War</h2>
         <div className="space-y-3">
           {debtImpact.map((item, i) => (

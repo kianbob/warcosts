@@ -96,7 +96,7 @@ export default function ForeverWarsPage() {
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Forever Wars' }]} />
 
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
         <p className="text-red-500 font-semibold text-sm uppercase tracking-wide mb-3">Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           The Forever Wars: How 60 Words Changed Everything
@@ -283,7 +283,7 @@ export default function ForeverWarsPage() {
       </div>
 
       {/* The revolving door */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Revolving Door That Sustains Them</h2>
         <div className="grid md:grid-cols-3 gap-4 mb-4">
           <div className="text-center">
@@ -505,7 +505,7 @@ export default function ForeverWarsPage() {
       </div>
 
       {/* Empires that collapsed */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Empires That Collapsed from Overextension</h2>
         <p className="text-stone-400 mb-6">
           Every great power that maintained a global military presence eventually went bankrupt or collapsed.
@@ -543,7 +543,7 @@ export default function ForeverWarsPage() {
       </div>
 
       {/* Countries map */}
-      <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">
           Countries Where the AUMF Has Been Invoked
         </h2>

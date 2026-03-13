@@ -43,7 +43,7 @@ export default function IsraelLobbyPage() {
         </div>
       </div>
       {/* Hero */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 mb-8">
         <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Deep Analysis</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-4">
           The Israel Lobby: How One Country Captured American Foreign Policy
@@ -71,7 +71,7 @@ export default function IsraelLobbyPage() {
       </div>
 
       {/* Opening Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="border-l-4 border-red-700 pl-6">
           <p className="text-lg italic leading-relaxed">&ldquo;I do not think it is an exaggeration to say that the United States and Israel have a relationship unlike that of any two other countries in the world. Our alliance goes beyond mere strategic interest. There is a moral imperative.&rdquo;</p>
           <footer className="text-stone-400 mt-3 text-sm">— Senator Chuck Schumer, explaining why he blocked conditions on military aid to Israel during the Gaza campaign</footer>
@@ -245,7 +245,7 @@ export default function IsraelLobbyPage() {
         </ul>
       </div>
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="border-l-4 border-red-700 pl-6">
           <p className="text-lg italic leading-relaxed">&ldquo;Every time anyone says that Israel is our only friend in the Middle East, I can&apos;t help but think that before Israel, we had no enemies in the Middle East.&rdquo;</p>
           <footer className="text-stone-400 mt-3 text-sm">— Father John Sheehan, S.J. (frequently attributed; also echoed by numerous foreign policy analysts)</footer>
@@ -375,7 +375,7 @@ export default function IsraelLobbyPage() {
         </ul>
       </div>
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="border-l-4 border-red-700 pl-6">
           <p className="text-lg italic leading-relaxed">&ldquo;I&apos;m a United States senator. I&apos;m not an Israeli senator. I don&apos;t think there&apos;s any doubt what my record is on supporting the security of Israel.&rdquo;</p>
           <footer className="text-stone-400 mt-3 text-sm">— Senator Chuck Hagel (R-NE), who was subjected to an intense AIPAC-backed campaign against his nomination as Secretary of Defense in 2013 for insufficient loyalty to Israel</footer>
@@ -435,7 +435,7 @@ export default function IsraelLobbyPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-10 mb-4">The Libertarian Case: Entangling Alliances and the Republic</h2>
       </div>
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="border-l-4 border-red-700 pl-6">
           <p className="text-lg italic leading-relaxed">&ldquo;Peace, commerce, and honest friendship with all nations — entangling alliances with none.&rdquo;</p>
           <footer className="text-stone-400 mt-3 text-sm">— Thomas Jefferson, First Inaugural Address, 1801</footer>
