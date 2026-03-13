@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil and 20% of global LNG flows through a 21-mile-wide strait. Iran closed it on February 28, 2026. Oil is heading past $100. The global economy is in crisis.',
+  description: '20% of global oil flows through a 21-mile strait. Iran is mining it. 80% traffic drop. 15M bbl/day stranded. Oil past $100. 5,000+ mines in inventory. The global economy is in crisis.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -22,7 +22,7 @@ const dependentCountries = [
   { country: 'UAE', dailyExport: '3.5M barrels/day', percentThroughHormuz: '~85%', notes: 'Habshan-Fujairah pipeline bypasses Hormuz (1.5M bbl/day) but can\'t handle full volume' },
   { country: 'Kuwait', dailyExport: '2.7M barrels/day', percentThroughHormuz: '100%', notes: 'No bypass options. Completely landlocked by the strait.' },
   { country: 'Qatar', dailyExport: '1.8M barrels + world\'s largest LNG', percentThroughHormuz: '100%', notes: 'World\'s top LNG exporter. Every drop goes through Hormuz. No alternative.' },
-  { country: 'Iran', dailyExport: '1.5M barrels/day (pre-sanctions)', percentThroughHormuz: '100%', notes: 'Iran hurts its own exports — willing to accept mutual destruction' },
+  { country: 'Iran', dailyExport: '2.1M barrels/day (actual, during war)', percentThroughHormuz: '100%', notes: 'Paradoxically, Iran is still exporting — actually MORE than pre-war (2.0M). Iran mines to threaten others while profiting from the chaos.' },
 ]
 
 const historicalThreats = [
@@ -32,7 +32,9 @@ const historicalThreats = [
   { year: '2011–2012', event: 'Sanctions escalation', details: 'Iran explicitly threatened to close Hormuz if sanctions were imposed. VP Rahimi: "Not a drop of oil will pass through the Strait of Hormuz." US moved additional carrier groups to the region.' },
   { year: '2019', event: 'Tanker attacks', details: 'Six tankers attacked in Gulf of Oman (May-June). Iran shot down US RQ-4 Global Hawk drone ($130M). Trump ordered retaliatory strike then cancelled it "10 minutes before." Iran seized British-flagged Stena Impero.' },
   { year: 'Feb 3, 2026', event: 'IRGC boarding attempt', details: 'IRGC Navy attempted to board US-flagged tanker M/V Stena Imperative. Precursor to full closure.' },
-  { year: 'Feb 28, 2026', event: 'Full closure', details: 'Iran declares the Strait of Hormuz closed following Operation Epic Fury. First actual closure in history. Oil heading past $100/barrel.' },
+  { year: 'Feb 28, 2026', event: 'Hormuz under threat', details: 'Iran threatens Strait of Hormuz following Operation Epic Fury. IRGC deploys fast attack boats and anti-ship missiles. Oil heading past $100/barrel. Maritime traffic drops 80%.' },
+  { year: 'Mar 10, 2026', event: 'Iran begins mining', details: 'CENTCOM confirms Iran has begun laying naval mines in the Strait. 16 Iranian minelayers destroyed. Fewer than 10 mines deployed so far — but Iran has 5,000+ mine inventory. 15M bbl/day crude + 4.5M bpd refined fuels stranded in Gulf. Iran itself still exporting 2.1M bbl/day.' },
+  { year: 'Mar 11, 2026', event: 'Maritime chaos deepens', details: 'UKMTO reports 17 maritime incidents Feb 28-Mar 11 (13 attacks, 4 suspicious). Iranian drones strike Port of Salalah, Oman — fires at gasoline storage. Dubai International Airport struck twice. Bahrain refinery ablaze after Iranian missile.' },
 ]
 
 const alternativeRoutes = [
@@ -69,8 +71,9 @@ export default function HormuzCrisisPage() {
         <p className="text-stone-400 text-lg">
           Twenty-one miles wide. Twenty percent of the world&apos;s oil. Twenty percent of its liquefied natural gas.
           Six countries&apos; entire economies depend on it. On February 28, 2026 — hours after the first American bombs fell
-          on Tehran — Iran closed it. For the first time in history, the most important chokepoint on Earth is shut.
-          There is no detour. There is no Plan B. And every American is about to feel it.
+          on Tehran — Iran began threatening it. By Day 11, Iran was actively mining the strait with naval mines.
+          Maritime traffic has dropped 80%. 15 million barrels per day are stranded. Oil is past $100.
+          There is no detour. There is no Plan B. And every American is already feeling it.
         </p>
       </div>
 
@@ -87,7 +90,9 @@ export default function HormuzCrisisPage() {
           <li>📊 Oil prices heading toward <strong className="text-white">$100+/barrel</strong>; tanker insurance premiums have <strong className="text-white">tripled</strong></li>
           <li>📊 American gas prices projected to hit <strong className="text-white">$4.50–6.00/gallon</strong> within weeks; food prices up <strong className="text-white">15-25%</strong> within 60 days</li>
           <li>📊 Alternative pipelines can only handle <strong className="text-white">~30%</strong> of normal Hormuz traffic — and most are already at or near capacity</li>
-          <li>📊 The Strait has been <strong className="text-white">threatened 7 times</strong> since 1984 but never actually closed until now — every threat caused price spikes</li>
+          <li>📊 Iran has begun <strong className="text-white">mining the Strait</strong> — CENTCOM destroyed 16 minelayers on Day 11. Iran has <strong className="text-white">5,000+ mines</strong> in inventory</li>
+          <li>📊 <strong className="text-white">80% drop</strong> in non-Iranian maritime traffic — but Iran itself still exports <strong className="text-white">2.1M bbl/day</strong> (more than pre-war)</li>
+          <li>📊 <strong className="text-white">17 maritime incidents</strong> Feb 28-Mar 11 (13 attacks, 4 suspicious) — UKMTO. Bahrain refinery ablaze, Oman port fires, Dubai airport struck</li>
         </ul>
       </div>
 
@@ -200,8 +205,8 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Mar 6, 2026):</strong> All traffic suspended. Zero barrels, zero LNG shipments, zero cargo. 
-          First complete closure in recorded history.
+          <strong>Current status (as of Mar 12, 2026):</strong> Non-Iranian maritime traffic down 80%. Iran mining the strait — 16 minelayers destroyed, 5,000+ mines in inventory. 
+          15M bbl/day crude + 4.5M bpd refined fuels stranded. Iran paradoxically still exporting 2.1M bbl/day. Oil past $100/barrel.
         </p>
       </div>
 
@@ -284,6 +289,68 @@ export default function HormuzCrisisPage() {
           energy chokepoint was shut.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">Days 8-13: From Threats to Mining</h2>
+        <p>
+          The first week of the war saw Iran threaten the strait and deploy fast attack boats. The second week saw
+          the threat become reality. Here&apos;s how the Hormuz crisis escalated through Day 13 (March 12):
+        </p>
+        </div>
+
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">Hormuz Escalation: Week 2</h3>
+          <div className="space-y-4">
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold">Day 8 — Mar 7</span>
+              <p className="text-stone-300 text-sm mt-1">Strikes expand to Iranian oil production for first time. IDF hits Tondgouyan Oil Refinery (one of Iran&apos;s largest) and Shahran Oil Refinery in Tehran, plus two oil storage facilities. Iran&apos;s ability to process and export oil begins degrading.</p>
+            </div>
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold">Day 9 — Mar 8</span>
+              <p className="text-stone-300 text-sm mt-1">Shahed drone factory in Isfahan destroyed. Oil prices surge past $100/barrel for first time since 2022. Shipping industry braces for prolonged disruption.</p>
+            </div>
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold">Day 10 — Mar 9</span>
+              <p className="text-stone-300 text-sm mt-1">Iranian missile sets Bahrain oil refinery ablaze. Bahrain declares force majeure on all oil shipments — first Gulf state to formally suspend exports. Oil briefly tops $100. Iran&apos;s Parliament Speaker Ghalibaf claims strikes have degraded US air defenses.</p>
+            </div>
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold text-lg">Day 11 — Mar 10 (CRITICAL)</span>
+              <p className="text-stone-300 text-sm mt-1"><strong className="text-white">Iran begins actively mining the Strait of Hormuz.</strong> CENTCOM destroys 16 Iranian minelayers. Fewer than 10 mines deployed so far — but Iran has 5,000+ mines in inventory. CNN reports ~15 million barrels/day crude + 4.5 million bpd refined fuels stranded in the Gulf. UAE intercepts 241 of 262 ballistic missiles (92% rate). Paradoxically, Iran is still exporting 2.1M bbl/day through the Strait — actually more than pre-war (2.0M). Iran&apos;s Goreh-Jask pipeline (1M bpd capacity) provides additional bypass.</p>
+            </div>
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold">Day 12 — Mar 11</span>
+              <p className="text-stone-300 text-sm mt-1">Pentagon tells Congress the first 6 days cost $11.3 billion. UKMTO reports 17 maritime incidents since Feb 28 (13 attacks, 4 suspicious). Iranian drones strike gasoline storage at Port of Salalah, Oman — fires at a neutral country&apos;s port. Two Iranian drones strike near Dubai International Airport (4 injured). A 29-year-old woman killed in Bahrain when projectile hits residential building in Manama.</p>
+            </div>
+            <div className="border-l-2 border-red-600 pl-4">
+              <span className="text-red-400 font-bold">Day 13 — Mar 12</span>
+              <p className="text-stone-300 text-sm mt-1">KC-135 Stratotanker crashes in western Iraq. Oil tankers hit in Iraq. The energy supply chain disruption is now affecting countries that have nothing to do with the war — Oman, Bahrain, and commercial shipping globally.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">The Mining Math</h3>
+          <div className="grid md:grid-cols-3 gap-4 text-center">
+            <div>
+              <div className="text-3xl font-bold text-red-500">5,000+</div>
+              <div className="text-stone-400 text-sm">Mines in Iran&apos;s inventory</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-amber-400">&lt;10</div>
+              <div className="text-stone-400 text-sm">Mines deployed so far</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-white">16</div>
+              <div className="text-stone-400 text-sm">Minelayers destroyed by CENTCOM</div>
+            </div>
+          </div>
+          <p className="text-stone-300 text-sm mt-4">
+            Iran has barely begun mining. Even with 16 minelayers destroyed, Iran can deploy mines from small boats, 
+            submarines, and even civilian vessels under cover of darkness. At current rates, Iran could seed the entire 
+            strait with hundreds of mines within weeks — each one capable of disabling or sinking a supertanker.
+            Mine clearance in contested waters takes months. The Hormuz crisis is just getting started.
+          </p>
+        </div>
+
+      <div className="prose prose-stone max-w-none">
         <h2 className="font-[family-name:var(--font-heading)]">Historical Context: Seven Times the World Held Its Breath</h2>
         <p>
           The February 28 closure didn&apos;t happen in a vacuum. The Strait of Hormuz has been a flashpoint for four decades.
