@@ -113,7 +113,7 @@ export default function ForeignAidPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Foreign aid is taking money from poor people in rich countries and giving it to rich people in poor countries.&rdquo;
         </blockquote>

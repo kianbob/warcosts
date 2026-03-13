@@ -344,7 +344,7 @@ export default function CasualtiesPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious. It is the only one in which the profits are reckoned in dollars and the losses in lives.&rdquo;
         </blockquote>

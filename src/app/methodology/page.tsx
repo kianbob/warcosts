@@ -38,7 +38,7 @@ export default function MethodologyPage() {
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-6">Methodology</h1>
       <p className="text-muted mb-8 max-w-3xl">Transparency about how we calculate these numbers is as important as the numbers themselves. Here&apos;s exactly how we compile, adjust, and present our data — including our limitations and where uncertainty exists.</p>
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 mb-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passions, they cannot alter the state of facts and evidence.&rdquo;
         </blockquote>

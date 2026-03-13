@@ -114,7 +114,7 @@ export default function BasesPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Unlike any other nation in history, the United States stations its legions not to defend its own borders, but to project power — and the costs are borne by people who have no say in the matter.&rdquo;
         </blockquote>

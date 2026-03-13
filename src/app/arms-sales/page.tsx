@@ -106,7 +106,7 @@ export default function ArmsSalesPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;We sell weapons to both sides in a conflict, then send our troops to clean up the mess. That&apos;s not foreign policy — it&apos;s a business model.&rdquo;
         </blockquote>

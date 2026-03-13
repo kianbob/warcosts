@@ -172,7 +172,7 @@ export default function TimelinePage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Of all the enemies to public liberty, war is perhaps the most to be dreaded, because it comprises and develops the germ of every other.&rdquo;
         </blockquote>
@@ -282,7 +282,7 @@ export default function TimelinePage() {
       </div>
 
       {/* The Founders on War */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Founders on War & Standing Armies</h2>
         <div className="space-y-4">
           <div>

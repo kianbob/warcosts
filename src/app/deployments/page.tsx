@@ -82,7 +82,7 @@ export default function DeploymentsPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Our military forces are committed around the world... in approximately 750 base sites in 80 foreign countries and colonies. We are the new Rome.&rdquo;
         </blockquote>

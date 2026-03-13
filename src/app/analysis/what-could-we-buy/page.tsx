@@ -556,7 +556,7 @@ export default function WhatCouldWeBuyPage() {
           and a country that would sacrifice its domestic wellbeing for military empire. He tried to warn us. We didn&apos;t listen.
         </p>
         <p>
-          <Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-300">The cost of maintaining global empire</Link> now
+          <Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-800">The cost of maintaining global empire</Link> now
           consumes $1.3 trillion annually — more than the entire GDP of most countries. We have become exactly what Eisenhower feared:
           a garrison state that measures strength by how much it can destroy rather than how much it can create.
         </p>
@@ -585,10 +585,10 @@ export default function WhatCouldWeBuyPage() {
 
         <h2 className="font-[family-name:var(--font-heading)]">What Happens Next</h2>
         <p>
-          The war machine will not stop itself. <Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-300">
+          The war machine will not stop itself. <Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-800">
           The corporations that profit from war</Link> have too much invested in continued conflict. <Link href="/analysis/aipac-war-machine" 
-          className="text-red-400 hover:text-red-300">The lobby groups that push for war</Link> have too much influence over Congress.
-          <Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-300">The presidents who start wars</Link> face
+          className="text-red-400 hover:text-red-800">The lobby groups that push for war</Link> have too much influence over Congress.
+          <Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-800">The presidents who start wars</Link> face
           no meaningful constraints.
         </p>
         <p>
@@ -603,15 +603,15 @@ export default function WhatCouldWeBuyPage() {
 
         <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
         <ul>
-          <li><Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-300">Cost of Empire: $1.3 Trillion Per Year</Link></li>
-          <li><Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-300">War Profiteering: Who Gets Rich From Death</Link></li>
-          <li><Link href="/analysis/aipac-war-machine" className="text-red-400 hover:text-red-300">AIPAC and the War Machine</Link></li>
-          <li><Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-300">Undeclared Wars: Constitutional Crisis</Link></li>
-          <li><Link href="/analysis/base-nation" className="text-red-400 hover:text-red-300">Base Nation: 800+ Military Bases Worldwide</Link></li>
-          <li><Link href="/analysis/refugee-crisis" className="text-red-400 hover:text-red-300">Refugee Crisis: 38 Million Displaced by US Wars</Link></li>
-          <li><Link href="/analysis/draft-and-inequality" className="text-red-400 hover:text-red-300">The Draft and Class Warfare</Link></li>
-          <li><Link href="/analysis/war-and-civil-liberties" className="text-red-400 hover:text-red-300">How War Destroys Civil Liberties</Link></li>
-          <li><Link href="/conflicts/" className="text-red-400 hover:text-red-300">Conflicts Database: Every US War Since 1775</Link></li>
+          <li><Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-800">Cost of Empire: $1.3 Trillion Per Year</Link></li>
+          <li><Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-800">War Profiteering: Who Gets Rich From Death</Link></li>
+          <li><Link href="/analysis/aipac-war-machine" className="text-red-400 hover:text-red-800">AIPAC and the War Machine</Link></li>
+          <li><Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-800">Undeclared Wars: Constitutional Crisis</Link></li>
+          <li><Link href="/analysis/base-nation" className="text-red-400 hover:text-red-800">Base Nation: 800+ Military Bases Worldwide</Link></li>
+          <li><Link href="/analysis/refugee-crisis" className="text-red-400 hover:text-red-800">Refugee Crisis: 38 Million Displaced by US Wars</Link></li>
+          <li><Link href="/analysis/draft-and-inequality" className="text-red-400 hover:text-red-800">The Draft and Class Warfare</Link></li>
+          <li><Link href="/analysis/war-and-civil-liberties" className="text-red-400 hover:text-red-800">How War Destroys Civil Liberties</Link></li>
+          <li><Link href="/conflicts/" className="text-red-400 hover:text-red-800">Conflicts Database: Every US War Since 1775</Link></li>
         </ul>
 
         <h2 className="font-[family-name:var(--font-heading)]">Take Action</h2>

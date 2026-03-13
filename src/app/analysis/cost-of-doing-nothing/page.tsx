@@ -925,19 +925,19 @@ export default function CostOfDoingNothingPage() {
 
         <h3>Further Reading</h3>
         <ul>
-          <li><Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-300">Pentagon Waste: Where the Intervention Money Actually Goes</Link></li>
-          <li><Link href="/analysis/media-and-war" className="text-red-400 hover:text-red-300">Manufacturing Consent: How Every War Gets Sold</Link></li>
-          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-300">Veterans Betrayed: The Long-term Human Costs</Link></li>
-          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-300">The War Economy: Who Actually Benefits</Link></li>
-          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-300">Environmental Cost of War: The Hidden Damage</Link></li>
-          <li><Link href="/analysis/surveillance-state" className="text-red-400 hover:text-red-300">The Surveillance State: How War Powers Become Permanent</Link></li>
+          <li><Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-800">Pentagon Waste: Where the Intervention Money Actually Goes</Link></li>
+          <li><Link href="/analysis/media-and-war" className="text-red-400 hover:text-red-800">Manufacturing Consent: How Every War Gets Sold</Link></li>
+          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-800">Veterans Betrayed: The Long-term Human Costs</Link></li>
+          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-800">The War Economy: Who Actually Benefits</Link></li>
+          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-800">Environmental Cost of War: The Hidden Damage</Link></li>
+          <li><Link href="/analysis/surveillance-state" className="text-red-400 hover:text-red-800">The Surveillance State: How War Powers Become Permanent</Link></li>
         </ul>
 
         <h3>Current Conflicts</h3>
         <ul>
-          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-300">Iran Conflict: Real-time cost analysis of current intervention</Link></li>
-          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-300">Ukraine War: Proxy intervention costs and commitments</Link></li>
-          <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-300">Yemen: Saudi-US partnership and humanitarian costs</Link></li>
+          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-800">Iran Conflict: Real-time cost analysis of current intervention</Link></li>
+          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-800">Ukraine War: Proxy intervention costs and commitments</Link></li>
+          <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-800">Yemen: Saudi-US partnership and humanitarian costs</Link></li>
         </ul>
       </div>
 

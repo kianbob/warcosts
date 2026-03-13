@@ -716,7 +716,7 @@ export default function SanctionsDontWorkPage() {
             { href: '/analysis/human-cost', label: 'The Human Cost of War' },
             { href: '/analysis/sanctions-warfare', label: 'Sanctions Warfare — Deep Dive' },
           ].map(l => (
-            <Link key={l.href} href={l.href} className="text-red-400 hover:text-red-300 text-sm hover:underline">
+            <Link key={l.href} href={l.href} className="text-red-400 hover:text-red-800 text-sm hover:underline">
               → {l.label}
             </Link>
           ))}

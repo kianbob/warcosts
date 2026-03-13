@@ -348,7 +348,7 @@ export default function MilitaryFamiliesPage() {
             { href: '/analysis/what-could-we-buy', label: 'What Could We Buy Instead?' },
             { href: '/analysis/the-aftermath', label: 'The Aftermath' },
           ].map(l => (
-            <Link key={l.href} href={l.href} className="text-red-400 hover:text-red-300 text-sm hover:underline">
+            <Link key={l.href} href={l.href} className="text-red-400 hover:text-red-800 text-sm hover:underline">
               → {l.label}
             </Link>
           ))}

@@ -884,27 +884,27 @@ export default function ForgottenWarsPage() {
       <section className="my-12">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Related Analysis</h2>
         <div className="grid md:grid-cols-2 gap-4">
-          <Link href="/analysis/the-469" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/the-469" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">469 Military Interventions</h3>
             <p className="text-stone-400 text-sm">The complete list of US armed forces deployed abroad since 1798 — most forgotten within a generation.</p>
           </Link>
-          <Link href="/analysis/allies-and-enemies" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/allies-and-enemies" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">Allies &amp; Enemies</h3>
             <p className="text-stone-400 text-sm">How America arms today&apos;s ally and fights tomorrow&apos;s enemy — the revolving door of interventions.</p>
           </Link>
-          <Link href="/analysis/undeclared-wars" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/undeclared-wars" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">Undeclared Wars</h3>
             <p className="text-stone-400 text-sm">How forgotten wars destroyed congressional war powers and created the imperial presidency.</p>
           </Link>
-          <Link href="/analysis/blowback" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/blowback" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">Blowback</h3>
             <p className="text-stone-400 text-sm">How forgotten interventions create tomorrow&apos;s enemies and justify new interventions.</p>
           </Link>
-          <Link href="/analysis/americas-wars-by-the-numbers" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/americas-wars-by-the-numbers" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">America&apos;s Wars by the Numbers</h3>
             <p className="text-stone-400 text-sm">Statistical analysis of all US wars — including the ones we try to forget.</p>
           </Link>
-          <Link href="/analysis/cost-of-secrecy" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-700 transition">
+          <Link href="/analysis/cost-of-secrecy" className="bg-stone-800 rounded-lg border border-stone-700 p-5 hover:bg-stone-100 transition">
             <h3 className="font-bold text-white mb-1">The Cost of Secrecy</h3>
             <p className="text-stone-400 text-sm">How classification and state secrets enable forgotten wars and prevent democratic oversight.</p>
           </Link>

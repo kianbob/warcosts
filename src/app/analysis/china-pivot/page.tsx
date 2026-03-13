@@ -557,29 +557,29 @@ export default function ChinaPivotPage() {
           <div>
             <h4 className="text-stone-300 font-semibold mb-2">Current Wars</h4>
             <ul className="space-y-1">
-              <li><a href="/analysis/iran-2026" className="text-red-400 hover:text-red-300">→ Iran 2026: Whose War Is This?</a></li>
-              <li><a href="/analysis/cost-of-iran" className="text-red-400 hover:text-red-300">→ What Will Iran Cost?</a></li>
-              <li><a href="/analysis/iran-civilian-cost" className="text-red-400 hover:text-red-300">→ Iran: The Civilian Cost</a></li>
-              <li><a href="/analysis/hormuz-crisis" className="text-red-400 hover:text-red-300">→ Hormuz Crisis: The Oil Chokepoint</a></li>
+              <li><a href="/analysis/iran-2026" className="text-red-400 hover:text-red-800">→ Iran 2026: Whose War Is This?</a></li>
+              <li><a href="/analysis/cost-of-iran" className="text-red-400 hover:text-red-800">→ What Will Iran Cost?</a></li>
+              <li><a href="/analysis/iran-civilian-cost" className="text-red-400 hover:text-red-800">→ Iran: The Civilian Cost</a></li>
+              <li><a href="/analysis/hormuz-crisis" className="text-red-400 hover:text-red-800">→ Hormuz Crisis: The Oil Chokepoint</a></li>
             </ul>
           </div>
           <div>
             <h4 className="text-stone-300 font-semibold mb-2">Strategic Analysis</h4>
             <ul className="space-y-1">
-              <li><a href="/analysis/what-could-we-buy" className="text-red-400 hover:text-red-300">→ What $8.4 Trillion Could Have Bought Instead</a></li>
-              <li><a href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-300">→ The True Cost of Empire</a></li>
-              <li><a href="/analysis/base-nation" className="text-red-400 hover:text-red-300">→ Base Nation: 800 Bases, 80 Countries</a></li>
-              <li><a href="/analysis/allies-and-enemies" className="text-red-400 hover:text-red-300">→ Allies and Enemies: The Revolving Door</a></li>
+              <li><a href="/analysis/what-could-we-buy" className="text-red-400 hover:text-red-800">→ What $8.4 Trillion Could Have Bought Instead</a></li>
+              <li><a href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-800">→ The True Cost of Empire</a></li>
+              <li><a href="/analysis/base-nation" className="text-red-400 hover:text-red-800">→ Base Nation: 800 Bases, 80 Countries</a></li>
+              <li><a href="/analysis/allies-and-enemies" className="text-red-400 hover:text-red-800">→ Allies and Enemies: The Revolving Door</a></li>
             </ul>
           </div>
         </div>
         <div className="mt-4 pt-4 border-t border-stone-700">
           <h4 className="text-stone-300 font-semibold mb-2">Data & Comparisons</h4>
           <ul className="space-y-1 text-sm">
-            <li><a href="/global-spending" className="text-red-400 hover:text-red-300">→ Global Military Spending Comparison</a></li>
-            <li><a href="/countries/china" className="text-red-400 hover:text-red-300">→ China Military Spending Profile</a></li>
-            <li><a href="/countries/usa" className="text-red-400 hover:text-red-300">→ US Military Spending Profile</a></li>
-            <li><a href="/analysis/americas-wars-by-the-numbers" className="text-red-400 hover:text-red-300">→ America's Wars by the Numbers</a></li>
+            <li><a href="/global-spending" className="text-red-400 hover:text-red-800">→ Global Military Spending Comparison</a></li>
+            <li><a href="/countries/china" className="text-red-400 hover:text-red-800">→ China Military Spending Profile</a></li>
+            <li><a href="/countries/usa" className="text-red-400 hover:text-red-800">→ US Military Spending Profile</a></li>
+            <li><a href="/analysis/americas-wars-by-the-numbers" className="text-red-400 hover:text-red-800">→ America's Wars by the Numbers</a></li>
           </ul>
         </div>
       </div>

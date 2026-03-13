@@ -29,7 +29,7 @@ export default function AboutPage() {
       <Breadcrumbs items={[{ label: 'About' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-6">About WarCosts</h1>
 
-      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 mb-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;The first casualty of war is truth.&rdquo;
         </blockquote>

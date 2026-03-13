@@ -959,20 +959,20 @@ export default function ChildrensWarPage() {
         <h2 className="font-[family-name:var(--font-heading)]">Further Reading</h2>
         <h3>Analysis Articles</h3>
         <ul>
-          <li><Link href="/analysis/media-and-war" className="text-red-400 hover:text-red-300">Manufacturing Consent: How Media Sells Every War</Link></li>
-          <li><Link href="/analysis/surveillance-state" className="text-red-400 hover:text-red-300">The Surveillance State: War Powers Turned Inward</Link></li>
-          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-300">The War Economy: Who Profits from Endless Conflict</Link></li>
-          <li><Link href="/analysis/cost-of-doing-nothing" className="text-red-400 hover:text-red-300">The Cost of Doing Nothing: Why Peace is "Unaffordable"</Link></li>
-          <li><Link href="/analysis/oil-and-war" className="text-red-400 hover:text-red-300">Blood for Oil: Resource Wars and Energy Empire</Link></li>
-          <li><Link href="/analysis/private-military" className="text-red-400 hover:text-red-300">Private Military Companies: Mercenaries and Accountability</Link></li>
-          <li><Link href="/analysis/shadow-wars" className="text-red-400 hover:text-red-300">Shadow Wars: America's Secret Military Operations</Link></li>
+          <li><Link href="/analysis/media-and-war" className="text-red-400 hover:text-red-800">Manufacturing Consent: How Media Sells Every War</Link></li>
+          <li><Link href="/analysis/surveillance-state" className="text-red-400 hover:text-red-800">The Surveillance State: War Powers Turned Inward</Link></li>
+          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-800">The War Economy: Who Profits from Endless Conflict</Link></li>
+          <li><Link href="/analysis/cost-of-doing-nothing" className="text-red-400 hover:text-red-800">The Cost of Doing Nothing: Why Peace is "Unaffordable"</Link></li>
+          <li><Link href="/analysis/oil-and-war" className="text-red-400 hover:text-red-800">Blood for Oil: Resource Wars and Energy Empire</Link></li>
+          <li><Link href="/analysis/private-military" className="text-red-400 hover:text-red-800">Private Military Companies: Mercenaries and Accountability</Link></li>
+          <li><Link href="/analysis/shadow-wars" className="text-red-400 hover:text-red-800">Shadow Wars: America's Secret Military Operations</Link></li>
         </ul>
 
         <h3>Current Conflicts</h3>
         <ul>
-          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-300">Iran Conflict: Child casualties in current operations</Link></li>
-          <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-300">Gaza: US weapons and child deaths</Link></li>
-          <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-300">Yemen War: Saudi-US partnership targeting children</Link></li>
+          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-800">Iran Conflict: Child casualties in current operations</Link></li>
+          <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-800">Gaza: US weapons and child deaths</Link></li>
+          <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-800">Yemen War: Saudi-US partnership targeting children</Link></li>
         </ul>
 
         <blockquote className="border-l-4 border-red-600 bg-slate-800 p-4 my-6">

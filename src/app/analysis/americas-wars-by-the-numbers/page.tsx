@@ -740,7 +740,7 @@ export default function AmericasWarsByTheNumbersPage() {
           </thead>
           <tbody>
             {conflicts.map(c => (
-              <tr key={c.id} className="border-b border-stone-700/50 hover:bg-stone-700/30">
+              <tr key={c.id} className="border-b border-stone-700/50 hover:bg-stone-100/30">
                 <td className="py-2 pr-2">
                   <Link href={`/conflicts/${c.id}`} className="text-red-400 hover:underline text-xs">
                     {c.shortName || c.name}
@@ -984,29 +984,29 @@ export default function AmericasWarsByTheNumbersPage() {
           <div>
             <h4 className="text-stone-300 font-semibold mb-2">Cost Analysis</h4>
             <ul className="space-y-1">
-              <li><Link href="/analysis/cost-per-life" className="text-red-400 hover:text-red-300">→ The Price of a Life</Link></li>
-              <li><Link href="/analysis/what-could-we-buy" className="text-red-400 hover:text-red-300">→ What $11.6 Trillion Could Have Bought</Link></li>
-              <li><Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-300">→ The True Cost of Empire</Link></li>
-              <li><Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-300">→ War Profiteering: The Business of Death</Link></li>
+              <li><Link href="/analysis/cost-per-life" className="text-red-400 hover:text-red-800">→ The Price of a Life</Link></li>
+              <li><Link href="/analysis/what-could-we-buy" className="text-red-400 hover:text-red-800">→ What $11.6 Trillion Could Have Bought</Link></li>
+              <li><Link href="/analysis/cost-of-empire" className="text-red-400 hover:text-red-800">→ The True Cost of Empire</Link></li>
+              <li><Link href="/analysis/war-profiteering" className="text-red-400 hover:text-red-800">→ War Profiteering: The Business of Death</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-stone-300 font-semibold mb-2">Current Wars</h4>
             <ul className="space-y-1">
-              <li><Link href="/analysis/iran-2026" className="text-red-400 hover:text-red-300">→ Iran 2026: Whose War Is This?</Link></li>
-              <li><Link href="/analysis/cost-of-iran" className="text-red-400 hover:text-red-300">→ What Will Iran Cost?</Link></li>
-              <li><Link href="/analysis/911-to-forever-war" className="text-red-400 hover:text-red-300">→ 9/11 to Forever War</Link></li>
-              <li><Link href="/analysis/forgotten-wars" className="text-red-400 hover:text-red-300">→ The Forgotten Wars</Link></li>
+              <li><Link href="/analysis/iran-2026" className="text-red-400 hover:text-red-800">→ Iran 2026: Whose War Is This?</Link></li>
+              <li><Link href="/analysis/cost-of-iran" className="text-red-400 hover:text-red-800">→ What Will Iran Cost?</Link></li>
+              <li><Link href="/analysis/911-to-forever-war" className="text-red-400 hover:text-red-800">→ 9/11 to Forever War</Link></li>
+              <li><Link href="/analysis/forgotten-wars" className="text-red-400 hover:text-red-800">→ The Forgotten Wars</Link></li>
             </ul>
           </div>
         </div>
         <div className="mt-4 pt-4 border-t border-stone-700">
           <h4 className="text-stone-300 font-semibold mb-2">Constitutional & Political</h4>
           <ul className="space-y-1 text-sm">
-            <li><Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-300">→ Undeclared Wars: The Death of Congressional Authority</Link></li>
-            <li><Link href="/analysis/war-and-civil-liberties" className="text-red-400 hover:text-red-300">→ War and Civil Liberties</Link></li>
-            <li><Link href="/analysis/draft-and-inequality" className="text-red-400 hover:text-red-300">→ The Draft and Inequality</Link></li>
-            <li><Link href="/analysis/military-families" className="text-red-400 hover:text-red-300">→ Military Families: The Hidden Cost</Link></li>
+            <li><Link href="/analysis/undeclared-wars" className="text-red-400 hover:text-red-800">→ Undeclared Wars: The Death of Congressional Authority</Link></li>
+            <li><Link href="/analysis/war-and-civil-liberties" className="text-red-400 hover:text-red-800">→ War and Civil Liberties</Link></li>
+            <li><Link href="/analysis/draft-and-inequality" className="text-red-400 hover:text-red-800">→ The Draft and Inequality</Link></li>
+            <li><Link href="/analysis/military-families" className="text-red-400 hover:text-red-800">→ Military Families: The Hidden Cost</Link></li>
           </ul>
         </div>
       </div>

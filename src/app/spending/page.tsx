@@ -160,7 +160,7 @@ export default function SpendingPage() {
       </div>
 
       {/* Smedley Butler Section */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">🎖️ &ldquo;War Is a Racket&rdquo;</h2>
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic mb-4">
           &ldquo;War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious. It is the only one international in scope. It is the only one in which the profits are reckoned in dollars and the losses in lives.&rdquo;
@@ -178,7 +178,7 @@ export default function SpendingPage() {
       </div>
 
       {/* Eisenhower Quote */}
-      <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
+      <div className="not-prose bg-stone-900 text-white rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist.&rdquo;
         </blockquote>

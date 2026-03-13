@@ -795,20 +795,20 @@ export default function MediaAndWarPage() {
         <h2 className="font-[family-name:var(--font-heading)]">Further Reading</h2>
         <h3>Analysis Articles</h3>
         <ul>
-          <li><Link href="/analysis/information-warfare" className="text-red-400 hover:text-red-300">Information Warfare: The Pentagon's Digital Battlefield</Link></li>
-          <li><Link href="/analysis/torture-program" className="text-red-400 hover:text-red-300">America's Torture Program: Hidden from View</Link></li>
-          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-300">The War Economy: Who Profits from Endless Conflict</Link></li>
-          <li><Link href="/analysis/cost-of-secrecy" className="text-red-400 hover:text-red-300">The Black Budget and Classified Spending</Link></li>
-          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-300">Veterans Betrayed: Broken Promises and Cover-ups</Link></li>
-          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-300">Environmental Cost of War: The Hidden Damage</Link></li>
-          <li><Link href="/analysis/childrens-war" className="text-red-400 hover:text-red-300">Children's War: The Youngest Victims of American Intervention</Link></li>
+          <li><Link href="/analysis/information-warfare" className="text-red-400 hover:text-red-800">Information Warfare: The Pentagon's Digital Battlefield</Link></li>
+          <li><Link href="/analysis/torture-program" className="text-red-400 hover:text-red-800">America's Torture Program: Hidden from View</Link></li>
+          <li><Link href="/analysis/war-economy" className="text-red-400 hover:text-red-800">The War Economy: Who Profits from Endless Conflict</Link></li>
+          <li><Link href="/analysis/cost-of-secrecy" className="text-red-400 hover:text-red-800">The Black Budget and Classified Spending</Link></li>
+          <li><Link href="/analysis/veterans-betrayed" className="text-red-400 hover:text-red-800">Veterans Betrayed: Broken Promises and Cover-ups</Link></li>
+          <li><Link href="/analysis/environmental-cost" className="text-red-400 hover:text-red-800">Environmental Cost of War: The Hidden Damage</Link></li>
+          <li><Link href="/analysis/childrens-war" className="text-red-400 hover:text-red-800">Children's War: The Youngest Victims of American Intervention</Link></li>
         </ul>
 
         <h3>Current Conflicts</h3>
         <ul>
-          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-300">Iran Conflict: Real-time costs and casualties</Link></li>
-          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-300">Ukraine War: American involvement and spending</Link></li>
-          <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-300">Gaza Operations: US weapons and media coverage</Link></li>
+          <li><Link href="/conflicts/iran" className="text-red-400 hover:text-red-800">Iran Conflict: Real-time costs and casualties</Link></li>
+          <li><Link href="/conflicts/ukraine" className="text-red-400 hover:text-red-800">Ukraine War: American involvement and spending</Link></li>
+          <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-800">Gaza Operations: US weapons and media coverage</Link></li>
         </ul>
 
         <blockquote className="border-l-4 border-red-600 bg-slate-800 p-4 my-6">
