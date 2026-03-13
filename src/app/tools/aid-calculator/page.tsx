@@ -60,7 +60,7 @@ export default function AidCalculatorPage() {
   const teachers = militaryShare / TEACHER_SALARY
 
   return (
-    <div className="min-h-screen bg-stone-900 text-stone-900">
+    <div className="min-h-screen bg-stone-50 text-stone-900">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Tools', href: '/tools' }, { label: 'Aid Calculator' }]} />
 

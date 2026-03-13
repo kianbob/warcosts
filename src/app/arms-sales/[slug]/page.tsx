@@ -40,7 +40,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Arms Sales', href: '/arms-sales' }, { label: 'By Country', href: '/arms-sales/countries' }, { label: entry.country }]} />
 
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Arms Sales: {entry.country}
         </h1>

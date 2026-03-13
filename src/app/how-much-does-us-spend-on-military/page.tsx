@@ -53,7 +53,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
   const recent = spending.filter((s) => s.year >= 2000)
 
   return (
-    <div className="bg-stone-900 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+    <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Spending', href: '/spending' }, { label: 'How Much Does the US Spend on Military' }]} />
 

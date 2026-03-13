@@ -33,7 +33,7 @@ export default function CompareCountriesPage() {
   const maxSpending = ca && cb ? Math.max(ca.amountBillions, cb.amountBillions) : 1
 
   return (
-    <div className="min-h-screen bg-stone-900 text-stone-900">
+    <div className="min-h-screen bg-stone-50 text-stone-900">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Tools', href: '/tools' }, { label: 'Compare Countries' }]} />
 

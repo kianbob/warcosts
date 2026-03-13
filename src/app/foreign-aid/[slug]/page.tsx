@@ -50,7 +50,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
   const homes = Math.floor(totalDollars / HOME_COST)
 
   return (
-    <div className="min-h-screen bg-stone-900 text-stone-900">
+    <div className="min-h-screen bg-stone-50 text-stone-900">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Foreign Aid', href: '/foreign-aid' }, { label: 'By Country', href: '/foreign-aid/countries' }, { label: country }]} />
 

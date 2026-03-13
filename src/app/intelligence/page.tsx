@@ -173,7 +173,7 @@ export default function IntelligencePage() {
       </div>
 
       {/* Libertarian framing */}
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-6 mb-10">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-6 mb-10">
         <p className="text-lg italic leading-relaxed">
           &ldquo;Secret agencies with secret budgets, conducting secret operations, reviewed by secret courts under
           secret interpretations of the law — this is not a feature of a free republic. It is the architecture of a
@@ -284,7 +284,7 @@ export default function IntelligencePage() {
       </div>
 
       <div className="prose max-w-3xl text-stone-600">
-        <div className="not-prose bg-stone-900 text-stone-900 rounded-xl p-6 my-8">
+        <div className="not-prose bg-stone-50 text-stone-900 rounded-xl p-6 my-8">
           <p className="text-lg italic leading-relaxed">
             &ldquo;The CIA has overthrown more democracies than it has protected. It armed the mujahideen who became
             the Taliban and Al-Qaeda. It provided the intelligence that justified the Iraq War based on fabricated
@@ -388,7 +388,7 @@ export default function IntelligencePage() {
           <li><strong>Russia/Ukraine (mixed):</strong> The IC correctly predicted Russia&rsquo;s 2022 invasion of Ukraine — a notable success. But it also overestimated Russia&rsquo;s military capabilities and underestimated Ukraine&rsquo;s resistance.</li>
         </ul>
 
-        <div className="not-prose bg-stone-900 text-stone-900 rounded-xl p-6 my-8">
+        <div className="not-prose bg-stone-50 text-stone-900 rounded-xl p-6 my-8">
           <p className="text-lg italic leading-relaxed">
             &ldquo;The intelligence community has had one primary job since 9/11: prevent another 9/11. To do this,
             they asked for — and received — virtually unlimited money, unprecedented surveillance powers, secret

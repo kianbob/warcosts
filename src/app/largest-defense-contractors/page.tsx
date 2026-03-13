@@ -55,7 +55,7 @@ export default function LargestDefenseContractors() {
   const totalTop10 = top10.reduce((s, c) => s + c.amount, 0)
 
   return (
-    <div className="bg-stone-900 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+    <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Contractors', href: '/contractors' }, { label: 'Largest Defense Contractors' }]} />
 

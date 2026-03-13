@@ -37,7 +37,7 @@ export default function USForeignAidByCountry() {
   const totalSince2001 = aidCountries.reduce((s, c) => s + c.totalSince2001, 0)
 
   return (
-    <div className="bg-stone-900 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+    <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Foreign Aid', href: '/foreign-aid' }, { label: 'US Foreign Aid by Country' }]} />
 

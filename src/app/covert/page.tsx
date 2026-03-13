@@ -143,7 +143,7 @@ export default function CovertPage() {
       </div>
 
       {/* Quote */}
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 my-8">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 my-8">
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;We have about 50% of the world&apos;s wealth but only 6.3% of its population... Our real task in the coming period is to maintain this position of disparity without positive detriment to our national security.&rdquo;
         </blockquote>
@@ -194,7 +194,7 @@ export default function CovertPage() {
       </div>
 
       {/* Assassination Plots */}
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 my-8">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">🎯 CIA Assassination Plots</h2>
         <p className="text-stone-500 mb-6">The Church Committee confirmed CIA involvement in assassination plots against at least 5 foreign leaders. These are the documented cases:</p>
         <div className="space-y-4">

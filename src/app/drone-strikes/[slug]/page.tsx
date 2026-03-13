@@ -47,7 +47,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Drone Strikes', href: '/drone-strikes' }, { label: country.country }]} />
 
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Drone Strikes: {country.country}
         </h1>

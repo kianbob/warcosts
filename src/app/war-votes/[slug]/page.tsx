@@ -51,7 +51,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'War Votes', href: '/war-votes' }, { label: vote.name }]} />
 
-      <div className="bg-stone-900 text-stone-900 rounded-xl p-8 mb-8">
+      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
         <div className="flex items-center gap-3 mb-3">
           <span className="text-red-700 font-bold text-lg font-[family-name:var(--font-heading)]">{vote.year}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${

@@ -42,7 +42,7 @@ export default function USMilitaryBasesAroundTheWorld() {
   const totalCountries = overseas.length
 
   return (
-    <div className="bg-stone-900 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+    <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
         <FaqJsonLd faqs={[
           { q: 'How many military bases does the US have around the world?', a: 'The US operates over 750 military bases and installations in more than 80 countries and territories worldwide, plus approximately 800 domestic bases. This is the largest network of foreign military bases in world history.' },
