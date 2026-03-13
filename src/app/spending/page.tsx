@@ -166,7 +166,7 @@ export default function SpendingPage() {
           &ldquo;War is a racket. It always has been. It is possibly the oldest, easily the most profitable, surely the most vicious. It is the only one international in scope. It is the only one in which the profits are reckoned in dollars and the losses in lives.&rdquo;
         </blockquote>
         <p className="text-stone-400 mb-4">— Major General Smedley Butler, USMC, 1935</p>
-        <div className="text-stone-300 text-sm space-y-3">
+        <div className="text-stone-600 text-sm space-y-3">
           <p>Smedley Darlington Butler was, at the time of his death, the most decorated Marine in US history — two Medals of Honor, the Brevet Medal, and the Marine Corps Brevet Medal. He served 34 years and fought in the Philippines, China, Central America, the Caribbean, and France during WWI.</p>
           <p>After retiring, Butler wrote <em>War Is a Racket</em> (1935), exposing how wars are fought for corporate profit. He described his career with brutal honesty:</p>
           <blockquote className="border-l-2 border-stone-600 pl-4 italic text-stone-400">

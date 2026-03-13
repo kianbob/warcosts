@@ -103,7 +103,7 @@ export default async function EraDetailPage({ params }: { params: Promise<{ slug
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <span className="text-stone-400 text-sm">{yearRange} · {items.length} conflicts</span>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mt-2">{era}</h1>
-        <p className="text-stone-300 mt-3">{eraContext[era] || ''}</p>
+        <p className="text-stone-600 mt-3">{eraContext[era] || ''}</p>
       </div>
 
       <ShareButtons title={`${era} — US Wars`} />
@@ -159,7 +159,7 @@ export default async function EraDetailPage({ params }: { params: Promise<{ slug
       {eraAnalysis[era] && (
         <div className="bg-stone-900 text-white rounded-lg p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">🗽 Libertarian Analysis</h2>
-          <p className="text-stone-300 italic leading-relaxed">{eraAnalysis[era]}</p>
+          <p className="text-stone-600 italic leading-relaxed">{eraAnalysis[era]}</p>
         </div>
       )}
 

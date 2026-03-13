@@ -189,7 +189,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {related.map(r => (
               <Link key={r.slug} href={`/weapons/${r.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
-                <div className="text-white font-medium">{r.name}</div>
+                <div className="text-stone-900 font-medium">{r.name}</div>
                 <div className="text-stone-500 text-sm">{r.category} · {r.contractor || r.manufacturer || "Unknown"} · {r.costBillions ? `$${r.costBillions}B` : '—'}</div>
               </Link>
             ))}

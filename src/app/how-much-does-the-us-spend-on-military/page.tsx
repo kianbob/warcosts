@@ -448,7 +448,7 @@ export default function USMilitarySpendingPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-white transition-colors"
+                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-red-700 transition-colors"
               >
                 → {link.label}
               </Link>

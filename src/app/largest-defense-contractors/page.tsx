@@ -65,7 +65,7 @@ export default function LargestDefenseContractors() {
 
         <p className="text-lg text-stone-600 max-w-3xl mb-4">
           The top 10 US defense contractors received over <strong className="text-red-700">{fmtMoney(totalTop10)}</strong> in
-          Pentagon contracts in FY2024 alone. <strong className="text-white">Lockheed Martin</strong> — the world&apos;s
+          Pentagon contracts in FY2024 alone. <strong className="text-stone-900">Lockheed Martin</strong> — the world&apos;s
           largest arms manufacturer — received {fmtMoney(top10[0]?.amount || 0)}, more than the entire budget of the
           State Department. These companies spend hundreds of millions lobbying Congress to keep the money flowing,
           while 500+ former Pentagon officials work for them through the revolving door.
@@ -133,7 +133,7 @@ export default function LargestDefenseContractors() {
             <tbody>
               {top10.slice(0, 5).map((c) => (
                 <tr key={c.slug} className="border-t border-stone-200/50">
-                  <td className="p-3 font-medium text-white">{c.name}</td>
+                  <td className="p-3 font-medium text-stone-900">{c.name}</td>
                   {['FY2020', 'FY2021', 'FY2022', 'FY2023', 'FY2024'].map((fy) => (
                     <td key={fy} className="p-3 text-red-700 text-right text-xs">
                       {c.yearly[fy] ? fmtMoney(c.yearly[fy]) : '—'}
@@ -169,10 +169,10 @@ export default function LargestDefenseContractors() {
             <tbody>
               {stockPerformance.map((s, i) => (
                 <tr key={s.ticker} className={`border-t border-stone-200/50 ${i === stockPerformance.length - 1 ? 'bg-slate-800' : ''}`}>
-                  <td className="p-3 font-medium text-white">{s.name}</td>
+                  <td className="p-3 font-medium text-stone-900">{s.name}</td>
                   <td className="p-3 text-stone-500">{s.ticker}</td>
                   <td className="p-3 text-stone-500 text-right">${s.preSept11}</td>
-                  <td className="p-3 text-white text-right">${s.current}</td>
+                  <td className="p-3 text-stone-900 text-right">${s.current}</td>
                   <td className={`p-3 text-right font-bold ${s.returnPct > 500 ? 'text-red-700' : 'text-stone-600'}`}>
                     +{fmt(s.returnPct)}%
                   </td>
@@ -225,7 +225,7 @@ export default function LargestDefenseContractors() {
               Who is the biggest defense contractor?
             </h3>
             <p className="text-stone-600 text-sm">
-              <strong className="text-white">Lockheed Martin</strong> is the world&apos;s largest defense contractor by
+              <strong className="text-stone-900">Lockheed Martin</strong> is the world&apos;s largest defense contractor by
               revenue, receiving {fmtMoney(top10[0]?.amount || 0)} in Pentagon contracts in FY2024. They manufacture
               the F-35 fighter jet (lifetime cost: $1.7 trillion), Black Hawk helicopters, Aegis combat systems, and
               Trident missiles. Their parts are manufactured across 45 states, making the F-35 program virtually

@@ -84,7 +84,7 @@ export default function MilitaryFamiliesPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-white'
+              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-red-700'
             }`}
           >
             {s.label}

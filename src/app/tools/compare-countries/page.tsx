@@ -44,14 +44,14 @@ export default function CompareCountriesPage() {
           <div>
             <label className="text-stone-500 text-sm block mb-1">Country A</label>
             <select value={a} onChange={e => setA(e.target.value)}
-              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-white">
+              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-stone-900">
               {countries.map(c => <option key={c.slug} value={c.slug}>{c.name} — #{c.rank}</option>)}
             </select>
           </div>
           <div>
             <label className="text-stone-500 text-sm block mb-1">Country B</label>
             <select value={b} onChange={e => setB(e.target.value)}
-              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-white">
+              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-stone-900">
               {countries.map(c => <option key={c.slug} value={c.slug}>{c.name} — #{c.rank}</option>)}
             </select>
           </div>

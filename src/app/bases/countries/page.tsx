@@ -30,10 +30,10 @@ export default function BaseCountriesPage() {
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{overseas.length}</div><div className="text-xs text-stone-400">Countries</div></div>
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(totalOverseas)}</div><div className="text-xs text-stone-400">Overseas Installations</div></div>
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(overseas.reduce((s, c) => s + c.bases, 0))}</div><div className="text-xs text-stone-400">Major Bases</div></div>
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-stone-400">{fmt(overseas.reduce((s, c) => s + c.lilyPads, 0))}</div><div className="text-xs text-stone-400">Lily Pads</div></div>
+        <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{overseas.length}</div><div className="text-xs text-stone-400">Countries</div></div>
+        <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(totalOverseas)}</div><div className="text-xs text-stone-400">Overseas Installations</div></div>
+        <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(overseas.reduce((s, c) => s + c.bases, 0))}</div><div className="text-xs text-stone-400">Major Bases</div></div>
+        <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-stone-400">{fmt(overseas.reduce((s, c) => s + c.lilyPads, 0))}</div><div className="text-xs text-stone-400">Lily Pads</div></div>
       </div>
 
       <div className="overflow-x-auto mb-8">
@@ -54,8 +54,8 @@ export default function BaseCountriesPage() {
                 <td className="py-2 pr-4 text-stone-500">{i + 1}</td>
                 <td className="py-2 pr-4"><Link href={`/bases/countries/${c.slug}`} className="text-red-400 hover:text-red-300">{c.country}</Link></td>
                 <td className="py-2 pr-4 text-right text-white">{c.bases || '—'}</td>
-                <td className="py-2 pr-4 text-right text-stone-300">{c.lilyPads || '—'}</td>
-                <td className="py-2 pr-4 text-right text-stone-300">{c.usFunded || '—'}</td>
+                <td className="py-2 pr-4 text-right text-stone-600">{c.lilyPads || '—'}</td>
+                <td className="py-2 pr-4 text-right text-stone-600">{c.usFunded || '—'}</td>
                 <td className="py-2 text-right font-bold text-white">{c.total}</td>
               </tr>
             ))}

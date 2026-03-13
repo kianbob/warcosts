@@ -355,7 +355,7 @@ export default function PentagonBudgetBreakdownPage() {
                       <tr key={year.year} className="border-b border-[#2d3748]">
                         <td className="py-2 text-white">{year.year}</td>
                         <td className="py-2 text-right font-mono text-[#dc2626]">${year.amountBillions}B</td>
-                        <td className={`py-2 text-right font-mono text-sm ${parseFloat(change) > 0 ? 'text-red-400' : 'text-green-400'}`}>
+                        <td className={`py-2 text-right font-mono text-sm ${parseFloat(change) > 0 ? 'text-red-700' : 'text-green-400'}`}>
                           {parseFloat(change) > 0 ? '+' : ''}{change}%
                         </td>
                         <td className="py-2 text-gray-300 text-sm">{year.president}</td>
@@ -505,7 +505,7 @@ export default function PentagonBudgetBreakdownPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-white transition-colors"
+                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-red-700 transition-colors"
               >
                 → {link.label}
               </Link>

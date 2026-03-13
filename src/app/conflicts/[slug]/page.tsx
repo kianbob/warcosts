@@ -199,7 +199,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         {/* Hero Section - Enhanced */}
         <div className="bg-slate-900 text-white rounded-xl p-8 mb-8 border border-slate-700 shadow-2xl">
           <div className="flex flex-wrap items-center gap-3 mb-4">
-            <Link href={`/eras/${slugify(c.era)}`} className="text-slate-400 text-sm hover:text-white transition-colors px-2 py-1 rounded-md hover:bg-slate-800">
+            <Link href={`/eras/${slugify(c.era)}`} className="text-slate-400 text-sm hover:text-red-700 transition-colors px-2 py-1 rounded-md hover:bg-slate-800">
               📅 {c.era}
             </Link>
             <span className="text-slate-400 text-sm">· {c.type.replace(/_/g, ' ')}</span>
@@ -234,7 +234,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
                 {c.countries?.map((co: string, i: number) => (
                   <span key={co}>
                     {i > 0 && ', '}
-                    <Link href={`/countries/${slugify(co)}`} className="hover:text-white transition-colors underline decoration-slate-500 hover:decoration-white">
+                    <Link href={`/countries/${slugify(co)}`} className="hover:text-red-700 transition-colors underline decoration-slate-500 hover:decoration-white">
                       {co}
                     </Link>
                   </span>

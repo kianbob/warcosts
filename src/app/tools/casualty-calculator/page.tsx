@@ -62,7 +62,7 @@ export default function CasualtyCalculatorPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <div className="mb-6">
-        <Link href="/tools" className="text-stone-500 hover:text-white text-sm">← Back to Tools</Link>
+        <Link href="/tools" className="text-stone-500 hover:text-red-700 text-sm">← Back to Tools</Link>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2">
@@ -78,7 +78,7 @@ export default function CasualtyCalculatorPage() {
         <select
           value={selectedConflict}
           onChange={e => setSelectedConflict(e.target.value)}
-          className="w-full bg-white border border-stone-200 rounded-lg p-3 text-white"
+          className="w-full bg-white border border-stone-200 rounded-lg p-3 text-stone-900"
         >
           {conflicts.map(c => (
             <option key={c.id} value={c.id}>
@@ -110,14 +110,14 @@ export default function CasualtyCalculatorPage() {
             placeholder="City name"
             value={cityName}
             onChange={e => setCityName(e.target.value)}
-            className="flex-1 bg-white border border-stone-200 rounded-lg p-3 text-white"
+            className="flex-1 bg-white border border-stone-200 rounded-lg p-3 text-stone-900"
           />
           <input
             type="number"
             placeholder="Population"
             value={population}
             onChange={e => setPopulation(e.target.value ? Number(e.target.value) : '')}
-            className="w-40 bg-white border border-stone-200 rounded-lg p-3 text-white"
+            className="w-40 bg-white border border-stone-200 rounded-lg p-3 text-stone-900"
           />
         </div>
 
@@ -208,15 +208,15 @@ export default function CasualtyCalculatorPage() {
       <div className="mt-12 pt-8 border-t border-stone-800">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/compare-wars" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">📊 Compare Wars</p>
             <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
-          <Link href="/tools/cost-calculator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/cost-calculator" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">🧮 Cost Calculator</p>
             <p className="text-stone-500 text-sm">Your state&apos;s war cost</p>
           </Link>
-          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/war-quiz" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">❓ War Quiz</p>
             <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>

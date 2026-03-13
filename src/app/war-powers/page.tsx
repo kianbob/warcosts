@@ -192,7 +192,7 @@ export default function WarPowersPage() {
       {/* Bottom */}
       <section className="my-12 bg-stone-900 text-white rounded-xl p-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Constitutional Text</h2>
-        <blockquote className="text-stone-300 italic text-lg mb-4 border-l-4 border-red-600 pl-4">
+        <blockquote className="text-stone-600 italic text-lg mb-4 border-l-4 border-red-600 pl-4">
           &ldquo;The Congress shall have Power... To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water.&rdquo;
         </blockquote>
         <p className="text-stone-400 text-sm">— Article I, Section 8, Clause 11, United States Constitution</p>

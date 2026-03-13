@@ -212,7 +212,7 @@ export default function WarPropagandaPage() {
       {/* Key Takeaway */}
       <section className="my-12 bg-stone-900 text-white rounded-xl p-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Pattern</h2>
-        <div className="space-y-3 text-stone-300 text-sm">
+        <div className="space-y-3 text-stone-600 text-sm">
           <p>1. <strong className="text-white">Create urgency</strong> — an imminent threat that demands immediate action (Lusitania, Pearl Harbor, Gulf of Tonkin, 9/11, WMDs)</p>
           <p>2. <strong className="text-white">Demonize the enemy</strong> — they are subhuman, evil, an existential threat to civilization</p>
           <p>3. <strong className="text-white">Control the information</strong> — censorship, embedded reporters, classification, "national security"</p>

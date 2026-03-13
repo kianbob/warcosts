@@ -227,7 +227,7 @@ export default function TimelineExplorerPage() {
                 {selected.name}
               </h2>
             </div>
-            <button onClick={() => setSelected(null)} className="text-stone-500 hover:text-white text-2xl leading-none">×</button>
+            <button onClick={() => setSelected(null)} className="text-stone-500 hover:text-red-700 text-2xl leading-none">×</button>
           </div>
           {selected.detail && (
             <p className="text-stone-600 mt-2 text-sm font-mono">{selected.detail}</p>
@@ -263,15 +263,15 @@ export default function TimelineExplorerPage() {
       <div className="mt-12 pt-8 border-t border-stone-800">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/compare-wars" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">📊 Compare Wars</p>
             <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
-          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/war-quiz" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">❓ War Quiz</p>
             <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>
-          <Link href="/tools/budget-simulator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
+          <Link href="/tools/budget-simulator" className="bg-white border border-stone-200 rounded-lg p-4 hover:border-red-300 hover:shadow-md transition">
             <p className="font-bold text-stone-900">💰 Budget Simulator</p>
             <p className="text-stone-500 text-sm">Redesign the federal budget</p>
           </Link>
@@ -281,7 +281,7 @@ export default function TimelineExplorerPage() {
       {/* Back to top */}
       <div className="mt-12 text-center">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="text-stone-500 hover:text-white transition">
+          className="text-stone-500 hover:text-red-700 transition">
           ↑ Back to top
         </button>
       </div>

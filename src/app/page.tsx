@@ -55,9 +55,9 @@ export default function HomePage() {
               <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 13: 1,348+ killed, 8 US troops dead, 12+ countries under fire, Hormuz mined, $11.3B in 6 days</span>
             </div>
             <div className="flex gap-4 text-sm">
-              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Coverage →</Link>
-              <Link href="/analysis/iran-cost-per-second" className="text-red-200 hover:text-white underline">Cost Tracker →</Link>
-              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-white underline">Data →</Link>
+              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
+              <Link href="/analysis/iran-cost-per-second" className="text-red-200 hover:text-red-700 underline">Cost Tracker →</Link>
+              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-red-700 underline">Data →</Link>
             </div>
           </div>
         </section>
@@ -116,7 +116,7 @@ export default function HomePage() {
                   { title: 'Lebanon Front', href: '/analysis/lebanon-burns', icon: '🇱🇧' },
                   { title: 'Day-by-Day', href: '/analysis/iran-day-by-day', icon: '📅' },
                 ].map((a, i) => (
-                  <Link key={i} href={a.href} className="bg-white/5 hover:bg-white/10 rounded px-3 py-2 text-sm text-stone-300 hover:text-white transition flex items-center gap-2">
+                  <Link key={i} href={a.href} className="bg-white/5 hover:bg-white/10 rounded px-3 py-2 text-sm text-stone-300 hover:text-red-700 transition flex items-center gap-2">
                     <span>{a.icon}</span>
                     <span>{a.title}</span>
                   </Link>

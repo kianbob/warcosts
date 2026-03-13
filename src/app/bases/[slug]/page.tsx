@@ -91,23 +91,23 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Status</div>
           <div className={`text-lg font-bold ${base.status === 'Active' ? 'text-green-400' : base.status === 'Closed' ? 'text-red-400' : 'text-yellow-400'}`}>
             {base.status}
           </div>
         </div>
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Type</div>
           <div className="text-lg font-bold text-white">{typeLabel.split('/')[0].trim()}</div>
         </div>
         {base.component && (
-          <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-400 uppercase tracking-wider">Branch</div>
             <div className="text-lg font-bold text-white">{base.component}</div>
           </div>
         )}
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Location</div>
           <div className="text-lg font-bold text-white">{isOverseas ? 'Overseas' : 'Domestic'}</div>
         </div>
@@ -116,25 +116,25 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       {base.notes && (
         <div className="bg-slate-800 border border-stone-700 rounded-lg p-6 mb-8">
           <h2 className="text-lg font-bold text-white mb-2">About This Installation</h2>
-          <p className="text-stone-300 leading-relaxed">{base.notes}</p>
+          <p className="text-stone-600 leading-relaxed">{base.notes}</p>
         </div>
       )}
 
       {base.component && componentDescriptions[base.component] && (
         <div className="prose mb-8">
           <h2 className="text-xl font-bold text-white mb-3">{base.component}</h2>
-          <p className="text-stone-300 leading-relaxed">{componentDescriptions[base.component]}</p>
+          <p className="text-stone-600 leading-relaxed">{componentDescriptions[base.component]}</p>
         </div>
       )}
 
       {isOverseas && (
         <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-6 mb-8">
           <h2 className="text-lg font-bold text-red-400 mb-2">💡 Why Does This Matter?</h2>
-          <p className="text-stone-300 leading-relaxed mb-3">
+          <p className="text-stone-600 leading-relaxed mb-3">
             The United States maintains approximately 750 military bases in over 80 countries — more than any nation in world history.
             The annual cost of maintaining overseas bases exceeds <strong className="text-white">$55 billion</strong>.
           </p>
-          <p className="text-stone-300 leading-relaxed">
+          <p className="text-stone-600 leading-relaxed">
             Critics argue that many overseas bases are Cold War relics that increase tensions, provoke &quot;blowback,&quot; and drain resources from domestic needs.
             Supporters say they deter aggression and protect allies. {base.name} in {base.country} is one of these installations.
           </p>
@@ -146,9 +146,9 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       )}
 
       {base.lat && base.lng && (
-        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-4 mb-8">
           <h2 className="text-lg font-bold text-white mb-2">📍 Coordinates</h2>
-          <p className="text-stone-300">
+          <p className="text-stone-600">
             {base.lat.toFixed(4)}°N, {base.lng.toFixed(4)}°E ·{' '}
             <a href={`https://www.google.com/maps?q=${base.lat},${base.lng}`} target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-300 underline">
               View on Google Maps →

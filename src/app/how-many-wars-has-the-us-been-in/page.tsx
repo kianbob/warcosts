@@ -425,7 +425,7 @@ export default function USWarsListPage() {
             </div>
             
             <div className="mt-4 text-center">
-              <Link href="/us-wars-list" className="text-[#dc2626] hover:text-white transition-colors">
+              <Link href="/us-wars-list" className="text-[#dc2626] hover:text-red-700 transition-colors">
                 → View complete list of all {stats.totalConflicts} conflicts
               </Link>
             </div>
@@ -476,7 +476,7 @@ export default function USWarsListPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-white transition-colors"
+                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-red-700 transition-colors"
               >
                 → {link.label}
               </Link>

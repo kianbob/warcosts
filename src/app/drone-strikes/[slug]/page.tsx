@@ -145,7 +145,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
       {/* Navigation */}
       <div className="flex flex-wrap gap-3 mb-8">
         {data.countries.filter(c => c.slug !== slug).map(c => (
-          <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md hover:text-white transition text-sm">
+          <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md hover:text-red-700 transition text-sm">
             {c.country} ({fmt(c.totalStrikes)})
           </Link>
         ))}

@@ -212,7 +212,7 @@ export default function WarQuizPage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
       <div className="mb-6">
-        <Link href="/tools" className="text-stone-500 hover:text-white text-sm">← Back to Tools</Link>
+        <Link href="/tools" className="text-stone-500 hover:text-red-700 text-sm">← Back to Tools</Link>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2">

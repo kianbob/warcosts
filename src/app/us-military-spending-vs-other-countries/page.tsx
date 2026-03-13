@@ -198,7 +198,7 @@ export default function USMilitarySpendingComparisonPage() {
                       </td>
                       <td className="py-3 text-right font-mono text-gray-300">{country.gdpPct}%</td>
                       <td className="py-3 text-right font-mono text-gray-300">${country.perCapita}</td>
-                      <td className={`py-3 text-right font-mono text-sm ${country.change > 0 ? 'text-red-400' : 'text-green-400'}`}>
+                      <td className={`py-3 text-right font-mono text-sm ${country.change > 0 ? 'text-red-700' : 'text-green-400'}`}>
                         {country.change > 0 ? '+' : ''}{country.change}%
                       </td>
                     </tr>
@@ -464,7 +464,7 @@ export default function USMilitarySpendingComparisonPage() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-white transition-colors"
+                className="bg-[#1a202c] hover:bg-[#2d3748] rounded-lg p-4 border border-[#2d3748] hover:border-[#dc2626] text-gray-300 hover:text-red-700 transition-colors"
               >
                 → {link.label}
               </Link>

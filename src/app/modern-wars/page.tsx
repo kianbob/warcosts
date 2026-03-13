@@ -159,8 +159,8 @@ export default function ModernWarsPage() {
             </div>
           </div>
           <div className="mt-6 flex justify-center gap-4">
-            <Link href="/analysis/war-on-terror" className="text-red-200 hover:text-white underline text-sm">Full War on Terror Analysis →</Link>
-            <Link href="/analysis/forever-wars" className="text-red-200 hover:text-white underline text-sm">How 60 Words Enabled It All →</Link>
+            <Link href="/analysis/war-on-terror" className="text-red-200 hover:text-red-700 underline text-sm">Full War on Terror Analysis →</Link>
+            <Link href="/analysis/forever-wars" className="text-red-200 hover:text-red-700 underline text-sm">How 60 Words Enabled It All →</Link>
           </div>
         </div>
       </section>

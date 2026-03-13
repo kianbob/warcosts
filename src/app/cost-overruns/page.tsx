@@ -172,7 +172,7 @@ export default async function CostOverrunsPage() {
           <h1 className="font-playfair text-4xl md:text-6xl font-bold text-red-400 mb-4 leading-tight">
             Weapons Cost <span className="text-red-600">Overruns</span>
           </h1>
-          <p className="text-xl md:text-2xl text-stone-300 mb-6">
+          <p className="text-xl md:text-2xl text-stone-600 mb-6">
             The defense industry's systematic taxpayer ripoff. Interactive leaderboard of the biggest cost overruns in military history.
           </p>
           <p className="text-lg text-stone-400 mb-8">
@@ -186,22 +186,22 @@ export default async function CostOverrunsPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="bg-red-900/30 border border-red-800 rounded-lg p-6">
               <div className="text-3xl font-bold text-red-400 mb-2">${(totalWasteEstimate / 1000).toFixed(0)}B</div>
-              <div className="text-sm text-stone-300">Total Waste from Overruns</div>
+              <div className="text-sm text-stone-600">Total Waste from Overruns</div>
               <div className="text-xs text-stone-500 mt-2">Conservative estimate</div>
             </div>
             <div className="bg-red-900/30 border border-red-800 rounded-lg p-6">
               <div className="text-3xl font-bold text-red-400 mb-2">{weaponsWithOverruns.length}</div>
-              <div className="text-sm text-stone-300">Weapons with Overruns</div>
+              <div className="text-sm text-stone-600">Weapons with Overruns</div>
               <div className="text-xs text-stone-500 mt-2">Out of {weapons.length} tracked</div>
             </div>
             <div className="bg-red-900/30 border border-red-800 rounded-lg p-6">
               <div className="text-3xl font-bold text-red-400 mb-2">630%</div>
-              <div className="text-sm text-stone-300">F-35 Lifetime Overrun</div>
+              <div className="text-sm text-stone-600">F-35 Lifetime Overrun</div>
               <div className="text-xs text-stone-500 mt-2">$1.47T over original estimate</div>
             </div>
             <div className="bg-red-900/30 border border-red-800 rounded-lg p-6">
               <div className="text-3xl font-bold text-red-400 mb-2">0</div>
-              <div className="text-sm text-stone-300">Executives Prosecuted</div>
+              <div className="text-sm text-stone-600">Executives Prosecuted</div>
               <div className="text-xs text-stone-500 mt-2">For any cost overrun</div>
             </div>
           </div>
@@ -210,7 +210,7 @@ export default async function CostOverrunsPage() {
         {/* Interactive Chart */}
         <section className="mb-12">
           <h2 className="font-playfair text-3xl font-bold text-red-400 mb-8">Interactive Cost Overrun Leaderboard</h2>
-          <p className="text-lg text-stone-300 mb-8">
+          <p className="text-lg text-stone-600 mb-8">
             Explore the biggest cost overruns in military history. Green bars show original estimates. 
             Red bars show actual costs. The gap between them is your money disappearing into contractor bank accounts.
           </p>
@@ -220,7 +220,7 @@ export default async function CostOverrunsPage() {
         {/* The Hall of Shame */}
         <section className="mb-12">
           <h2 className="font-playfair text-3xl font-bold text-red-400 mb-8">The Hall of Shame</h2>
-          <p className="text-lg text-stone-300 mb-8">
+          <p className="text-lg text-stone-600 mb-8">
             These are the worst offenders — weapons that don't work, cost billions more than promised, 
             and somehow still get funded year after year.
           </p>
@@ -268,7 +268,7 @@ export default async function CostOverrunsPage() {
                   <h4 className="font-bold text-red-300 mb-3">Problems:</h4>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {weapon.problems.map((problem, problemIndex) => (
-                      <li key={problemIndex} className="text-stone-300 text-sm">
+                      <li key={problemIndex} className="text-stone-600 text-sm">
                         • {problem}
                       </li>
                     ))}
@@ -277,7 +277,7 @@ export default async function CostOverrunsPage() {
 
                 <div className="bg-red-900/30 border border-red-700 rounded-lg p-4">
                   <h4 className="font-bold text-red-300 mb-2">Taxpayer Impact:</h4>
-                  <p className="text-stone-300 text-sm">{weapon.impact}</p>
+                  <p className="text-stone-600 text-sm">{weapon.impact}</p>
                 </div>
               </div>
             ))}
@@ -296,23 +296,23 @@ export default async function CostOverrunsPage() {
                 <h3 className="font-bold text-red-300 text-xl mb-4">The Numbers</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-stone-300">Original Estimate (2001):</span>
+                    <span className="text-stone-600">Original Estimate (2001):</span>
                     <span className="text-green-400 font-bold">$233 billion</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-stone-300">Current Lifetime Cost:</span>
+                    <span className="text-stone-600">Current Lifetime Cost:</span>
                     <span className="text-red-400 font-bold">$1.7 trillion</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-stone-300">Cost Overrun:</span>
+                    <span className="text-stone-600">Cost Overrun:</span>
                     <span className="text-orange-400 font-bold">630% (+$1.47 trillion)</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-stone-300">Cost per Aircraft:</span>
+                    <span className="text-stone-600">Cost per Aircraft:</span>
                     <span className="text-red-400 font-bold">$80-120 million</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-stone-300">Years in Development:</span>
+                    <span className="text-stone-600">Years in Development:</span>
                     <span className="text-stone-400">24 years (2001-2025)</span>
                   </div>
                 </div>
@@ -320,7 +320,7 @@ export default async function CostOverrunsPage() {
 
               <div>
                 <h3 className="font-bold text-red-300 text-xl mb-4">Still Doesn't Work</h3>
-                <ul className="space-y-2 text-stone-300 text-sm">
+                <ul className="space-y-2 text-stone-600 text-sm">
                   <li>• Can't fly in lightning storms (it's called "Lightning II")</li>
                   <li>• Software crashes constantly, endangering pilots</li>
                   <li>• Helmet display causes disorientation and neck strain</li>
@@ -335,7 +335,7 @@ export default async function CostOverrunsPage() {
 
             <div className="bg-red-900/50 border border-red-600 rounded-lg p-6">
               <h3 className="font-bold text-red-300 mb-3 text-xl">Put $1.7 Trillion in Perspective:</h3>
-              <p className="text-stone-300 mb-4">
+              <p className="text-stone-600 mb-4">
                 The F-35's lifetime cost of $1.7 trillion is more than the entire GDP of most countries. 
                 It's enough to give every American family $13,077 in cash. Or fund NASA for 78 years. 
                 Or eliminate homelessness in America 56 times over.
@@ -353,7 +353,7 @@ export default async function CostOverrunsPage() {
           <h2 className="font-playfair text-3xl font-bold text-red-400 mb-8">
             What This Money Could Have Bought Instead
           </h2>
-          <p className="text-lg text-stone-300 mb-8">
+          <p className="text-lg text-stone-600 mb-8">
             The money wasted on cost overruns could have transformed America. Here's what we could have done 
             with just the F-35's $1.47 trillion overrun alone:
           </p>
@@ -370,7 +370,7 @@ export default async function CostOverrunsPage() {
 
           <div className="mt-8 p-6 bg-red-900/20 border border-slate-700 rounded-lg">
             <h3 className="font-bold text-red-300 mb-3">The Choice We Made:</h3>
-            <p className="text-stone-300">
+            <p className="text-stone-600">
               Instead of investing in education, infrastructure, healthcare, or returning money to taxpayers, 
               we chose to enrich defense contractors with weapons that don't work. The F-35 alone could have 
               provided free college for every American for two decades. Instead, we got aircraft that can't fly in storms.
@@ -387,7 +387,7 @@ export default async function CostOverrunsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
               <h3 className="font-bold text-red-300 mb-4 text-xl">Cost-Plus Contracts</h3>
-              <p className="text-stone-300 mb-4">
+              <p className="text-stone-600 mb-4">
                 Most defense contracts are "cost-plus" — contractors get paid their costs plus a guaranteed profit. 
                 This eliminates any incentive to control costs. In fact, higher costs mean higher profits.
               </p>
@@ -400,7 +400,7 @@ export default async function CostOverrunsPage() {
 
             <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
               <h3 className="font-bold text-red-300 mb-4 text-xl">No Competition</h3>
-              <p className="text-stone-300 mb-4">
+              <p className="text-stone-600 mb-4">
                 Defense contracting is dominated by 5 major companies. Once a contractor wins a program, 
                 cancellation becomes "too expensive" due to sunk costs, creating permanent monopolies.
               </p>
@@ -413,7 +413,7 @@ export default async function CostOverrunsPage() {
 
             <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
               <h3 className="font-bold text-red-300 mb-4 text-xl">Revolving Door</h3>
-              <p className="text-stone-300 mb-4">
+              <p className="text-stone-600 mb-4">
                 Pentagon officials who approve overruns know their next job will likely be with the same contractors. 
                 This creates massive conflicts of interest and incentives to approve inflated budgets.
               </p>
@@ -426,7 +426,7 @@ export default async function CostOverrunsPage() {
 
             <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
               <h3 className="font-bold text-red-300 mb-4 text-xl">Political Protection</h3>
-              <p className="text-stone-300 mb-4">
+              <p className="text-stone-600 mb-4">
                 Defense programs are deliberately spread across multiple states and congressional districts. 
                 This creates political constituencies that defend programs regardless of cost or performance.
               </p>
@@ -440,7 +440,7 @@ export default async function CostOverrunsPage() {
 
           <div className="mt-8 p-8 bg-red-900/30 border border-red-700 rounded-lg">
             <h3 className="font-bold text-red-300 mb-4 text-xl">The System Is Working Exactly as Designed</h3>
-            <p className="text-stone-300 mb-4">
+            <p className="text-stone-600 mb-4">
               Cost overruns aren't accidents or failures of oversight — they're features of a system designed 
               to transfer taxpayer money to defense contractors with minimal accountability. Every incentive 
               encourages higher costs, longer timelines, and reduced performance.
@@ -460,25 +460,25 @@ export default async function CostOverrunsPage() {
           </h2>
           
           <div className="prose prose-invert prose-lg max-w-none">
-            <p className="text-lg text-stone-300 leading-relaxed mb-6">
+            <p className="text-lg text-stone-600 leading-relaxed mb-6">
               Every dollar wasted on cost overruns is a dollar stolen from American taxpayers. These aren't 
               accounting errors or honest miscalculations — they're the predictable result of a system 
               designed to enrich contractors at public expense.
             </p>
 
-            <p className="text-lg text-stone-300 leading-relaxed mb-6">
+            <p className="text-lg text-stone-600 leading-relaxed mb-6">
               Consider what we've lost: The F-35's $1.47 trillion cost overrun alone could have provided 
               free college education for every American for two decades. The Ford carrier's overruns could 
               have built 300 new hospitals. The KC-46's overruns could have eliminated homelessness three times over.
             </p>
 
-            <p className="text-lg text-stone-300 leading-relaxed mb-6">
+            <p className="text-lg text-stone-600 leading-relaxed mb-6">
               Instead, we got weapons that don't work, ships that break down, and aircraft that endanger their pilots. 
               The F-35 can't fly in lightning. The Ford's elevators don't work. The Littoral Combat Ship cracks in rough seas. 
               Yet somehow, the contractors got paid billions for these failures.
             </p>
 
-            <p className="text-lg text-stone-300 leading-relaxed mb-6">
+            <p className="text-lg text-stone-600 leading-relaxed mb-6">
               This isn't capitalism — it's crony capitalism. In a real market, companies that deliver late, 
               over-budget products that don't work would go bankrupt. In the defense industry, they get bigger contracts. 
               Boeing fails with the KC-46, so they get awarded the T-7 trainer. Lockheed fails with the F-35, 
@@ -493,14 +493,14 @@ export default async function CostOverrunsPage() {
               </p>
             </div>
 
-            <p className="text-lg text-stone-300 leading-relaxed mb-6">
+            <p className="text-lg text-stone-600 leading-relaxed mb-6">
               The human cost of this corruption extends far beyond wasted money. When the military gets 
               unreliable weapons, American service members die. When F-35s crash due to software failures 
               or engine fires, pilots die. When ships' systems fail in combat, sailors die. 
               Contractor greed literally kills people.
             </p>
 
-            <p className="text-lg text-stone-300 leading-relaxed">
+            <p className="text-lg text-stone-600 leading-relaxed">
               Until Americans demand real accountability — criminal prosecution of executives who defraud taxpayers, 
               elimination of cost-plus contracts, and actual consequences for failure — this theft will continue. 
               The contractors will keep getting richer, the weapons will keep failing, and taxpayers will keep 

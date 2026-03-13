@@ -202,7 +202,7 @@ export default async function PresidentDetailPage({ params }: { params: Promise<
         <div className="flex flex-wrap items-center gap-3 mb-2">
           <span className="text-stone-400 text-sm">{years}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
-            party === 'Republican' ? 'bg-red-600/20 text-red-400' :
+            party === 'Republican' ? 'bg-red-600/20 text-red-700' :
             party === 'Democrat' ? 'bg-blue-600/20 text-blue-400' :
             'bg-stone-600/20 text-stone-400'
           }`}>{party}</span>
