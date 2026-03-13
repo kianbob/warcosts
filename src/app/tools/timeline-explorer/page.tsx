@@ -245,7 +245,7 @@ export default function TimelineExplorerPage() {
           <button
             key={item.id}
             onClick={() => setSelected(item)}
-            className={`w-full text-left p-3 rounded-lg border transition hover:bg-stone-800/50 ${
+            className={`w-full text-left p-3 rounded-lg border transition hover:bg-slate-800 ${
               selected?.id === item.id ? TYPE_COLORS[item.type].bg : 'bg-stone-900 border-stone-800'
             }`}
           >

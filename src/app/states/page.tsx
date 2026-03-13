@@ -76,7 +76,7 @@ export default function StatesIndexPage() {
           </thead>
           <tbody>
             {sorted.map((s, i) => (
-              <tr key={s.slug} className="border-b border-stone-800 hover:bg-stone-800/50 transition-colors">
+              <tr key={s.slug} className="border-b border-stone-800 hover:bg-slate-800 transition-colors">
                 <td className="py-3 pr-4 text-stone-500 text-sm">{i + 1}</td>
                 <td className="py-3 pr-4">
                   <Link href={`/states/${s.slug}`} className="text-white hover:text-red-400 transition-colors font-medium">

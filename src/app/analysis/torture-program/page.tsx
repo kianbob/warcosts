@@ -324,7 +324,7 @@ export default function TortureProgramPage() {
       <ShareButtons title="America's Torture Program: Black Sites, Waterboarding & Zero Accountability" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {keyStats.map((item) => (
@@ -637,7 +637,7 @@ export default function TortureProgramPage() {
           military intelligence had directed guards to &ldquo;soften up&rdquo; detainees for questioning.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-4">What Happened at Abu Ghraib</h3>
           <ul className="space-y-3">
             {abuGhraibFacts.map((fact, i) => (

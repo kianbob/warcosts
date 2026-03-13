@@ -487,7 +487,7 @@ export default function LiesThatStartedWarsPage() {
       <ShareButtons title="Lies That Started Wars: Gulf of Tonkin, WMDs & the Pattern of Deception" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400">AI Overview — Key Data</h2>
@@ -738,7 +738,7 @@ export default function LiesThatStartedWarsPage() {
                 </div>
               </div>
               
-              <div className="bg-red-950/30 rounded p-3 mb-3">
+              <div className="bg-slate-800 rounded p-3 mb-3">
                 <h4 className="text-red-400 font-semibold text-sm mb-2">Media Failures:</h4>
                 <ul className="text-stone-300 text-sm space-y-1">
                   {failure.failures.map((fail, j) => (
@@ -793,7 +793,7 @@ export default function LiesThatStartedWarsPage() {
       </section>
 
       {/* Current Pattern: Iran */}
-      <div className="bg-red-950/20 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">2026: The Pattern Repeats with Iran</h2>
         <p className="text-stone-300 mb-4">
           The Iran crisis follows the exact same script as Iraq, Vietnam, and the Gulf War. 

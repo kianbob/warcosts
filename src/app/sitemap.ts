@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/torture-program', '/analysis/oil-and-war',
     '/analysis/private-military', '/analysis/lies-that-started-wars',
     '/analysis/what-victory-looks-like',
-    '/analysis/iran-day-by-day',
+    '/analysis/iran-day-by-day', '/analysis/lebanon-burns',
     '/analysis/americas-wars-by-the-numbers',
     '/analysis/cost-of-doing-nothing',
     '/about', '/methodology', '/faq', '/sources', '/contact', '/privacy',

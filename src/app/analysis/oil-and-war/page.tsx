@@ -176,7 +176,7 @@ export default function OilAndWarPage() {
       <ShareButtons title="Oil & War: Every Middle East War Is About Oil" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {keyStats.map((item) => (
@@ -581,7 +581,7 @@ export default function OilAndWarPage() {
           protect existing infrastructure (coastal refineries) from climate impacts. Meanwhile, climate 
           migration and resource scarcity are creating new conflicts over remaining fossil fuel reserves.
         </p>
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4 text-red-400">Climate-Oil-War Nexus</h3>
           <div className="space-y-4">
             {climateOilWarNexus.map((item) => (
@@ -621,7 +621,7 @@ export default function OilAndWarPage() {
         <p className="text-stone-700 text-lg mb-4">
           The beneficiaries of oil wars are remarkably consistent:
         </p>
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <div className="space-y-4">
             <div className="flex gap-3 text-stone-300">
               <span className="text-red-500 mt-1">▸</span>

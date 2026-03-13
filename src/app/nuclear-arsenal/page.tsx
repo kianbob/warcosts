@@ -345,7 +345,7 @@ export default function NuclearArsenalPage() {
             ))}
           </div>
 
-          <div className="bg-red-900/20 border border-red-900/50 rounded-xl p-5 text-sm text-stone-300">
+          <div className="bg-red-900/20 border border-slate-700 rounded-xl p-5 text-sm text-stone-300">
             <h3 className="font-semibold text-red-400 mb-2">What $1.7 Trillion Could Buy Instead</h3>
             <div className="grid grid-cols-2 gap-2">
               <p>• Universal pre-K for 50 years</p>

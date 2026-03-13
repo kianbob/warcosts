@@ -364,7 +364,7 @@ export default async function WhoFightsPage() {
             </div>
           </div>
 
-          <div className="bg-red-900/20 border border-red-800/50 rounded-lg p-6">
+          <div className="bg-red-900/20 border border-slate-700 rounded-lg p-6">
             <h3 className="font-bold text-red-300 mb-3">The Result:</h3>
             <p className="text-stone-300">
               America now has a warrior class that fights and a civilian class that watches. 
@@ -452,7 +452,7 @@ export default async function WhoFightsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {veteranCrisis.map((crisis, index) => (
-              <div key={index} className="bg-red-900/20 border border-red-800/50 rounded-lg p-6">
+              <div key={index} className="bg-red-900/20 border border-slate-700 rounded-lg p-6">
                 <div className="text-center mb-4">
                   <div className="text-3xl font-bold text-red-400 mb-2">{crisis.statistic}</div>
                   <h3 className="font-bold text-stone-200 text-lg">{crisis.description}</h3>
@@ -522,7 +522,7 @@ export default async function WhoFightsPage() {
                   </div>
                 </div>
                 <p className="text-stone-300 text-sm mb-3">{elite.note}</p>
-                <div className="bg-red-900/20 border border-red-800/50 rounded-lg p-3">
+                <div className="bg-red-900/20 border border-slate-700 rounded-lg p-3">
                   <span className="font-semibold text-red-300">Their Children: </span>
                   <span className="text-stone-300 text-sm">{elite.children}</span>
                 </div>
@@ -557,7 +557,7 @@ export default async function WhoFightsPage() {
               <div key={index} className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
                 <h3 className="font-bold text-red-400 text-xl mb-3">{consequence.consequence}</h3>
                 <p className="text-stone-300 mb-4">{consequence.description}</p>
-                <div className="bg-red-900/20 border border-red-800/50 rounded-lg p-4">
+                <div className="bg-red-900/20 border border-slate-700 rounded-lg p-4">
                   <span className="font-semibold text-red-300">Example: </span>
                   <span className="text-stone-300 text-sm">{consequence.example}</span>
                 </div>

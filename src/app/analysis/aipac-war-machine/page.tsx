@@ -84,7 +84,7 @@ export default function AIPACWarMachinePage() {
       <ShareButtons title="How AIPAC Shaped the Path to War" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -325,7 +325,7 @@ export default function AIPACWarMachinePage() {
             </div>
           </div>
         </div>
-        <div className="bg-red-950/30 border border-red-800/50 rounded p-4 mt-4">
+        <div className="bg-slate-800 border border-slate-700 rounded p-4 mt-4">
           <h3 className="text-red-400 font-bold mb-2">Network Total: $221M+ (2021-2026)</h3>
           <p className="text-stone-300 text-sm">
             This network allows AIPAC to operate across the political spectrum while maintaining plausible deniability. 
@@ -465,7 +465,7 @@ export default function AIPACWarMachinePage() {
                   policy: 'Co-sponsored Iran sanctions; opposes diplomatic engagement'
                 }
               ].map(person => (
-                <div key={person.name} className="bg-red-950/30 rounded p-3">
+                <div key={person.name} className="bg-slate-800 rounded p-3">
                   <h4 className="text-white font-semibold">{person.name} — {person.role}</h4>
                   <p className="text-yellow-400 text-sm mt-1"><strong>AIPAC Connection:</strong> {person.connection}</p>
                   <p className="text-stone-300 text-sm"><strong>Key Policy:</strong> {person.policy}</p>
@@ -474,7 +474,7 @@ export default function AIPACWarMachinePage() {
             </div>
           </div>
         </div>
-        <div className="bg-red-950/30 border border-red-800/50 rounded p-4 mt-4">
+        <div className="bg-slate-800 border border-slate-700 rounded p-4 mt-4">
           <p className="text-red-400 font-bold mb-2">The Infrastructure of Influence</p>
           <p className="text-stone-300 text-sm">
             This revolving door creates a permanent AIPAC presence in government regardless of which party holds power. 

@@ -84,7 +84,7 @@ export default function RefugeeCrisisPage() {
       <ShareButtons title="America's Wars Create Refugees — Then America Refuses Them" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -595,7 +595,7 @@ export default function RefugeeCrisisPage() {
               </div>
               <p className="text-stone-400 text-sm mb-2">Origin: {camp.origin}</p>
               <p className="text-stone-300 text-sm mb-2">{camp.note}</p>
-              <div className="bg-red-950/30 border border-red-900/30 rounded p-2">
+              <div className="bg-slate-800 border border-slate-700 rounded p-2">
                 <p className="text-red-400 text-xs font-semibold">US RESETTLEMENT</p>
                 <p className="text-stone-300 text-xs">{camp.usAdmitted}</p>
               </div>
@@ -694,7 +694,7 @@ export default function RefugeeCrisisPage() {
       <div className="bg-stone-800 rounded-lg p-6 my-6">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Cost of Decency vs. The Cost of War</h2>
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-red-950/30 border border-red-800 rounded p-4">
+          <div className="bg-slate-800 border border-red-800 rounded p-4">
             <h3 className="text-red-400 font-bold mb-3">Cost of Creating the Crisis</h3>
             <div className="space-y-2">
               {[

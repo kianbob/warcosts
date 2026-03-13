@@ -158,7 +158,7 @@ export default function GlobalSpendingPage() {
           </thead>
           <tbody>
             {latest.slice(0, 30).map((e, i) => (
-              <tr key={e.country} className={`border-b border-stone-700/50 ${i === 0 ? 'bg-red-950/30' : ''}`}>
+              <tr key={e.country} className={`border-b border-stone-700/50 ${i === 0 ? 'bg-slate-800' : ''}`}>
                 <td className="px-4 py-2 text-stone-400">{i + 1}</td>
                 <td className={`px-4 py-2 ${i === 0 ? 'text-red-400 font-bold' : 'text-stone-300'}`}>
                   {flagMap[e.country] || ''} {e.country}

@@ -127,7 +127,7 @@ export default function PentagonWastePage() {
       <ShareButtons title="Pentagon Waste: $640 Toilet Seats, Failed Audits & Trillions Unaccounted For" />
 
       {/* Key Findings */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-3">Key Findings</h2>
         <ul className="space-y-2 text-stone-300">
           <li>• <strong className="text-white">6 consecutive failed audits</strong> — the Pentagon cannot account for $3.8 trillion in assets</li>
@@ -508,7 +508,7 @@ export default function PentagonWastePage() {
           ))}
         </div>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4 text-red-400">
             The Math of Military Procurement Failure
           </h3>
@@ -684,7 +684,7 @@ export default function PentagonWastePage() {
           ))}
         </div>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4 text-red-400">
             The Oversight Illusion
           </h3>

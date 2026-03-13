@@ -159,7 +159,7 @@ export default function WhatCouldWeBuyPage() {
       <ShareButtons title="What $11.6 Trillion Could Have Bought" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -422,11 +422,11 @@ export default function WhatCouldWeBuyPage() {
       </div>
 
       {/* Iran War Cost Projections */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">⚡ Iran War Scenarios — Cost Projections</h2>
         <div className="space-y-4">
           {whatIranWillCost.map(scenario => (
-            <div key={scenario.scenario} className="border border-red-800/50 rounded-lg p-4">
+            <div key={scenario.scenario} className="border border-slate-700 rounded-lg p-4">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{scenario.scenario}</h3>
                 <span className="text-stone-400 text-sm">{scenario.timeline}</span>
@@ -665,7 +665,7 @@ export default function WhatCouldWeBuyPage() {
           </div>
         </div>
 
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-200 mb-4">🚨 Urgent: What Iran Will Cost Your Family</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>

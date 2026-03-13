@@ -312,7 +312,7 @@ export default function CostOfIranPage() {
       <ShareButtons title="What Will Iran Cost?" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -404,7 +404,7 @@ export default function CostOfIranPage() {
             </tbody>
           </table>
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 border border-red-900/50 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 border border-slate-700 rounded-lg">
           <p className="text-red-400 font-semibold text-sm mb-2">⚠️ This excludes:</p>
           <ul className="text-stone-300 text-sm space-y-1">
             <li>• Classified programs (cyber operations, special operations, intelligence)</li>
@@ -483,7 +483,7 @@ export default function CostOfIranPage() {
       </div>
 
       {/* Strait of Hormuz Economic Impact */}
-      <div className="bg-red-950/20 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Strait of Hormuz: Economic Weapon of Mass Destruction</h2>
         <p className="text-stone-300 mb-4">
           Even if Operation Epic Fury lasted only one week, the economic damage from the Strait of Hormuz closure would
@@ -492,7 +492,7 @@ export default function CostOfIranPage() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-red-900/50">
+              <tr className="border-b border-slate-700">
                 <th className="text-left text-white pb-2">Metric</th>
                 <th className="text-center text-white pb-2">Daily Volume</th>
                 <th className="text-center text-white pb-2">% of Global</th>
@@ -502,7 +502,7 @@ export default function CostOfIranPage() {
             </thead>
             <tbody className="text-stone-300">
               {hormuzEconomicImpact.map((item, i) => (
-                <tr key={i} className="border-b border-red-900/30">
+                <tr key={i} className="border-b border-slate-700">
                   <td className="py-2 font-semibold">{item.metric}</td>
                   <td className="text-center py-2">{item.daily}</td>
                   <td className="text-center py-2">{item.percentage}</td>
@@ -540,7 +540,7 @@ export default function CostOfIranPage() {
         <div className="space-y-4">
           {scenarios.map(s => (
             <details key={s.name} className="border border-stone-700 rounded-lg">
-              <summary className="p-4 cursor-pointer hover:bg-stone-800/50">
+              <summary className="p-4 cursor-pointer hover:bg-slate-800">
                 <div className="flex justify-between items-start">
                   <div>
                     <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">{s.name}</h3>
@@ -555,7 +555,7 @@ export default function CostOfIranPage() {
                   <p className="text-stone-300 mb-2"><strong>Likelihood:</strong> {s.likelihood}</p>
                   <p className="text-stone-400 text-sm"><strong>Historical parallel:</strong> {s.historicalParallel}</p>
                 </div>
-                <div className="bg-red-950/30 rounded p-3">
+                <div className="bg-slate-800 rounded p-3">
                   <h4 className="text-red-400 font-semibold text-sm mb-2">Key Escalation Risks:</h4>
                   <ul className="text-stone-300 text-sm space-y-1">
                     {s.keyRisks.map((risk, i) => (
@@ -608,7 +608,7 @@ export default function CostOfIranPage() {
             </tbody>
           </table>
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 border border-red-900/50 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 border border-slate-700 rounded-lg">
           <h3 className="text-red-400 font-semibold mb-2">The Bottom Line</h3>
           <p className="text-stone-300 text-sm">
             Even using the lower 6.5:1000 ratio (which failed in Iraq), occupying Iran would require <strong>572,000 troops</strong> — 
@@ -637,7 +637,7 @@ export default function CostOfIranPage() {
       </div>
 
       {/* Debt Impact Analysis */}
-      <div className="bg-red-950/20 border border-red-900/50 rounded-lg p-6 my-6">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">Debt Crisis: The Hidden Cost of War</h2>
         <div className="space-y-3">
           {debtImpact.map((item, i) => (
@@ -698,7 +698,7 @@ export default function CostOfIranPage() {
             </div>
           ))}
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 rounded-lg">
           <p className="text-red-400 font-semibold">Total Hidden Costs: $6+ trillion over 40 years</p>
           <p className="text-stone-300 text-sm">This doesn&apos;t include opportunity costs — the infrastructure, schools, hospitals, and research that won&apos;t be built because the money was spent on war.</p>
         </div>
@@ -732,7 +732,7 @@ export default function CostOfIranPage() {
             </tbody>
           </table>
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 rounded-lg">
           <p className="text-red-400 font-semibold text-sm mb-1">Pattern Recognition:</p>
           <p className="text-stone-300 text-sm">
             Every administration lowballs war costs to get Congressional approval, then claims they can&apos;t stop funding 
@@ -762,7 +762,7 @@ export default function CostOfIranPage() {
             </div>
           ))}
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 rounded-lg">
           <h3 className="text-red-400 font-semibold mb-2">Regional War Totals</h3>
           <div className="grid md:grid-cols-3 gap-4 text-sm">
             <div><p className="text-stone-300">Economic damage: <strong className="text-red-400">$2+ trillion</strong></p></div>

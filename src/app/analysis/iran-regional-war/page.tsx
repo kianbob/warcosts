@@ -441,7 +441,7 @@ export default function IranRegionalWarPage() {
           immediately spiked to $180/barrel — a 125% increase that sent global markets into freefall.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Hormuz by the Numbers</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-3 text-stone-300">
@@ -566,7 +566,7 @@ export default function IranRegionalWarPage() {
           to degrade enemy capabilities and domestic support for the war.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Cyber Warfare Escalation</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -657,7 +657,7 @@ export default function IranRegionalWarPage() {
           An estimated <strong>2.3 million people</strong> have been displaced across the region in the first week.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Refugee Crisis Developing</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -807,6 +807,10 @@ export default function IranRegionalWarPage() {
       {/* Cross-links */}
       <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Related Analysis</h2>
       <div className="grid md:grid-cols-2 gap-4 mb-8">
+        <Link href="/analysis/lebanon-burns" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
+          <h3 className="font-semibold text-red-800">While Lebanon Burns: America&apos;s $22B Blank Check →</h3>
+          <p className="text-stone-500 text-sm">$21.7B in US aid funded the destruction of a country already in collapse. 4,681+ killed. The Lebanon front deserves its own deep-dive.</p>
+        </Link>
         <Link href="/analysis/iran-2026" className="bg-white rounded-lg border p-4 hover:shadow-md transition">
           <h3 className="font-semibold">Iran 2026: The Full Story →</h3>
           <p className="text-stone-500 text-sm">Day-by-day account of Operation Epic Fury</p>

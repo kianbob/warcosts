@@ -184,7 +184,7 @@ export default function AIWeaponsPage() {
         </p>
 
         <div className="space-y-4 mb-6">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Step 1: Data Collection (Surveillance Layer)</h3>
             <p className="text-stone-300 text-sm mb-2">
               <strong>Sources:</strong> Satellite imagery, drone cameras, cell phone intercepts, social media scraping, 
@@ -200,7 +200,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Step 2: Pattern Recognition (Analysis Layer)</h3>
             <p className="text-stone-300 text-sm mb-2">
               <strong>Behavioral Analysis:</strong> AI identifies "patterns of life" — when someone wakes up, 
@@ -216,7 +216,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Step 3: Scoring and Ranking (Targeting Layer)</h3>
             <p className="text-stone-300 text-sm mb-2">
               <strong>Risk Scoring:</strong> AI assigns numerical probability scores (0-100) indicating likelihood 
@@ -232,7 +232,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Step 4: Autonomous Execution (Weapons Layer)</h3>
             <p className="text-stone-300 text-sm mb-2">
               <strong>Platform Selection:</strong> AI chooses optimal weapons platform (drone, missile, artillery) 
@@ -249,7 +249,7 @@ export default function AIWeaponsPage() {
           </div>
         </div>
 
-        <div className="bg-red-950/30 border border-red-900/30 rounded p-4">
+        <div className="bg-slate-800 border border-slate-700 rounded p-4">
           <h4 className="text-red-400 font-semibold mb-2">The Error Cascade Problem</h4>
           <p className="text-stone-300 text-sm">
             Each layer in the AI kill chain amplifies errors from the previous layer. Bad surveillance data leads 
@@ -373,7 +373,7 @@ export default function AIWeaponsPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Cost Comparison: Human vs. Machine</h3>
             <div className="space-y-2 text-stone-300 text-sm">
               <div className="flex justify-between">
@@ -398,7 +398,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Speed Comparison: Analysis to Strike</h3>
             <div className="space-y-2 text-stone-300 text-sm">
               <div className="flex justify-between">
@@ -424,7 +424,7 @@ export default function AIWeaponsPage() {
           </div>
         </div>
 
-        <div className="bg-red-950/30 border border-red-900/30 rounded p-4">
+        <div className="bg-slate-800 border border-slate-700 rounded p-4">
           <h3 className="text-red-400 font-semibold mb-2">Market Size: The AI Death Economy</h3>
           <div className="grid md:grid-cols-3 gap-4 text-stone-300 text-sm">
             <div>
@@ -568,7 +568,7 @@ export default function AIWeaponsPage() {
         </p>
 
         <div className="space-y-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Scenario 1: The Terrorist Swarm (2027-2030)</h3>
             <p className="text-stone-300 text-sm mb-2">
               A terrorist organization purchases 100 commercial drones ($50,000 total), adds facial recognition 
@@ -581,7 +581,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Scenario 2: The Proxy War Escalation (2025-2028)</h3>
             <p className="text-stone-300 text-sm mb-2">
               China provides autonomous weapons to Iran, which deploys them against US forces in Iraq. 
@@ -594,7 +594,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Scenario 3: The Authoritarian Control System (2030+)</h3>
             <p className="text-stone-300 text-sm mb-2">
               Governments deploy autonomous weapons domestically for "security." AI systems continuously monitor 
@@ -607,7 +607,7 @@ export default function AIWeaponsPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">Scenario 4: The Flash War (2030+)</h3>
             <p className="text-stone-300 text-sm mb-2">
               Two nations' AI defense systems misinterpret each other's actions as hostile. Autonomous weapons 

@@ -137,7 +137,7 @@ export default function CasualtyCalculatorPage() {
 
       {/* Result */}
       {pop > 0 && deaths > 0 && (
-        <div className="bg-stone-900 border border-red-900/50 rounded-xl p-6 mb-6">
+        <div className="bg-stone-900 border border-slate-700 rounded-xl p-6 mb-6">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
             {conflict?.shortName} casualties in {cityName || 'your city'}
           </h2>

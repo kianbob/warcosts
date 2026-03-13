@@ -216,7 +216,7 @@ export default function RevolvingDoorPage() {
 
         {/* Eisenhower's Warning */}
         <section className="mb-12">
-          <div className="bg-slate-800/50 border border-red-800/50 rounded-lg p-8">
+          <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
             <h2 className="font-playfair text-2xl font-bold text-red-400 mb-4">
               "We must guard against the acquisition of unwarranted influence..."
             </h2>
@@ -259,7 +259,7 @@ export default function RevolvingDoorPage() {
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-red-900/20 border border-red-800/50 rounded-lg">
+          <div className="mt-8 p-6 bg-red-900/20 border border-slate-700 rounded-lg">
             <h3 className="font-bold text-red-300 mb-3">The Result:</h3>
             <p className="text-stone-300">
               Former Pentagon officials make 300-1000% more money working for contractors than they did serving 
@@ -342,7 +342,7 @@ export default function RevolvingDoorPage() {
                     <strong className="text-stone-300">Clients:</strong> 
                     <span className="text-stone-400 ml-1">{revolver.clients}</span>
                   </div>
-                  <div className="mt-3 p-3 bg-red-900/20 border border-red-800/50 rounded">
+                  <div className="mt-3 p-3 bg-red-900/20 border border-slate-700 rounded">
                     <strong className="text-red-300">Impact:</strong> 
                     <span className="text-stone-300 ml-1">{revolver.impact}</span>
                   </div>
@@ -405,7 +405,7 @@ export default function RevolvingDoorPage() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-red-900/20 border border-red-800/50 rounded-lg p-6">
+              <div className="bg-red-900/20 border border-slate-700 rounded-lg p-6">
                 <h3 className="font-bold text-red-300 mb-4">The "Restrictions"</h3>
                 <ul className="space-y-2 text-stone-300 text-sm">
                   <li>• Senior officials: 2-year lobbying ban</li>

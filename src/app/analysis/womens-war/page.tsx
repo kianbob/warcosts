@@ -57,7 +57,7 @@ export default function WomensWarPage() {
       <ShareButtons title="Women's War: Sexual Violence, Military Assault & the Invisible Casualties" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-3">Key Findings</h2>
         <ul className="space-y-2 text-stone-300">
           <li>• <strong className="text-white">20,000+ military sexual assaults annually</strong> — DOD estimates only ~7,000 are reported. The military investigates itself.</li>
@@ -180,7 +180,7 @@ export default function WomensWarPage() {
           been raped in major conflicts since 1990. That&apos;s one conviction for every 49,000 rapes.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">ICC: Toothless Justice</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -302,7 +302,7 @@ export default function WomensWarPage() {
           women in stable communities.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">The Journey of Trauma</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -406,7 +406,7 @@ export default function WomensWarPage() {
           women are excluded from reconstruction jobs that go to men.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Afghanistan: 20 Years of False Promises</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -502,7 +502,7 @@ export default function WomensWarPage() {
           continues to treat women&apos;s participation as optional, not essential.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">UN Resolution 1325: 23 Years of Empty Promises</h3>
           <p className="text-stone-300 mb-3">
             In 2000, the UN Security Council passed Resolution 1325, calling for women&apos;s participation 

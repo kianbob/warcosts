@@ -79,7 +79,7 @@ export default function DronesKillListPage() {
           { label: 'Civilians Killed', value: `${fmt(totalMinCivilians)}–${fmt(totalMaxCivilians)}`, color: 'text-red-400' },
           { label: 'Children Killed', value: `${fmt(totalMinChildren)}–${fmt(totalMaxChildren)}`, color: 'text-red-400' },
         ].map(s => (
-          <div key={s.label} className="bg-stone-800/50 border border-stone-700 rounded-xl p-4 text-center">
+          <div key={s.label} className="bg-slate-800 border border-stone-700 rounded-xl p-4 text-center">
             <div className={`font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold ${s.color}`}>{s.value}</div>
             <div className="text-stone-400 text-sm mt-1">{s.label}</div>
           </div>
@@ -136,7 +136,7 @@ export default function DronesKillListPage() {
           a cell phone previously used by a suspect.
         </p>
 
-        <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6 my-6">
+        <div className="bg-slate-800 border border-stone-700 rounded-xl p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-white">The &quot;Military-Aged Male&quot; Problem</h3>
           <p className="text-stone-300 mb-3">
             The Obama administration adopted a policy of counting all military-aged males killed in a strike zone
@@ -201,7 +201,7 @@ export default function DronesKillListPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-6 my-6">
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-white">🕵️ CIA</h3>
             <ul className="space-y-2 text-stone-300 text-sm">
               <li>• Operated under Title 50 (covert action)</li>
@@ -214,7 +214,7 @@ export default function DronesKillListPage() {
             </ul>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-white">⚔️ JSOC</h3>
             <ul className="space-y-2 text-stone-300 text-sm">
               <li>• Operated under Title 10 (military operations)</li>
@@ -243,7 +243,7 @@ export default function DronesKillListPage() {
 
         <div className="space-y-4">
           {countries.map((c: any) => (
-            <div key={c.slug} className="bg-stone-800/50 border border-stone-700 rounded-xl p-5">
+            <div key={c.slug} className="bg-slate-800 border border-stone-700 rounded-xl p-5">
               <div className="flex items-start justify-between">
                 <div>
                   <Link href={`/drone-strikes/${c.slug}`} className="font-[family-name:var(--font-heading)] text-xl font-bold text-white hover:text-red-400 transition">
@@ -365,7 +365,7 @@ export default function DronesKillListPage() {
           </li>
         </ul>
 
-        <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6 my-6">
+        <div className="bg-slate-800 border border-stone-700 rounded-xl p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-white">Who Counts the Dead?</h3>
           <div className="grid md:grid-cols-3 gap-4 text-sm">
             <div>
@@ -437,7 +437,7 @@ export default function DronesKillListPage() {
           Espionage Act. In his sentencing letter, he wrote:
         </p>
 
-        <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6 my-6">
+        <div className="bg-slate-800 border border-stone-700 rounded-xl p-6 my-6">
           <p className="text-stone-300 italic">
             &quot;Not a day goes by that I don&apos;t question the justification for my actions... The government argues that
             I put troops at risk. But how can we protect them by creating more enemies? How many of the 1,626 people
@@ -463,7 +463,7 @@ export default function DronesKillListPage() {
             { href: '/analysis/undeclared-wars', title: 'Undeclared Wars', desc: 'How presidents wage war without congressional approval.' },
             { href: '/analysis/blowback', title: 'Blowback', desc: 'How interventions create the next generation of enemies.' },
           ].map(a => (
-            <Link key={a.href} href={a.href} className="bg-stone-800/50 border border-stone-700 rounded-lg p-4 hover:bg-stone-800 transition">
+            <Link key={a.href} href={a.href} className="bg-slate-800 border border-stone-700 rounded-lg p-4 hover:bg-stone-800 transition">
               <h3 className="font-bold text-white">{a.title}</h3>
               <p className="text-stone-400 text-sm">{a.desc}</p>
             </Link>

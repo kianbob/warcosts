@@ -138,7 +138,7 @@ export default function WarAndCivilLibertiesPage() {
       <TimelineChart />
 
       {/* Key Stat */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="text-red-400 font-bold text-lg mb-3">The Ratchet Effect</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <div>
@@ -169,7 +169,7 @@ export default function WarAndCivilLibertiesPage() {
             <p className="text-stone-600 mb-4 leading-relaxed">{era.description}</p>
             
             <div className="grid md:grid-cols-2 gap-4 mb-4">
-              <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-4">
+              <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
                 <h4 className="text-red-400 font-bold text-sm mb-2">Rights Violated</h4>
                 <ul className="text-stone-600 text-sm space-y-1">
                   {era.rights.map(r => <li key={r}>• {r}</li>)}
@@ -200,7 +200,7 @@ export default function WarAndCivilLibertiesPage() {
         
         <div className="space-y-4">
           {postPatriotAct.map((item) => (
-            <div key={item.measure} className="bg-red-950/20 border border-red-900/30 rounded-lg p-4">
+            <div key={item.measure} className="bg-slate-800 border border-slate-700 rounded-lg p-4">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{item.measure}</h3>
                 <span className="text-red-400 font-bold text-xl">{item.count}</span>
@@ -236,7 +236,7 @@ export default function WarAndCivilLibertiesPage() {
                   <p className="text-stone-300 mt-1">{violation.current}</p>
                 </div>
               </div>
-              <div className="mt-4 p-3 bg-red-950/30 rounded">
+              <div className="mt-4 p-3 bg-slate-800 rounded">
                 <span className="text-red-400 font-semibold text-sm">Impact: </span>
                 <span className="text-red-300 text-sm">{violation.impact}</span>
               </div>
@@ -293,7 +293,7 @@ export default function WarAndCivilLibertiesPage() {
         </p>
         <div className="space-y-4">
           {modernThreats.map((threat) => (
-            <div key={threat.threat} className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={threat.threat} className="bg-slate-800 border border-slate-700 rounded-lg p-5">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{threat.threat}</h3>
                 <span className="text-stone-400 text-sm">{threat.year}</span>
@@ -348,7 +348,7 @@ export default function WarAndCivilLibertiesPage() {
             { step: '5. Normalization', desc: 'The "temporary" measures become permanent. No one votes to repeal them.' },
             { step: '6. Repeat', desc: 'The next crisis arrives, and the ratchet tightens further.' },
           ].map(s => (
-            <div key={s.step} className="flex gap-4 items-start bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={s.step} className="flex gap-4 items-start bg-slate-800 border border-slate-700 rounded-lg p-5">
               <div>
                 <h3 className="font-bold">{s.step}</h3>
                 <p className="text-stone-600 text-sm mt-1">{s.desc}</p>
@@ -402,7 +402,7 @@ export default function WarAndCivilLibertiesPage() {
         <p className="text-stone-600 mb-4">
           This normalization follows a predictable pattern:
         </p>
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">The Normalization Process</h3>
           <div className="space-y-3">
             <div className="flex gap-3">
@@ -588,7 +588,7 @@ export default function WarAndCivilLibertiesPage() {
           Every war brings new restrictions. Iran will be no different. Based on the historical pattern, here&apos;s what
           Americans can expect if the war expands:
         </p>
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">Probable New Restrictions</h3>
           <div className="space-y-3 text-stone-300 text-sm">
             <div className="flex gap-3">

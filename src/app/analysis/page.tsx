@@ -36,6 +36,7 @@ const sections = [
       { slug: 'iran-cost-per-second', title: 'The $28,095-Per-Second War', desc: 'Every dollar broken down: Tomahawks at $2.5M each, B-2 sorties at $150K/hour, two carrier groups at $13M/day.' },
       { slug: 'iran-civilian-cost', title: 'The Civilian Cost of the Iran War', desc: '168 schoolchildren killed in Minab. 1,348 dead, 17,000 injured. Neighborhoods flattened. The human toll of Operation Epic Fury.' },
       { slug: 'iran-regional-war', title: '11 Countries, 7 Days: How Iran Became a Regional War', desc: 'Iran struck back across the entire Middle East. Qatar, Israel, Bahrain, Kuwait — everyone is in it now.' },
+      { slug: 'lebanon-burns', title: 'While Lebanon Burns: America\'s $22 Billion Blank Check', desc: '$21.7B in US military aid funded the destruction of a country already in economic collapse. 4,681+ killed. $14B in damage. No American troops.' },
       { slug: 'iran-russia-shadow-war', title: 'Russia\'s Shadow War: Feeding Iran US Positions', desc: 'Moscow is reportedly sharing US military positions with Tehran. The proxy war nobody expected.' },
       { slug: 'cost-of-iran', title: 'What Will Iran Cost?', desc: 'Projecting the price of Operation Epic Fury — from $20B air campaign to $5T+ occupation.' },
       { slug: 'hormuz-crisis', title: 'The Strait of Hormuz Crisis', desc: 'How one 21-mile waterway could crash the global economy. Iran closed it. Now what?' },

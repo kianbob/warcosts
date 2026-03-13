@@ -51,7 +51,7 @@ export default function BaseNationPage() {
           { label: 'Annual Cost', value: '$55B+', color: 'text-red-400' },
           { label: 'Total Installations', value: fmt(baseStats.totalBases), color: 'text-red-400' },
         ].map(s => (
-          <div key={s.label} className="bg-stone-800/50 border border-stone-700 rounded-xl p-4 text-center">
+          <div key={s.label} className="bg-slate-800 border border-stone-700 rounded-xl p-4 text-center">
             <div className={`font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold ${s.color}`}>{s.value}</div>
             <div className="text-stone-400 text-sm mt-1">{s.label}</div>
           </div>
@@ -70,7 +70,7 @@ export default function BaseNationPage() {
           is the most far-reaching empire in human history.
         </p>
 
-        <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6 my-6">
+        <div className="bg-slate-800 border border-stone-700 rounded-xl p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3 text-white">For Comparison</h3>
           <div className="space-y-2 text-stone-300 text-sm">
             <div className="flex justify-between"><span>🇺🇸 United States</span><span className="text-red-400 font-bold">{fmt(baseStats.overseasBases)}+ overseas bases</span></div>
@@ -99,7 +99,7 @@ export default function BaseNationPage() {
           {topCountries.map((c: any) => {
             const maxBases = topCountries[0].total
             return (
-              <div key={c.slug} className="bg-stone-800/50 border border-stone-700 rounded-lg p-4">
+              <div key={c.slug} className="bg-slate-800 border border-stone-700 rounded-lg p-4">
                 <div className="flex items-center justify-between mb-2">
                   <Link href={`/bases/countries`} className="text-white font-medium hover:text-red-400 transition">
                     {c.country}
@@ -232,7 +232,7 @@ export default function BaseNationPage() {
 
         {/* Environmental Cases */}
         <div className="space-y-6 my-8">
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">🧪 PFAS Contamination: "Forever Chemicals" Worldwide</h3>
             <p className="text-stone-300 text-sm mb-3">
               Per- and polyfluoroalkyl substances (PFAS) from military firefighting foam have contaminated drinking 
@@ -266,14 +266,14 @@ export default function BaseNationPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">⛽ Red Hill: Poisoning Pearl Harbor</h3>
             <p className="text-stone-300 text-sm mb-3">
               The Red Hill Underground Fuel Storage Facility in Hawaii — built during WWII — stores 250 million
               gallons of jet fuel in 20 massive underground tanks just 100 feet above Oahu's main aquifer.
             </p>
             <div className="space-y-3">
-              <div className="bg-red-950/30 border border-red-800/50 rounded p-3">
+              <div className="bg-slate-800 border border-slate-700 rounded p-3">
                 <h4 className="text-red-400 font-semibold text-sm mb-1">November 2021 Crisis</h4>
                 <p className="text-stone-300 text-xs">
                   Jet fuel leaked into Navy water system serving 93,000+ people. Families reported symptoms:
@@ -309,7 +309,7 @@ export default function BaseNationPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">☢️ Vieques: 60 Years of Bombing Practice</h3>
             <p className="text-stone-300 text-sm mb-3">
               The US Navy used Vieques, Puerto Rico as a bombing range from 1941-2003, dropping an estimated
@@ -342,7 +342,7 @@ export default function BaseNationPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">🧪 Agent Orange: Chemical Weapons Storage</h3>
             <p className="text-stone-300 text-sm mb-3">
               Agent Orange and other herbicides weren't just used in Vietnam. They were stored, tested, and 
@@ -420,7 +420,7 @@ export default function BaseNationPage() {
         </p>
 
         <div className="space-y-6 my-8">
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">🔍 Okinawa: Decades of Violence, Minimal Justice</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-red-600 pl-4">
@@ -460,7 +460,7 @@ export default function BaseNationPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-6">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-6">
             <h3 className="font-bold text-white mb-3 text-lg">📊 Global Pattern: Crime Without Consequence</h3>
             <p className="text-stone-300 text-sm mb-3">
               Sexual violence by US military personnel is documented worldwide, but prosecutions are rare 
@@ -512,22 +512,22 @@ export default function BaseNationPage() {
         </p>
 
         <div className="space-y-4 mb-6">
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-5">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-5">
             <h3 className="font-bold text-white mb-2">🏛️ Bureaucratic Inertia</h3>
             <p className="text-stone-300 text-sm">Once built, bases are nearly impossible to close. The BRAC (Base Realignment and Closure) process is so politically toxic that Congress hasn&apos;t authorized a new round since 2005. Every base has a congressional champion protecting local jobs.</p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-5">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-5">
             <h3 className="font-bold text-white mb-2">💰 Contractor Profits</h3>
             <p className="text-stone-300 text-sm">Base construction and maintenance generates billions for defense contractors. KBR (formerly Halliburton) made $39.5B from base support contracts in Iraq and Afghanistan alone.</p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-5">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-5">
             <h3 className="font-bold text-white mb-2">🌐 Geopolitical Leverage</h3>
             <p className="text-stone-300 text-sm">Bases serve as political tools — quid pro quos for foreign aid, trade agreements, and diplomatic support. Host nations that cooperate get rewarded; those that don&apos;t (like Ecuador, which closed the Manta base in 2009) face consequences.</p>
           </div>
 
-          <div className="bg-stone-800/50 border border-stone-700 rounded-xl p-5">
+          <div className="bg-slate-800 border border-stone-700 rounded-xl p-5">
             <h3 className="font-bold text-white mb-2">🔄 Self-Perpetuating Logic</h3>
             <p className="text-stone-300 text-sm">Bases create the threats that justify more bases. A US base in Saudi Arabia was Osama bin Laden&apos;s primary grievance. The War on Terror that followed led to dozens of new bases across the Middle East and Africa.</p>
           </div>
@@ -597,7 +597,7 @@ export default function BaseNationPage() {
             { href: '/analysis/war-profiteering', title: 'War Is a Racket', desc: 'Who profits from maintaining 750 bases worldwide? Follow the money.' },
             { href: '/bases/directory', title: 'Base Directory', desc: 'Search and explore every US military installation worldwide.' },
           ].map(a => (
-            <Link key={a.href} href={a.href} className="bg-stone-800/50 border border-stone-700 rounded-lg p-4 hover:bg-stone-800 transition">
+            <Link key={a.href} href={a.href} className="bg-slate-800 border border-stone-700 rounded-lg p-4 hover:bg-stone-800 transition">
               <h3 className="font-bold text-white">{a.title}</h3>
               <p className="text-stone-400 text-sm">{a.desc}</p>
             </Link>

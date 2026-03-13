@@ -75,7 +75,7 @@ export default function NineElevenForeverWarPage() {
       <ShareButtons title="From 9/11 to Forever War: How 19 Hijackers Changed America" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🤖 AI Overview</h2>
         <p className="text-stone-300 mb-3">
           The US response to 9/11 exceeded the original attack in every measurable dimension by orders
@@ -165,7 +165,7 @@ export default function NineElevenForeverWarPage() {
         </p>
 
         {/* The Legal Interpretation Expansion */}
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <h4 className="text-white font-semibold mb-2">How 60 Words Became Infinite War</h4>
           <p className="text-stone-300 text-sm mb-3">
             The AUMF's language is deliberately vague. Key phrases like "associated forces" and "appropriate force" 
@@ -363,7 +363,7 @@ export default function NineElevenForeverWarPage() {
         </p>
         <div className="space-y-4">
           {securityState.map(s => (
-            <div key={s.name} className="bg-stone-800/50 rounded-lg p-4">
+            <div key={s.name} className="bg-slate-800 rounded-lg p-4">
               <h3 className="text-red-400 font-semibold text-sm mb-1">{s.name}</h3>
               <p className="text-sm text-stone-300">{s.detail}</p>
             </div>
@@ -440,11 +440,11 @@ export default function NineElevenForeverWarPage() {
             </div>
           </div>
           <div className="mt-4 space-y-2 text-sm">
-            <div className="border-b border-red-800/50 pb-2">
+            <div className="border-b border-slate-700 pb-2">
               <span className="text-red-300 font-semibold">Veteran suicides: </span>
               <span className="text-stone-300">~22 per day (2005-2020 average) • More than combat deaths</span>
             </div>
-            <div className="border-b border-red-800/50 pb-2">
+            <div className="border-b border-slate-700 pb-2">
               <span className="text-red-300 font-semibold">Veteran homelessness: </span>
               <span className="text-stone-300">37,000 veterans homeless on any given night</span>
             </div>
@@ -456,7 +456,7 @@ export default function NineElevenForeverWarPage() {
         </div>
 
         {/* Civilian Impact */}
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <h3 className="text-white font-semibold mb-3">Civilian Casualties (Conservative Estimates)</h3>
           <div className="space-y-3">
             <div className="flex justify-between items-center border-b border-stone-600 pb-2">
@@ -584,7 +584,7 @@ export default function NineElevenForeverWarPage() {
         </div>
 
         {/* The Revolving Door */}
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <h3 className="text-white font-semibold mb-3">The Revolving Door: Government Officials → Defense Contractors</h3>
           <p className="text-stone-300 text-sm mb-3">
             Senior officials who promoted the wars later joined the companies that profited from them:
@@ -665,7 +665,7 @@ export default function NineElevenForeverWarPage() {
           numbers suggest he was right:
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">What Bin Laden Wanted</h3>
             <ul className="space-y-1 text-sm text-stone-300">
               <li>✓ Provoke a massive military overreaction</li>
@@ -676,7 +676,7 @@ export default function NineElevenForeverWarPage() {
               <li>✓ Create a permanent state of war</li>
             </ul>
           </div>
-          <div className="bg-red-950/30 border border-red-900/30 rounded p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded p-4">
             <h3 className="text-red-400 font-semibold mb-2">What America Delivered</h3>
             <ul className="space-y-1 text-sm text-stone-300">
               <li>✓ Invaded 2 countries, bombed 20 more</li>
@@ -758,7 +758,7 @@ export default function NineElevenForeverWarPage() {
           </div>
         </div>
 
-        <div className="mt-4 bg-stone-800/50 rounded-lg p-4">
+        <div className="mt-4 bg-slate-800 rounded-lg p-4">
           <h4 className="text-white font-semibold mb-2">The "American Exception" Doctrine</h4>
           <p className="text-stone-300 text-sm">
             Post-9/11, America adopted the position that international law doesn't apply to the US when fighting terrorism. 
@@ -777,7 +777,7 @@ export default function NineElevenForeverWarPage() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <div className="bg-stone-800/50 rounded-lg p-4">
+          <div className="bg-slate-800 rounded-lg p-4">
             <h3 className="text-yellow-400 font-semibold mb-3">Generation 9/11 (Born 1996-2010)</h3>
             <div className="space-y-2 text-sm text-stone-300">
               <div>• Never experienced pre-9/11 civil liberties</div>
@@ -872,7 +872,7 @@ export default function NineElevenForeverWarPage() {
         </p>
 
         <div className="space-y-4">
-          <div className="bg-stone-800/50 rounded-lg p-4">
+          <div className="bg-slate-800 rounded-lg p-4">
             <h3 className="text-red-400 font-semibold mb-3">Regional Destabilization</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
@@ -900,7 +900,7 @@ export default function NineElevenForeverWarPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800/50 rounded-lg p-4">
+          <div className="bg-slate-800 rounded-lg p-4">
             <h3 className="text-orange-400 font-semibold mb-3">Rise of Authoritarian Competitors</h3>
             <p className="text-stone-300 text-sm mb-3">
               America's post-9/11 overreach created space for authoritarian powers to challenge US hegemony:
@@ -929,7 +929,7 @@ export default function NineElevenForeverWarPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800/50 rounded-lg p-4">
+          <div className="bg-slate-800 rounded-lg p-4">
             <h3 className="text-blue-400 font-semibold mb-3">Alliance Erosion</h3>
             <p className="text-stone-300 text-sm mb-3">
               25 years of unilateral action and "with us or against us" diplomacy damaged America's alliance system:
@@ -998,7 +998,7 @@ export default function NineElevenForeverWarPage() {
         </p>
 
         {/* Executive Power Expansion */}
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <h3 className="text-red-400 font-semibold mb-3">The Imperial Presidency</h3>
           <p className="text-stone-300 text-sm mb-3">
             Post-9/11 presidents have claimed powers that would make King George III jealous:
@@ -1087,7 +1087,7 @@ export default function NineElevenForeverWarPage() {
           more power, more personnel. The War on Terror created a permanent constituency with a financial interest in permanent war:
         </p>
         
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <h4 className="text-yellow-400 font-semibold mb-2">The Iron Triangle</h4>
           <div className="grid md:grid-cols-3 gap-3">
             <div className="text-center">

@@ -5034,5 +5034,161 @@
         "note": "Failed to revive nuclear negotiations during the Biden administration, leaving Trump to inherit an escalating crisis. His diplomatic failures contributed to the breakdown that made military confrontation seem inevitable to both sides."
       }
     ]
+  },
+  {
+    "id": "lebanon-hezbollah-2023",
+    "name": "Lebanon: America's Proxy Front (2023–Present)",
+    "shortName": "Lebanon 2023",
+    "era": "War on Terror",
+    "type": "intervention",
+    "startYear": 2023,
+    "endYear": null,
+    "region": "Middle East",
+    "countries": [
+      "Lebanon",
+      "Israel"
+    ],
+    "description": "US-funded Israeli military operations in Lebanon from October 2023 cross-border fighting through the 2024 invasion and into the 2026 resumption. Part of $21.7B+ in US military aid to Israel since October 7, 2023 (Brown University Costs of War). The World Bank's 2025 RDNA report estimated $14 billion in damage to Lebanon — $6.8B physical destruction + $7.2B economic losses. Lebanon was already in economic collapse before the war began.",
+    "costNominal": 21700000000,
+    "costInflationAdjusted": 21700000000,
+    "costYear": 2025,
+    "usCasualties": {
+      "deaths": 0,
+      "wounded": 0,
+      "battleDeaths": 0,
+      "missing": 0
+    },
+    "civilianDeaths": 4681,
+    "troopsDeployed": 0,
+    "outcome": "Developing",
+    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 634+ killed, 1,586 injured, 816,000 displaced. No US troops directly involved — funded entirely through military aid to Israel.",
+    "congressionalAuth": false,
+    "authDetail": "No congressional authorization for Lebanon operations specifically. Military aid to Israel approved through supplemental appropriations ($8.7B in April 2024). No debate on whether US weapons should be used in Lebanon.",
+    "keyEvents": [
+      {
+        "year": 2023,
+        "event": "Oct 8: Hezbollah begins cross-border attacks on Israel in solidarity with Gaza. Israel responds with airstrikes on southern Lebanon. Tit-for-tat escalation begins."
+      },
+      {
+        "year": 2024,
+        "event": "April: US Congress approves $8.7B supplemental for Israel including Iron Dome and David's Sling funding."
+      },
+      {
+        "year": 2024,
+        "event": "Sep 17-18: Pager and walkie-talkie bombings across Lebanon — 42 killed, 3,500+ injured. Thousands of communication devices rigged with explosives detonate simultaneously. Attributed to Israeli intelligence."
+      },
+      {
+        "year": 2024,
+        "event": "Sep 27: Hassan Nasrallah, Hezbollah Secretary-General, assassinated in massive Israeli airstrike on Beirut's Dahiyeh suburbs."
+      },
+      {
+        "year": 2024,
+        "event": "Oct 1: Israeli ground invasion of southern Lebanon begins. White phosphorus used on residential areas. UNIFIL positions attacked. 1.2 million displaced."
+      },
+      {
+        "year": 2024,
+        "event": "7+ journalists killed covering the conflict. Entire villages in south Lebanon destroyed."
+      },
+      {
+        "year": 2024,
+        "event": "Nov 27: Ceasefire agreement reached. By this point: 4,047+ killed, 16,638 injured in Lebanon."
+      },
+      {
+        "year": 2025,
+        "event": "Daily Israeli ceasefire violations reported. Southern Lebanon remains occupied. Reconstruction stalled."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 2: Hezbollah retaliates for Khamenei killing, citing 15 months of daily ceasefire violations. War resumes."
+      },
+      {
+        "year": 2026,
+        "event": "Lebanese government bans Hezbollah military activities, arrests 12 members, expels 150+ Iranian nationals — trying to avoid wider war."
+      },
+      {
+        "year": 2026,
+        "event": "Israel strikes Beirut residential areas. Nabi Chit strike kills 41 — searching for remains of Ron Arad, pilot missing since 1986."
+      },
+      {
+        "year": 2026,
+        "event": "Ramada hotel strike in Beirut kills 5 IRGC Quds Force commanders."
+      },
+      {
+        "year": 2026,
+        "event": "Cluster bomb strikes coordinated with broader Iran campaign. White phosphorus used on Yohmor. 3 UNIFIL peacekeepers injured."
+      },
+      {
+        "year": 2026,
+        "event": "200+ Hezbollah fighters killed per Israeli claims. 634 total killed in Lebanon, 1,586 injured, 816,000 displaced in 2026 phase."
+      }
+    ],
+    "libertarianNote": "No American soldier set foot in Lebanon, but American taxpayers funded every bomb that fell on it. The $21.7 billion in military aid to Israel since October 2023 enabled the destruction of a country that was already in economic freefall — GDP had contracted 5.7% in 2024 before the invasion. Lebanon posed zero direct threat to US national security. The AIPAC lobby spent $221 million on US political campaigns to ensure this funding continued without question. American weapons created $14 billion in damage to a country with a GDP of $18 billion. The US vetoed UN ceasefire resolutions while providing intelligence and diplomatic cover. This is what a proxy war looks like: someone else fights, someone else dies, and the American taxpayer pays the bill.",
+    "objectives": [
+      "Degrade Hezbollah military capability",
+      "Protect Israel's northern border",
+      "Eliminate Hezbollah leadership"
+    ],
+    "objectivesMet": false,
+    "years": "2023–Present",
+    "computed": {
+      "durationYears": 3,
+      "durationDays": 1095,
+      "costPerDay": 19817352,
+      "costPerUSdeath": 0,
+      "costPerCivilianDeath": 4636437,
+      "totalDeaths": 4681,
+      "civilianToMilitaryRatio": null,
+      "deathsPerYear": 1560,
+      "civilianDeathsPerYear": 1560
+    },
+    "narrative": "The Lebanon front of America's proxy wars began hours after the October 7, 2023 Hamas attack on Israel, when Hezbollah opened a 'solidarity front' with cross-border rocket attacks. What followed was a devastating escalation funded almost entirely by American taxpayers — $21.7 billion in military aid to Israel since October 2023 according to Brown University's Costs of War Project.\n\nThe conflict followed a grim trajectory. Through late 2023 and most of 2024, cross-border exchanges displaced tens of thousands on both sides of the Israel-Lebanon border. Then in September 2024, Israel executed one of the most audacious intelligence operations in modern history: the simultaneous detonation of thousands of pagers and walkie-talkies used by Hezbollah operatives across Lebanon. The bombings killed 42 people and injured over 3,500 — many of them civilians who happened to be near the devices when they exploded.\n\nDays later, on September 27, 2024, Israel assassinated Hezbollah Secretary-General Hassan Nasrallah in a massive airstrike on Beirut's Dahiyeh suburbs — ending the 32-year leadership of one of the Middle East's most powerful non-state actors. The strike, which leveled an entire city block, marked the beginning of a full-scale Israeli military campaign against Lebanon.\n\nOn October 1, 2024, Israeli ground forces invaded southern Lebanon. What followed was devastating: white phosphorus deployed on residential areas, UNIFIL peacekeeping positions attacked, seven or more journalists killed, 1.2 million Lebanese displaced, and entire villages in south Lebanon reduced to rubble. By the time a ceasefire was reached on November 27, 2024, Lebanon had suffered 4,047 killed and 16,638 injured.\n\nBut the ceasefire was a fiction. Israel continued daily violations — reconnaissance flights, ground incursions, targeted killings — throughout 2025. When the broader Iran war erupted in late February 2026, Hezbollah launched retaliatory strikes on Israel, citing both the Khamenei assassination and 15 months of ceasefire violations. The Lebanese government tried desperately to stay out of the wider conflict: banning Hezbollah military activities, arresting 12 members, and expelling over 150 Iranian nationals.\n\nIsrael struck anyway. Beirut residential areas were hit. A strike on Nabi Chit killed 41 people — the target was intelligence about Ron Arad, an Israeli pilot missing since 1986. A Ramada hotel in Beirut was destroyed, killing 5 IRGC Quds Force commanders. Cluster munitions were used. White phosphorus was deployed on the village of Yohmor. Three UNIFIL peacekeepers were injured. Father Pierre al-Rahi, a Maronite Christian priest, was killed in a double-tap strike on Al-Qlayaa.\n\nThe toll of the 2026 phase alone: 634 killed, 1,586 injured, 816,000 displaced.\n\nAll of this was enabled by American weapons and American money. The $8.7 billion supplemental approved in April 2024 funded Iron Dome, David's Sling, and the precision munitions that destroyed Lebanese infrastructure. The US vetoed UN Security Council resolutions calling for a ceasefire. American intelligence was shared with Israeli forces. AIPAC spent $221 million ensuring no American politician questioned the arrangement.\n\nLebanon was already broken before the war. The 2020 Beirut port explosion killed 218 and destroyed half the capital. The banking system collapsed, wiping out the savings of an entire nation. The currency crashed 90%. GDP had been contracting for years. Then Israel's US-funded military campaign added $14 billion in new damage — $6.8 billion in physical destruction and $7.2 billion in economic losses, according to the World Bank's 2025 Rapid Damage and Needs Assessment.\n\nThe libertarian case is devastating: the United States funded the destruction of a country that posed zero direct threat to American security, that was already in economic ruins, and that had no capacity to threaten American interests. No American troops were involved. No American lives were at stake. The only American interest served was the political interest of maintaining AIPAC's support — a lobby that has spent $221 million to shape US foreign policy in Israel's favor. American taxpayers paid $21.7 billion to enable the devastation of a nation of 5.5 million people.",
+    "didYouKnow": [
+      "The pager bombings of September 17-18, 2024 were the largest coordinated sabotage operation in modern intelligence history — thousands of devices detonated simultaneously across Lebanon, killing 42 and injuring 3,500+.",
+      "Hassan Nasrallah led Hezbollah for 32 years before his assassination on September 27, 2024 — the strike leveled an entire city block in Beirut's southern suburbs.",
+      "Lebanon hosts more refugees per capita than any country on Earth — approximately 1.5 million Syrian refugees in a country of 5.5 million people, even before the 2024 displacement.",
+      "The World Bank estimated $14 billion in damage to Lebanon — nearly 78% of the country's entire GDP of $18 billion.",
+      "White phosphorus, which burns at 1,500°F and cannot be extinguished with water, was used on residential areas in southern Lebanon and the village of Yohmor."
+    ],
+    "keyQuote": {
+      "text": "You have funded the destruction of a country that was already on its knees. American weapons, American money, Lebanese blood.",
+      "attribution": "Adapted from Lebanese civil society organizations' open letter to US Congress, November 2024"
+    },
+    "costBreakdown": "The $21.7 billion in US military aid to Israel since October 2023 (Brown University Costs of War estimate) includes: $8.7 billion supplemental approved April 2024 (Iron Dome, David's Sling, munitions), plus ongoing Foreign Military Financing and emergency drawdowns. The damage to Lebanon totaled $14 billion per the World Bank's 2025 RDNA — $6.8 billion in physical destruction (infrastructure, housing, agriculture) and $7.2 billion in economic losses (tourism collapse, trade disruption, displacement costs). Lebanon's GDP contracted 5.7% in 2024 alone.",
+    "legacyImpact": "The Lebanon conflict demonstrates the full cost of America's proxy war model: no American troops, no American casualties, but American weapons enabling massive destruction of a country that posed no direct threat to the United States. The $14 billion in damage to a country already in economic collapse may have set Lebanon back decades. The precedent of funding unlimited military operations in a sovereign nation without congressional debate, without direct American security interests, and without accountability for civilian casualties represents the furthest extension of the blank-check model of military aid.",
+    "controversies": [
+      "The use of white phosphorus on residential areas in southern Lebanon and Yohmor constitutes a potential war crime under international humanitarian law. The weapons were American-made and American-funded.",
+      "The pager and walkie-talkie bombings of September 2024 killed and injured thousands of civilians alongside Hezbollah operatives, raising questions about proportionality and the legality of booby-trapping civilian communication devices.",
+      "Israel's attacks on UNIFIL peacekeeping positions — injuring UN peacekeepers from multiple nations — were conducted with US-supplied weapons, creating diplomatic crises with European allies.",
+      "The Nabi Chit strike that killed 41 people was reportedly motivated by intelligence about an Israeli pilot missing since 1986 — using lethal force against civilians in pursuit of a 38-year-old missing person case.",
+      "The US vetoed multiple UN Security Council resolutions calling for a ceasefire in Lebanon, using its veto power to shield Israel from international accountability while American weapons destroyed Lebanese civilian infrastructure.",
+      "AIPAC's $221 million in political spending effectively silenced congressional debate about whether American weapons should be used to invade and destroy a country that posed no threat to the United States."
+    ],
+    "keyFigures": [
+      {
+        "name": "Hassan Nasrallah",
+        "role": "Hezbollah Secretary-General (1992-2024)",
+        "note": "Led Hezbollah for 32 years, transforming it from a militia into a political-military organization with significant Lebanese political power. Assassinated by Israel on September 27, 2024 in a massive airstrike on Beirut."
+      },
+      {
+        "name": "Benjamin Netanyahu",
+        "role": "Prime Minister of Israel",
+        "note": "Ordered the ground invasion of Lebanon and the Nasrallah assassination. Approved the resumption of strikes in 2026 during the broader Iran campaign."
+      },
+      {
+        "name": "Joe Biden",
+        "role": "President of the United States (2021-2025)",
+        "note": "Approved the $8.7 billion supplemental military aid package in April 2024 that funded Iron Dome and the weapons used in Lebanon. Vetoed UN ceasefire resolutions."
+      },
+      {
+        "name": "Donald Trump",
+        "role": "President of the United States (2025-present)",
+        "note": "Continued military aid to Israel and provided diplomatic cover for the 2026 resumption of strikes on Lebanon as part of Operation Epic Fury."
+      },
+      {
+        "name": "Father Pierre al-Rahi",
+        "role": "Maronite Christian Priest",
+        "note": "Killed in an Israeli double-tap strike on Al-Qlayaa, Lebanon in 2026. His death — a Christian priest killed by American-funded weapons — symbolized the indiscriminate nature of the bombardment."
+      }
+    ]
   }
 ]

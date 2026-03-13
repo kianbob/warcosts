@@ -34,14 +34,14 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-03-06',
+  dateModified: '2026-03-12',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
 const timeline = [
   { date: 'Feb 28, 9:15am Tehran', event: 'Bombs begin falling in broad daylight. Decapitation strikes hit Khamenei\'s compound, presidential offices, and national security HQ along Pasteur Street.' },
   { date: 'Feb 28, 10:30am', event: 'Second wave of strikes. Satellite imagery shows Khamenei\'s compound as "dark grey mess of dust and ash." Israeli strikes hit targets across Iran simultaneously.' },
-  { date: 'Feb 28', event: '180 killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab. 170 students ages 7–12 were attending morning classes.' },
+  { date: 'Feb 28', event: '168 killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab. 158 students ages 7–12 were attending morning classes.' },
   { date: 'Feb 28, 2:30am DC', event: 'Trump posts 8-minute video on Truth Social announcing "major combat operations in Iran" — Operation Epic Fury. No congressional authorization.' },
   { date: 'Feb 28', event: 'Iran retaliates with massive missile and drone barrages targeting Israel, Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, Syria, and British bases in Cyprus.' },
   { date: 'Feb 28', event: 'Iran closes the Strait of Hormuz — 20% of global oil and 20% of global LNG transit. Oil prices surge.' },
@@ -54,10 +54,16 @@ const timeline = [
   { date: 'Mar 4', event: 'Qatar strikes Iran after Al Udeid base hit — first Qatari offensive action ever. 11+ countries now under fire.' },
   { date: 'Mar 5', event: '30+ Iranian warships sunk. Iran\'s navy effectively destroyed. Oil surges past $130.' },
   { date: 'Mar 6', event: 'B-2 bombers strike buried missile launchers. Mehrabad Airport hit. Russia reportedly sharing US positions with Iran.' },
+  { date: 'Mar 7', event: 'Strikes expand to oil production: IDF hits Tondgouyan and Shahran refineries in Tehran. Khojir Military Complex destroyed.' },
+  { date: 'Mar 8', event: 'Shahed drone factory in Isfahan destroyed. Oil surges past $100/barrel for first time since 2022.' },
+  { date: 'Mar 9', event: 'Iranian missile sets Bahrain refinery ablaze. Bahrain declares force majeure on oil shipments.' },
+  { date: 'Mar 10', event: 'Iran mining Strait of Hormuz — CENTCOM destroys 16 minelayers. 15M bbl/day stranded. Hezbollah and Iran launch coordinated cluster munition strikes on Israel.' },
+  { date: 'Mar 11', event: 'Pentagon tells Congress: first 6 days cost $11.3 BILLION ($1.88B/day). Israeli jets strike Basij sites in Tehran residential districts. Dubai airport struck by drones.' },
+  { date: 'Mar 12', event: 'KC-135 tanker crashes in Iraq. Israel claims top nuclear scientists killed. Tehran sets 3 conditions for peace. 1,348 killed, 17,000 injured in Iran.' },
 ]
 
 const costProjections = [
-  { scenario: 'Air Campaign Only (4 weeks)', cost: '$8–15B', note: 'Cruise missiles, stealth bombers, naval operations. No ground troops.' },
+  { scenario: 'Air Campaign Only (4 weeks)', cost: '$50–55B', note: 'Pentagon confirmed $11.3B for first 6 days ($1.88B/day). At this rate: $50B+ for full month.' },
   { scenario: 'Extended Air Campaign (3 months)', cost: '$25–50B', note: 'Including carrier group deployments, refueling, ammunition resupply.' },
   { scenario: 'Limited Ground Operation', cost: '$100–200B', note: 'Seizing ports or oil facilities. Requires 50,000+ troops.' },
   { scenario: 'Full Occupation (Iraq-style)', cost: '$1–3 trillion', note: 'Iran is 4× the size of Iraq with 3× the population.' },
@@ -68,9 +74,10 @@ const costProjections = [
 const iranArticles = [
   { href: '/analysis/iran-2026', title: 'Whose War Is This? Full Analysis', desc: 'The complete story from October 7 to Operation Epic Fury.' },
   { href: '/analysis/iran-day-by-day', title: 'Day-by-Day War Diary', desc: 'Verified casualties, costs, and events — updated daily.' },
-  { href: '/analysis/iran-cost-per-second', title: 'The $28,095-Per-Second War', desc: 'Every dollar broken down: missiles, bombers, carriers, interceptors.' },
-  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: 'Schoolgirls, hospitals, neighborhoods — the human toll.' },
-  { href: '/analysis/iran-regional-war', title: '11 Countries, 7 Days', desc: 'How the war spread across the entire Middle East.' },
+  { href: '/analysis/iran-cost-per-second', title: 'The $21,800-Per-Second War', desc: '$11.3B in 6 days — Pentagon confirmed. Every dollar broken down.' },
+  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: '1,348 killed, 17,000 injured, 168 children — the human toll.' },
+  { href: '/analysis/iran-regional-war', title: '12+ Countries, 13 Days', desc: 'How the war spread across the entire Middle East.' },
+  { href: '/analysis/lebanon-burns', title: 'While Lebanon Burns', desc: 'America\'s $22B blank check for Israel\'s Lebanon front.' },
   { href: '/analysis/iran-russia-shadow-war', title: 'Russia\'s Shadow War', desc: 'Moscow is sharing US military positions with Tehran.' },
   { href: '/analysis/hormuz-crisis', title: 'The Hormuz Crisis', desc: '21 million barrels/day halted. The global economic fallout.' },
 ]

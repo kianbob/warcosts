@@ -56,7 +56,7 @@ export default function CostOfEmpirePage() {
       <ShareButtons title="The Cost of Empire: $1.3 Trillion/Year for Global Military Dominance" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="text-red-400 font-bold text-lg mb-4">The Empire by the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {empireStats.map((item) => (
@@ -147,7 +147,7 @@ export default function CostOfEmpirePage() {
           ))}
         </div>
 
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="text-red-400 font-bold text-lg mb-3">The True Military Budget: $1.35 Trillion</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
@@ -557,7 +557,7 @@ export default function CostOfEmpirePage() {
           ))}
         </div>
 
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="text-red-400 font-bold text-lg mb-3">The Boondoggle Math</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>

@@ -66,7 +66,7 @@ export default function CountriesPage() {
             </thead>
             <tbody>
               {countries.map((c: any) => (
-                <tr key={c.slug} className="border-b border-stone-800 hover:bg-stone-800/50">
+                <tr key={c.slug} className="border-b border-stone-800 hover:bg-slate-800">
                   <td className="py-3 pr-4 text-stone-400">{c.rank ?? '—'}</td>
                   <td className="py-3 pr-4">
                     <Link href={`/countries/${c.slug}`} className="font-medium text-red-400 hover:text-red-300 hover:underline">

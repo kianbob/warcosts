@@ -135,7 +135,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
       )}
 
       {w.notes && (
-        <div className="bg-stone-800/50 border border-stone-700 rounded-lg p-6 mb-8">
+        <div className="bg-slate-800 border border-stone-700 rounded-lg p-6 mb-8">
           <h2 className="text-lg font-bold text-white mb-2">Key Details</h2>
           <p className="text-stone-300 leading-relaxed">{w.notes}</p>
         </div>

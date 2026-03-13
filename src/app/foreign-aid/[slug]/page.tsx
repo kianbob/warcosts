@@ -118,7 +118,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
 
         {/* Controversies */}
         {controversies && (
-          <div className="bg-red-950/30 rounded-xl border border-red-900/50 p-6 mt-8">
+          <div className="bg-slate-800 rounded-xl border border-slate-700 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">⚠️ Controversies</h2>
             <p className="text-stone-300 leading-relaxed">{controversies}</p>
           </div>

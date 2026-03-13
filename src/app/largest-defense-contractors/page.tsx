@@ -168,7 +168,7 @@ export default function LargestDefenseContractors() {
             </thead>
             <tbody>
               {stockPerformance.map((s, i) => (
-                <tr key={s.ticker} className={`border-t border-stone-700/50 ${i === stockPerformance.length - 1 ? 'bg-stone-800/50' : ''}`}>
+                <tr key={s.ticker} className={`border-t border-stone-700/50 ${i === stockPerformance.length - 1 ? 'bg-slate-800' : ''}`}>
                   <td className="p-3 font-medium text-white">{s.name}</td>
                   <td className="p-3 text-stone-400">{s.ticker}</td>
                   <td className="p-3 text-stone-400 text-right">${s.preSept11}</td>

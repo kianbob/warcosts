@@ -148,7 +148,7 @@ export default function VeteransBetrayedPage() {
       <ShareButtons title="Veterans Betrayed: 17 Suicides a Day & America's Broken Promises" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {veteranStats.map((item) => (
@@ -287,7 +287,7 @@ export default function VeteransBetrayedPage() {
           disability claims face a 67% initial denial rate.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4 text-red-400">Military Sexual Trauma by the Numbers</h3>
           <div className="grid md:grid-cols-2 gap-6">
             {militarySexualTrauma.map((stat) => (

@@ -114,7 +114,7 @@ export default function AidCalculatorPage() {
             </div>
 
             {/* What Your Military Taxes Buy */}
-            <div className="bg-red-950/30 rounded-xl border border-red-900/50 p-6 mb-8">
+            <div className="bg-slate-800 rounded-xl border border-slate-700 p-6 mb-8">
               <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Your Military Taxes Could Buy</h2>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">

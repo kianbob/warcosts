@@ -46,13 +46,13 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
-      {/* Breaking: Iran 2026 — Day 7 */}
+      {/* Breaking: Iran 2026 — Day 13 */}
       {iranConflict && (
         <section className="bg-red-900 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 7: 1,332+ killed, 6 US troops dead, 11 countries under fire, Hormuz closed, Russia aiding Iran</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 13: 1,348+ killed, 8 US troops dead, 12+ countries under fire, Hormuz mined, $11.3B in 6 days</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-white underline">Full Coverage →</Link>
@@ -65,17 +65,17 @@ export default function HomePage() {
 
       {/* Iran War Hub — Latest Developments */}
       {iranConflict && (
-        <section className="bg-stone-950 text-white py-8 border-b border-red-900/50">
+        <section className="bg-stone-950 text-white py-8 border-b border-slate-700">
           <div className="max-w-7xl mx-auto px-4">
             {/* Key Stats Bar */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {[
-                { value: '1,332+', label: 'Killed in Iran' },
-                { value: '6', label: 'US Troops Dead' },
-                { value: '11+', label: 'Countries Under Fire' },
-                { value: '$3.6B', label: 'Week 1 Cost (est.)' },
-                { value: '$130+', label: 'Oil per Barrel' },
-                { value: '21M bbl', label: 'Daily Oil Halted' },
+                { value: '1,348+', label: 'Killed in Iran' },
+                { value: '8', label: 'US Troops Dead' },
+                { value: '12+', label: 'Countries Under Fire' },
+                { value: '$11.3B', label: 'First 6 Days (Pentagon)' },
+                { value: '$100+', label: 'Oil per Barrel' },
+                { value: '5,000+', label: 'Targets Struck' },
               ].map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
@@ -86,14 +86,14 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 7 (March 6)</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 13 (March 12)</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 7', text: 'B-2 bombers strike buried missile launchers. Mehrabad Airport hit. Trump demands unconditional surrender. Iran delays naming new Supreme Leader.', link: '/analysis/iran-2026' },
-                { time: 'Day 6', text: 'Russia reportedly sharing US military positions with Iran. European warships deploying. Azerbaijan intelligence plots foiled.', link: '/analysis/iran-russia-shadow-war' },
-                { time: 'Day 5', text: '30+ Iranian warships sunk. Iran\'s navy effectively destroyed. Oil surges past $130. Tanker insurance triples.', link: '/analysis/hormuz-crisis' },
-                { time: 'Day 4', text: 'Qatar strikes Iran after Al Udeid hit — first Qatari offensive action ever. Israel approves Lebanon ground incursion. 11+ countries under fire.', link: '/analysis/iran-regional-war' },
+                { time: 'Day 13', text: 'KC-135 tanker crashes in Iraq. Israel claims top nuclear scientists killed. Tehran sets 3 conditions for peace. Oil tankers hit in Iraq.', link: '/analysis/iran-2026' },
+                { time: 'Day 12', text: 'Pentagon: first 6 days cost $11.3 BILLION. Israeli jets strike Basij sites in Tehran residential districts. Dubai airport struck by drones.', link: '/analysis/iran-cost-per-second' },
+                { time: 'Day 11', text: 'Iran mining Strait of Hormuz — 16 minelayers destroyed. 15M bbl/day stranded in Gulf. 5,000+ targets struck total.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 10', text: 'Bahrain refinery ablaze from Iranian missile. Oil past $100. Hezbollah-Iran launch coordinated cluster munition strikes on Israel.', link: '/analysis/iran-regional-war' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>
@@ -113,6 +113,8 @@ export default function HomePage() {
                   { title: 'Regional Spread', href: '/analysis/iran-regional-war', icon: '🗺️' },
                   { title: 'Russia\'s Role', href: '/analysis/iran-russia-shadow-war', icon: '🕵️' },
                   { title: 'Hormuz Crisis', href: '/analysis/hormuz-crisis', icon: '⛽' },
+                  { title: 'Lebanon Front', href: '/analysis/lebanon-burns', icon: '🇱🇧' },
+                  { title: 'Day-by-Day', href: '/analysis/iran-day-by-day', icon: '📅' },
                 ].map((a, i) => (
                   <Link key={i} href={a.href} className="bg-white/5 hover:bg-white/10 rounded px-3 py-2 text-sm text-stone-300 hover:text-white transition flex items-center gap-2">
                     <span>{a.icon}</span>

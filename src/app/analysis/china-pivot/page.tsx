@@ -370,7 +370,7 @@ export default function ChinaPivotPage() {
         <p className="text-stone-300">Operation Epic Fury perfectly illustrates the strategic problem. Two carrier strike groups (USS Gerald R. Ford and USS Nimitz) 
         are currently fighting Iran instead of deterring China in the Pacific. The tactical costs are immediate and measurable:</p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4 my-4 not-prose">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 my-4 not-prose">
           <h4 className="text-white font-semibold mb-2">Operation Epic Fury Resource Diversion</h4>
           <ul className="text-stone-300 text-sm space-y-1">
             <li>• <strong>2 carrier strike groups:</strong> $13 million/day operational cost</li>
@@ -405,7 +405,7 @@ export default function ChinaPivotPage() {
 
         <div className="space-y-6 mb-8">
           {strategicFailures.map((failure, i) => (
-            <div key={i} className="bg-red-950/20 border border-red-900/30 rounded-lg p-6">
+            <div key={i} className="bg-slate-800 border border-slate-700 rounded-lg p-6">
               <div className="flex justify-between items-start mb-3">
                 <h4 className="text-white font-bold">{failure.category}</h4>
                 <span className="text-stone-500 text-sm">{failure.year}</span>
@@ -534,7 +534,7 @@ export default function ChinaPivotPage() {
       </div>
 
       {/* Enhanced AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-3">💡 AI Overview: Key Insights</h3>
         <ul className="space-y-2 text-sm text-stone-300">
           <li>• <strong>$8.4T vs $1T</strong> — US spent 8.4x more on Middle East wars than China invested in global trade infrastructure</li>

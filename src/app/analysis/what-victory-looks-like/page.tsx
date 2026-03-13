@@ -144,7 +144,7 @@ export default function WhatVictoryLooksLikePage() {
       <ShareButtons title="What Victory Looks Like: Iraq, Afghanistan, Libya, Vietnam & Korea" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {keyStats.map((item) => (
@@ -187,7 +187,7 @@ export default function WhatVictoryLooksLikePage() {
             </div>
           </div>
 
-          <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 mb-6">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 mb-6">
             <p className="text-red-400 font-bold mb-1">Stated Goal</p>
             <p className="text-stone-300">{v.statedGoal}</p>
           </div>
@@ -280,7 +280,7 @@ export default function WhatVictoryLooksLikePage() {
         <p className="text-stone-700 text-lg mb-4">
           The wars failed by every stated objective. But they succeeded spectacularly for certain interests:
         </p>
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <div className="space-y-4">
             <div className="flex gap-3 text-stone-300">
               <span className="text-red-500 mt-1">▸</span>

@@ -117,7 +117,7 @@ export default function SanctionsDontWorkPage() {
       <ShareButtons title="Do Sanctions Work? A Data-Driven Answer" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🤖 AI Overview</h2>
         <p className="text-stone-300 mb-3">
           Economic sanctions are the most widely used foreign policy tool in the American arsenal —
@@ -192,16 +192,16 @@ export default function SanctionsDontWorkPage() {
                 <p className="text-sm text-stone-300">{c.result}</p>
               </div>
               <div className="grid md:grid-cols-2 gap-3">
-                <div className="bg-stone-800/50 rounded p-3">
+                <div className="bg-slate-800 rounded p-3">
                   <p className="text-xs font-semibold text-stone-500 uppercase mb-1">Civilian Cost</p>
                   <p className="text-sm text-stone-300">{c.civilianCost}</p>
                 </div>
-                <div className="bg-stone-800/50 rounded p-3">
+                <div className="bg-slate-800 rounded p-3">
                   <p className="text-xs font-semibold text-stone-500 uppercase mb-1">GDP Impact</p>
                   <p className="text-sm text-stone-300">{c.gdpImpact}</p>
                 </div>
               </div>
-              <div className="bg-red-950/30 border border-red-900/30 rounded p-3">
+              <div className="bg-slate-800 border border-slate-700 rounded p-3">
                 <p className="text-xs font-semibold text-red-400 uppercase mb-1">Impact on Leadership</p>
                 <p className="text-sm text-stone-300">{c.leadershipImpact}</p>
               </div>
@@ -258,7 +258,7 @@ export default function SanctionsDontWorkPage() {
           The pattern is universal: sanctions punish civilians while leadership is insulated.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h3 className="text-red-400 font-semibold mb-2">Civilians Pay</h3>
             <ul className="space-y-2 text-sm text-stone-300">
               <li>• Medicine shortages — cancer patients die without chemotherapy</li>
@@ -269,7 +269,7 @@ export default function SanctionsDontWorkPage() {
               <li>• Children suffer most — stunted growth, education disrupted</li>
             </ul>
           </div>
-          <div className="bg-stone-800/50 rounded-lg p-4">
+          <div className="bg-slate-800 rounded-lg p-4">
             <h3 className="text-stone-300 font-semibold mb-2">Leadership Doesn&apos;t</h3>
             <ul className="space-y-2 text-sm text-stone-400">
               <li>• Saddam built palaces during Iraq sanctions</li>
@@ -326,7 +326,7 @@ export default function SanctionsDontWorkPage() {
           financial system. And it operates with virtually no oversight.
         </p>
         
-        <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 mb-4">
           <h3 className="text-red-400 font-semibold mb-2">OFAC by the Numbers</h3>
           <div className="grid md:grid-cols-2 gap-4 text-sm text-stone-300">
             <div>
@@ -355,7 +355,7 @@ export default function SanctionsDontWorkPage() {
           the transaction might touch a US correspondent bank somewhere in the chain.
         </p>
         
-        <div className="bg-stone-800/50 rounded p-4">
+        <div className="bg-slate-800 rounded p-4">
           <h3 className="text-white font-semibold mb-2">The Compliance Industry</h3>
           <p className="text-stone-300 text-sm mb-2">
             US sanctions created an entire industry: sanctions compliance. Major banks employ thousands of compliance 
@@ -452,7 +452,7 @@ export default function SanctionsDontWorkPage() {
         </p>
 
         <div className="space-y-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">European Companies Punished</h3>
             <p className="text-sm text-stone-300 mb-2">
               <strong>BNP Paribas (France):</strong> Fined $8.9 billion for processing Iranian transactions that were legal under EU law<br/>
@@ -466,7 +466,7 @@ export default function SanctionsDontWorkPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Energy Sector Chaos</h3>
             <p className="text-sm text-stone-300 mb-2">
               <strong>Nord Stream 2:</strong> US sanctioned German companies building pipeline on German territory with Russian gas. 
@@ -479,7 +479,7 @@ export default function SanctionsDontWorkPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">The INSTEX Rebellion</h3>
             <p className="text-sm text-stone-300 mb-2">
               In 2019, Germany, France, and Britain created INSTEX — a payment mechanism to trade with Iran while avoiding US sanctions. 
@@ -503,7 +503,7 @@ export default function SanctionsDontWorkPage() {
         </p>
 
         <div className="space-y-4">
-          <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h3 className="text-red-400 font-semibold mb-2">Iran&apos;s Sanctions Evasion Playbook</h3>
             <div className="grid md:grid-cols-2 gap-4 text-sm text-stone-300">
               <div>
@@ -519,7 +519,7 @@ export default function SanctionsDontWorkPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">The Cryptocurrency Revolution</h3>
             <p className="text-stone-300 text-sm mb-2">
               Sanctioned countries are among the world&apos;s largest cryptocurrency adopters. Why? Crypto transactions 
@@ -531,7 +531,7 @@ export default function SanctionsDontWorkPage() {
             </p>
           </div>
 
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">China: The Sanctions Superstore</h3>
             <p className="text-stone-300 text-sm mb-2">
               China has become the world&apos;s largest sanctions-evading hub. Chinese companies import sanctioned oil, 
@@ -594,7 +594,7 @@ export default function SanctionsDontWorkPage() {
           </div>
         </div>
 
-        <div className="bg-red-950/30 border border-red-900/30 rounded-lg p-4 mt-4">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 mt-4">
           <p className="text-stone-300 text-sm">
             <strong>The pattern:</strong> Each crisis expands sanctions powers. Each expansion becomes permanent. 
             What began as wartime trade restrictions became a global financial surveillance and control system operated 
@@ -607,7 +607,7 @@ export default function SanctionsDontWorkPage() {
       <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Unintended Consequences</h2>
         <div className="space-y-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">De-dollarization</h3>
             <p className="text-sm text-stone-300">
               Every time the US weaponizes the dollar, more countries seek alternatives. BRICS nations
@@ -617,7 +617,7 @@ export default function SanctionsDontWorkPage() {
               the very tool that makes sanctions possible.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Driving Enemies Together</h3>
             <p className="text-sm text-stone-300">
               US sanctions pushed Russia and China into a strategic partnership. Iran, North Korea, and
@@ -625,7 +625,7 @@ export default function SanctionsDontWorkPage() {
               Sanctions created the very axis of resistance they were supposed to prevent.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Strengthening Authoritarian Regimes</h3>
             <p className="text-sm text-stone-300">
               External pressure rallies populations around their leaders. Putin&apos;s approval rating rose
@@ -633,7 +633,7 @@ export default function SanctionsDontWorkPage() {
               Cuban government has blamed the embargo for every failure for 63 years — and it&apos;s often right.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Humanitarian Exceptions Don&apos;t Work</h3>
             <p className="text-sm text-stone-300">
               Every sanctions regime includes &ldquo;humanitarian exemptions&rdquo; for medicine and food.
@@ -642,7 +642,7 @@ export default function SanctionsDontWorkPage() {
               exemptions exist on paper; they don&apos;t exist in reality.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Creating Black Markets</h3>
             <p className="text-sm text-stone-300">
               Sanctions don&apos;t eliminate demand — they criminalize supply. This creates massive black market 
@@ -650,7 +650,7 @@ export default function SanctionsDontWorkPage() {
               trades at $10-20 below market price, but sanctions evaders capture the margin. Crime pays, literally.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-1">Innovation in Authoritarian Finance</h3>
             <p className="text-sm text-stone-300">
               Sanctions force target countries to innovate around the US financial system. Russia developed 
@@ -676,7 +676,7 @@ export default function SanctionsDontWorkPage() {
             { val: '5%', label: 'Pape re-analysis success rate' },
             { val: '63 years', label: 'Longest active sanctions (Cuba)' },
           ].map(s => (
-            <div key={s.label} className="bg-stone-800/50 rounded p-3 text-center">
+            <div key={s.label} className="bg-slate-800 rounded p-3 text-center">
               <p className="text-lg font-bold text-red-400 font-[family-name:var(--font-heading)]">{s.val}</p>
               <p className="text-xs text-stone-400">{s.label}</p>
             </div>

@@ -88,7 +88,7 @@ export default function WarEconomyPage() {
       <ShareButtons title="The War Economy: How War Drives the US Economy" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -391,7 +391,7 @@ export default function WarEconomyPage() {
       </div>
 
       {/* Opportunity Cost Analysis */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
         <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-4">What $8 Trillion Could Have Bought</h3>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
@@ -639,7 +639,7 @@ export default function WarEconomyPage() {
       </div>
 
       {/* State Dependencies */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
         <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-4">States Most Dependent on Defense Spending</h3>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3 text-stone-300">

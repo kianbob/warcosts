@@ -368,7 +368,7 @@ export default async function CostOverrunsPage() {
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-red-900/20 border border-red-800/50 rounded-lg">
+          <div className="mt-8 p-6 bg-red-900/20 border border-slate-700 rounded-lg">
             <h3 className="font-bold text-red-300 mb-3">The Choice We Made:</h3>
             <p className="text-stone-300">
               Instead of investing in education, infrastructure, healthcare, or returning money to taxpayers, 

@@ -70,7 +70,7 @@ export default function UndeclaredWarsPage() {
       <ShareButtons title="America's Undeclared Wars: How Presidents Bypassed Congress" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🤖 AI Overview</h2>
         <p className="text-stone-300 mb-3">
           The Constitution grants war power exclusively to Congress. Since WWII, every major US
@@ -173,16 +173,16 @@ export default function UndeclaredWarsPage() {
                 <p className="text-sm text-stone-300">{w.authorization}</p>
               </div>
               <div className="grid md:grid-cols-2 gap-2">
-                <div className="bg-stone-800/50 rounded p-2">
+                <div className="bg-slate-800 rounded p-2">
                   <p className="text-xs text-stone-500">Cost</p>
                   <p className="text-sm text-red-400 font-semibold">{w.cost}</p>
                 </div>
-                <div className="bg-stone-800/50 rounded p-2">
+                <div className="bg-slate-800 rounded p-2">
                   <p className="text-xs text-stone-500">Deaths</p>
                   <p className="text-sm text-red-400 font-semibold">{w.deaths}</p>
                 </div>
               </div>
-              <div className="bg-red-950/30 border border-red-900/30 rounded p-2">
+              <div className="bg-slate-800 border border-slate-700 rounded p-2">
                 <p className="text-xs font-semibold text-red-400 uppercase mb-1">Constitutional Issue</p>
                 <p className="text-sm text-stone-300">{w.constitutional}</p>
               </div>
@@ -243,7 +243,7 @@ export default function UndeclaredWarsPage() {
           That's larger than the annual GDP of every country except the United States and China.
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Top 5 Most Expensive Undeclared Wars</h3>
             <div className="space-y-2">
               {[
@@ -260,7 +260,7 @@ export default function UndeclaredWarsPage() {
               ))}
             </div>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">What $8 Trillion Could Have Bought</h3>
             <div className="space-y-2">
               {[
@@ -340,7 +340,7 @@ export default function UndeclaredWarsPage() {
                   <p className="text-xs font-semibold text-stone-500 uppercase mb-1">The Argument</p>
                   <p className="text-sm text-stone-300">{loophole.argument}</p>
                 </div>
-                <div className="bg-red-950/30 border border-red-900/30 rounded p-2">
+                <div className="bg-slate-800 border border-slate-700 rounded p-2">
                   <p className="text-xs font-semibold text-red-400 uppercase mb-1">Constitutional Reality</p>
                   <p className="text-sm text-stone-300">{loophole.reality}</p>
                 </div>
@@ -382,7 +382,7 @@ export default function UndeclaredWarsPage() {
             </p>
           </div>
         </div>
-        <div className="bg-stone-800/50 rounded p-4">
+        <div className="bg-slate-800 rounded p-4">
           <h3 className="text-white font-semibold mb-2">Presidential Compliance Since 1973: 0%</h3>
           <div className="text-stone-300 text-sm space-y-1">
             {[
@@ -412,7 +412,7 @@ export default function UndeclaredWarsPage() {
           On September 14, 2001 — three days after 9/11 — Congress voted on the Authorization for Use of Military Force.
           The final tally: 420-1 in the House, 98-0 in the Senate. Only one person in all of Congress voted no.
         </p>
-        <div className="bg-stone-800/50 rounded p-4 mb-4">
+        <div className="bg-slate-800 rounded p-4 mb-4">
           <h3 className="text-white font-semibold mb-2">The Vote Count</h3>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
@@ -542,7 +542,7 @@ export default function UndeclaredWarsPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/30 border border-red-900/30 rounded p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded p-4">
             <h3 className="text-red-400 font-bold mb-2">The Pattern Repeats</h3>
             <p className="text-stone-300 text-sm">
               Once again, a president has launched military operations against a sovereign nation without
@@ -647,7 +647,7 @@ export default function UndeclaredWarsPage() {
           it's about whether to follow the text at all:
         </p>
         <div className="space-y-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Article I, Section 8 (Legislative Powers)</h3>
             <blockquote className="text-stone-300 italic">
               &ldquo;The Congress shall have Power...To declare War, grant Letters of Marque and Reprisal,
@@ -659,7 +659,7 @@ export default function UndeclaredWarsPage() {
               Congress gets the power to declare war, raise armies, fund armies (for max 2 years), and maintain navies.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Article II, Section 2 (Executive Powers)</h3>
             <blockquote className="text-stone-300 italic">
               &ldquo;The President shall be Commander in Chief of the Army and Navy of the United States,
@@ -745,7 +745,7 @@ export default function UndeclaredWarsPage() {
           practice is stark:
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">Polling on Congressional War Powers</h3>
             <div className="space-y-2">
               {[
@@ -762,7 +762,7 @@ export default function UndeclaredWarsPage() {
               ))}
             </div>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold mb-2">What This Means</h3>
             <div className="space-y-2 text-stone-300 text-sm">
               <p>• Americans consistently want Congressional involvement in war decisions</p>

@@ -77,7 +77,7 @@ export default function MilitaryFamiliesPage() {
       <ShareButtons title="The Families Left Behind: The Hidden Cost of War" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🤖 AI Overview</h2>
         <p className="text-stone-300 mb-3">
           The human cost of war extends far beyond the battlefield. For every soldier killed or wounded,
@@ -130,7 +130,7 @@ export default function MilitaryFamiliesPage() {
           four more are killed by the war&apos;s aftermath.
         </p>
 
-        <div className="bg-stone-800/50 rounded-lg p-4 mb-4">
+        <div className="bg-slate-800 rounded-lg p-4 mb-4">
           <p className="text-xs text-stone-500 uppercase mb-2 font-semibold">Cumulative veteran suicides since 9/11 (selected years)</p>
           <div className="space-y-2">
             {suicideData.map(s => (
@@ -172,7 +172,7 @@ export default function MilitaryFamiliesPage() {
         </p>
         <div className="space-y-4">
           {familyImpact.map(f => (
-            <div key={f.issue} className="bg-stone-800/50 rounded-lg p-4">
+            <div key={f.issue} className="bg-slate-800 rounded-lg p-4">
               <div className="flex items-center justify-between mb-1">
                 <h3 className="text-white font-semibold text-sm">{f.issue}</h3>
                 <span className="text-red-400 text-sm font-semibold">{f.data}</span>
@@ -192,7 +192,7 @@ export default function MilitaryFamiliesPage() {
           moves on. The family doesn&apos;t.
         </p>
         <div className="space-y-3">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold text-sm mb-1">Financial Devastation</h3>
             <p className="text-sm text-stone-400">
               Survivor benefits are complex and often inadequate. SGLI pays $400,000 — but the
@@ -201,7 +201,7 @@ export default function MilitaryFamiliesPage() {
               struggling. Now they&apos;re struggling alone.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold text-sm mb-1">The Children</h3>
             <p className="text-sm text-stone-400">
               An estimated 7,000+ children lost a parent in post-9/11 wars. Studies show these
@@ -210,7 +210,7 @@ export default function MilitaryFamiliesPage() {
               or toddlers when their parent deployed and have no memories of them at all.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-white font-semibold text-sm mb-1">Grief Without Closure</h3>
             <p className="text-sm text-stone-400">
               Many families never fully understand why their loved one died. The objectives shift.
@@ -230,12 +230,12 @@ export default function MilitaryFamiliesPage() {
           experienced these wars as news. No draft. No war tax. No rationing. No sacrifice.
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">&lt;1%</p>
             <p className="text-white text-sm font-semibold">of Americans served post-9/11</p>
             <p className="text-stone-400 text-xs mt-1">~2.7 million deployed out of 330 million</p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">0</p>
             <p className="text-white text-sm font-semibold">members of Congress with children in combat</p>
             <p className="text-stone-400 text-xs mt-1">The people who vote for war don&apos;t fight in them</p>
@@ -270,14 +270,14 @@ export default function MilitaryFamiliesPage() {
       <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The VA: Promises Made, Promises Broken</h2>
         <div className="space-y-3">
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold text-sm mb-1">Claims Backlog</h3>
             <p className="text-sm text-stone-400">
               Average wait time for a disability claim: 150+ days. At peak (2013), the backlog
               exceeded 600,000 claims. Veterans die waiting for care they were promised.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold text-sm mb-1">Mental Health Access</h3>
             <p className="text-sm text-stone-400">
               VA mental health appointments: average wait time 30+ days. In rural areas: 60+ days
@@ -285,7 +285,7 @@ export default function MilitaryFamiliesPage() {
               The system fails those who need it most.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold text-sm mb-1">Burn Pit Exposure</h3>
             <p className="text-sm text-stone-400">
               3.5 million+ service members exposed to toxic burn pits in Iraq and Afghanistan.
@@ -295,7 +295,7 @@ export default function MilitaryFamiliesPage() {
               troops breathed the smoke for months or years.
             </p>
           </div>
-          <div className="bg-stone-800/50 rounded p-4">
+          <div className="bg-slate-800 rounded p-4">
             <h3 className="text-red-400 font-semibold text-sm mb-1">Homelessness</h3>
             <p className="text-sm text-stone-400">
               On any given night, 33,000+ veterans are homeless. Veterans are 50% more likely

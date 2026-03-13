@@ -386,7 +386,7 @@ export default function AmericasWarsByTheNumbersPage() {
       </blockquote>
 
       {/* Enhanced Summary Stats */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">📊</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Summary — 250 Years of American War</h2>
@@ -501,7 +501,7 @@ export default function AmericasWarsByTheNumbersPage() {
       <AmericasWarsCharts conflicts={conflicts as any} />
 
       {/* Constitutional Violations Analysis */}
-      <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">📜 Constitutional Violations in Wartime</h2>
         <p className="text-stone-300 mb-6">
           How wars have eroded constitutional limits on government power, from the Founders&apos; vision of limited government to today&apos;s imperial presidency:
@@ -570,7 +570,7 @@ export default function AmericasWarsByTheNumbersPage() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-6 mt-6">
-          <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h4 className="text-red-400 font-bold mb-2">The Good News</h4>
             <ul className="text-stone-300 text-sm space-y-1">
               <li>• US military deaths as % of population steadily declining</li>
@@ -579,7 +579,7 @@ export default function AmericasWarsByTheNumbersPage() {
               <li>• Precision weapons theoretically reduce collateral damage</li>
             </ul>
           </div>
-          <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h4 className="text-red-400 font-bold mb-2">The Bad News</h4>
             <ul className="text-stone-300 text-sm space-y-1">
               <li>• Civilian casualties far exceed military casualties</li>
@@ -674,7 +674,7 @@ export default function AmericasWarsByTheNumbersPage() {
               <li><strong>China:</strong> Rising global influence through trade</li>
             </ul>
           </div>
-          <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h4 className="text-red-400 font-bold mb-2">Losers: Military Focus</h4>
             <ul className="text-stone-300 text-sm space-y-1">
               <li><strong>USA:</strong> Declining infrastructure, rising inequality</li>
@@ -961,7 +961,7 @@ export default function AmericasWarsByTheNumbersPage() {
       </div>
 
       {/* Enhanced AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-3">💡 AI Overview: Key Insights</h3>
         <ul className="space-y-2 text-sm text-stone-300">
           <li>• <strong>91% wartime rate</strong> — America at war 225 of 248 years since independence</li>

@@ -191,7 +191,7 @@ export default function MediaAndWarPage() {
       <ShareButtons title="Manufacturing Consent: How Media Sells Every War" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -811,7 +811,7 @@ export default function MediaAndWarPage() {
           <li><Link href="/conflicts/gaza" className="text-red-400 hover:text-red-300">Gaza Operations: US weapons and media coverage</Link></li>
         </ul>
 
-        <blockquote className="border-l-4 border-red-600 bg-red-950/20 p-4 my-6">
+        <blockquote className="border-l-4 border-red-600 bg-slate-800 p-4 my-6">
           <p className="text-lg font-medium">
             &ldquo;The media's the most powerful entity on earth. They have the power to make the innocent guilty and to make the guilty innocent, and that's power. Because they control the minds of the masses.&rdquo;
           </p>

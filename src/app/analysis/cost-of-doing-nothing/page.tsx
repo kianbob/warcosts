@@ -184,7 +184,7 @@ export default function CostOfDoingNothingPage() {
       <ShareButtons title="What If We'd Done Nothing? The Counterfactual Cost of War" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">The Pattern</h2>
@@ -353,7 +353,7 @@ export default function CostOfDoingNothingPage() {
             </tbody>
           </table>
         </div>
-        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+        <div className="bg-slate-800 border border-red-400 rounded-lg p-4 mt-4">
           <p className="text-stone-300 text-sm">
             <strong>The Iron Triangle:</strong> Defense contractors fund think tanks that produce pro-war analysis. 
             Politicians cite that analysis to justify intervention. Wars create contracts for the same companies 
@@ -516,7 +516,7 @@ export default function CostOfDoingNothingPage() {
             </tbody>
           </table>
         </div>
-        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+        <div className="bg-slate-800 border border-red-400 rounded-lg p-4 mt-4">
           <p className="text-stone-300 text-sm">
             <strong>The Suicide Crisis:</strong> 22 veterans commit suicide daily — more than die in combat in most years. 
             Since 2001, more veterans have died by suicide than died in Iraq and Afghanistan combined. The wars that 
@@ -644,7 +644,7 @@ export default function CostOfDoingNothingPage() {
             </div>
           ))}
         </div>
-        <div className="bg-red-950/30 border border-red-400 rounded-lg p-4 mt-4">
+        <div className="bg-slate-800 border border-red-400 rounded-lg p-4 mt-4">
           <p className="text-stone-300 text-sm">
             <strong>The Tail Wagging the Dog:</strong> Small allies with regional interests often drag superpowers 
             into conflicts that serve the ally's interests, not the superpower's. The US has been pulled into 
@@ -847,7 +847,7 @@ export default function CostOfDoingNothingPage() {
           predetermined by the process.
         </p>
 
-        <blockquote className="border-l-4 border-red-600 bg-red-950/20 p-4 my-6">
+        <blockquote className="border-l-4 border-red-600 bg-slate-800 p-4 my-6">
           <p className="text-lg font-medium">
             &ldquo;Military action is the most expensive solution to every problem, and the least likely to succeed.&rdquo;
           </p>

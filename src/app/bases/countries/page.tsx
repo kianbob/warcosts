@@ -50,7 +50,7 @@ export default function BaseCountriesPage() {
           </thead>
           <tbody>
             {overseas.map((c, i) => (
-              <tr key={c.slug} className="border-b border-stone-800 hover:bg-stone-800/50">
+              <tr key={c.slug} className="border-b border-stone-800 hover:bg-slate-800">
                 <td className="py-2 pr-4 text-stone-500">{i + 1}</td>
                 <td className="py-2 pr-4"><Link href={`/bases/countries/${c.slug}`} className="text-red-400 hover:text-red-300">{c.country}</Link></td>
                 <td className="py-2 pr-4 text-right text-white">{c.bases || '—'}</td>

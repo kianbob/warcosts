@@ -129,7 +129,7 @@ export default function ChildrensWarPage() {
       <ShareButtons title="Children's War: 400,000+ Killed in America's Post-9/11 Wars" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {childrenByTheNumbers.map((item) => (
@@ -440,7 +440,7 @@ export default function ChildrensWarPage() {
           </table>
         </div>
 
-        <div className="bg-red-950/20 border border-red-300 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-red-300 rounded-lg p-6 my-6">
           <h3 className="font-bold text-red-800 text-lg mb-2">Direct vs. Indirect Deaths</h3>
           <p className="text-stone-700 mb-3">
             <strong>Direct deaths</strong> are children killed by bombs, bullets, and drone strikes. 
@@ -561,7 +561,7 @@ export default function ChildrensWarPage() {
           </table>
         </div>
 
-        <div className="bg-red-950/20 border border-red-300 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-red-300 rounded-lg p-6 my-6">
           <h3 className="font-bold text-red-800 text-lg mb-2">The Revolving Door</h3>
           <p className="text-stone-700 mb-3">
             Defense contractors employ former Pentagon officials who approved weapons purchases. 
@@ -772,7 +772,7 @@ export default function ChildrensWarPage() {
           </table>
         </div>
 
-        <div className="bg-red-950/20 border border-red-300 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-red-300 rounded-lg p-6 my-6">
           <h3 className="font-bold text-red-800 text-lg mb-2">The Saudi-US Child Killing Partnership</h3>
           <p className="text-stone-700 mb-3">
             Since 2015, the US-backed Saudi coalition has killed over <strong>12,000 Yemeni children</strong>. 
@@ -940,7 +940,7 @@ export default function ChildrensWarPage() {
           </ul>
         </div>
 
-        <div className="bg-red-950/20 border border-red-300 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-red-300 rounded-lg p-6 my-6">
           <p className="text-stone-700 text-sm mb-3">
             <strong>Note on Casualty Counting:</strong> All child death figures in this analysis are 
             conservative estimates from peer-reviewed sources. The true toll is likely much higher. 
@@ -975,7 +975,7 @@ export default function ChildrensWarPage() {
           <li><Link href="/conflicts/yemen" className="text-red-400 hover:text-red-300">Yemen War: Saudi-US partnership targeting children</Link></li>
         </ul>
 
-        <blockquote className="border-l-4 border-red-600 bg-red-950/20 p-4 my-6">
+        <blockquote className="border-l-4 border-red-600 bg-slate-800 p-4 my-6">
           <p className="text-lg font-medium">
             &ldquo;A child miseducated is a child lost.&rdquo;
           </p>

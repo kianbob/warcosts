@@ -266,7 +266,7 @@ export default function ForgottenWarsPage() {
       <ShareButtons title="Forgotten Wars: The Conflicts Americans Don't Remember" />
 
       {/* Summary Stats */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">The Scale of What We&apos;ve Forgotten</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center">
@@ -308,15 +308,15 @@ export default function ForgottenWarsPage() {
               <p className="text-stone-400 text-sm mb-4">{war.period}</p>
 
               <div className="grid md:grid-cols-4 gap-3 mb-4">
-                <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-3">
+                <div className="bg-slate-800 border border-slate-700 rounded-lg p-3">
                   <p className="text-red-400 font-bold text-xs uppercase">US Dead</p>
                   <p className="text-white text-lg font-bold">{war.usDead}</p>
                 </div>
-                <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-3">
+                <div className="bg-slate-800 border border-slate-700 rounded-lg p-3">
                   <p className="text-red-400 font-bold text-xs uppercase">Total Dead</p>
                   <p className="text-white text-lg font-bold">{war.totalDead}</p>
                 </div>
-                <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-3">
+                <div className="bg-slate-800 border border-slate-700 rounded-lg p-3">
                   <p className="text-red-400 font-bold text-xs uppercase">Cost (2023$)</p>
                   <p className="text-white text-lg font-bold">{war.cost2023}</p>
                 </div>
@@ -351,7 +351,7 @@ export default function ForgottenWarsPage() {
                 </div>
               </div>
 
-              <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-4 mt-4">
+              <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 mt-4">
                 <p className="text-red-400 font-bold text-sm mb-2">Long-term Impact</p>
                 <p className="text-stone-300 text-sm">{war.longTermImpact}</p>
               </div>
@@ -422,7 +422,7 @@ export default function ForgottenWarsPage() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-6 mt-6">
-          <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
             <h4 className="text-red-400 font-bold mb-2">The Laotian Anomaly</h4>
             <p className="text-stone-300 text-sm">
               Laos received 0.724 tons of bombs per person — nearly 1,500 pounds for every man, woman, and child. 
@@ -477,7 +477,7 @@ export default function ForgottenWarsPage() {
           </table>
         </div>
         
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4 mt-4">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 mt-4">
           <h4 className="text-red-400 font-bold mb-2">The Forgotten Millions</h4>
           <p className="text-stone-300 text-sm mb-2">
             In the major forgotten wars alone, over 3 million civilians died — more than ten times American military deaths. 
@@ -542,7 +542,7 @@ export default function ForgottenWarsPage() {
       <AwarenessChart />
 
       {/* Constitutional Erosion Timeline */}
-      <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">How Forgotten Wars Destroyed the Constitution</h2>
         <p className="text-stone-300 mb-6">
           Each forgotten war established precedents that eroded constitutional war powers. The pattern accelerated until Congress became irrelevant:
@@ -569,7 +569,7 @@ export default function ForgottenWarsPage() {
           ))}
         </div>
         
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-4 mt-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 mt-6">
           <h4 className="text-red-400 font-bold mb-2">The Ratchet Effect</h4>
           <p className="text-stone-300 text-sm">
             Each war expanded presidential power beyond previous limits. Powers granted &ldquo;temporarily&rdquo; became permanent. 
@@ -621,7 +621,7 @@ export default function ForgottenWarsPage() {
                   <li>• Victory validates intervention</li>
                 </ul>
               </div>
-              <div className="bg-red-950/30 border border-red-900/50 rounded p-4">
+              <div className="bg-slate-800 border border-slate-700 rounded p-4">
                 <h4 className="text-red-400 font-semibold mb-2">Forgotten Wars</h4>
                 <ul className="text-stone-300 text-sm space-y-1">
                   <li>• Undermine exceptionalism myths</li>
@@ -669,7 +669,7 @@ export default function ForgottenWarsPage() {
             <p className="text-stone-300 mb-3">
               The forgotten wars overwhelmingly targeted non-white populations. American culture systematically devalues non-white lives:
             </p>
-            <div className="bg-red-950/30 border border-red-900/50 rounded p-4">
+            <div className="bg-slate-800 border border-slate-700 rounded p-4">
               <h4 className="text-red-400 font-semibold mb-2">The Death Value Hierarchy</h4>
               <ul className="text-stone-300 text-sm space-y-1">
                 <li>• <strong>3,000 Americans die on 9/11:</strong> Global war on terror, $8T spent, memorialized annually</li>
@@ -736,7 +736,7 @@ export default function ForgottenWarsPage() {
       </section>
 
       {/* The Cost of Forgetting */}
-      <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Cost of Forgetting</h2>
         <p className="text-stone-300 mb-4">
           Forgetting these wars isn&apos;t harmless nostalgia — it enables repetition. Each forgotten war creates precedents for the next:

@@ -312,7 +312,7 @@ export default function NuclearCloseCallsPage() {
       <ShareButtons title="Nuclear Close Calls: How Close We've Come to the End of the World" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -657,7 +657,7 @@ export default function NuclearCloseCallsPage() {
             </div>
           ))}
         </div>
-        <div className="mt-4 p-4 bg-red-950/30 rounded-lg">
+        <div className="mt-4 p-4 bg-slate-800 rounded-lg">
           <p className="text-red-400 font-semibold">Total Nuclear Modernization Cost: $1.7 trillion over 30 years</p>
           <p className="text-stone-300 text-sm">This represents a complete replacement of the nuclear triad with newer, more capable weapons. The argument is "modernization," but the effect is to perpetuate the nuclear arsenal for another 50 years.</p>
         </div>

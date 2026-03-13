@@ -95,7 +95,7 @@ export default function DraftAndInequalityPage() {
       <ShareButtons title="The Draft & Inequality: Who Fights America's Wars?" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="text-red-400 font-bold text-lg mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {draftStats.map((item) => (
@@ -182,7 +182,7 @@ export default function DraftAndInequalityPage() {
         </p>
         <div className="space-y-4">
           {wealthyDodgers.map((dodger) => (
-            <div key={dodger.name} className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={dodger.name} className="bg-slate-800 border border-slate-700 rounded-lg p-5">
               <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-2">{dodger.name}</h3>
               <div className="grid md:grid-cols-2 gap-4 text-sm">
                 <div>
@@ -274,7 +274,7 @@ export default function DraftAndInequalityPage() {
         </p>
         <div className="space-y-4">
           {recruitmentTactics.map((tactic) => (
-            <div key={tactic.tactic} className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={tactic.tactic} className="bg-slate-800 border border-slate-700 rounded-lg p-5">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{tactic.tactic}</h3>
                 <span className="text-red-400 text-sm">{tactic.target}</span>
@@ -371,7 +371,7 @@ export default function DraftAndInequalityPage() {
           rates is nearly perfect.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="text-red-400 font-bold text-lg mb-3">The Two Americas of Military Service</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
@@ -505,7 +505,7 @@ export default function DraftAndInequalityPage() {
           If the current conflict with Iran escalates to full war, the inequality patterns will repeat — but potentially 
           on an even larger scale. Here&apos;s what to expect:
         </p>
-        <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">Iran War Class Breakdown (Predicted)</h3>
           <div className="space-y-4">
             <div>

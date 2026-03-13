@@ -144,7 +144,7 @@ export default function EnvironmentalCostPage() {
       </div>
 
       {/* Key Findings */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-3">Key Findings</h2>
         <div className="grid md:grid-cols-2 gap-4 text-stone-300">
           <ul className="space-y-2">

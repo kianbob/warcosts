@@ -124,7 +124,7 @@ export default function PrivateMilitaryPage() {
       <ShareButtons title="Private Military Contractors: Blackwater, Nisour Square & the Privatization of War" />
 
       {/* Key Numbers */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-red-400 mb-4">By the Numbers</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {keyStats.map((item) => (
@@ -315,7 +315,7 @@ export default function PrivateMilitaryPage() {
           Erik Prince embodies the post-9/11 mercenary entrepreneur. After selling Blackwater, he 
           didn&apos;t retire — he expanded. His post-Blackwater career reads like a geopolitical thriller:
         </p>
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <ul className="space-y-3">
             <li className="flex gap-3 text-stone-300">
               <span className="text-red-500 mt-1">▸</span>
@@ -445,7 +445,7 @@ export default function PrivateMilitaryPage() {
           $300-800/month while American contractors in the same bases earned $15,000-20,000/month.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">The TCN Pyramid</h3>
           <div className="space-y-3 text-stone-300">
             <div className="flex justify-between items-center">
@@ -520,7 +520,7 @@ export default function PrivateMilitaryPage() {
           scheme generated $6.2 billion in extra revenue.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Contract Types &amp; Incentives</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -630,7 +630,7 @@ export default function PrivateMilitaryPage() {
           wars, <strong>19 went on to work for defense contractors</strong> or lobbying firms.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">The Corruption Cycle</h3>
           <div className="space-y-3 text-stone-300">
             <div>
@@ -746,7 +746,7 @@ export default function PrivateMilitaryPage() {
           gave us cost-plus contracts and legal immunity are now building robots that can decide who lives and dies.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">Emerging Technologies</h3>
           <div className="space-y-3 text-stone-300">
             <div>

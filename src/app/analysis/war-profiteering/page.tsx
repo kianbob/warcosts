@@ -136,7 +136,7 @@ export default function WarProfiteeringPage() {
       <ShareButtons title="War Is a Racket: Who Gets Rich" />
 
       {/* AI Overview */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
+      <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">💡</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
@@ -398,7 +398,7 @@ export default function WarProfiteeringPage() {
         </p>
         <div className="space-y-4">
           {executiveCompensation.map(exec => (
-            <div key={exec.name} className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={exec.name} className="bg-slate-800 border border-slate-700 rounded-lg p-5">
               <div className="flex justify-between items-start mb-3">
                 <div>
                   <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">{exec.name}</h3>

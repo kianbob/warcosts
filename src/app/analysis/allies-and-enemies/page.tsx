@@ -113,7 +113,7 @@ export default function AlliesAndEnemiesPage() {
         </p>
         <div className="space-y-4">
           {thePattern.map((p) => (
-            <div key={p.step} className="flex gap-4 items-start bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+            <div key={p.step} className="flex gap-4 items-start bg-slate-800 border border-slate-700 rounded-lg p-5">
               <span className="bg-red-900 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg shrink-0">{p.step}</span>
               <div>
                 <h3 className="font-bold text-lg">{p.title}</h3>
@@ -142,7 +142,7 @@ export default function AlliesAndEnemiesPage() {
                 <p className="text-stone-600 text-sm leading-relaxed">{cs.allyPhase}</p>
                 <p className="text-green-400 text-xs mt-3 font-semibold">{cs.aidGiven}</p>
               </div>
-              <div className="bg-red-950/20 border border-red-900/30 rounded-lg p-5">
+              <div className="bg-slate-800 border border-slate-700 rounded-lg p-5">
                 <h4 className="text-red-400 font-bold mb-2">💥 The Enemy Phase</h4>
                 <p className="text-stone-600 text-sm leading-relaxed">{cs.enemyPhase}</p>
                 <p className="text-red-400 text-xs mt-3 font-semibold">{cs.costToFight}</p>
@@ -367,7 +367,7 @@ export default function AlliesAndEnemiesPage() {
           care which side they&apos;re supplying — only that there&apos;s a side to supply.
         </p>
 
-        <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-6">
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 my-6">
           <h3 className="text-red-400 font-bold text-lg mb-3">The Numbers Don&apos;t Lie</h3>
           <div className="grid md:grid-cols-3 gap-4">
             <div>

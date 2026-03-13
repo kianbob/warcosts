@@ -254,7 +254,7 @@ export default function PentagonAuditPage() {
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-red-900/20 border border-red-800/50 rounded-lg">
+          <div className="mt-8 p-6 bg-red-900/20 border border-slate-700 rounded-lg">
             <h3 className="font-bold text-red-300 mb-3">Put it in perspective:</h3>
             <p className="text-stone-300">
               The Pentagon's unaccounted $2.5 trillion could give every American family $19,230 in cash. 
