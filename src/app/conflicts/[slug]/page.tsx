@@ -197,7 +197,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: c.shortName || c.name }]} />
 
         {/* Hero Section - Enhanced */}
-        <div className="bg-slate-900 text-stone-900 rounded-xl p-8 mb-8 border border-slate-700 shadow-2xl">
+        <div className="bg-slate-900 text-white rounded-xl p-8 mb-8 border border-slate-700 shadow-2xl">
           <div className="flex flex-wrap items-center gap-3 mb-4">
             <Link href={`/eras/${slugify(c.era)}`} className="text-slate-400 text-sm hover:text-red-700 transition-colors px-2 py-1 rounded-md hover:bg-stone-50">
               📅 {c.era}
@@ -224,13 +224,13 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
               <p className="text-slate-400 mb-2">
-                <span className="font-semibold text-stone-900">{c.startYear}–{c.endYear || 'Present'}</span>
+                <span className="font-semibold text-white">{c.startYear}–{c.endYear || 'Present'}</span>
                 {c.computed?.durationYears && (
                   <span className="ml-2 text-sm">({c.computed.durationYears} years)</span>
                 )}
               </p>
               <p className="text-slate-400 mb-2">
-                🌍 <span className="text-stone-900">{c.region}</span> · 
+                🌍 <span className="text-white">{c.region}</span> · 
                 {c.countries?.map((co: string, i: number) => (
                   <span key={co}>
                     {i > 0 && ', '}
@@ -244,7 +244,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <div className="text-right">
               {c.troopsDeployed && (
                 <p className="text-slate-400 mb-2">
-                  👥 <span className="text-stone-900 font-semibold">{fmt(c.troopsDeployed)}</span> troops deployed
+                  👥 <span className="text-white font-semibold">{fmt(c.troopsDeployed)}</span> troops deployed
                 </p>
               )}
               {c.computed?.durationDays && (
@@ -266,7 +266,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8 my-8 shadow-lg">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-stone-900 font-bold">AI</span>
+            <span className="text-white font-bold">AI</span>
           </div>
           <h3 className="font-[family-name:var(--font-heading)] text-xl font-bold text-blue-900">Data-Driven Insights</h3>
         </div>
@@ -329,7 +329,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         
         {/* Primary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-stone-900 rounded-xl p-6 shadow-lg border border-slate-700">
+          <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-xl p-6 shadow-lg border border-slate-700">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">💰</span>
               <div className={`text-xs px-2 py-1 rounded-full ${c.costInflationAdjusted > 1000000000000 ? 'bg-red-600/20 text-red-300' : c.costInflationAdjusted > 100000000000 ? 'bg-yellow-600/20 text-yellow-300' : 'bg-green-600/20 text-green-300'}`}>
@@ -340,7 +340,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <p className="text-xs text-slate-400">Total Cost (2023 dollars)</p>
           </div>
 
-          <div className="bg-gradient-to-br from-red-900 to-red-800 text-stone-900 rounded-xl p-6 shadow-lg border border-red-700">
+          <div className="bg-gradient-to-br from-red-900 to-red-800 text-white rounded-xl p-6 shadow-lg border border-red-700">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">🪖</span>
               <div className={`text-xs px-2 py-1 rounded-full ${(c.usCasualties?.deaths || 0) > 50000 ? 'bg-red-300/20 text-red-200' : (c.usCasualties?.deaths || 0) > 1000 ? 'bg-yellow-300/20 text-yellow-200' : 'bg-green-300/20 text-green-200'}`}>
@@ -351,7 +351,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <p className="text-xs text-red-200">US Military Deaths</p>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-900 to-orange-800 text-stone-900 rounded-xl p-6 shadow-lg border border-orange-700">
+          <div className="bg-gradient-to-br from-orange-900 to-orange-800 text-white rounded-xl p-6 shadow-lg border border-orange-700">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">👥</span>
               <div className={`text-xs px-2 py-1 rounded-full ${(c.civilianDeaths || 0) > 100000 ? 'bg-red-300/20 text-red-200' : (c.civilianDeaths || 0) > 1000 ? 'bg-yellow-300/20 text-yellow-200' : 'bg-green-300/20 text-green-200'}`}>
@@ -362,7 +362,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <p className="text-xs text-orange-200">Civilian Deaths</p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-900 to-blue-800 text-stone-900 rounded-xl p-6 shadow-lg border border-blue-700">
+          <div className="bg-gradient-to-br from-blue-900 to-blue-800 text-white rounded-xl p-6 shadow-lg border border-blue-700">
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">⏰</span>
               <div className={`text-xs px-2 py-1 rounded-full ${(c.computed?.durationYears || 0) > 10 ? 'bg-red-300/20 text-red-200' : (c.computed?.durationYears || 0) > 5 ? 'bg-yellow-300/20 text-yellow-200' : 'bg-green-300/20 text-green-200'}`}>
@@ -413,7 +413,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="bg-white rounded-xl p-8 mb-8 border border-slate-200 shadow-sm">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-slate-900 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">📖</span>
+              <span className="text-white text-xl">📖</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">The Full Story</h2>
@@ -435,13 +435,13 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
 
       {/* Enhanced Key Quote */}
       {c.keyQuote && (
-        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 rounded-xl p-8 mb-8 shadow-2xl border border-slate-700">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-xl p-8 mb-8 shadow-2xl border border-slate-700">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">💬</span>
+              <span className="text-white text-xl">💬</span>
             </div>
             <div>
-              <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900">Key Quote</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Key Quote</h2>
               <p className="text-slate-400 text-sm">Words that defined this conflict</p>
             </div>
           </div>
@@ -452,7 +452,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <div className="absolute -bottom-8 -right-4 text-6xl text-red-600/20 font-serif rotate-180">"</div>
             
             <blockquote className="relative border-l-4 border-red-600 pl-8 py-4">
-              <p className="text-stone-900 text-xl md:text-2xl italic leading-relaxed font-[family-name:var(--font-heading)]">
+              <p className="text-white text-xl md:text-2xl italic leading-relaxed font-[family-name:var(--font-heading)]">
                 {(c.keyQuote as any).text}
               </p>
               <footer className="text-slate-300 mt-6 text-lg border-t border-slate-700 pt-4">
@@ -491,7 +491,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">💰</span>
+              <span className="text-white text-xl">💰</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">The Financial Cost</h2>
@@ -501,7 +501,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
 
           {/* Cost Summary Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-gradient-to-br from-green-500 to-green-600 text-stone-900 rounded-xl p-6 shadow-lg">
+            <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-6 shadow-lg">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl">🏦</span>
                 <span className="text-xs bg-white/20 px-2 py-1 rounded-full">Total</span>
@@ -510,7 +510,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
               <p className="text-green-100 text-sm">Total Cost (2023 dollars)</p>
             </div>
 
-            <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-stone-900 rounded-xl p-6 shadow-lg">
+            <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white rounded-xl p-6 shadow-lg">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl">👤</span>
                 <span className="text-xs bg-white/20 px-2 py-1 rounded-full">Per Person</span>
@@ -519,7 +519,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
               <p className="text-orange-100 text-sm">Per Taxpayer</p>
             </div>
 
-            <div className="bg-gradient-to-br from-red-500 to-red-600 text-stone-900 rounded-xl p-6 shadow-lg">
+            <div className="bg-gradient-to-br from-red-500 to-red-600 text-white rounded-xl p-6 shadow-lg">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-3xl">💀</span>
                 <span className="text-xs bg-white/20 px-2 py-1 rounded-full">Per Life</span>
@@ -621,7 +621,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <div className={`w-14 h-14 rounded-lg flex items-center justify-center ${
             c.congressionalAuth ? 'bg-green-600' : 'bg-red-600'
           }`}>
-            <span className="text-stone-900 text-2xl">⚖️</span>
+            <span className="text-white text-2xl">⚖️</span>
           </div>
           <div>
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">
@@ -675,7 +675,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         </div>
 
         {/* Founders' Intent Box */}
-        <div className="mt-6 bg-slate-900 text-stone-900 rounded-lg p-6">
+        <div className="mt-6 bg-slate-900 text-white rounded-lg p-6">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3 flex items-center gap-2">
             <span>👥</span>
             What the Founders Said
@@ -692,7 +692,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="bg-slate-50 rounded-xl p-8 mb-8 border border-slate-200">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">⏰</span>
+              <span className="text-white text-xl">⏰</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Timeline of Events</h2>
@@ -780,7 +780,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">💡</span>
+              <span className="text-white text-xl">💡</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Surprising Facts</h2>
@@ -793,7 +793,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
               <div key={i} className="group">
                 <div className="bg-gradient-to-br from-yellow-50 to-amber-50 border border-yellow-200 rounded-xl p-6 h-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1">
                   <div className="flex items-start gap-3">
-                    <div className="w-8 h-8 bg-yellow-500 text-stone-900 rounded-lg flex items-center justify-center flex-shrink-0 text-sm font-bold group-hover:bg-yellow-600 transition-colors">
+                    <div className="w-8 h-8 bg-yellow-500 text-white rounded-lg flex items-center justify-center flex-shrink-0 text-sm font-bold group-hover:bg-yellow-600 transition-colors">
                       {i + 1}
                     </div>
                     <div className="flex-1">
@@ -817,7 +817,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">👥</span>
+              <span className="text-white text-xl">👥</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Key Figures</h2>
@@ -830,7 +830,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
               <div key={i} className="group">
                 <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   {/* Avatar placeholder */}
-                  <div className="w-16 h-16 bg-gradient-to-br from-slate-600 to-slate-800 rounded-full flex items-center justify-center mb-4 mx-auto text-stone-900 text-xl font-bold">
+                  <div className="w-16 h-16 bg-gradient-to-br from-slate-600 to-slate-800 rounded-full flex items-center justify-center mb-4 mx-auto text-white text-xl font-bold">
                     {fig.name?.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}
                   </div>
                   
@@ -875,7 +875,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">⚡</span>
+              <span className="text-white text-xl">⚡</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Controversies & Debates</h2>
@@ -889,7 +889,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
                 <summary className="cursor-pointer bg-red-50 hover:bg-red-100 border border-red-200 rounded-t-lg p-4 transition-colors">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <div className="w-6 h-6 bg-red-500 text-stone-900 rounded-full flex items-center justify-center text-sm font-bold">
+                      <div className="w-6 h-6 bg-red-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
                         {i + 1}
                       </div>
                       <h3 className="font-semibold text-red-900">
@@ -928,7 +928,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">🗣️</span>
+              <span className="text-white text-xl">🗣️</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">What They Said</h2>
@@ -942,7 +942,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
                 <div className="bg-gradient-to-r from-slate-50 to-indigo-50 border border-slate-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:border-indigo-300">
                   <div className="flex items-start gap-4">
                     {/* Quote icon */}
-                    <div className="w-10 h-10 bg-indigo-500 text-stone-900 rounded-full flex items-center justify-center flex-shrink-0 text-xl font-serif group-hover:bg-indigo-600 transition-colors">
+                    <div className="w-10 h-10 bg-indigo-500 text-white rounded-full flex items-center justify-center flex-shrink-0 text-xl font-serif group-hover:bg-indigo-600 transition-colors">
                       "
                     </div>
                     
@@ -987,7 +987,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
         <div className="bg-gradient-to-br from-slate-50 to-stone-50 rounded-xl p-8 mb-8 border border-slate-200 shadow-sm">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-slate-600 rounded-lg flex items-center justify-center">
-              <span className="text-stone-900 text-xl">🏛️</span>
+              <span className="text-white text-xl">🏛️</span>
             </div>
             <div>
               <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Legacy & Long-Term Impact</h2>
@@ -1026,13 +1026,13 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       )}
 
       {/* Enhanced Libertarian Analysis */}
-      <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-stone-900 rounded-xl p-8 mb-8 shadow-2xl border border-slate-700">
+      <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white rounded-xl p-8 mb-8 shadow-2xl border border-slate-700">
         <div className="flex items-center gap-4 mb-6">
           <div className="w-14 h-14 bg-yellow-500 rounded-xl flex items-center justify-center">
             <span className="text-slate-900 text-2xl font-bold">🗽</span>
           </div>
           <div>
-            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900">
+            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white">
               The Libertarian Perspective
             </h2>
             <p className="text-slate-300 text-sm">Liberty, limited government, and the costs of war</p>
@@ -1053,7 +1053,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <div className="bg-slate-800/30 rounded-lg p-4 border border-slate-700">
             <div className="flex items-center gap-2 mb-3">
               <span className="text-amber-600 text-xl">⚖️</span>
-              <h3 className="font-semibold text-stone-900">Constitutional Limits</h3>
+              <h3 className="font-semibold text-white">Constitutional Limits</h3>
             </div>
             <p className="text-slate-300 text-sm">
               {c.congressionalAuth 
@@ -1065,7 +1065,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <div className="bg-slate-800/30 rounded-lg p-4 border border-slate-700">
             <div className="flex items-center gap-2 mb-3">
               <span className="text-amber-600 text-xl">💰</span>
-              <h3 className="font-semibold text-stone-900">Economic Impact</h3>
+              <h3 className="font-semibold text-white">Economic Impact</h3>
             </div>
             <p className="text-slate-300 text-sm">
               War spending diverts resources from productive uses, increases debt, and burdens future generations with costs they never agreed to pay.
@@ -1075,7 +1075,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <div className="bg-slate-800/30 rounded-lg p-4 border border-slate-700">
             <div className="flex items-center gap-2 mb-3">
               <span className="text-amber-600 text-xl">🕊️</span>
-              <h3 className="font-semibold text-stone-900">Human Cost</h3>
+              <h3 className="font-semibold text-white">Human Cost</h3>
             </div>
             <p className="text-slate-300 text-sm">
               Every war involves the loss of human life and liberty. The question is always: was this truly necessary for defense?
@@ -1128,7 +1128,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-stone-900 text-xl">🔗</span>
+            <span className="text-white text-xl">🔗</span>
           </div>
           <div>
             <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold">Related Analysis & Tools</h2>
@@ -1141,7 +1141,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <Link href="/tools/cost-per-life" className="group bg-gradient-to-br from-red-50 to-red-100 border border-red-200 rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 bg-red-500 rounded-lg flex items-center justify-center group-hover:bg-red-600 transition-colors">
-                <span className="text-stone-900 text-lg">💀</span>
+                <span className="text-white text-lg">💀</span>
               </div>
               <div>
                 <h3 className="font-bold text-red-900">Cost Per Life Analysis</h3>
@@ -1156,7 +1156,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <Link href="/tools/compare-wars" className="group bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center group-hover:bg-blue-600 transition-colors">
-                <span className="text-stone-900 text-lg">⚖️</span>
+                <span className="text-white text-lg">⚖️</span>
               </div>
               <div>
                 <h3 className="font-bold text-blue-900">War Comparison Tool</h3>
@@ -1171,7 +1171,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
           <Link href="/presidents" className="group bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-xl p-5 hover:shadow-lg transition-all hover:-translate-y-1">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center group-hover:bg-purple-600 transition-colors">
-                <span className="text-stone-900 text-lg">🏛️</span>
+                <span className="text-white text-lg">🏛️</span>
               </div>
               <div>
                 <h3 className="font-bold text-purple-900">Presidents at War</h3>
