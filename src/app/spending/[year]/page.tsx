@@ -62,10 +62,10 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           US Military Spending: {entry.year}
         </h1>
-        <p className="text-4xl md:text-5xl font-bold text-red-400 mt-4">
+        <p className="text-4xl md:text-5xl font-bold text-red-700 mt-4">
           {fmtMoney(amountMillions * 1e6)}
         </p>
-        <p className="text-stone-400 mt-2">
+        <p className="text-stone-500 mt-2">
           {amountBillions.toFixed(1)} billion in constant 2023 US dollars (SIPRI)
         </p>
       </div>
@@ -74,44 +74,44 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
 
       {/* Key Facts */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">${amountBillions.toFixed(1)}B</p>
-          <p className="text-xs text-stone-400">Total Budget</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">${amountBillions.toFixed(1)}B</p>
+          <p className="text-xs text-stone-500">Total Budget</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">
             {entry.gdpPct ? `${entry.gdpPct}%` : '—'}
           </p>
-          <p className="text-xs text-stone-400">% of GDP</p>
+          <p className="text-xs text-stone-500">% of GDP</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">{entry.president}</p>
-          <p className="text-xs text-stone-400">President</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">{entry.president}</p>
+          <p className="text-xs text-stone-500">President</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">
             {entry.war || 'None'}
           </p>
-          <p className="text-xs text-stone-400">Active War</p>
+          <p className="text-xs text-stone-500">Active War</p>
         </div>
       </div>
 
       {/* Year-over-Year Change */}
       {change !== null && prev && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             📊 Compared to {prev.year}
           </h2>
           <div className="flex items-center gap-4">
-            <span className={`text-3xl font-bold ${change >= 0 ? 'text-red-400' : 'text-green-400'}`}>
+            <span className={`text-3xl font-bold ${change >= 0 ? 'text-red-700' : 'text-green-700'}`}>
               {change >= 0 ? '▲' : '▼'} {Math.abs(change).toFixed(1)}%
             </span>
-            <span className="text-stone-300">
+            <span className="text-stone-600">
               {change >= 0 ? 'Increase' : 'Decrease'} of {fmtMoney(Math.abs(changeAbs!) * 1e6)} from ${(prev.amountBillions ?? prev.amount / 1000).toFixed(1)}B
             </span>
           </div>
           {Math.abs(change) > 20 && (
-            <p className="text-stone-400 text-sm mt-2">
+            <p className="text-stone-500 text-sm mt-2">
               {change > 20
                 ? '⚠️ A surge of this magnitude typically indicates wartime mobilization or a major military buildup.'
                 : '📉 A drop this large typically reflects the end of a war or a deliberate drawdown.'}
@@ -121,8 +121,8 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       )}
 
       {/* What Else Could This Buy */}
-      <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
+      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">
           💰 What ${amountBillions.toFixed(0)}B Could Have Bought Instead
         </h2>
         <div className="space-y-3">
@@ -130,8 +130,8 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
             const count = Math.floor((amountMillions * 1e6) / item.perUnit)
             return (
               <div key={item.label} className="flex items-center justify-between">
-                <span className="text-stone-300">{item.label}</span>
-                <span className="text-red-400 font-bold font-[family-name:var(--font-heading)]">{fmt(count)}</span>
+                <span className="text-stone-600">{item.label}</span>
+                <span className="text-red-700 font-bold font-[family-name:var(--font-heading)]">{fmt(count)}</span>
               </div>
             )
           })}
@@ -139,11 +139,11 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       </div>
 
       {/* Context */}
-      <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">
+      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
           🏛️ Historical Context
         </h2>
-        <p className="text-stone-300 leading-relaxed">
+        <p className="text-stone-600 leading-relaxed">
           In {entry.year}, under President {entry.president}, the United States spent approximately ${amountBillions.toFixed(1)} billion on its military
           {entry.gdpPct ? `, representing ${entry.gdpPct}% of GDP` : ''}.
           {entry.war ? ` The ${entry.war} was actively underway, driving elevated defense expenditures.` : ' No major declared war was in progress.'}
@@ -155,25 +155,25 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       {/* Navigation */}
       <div className="flex justify-between mt-8 mb-8">
         {prev ? (
-          <Link href={`/spending/${prev.year}`} className="bg-stone-800 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition">
-            <p className="text-xs text-stone-400">← Previous</p>
+          <Link href={`/spending/${prev.year}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition">
+            <p className="text-xs text-stone-500">← Previous</p>
             <p className="font-semibold text-white">{prev.year} · ${(prev.amountBillions ?? prev.amount / 1000).toFixed(0)}B</p>
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/spending/${next.year}`} className="bg-stone-800 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition text-right">
-            <p className="text-xs text-stone-400">Next →</p>
+          <Link href={`/spending/${next.year}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition text-right">
+            <p className="text-xs text-stone-500">Next →</p>
             <p className="font-semibold text-white">{next.year} · ${(next.amountBillions ?? next.amount / 1000).toFixed(0)}B</p>
           </Link>
         ) : <div />}
       </div>
 
       <div className="text-center">
-        <Link href="/spending" className="text-red-400 hover:text-red-300 text-sm">
+        <Link href="/spending" className="text-red-700 hover:text-red-600 text-sm">
           ← Back to All Spending Data
         </Link>
         {' · '}
-        <Link href="/global-spending" className="text-red-400 hover:text-red-300 text-sm">
+        <Link href="/global-spending" className="text-red-700 hover:text-red-600 text-sm">
           Global Comparison →
         </Link>
       </div>

@@ -26,27 +26,27 @@ export default function CountriesPage() {
         <Breadcrumbs items={[{ label: 'Country Profiles' }]} />
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Country Military Spending Profiles</h1>
-        <p className="text-stone-400 mb-8 max-w-3xl">
+        <p className="text-stone-500 mb-8 max-w-3xl">
           Military spending data for {countries.length} countries based on SIPRI data. Constant 2023 USD.
         </p>
 
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-4 text-center">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{countries.length}</p>
-            <p className="text-xs text-stone-400">Countries</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{countries.length}</p>
+            <p className="text-xs text-stone-500">Countries</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-4 text-center">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">${worldTotal.toFixed(0)}B</p>
-            <p className="text-xs text-stone-400">World Total Spending</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">${worldTotal.toFixed(0)}B</p>
+            <p className="text-xs text-stone-500">World Total Spending</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-4 text-center">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{usShare}%</p>
-            <p className="text-xs text-stone-400">US Share</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{usShare}%</p>
+            <p className="text-xs text-stone-500">US Share</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-4 text-center">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{ranked.length}</p>
-            <p className="text-xs text-stone-400">Ranked Countries</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{ranked.length}</p>
+            <p className="text-xs text-stone-500">Ranked Countries</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function CountriesPage() {
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b-2 border-stone-600 text-left text-stone-400">
+              <tr className="border-b-2 border-stone-200 text-left text-stone-500">
                 <th className="py-3 pr-4">Rank</th>
                 <th className="py-3 pr-4">Country</th>
                 <th className="py-3 pr-4 text-right">Spending</th>
@@ -67,23 +67,23 @@ export default function CountriesPage() {
             <tbody>
               {countries.map((c: any) => (
                 <tr key={c.slug} className="border-b border-stone-800 hover:bg-slate-800">
-                  <td className="py-3 pr-4 text-stone-400">{c.rank ?? '—'}</td>
+                  <td className="py-3 pr-4 text-stone-500">{c.rank ?? '—'}</td>
                   <td className="py-3 pr-4">
-                    <Link href={`/countries/${c.slug}`} className="font-medium text-red-400 hover:text-red-300 hover:underline">
+                    <Link href={`/countries/${c.slug}`} className="font-medium text-red-700 hover:text-red-600 hover:underline">
                       {c.name}
                     </Link>
                   </td>
-                  <td className="py-3 pr-4 text-right text-stone-300">${c.amountBillions}B</td>
-                  <td className="py-3 pr-4 text-right text-stone-300">{c.gdpPct ? `${c.gdpPct}%` : '—'}</td>
-                  <td className="py-3 pr-4 text-right text-stone-300">{c.pctWorld ? `${c.pctWorld}%` : '—'}</td>
+                  <td className="py-3 pr-4 text-right text-stone-600">${c.amountBillions}B</td>
+                  <td className="py-3 pr-4 text-right text-stone-600">{c.gdpPct ? `${c.gdpPct}%` : '—'}</td>
+                  <td className="py-3 pr-4 text-right text-stone-600">{c.pctWorld ? `${c.pctWorld}%` : '—'}</td>
                   <td className="py-3 pr-4 text-right">
                     {c.trend10yr !== null && c.trend10yr !== undefined ? (
-                      <span className={c.trend10yr >= 0 ? 'text-red-400' : 'text-green-400'}>
+                      <span className={c.trend10yr >= 0 ? 'text-red-700' : 'text-green-700'}>
                         {c.trend10yr >= 0 ? '+' : ''}{c.trend10yr}%
                       </span>
                     ) : '—'}
                   </td>
-                  <td className="py-3 text-right text-stone-300">{c.usBases || '—'}</td>
+                  <td className="py-3 text-right text-stone-600">{c.usBases || '—'}</td>
                 </tr>
               ))}
             </tbody>

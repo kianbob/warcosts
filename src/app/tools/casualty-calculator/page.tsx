@@ -62,23 +62,23 @@ export default function CasualtyCalculatorPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <div className="mb-6">
-        <Link href="/tools" className="text-stone-400 hover:text-white text-sm">← Back to Tools</Link>
+        <Link href="/tools" className="text-stone-500 hover:text-white text-sm">← Back to Tools</Link>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2">
         What Would These Casualties Look Like in Your City?
       </h1>
-      <p className="text-stone-400 mb-8">
+      <p className="text-stone-500 mb-8">
         War deaths are abstract numbers until you see them in a place you know.
       </p>
 
       {/* Conflict selector */}
       <div className="bg-stone-900 rounded-xl p-6 mb-6">
-        <label className="block text-sm font-semibold text-stone-300 mb-2">Select a Conflict</label>
+        <label className="block text-sm font-semibold text-stone-600 mb-2">Select a Conflict</label>
         <select
           value={selectedConflict}
           onChange={e => setSelectedConflict(e.target.value)}
-          className="w-full bg-stone-800 border border-stone-700 rounded-lg p-3 text-white"
+          className="w-full bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
         >
           {conflicts.map(c => (
             <option key={c.id} value={c.id}>
@@ -89,7 +89,7 @@ export default function CasualtyCalculatorPage() {
         </select>
 
         {conflict?.civilianDeaths && conflict.civilianDeaths > 0 && (
-          <label className="flex items-center gap-2 mt-3 text-stone-400 text-sm cursor-pointer">
+          <label className="flex items-center gap-2 mt-3 text-stone-500 text-sm cursor-pointer">
             <input
               type="checkbox"
               checked={useCivilian}
@@ -103,21 +103,21 @@ export default function CasualtyCalculatorPage() {
 
       {/* City input */}
       <div className="bg-stone-900 rounded-xl p-6 mb-6">
-        <label className="block text-sm font-semibold text-stone-300 mb-2">Your City</label>
+        <label className="block text-sm font-semibold text-stone-600 mb-2">Your City</label>
         <div className="flex gap-3 mb-3">
           <input
             type="text"
             placeholder="City name"
             value={cityName}
             onChange={e => setCityName(e.target.value)}
-            className="flex-1 bg-stone-800 border border-stone-700 rounded-lg p-3 text-white"
+            className="flex-1 bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
           />
           <input
             type="number"
             placeholder="Population"
             value={population}
             onChange={e => setPopulation(e.target.value ? Number(e.target.value) : '')}
-            className="w-40 bg-stone-800 border border-stone-700 rounded-lg p-3 text-white"
+            className="w-40 bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
           />
         </div>
 
@@ -127,7 +127,7 @@ export default function CasualtyCalculatorPage() {
             <button
               key={city.name}
               onClick={() => selectPreset(city)}
-              className="text-xs bg-stone-800 hover:bg-stone-700 text-stone-300 px-3 py-1.5 rounded-full transition"
+              className="text-xs bg-stone-800 hover:border-red-300 hover:shadow-md text-stone-600 px-3 py-1.5 rounded-full transition"
             >
               {city.name}
             </button>
@@ -138,31 +138,31 @@ export default function CasualtyCalculatorPage() {
       {/* Result */}
       {pop > 0 && deaths > 0 && (
         <div className="bg-stone-900 border border-slate-700 rounded-xl p-6 mb-6">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">
             {conflict?.shortName} casualties in {cityName || 'your city'}
           </h2>
 
           <div className="grid grid-cols-2 gap-4 mb-6">
-            <div className="bg-stone-800 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-red-400">{deaths.toLocaleString()}</div>
-              <div className="text-stone-400 text-sm">{useCivilian ? 'Civilian' : 'US Military'} Deaths</div>
+            <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+              <div className="text-2xl font-bold text-red-700">{deaths.toLocaleString()}</div>
+              <div className="text-stone-500 text-sm">{useCivilian ? 'Civilian' : 'US Military'} Deaths</div>
             </div>
-            <div className="bg-stone-800 rounded-lg p-4 text-center">
-              <div className="text-2xl font-bold text-red-400">{pct.toFixed(pct >= 1 ? 1 : 2)}%</div>
-              <div className="text-stone-400 text-sm">of {cityName || 'your city'}</div>
+            <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+              <div className="text-2xl font-bold text-red-700">{pct.toFixed(pct >= 1 ? 1 : 2)}%</div>
+              <div className="text-stone-500 text-sm">of {cityName || 'your city'}</div>
             </div>
           </div>
 
           {/* Visual */}
           <div className="mb-4">
-            <p className="text-stone-400 text-sm mb-2">
+            <p className="text-stone-500 text-sm mb-2">
               That&apos;s <strong className="text-white">{pct >= 100 ? 'the entire city and more' : `${pct.toFixed(2)}% of the population`}</strong> gone.
             </p>
 
             {pct <= 100 && (
               <div className="w-full bg-stone-800 rounded-full h-8 overflow-hidden">
                 <div
-                  className="bg-red-700 h-8 rounded-full transition-all flex items-center justify-center text-xs font-bold text-white"
+                  className="bg-red-700 h-8 rounded-full transition-all flex items-center justify-center text-xs font-bold text-stone-900"
                   style={{ width: `${Math.max(pct, 1)}%` }}
                 >
                   {pct >= 5 ? `${pct.toFixed(1)}%` : ''}
@@ -172,10 +172,10 @@ export default function CasualtyCalculatorPage() {
 
             {pct > 100 && (
               <div className="bg-red-900/40 border border-red-800 rounded-lg p-4 text-center">
-                <p className="text-red-300 text-lg font-bold">
+                <p className="text-red-600 text-lg font-bold">
                   That&apos;s {(deaths / pop).toFixed(1)}x the entire population of {cityName || 'your city'}
                 </p>
-                <p className="text-stone-400 text-sm mt-1">
+                <p className="text-stone-500 text-sm mt-1">
                   Every single person — gone. Then refill the city and do it {Math.floor(deaths / pop) - 1} more time{Math.floor(deaths / pop) - 1 !== 1 ? 's' : ''}.
                 </p>
               </div>
@@ -183,7 +183,7 @@ export default function CasualtyCalculatorPage() {
           </div>
 
           {/* Context comparisons */}
-          <div className="space-y-2 text-sm text-stone-400">
+          <div className="space-y-2 text-sm text-stone-500">
             {pct >= 0.01 && pct < 1 && (
               <p>Imagine {Math.round(deaths / 30)} school buses full of people — all dead.</p>
             )}
@@ -206,19 +206,19 @@ export default function CasualtyCalculatorPage() {
 
       {/* Related Tools */}
       <div className="mt-12 pt-8 border-t border-stone-800">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">More Tools</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">📊 Compare Wars</p>
-            <p className="text-stone-400 text-sm">Side-by-side conflict data</p>
+            <p className="font-bold text-stone-900">📊 Compare Wars</p>
+            <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
           <Link href="/tools/cost-calculator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">🧮 Cost Calculator</p>
-            <p className="text-stone-400 text-sm">Your state&apos;s war cost</p>
+            <p className="font-bold text-stone-900">🧮 Cost Calculator</p>
+            <p className="text-stone-500 text-sm">Your state&apos;s war cost</p>
           </Link>
           <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">❓ War Quiz</p>
-            <p className="text-stone-400 text-sm">Test your knowledge</p>
+            <p className="font-bold text-stone-900">❓ War Quiz</p>
+            <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>
         </div>
       </div>

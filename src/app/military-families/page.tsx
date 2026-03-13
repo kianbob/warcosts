@@ -65,7 +65,7 @@ export default function MilitaryFamiliesPage() {
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">
         The Hidden Cost: Military Families
       </h1>
-      <p className="text-stone-400 mb-6 max-w-3xl">
+      <p className="text-stone-500 mb-6 max-w-3xl">
         Behind every service member is a family bearing invisible wounds. Deployments, relocations, housing crises, and the lasting impact on children — the costs that never appear in the defense budget.
       </p>
       <ShareButtons title="The hidden cost of war: military families bear the burden. Explore the data at WarCosts.org" />
@@ -84,7 +84,7 @@ export default function MilitaryFamiliesPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-400 hover:text-white'
+              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-500 hover:text-white'
             }`}
           >
             {s.label}
@@ -98,15 +98,15 @@ export default function MilitaryFamiliesPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             {familyStats.map(s => (
               <div key={s.label} className="bg-stone-900 rounded-xl p-4">
-                <div className="text-xl font-bold text-red-400">{s.value}</div>
-                <div className="text-stone-400 text-xs mt-1">{s.label}</div>
+                <div className="text-xl font-bold text-red-700">{s.value}</div>
+                <div className="text-stone-500 text-xs mt-1">{s.label}</div>
               </div>
             ))}
           </div>
 
           <div className="bg-stone-900 rounded-xl p-6 mb-6">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">By the Numbers</h2>
-            <div className="space-y-3 text-stone-300 text-sm">
+            <div className="space-y-3 text-stone-600 text-sm">
               <p>• <strong>22% unemployment</strong> — Military spouses face chronic unemployment due to constant relocations. The average military family moves every 2-3 years.</p>
               <p>• <strong>24% on food assistance</strong> — Nearly 1 in 4 military families qualify for SNAP benefits despite serving their country.</p>
               <p>• <strong>3.5 deployments</strong> — Post-9/11 service members average 3.5 combat deployments, compared to 1 in previous eras.</p>
@@ -121,7 +121,7 @@ export default function MilitaryFamiliesPage() {
       {activeSection === 'deployments' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Deployment Cycles Through History</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             The post-9/11 era introduced something unprecedented: repeated combat deployments. Previous generations deployed once. Today&apos;s soldiers may deploy 3-5 times.
           </p>
 
@@ -137,7 +137,7 @@ export default function MilitaryFamiliesPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-300 space-y-2">
+          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-2">
             <p>• The &quot;operational tempo&quot; of post-9/11 wars is historically unprecedented — troops rotating in and out of combat zones for two decades.</p>
             <p>• Each deployment increases PTSD risk by 12-15%. By the 3rd deployment, the cumulative risk exceeds 40%.</p>
             <p>• &quot;Dwell time&quot; (time home between deployments) has shrunk from the DoD target of 2:1 to often less than 1:1.</p>
@@ -150,7 +150,7 @@ export default function MilitaryFamiliesPage() {
       {activeSection === 'families' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Marriage & Military Life</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             The military divorce rate appears lower than the national average — but the data hides the real story. Special operations forces, who deploy the most, have estimated divorce rates near 90%.
           </p>
 
@@ -169,7 +169,7 @@ export default function MilitaryFamiliesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-stone-900 rounded-xl p-5">
               <h3 className="font-semibold text-white mb-2">Spouse Employment Crisis</h3>
-              <ul className="text-stone-400 text-sm space-y-1">
+              <ul className="text-stone-500 text-sm space-y-1">
                 <li>• 22% unemployment rate (vs 3.7% national)</li>
                 <li>• Spouses earn 26% less than civilian peers</li>
                 <li>• Professional licenses rarely transfer between states</li>
@@ -179,7 +179,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="bg-stone-900 rounded-xl p-5">
               <h3 className="font-semibold text-white mb-2">Financial Strain</h3>
-              <ul className="text-stone-400 text-sm space-y-1">
+              <ul className="text-stone-500 text-sm space-y-1">
                 <li>• 24% of junior enlisted qualify for food stamps</li>
                 <li>• Predatory lenders cluster near military bases</li>
                 <li>• Average military family debt: $32,000 (non-mortgage)</li>
@@ -195,7 +195,7 @@ export default function MilitaryFamiliesPage() {
       {activeSection === 'children' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Impact on Military Children</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             1.7 million children have a parent in the military. They face higher rates of anxiety, depression, and behavioral issues — especially during and after deployments.
           </p>
 
@@ -211,7 +211,7 @@ export default function MilitaryFamiliesPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-300 space-y-3">
+          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-3">
             <p><strong>The &quot;Dandelion Children&quot; Myth:</strong> The military often celebrates children&apos;s &quot;resilience,&quot; but research shows many carry invisible wounds. 32% of children with a deployed parent exhibit clinical-level anxiety — more than twice the national average.</p>
             <p><strong>School Disruption:</strong> Military children change schools 6-9 times during K-12. Each move results in an average 4-6 month academic setback. Gifted programs, IEPs, and special services must be re-established at each new school.</p>
             <p><strong>During Deployment:</strong> The at-home parent becomes a single parent overnight. Children may regress developmentally, act out, or withdraw. Younger children often cannot understand why a parent has disappeared.</p>
@@ -224,7 +224,7 @@ export default function MilitaryFamiliesPage() {
       {activeSection === 'housing' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Base Housing Crisis</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             In 1996, the DoD privatized military housing. The result: corporate landlords profiting while families live with mold, lead paint, and pest infestations. A 2019 congressional investigation called conditions &quot;unconscionable.&quot;
           </p>
 
@@ -242,7 +242,7 @@ export default function MilitaryFamiliesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-stone-900 rounded-xl p-5">
               <h3 className="font-semibold text-white mb-2">Privatization Failures</h3>
-              <ul className="text-stone-400 text-sm space-y-1">
+              <ul className="text-stone-500 text-sm space-y-1">
                 <li>• Companies like Balfour Beatty and Lendlease profit billions</li>
                 <li>• BAH (housing allowance) goes directly to corporations</li>
                 <li>• Families have no legal recourse — can&apos;t sue under most state laws</li>
@@ -252,7 +252,7 @@ export default function MilitaryFamiliesPage() {
             </div>
             <div className="bg-stone-900 rounded-xl p-5">
               <h3 className="font-semibold text-white mb-2">Health Consequences</h3>
-              <ul className="text-stone-400 text-sm space-y-1">
+              <ul className="text-stone-500 text-sm space-y-1">
                 <li>• Chronic respiratory illness from mold</li>
                 <li>• Lead exposure affecting children&apos;s development</li>
                 <li>• Rodent and cockroach infestations causing asthma</li>
@@ -272,9 +272,9 @@ export default function MilitaryFamiliesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="bg-stone-900 border border-yellow-900/50 rounded-xl p-6">
               <div className="text-4xl mb-3">⭐</div>
-              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-yellow-400 mb-2">Gold Star Families</h3>
-              <p className="text-stone-400 text-sm mb-3">Families who have lost a loved one in military service.</p>
-              <ul className="text-stone-300 text-sm space-y-2">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-yellow-700 mb-2">Gold Star Families</h3>
+              <p className="text-stone-500 text-sm mb-3">Families who have lost a loved one in military service.</p>
+              <ul className="text-stone-600 text-sm space-y-2">
                 <li>• ~7,100 families since 9/11</li>
                 <li>• SGLI death benefit: $400,000 (a life&apos;s value to the DoD)</li>
                 <li>• Surviving spouses lose healthcare at remarriage</li>
@@ -286,9 +286,9 @@ export default function MilitaryFamiliesPage() {
 
             <div className="bg-stone-900 border border-blue-900/50 rounded-xl p-6">
               <div className="text-4xl mb-3">🔵</div>
-              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-400 mb-2">Blue Star Families</h3>
-              <p className="text-stone-400 text-sm mb-3">Families with a member currently serving.</p>
-              <ul className="text-stone-300 text-sm space-y-2">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-700 mb-2">Blue Star Families</h3>
+              <p className="text-stone-500 text-sm mb-3">Families with a member currently serving.</p>
+              <ul className="text-stone-600 text-sm space-y-2">
                 <li>• 2.6 million family members of active duty</li>
                 <li>• 55% report military service strained their marriage</li>
                 <li>• 68% say civilian friends don&apos;t understand their life</li>
@@ -299,7 +299,7 @@ export default function MilitaryFamiliesPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-300">
+          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600">
             <p className="mb-2"><strong>The Civilian-Military Divide:</strong> With less than 1% of Americans serving, most civilians have no connection to military life. This disconnect makes it easier to send other people&apos;s children to war. 80% of post-9/11 service members come from military families — a self-perpetuating warrior class increasingly disconnected from the society it serves.</p>
             <p><strong>The Cost We Don&apos;t Count:</strong> No budget line item captures a child growing up without a parent. No metric tracks the marriages that survive deployment but never recover. The human toll of war extends far beyond the battlefield, and the families who bear it are largely invisible to the public that sends them.</p>
           </div>

@@ -13,9 +13,9 @@ type TimelineItem = {
 }
 
 const TYPE_COLORS = {
-  operation: { dot: 'bg-red-500', label: 'text-red-400', bg: 'bg-red-500/10 border-red-500/30' },
-  conflict: { dot: 'bg-amber-500', label: 'text-amber-400', bg: 'bg-amber-500/10 border-amber-500/30' },
-  vote: { dot: 'bg-blue-500', label: 'text-blue-400', bg: 'bg-blue-500/10 border-blue-500/30' },
+  operation: { dot: 'bg-red-500', label: 'text-red-700', bg: 'bg-red-500/10 border-red-500/30' },
+  conflict: { dot: 'bg-amber-500', label: 'text-amber-700', bg: 'bg-amber-500/10 border-amber-500/30' },
+  vote: { dot: 'bg-blue-500', label: 'text-blue-700', bg: 'bg-blue-500/10 border-blue-500/30' },
 }
 
 export default function TimelineExplorerPage() {
@@ -129,9 +129,9 @@ export default function TimelineExplorerPage() {
       </nav>
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">
-        Timeline <span className="text-red-400">Explorer</span>
+        Timeline <span className="text-red-700">Explorer</span>
       </h1>
-      <p className="text-stone-300 text-lg mb-8 max-w-3xl">
+      <p className="text-stone-600 text-lg mb-8 max-w-3xl">
         250 years of American military history on a single timeline. Every war, operation, and congressional vote — visualized.
       </p>
 
@@ -144,7 +144,7 @@ export default function TimelineExplorerPage() {
             className={`px-4 py-2 rounded-full text-sm font-medium border transition ${
               filters[type]
                 ? `${TYPE_COLORS[type].bg} ${TYPE_COLORS[type].label} border-current`
-                : 'bg-stone-800 text-stone-500 border-stone-700'
+                : 'bg-stone-800 text-stone-500 border-stone-200'
             }`}
           >
             <span className={`inline-block w-2.5 h-2.5 rounded-full mr-2 ${filters[type] ? TYPE_COLORS[type].dot : 'bg-stone-600'}`} />
@@ -157,7 +157,7 @@ export default function TimelineExplorerPage() {
       </div>
 
       {/* Range sliders */}
-      <div className="flex flex-wrap gap-4 items-center mb-8 text-sm text-stone-400">
+      <div className="flex flex-wrap gap-4 items-center mb-8 text-sm text-stone-500">
         <label className="flex items-center gap-2">
           From:
           <input type="number" min={1776} max={rangeEnd - 1} value={rangeStart}
@@ -223,17 +223,17 @@ export default function TimelineExplorerPage() {
               <span className={`text-xs font-semibold uppercase tracking-wider ${TYPE_COLORS[selected.type].label}`}>
                 {selected.type} · {selected.year}
               </span>
-              <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mt-1">
+              <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mt-1">
                 {selected.name}
               </h2>
             </div>
-            <button onClick={() => setSelected(null)} className="text-stone-400 hover:text-white text-2xl leading-none">×</button>
+            <button onClick={() => setSelected(null)} className="text-stone-500 hover:text-white text-2xl leading-none">×</button>
           </div>
           {selected.detail && (
-            <p className="text-stone-300 mt-2 text-sm font-mono">{selected.detail}</p>
+            <p className="text-stone-600 mt-2 text-sm font-mono">{selected.detail}</p>
           )}
           {selected.description && (
-            <p className="text-stone-300 mt-3">{selected.description}</p>
+            <p className="text-stone-600 mt-3">{selected.description}</p>
           )}
         </div>
       )}
@@ -261,19 +261,19 @@ export default function TimelineExplorerPage() {
 
       {/* Related Tools */}
       <div className="mt-12 pt-8 border-t border-stone-800">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">More Tools</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">📊 Compare Wars</p>
-            <p className="text-stone-400 text-sm">Side-by-side conflict data</p>
+            <p className="font-bold text-stone-900">📊 Compare Wars</p>
+            <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
           <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">❓ War Quiz</p>
-            <p className="text-stone-400 text-sm">Test your knowledge</p>
+            <p className="font-bold text-stone-900">❓ War Quiz</p>
+            <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>
           <Link href="/tools/budget-simulator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
-            <p className="font-bold text-white">💰 Budget Simulator</p>
-            <p className="text-stone-400 text-sm">Redesign the federal budget</p>
+            <p className="font-bold text-stone-900">💰 Budget Simulator</p>
+            <p className="text-stone-500 text-sm">Redesign the federal budget</p>
           </Link>
         </div>
       </div>
@@ -281,7 +281,7 @@ export default function TimelineExplorerPage() {
       {/* Back to top */}
       <div className="mt-12 text-center">
         <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="text-stone-400 hover:text-white transition">
+          className="text-stone-500 hover:text-white transition">
           ↑ Back to top
         </button>
       </div>

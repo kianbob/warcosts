@@ -147,7 +147,7 @@ export default function CovertPage() {
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;We have about 50% of the world&apos;s wealth but only 6.3% of its population... Our real task in the coming period is to maintain this position of disparity without positive detriment to our national security.&rdquo;
         </blockquote>
-        <p className="text-stone-400 mt-3">— George Kennan, US State Department Policy Planning Staff, 1948 (Classified memo PPS/23, declassified 1974)</p>
+        <p className="text-stone-500 mt-3">— George Kennan, US State Department Policy Planning Staff, 1948 (Classified memo PPS/23, declassified 1974)</p>
       </div>
 
       {/* Context */}
@@ -196,14 +196,14 @@ export default function CovertPage() {
       {/* Assassination Plots */}
       <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">🎯 CIA Assassination Plots</h2>
-        <p className="text-stone-400 mb-6">The Church Committee confirmed CIA involvement in assassination plots against at least 5 foreign leaders. These are the documented cases:</p>
+        <p className="text-stone-500 mb-6">The Church Committee confirmed CIA involvement in assassination plots against at least 5 foreign leaders. These are the documented cases:</p>
         <div className="space-y-4">
           {assassinationPlots.map(a => (
-            <div key={a.target} className="bg-stone-800 rounded-lg p-4">
-              <h3 className="font-bold text-white mb-1">{a.target}</h3>
-              <p className="text-stone-400 text-sm"><strong>Attempts:</strong> {a.attempts}</p>
-              <p className="text-stone-400 text-sm"><strong>Methods:</strong> {a.method}</p>
-              <p className="text-stone-300 text-sm"><strong>Outcome:</strong> {a.outcome}</p>
+            <div key={a.target} className="bg-white border border-stone-200 rounded-lg shadow-sm p-4">
+              <h3 className="font-bold text-stone-900 mb-1">{a.target}</h3>
+              <p className="text-stone-500 text-sm"><strong>Attempts:</strong> {a.attempts}</p>
+              <p className="text-stone-500 text-sm"><strong>Methods:</strong> {a.method}</p>
+              <p className="text-stone-600 text-sm"><strong>Outcome:</strong> {a.outcome}</p>
             </div>
           ))}
         </div>

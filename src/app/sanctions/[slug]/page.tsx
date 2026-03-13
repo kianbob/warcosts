@@ -54,10 +54,10 @@ export default async function SanctionDetailPage({ params }: { params: Promise<{
       {/* Hero */}
       <div className="mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-2">{s.name}</h1>
-        <div className="flex flex-wrap gap-4 text-stone-400 text-sm">
+        <div className="flex flex-wrap gap-4 text-stone-500 text-sm">
           <span>Target: {s.target}</span>
           <span>Since {s.startYear} ({yearsActive} years)</span>
-          <span className="text-red-400">{s.status}</span>
+          <span className="text-red-700">{s.status}</span>
         </div>
       </div>
 
@@ -65,52 +65,52 @@ export default async function SanctionDetailPage({ params }: { params: Promise<{
 
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmtMoney(s.estimatedCost * 1_000_000)}</div>
-          <div className="text-stone-400 text-sm">Est. Economic Impact</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmtMoney(s.estimatedCost * 1_000_000)}</div>
+          <div className="text-stone-500 text-sm">Est. Economic Impact</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{s.startYear}</div>
-          <div className="text-stone-400 text-sm">First Imposed</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{s.startYear}</div>
+          <div className="text-stone-500 text-sm">First Imposed</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{yearsActive} yrs</div>
-          <div className="text-stone-400 text-sm">Active Duration</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{yearsActive} yrs</div>
+          <div className="text-stone-500 text-sm">Active Duration</div>
         </div>
       </div>
 
       {/* Description */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3">Overview</h2>
-        <p className="text-stone-300 leading-relaxed">{s.description}</p>
+        <p className="text-stone-600 leading-relaxed">{s.description}</p>
       </section>
 
       {/* Impact */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3">Impact</h2>
-        <p className="text-stone-300 leading-relaxed">{s.impact}</p>
+        <p className="text-stone-600 leading-relaxed">{s.impact}</p>
       </section>
 
       {/* Key Fact */}
       <section className="mb-8 bg-red-600/10 border border-red-600/30 rounded-lg p-5">
-        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-400 mb-2">Key Fact</h2>
-        <p className="text-stone-300">{s.keyFact}</p>
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-700 mb-2">Key Fact</h2>
+        <p className="text-stone-600">{s.keyFact}</p>
       </section>
 
       {/* Cross-links */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Related</h2>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/countries/${targetSlug}`} className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href={`/countries/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             {s.target} Country Profile
           </Link>
-          <Link href={`/arms-sales/${targetSlug}`} className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href={`/arms-sales/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             Arms Sales → {s.target}
           </Link>
-          <Link href={`/foreign-aid/${targetSlug}`} className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href={`/foreign-aid/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             Foreign Aid → {s.target}
           </Link>
-          <Link href="/sanctions" className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href="/sanctions" className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             All Sanctions →
           </Link>
         </div>

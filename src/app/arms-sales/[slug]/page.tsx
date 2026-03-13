@@ -44,43 +44,43 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           Arms Sales: {entry.country}
         </h1>
-        <p className="text-stone-400 mt-2">{entry.region}</p>
+        <p className="text-stone-500 mt-2">{entry.region}</p>
       </div>
 
       <ShareButtons title={`US Arms Sales to ${entry.country}`} />
 
       {/* Key Stats */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(entry.totalSince2009 * 1e6)}</p>
-          <p className="text-xs text-stone-400">Total Since 2009</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(entry.totalSince2009 * 1e6)}</p>
+          <p className="text-xs text-stone-500">Total Since 2009</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(entry.recentAmount * 1e6)}</p>
-          <p className="text-xs text-stone-400">FY{entry.recentFY}</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(entry.recentAmount * 1e6)}</p>
+          <p className="text-xs text-stone-500">FY{entry.recentFY}</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">#{data.sort((a, b) => b.totalSince2009 - a.totalSince2009).findIndex(d => d.slug === slug) + 1}</p>
-          <p className="text-xs text-stone-400">Buyer Rank</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">#{data.sort((a, b) => b.totalSince2009 - a.totalSince2009).findIndex(d => d.slug === slug) + 1}</p>
+          <p className="text-xs text-stone-500">Buyer Rank</p>
         </div>
       </div>
 
       {/* Size comparison bar */}
-      <div className="bg-stone-800 border border-stone-700 rounded-lg p-5 mb-8">
-        <p className="text-sm text-stone-400 mb-2">Share of top buyers</p>
+      <div className="bg-stone-800 border border-stone-200 rounded-lg p-5 mb-8">
+        <p className="text-sm text-stone-500 mb-2">Share of top buyers</p>
         <div className="w-full bg-stone-700 rounded-full h-4">
           <div className="bg-red-600 h-4 rounded-full" style={{ width: `${(entry.totalSince2009 / maxTotal) * 100}%` }} />
         </div>
       </div>
 
       {/* Top Weapons Systems */}
-      <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-4">🔫 Top Weapons Systems Sold</h2>
+      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">🔫 Top Weapons Systems Sold</h2>
         <ul className="space-y-2">
           {entry.topSystems.map((sys, i) => (
             <li key={i} className="flex items-start gap-2">
-              <span className="text-red-400 mt-0.5">▸</span>
-              <span className="text-stone-300">{sys}</span>
+              <span className="text-red-700 mt-0.5">▸</span>
+              <span className="text-stone-600">{sys}</span>
             </li>
           ))}
         </ul>
@@ -88,27 +88,27 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
 
       {/* Note */}
       {entry.note && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">📝 Background</h2>
-          <p className="text-stone-300 leading-relaxed">{entry.note}</p>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📝 Background</h2>
+          <p className="text-stone-600 leading-relaxed">{entry.note}</p>
         </div>
       )}
 
       {/* Controversies */}
       {entry.controversies && (
         <div className="bg-red-950 border border-red-900 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">⚠️ Controversies</h2>
-          <p className="text-stone-300 leading-relaxed">{entry.controversies}</p>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-700 mb-3">⚠️ Controversies</h2>
+          <p className="text-stone-600 leading-relaxed">{entry.controversies}</p>
         </div>
       )}
 
       {/* Related Conflicts */}
       {entry.relatedConflicts && entry.relatedConflicts.length > 0 && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">⚔️ Related Conflicts</h2>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">⚔️ Related Conflicts</h2>
           <div className="flex flex-wrap gap-2">
             {entry.relatedConflicts.map((c, i) => (
-              <Link key={i} href={`/conflicts/${c}`} className="bg-stone-700 text-stone-300 px-3 py-1 rounded-full text-sm hover:bg-stone-600 transition">
+              <Link key={i} href={`/conflicts/${c}`} className="bg-stone-700 text-stone-600 px-3 py-1 rounded-full text-sm hover:bg-stone-600 transition">
                 {c}
               </Link>
             ))}
@@ -117,17 +117,17 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
       )}
 
       {/* Other Countries */}
-      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🌍 Other Major Buyers</h2>
+      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🌍 Other Major Buyers</h2>
       <div className="flex flex-wrap gap-2 mb-8">
         {data.filter(d => d.slug !== slug).slice(0, 10).map(d => (
-          <Link key={d.slug} href={`/arms-sales/${d.slug}`} className="bg-stone-800 border border-stone-700 rounded-lg px-3 py-2 text-stone-300 hover:bg-stone-700 transition text-sm">
+          <Link key={d.slug} href={`/arms-sales/${d.slug}`} className="bg-stone-800 border border-stone-200 rounded-lg px-3 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
             {d.country} ({fmtMoney(d.totalSince2009 * 1e6)})
           </Link>
         ))}
       </div>
 
       <div className="text-center">
-        <Link href="/arms-sales" className="text-red-400 hover:text-red-300 text-sm">← Back to Arms Sales Overview</Link>
+        <Link href="/arms-sales" className="text-red-700 hover:text-red-600 text-sm">← Back to Arms Sales Overview</Link>
       </div>
 
       <BackToTop />

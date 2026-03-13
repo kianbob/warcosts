@@ -103,7 +103,7 @@ export default function NuclearArsenalPage() {
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">
         The US Nuclear Arsenal
       </h1>
-      <p className="text-stone-400 mb-6 max-w-3xl">
+      <p className="text-stone-500 mb-6 max-w-3xl">
         5,500 warheads. A $1.7 trillion modernization program. The power to end civilization — maintained and upgraded every year, with almost no public debate.
       </p>
       <ShareButtons title="The US nuclear arsenal: 5,500 warheads, $1.7T in modernization, and the Doomsday Clock at 90 seconds. Explore the data:" />
@@ -122,7 +122,7 @@ export default function NuclearArsenalPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-400 hover:text-white'
+              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-500 hover:text-white'
             }`}
           >
             {s.label}
@@ -135,15 +135,15 @@ export default function NuclearArsenalPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             {arsenalOverview.map(s => (
               <div key={s.label} className="bg-stone-900 rounded-xl p-4">
-                <div className="text-xl font-bold text-red-400">{s.value}</div>
-                <div className="text-stone-400 text-xs mt-1">{s.label}</div>
+                <div className="text-xl font-bold text-red-700">{s.value}</div>
+                <div className="text-stone-500 text-xs mt-1">{s.label}</div>
               </div>
             ))}
           </div>
 
           <div className="bg-stone-900 rounded-xl p-6 mb-6">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">What 5,500 Warheads Means</h2>
-            <div className="space-y-3 text-stone-300 text-sm">
+            <div className="space-y-3 text-stone-600 text-sm">
               <p>• A single modern warhead (W76-2, 100kt) has 6.7x the destructive power of the Hiroshima bomb.</p>
               <p>• The US arsenal could destroy every city on Earth with a population over 100,000 — and still have warheads left over.</p>
               <p>• Nuclear winter from even a &quot;limited&quot; exchange of 100 warheads would cause global famine killing an estimated 2 billion people.</p>
@@ -157,7 +157,7 @@ export default function NuclearArsenalPage() {
       {activeSection === 'triad' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Nuclear Triad</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             The US maintains three independent delivery systems — land, sea, and air — ensuring that no first strike could eliminate all retaliatory capability. Each leg is being modernized at enormous cost.
           </p>
 
@@ -178,9 +178,9 @@ export default function NuclearArsenalPage() {
               <div key={i} className="bg-stone-900 rounded-xl p-5 border-l-4" style={{ borderColor: COLORS[i] }}>
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-semibold text-white">{t.name}</h3>
-                  <span className="text-red-400 font-mono text-sm">{t.warheads} warheads</span>
+                  <span className="text-red-700 font-mono text-sm">{t.warheads} warheads</span>
                 </div>
-                <p className="text-stone-400 text-sm">{t.desc}</p>
+                <p className="text-stone-500 text-sm">{t.desc}</p>
                 <p className="text-stone-500 text-xs mt-2">Replacement program cost: ${t.cost}B+</p>
               </div>
             ))}
@@ -191,7 +191,7 @@ export default function NuclearArsenalPage() {
       {activeSection === 'stockpile' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Stockpile History: US vs Russia</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             At the peak in 1986, the US and USSR held over 70,000 warheads combined — enough to destroy civilization many times over. Arms control treaties have reduced numbers, but modernization makes each remaining weapon more lethal.
           </p>
 
@@ -207,7 +207,7 @@ export default function NuclearArsenalPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-300 space-y-2">
+          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-2">
             <p>• <strong>1986 Peak:</strong> US held 23,317 and USSR held 45,000 warheads. Combined yield exceeded 1 million Hiroshimas.</p>
             <p>• <strong>Arms Control:</strong> START I (1991), Moscow Treaty (2002), and New START (2010) reduced deployed weapons, but Russia suspended participation in 2023.</p>
             <p>• <strong>Today:</strong> Numbers are lower but weapons are more accurate, stealthier, and harder to intercept. A smaller arsenal is not necessarily a safer world.</p>
@@ -218,7 +218,7 @@ export default function NuclearArsenalPage() {
       {activeSection === 'tests' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Nuclear Testing: 1,054 Detonations</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             From 1945 to 1992, the US detonated 1,054 nuclear devices — 216 atmospheric, 838 underground. The human and environmental toll is still being counted.
           </p>
 
@@ -246,7 +246,7 @@ export default function NuclearArsenalPage() {
                 <div className="w-2 h-2 rounded-full bg-red-700 mt-1.5 shrink-0" />
                 <div>
                   <span className="text-white font-medium">{t.tests} tests</span>
-                  <span className="text-stone-400 ml-2">{t.event}</span>
+                  <span className="text-stone-500 ml-2">{t.event}</span>
                 </div>
               </div>
             ))}
@@ -259,10 +259,10 @@ export default function NuclearArsenalPage() {
               <div key={i} className="bg-stone-900 rounded-xl p-4">
                 <div className="flex justify-between items-start mb-1">
                   <h4 className="font-semibold text-white text-sm">{site.name}</h4>
-                  <span className="text-red-400 text-xs font-mono">{site.tests} tests</span>
+                  <span className="text-red-700 text-xs font-mono">{site.tests} tests</span>
                 </div>
                 <p className="text-stone-500 text-xs">{site.location} • {site.years}</p>
-                <p className="text-stone-400 text-xs mt-1">{site.note}</p>
+                <p className="text-stone-500 text-xs mt-1">{site.note}</p>
               </div>
             ))}
           </div>
@@ -272,7 +272,7 @@ export default function NuclearArsenalPage() {
       {activeSection === 'doomsday' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The Doomsday Clock</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             Since 1947, the Bulletin of the Atomic Scientists has maintained the Doomsday Clock as a symbol of existential risk. Midnight represents global catastrophe. We are now closer than ever.
           </p>
 
@@ -306,7 +306,7 @@ export default function NuclearArsenalPage() {
                 />
                 <div>
                   <span className="text-white font-medium">{d.minutes < 2 ? `${Math.round(d.minutes * 60)} seconds` : `${d.minutes} minutes`}</span>
-                  <span className="text-stone-400 ml-2">{d.event}</span>
+                  <span className="text-stone-500 ml-2">{d.event}</span>
                 </div>
               </div>
             ))}
@@ -317,7 +317,7 @@ export default function NuclearArsenalPage() {
       {activeSection === 'modernization' && (
         <div>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">The $1.7 Trillion Modernization</h2>
-          <p className="text-stone-400 text-sm mb-6">
+          <p className="text-stone-500 text-sm mb-6">
             The US is replacing every leg of the nuclear triad simultaneously — the most expensive nuclear weapons program since the Manhattan Project. By the time it&apos;s done, every warhead, missile, submarine, and bomber will be new.
           </p>
 
@@ -333,20 +333,20 @@ export default function NuclearArsenalPage() {
               <div key={i} className="bg-stone-900 rounded-xl p-5">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-semibold text-white">{p.name}</h3>
-                  <span className="text-red-400 font-mono text-sm">{p.cost}</span>
+                  <span className="text-red-700 font-mono text-sm">{p.cost}</span>
                 </div>
-                <p className="text-stone-400 text-sm mb-2">{p.desc}</p>
+                <p className="text-stone-500 text-sm mb-2">{p.desc}</p>
                 <span className={`text-xs px-2 py-1 rounded-full ${
-                  p.status === 'Over budget' ? 'bg-red-900/50 text-red-300' :
+                  p.status === 'Over budget' ? 'bg-red-900/50 text-red-600' :
                   p.status === 'In production' ? 'bg-yellow-900/50 text-yellow-300' :
-                  'bg-stone-800 text-stone-400'
+                  'bg-stone-800 text-stone-500'
                 }`}>{p.status}</span>
               </div>
             ))}
           </div>
 
-          <div className="bg-red-900/20 border border-slate-700 rounded-xl p-5 text-sm text-stone-300">
-            <h3 className="font-semibold text-red-400 mb-2">What $1.7 Trillion Could Buy Instead</h3>
+          <div className="bg-red-900/20 border border-slate-700 rounded-xl p-5 text-sm text-stone-600">
+            <h3 className="font-semibold text-red-700 mb-2">What $1.7 Trillion Could Buy Instead</h3>
             <div className="grid grid-cols-2 gap-2">
               <p>• Universal pre-K for 50 years</p>
               <p>• Eliminate all student loan debt (2x over)</p>

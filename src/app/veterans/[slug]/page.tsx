@@ -47,62 +47,62 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold">
           {war.war} Veterans
         </h1>
-        <p className="text-stone-400 mt-2">{war.years}</p>
+        <p className="text-stone-500 mt-2">{war.years}</p>
       </div>
 
       <ShareButtons title={`${war.war} Veterans`} />
 
       {/* Stats Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">{fmt(war.served)}</p>
-          <p className="text-xs text-stone-400">Served</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">{fmt(war.served)}</p>
+          <p className="text-xs text-stone-500">Served</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(war.deaths)}</p>
-          <p className="text-xs text-stone-400">Deaths</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(war.deaths)}</p>
+          <p className="text-xs text-stone-500">Deaths</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(war.wounded)}</p>
-          <p className="text-xs text-stone-400">Wounded</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(war.wounded)}</p>
+          <p className="text-xs text-stone-500">Wounded</p>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center border border-stone-700">
-          <p className="text-2xl font-bold text-white font-[family-name:var(--font-heading)]">{fmt(war.veteransAlive2024)}</p>
-          <p className="text-xs text-stone-400">Still Alive (2024)</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center border border-stone-200">
+          <p className="text-2xl font-bold text-stone-900 font-[family-name:var(--font-heading)]">{fmt(war.veteransAlive2024)}</p>
+          <p className="text-xs text-stone-500">Still Alive (2024)</p>
         </div>
       </div>
 
       {/* Additional Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {war.peakTroops && (
-          <div className="bg-stone-800 rounded-lg p-3 text-center border border-stone-700">
-            <p className="text-lg font-bold text-white">{fmt(war.peakTroops)}</p>
-            <p className="text-xs text-stone-400">Peak Deployed</p>
+          <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-3 text-center border border-stone-200">
+            <p className="text-lg font-bold text-stone-900">{fmt(war.peakTroops)}</p>
+            <p className="text-xs text-stone-500">Peak Deployed</p>
           </div>
         )}
-        <div className="bg-stone-800 rounded-lg p-3 text-center border border-stone-700">
-          <p className="text-lg font-bold text-red-400">{deathRate}%</p>
-          <p className="text-xs text-stone-400">Death Rate</p>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-3 text-center border border-stone-200">
+          <p className="text-lg font-bold text-red-700">{deathRate}%</p>
+          <p className="text-xs text-stone-500">Death Rate</p>
         </div>
         {war.missing != null && war.missing > 0 && (
-          <div className="bg-stone-800 rounded-lg p-3 text-center border border-stone-700">
-            <p className="text-lg font-bold text-red-400">{fmt(war.missing)}</p>
-            <p className="text-xs text-stone-400">Missing/POW</p>
+          <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-3 text-center border border-stone-200">
+            <p className="text-lg font-bold text-red-700">{fmt(war.missing)}</p>
+            <p className="text-xs text-stone-500">Missing/POW</p>
           </div>
         )}
         {war.medianAge2024 && (
-          <div className="bg-stone-800 rounded-lg p-3 text-center border border-stone-700">
-            <p className="text-lg font-bold text-white">{war.medianAge2024}</p>
-            <p className="text-xs text-stone-400">Median Age (2024)</p>
+          <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-3 text-center border border-stone-200">
+            <p className="text-lg font-bold text-stone-900">{war.medianAge2024}</p>
+            <p className="text-xs text-stone-500">Median Age (2024)</p>
           </div>
         )}
       </div>
 
       {/* Draft Info */}
       {(war.draftees || war.draftDodgers || war.agentOrangeExposed) && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">📋 Additional Data</h2>
-          <div className="space-y-2 text-stone-300">
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📋 Additional Data</h2>
+          <div className="space-y-2 text-stone-600">
             {war.draftees && <p>🎖️ <strong>{fmt(war.draftees)}</strong> were drafted</p>}
             {war.draftDodgers && <p>🏃 <strong>{fmt(war.draftDodgers)}</strong> evaded the draft</p>}
             {war.agentOrangeExposed && <p>☠️ <strong>{fmt(war.agentOrangeExposed)}</strong> exposed to Agent Orange</p>}
@@ -114,31 +114,31 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
       {/* PTSD */}
       {war.ptsd && (
         <div className="bg-red-950 border border-red-900 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-400 mb-3">🧠 PTSD & Mental Health</h2>
-          <p className="text-stone-300 leading-relaxed">{war.ptsd}</p>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-700 mb-3">🧠 PTSD & Mental Health</h2>
+          <p className="text-stone-600 leading-relaxed">{war.ptsd}</p>
         </div>
       )}
 
       {/* Benefits */}
       {war.benefits && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">🏥 Veterans Benefits</h2>
-          <p className="text-stone-300 leading-relaxed">{war.benefits}</p>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🏥 Veterans Benefits</h2>
+          <p className="text-stone-600 leading-relaxed">{war.benefits}</p>
         </div>
       )}
 
       {/* Other Wars */}
-      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">⚔️ Veterans of Other Wars</h2>
+      <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">⚔️ Veterans of Other Wars</h2>
       <div className="flex flex-wrap gap-3 mb-8">
         {data.filter(v => v.slug !== slug).map(v => (
-          <Link key={v.slug} href={`/veterans/${v.slug}`} className="bg-stone-800 border border-stone-700 rounded-lg px-4 py-2 text-stone-300 hover:bg-stone-700 transition text-sm">
+          <Link key={v.slug} href={`/veterans/${v.slug}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
             {v.war} ({fmt(v.served)} served)
           </Link>
         ))}
       </div>
 
       <div className="text-center">
-        <Link href="/veterans" className="text-red-400 hover:text-red-300 text-sm">← Back to Veterans Overview</Link>
+        <Link href="/veterans" className="text-red-700 hover:text-red-600 text-sm">← Back to Veterans Overview</Link>
       </div>
 
       <BackToTop />

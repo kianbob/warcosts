@@ -73,35 +73,35 @@ export default async function ContractorDetailPage({ params }: { params: Promise
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
         {c.name}
       </h1>
-      <p className="text-stone-400 text-lg mb-6">#{c.rank} Defense Contractor · FY2024</p>
+      <p className="text-stone-500 text-lg mb-6">#{c.rank} Defense Contractor · FY2024</p>
 
-      {desc && <p className="text-stone-300 leading-relaxed text-lg mb-6">{desc}</p>}
+      {desc && <p className="text-stone-600 leading-relaxed text-lg mb-6">{desc}</p>}
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
-          <div className="text-xs text-stone-400 uppercase tracking-wider">FY2024 Contracts</div>
-          <div className="text-2xl font-bold text-red-400">{fmtMoney(c.amount)}</div>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="text-xs text-stone-500 uppercase tracking-wider">FY2024 Contracts</div>
+          <div className="text-2xl font-bold text-red-700">{fmtMoney(c.amount)}</div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
-          <div className="text-xs text-stone-400 uppercase tracking-wider">Rank</div>
-          <div className="text-2xl font-bold text-white">#{c.rank}</div>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="text-xs text-stone-500 uppercase tracking-wider">Rank</div>
+          <div className="text-2xl font-bold text-stone-900">#{c.rank}</div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
-          <div className="text-xs text-stone-400 uppercase tracking-wider">Subsidiaries</div>
-          <div className="text-2xl font-bold text-white">{c.subsidiaries.length}</div>
+        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="text-xs text-stone-500 uppercase tracking-wider">Subsidiaries</div>
+          <div className="text-2xl font-bold text-stone-900">{c.subsidiaries.length}</div>
         </div>
       </div>
 
       {/* Yearly Trend */}
       {yearlyEntries.length > 1 && (
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-white mb-3">5-Year Contract Trend</h2>
+          <h2 className="text-xl font-bold text-stone-900 mb-3">5-Year Contract Trend</h2>
           <div className="space-y-2">
             {yearlyEntries.map(([fy, amount]) => {
               const max = Math.max(...yearlyEntries.map(e => e[1]))
               return (
                 <div key={fy} className="flex items-center gap-3">
-                  <span className="text-stone-400 text-sm font-mono w-16">{fy}</span>
+                  <span className="text-stone-500 text-sm font-mono w-16">{fy}</span>
                   <div className="flex-1 bg-stone-800 rounded-full h-5 overflow-hidden">
                     <div className="bg-red-600 h-full rounded-full" style={{ width: `${(amount / max) * 100}%` }} />
                   </div>
@@ -116,13 +116,13 @@ export default async function ContractorDetailPage({ params }: { params: Promise
       {/* Subsidiaries */}
       {c.subsidiaries.length > 1 && (
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-white mb-3">Subsidiaries & Divisions</h2>
+          <h2 className="text-xl font-bold text-stone-900 mb-3">Subsidiaries & Divisions</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead><tr className="text-left text-stone-400 border-b border-stone-700"><th className="py-2">Entity</th><th className="py-2 text-right">FY2024 Awards</th></tr></thead>
+              <thead><tr className="text-left text-stone-500 border-b border-stone-200"><th className="py-2">Entity</th><th className="py-2 text-right">FY2024 Awards</th></tr></thead>
               <tbody>
                 {c.subsidiaries.sort((a, b) => b.amount - a.amount).map((s, i) => (
-                  <tr key={i} className="border-b border-stone-800"><td className="py-2 text-stone-300">{s.name}</td><td className="py-2 text-right text-white">{fmtMoney(s.amount)}</td></tr>
+                  <tr key={i} className="border-b border-stone-800"><td className="py-2 text-stone-600">{s.name}</td><td className="py-2 text-right text-white">{fmtMoney(s.amount)}</td></tr>
                 ))}
               </tbody>
             </table>
@@ -133,12 +133,12 @@ export default async function ContractorDetailPage({ params }: { params: Promise
       {/* Linked Weapons */}
       {linkedWeapons.length > 0 && (
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-white mb-3">Weapons Programs</h2>
+          <h2 className="text-xl font-bold text-stone-900 mb-3">Weapons Programs</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {linkedWeapons.map(w => (
-              <Link key={w.slug} href={`/weapons/${w.slug}`} className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
+              <Link key={w.slug} href={`/weapons/${w.slug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium">{w.name}</div>
-                <div className="text-stone-400 text-sm">{w.category} · {w.costBillions ? `$${w.costBillions}B` : '—'} · {w.status}</div>
+                <div className="text-stone-500 text-sm">{w.category} · {w.costBillions ? `$${w.costBillions}B` : '—'} · {w.status}</div>
               </Link>
             ))}
           </div>
@@ -146,16 +146,16 @@ export default async function ContractorDetailPage({ params }: { params: Promise
       )}
 
       <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-6 mb-8">
-        <h2 className="text-lg font-bold text-red-400 mb-2">Follow the Money</h2>
-        <p className="text-stone-300 leading-relaxed">
+        <h2 className="text-lg font-bold text-red-700 mb-2">Follow the Money</h2>
+        <p className="text-stone-600 leading-relaxed">
           {c.name} received {fmtMoney(c.amount)} from the Department of Defense in FY2024 alone.
           Defense contractors spend millions on lobbying and campaign contributions to ensure continued government spending.
           Every dollar in defense contracts is a dollar not spent on education, healthcare, or infrastructure.
         </p>
         <div className="flex gap-3 mt-3 flex-wrap">
-          <Link href="/analysis/military-industrial-complex" className="text-red-400 hover:text-red-300 text-sm underline">Military-Industrial Complex →</Link>
-          <Link href="/opportunity-cost" className="text-red-400 hover:text-red-300 text-sm underline">What Else Could This Buy? →</Link>
-          <Link href="/spending" className="text-red-400 hover:text-red-300 text-sm underline">Military Spending →</Link>
+          <Link href="/analysis/military-industrial-complex" className="text-red-700 hover:text-red-600 text-sm underline">Military-Industrial Complex →</Link>
+          <Link href="/opportunity-cost" className="text-red-700 hover:text-red-600 text-sm underline">What Else Could This Buy? →</Link>
+          <Link href="/spending" className="text-red-700 hover:text-red-600 text-sm underline">Military Spending →</Link>
         </div>
       </div>
 

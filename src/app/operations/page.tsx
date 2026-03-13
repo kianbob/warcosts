@@ -41,26 +41,26 @@ export default function OperationsPage() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Named Operations' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Named Military Operations</h1>
-      <p className="text-stone-300 mb-6">19 named US military operations spanning 80 years of American warfare — from the beaches of Normandy to the skies over Tehran.</p>
+      <p className="text-stone-600 mb-6">19 named US military operations spanning 80 years of American warfare — from the beaches of Normandy to the skies over Tehran.</p>
       <ShareButtons title="Named Military Operations — US Wars & Conflicts" />
 
       {/* Summary stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{operations.length}</div>
-          <div className="text-stone-400 text-sm">Operations</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{operations.length}</div>
+          <div className="text-stone-500 text-sm">Operations</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmtMoney(totalCost)}</div>
-          <div className="text-stone-400 text-sm">Total Cost</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmtMoney(totalCost)}</div>
+          <div className="text-stone-500 text-sm">Total Cost</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmt(totalCasualties)}</div>
-          <div className="text-stone-400 text-sm">US Casualties</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmt(totalCasualties)}</div>
+          <div className="text-stone-500 text-sm">US Casualties</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmt(totalCivilian)}</div>
-          <div className="text-stone-400 text-sm">Civilian Deaths</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmt(totalCivilian)}</div>
+          <div className="text-stone-500 text-sm">Civilian Deaths</div>
         </div>
       </div>
 
@@ -72,18 +72,18 @@ export default function OperationsPage() {
             <div className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-red-600 border-2 border-stone-900" />
 
             <Link href={`/operations/${op.slug}`} className="block group">
-              <div className="bg-stone-800 rounded-lg p-5 hover:bg-stone-700 transition-colors">
+              <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-5 hover:border-red-300 hover:shadow-md transition-colors">
                 <div className="flex flex-wrap items-center gap-3 mb-2">
-                  <span className="text-red-400 font-bold text-lg">{op.year}</span>
-                  <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold group-hover:text-red-400 transition-colors">{op.name}</h2>
+                  <span className="text-red-700 font-bold text-lg">{op.year}</span>
+                  <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold group-hover:text-red-700 transition-colors">{op.name}</h2>
                 </div>
-                <div className="flex flex-wrap gap-4 text-sm text-stone-400 mb-3">
+                <div className="flex flex-wrap gap-4 text-sm text-stone-500 mb-3">
                   <span>⏱ {op.duration}</span>
                   <span>💰 {fmtMoney(op.cost * 1_000_000)}</span>
                   <span>⚔️ {fmt(op.casualties)} US casualties</span>
                   {op.troops > 0 && <span>🪖 {fmt(op.troops)} troops</span>}
                 </div>
-                <p className="text-stone-300 text-sm line-clamp-2">{op.description}</p>
+                <p className="text-stone-600 text-sm line-clamp-2">{op.description}</p>
               </div>
             </Link>
           </div>

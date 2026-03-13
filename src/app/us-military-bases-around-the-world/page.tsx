@@ -42,7 +42,7 @@ export default function USMilitaryBasesAroundTheWorld() {
   const totalCountries = overseas.length
 
   return (
-    <div className="bg-stone-900 min-h-screen text-stone-300 -mt-4 -mx-4 px-4 pt-4">
+    <div className="bg-stone-900 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
       <div className="max-w-5xl mx-auto py-8">
         <FaqJsonLd faqs={[
           { q: 'How many military bases does the US have around the world?', a: 'The US operates over 750 military bases and installations in more than 80 countries and territories worldwide, plus approximately 800 domestic bases. This is the largest network of foreign military bases in world history.' },
@@ -53,13 +53,13 @@ export default function USMilitaryBasesAroundTheWorld() {
         <Breadcrumbs items={[{ label: 'Bases', href: '/bases' }, { label: 'US Military Bases Around the World' }]} />
         <LastUpdated />
 
-        <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
+        <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-stone-900 mb-4">
           US Military Bases Around the World
         </h1>
 
-        <p className="text-lg text-stone-300 max-w-3xl mb-4">
+        <p className="text-lg text-stone-600 max-w-3xl mb-4">
           The United States maintains the largest network of foreign military bases in world history —
-          over <strong className="text-red-400">{fmt(totalOverseas)} overseas installations</strong> across{' '}
+          over <strong className="text-red-700">{fmt(totalOverseas)} overseas installations</strong> across{' '}
           <strong className="text-white">{totalCountries} countries and territories</strong>, plus{' '}
           <strong className="text-white">{fmt(baseStats.domesticBases)}</strong> domestic bases across all 50 states.
           No other country comes close. The UK has 16 overseas bases. France has 11. Russia has about 20. China has 1.
@@ -75,34 +75,34 @@ export default function USMilitaryBasesAroundTheWorld() {
             { label: 'Domestic Bases', value: fmt(baseStats.domesticBases) },
             { label: 'Annual Overseas Cost', value: '$55B' },
           ].map((s) => (
-            <div key={s.label} className="bg-stone-800 rounded-lg p-5 text-center border border-stone-700">
-              <p className="text-2xl md:text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{s.value}</p>
-              <p className="text-stone-400 text-xs mt-1">{s.label}</p>
+            <div key={s.label} className="bg-white border border-stone-200 rounded-lg shadow-sm p-5 text-center border border-stone-200">
+              <p className="text-2xl md:text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.value}</p>
+              <p className="text-stone-500 text-xs mt-1">{s.label}</p>
             </div>
           ))}
         </div>
 
         {/* Explainer */}
         <div className="bg-stone-800 border border-red-600/30 rounded-xl p-6 my-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             What Counts as a &ldquo;Base&rdquo;?
           </h2>
-          <p className="text-stone-300 mb-3">
+          <p className="text-stone-600 mb-3">
             The Pentagon uses various terms to obscure the true scale. Major bases, &ldquo;lily pad&rdquo; outposts,
             cooperative security locations, forward operating sites, and US-funded installations in allied countries
             all form the network. David Vine&apos;s research at American University documented{' '}
             <strong className="text-white">750+ sites</strong> across 80+ countries — and the true number may be higher
             due to classified facilities and secret agreements.
           </p>
-          <ul className="text-stone-400 text-sm space-y-1">
-            <li>• <strong className="text-stone-300">Major bases:</strong> {fmt(baseStats.overseasBases)} large installations with permanent personnel</li>
-            <li>• <strong className="text-stone-300">Lily pads:</strong> {fmt(baseStats.lilyPads)} smaller outposts for rapid deployment</li>
-            <li>• <strong className="text-stone-300">US-funded sites:</strong> {fmt(baseStats.usFunded)} installations in allied nations paid for by US taxpayers</li>
+          <ul className="text-stone-500 text-sm space-y-1">
+            <li>• <strong className="text-stone-600">Major bases:</strong> {fmt(baseStats.overseasBases)} large installations with permanent personnel</li>
+            <li>• <strong className="text-stone-600">Lily pads:</strong> {fmt(baseStats.lilyPads)} smaller outposts for rapid deployment</li>
+            <li>• <strong className="text-stone-600">US-funded sites:</strong> {fmt(baseStats.usFunded)} installations in allied nations paid for by US taxpayers</li>
           </ul>
         </div>
 
         {/* Top countries table */}
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mt-12 mb-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mt-12 mb-6">
           Top Countries by US Base Count
         </h2>
         <div className="space-y-3 mb-8">
@@ -112,7 +112,7 @@ export default function USMilitaryBasesAroundTheWorld() {
             return (
               <div key={c.slug}>
                 <div className="flex justify-between text-sm mb-1">
-                  <Link href={`/bases/countries/${c.slug}`} className="text-stone-300 hover:text-red-400">
+                  <Link href={`/bases/countries/${c.slug}`} className="text-stone-600 hover:text-red-700">
                     <span className="text-stone-500 font-mono mr-2">#{i + 1}</span>
                     {c.country}
                   </Link>
@@ -129,12 +129,12 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Cost section */}
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mt-12 mb-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mt-12 mb-6">
           What Does This Cost?
         </h2>
-        <div className="bg-stone-800 rounded-lg p-6 border border-stone-700 mb-8">
-          <p className="text-stone-300 mb-4">
-            Maintaining the US overseas base network costs approximately <strong className="text-red-400">$55 billion per
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-6 border border-stone-200 mb-8">
+          <p className="text-stone-600 mb-4">
+            Maintaining the US overseas base network costs approximately <strong className="text-red-700">$55 billion per
             year</strong> — a figure that includes construction, operations, personnel, and logistics but likely
             understates the true cost due to classified facilities and indirect expenses.
           </p>
@@ -148,7 +148,7 @@ export default function USMilitaryBasesAroundTheWorld() {
               { label: 'Personnel Overseas', value: '173,000+' },
             ].map((s) => (
               <div key={s.label} className="text-center">
-                <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{s.value}</p>
+                <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.value}</p>
                 <p className="text-stone-500 text-xs">{s.label}</p>
               </div>
             ))}
@@ -156,10 +156,10 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Why it matters */}
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mt-12 mb-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mt-12 mb-6">
           Why Does the US Have So Many Overseas Bases?
         </h2>
-        <div className="space-y-4 text-stone-300 mb-8">
+        <div className="space-y-4 text-stone-600 mb-8">
           <p>
             The modern base network emerged from World War II and the Cold War. After defeating Germany and Japan,
             the US never fully withdrew — bases built to fight fascism became bases to contain communism. After the
@@ -169,7 +169,7 @@ export default function USMilitaryBasesAroundTheWorld() {
           <p>
             The base network serves multiple purposes: power projection, reassurance of allies, deterrence of
             adversaries, and — critically — sustaining the defense industry. Every base needs supplies, maintenance,
-            and equipment. <Link href="/contractors" className="text-red-400 hover:underline">Defense contractors</Link> earn
+            and equipment. <Link href="/contractors" className="text-red-700 hover:underline">Defense contractors</Link> earn
             billions annually from overseas base operations. The Pentagon has resisted every round of Base Realignment
             and Closure (BRAC) since 2005.
           </p>
@@ -182,11 +182,11 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Environmental and social impact */}
-        <div className="bg-stone-800 border border-stone-700 rounded-xl p-6 my-8">
-          <h3 className="font-[family-name:var(--font-heading)] font-bold text-white mb-3">
+        <div className="bg-stone-800 border border-stone-200 rounded-xl p-6 my-8">
+          <h3 className="font-[family-name:var(--font-heading)] font-bold text-stone-900 mb-3">
             💡 The Hidden Costs of Overseas Bases
           </h3>
-          <ul className="space-y-2 text-stone-300 text-sm">
+          <ul className="space-y-2 text-stone-600 text-sm">
             <li>• <strong className="text-white">Environmental damage:</strong> PFAS contamination in Okinawa, toxic waste at Clark Air Base (Philippines), depleted uranium in Vieques (Puerto Rico)</li>
             <li>• <strong className="text-white">Forced displacement:</strong> The entire Chagossian population was removed from Diego Garcia to build a US base. They&apos;ve fought 50+ years to return.</li>
             <li>• <strong className="text-white">Host nation tension:</strong> Okinawans have protested since 1945. South Korea has seen massive rallies against THAAD deployment.</li>
@@ -195,14 +195,14 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Related links */}
-        <div className="bg-stone-800 rounded-lg p-6 border border-stone-700 mt-12">
-          <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">Explore More</h3>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-6 border border-stone-200 mt-12">
+          <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-900 mb-4">Explore More</h3>
           <ul className="space-y-2">
-            <li><Link href="/bases" className="text-red-400 hover:underline">→ All US Military Bases — Complete Database</Link></li>
-            <li><Link href="/bases/countries" className="text-red-400 hover:underline">→ Bases by Country — Full List</Link></li>
-            <li><Link href="/bases/states" className="text-red-400 hover:underline">→ Domestic Military Bases by State</Link></li>
-            <li><Link href="/global-spending" className="text-red-400 hover:underline">→ Global Military Spending Comparison</Link></li>
-            <li><Link href="/spending" className="text-red-400 hover:underline">→ Historical US Military Spending</Link></li>
+            <li><Link href="/bases" className="text-red-700 hover:underline">→ All US Military Bases — Complete Database</Link></li>
+            <li><Link href="/bases/countries" className="text-red-700 hover:underline">→ Bases by Country — Full List</Link></li>
+            <li><Link href="/bases/states" className="text-red-700 hover:underline">→ Domestic Military Bases by State</Link></li>
+            <li><Link href="/global-spending" className="text-red-700 hover:underline">→ Global Military Spending Comparison</Link></li>
+            <li><Link href="/spending" className="text-red-700 hover:underline">→ Historical US Military Spending</Link></li>
           </ul>
         </div>
 

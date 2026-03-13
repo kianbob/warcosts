@@ -54,8 +54,8 @@ export default async function OperationDetailPage({ params }: { params: Promise<
       {/* Hero */}
       <div className="mb-8">
         <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-2">{op.name}</h1>
-        <div className="flex flex-wrap gap-4 text-stone-400 text-sm">
-          <span>Conflict: <Link href={`/conflicts/${op.conflict}`} className="text-red-400 hover:underline">{op.conflict.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</Link></span>
+        <div className="flex flex-wrap gap-4 text-stone-500 text-sm">
+          <span>Conflict: <Link href={`/conflicts/${op.conflict}`} className="text-red-700 hover:underline">{op.conflict.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</Link></span>
           <span>Year: {op.year}</span>
           <span>Duration: {op.duration}</span>
         </div>
@@ -65,50 +65,50 @@ export default async function OperationDetailPage({ params }: { params: Promise<
 
       {/* Stats grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmtMoney(op.cost * 1_000_000)}</div>
-          <div className="text-stone-400 text-sm">Cost</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmtMoney(op.cost * 1_000_000)}</div>
+          <div className="text-stone-500 text-sm">Cost</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{op.troops > 0 ? fmt(op.troops) : 'Air only'}</div>
-          <div className="text-stone-400 text-sm">Troops Deployed</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{op.troops > 0 ? fmt(op.troops) : 'Air only'}</div>
+          <div className="text-stone-500 text-sm">Troops Deployed</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmt(op.casualties)}</div>
-          <div className="text-stone-400 text-sm">US Casualties</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmt(op.casualties)}</div>
+          <div className="text-stone-500 text-sm">US Casualties</div>
         </div>
-        <div className="bg-stone-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{fmt(op.civilianDeaths)}</div>
-          <div className="text-stone-400 text-sm">Civilian Deaths</div>
+        <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 text-center">
+          <div className="text-2xl font-bold text-red-700">{fmt(op.civilianDeaths)}</div>
+          <div className="text-stone-500 text-sm">Civilian Deaths</div>
         </div>
       </div>
 
       {/* Description */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3">Overview</h2>
-        <p className="text-stone-300 leading-relaxed">{op.description}</p>
+        <p className="text-stone-600 leading-relaxed">{op.description}</p>
       </section>
 
       {/* Outcome */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-3">Outcome</h2>
-        <p className="text-stone-300 leading-relaxed">{op.outcome}</p>
+        <p className="text-stone-600 leading-relaxed">{op.outcome}</p>
       </section>
 
       {/* Key Fact */}
       <section className="mb-8 bg-red-600/10 border border-red-600/30 rounded-lg p-5">
-        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-400 mb-2">Key Fact</h2>
-        <p className="text-stone-300">{op.keyFact}</p>
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-700 mb-2">Key Fact</h2>
+        <p className="text-stone-600">{op.keyFact}</p>
       </section>
 
       {/* Cross-links */}
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Related</h2>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/conflicts/${op.conflict}`} className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href={`/conflicts/${op.conflict}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             ← {op.conflict.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
           </Link>
-          <Link href="/operations" className="bg-stone-800 hover:bg-stone-700 rounded-lg px-4 py-2 text-red-400 text-sm transition-colors">
+          <Link href="/operations" className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             All Operations →
           </Link>
         </div>

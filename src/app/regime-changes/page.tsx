@@ -241,7 +241,7 @@ export default function RegimeChangesPage() {
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;Why do they hate us? Let me count the coups.&rdquo;
         </blockquote>
-        <p className="text-stone-400 mt-3">— Common paraphrase of the blowback thesis</p>
+        <p className="text-stone-500 mt-3">— Common paraphrase of the blowback thesis</p>
       </div>
 
       {/* The Pattern */}
@@ -328,21 +328,21 @@ export default function RegimeChangesPage() {
       {/* Operation Condor */}
       <div className="bg-stone-900 text-white rounded-xl p-8 my-12">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">🦅 Operation Condor: Continental State Terror</h2>
-        <p className="text-stone-300 mb-6">In the 1970s and 1980s, the US backed a network of South American military dictatorships that coordinated the kidnapping, torture, and murder of political opponents across borders. Known as Operation Condor, this network was supported by the CIA and operated with the knowledge of Henry Kissinger. An estimated 60,000-80,000 people were killed.</p>
+        <p className="text-stone-600 mb-6">In the 1970s and 1980s, the US backed a network of South American military dictatorships that coordinated the kidnapping, torture, and murder of political opponents across borders. Known as Operation Condor, this network was supported by the CIA and operated with the knowledge of Henry Kissinger. An estimated 60,000-80,000 people were killed.</p>
         <div className="space-y-3">
           {operationCondorCountries.map(c => (
-            <div key={c.country} className="bg-stone-800 rounded-lg p-4">
+            <div key={c.country} className="bg-white border border-stone-200 rounded-lg shadow-sm p-4">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-bold text-white">{c.country} <span className="font-normal text-stone-400">({c.years})</span></h3>
-                  <p className="text-stone-400 text-sm">{c.note}</p>
+                  <h3 className="font-bold text-stone-900">{c.country} <span className="font-normal text-stone-500">({c.years})</span></h3>
+                  <p className="text-stone-500 text-sm">{c.note}</p>
                 </div>
-                <p className="text-red-400 font-bold text-sm">{c.deaths}</p>
+                <p className="text-red-700 font-bold text-sm">{c.deaths}</p>
               </div>
             </div>
           ))}
         </div>
-        <p className="text-stone-400 text-sm mt-6">Total Operation Condor victims: an estimated 60,000-80,000 killed or disappeared across South America. The US provided intelligence, training, and diplomatic cover.</p>
+        <p className="text-stone-500 text-sm mt-6">Total Operation Condor victims: an estimated 60,000-80,000 killed or disappeared across South America. The US provided intelligence, training, and diplomatic cover.</p>
       </div>
 
       {/* The "Who Lost X?" Pattern */}
@@ -401,7 +401,7 @@ export default function RegimeChangesPage() {
         <blockquote className="font-[family-name:var(--font-heading)] text-xl italic">
           &ldquo;We have no eternal allies, and we have no perpetual enemies. Our interests are eternal and perpetual, and those interests it is our duty to follow.&rdquo;
         </blockquote>
-        <p className="text-stone-400 mt-3">— Lord Palmerston (quoted by Henry Kissinger to justify regime change)</p>
+        <p className="text-stone-500 mt-3">— Lord Palmerston (quoted by Henry Kissinger to justify regime change)</p>
       </div>
 
       {/* Current Consequences */}

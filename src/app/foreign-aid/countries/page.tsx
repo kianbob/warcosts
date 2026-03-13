@@ -26,27 +26,27 @@ export default async function AidCountriesPage() {
         <Breadcrumbs items={[{ label: 'Foreign Aid', href: '/foreign-aid' }, { label: 'By Country' }]} />
 
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">US Foreign Aid by Country</h1>
-        <p className="text-stone-400 mb-8 max-w-3xl">The 25 largest recipients of US foreign aid since 2001, ranked by total aid received.</p>
+        <p className="text-stone-500 mb-8 max-w-3xl">The 25 largest recipients of US foreign aid since 2001, ranked by total aid received.</p>
 
         <ShareButtons title="US Foreign Aid by Country — WarCosts" />
 
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 mb-8">
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-6">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(totalAid * 1e6)}</p>
-            <p className="text-xs text-stone-400">Total US Aid (Top 25)</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(totalAid * 1e6)}</p>
+            <p className="text-xs text-stone-500">Total US Aid (Top 25)</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-6">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(totalAnnual * 1e6)}</p>
-            <p className="text-xs text-stone-400">Annual Aid (2024)</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(totalAnnual * 1e6)}</p>
+            <p className="text-xs text-stone-500">Annual Aid (2024)</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-6">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(countries.length)}</p>
-            <p className="text-xs text-stone-400">Top Recipients</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(countries.length)}</p>
+            <p className="text-xs text-stone-500">Top Recipients</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-700 p-6">
-            <p className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{avgMilPct.toFixed(0)}%</p>
-            <p className="text-xs text-stone-400">Avg Military Share</p>
+          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{avgMilPct.toFixed(0)}%</p>
+            <p className="text-xs text-stone-500">Avg Military Share</p>
           </div>
         </div>
 

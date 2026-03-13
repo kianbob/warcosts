@@ -185,11 +185,11 @@ export default function WarQuizPage() {
           <h1 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2 text-white">
             {score} / {questions.length}
           </h1>
-          <p className="text-xl text-red-400 font-semibold mb-2">{grade.label}</p>
-          <p className="text-stone-300 mb-6">{grade.msg}</p>
+          <p className="text-xl text-red-700 font-semibold mb-2">{grade.label}</p>
+          <p className="text-stone-600 mb-6">{grade.msg}</p>
 
-          <div className="bg-stone-800 rounded-lg p-4 mb-6">
-            <p className="text-stone-400 text-sm">Share your result</p>
+          <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-4 mb-6">
+            <p className="text-stone-500 text-sm">Share your result</p>
             <p className="text-white font-semibold">
               I scored {score}/{questions.length} on the WarCosts War Quiz — How Much Do You Know About America&apos;s Wars?
             </p>
@@ -212,7 +212,7 @@ export default function WarQuizPage() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-12">
       <div className="mb-6">
-        <Link href="/tools" className="text-stone-400 hover:text-white text-sm">← Back to Tools</Link>
+        <Link href="/tools" className="text-stone-500 hover:text-white text-sm">← Back to Tools</Link>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2">
@@ -227,7 +227,7 @@ export default function WarQuizPage() {
             style={{ width: `${((current + 1) / questions.length) * 100}%` }}
           />
         </div>
-        <span className="text-stone-400 text-sm font-mono">{current + 1}/{questions.length}</span>
+        <span className="text-stone-500 text-sm font-mono">{current + 1}/{questions.length}</span>
         <span className="text-stone-500 text-sm">Score: {score}</span>
       </div>
 
@@ -237,13 +237,13 @@ export default function WarQuizPage() {
 
         <div className="space-y-3">
           {q.options.map((opt, i) => {
-            let cls = 'border border-stone-700 rounded-lg p-4 text-left w-full transition cursor-pointer '
+            let cls = 'border border-stone-200 rounded-lg p-4 text-left w-full transition cursor-pointer '
             if (selected === null) {
               cls += 'hover:border-red-600 hover:bg-stone-800 text-stone-200'
             } else if (i === q.correct) {
               cls += 'border-green-500 bg-green-900/30 text-green-300'
             } else if (i === selected) {
-              cls += 'border-red-500 bg-red-900/30 text-red-300'
+              cls += 'border-red-500 bg-red-900/30 text-red-600'
             } else {
               cls += 'border-stone-800 text-stone-500'
             }
@@ -260,11 +260,11 @@ export default function WarQuizPage() {
 
       {/* Context after answer */}
       {showResult && (
-        <div className="bg-stone-800 border border-stone-700 rounded-xl p-5 mb-4">
-          <p className="text-sm font-semibold mb-1 text-stone-300">
+        <div className="bg-stone-800 border border-stone-200 rounded-xl p-5 mb-4">
+          <p className="text-sm font-semibold mb-1 text-stone-600">
             {selected === q.correct ? '✅ Correct!' : '❌ Incorrect'}
           </p>
-          <p className="text-stone-400 text-sm">{q.context}</p>
+          <p className="text-stone-500 text-sm">{q.context}</p>
         </div>
       )}
 
