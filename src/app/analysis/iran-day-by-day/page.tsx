@@ -72,27 +72,27 @@ export default function IranDayByDayPage() {
       <ShareButtons title="Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline" />
 
       {/* Running Totals */}
-      <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
-        <div className="flex items-start gap-3 mb-4">
+      <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
+        <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">📊</span>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 13 (March 12, 2026)</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">8</span>
-            <p className="text-stone-400 text-sm">US Dead</p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">8</span>
+            <p className="text-stone-400 text-sm mt-1">US Dead</p>
           </div>
-          <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">1,348</span>
-            <p className="text-stone-400 text-sm">Iranian Dead (Iran UN rep)</p>
+          <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">1,348</span>
+            <p className="text-stone-400 text-sm mt-1">Iranian Dead (Iran UN rep)</p>
           </div>
-          <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">~$24.5B</span>
-            <p className="text-stone-400 text-sm">Est. Cost (13 days)</p>
+          <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$24.5B</span>
+            <p className="text-stone-400 text-sm mt-1">Est. Cost (13 days)</p>
           </div>
-          <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">12+</span>
-            <p className="text-stone-400 text-sm">Countries Involved</p>
+          <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">12+</span>
+            <p className="text-stone-400 text-sm mt-1">Countries Involved</p>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">~2:30 AM ET — THE VIDEO</p>
             <p>
               President Trump posts a 4-minute video from the White House at 2:30 AM. He announces the strikes,
@@ -169,7 +169,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">CIVILIAN CASUALTIES — DAY 1</p>
             <p>
               <strong className="text-red-400">108 schoolgirls killed</strong> when a strike hits near or on a girls&apos; dormitory in Isfahan.
@@ -218,7 +218,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">FIRST US CASUALTIES</p>
             <p>
               <strong className="text-red-400">3 US service members killed</strong> in a ballistic missile strike on Al Asad Air Base, Iraq.
@@ -248,7 +248,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">CONGRESS ACTS — AGAINST OVERSIGHT</p>
             <p>
               The US Senate votes <strong className="text-red-400">53–47 to kill a War Powers Resolution</strong> that would have
@@ -289,7 +289,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Escalation</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">US CASUALTIES MOUNT</p>
             <p>
               US death toll rises to <strong className="text-red-400">6 killed</strong>, 28 wounded. 3 additional deaths from a
@@ -299,7 +299,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">FRIENDLY FIRE INCIDENT</p>
             <p>
               A <strong className="text-red-400">US F-15E Strike Eagle shoots down a US MQ-9 Reaper drone</strong> over western Iran
@@ -380,7 +380,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">NATANZ NUCLEAR FACILITY</p>
             <p>
               Strikes damage the <strong className="text-white">Natanz uranium enrichment facility</strong>. The Pentagon confirms
@@ -425,7 +425,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">AWS DATA CENTERS OFFLINE</p>
             <p>
               <strong className="text-white">Amazon Web Services reports outages at its Bahrain (me-south-1) data center region</strong>,
@@ -452,7 +452,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Regional War</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">DAY 5 — TURKEY ENTERS</p>
             <p>
               <strong className="text-white">Turkey launches airstrikes on PKK positions in northern Iraq</strong>, claiming "pre-emptive action to protect Turkish interests" as regional chaos spreads. President Erdoğan states Turkey will not allow the conflict to destabilize its borders. Turkish F-16s hit 12 targets across Qandil Mountains. This opens a second front in Iraq, complicating US operations.
@@ -469,9 +469,14 @@ export default function IranDayByDayPage() {
           <div className="bg-stone-800 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">DAY 7 — CASUALTIES MOUNT</p>
             <p>
-              US death toll reaches <strong className="text-red-400">15 killed, 67 wounded</strong>. Iranian casualties exceed <strong className="text-red-400">2,500+ by government count, 4,000+ by opposition estimates</strong>. First mass civilian casualty event: 89 killed when Iranian missiles targeting Al Dhafra Air Base in UAE overshoot and hit a shopping district in Abu Dhabi. UAE declares 3 days of national mourning.
+              US death toll reaches <strong className="text-red-400">7 killed, 18 wounded</strong>. Iranian casualties estimated at <strong className="text-red-400">1,230–1,332+</strong> (Red Crescent / HRANA figures). Minab school death toll revised to 168. B-2 bombers crush buried missile launchers. 30+ Iranian warships sunk. Russia reportedly sharing US military positions with Iran. 80% of Iran&apos;s air defenses destroyed. 90% drop in Iranian missile fire. 12 countries now under fire.
             </p>
           </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$11.3 billion</span> (Pentagon confirmed)</span>
+          <span className="text-stone-400">Countries involved: <span className="text-white font-bold">12</span></span>
         </div>
       </div>
 
@@ -484,7 +489,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Oil Strikes Begin</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">MISSION CREEP — OIL PRODUCTION NOW TARGETED</p>
             <p>
               For the first time, the combined force <strong className="text-white">expanded strikes to Iranian oil production</strong>.
@@ -537,7 +542,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">OIL PAST $100/BARREL</p>
             <p>
               <strong className="text-red-400">Oil prices surge past $100 per barrel</strong> for the first time since 2022.
@@ -563,7 +568,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Bahrain on Fire</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">BAHRAIN REFINERY ABLAZE</p>
             <p>
               An <strong className="text-red-400">Iranian missile set a Bahrain oil refinery ablaze</strong>. Bahrain declared
@@ -599,7 +604,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran Mines the Strait</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">NAVAL MINES IN THE STRAIT OF HORMUZ</p>
             <p>
               CENTCOM announces it has <strong className="text-red-400">destroyed 16 Iranian minelayers near the Strait of Hormuz</strong>,
@@ -646,7 +651,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">$11.3 Billion in 6 Days</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">PENTAGON BOMBSHELL TO CONGRESS</p>
             <p>
               The Pentagon tells Congress that the <strong className="text-red-400">first 6 days of Operation Epic Fury cost $11.3 BILLION</strong>.
@@ -668,7 +673,7 @@ export default function IranDayByDayPage() {
             </p>
           </div>
 
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">DRONES HIT DUBAI AIRPORT AND OMAN</p>
             <p>
               <strong className="text-red-400">2 Iranian drones struck near Dubai International Airport</strong> — the world&apos;s busiest
@@ -705,7 +710,7 @@ export default function IranDayByDayPage() {
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">KC-135 Down. Scientists Killed. Peace Conditions.</h2>
 
         <div className="space-y-4 text-stone-300">
-          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
             <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">AMERICAN AIRCRAFT DOWN</p>
             <p>
               A <strong className="text-red-400">KC-135 Stratotanker refueling aircraft crashed in western Iraq</strong> in what CENTCOM
@@ -855,7 +860,7 @@ export default function IranDayByDayPage() {
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
             <h3 className="font-bold text-red-900 mb-2">Energy Markets in Crisis</h3>
             <ul className="space-y-2 text-stone-700 text-sm">
-              <li>• <strong>Oil:</strong> $82/barrel → $127/barrel (Day 7) — 55% increase</li>
+              <li>• <strong>Oil:</strong> $70/barrel (pre-war) → $83 (Day 5) → $100+ (Day 9) — 43%+ increase</li>
               <li>• <strong>Natural gas (Europe):</strong> €85/MWh → €156/MWh — 84% spike</li>
               <li>• <strong>Gasoline (US average):</strong> $3.21 → $4.87/gallon</li>
               <li>• <strong>Strait of Hormuz closure:</strong> 20% of global oil, 18% of LNG blocked</li>
