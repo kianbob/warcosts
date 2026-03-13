@@ -50,7 +50,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">Contact</h2>
           <p className="text-stone-600">
-            Questions about this policy? Email <a href="mailto:hello@warcosts.org" className="text-red-700 hover:underline">hello@warcosts.org</a>.
+            Questions about this policy? Email <a href="mailto:info@thedataproject.ai" className="text-red-700 hover:underline">info@thedataproject.ai</a>.
           </p>
         </section>
       </div>
