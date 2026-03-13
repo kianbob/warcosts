@@ -98,7 +98,7 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
 
       {/* Year-over-Year Change */}
       {change !== null && prev && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             📊 Compared to {prev.year}
           </h2>
@@ -121,7 +121,7 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       )}
 
       {/* What Else Could This Buy */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">
           💰 What ${amountBillions.toFixed(0)}B Could Have Bought Instead
         </h2>
@@ -139,7 +139,7 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       </div>
 
       {/* Context */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
           🏛️ Historical Context
         </h2>
@@ -155,13 +155,13 @@ export default async function YearSpendingPage({ params }: { params: Promise<{ y
       {/* Navigation */}
       <div className="flex justify-between mt-8 mb-8">
         {prev ? (
-          <Link href={`/spending/${prev.year}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition">
+          <Link href={`/spending/${prev.year}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition">
             <p className="text-xs text-stone-500">← Previous</p>
             <p className="font-semibold text-white">{prev.year} · ${(prev.amountBillions ?? prev.amount / 1000).toFixed(0)}B</p>
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/spending/${next.year}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition text-right">
+          <Link href={`/spending/${next.year}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:border-red-300 hover:shadow-md transition text-right">
             <p className="text-xs text-stone-500">Next →</p>
             <p className="font-semibold text-white">{next.year} · ${(next.amountBillions ?? next.amount / 1000).toFixed(0)}B</p>
           </Link>

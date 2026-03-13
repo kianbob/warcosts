@@ -71,7 +71,7 @@ export default function USForeignAidByCountry() {
         </div>
 
         {/* Military vs Economic explainer */}
-        <div className="bg-stone-800 border border-red-600/30 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 border border-red-600/30 rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             Military Aid vs. Economic Aid
           </h2>
@@ -102,7 +102,7 @@ export default function USForeignAidByCountry() {
         </h2>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border border-stone-200 rounded-lg overflow-hidden">
-            <thead className="bg-stone-800">
+            <thead className="bg-white border border-stone-200">
               <tr>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">#</th>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">Country</th>
@@ -165,7 +165,7 @@ export default function USForeignAidByCountry() {
         </div>
 
         {/* Context */}
-        <div className="bg-stone-800 border border-stone-200 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             How Big Is $68 Billion in Context?
           </h2>

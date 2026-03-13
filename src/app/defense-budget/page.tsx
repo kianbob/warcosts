@@ -541,7 +541,7 @@ export default function DefenseBudgetPage() {
         <Link href="/war-clock" className="inline-block bg-red-800 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition">
           Watch It Tick → War Clock
         </Link>
-        <Link href="/tools/tax-receipt" className="inline-block bg-stone-800 text-white px-6 py-3 rounded-lg font-bold hover:bg-stone-700 transition">
+        <Link href="/tools/tax-receipt" className="inline-block bg-white border border-stone-200 text-white px-6 py-3 rounded-lg font-bold hover:bg-stone-700 transition">
           Your Military Tax Receipt →
         </Link>
       </div>

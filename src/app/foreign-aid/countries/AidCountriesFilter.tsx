@@ -15,7 +15,7 @@ export default function AidCountriesFilter({ countries }: { countries: any[] }) 
       <div className="flex flex-wrap gap-2 mb-6">
         {regions.map(r => (
           <button key={r} onClick={() => setRegion(r)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${region === r ? 'bg-red-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700 border border-stone-700'}`}>
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${region === r ? 'bg-red-600 text-white' : 'bg-white border border-stone-200 text-stone-300 hover:bg-stone-700 border border-stone-700'}`}>
             {r}
           </button>
         ))}

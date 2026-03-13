@@ -60,7 +60,7 @@ export default function WarVotesPage() {
           {votes.map(v => (
             <Link key={v.slug} href={`/war-votes/${v.slug}`} className="block relative pl-10 group">
               <div className="absolute left-2.5 top-3 w-3 h-3 rounded-full bg-red-600 border-2 border-stone-900 group-hover:bg-red-400 transition" />
-              <div className="bg-stone-800 border border-stone-200 rounded-lg p-5 group-hover:border-red-300 hover:shadow-md transition">
+              <div className="bg-white border border-stone-200 rounded-lg p-5 group-hover:border-red-300 hover:shadow-md transition">
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-red-700 font-bold font-[family-name:var(--font-heading)]">{v.year}</span>
                   <span className={`text-xs px-2 py-0.5 rounded-full ${
@@ -83,7 +83,7 @@ export default function WarVotesPage() {
       </div>
 
       {/* Context */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mt-10 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mt-10 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📖 Why This Matters</h2>
         <p className="text-stone-600 leading-relaxed">
           The Constitution gives Congress the sole power to declare war. Yet the last formal declaration was in 1942. Since then, presidents have used &ldquo;authorizations for use of military force&rdquo; (AUMFs), executive orders, and creative legal interpretations to wage wars without declarations. The 2001 AUMF — just 60 words — has been used to justify military operations in at least 22 countries over two decades.

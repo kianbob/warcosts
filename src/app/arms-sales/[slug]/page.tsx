@@ -66,7 +66,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
       </div>
 
       {/* Size comparison bar */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-5 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-5 mb-8">
         <p className="text-sm text-stone-500 mb-2">Share of top buyers</p>
         <div className="w-full bg-stone-700 rounded-full h-4">
           <div className="bg-red-600 h-4 rounded-full" style={{ width: `${(entry.totalSince2009 / maxTotal) * 100}%` }} />
@@ -74,7 +74,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
       </div>
 
       {/* Top Weapons Systems */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">🔫 Top Weapons Systems Sold</h2>
         <ul className="space-y-2">
           {entry.topSystems.map((sys, i) => (
@@ -88,7 +88,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
 
       {/* Note */}
       {entry.note && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📝 Background</h2>
           <p className="text-stone-600 leading-relaxed">{entry.note}</p>
         </div>
@@ -104,7 +104,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
 
       {/* Related Conflicts */}
       {entry.relatedConflicts && entry.relatedConflicts.length > 0 && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">⚔️ Related Conflicts</h2>
           <div className="flex flex-wrap gap-2">
             {entry.relatedConflicts.map((c, i) => (
@@ -120,7 +120,7 @@ export default async function ArmsSaleCountryPage({ params }: { params: Promise<
       <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🌍 Other Major Buyers</h2>
       <div className="flex flex-wrap gap-2 mb-8">
         {data.filter(d => d.slug !== slug).slice(0, 10).map(d => (
-          <Link key={d.slug} href={`/arms-sales/${d.slug}`} className="bg-stone-800 border border-stone-200 rounded-lg px-3 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
+          <Link key={d.slug} href={`/arms-sales/${d.slug}`} className="bg-white border border-stone-200 rounded-lg px-3 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
             {d.country} ({fmtMoney(d.totalSince2009 * 1e6)})
           </Link>
         ))}

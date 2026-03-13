@@ -105,10 +105,10 @@ export default async function OperationDetailPage({ params }: { params: Promise<
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Related</h2>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/conflicts/${op.conflict}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href={`/conflicts/${op.conflict}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             ← {op.conflict.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
           </Link>
-          <Link href="/operations" className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href="/operations" className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             All Operations →
           </Link>
         </div>

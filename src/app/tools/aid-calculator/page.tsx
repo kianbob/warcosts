@@ -68,7 +68,7 @@ export default function AidCalculatorPage() {
         <p className="text-stone-500 mb-8 max-w-2xl">Enter your annual income to see how much of your federal taxes fund the military and foreign aid — broken down by country.</p>
 
         {/* Input */}
-        <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mb-8">
           <label className="text-stone-500 text-sm block mb-2">Annual Income (before tax)</label>
           <div className="flex gap-3">
             <div className="relative flex-1">
@@ -95,19 +95,19 @@ export default function AidCalculatorPage() {
           <>
             {/* Summary */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+              <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
                 <p className="text-2xl font-bold text-stone-600 font-[family-name:var(--font-heading)]">{fmtMoney(tax)}</p>
                 <p className="text-xs text-stone-500">Federal Income Tax</p>
               </div>
-              <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+              <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
                 <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(militaryShare)}</p>
                 <p className="text-xs text-stone-500">→ Military Spending</p>
               </div>
-              <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+              <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
                 <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(aidShare)}</p>
                 <p className="text-xs text-stone-500">→ Foreign Aid</p>
               </div>
-              <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+              <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
                 <p className="text-2xl font-bold text-stone-600 font-[family-name:var(--font-heading)]">{fmtMoney(tax - militaryShare - aidShare)}</p>
                 <p className="text-xs text-stone-500">→ Everything Else</p>
               </div>
@@ -131,7 +131,7 @@ export default function AidCalculatorPage() {
             </div>
 
             {/* Aid by Country */}
-            <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
               <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">Your Foreign Aid by Country</h2>
               <div className="space-y-3">
                 {aidBreakdown.map(c => (

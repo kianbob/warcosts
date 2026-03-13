@@ -84,7 +84,7 @@ export default function MilitaryFamiliesPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-500 hover:text-white'
+              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-white'
             }`}
           >
             {s.label}
@@ -137,7 +137,7 @@ export default function MilitaryFamiliesPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-2">
+          <div className="bg-white border border-stone-200 rounded-xl p-5 text-sm text-stone-600 space-y-2">
             <p>• The &quot;operational tempo&quot; of post-9/11 wars is historically unprecedented — troops rotating in and out of combat zones for two decades.</p>
             <p>• Each deployment increases PTSD risk by 12-15%. By the 3rd deployment, the cumulative risk exceeds 40%.</p>
             <p>• &quot;Dwell time&quot; (time home between deployments) has shrunk from the DoD target of 2:1 to often less than 1:1.</p>
@@ -211,7 +211,7 @@ export default function MilitaryFamiliesPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-3">
+          <div className="bg-white border border-stone-200 rounded-xl p-5 text-sm text-stone-600 space-y-3">
             <p><strong>The &quot;Dandelion Children&quot; Myth:</strong> The military often celebrates children&apos;s &quot;resilience,&quot; but research shows many carry invisible wounds. 32% of children with a deployed parent exhibit clinical-level anxiety — more than twice the national average.</p>
             <p><strong>School Disruption:</strong> Military children change schools 6-9 times during K-12. Each move results in an average 4-6 month academic setback. Gifted programs, IEPs, and special services must be re-established at each new school.</p>
             <p><strong>During Deployment:</strong> The at-home parent becomes a single parent overnight. Children may regress developmentally, act out, or withdraw. Younger children often cannot understand why a parent has disappeared.</p>
@@ -299,7 +299,7 @@ export default function MilitaryFamiliesPage() {
             </div>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600">
+          <div className="bg-white border border-stone-200 rounded-xl p-5 text-sm text-stone-600">
             <p className="mb-2"><strong>The Civilian-Military Divide:</strong> With less than 1% of Americans serving, most civilians have no connection to military life. This disconnect makes it easier to send other people&apos;s children to war. 80% of post-9/11 service members come from military families — a self-perpetuating warrior class increasingly disconnected from the society it serves.</p>
             <p><strong>The Cost We Don&apos;t Count:</strong> No budget line item captures a child growing up without a parent. No metric tracks the marriages that survive deployment but never recover. The human toll of war extends far beyond the battlefield, and the families who bear it are largely invisible to the public that sends them.</p>
           </div>

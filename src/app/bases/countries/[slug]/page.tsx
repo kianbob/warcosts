@@ -52,11 +52,11 @@ export default async function CountryBasesPage({ params }: { params: Promise<{ s
       <p className="text-stone-400 text-lg mb-6">{fmt(c.total)} total installations</p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {c.bases > 0 && <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{fmt(c.bases)}</div><div className="text-xs text-stone-400">Major Bases</div></div>}
-        {c.lilyPads > 0 && <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(c.lilyPads)}</div><div className="text-xs text-stone-400">Lily Pads</div></div>}
-        {c.usFunded > 0 && <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-blue-400">{fmt(c.usFunded)}</div><div className="text-xs text-stone-400">US-Funded</div></div>}
-        {c.domestic > 0 && <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-green-400">{fmt(c.domestic)}</div><div className="text-xs text-stone-400">Domestic</div></div>}
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(c.total)}</div><div className="text-xs text-stone-400">Total</div></div>
+        {c.bases > 0 && <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{fmt(c.bases)}</div><div className="text-xs text-stone-400">Major Bases</div></div>}
+        {c.lilyPads > 0 && <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(c.lilyPads)}</div><div className="text-xs text-stone-400">Lily Pads</div></div>}
+        {c.usFunded > 0 && <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-blue-400">{fmt(c.usFunded)}</div><div className="text-xs text-stone-400">US-Funded</div></div>}
+        {c.domestic > 0 && <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-green-400">{fmt(c.domestic)}</div><div className="text-xs text-stone-400">Domestic</div></div>}
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(c.total)}</div><div className="text-xs text-stone-400">Total</div></div>
       </div>
 
       {[{ title: 'Major Bases', items: bases, color: 'red' }, { title: 'Lily Pads & Small Outposts', items: lilyPads, color: 'yellow' }, { title: 'US-Funded Host Nation Bases', items: usFunded, color: 'blue' }, { title: 'Domestic Installations', items: domestic, color: 'green' }].map(section => section.items.length > 0 && (
@@ -64,7 +64,7 @@ export default async function CountryBasesPage({ params }: { params: Promise<{ s
           <h2 className="text-xl font-bold text-white mb-3">{section.title} ({section.items.length})</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {section.items.map(b => (
-              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
+              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium text-sm">{b.name}</div>
                 <div className="text-stone-400 text-xs">{b.component || b.type} · {b.status}</div>
               </Link>

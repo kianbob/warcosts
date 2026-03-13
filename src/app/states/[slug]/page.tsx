@@ -88,7 +88,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
 
       {/* Defense Spending Context */}
       {def && def.pctGsp > 0 && (
-        <section className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-10">
+        <section className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6 mb-10">
           <h2 className="text-xl font-bold font-[family-name:var(--font-heading)] text-white mb-3">
             Defense Spending as % of State Economy
           </h2>
@@ -122,7 +122,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {branches.map(([branch, count]) => (
-              <div key={branch} className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+              <div key={branch} className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
                 <div className="text-red-400 text-2xl font-bold">{count}</div>
                 <div className="text-stone-300 text-sm mt-1">{branch}</div>
               </div>
@@ -142,7 +142,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
               <Link
                 key={inst.slug}
                 href={`/bases/${inst.slug}`}
-                className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors"
+                className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors"
               >
                 <div className="text-white font-medium">{inst.name}</div>
                 <div className="text-stone-400 text-sm mt-1">{inst.branch}</div>
@@ -162,7 +162,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
         </Link>
         <Link
           href="/states"
-          className="bg-stone-800 hover:bg-stone-700 border border-stone-700 text-white px-5 py-3 rounded-lg font-medium transition-colors"
+          className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 text-white px-5 py-3 rounded-lg font-medium transition-colors"
         >
           Compare all states
         </Link>
@@ -176,7 +176,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
 
 function StatCard({ label, value }: { label: string; value: string }) {
   return (
-    <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center">
+    <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center">
       <div className="text-2xl md:text-3xl font-bold text-red-400">{value}</div>
       <div className="text-stone-400 text-sm mt-1">{label}</div>
     </div>

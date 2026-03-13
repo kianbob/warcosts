@@ -122,7 +122,7 @@ export default function LargestDefenseContractors() {
         </h2>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border border-stone-200 rounded-lg overflow-hidden">
-            <thead className="bg-stone-800">
+            <thead className="bg-white border border-stone-200">
               <tr>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">Contractor</th>
                 {['FY2020', 'FY2021', 'FY2022', 'FY2023', 'FY2024'].map((fy) => (
@@ -157,7 +157,7 @@ export default function LargestDefenseContractors() {
         </p>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border border-stone-200 rounded-lg overflow-hidden">
-            <thead className="bg-stone-800">
+            <thead className="bg-white border border-stone-200">
               <tr>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">Company</th>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">Ticker</th>
@@ -206,7 +206,7 @@ export default function LargestDefenseContractors() {
         </div>
 
         {/* Eisenhower quote */}
-        <div className="bg-stone-800 border border-red-600/30 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 border border-red-600/30 rounded-xl p-6 my-8">
           <blockquote className="text-stone-600 italic text-lg">
             &ldquo;In the councils of government, we must guard against the acquisition of unwarranted influence,
             whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise

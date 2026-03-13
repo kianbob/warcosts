@@ -32,19 +32,19 @@ export default function CountriesPage() {
 
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-4 text-center">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{countries.length}</p>
             <p className="text-xs text-stone-500">Countries</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-4 text-center">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">${worldTotal.toFixed(0)}B</p>
             <p className="text-xs text-stone-500">World Total Spending</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-4 text-center">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{usShare}%</p>
             <p className="text-xs text-stone-500">US Share</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-4 text-center">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-4 text-center">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{ranked.length}</p>
             <p className="text-xs text-stone-500">Ranked Countries</p>
           </div>

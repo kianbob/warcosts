@@ -48,9 +48,9 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
       <p className="text-stone-500 text-lg mb-6">{fmt(s.total)} installations</p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-700">{fmt(s.total)}</div><div className="text-xs text-stone-500">Total Installations</div></div>
+        <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-700">{fmt(s.total)}</div><div className="text-xs text-stone-500">Total Installations</div></div>
         {byComponent.slice(0, 3).map(([comp, count]) => (
-          <div key={comp} className="bg-stone-800 border border-stone-200 rounded-lg p-4 text-center">
+          <div key={comp} className="bg-white border border-stone-200 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-stone-900">{count}</div>
             <div className="text-xs text-stone-500">{comp}</div>
           </div>
@@ -64,7 +64,7 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
             {byComponent.map(([comp, count]) => (
               <div key={comp} className="flex items-center gap-3">
                 <div className="text-stone-600 text-sm w-48">{comp}</div>
-                <div className="flex-1 bg-stone-800 rounded-full h-4 overflow-hidden">
+                <div className="flex-1 bg-white border border-stone-200 rounded-full h-4 overflow-hidden">
                   <div className="bg-red-600 h-full rounded-full" style={{ width: `${(count / s.total) * 100}%` }} />
                 </div>
                 <div className="text-white text-sm font-mono w-8 text-right">{count}</div>
@@ -77,7 +77,7 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
       <h2 className="text-xl font-bold text-stone-900 mb-3">All Installations ({stateBases.length})</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mb-8">
         {stateBases.map(b => (
-          <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
+          <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
             <div className="text-white font-medium text-sm">{b.name}</div>
             <div className="text-stone-500 text-xs">{b.component || 'Military'} · {b.status}</div>
           </Link>

@@ -43,7 +43,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
         <Breadcrumbs items={[{ label: 'Country Profiles', href: '/countries' }, { label: name }]} />
 
         {/* Hero */}
-        <div className="bg-stone-800 rounded-xl p-8 mb-8 border border-stone-200">
+        <div className="bg-white border border-stone-200 rounded-xl p-8 mb-8 border border-stone-200">
           <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-stone-900">{name}</h1>
           <p className="text-stone-500 mt-1 text-lg">Military Spending Profile</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
@@ -85,7 +85,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
         {/* Trend & Peak */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
           {trend10yr !== null && trend10yr !== undefined && (
-            <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
               <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-900 mb-2">10-Year Trend</h3>
               <p className={`text-3xl font-bold ${trend10yr >= 0 ? 'text-red-700' : 'text-green-700'}`}>
                 {trend10yr >= 0 ? '+' : ''}{trend10yr}%
@@ -96,7 +96,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
             </div>
           )}
           {peak && (
-            <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+            <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
               <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-900 mb-2">Peak Spending</h3>
               <p className="text-3xl font-bold text-red-700">${peak.amountBillions}B</p>
               <p className="text-stone-500 text-sm mt-1">in {peak.year} (constant 2023 USD)</p>
@@ -106,7 +106,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
 
         {/* US Bases */}
         {usBases > 0 && (
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mt-8">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🏗️ US Military Bases</h2>
             <p className="text-3xl font-bold text-red-700">{fmt(usBases)}</p>
             <p className="text-stone-500 text-sm mt-1">US military installations in {name}</p>
@@ -118,7 +118,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
 
         {/* Arms Sales */}
         {armsSales && (
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mt-8">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🔫 Arms Sales</h2>
             <p className="text-3xl font-bold text-red-700">{fmtMoney(armsSales.total * 1e6)}</p>
             {armsSales.topSystems && armsSales.topSystems.length > 0 && (
@@ -140,7 +140,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
 
         {/* Drone Strikes */}
         {droneStrikes && (
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mt-8">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🎯 US Drone Strikes</h2>
             <div className="grid grid-cols-3 gap-4">
               <div>
@@ -168,7 +168,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">⚔️ Related Conflicts</h2>
             <div className="space-y-2">
               {relatedConflicts.map((c: any) => (
-                <Link key={c.slug} href={`/conflicts/${c.slug}`} className="block bg-stone-800 rounded-lg border border-stone-200 p-4 hover:border-red-600 transition">
+                <Link key={c.slug} href={`/conflicts/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg border border-stone-200 p-4 hover:border-red-600 transition">
                   <span className="font-semibold text-white">{c.name}</span>
                   <span className="text-stone-500 text-sm ml-2">{c.years}</span>
                 </Link>
@@ -178,7 +178,7 @@ export default async function CountryProfilePage({ params }: { params: Promise<{
         )}
 
         {/* Cross-links */}
-        <div className="mt-12 bg-stone-800 rounded-xl border border-stone-200 p-6">
+        <div className="mt-12 bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
           <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-900 mb-3">Explore More</h2>
           <div className="flex flex-wrap gap-3">
             <Link href="/countries" className="text-red-700 hover:text-red-600 text-sm">← All Country Profiles</Link>

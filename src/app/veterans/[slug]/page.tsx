@@ -100,7 +100,7 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
 
       {/* Draft Info */}
       {(war.draftees || war.draftDodgers || war.agentOrangeExposed) && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📋 Additional Data</h2>
           <div className="space-y-2 text-stone-600">
             {war.draftees && <p>🎖️ <strong>{fmt(war.draftees)}</strong> were drafted</p>}
@@ -121,7 +121,7 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
 
       {/* Benefits */}
       {war.benefits && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🏥 Veterans Benefits</h2>
           <p className="text-stone-600 leading-relaxed">{war.benefits}</p>
         </div>
@@ -131,7 +131,7 @@ export default async function VeteranWarPage({ params }: { params: Promise<{ slu
       <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">⚔️ Veterans of Other Wars</h2>
       <div className="flex flex-wrap gap-3 mb-8">
         {data.filter(v => v.slug !== slug).map(v => (
-          <Link key={v.slug} href={`/veterans/${v.slug}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
+          <Link key={v.slug} href={`/veterans/${v.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md transition text-sm">
             {v.war} ({fmt(v.served)} served)
           </Link>
         ))}

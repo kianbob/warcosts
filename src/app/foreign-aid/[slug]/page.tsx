@@ -55,7 +55,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
         <Breadcrumbs items={[{ label: 'Foreign Aid', href: '/foreign-aid' }, { label: 'By Country', href: '/foreign-aid/countries' }, { label: country }]} />
 
         {/* Hero */}
-        <div className="bg-stone-800 rounded-xl p-8 mb-8 border border-stone-200">
+        <div className="bg-white border border-stone-200 rounded-xl p-8 mb-8 border border-stone-200">
           <p className="text-stone-500 text-sm uppercase tracking-wider mb-1">{region} · {type}</p>
           <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold text-stone-900">US Foreign Aid to {country}</h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
@@ -82,27 +82,27 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
 
         {/* Stats Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-red-700">{fmtMoney(totalDollars)}</p>
             <p className="text-xs text-stone-500">Total Aid Since 2001</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-red-700">{fmtMoney(annualDollars)}</p>
             <p className="text-xs text-stone-500">Annual Aid (2024)</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-red-700">{militaryPct}%</p>
             <p className="text-xs text-stone-500">Military Percentage</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-stone-600">{fmt(population)}M</p>
             <p className="text-xs text-stone-500">Population</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-stone-600">{fmtMoney(gdpPerCapita)}</p>
             <p className="text-xs text-stone-500">GDP Per Capita</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-2xl font-bold text-red-700">{fmtMoney(aidPerCapita)}</p>
             <p className="text-xs text-stone-500">US Aid Per Capita (Total)</p>
           </div>
@@ -110,7 +110,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
 
         {/* Note */}
         {note && (
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mt-8">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mt-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📋 Context & Background</h2>
             <p className="text-stone-600 leading-relaxed">{note}</p>
           </div>
@@ -125,7 +125,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
         )}
 
         {/* What This Money Could Buy Instead */}
-        <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mt-8">
+        <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mt-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">💡 What {fmtMoney(totalDollars)} Could Buy Instead</h2>
           <p className="text-stone-500 text-sm mb-4">The total US aid sent to {country} since 2001 could have funded:</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -149,7 +149,7 @@ export default async function AidCountryPage({ params }: { params: Promise<{ slu
         </div>
 
         {/* Cross-links */}
-        <div className="mt-8 bg-stone-800 rounded-xl border border-stone-200 p-6">
+        <div className="mt-8 bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
           <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-900 mb-3">Explore More on {country}</h2>
           <div className="flex flex-wrap gap-3">
             <Link href={`/countries/${slug}`} className="text-red-700 hover:text-red-600 text-sm">🌍 Military Spending Profile</Link>

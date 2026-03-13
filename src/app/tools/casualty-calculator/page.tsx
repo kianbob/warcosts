@@ -78,7 +78,7 @@ export default function CasualtyCalculatorPage() {
         <select
           value={selectedConflict}
           onChange={e => setSelectedConflict(e.target.value)}
-          className="w-full bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
+          className="w-full bg-white border border-stone-200 rounded-lg p-3 text-white"
         >
           {conflicts.map(c => (
             <option key={c.id} value={c.id}>
@@ -110,14 +110,14 @@ export default function CasualtyCalculatorPage() {
             placeholder="City name"
             value={cityName}
             onChange={e => setCityName(e.target.value)}
-            className="flex-1 bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
+            className="flex-1 bg-white border border-stone-200 rounded-lg p-3 text-white"
           />
           <input
             type="number"
             placeholder="Population"
             value={population}
             onChange={e => setPopulation(e.target.value ? Number(e.target.value) : '')}
-            className="w-40 bg-stone-800 border border-stone-200 rounded-lg p-3 text-white"
+            className="w-40 bg-white border border-stone-200 rounded-lg p-3 text-white"
           />
         </div>
 
@@ -127,7 +127,7 @@ export default function CasualtyCalculatorPage() {
             <button
               key={city.name}
               onClick={() => selectPreset(city)}
-              className="text-xs bg-stone-800 hover:border-red-300 hover:shadow-md text-stone-600 px-3 py-1.5 rounded-full transition"
+              className="text-xs bg-white border border-stone-200 hover:border-red-300 hover:shadow-md text-stone-600 px-3 py-1.5 rounded-full transition"
             >
               {city.name}
             </button>
@@ -160,7 +160,7 @@ export default function CasualtyCalculatorPage() {
             </p>
 
             {pct <= 100 && (
-              <div className="w-full bg-stone-800 rounded-full h-8 overflow-hidden">
+              <div className="w-full bg-white border border-stone-200 rounded-full h-8 overflow-hidden">
                 <div
                   className="bg-red-700 h-8 rounded-full transition-all flex items-center justify-center text-xs font-bold text-stone-900"
                   style={{ width: `${Math.max(pct, 1)}%` }}
@@ -208,15 +208,15 @@ export default function CasualtyCalculatorPage() {
       <div className="mt-12 pt-8 border-t border-stone-800">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">📊 Compare Wars</p>
             <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
-          <Link href="/tools/cost-calculator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/cost-calculator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">🧮 Cost Calculator</p>
             <p className="text-stone-500 text-sm">Your state&apos;s war cost</p>
           </Link>
-          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">❓ War Quiz</p>
             <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>

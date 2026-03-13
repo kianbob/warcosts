@@ -56,12 +56,12 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
           {w.name}
         </h1>
         {w.status && (
-          <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-700' : 'bg-stone-800 border-stone-200 ' + (statusColors[w.status || ''] || 'text-white')}`}>
+          <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-700' : 'bg-white border border-stone-200 border-stone-200 ' + (statusColors[w.status || ''] || 'text-white')}`}>
             {w.status}
           </span>
         )}
         {!w.status && w.inService !== undefined && (
-          <span className={`text-sm font-bold px-3 py-1 rounded-full border bg-stone-800 border-stone-200 ${w.inService ? 'text-green-700' : 'text-yellow-700'}`}>
+          <span className={`text-sm font-bold px-3 py-1 rounded-full border bg-white border border-stone-200 border-stone-200 ${w.inService ? 'text-green-700' : 'text-yellow-700'}`}>
             {w.inService ? 'In Service' : 'In Development'}
           </span>
         )}
@@ -73,49 +73,49 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {w.totalCost && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Total Cost</div>
             <div className="text-2xl font-bold text-red-700">{w.lifetimeCost || fmtMoney(w.totalCost * 1e6)}</div>
           </div>
         )}
         {w.unitCostLabel && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Unit Cost</div>
             <div className="text-2xl font-bold text-stone-900">{w.unitCostLabel}</div>
           </div>
         )}
         {w.costOverrun && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Cost Overrun</div>
             <div className="text-2xl font-bold text-yellow-700">+{w.costOverrun}%</div>
           </div>
         )}
         {devYears != null && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Development</div>
             <div className="text-2xl font-bold text-stone-900">{devYears} years</div>
           </div>
         )}
         {w.units && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Planned Units</div>
             <div className="text-2xl font-bold text-stone-900">{fmt(w.units)}</div>
           </div>
         )}
         {w.delivered != null && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Delivered</div>
             <div className="text-2xl font-bold text-green-700">{fmt(w.delivered)}</div>
           </div>
         )}
         {w.startYear && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">Start Year</div>
             <div className="text-2xl font-bold text-stone-900">{w.startYear}</div>
           </div>
         )}
         {w.iocYear && (
-          <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-500 uppercase tracking-wider">IOC Year</div>
             <div className="text-2xl font-bold text-stone-900">{w.iocYear}</div>
           </div>
@@ -128,7 +128,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
             <span className="text-stone-500">Delivery Progress</span>
             <span className="text-white">{deliveryPct}% ({fmt(w.delivered!)} / {fmt(w.units!)})</span>
           </div>
-          <div className="bg-stone-800 rounded-full h-4 overflow-hidden">
+          <div className="bg-white border border-stone-200 rounded-full h-4 overflow-hidden">
             <div className="bg-red-600 h-full rounded-full transition-all" style={{ width: `${deliveryPct}%` }} />
           </div>
         </div>
@@ -169,7 +169,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
 
       {/* Opportunity Cost */}
       {w.totalCost && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="text-lg font-bold text-stone-900 mb-3">What Else Could {fmtMoney(w.totalCost * 1e6)} Buy?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="text-stone-600">🏫 {fmt(Math.round(w.totalCost / 15))} new public schools</div>
@@ -188,7 +188,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
           <h2 className="text-xl font-bold text-stone-900 mb-3">Related Programs</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {related.map(r => (
-              <Link key={r.slug} href={`/weapons/${r.slug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
+              <Link key={r.slug} href={`/weapons/${r.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium">{r.name}</div>
                 <div className="text-stone-500 text-sm">{r.category} · {r.contractor || r.manufacturer || "Unknown"} · {r.costBillions ? `$${r.costBillions}B` : '—'}</div>
               </Link>

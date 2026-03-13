@@ -82,7 +82,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
         {country.byPresident.map(p => {
           const pct = ((p.strikes / country.totalStrikes) * 100).toFixed(1)
           return (
-            <div key={p.president} className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+            <div key={p.president} className="bg-white border border-stone-200 rounded-lg p-4">
               <div className="flex items-center justify-between mb-2">
                 <span className="font-semibold text-white">{p.president}</span>
                 <span className="text-red-700 font-bold">{fmt(p.strikes)} strikes ({pct}%)</span>
@@ -98,7 +98,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
 
       {/* Year-by-Year */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">📊 Year-by-Year Breakdown</h2>
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-5 mb-10">
+      <div className="bg-white border border-stone-200 rounded-lg p-5 mb-10">
         <div className="space-y-2">
           {country.byYear.map(y => (
             <div key={y.year} className="flex items-center gap-3">
@@ -129,14 +129,14 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
 
       {/* Notes & Controversies */}
       {country.notes && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📝 Notes</h2>
           <p className="text-stone-600 leading-relaxed">{country.notes}</p>
         </div>
       )}
 
       {country.controversies && (
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">🔥 Controversies</h2>
           <p className="text-stone-600 leading-relaxed">{country.controversies}</p>
         </div>
@@ -145,7 +145,7 @@ export default async function DroneStrikeCountryPage({ params }: { params: Promi
       {/* Navigation */}
       <div className="flex flex-wrap gap-3 mb-8">
         {data.countries.filter(c => c.slug !== slug).map(c => (
-          <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="bg-stone-800 border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md hover:text-white transition text-sm">
+          <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-2 text-stone-600 hover:border-red-300 hover:shadow-md hover:text-white transition text-sm">
             {c.country} ({fmt(c.totalStrikes)})
           </Link>
         ))}

@@ -221,7 +221,7 @@ export default function WarQuizPage() {
 
       {/* Progress */}
       <div className="flex items-center gap-3 mb-8">
-        <div className="flex-1 bg-stone-800 rounded-full h-2">
+        <div className="flex-1 bg-white border border-stone-200 rounded-full h-2">
           <div
             className="bg-red-700 h-2 rounded-full transition-all"
             style={{ width: `${((current + 1) / questions.length) * 100}%` }}
@@ -239,7 +239,7 @@ export default function WarQuizPage() {
           {q.options.map((opt, i) => {
             let cls = 'border border-stone-200 rounded-lg p-4 text-left w-full transition cursor-pointer '
             if (selected === null) {
-              cls += 'hover:border-red-600 hover:bg-stone-800 text-stone-200'
+              cls += 'hover:border-red-600 hover:bg-white border border-stone-200 text-stone-200'
             } else if (i === q.correct) {
               cls += 'border-green-500 bg-green-900/30 text-green-300'
             } else if (i === selected) {
@@ -260,7 +260,7 @@ export default function WarQuizPage() {
 
       {/* Context after answer */}
       {showResult && (
-        <div className="bg-stone-800 border border-stone-200 rounded-xl p-5 mb-4">
+        <div className="bg-white border border-stone-200 rounded-xl p-5 mb-4">
           <p className="text-sm font-semibold mb-1 text-stone-600">
             {selected === q.correct ? '✅ Correct!' : '❌ Incorrect'}
           </p>

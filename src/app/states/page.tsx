@@ -43,19 +43,19 @@ export default function StatesIndexPage() {
 
       {/* Summary Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center">
           <div className="text-2xl md:text-3xl font-bold text-red-400">{fmtMoney(totalSpending * 1e9)}</div>
           <div className="text-stone-400 text-sm mt-1">Total DoD Spending</div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center">
           <div className="text-2xl md:text-3xl font-bold text-red-400">{fmt(totalJobs)}</div>
           <div className="text-stone-400 text-sm mt-1">Direct Defense Jobs</div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center">
           <div className="text-2xl md:text-3xl font-bold text-red-400">{fmt(totalBases)}</div>
           <div className="text-stone-400 text-sm mt-1">Military Installations</div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center">
           <div className="text-2xl md:text-3xl font-bold text-red-400">{states.length}</div>
           <div className="text-stone-400 text-sm mt-1">States & Territories</div>
         </div>

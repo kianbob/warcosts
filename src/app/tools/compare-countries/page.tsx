@@ -44,14 +44,14 @@ export default function CompareCountriesPage() {
           <div>
             <label className="text-stone-500 text-sm block mb-1">Country A</label>
             <select value={a} onChange={e => setA(e.target.value)}
-              className="w-full bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 text-white">
+              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-white">
               {countries.map(c => <option key={c.slug} value={c.slug}>{c.name} — #{c.rank}</option>)}
             </select>
           </div>
           <div>
             <label className="text-stone-500 text-sm block mb-1">Country B</label>
             <select value={b} onChange={e => setB(e.target.value)}
-              className="w-full bg-stone-800 border border-stone-200 rounded-lg px-4 py-3 text-white">
+              className="w-full bg-white border border-stone-200 rounded-lg px-4 py-3 text-white">
               {countries.map(c => <option key={c.slug} value={c.slug}>{c.name} — #{c.rank}</option>)}
             </select>
           </div>
@@ -60,7 +60,7 @@ export default function CompareCountriesPage() {
         {ca && cb && (
           <>
             {/* Bar Chart */}
-            <div className="bg-stone-800 rounded-xl border border-stone-200 p-6 mb-8">
+            <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6 mb-8">
               <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Spending Comparison</h2>
               <div className="space-y-4">
                 <div>
@@ -92,7 +92,7 @@ export default function CompareCountriesPage() {
             </div>
 
             {/* Stats Table */}
-            <div className="bg-stone-800 rounded-xl border border-stone-200 overflow-hidden">
+            <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 overflow-hidden">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-stone-200">

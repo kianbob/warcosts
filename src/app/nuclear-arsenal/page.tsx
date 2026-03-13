@@ -122,7 +122,7 @@ export default function NuclearArsenalPage() {
             key={s.id}
             onClick={() => setActiveSection(s.id)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
-              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-stone-800 text-stone-500 hover:text-white'
+              activeSection === s.id ? 'bg-red-900 text-white' : 'bg-white border border-stone-200 text-stone-500 hover:text-white'
             }`}
           >
             {s.label}
@@ -207,7 +207,7 @@ export default function NuclearArsenalPage() {
             </ResponsiveContainer>
           </div>
 
-          <div className="bg-stone-800 rounded-xl p-5 text-sm text-stone-600 space-y-2">
+          <div className="bg-white border border-stone-200 rounded-xl p-5 text-sm text-stone-600 space-y-2">
             <p>• <strong>1986 Peak:</strong> US held 23,317 and USSR held 45,000 warheads. Combined yield exceeded 1 million Hiroshimas.</p>
             <p>• <strong>Arms Control:</strong> START I (1991), Moscow Treaty (2002), and New START (2010) reduced deployed weapons, but Russia suspended participation in 2023.</p>
             <p>• <strong>Today:</strong> Numbers are lower but weapons are more accurate, stealthier, and harder to intercept. A smaller arsenal is not necessarily a safer world.</p>
@@ -339,7 +339,7 @@ export default function NuclearArsenalPage() {
                 <span className={`text-xs px-2 py-1 rounded-full ${
                   p.status === 'Over budget' ? 'bg-red-900/50 text-red-600' :
                   p.status === 'In production' ? 'bg-yellow-900/50 text-yellow-300' :
-                  'bg-stone-800 text-stone-500'
+                  'bg-white border border-stone-200 text-stone-500'
                 }`}>{p.status}</span>
               </div>
             ))}

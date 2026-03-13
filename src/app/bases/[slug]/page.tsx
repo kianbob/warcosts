@@ -91,23 +91,23 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Status</div>
           <div className={`text-lg font-bold ${base.status === 'Active' ? 'text-green-400' : base.status === 'Closed' ? 'text-red-400' : 'text-yellow-400'}`}>
             {base.status}
           </div>
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Type</div>
           <div className="text-lg font-bold text-white">{typeLabel.split('/')[0].trim()}</div>
         </div>
         {base.component && (
-          <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+          <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
             <div className="text-xs text-stone-400 uppercase tracking-wider">Branch</div>
             <div className="text-lg font-bold text-white">{base.component}</div>
           </div>
         )}
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Location</div>
           <div className="text-lg font-bold text-white">{isOverseas ? 'Overseas' : 'Domestic'}</div>
         </div>
@@ -146,7 +146,7 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       )}
 
       {base.lat && base.lng && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 mb-8">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 mb-8">
           <h2 className="text-lg font-bold text-white mb-2">📍 Coordinates</h2>
           <p className="text-stone-300">
             {base.lat.toFixed(4)}°N, {base.lng.toFixed(4)}°E ·{' '}
@@ -164,7 +164,7 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {nearby.map(b => (
-              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
+              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium">{b.name}</div>
                 <div className="text-stone-400 text-sm">{b.component || b.type} · {b.status}</div>
               </Link>

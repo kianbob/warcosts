@@ -78,15 +78,15 @@ export default async function ContractorDetailPage({ params }: { params: Promise
       {desc && <p className="text-stone-600 leading-relaxed text-lg mb-6">{desc}</p>}
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-500 uppercase tracking-wider">FY2024 Contracts</div>
           <div className="text-2xl font-bold text-red-700">{fmtMoney(c.amount)}</div>
         </div>
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-500 uppercase tracking-wider">Rank</div>
           <div className="text-2xl font-bold text-stone-900">#{c.rank}</div>
         </div>
-        <div className="bg-stone-800 border border-stone-200 rounded-lg p-4">
+        <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-500 uppercase tracking-wider">Subsidiaries</div>
           <div className="text-2xl font-bold text-stone-900">{c.subsidiaries.length}</div>
         </div>
@@ -102,7 +102,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
               return (
                 <div key={fy} className="flex items-center gap-3">
                   <span className="text-stone-500 text-sm font-mono w-16">{fy}</span>
-                  <div className="flex-1 bg-stone-800 rounded-full h-5 overflow-hidden">
+                  <div className="flex-1 bg-white border border-stone-200 rounded-full h-5 overflow-hidden">
                     <div className="bg-red-600 h-full rounded-full" style={{ width: `${(amount / max) * 100}%` }} />
                   </div>
                   <span className="text-white text-sm font-mono w-20 text-right">{fmtMoney(amount)}</span>
@@ -136,7 +136,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
           <h2 className="text-xl font-bold text-stone-900 mb-3">Weapons Programs</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {linkedWeapons.map(w => (
-              <Link key={w.slug} href={`/weapons/${w.slug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
+              <Link key={w.slug} href={`/weapons/${w.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
                 <div className="text-white font-medium">{w.name}</div>
                 <div className="text-stone-500 text-sm">{w.category} · {w.costBillions ? `$${w.costBillions}B` : '—'} · {w.status}</div>
               </Link>

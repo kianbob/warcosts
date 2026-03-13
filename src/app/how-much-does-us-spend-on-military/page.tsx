@@ -87,7 +87,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
         </div>
 
         {/* Quick answer box */}
-        <div className="bg-stone-800 border border-red-600/30 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 border border-red-600/30 rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             The Short Answer
           </h2>
@@ -106,7 +106,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
         </h2>
         <div className="overflow-x-auto mb-8">
           <table className="w-full text-sm border border-stone-200 rounded-lg overflow-hidden">
-            <thead className="bg-stone-800">
+            <thead className="bg-white border border-stone-200">
               <tr>
                 <th className="text-left p-3 text-stone-500 font-[family-name:var(--font-heading)]">Year</th>
                 <th className="text-right p-3 text-stone-500 font-[family-name:var(--font-heading)]">Amount (2024$)</th>
@@ -184,7 +184,7 @@ export default function HowMuchDoesUSSpendOnMilitary() {
         </div>
 
         {/* Context / what it means */}
-        <div className="bg-stone-800 border border-stone-200 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             What Does $968 Billion Actually Mean?
           </h2>

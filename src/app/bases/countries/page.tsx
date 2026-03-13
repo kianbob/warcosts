@@ -30,10 +30,10 @@ export default function BaseCountriesPage() {
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{overseas.length}</div><div className="text-xs text-stone-400">Countries</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(totalOverseas)}</div><div className="text-xs text-stone-400">Overseas Installations</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(overseas.reduce((s, c) => s + c.bases, 0))}</div><div className="text-xs text-stone-400">Major Bases</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-stone-400">{fmt(overseas.reduce((s, c) => s + c.lilyPads, 0))}</div><div className="text-xs text-stone-400">Lily Pads</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{overseas.length}</div><div className="text-xs text-stone-400">Countries</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{fmt(totalOverseas)}</div><div className="text-xs text-stone-400">Overseas Installations</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{fmt(overseas.reduce((s, c) => s + c.bases, 0))}</div><div className="text-xs text-stone-400">Major Bases</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-stone-400">{fmt(overseas.reduce((s, c) => s + c.lilyPads, 0))}</div><div className="text-xs text-stone-400">Lily Pads</div></div>
       </div>
 
       <div className="overflow-x-auto mb-8">

@@ -39,7 +39,7 @@ export default function ArmsSalesCountriesPage() {
 
       <div className="space-y-4 my-8">
         {data.sort((a, b) => b.totalSince2009 - a.totalSince2009).map((c, i) => (
-          <Link key={c.slug} href={`/arms-sales/${c.slug}`} className="block bg-stone-800 border border-stone-700 rounded-lg p-5 hover:bg-stone-700 transition">
+          <Link key={c.slug} href={`/arms-sales/${c.slug}`} className="block bg-white border border-stone-200 border border-stone-700 rounded-lg p-5 hover:bg-stone-700 transition">
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-3">
                 <span className="text-stone-500 text-sm">#{i + 1}</span>

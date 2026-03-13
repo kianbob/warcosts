@@ -82,7 +82,7 @@ export default function GlobalSpendingPage() {
 
       {/* Top 15 Bar Chart */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">🌍 Top 15 Military Spenders</h2>
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-5 mb-10">
+      <div className="bg-white border border-stone-200 rounded-lg p-5 mb-10">
         <div className="space-y-3">
           {top15.map((e, i) => {
             const pct = (e.amount / usAmount) * 100
@@ -120,7 +120,7 @@ export default function GlobalSpendingPage() {
               const recent = entries.slice(-10)
               const maxAmt = Math.max(...recent.map(e => e.amount))
               return (
-                <div key={country} className="bg-stone-800 border border-stone-200 rounded-lg p-5">
+                <div key={country} className="bg-white border border-stone-200 rounded-lg p-5">
                   <h3 className="font-semibold text-white mb-3">{flagMap[country] || ''} {country}</h3>
                   <div className="flex items-end gap-1 h-20">
                     {recent.map(e => (
@@ -146,7 +146,7 @@ export default function GlobalSpendingPage() {
 
       {/* All Countries Table */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">📋 All {latest.length} Countries</h2>
-      <div className="bg-stone-800 border border-stone-200 rounded-lg overflow-hidden mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg overflow-hidden mb-8">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-stone-200">

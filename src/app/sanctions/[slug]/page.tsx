@@ -101,16 +101,16 @@ export default async function SanctionDetailPage({ params }: { params: Promise<{
       <section className="mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Related</h2>
         <div className="flex flex-wrap gap-3">
-          <Link href={`/countries/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href={`/countries/${targetSlug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             {s.target} Country Profile
           </Link>
-          <Link href={`/arms-sales/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href={`/arms-sales/${targetSlug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             Arms Sales → {s.target}
           </Link>
-          <Link href={`/foreign-aid/${targetSlug}`} className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href={`/foreign-aid/${targetSlug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             Foreign Aid → {s.target}
           </Link>
-          <Link href="/sanctions" className="bg-stone-800 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
+          <Link href="/sanctions" className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md rounded-lg px-4 py-2 text-red-700 text-sm transition-colors">
             All Sanctions →
           </Link>
         </div>

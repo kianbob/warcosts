@@ -83,7 +83,7 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Explainer */}
-        <div className="bg-stone-800 border border-red-600/30 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 border border-red-600/30 rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">
             What Counts as a &ldquo;Base&rdquo;?
           </h2>
@@ -182,7 +182,7 @@ export default function USMilitaryBasesAroundTheWorld() {
         </div>
 
         {/* Environmental and social impact */}
-        <div className="bg-stone-800 border border-stone-200 rounded-xl p-6 my-8">
+        <div className="bg-white border border-stone-200 rounded-xl p-6 my-8">
           <h3 className="font-[family-name:var(--font-heading)] font-bold text-stone-900 mb-3">
             💡 The Hidden Costs of Overseas Bases
           </h3>

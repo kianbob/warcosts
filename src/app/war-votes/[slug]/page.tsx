@@ -69,7 +69,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
 
       {/* Vote Tallies */}
       <div className="grid grid-cols-2 gap-4 my-8">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6">
           <h3 className="text-sm text-stone-400 mb-2">🏛️ House of Representatives</h3>
           <p className="text-3xl font-bold text-white font-[family-name:var(--font-heading)]">{vote.houseVote}</p>
           {house && (
@@ -85,7 +85,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
             </div>
           )}
         </div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6">
           <h3 className="text-sm text-stone-400 mb-2">🏛️ Senate</h3>
           <p className="text-3xl font-bold text-white font-[family-name:var(--font-heading)]">{vote.senateVote}</p>
           {senate && (
@@ -105,7 +105,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
 
       {/* Notes */}
       {vote.notes && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">📝 Details</h2>
           <p className="text-stone-300 leading-relaxed">{vote.notes}</p>
         </div>
@@ -113,7 +113,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
 
       {/* Context */}
       {vote.context && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">📖 Historical Context</h2>
           <p className="text-stone-300 leading-relaxed">{vote.context}</p>
         </div>
@@ -129,7 +129,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
 
       {/* Key Figures */}
       {vote.keyFigures && vote.keyFigures.length > 0 && (
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-6 mb-8">
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white mb-3">👤 Key Figures</h2>
           <ul className="space-y-1">
             {vote.keyFigures.map((f, i) => (
@@ -145,13 +145,13 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {/* Navigation */}
       <div className="flex justify-between mt-8 mb-8">
         {prev ? (
-          <Link href={`/war-votes/${prev.slug}`} className="bg-stone-800 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition">
+          <Link href={`/war-votes/${prev.slug}`} className="bg-white border border-stone-200 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition">
             <p className="text-xs text-stone-400">← Previous</p>
             <p className="font-semibold text-white text-sm">{prev.year}: {prev.name.substring(0, 40)}...</p>
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/war-votes/${next.slug}`} className="bg-stone-800 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition text-right">
+          <Link href={`/war-votes/${next.slug}`} className="bg-white border border-stone-200 border border-stone-700 rounded-lg px-4 py-3 hover:bg-stone-700 transition text-right">
             <p className="text-xs text-stone-400">Next →</p>
             <p className="font-semibold text-white text-sm">{next.year}: {next.name.substring(0, 40)}...</p>
           </Link>

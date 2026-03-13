@@ -307,7 +307,7 @@ export default function IntelligencePage() {
         {domesticAbuses.map(abuse => (
           <div key={abuse.program} className="bg-white rounded-xl shadow-sm border p-6">
             <div className="flex items-center gap-3 mb-2">
-              <span className="bg-stone-800 text-white text-sm font-bold px-3 py-1 rounded">{abuse.agency}</span>
+              <span className="bg-white border border-stone-200 text-white text-sm font-bold px-3 py-1 rounded">{abuse.agency}</span>
               <h4 className="font-[family-name:var(--font-heading)] text-lg font-bold text-stone-800">{abuse.program}</h4>
             </div>
             <p className="text-stone-600 text-sm mb-2">{abuse.detail}</p>

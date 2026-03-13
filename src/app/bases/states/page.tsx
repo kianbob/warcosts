@@ -26,7 +26,7 @@ export default function BaseStatesPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
         {states.map((s, i) => (
-          <Link key={s.slug} href={`/bases/states/${s.code?.toLowerCase() || s.slug}`} className="bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors">
+          <Link key={s.slug} href={`/bases/states/${s.code?.toLowerCase() || s.slug}`} className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors">
             <div className="flex justify-between items-start">
               <div>
                 <span className="text-stone-500 text-xs mr-2">#{i + 1}</span>

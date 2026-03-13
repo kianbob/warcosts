@@ -40,17 +40,17 @@ export default function WeaponsPage() {
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{fmtMoney(totalCost)}</div><div className="text-xs text-stone-400">Total Program Costs</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{weapons.length}</div><div className="text-xs text-stone-400">Major Programs</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{weapons.filter(w => (w.costOverrun || 0) > 50).length}</div><div className="text-xs text-stone-400">50%+ Over Budget</div></div>
-        <div className="bg-stone-800 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-500">{cancelled.length}</div><div className="text-xs text-stone-400">Cancelled (Billions Wasted)</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-400">{fmtMoney(totalCost)}</div><div className="text-xs text-stone-400">Total Program Costs</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-white">{weapons.length}</div><div className="text-xs text-stone-400">Major Programs</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{weapons.filter(w => (w.costOverrun || 0) > 50).length}</div><div className="text-xs text-stone-400">50%+ Over Budget</div></div>
+        <div className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-500">{cancelled.length}</div><div className="text-xs text-stone-400">Cancelled (Billions Wasted)</div></div>
       </div>
 
       {/* Most Expensive */}
       <h2 className="text-xl font-bold text-white mb-3">Most Expensive Programs</h2>
       <div className="space-y-2 mb-8">
         {weapons.sort((a, b) => (b.totalCost || 0) - (a.totalCost || 0)).slice(0, 10).map((w, i) => (
-          <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex items-center gap-4 bg-stone-800 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors">
+          <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex items-center gap-4 bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors">
             <span className="text-stone-500 text-lg font-mono w-8">#{i + 1}</span>
             <div className="flex-1">
               <div className="text-white font-medium">{w.name}</div>
@@ -70,7 +70,7 @@ export default function WeaponsPage() {
         {categories.map(cat => {
           const catWeapons = weapons.filter(w => w.category === cat)
           return (
-            <div key={cat} className="bg-stone-800 border border-stone-700 rounded-lg p-4">
+            <div key={cat} className="bg-white border border-stone-200 border border-stone-700 rounded-lg p-4">
               <h3 className="text-white font-bold mb-2">{cat} ({catWeapons.length})</h3>
               <div className="space-y-1">
                 {catWeapons.map(w => (

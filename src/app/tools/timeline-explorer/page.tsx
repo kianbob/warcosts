@@ -111,8 +111,8 @@ export default function TimelineExplorerPage() {
     return (
       <div className="max-w-6xl mx-auto px-4 py-8">
         <div className="animate-pulse space-y-4">
-          <div className="h-10 bg-stone-800 rounded w-1/3" />
-          <div className="h-64 bg-stone-800 rounded" />
+          <div className="h-10 bg-white border border-stone-200 rounded w-1/3" />
+          <div className="h-64 bg-white border border-stone-200 rounded" />
         </div>
       </div>
     )
@@ -144,7 +144,7 @@ export default function TimelineExplorerPage() {
             className={`px-4 py-2 rounded-full text-sm font-medium border transition ${
               filters[type]
                 ? `${TYPE_COLORS[type].bg} ${TYPE_COLORS[type].label} border-current`
-                : 'bg-stone-800 text-stone-500 border-stone-200'
+                : 'bg-white border border-stone-200 text-stone-500 border-stone-200'
             }`}
           >
             <span className={`inline-block w-2.5 h-2.5 rounded-full mr-2 ${filters[type] ? TYPE_COLORS[type].dot : 'bg-stone-600'}`} />
@@ -188,7 +188,7 @@ export default function TimelineExplorerPage() {
         </div>
 
         {/* The line */}
-        <div className="relative h-2 bg-stone-800 rounded-full">
+        <div className="relative h-2 bg-white border border-stone-200 rounded-full">
           {decades.map(d => (
             <div key={d} className="absolute top-0 w-px h-2 bg-stone-700"
               style={{ left: `${getPosition(d)}%` }} />
@@ -263,15 +263,15 @@ export default function TimelineExplorerPage() {
       <div className="mt-12 pt-8 border-t border-stone-800">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-4">More Tools</h2>
         <div className="grid md:grid-cols-3 gap-4">
-          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/compare-wars" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">📊 Compare Wars</p>
             <p className="text-stone-500 text-sm">Side-by-side conflict data</p>
           </Link>
-          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/war-quiz" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">❓ War Quiz</p>
             <p className="text-stone-500 text-sm">Test your knowledge</p>
           </Link>
-          <Link href="/tools/budget-simulator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-stone-800 transition">
+          <Link href="/tools/budget-simulator" className="bg-stone-900 border border-stone-800 rounded-lg p-4 hover:bg-white border border-stone-200 transition">
             <p className="font-bold text-stone-900">💰 Budget Simulator</p>
             <p className="text-stone-500 text-sm">Redesign the federal budget</p>
           </Link>

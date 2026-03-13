@@ -32,19 +32,19 @@ export default async function AidCountriesPage() {
 
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 mb-8">
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(totalAid * 1e6)}</p>
             <p className="text-xs text-stone-500">Total US Aid (Top 25)</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(totalAnnual * 1e6)}</p>
             <p className="text-xs text-stone-500">Annual Aid (2024)</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(countries.length)}</p>
             <p className="text-xs text-stone-500">Top Recipients</p>
           </div>
-          <div className="bg-stone-800 rounded-xl border border-stone-200 p-6">
+          <div className="bg-white border border-stone-200 rounded-xl border border-stone-200 p-6">
             <p className="text-3xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{avgMilPct.toFixed(0)}%</p>
             <p className="text-xs text-stone-500">Avg Military Share</p>
           </div>

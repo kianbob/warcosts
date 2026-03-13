@@ -98,7 +98,7 @@ export default function DroneStrikesPage() {
         {countries.sort((a, b) => b.totalStrikes - a.totalStrikes).map(c => {
           const pct = ((c.totalStrikes / totals.totalStrikes) * 100).toFixed(1)
           return (
-            <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="block bg-stone-800 border border-stone-200 rounded-lg p-5 hover:border-red-300 hover:shadow-md transition">
+            <Link key={c.slug} href={`/drone-strikes/${c.slug}`} className="block bg-white border border-stone-200 rounded-lg p-5 hover:border-red-300 hover:shadow-md transition">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-lg font-semibold text-white">{c.country}</h3>
                 <span className="text-red-700 font-bold">{fmt(c.totalStrikes)} strikes</span>
@@ -120,7 +120,7 @@ export default function DroneStrikesPage() {
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">🏛️ By President</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         {presList.map(p => (
-          <div key={p.president} className="bg-stone-800 border border-stone-200 rounded-lg p-4 text-center">
+          <div key={p.president} className="bg-white border border-stone-200 rounded-lg p-4 text-center">
             <p className="font-semibold text-white text-lg">{p.president}</p>
             <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(p.strikes)}</p>
             <p className="text-xs text-stone-500">strikes</p>
@@ -130,7 +130,7 @@ export default function DroneStrikesPage() {
       </div>
 
       {/* Context */}
-      <div className="bg-stone-800 border border-stone-200 rounded-lg p-6 mb-8">
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📖 Context</h2>
         <p className="text-stone-600 leading-relaxed">
           The US drone program began under George W. Bush and expanded dramatically under Obama, who authorized 10x more strikes than his predecessor. Drone strikes are conducted under the 2001 AUMF and covert action authorities, often with no congressional oversight. Independent investigations have consistently found civilian casualty rates far higher than official Pentagon estimates. The program operates across multiple countries where the US has never declared war.
