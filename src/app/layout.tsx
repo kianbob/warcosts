@@ -42,6 +42,10 @@ const jsonLd = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XG47GBJZ4" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7XG47GBJZ4');` }} />
+      </head>
       <body className="font-[family-name:var(--font-body)] bg-stone-50 text-stone-900 antialiased">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Navbar />
