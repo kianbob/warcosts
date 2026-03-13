@@ -46,13 +46,13 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
-      {/* Breaking: Iran 2026 — Day 13 */}
+      {/* Breaking: Iran 2026 — Day 14 */}
       {iranConflict && (
         <section className="bg-red-900 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 13: 1,348+ killed, 8 US troops dead, 12+ countries under fire, Hormuz mined, $11.3B in 6 days</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 14: 1,444+ killed, 13+ US troops dead, 15,000+ targets struck, Hormuz closed, new Supreme Leader vows revenge</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -70,12 +70,12 @@ export default function HomePage() {
             {/* Key Stats Bar */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {[
-                { value: '1,348+', label: 'Killed in Iran' },
+                { value: '1,444+', label: 'Killed in Iran' },
                 { value: '8', label: 'US Troops Dead' },
                 { value: '12+', label: 'Countries Under Fire' },
                 { value: '$11.3B', label: 'First 6 Days (Pentagon)' },
                 { value: '$100+', label: 'Oil per Barrel' },
-                { value: '5,000+', label: 'Targets Struck' },
+                { value: '15,000+', label: 'Targets Struck' },
               ].map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
@@ -86,13 +86,14 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 13 (March 12)</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 14 (March 13)</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 14', text: 'All 6 KC-135 crew confirmed dead — US death toll hits 13+. New Supreme Leader Mojtaba Khamenei vows attacks continue. 15,000+ targets struck. 1,444 killed in Iran. 250+ US orgs demand Congress halt funding.', link: '/analysis/iran-2026' },
                 { time: 'Day 13', text: 'KC-135 tanker crashes in Iraq. Israel claims top nuclear scientists killed. Tehran sets 3 conditions for peace. Oil tankers hit in Iraq.', link: '/analysis/iran-2026' },
                 { time: 'Day 12', text: 'Pentagon: first 6 days cost $11.3 BILLION. Israeli jets strike Basij sites in Tehran residential districts. Dubai airport struck by drones.', link: '/analysis/iran-cost-per-second' },
-                { time: 'Day 11', text: 'Iran mining Strait of Hormuz — 16 minelayers destroyed. 15M bbl/day stranded in Gulf. 5,000+ targets struck total.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 11', text: 'Iran mining Strait of Hormuz — 16 minelayers destroyed. 15M bbl/day stranded in Gulf.', link: '/analysis/hormuz-crisis' },
                 { time: 'Day 10', text: 'Bahrain refinery ablaze from Iranian missile. Oil past $100. Hezbollah-Iran launch coordinated cluster munition strikes on Israel.', link: '/analysis/iran-regional-war' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">

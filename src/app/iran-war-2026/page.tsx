@@ -59,6 +59,7 @@ const timeline = [
   { date: 'Mar 9', event: 'Iranian missile sets Bahrain refinery ablaze. Bahrain declares force majeure on oil shipments.' },
   { date: 'Mar 10', event: 'Iran mining Strait of Hormuz — CENTCOM destroys 16 minelayers. 15M bbl/day stranded. Hezbollah and Iran launch coordinated cluster munition strikes on Israel.' },
   { date: 'Mar 11', event: 'Pentagon tells Congress: first 6 days cost $11.3 BILLION ($1.88B/day). Israeli jets strike Basij sites in Tehran residential districts. Dubai airport struck by drones.' },
+  { date: 'Mar 13', event: 'All 6 KC-135 crew confirmed dead — US death toll 13+. New Supreme Leader Mojtaba Khamenei vows continued attacks. 15,000+ targets struck. Iran: 1,444 killed, 18,551 injured. 250+ US orgs demand Congress halt funding. Israel strikes Tehran and Shiraz.' },
   { date: 'Mar 12', event: 'KC-135 tanker crashes in Iraq. Israel claims top nuclear scientists killed. Tehran sets 3 conditions for peace. 1,348 killed, 17,000 injured in Iran.' },
 ]
 
@@ -75,7 +76,7 @@ const iranArticles = [
   { href: '/analysis/iran-2026', title: 'Whose War Is This? Full Analysis', desc: 'The complete story from October 7 to Operation Epic Fury.' },
   { href: '/analysis/iran-day-by-day', title: 'Day-by-Day War Diary', desc: 'Verified casualties, costs, and events — updated daily.' },
   { href: '/analysis/iran-cost-per-second', title: 'The $21,800-Per-Second War', desc: '$11.3B in 6 days — Pentagon confirmed. Every dollar broken down.' },
-  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: '1,348 killed, 17,000 injured, 168 children — the human toll.' },
+  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: '1,444 killed, 18,551 injured, 168 children — the human toll.' },
   { href: '/analysis/iran-regional-war', title: '12+ Countries, 13 Days', desc: 'How the war spread across the entire Middle East.' },
   { href: '/analysis/lebanon-burns', title: 'While Lebanon Burns', desc: 'America\'s $22B blank check for Israel\'s Lebanon front.' },
   { href: '/analysis/iran-russia-shadow-war', title: 'Russia\'s Shadow War', desc: 'Moscow is sharing US military positions with Tehran.' },
