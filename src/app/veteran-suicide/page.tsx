@@ -96,7 +96,7 @@ export default function VeteranSuicidePage() {
       <Breadcrumbs items={[{ label: 'Veteran Suicide' }]} />
 
       {/* 988 Crisis Banner - PROMINENT */}
-      <div className="bg-red-900 text-white rounded-xl p-6 mb-8 text-center">
+      <div className="bg-red-900 text-stone-900 rounded-xl p-6 mb-8 text-center">
         <p className="font-bold text-xl mb-2">If you or someone you know is in crisis</p>
         <p className="text-5xl font-bold font-[family-name:var(--font-heading)] mb-2">988</p>
         <p className="text-lg">Suicide &amp; Crisis Lifeline — Veterans press 1</p>

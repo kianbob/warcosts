@@ -8,7 +8,7 @@ export default function NotFound() {
         <p className="text-xl text-muted mb-8">This page doesn&apos;t exist — unlike the $11.3 trillion we spent on wars.</p>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <Link href="/" className="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-accent transition">Home</Link>
+          <Link href="/" className="bg-primary text-stone-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent transition">Home</Link>
           <Link href="/conflicts" className="border border-stone-300 px-6 py-3 rounded-lg font-semibold hover:bg-stone-50 transition">All Conflicts</Link>
           <Link href="/search" className="border border-stone-300 px-6 py-3 rounded-lg font-semibold hover:bg-stone-50 transition">Search</Link>
         </div>

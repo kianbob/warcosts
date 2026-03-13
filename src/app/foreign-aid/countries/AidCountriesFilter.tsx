@@ -15,7 +15,7 @@ export default function AidCountriesFilter({ countries }: { countries: any[] }) 
       <div className="flex flex-wrap gap-2 mb-6">
         {regions.map(r => (
           <button key={r} onClick={() => setRegion(r)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${region === r ? 'bg-red-600 text-white' : 'bg-white border border-stone-200 text-stone-300 hover:bg-stone-700 border border-stone-700'}`}>
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition ${region === r ? 'bg-red-600 text-stone-900' : 'bg-white border border-stone-200 text-stone-600 hover:bg-stone-50 border border-stone-200'}`}>
             {r}
           </button>
         ))}
@@ -24,7 +24,7 @@ export default function AidCountriesFilter({ countries }: { countries: any[] }) 
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-stone-700 text-stone-400 text-left">
+            <tr className="border-b border-stone-200 text-stone-400 text-left">
               <th className="py-3 pr-4">#</th>
               <th className="py-3 pr-4">Country</th>
               <th className="py-3 pr-4">Region</th>
@@ -36,18 +36,18 @@ export default function AidCountriesFilter({ countries }: { countries: any[] }) 
           </thead>
           <tbody>
             {filtered.map((c, i) => (
-              <tr key={c.slug} className="border-b border-stone-800 hover:bg-slate-800 transition">
+              <tr key={c.slug} className="border-b border-stone-200 hover:bg-stone-50 transition">
                 <td className="py-3 pr-4 text-stone-500">{i + 1}</td>
                 <td className="py-3 pr-4">
-                  <Link href={`/foreign-aid/${c.slug}`} className="text-red-400 hover:text-red-300 font-medium">
+                  <Link href={`/foreign-aid/${c.slug}`} className="text-red-700 hover:text-red-300 font-medium">
                     {c.country}
                   </Link>
                 </td>
                 <td className="py-3 pr-4 text-stone-400">{c.region}</td>
-                <td className="py-3 pr-4 text-right font-mono text-stone-300">{fmtMoney(c.totalSince2001 * 1e6)}</td>
-                <td className="py-3 pr-4 text-right font-mono text-stone-300">{fmtMoney(c.annual2024 * 1e6)}</td>
+                <td className="py-3 pr-4 text-right font-mono text-stone-600">{fmtMoney(c.totalSince2001 * 1e6)}</td>
+                <td className="py-3 pr-4 text-right font-mono text-stone-600">{fmtMoney(c.annual2024 * 1e6)}</td>
                 <td className="py-3 pr-4 text-right">
-                  <span className={c.militaryPct >= 70 ? 'text-red-400' : 'text-stone-300'}>{c.militaryPct}%</span>
+                  <span className={c.militaryPct >= 70 ? 'text-red-700' : 'text-stone-600'}>{c.militaryPct}%</span>
                 </td>
                 <td className="py-3 text-right text-stone-400">{c.population}M</td>
               </tr>

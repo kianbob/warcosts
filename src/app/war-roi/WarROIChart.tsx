@@ -72,17 +72,17 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
       return (
         <div className="bg-slate-800 border border-stone-600 rounded-lg p-4 shadow-lg max-w-xs">
           <h3 className="font-bold text-stone-200 mb-2">{data.fullName}</h3>
-          <p className="text-stone-300 text-sm mb-1">{data.years} ({data.duration} years)</p>
-          <p className="text-stone-300 text-sm mb-1">Era: {data.era}</p>
-          <p className="text-stone-300 text-sm mb-1">Cost: ${data.cost.toFixed(1)}B (2024$)</p>
-          <p className="text-stone-300 text-sm mb-1">US Deaths: {data.deaths.toLocaleString()}</p>
-          <p className="text-stone-300 text-sm mb-1">Objectives Met: {data.objectivesMet}</p>
-          <p className="text-stone-300 text-sm mb-1">Outcome: {data.outcome}</p>
+          <p className="text-stone-600 text-sm mb-1">{data.years} ({data.duration} years)</p>
+          <p className="text-stone-600 text-sm mb-1">Era: {data.era}</p>
+          <p className="text-stone-600 text-sm mb-1">Cost: ${data.cost.toFixed(1)}B (2024$)</p>
+          <p className="text-stone-600 text-sm mb-1">US Deaths: {data.deaths.toLocaleString()}</p>
+          <p className="text-stone-600 text-sm mb-1">Objectives Met: {data.objectivesMet}</p>
+          <p className="text-stone-600 text-sm mb-1">Outcome: {data.outcome}</p>
           <p className={`text-sm font-bold ${
             data.roi >= 70 ? 'text-green-400' :
-            data.roi >= 40 ? 'text-yellow-400' :
+            data.roi >= 40 ? 'text-amber-600' :
             data.roi >= 20 ? 'text-orange-400' :
-            'text-red-400'
+            'text-red-700'
           }`}>
             ROI Score: {data.roi}/100
           </p>
@@ -122,20 +122,20 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
       {/* Key Stats */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
         <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{averageROI.toFixed(0)}</div>
-          <div className="text-sm text-stone-300">Average ROI Score</div>
+          <div className="text-2xl font-bold text-red-700">{averageROI.toFixed(0)}</div>
+          <div className="text-sm text-stone-600">Average ROI Score</div>
         </div>
         <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{successfulWars}/{wars.length}</div>
-          <div className="text-sm text-stone-300">Wars Met Objectives</div>
+          <div className="text-2xl font-bold text-red-700">{successfulWars}/{wars.length}</div>
+          <div className="text-sm text-stone-600">Wars Met Objectives</div>
         </div>
         <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">${(totalCost / 1000000000000).toFixed(1)}T</div>
-          <div className="text-sm text-stone-300">Total Cost</div>
+          <div className="text-2xl font-bold text-red-700">${(totalCost / 1000000000000).toFixed(1)}T</div>
+          <div className="text-sm text-stone-600">Total Cost</div>
         </div>
         <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 text-center">
-          <div className="text-2xl font-bold text-red-400">{totalDeaths.toLocaleString()}</div>
-          <div className="text-sm text-stone-300">Total US Deaths</div>
+          <div className="text-2xl font-bold text-red-700">{totalDeaths.toLocaleString()}</div>
+          <div className="text-sm text-stone-600">Total US Deaths</div>
         </div>
       </div>
 
@@ -155,8 +155,8 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
                 onClick={() => setView(option.key as any)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   view === option.key 
-                    ? 'bg-red-600 text-white' 
-                    : 'bg-slate-700 text-stone-300 hover:bg-slate-600'
+                    ? 'bg-red-600 text-stone-900' 
+                    : 'bg-slate-700 text-stone-600 hover:bg-slate-600'
                 }`}
               >
                 {option.label}
@@ -170,7 +170,7 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as any)}
-            className="px-3 py-2 bg-slate-700 border border-stone-600 rounded-lg text-stone-300"
+            className="px-3 py-2 bg-slate-700 border border-stone-600 rounded-lg text-stone-600"
           >
             <option value="roi">ROI Score</option>
             <option value="cost">Total Cost</option>
@@ -181,7 +181,7 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
       </div>
 
       {/* Chart */}
-      <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+      <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
         <h3 className="font-bold text-stone-200 mb-4">
           War Return on Investment Analysis
           {view === 'roi' && ' (Higher scores = better outcomes relative to costs)'}
@@ -223,19 +223,19 @@ export default function WarROIChart({ wars }: WarROIChartProps) {
           <div className="flex justify-center gap-6 mt-4 text-sm flex-wrap">
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-green-500 rounded"></div>
-              <span className="text-stone-300">Excellent ROI (70+)</span>
+              <span className="text-stone-600">Excellent ROI (70+)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-yellow-500 rounded"></div>
-              <span className="text-stone-300">Good ROI (40-69)</span>
+              <span className="text-stone-600">Good ROI (40-69)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-orange-500 rounded"></div>
-              <span className="text-stone-300">Poor ROI (20-39)</span>
+              <span className="text-stone-600">Poor ROI (20-39)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-red-600 rounded"></div>
-              <span className="text-stone-300">Terrible ROI (0-19)</span>
+              <span className="text-stone-600">Terrible ROI (0-19)</span>
             </div>
           </div>
         )}

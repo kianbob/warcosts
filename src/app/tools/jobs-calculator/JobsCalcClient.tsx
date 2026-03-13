@@ -50,7 +50,7 @@ export default function JobsCalcClient() {
           <p className="text-stone-400 text-sm">Education Jobs Gained</p>
         </div>
         <div className="bg-stone-900 text-white rounded-xl p-5 text-center border border-stone-700">
-          <p className="text-3xl font-bold font-[family-name:var(--font-heading)] text-white">
+          <p className="text-3xl font-bold font-[family-name:var(--font-heading)] text-stone-900">
             +{netGain.toLocaleString()}
           </p>
           <p className="text-stone-400 text-sm">Net Jobs Gained</p>

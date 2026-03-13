@@ -35,7 +35,7 @@ export default function WeaponsPage() {
       <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mt-4 mb-2">
         US Weapons Systems
       </h1>
-      <p className="text-stone-400 text-lg mb-6">
+      <p className="text-stone-500 text-lg mb-6">
         {weapons.length} major programs · {fmtMoney(totalCost)} total cost · {cancelled.length} cancelled
       </p>
 

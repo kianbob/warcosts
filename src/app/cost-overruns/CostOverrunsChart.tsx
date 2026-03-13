@@ -57,9 +57,9 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
       return (
         <div className="bg-slate-800 border border-stone-600 rounded-lg p-4 shadow-lg">
           <h3 className="font-bold text-stone-200 mb-2">{label}</h3>
-          <p className="text-stone-300 text-sm mb-1">Contractor: {data.contractor}</p>
+          <p className="text-stone-600 text-sm mb-1">Contractor: {data.contractor}</p>
           <p className="text-green-400 text-sm">Original: ${data.original.toFixed(1)}B</p>
-          <p className="text-red-400 text-sm">Actual: ${data.actual.toFixed(1)}B</p>
+          <p className="text-red-700 text-sm">Actual: ${data.actual.toFixed(1)}B</p>
           <p className="text-orange-400 text-sm">Overrun: {data.overrun}%</p>
           <p className="text-red-300 text-sm font-bold">Waste: ${data.waste.toFixed(1)}B</p>
         </div>
@@ -79,8 +79,8 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
             onClick={() => setSortBy('overrun')}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               sortBy === 'overrun' 
-                ? 'bg-red-600 text-white' 
-                : 'bg-slate-700 text-stone-300 hover:bg-slate-600'
+                ? 'bg-red-600 text-stone-900' 
+                : 'bg-slate-700 text-stone-600 hover:bg-slate-600'
             }`}
           >
             Sort by % Overrun
@@ -89,8 +89,8 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
             onClick={() => setSortBy('total')}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               sortBy === 'total' 
-                ? 'bg-red-600 text-white' 
-                : 'bg-slate-700 text-stone-300 hover:bg-slate-600'
+                ? 'bg-red-600 text-stone-900' 
+                : 'bg-slate-700 text-stone-600 hover:bg-slate-600'
             }`}
           >
             Sort by Total Cost
@@ -99,8 +99,8 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
             onClick={() => setSortBy('waste')}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               sortBy === 'waste' 
-                ? 'bg-red-600 text-white' 
-                : 'bg-slate-700 text-stone-300 hover:bg-slate-600'
+                ? 'bg-red-600 text-stone-900' 
+                : 'bg-slate-700 text-stone-600 hover:bg-slate-600'
             }`}
           >
             Sort by $ Wasted
@@ -110,7 +110,7 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
         <select
           value={showCount}
           onChange={(e) => setShowCount(Number(e.target.value))}
-          className="px-3 py-2 bg-slate-700 border border-stone-600 rounded-lg text-stone-300"
+          className="px-3 py-2 bg-slate-700 border border-stone-600 rounded-lg text-stone-600"
         >
           <option value={10}>Top 10</option>
           <option value={20}>Top 20</option>
@@ -122,10 +122,10 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
       {/* Total Waste Stat */}
       <div className="bg-red-900/30 border border-red-800 rounded-lg p-6">
         <div className="text-center">
-          <div className="text-4xl font-bold text-red-400 mb-2">
+          <div className="text-4xl font-bold text-red-700 mb-2">
             ${(totalWaste / 1000).toFixed(0)}B
           </div>
-          <div className="text-stone-300">Total Taxpayer Waste (Top {showCount} weapons)</div>
+          <div className="text-stone-600">Total Taxpayer Waste (Top {showCount} weapons)</div>
           <div className="text-stone-500 text-sm mt-2">
             Money lost to cost overruns that could have funded schools, infrastructure, or been returned to taxpayers
           </div>
@@ -133,7 +133,7 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
       </div>
 
       {/* Chart */}
-      <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+      <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
         <h3 className="font-bold text-stone-200 mb-4">Original Estimate vs Actual Cost</h3>
         <div style={{ width: '100%', height: 600 }}>
           <ResponsiveContainer>
@@ -163,11 +163,11 @@ export default function CostOverrunsChart({ weapons }: CostOverrunsChartProps) {
         <div className="flex justify-center gap-6 mt-4 text-sm">
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-green-500 rounded"></div>
-            <span className="text-stone-300">Original Estimate</span>
+            <span className="text-stone-600">Original Estimate</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-red-600 rounded"></div>
-            <span className="text-stone-300">Actual Cost</span>
+            <span className="text-stone-600">Actual Cost</span>
           </div>
         </div>
       </div>

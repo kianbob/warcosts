@@ -107,23 +107,23 @@ export default function CompareWarsPage() {
                 </tr>
               </thead>
               <tbody className="text-stone-300">
-                <tr className="border-b border-stone-800">
+                <tr className="border-b border-stone-200">
                   <td className="py-2 text-stone-400">Total Cost</td>
                   {wars.map(w => <td key={w.id} className="text-right px-3 font-mono">{fmt(w.costInflationAdjusted)}</td>)}
                 </tr>
-                <tr className="border-b border-stone-800">
+                <tr className="border-b border-stone-200">
                   <td className="py-2 text-stone-400">US Deaths</td>
                   {wars.map(w => <td key={w.id} className="text-right px-3 font-mono">{(w.usCasualties?.deaths || 0).toLocaleString()}</td>)}
                 </tr>
-                <tr className="border-b border-stone-800">
+                <tr className="border-b border-stone-200">
                   <td className="py-2 text-stone-400">Civilian Deaths</td>
                   {wars.map(w => <td key={w.id} className="text-right px-3 font-mono">{w.civilianDeaths ? w.civilianDeaths.toLocaleString() : 'N/A'}</td>)}
                 </tr>
-                <tr className="border-b border-stone-800">
+                <tr className="border-b border-stone-200">
                   <td className="py-2 text-stone-400">Duration (days)</td>
                   {wars.map(w => <td key={w.id} className="text-right px-3 font-mono">{(w.computed?.durationDays || 0).toLocaleString()}</td>)}
                 </tr>
-                <tr className="border-b border-stone-800">
+                <tr className="border-b border-stone-200">
                   <td className="py-2 text-stone-400">Cost/Day</td>
                   {wars.map(w => <td key={w.id} className="text-right px-3 font-mono">{fmt(w.computed?.costPerDay || 0)}</td>)}
                 </tr>

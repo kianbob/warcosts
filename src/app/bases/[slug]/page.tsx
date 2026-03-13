@@ -82,75 +82,75 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
         { label: base.name },
       ]} />
 
-      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
+      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mt-4 mb-2">
         {base.name}
       </h1>
 
-      <p className="text-stone-400 text-lg mb-6">
+      <p className="text-stone-500 text-lg mb-6">
         {typeLabel} · {location}
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Status</div>
-          <div className={`text-lg font-bold ${base.status === 'Active' ? 'text-green-400' : base.status === 'Closed' ? 'text-red-400' : 'text-yellow-400'}`}>
+          <div className={`text-lg font-bold ${base.status === 'Active' ? 'text-green-400' : base.status === 'Closed' ? 'text-red-700' : 'text-amber-600'}`}>
             {base.status}
           </div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Type</div>
-          <div className="text-lg font-bold text-white">{typeLabel.split('/')[0].trim()}</div>
+          <div className="text-lg font-bold text-stone-900">{typeLabel.split('/')[0].trim()}</div>
         </div>
         {base.component && (
           <div className="bg-white border border-stone-200 rounded-lg p-4">
             <div className="text-xs text-stone-400 uppercase tracking-wider">Branch</div>
-            <div className="text-lg font-bold text-white">{base.component}</div>
+            <div className="text-lg font-bold text-stone-900">{base.component}</div>
           </div>
         )}
         <div className="bg-white border border-stone-200 rounded-lg p-4">
           <div className="text-xs text-stone-400 uppercase tracking-wider">Location</div>
-          <div className="text-lg font-bold text-white">{isOverseas ? 'Overseas' : 'Domestic'}</div>
+          <div className="text-lg font-bold text-stone-900">{isOverseas ? 'Overseas' : 'Domestic'}</div>
         </div>
       </div>
 
       {base.notes && (
-        <div className="bg-slate-800 border border-stone-700 rounded-lg p-6 mb-8">
-          <h2 className="text-lg font-bold text-white mb-2">About This Installation</h2>
+        <div className="bg-slate-800 border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-2">About This Installation</h2>
           <p className="text-stone-600 leading-relaxed">{base.notes}</p>
         </div>
       )}
 
       {base.component && componentDescriptions[base.component] && (
         <div className="prose mb-8">
-          <h2 className="text-xl font-bold text-white mb-3">{base.component}</h2>
+          <h2 className="text-xl font-bold text-stone-900 mb-3">{base.component}</h2>
           <p className="text-stone-600 leading-relaxed">{componentDescriptions[base.component]}</p>
         </div>
       )}
 
       {isOverseas && (
         <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-6 mb-8">
-          <h2 className="text-lg font-bold text-red-400 mb-2">💡 Why Does This Matter?</h2>
+          <h2 className="text-lg font-bold text-red-700 mb-2">💡 Why Does This Matter?</h2>
           <p className="text-stone-600 leading-relaxed mb-3">
             The United States maintains approximately 750 military bases in over 80 countries — more than any nation in world history.
-            The annual cost of maintaining overseas bases exceeds <strong className="text-white">$55 billion</strong>.
+            The annual cost of maintaining overseas bases exceeds <strong className="text-stone-900">$55 billion</strong>.
           </p>
           <p className="text-stone-600 leading-relaxed">
             Critics argue that many overseas bases are Cold War relics that increase tensions, provoke &quot;blowback,&quot; and drain resources from domestic needs.
             Supporters say they deter aggression and protect allies. {base.name} in {base.country} is one of these installations.
           </p>
           <div className="flex gap-3 mt-4 flex-wrap">
-            <Link href="/analysis/empire-of-bases" className="text-red-400 hover:text-red-300 text-sm underline">Read: Empire of Bases →</Link>
-            <Link href="/opportunity-cost" className="text-red-400 hover:text-red-300 text-sm underline">What Else Could This Buy? →</Link>
+            <Link href="/analysis/empire-of-bases" className="text-red-700 hover:text-red-300 text-sm underline">Read: Empire of Bases →</Link>
+            <Link href="/opportunity-cost" className="text-red-700 hover:text-red-300 text-sm underline">What Else Could This Buy? →</Link>
           </div>
         </div>
       )}
 
       {base.lat && base.lng && (
         <div className="bg-white border border-stone-200 rounded-lg p-4 mb-8">
-          <h2 className="text-lg font-bold text-white mb-2">📍 Coordinates</h2>
+          <h2 className="text-lg font-bold text-stone-900 mb-2">📍 Coordinates</h2>
           <p className="text-stone-600">
             {base.lat.toFixed(4)}°N, {base.lng.toFixed(4)}°E ·{' '}
-            <a href={`https://www.google.com/maps?q=${base.lat},${base.lng}`} target="_blank" rel="noopener noreferrer" className="text-red-400 hover:text-red-300 underline">
+            <a href={`https://www.google.com/maps?q=${base.lat},${base.lng}`} target="_blank" rel="noopener noreferrer" className="text-red-700 hover:text-red-300 underline">
               View on Google Maps →
             </a>
           </p>
@@ -159,13 +159,13 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
 
       {nearby.length > 0 && (
         <div className="mb-8">
-          <h2 className="text-xl font-bold text-white mb-4">
+          <h2 className="text-xl font-bold text-stone-900 mb-4">
             Other Bases in {base.state || base.country} ({nearby.length})
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {nearby.map(b => (
-              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-3 transition-colors">
-                <div className="text-white font-medium">{b.name}</div>
+              <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:bg-stone-50 border border-stone-200 rounded-lg p-3 transition-colors">
+                <div className="text-stone-900 font-medium">{b.name}</div>
                 <div className="text-stone-400 text-sm">{b.component || b.type} · {b.status}</div>
               </Link>
             ))}
@@ -174,12 +174,12 @@ export default async function BaseDetailPage({ params }: { params: Promise<{ slu
       )}
 
       <div className="flex flex-wrap gap-3 mb-8">
-        <Link href="/bases" className="text-red-400 hover:text-red-300 text-sm">← All Bases</Link>
-        <Link href="/bases/directory" className="text-red-400 hover:text-red-300 text-sm">Base Directory</Link>
-        {isOverseas && <Link href={`/bases/countries/${base.countrySlug}`} className="text-red-400 hover:text-red-300 text-sm">Bases in {base.country}</Link>}
-        {base.state && <Link href={`/bases/states/${base.stateCode?.toLowerCase()}`} className="text-red-400 hover:text-red-300 text-sm">Bases in {base.state}</Link>}
-        <Link href="/spending" className="text-red-400 hover:text-red-300 text-sm">Military Spending</Link>
-        <Link href="/analysis/empire-of-bases" className="text-red-400 hover:text-red-300 text-sm">Empire of Bases Analysis</Link>
+        <Link href="/bases" className="text-red-700 hover:text-red-300 text-sm">← All Bases</Link>
+        <Link href="/bases/directory" className="text-red-700 hover:text-red-300 text-sm">Base Directory</Link>
+        {isOverseas && <Link href={`/bases/countries/${base.countrySlug}`} className="text-red-700 hover:text-red-300 text-sm">Bases in {base.country}</Link>}
+        {base.state && <Link href={`/bases/states/${base.stateCode?.toLowerCase()}`} className="text-red-700 hover:text-red-300 text-sm">Bases in {base.state}</Link>}
+        <Link href="/spending" className="text-red-700 hover:text-red-300 text-sm">Military Spending</Link>
+        <Link href="/analysis/empire-of-bases" className="text-red-700 hover:text-red-300 text-sm">Empire of Bases Analysis</Link>
       </div>
 
       <ShareButtons title={`${base.name} — US Military Base`} />

@@ -71,7 +71,7 @@ export default function MilitaryFamiliesPage() {
       <ShareButtons title="The hidden cost of war: military families bear the burden. Explore the data at WarCosts.org" />
 
       {/* Nav */}
-      <div className="flex flex-wrap gap-2 mb-8 border-b border-stone-800 pb-4">
+      <div className="flex flex-wrap gap-2 mb-8 border-b border-stone-200 pb-4">
         {[
           { id: 'overview' as Section, label: 'Overview' },
           { id: 'deployments' as Section, label: 'Deployments' },

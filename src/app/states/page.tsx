@@ -34,29 +34,29 @@ export default function StatesIndexPage() {
     <main className="max-w-6xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'State Military Footprint' }]} />
 
-      <h1 className="text-3xl md:text-5xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
+      <h1 className="text-3xl md:text-5xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mt-4 mb-2">
         State Military Footprint
       </h1>
-      <p className="text-stone-400 text-lg mb-8">
+      <p className="text-stone-500 text-lg mb-8">
         How the Department of Defense shapes the economy of every US state and territory.
       </p>
 
       {/* Summary Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-2xl md:text-3xl font-bold text-red-400">{fmtMoney(totalSpending * 1e9)}</div>
+          <div className="text-2xl md:text-3xl font-bold text-red-700">{fmtMoney(totalSpending * 1e9)}</div>
           <div className="text-stone-400 text-sm mt-1">Total DoD Spending</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-2xl md:text-3xl font-bold text-red-400">{fmt(totalJobs)}</div>
+          <div className="text-2xl md:text-3xl font-bold text-red-700">{fmt(totalJobs)}</div>
           <div className="text-stone-400 text-sm mt-1">Direct Defense Jobs</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-2xl md:text-3xl font-bold text-red-400">{fmt(totalBases)}</div>
+          <div className="text-2xl md:text-3xl font-bold text-red-700">{fmt(totalBases)}</div>
           <div className="text-stone-400 text-sm mt-1">Military Installations</div>
         </div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center">
-          <div className="text-2xl md:text-3xl font-bold text-red-400">{states.length}</div>
+          <div className="text-2xl md:text-3xl font-bold text-red-700">{states.length}</div>
           <div className="text-stone-400 text-sm mt-1">States & Territories</div>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function StatesIndexPage() {
       <div className="overflow-x-auto">
         <table className="w-full text-left">
           <thead>
-            <tr className="border-b border-stone-700 text-stone-400 text-sm">
+            <tr className="border-b border-stone-200 text-stone-400 text-sm">
               <th className="py-3 pr-4">#</th>
               <th className="py-3 pr-4">State</th>
               <th className="py-3 pr-4 text-right">DoD Spending</th>
@@ -76,15 +76,15 @@ export default function StatesIndexPage() {
           </thead>
           <tbody>
             {sorted.map((s, i) => (
-              <tr key={s.slug} className="border-b border-stone-800 hover:bg-slate-800 transition-colors">
+              <tr key={s.slug} className="border-b border-stone-200 hover:bg-stone-50 transition-colors">
                 <td className="py-3 pr-4 text-stone-500 text-sm">{i + 1}</td>
                 <td className="py-3 pr-4">
-                  <Link href={`/states/${s.slug}`} className="text-white hover:text-red-400 transition-colors font-medium">
+                  <Link href={`/states/${s.slug}`} className="text-stone-900 hover:text-red-700 transition-colors font-medium">
                     {s.state}
                   </Link>
                   <span className="text-stone-500 text-sm ml-2">{s.abbr}</span>
                 </td>
-                <td className="py-3 pr-4 text-right text-red-400 font-medium">
+                <td className="py-3 pr-4 text-right text-red-700 font-medium">
                   {s.dodSpending ? fmtMoney(s.dodSpending * 1e9) : '—'}
                 </td>
                 <td className="py-3 pr-4 text-right text-stone-600">{s.directJobs ? fmt(s.directJobs) : '—'}</td>

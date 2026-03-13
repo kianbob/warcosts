@@ -68,7 +68,7 @@ export default function ConflictsClient({ conflicts }: { conflicts: Conflict[] }
           <span className="text-sm font-semibold text-stone-700 mr-1">Era:</span>
           {ERAS.map(e => (
             <button key={e} onClick={() => setEra(e)}
-              className={`text-xs px-3 py-1.5 rounded-full border transition ${era === e ? 'bg-primary text-white border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
+              className={`text-xs px-3 py-1.5 rounded-full border transition ${era === e ? 'bg-primary text-stone-900 border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
               {e}
             </button>
           ))}
@@ -77,7 +77,7 @@ export default function ConflictsClient({ conflicts }: { conflicts: Conflict[] }
           <span className="text-sm font-semibold text-stone-700 mr-1">Type:</span>
           {TYPES.map(t => (
             <button key={t} onClick={() => setType(t)}
-              className={`text-xs px-3 py-1.5 rounded-full border transition capitalize ${type === t ? 'bg-primary text-white border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
+              className={`text-xs px-3 py-1.5 rounded-full border transition capitalize ${type === t ? 'bg-primary text-stone-900 border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
               {t}
             </button>
           ))}
@@ -86,7 +86,7 @@ export default function ConflictsClient({ conflicts }: { conflicts: Conflict[] }
           <span className="text-sm font-semibold text-stone-700 mr-1">Outcome:</span>
           {OUTCOMES.map(o => (
             <button key={o} onClick={() => setOutcome(o)}
-              className={`text-xs px-3 py-1.5 rounded-full border transition ${outcome === o ? 'bg-primary text-white border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
+              className={`text-xs px-3 py-1.5 rounded-full border transition ${outcome === o ? 'bg-primary text-stone-900 border-primary' : 'bg-stone-50 hover:bg-stone-100 border-stone-200'}`}>
               {o}
             </button>
           ))}

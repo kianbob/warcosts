@@ -69,9 +69,9 @@ export default function TaxReceiptClient() {
         </div>
       </div>
 
-      <div className="bg-red-950 text-white rounded-xl p-6 border border-red-900">
+      <div className="bg-red-950 text-stone-900 rounded-xl p-6 border border-red-900">
         <p className="text-stone-400 text-sm uppercase tracking-widest mb-1">Your Military Tax Bill</p>
-        <p className="text-5xl font-bold font-[family-name:var(--font-heading)] text-red-400">
+        <p className="text-5xl font-bold font-[family-name:var(--font-heading)] text-red-700">
           ${Math.round(militaryTax).toLocaleString()}
         </p>
         <p className="text-stone-400 mt-1">~24% of your federal income tax goes to the military</p>

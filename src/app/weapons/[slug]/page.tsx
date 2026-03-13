@@ -52,11 +52,11 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
       <Breadcrumbs items={[{ label: 'Weapons', href: '/weapons' }, { label: w.name }]} />
 
       <div className="flex items-start justify-between mt-4 mb-2">
-        <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white">
+        <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-stone-900">
           {w.name}
         </h1>
         {w.status && (
-          <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-700' : 'bg-white border border-stone-200 border-stone-200 ' + (statusColors[w.status || ''] || 'text-white')}`}>
+          <span className={`text-sm font-bold px-3 py-1 rounded-full border ${w.status === 'Cancelled' ? 'bg-red-900/30 border-red-700 text-red-700' : 'bg-white border border-stone-200 border-stone-200 ' + (statusColors[w.status || ''] || 'text-stone-900')}`}>
             {w.status}
           </span>
         )}
@@ -126,7 +126,7 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
         <div className="mb-8">
           <div className="flex justify-between text-sm mb-1">
             <span className="text-stone-500">Delivery Progress</span>
-            <span className="text-white">{deliveryPct}% ({fmt(w.delivered!)} / {fmt(w.units!)})</span>
+            <span className="text-stone-900">{deliveryPct}% ({fmt(w.delivered!)} / {fmt(w.units!)})</span>
           </div>
           <div className="bg-white border border-stone-200 rounded-full h-4 overflow-hidden">
             <div className="bg-red-600 h-full rounded-full transition-all" style={{ width: `${deliveryPct}%` }} />

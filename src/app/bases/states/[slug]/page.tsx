@@ -42,7 +42,7 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
     <main className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Bases', href: '/bases' }, { label: 'By State', href: '/bases/states' }, { label: s.state }]} />
 
-      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
+      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mt-4 mb-2">
         Military Bases in {s.state}
       </h1>
       <p className="text-stone-500 text-lg mb-6">{fmt(s.total)} installations</p>
@@ -67,7 +67,7 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
                 <div className="flex-1 bg-white border border-stone-200 rounded-full h-4 overflow-hidden">
                   <div className="bg-red-600 h-full rounded-full" style={{ width: `${(count / s.total) * 100}%` }} />
                 </div>
-                <div className="text-white text-sm font-mono w-8 text-right">{count}</div>
+                <div className="text-stone-900 text-sm font-mono w-8 text-right">{count}</div>
               </div>
             ))}
           </div>
@@ -78,7 +78,7 @@ export default async function StateBasesPage({ params }: { params: Promise<{ slu
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mb-8">
         {stateBases.map(b => (
           <Link key={b.slug} href={`/bases/${b.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
-            <div className="text-white font-medium text-sm">{b.name}</div>
+            <div className="text-stone-900 font-medium text-sm">{b.name}</div>
             <div className="text-stone-500 text-xs">{b.component || 'Military'} · {b.status}</div>
           </Link>
         ))}

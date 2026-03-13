@@ -109,7 +109,7 @@ export default function NuclearArsenalPage() {
       <ShareButtons title="The US nuclear arsenal: 5,500 warheads, $1.7T in modernization, and the Doomsday Clock at 90 seconds. Explore the data:" />
 
       {/* Nav */}
-      <div className="flex flex-wrap gap-2 mb-8 border-b border-stone-800 pb-4">
+      <div className="flex flex-wrap gap-2 mb-8 border-b border-stone-200 pb-4">
         {[
           { id: 'overview' as Section, label: 'Overview' },
           { id: 'triad' as Section, label: 'Nuclear Triad' },

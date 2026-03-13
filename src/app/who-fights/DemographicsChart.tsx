@@ -70,10 +70,10 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
       return (
         <div className="bg-slate-800 border border-stone-600 rounded-lg p-4 shadow-lg">
           <h3 className="font-bold text-stone-200 mb-2">{label}</h3>
-          {data.medianIncome && <p className="text-stone-300 text-sm">Median Income: ${data.medianIncome.toLocaleString()}</p>}
-          {data.ruralPercentage && <p className="text-stone-300 text-sm">Rural: {data.ruralPercentage}%</p>}
-          {data.recruitmentRate && <p className="text-stone-300 text-sm">Military Rate: {data.recruitmentRate}%</p>}
-          {data.bases && <p className="text-stone-300 text-sm">Military Bases: {data.bases}</p>}
+          {data.medianIncome && <p className="text-stone-600 text-sm">Median Income: ${data.medianIncome.toLocaleString()}</p>}
+          {data.ruralPercentage && <p className="text-stone-600 text-sm">Rural: {data.ruralPercentage}%</p>}
+          {data.recruitmentRate && <p className="text-stone-600 text-sm">Military Rate: {data.recruitmentRate}%</p>}
+          {data.bases && <p className="text-stone-600 text-sm">Military Bases: {data.bases}</p>}
         </div>
       )
     }
@@ -113,7 +113,7 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
   return (
     <div className="space-y-8">
       {/* Military Service by Income */}
-      <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+      <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
         <h3 className="font-bold text-stone-200 text-xl mb-4">Military Service by Income Level</h3>
         <div style={{ width: '100%', height: 400 }}>
           <ResponsiveContainer>
@@ -133,7 +133,7 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
       </div>
 
       {/* Military Service by Education */}
-      <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+      <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
         <h3 className="font-bold text-stone-200 text-xl mb-4">Military Service by Education Level</h3>
         <div style={{ width: '100%', height: 400 }}>
           <ResponsiveContainer>
@@ -153,7 +153,7 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
       </div>
 
       {/* State Demographics Chart */}
-      <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+      <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
         <h3 className="font-bold text-stone-200 text-xl mb-4">State-Level Military Demographics</h3>
         
         {/* Controls */}
@@ -169,8 +169,8 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
               onClick={() => setView(option.key as any)}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                 view === option.key 
-                  ? 'bg-red-600 text-white' 
-                  : 'bg-slate-700 text-stone-300 hover:bg-slate-600'
+                  ? 'bg-red-600 text-stone-900' 
+                  : 'bg-slate-700 text-stone-600 hover:bg-slate-600'
               }`}
             >
               {option.label}
@@ -211,7 +211,7 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
 
       {/* Racial Demographics Pie Chart */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+        <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
           <h3 className="font-bold text-stone-200 text-xl mb-4">US Population by Race</h3>
           <div style={{ width: '100%', height: 300 }}>
             <ResponsiveContainer>
@@ -235,7 +235,7 @@ export default function DemographicsChart({ stateData = [] }: DemographicsChartP
           </div>
         </div>
 
-        <div className="bg-slate-800/50 border border-stone-700 rounded-lg p-6">
+        <div className="bg-slate-800/50 border border-stone-200 rounded-lg p-6">
           <h3 className="font-bold text-stone-200 text-xl mb-4">Military by Race</h3>
           <div style={{ width: '100%', height: 300 }}>
             <ResponsiveContainer>

@@ -70,7 +70,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
     <main className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Contractors', href: '/contractors' }, { label: c.name }]} />
 
-      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-white mt-4 mb-2">
+      <h1 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mt-4 mb-2">
         {c.name}
       </h1>
       <p className="text-stone-500 text-lg mb-6">#{c.rank} Defense Contractor · FY2024</p>
@@ -105,7 +105,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
                   <div className="flex-1 bg-white border border-stone-200 rounded-full h-5 overflow-hidden">
                     <div className="bg-red-600 h-full rounded-full" style={{ width: `${(amount / max) * 100}%` }} />
                   </div>
-                  <span className="text-white text-sm font-mono w-20 text-right">{fmtMoney(amount)}</span>
+                  <span className="text-stone-900 text-sm font-mono w-20 text-right">{fmtMoney(amount)}</span>
                 </div>
               )
             })}
@@ -122,7 +122,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
               <thead><tr className="text-left text-stone-500 border-b border-stone-200"><th className="py-2">Entity</th><th className="py-2 text-right">FY2024 Awards</th></tr></thead>
               <tbody>
                 {c.subsidiaries.sort((a, b) => b.amount - a.amount).map((s, i) => (
-                  <tr key={i} className="border-b border-stone-800"><td className="py-2 text-stone-600">{s.name}</td><td className="py-2 text-right text-white">{fmtMoney(s.amount)}</td></tr>
+                  <tr key={i} className="border-b border-stone-200"><td className="py-2 text-stone-600">{s.name}</td><td className="py-2 text-right text-stone-900">{fmtMoney(s.amount)}</td></tr>
                 ))}
               </tbody>
             </table>
@@ -137,7 +137,7 @@ export default async function ContractorDetailPage({ params }: { params: Promise
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {linkedWeapons.map(w => (
               <Link key={w.slug} href={`/weapons/${w.slug}`} className="bg-white border border-stone-200 hover:border-red-300 hover:shadow-md border border-stone-200 rounded-lg p-3 transition-colors">
-                <div className="text-white font-medium">{w.name}</div>
+                <div className="text-stone-900 font-medium">{w.name}</div>
                 <div className="text-stone-500 text-sm">{w.category} · {w.costBillions ? `$${w.costBillions}B` : '—'} · {w.status}</div>
               </Link>
             ))}
