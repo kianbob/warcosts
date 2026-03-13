@@ -73,16 +73,16 @@ export default async function CountryBasesPage({ params }: { params: Promise<{ s
         </div>
       ))}
 
-      <div className="bg-red-900/20 border border-red-800/30 rounded-lg p-6 mb-8">
+      <div className="bg-stone-50 border border-stone-200 rounded-lg p-6 mb-8">
         <h2 className="text-lg font-bold text-red-700 mb-2">The Cost of Empire</h2>
         <p className="text-stone-600 leading-relaxed">
           Maintaining {fmt(c.total)} military installations in {c.country} costs American taxpayers billions of dollars annually.
           The Pentagon&apos;s annual Base Structure Report often understates the true number of bases.
         </p>
         <div className="flex gap-3 mt-3 flex-wrap">
-          <Link href="/analysis/empire-of-bases" className="text-red-700 hover:text-red-300 text-sm underline">Empire of Bases →</Link>
-          <Link href="/spending" className="text-red-700 hover:text-red-300 text-sm underline">Military Spending →</Link>
-          <Link href="/opportunity-cost" className="text-red-700 hover:text-red-300 text-sm underline">What Else Could This Buy? →</Link>
+          <Link href="/analysis/empire-of-bases" className="text-red-700 hover:text-red-800 text-sm underline">Empire of Bases →</Link>
+          <Link href="/spending" className="text-red-700 hover:text-red-800 text-sm underline">Military Spending →</Link>
+          <Link href="/opportunity-cost" className="text-red-700 hover:text-red-800 text-sm underline">What Else Could This Buy? →</Link>
         </div>
       </div>
 
