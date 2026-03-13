@@ -37,7 +37,7 @@ const day1Costs = [
 ]
 
 const dailyBurnRates = [
-  { phase: 'Initial Strikes (Days 1-7)', dailyCost: '$2.5B', description: 'Maximum intensity air campaign. 500+ Tomahawks/day, 200+ fighter sorties, B-2 missions from CONUS.', comparison: 'Higher than Iraq "Shock and Awe" adjusted for inflation.' },
+  { phase: 'Initial Strikes (Days 1-6)', dailyCost: '$1.88B (Pentagon confirmed)', description: 'Maximum intensity air campaign. Pentagon told Congress: $11.3B in 6 days. 5,000+ targets struck by Day 11.', comparison: '3x Iraq "Shock and Awe" adjusted for inflation. Most expensive opening campaign in US history.' },
   { phase: 'Sustained Air Campaign (Days 8-30)', dailyCost: '$800M', description: 'Continued strikes on military targets, infrastructure, leadership. Reduced sortie rate as initial targets destroyed.', comparison: '2x Kosovo campaign daily spend (1999).' },
   { phase: 'Air Campaign + Maritime (Days 31-90)', dailyCost: '$1.2B', description: 'Air operations + naval blockade + Strait of Hormuz control. Higher naval operations tempo.', comparison: '1.5x current Middle East operations.' },
   { phase: 'Limited Ground Ops (Month 4+)', dailyCost: '$1.8B', description: 'Special forces, coastal occupation, oil facility seizure. 50,000+ troops deployed.', comparison: 'Iraq 2003-2004 levels.' },
@@ -398,7 +398,7 @@ export default function CostOfIranPage() {
                 <td className="py-3 text-white text-lg">Estimated Day 1-2 Total</td>
                 <td className="text-center py-3"></td>
                 <td className="text-center py-3"></td>
-                <td className="text-right py-3 text-red-400 text-lg">$2.5–3.5B</td>
+                <td className="text-right py-3 text-red-400 text-lg">$11.3B (6 days)</td>
                 <td className="py-3 text-xs"></td>
               </tr>
             </tbody>
@@ -439,8 +439,8 @@ export default function CostOfIranPage() {
           <p className="text-white font-semibold mb-2">Cumulative Cost Projections:</p>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div>
-              <p className="text-stone-400">30-day air campaign: <span className="text-red-400 font-bold">$30-40B</span></p>
-              <p className="text-stone-400">90-day limited ops: <span className="text-red-400 font-bold">$100-150B</span></p>
+              <p className="text-stone-400">30-day air campaign: <span className="text-red-400 font-bold">$50-56B</span> (at $1.88B/day)</p>
+              <p className="text-stone-400">90-day limited ops: <span className="text-red-400 font-bold">$120-170B</span></p>
               <p className="text-stone-400">1-year occupation: <span className="text-red-400 font-bold">$1.6T</span></p>
             </div>
             <div>

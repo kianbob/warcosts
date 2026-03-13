@@ -23,32 +23,14 @@ export default function ContactPage() {
         We welcome corrections, suggestions, and questions.
       </p>
 
-      <div className="space-y-6">
-        <div className="bg-stone-50 border rounded-lg p-6">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">Report a Data Error</h2>
-          <p className="text-stone-600 text-sm">
-            Found incorrect data? We take accuracy seriously. Please email us at{' '}
-            <a href="mailto:corrections@warcosts.org" className="text-red-700 hover:underline">corrections@warcosts.org</a>{' '}
-            with the page URL and the specific error.
-          </p>
-        </div>
-
-        <div className="bg-stone-50 border rounded-lg p-6">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">General Inquiries</h2>
-          <p className="text-stone-600 text-sm">
-            For general questions, media inquiries, or partnership proposals:{' '}
-            <a href="mailto:hello@warcosts.org" className="text-red-700 hover:underline">hello@warcosts.org</a>
-          </p>
-        </div>
-
-        <div className="bg-stone-50 border rounded-lg p-6">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">Data & API Access</h2>
-          <p className="text-stone-600 text-sm">
-            All our data is freely available on the <a href="/downloads" className="text-red-700 hover:underline">Downloads</a> page.
-            For API access or bulk data requests, email{' '}
-            <a href="mailto:data@warcosts.org" className="text-red-700 hover:underline">data@warcosts.org</a>.
-          </p>
-        </div>
+      <div className="bg-stone-50 border rounded-lg p-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">Get in Touch</h2>
+        <p className="text-stone-600">
+          For data corrections, general questions, media inquiries, or partnership proposals, email us at:{' '}
+        </p>
+        <p className="mt-3">
+          <a href="mailto:info@thedataproject.ai" className="text-red-700 hover:underline text-lg font-semibold">info@thedataproject.ai</a>
+        </p>
       </div>
     </div>
   )
