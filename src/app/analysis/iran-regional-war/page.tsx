@@ -5,11 +5,11 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: '11 Countries, 7 Days: How a Two-Country War Became a Regional Catastrophe | WarCosts',
-  description: 'Iran, Israel, US, Lebanon, Bahrain, Kuwait, UAE, Qatar, Oman, Cyprus, Azerbaijan, Saudi Arabia, Iraq — every country drawn into Operation Epic Fury and what each has suffered.',
+  title: '12+ Countries, 13 Days: How a Two-Country War Became a Regional Catastrophe | WarCosts',
+  description: 'Iran mining the Strait of Hormuz. 16 minelayers destroyed. Dubai airport struck. Oman port fires. Oil past $100. 1,348 killed in Iran, 687 in Lebanon. Updated March 12, 2026 (Day 13).',
   openGraph: {
-    title: '11 Countries, 7 Days: How a Two-Country War Became a Regional Catastrophe',
-    description: 'A US-Iran conflict that was supposed to be contained has engulfed the entire Middle East in 7 days.',
+    title: '12+ Countries, 13 Days: How a Two-Country War Became a Regional Catastrophe',
+    description: 'Iran mining Hormuz. Dubai airport hit. Oil past $100. 5,000+ targets struck. $11.3B in 6 days. Updated Day 13.',
     url: 'https://www.warcosts.org/analysis/iran-regional-war',
   },
 }
@@ -19,26 +19,29 @@ const countries = [
     name: 'Iran',
     flag: '🇮🇷',
     role: 'Primary target',
-    casualties: '1,230–1,332+ killed (Day 7 estimates)',
+    casualties: '1,348 killed, 17,000 injured (Day 13 — Iran UN rep)',
     keyEvents: [
       'Supreme Leader Khamenei killed in February 28 decapitation strike',
-      '2,500+ targets struck by US and Israeli forces',
-      'Nuclear facilities at Natanz, Fordow, Isfahan hit with B-2 bombers and Tomahawks',
+      '5,000+ targets struck by US and Israeli forces through Day 11',
+      'Nuclear facilities at Natanz, Fordow, Isfahan hit; oil refineries struck Day 8',
       '30+ naval vessels sunk; IRGC Navy largely destroyed',
-      'Strait of Hormuz closed by Iran in retaliation',
-      '180 schoolgirls killed at Minab elementary school',
-      'Grand Bazaar and Golestan Palace damaged in Tehran',
-      'Power grid degraded by cyber attacks; rolling blackouts nationwide',
-      'Retaliating with missile and drone salvos against 27+ US bases and Israel',
+      'Strait of Hormuz: Iran laying naval mines (5,000+ inventory); 16 minelayers destroyed by CENTCOM',
+      '168 schoolchildren killed at Minab elementary school',
+      'Shahed Aviation Industries drone factory in Isfahan destroyed Day 9',
+      'Basij/security sites struck in Tehran residential Districts 1, 14, 15, 16',
+      'Top nuclear scientists killed (Israel, Day 13); IRGC intel building struck NW Iran',
+      'Iran still exporting 2.1M bbl/day through Strait (slightly MORE than pre-war)',
+      '~15M bbl/day crude + 4.5M bpd refined fuels stranded in Gulf; 80% traffic drop',
+      'Tehran sets 3 conditions for peace (Day 13)',
       'Trump demands unconditional surrender; Iran refuses',
     ],
-    economicImpact: 'Economy shattered. Rial in freefall. Oil exports halted. Banking system disrupted. Estimated GDP loss: 30-50% annualized.',
+    economicImpact: 'Economy shattered. Rial in freefall. Oil infrastructure now targeted (Tondgouyan, Shahran refineries). ~15M bbl/day crude stranded in Gulf. Iran paradoxically still exporting 2.1M bbl/day. Banking system disrupted.',
   },
   {
     name: 'Israel',
     flag: '🇮🇱',
     role: 'Co-belligerent (leading strike partner)',
-    casualties: '12+ killed (Beit Shemesh + other missile impacts)',
+    casualties: '15 killed, 2,000 wounded',
     keyEvents: [
       'Conducted 2,500+ strikes on Iran alongside US forces',
       'Struck the Minab school (IRGC facility nearby was target)',
@@ -55,24 +58,24 @@ const countries = [
     name: 'United States',
     flag: '🇺🇸',
     role: 'Co-belligerent (initiated strikes)',
-    casualties: '6 killed, 18+ wounded',
+    casualties: '8 killed (7 KIA + 1 health incident), 18 wounded',
     keyEvents: [
       'Launched Operation Epic Fury Feb 28 without congressional authorization',
       'Two carrier strike groups deployed (Ford + Lincoln)',
       'B-2 bombers flying 30+ hour missions from Whiteman AFB, Missouri',
-      'Senate voted 53-47 against War Powers Resolution (only Rand Paul crossed party)',
-      'Trump posting Truth Social videos at 2:30 AM announcing operations',
-      'CENTCOM reporting 1,000+ targets destroyed',
-      '3 service members killed Day 3; total risen to 6 by Day 7',
-      'Estimated $3.6 billion in direct costs (Week 1)',
+      'Senate voted 53-47 against War Powers Resolution',
+      'CENTCOM: 5,000+ targets struck; destroyed 16 Iranian minelayers near Hormuz',
+      'Pentagon told Congress: first 6 days cost $11.3 BILLION ($1.88B/day)',
+      'KC-135 Stratotanker crashed in western Iraq (Day 13) — rescue ongoing',
+      '7 service members KIA + 1 died of health incident in Kuwait = 8 total dead',
     ],
-    economicImpact: 'Gas prices surging. Stock market volatile. Defense stocks rallying. Consumer confidence plummeting.',
+    economicImpact: 'Gas prices surging. Oil past $100/barrel. Stock market volatile. Defense stocks rallying. Pentagon admits $11.3B cost in 6 days. Stagflation fears.',
   },
   {
     name: 'Lebanon',
     flag: '🇱🇧',
     role: 'Drawn in via Hezbollah',
-    casualties: '52+ killed',
+    casualties: '687 killed (98 children), 1,500 injured',
     keyEvents: [
       'Hezbollah launched rockets into northern Israel within hours of US strikes on Iran',
       'Israel conducting retaliatory strikes in southern Lebanon and Beirut suburbs',
@@ -87,12 +90,14 @@ const countries = [
     name: 'United Arab Emirates',
     flag: '🇦🇪',
     role: 'Targeted by Iranian retaliation',
-    casualties: 'Unknown — reports of injuries from missile/drone strikes',
+    casualties: 'Multiple killed and injured from missile/drone strikes',
     keyEvents: [
-      'Iran targeted UAE with 186 missiles and 812 drones (per UAE reports)',
+      'UAE intercepted 241 of 262 ballistic missiles (92% rate) through Day 11',
       'Dubai Fairmont Hotel on Palm Jumeirah set ablaze',
-      'Dubai and Abu Dhabi airports hit or forced to close',
+      '2 Iranian drones struck near Dubai International Airport (4 injured, Day 12)',
+      'Dubai and Abu Dhabi airports hit or forced to close multiple times',
       'Al Dhafra Air Base (US F-35s stationed here) targeted',
+      'UAE stock exchanges closed due to conflict',
       'UAE did not participate in strikes but hosts US forces — became target by association',
     ],
     economicImpact: 'Dubai real estate market freezing. Foreign companies reconsidering regional HQs. Emirates/Etihad cancelling flights. Insurance costs skyrocketing.',
@@ -114,23 +119,25 @@ const countries = [
     name: 'Bahrain',
     flag: '🇧🇭',
     role: 'Targeted by Iranian retaliation',
-    casualties: 'Unknown',
+    casualties: '2 killed, dozens injured',
     keyEvents: [
       'US 5th Fleet HQ located in Bahrain — primary target',
+      'Iranian missile set Bahrain oil refinery ablaze (Day 10) — force majeure declared on oil shipments',
+      '29-year-old woman killed when projectile struck residential building in Manama (Day 12)',
       'Iranian missiles and drones targeted naval facilities',
       'Bahrain\'s Shia majority population creates internal tension',
-      'History of Iranian-backed protest movements (2011 uprising)',
     ],
-    economicImpact: 'Small island economy completely disrupted. Oil refinery operations affected.',
+    economicImpact: 'Oil refinery ablaze, force majeure declared. Small island economy completely disrupted.',
   },
   {
     name: 'Kuwait',
     flag: '🇰🇼',
     role: 'Targeted by Iranian retaliation',
-    casualties: 'Unknown',
+    casualties: '6 killed, dozens injured',
     keyEvents: [
       'Multiple US military facilities in Kuwait targeted',
       'Camp Arifjan (largest US Army base in Middle East) struck',
+      '1 US service member died of "health incident" in Kuwait',
       'Kuwait unable to export oil — 100% dependent on Hormuz',
     ],
     economicImpact: 'Oil exports completely halted. Kuwait\'s entire economy depends on oil. Facing fiscal crisis within weeks.',
@@ -161,6 +168,20 @@ const countries = [
       'Oil exports through Hormuz disrupted (East-West pipeline provides partial bypass)',
     ],
     economicImpact: 'Oil exports partially disrupted. East-West pipeline handling 5M bbl/day but cannot replace full 7.4M bbl/day exports.',
+  },
+  {
+    name: 'Oman',
+    flag: '🇴🇲',
+    role: 'Neutral country struck by Iranian drones',
+    casualties: 'Unknown — fires at port facility',
+    keyEvents: [
+      'Iranian drone struck gasoline storage at Port of Salalah (Day 12), starting fires',
+      'Oman had brokered US-Iran nuclear negotiations in Muscat',
+      'Oman\'s Foreign Minister flew to Washington Feb 27 to beg for more time for diplomacy — rejected',
+      'Two ports targeted by Iranian drone strikes earlier in conflict',
+      'Oman is a neutral state that maintains relations with both US and Iran',
+    ],
+    economicImpact: 'Port of Salalah gasoline storage fires. Oman\'s role as neutral mediator destroyed by the conflict it tried to prevent.',
   },
   {
     name: 'Cyprus',
@@ -202,38 +223,40 @@ export default function IranRegionalWarPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 6, 2026</span>
+        <span className="text-sm text-stone-500">Updated March 12, 2026 (Day 13)</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
-        11 Countries, 7 Days
+        12+ Countries, 13 Days
       </h1>
       <p className="text-xl text-stone-600 mb-2">How a Two-Country War Became a Regional Catastrophe</p>
       <p className="text-stone-500 mb-8">
         Operation Epic Fury was launched against Iran. Within hours, missiles were falling on a dozen countries.
-        By Day 7, the conflict had drawn in — willingly or not — at least 11 sovereign nations across three continents.
+        By Day 13, Iran is laying mines in the Strait of Hormuz, oil is above $100/barrel, Dubai International Airport
+        has been struck, gasoline storage in Oman is ablaze, and 2,100+ people are dead across the region.
+        The Pentagon admits it cost $11.3 billion in the first 6 days alone.
       </p>
 
       <ShareButtons title="11 Countries, 7 Days: How a Two-Country War Became a Regional Catastrophe" />
 
       {/* Overview Map Stats */}
       <section className="bg-stone-900 text-white rounded-xl p-8 my-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">The Spread: Day 7</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">The Spread: Day 13 (March 12)</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div>
             <div className="text-3xl font-bold text-red-500">12+</div>
             <div className="text-stone-400 text-sm">Countries under fire</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">27+</div>
-            <div className="text-stone-400 text-sm">US bases targeted by Iran</div>
+            <div className="text-3xl font-bold text-red-500">5,000+</div>
+            <div className="text-stone-400 text-sm">Targets struck by US/Israel</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">3</div>
-            <div className="text-stone-400 text-sm">Continents affected</div>
+            <div className="text-3xl font-bold text-red-500">17</div>
+            <div className="text-stone-400 text-sm">Maritime incidents (UKMTO)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">1,300+</div>
+            <div className="text-3xl font-bold text-red-500">2,100+</div>
             <div className="text-stone-400 text-sm">Total dead (all countries)</div>
           </div>
         </div>
@@ -595,7 +618,7 @@ export default function IranRegionalWarPage() {
         <p className="text-stone-700 text-lg mb-4">
           Despite claims of &ldquo;precision strikes&rdquo; and &ldquo;military targets only,&rdquo; the civilian casualty 
           toll continues to mount. The most devastating single incident was the destruction of the Minab Elementary School 
-          in southern Iran, where <strong>180 schoolgirls</strong> were killed when a US munition struck the building. 
+          in southern Iran, where <strong>168 schoolchildren</strong> were killed when a US munition struck the building. 
           The Pentagon maintains the strike was targeting an adjacent IRGC facility.
         </p>
 
@@ -821,7 +844,7 @@ export default function IranRegionalWarPage() {
             headline: '11 Countries, 7 Days: How a Two-Country War Became a Regional Catastrophe',
             description: 'Every country drawn into Operation Epic Fury — what each has suffered and why containment has failed.',
             datePublished: '2026-03-06',
-            dateModified: '2026-03-06',
+            dateModified: '2026-03-12',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-regional-war',
           }),

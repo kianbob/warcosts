@@ -318,7 +318,7 @@ export default function CostOfIranPage() {
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">AI Overview — Key Data</h2>
         </div>
         <ul className="space-y-2 text-stone-300">
-          <li>📊 Day 1-2 of strikes cost an estimated <strong className="text-white">$2.5–3.5 billion</strong> in munitions, fuel, and operations alone</li>
+          <li>📊 Pentagon confirmed to Congress: first 6 days cost <strong className="text-white">$11.3 billion</strong> — $1.88 billion per day, $21,800 per second. Through Day 13: estimated <strong className="text-white">~$24.5 billion</strong></li>
           <li>📊 Iran&apos;s population (88M) exceeds Iraq (26M) + Afghanistan (38M) combined — occupation would require <strong className="text-white">572,000+ troops</strong></li>
           <li>📊 Strait of Hormuz closure costs global economy <strong className="text-white">$400B/day</strong> in lost output, oil at $150+/barrel</li>
           <li>📊 Projected total cost ranges from <strong className="text-white">$20B (air only)</strong> to <strong className="text-white">$5–15T+ (occupation/insurgency)</strong></li>

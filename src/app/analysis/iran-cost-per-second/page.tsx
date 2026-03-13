@@ -5,11 +5,11 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The $28,095-Per-Second War: What Iran Is Costing America | WarCosts',
-  description: 'Operation Epic Fury costs an estimated $2.4 billion per week. Tomahawk missiles at $2.5M each. B-2 sorties at $150K/hour. Two carrier strike groups at $13M/day combined. Every dollar broken down — and what it could have bought instead.',
+  title: 'The $21,800-Per-Second War: What Iran Is Costing America | WarCosts',
+  description: 'Pentagon told Congress: $11.3 BILLION in the first 6 days. That\'s $1.88 billion per day. $78.3 million per hour. $1.3 million per minute. $21,800 per second. Every Tomahawk, every B-2 sortie, every interceptor — priced, sourced, and compared to what that money could buy at home.',
   openGraph: {
-    title: 'The $28,095-Per-Second War: What Iran Is Costing America',
-    description: '$2.4 billion per week. $342 million per day. $14.3 million per hour. $238,000 per minute. $3,968 per second. That\'s the conservative estimate.',
+    title: 'The $21,800-Per-Second War: What Iran Is Costing America',
+    description: 'Pentagon confirmed: $11.3B in 6 days. $1.88 billion per day. $78.3 million per hour. $21,800 per second. Updated March 12, 2026.',
     url: 'https://www.warcosts.org/analysis/iran-cost-per-second',
   },
 }
@@ -50,9 +50,9 @@ const opportunities = [
   { cost: '$4.3M', warItem: '1 SM-6 interceptor', civilianItem: '143 elementary school teachers\' annual salary ($30K)' },
   { cost: '$36M', warItem: '1 SM-3 Block IIA interceptor', civilianItem: '1 community hospital with 50 beds (construction cost)' },
   { cost: '$4.5M', warItem: '1 B-2 round-trip sortie', civilianItem: '90 homes for Habitat for Humanity ($50K each)' },
-  { cost: '$342M', warItem: '1 day of Operation Epic Fury', civilianItem: 'Clean water systems for 3.4 million people in developing nations' },
-  { cost: '$2.4B', warItem: '1 week of Operation Epic Fury', civilianItem: 'Entire annual budget of the National Cancer Institute ($7.3B for 3 weeks)' },
-  { cost: '$10B', warItem: 'First month (estimated)', civilianItem: 'The entire annual budget of the EPA ($10.1B in FY2025)' },
+  { cost: '$1.88B', warItem: '1 day of Operation Epic Fury (Pentagon figure)', civilianItem: 'Clean water systems for 18.8 million people in developing nations' },
+  { cost: '$11.3B', warItem: 'First 6 days (Pentagon confirmed)', civilianItem: 'Entire annual budget of the National Cancer Institute ($7.3B) + the CDC ($8.5B) combined' },
+  { cost: '$24.5B', warItem: 'First 13 days (estimated through March 12)', civilianItem: 'More than the entire annual budget of NASA ($25.4B in FY2025)' },
   { cost: '$50–100B', warItem: 'Full campaign (if 2-3 months)', civilianItem: 'Universal pre-K for every American child for 5 years' },
 ]
 
@@ -62,7 +62,7 @@ export default function IranCostPerSecondPage() {
     { label: 'Iran: Cost Per Second', href: '/analysis/iran-cost-per-second' },
   ]
 
-  const dailyCostEstimate = 342_000_000
+  const dailyCostEstimate = 1_883_000_000
   const perHour = Math.round(dailyCostEstimate / 24)
   const perMinute = Math.round(perHour / 60)
   const perSecond = Math.round(perMinute / 60)
@@ -73,16 +73,16 @@ export default function IranCostPerSecondPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 6, 2026</span>
+        <span className="text-sm text-stone-500">Updated March 12, 2026</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
-        The $28,095-Per-Second War
+        The $21,800-Per-Second War
       </h1>
       <p className="text-xl text-stone-600 mb-2">What Operation Epic Fury Is Costing America</p>
-      <p className="text-stone-500 mb-8">Every Tomahawk, every B-2 sortie, every interceptor — priced, sourced, and compared to what that money could buy at home.</p>
+      <p className="text-stone-500 mb-8">The Pentagon told Congress: <strong>$11.3 billion in the first 6 days</strong>. That&apos;s $1.88 billion per day — 5.5x our original estimate. Every Tomahawk, every B-2 sortie, every interceptor — priced, sourced, and compared to what that money could buy at home.</p>
 
-      <ShareButtons title="The $28,095-Per-Second War: What Iran Is Costing America" />
+      <ShareButtons title="The $21,800-Per-Second War: What Iran Is Costing America" />
 
       {/* The Clock */}
       <section className="bg-stone-900 text-white rounded-xl p-8 my-8 text-center">
@@ -105,18 +105,14 @@ export default function IranCostPerSecondPage() {
             <div className="text-stone-400 text-sm">per second</div>
           </div>
         </div>
-        <p className="text-stone-500 text-sm mt-4">Conservative estimate based on known platform costs and munitions expenditures. Actual costs likely higher.</p>
+        <p className="text-stone-500 text-sm mt-4">Based on Pentagon&apos;s confirmed $11.3 billion for the first 6 days (reported to Congress on March 11, 2026). Our original estimate of $342M/day was 5.5x too low — proving once again that war always costs more than projected.</p>
       </section>
 
       {/* Methodology */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Methodology: How We Calculated This</h2>
-      <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
-        <p className="text-sm text-amber-900">
-          <strong>Transparency note:</strong> War costs are inherently difficult to calculate in real time. The Pentagon does not publish daily operational expenditures.
-          Our estimates combine: (1) known unit costs from DoD budget documents and CBO reports, (2) reported sortie rates from CENTCOM press briefings,
-          (3) published platform operating costs per flight hour from GAO audits, and (4) historical cost patterns from comparable operations
-          (Operation Odyssey Dawn/Libya 2011, Operation Inherent Resolve/ISIS 2014-present, Operation Midnight Hammer/Iran 2025).
-          We use conservative assumptions throughout. Where we estimate, we say so explicitly and show our math.
+      <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+        <p className="text-sm text-red-900">
+          <strong>🚨 March 11 UPDATE — Pentagon confirmed costs:</strong> On March 11, the Pentagon told Congress that the first 6 days of Operation Epic Fury cost <strong>$11.3 billion</strong>. That&apos;s $1.88 billion per day — <strong>5.5 times higher</strong> than our original bottom-up estimate of $342 million/day. Our original estimate was based on publicly known unit costs and reported sortie rates. The discrepancy suggests either: (1) far more munitions were expended than CENTCOM publicly reported, (2) classified programs (cyber, special operations, intelligence) are enormously expensive, (3) logistics and deployment costs are far higher than peacetime estimates, or (4) all of the above. We have updated all figures on this page to reflect the Pentagon&apos;s confirmed numbers. The tables below still show the bottom-up methodology for transparency — but the headline numbers now use the Pentagon&apos;s own figure.
         </p>
       </div>
 
@@ -218,26 +214,24 @@ export default function IranCostPerSecondPage() {
       </div>
 
       {/* Total Cost Estimate */}
-      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Total Cost: Week One</h2>
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Total Cost: Pentagon Confirmed</h2>
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <div className="grid md:grid-cols-3 gap-6 text-center">
           <div>
-            <div className="text-sm text-stone-400 mb-1">Munitions Expended</div>
-            <div className="text-2xl font-bold text-red-500">$3.24B+</div>
+            <div className="text-sm text-stone-400 mb-1">First 6 Days (Pentagon to Congress)</div>
+            <div className="text-2xl font-bold text-red-500">$11.3B</div>
           </div>
           <div>
-            <div className="text-sm text-stone-400 mb-1">Platform Operations</div>
-            <div className="text-2xl font-bold text-red-500">$350M+</div>
+            <div className="text-sm text-stone-400 mb-1">Our Bottom-Up Estimate (Week 1)</div>
+            <div className="text-2xl font-bold text-yellow-500 line-through">~$3.6B</div>
           </div>
           <div>
-            <div className="text-sm text-stone-400 mb-1">Week 1 Total (Direct)</div>
-            <div className="text-2xl font-bold text-red-500">~$3.6B</div>
+            <div className="text-sm text-stone-400 mb-1">Est. Through Day 13 (Mar 12)</div>
+            <div className="text-2xl font-bold text-red-500">~$24.5B</div>
           </div>
         </div>
         <p className="text-stone-400 text-sm mt-6 text-center">
-          This is direct military cost only. It does not include: economic damage from Hormuz closure (est. $5–10B/day globally),
-          increased fuel costs for DoD worldwide, emergency deployments, intelligence operations, diplomatic costs, or long-term
-          veterans&apos; care for wounded service members.
+          The Pentagon&apos;s $11.3B figure for 6 days is <strong className="text-red-400">3.1x higher</strong> than our bottom-up estimate of $3.6B. The gap likely reflects classified operations, logistics surge costs, and munitions expenditures far exceeding public reports. This is direct military cost only — it does not include economic damage from Hormuz disruption (~$15M bbl/day stranded, oil above $100/barrel), increased fuel costs for DoD worldwide, or long-term veterans&apos; care.
         </p>
       </div>
 
@@ -261,14 +255,14 @@ export default function IranCostPerSecondPage() {
             <tr className="bg-white">
               <td className="p-3 border-b font-medium">Quick Win (Trump&apos;s promise)</td>
               <td className="p-3 border-b text-right">4 weeks</td>
-              <td className="p-3 border-b text-right font-mono">$10–15B</td>
-              <td className="p-3 border-b text-xs text-stone-500">Roughly equal to the entire annual EPA budget</td>
+              <td className="p-3 border-b text-right font-mono">$50–55B</td>
+              <td className="p-3 border-b text-xs text-stone-500">At $1.88B/day. Already double the entire annual EPA budget ($10.1B)</td>
             </tr>
             <tr className="bg-stone-50">
               <td className="p-3 border-b font-medium">Extended air campaign</td>
               <td className="p-3 border-b text-right">3 months</td>
-              <td className="p-3 border-b text-right font-mono">$30–50B</td>
-              <td className="p-3 border-b text-xs text-stone-500">Roughly the annual cost of US food assistance (SNAP) for 15M people</td>
+              <td className="p-3 border-b text-right font-mono">$120–170B</td>
+              <td className="p-3 border-b text-xs text-stone-500">Even at reduced tempo. More than the annual cost of US food assistance (SNAP)</td>
             </tr>
             <tr className="bg-white">
               <td className="p-3 border-b font-medium">Protracted conflict</td>
@@ -308,12 +302,12 @@ export default function IranCostPerSecondPage() {
       <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
         <h3 className="font-bold text-red-900 mb-2">The Real Per-Taxpayer Cost</h3>
         <p className="text-sm text-red-800 mb-2">
-          The US has approximately 150 million individual tax filers. At an estimated $3.6 billion for Week 1 alone:
+          The US has approximately 150 million individual tax filers. At the Pentagon&apos;s confirmed rate of $1.88 billion per day:
         </p>
         <ul className="text-sm text-red-800 list-disc list-inside space-y-1">
-          <li><strong>$24 per taxpayer</strong> for the first week</li>
-          <li><strong>$67–$100 per taxpayer</strong> for Trump&apos;s promised 4-week campaign</li>
-          <li><strong>$200–$333 per taxpayer</strong> for a 3-month air campaign</li>
+          <li><strong>$75 per taxpayer</strong> for the first 6 days ($11.3B confirmed)</li>
+          <li><strong>$163 per taxpayer</strong> through Day 13 (~$24.5B estimated)</li>
+          <li><strong>$350 per taxpayer</strong> for Trump&apos;s promised 4-week campaign (~$52B)</li>
           <li><strong>$6,667–$20,000 per taxpayer</strong> if this becomes another Iraq (which cost $3 trillion total)</li>
         </ul>
         <p className="text-sm text-red-800 mt-2">
@@ -415,16 +409,15 @@ export default function IranCostPerSecondPage() {
             <tr className="bg-red-50">
               <td className="p-3 border-b font-bold">Iran (Epic Fury)</td>
               <td className="p-3 border-b text-right font-bold">2026</td>
-              <td className="p-3 border-b text-right font-mono font-bold text-red-700">~$3.6B</td>
-              <td className="p-3 border-b text-xs text-red-700">2,500+ targets. 400+ Tomahawks. B-2 sorties. Massive missile defense.</td>
+              <td className="p-3 border-b text-right font-mono font-bold text-red-700">$11.3B (6 days)</td>
+              <td className="p-3 border-b text-xs text-red-700">Pentagon confirmed to Congress. 5,000+ targets. $1.88B/day. Most expensive opening campaign in history.</td>
             </tr>
           </tbody>
         </table>
       </div>
 
       <p className="mb-4">
-        Operation Epic Fury&apos;s first week was comparable to the opening of Iraq in 2003 — but with far more expensive munitions.
-        The precision-guided revolution means each bomb costs more, and the missile defense burden (something that barely existed in 2003)
+        Operation Epic Fury&apos;s first week cost <strong>nearly 3x the opening of Iraq in 2003</strong> — and the Pentagon&apos;s confirmed $11.3B for 6 days makes it the most expensive opening campaign in American military history. The precision-guided revolution means each bomb costs more, and the missile defense burden (something that barely existed in 2003)
         is enormous. Iran&apos;s retaliatory missile and drone salvos have forced the US to expend hundreds of interceptors that cost
         10–70x what the incoming weapons cost. This is a war of economic attrition, and on the interceptor ledger, Iran is winning.
       </p>
@@ -527,10 +520,10 @@ export default function IranCostPerSecondPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Article',
-            headline: 'The $28,095-Per-Second War: What Iran Is Costing America',
-            description: 'Operation Epic Fury costs $342 million per day. Every munition, platform, and interceptor — priced and sourced.',
+            headline: 'The $21,800-Per-Second War: What Iran Is Costing America',
+            description: 'Pentagon confirmed: $11.3 billion in 6 days. $1.88 billion per day. $21,800 per second. Updated through Day 13.',
             datePublished: '2026-03-06',
-            dateModified: '2026-03-06',
+            dateModified: '2026-03-12',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-cost-per-second',
           }),

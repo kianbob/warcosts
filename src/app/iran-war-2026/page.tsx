@@ -84,7 +84,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE</span>
-          <span className="text-stone-500 text-sm">Last updated: March 6, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: March 12, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

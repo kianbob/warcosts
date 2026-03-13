@@ -8,7 +8,7 @@ import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-  description: 'Operation Epic Fury Day 7: 6 US troops dead. 1,230-1,332+ Iranians killed. 180 schoolgirls killed. 2,500+ Israeli strikes. 30+ Iranian warships sunk. B-2 bombers crush missile launchers. Russia feeding Iran US positions. Strait of Hormuz halted. Oil surging. Who benefits?',
+  description: 'Operation Epic Fury Day 13: 8 US troops dead. 1,348+ Iranians killed. 17,000 injured. $11.3B in 6 days. 5,000+ targets struck. Hormuz mined. Oil past $100. KC-135 crashed. 12 countries under fire. Who benefits?',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
     description: 'Operation Epic Fury launched without congressional approval. Who benefits? Not the American people.',
@@ -35,7 +35,7 @@ const timeline = [
   { date: 'Feb 28, 9:15am Tehran', event: 'Bombs start falling in broad daylight. Not at night — in the morning, after workers arrived at their desks and children arrived at school. Deliberate timing for a decapitation strike.' },
   { date: 'Feb 28, 10:30am', event: 'Two rounds of explosions along Pasteur Street — Iran\'s government zone. Supreme leader\'s compound, president\'s office, national security HQ all hit. Satellite photos show Khamenei\'s compound as "dark grey mess of dust and ash."' },
   { date: 'Feb 28', event: 'Mossad posts Farsi message on Telegram calling for uprising: "Our Iranian brothers and sisters, you are not alone! Together we will return Iran to its glorious days."' },
-  { date: 'Feb 28', event: '180 people killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab, Hormozgan province (initial reports said 108, later revised to 180). 170 students ages 7-12 were attending morning classes. IRGC base nearby may have been the target.' },
+  { date: 'Feb 28', event: '168 people killed when Israeli strike hits Shajareh Tayyebeh girls\' elementary school in Minab, Hormozgan province (initial reports said 108, later revised to 168). 158 students ages 7-12 were attending morning classes. IRGC base nearby may have been the target.' },
   { date: 'Feb 28, 2:30am DC', event: 'Trump posts 8-minute video on Truth Social announcing "major combat operations in Iran" — Operation Epic Fury. Tells Iranians: "When we are finished, take over your government. This will be, probably, your only chance for generations."' },
   { date: 'Feb 28', event: 'Iran retaliates with missiles and drones across the entire region: Israel, Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, Syria. Dubai\'s Fairmont hotel on Palm Jumeirah set ablaze. Airports in Dubai and Abu Dhabi hit. British bases in Cyprus targeted.' },
   { date: 'Feb 28', event: 'Iran closes the Strait of Hormuz — 20% of global oil and 20% of global LNG flows through it. Bloomberg warns of major oil price spike. Cannot be replaced.' },
@@ -51,7 +51,7 @@ const timeline = [
   { date: 'Mar 1 (eve)', event: 'Trump posts evening video vowing to "avenge" fallen service members. Says "there will likely be more" US casualties. Iran\'s FM: "We will resist as long as it takes." No end in sight.' },
   { date: 'Mar 2', event: '6 US service members now confirmed killed (ground forces in Kuwait), 18 injured. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire) — all 6 crew ejected safely.' },
   { date: 'Mar 2', event: 'Iranian Red Crescent: 555+ Iranians killed (later revised to 787+). Hengaw (Norway-based human rights org): 1,500+ dead including 200 civilians and 1,300 Iranian forces.' },
-  { date: 'Mar 2', event: '180 killed in Minab school strike (updated from 108). Rescue operations ongoing.' },
+  { date: 'Mar 2', event: '168 killed in Minab school strike (updated from 108). Rescue operations ongoing.' },
   { date: 'Mar 2', event: 'Hezbollah launches attacks on Israel from Lebanon in revenge for Khamenei killing. Israel responds with strikes killing 31+ in Lebanon. Lebanon bans Hezbollah military actions, trying to avoid being drawn in. Israeli strikes kill 52 in Lebanon total, displace 30,000+.' },
   { date: 'Mar 2', event: 'Iran claims it targeted 500 US/Israeli sites, hit 3 US/UK oil tankers in Gulf. US embassy in Riyadh hit by 2 drones — fire at compound, embassy closed. Saudi Ras Tanura refinery hit by drone, operations halted. QatarEnergy halts LNG production.' },
   { date: 'Mar 2', event: 'Oil hits $82/barrel, European diesel up 20%, analysts warning $100+. State Dept urges Americans to "DEPART NOW" from 14 Middle Eastern countries.' },
@@ -93,7 +93,7 @@ const timeline = [
   { date: 'Mar 6', event: 'Trump demands Iran\'s "UNCONDITIONAL SURRENDER." Iran FM Araghchi responds: "confident" Iran can resist a ground invasion, no negotiations. Tehran warns Europe to "stay out" or face "retaliation."' },
   { date: 'Mar 6', event: 'Strait of Hormuz: near-total halt — zero oil shipments in 24 hours. Oil prices surging: Brent crude jumped from ~$70 pre-war to $80+. Gas prices up 30% to three-year high. Dow dropped 1,200 points at open on Mar 3, closed -400; S&P 500 -0.7%.' },
   { date: 'Mar 6', event: 'US DFC announces $20 billion insurance plan for American businesses\' overseas losses. Combined strikes on Esteghlal Industrial Zone in Tehran Province — defense companies linked to Iran\'s missile program.' },
-  { date: 'Mar 6', event: 'Iranian death toll: 1,230-1,332+ (Red Crescent / HRANA figures). Minab school airstrike death toll revised UP to 180 civilians (from 108, then 168). US casualties stable at 6 killed, 18-20 injured. Internet blackout continues in Iran — now 7+ days offline.' },
+  { date: 'Mar 6', event: 'Iranian death toll: 1,230-1,332+ (Red Crescent / HRANA figures). Minab school airstrike death toll confirmed at 168 (revised from initial 108). US casualties stable at 6 killed, 18-20 injured. Internet blackout continues in Iran — now 7+ days offline.' },
   { date: 'Mar 6', event: 'IAEA confirms: no nuclear material damage from strikes. Azerbaijan\'s security service claims to have foiled Iranian terror plots against the Baku-Tbilisi-Ceyhan pipeline, Israeli embassy, and Jewish community targets.' },
   { date: 'Mar 6', event: 'Iran is now attacking 11+ countries. The war has expanded every single day. One week in, there is no ceasefire, no negotiations, no exit strategy, and no end in sight.' },
 ]
@@ -139,7 +139,7 @@ const whoBenefits = [
 const whoLoses = [
   { who: 'American Taxpayers', how: 'Operation Midnight Hammer cost $2.25B for 37 hours. Epic Fury is open-ended. Iraq cost $2.4T over 8 years. Afghanistan cost $2.3T over 20 years. Iran is bigger than both combined (88M people, 2.5x Iraq\'s size). National debt: $38 trillion. Interest alone: $1T/year. We literally cannot afford this.' },
   { who: 'American Troops', how: 'Iran fired missiles at 27+ US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, and more. 6 US service members killed, 18-20 injured by Day 7. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire). And now Russia is providing Iran with real-time intelligence on the locations of US warships, aircraft, and troop positions (WaPo, NYT, CNN, NBC — March 6). Our troops are being targeted with Russian satellite imagery. Trump says "there will likely be more." Troops are in harm\'s way for a war Congress never authorized.' },
-  { who: 'Iranian Children', how: '180 killed at Shajareh Tayyebeh girls\' elementary school in Minab (revised up from initial 108 reports) — 170 students ages 7-12 were in morning classes when the missile struck. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
+  { who: 'Iranian Children', how: '168 killed at Shajareh Tayyebeh girls\' elementary school in Minab (revised up from initial 108 reports) — 158 students ages 7-12 were in morning classes when the missile struck. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
   { who: 'Iranian Civilians', how: 'Iran Red Crescent: 1,332+ killed by Day 7. HRANA (Human Rights Activists in Iran): 1,168 civilians killed. Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan, Bushehr. IRIB complex, Golestan Palace (UNESCO World Heritage Site), Grand Bazaar, hospitals all damaged. Strikes near Mehrabad Airport — Tehran\'s main civilian hub. Iran has been offline for 7+ days — no internet, no communication with the outside world. Food distribution disrupted. Iran banned food exports. Many of these people were protesting their own government just weeks ago.' },
   { who: 'The Entire Gulf Region', how: '11+ countries under Iranian fire — the widest regional war since the 1980s. 72 killed in Lebanon, 437 injured, 80,000+ displaced. 12 killed in Israel, 777 injured. Bahrain oil refinery devastated, state of emergency declared. UAE: hundreds of missiles and drones. Dubai\'s Jabal Ali Port and Abu Dhabi\'s Zayed Port struck. Qatar hit with biggest barrage of the war. Azerbaijan drone-struck; terror plots against Baku pipeline foiled. Turkey targeted (missile shot down by NATO over Hatay). Israel invading Lebanon. European warships deploying.' },
   { who: 'Global Economy', how: 'Strait of Hormuz at NEAR-TOTAL HALT — zero oil shipments in 24 hours. 20% of world oil, 20% of world LNG. Cannot be replaced. Oil surging from $70 pre-war to $80+, analysts warning $100-150+. Gas prices up 30% to three-year high. Dow dropped 1,200 points at open on Mar 3, closed -400. S&P 500 -0.7%. US DFC announces $20B insurance plan for overseas losses. War-risk insurance premiums tripled. Supertanker rates at ALL-TIME HIGHS. Every American pays at the pump, the grocery store, and in the national debt.' },
@@ -157,7 +157,7 @@ export default function Iran2026Page() {
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
           <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
-          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 6, 2026 — Day 7</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 12, 2026 — Day 13</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
@@ -167,13 +167,12 @@ export default function Iran2026Page() {
           On February 28, 2026, the United States and Israel launched &ldquo;Operation Epic Fury&rdquo; — a massive
           joint strike campaign against Iran aimed at regime change. They assassinated the Supreme Leader.
           They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
-          180 schoolgirls were killed at an elementary school. Iran closed the Strait of Hormuz and fired missiles at
+          168 schoolchildren were killed at an elementary school. Iran closed the Strait of Hormuz and fired missiles at
           27 US bases across 7+ countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
-          By Day 7: 6 US troops dead. 1,230-1,332+ Iranians killed. 2,500+ Israeli strikes. 80% of Iran&apos;s air defenses destroyed.
-          30+ Iranian warships sunk. B-2 bombers crushed buried missile launchers — 90% drop in Iranian missile fire.
-          Russia is reportedly feeding Iran the locations of US military assets. The Strait of Hormuz has seen zero oil shipments in 24 hours.
-          Oil surging past $80. The Dow dropped 1,200 points. Gas prices jumped 30%. Trump demands &ldquo;unconditional surrender.&rdquo;
-          Israel struck near Tehran&apos;s international airport. Tehran warns Europe to stay out. France and the UK are deploying warships.
+          By Day 13: 8 US troops dead. 1,348+ Iranians killed. 17,000 injured. 5,000+ targets struck. Pentagon admits $11.3 billion spent in first 6 days alone.
+          Iran is mining the Strait of Hormuz. Oil past $100/barrel. A KC-135 tanker crashed in Iraq. Oil refineries burning.
+          Dubai airport struck twice. 687 killed in Lebanon. 12 countries under fire. Iran&apos;s nuclear scientists assassinated.
+          Tehran sets three conditions for peace. Trump demands unconditional surrender. No exit strategy. No end in sight.
         </p>
         <p className="text-stone-400 text-lg">
           No congressional vote. No declaration of war. No exit strategy. No clear American interest.
@@ -245,7 +244,7 @@ export default function Iran2026Page() {
           <p>
             An Israeli strike hit the <strong>Shajareh Tayyebeh girls&apos; elementary school</strong> in Minab, Hormozgan province,
             southern Iran. 170 students between the ages of <strong>7 and 12</strong> were attending morning classes when the missile
-            struck. At least <strong>180 people were killed</strong> (revised up from initial reports of 108), according to the Minab public prosecutor&apos;s office
+            struck. At least <strong>168 people were killed</strong> (revised up from initial reports of 108), according to the Minab public prosecutor&apos;s office
             (Al Jazeera, BBC, Washington Post, The Guardian, Drop Site News all confirmed).
           </p>
           <p>
@@ -553,7 +552,7 @@ export default function Iran2026Page() {
               The Iranian people were already protesting — the largest demonstrations since 1979, across 100+ cities.
               Their own government massacred thousands. But bombing a country historically rallies populations
               <em> around</em> their government, not against it. And the first victims of this &ldquo;liberation&rdquo;
-              were 180 children at an elementary school in Minab.
+              were 168 children at an elementary school in Minab.
             </p>
           </div>
           <div className="border-l-4 border-stone-300 pl-4">
@@ -829,7 +828,7 @@ export default function Iran2026Page() {
             <h3 className="font-semibold text-primary mb-1">🔄 Generational Blowback</h3>
             <p className="text-stone-700 text-sm">
               The 1953 coup produced 1979. The Iraq War produced ISIS. The Libya intervention produced failed states
-              and weapons flooding across Africa. What will killing 180 schoolgirls produce? What will bombing
+              and weapons flooding across Africa. What will killing 168 schoolchildren produce? What will bombing
               88 million people — many of whom were protesting their own government — produce? A generation of
               Iranians who blame America for their children&apos;s deaths. The next cycle of blowback.
             </p>
@@ -897,7 +896,7 @@ export default function Iran2026Page() {
           <span className="block text-sm text-stone-500 mt-1 not-italic">— James Madison, 1795</span>
         </blockquote>
         <p className="text-stone-300 mb-4">
-          One week in. 1,230-1,332+ Iranians dead. 180 schoolchildren dead. 6 Americans dead. 11+ countries
+          Two weeks in. 1,348+ Iranians dead. 17,000 injured. 168 schoolchildren dead. 8 Americans dead. 12 countries
           under fire. The Strait of Hormuz shut. Oil surging. Gas prices up 30%. The Dow crashing. Russia
           feeding Iran the locations of American warships. European nations dragged in. A succession crisis
           with no resolution. Trump demanding &ldquo;unconditional surrender&rdquo; while insisting on choosing
@@ -923,7 +922,7 @@ export default function Iran2026Page() {
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
-        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 6, 2026:</p>
+        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 12, 2026:</p>
         <ul className="text-sm text-stone-600 space-y-1 columns-1 md:columns-2">
           <li>The Guardian — War timeline, school bombing, Gulf retaliation, Fairmont hotel</li>
           <li>BBC — School bombing, regime change precedent analysis</li>
@@ -978,7 +977,7 @@ export default function Iran2026Page() {
         </Link>
         <Link href="/analysis/iran-civilian-cost" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
           <h3 className="font-semibold">The Civilian Cost: Schools, Hospitals, Grand Bazaar →</h3>
-          <p className="text-stone-500 text-sm">180 schoolgirls killed. UNESCO sites destroyed. What &quot;precision strikes&quot; look like.</p>
+          <p className="text-stone-500 text-sm">168 schoolchildren killed. UNESCO sites destroyed. What &quot;precision strikes&quot; look like.</p>
         </Link>
         <Link href="/analysis/iran-regional-war" className="bg-red-50 rounded-lg border border-red-200 p-4 hover:shadow-md transition">
           <h3 className="font-semibold">11 Countries, 7 Days →</h3>
@@ -1068,7 +1067,7 @@ export default function Iran2026Page() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-            description: 'Operation Epic Fury Day 7: 1,332+ dead. 180 schoolchildren killed. Russia feeding Iran US troop locations. Strait of Hormuz halted. Oil surging. 11+ countries under fire. Trump demands unconditional surrender. Who benefits?',
+            description: 'Operation Epic Fury Day 7: 1,348 dead. 168 schoolchildren killed. Russia feeding Iran US troop locations. Strait of Hormuz halted. Oil surging. 11+ countries under fire. Trump demands unconditional surrender. Who benefits?',
             datePublished: '2026-03-01',
             dateModified: '2026-03-06',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },

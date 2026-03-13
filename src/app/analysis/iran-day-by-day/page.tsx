@@ -6,10 +6,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 3, 2026.',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 12, 2026 (Day 13).',
   openGraph: {
     title: 'Iran 2026: A Day-by-Day Account',
-    description: 'The first 4 days of Operation Epic Fury — a factual war diary with verified numbers.',
+    description: 'The first 13 days of Operation Epic Fury — a factual war diary with verified numbers. $11.3B in 6 days. 1,348 killed. Oil above $100.',
     url: 'https://www.warcosts.org/analysis/iran-day-by-day',
   },
 }
@@ -19,6 +19,13 @@ const casualtyTracker = [
   { day: 'Day 2 (Mar 1)', usDeaths: 3, usWounded: 12, iranianDead: '350+', civilianDead: '200+', countriesInvolved: 5, estCostBillions: 5.1, keyEvent: 'Iran retaliates. Hormuz closed. Senate kills War Powers.' },
   { day: 'Day 3 (Mar 2)', usDeaths: 6, usWounded: 28, iranianDead: '555+', civilianDead: '300+', countriesInvolved: 8, estCostBillions: 8.4, keyEvent: 'Friendly fire. Embassy Riyadh hit. Hezbollah enters.' },
   { day: 'Day 4 (Mar 3)', usDeaths: 6, usWounded: 34, iranianDead: '787+ (1,500+ per Hengaw)', civilianDead: '500+', countriesInvolved: 11, estCostBillions: 12.2, keyEvent: 'Natanz damaged. Qatar strikes Iran. AWS offline.' },
+  { day: 'Days 5-7 (Mar 4-6)', usDeaths: 7, usWounded: 18, iranianDead: '1,230-1,332+', civilianDead: '700+', countriesInvolved: 12, estCostBillions: 11.3, keyEvent: 'B-2 bunker busters. 30+ ships sunk. Russia sharing intel.' },
+  { day: 'Day 8 (Mar 7)', usDeaths: 7, usWounded: 18, iranianDead: '~1,200+', civilianDead: '800+', countriesInvolved: 12, estCostBillions: 13.2, keyEvent: 'OIL STRIKES begin. Tondgouyan + Shahran refineries hit.' },
+  { day: 'Day 9 (Mar 8)', usDeaths: 7, usWounded: 18, iranianDead: '~1,250+', civilianDead: '850+', countriesInvolved: 12, estCostBillions: 15.1, keyEvent: 'Shahed drone factory destroyed. Oil past $100/barrel.' },
+  { day: 'Day 10 (Mar 9)', usDeaths: 7, usWounded: 18, iranianDead: '~1,280+', civilianDead: '900+', countriesInvolved: 12, estCostBillions: 17.0, keyEvent: 'Bahrain refinery ablaze. Force majeure declared.' },
+  { day: 'Day 11 (Mar 10)', usDeaths: 7, usWounded: 18, iranianDead: '~1,310+', civilianDead: '950+', countriesInvolved: 12, estCostBillions: 18.8, keyEvent: '16 minelayers destroyed. 5,000+ targets struck total.' },
+  { day: 'Day 12 (Mar 11)', usDeaths: 7, usWounded: 18, iranianDead: '~1,340+', civilianDead: '1,000+', countriesInvolved: 12, estCostBillions: 20.7, keyEvent: 'Pentagon: $11.3B in 6 days. Basij sites in Tehran hit.' },
+  { day: 'Day 13 (Mar 12)', usDeaths: 8, usWounded: 18, iranianDead: '1,348', civilianDead: '1,048+', countriesInvolved: 12, estCostBillions: 24.5, keyEvent: 'KC-135 crash in Iraq. Nuclear scientists killed. Peace conditions.' },
 ]
 
 const countriesDrawnIn = [
@@ -51,11 +58,11 @@ export default function IranDayByDayPage() {
 
       {/* Hero */}
       <div className="bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
-        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 3, 2026</p>
+        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 12, 2026</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Iran 2026: A Day-by-Day Account
         </h1>
-        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — The First Four Days</p>
+        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — Days 1 Through 13</p>
         <p className="text-stone-400 text-lg">
           This is not opinion. This is a factual chronological record of what happened, with verified numbers,
           sourced claims, and a running cost estimate. Every number is cited. Every claim is documented.
@@ -68,23 +75,23 @@ export default function IranDayByDayPage() {
       <div className="bg-red-950/30 border border-red-900/50 rounded-lg p-6 my-8">
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">📊</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 4 (March 3, 2026)</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 13 (March 12, 2026)</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">6</span>
+            <span className="text-3xl font-bold text-red-400">8</span>
             <p className="text-stone-400 text-sm">US Dead</p>
           </div>
           <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">787+</span>
-            <p className="text-stone-400 text-sm">Iranian Dead (official)</p>
+            <span className="text-3xl font-bold text-red-400">1,348</span>
+            <p className="text-stone-400 text-sm">Iranian Dead (Iran UN rep)</p>
           </div>
           <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">$12.2B</span>
-            <p className="text-stone-400 text-sm">Est. Cost (4 days)</p>
+            <span className="text-3xl font-bold text-red-400">~$24.5B</span>
+            <p className="text-stone-400 text-sm">Est. Cost (13 days)</p>
           </div>
           <div className="text-center">
-            <span className="text-3xl font-bold text-red-400">11</span>
+            <span className="text-3xl font-bold text-red-400">12+</span>
             <p className="text-stone-400 text-sm">Countries Involved</p>
           </div>
         </div>

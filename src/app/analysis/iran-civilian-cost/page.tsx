@@ -6,10 +6,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar | WarCosts',
-  description: '180 schoolgirls killed in Minab. Tehran Grand Bazaar destroyed. Golestan Palace — a UNESCO World Heritage Site — reduced to rubble. Iran\'s hospitals overwhelmed. This is what "precision strikes" look like.',
+  description: '1,348 killed, 17,000 injured. 168 schoolchildren killed in Minab. 200 women dead. 55 healthcare workers wounded, 11 killed. Grand Bazaar destroyed. Golestan Palace damaged. This is what "precision strikes" look like. Updated March 12, 2026 (Day 13).',
   openGraph: {
     title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
-    description: '180 schoolgirls. UNESCO heritage destroyed. Hospitals overwhelmed. The human cost of Operation Epic Fury.',
+    description: '1,348 killed. 17,000 injured. 168 schoolchildren. 200 women. 55 healthcare workers wounded. Updated Day 13.',
     url: 'https://www.warcosts.org/analysis/iran-civilian-cost',
   },
 }
@@ -18,8 +18,8 @@ const civilianSites = [
   {
     name: 'Shajareh Tayyebeh Girls\' Elementary School, Minab',
     date: 'February 28, 2026',
-    casualties: '180 killed (170 students ages 7–12, 10 staff)',
-    details: 'Israeli strike hit the school at approximately 10:30 AM local time during morning classes. Initial reports said 108 dead; revised to 180 as bodies were recovered from rubble over subsequent days. An IRGC military facility was located nearby and may have been the intended target. The school was not on any known target list shared between US and Israeli forces.',
+    casualties: '168 killed (158 students ages 7–12, 10 staff)',
+    details: 'Israeli strike hit the school at approximately 10:30 AM local time during morning classes. Initial reports said 108 dead; revised to 168 as bodies were recovered from rubble over subsequent days. An IRGC military facility was located nearby and may have been the intended target. The school was not on any known target list shared between US and Israeli forces.',
     response: 'Israel has not acknowledged the strike. The US described it as "under review." Iran\'s Red Crescent reported the death toll. International condemnation was immediate — UN Secretary-General called it "unconscionable." Comparisons drawn to the 2024 Tabeen school strike in Gaza (93 killed).',
     category: 'School',
   },
@@ -98,7 +98,7 @@ const civilianRatios = [
   { conflict: 'Iraq War (2003–2011)', ratio: '~77% civilian', total: '~200,000+ Iraqi civilians (Iraq Body Count)', note: '"Shock and Awe" + 8 years of occupation, insurgency, sectarian violence.' },
   { conflict: 'Afghanistan (2001–2021)', ratio: '~70% civilian', total: '~47,000+ Afghan civilians killed directly', note: '20-year war. Drone strikes, night raids, airstrikes on weddings/hospitals.' },
   { conflict: 'Gaza (2023–2025)', ratio: '~90% civilian', total: '~40,000+ Palestinian civilians', note: 'One of the highest civilian-to-combatant ratios in modern warfare.' },
-  { conflict: 'Iran (Epic Fury, Week 1)', ratio: 'TBD — early estimates ~70–85%', total: '1,230–1,332+ Iranians killed (Day 7)', note: 'Decapitation + infrastructure strikes. 180 schoolchildren killed. Full toll unknown.' },
+  { conflict: 'Iran (Epic Fury, Days 1-13)', ratio: 'TBD — early estimates ~70–85%', total: '1,348 Iranians killed, 17,000 injured (Day 13)', note: 'Decapitation + infrastructure + oil/security strikes. 168 schoolchildren, 200 women, 11 healthcare workers killed.' },
 ]
 
 export default function IranCivilianCostPage() {
@@ -113,7 +113,7 @@ export default function IranCivilianCostPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 6, 2026</span>
+        <span className="text-sm text-stone-500">Updated March 12, 2026 (Day 13)</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
@@ -128,27 +128,45 @@ export default function IranCivilianCostPage() {
 
       {/* The Numbers */}
       <section className="bg-stone-900 text-white rounded-xl p-8 my-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 7</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 13 (March 12)</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div>
-            <div className="text-3xl font-bold text-red-500">1,332+</div>
-            <div className="text-stone-400 text-sm">Iranians killed (combined estimates)</div>
+            <div className="text-3xl font-bold text-red-500">1,348</div>
+            <div className="text-stone-400 text-sm">Iranians killed (Iran UN rep)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">180</div>
-            <div className="text-stone-400 text-sm">Schoolchildren killed (Minab)</div>
+            <div className="text-3xl font-bold text-red-500">17,000</div>
+            <div className="text-stone-400 text-sm">Iranians injured</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">2,500+</div>
+            <div className="text-3xl font-bold text-red-500">5,000+</div>
             <div className="text-stone-400 text-sm">Targets struck (US + Israel)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">500K+</div>
-            <div className="text-stone-400 text-sm">Displaced from Isfahan alone</div>
+            <div className="text-3xl font-bold text-red-500">168</div>
+            <div className="text-stone-400 text-sm">Children killed (Minab school)</div>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center mt-4">
+          <div>
+            <div className="text-2xl font-bold text-red-400">200</div>
+            <div className="text-stone-400 text-sm">Women killed</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">55</div>
+            <div className="text-stone-400 text-sm">Healthcare workers wounded</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">11</div>
+            <div className="text-stone-400 text-sm">Healthcare workers killed</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">687</div>
+            <div className="text-stone-400 text-sm">Killed in Lebanon (98 children)</div>
           </div>
         </div>
         <p className="text-stone-500 text-sm mt-6 text-center">
-          Iranian Red Crescent reports 1,230 killed; Hengaw Human Rights reports 1,332+. True toll likely much higher due to communication blackouts and rubble removal delays.
+          Iran UN representative figures as of March 12. True toll likely higher due to ongoing communication blackouts and rubble removal. Lebanese figures per Lebanese government sources.
         </p>
       </section>
 
@@ -173,7 +191,7 @@ export default function IranCivilianCostPage() {
       <p className="mb-4">
         But precision of the weapon is not precision of the decision. When you aim a precise bomb at a government compound at 9:15 AM
         — when civilian staff are at their desks — the weapon is precise, but the outcome is not. When you strike a military facility
-        adjacent to a girls&apos; elementary school, the JDAM hits its target perfectly. The 180 children are just as dead.
+        adjacent to a girls&apos; elementary school, the JDAM hits its target perfectly. The 168 children are just as dead.
       </p>
       <p className="mb-8">
         The key legal and moral questions are not about weapon accuracy but about <strong>targeting decisions</strong>: Was the military
@@ -221,7 +239,7 @@ export default function IranCivilianCostPage() {
       </p>
       <p className="mb-4">
         The initial death toll was reported at 108. As rescue workers pulled more bodies from the collapsed structure over the following days,
-        the count rose to 180 — including 170 students and 10 teachers and staff.
+        the count rose to 168 — including 158 students and 10 teachers and staff.
       </p>
       <p className="mb-4">
         The strike was conducted by Israeli forces, not US forces, according to available reporting. However, the distinction may be legally
@@ -286,7 +304,7 @@ export default function IranCivilianCostPage() {
           <h3 className="font-bold mb-1">Proportionality (IHL Protocol I, Art. 51(5)(b))</h3>
           <p className="text-sm text-stone-600">
             An attack is prohibited if the expected civilian harm is excessive in relation to the concrete and direct military advantage
-            anticipated. Was the destruction of a nearby IRGC facility worth the lives of 180 schoolchildren? Proportionality analysis
+            anticipated. Was the destruction of a nearby IRGC facility worth the lives of 168 schoolchildren? Proportionality analysis
             requires this question be answered before the strike, not after.
           </p>
         </div>
@@ -375,9 +393,9 @@ export default function IranCivilianCostPage() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
-            description: '180 schoolgirls killed in Minab. Grand Bazaar destroyed. Golestan Palace damaged. The civilian toll of Operation Epic Fury.',
+            description: '168 schoolchildren killed in Minab. Grand Bazaar destroyed. Golestan Palace damaged. The civilian toll of Operation Epic Fury.',
             datePublished: '2026-03-06',
-            dateModified: '2026-03-06',
+            dateModified: '2026-03-12',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-civilian-cost',
           }),

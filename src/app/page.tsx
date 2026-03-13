@@ -139,7 +139,7 @@ export default function HomePage() {
             sponsors. Just the numbers — sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
             own reports.
           </p>
-          <p className="text-stone-600 text-xs mb-12">Last updated: March 6, 2026</p>
+          <p className="text-stone-600 text-xs mb-12">Last updated: March 12, 2026</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>
