@@ -628,7 +628,7 @@ export default function IranRegionalWarPage() {
             <div>
               <h4 className="font-semibold text-red-800 mb-2">Iran</h4>
               <ul className="text-stone-700 text-sm space-y-1">
-                <li>• Minab Elementary School: 180 girls killed</li>
+                <li>• Minab Elementary School: 168 children killed</li>
                 <li>• Tehran Grand Bazaar: Partially destroyed, historic sections damaged</li>
                 <li>• Golestan Palace: UNESCO World Heritage site damaged</li>
                 <li>• Power grid: 40% degraded, rolling blackouts nationwide</li>

@@ -440,6 +440,58 @@ export default function UkraineProxyPage() {
           avoidable?&rdquo; The answer to both is yes.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">The 2014 Coup: America&apos;s Fingerprints on Regime Change</h2>
+        <p>
+          In November 2013, Ukrainian President Viktor Yanukovych — democratically elected in 2010 in elections
+          certified as free and fair by international observers — suspended an EU association agreement in favor of
+          closer ties with Russia. Protests erupted in Kyiv&apos;s Maidan square. What followed was not a
+          spontaneous revolution — it was a regime change operation with deep American involvement.
+        </p>
+        <p>
+          The US spent an estimated <strong>$5 billion on &ldquo;democracy promotion&rdquo;</strong> in Ukraine
+          between 1991 and 2014, according to Victoria Nuland herself, then Assistant Secretary of State for
+          European Affairs. The National Endowment for Democracy (NED) — a CIA cutout founded in 1983 to do
+          overtly what the CIA had done covertly — funded dozens of Ukrainian opposition groups, media outlets,
+          and NGOs. USAID poured in additional millions.
+        </p>
+        <p>
+          During the Maidan protests, senior US officials openly took sides. Senator John McCain stood on stage
+          with opposition leaders including Oleh Tyahnybok of the far-right Svoboda party. Nuland personally
+          handed out cookies to protesters in Maidan square — a gesture that would be unthinkable if Russian
+          officials did the same at a protest in Mexico City.
+        </p>
+        <p>
+          Then came the leaked phone call. In February 2014, a recording surfaced of Nuland and US Ambassador
+          to Ukraine Geoffrey Pyatt discussing who should lead the post-Yanukovych government. Nuland declared
+          &ldquo;<em>Yats is the guy</em>&rdquo; — referring to Arseniy Yatsenyuk, who indeed became Prime Minister
+          after Yanukovych was overthrown. When Pyatt raised EU concerns, Nuland replied: &ldquo;<em>Fuck the EU.</em>&rdquo;
+        </p>
+        <p>
+          On February 21, 2014, Yanukovych signed an EU-brokered deal with opposition leaders that called for
+          early elections, a unity government, and constitutional reforms. France, Germany, and Poland guaranteed
+          the agreement. The next day, armed groups — including members of the far-right Right Sector —
+          seized government buildings, and Yanukovych fled. The deal was dead within 24 hours.
+        </p>
+        <p>
+          The new government&apos;s first act was to repeal the law protecting Russian-language rights in eastern
+          Ukraine — inflaming the Russian-speaking population of Crimea and the Donbas. Russia annexed Crimea
+          weeks later. A civil war erupted in eastern Ukraine that killed 14,000 people over eight years.
+        </p>
+        <p>
+          None of this is secret or conspiratorial — it&apos;s documented in mainstream sources. The <em>BBC</em>,
+          <em>The Guardian</em>, and <em>Foreign Affairs</em> all reported on US involvement in real time.
+          George Friedman, founder of Stratfor (the &ldquo;private CIA&rdquo;), called it &ldquo;<em>the most
+          blatant coup in history.</em>&rdquo; John Mearsheimer wrote in <em>Foreign Affairs</em> that the crisis
+          was &ldquo;the West&apos;s fault&rdquo; — driven by NATO expansion, EU enlargement, and democracy promotion
+          that Russia perceived as an existential threat.
+        </p>
+        <p>
+          The pattern is unmistakable: Iran (1953), Guatemala (1954), Chile (1973), Ukraine (2014). When the
+          US doesn&apos;t like the outcome of a democratic election, it funds the opposition, orchestrates
+          regime change, and then acts shocked when the consequences spiral out of control. In Ukraine&apos;s case,
+          the consequence was the deadliest land war in Europe since 1945.
+        </p>
+
         <h2 className="font-[family-name:var(--font-heading)]">The Minsk Agreements: Diplomacy Sabotaged</h2>
         <p>
           The Minsk agreements (Minsk I in 2014, Minsk II in 2015) were the only diplomatic framework for

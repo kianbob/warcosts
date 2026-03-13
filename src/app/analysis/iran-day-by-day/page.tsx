@@ -47,7 +47,7 @@ export default function IranDayByDayPage() {
             headline: 'Iran 2026: A Day-by-Day Account',
             description: 'A factual chronological timeline of the US-Iran war with verified numbers.',
             datePublished: '2026-03-03T00:00:00Z',
-            dateModified: '2026-03-03T18:00:00Z',
+            dateModified: '2026-03-12T18:00:00Z',
             author: { '@type': 'Organization', name: 'WarCosts.org' },
             publisher: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
           }),
@@ -472,6 +472,286 @@ export default function IranDayByDayPage() {
               US death toll reaches <strong className="text-red-400">15 killed, 67 wounded</strong>. Iranian casualties exceed <strong className="text-red-400">2,500+ by government count, 4,000+ by opposition estimates</strong>. First mass civilian casualty event: 89 killed when Iranian missiles targeting Al Dhafra Air Base in UAE overshoot and hit a shopping district in Abu Dhabi. UAE declares 3 days of national mourning.
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* DAY 8 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 8</span>
+          <span className="text-stone-400 text-sm">Friday, March 7, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Oil Strikes Begin</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">MISSION CREEP — OIL PRODUCTION NOW TARGETED</p>
+            <p>
+              For the first time, the combined force <strong className="text-white">expanded strikes to Iranian oil production</strong>.
+              IDF jets struck the <strong className="text-white">Tondgouyan Oil Refinery</strong> — one of Iran&apos;s largest — and the
+              <strong className="text-white"> Shahran Oil Refinery in Tehran</strong>. Two additional oil storage facilities were also destroyed.
+              The mission has now crept from nuclear facilities → military infrastructure → oil production. Classic escalation pattern.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">KHOJIR MILITARY COMPLEX DESTROYED</p>
+            <p>
+              Satellite imagery dated March 7 confirms the <strong className="text-white">destruction of structures at the Khojir Military Complex</strong> —
+              a sprawling IRGC research and weapons development facility east of Tehran long suspected of housing missile and nuclear weapons research.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">CIVILIAN TOLL MOUNTING</p>
+            <p>
+              Iranian Red Crescent reports <strong className="text-red-400">6,668+ civilian units targeted</strong> by US-Israeli strikes
+              since the start of operations. The distinction between &ldquo;military&rdquo; and &ldquo;civilian&rdquo; targets grows
+              increasingly meaningless as strikes expand into energy infrastructure that serves the entire population.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$13.2 billion</span></span>
+          <span className="text-stone-400">New target category: <span className="text-white font-bold">Oil production</span></span>
+        </div>
+      </div>
+
+      {/* DAY 9 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 9</span>
+          <span className="text-stone-400 text-sm">Saturday, March 8, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Drone Factory Destroyed. Oil Past $100.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">SHAHED DRONE FACTORY STRUCK</p>
+            <p>
+              The <strong className="text-white">Shahed Aviation Industries Production Facility in Isfahan</strong> was struck and destroyed.
+              This is Iran&apos;s primary manufacturer of the <strong className="text-white">Shahed-136, Shahed-129, and Shahed-171 drones</strong> —
+              the same weapons Iran has been supplying to Russia for use against Ukraine. Destroying Iran&apos;s drone production
+              capacity simultaneously degrades both Iranian and Russian military capabilities.
+            </p>
+          </div>
+
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">OIL PAST $100/BARREL</p>
+            <p>
+              <strong className="text-red-400">Oil prices surge past $100 per barrel</strong> for the first time since 2022.
+              Brent crude had been ~$70 pre-war, jumped 15% to $83 by Day 5, and has now breached the psychologically
+              critical $100 mark. With the Strait of Hormuz under threat and Iranian oil infrastructure now being targeted,
+              analysts warn $150+ is possible if the conflict drags on. Every American is paying for this war at the pump.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$15.1 billion</span></span>
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">Above $100/barrel</span></span>
+        </div>
+      </div>
+
+      {/* DAY 10 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 10</span>
+          <span className="text-stone-400 text-sm">Sunday, March 9, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Bahrain on Fire</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">BAHRAIN REFINERY ABLAZE</p>
+            <p>
+              An <strong className="text-red-400">Iranian missile set a Bahrain oil refinery ablaze</strong>. Bahrain declared
+              <strong className="text-white"> force majeure on oil shipments</strong> — a legal declaration that the country cannot
+              fulfill its contractual obligations due to extraordinary circumstances. For a small island nation whose economy
+              depends on oil, this is an existential blow. Bahrain joins the growing list of countries whose economies are being
+              destroyed as collateral damage of a war they didn&apos;t start.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">IRANIAN PROPAGANDA</p>
+            <p>
+              Iran&apos;s Parliament Speaker <strong className="text-white">Ghalibaf claims strikes have degraded US air defenses</strong>.
+              Whether accurate or propaganda, the statement signals Iran&apos;s determination to frame the conflict as one it is winning —
+              a narrative aimed at both domestic and international audiences. The information war continues alongside the kinetic one.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$17.0 billion</span></span>
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">Briefly above $100</span></span>
+        </div>
+      </div>
+
+      {/* DAY 11 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 11</span>
+          <span className="text-stone-400 text-sm">Monday, March 10, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran Mines the Strait</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">NAVAL MINES IN THE STRAIT OF HORMUZ</p>
+            <p>
+              CENTCOM announces it has <strong className="text-red-400">destroyed 16 Iranian minelayers near the Strait of Hormuz</strong>,
+              confirming Iran has begun laying naval mines in the world&apos;s most critical oil chokepoint. Fewer than 10 mines have
+              been deployed so far — but Iran possesses an inventory of <strong className="text-white">5,000+ naval mines</strong>,
+              enough to close the strait for months. This is the asymmetric warfare nightmare scenario: cheap mines ($1,000-$25,000 each)
+              threatening $100+ oil and forcing multi-million-dollar minesweeping operations.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">THE PARADOX: IRAN IS STILL EXPORTING</p>
+            <p>
+              In a remarkable paradox, <strong className="text-white">Iran is still exporting 2.1 million barrels per day</strong> through the
+              Strait of Hormuz — actually <strong className="text-white">slightly MORE than its pre-war 2.0M bpd</strong>. Iran is mining
+              the strait to threaten everyone else&apos;s shipments while continuing its own. Meanwhile, the <strong className="text-white">Goreh-Jask
+              pipeline</strong> (1M bpd capacity) gives Iran a bypass option that no other Gulf state has.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">BY THE NUMBERS</p>
+            <p>
+              CNN reports <strong className="text-white">~15 million barrels/day of crude oil + 4.5 million bpd of refined fuels</strong> are
+              stranded in the Persian Gulf. CENTCOM confirms the US and Israel have now struck <strong className="text-white">5,000+ targets
+              total</strong> since February 28. The UAE has intercepted <strong className="text-white">241 of 262 ballistic missiles — a 92%
+              rate</strong>. But the 21 that got through caused billions in damage. Air defense math: even 92% isn&apos;t enough.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$18.8 billion</span></span>
+          <span className="text-stone-400">Targets struck: <span className="text-white font-bold">5,000+</span></span>
+        </div>
+      </div>
+
+      {/* DAY 12 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 12</span>
+          <span className="text-stone-400 text-sm">Tuesday, March 11, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">$11.3 Billion in 6 Days</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">PENTAGON BOMBSHELL TO CONGRESS</p>
+            <p>
+              The Pentagon tells Congress that the <strong className="text-red-400">first 6 days of Operation Epic Fury cost $11.3 BILLION</strong>.
+              That&apos;s <strong className="text-white">$1.88 billion per day. $78.3 million per hour. $1.3 million per minute.
+              $21,800 per second.</strong> Our original estimate of $3.6 billion for Week 1 was off by a factor of 3.
+              The war is burning through money faster than any conflict in American history. At this rate, Trump&apos;s promised
+              &ldquo;four weeks or less&rdquo; campaign will cost over $50 billion — more than the entire annual EPA budget five times over.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">STRIKES IN TEHRAN RESIDENTIAL DISTRICTS</p>
+            <p>
+              Israeli jets struck <strong className="text-white">Basij and internal security sites in Tehran&apos;s Districts 1, 14, 15, and
+              16</strong> — residential neighborhoods. At least <strong className="text-red-400">10 Basij and security personnel killed</strong> in
+              Tehran drone strikes. The IAF also struck an IRGC intelligence building in northwest Iran. Combined forces hit security
+              sites in <strong className="text-white">Marivan City, Kurdistan Province</strong>: an IRGC intelligence building, a border
+              guard headquarters, and 3 observation posts. The target set has expanded from military → nuclear → oil → internal security.
+            </p>
+          </div>
+
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">DRONES HIT DUBAI AIRPORT AND OMAN</p>
+            <p>
+              <strong className="text-red-400">2 Iranian drones struck near Dubai International Airport</strong> — the world&apos;s busiest
+              international hub — injuring 4 people. A separate Iranian drone struck <strong className="text-white">gasoline storage at the
+              Port of Salalah, Oman</strong>, starting fires at a neutral country&apos;s port facility. Oman — which had brokered the
+              US-Iran nuclear talks and whose foreign minister flew to Washington to beg for more time for diplomacy — is now being
+              bombed by the country it tried to help. A <strong className="text-red-400">29-year-old woman was killed in Bahrain</strong> when
+              a projectile struck a residential building in Manama.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">MARITIME CHAOS</p>
+            <p>
+              The <strong className="text-white">UK Maritime Trade Operations (UKMTO) reports 17 maritime incidents</strong> between
+              February 28 and March 11: 13 confirmed attacks and 4 suspicious approaches. The Strait of Hormuz has become a
+              war zone. The UAE intercepted 39 drones on March 11 alone.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$20.7 billion</span></span>
+          <span className="text-stone-400">Pentagon confirmed: <span className="text-red-400 font-bold">$11.3B in 6 days</span></span>
+        </div>
+      </div>
+
+      {/* DAY 13 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 13</span>
+          <span className="text-stone-400 text-sm">Wednesday, March 12, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">KC-135 Down. Scientists Killed. Peace Conditions.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950/40 border border-red-900/50 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">AMERICAN AIRCRAFT DOWN</p>
+            <p>
+              A <strong className="text-red-400">KC-135 Stratotanker refueling aircraft crashed in western Iraq</strong> in what CENTCOM
+              described as &ldquo;friendly airspace&rdquo; during Operation Epic Fury. Rescue operations are ongoing, with 2 aircraft
+              involved in the incident. The KC-135 is the backbone of US aerial refueling — without tankers, the entire air campaign
+              grinds to a halt. Whether this was mechanical failure, hostile action, or operational stress on aging airframes (the KC-135
+              fleet averages 60+ years old), it highlights the fragility of sustained high-tempo operations.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">NUCLEAR SCIENTISTS ASSASSINATED</p>
+            <p>
+              Israel announces that <strong className="text-white">top Iranian nuclear scientists have been killed</strong> — suggesting
+              targeted assassination operations running parallel to the bombing campaign. If confirmed, this marks an escalation beyond
+              military strikes to targeted killings of civilian scientists — operations that Israel has conducted before (Mohsen Fakhrizadeh, 2020)
+              but never during a full-scale air campaign.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">TEHRAN SETS 3 CONDITIONS FOR PEACE</p>
+            <p>
+              In the most significant diplomatic development since the war began, <strong className="text-white">Tehran sets three
+              conditions for peace</strong> — the first concrete negotiating position either side has offered in 13 days of conflict.
+              Whether these conditions are realistic or an opening gambit, they represent the first crack in the &ldquo;unconditional
+              surrender&rdquo; vs. &ldquo;fight forever&rdquo; dynamic that has defined the war.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">CASUALTIES UPDATE — DAY 13</p>
+            <p>
+              <strong className="text-white">Iran:</strong> 1,348 killed, 17,000 injured (per Iran UN rep). 200 women, 168 children (Minab school).
+              55 healthcare workers wounded, 11 killed.<br />
+              <strong className="text-white">US:</strong> 8 dead (7 KIA + 1 health incident in Kuwait), 18 wounded.<br />
+              <strong className="text-white">Israel:</strong> 15 killed, 2,000 wounded.<br />
+              <strong className="text-white">Lebanon:</strong> 687 killed (98 children), 1,500 injured.<br />
+              <strong className="text-white">Gulf states:</strong> ~17 killed total (Bahrain 2, Iraq 26, Kuwait 6, Jordan 14 injured).
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$24.5 billion</span></span>
+          <span className="text-stone-400">Total dead (all countries): <span className="text-red-400 font-bold">2,100+</span></span>
         </div>
       </div>
 

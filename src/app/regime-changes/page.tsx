@@ -172,6 +172,16 @@ const regimeChanges = [
     cost: 'Sanctions cost Venezuela an estimated $38B in oil revenue',
     civilianImpact: '40,000+ deaths attributed to sanctions. 7 million refugees. Economic collapse.',
   },
+  {
+    id: 'ukraine-2014', country: 'Ukraine', year: 2014, flag: '🇺🇦',
+    method: 'US-backed regime change via "democracy promotion," NED/USAID funding, and direct political support for opposition',
+    leader: 'President Viktor Yanukovych (elected 2010) → Arseniy Yatsenyuk (Nuland\'s pick)',
+    reason: 'Yanukovych suspended EU association agreement in favor of Russian trade deal. US wanted Ukraine in Western orbit.',
+    blowback: '2022 Russian invasion. 500,000+ casualties. Largest land war in Europe since WWII. $175B+ in US aid. NATO expansion crisis.',
+    details: 'The US spent an estimated $5 billion on "democracy promotion" in Ukraine between 1991 and 2014 (per Victoria Nuland). The National Endowment for Democracy (NED) — a CIA cutout founded in 1983 — funded dozens of Ukrainian opposition groups and media outlets. When protests erupted in Maidan square after Yanukovych chose a Russian trade deal over an EU agreement, senior US officials openly intervened. Senator John McCain stood on stage with opposition leaders including the far-right Svoboda party\'s Oleh Tyahnybok. Nuland handed out cookies in Maidan square. In a leaked phone call, Nuland told US Ambassador Pyatt "Yats is the guy" — hand-picking the next prime minister. An EU-brokered peace deal signed Feb 21 was abandoned within 24 hours when armed groups seized government buildings. Yanukovych fled. The new government\'s first act repealed Russian-language protections, inflaming eastern Ukraine. Russia annexed Crimea; civil war erupted in the Donbas (14,000 killed over 8 years). George Friedman of Stratfor called it "the most blatant coup in history." The direct line from 2014 to Russia\'s 2022 invasion is undeniable.',
+    cost: '$5B in "democracy promotion" → $175B+ in military aid to Ukraine (2022-2026)',
+    civilianImpact: '14,000 killed in Donbas civil war (2014-2022). 500,000+ casualties in 2022-2025 war. 6 million Ukrainian refugees. Cities destroyed.',
+  },
 ]
 
 const operationCondorCountries = [

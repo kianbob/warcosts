@@ -88,7 +88,7 @@ export default function IranRussiaShadowWarPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 6, 2026</span>
+        <span className="text-sm text-stone-500">Updated March 12, 2026 (Day 13)</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
@@ -512,7 +512,7 @@ export default function IranRussiaShadowWarPage() {
           <h3 className="font-bold text-red-900 mb-1">American troops are being killed with Russian help</h3>
           <p className="text-sm text-red-800">
             If Iranian missiles are hitting US bases with enhanced accuracy due to Russian intelligence, then Russia bears direct
-            responsibility for American casualties. As of March 6: 6 US KIA, 47 wounded. Russia's intelligence assistance makes
+            responsibility for American casualties. As of March 6: 8 US dead (7 KIA + 1 health incident), 18 wounded. Russia's intelligence assistance makes
             them complicit in every American death. This crosses a red line that has held since the Cold War ended.
           </p>
         </div>
@@ -895,7 +895,7 @@ export default function IranRussiaShadowWarPage() {
             headline: 'Russia\'s Shadow War: Moscow Is Helping Iran Kill Americans',
             description: 'Russia is sharing intelligence on US military positions with Iran during Operation Epic Fury.',
             datePublished: '2026-03-06',
-            dateModified: '2026-03-06',
+            dateModified: '2026-03-12',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-russia-shadow-war',
           }),
