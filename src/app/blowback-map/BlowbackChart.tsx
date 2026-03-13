@@ -83,7 +83,7 @@ export default function BlowbackChart({ nodes }: BlowbackChartProps) {
                     {node.year}
                   </span>
                 </div>
-                <p className="text-stone-300 text-sm">{node.description}</p>
+                <p className="text-stone-600 text-sm">{node.description}</p>
                 {(node.casualties || node.cost) && (
                   <div className="flex gap-4 mt-2 text-xs text-stone-400">
                     {node.casualties && <span>Deaths: {node.casualties.toLocaleString()}</span>}
@@ -112,15 +112,15 @@ export default function BlowbackChart({ nodes }: BlowbackChartProps) {
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-red-600 rounded"></div>
-            <span className="text-stone-300 text-sm">US Intervention</span>
+            <span className="text-stone-600 text-sm">US Intervention</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-orange-500 rounded"></div>
-            <span className="text-stone-300 text-sm">Immediate Consequence</span>
+            <span className="text-stone-600 text-sm">Immediate Consequence</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-4 h-4 bg-red-900 rounded"></div>
-            <span className="text-stone-300 text-sm">Blowback/Long-term Effect</span>
+            <span className="text-stone-600 text-sm">Blowback/Long-term Effect</span>
           </div>
         </div>
       </div>
@@ -154,15 +154,15 @@ export default function BlowbackChart({ nodes }: BlowbackChartProps) {
                   <div className="space-y-3">
                     <div className="flex gap-4 text-sm">
                       <span className="text-stone-400">Year:</span>
-                      <span className="text-stone-300">{node.year}</span>
+                      <span className="text-stone-600">{node.year}</span>
                     </div>
                     <div className="flex gap-4 text-sm">
                       <span className="text-stone-400">Type:</span>
-                      <span className="text-stone-300 capitalize">{node.type.replace('_', ' ')}</span>
+                      <span className="text-stone-600 capitalize">{node.type.replace('_', ' ')}</span>
                     </div>
                     <div className="flex gap-4 text-sm">
                       <span className="text-stone-400">Region:</span>
-                      <span className="text-stone-300">{node.region}</span>
+                      <span className="text-stone-600">{node.region}</span>
                     </div>
                     {node.casualties && (
                       <div className="flex gap-4 text-sm">
@@ -178,7 +178,7 @@ export default function BlowbackChart({ nodes }: BlowbackChartProps) {
                     )}
                   </div>
                   <div className="mt-4 pt-4 border-t border-stone-600">
-                    <p className="text-stone-300 leading-relaxed">{node.description}</p>
+                    <p className="text-stone-600 leading-relaxed">{node.description}</p>
                   </div>
                   
                   {node.connects && node.connects.length > 0 && (

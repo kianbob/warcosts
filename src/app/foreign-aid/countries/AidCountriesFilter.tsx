@@ -39,7 +39,7 @@ export default function AidCountriesFilter({ countries }: { countries: any[] }) 
               <tr key={c.slug} className="border-b border-stone-200 hover:bg-stone-50 transition">
                 <td className="py-3 pr-4 text-stone-500">{i + 1}</td>
                 <td className="py-3 pr-4">
-                  <Link href={`/foreign-aid/${c.slug}`} className="text-red-700 hover:text-red-300 font-medium">
+                  <Link href={`/foreign-aid/${c.slug}`} className="text-red-700 hover:text-red-800 font-medium">
                     {c.country}
                   </Link>
                 </td>

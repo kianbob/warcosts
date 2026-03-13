@@ -141,9 +141,9 @@ export default function CostCalcClient() {
           </div>
         </div>
         <div className="mt-6 flex flex-wrap gap-4">
-          <Link href="/opportunity-cost" className="text-red-400 hover:text-red-300 underline text-sm">What else could this buy? →</Link>
-          <Link href="/modern-wars" className="text-red-400 hover:text-red-300 underline text-sm">See all modern wars →</Link>
-          <Link href="/analysis/forever-wars" className="text-red-400 hover:text-red-300 underline text-sm">How 60 words enabled it all →</Link>
+          <Link href="/opportunity-cost" className="text-red-400 hover:text-red-800 underline text-sm">What else could this buy? →</Link>
+          <Link href="/modern-wars" className="text-red-400 hover:text-red-800 underline text-sm">See all modern wars →</Link>
+          <Link href="/analysis/forever-wars" className="text-red-400 hover:text-red-800 underline text-sm">How 60 words enabled it all →</Link>
         </div>
       </div>
     </div>

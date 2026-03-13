@@ -105,7 +105,7 @@ export default function LargestDefenseContractors() {
                   </Link>
                   <span className="font-medium text-red-700">{fmtMoney(c.amount)}</span>
                 </div>
-                <div className="h-4 bg-stone-700 rounded-full overflow-hidden">
+                <div className="h-4 bg-stone-200 rounded-full overflow-hidden">
                   <div
                     className={`h-full rounded-full ${i < 3 ? 'bg-red-600' : 'bg-red-400/60'}`}
                     style={{ width: `${widthPct}%` }}

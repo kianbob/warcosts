@@ -50,7 +50,7 @@ export default function WeaponsPage() {
       <h2 className="text-xl font-bold text-stone-900 mb-3">Most Expensive Programs</h2>
       <div className="space-y-2 mb-8">
         {weapons.sort((a, b) => (b.totalCost || 0) - (a.totalCost || 0)).slice(0, 10).map((w, i) => (
-          <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex items-center gap-4 bg-white border border-stone-200 hover:bg-stone-700 border border-stone-700 rounded-lg p-4 transition-colors">
+          <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex items-center gap-4 bg-white border border-stone-200 hover:bg-stone-100 border border-stone-700 rounded-lg p-4 transition-colors">
             <span className="text-stone-500 text-lg font-mono w-8">#{i + 1}</span>
             <div className="flex-1">
               <div className="text-stone-900 font-medium">{w.name}</div>
@@ -74,7 +74,7 @@ export default function WeaponsPage() {
               <h3 className="text-stone-900 font-bold mb-2">{cat} ({catWeapons.length})</h3>
               <div className="space-y-1">
                 {catWeapons.map(w => (
-                  <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex justify-between text-sm hover:text-red-300">
+                  <Link key={w.slug} href={`/weapons/${w.slug}`} className="flex justify-between text-sm hover:text-red-800">
                     <span className="text-stone-600">{w.name}</span>
                     <span className="text-red-400">{w.costBillions ? `$${w.costBillions}B` : ((w as any).costNote || '—')}</span>
                   </Link>
@@ -93,11 +93,11 @@ export default function WeaponsPage() {
           Eisenhower warned about has only grown more powerful.
         </p>
         <div className="flex gap-3 mt-3 flex-wrap">
-          <Link href="/analysis/military-industrial-complex" className="text-red-400 hover:text-red-300 text-sm underline">Military-Industrial Complex →</Link>
-          <Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-300 text-sm underline">Pentagon Waste →</Link>
-          <Link href="/analysis/silicon-valley-pentagon" className="text-red-400 hover:text-red-300 text-sm underline">Silicon Valley & Pentagon →</Link>
-          <Link href="/contractors" className="text-red-400 hover:text-red-300 text-sm underline">Defense Contractors →</Link>
-          <Link href="/spending" className="text-red-400 hover:text-red-300 text-sm underline">Military Spending →</Link>
+          <Link href="/analysis/military-industrial-complex" className="text-red-400 hover:text-red-800 text-sm underline">Military-Industrial Complex →</Link>
+          <Link href="/analysis/pentagon-waste" className="text-red-400 hover:text-red-800 text-sm underline">Pentagon Waste →</Link>
+          <Link href="/analysis/silicon-valley-pentagon" className="text-red-400 hover:text-red-800 text-sm underline">Silicon Valley & Pentagon →</Link>
+          <Link href="/contractors" className="text-red-400 hover:text-red-800 text-sm underline">Defense Contractors →</Link>
+          <Link href="/spending" className="text-red-400 hover:text-red-800 text-sm underline">Military Spending →</Link>
         </div>
       </div>
 

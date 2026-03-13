@@ -55,7 +55,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
         <div className="flex items-center gap-3 mb-3">
           <span className="text-red-700 font-bold text-lg font-[family-name:var(--font-heading)]">{vote.year}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
-            vote.type === 'declaration' ? 'bg-red-900 text-red-300' : 'bg-stone-700 text-stone-300'
+            vote.type === 'declaration' ? 'bg-red-100 text-red-700' : 'bg-stone-100 text-stone-700'
           }`}>{vote.type}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
             vote.result === 'Passed' ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-300'
@@ -107,7 +107,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {vote.notes && (
         <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📝 Details</h2>
-          <p className="text-stone-300 leading-relaxed">{vote.notes}</p>
+          <p className="text-stone-600 leading-relaxed">{vote.notes}</p>
         </div>
       )}
 
@@ -115,15 +115,15 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {vote.context && (
         <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">📖 Historical Context</h2>
-          <p className="text-stone-300 leading-relaxed">{vote.context}</p>
+          <p className="text-stone-600 leading-relaxed">{vote.context}</p>
         </div>
       )}
 
       {/* Consequences */}
       {vote.consequences && (
-        <div className="bg-red-950 border border-red-900 rounded-lg p-6 mb-8">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-700 mb-3">⚡ Consequences</h2>
-          <p className="text-stone-300 leading-relaxed">{vote.consequences}</p>
+        <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-800 mb-3">⚡ Consequences</h2>
+          <p className="text-stone-600 leading-relaxed">{vote.consequences}</p>
         </div>
       )}
 
@@ -135,7 +135,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
             {vote.keyFigures.map((f, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-red-700">▸</span>
-                <span className="text-stone-300">{f}</span>
+                <span className="text-stone-600">{f}</span>
               </li>
             ))}
           </ul>
@@ -145,13 +145,13 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {/* Navigation */}
       <div className="flex justify-between mt-8 mb-8">
         {prev ? (
-          <Link href={`/war-votes/${prev.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-700 transition">
+          <Link href={`/war-votes/${prev.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition">
             <p className="text-xs text-stone-400">← Previous</p>
             <p className="font-semibold text-stone-900 text-sm">{prev.year}: {prev.name.substring(0, 40)}...</p>
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/war-votes/${next.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-700 transition text-right">
+          <Link href={`/war-votes/${next.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition text-right">
             <p className="text-xs text-stone-400">Next →</p>
             <p className="font-semibold text-stone-900 text-sm">{next.year}: {next.name.substring(0, 40)}...</p>
           </Link>
@@ -159,7 +159,7 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       </div>
 
       <div className="text-center">
-        <Link href="/war-votes" className="text-red-700 hover:text-red-300 text-sm">← Back to All War Votes</Link>
+        <Link href="/war-votes" className="text-red-700 hover:text-red-800 text-sm">← Back to All War Votes</Link>
       </div>
 
       <BackToTop />

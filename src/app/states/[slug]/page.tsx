@@ -98,7 +98,7 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
               of {data.state}&apos;s gross state product comes from Department of Defense activity
             </div>
           </div>
-          <div className="w-full bg-stone-700 rounded-full h-3">
+          <div className="w-full bg-stone-200 rounded-full h-3">
             <div
               className="bg-red-600 h-3 rounded-full"
               style={{ width: `${Math.min(def.pctGsp * 5, 100)}%` }}
