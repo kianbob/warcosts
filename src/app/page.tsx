@@ -52,7 +52,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 14: 1,444+ killed, 13+ US troops dead, 15,000+ targets struck, Hormuz closed, new Supreme Leader vows revenge</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 15: Kharg Island struck, 2,500 Marines deploying, $16.5B spent, oil at $103, 56% of Americans oppose war</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -71,10 +71,10 @@ export default function HomePage() {
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {[
                 { value: '1,444+', label: 'Killed in Iran' },
-                { value: '8', label: 'US Troops Dead' },
-                { value: '12+', label: 'Countries Under Fire' },
-                { value: '$11.3B', label: 'First 6 Days (Pentagon)' },
-                { value: '$100+', label: 'Oil per Barrel' },
+                { value: '13+', label: 'US Troops Dead' },
+                { value: '3.2M', label: 'Iranians Displaced' },
+                { value: '$16.5B', label: 'First 12 Days (CSIS)' },
+                { value: '$103+', label: 'Oil per Barrel' },
                 { value: '15,000+', label: 'Targets Struck' },
               ].map((s, i) => (
                 <div key={i} className="text-center">

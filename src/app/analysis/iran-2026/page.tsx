@@ -8,7 +8,7 @@ import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
-  description: 'Operation Epic Fury Day 14: 13+ US troops dead. 1,444+ Iranians killed. 18,551 injured. $11.3B in 6 days. 15,000+ targets struck. Hormuz closed. Oil above $100. KC-135 crew all dead. New Supreme Leader vows revenge. 12 countries under fire. Who benefits?',
+  description: 'Operation Epic Fury Day 15: 13+ US troops dead. 1,444+ Iranians killed. 3.2M displaced. $16.5B in 12 days. 15,000+ targets struck. Kharg Island hit. Hormuz closed. Oil at $103. Marines deploying. 56% of Americans oppose. Who benefits?',
   openGraph: {
     title: 'Whose War Is This? The Iran Conflict Nobody Asked For',
     description: 'Operation Epic Fury launched without congressional approval. Who benefits? Not the American people.',
@@ -103,6 +103,8 @@ const timeline = [
   { date: 'Mar 11 (Day 12)', event: 'BOMBSHELL: Pentagon tells Congress first 6 days cost $11.3 BILLION ($1.88B/day, $21,800/second). Israeli jets strike Basij and internal security sites in Tehran Districts 1, 14, 15, 16 — residential neighborhoods. 10+ Basij/security killed. IAF strikes IRGC intelligence building in NW Iran. Combined force hits Marivan City, Kurdistan: IRGC intel building, border guard HQ, 3 observation posts. 2 Iranian drones strike near Dubai International Airport (4 injured). Drone hits gasoline storage at Port of Salalah, OMAN (fires). 29-year-old woman killed in Bahrain (Manama residential building). UKMTO: 17 maritime incidents Feb 28-Mar 11.' },
   { date: 'Mar 12 (Day 13)', event: 'KC-135 Stratotanker refueling aircraft crashes in western Iraq ("friendly airspace") — rescue ongoing, 2 aircraft involved. Israel says top Iranian nuclear scientists killed. Oil tankers hit in Iraq. Tehran sets 3 CONDITIONS FOR PEACE — first concrete negotiating position. Updated casualty totals: Iran 1,348 killed, 17,000 injured (200 women, 168 children). US: 8 dead (7 KIA + 1 health incident Kuwait), 18 wounded. Lebanon: 687 killed (98 children). Israel: 15 killed, 2,000 wounded.' },
   { date: 'Mar 13 (Day 14)', event: 'CENTCOM confirms ALL 6 crew members killed in KC-135 crash — US death toll rises to at least 13 (7 KIA + 6 KC-135 crew + health incident). CENTCOM says crash was NOT hostile fire; Islamic Resistance in Iraq claims it shot the aircraft down. Iran Health Ministry updates death toll: 1,444 killed, 18,551 injured. Hegseth reveals US and Israeli forces have struck 15,000+ TARGETS — triple the 5,000 figure from 3 days ago. Mojtaba Khamenei issues FIRST PUBLIC STATEMENT as new Supreme Leader: attacks on Israel and US assets will continue unless foreign bases in the region are closed. Israel launches new "extensive wave" of strikes on Tehran — thick smoke blankets the capital Friday morning. IDF strikes underground production/storage site in Shiraz. Brent crude holds above $100/barrel ($100.03). Oil shipping through Strait of Hormuz remains at near-total halt — Iran says strait is "under Iranian control," all ships need permission to pass. 250+ US organizations sign letter demanding Congress halt war funding, calling $11.3B in 6 days a diversion from domestic needs. Iraq shuts port operations after Indian crew member killed on US-owned oil tanker. Six French soldiers wounded by drone attack in Erbil, Iraq — Macron confirms. Israeli strike on village of Arki near Sidon, Lebanon kills 9 including 5 children. Lebanon death toll: 687+ killed (98 children), 700,000-750,000 displaced. Netanyahu says Israel can "create conditions for regime change" but it\'s up to Iranians. Lindsey Graham: "I don\'t see this conflict ending today." Trump: war going "very well." Reuters reports Trump aides privately vying over endgame with no exit in sight.' },
+  { date: 'Mar 14 (Day 15)', event: 'CENTCOM executes "large-scale precision strike" on KHARG ISLAND — Iran\'s oil export hub handling 90% of crude exports — destroying 90 military targets while "preserving oil infrastructure." Trump says US "totally obliterated every MILITARY target" on Kharg and warns: if Iran interferes with Hormuz passage, "I will immediately reconsider" sparing oil infrastructure. IRGC threatens UAE directly — informs Abu Dhabi that US "hideouts" are now "legitimate targets." 2,500 Marines (31st MEU) + amphibious assault ship USS Tripoli ordered to Middle East from Japan (WSJ/AP) — MEU capable of amphibious landings, embassy reinforcement, and evacuations. Israel strikes Iranian Space Agency research center and aerial defense production sites. Explosion rocks Ferdowsi Square in central Tehran during annual Quds Day rally attended by thousands — Israel had warned the area would be targeted; Iran\'s judiciary chief Mohseni Ejei present at rally, raises fist and declares Iran "will never withdraw." Hegseth says Mojtaba Khamenei was "likely disfigured" in strikes. Brent crude settles at $103.14/barrel (highest in ~4 years); peaked at $119.50 during past week. CSIS estimates US spending through first 12 days at $16.5 BILLION (up from $11.3B for first 6 days). 90+ Iranian vessels damaged or destroyed total; 30+ minelayers destroyed. UNHCR: 3.2 MILLION Iranians displaced. 25 Iranian hospitals damaged, 9 out of service. US gas prices: $3.63/gallon avg (up 55¢ YoY). IEA releases 400M barrels from strategic reserves globally; US releases 172M barrels from SPR. Iran selectively allows passage through Hormuz — 2 Indian LPG carriers and 1 Turkish ship permitted; all others still blocked. Lebanon: 773+ killed, 1,933 wounded, 830,000-850,000 displaced. Israel kills 2 Lebanese academics near public university. Israel: 12 civilians + 2 soldiers killed. Gulf states: 16+ dead total. NPR/PBS/Marist poll: 56% of Americans oppose the war. Trump says war ends "when I feel it in my bones." Senior regional official tells NPR war expected to last at least another week; Israel increasingly believes US-Israel will end war UNILATERALLY without negotiated agreement — risking permanent "war routine" of intermittent fire. Trump calls on China, France, UK to send ships to secure Hormuz. 50,000+ US service members now supporting operation (Pentagon weekly update). No end in sight.' },
+  { date: 'Mar 14 (eve)', event: 'BAGHDAD EMBASSY HIT: Missile strikes helipad inside US Embassy compound in Baghdad — Kataib Hezbollah claims responsibility. Smoke seen rising from compound. US Embassy issues emergency alert: "U.S. citizens should leave Iraq NOW." Level 4 "Do Not Travel" for all of Iraq — "Do not travel to Iraq for any reason. Leave now if you are there." Trump posts on Truth Social: "The United States of America has beaten and completely decimated Iran, both Militarily, Economically, and in every other way" — calls for allied "team effort" to secure Hormuz. IDF announces 400th wave of strikes — 200+ military infrastructure sites hit in past 24 hours alone, including loaded ballistic missile launchers. CENTCOM updates: 6,000+ targets struck total, 60+ ships and 30+ mine-laying vessels destroyed. Fujairah (UAE) oil facility set ablaze — fire and smoke visible across the emirate. Bahrain Defence Force: 203 drones and 124 missiles intercepted since Feb 28. UN Security Council passes Bahrain-led resolution condemning Iranian attacks on neighbors — 130+ countries endorse. Israel\'s UN ambassador: "Iran is isolated." Iran deploying explosive "suicide skiffs" disguised as wooden fishing boats in Hormuz — remote-controlled swarms of 10+ boats, pre-programmed to ram targets. Iran IRGC-linked crypto wallets moved hundreds of millions during internet blackout (RAKIA cyber intelligence report). KC-135 victims identified: Major Alex Klinner (33, Alabama, father of 3 including 7-month-old twins) and Sgt. Tyler Simmons (Columbus, Ohio). Three victims from Ohio Air National Guard 121st Air Refueling Wing. White House releases video: Operation Epic Fury aims to "ensure Iran-backed militant groups can no longer destabilize the region." Russia\'s response: "strikingly restrained" despite 20-year strategic partnership treaty — Kremlin says Iran made "no request" for military assistance.' },
 ]
 
 const regimeChangeHistory = [
@@ -145,11 +147,11 @@ const whoBenefits = [
 
 const whoLoses = [
   { who: 'American Taxpayers', how: 'Operation Midnight Hammer cost $2.25B for 37 hours. Epic Fury is open-ended. Iraq cost $2.4T over 8 years. Afghanistan cost $2.3T over 20 years. Iran is bigger than both combined (88M people, 2.5x Iraq\'s size). National debt: $38 trillion. Interest alone: $1T/year. We literally cannot afford this.' },
-  { who: 'American Troops', how: 'Iran fired missiles at 27+ US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, and more. 13+ US troops dead by Day 14 — including all 6 crew members of a KC-135 refueling aircraft that crashed in Iraq (4th US aircraft lost). 140-150 wounded. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire). Russia is providing Iran with real-time intelligence on US positions (WaPo, NYT, CNN, NBC). Islamic Resistance in Iraq claims credit for downing the KC-135 — CENTCOM denies. Our troops are being targeted with Russian satellite imagery. Trump says war going "very well." Troops are in harm\'s way for a war Congress never authorized.' },
+  { who: 'American Troops', how: 'Iran fired missiles at 27+ US bases across Bahrain, Kuwait, Jordan, Qatar, Iraq, Saudi Arabia, UAE, and more. 13+ US troops dead by Day 15 — including all 6 crew members of a KC-135 refueling aircraft that crashed in Iraq (4th US aircraft lost). 140-150 wounded. 50,000+ now deployed. 2,500 MORE Marines (31st MEU + USS Tripoli) ordered from Japan. 3 US F-15E jets shot down by Kuwaiti air defenses (friendly fire). Russia is providing Iran with real-time intelligence on US positions (WaPo, NYT, CNN, NBC). IRGC now directly threatening UAE, calling US "hideouts" there "legitimate targets." Trump says war ends "when I feel it in my bones." Troops are in harm\'s way for a war Congress never authorized.' },
   { who: 'Iranian Children', how: '168 killed at Shajareh Tayyebeh girls\' elementary school in Minab (revised up from initial 108 reports) — 158 students ages 7-12 were in morning classes when the missile struck. IRGC base nearby may have been the target, but the decision to bomb at 9:15am — after children arrived at school — made this inevitable.' },
-  { who: 'Iranian Civilians', how: 'Iran Health Ministry: 1,444+ killed, 18,551 injured by Day 14. Victims range from 8 months to 88 years old. 200 women, 168 children among the dead. 55 healthcare workers wounded, 11 killed (4 physicians, 2 nurses, 3 emergency workers). Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan, Bushehr. IRIB complex, Golestan Palace (UNESCO World Heritage Site), Grand Bazaar, hospitals all damaged. New "extensive wave" of strikes on Tehran on Day 14 — thick smoke blankets the capital. IDF hitting underground sites in Shiraz. 15,000+ targets struck total. Iran has been offline for 14+ days — no internet, no communication with the outside world. Food distribution disrupted. Many of these people were protesting their own government just weeks ago.' },
-  { who: 'The Entire Gulf Region', how: '11+ countries under Iranian fire — the widest regional war since the 1980s. 72 killed in Lebanon, 437 injured, 80,000+ displaced. 12 killed in Israel, 777 injured. Bahrain oil refinery devastated, state of emergency declared. UAE: hundreds of missiles and drones. Dubai\'s Jabal Ali Port and Abu Dhabi\'s Zayed Port struck. Qatar hit with biggest barrage of the war. Azerbaijan drone-struck; terror plots against Baku pipeline foiled. Turkey targeted (missile shot down by NATO over Hatay). Israel invading Lebanon. European warships deploying.' },
-  { who: 'Global Economy', how: 'Strait of Hormuz at NEAR-TOTAL HALT — zero oil shipments in 24 hours. 20% of world oil, 20% of world LNG. Cannot be replaced. Oil surging from $70 pre-war to $80+, analysts warning $100-150+. Gas prices up 30% to three-year high. Dow dropped 1,200 points at open on Mar 3, closed -400. S&P 500 -0.7%. US DFC announces $20B insurance plan for overseas losses. War-risk insurance premiums tripled. Supertanker rates at ALL-TIME HIGHS. Every American pays at the pump, the grocery store, and in the national debt.' },
+  { who: 'Iranian Civilians', how: 'Iran Health Ministry: 1,444+ killed, 18,551 injured by Day 15. Victims range from 8 months to 88 years old. 200 women, 168 children among the dead. 55 healthcare workers wounded, 11 killed. 25 hospitals damaged, 9 out of service. 3.2 MILLION Iranians displaced (UNHCR). Non-military sites hit across Tehran, Isfahan, Qom, Karaj, Kermanshah, Tabriz, Lorestan, Bushehr. Explosion rocks Ferdowsi Square during Quds Day rally attended by thousands — Israel warned area but Iran kept internet shut so few could see it. 15,000+ targets struck total. Kharg Island hit. Iran offline for 15+ days. Food distribution disrupted. Many of these people were protesting their own government just weeks ago.' },
+  { who: 'The Entire Gulf Region', how: '12+ countries under Iranian fire — the widest regional war since the 1980s. Lebanon: 773 killed, 1,933 wounded, 850,000 displaced — Israel kills 2 academics near university. Israel: 14 killed (12 civilians + 2 soldiers). Gulf states: 16+ dead. IRGC now directly threatening UAE — says US "hideouts" are legitimate targets after Kharg Island strikes. Bahrain oil refinery devastated, state of emergency declared. UAE: hundreds of missiles and drones. Dubai\'s Jabal Ali Port and Abu Dhabi\'s Zayed Port struck. 90+ Iranian vessels destroyed. Explosion at Quds Day rally in Tehran. 2,500 US Marines deploying from Japan. European warships in Eastern Med. The war expands every day.' },
+  { who: 'Global Economy', how: 'Strait of Hormuz at NEAR-TOTAL HALT — Iran selectively allowing only a handful of ships through (2 Indian LPG carriers, 1 Turkish vessel). 20% of world oil, 20% of world LNG. Cannot be replaced. Oil surged from $70 pre-war to $103.14/barrel (Friday close), peaked at $119.50 in past week. US gas: $3.63/gallon avg (up 55¢ YoY). IEA released 400M barrels globally; US alone released 172M barrels from SPR — and it\'s not enough. CSIS: $16.5 billion cost through first 12 days. War-risk insurance premiums tripled. Trump now calling on China, France, and UK to send ships to keep Hormuz open — tacitly admitting the US Navy can\'t do it alone. Every American pays at the pump, the grocery store, and in the national debt.' },
   { who: 'The Constitution', how: 'Another war launched without congressional authorization. Congress was briefed by Rubio to the "gang of eight" on Tuesday — 4 days before the bombs fell. When Kaine and Paul forced a War Powers vote, the Senate killed it 53-47. Jack Reed: "Against the clear wishes of the American people, President Trump has thrust our nation into a major war with Iran — one he never made a case for, never sought congressional authority for, and for which he has no endgame." Trump now says the campaign will last "four weeks or less" — the same timeframe promised for every war that became a decade.' },
   { who: 'The MAGA Movement', how: 'Trump ran on ending forever wars. His own base is fracturing. Tucker Carlson: "Absolutely disgusting and evil." Rand Paul co-sponsors War Powers resolution to block it. The Libertarian Alliance: "There is no good reason to sacrifice American soldiers and sailors in a war on Iran." This wasn\'t what they voted for.' },
 ]
@@ -164,7 +166,7 @@ export default function Iran2026Page() {
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
           <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
-          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 13, 2026 — Day 14</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-stone-700 text-stone-300">Updated Mar 14, 2026 — Day 15</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
@@ -176,12 +178,12 @@ export default function Iran2026Page() {
           They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
           168 schoolchildren were killed at an elementary school. Iran closed the Strait of Hormuz and fired missiles at
           27 US bases across 7+ countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
-          By Day 14: 13+ US troops dead — all 6 KC-135 crew confirmed killed. 1,444+ Iranians killed. 18,551 injured. 15,000+ targets struck.
-          Pentagon admits $11.3 billion spent in first 6 days alone.
-          New Supreme Leader Mojtaba Khamenei issues first statement: attacks continue unless US bases close.
-          Iran controls the Strait of Hormuz. Oil above $100/barrel. Oil refineries burning.
-          Dubai airport struck. 687 killed in Lebanon. 12 countries under fire. Iran&apos;s nuclear scientists assassinated.
-          250+ US organizations demand Congress halt funding. Trump says war going &ldquo;very well.&rdquo; No exit strategy. No end in sight.
+          By Day 15: 13+ US troops dead. 1,444+ Iranians killed. 3.2 million displaced. 15,000+ targets struck.
+          CSIS estimates $16.5 billion spent through first 12 days. Kharg Island — Iran&apos;s oil export hub — hit by
+          &ldquo;large-scale precision strike.&rdquo; 2,500 Marines ordered to the Middle East.
+          Trump threatens to destroy Kharg oil infrastructure if Hormuz stays closed. IRGC threatens UAE.
+          Mojtaba Khamenei &ldquo;likely disfigured&rdquo; (Hegseth). Oil at $103/barrel, peaked at $119.50.
+          773 killed in Lebanon, 850K displaced. 56% of Americans oppose the war. No exit strategy. No end in sight.
         </p>
         <p className="text-stone-400 text-lg">
           No congressional vote. No declaration of war. No exit strategy. No clear American interest.
@@ -751,18 +753,18 @@ export default function Iran2026Page() {
         <div className="grid md:grid-cols-3 gap-4 mb-6">
           <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
             <p className="text-sm text-red-700 mb-1">Oil (Brent Crude)</p>
-            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$70 → $80+</p>
-            <p className="text-xs text-red-600">Analysts warn $100-150 if prolonged</p>
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$70 → $103+</p>
+            <p className="text-xs text-red-600">Peaked $119.50 — highest in 4 years</p>
           </div>
           <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
             <p className="text-sm text-red-700 mb-1">Gas Prices</p>
-            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">+30%</p>
-            <p className="text-xs text-red-600">Three-year high</p>
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$3.63/gal</p>
+            <p className="text-xs text-red-600">Up 55¢ YoY — four-year high</p>
           </div>
           <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-center">
-            <p className="text-sm text-red-700 mb-1">Dow Jones</p>
-            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">-1,200 pts</p>
-            <p className="text-xs text-red-600">At open Mar 3; closed -400</p>
+            <p className="text-sm text-red-700 mb-1">US Cost (15 days)</p>
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$16.5B+</p>
+            <p className="text-xs text-red-600">CSIS est. through Day 12 — rising</p>
           </div>
         </div>
         <div className="space-y-3 text-stone-700">
@@ -905,11 +907,12 @@ export default function Iran2026Page() {
           <span className="block text-sm text-stone-500 mt-1 not-italic">— James Madison, 1795</span>
         </blockquote>
         <p className="text-stone-300 mb-4">
-          Two weeks in. 1,348+ Iranians dead. 17,000 injured. 168 schoolchildren dead. 8 Americans dead. 12 countries
-          under fire. The Strait of Hormuz shut. Oil surging. Gas prices up 30%. The Dow crashing. Russia
-          feeding Iran the locations of American warships. European nations dragged in. A succession crisis
-          with no resolution. Trump demanding &ldquo;unconditional surrender&rdquo; while insisting on choosing
-          Iran&apos;s next leader. And the war expanding every single day.
+          Fifteen days in. 1,444+ Iranians dead. 18,551 injured. 168 schoolchildren dead. 13+ Americans dead. 12 countries
+          under fire. The Strait of Hormuz shut. Oil at $103/barrel. Gas prices up 55¢ YoY. 6,000+ targets struck.
+          60+ Iranian ships destroyed. Baghdad embassy hit by missile. US orders all Americans out of Iraq.
+          Russia feeding Iran the locations of American warships. European nations dragged in. A succession crisis
+          with no resolution. Trump says Iran is &ldquo;completely decimated&rdquo; while calling for a &ldquo;team effort&rdquo;
+          to secure Hormuz. And the war expanding every single day.
         </p>
         <p className="text-stone-300 mb-4">
           This is not America&apos;s war. This is a war fought for Israel&apos;s security priorities —
@@ -931,7 +934,7 @@ export default function Iran2026Page() {
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>
-        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 12, 2026:</p>
+        <p className="text-stone-500 text-sm mb-3">All facts in this article are sourced from mainstream, reputable outlets — published February 28-March 14, 2026:</p>
         <ul className="text-sm text-stone-600 space-y-1 columns-1 md:columns-2">
           <li>The Guardian — War timeline, school bombing, Gulf retaliation, Fairmont hotel</li>
           <li>BBC — School bombing, regime change precedent analysis</li>
@@ -974,6 +977,16 @@ export default function Iran2026Page() {
           <li>Chatham House — How will the Iran war affect the global economy</li>
           <li>NPR — Strait of Hormuz traffic dried up</li>
           <li>Richard Haass (Substack) — The War at One Week</li>
+          <li>Fox News Digital — Baghdad embassy missile strike, 50K troops, suicide skiffs, KC-135 victims</li>
+          <li>AP News — Kharg Island strikes, Baghdad embassy damage, Marines deploying</li>
+          <li>CSIS — $16.5B cost estimate through Day 12</li>
+          <li>CNBC — Hormuz retail price impact, Trump oil strategy failing</li>
+          <li>NPR/PBS/Marist — 56% Americans oppose war poll</li>
+          <li>IRU — Brent crude $100+, fuel price analysis</li>
+          <li>RAKIA cyber intelligence — Iran IRGC crypto movements during blackout</li>
+          <li>UKMTO — Maritime incidents, suicide skiff attacks</li>
+          <li>Bahrain Defence Force — 203 drones, 124 missiles intercepted (Instagram update)</li>
+          <li>UN Security Council — Bahrain-led resolution, 130+ countries</li>
         </ul>
       </div>
 
@@ -1078,7 +1091,7 @@ export default function Iran2026Page() {
             headline: 'Whose War Is This? The Iran Conflict Nobody Asked For',
             description: 'Operation Epic Fury Day 7: 1,348 dead. $11.3B in 6 days. Oil above $100. Iran mining Hormuz. KC-135 crash. Strait of Hormuz halted. Oil surging. 11+ countries under fire. Trump demands unconditional surrender. Who benefits?',
             datePublished: '2026-03-01',
-            dateModified: '2026-03-06',
+            dateModified: '2026-03-14',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-2026',
           }),

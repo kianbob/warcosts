@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran is mining it. 80% traffic drop. 15M bbl/day stranded. Oil past $100. 5,000+ mines in inventory. The global economy is in crisis.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Kharg Island struck. Oil at $103, peaked $119.50. IEA releases 400M barrels. Trump threatens to destroy Iran\'s oil infrastructure. $3.63/gallon gas. The global economy is in crisis.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -36,6 +36,7 @@ const historicalThreats = [
   { year: 'Mar 10, 2026', event: 'Iran begins mining', details: 'CENTCOM confirms Iran has begun laying naval mines in the Strait. 16 Iranian minelayers destroyed. Fewer than 10 mines deployed so far — but Iran has 5,000+ mine inventory. 15M bbl/day crude + 4.5M bpd refined fuels stranded in Gulf. Iran itself still exporting 2.1M bbl/day.' },
   { year: 'Mar 11, 2026', event: 'Maritime chaos deepens', details: 'UKMTO reports 17 maritime incidents Feb 28-Mar 11 (13 attacks, 4 suspicious). Iranian drones strike Port of Salalah, Oman — fires at gasoline storage. Dubai International Airport struck twice. Bahrain refinery ablaze after Iranian missile.' },
   { year: 'Mar 12-13, 2026', event: 'Iran declares control of Hormuz', details: 'New Supreme Leader Mojtaba Khamenei says Strait of Hormuz should remain closed as "tool to pressure the enemy." Brent crude closes above $100/barrel for first time since Aug 2022 — up from ~$70 pre-war. Treasury Sec. Bessent says Navy will escort tankers "as soon as militarily possible" but not yet. Iraq shuts port operations after Indian crew member killed on US-owned oil tanker in Iraqi waters. Qatar airspace officially closed; 140+ special flights repatriating citizens. Australia orders non-essential officials to leave UAE and Israel. Shipping at near-total halt.' },
+  { year: 'Mar 14, 2026', event: 'Kharg Island struck — Trump threatens oil infrastructure', details: 'CENTCOM executes "large-scale precision strike" on Kharg Island — Iran\'s primary oil export terminal handling 90% of crude exports — destroying 90 military targets while sparing oil infrastructure. Trump warns: if Iran interferes with Hormuz, he will "immediately reconsider" and "wipe out the Oil Infrastructure." Iran selectively allows passage for 2 Indian LPG carriers and 1 Turkish ship, while blocking all others. Brent crude settles at $103.14/barrel; peaked at $119.50 during the week. IEA releases 400M barrels from global reserves; US releases 172M barrels from SPR. Gas prices: $3.63/gallon avg (up 55¢ YoY). Trump calls on China, France, and UK to send ships to keep Hormuz open — a tacit admission the US Navy cannot secure the strait alone while fighting Iran. IRGC threatens UAE, calling US facilities there "legitimate targets." ISW reports Iran allowing selective passage may be an attempt to peel off neutral countries while maintaining leverage.' },
 ]
 
 const alternativeRoutes = [
