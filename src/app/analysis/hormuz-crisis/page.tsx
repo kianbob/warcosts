@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Kharg Island struck. Oil at $103, peaked $119.50. IEA releases 400M barrels. Trump threatens to destroy Iran\'s oil infrastructure. $3.63/gallon gas. The global economy is in crisis.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Kharg Island struck. Oil at $106, peaked $119.50. IEA releases 400M barrels. Trump threatens to destroy Iran\'s oil infrastructure. $3.63/gallon gas. The global economy is in crisis.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

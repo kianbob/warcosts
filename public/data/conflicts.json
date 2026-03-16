@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 14 (March 13): 13+ US troops dead (including all 6 KC-135 crew confirmed killed in Iraq crash), 140-150 wounded; 1,444 Iranians killed, 18,551 injured (Iran Health Ministry); 200 women and 168 children among the dead; 687 killed in Lebanon (98 children); 15,000+ targets struck (per Hegseth). Pentagon told Congress the first 6 days cost $11.3 BILLION. Oil above $100/barrel. New Supreme Leader Mojtaba Khamenei issues first statement — attacks continue unless US bases close. Iran controls the Strait of Hormuz. 250+ US organizations demand Congress halt war funding. KC-135 crash: Islamic Resistance in Iraq claims credit, CENTCOM denies hostile fire. Six French soldiers wounded by drone in Erbil. Iraq shuts ports. No exit strategy. Largest US military operation since Iraq 2003.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 17 (March 16): 13+ US troops dead, 140-150 wounded; 1,444 Iranians killed, 18,551 injured; 850+ killed in Lebanon (100+ children), 830K displaced; 15,000+ targets struck. Kharg Island hit by 'large-scale precision strike.' Oil at $106/barrel. CSIS: $16.5B cost through first 12 days. Trump pressures NATO to send warships to Hormuz. Israel expands ground operation in Lebanon. Mojtaba Khamenei appoints former IRGC chief as military adviser. Iran FM: 'We never asked for a cease-fire.' 56% of Americans oppose. No exit strategy. Largest US military operation since Iraq 2003.",
     "costNominal": 24500000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
@@ -5778,9 +5778,9 @@
       "missing": 0
     },
     "civilianDeaths": 1444,
-    "troopsDeployed": 40000,
+    "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 14 (March 13): Joint US-Israeli strikes ongoing and expanding. Khamenei dead. Mojtaba Khamenei named successor — issues first statement demanding US bases close. 13+ US troops dead (all 6 KC-135 crew confirmed killed), 140-150 wounded. 1,444 Iranians killed, 18,551 injured. 687+ killed in Lebanon (98 children), 700-750K displaced. Pentagon told Congress first 6 days cost $11.3 billion. Oil above $100/barrel. Strait of Hormuz under Iranian control. 15,000+ targets struck (Hegseth). 250+ US orgs demand Congress halt funding. New strikes on Tehran, underground sites in Shiraz. Iraq shuts ports. 6 French soldiers wounded in Erbil. Reuters: Trump aides privately vying over endgame. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 17 (March 16): Joint US-Israeli strikes ongoing. Israel expands ground operation in southern Lebanon. Oil at $106/barrel. Trump pressures NATO/China to send warships to Hormuz — little traction. Iran FM: 'We never asked for a cease-fire.' Mojtaba Khamenei appoints former IRGC chief Rezaei as military adviser. 13+ US troops dead, 140-150 wounded. 1,444 Iranians killed, 18,551 injured. 850+ killed in Lebanon, 830K displaced. $16.5B+ cost. 15,000+ targets struck. Kharg Island hit. Dubai airport drone-struck. Baghdad airport hit. No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5879,6 +5879,18 @@
       {
         "year": 2026,
         "event": "Mar 13 (Day 14): CENTCOM confirms all 6 KC-135 crew killed — US death toll rises to 13+. Islamic Resistance in Iraq claims responsibility; CENTCOM says not hostile fire. Iran Health Ministry: 1,444 killed, 18,551 injured. Hegseth reveals 15,000+ targets struck (triple 5,000 from days ago). New Supreme Leader Mojtaba Khamenei issues first statement: attacks continue unless US bases close. Israel launches 'extensive wave' of strikes on Tehran; IDF hits underground site in Shiraz. Brent crude above $100/barrel. 250+ US organizations demand Congress halt war funding. Iraq shuts ports after crew member killed on US-owned tanker. 6 French soldiers wounded by drone in Erbil. Israeli strike on Arki (Lebanon) kills 9 including 5 children. Lebanon: 687+ killed, 750K displaced. Reuters: Trump aides privately divided on endgame."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 14 (Day 15): CENTCOM 'large-scale precision strike' on KHARG ISLAND — Iran's oil export hub — destroying 90 military targets. 2,500 Marines (31st MEU) + USS Tripoli ordered to Middle East. Brent crude $103.14/barrel. CSIS: $16.5B cost through first 12 days. 3.2M Iranians displaced (UNHCR). Missile hits US Embassy helipad in Baghdad. 56% of Americans oppose war (NPR/PBS/Marist). 50,000+ US service members supporting operation."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 15 (Day 16): Trump pressures NATO allies and China to send warships to Hormuz — little traction. Energy Sec Wright: 'no guarantees' oil prices will fall. Iran FM Araghchi: 'We never asked for a cease-fire.' Brent crude past $106/barrel. Iran fires 4 missile salvos at Israel. California gas exceeds $5/gallon. 15M bbl/day crude still cut off."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 16 (Day 17): IDF announces 'targeted ground operation' to EXPAND buffer zone in southern Lebanon — major escalation. Airstrikes hit Tehran near airport. Dubai airport drone hit damages fuel tank. Baghdad airport struck (4 injured). Mojtaba Khamenei appoints former IRGC chief Mohsen Rezaei as military adviser. Israeli opposition: 'no exit strategy.' Lebanon: 850+ killed, 830K displaced."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
