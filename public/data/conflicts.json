@@ -18,7 +18,7 @@
     "usCasualties": {
       "deaths": 25000,
       "wounded": 25000,
-      "battleDeaths": 4435,
+      "battleDeaths": 6800,
       "missing": 0
     },
     "civilianDeaths": null,
@@ -796,9 +796,9 @@
     "costInflationAdjusted": 80000000000,
     "costYear": 2023,
     "usCasualties": {
-      "deaths": 364511,
-      "wounded": 281881,
-      "battleDeaths": 140414,
+      "deaths": 655000,
+      "wounded": 476000,
+      "battleDeaths": 214938,
       "missing": 0
     },
     "civilianDeaths": 50000,
@@ -835,11 +835,11 @@
       "durationYears": 4,
       "durationDays": 1460,
       "costPerDay": 54794521,
-      "costPerUSdeath": 219472,
+      "costPerUSdeath": 122137,
       "costPerCivilianDeath": 1600000,
-      "totalDeaths": 414511,
+      "totalDeaths": 705000,
       "civilianToMilitaryRatio": 0.1,
-      "deathsPerYear": 91128,
+      "deathsPerYear": 163750,
       "civilianDeathsPerYear": 12500
     },
     "years": "1861–1865",
@@ -1385,7 +1385,7 @@
     "costYear": 2023,
     "usCasualties": {
       "deaths": 405399,
-      "wounded": 671846,
+      "wounded": 670846,
       "battleDeaths": 291557,
       "missing": 30314
     },
@@ -1542,7 +1542,7 @@
     "usCasualties": {
       "deaths": 36574,
       "wounded": 103284,
-      "battleDeaths": 33739,
+      "battleDeaths": 33686,
       "missing": 7926
     },
     "civilianDeaths": 2000000,
@@ -2775,9 +2775,9 @@
     "costInflationAdjusted": 136000000000,
     "costYear": 2023,
     "usCasualties": {
-      "deaths": 383,
+      "deaths": 382,
       "wounded": 467,
-      "battleDeaths": 148,
+      "battleDeaths": 147,
       "missing": 0
     },
     "civilianDeaths": 3500,
@@ -2813,11 +2813,11 @@
       "durationYears": 1,
       "durationDays": 365,
       "costPerDay": 372602740,
-      "costPerUSdeath": 355091384,
+      "costPerUSdeath": 356020942,
       "costPerCivilianDeath": 38857143,
-      "totalDeaths": 3883,
-      "civilianToMilitaryRatio": 9.1,
-      "deathsPerYear": 383,
+      "totalDeaths": 3882,
+      "civilianToMilitaryRatio": 9.2,
+      "deathsPerYear": 382,
       "civilianDeathsPerYear": 3500
     },
     "years": "1990–1991",
@@ -3885,9 +3885,9 @@
     "costInflationAdjusted": 2000000000000,
     "costYear": 2023,
     "usCasualties": {
-      "deaths": 4599,
+      "deaths": 4431,
       "wounded": 32292,
-      "battleDeaths": 3523,
+      "battleDeaths": 3481,
       "missing": 0
     },
     "civilianDeaths": 300000,
@@ -3927,11 +3927,11 @@
       "durationYears": 8,
       "durationDays": 2920,
       "costPerDay": 684931507,
-      "costPerUSdeath": 434877147,
+      "costPerUSdeath": 451365380,
       "costPerCivilianDeath": 6666667,
-      "totalDeaths": 304599,
-      "civilianToMilitaryRatio": 65.2,
-      "deathsPerYear": 575,
+      "totalDeaths": 304431,
+      "civilianToMilitaryRatio": 67.7,
+      "deathsPerYear": 554,
       "civilianDeathsPerYear": 37500
     },
     "years": "2003–2011",
