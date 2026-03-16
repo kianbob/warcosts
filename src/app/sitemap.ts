@@ -77,6 +77,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/us-military-bases-around-the-world',
     '/drone-strikes', '/war-votes', '/global-spending',
     '/arms-sales/countries',
+    '/veterans/va-spending', '/veterans/disability-claims',
+    '/cost-of-f35',
     '/share',
   ]
 

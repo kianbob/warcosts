@@ -5,6 +5,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import BackToTop from '@/components/BackToTop'
+import { CostOverrunChart, OverrunPercentChart } from './WeaponsCharts'
 
 export const metadata: Metadata = {
   title: 'US Weapons Systems — $3 Trillion in Programs | WarCosts',
@@ -23,6 +24,7 @@ interface Weapon { name: string; slug: string; category: string; service: string
 
 export default function WeaponsPage() {
   const weapons = loadData('weapons.json') as Weapon[]
+  const weaponsDetail = loadData('weapons-detail.json') as any[]
   const categories = [...new Set(weapons.map(w => w.category))]
   const totalCost = weapons.reduce((s, w) => s + (w.totalCost || 0), 0) * 1e6
   const cancelled = weapons.filter(w => w.status === 'Cancelled')
@@ -45,6 +47,10 @@ export default function WeaponsPage() {
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-yellow-400">{weapons.filter(w => (w.costOverrun || 0) > 50).length}</div><div className="text-xs text-stone-400">50%+ Over Budget</div></div>
         <div className="bg-white border border-stone-200 rounded-lg p-4 text-center"><div className="text-2xl font-bold text-red-500">{cancelled.length}</div><div className="text-xs text-stone-400">Cancelled (Billions Wasted)</div></div>
       </div>
+
+      {/* Cost Overrun Charts */}
+      <CostOverrunChart data={weaponsDetail.filter(w => w.status !== 'Cancelled (2009)').slice(0, 8)} />
+      <OverrunPercentChart data={weaponsDetail} />
 
       {/* Most Expensive */}
       <h2 className="text-xl font-bold text-stone-900 mb-3">Most Expensive Programs</h2>

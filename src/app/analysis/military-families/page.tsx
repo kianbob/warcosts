@@ -337,6 +337,224 @@ export default function MilitaryFamiliesPage() {
         </blockquote>
       </div>
 
+      {/* Intergenerational Trauma */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">Intergenerational Trauma: The Cycle That Never Ends</h2>
+        <p className="text-stone-300 mb-4">
+          The damage doesn&apos;t stop with the veteran. Research consistently shows that combat trauma
+          transmits across generations — through parenting behavior, family dynamics, and even epigenetic
+          changes. Children of combat veterans with PTSD are significantly more likely to develop
+          anxiety disorders, depression, and behavioral problems — even if the veteran never discusses
+          their experiences.
+        </p>
+        <div className="space-y-3">
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-white font-semibold text-sm mb-1">Vietnam Veterans&apos; Children</h3>
+            <p className="text-sm text-stone-400">
+              Studies of Vietnam veterans&apos; families — now spanning 50+ years — show elevated rates
+              of substance abuse, relationship difficulties, and mental health problems in the second
+              generation. The National Vietnam Veterans Readjustment Study (NVVRS) found that 30.9% of
+              male Vietnam veterans had PTSD at some point. Their children grew up with a parent who was
+              emotionally unavailable, hypervigilant, and prone to anger — even if the family never knew
+              the clinical name for what was happening.
+            </p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-white font-semibold text-sm mb-1">The Epigenetic Evidence</h3>
+            <p className="text-sm text-stone-400">
+              Emerging research from Mount Sinai and other institutions suggests that trauma can alter
+              gene expression in ways that are passed to offspring. Studies of Holocaust survivors
+              and their children found measurable epigenetic changes in stress-response genes. Similar
+              research is underway with combat veterans. The implication is profound: war doesn&apos;t
+              just damage the person who fights it. It can literally alter the biology of their children.
+            </p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-white font-semibold text-sm mb-1">Military Brats: Growing Up in the System</h3>
+            <p className="text-sm text-stone-400">
+              An estimated 1.7 million children currently have at least one parent in the US military.
+              These &ldquo;military brats&rdquo; move an average of 6-9 times during a school-age period.
+              Each move means lost friendships, new schools, and starting over. Studies show military
+              children are resilient in many ways but also carry unique burdens: the constant anxiety
+              of deployment, the social isolation of frequent moves, and the pressure of a culture that
+              values stoicism over emotional expression.
+            </p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-white font-semibold text-sm mb-1">The Recruiting Pipeline</h3>
+            <p className="text-sm text-stone-400">
+              Children of military families enlist at significantly higher rates than the general population.
+              Studies estimate that 25-30% of new recruits have a parent who served. This creates a
+              self-perpetuating cycle: families that bear the cost of war produce the next generation of
+              warriors. The military relies on this pipeline — particularly from rural areas, small towns,
+              and communities with limited economic opportunities. It&apos;s not patriotism that drives
+              most enlistment. It&apos;s economic necessity and family tradition.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Comparative Analysis */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">How Other Countries Treat Their Veterans</h2>
+        <p className="text-stone-300 mb-4">
+          The United States is not the only country that sends its citizens to war. But it is unique in
+          the gap between its rhetoric of support and the reality of its care.
+        </p>
+        <div className="space-y-3">
+          {[
+            { country: 'United Kingdom', detail: 'The UK\'s Armed Forces Covenant pledges that veterans should face no disadvantage compared to civilians in accessing services. NHS provides priority treatment for service-related conditions. Housing assistance for veterans. Still imperfect — but the principle of a binding social contract exists in law.' },
+            { country: 'Canada', detail: 'Veterans Affairs Canada provides lifetime disability pensions, career transition programs, and guaranteed access to mental health care. The Veterans Well-being Act (2019) consolidated benefits. Canada spends approximately $4.4 billion CAD annually on 600,000 veterans — proportionally more per veteran than the US.' },
+            { country: 'Australia', detail: 'The Department of Veterans\' Affairs (DVA) provides comprehensive healthcare, rehabilitation, and transition services. The Veterans\' Entitlements Act covers mental health with no cost-sharing. Australia\'s Royal Commission into Defence and Veteran Suicide (2021-2024) conducted the most thorough investigation of veteran suicide by any country.' },
+            { country: 'Israel', detail: 'Israel\'s universal conscription means veteran issues are everyone\'s issues. The Disabled Veterans Organization (Zahal) has significant political power. Rehabilitation services are extensive. The societal connection to military service is fundamentally different when 2/3 of the population has served.' },
+          ].map(c => (
+            <div key={c.country} className="bg-slate-800 rounded p-4">
+              <h3 className="text-white font-semibold text-sm mb-1">{c.country}</h3>
+              <p className="text-sm text-stone-400">{c.detail}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-400 text-sm mt-4">
+          The common thread in countries that treat veterans better: either universal service (so everyone
+          has skin in the game) or a binding legal framework that turns rhetoric into obligation. The US
+          has neither. Its all-volunteer force means 99% of the population is disconnected from the consequences
+          of war, and &ldquo;supporting the troops&rdquo; remains a bumper sticker rather than a budget line.
+        </p>
+      </div>
+
+      {/* The Economics of Veteran Care */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Economics: Deferred Costs</h2>
+        <p className="text-stone-300 mb-4">
+          The true cost of war includes decades of veteran care — but these costs are deliberately excluded
+          from war budgets. When Congress votes for war, it votes for the deployment. The medical bills,
+          disability payments, and mental health care for the next 50 years are someone else&apos;s problem.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          <div className="bg-slate-800 rounded p-4">
+            <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">$2.5T</p>
+            <p className="text-white text-sm font-semibold">Estimated future veteran care obligations</p>
+            <p className="text-stone-400 text-xs mt-1">Brown University Costs of War, 2023 estimate</p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">$301B</p>
+            <p className="text-white text-sm font-semibold">VA annual budget (FY2024)</p>
+            <p className="text-stone-400 text-xs mt-1">Second-largest federal agency after DoD</p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">4.7M</p>
+            <p className="text-white text-sm font-semibold">Post-9/11 veterans receiving VA care</p>
+            <p className="text-stone-400 text-xs mt-1">Number growing as aging veterans develop conditions</p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)] mb-1">Peak: 2048</p>
+            <p className="text-white text-sm font-semibold">When post-9/11 veteran care costs are projected to peak</p>
+            <p className="text-stone-400 text-xs mt-1">CBO estimate — 25+ years after most combat ended</p>
+          </div>
+        </div>
+        <p className="text-stone-300 mb-4">
+          Linda Bilmes of Harvard&apos;s Kennedy School has documented this pattern across every major US war.
+          Veteran care costs peak 30-40 years after combat ends. The peak cost year for Vietnam veterans
+          was approximately 2010 — 35 years after the war ended. For Iraq and Afghanistan, peak costs
+          won&apos;t arrive until the 2040s. The politicians who voted for these wars will be long gone.
+          The bill will remain.
+        </p>
+        <blockquote className="border-l-4 border-red-600 pl-4 text-stone-300 italic">
+          &ldquo;Every war is really two wars — the one that&apos;s fought, and the one that&apos;s
+          paid for afterward. The second war is always longer, always more expensive, and always
+          invisible.&rdquo;
+          <span className="block text-sm text-stone-500 mt-1 not-italic">— Linda Bilmes, Harvard Kennedy School</span>
+        </blockquote>
+      </div>
+
+      {/* Spouse and Partner Stories */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">The Invisible Service Members: Military Spouses</h2>
+        <p className="text-stone-300 mb-4">
+          Military spouses serve without the uniform, the benefits, or the recognition. They hold families
+          together through deployments, manage households as single parents for months or years at a time,
+          relocate across the country (or world) every 2-3 years, and absorb the emotional fallout when
+          their partner returns changed from combat.
+        </p>
+        <div className="space-y-3">
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-red-400 font-semibold text-sm mb-1">Career Sacrifice</h3>
+            <p className="text-sm text-stone-400">
+              Military spouses earn 26.8% less than their civilian counterparts, according to the
+              Blue Star Families annual survey. Over a career, this amounts to hundreds of thousands
+              in lost earnings. Professional licenses — nursing, law, teaching, real estate — often
+              don&apos;t transfer across state lines. Despite recent legislation, only 38 states have
+              adopted license portability for military spouses, and implementation is inconsistent.
+            </p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-red-400 font-semibold text-sm mb-1">Secondary PTSD</h3>
+            <p className="text-sm text-stone-400">
+              Partners of veterans with PTSD develop their own trauma symptoms at alarming rates.
+              Studies show 30-40% of partners exhibit &ldquo;secondary traumatic stress&rdquo; —
+              hypervigilance, sleep disturbance, emotional withdrawal. They walk on eggshells around
+              triggers. They manage medications. They become therapist, nurse, and buffer between
+              their partner and the world — all without training, without pay, and often without
+              anyone asking how they&apos;re doing.
+            </p>
+          </div>
+          <div className="bg-slate-800 rounded p-4">
+            <h3 className="text-red-400 font-semibold text-sm mb-1">The Deployment Paradox</h3>
+            <p className="text-sm text-stone-400">
+              Research reveals a counterintuitive pattern: many military marriages are most strained
+              not during deployment, but during reintegration. Spouses develop independence and routines
+              during absence. Returning veterans expect to resume their prior role. Children have bonded
+              more closely with the home parent. The homecoming — celebrated in viral videos — is often
+              the beginning of the hardest phase.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* What Would Actually Help */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-white mb-4">What Would Actually Help</h2>
+        <p className="text-stone-300 mb-4">
+          The solutions are not mysterious. They are simply not priorities for a political class
+          that profits from war but never fights in one:
+        </p>
+        <div className="space-y-2">
+          {[
+            'Mandatory cost accounting: Every war authorization must include a 50-year veteran care cost estimate, scored by CBO, before the vote',
+            'Universal license portability for military spouses — not state-by-state, but federal preemption',
+            'Eliminate the VA claims backlog by presuming service connection for conditions common to deployed veterans (as the PACT Act partially does)',
+            'Fund caregiver support at levels commensurate with the burden: 40+ hours/week of care is a full-time job and should be compensated as one',
+            'Reinstate the draft — or at minimum, require children of voting members of Congress to register for selective service with priority deployment. Nothing would end forever wars faster than shared sacrifice',
+          ].map((item, i) => (
+            <div key={i} className="flex items-start gap-2">
+              <span className="text-red-400 mt-0.5">•</span>
+              <p className="text-stone-300 text-sm">{item}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Sources */}
+      <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-400">
+          <li>• Brown University Costs of War Project — veteran casualty and care cost estimates</li>
+          <li>• VA National Veteran Suicide Prevention Annual Report (2023)</li>
+          <li>• Department of Defense — Defense Casualty Analysis System (DCAS)</li>
+          <li>• Blue Star Families — Military Family Lifestyle Survey (annual)</li>
+          <li>• RAND Corporation — &ldquo;Invisible Wounds of War&rdquo; (2008)</li>
+          <li>• Congressional Budget Office (CBO) — &ldquo;Long-Term Costs of the Administration&apos;s Health Proposal&rdquo;</li>
+          <li>• Linda Bilmes, &ldquo;The Three Trillion Dollar War&rdquo; (with Joseph Stiglitz, 2008)</li>
+          <li>• Sebastian Junger, &ldquo;Tribe: On Homecoming and Belonging&rdquo; (2016)</li>
+          <li>• Andrew Bacevich, &ldquo;Breach of Trust: How Americans Failed Their Soldiers and Their Country&rdquo; (2013)</li>
+          <li>• National Vietnam Veterans Readjustment Study (NVVRS)</li>
+          <li>• Government Accountability Office (GAO) — VA claims processing reports</li>
+          <li>• PACT Act implementation data (2022-present)</li>
+          <li>• Yehuda, Rachel et al. — epigenetic studies of intergenerational trauma, Mount Sinai</li>
+          <li>• Royal Commission into Defence and Veteran Suicide, Australia (2024)</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="bg-stone-900 rounded-xl border border-stone-800 p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white mb-4">Related Analysis</h2>
@@ -347,6 +565,8 @@ export default function MilitaryFamiliesPage() {
             { href: '/analysis/cost-per-life', label: 'What Is a Life Worth?' },
             { href: '/analysis/what-could-we-buy', label: 'What Could We Buy Instead?' },
             { href: '/analysis/the-aftermath', label: 'The Aftermath' },
+            { href: '/analysis/veterans-betrayed', label: 'Veterans Betrayed' },
+            { href: '/analysis/draft-and-inequality', label: 'The Draft and Inequality' },
           ].map(l => (
             <Link key={l.href} href={l.href} className="text-red-400 hover:text-red-800 text-sm hover:underline">
               → {l.label}
@@ -370,6 +590,13 @@ export default function MilitaryFamiliesPage() {
           the wars keep continuing, the deployments keep cycling, and the country that sent them
           to fight has already moved on. &ldquo;Thank you for your service&rdquo; costs nothing.
           Actual service costs everything.
+        </p>
+        <p className="text-stone-300 text-lg mb-4">
+          The most damning statistic is the simplest one: zero members of Congress had children
+          serving in combat zones during the post-9/11 wars. The people who vote for war bear none
+          of its consequences. Their children attend elite universities. Military families&apos; children
+          attend funerals. Until the cost of war is shared equally, it will continue to be borne
+          by the few — and ignored by the many.
         </p>
         <blockquote className="border-l-4 border-red-500 pl-4 text-stone-400 italic">
           &ldquo;It is forbidden to kill; therefore all murderers are punished unless they kill in

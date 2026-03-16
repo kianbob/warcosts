@@ -367,6 +367,32 @@ export default function ContractorsPage() {
         </div>
         <p className="text-center mt-4"><Link href="/contractors/directory" className="text-primary hover:underline font-medium">View all 62 contractors →</Link></p>
       </div>
+
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• USAspending.gov — federal contract award data (primary source)</li>
+          <li>• Federal Procurement Data System (FPDS) — contract details</li>
+          <li>• Government Accountability Office (GAO) — defense contracting oversight reports</li>
+          <li>• Project on Government Oversight (POGO) — Federal Contractor Misconduct Database</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;Defense Acquisitions&rdquo; reports</li>
+          <li>• SEC filings — contractor annual reports and 10-K filings</li>
+          <li>• Special Inspector General for Iraq/Afghanistan Reconstruction (SIGIR/SIGAR)</li>
+        </ul>
+      </div>
+
+      {/* Related Analysis */}
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><Link href="/analysis/military-industrial-complex" className="text-red-800 hover:underline">→ The Military-Industrial Complex</Link></li>
+          <li><Link href="/analysis/war-profiteering" className="text-red-800 hover:underline">→ War Profiteering — who gets rich from war</Link></li>
+          <li><Link href="/analysis/pentagon-waste" className="text-red-800 hover:underline">→ Pentagon Waste — $1.7 trillion in cost overruns</Link></li>
+          <li><Link href="/revolving-door" className="text-red-800 hover:underline">→ The Revolving Door</Link></li>
+          <li><Link href="/spending" className="text-red-800 hover:underline">→ Military Spending — $886B/yr and counting</Link></li>
+        </ul>
+      </div>
     </div>
   )
 }

@@ -264,11 +264,25 @@ export default function ForeignAidPage() {
         </ul>
       </div>
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• USAID — Foreign Aid Explorer and U.S. Overseas Loans and Grants (&ldquo;Greenbook&rdquo;)</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;Foreign Aid: An Introduction to US Programs and Policy&rdquo;</li>
+          <li>• State Department — Congressional Budget Justification for Foreign Operations</li>
+          <li>• OECD Development Assistance Committee (DAC) — aid statistics</li>
+          <li>• Special Inspector General for Afghanistan Reconstruction (SIGAR)</li>
+          <li>• Government Accountability Office (GAO) — foreign assistance reports</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Pages</h3>
         <ul className="space-y-2">
           <li><Link href="/analysis/ukraine-proxy" className="text-red-800 hover:underline">→ Ukraine — proxy war analysis</Link></li>
+          <li><Link href="/analysis/allies-and-enemies" className="text-red-800 hover:underline">→ Allies and Enemies — who gets US support</Link></li>
           <li><Link href="/arms-sales" className="text-red-800 hover:underline">→ Arms Sales — $238B/yr in American weapons</Link></li>
           <li><Link href="/opportunity-cost" className="text-red-800 hover:underline">→ What else could this money buy?</Link></li>
           <li><Link href="/spending" className="text-red-800 hover:underline">→ Military Spending — the full picture</Link></li>

@@ -43,6 +43,13 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
   const w = weapons.find(x => x.slug === slug)
   if (!w) notFound()
 
+  // Try to load enhanced detail data
+  let detail: any = null
+  try {
+    const allDetails = loadData('weapons-detail.json') as any[]
+    detail = allDetails.find((d: any) => d.slug === slug)
+  } catch {}
+
   const devYears = w.startYear ? (w.iocYear ? w.iocYear - w.startYear : new Date().getFullYear() - w.startYear) : null
   const deliveryPct = w.units && w.delivered ? Math.round((w.delivered / w.units) * 100) : null
   const related = weapons.filter(x => x.slug !== slug && (x.category === w.category || x.contractor === w.contractor)).slice(0, 6)
@@ -131,6 +138,56 @@ export default async function WeaponDetailPage({ params }: { params: Promise<{ s
           <div className="bg-white border border-stone-200 rounded-full h-4 overflow-hidden">
             <div className="bg-red-600 h-full rounded-full transition-all" style={{ width: `${deliveryPct}%` }} />
           </div>
+        </div>
+      )}
+
+      {/* Enhanced detail: Cost History Timeline */}
+      {detail?.costHistory && (
+        <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
+          <h2 className="text-lg font-bold text-stone-900 mb-4">Cost Estimate Growth Over Time</h2>
+          <div className="space-y-3">
+            {detail.costHistory.map((ch: any, i: number) => (
+              <div key={ch.year} className="flex items-center gap-4">
+                <span className="text-stone-500 font-mono w-12 text-sm">{ch.year}</span>
+                <div className="flex-1">
+                  <div className="bg-stone-100 rounded-full h-4 overflow-hidden">
+                    <div
+                      className="bg-red-600 h-full rounded-full transition-all"
+                      style={{ width: `${Math.min(100, (ch.estimateBillions / detail.costHistory[detail.costHistory.length - 1].estimateBillions) * 100)}%` }}
+                    />
+                  </div>
+                </div>
+                <span className="text-red-700 font-bold font-mono w-20 text-right text-sm">
+                  ${ch.estimateBillions >= 1000 ? `${(ch.estimateBillions / 1000).toFixed(1)}T` : `${ch.estimateBillions}B`}
+                </span>
+                {i > 0 && (
+                  <span className="text-red-500 text-xs w-16 text-right">
+                    +{(((ch.estimateBillions - detail.costHistory[i-1].estimateBillions) / detail.costHistory[i-1].estimateBillions) * 100).toFixed(0)}%
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
+          {detail.costOverrunPct && (
+            <p className="text-red-700 font-bold mt-4 text-sm">
+              Total cost growth: +{detail.costOverrunPct}% from original ${detail.originalBudgetBillions}B estimate
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Enhanced detail: Key Issues */}
+      {detail?.keyIssues && (
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-8">
+          <h2 className="text-lg font-bold text-amber-900 mb-3">⚠️ Key Issues</h2>
+          <ul className="space-y-2">
+            {detail.keyIssues.map((issue: string, i: number) => (
+              <li key={i} className="text-amber-800 text-sm flex items-start gap-2">
+                <span className="text-amber-600 mt-0.5">•</span>
+                {issue}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
 

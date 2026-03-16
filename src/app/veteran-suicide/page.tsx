@@ -5,6 +5,7 @@ import { fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import { SuicideTrendChart } from '../veterans/VeteransCharts'
 
 export const metadata: Metadata = {
   title: 'Veteran Suicide — 17 Per Day, 6,000+ Per Year',
@@ -78,6 +79,7 @@ const healthEffects = [
 
 export default function VeteranSuicidePage() {
   const stats = loadData('stats.json')
+  const vetStats = loadData('veterans-stats.json')
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -148,6 +150,29 @@ export default function VeteranSuicidePage() {
             <p className="text-stone-500 text-xs">{s.label}</p>
           </div>
         ))}
+      </div>
+
+      {/* Suicide trend chart */}
+      <SuicideTrendChart data={vetStats.veteranSuicides} />
+
+      {/* Combat deaths comparison */}
+      <div className="bg-red-50 border border-red-200 rounded-xl p-6 my-8">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-900 mb-3">Suicide vs Combat Deaths Since 2001</h3>
+        <div className="grid grid-cols-2 gap-8 text-center">
+          <div>
+            <p className="text-4xl font-bold text-red-800 font-[family-name:var(--font-heading)]">~140,000</p>
+            <p className="text-stone-600 text-sm">Veteran suicides (2001–2023)</p>
+            <p className="text-stone-400 text-xs">Cumulative total from VA annual reports</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold text-stone-600 font-[family-name:var(--font-heading)]">~7,100</p>
+            <p className="text-stone-600 text-sm">Combat deaths (2001–2023)</p>
+            <p className="text-stone-400 text-xs">OEF/OIF/OND combined</p>
+          </div>
+        </div>
+        <p className="text-red-800 text-sm mt-4 text-center font-bold">
+          For every service member killed in combat, roughly 20 veterans killed themselves.
+        </p>
       </div>
 
       <div className="prose max-w-3xl text-stone-600">

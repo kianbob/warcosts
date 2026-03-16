@@ -260,6 +260,19 @@ export default function ArmsSalesPage() {
         </ul>
       </div>
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• Stockholm International Peace Research Institute (SIPRI) — Arms Transfers Database</li>
+          <li>• Defense Security Cooperation Agency (DSCA) — Foreign Military Sales (FMS) data</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;Conventional Arms Transfers to Developing Nations&rdquo;</li>
+          <li>• Department of State — Direct Commercial Sales (DCS) authorizations</li>
+          <li>• Government Accountability Office (GAO) — arms transfer oversight reports</li>
+          <li>• Arms Control Association — fact sheets and databases</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
@@ -268,6 +281,7 @@ export default function ArmsSalesPage() {
           <li><Link href="/contractors" className="text-red-800 hover:underline">→ Top Defense Contractors — who profits</Link></li>
           <li><Link href="/foreign-aid" className="text-red-800 hover:underline">→ Foreign Aid — the other side of the coin</Link></li>
           <li><Link href="/analysis/blowback" className="text-red-800 hover:underline">→ Blowback — how arming allies creates enemies</Link></li>
+          <li><Link href="/analysis/war-profiteering" className="text-red-800 hover:underline">→ War Profiteering — who gets rich from war</Link></li>
         </ul>
       </div>
     </div>

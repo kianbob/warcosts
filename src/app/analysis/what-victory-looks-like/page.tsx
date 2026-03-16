@@ -332,6 +332,131 @@ export default function WhatVictoryLooksLikePage() {
         </p>
       </section>
 
+      {/* Section: The Definition Problem */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Definition Problem: What Does &ldquo;Winning&rdquo; Even Mean?
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Part of the reason the US never &ldquo;wins&rdquo; its wars is that it never defines what
+          winning means. Objectives shift continuously — from WMDs to democracy-building to
+          counterterrorism to &ldquo;conditions-based withdrawal.&rdquo; When the goalposts move
+          constantly, failure is impossible to measure and success is impossible to achieve.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="bg-stone-100 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Afghanistan&apos;s Shifting Goals</h3>
+            <ul className="space-y-1 text-stone-700 text-sm">
+              <li>• <strong>2001:</strong> Destroy al-Qaeda, capture bin Laden</li>
+              <li>• <strong>2003:</strong> Defeat the Taliban, establish democracy</li>
+              <li>• <strong>2009:</strong> Counterinsurgency, protect the population</li>
+              <li>• <strong>2014:</strong> Train Afghan forces to stand on their own</li>
+              <li>• <strong>2017:</strong> &ldquo;Conditions-based&rdquo; — no timeline, no metric</li>
+              <li>• <strong>2020:</strong> &ldquo;Peace deal&rdquo; with the Taliban (the enemy)</li>
+              <li>• <strong>2021:</strong> Leave and hope for the best</li>
+            </ul>
+          </div>
+          <div className="bg-stone-100 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 mb-2">Iraq&apos;s Shifting Goals</h3>
+            <ul className="space-y-1 text-stone-700 text-sm">
+              <li>• <strong>2002:</strong> Disarm WMDs (didn&apos;t exist)</li>
+              <li>• <strong>2003:</strong> Regime change, install democracy</li>
+              <li>• <strong>2004:</strong> Fight the insurgency we created</li>
+              <li>• <strong>2006:</strong> Prevent civil war (failed — 34,000 civilians dead that year)</li>
+              <li>• <strong>2007:</strong> &ldquo;The Surge&rdquo; — reduce violence enough to leave</li>
+              <li>• <strong>2011:</strong> Withdraw and declare victory</li>
+              <li>• <strong>2014:</strong> Return to fight ISIS (which the invasion created)</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-stone-700 text-lg">
+          Compare this with World War II, where victory was clearly defined: unconditional surrender of
+          Germany and Japan. The military knew what it was fighting for. The public knew what it was
+          sacrificing for. The endpoint was measurable. Since then, the US has fought wars with vague,
+          shifting, and ultimately unachievable objectives — because achieving the objective would mean
+          the contracts end, the budgets shrink, and the gravy train stops.
+        </p>
+      </section>
+
+      {/* The Counterfactual */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Counterfactual: What If We Hadn&apos;t Invaded?
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          The strongest argument for these wars is the counterfactual: &ldquo;It would have been worse
+          if we hadn&apos;t intervened.&rdquo; This is unfalsifiable — you can&apos;t prove what would
+          have happened. But in every case where we have partial evidence, non-intervention appears
+          to have been the better option:
+        </p>
+        <div className="space-y-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-1">Iraq Without Invasion</h3>
+            <p className="text-stone-300 text-sm">
+              Saddam Hussein was a brutal dictator — but Iraq had no WMDs, no connection to 9/11,
+              and was contained by sanctions and no-fly zones. The UN weapons inspectors (UNMOVIC)
+              were finding nothing. Without invasion: no ISIS, no 500,000 dead, no $3 trillion spent,
+              no Iranian dominance of Iraq, no European refugee crisis fed by Iraqi displacement.
+              Saddam would have eventually fallen to internal dynamics — as happened to every other
+              aging dictator in the region.
+            </p>
+          </div>
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-1">Afghanistan: Targeted Strike vs. 20-Year Occupation</h3>
+            <p className="text-stone-300 text-sm">
+              The initial invasion — Special Forces, CIA, and Northern Alliance — toppled the Taliban
+              in weeks at a cost of $1-2 billion. Everything after that was mission creep. Bin Laden
+              was killed by a targeted operation in Pakistan, not by occupying Afghanistan. A focused
+              counterterrorism campaign without nation-building would have cost 1% of what was spent
+              and likely achieved the same result — because the Taliban returning to power was always
+              the most probable outcome once the US left, whether in 2004 or 2021.
+            </p>
+          </div>
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-4">
+            <h3 className="text-white font-bold mb-1">Libya: Containment Was Working</h3>
+            <p className="text-stone-300 text-sm">
+              Gaddafi had abandoned his nuclear program in 2003, was cooperating on counterterrorism,
+              and was containing migration flows from sub-Saharan Africa. Post-intervention Libya
+              became the primary gateway for irregular migration to Europe. The &ldquo;humanitarian
+              intervention&rdquo; created a humanitarian catastrophe worse than the one it was
+              supposed to prevent.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Sunk Cost Fallacy */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Sunk Cost Trap: &ldquo;We Can&apos;t Leave Now&rdquo;
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Every war reaches a point where the primary argument for continuing is the investment already
+          made. &ldquo;We can&apos;t let their sacrifices be in vain.&rdquo; &ldquo;If we leave now,
+          we&apos;ll have wasted everything.&rdquo; This is the sunk cost fallacy applied to human
+          lives — the most dangerous form of irrational decision-making.
+        </p>
+        <p className="text-stone-700 text-lg mb-4">
+          In Afghanistan, this argument kept the war going for at least a decade beyond any reasonable
+          strategic purpose. By 2006, most analysts knew the Afghan government was corrupt and the
+          Taliban would return. But admitting failure meant admitting that 2,000+ Americans (at that
+          point) had died for nothing. So more were sent to die — to justify the deaths that came
+          before. By the end, 2,461 Americans were dead. The Taliban still won.
+        </p>
+        <blockquote className="border-l-4 border-red-600 pl-4 my-6">
+          <p className="text-stone-700 italic text-lg">
+            &ldquo;How do you ask a man to be the last man to die for a mistake?&rdquo;
+          </p>
+          <p className="text-stone-500 text-sm mt-2">— John Kerry, testimony before the Senate Foreign Relations Committee, 1971 (regarding Vietnam)</p>
+        </blockquote>
+        <p className="text-stone-700 text-lg">
+          The answer, 50 years later, is the same: you don&apos;t ask. You just keep sending them
+          until the political will runs out. The last American soldier killed in Afghanistan died on
+          August 26, 2021 — 13 Marines at Abbey Gate. Their sacrifice was no more strategically
+          meaningful than the first. The only honest tribute to the dead is to stop creating more of them.
+        </p>
+      </section>
+
       {/* Bottom Line */}
       <div className="bg-stone-900 text-white rounded-xl p-8 my-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-400">The Bottom Line</h2>
