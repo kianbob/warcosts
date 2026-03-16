@@ -1,0 +1,354 @@
+{
+  "battles": [
+    {
+      "name": "Battles of Lexington and Concord",
+      "date": "April 19, 1775",
+      "location": "Lexington & Concord, Massachusetts",
+      "american_casualties": 93,
+      "british_casualties": 273,
+      "commander_american": "John Parker / James Barrett",
+      "commander_british": "Francis Smith / Hugh Percy",
+      "outcome": "American Victory",
+      "significance": "The 'shot heard round the world.' First military engagements of the Revolution. Militia proved they would fight the British Army."
+    },
+    {
+      "name": "Battle of Bunker Hill",
+      "date": "June 17, 1775",
+      "location": "Charlestown, Massachusetts",
+      "american_casualties": 450,
+      "british_casualties": 1054,
+      "commander_american": "William Prescott / Israel Putnam",
+      "commander_british": "William Howe",
+      "outcome": "British Pyrrhic Victory",
+      "significance": "Americans proved they could stand against professional British troops. British suffered devastating casualties — over 40% of their attacking force. 'Don't fire until you see the whites of their eyes.'"
+    },
+    {
+      "name": "Siege of Boston",
+      "date": "April 19, 1775 – March 17, 1776",
+      "location": "Boston, Massachusetts",
+      "american_casualties": 20,
+      "british_casualties": 30,
+      "commander_american": "George Washington",
+      "commander_british": "William Howe",
+      "outcome": "American Victory",
+      "significance": "Washington's first major success as commander. Henry Knox's epic transport of cannons from Fort Ticonderoga forced British evacuation."
+    },
+    {
+      "name": "Battle of Long Island",
+      "date": "August 27, 1776",
+      "location": "Brooklyn, New York",
+      "american_casualties": 2000,
+      "british_casualties": 400,
+      "commander_american": "George Washington",
+      "commander_british": "William Howe",
+      "outcome": "British Victory",
+      "significance": "Largest battle of the entire war. Washington's army nearly destroyed but escaped across the East River in a masterful nighttime retreat."
+    },
+    {
+      "name": "Battle of Trenton",
+      "date": "December 26, 1776",
+      "location": "Trenton, New Jersey",
+      "american_casualties": 5,
+      "british_casualties": 918,
+      "commander_american": "George Washington",
+      "commander_british": "Johann Rall (Hessians)",
+      "outcome": "American Victory",
+      "significance": "Washington's famous crossing of the Delaware River on Christmas night. Captured nearly the entire Hessian garrison. Turned the war's momentum when the cause seemed lost."
+    },
+    {
+      "name": "Battle of Princeton",
+      "date": "January 3, 1777",
+      "location": "Princeton, New Jersey",
+      "american_casualties": 75,
+      "british_casualties": 365,
+      "commander_american": "George Washington",
+      "commander_british": "Charles Mawhood",
+      "outcome": "American Victory",
+      "significance": "Quick follow-up to Trenton. Washington outmaneuvered Cornwallis and struck a British garrison. Reinvigorated the Continental Army's morale."
+    },
+    {
+      "name": "Battle of Brandywine",
+      "date": "September 11, 1777",
+      "location": "Chadds Ford, Pennsylvania",
+      "american_casualties": 1300,
+      "british_casualties": 587,
+      "commander_american": "George Washington",
+      "commander_british": "William Howe",
+      "outcome": "British Victory",
+      "significance": "Howe's flanking maneuver caught Washington off guard. Led to the British capture of Philadelphia, the American capital."
+    },
+    {
+      "name": "Battle of Germantown",
+      "date": "October 4, 1777",
+      "location": "Germantown, Pennsylvania",
+      "american_casualties": 1073,
+      "british_casualties": 535,
+      "commander_american": "George Washington",
+      "commander_british": "William Howe",
+      "outcome": "British Victory",
+      "significance": "Though a defeat, Washington's willingness to attack impressed the French and helped secure the alliance."
+    },
+    {
+      "name": "Battles of Saratoga",
+      "date": "September 19 – October 7, 1777",
+      "location": "Saratoga, New York",
+      "american_casualties": 800,
+      "british_casualties": 1500,
+      "commander_american": "Horatio Gates / Benedict Arnold",
+      "commander_british": "John Burgoyne",
+      "outcome": "Decisive American Victory",
+      "significance": "THE turning point of the war. Burgoyne's entire army of 6,000 surrendered. Directly convinced France to enter the war as an American ally. Changed the entire strategic calculus."
+    },
+    {
+      "name": "Valley Forge (Winter Encampment)",
+      "date": "December 19, 1777 – June 19, 1778",
+      "location": "Valley Forge, Pennsylvania",
+      "american_casualties": 2500,
+      "british_casualties": 0,
+      "commander_american": "George Washington",
+      "commander_british": "N/A",
+      "outcome": "Crucible of the Army",
+      "significance": "Not a battle but a defining moment. 2,500 died from disease, cold, and starvation. Baron von Steuben drilled the army into a professional fighting force. The army that marched out was transformed."
+    },
+    {
+      "name": "Battle of Monmouth",
+      "date": "June 28, 1778",
+      "location": "Monmouth County, New Jersey",
+      "american_casualties": 500,
+      "british_casualties": 1100,
+      "commander_american": "George Washington",
+      "commander_british": "Henry Clinton",
+      "outcome": "Tactical Draw / Strategic American Victory",
+      "significance": "First major test after Valley Forge training. Continental Army stood toe-to-toe with the British in open battle. Molly Pitcher legend born here."
+    },
+    {
+      "name": "Siege of Charleston",
+      "date": "March 29 – May 12, 1780",
+      "location": "Charleston, South Carolina",
+      "american_casualties": 5266,
+      "british_casualties": 255,
+      "commander_american": "Benjamin Lincoln",
+      "commander_british": "Henry Clinton",
+      "outcome": "British Victory",
+      "significance": "Worst American defeat of the war. Entire Southern Continental Army captured. Led to British Southern Strategy and guerrilla warfare."
+    },
+    {
+      "name": "Battle of Camden",
+      "date": "August 16, 1780",
+      "location": "Camden, South Carolina",
+      "american_casualties": 1900,
+      "british_casualties": 314,
+      "commander_american": "Horatio Gates",
+      "commander_british": "Charles Cornwallis",
+      "outcome": "British Victory",
+      "significance": "Devastating American defeat. Gates's reputation destroyed. Led to Nathanael Greene's appointment to command the Southern army."
+    },
+    {
+      "name": "Battle of Kings Mountain",
+      "date": "October 7, 1780",
+      "location": "Kings Mountain, South Carolina",
+      "american_casualties": 90,
+      "british_casualties": 1018,
+      "commander_american": "Patriot Militia Leaders",
+      "commander_british": "Patrick Ferguson",
+      "outcome": "American Victory",
+      "significance": "Entirely fought between Americans — Patriots vs Loyalists. Turned the tide in the South. Jefferson called it 'the turn of the tide of success.'"
+    },
+    {
+      "name": "Battle of Cowpens",
+      "date": "January 17, 1781",
+      "location": "Cowpens, South Carolina",
+      "american_casualties": 124,
+      "british_casualties": 839,
+      "commander_american": "Daniel Morgan",
+      "commander_british": "Banastre Tarleton",
+      "outcome": "Decisive American Victory",
+      "significance": "Tactical masterpiece. Morgan's double envelopment destroyed Tarleton's force. One of the most perfectly executed battles in military history."
+    },
+    {
+      "name": "Battle of Guilford Courthouse",
+      "date": "March 15, 1781",
+      "location": "Greensboro, North Carolina",
+      "american_casualties": 552,
+      "british_casualties": 532,
+      "commander_american": "Nathanael Greene",
+      "commander_british": "Charles Cornwallis",
+      "outcome": "British Pyrrhic Victory",
+      "significance": "Cornwallis 'won' but lost a quarter of his army. Forced to retreat to the coast for resupply, ultimately leading him to Yorktown."
+    },
+    {
+      "name": "Siege of Yorktown",
+      "date": "September 28 – October 19, 1781",
+      "location": "Yorktown, Virginia",
+      "american_casualties": 389,
+      "british_casualties": 7685,
+      "commander_american": "George Washington / Comte de Rochambeau",
+      "commander_british": "Charles Cornwallis",
+      "outcome": "Decisive American/French Victory",
+      "significance": "The battle that won the war. Combined American-French forces trapped Cornwallis. 7,685 British troops surrendered. The British band played 'The World Turned Upside Down.' Parliament voted to end the war."
+    }
+  ],
+  "keyFigures": [
+    {
+      "name": "George Washington",
+      "role": "Commander-in-Chief of the Continental Army",
+      "born": 1732,
+      "died": 1799,
+      "quote": "The time is now near at hand which must probably determine whether Americans are to be freemen or slaves.",
+      "contribution": "Led the Continental Army for 8 years through defeat, starvation, and near-mutiny. His greatest achievement wasn't winning battles — it was holding the army together. Voluntarily resigned his commission, stunning the world. Became first President.",
+      "postWar": "President of the Constitutional Convention (1787). First President of the United States (1789-1797). Set the precedent of peaceful transfer of power by stepping down after two terms."
+    },
+    {
+      "name": "Thomas Jefferson",
+      "role": "Author of the Declaration of Independence",
+      "born": 1743,
+      "died": 1826,
+      "quote": "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights.",
+      "contribution": "At 33, drafted the Declaration of Independence — the most consequential political document in modern history. Served as Governor of Virginia during the war.",
+      "postWar": "Secretary of State, Vice President, 3rd President. Louisiana Purchase doubled the nation's size. Founded the University of Virginia."
+    },
+    {
+      "name": "Benjamin Franklin",
+      "role": "Diplomat, Statesman, Inventor",
+      "born": 1706,
+      "died": 1790,
+      "quote": "We must, indeed, all hang together or, most assuredly, we shall all hang separately.",
+      "contribution": "At 70, America's most famous citizen became its most critical diplomat. Secured the French alliance that made victory possible. Negotiated $43 million in French loans and gifts.",
+      "postWar": "Constitutional Convention delegate at 81. His diplomatic achievements arguably contributed more to victory than any single military campaign."
+    },
+    {
+      "name": "John Adams",
+      "role": "Diplomat, Political Philosopher",
+      "born": 1735,
+      "died": 1826,
+      "quote": "The revolution was effected before the war commenced. The revolution was in the minds and hearts of the people.",
+      "contribution": "Leading advocate for independence in the Continental Congress. Nominated Washington as commander. Secured Dutch loans and recognition. Helped draft the Treaty of Paris.",
+      "postWar": "First Vice President, 2nd President. His son John Quincy became the 6th President. Died July 4, 1826 — the same day as Jefferson, on the 50th anniversary of the Declaration."
+    },
+    {
+      "name": "Alexander Hamilton",
+      "role": "Washington's Chief of Staff, Artillery Commander",
+      "born": 1757,
+      "died": 1804,
+      "quote": "Those who stand for nothing fall for anything.",
+      "contribution": "Immigrant from the Caribbean who became Washington's most trusted aide. Led the decisive bayonet charge at Yorktown that captured Redoubt No. 10. Brilliant military strategist and writer.",
+      "postWar": "First Secretary of the Treasury. Created the national bank, assumed state war debts, established American credit. His financial system made the new nation viable."
+    },
+    {
+      "name": "Thomas Paine",
+      "role": "Revolutionary Writer and Propagandist",
+      "born": 1737,
+      "died": 1809,
+      "quote": "These are the times that try men's souls. The summer soldier and the sunshine patriot will, in this crisis, shrink from the service of their country.",
+      "contribution": "Common Sense (1776) sold 500,000 copies and made the case for independence to ordinary people. The American Crisis papers sustained morale. Washington read them aloud to troops before crossing the Delaware.",
+      "postWar": "Continued revolutionary writing. Supported French Revolution. Wrote The Rights of Man and The Age of Reason. Died in poverty, largely forgotten."
+    },
+    {
+      "name": "Marquis de Lafayette",
+      "role": "French Volunteer, Major General",
+      "born": 1757,
+      "died": 1834,
+      "quote": "Humanity has won its battle. Liberty now has a country.",
+      "contribution": "19-year-old French aristocrat who volunteered without pay. Wounded at Brandywine. Became one of Washington's most trusted generals. Played crucial role at Yorktown.",
+      "postWar": "Returned to France and played key role in the French Revolution. Sent Washington the key to the Bastille. Became a symbol of Franco-American friendship."
+    },
+    {
+      "name": "Nathanael Greene",
+      "role": "Major General, Southern Campaign Commander",
+      "born": 1742,
+      "died": 1786,
+      "quote": "We fight, get beat, rise, and fight again.",
+      "contribution": "Washington's most gifted general. Took command of the shattered Southern army and conducted a brilliant campaign of strategic retreats and calculated battles that exhausted Cornwallis.",
+      "postWar": "Died at 43 from sunstroke. Never became President despite his brilliance. Often called the war's most underrated figure."
+    },
+    {
+      "name": "Samuel Adams",
+      "role": "Political Organizer, Father of the Revolution",
+      "born": 1722,
+      "died": 1803,
+      "quote": "It does not take a majority to prevail... but rather an irate, tireless minority, keen on setting brushfires of freedom in the minds of men.",
+      "contribution": "The master political organizer. Founded the Sons of Liberty, organized the Boston Tea Party, created the Committees of Correspondence network. More than anyone, he made revolution happen.",
+      "postWar": "Governor of Massachusetts. Advocate for the Bill of Rights. Remained committed to republican principles until his death."
+    },
+    {
+      "name": "John Paul Jones",
+      "role": "Naval Commander",
+      "born": 1747,
+      "died": 1792,
+      "quote": "I have not yet begun to fight!",
+      "contribution": "Father of the American Navy. Commanded daring raids on British shipping. His victory in the Bonhomme Richard vs HMS Serapis became legendary — he won while his own ship was sinking.",
+      "postWar": "Served briefly in the Russian Navy. Died in Paris at 45. His body was returned to the US Naval Academy in 1905."
+    },
+    {
+      "name": "Abigail Adams",
+      "role": "Political Advisor, Advocate for Women's Rights",
+      "born": 1744,
+      "died": 1818,
+      "quote": "Remember the ladies, and be more generous and favorable to them than your ancestors.",
+      "contribution": "Managed the family farm and finances while John served the Revolution. Her letters reveal one of the sharpest political minds of the era. Advocated for women's education and rights decades ahead of her time.",
+      "postWar": "First Second Lady and Second First Lady. Her correspondence remains one of the most valuable primary sources of the Revolution."
+    },
+    {
+      "name": "Baron von Steuben",
+      "role": "Inspector General, Continental Army",
+      "born": 1730,
+      "died": 1794,
+      "quote": "You say to your soldier, 'Do this,' and he does it. But I am obliged to say, 'This is the reason why you ought to do that,' and then he does it.",
+      "contribution": "Prussian military officer who arrived at Valley Forge and transformed a ragged militia into a disciplined army. Wrote the army's first drill manual. His training was essential to every victory after 1778.",
+      "postWar": "Became an American citizen. Lived on a pension granted by Congress. His training manual was used for decades."
+    }
+  ],
+  "timeline": [
+    { "year": "1765", "event": "Stamp Act", "description": "Britain imposes direct taxes on the colonies. 'No taxation without representation' becomes the rallying cry." },
+    { "year": "1770", "event": "Boston Massacre", "description": "British soldiers kill 5 colonists. Paul Revere's engraving of the event becomes revolutionary propaganda." },
+    { "year": "1773", "event": "Boston Tea Party", "description": "Sons of Liberty dump 342 chests of tea into Boston Harbor. Britain responds with the Intolerable Acts." },
+    { "year": "1774", "event": "First Continental Congress", "description": "Delegates from 12 colonies meet in Philadelphia. Petition King George III for redress of grievances." },
+    { "year": "Apr 1775", "event": "Lexington & Concord", "description": "The shot heard round the world. War begins. Militia companies mobilize across the colonies." },
+    { "year": "Jun 1775", "event": "Battle of Bunker Hill", "description": "Costly British 'victory' proves Americans will fight. Continental Army established. Washington takes command." },
+    { "year": "Jan 1776", "event": "Common Sense Published", "description": "Thomas Paine's pamphlet sells 500,000 copies. Makes the case for independence to ordinary Americans." },
+    { "year": "Jul 4, 1776", "event": "Declaration of Independence", "description": "Continental Congress adopts the Declaration. 56 men sign what amounts to their own death warrants if captured." },
+    { "year": "Dec 1776", "event": "Crossing the Delaware", "description": "Washington's desperate gamble. Crosses the icy Delaware on Christmas night. Victory at Trenton saves the Revolution." },
+    { "year": "Oct 1777", "event": "Victory at Saratoga", "description": "Burgoyne's army surrenders. France recognizes American independence and enters the war as an ally." },
+    { "year": "1777-78", "event": "Valley Forge", "description": "The Continental Army's darkest winter becomes its crucible. Von Steuben transforms the survivors into soldiers." },
+    { "year": "Feb 1778", "event": "Franco-American Alliance", "description": "France formally allies with the United States. French money, troops, and naval power change everything." },
+    { "year": "1780-81", "event": "Southern Campaign", "description": "Greene's brilliant strategy wears down Cornwallis. Kings Mountain, Cowpens, and Guilford Courthouse bleed the British." },
+    { "year": "Oct 1781", "event": "Siege of Yorktown", "description": "Washington and Rochambeau trap Cornwallis. 7,685 British surrender. The British band plays 'The World Turned Upside Down.'" },
+    { "year": "Sep 1783", "event": "Treaty of Paris", "description": "Britain recognizes American independence. The United States stretches from the Atlantic to the Mississippi. A new nation is born." },
+    { "year": "Dec 1783", "event": "Washington Resigns", "description": "Washington voluntarily surrenders his commission to Congress. King George III said it made him 'the greatest man in the world.'" }
+  ],
+  "financialData": {
+    "totalCost2026Dollars": 2400000000,
+    "continentalDollarValue": [
+      { "year": 1775, "value": 1.00 },
+      { "year": 1776, "value": 1.00 },
+      { "year": 1777, "value": 0.34 },
+      { "year": 1778, "value": 0.17 },
+      { "year": 1779, "value": 0.03 },
+      { "year": 1780, "value": 0.025 },
+      { "year": 1781, "value": 0.01 }
+    ],
+    "warCostByYear": [
+      { "year": 1775, "amount": 5, "note": "Initial mobilization" },
+      { "year": 1776, "amount": 20, "note": "Declaration and full mobilization" },
+      { "year": 1777, "amount": 26, "note": "Saratoga campaign" },
+      { "year": 1778, "amount": 30, "note": "French alliance begins" },
+      { "year": 1779, "amount": 37, "note": "Expanded operations" },
+      { "year": 1780, "amount": 50, "note": "Southern campaign" },
+      { "year": 1781, "amount": 38, "note": "Yorktown campaign" },
+      { "year": 1782, "amount": 15, "note": "Winding down" },
+      { "year": 1783, "amount": 5, "note": "Treaty of Paris" }
+    ],
+    "frenchAid": {
+      "loans": 6352000,
+      "gifts": 3262000,
+      "total": 9614000,
+      "modernEquivalent": 300000000,
+      "troopsSent": 12000,
+      "navalSupport": "Decisive at Yorktown — Admiral de Grasse's fleet blocked British escape"
+    },
+    "continentalCurrencyPrinted": 241000000,
+    "stateDeBts": 114000000,
+    "nationalDebt1783": 43000000,
+    "hamiltonDebtAssumption": "Hamilton's 1790 plan assumed $25M in state war debts, funded the national debt, and established American creditworthiness"
+  }
+}
