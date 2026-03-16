@@ -50,9 +50,9 @@ const continentalDollar = [
 const costComparison = [
   { war: 'Revolutionary War', cost: 2.4 },
   { war: 'Civil War', cost: 80 },
-  { war: 'World War I', cost: 380 },
+  { war: 'World War I', cost: 334 },
   { war: 'World War II', cost: 4700 },
-  { war: 'Korean War', cost: 400 },
+  { war: 'Korean War', cost: 389 },
   { war: 'Vietnam War', cost: 1000 },
   { war: 'War on Terror', cost: 8000 },
 ]
@@ -74,7 +74,7 @@ const timeline = [
   { year: 'Apr 1775', event: 'Lexington & Concord — War begins' },
   { year: 'Jun 1775', event: 'Bunker Hill — Costly British "victory"' },
   { year: 'Jan 1776', event: 'Common Sense — Paine makes the case' },
-  { year: 'Jul 4, 1776', event: 'Declaration of Independence signed' },
+  { year: 'Jul 4, 1776', event: 'Declaration of Independence adopted' },
   { year: 'Dec 1776', event: 'Crossing the Delaware — Trenton victory' },
   { year: 'Oct 1777', event: 'Saratoga — The turning point' },
   { year: '1777-78', event: 'Valley Forge — The crucible' },
@@ -89,7 +89,7 @@ const founders = [
   { name: 'Thomas Jefferson', role: 'Declaration Author', desc: 'At 33, wrote the most consequential political document in history.' },
   { name: 'Benjamin Franklin', role: 'Diplomat', desc: 'At 70, secured the French alliance that made victory possible.' },
   { name: 'John Adams', role: 'Political Philosopher', desc: 'Champion of independence in Congress. Secured Dutch recognition.' },
-  { name: 'Alexander Hamilton', role: 'Chief of Staff & Officer', desc: 'Led the charge at Yorktown. Later built the financial system.' },
+  { name: 'Alexander Hamilton', role: 'Chief of Staff & Officer', desc: 'Led the decisive charge at Yorktown\'s Redoubt 10. Later built the nation\'s financial system.' },
   { name: 'Thomas Paine', role: 'Revolutionary Writer', desc: 'Common Sense sold 500,000 copies. Made revolution popular.' },
 ]
 

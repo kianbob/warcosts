@@ -1,208 +1,813 @@
 [
   {
-    "name": "Washington",
-    "conflicts": [
-      "Revolutionary War"
-    ],
+    "name": "Continental Congress",
+    "fullName": "Continental Congress",
+    "number": 0,
+    "party": "N/A",
+    "years": "1775–1789",
+    "conflicts": ["Revolutionary War"],
     "totalCost": 2400000000,
-    "totalUSDeaths": 25000
+    "totalUSDeaths": 25000,
+    "warCostAdjusted2024": 70000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Declaration of Independence", "Alliance with France", "Treaty of Paris"],
+    "casualties": { "military": 25000, "wounded": 25000 },
+    "quotes": [],
+    "warCostRank": 20
+  },
+  {
+    "name": "Washington",
+    "fullName": "George Washington",
+    "number": 1,
+    "party": "None",
+    "years": "1789–1797",
+    "conflicts": ["Whiskey Rebellion", "Northwest Indian War"],
+    "totalCost": 1200000000,
+    "totalUSDeaths": 1056,
+    "warCostAdjusted2024": 34000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Neutrality Proclamation (1793)", "Whiskey Rebellion suppression (1794)", "Jay Treaty with Britain", "Farewell Address warning against foreign entanglements"],
+    "casualties": { "military": 1056, "wounded": 500 },
+    "quotes": [
+      "My first wish is to see this plague of mankind, war, banished from the earth.",
+      "The constitution vests the power of declaring war in Congress; therefore no offensive expedition of importance can be undertaken until after they shall have deliberated upon the subject."
+    ],
+    "warCostRank": 25
   },
   {
     "name": "Adams",
-    "conflicts": [
-      "Quasi-War"
-    ],
+    "fullName": "John Adams",
+    "number": 2,
+    "party": "Federalist",
+    "years": "1797–1801",
+    "conflicts": ["Quasi-War with France"],
     "totalCost": 160000000,
-    "totalUSDeaths": 514
+    "totalUSDeaths": 514,
+    "warCostAdjusted2024": 4000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Chose diplomacy over war with France", "Signed Alien and Sedition Acts", "Created the Department of the Navy"],
+    "casualties": { "military": 514, "wounded": 200 },
+    "quotes": [
+      "Great is the guilt of an unnecessary war."
+    ],
+    "warCostRank": 37
   },
   {
     "name": "Jefferson",
-    "conflicts": [
-      "Barbary War"
-    ],
+    "fullName": "Thomas Jefferson",
+    "number": 3,
+    "party": "Democratic-Republican",
+    "years": "1801–1809",
+    "conflicts": ["First Barbary War"],
     "totalCost": 80000000,
-    "totalUSDeaths": 35
+    "totalUSDeaths": 35,
+    "warCostAdjusted2024": 2000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Sent Navy to Tripoli without congressional declaration", "Louisiana Purchase (removed French threat)", "Embargo Act of 1807"],
+    "casualties": { "military": 35, "wounded": 64 },
+    "quotes": [
+      "Peace, commerce, and honest friendship with all nations — entangling alliances with none."
+    ],
+    "warCostRank": 39
   },
   {
     "name": "Madison",
-    "conflicts": [
-      "War of 1812"
-    ],
+    "fullName": "James Madison",
+    "number": 4,
+    "party": "Democratic-Republican",
+    "years": "1809–1817",
+    "conflicts": ["War of 1812", "Second Barbary War"],
     "totalCost": 1800000000,
-    "totalUSDeaths": 15000
+    "totalUSDeaths": 15000,
+    "warCostAdjusted2024": 42000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Requested congressional declaration of war on Britain", "Failed invasion of Canada", "Washington D.C. burned by British", "Treaty of Ghent ended war with no territorial changes"],
+    "casualties": { "military": 15000, "wounded": 4505 },
+    "quotes": [
+      "Of all the enemies to public liberty war is, perhaps, the most to be dreaded, because it comprises and develops the germ of every other.",
+      "The executive has no right, in any case, to decide the question, whether there is or is not cause for declaring war."
+    ],
+    "warCostRank": 19
+  },
+  {
+    "name": "Monroe",
+    "fullName": "James Monroe",
+    "number": 5,
+    "party": "Democratic-Republican",
+    "years": "1817–1825",
+    "conflicts": ["First Seminole War"],
+    "totalCost": 30000000,
+    "totalUSDeaths": 36,
+    "warCostAdjusted2024": 700000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Monroe Doctrine (1823)", "Andrew Jackson's unauthorized invasion of Florida", "Acquisition of Florida from Spain"],
+    "casualties": { "military": 36, "wounded": 50 },
+    "quotes": [
+      "The American continents are henceforth not to be considered as subjects for future colonization by any European powers."
+    ],
+    "warCostRank": 40
+  },
+  {
+    "name": "J.Q. Adams",
+    "fullName": "John Quincy Adams",
+    "number": 6,
+    "party": "Democratic-Republican",
+    "years": "1825–1829",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["No major military conflicts", "Opposed annexation of Texas"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [
+      "America does not go abroad in search of monsters to destroy."
+    ],
+    "warCostRank": 45
+  },
+  {
+    "name": "Jackson",
+    "fullName": "Andrew Jackson",
+    "number": 7,
+    "party": "Democrat",
+    "years": "1829–1837",
+    "conflicts": ["Black Hawk War", "Second Seminole War"],
+    "totalCost": 40000000,
+    "totalUSDeaths": 1600,
+    "warCostAdjusted2024": 1300000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Indian Removal Act (1830)", "Trail of Tears", "Second Seminole War escalation", "Nullification Crisis military threat"],
+    "casualties": { "military": 1600, "wounded": 800 },
+    "quotes": [
+      "The brave man inattentive to his duty, is worth little more to his country than the coward who deserts in the hour of danger."
+    ],
+    "warCostRank": 36
+  },
+  {
+    "name": "Van Buren",
+    "fullName": "Martin Van Buren",
+    "number": 8,
+    "party": "Democrat",
+    "years": "1837–1841",
+    "conflicts": ["Second Seminole War (continued)"],
+    "totalCost": 20000000,
+    "totalUSDeaths": 328,
+    "warCostAdjusted2024": 650000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Continued Second Seminole War", "Avoided war with Britain over Maine boundary dispute"],
+    "casualties": { "military": 328, "wounded": 200 },
+    "quotes": [],
+    "warCostRank": 41
+  },
+  {
+    "name": "W.H. Harrison",
+    "fullName": "William Henry Harrison",
+    "number": 9,
+    "party": "Whig",
+    "years": "1841",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Died 31 days into office"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Tyler",
+    "fullName": "John Tyler",
+    "number": 10,
+    "party": "Whig",
+    "years": "1841–1845",
+    "conflicts": ["Second Seminole War (end)"],
+    "totalCost": 10000000,
+    "totalUSDeaths": 100,
+    "warCostAdjusted2024": 350000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Ended Second Seminole War", "Texas annexation resolution"],
+    "casualties": { "military": 100, "wounded": 50 },
+    "quotes": [],
+    "warCostRank": 42
   },
   {
     "name": "Polk",
-    "conflicts": [
-      "Mexican-American War"
-    ],
+    "fullName": "James K. Polk",
+    "number": 11,
+    "party": "Democrat",
+    "years": "1845–1849",
+    "conflicts": ["Mexican-American War"],
     "totalCost": 2500000000,
-    "totalUSDeaths": 13283
+    "totalUSDeaths": 13283,
+    "warCostAdjusted2024": 75000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Manufactured border provocation with Mexico", "Lied to Congress about Mexican aggression", "Seized half of Mexico's territory", "Treaty of Guadalupe Hidalgo"],
+    "casualties": { "military": 13283, "wounded": 4152 },
+    "quotes": [
+      "No president who performs his duties faithfully and conscientiously can have any leisure."
+    ],
+    "warCostRank": 16
+  },
+  {
+    "name": "Taylor",
+    "fullName": "Zachary Taylor",
+    "number": 12,
+    "party": "Whig",
+    "years": "1849–1850",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Threatened war to preserve the Union over slavery expansion", "Died in office after 16 months"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Fillmore",
+    "fullName": "Millard Fillmore",
+    "number": 13,
+    "party": "Whig",
+    "years": "1850–1853",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Sent Perry expedition to Japan", "Compromise of 1850"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Pierce",
+    "fullName": "Franklin Pierce",
+    "number": 14,
+    "party": "Democrat",
+    "years": "1853–1857",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Kansas-Nebraska Act fueled sectional violence", "Bleeding Kansas"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Buchanan",
+    "fullName": "James Buchanan",
+    "number": 15,
+    "party": "Democrat",
+    "years": "1857–1861",
+    "conflicts": ["Utah War"],
+    "totalCost": 15000000,
+    "totalUSDeaths": 38,
+    "warCostAdjusted2024": 500000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Utah War against Mormon settlers", "Failed to prevent secession", "Dred Scott crisis"],
+    "casualties": { "military": 38, "wounded": 70 },
+    "quotes": [],
+    "warCostRank": 43
   },
   {
     "name": "Lincoln",
-    "conflicts": [
-      "Civil War"
-    ],
+    "fullName": "Abraham Lincoln",
+    "number": 16,
+    "party": "Republican",
+    "years": "1861–1865",
+    "conflicts": ["Civil War"],
     "totalCost": 80000000000,
-    "totalUSDeaths": 364511
+    "totalUSDeaths": 364511,
+    "warCostAdjusted2024": 5200000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Suspended habeas corpus", "Emancipation Proclamation", "Called for 75,000 volunteers", "Imposed first federal income tax to fund war", "Naval blockade of Confederacy"],
+    "casualties": { "military": 364511, "wounded": 281881 },
+    "quotes": [
+      "Allow the president to invade a neighboring nation, whenever he shall deem it necessary... and you allow him to make war at pleasure.",
+      "In giving freedom to the slave, we assure freedom to the free."
+    ],
+    "warCostRank": 2
+  },
+  {
+    "name": "A. Johnson",
+    "fullName": "Andrew Johnson",
+    "number": 17,
+    "party": "Democrat",
+    "years": "1865–1869",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Reconstruction policies", "Rapid demobilization of Union Army", "Impeached but not removed"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Grant",
+    "fullName": "Ulysses S. Grant",
+    "number": 18,
+    "party": "Republican",
+    "years": "1869–1877",
+    "conflicts": ["Indian Wars (Great Plains)"],
+    "totalCost": 50000000,
+    "totalUSDeaths": 919,
+    "warCostAdjusted2024": 1200000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Continued Indian Wars on Great Plains", "Peace Policy toward Native Americans", "Suppressed Ku Klux Klan with military force"],
+    "casualties": { "military": 919, "wounded": 1000 },
+    "quotes": [
+      "I have never advocated war except as a means of peace."
+    ],
+    "warCostRank": 35
+  },
+  {
+    "name": "Hayes",
+    "fullName": "Rutherford B. Hayes",
+    "number": 19,
+    "party": "Republican",
+    "years": "1877–1881",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Ended Reconstruction (withdrew federal troops from South)", "Used troops against Great Railroad Strike of 1877"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Garfield",
+    "fullName": "James A. Garfield",
+    "number": 20,
+    "party": "Republican",
+    "years": "1881",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Assassinated after 200 days in office"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Arthur",
+    "fullName": "Chester A. Arthur",
+    "number": 21,
+    "party": "Republican",
+    "years": "1881–1885",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Modernized the Navy", "No major military conflicts"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "Cleveland",
+    "fullName": "Grover Cleveland",
+    "number": 22,
+    "party": "Democrat",
+    "years": "1885–1889, 1893–1897",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Refused to annex Hawaii", "Anti-imperialist", "Used troops to break Pullman Strike"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [],
+    "warCostRank": 46
+  },
+  {
+    "name": "B. Harrison",
+    "fullName": "Benjamin Harrison",
+    "number": 23,
+    "party": "Republican",
+    "years": "1889–1893",
+    "conflicts": ["Wounded Knee Massacre"],
+    "totalCost": 5000000,
+    "totalUSDeaths": 25,
+    "warCostAdjusted2024": 170000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Wounded Knee Massacre (1890)", "Expanded the Navy significantly"],
+    "casualties": { "military": 25, "wounded": 39 },
+    "quotes": [],
+    "warCostRank": 44
   },
   {
     "name": "McKinley",
-    "conflicts": [
-      "Spanish-American War",
-      "Philippine War"
-    ],
+    "fullName": "William McKinley",
+    "number": 25,
+    "party": "Republican",
+    "years": "1897–1901",
+    "conflicts": ["Spanish-American War", "Philippine-American War"],
     "totalCost": 16600000000,
-    "totalUSDeaths": 4544
+    "totalUSDeaths": 4544,
+    "warCostAdjusted2024": 520000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Declared war on Spain after USS Maine explosion", "Annexed Philippines, Puerto Rico, Guam, Hawaii", "Launched Philippine-American War counterinsurgency", "Assassinated in 1901"],
+    "casualties": { "military": 4544, "wounded": 3000 },
+    "quotes": [
+      "I walked the floor of the White House night after night until midnight; and I am not ashamed to tell you that I went down on my knees and prayed to Almighty God for light and guidance."
+    ],
+    "warCostRank": 10
   },
   {
     "name": "Roosevelt",
-    "conflicts": [
-      "Philippine War",
-      "World War II"
+    "fullName": "Theodore Roosevelt",
+    "number": 26,
+    "party": "Republican",
+    "years": "1901–1909",
+    "conflicts": ["Philippine-American War (continued)", "Banana Wars"],
+    "totalCost": 8000000000,
+    "totalUSDeaths": 1500,
+    "warCostAdjusted2024": 270000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Big Stick policy", "Panama Canal (supported Panamanian revolution)", "Great White Fleet world tour", "Continued Philippine counterinsurgency", "Roosevelt Corollary to Monroe Doctrine"],
+    "casualties": { "military": 1500, "wounded": 2800 },
+    "quotes": [
+      "Speak softly and carry a big stick.",
+      "A just war is in the long run far better for a man's soul than the most prosperous peace."
     ],
-    "totalCost": 2407000000000,
-    "totalUSDeaths": 204798
+    "warCostRank": 12
+  },
+  {
+    "name": "Taft",
+    "fullName": "William Howard Taft",
+    "number": 27,
+    "party": "Republican",
+    "years": "1909–1913",
+    "conflicts": ["Banana Wars (Nicaragua)"],
+    "totalCost": 5000000,
+    "totalUSDeaths": 10,
+    "warCostAdjusted2024": 160000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Dollar Diplomacy", "Military intervention in Nicaragua"],
+    "casualties": { "military": 10, "wounded": 20 },
+    "quotes": [],
+    "warCostRank": 44
   },
   {
     "name": "Wilson",
-    "conflicts": [
-      "World War I"
-    ],
+    "fullName": "Woodrow Wilson",
+    "number": 28,
+    "party": "Democrat",
+    "years": "1913–1921",
+    "conflicts": ["World War I", "Mexican Border War", "Russian Intervention", "Haiti occupation", "Dominican Republic occupation"],
     "totalCost": 380000000000,
-    "totalUSDeaths": 116516
+    "totalUSDeaths": 116516,
+    "warCostAdjusted2024": 5700000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Promised neutrality then entered WWI", "Espionage and Sedition Acts", "Sent troops to Russia (1918–1920)", "Occupied Haiti and Dominican Republic", "Fourteen Points and League of Nations", "Versailles Treaty negotiations"],
+    "casualties": { "military": 116516, "wounded": 204002 },
+    "quotes": [
+      "The world must be made safe for democracy.",
+      "It is not an army that we must train for war; it is a nation."
+    ],
+    "warCostRank": 3
+  },
+  {
+    "name": "Harding",
+    "fullName": "Warren G. Harding",
+    "number": 29,
+    "party": "Republican",
+    "years": "1921–1923",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Return to normalcy", "Washington Naval Conference (arms limitation)", "Died in office"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [
+      "America's present need is not heroics, but healing; not nostrums, but normalcy."
+    ],
+    "warCostRank": 46
+  },
+  {
+    "name": "Coolidge",
+    "fullName": "Calvin Coolidge",
+    "number": 30,
+    "party": "Republican",
+    "years": "1923–1929",
+    "conflicts": ["Banana Wars (Nicaragua)"],
+    "totalCost": 5000000,
+    "totalUSDeaths": 48,
+    "warCostAdjusted2024": 90000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Kellogg-Briand Pact (outlawed war)", "Continued Nicaragua intervention", "Reduced military spending"],
+    "casualties": { "military": 48, "wounded": 60 },
+    "quotes": [],
+    "warCostRank": 44
+  },
+  {
+    "name": "Hoover",
+    "fullName": "Herbert Hoover",
+    "number": 31,
+    "party": "Republican",
+    "years": "1929–1933",
+    "conflicts": [],
+    "totalCost": 0,
+    "totalUSDeaths": 0,
+    "warCostAdjusted2024": 0,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Withdrew Marines from Nicaragua", "Stimson Doctrine (non-recognition of conquest)", "Bonus Army dispersal with troops"],
+    "casualties": { "military": 0, "wounded": 0 },
+    "quotes": [
+      "Older men declare war. But it is the youth that must fight and die."
+    ],
+    "warCostRank": 46
+  },
+  {
+    "name": "FDR",
+    "fullName": "Franklin D. Roosevelt",
+    "number": 32,
+    "party": "Democrat",
+    "years": "1933–1945",
+    "conflicts": ["World War II"],
+    "totalCost": 4100000000000,
+    "totalUSDeaths": 405399,
+    "warCostAdjusted2024": 5800000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Lend-Lease Act", "Atlantic Charter", "Declared war after Pearl Harbor", "D-Day invasion authorization", "Manhattan Project", "Japanese-American internment", "Yalta Conference", "Died in office April 1945"],
+    "casualties": { "military": 405399, "wounded": 670846 },
+    "quotes": [
+      "Yesterday, December 7th, 1941 — a date which will live in infamy.",
+      "We have nothing to fear but fear itself."
+    ],
+    "warCostRank": 1
   },
   {
     "name": "Truman",
-    "conflicts": [
-      "World War II",
-      "Korean War"
-    ],
+    "fullName": "Harry S. Truman",
+    "number": 33,
+    "party": "Democrat",
+    "years": "1945–1953",
+    "conflicts": ["World War II (end)", "Korean War", "Greek Civil War intervention"],
     "totalCost": 2789000000000,
-    "totalUSDeaths": 239274
+    "totalUSDeaths": 73849,
+    "warCostAdjusted2024": 4200000000000,
+    "militarySpendingTotal": null,
+    "majorDecisions": ["Dropped atomic bombs on Hiroshima and Nagasaki", "Korean War without congressional declaration", "Truman Doctrine (containment)", "Marshall Plan", "NATO creation", "Created CIA and NSC", "Fired General MacArthur"],
+    "casualties": { "military": 73849, "wounded": 103284 },
+    "quotes": [
+      "The buck stops here.",
+      "It is part of my responsibility as Commander in Chief of the armed forces to see to it that our country is able to defend itself against any possible aggressor."
+    ],
+    "warCostRank": 4
   },
   {
     "name": "Eisenhower",
-    "conflicts": [
-      "Iran Coup",
-      "Guatemala Coup"
+    "fullName": "Dwight D. Eisenhower",
+    "number": 34,
+    "party": "Republican",
+    "years": "1953–1961",
+    "conflicts": ["Iran coup (1953)", "Guatemala coup (1954)", "Lebanon intervention (1958)"],
+    "totalCost": 44000000000,
+    "totalUSDeaths": 1,
+    "warCostAdjusted2024": 450000000000,
+    "militarySpendingTotal": 350,
+    "majorDecisions": ["Ended Korean War", "CIA coup in Iran", "CIA coup in Guatemala", "Eisenhower Doctrine", "Military-Industrial Complex farewell warning", "Massive nuclear buildup"],
+    "casualties": { "military": 1, "wounded": 0 },
+    "quotes": [
+      "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.",
+      "Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed."
     ],
-    "totalCost": 44000000,
-    "totalUSDeaths": 0
+    "warCostRank": 9
   },
   {
     "name": "Kennedy",
-    "conflicts": [
-      "Vietnam War",
-      "Bay of Pigs"
+    "fullName": "John F. Kennedy",
+    "number": 35,
+    "party": "Democrat",
+    "years": "1961–1963",
+    "conflicts": ["Vietnam War (advisors)", "Bay of Pigs", "Cuban Missile Crisis"],
+    "totalCost": 333793000000,
+    "totalUSDeaths": 195,
+    "warCostAdjusted2024": 340000000000,
+    "militarySpendingTotal": 160,
+    "majorDecisions": ["Bay of Pigs invasion (1961)", "Cuban Missile Crisis (1962)", "Increased Vietnam advisors to 16,000", "Nuclear Test Ban Treaty", "Assassinated November 1963"],
+    "casualties": { "military": 195, "wounded": 500 },
+    "quotes": [
+      "Mankind must put an end to war, or war will put an end to mankind.",
+      "Domestic policy can only defeat us; foreign policy can kill us."
     ],
-    "totalCost": 333793333333,
-    "totalUSDeaths": 19411
+    "warCostRank": 11
   },
   {
     "name": "Johnson",
-    "conflicts": [
-      "Vietnam War",
-      "Dominican Republic"
+    "fullName": "Lyndon B. Johnson",
+    "number": 36,
+    "party": "Democrat",
+    "years": "1963–1969",
+    "conflicts": ["Vietnam War (escalation)", "Dominican Republic intervention"],
+    "totalCost": 843000000000,
+    "totalUSDeaths": 36574,
+    "warCostAdjusted2024": 738000000000,
+    "militarySpendingTotal": 536,
+    "majorDecisions": ["Gulf of Tonkin Resolution", "Escalated Vietnam to 536,000 troops", "Dominican Republic invasion (1965)", "Declined to run for reelection due to war"],
+    "casualties": { "military": 36574, "wounded": 153303 },
+    "quotes": [
+      "We are not about to send American boys 9 or 10 thousand miles away from home to do what Asian boys ought to be doing for themselves.",
+      "I shall not seek, and I will not accept, the nomination of my party for another term as your President."
     ],
-    "totalCost": 336133333333,
-    "totalUSDeaths": 19451
+    "warCostRank": 5
   },
   {
     "name": "Nixon",
-    "conflicts": [
-      "Vietnam War",
-      "Chile Coup"
+    "fullName": "Richard Nixon",
+    "number": 37,
+    "party": "Republican",
+    "years": "1969–1974",
+    "conflicts": ["Vietnam War (continued/expanded)", "Cambodia bombing", "Laos bombing"],
+    "totalCost": 461000000000,
+    "totalUSDeaths": 21194,
+    "warCostAdjusted2024": 380000000000,
+    "militarySpendingTotal": 420,
+    "majorDecisions": ["Secret bombing of Cambodia", "Vietnamization policy", "Invasion of Cambodia (1970)", "Paris Peace Accords (1973)", "Resigned over Watergate"],
+    "casualties": { "military": 21194, "wounded": 53000 },
+    "quotes": [
+      "I'm not going to be the first American president to lose a war.",
+      "There is no way to win a war that has already been lost in the minds of the people."
     ],
-    "totalCost": 333413333333,
-    "totalUSDeaths": 19407
+    "warCostRank": 8
+  },
+  {
+    "name": "Ford",
+    "fullName": "Gerald Ford",
+    "number": 38,
+    "party": "Republican",
+    "years": "1974–1977",
+    "conflicts": ["Mayaguez incident"],
+    "totalCost": 1000000000,
+    "totalUSDeaths": 41,
+    "warCostAdjusted2024": 6000000000,
+    "militarySpendingTotal": 95,
+    "majorDecisions": ["Fall of Saigon (1975)", "Mayaguez incident — 41 killed to rescue 39 crew", "Continued detente with Soviets"],
+    "casualties": { "military": 41, "wounded": 50 },
+    "quotes": [],
+    "warCostRank": 34
+  },
+  {
+    "name": "Carter",
+    "fullName": "Jimmy Carter",
+    "number": 39,
+    "party": "Democrat",
+    "years": "1977–1981",
+    "conflicts": ["Iran hostage rescue attempt"],
+    "totalCost": 500000000,
+    "totalUSDeaths": 8,
+    "warCostAdjusted2024": 2000000000,
+    "militarySpendingTotal": 100,
+    "majorDecisions": ["Camp David Accords", "Failed Iran hostage rescue (Operation Eagle Claw)", "Carter Doctrine (Persian Gulf)", "Boycotted Moscow Olympics", "Armed Afghan mujahideen (Operation Cyclone)"],
+    "casualties": { "military": 8, "wounded": 0 },
+    "quotes": [
+      "War may sometimes be a necessary evil. But no matter how necessary, it is always an evil, never a good."
+    ],
+    "warCostRank": 38
   },
   {
     "name": "Reagan",
-    "conflicts": [
-      "Grenada"
+    "fullName": "Ronald Reagan",
+    "number": 40,
+    "party": "Republican",
+    "years": "1981–1989",
+    "conflicts": ["Lebanon (1982–1984)", "Grenada invasion (1983)", "Libya bombing (1986)", "Iran-Contra", "Tanker War"],
+    "totalCost": 2800000000000,
+    "totalUSDeaths": 379,
+    "warCostAdjusted2024": 4500000000000,
+    "militarySpendingTotal": 2200,
+    "majorDecisions": ["Massive defense buildup", "Beirut barracks bombing (241 Marines killed)", "Grenada invasion", "Iran-Contra scandal", "SDI 'Star Wars' program", "Armed Afghan mujahideen", "Libya air strikes"],
+    "casualties": { "military": 379, "wounded": 169 },
+    "quotes": [
+      "Our days of weakness are over. Our military forces are back on their feet and standing tall.",
+      "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means."
     ],
-    "totalCost": 400000000,
-    "totalUSDeaths": 19
+    "warCostRank": 6
   },
   {
     "name": "Bush Sr.",
-    "conflicts": [
-      "Panama",
-      "Gulf War",
-      "Somalia"
+    "fullName": "George H.W. Bush",
+    "number": 41,
+    "party": "Republican",
+    "years": "1989–1993",
+    "conflicts": ["Panama invasion (1989)", "Gulf War (1991)", "Somalia intervention (1992)"],
+    "totalCost": 102000000000,
+    "totalUSDeaths": 382,
+    "warCostAdjusted2024": 230000000000,
+    "militarySpendingTotal": 1220,
+    "majorDecisions": ["Panama invasion to oust Noriega", "Operation Desert Storm", "Encouraged Iraqi uprisings then abandoned them", "Started Somalia intervention", "New World Order speech"],
+    "casualties": { "military": 382, "wounded": 467 },
+    "quotes": [
+      "This will not stand, this aggression against Kuwait.",
+      "We have before us the opportunity to forge for ourselves and for future generations a new world order."
     ],
-    "totalCost": 138050000000,
-    "totalUSDeaths": 428
+    "warCostRank": 13
   },
   {
     "name": "Clinton",
-    "conflicts": [
-      "Somalia",
-      "Bosnia",
-      "Kosovo"
+    "fullName": "Bill Clinton",
+    "number": 42,
+    "party": "Democrat",
+    "years": "1993–2001",
+    "conflicts": ["Somalia (continued)", "Bosnia intervention", "Kosovo War", "Iraq no-fly zone", "Sudan/Afghanistan strikes"],
+    "totalCost": 80000000000,
+    "totalUSDeaths": 73,
+    "warCostAdjusted2024": 150000000000,
+    "militarySpendingTotal": 2000,
+    "majorDecisions": ["Somalia withdrawal after Black Hawk Down", "Bosnia peacekeeping", "Kosovo 78-day bombing campaign without authorization", "Cruise missile strikes on Sudan and Afghanistan", "Iraq no-fly zone enforcement"],
+    "casualties": { "military": 73, "wounded": 200 },
+    "quotes": [
+      "There is nothing wrong with America that cannot be cured by what is right with America."
     ],
-    "totalCost": 46650000000,
-    "totalUSDeaths": 36
-  },
-  {
-    "name": "Obama",
-    "conflicts": [
-      "GWOT (Other)",
-      "Drone Wars",
-      "Somalia (AFRICOM)",
-      "Libya",
-      "Niger/Sahel",
-      "Syria",
-      "Anti-ISIS",
-      "Yemen"
-    ],
-    "totalCost": 76991666666,
-    "totalUSDeaths": 55
+    "warCostRank": 14
   },
   {
     "name": "Bush Jr.",
-    "conflicts": [
-      "Afghanistan",
-      "GWOT (Other)",
-      "Iraq War",
-      "Drone Wars",
-      "Somalia (AFRICOM)"
+    "fullName": "George W. Bush",
+    "number": 43,
+    "party": "Republican",
+    "years": "2001–2009",
+    "conflicts": ["Afghanistan War", "Iraq War", "War on Terror (global)"],
+    "totalCost": 5900000000000,
+    "totalUSDeaths": 5281,
+    "warCostAdjusted2024": 7200000000000,
+    "militarySpendingTotal": 4900,
+    "majorDecisions": ["Invaded Afghanistan (2001)", "Invaded Iraq on false WMD claims (2003)", "PATRIOT Act", "Authorized torture (enhanced interrogation)", "Warrantless wiretapping (NSA)", "Guantanamo Bay detention", "Surge in Iraq (2007)"],
+    "casualties": { "military": 5281, "wounded": 52375 },
+    "quotes": [
+      "Every nation, in every region, now has a decision to make. Either you are with us, or you are with the terrorists.",
+      "Mission accomplished."
     ],
-    "totalCost": 4323625000000,
-    "totalUSDeaths": 7075
+    "warCostRank": 1
   },
   {
-    "name": "Biden",
-    "conflicts": [
-      "GWOT (Other)",
-      "Drone Wars",
-      "Somalia (AFRICOM)",
-      "Niger/Sahel",
-      "Syria",
-      "Anti-ISIS",
-      "Yemen",
-      "Ukraine Aid",
-      "Red Sea (Houthis)"
+    "name": "Obama",
+    "fullName": "Barack Obama",
+    "number": 44,
+    "party": "Democrat",
+    "years": "2009–2017",
+    "conflicts": ["Afghanistan War (continued)", "Iraq War (continued/returned)", "Libya intervention", "Syria intervention", "Drone wars (Yemen, Pakistan, Somalia)"],
+    "totalCost": 1800000000000,
+    "totalUSDeaths": 1736,
+    "warCostAdjusted2024": 2100000000000,
+    "militarySpendingTotal": 5100,
+    "majorDecisions": ["Surge in Afghanistan (30,000 troops)", "Withdrew from Iraq (2011), returned (2014)", "Libya intervention without authorization", "Drone strike program (10x Bush)", "Killed Osama bin Laden (2011)", "Iran nuclear deal (JCPOA)", "Syria 'red line' reversal"],
+    "casualties": { "military": 1736, "wounded": 15000 },
+    "quotes": [
+      "I believe in American exceptionalism with every fiber of my being. But what makes us exceptional is not our ability to flout international norms and the rule of law.",
+      "Just because we have the best hammer does not mean that every problem is a nail."
     ],
-    "totalCost": 113541666666,
-    "totalUSDeaths": 55
+    "warCostRank": 7
   },
   {
     "name": "Trump",
-    "conflicts": [
-      "GWOT (Other)",
-      "Drone Wars",
-      "Somalia (AFRICOM)",
-      "Niger/Sahel",
-      "Syria",
-      "Anti-ISIS",
-      "Yemen",
-      "Ukraine Aid",
-      "Iran 2026"
+    "fullName": "Donald Trump",
+    "number": 45,
+    "party": "Republican",
+    "years": "2017–2021, 2025–Present",
+    "conflicts": ["Afghanistan War (continued)", "Syria strikes", "ISIS campaign", "Iran tensions"],
+    "totalCost": 800000000000,
+    "totalUSDeaths": 104,
+    "warCostAdjusted2024": 850000000000,
+    "militarySpendingTotal": 3000,
+    "majorDecisions": ["MOAB bomb in Afghanistan (2017)", "Syria missile strikes (2017, 2018)", "Assassinated Iranian Gen. Soleimani (2020)", "Afghanistan withdrawal deal with Taliban", "Withdrew from Iran nuclear deal", "Increased drone strikes, reduced transparency", "Vetoed Yemen War Powers Resolution"],
+    "casualties": { "military": 104, "wounded": 300 },
+    "quotes": [
+      "Great nations do not fight endless wars.",
+      "We spent $8 trillion on wars in the Middle East and we got nothing."
     ],
-    "totalCost": 110941666666,
-    "totalUSDeaths": 55
+    "warCostRank": 15
+  },
+  {
+    "name": "Biden",
+    "fullName": "Joe Biden",
+    "number": 46,
+    "party": "Democrat",
+    "years": "2021–2025",
+    "conflicts": ["Afghanistan withdrawal", "Ukraine proxy war", "Red Sea/Houthi strikes", "Iraq/Syria strikes"],
+    "totalCost": 350000000000,
+    "totalUSDeaths": 16,
+    "warCostAdjusted2024": 350000000000,
+    "militarySpendingTotal": 3400,
+    "majorDecisions": ["Afghanistan withdrawal (chaotic, 13 Marines killed at Abbey Gate)", "Ukraine military aid ($66.9 billion+)", "Red Sea/Houthi strikes", "Strikes on Iranian proxies in Iraq/Syria", "AUKUS submarine deal"],
+    "casualties": { "military": 16, "wounded": 50 },
+    "quotes": [
+      "We will support Ukraine for as long as it takes.",
+      "America is back."
+    ],
+    "warCostRank": 17
   }
 ]

@@ -57,12 +57,12 @@ const figures = [
   },
   {
     name: 'Alexander Hamilton',
-    years: '1757–1804',
+    years: '1755 or 1757–1804',
     role: 'Washington\'s Chief of Staff, Artillery Commander',
     quote: 'There is a certain enthusiasm in liberty, that makes human nature rise above itself, in acts of bravery and heroism.',
-    warContribution: 'An immigrant orphan from the Caribbean who became Washington\'s most trusted aide at 20. Managed the army\'s correspondence and logistics — essentially functioning as chief of staff. Frustrated by desk work, he begged for a field command and led the decisive bayonet assault on Redoubt No. 10 at Yorktown — the charge that broke British defenses.',
+    warContribution: 'An immigrant orphan from the Caribbean who became Washington\'s most trusted aide in his early twenties. Managed the army\'s correspondence and logistics — essentially functioning as chief of staff. Frustrated by desk work, he begged for a field command and led the decisive bayonet assault on Redoubt No. 10 at Yorktown — the charge that broke British defenses.',
     sacrifice: 'Left King\'s College to join the army at 19. Fought through the entire war. Nearly court-martialed for leaving his post briefly (he and Washington had a famous falling-out).',
-    postWar: 'First Secretary of the Treasury. In 5 years, he created the national bank, assumed state war debts ($25M), established the mint, and made American credit internationally viable. Killed in a duel with Aaron Burr in 1804.',
+    postWar: 'First Secretary of the Treasury. In 5 years, he created the national bank, assumed state war debts ($25M), established the mint, and made American credit internationally viable. Killed in a duel with Aaron Burr on July 12, 1804, at age 47 or 49 (his birth year is disputed).',
     legacy: 'The financial architect of the republic. Without Hamilton\'s economic genius, the nation that won independence might have collapsed under its war debts — as many predicted it would.',
   },
   {
