@@ -67,6 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/war-and-debt',
     '/analysis/forgotten-casualties',
     '/analysis/the-draft-debate',
+    '/analysis/presidents-war-record',
     '/american-revolutionary-war',
     '/american-revolutionary-war/battles',
     '/american-revolutionary-war/founding-fathers',

@@ -7,7 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 interface WarVote {
-  name: string; slug: string; year: number; conflict: string; type: string
+  name: string; slug: string; year: number; date?: string; conflict: string; type: string
   houseVote: string; senateVote: string; result: string; notes?: string
   consequences?: string; context?: string; keyFigures?: string[]
 }
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!vote) return { title: 'Not Found' }
   return {
     title: `${vote.name} (${vote.year}) — Congressional War Vote`,
-    description: `${vote.name}: House ${vote.houseVote}, Senate ${vote.senateVote}. ${vote.notes || ''}`,
+    description: `${vote.name}: House ${vote.houseVote}, Senate ${vote.senateVote}. ${vote.date ? `Date: ${vote.date}. ` : ''}${vote.notes?.substring(0, 150) || ''}`,
   }
 }
 
@@ -51,18 +51,28 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'War Votes', href: '/war-votes' }, { label: vote.name }]} />
 
-      <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
+      {/* Hero */}
+      <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <div className="flex items-center gap-3 mb-3">
-          <span className="text-red-700 font-bold text-lg font-[family-name:var(--font-heading)]">{vote.year}</span>
+          <span className="text-red-500 font-bold text-lg font-[family-name:var(--font-heading)]">{vote.year}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
-            vote.type === 'declaration' ? 'bg-red-100 text-red-700' : 'bg-stone-100 text-stone-700'
+            vote.type === 'declaration' ? 'bg-red-600/20 text-red-400' :
+            vote.type === 'authorization' ? 'bg-orange-600/20 text-orange-400' :
+            vote.type === 'repeal' ? 'bg-green-600/20 text-green-400' :
+            'bg-stone-600/20 text-stone-400'
           }`}>{vote.type}</span>
           <span className={`text-xs px-2 py-0.5 rounded-full ${
-            vote.result === 'Passed' ? 'bg-green-900 text-green-300' : 'bg-red-900 text-red-300'
+            vote.result === 'Passed' ? 'bg-green-900 text-green-300' :
+            vote.result === 'Signed into law' ? 'bg-green-900 text-green-300' :
+            vote.result.includes('Vetoed') ? 'bg-red-900 text-red-300' :
+            'bg-stone-700 text-stone-300'
           }`}>{vote.result}</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-2xl md:text-4xl font-bold">{vote.name}</h1>
-        <p className="text-stone-400 mt-2">Conflict: {vote.conflict}</p>
+        <div className="flex flex-wrap gap-4 mt-3 text-stone-400">
+          {vote.date && <span>📅 {vote.date}</span>}
+          <span>⚔️ {vote.conflict}</span>
+        </div>
       </div>
 
       <ShareButtons title={vote.name} />
@@ -131,10 +141,10 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {vote.keyFigures && vote.keyFigures.length > 0 && (
         <div className="bg-white border border-stone-200 rounded-lg p-6 mb-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-stone-900 mb-3">👤 Key Figures</h2>
-          <ul className="space-y-1">
+          <ul className="space-y-2">
             {vote.keyFigures.map((f, i) => (
               <li key={i} className="flex items-start gap-2">
-                <span className="text-red-700">▸</span>
+                <span className="text-red-700 mt-0.5">▸</span>
                 <span className="text-stone-600">{f}</span>
               </li>
             ))}
@@ -145,15 +155,15 @@ export default async function WarVoteDetailPage({ params }: { params: Promise<{ 
       {/* Navigation */}
       <div className="flex justify-between mt-8 mb-8">
         {prev ? (
-          <Link href={`/war-votes/${prev.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition">
+          <Link href={`/war-votes/${prev.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition max-w-[45%]">
             <p className="text-xs text-stone-400">← Previous</p>
-            <p className="font-semibold text-stone-900 text-sm">{prev.year}: {prev.name.substring(0, 40)}...</p>
+            <p className="font-semibold text-stone-900 text-sm">{prev.year}: {prev.name}</p>
           </Link>
         ) : <div />}
         {next ? (
-          <Link href={`/war-votes/${next.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition text-right">
+          <Link href={`/war-votes/${next.slug}`} className="bg-white border border-stone-200 rounded-lg px-4 py-3 hover:bg-stone-100 transition text-right max-w-[45%]">
             <p className="text-xs text-stone-400">Next →</p>
-            <p className="font-semibold text-stone-900 text-sm">{next.year}: {next.name.substring(0, 40)}...</p>
+            <p className="font-semibold text-stone-900 text-sm">{next.year}: {next.name}</p>
           </Link>
         ) : <div />}
       </div>
