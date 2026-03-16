@@ -18,7 +18,7 @@ export function YearlySpending({ data }: { data: { year: number; amount: number 
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `$${v}B`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`$${v}B`, 'WWII Spending (2023 $)']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}B`, 'WWII Spending (2023 $)']} />
         <Bar dataKey="amount" fill="#991b1b" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
@@ -32,7 +32,7 @@ export function TroopLevels({ data }: { data: { year: number; troops: number }[]
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `${(v / 1000000).toFixed(1)}M`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [(v / 1000000).toFixed(2) + 'M', 'Active Military']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [(v / 1000000).toFixed(2) + 'M', 'Active Military']} />
         <Area type="monotone" dataKey="troops" stroke="#991b1b" fill="#991b1b" fillOpacity={0.2} />
       </AreaChart>
     </ResponsiveContainer>
@@ -46,7 +46,7 @@ export function CasualtiesByTheater({ data }: { data: { theater: string; deaths:
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis type="number" tickFormatter={(v) => `${v}K`} tick={AXIS_TICK} />
         <YAxis type="category" dataKey="theater" tick={AXIS_TICK} width={100} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`${v}K deaths`, '']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`${v}K deaths`, '']} />
         <Bar dataKey="deaths" fill="#991b1b" radius={[0, 4, 4, 0]} />
       </BarChart>
     </ResponsiveContainer>

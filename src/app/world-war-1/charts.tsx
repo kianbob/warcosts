@@ -18,7 +18,7 @@ export function CasualtiesByNation({ data }: { data: { nation: string; military:
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis type="number" tickFormatter={(v) => `${v}K`} tick={AXIS_TICK} />
         <YAxis type="category" dataKey="nation" tick={AXIS_TICK} width={80} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`${v}K`, '']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`${v}K`, '']} />
         <Bar dataKey="military" fill="#991b1b" name="Military Deaths (K)" stackId="a" />
         <Bar dataKey="civilian" fill="#57534e" name="Civilian Deaths (K)" stackId="a" />
       </BarChart>
@@ -33,7 +33,7 @@ export function USMonthlyCasualties({ data }: { data: { month: string; casualtie
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="month" tick={AXIS_TICK} />
         <YAxis tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [v.toLocaleString(), 'US Deaths']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [v.toLocaleString(), 'US Deaths']} />
         <Bar dataKey="casualties" fill="#991b1b" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>

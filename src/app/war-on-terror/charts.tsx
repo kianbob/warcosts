@@ -18,7 +18,7 @@ export function CumulativeCost({ data }: { data: { year: number; cumulative: num
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `$${v}T`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`$${v}T`, 'Cumulative Cost']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}T`, 'Cumulative Cost']} />
         <Area type="monotone" dataKey="cumulative" stroke="#991b1b" fill="#991b1b" fillOpacity={0.2} />
       </AreaChart>
     </ResponsiveContainer>
@@ -32,7 +32,7 @@ export function CostByConflict({ data }: { data: { conflict: string; cost: numbe
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis type="number" tickFormatter={(v) => `$${v}T`} tick={AXIS_TICK} />
         <YAxis type="category" dataKey="conflict" tick={AXIS_TICK} width={120} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`$${v}T`, 'Total Cost']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}T`, 'Total Cost']} />
         <Bar dataKey="cost" fill="#991b1b" radius={[0, 4, 4, 0]} />
       </BarChart>
     </ResponsiveContainer>
@@ -46,7 +46,7 @@ export function AnnualSpending({ data }: { data: { year: number; afghanistan: nu
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `$${v}B`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`$${v}B`, '']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}B`, '']} />
         <Legend />
         <Bar dataKey="afghanistan" fill="#991b1b" name="Afghanistan" stackId="a" />
         <Bar dataKey="iraq" fill="#dc2626" name="Iraq" stackId="a" />

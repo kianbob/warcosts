@@ -18,7 +18,7 @@ export function YearlySpending({ data }: { data: { year: number; amount: number 
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `$${v}B`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`$${v}B`, 'Korea Spending']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}B`, 'Korea Spending']} />
         <Bar dataKey="amount" fill="#991b1b" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
@@ -47,7 +47,7 @@ export function TroopLevels({ data }: { data: { year: number; troops: number }[]
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis dataKey="year" tick={AXIS_TICK} />
         <YAxis tickFormatter={(v) => `${(v / 1000).toFixed(0)}K`} tick={AXIS_TICK} width={65} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [v.toLocaleString(), 'US Troops']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [v.toLocaleString(), 'US Troops']} />
         <Area type="monotone" dataKey="troops" stroke="#991b1b" fill="#991b1b" fillOpacity={0.2} />
       </AreaChart>
     </ResponsiveContainer>

@@ -20,7 +20,7 @@ export function CostByCountry({ data }: { data: { country: string; amount: numbe
         <CartesianGrid strokeDasharray="3 3" stroke="#e7e5e4" />
         <XAxis type="number" tickFormatter={(v) => `$${v}B`} tick={AXIS_TICK} />
         <YAxis type="category" dataKey="country" tick={AXIS_TICK} width={100} />
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number | undefined) => [`$${v}B`, 'Contribution']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`$${v}B`, 'Contribution']} />
         <Bar dataKey="amount" fill="#991b1b" radius={[0, 4, 4, 0]} />
       </BarChart>
     </ResponsiveContainer>
@@ -36,7 +36,7 @@ export function ForceComposition({ data }: { data: { name: string; value: number
             <Cell key={i} fill={COLORS[i % COLORS.length]} />
           ))}
         </Pie>
-        <Tooltip contentStyle={tooltipStyle} formatter={(v: number | undefined) => [`${v}K troops`, '']} />
+        <Tooltip contentStyle={tooltipStyle} formatter={(v: any) => [`${v}K troops`, '']} />
       </PieChart>
     </ResponsiveContainer>
   )
