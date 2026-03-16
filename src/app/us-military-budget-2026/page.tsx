@@ -227,6 +227,16 @@ export default function MilitaryBudget2026Page() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-3xl font-[family-name:var(--font-heading)] text-white mb-6">Related Analysis</h2>
+          <div className="flex flex-col gap-3 bg-stone-800 rounded-lg p-6 border border-stone-700">
+            <Link href="/analysis/military-industrial-complex" className="text-[#dc2626] hover:underline">→ The Military-Industrial Complex</Link>
+            <Link href="/analysis/pentagon-waste" className="text-[#dc2626] hover:underline">→ Pentagon Waste</Link>
+            <Link href="/analysis/what-could-we-buy" className="text-[#dc2626] hover:underline">→ What Could We Buy Instead?</Link>
+            <Link href="/analysis/jobs-vs-war" className="text-[#dc2626] hover:underline">→ Jobs vs War Spending</Link>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-3xl font-[family-name:var(--font-heading)] text-white mb-6">Sources</h2>
           <div className="bg-stone-800 rounded-lg p-6 border border-stone-700">
             <ul className="text-gray-300 space-y-2">

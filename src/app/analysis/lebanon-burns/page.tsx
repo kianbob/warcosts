@@ -325,6 +325,96 @@ export default function LebanonBurnsPage() {
         </div>
       </div>
 
+      {/* The Refugee Crisis */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Refugee Crisis</h2>
+        <div className="space-y-4 text-stone-700">
+          <p>
+            Over <strong>2 million Lebanese</strong> — nearly half the population — have been displaced by the
+            conflict. The 2006 war displaced 1 million; this time, the destruction is worse. Southern Lebanon,
+            home to roughly 600,000 people before the invasion, has been largely depopulated. Entire towns have
+            been flattened. The Bekaa Valley, hit by strikes targeting alleged Hezbollah supply routes, has seen
+            200,000 flee northward.
+          </p>
+          <p>
+            Lebanon was already hosting over 1.5 million Syrian refugees from the decade-long civil war next door.
+            The country&apos;s infrastructure — water, electricity, hospitals, schools — was already strained to
+            breaking. The new displacement wave has overwhelmed Beirut, Tripoli, and the remaining functional areas
+            of the country. UNHCR estimates that 800,000 people are sleeping in schools, mosques, parks, and on the
+            streets.
+          </p>
+          <p>
+            The humanitarian response has been catastrophically underfunded. The UN flash appeal for Lebanon requested
+            $1.1 billion; as of early 2026, only 28% had been pledged. Meanwhile, the US has provided $21.7 billion
+            in military aid to Israel — the force causing the displacement — and approximately $180 million in
+            humanitarian aid to Lebanon. The ratio speaks for itself: <strong>$120 in weapons for every $1 in aid</strong>.
+          </p>
+          <p>
+            Jordan and Cyprus have closed their borders to Lebanese refugees. Turkey is overwhelmed. European nations
+            have offered token resettlement numbers. The people of Lebanon are trapped in a country being systematically
+            destroyed with American weapons, and the world that armed the destroyers will not shelter the destroyed.
+          </p>
+        </div>
+      </div>
+
+      {/* Economic Devastation */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Economic Devastation</h2>
+        <div className="space-y-4 text-stone-700">
+          <p>
+            Lebanon was already in economic freefall before the war. The 2019 financial collapse wiped out 80% of
+            the currency&apos;s value and froze bank deposits. GDP fell from $55 billion in 2018 to $20 billion in
+            2023. The war has now destroyed an estimated $14 billion in infrastructure — roughly 70% of the
+            country&apos;s remaining GDP.
+          </p>
+          <p>
+            The port of Beirut, still only partially rebuilt after the catastrophic 2020 explosion, has been damaged
+            again by strikes on alleged weapons shipments. The airport has been closed intermittently. Tourism —
+            which had shown faint signs of recovery — is gone entirely. Agriculture in the south has been abandoned
+            as farmers flee. The banking system, already frozen, has effectively ceased to function.
+          </p>
+          <p>
+            The World Bank estimates reconstruction costs at $14 billion minimum — nearly equal to Lebanon&apos;s
+            entire GDP. After the 2006 war, reconstruction took over a decade and was largely funded by Gulf states
+            and Iran. This time, Gulf states are less willing to invest, Iran is under attack itself, and the Western
+            nations providing the weapons have offered minimal reconstruction aid.
+          </p>
+          <p>
+            The economic model is familiar from Iraq, Afghanistan, Libya, and Syria: American weapons destroy the
+            infrastructure, American allies provide minimal reconstruction aid, and the country remains a failed
+            state for decades. The instability breeds the very extremism that was cited to justify the intervention
+            in the first place. It is a self-perpetuating cycle — and a profitable one for the defense industry.
+          </p>
+        </div>
+      </div>
+
+      {/* Media & Information War */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Media Blackout</h2>
+        <div className="space-y-4 text-stone-700">
+          <p>
+            As of March 2026, at least <strong>47 journalists</strong> have been killed covering the Lebanon conflict —
+            making it one of the deadliest wars for press in modern history. The Committee to Protect Journalists has
+            documented cases where journalists were killed while clearly identified as press, wearing helmets and vests
+            marked &ldquo;PRESS,&rdquo; and operating in areas well-known to military forces.
+          </p>
+          <p>
+            International media access to southern Lebanon has been severely restricted. Journalists attempting to
+            enter the combat zone have been turned back at military checkpoints or had their equipment confiscated.
+            The few who have reached the front lines describe devastation comparable to Gaza: entire neighborhoods
+            reduced to rubble, bodies unrecovered in collapsed buildings, hospitals operating without electricity
+            or supplies.
+          </p>
+          <p>
+            In the United States, coverage has been minimal and heavily sanitized. Network news devotes an average
+            of 90 seconds per day to the Lebanon conflict — less than weather forecasts. The framing consistently
+            emphasizes &ldquo;Israel&apos;s right to self-defense&rdquo; while minimizing civilian casualties.
+            The $21.7 billion in US military aid is rarely mentioned. The American public is paying for a war it
+            knows almost nothing about.
+          </p>
+        </div>
+      </div>
+
       {/* Sources */}
       <div className="bg-stone-50 rounded-xl border p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-3">Sources</h2>

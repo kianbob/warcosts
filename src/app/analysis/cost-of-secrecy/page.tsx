@@ -364,6 +364,92 @@ export default function CostOfSecrecyPage() {
           <footer>— President John F. Kennedy, April 27, 1961</footer>
         </blockquote>
 
+        <h2 className="font-[family-name:var(--font-heading)]">Congress: The Oversight That Isn&apos;t</h2>
+        <p>
+          In theory, Congress provides oversight of classified programs through the intelligence committees and the
+          appropriations subcommittees for defense and intelligence. In practice, this oversight is a fiction.
+        </p>
+        <p>
+          The Gang of Eight — the eight congressional leaders briefed on the most sensitive covert operations — often
+          receives only oral briefings with no written records. Members cannot take notes. They cannot consult staff.
+          They cannot discuss what they&apos;ve been told with other members. If they have concerns, they can write a
+          classified letter to the executive branch — a letter that will be classified and can never be referenced
+          publicly.
+        </p>
+        <p>
+          Special Access Programs (SAPs) further limit oversight. &ldquo;Waived SAPs&rdquo; bypass even the Gang of
+          Eight notification requirement. The Secretary of Defense can create programs so secret that only a handful of
+          people in the entire government know they exist. The budget for these programs is buried in classified
+          annexes to the defense appropriations bill — annexes that most members of Congress never see.
+        </p>
+        <p>
+          The result is a system where hundreds of billions of dollars are spent annually on programs that most elected
+          officials know nothing about, by agencies that have repeatedly been caught lying to their overseers, under
+          rules that make it illegal for anyone to tell the public what&apos;s happening.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Contractor Profits in the Shadows</h2>
+        <p>
+          The black budget doesn&apos;t just fund government agencies — it enriches private contractors who operate
+          in the shadows. Companies like Booz Allen Hamilton (where Snowden worked), Leidos, SAIC, Palantir, and
+          dozens of smaller firms derive significant revenue from classified contracts. These contracts are often
+          sole-source (no competitive bidding), cost-plus (guaranteed profit margins), and classified (no public
+          accountability for cost overruns).
+        </p>
+        <p>
+          An estimated <strong>70% of the intelligence budget</strong> goes to private contractors. This means
+          roughly $63 billion per year flows to private companies for intelligence work — more than the GDP of most
+          countries. These companies employ former intelligence officials who leverage their clearances and connections
+          to win contracts, creating a revolving door between government and industry that operates entirely in the dark.
+        </p>
+        <p>
+          The classified nature of these contracts makes oversight nearly impossible. When a contractor overcharges
+          on a classified program, the GAO cannot audit it publicly. When a program fails, the failure is classified.
+          When taxpayer money is wasted, the waste is secret. The classification system doesn&apos;t just protect
+          national security — it protects profit margins.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">International Comparisons</h2>
+        <p>
+          The US classification system is uniquely opaque among Western democracies. The United Kingdom has an
+          Official Secrets Act but also a more aggressive declassification regime and a tradition of public inquiries
+          (like the Chilcot Inquiry into the Iraq War) that force government accountability. Canada, Australia, and
+          the EU nations all have freedom of information laws that, while imperfect, provide more genuine transparency
+          than the US system.
+        </p>
+        <p>
+          Even Israel — a country with genuine existential security threats — maintains a more functional system of
+          military censorship paired with aggressive investigative journalism. The Israeli press routinely reports
+          on classified operations (citing &ldquo;foreign sources&rdquo;) in ways that would result in prosecution
+          in the United States.
+        </p>
+        <p>
+          The irony is stark: the country that lectures the world about transparency and democracy has the most
+          opaque national security apparatus of any democracy. The Pentagon spends more on classification than many
+          countries spend on their entire military. The cost of keeping secrets has become a secret in itself.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Declassification: A Broken Promise</h2>
+        <p>
+          Every president since Clinton has issued executive orders promising to reform classification and accelerate
+          declassification. Every president has failed. The National Declassification Center, created in 2009, has a
+          backlog of over 300 million pages. At current rates, it would take decades to process the backlog — by which
+          time hundreds of millions of new pages will have been classified.
+        </p>
+        <p>
+          The incentive structure is broken. Officials face criminal penalties for unauthorized disclosure but no
+          penalties whatsoever for over-classification. A bureaucrat who stamps &ldquo;TOP SECRET&rdquo; on a lunch
+          menu faces no consequences. A bureaucrat who fails to classify a genuinely sensitive document faces career
+          destruction. The rational response is to classify everything — which is exactly what happens.
+        </p>
+        <p>
+          Automatic declassification rules exist on paper but are routinely waived. Agencies can exempt documents
+          from automatic declassification by citing broad categories of harm. The CIA, in particular, has been
+          accused of using classification to hide historical embarrassments — from its role in the 1953 Iranian coup
+          to its involvement in Latin American dictatorships — long after any legitimate security justification
+          has expired.
+        </p>
+
         <h2 className="font-[family-name:var(--font-heading)]">The Bottom Line</h2>
         <p>
           The United States government spends $886 billion per year on defense and cannot tell the public where the
@@ -383,6 +469,56 @@ export default function CostOfSecrecyPage() {
           accountable, classified so the public will never know.
         </p>
 
+        <h2 className="font-[family-name:var(--font-heading)]">What Reform Would Look Like</h2>
+        <p>
+          Meaningful reform of the secrecy system would require several fundamental changes that the national security
+          establishment will fiercely resist:
+        </p>
+        <ul>
+          <li><strong>Mandatory audit passage:</strong> No agency that fails a financial audit should receive increased
+          funding. This single rule would have cut Pentagon budgets six years running — creating an actual incentive
+          to achieve financial transparency.</li>
+          <li><strong>Penalties for over-classification:</strong> Officials who classify documents to conceal waste,
+          fraud, or illegality should face the same criminal penalties as those who leak classified information.
+          Currently, the system punishes transparency and rewards concealment.</li>
+          <li><strong>Automatic declassification with teeth:</strong> Documents should be declassified after 10 years
+          unless the classifying agency can demonstrate ongoing specific harm — not just assert it. An independent
+          declassification authority (not housed within the intelligence community) should adjudicate disputes.</li>
+          <li><strong>Black budget transparency:</strong> While specific operations must remain classified, aggregate
+          spending by program category should be public. American taxpayers have a right to know how much is being
+          spent on surveillance versus counterterrorism versus offensive cyber operations — even without knowing
+          operational details.</li>
+          <li><strong>Whistleblower protection that works:</strong> A secure, independent channel for reporting
+          classified waste and abuse — staffed by cleared investigators who are genuinely independent of the
+          agencies they oversee. The current inspector general system has been thoroughly co-opted.</li>
+          <li><strong>Congressional access to all programs:</strong> End the practice of &ldquo;waived SAPs&rdquo;
+          that bypass even the Gang of Eight. Every program funded by taxpayer money should be known to at least the
+          full intelligence committees, with classified briefings and written records.</li>
+        </ul>
+        <p>
+          None of these reforms are radical. Most exist in other democracies. All have been proposed and rejected
+          multiple times by Congress — a Congress that receives significant campaign contributions from defense
+          contractors and intelligence firms that profit from the current system.
+        </p>
+        <p>
+          The secrecy machine is not broken. It is working exactly as intended — not to protect the American people
+          from foreign threats, but to protect the national security establishment from the American people.
+        </p>
+
+        <h2 className="font-[family-name:var(--font-heading)]">Sources</h2>
+        <ul>
+          <li>Government Accountability Office — DoD Financial Audit Reports (2018–2023)</li>
+          <li>Reuters — &ldquo;Special Report: The Pentagon&apos;s doctored ledgers conceal epic waste&rdquo; (2013)</li>
+          <li>Mark Skidmore, Michigan State University — Analysis of DoD IG unsupported adjustments</li>
+          <li>Edward Snowden / The Guardian — Black budget documents (2013)</li>
+          <li>Senate Select Committee on Intelligence — Committee Study of the CIA&apos;s Detention and Interrogation Program (2014)</li>
+          <li>Information Security Oversight Office (ISOO) — Annual Reports on Classification Activity</li>
+          <li>Commission on Protecting and Reducing Government Secrecy (Moynihan Commission, 1997)</li>
+          <li>Federation of American Scientists — Secrecy News</li>
+          <li>ACLU — Documents obtained through FOIA litigation</li>
+          <li>Congressional Research Service — Intelligence Community Budget disclosures</li>
+        </ul>
+
         <h2 className="font-[family-name:var(--font-heading)]">Related Analysis</h2>
         <ul>
           <li><Link href="/analysis/surveillance-state">The Surveillance State</Link></li>
@@ -390,6 +526,8 @@ export default function CostOfSecrecyPage() {
           <li><Link href="/analysis/military-industrial-complex">The Military-Industrial Complex</Link></li>
           <li><Link href="/analysis/war-economy">The War Economy</Link></li>
           <li><Link href="/analysis/congressional-authority">19 Wars Without Congress</Link></li>
+          <li><Link href="/analysis/pentagon-waste">Pentagon Waste</Link></li>
+          <li><Link href="/pentagon-audit">Pentagon Audit Tracker</Link></li>
         </ul>
       </div>
 

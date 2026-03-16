@@ -478,21 +478,106 @@ export default function WhatVictoryLooksLikePage() {
         </p>
       </div>
 
+      {/* The Only War That Worked */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">
+          The Exception That Proves the Rule: Why WWII Worked and Nothing Since Has
+        </h2>
+        <p className="text-stone-700 text-lg mb-4">
+          Defenders of American military power invariably point to World War II — the &ldquo;good war&rdquo; —
+          as proof that wars can achieve their objectives. They&apos;re right: WWII defeated fascism,
+          rebuilt Europe and Japan, and established the international order that lasted 70 years. But
+          every condition that made WWII successful has been absent from every war since:
+        </p>
+        <div className="space-y-3 mb-6">
+          {[
+            { condition: 'Clear, existential threat', wwii: 'Nazi Germany and Imperial Japan — actual territorial aggression, actual genocide, actual threat to global order', since: 'Iraq had no WMDs. Afghanistan posed no existential threat. Libya was contained. Vietnam was a civil war.' },
+            { condition: 'Defined, measurable victory conditions', wwii: 'Unconditional surrender of enemy governments. No ambiguity about what "winning" meant.', since: 'What does "winning" the War on Terror mean? Terrorism is a tactic, not an enemy. You can\'t make a tactic surrender.' },
+            { condition: 'National mobilization and shared sacrifice', wwii: '16 million Americans served. War bonds. Rationing. A draft that included every social class.', since: 'Less than 1% serve. No draft. No war tax. No rationing. 99% of Americans experience war as news.' },
+            { condition: 'International legitimacy and broad coalitions', wwii: 'Global alliance against a clear aggressor. Near-universal agreement on who the enemy was.', since: 'Iraq: opposed by France, Germany, most of the UN. "Coalition of the willing" was largely the US and UK.' },
+            { condition: 'Competent post-war planning', wwii: 'Marshall Plan. Occupation with clear governance plans. De-Nazification coupled with reconstruction.', since: 'Iraq: "We\'ll be greeted as liberators." No post-invasion plan. De-Baathification created the insurgency.' },
+            { condition: 'Political accountability', wwii: 'FDR asked Congress for a declaration of war. Voted 82-0 (Senate), 388-1 (House).', since: 'Iraq: no declaration of war. Afghanistan: AUMF passed in 24 hours, used to justify operations in 22 countries.' },
+          ].map((item, i) => (
+            <div key={i} className="bg-stone-100 rounded-lg p-4">
+              <h3 className="font-bold text-stone-900 mb-2 text-sm">{item.condition}</h3>
+              <div className="grid md:grid-cols-2 gap-3 text-sm">
+                <div>
+                  <p className="text-stone-500 text-xs uppercase font-semibold mb-1">WWII</p>
+                  <p className="text-stone-700">{item.wwii}</p>
+                </div>
+                <div>
+                  <p className="text-stone-500 text-xs uppercase font-semibold mb-1">Post-WWII Wars</p>
+                  <p className="text-stone-700">{item.since}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 text-lg">
+          WWII wasn&apos;t successful because American military power is inherently effective. It was
+          successful because every political, social, and strategic condition for success was present.
+          Since then, the US has launched wars without those conditions — and is somehow surprised when
+          the results are catastrophic. The lesson of WWII isn&apos;t &ldquo;wars work.&rdquo; The lesson
+          is &ldquo;wars work only under extremely specific conditions that have not existed since 1945.&rdquo;
+        </p>
+      </section>
+
       {/* Sources */}
       <section className="my-12">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Sources</h2>
         <ul className="space-y-2 text-stone-600 text-sm">
           <li>• Brown University Costs of War Project — all post-9/11 war cost and casualty estimates</li>
-          <li>• Special Inspector General for Iraq Reconstruction (SIGIR), Final Report</li>
+          <li>• Special Inspector General for Iraq Reconstruction (SIGIR), Final Report (2013)</li>
           <li>• Special Inspector General for Afghanistan Reconstruction (SIGAR), &ldquo;What We Need to Learn&rdquo; (2021)</li>
-          <li>• Congressional Research Service, war cost and troop level reports</li>
-          <li>• Iraq Survey Group (Duelfer Report) on WMDs</li>
-          <li>• UN Panel of Experts on Libya</li>
-          <li>• The Economist Democracy Index (Iraq ranking)</li>
-          <li>• UNHCR Global Displacement Reports</li>
-          <li>• Bacevich, Andrew. &ldquo;The Age of Illusions: How America Squandered Its Cold War Victory&rdquo;</li>
-          <li>• Whitlock, Craig. &ldquo;The Afghanistan Papers&rdquo; (Washington Post investigation)</li>
+          <li>• Congressional Research Service (CRS) — war cost, troop level, and authorization reports</li>
+          <li>• Iraq Survey Group (Duelfer Report) on WMDs — confirmed no stockpiles existed</li>
+          <li>• UN Panel of Experts on Libya (annual reports, 2012–present)</li>
+          <li>• The Economist Democracy Index — Iraq ranking (157th of 167, 2024)</li>
+          <li>• UNHCR Global Displacement Reports — 38 million displaced by War on Terror</li>
+          <li>• Bacevich, Andrew. &ldquo;The Age of Illusions: How America Squandered Its Cold War Victory&rdquo; (2020)</li>
+          <li>• Whitlock, Craig. &ldquo;The Afghanistan Papers: A Secret History of the War&rdquo; (2021)</li>
+          <li>• Ricks, Thomas. &ldquo;Fiasco: The American Military Adventure in Iraq&rdquo; (2006)</li>
+          <li>• Chandrasekaran, Rajiv. &ldquo;Imperial Life in the Emerald City&rdquo; (2006)</li>
+          <li>• The Lancet — Iraq mortality studies (2004, 2006) — 500,000+ excess deaths</li>
+          <li>• CNN investigation — Libyan slave markets (2017)</li>
+          <li>• Department of Defense — Defense Casualty Analysis System (DCAS)</li>
+          <li>• National Security Archive, George Washington University — declassified war documents</li>
+          <li>• Government Accountability Office (GAO) — Iraq and Afghanistan reconstruction audits</li>
+          <li>• Stiglitz, Joseph and Linda Bilmes. &ldquo;The Three Trillion Dollar War&rdquo; (2008)</li>
+          <li>• Senate Foreign Relations Committee — Kerry testimony (1971)</li>
+          <li>• Halberstam, David. &ldquo;The Best and the Brightest&rdquo; (1972) — Vietnam decision-making</li>
+          <li>• Congressional Budget Office (CBO) — long-term war cost projections</li>
         </ul>
+      </section>
+
+      {/* The Libertarian Case */}
+      <section className="my-12">
+        <div className="bg-amber-50 border border-amber-200 rounded-lg p-6">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-amber-900">
+            The Non-Interventionist Conclusion
+          </h2>
+          <p className="text-stone-700 mb-4">
+            The evidence is overwhelming and consistent across seven decades: the United States cannot
+            achieve political objectives through military force in foreign countries. Not because the
+            military is incompetent — it is the most capable fighting force in history — but because
+            military force cannot solve political problems. It can destroy governments but cannot build
+            them. It can kill enemies but creates more in the process. It can occupy territory but cannot
+            hold it indefinitely.
+          </p>
+          <p className="text-stone-700 mb-4">
+            The non-interventionist position is not pacifism. It is empiricism. It is the recognition
+            that the evidence from Korea, Vietnam, Iraq, Afghanistan, and Libya all points in the same
+            direction: intervention fails. The definition of insanity — doing the same thing repeatedly
+            and expecting different results — is the official foreign policy of the United States.
+          </p>
+          <p className="text-stone-700">
+            The $8 trillion spent on the War on Terror could have rebuilt every bridge, school, and
+            hospital in America. It could have eliminated student debt twice over. It could have funded
+            universal healthcare for a decade. Instead, it bought two decades of failure, hundreds of
+            thousands of deaths, and a world that is less stable, less free, and less safe than it was
+            on September 10, 2001.
+          </p>
+        </div>
       </section>
 
       {/* Related */}
@@ -510,6 +595,12 @@ export default function WhatVictoryLooksLikePage() {
           </Link>
           <Link href="/analysis/veterans-betrayed" className="text-red-800 hover:text-red-600 font-medium">
             → Veterans Betrayed
+          </Link>
+          <Link href="/analysis/cost-of-empire" className="text-red-800 hover:text-red-600 font-medium">
+            → The Cost of Empire
+          </Link>
+          <Link href="/analysis/what-could-we-buy" className="text-red-800 hover:text-red-600 font-medium">
+            → What Could We Buy Instead?
           </Link>
         </div>
       </div>

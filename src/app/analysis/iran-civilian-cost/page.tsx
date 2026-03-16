@@ -325,6 +325,110 @@ export default function IranCivilianCostPage() {
         </div>
       </div>
 
+      {/* Historical Precedent */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Historical Precedent: When America Bombed Civilians Before</h2>
+      <div className="space-y-4 mb-8 text-stone-700">
+        <p>
+          The Minab school strike is not an isolated incident. It fits a pattern stretching back decades. In every
+          American air campaign, civilian infrastructure is destroyed and the Pentagon insists the targets were
+          legitimate military objectives. The pattern repeats because there is never accountability.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="bg-white border rounded-lg p-4">
+            <h3 className="font-bold text-sm mb-1">Al-Amiriyah Shelter, Iraq (1991)</h3>
+            <p className="text-xs text-stone-600">
+              Two laser-guided bombs struck a civilian air raid shelter in Baghdad, killing 408 civilians — mostly
+              women and children. The Pentagon claimed it was a military command center. Iraqi records and subsequent
+              investigations found it was a known civilian shelter. No investigation was conducted.
+            </p>
+          </div>
+          <div className="bg-white border rounded-lg p-4">
+            <h3 className="font-bold text-sm mb-1">Kunduz Hospital, Afghanistan (2015)</h3>
+            <p className="text-xs text-stone-600">
+              A US AC-130 gunship attacked a Médecins Sans Frontières hospital for over an hour, killing 42 patients
+              and staff. MSF had provided GPS coordinates to all parties. The Pentagon called it a &ldquo;mistake.&rdquo;
+              No criminal charges were filed. The commanding general received a letter of reprimand.
+            </p>
+          </div>
+          <div className="bg-white border rounded-lg p-4">
+            <h3 className="font-bold text-sm mb-1">Mosul Airstrike, Iraq (2017)</h3>
+            <p className="text-xs text-stone-600">
+              US airstrikes on a building in West Mosul killed over 200 civilians. The Pentagon initially denied the
+              strike, then admitted it but blamed ISIS for placing civilians in the building. Investigation found the
+              US had inadequate intelligence and approval processes. No accountability.
+            </p>
+          </div>
+          <div className="bg-white border rounded-lg p-4">
+            <h3 className="font-bold text-sm mb-1">Kabul Drone Strike, Afghanistan (2021)</h3>
+            <p className="text-xs text-stone-600">
+              In the final days of the Afghanistan withdrawal, a US drone strike killed 10 civilians including 7
+              children. The Pentagon initially called it a &ldquo;righteous strike&rdquo; against ISIS-K. Investigation
+              found the target was an aid worker carrying water jugs, not explosives. No one was disciplined.
+            </p>
+          </div>
+        </div>
+        <p>
+          In each case, the same cycle: strike, deny, minimize, investigate reluctantly, find &ldquo;procedural
+          errors,&rdquo; punish no one, repeat. The Minab school strike follows this playbook exactly. CENTCOM has
+          acknowledged the strike occurred but insists the target was a &ldquo;validated IRGC facility.&rdquo; The
+          168 dead children are classified as &ldquo;collateral damage&rdquo; — a euphemism that transforms murdered
+          children into a line item in an after-action report.
+        </p>
+      </div>
+
+      {/* The Medical Crisis */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">The Medical Crisis</h2>
+      <div className="space-y-4 mb-8 text-stone-700">
+        <p>
+          Iran&apos;s healthcare system — once the most advanced in the Middle East — has been pushed to the
+          breaking point. Strikes on power infrastructure have left hospitals running on backup generators with
+          limited fuel supplies. Medical supply chains, already strained by years of sanctions, have collapsed
+          under the bombardment.
+        </p>
+        <p>
+          WHO reports that at least <strong>14 hospitals</strong> have been damaged or destroyed in the first two
+          weeks of operations. The Imam Khomeini Hospital Complex in Tehran, one of the largest medical centers in
+          the Middle East with 1,200 beds, has been operating at 200% capacity with intermittent power. Surgical
+          teams are performing operations by flashlight when generators fail.
+        </p>
+        <p>
+          The wounded-to-killed ratio in modern air campaigns is typically 3:1 to 4:1. With an estimated 2,800+
+          killed in the first weeks, this implies roughly 8,000-11,000 wounded requiring medical care — in a
+          healthcare system that has lost significant capacity. Doctors report performing triage decisions that
+          amount to choosing who lives and who dies based on available blood supplies, surgical capacity, and
+          medication stocks.
+        </p>
+        <p>
+          Sanctions have prevented Iran from stockpiling many common medications and surgical supplies. Blood banks
+          are depleted. Anesthesia supplies are running low. The International Committee of the Red Cross has called
+          the medical situation &ldquo;catastrophic&rdquo; and requested immediate humanitarian corridors — requests
+          that have gone unanswered as the bombardment continues.
+        </p>
+      </div>
+
+      {/* Long-Term Environmental Damage */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-4">Environmental Devastation</h2>
+      <div className="space-y-4 mb-8 text-stone-700">
+        <p>
+          The strikes on Iranian oil infrastructure, nuclear facilities, and industrial sites have created an
+          environmental catastrophe that will persist for decades. Oil fires from strikes on refineries and storage
+          facilities in Abadan, Bandar Abbas, and Kharg Island have sent plumes of toxic smoke across the Persian
+          Gulf region. Air quality monitors in Bahrain, Qatar, and the UAE have recorded hazardous pollution levels.
+        </p>
+        <p>
+          The strikes near nuclear facilities at Natanz and Isfahan raise particular concern. While the Pentagon
+          insists it targeted &ldquo;support infrastructure&rdquo; rather than reactor cores or enrichment halls,
+          the proximity of conventional explosions to nuclear material creates risks of contamination that may not
+          be fully understood for years. The IAEA has been unable to access the sites to assess damage.
+        </p>
+        <p>
+          Water infrastructure damage in southern Iran has contaminated drinking water supplies for an estimated
+          3 million people. Sewage treatment plants destroyed by strikes have led to raw sewage flowing into
+          waterways. The Karun River — Iran&apos;s largest and the primary water source for Ahvaz (population 1.3
+          million) — has been contaminated by both oil spills and industrial chemicals from damaged factories.
+        </p>
+      </div>
+
       {/* The Question */}
       <div className="bg-stone-900 text-white rounded-xl p-8 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-center">The Question Nobody in Washington Is Asking</h2>

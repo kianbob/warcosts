@@ -187,6 +187,16 @@ export default function MilitaryDeathsByWarPage() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-3xl font-[family-name:var(--font-heading)] text-white mb-6">Related Analysis</h2>
+          <div className="flex flex-col gap-3 bg-stone-800 rounded-lg p-6 border border-stone-700">
+            <Link href="/analysis/human-cost" className="text-[#dc2626] hover:underline">→ The Human Cost of War</Link>
+            <Link href="/analysis/americas-wars-by-the-numbers" className="text-[#dc2626] hover:underline">→ America&apos;s Wars by the Numbers</Link>
+            <Link href="/analysis/cost-per-life" className="text-[#dc2626] hover:underline">→ The Price of a Life</Link>
+            <Link href="/analysis/forgotten-wars" className="text-[#dc2626] hover:underline">→ America&apos;s Forgotten Wars</Link>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-3xl font-[family-name:var(--font-heading)] text-white mb-6">Sources</h2>
           <div className="bg-stone-800 rounded-lg p-6 border border-stone-700">
             <ul className="text-gray-300 space-y-2">

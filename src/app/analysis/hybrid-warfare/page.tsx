@@ -341,6 +341,192 @@ export default function HybridWarfarePage() {
         </div>
       </div>
 
+      {/* Case Study: Ukraine as Hybrid Warfare Laboratory */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          Case Study: Ukraine — The Hybrid Warfare Laboratory
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The Russia-Ukraine conflict (2014-present) is the most comprehensive case study of hybrid warfare
+          in history. Every tool in the hybrid toolkit has been deployed — often simultaneously:
+        </p>
+        <div className="space-y-3">
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 text-sm mb-1">2014: The Hybrid Phase (Crimea + Donbas)</h3>
+            <p className="text-stone-600 text-sm">
+              Russia used the full hybrid playbook: information warfare to create narrative confusion, &ldquo;little
+              green men&rdquo; for deniable military action, cyber operations against Ukrainian infrastructure,
+              economic pressure through gas supply manipulation, and political subversion through support for
+              separatist movements. The hybrid approach worked in Crimea (annexed) and partially in Donbas
+              (frozen conflict created).
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 text-sm mb-1">2022: When Hybrid Failed, Conventional Followed</h3>
+            <p className="text-stone-600 text-sm">
+              Russia&apos;s full-scale invasion in February 2022 revealed the limits of hybrid warfare: when hybrid
+              methods can&apos;t achieve your objectives and you escalate to conventional war, you face a conventional
+              fight you may not win. Russia expected a 3-day operation. Two years later, the war continues with
+              300,000+ Russian casualties. The hybrid-to-conventional escalation ladder is not a smooth ramp — it&apos;s
+              a cliff.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 text-sm mb-1">Ukraine&apos;s Hybrid Defense</h3>
+            <p className="text-stone-600 text-sm">
+              Ukraine pioneered hybrid defense: crowdsourced intelligence (civilians reporting Russian positions via
+              apps), Bayraktar TB2 drones for asymmetric strikes, cyber operations against Russian infrastructure,
+              information warfare (Zelensky&apos;s social media presence), and economic warfare (freezing $300B+ in
+              Russian central bank reserves). Ukraine demonstrated that hybrid warfare is not only an offensive tool —
+              the defender can use it too.
+            </p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4">
+            <h3 className="font-bold text-stone-900 text-sm mb-1">Lessons for Taiwan</h3>
+            <p className="text-stone-600 text-sm">
+              China is watching Ukraine carefully. Taiwan is almost certainly the next hybrid warfare flashpoint.
+              China&apos;s playbook may include: economic coercion (Taiwan depends on China for 28% of exports),
+              information operations targeting Taiwanese public opinion, cyber attacks on critical infrastructure,
+              maritime gray zone operations (fishing militia, coast guard patrols), and military intimidation
+              (air defense zone incursions — 1,700+ in 2022 alone). The question is whether China will learn from
+              Russia&apos;s mistake — that hybrid methods have limits — or from Russia&apos;s success in Crimea —
+              that speed and surprise can present the world with a fait accompli.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* The Red Sea Case */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          Case Study: Houthis vs. Global Commerce
+        </h2>
+        <p className="text-stone-700 mb-4">
+          The Houthi attacks on Red Sea shipping (2023-2025) represent perhaps the most cost-effective hybrid
+          warfare campaign in history. Using Iranian-supplied drones costing $10,000-50,000 each, a rebel
+          group in one of the world&apos;s poorest countries disrupted 12% of global trade.
+        </p>
+        <div className="grid md:grid-cols-3 gap-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$10-50K</p>
+            <p className="text-stone-700 text-xs">Cost per Houthi attack drone</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$2.1-4.3M</p>
+            <p className="text-stone-700 text-xs">Cost per US interceptor missile</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$80-100B</p>
+            <p className="text-stone-700 text-xs">Estimated global economic impact</p>
+          </div>
+        </div>
+        <p className="text-stone-700 text-sm">
+          Shipping reroutes around the Cape of Good Hope added 10-14 days and $400K-$1M per voyage.
+          Container rates surged 400%+. The USS Carney fired $100M+ in missiles in a single engagement.
+          The US Navy — with its $200B annual budget — cannot affordably defend commercial shipping
+          against $10,000 drones. This is the future of warfare: asymmetric, hybrid, and designed to
+          exploit the cost of being a global power with global interests.
+        </p>
+      </div>
+
+      {/* The Cost of Hybrid Defense */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Cost of Hybrid Defense
+        </h2>
+        <p className="text-stone-700 mb-4">
+          Defending against hybrid warfare is enormously expensive — and the costs are almost entirely borne
+          by the defender. This is the fundamental asymmetry that makes hybrid warfare so attractive.
+        </p>
+        <div className="grid md:grid-cols-2 gap-4 mb-4">
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$1.25M/mo</p>
+            <p className="text-stone-700 text-sm">Russia&apos;s IRA budget for US election ops</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$2.2B+</p>
+            <p className="text-stone-700 text-sm">US spending to counter Russian disinfo (est.)</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">$10B+</p>
+            <p className="text-stone-700 text-sm">NotPetya global damage — one attack</p>
+          </div>
+          <div className="bg-stone-50 rounded-lg p-4 text-center">
+            <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">100:1</p>
+            <p className="text-stone-700 text-sm">Houthi drone vs. US missile cost ratio</p>
+          </div>
+        </div>
+        <p className="text-stone-700 text-sm">
+          The cost ratio is staggering. Russia spent ~$15 million on 2016 election interference. The US
+          response cost billions. A Houthi drone costs $10-50K; the SM-2 missile to intercept it costs
+          $2.1 million. Hybrid warfare inverts the cost advantage that defines conventional US military
+          superiority. This is why it&apos;s the weapon of choice for powers that can&apos;t match the
+          Pentagon&apos;s $886 billion budget — they don&apos;t need to. They just need to impose costs
+          that are disproportionate to their investment.
+        </p>
+      </div>
+
+      {/* The Future of Hybrid Warfare */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          The Future: AI, Deepfakes, and Autonomous Weapons
+        </h2>
+        <p className="text-stone-700 mb-4">
+          Hybrid warfare is about to get exponentially more dangerous. Technologies emerging in 2024-2026
+          will make current hybrid capabilities look primitive:
+        </p>
+        <div className="space-y-3">
+          {[
+            { tech: 'AI-generated disinformation', detail: 'Deepfake video of leaders declaring war, AI-generated audio of military orders, synthetic media at scale. The IRA employed hundreds; AI can match that output with a handful of operators.' },
+            { tech: 'Autonomous drone swarms', detail: '1,000+ cheap drones operating without human command links. Costs less than a single cruise missile. Can overwhelm any current defense system.' },
+            { tech: 'AI-powered cyber weapons', detail: 'AI that discovers and exploits zero-day vulnerabilities faster than defenders can patch. The offense-defense imbalance gets worse.' },
+            { tech: 'Cognitive warfare', detail: 'AI-analyzed psychological profiles targeting individual decision-makers with personalized influence. Precision propaganda for generals and politicians.' },
+          ].map(item => (
+            <div key={item.tech} className="bg-stone-50 rounded-lg p-4">
+              <h3 className="font-bold text-stone-900 text-sm mb-1">{item.tech}</h3>
+              <p className="text-stone-600 text-sm">{item.detail}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-stone-700 text-sm mt-4">
+          The Pentagon is spending billions to counter these emerging threats. But as with all hybrid
+          warfare, the defender&apos;s cost will always exceed the attacker&apos;s. The US spends
+          $200+ billion annually on cybersecurity (government and private sector combined). Russia and
+          China spend a fraction of that on offensive cyber capabilities — and consistently penetrate
+          American systems. The asymmetry will only grow as AI lowers the barrier to entry for
+          sophisticated hybrid operations.
+        </p>
+      </div>
+
+      {/* Key Hybrid Warfare Events Timeline */}
+      <div className="bg-white rounded-xl border p-6 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">
+          Timeline: Major Hybrid Warfare Events (2007-2025)
+        </h2>
+        <div className="space-y-3">
+          {[
+            { year: '2007', event: 'Estonia cyberattacks', detail: 'Russia launched massive DDoS attacks on Estonian government, banking, and media after removal of a Soviet-era war memorial. First nation-state cyberattack on another country\'s infrastructure.' },
+            { year: '2008', event: 'Georgia: hybrid invasion', detail: 'Russia combined cyber attacks, information warfare, and conventional military force in its invasion of Georgia. Established the template later refined in Ukraine.' },
+            { year: '2010', event: 'Stuxnet discovered', detail: 'US/Israeli cyberweapon destroyed 1,000 Iranian nuclear centrifuges. First cyberweapon to cause physical destruction. Opened Pandora\'s box.' },
+            { year: '2013', event: 'China begins island building', detail: 'Dredging operations begin in South China Sea. By 2018, 3,200+ acres of artificial land with military installations.' },
+            { year: '2014', event: 'Crimea annexation', detail: 'Russia\'s "little green men" seize Crimea in 3 weeks. Textbook hybrid operation combining deniable military, information warfare, and political theater.' },
+            { year: '2016', event: 'US election interference', detail: 'Russian IRA social media campaign + GRU hack of DNC. Cost: ~$15 million. Impact: incalculable damage to democratic legitimacy.' },
+            { year: '2017', event: 'NotPetya', detail: 'Russian cyberattack targeting Ukraine spread globally. $10B+ in damage. Maersk, Merck, FedEx devastated. Most destructive cyberattack in history.' },
+            { year: '2020', event: 'SolarWinds breach', detail: 'Russian SVR infiltrated 18,000+ organizations including US Treasury, DHS, and nuclear labs. Undetected for 9+ months.' },
+            { year: '2022', event: 'Russia invades Ukraine (full-scale)', detail: 'Hybrid warfare escalates to conventional. Demonstrates both the power and the limits of hybrid approaches.' },
+            { year: '2023', event: 'Houthi Red Sea campaign', detail: 'Iranian proxy disrupts 12% of global trade with cheap drones. US Navy spends $100M+ per engagement to counter $50K drones.' },
+          ].map(item => (
+            <div key={item.year} className="flex gap-4 items-start">
+              <span className="text-red-700 font-bold font-mono whitespace-nowrap text-sm">{item.year}</span>
+              <div>
+                <h3 className="font-bold text-stone-900 text-sm">{item.event}</h3>
+                <p className="text-stone-600 text-sm">{item.detail}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Bottom line */}
       <div className="bg-stone-900 text-white rounded-xl p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Bottom Line</h2>
@@ -378,6 +564,15 @@ export default function HybridWarfarePage() {
           <li>• White House, &quot;NotPetya: The Most Destructive and Costly Cyber Attack in History&quot; (2018)</li>
           <li>• IISS, &quot;Iran&apos;s Networks of Influence in the Middle East&quot; (2019)</li>
           <li>• Andrew Cockburn, &quot;Kill Chain: The Rise of the High-Tech Assassins&quot; (2015)</li>
+          <li>• Greenberg, Andy. &quot;Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin&apos;s Most Dangerous Hackers&quot; (2019)</li>
+          <li>• RAND Corporation, &quot;Russia&apos;s Hostile Measures: Combating Russian Gray Zone Aggression&quot; (2019)</li>
+          <li>• Center for Strategic and International Studies (CSIS), &quot;Significant Cyber Incidents&quot; database</li>
+          <li>• European Court of Human Rights — judgments on CIA black sites in Poland, Romania, and Lithuania</li>
+          <li>• US Cyber Command — publicly acknowledged operations and doctrine</li>
+          <li>• Kofman, Michael. &quot;Russian Military Reform and the Lessons of the Russia-Ukraine War&quot; (2023)</li>
+          <li>• NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE) — Tallinn Manual</li>
+          <li>• Department of Defense — Joint Publication 3-0 (Joint Operations), hybrid warfare doctrine</li>
+          <li>• UN Panel of Experts — Red Sea/Houthi attacks reports (2024)</li>
         </ul>
       </div>
 
