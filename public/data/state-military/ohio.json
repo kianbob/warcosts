@@ -69,5 +69,13 @@
       "slug": "bratenahl",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 720000,
+  "topContractors": [
+    "General Dynamics",
+    "GE Aviation",
+    "L3Harris",
+    "Battelle",
+    "Lockheed Martin"
   ]
 }

@@ -451,6 +451,20 @@ export default function SpendingPage() {
         </div>
       </div>
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• Office of Management and Budget (OMB) — Historical Tables, Table 3.1</li>
+          <li>• Department of Defense Comptroller — National Defense Budget Estimates (&ldquo;Green Book&rdquo;)</li>
+          <li>• Stockholm International Peace Research Institute (SIPRI) — Military Expenditure Database</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;Defense Spending and the Economy&rdquo;</li>
+          <li>• Government Accountability Office (GAO) — defense budget reports</li>
+          <li>• Brown University Costs of War Project — total war spending estimates</li>
+          <li>• Bureau of Labor Statistics (BLS) — CPI adjustments for inflation-adjusted figures</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>

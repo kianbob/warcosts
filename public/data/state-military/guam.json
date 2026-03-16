@@ -35,5 +35,13 @@
       "slug": "santa-rosa-parcel-a",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 8000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

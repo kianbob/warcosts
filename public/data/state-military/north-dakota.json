@@ -63,5 +63,13 @@
       "slug": "grand-forks-afb",
       "branch": "U.S. Air Force"
     }
+  ],
+  "veteranPopulation": 55000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

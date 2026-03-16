@@ -57,5 +57,13 @@
       "slug": "cpt-david-d-phillips-usarc",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 540000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

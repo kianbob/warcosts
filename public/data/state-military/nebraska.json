@@ -62,5 +62,13 @@
       "slug": "mead-lta",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 130000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

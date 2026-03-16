@@ -57,5 +57,13 @@
       "slug": "ft-nathaniel-greene-usarc",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 60000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

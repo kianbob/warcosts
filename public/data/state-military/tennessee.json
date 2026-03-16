@@ -69,5 +69,13 @@
       "slug": "northside-mid-south",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 430000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

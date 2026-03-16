@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import { LiveCostCounter } from '@/components/LiveCostCounter'
 import ThisDayInWarHistory from '@/components/ThisDayInWarHistory'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 export const metadata: Metadata = {
   title: 'WarCosts — The True Cost of American Wars | $11.3 Trillion & Counting',
@@ -131,6 +132,16 @@ export default function HomePage() {
       {/* Hero */}
       <section className="bg-stone-900 text-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 text-center">
+          {/* Live Ticking War Cost Counter — front and center */}
+          <div className="max-w-2xl mx-auto mb-10">
+            <p className="text-stone-500 text-xs uppercase tracking-widest mb-3">Total US War Spending Since 9/11</p>
+            <LiveCostCounter
+              costPerSecond={5787}
+              label=""
+            />
+            <p className="text-stone-600 text-xs mt-2">~$500M/day · Based on Brown University Costs of War ($8.1T base)</p>
+          </div>
+
           <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             The Price of <span className="text-red-600">American Empire</span>
           </h1>
@@ -180,10 +191,6 @@ export default function HomePage() {
               <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.undeclaredWars} of {stats.totalConflicts}</p>
               <p className="text-stone-400">Wars without Congress</p>
             </div>
-          </div>
-
-          <div className="max-w-md mx-auto mb-12">
-            <LiveCostCounter costPerSecond={stats.costPerSecond} />
           </div>
 
           <div className="flex flex-wrap justify-center gap-4">
@@ -408,6 +415,44 @@ export default function HomePage() {
             <Link href="/opportunity-cost" className="text-red-400 font-semibold hover:underline">See All Comparisons →</Link>
           </div>
         </div>
+      </section>
+
+      {/* Featured Analysis */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2">Featured Analysis</h2>
+        <p className="text-stone-500 mb-8">Our most impactful investigations into the cost of American military power.</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            { title: 'The Lies That Started Wars', href: '/analysis/lies-that-started-wars', desc: 'Gulf of Tonkin. WMDs. Incubator babies. A pattern of deception that cost millions of lives.' },
+            { title: 'The Cost of Secrecy', href: '/analysis/cost-of-secrecy', desc: '$18.5B/year on classification. What are they hiding and what does it cost us?' },
+            { title: 'Empire of Bases', href: '/analysis/empire-of-bases', desc: '750 bases in 80 countries. No other empire in history has maintained this kind of global footprint.' },
+            { title: 'Veterans Betrayed', href: '/analysis/veterans-betrayed', desc: 'We send them to war, then abandon them. The VA crisis in numbers.' },
+            { title: 'The War Economy', href: '/analysis/war-economy', desc: 'How defense spending shapes — and distorts — the American economy.' },
+            { title: 'Allies and Enemies', href: '/analysis/allies-and-enemies', desc: 'We armed the Mujahideen, then fought them. We backed Saddam, then toppled him. The pattern repeats.' },
+          ].map(a => (
+            <Link key={a.href} href={a.href} className="bg-white rounded-lg border border-stone-200 p-6 hover:shadow-md hover:border-red-200 transition">
+              <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-2 text-stone-900">{a.title}</h3>
+              <p className="text-stone-500 text-sm">{a.desc}</p>
+              <span className="text-red-600 text-sm font-semibold mt-3 inline-block">Read →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Share Stats CTA */}
+      <section className="bg-stone-100 py-12">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">Share the Truth</h2>
+          <p className="text-stone-500 mb-6">Pre-designed stat cards you can screenshot and share on social media.</p>
+          <Link href="/share" className="bg-red-700 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition inline-block">
+            View Shareable Stats →
+          </Link>
+        </div>
+      </section>
+
+      {/* Newsletter Signup */}
+      <section className="max-w-2xl mx-auto px-4 py-12">
+        <NewsletterSignup />
       </section>
 
       {/* Quote */}

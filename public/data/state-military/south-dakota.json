@@ -46,5 +46,13 @@
       "slug": "ng-sioux-falls-benson-rd-complex",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 65000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

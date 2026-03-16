@@ -70,5 +70,13 @@
       "slug": "patriot-golf-course",
       "branch": "U.S. Air Force"
     }
+  ],
+  "veteranPopulation": 300000,
+  "topContractors": [
+    "Raytheon (RTX)",
+    "General Dynamics",
+    "BAE Systems",
+    "Draper Laboratory",
+    "L3Harris"
   ]
 }

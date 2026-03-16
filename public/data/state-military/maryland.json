@@ -69,5 +69,13 @@
       "slug": "naval-air-station-patuxent-river",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 380000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Northrop Grumman",
+    "Booz Allen Hamilton",
+    "Leidos",
+    "SAIC"
   ]
 }

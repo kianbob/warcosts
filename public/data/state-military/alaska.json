@@ -67,5 +67,13 @@
       "slug": "naval-logistics-support-activity-ketchikan",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 70000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

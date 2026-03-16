@@ -68,5 +68,13 @@
       "slug": "clarksburg-amsa-102-g",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 140000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

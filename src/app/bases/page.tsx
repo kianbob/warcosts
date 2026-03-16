@@ -296,11 +296,25 @@ export default function BasesPage() {
         </ul>
       </div>
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• Department of Defense — Base Structure Report (annual)</li>
+          <li>• Defense Manpower Data Center (DMDC) — troop deployment statistics</li>
+          <li>• David Vine, &ldquo;Base Nation&rdquo; (2015) — comprehensive overseas base research</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;Overseas Basing of US Military Forces&rdquo;</li>
+          <li>• RAND Corporation — overseas basing cost analyses</li>
+          <li>• Government Accountability Office (GAO) — base cost and efficiency reports</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Pages</h3>
         <ul className="space-y-2">
           <li><Link href="/analysis/empire-of-bases" className="text-red-800 hover:underline">→ Empire of Bases — analysis of America&apos;s global military footprint</Link></li>
+          <li><Link href="/analysis/base-nation" className="text-red-800 hover:underline">→ Base Nation — the hidden cost of overseas bases</Link></li>
           <li><Link href="/deployments" className="text-red-800 hover:underline">→ Troop Deployments — where US troops are stationed</Link></li>
           <li><Link href="/spending" className="text-red-800 hover:underline">→ Military Spending — $886B/yr and counting</Link></li>
           <li><Link href="/analysis/pentagon-climate" className="text-red-800 hover:underline">→ Pentagon & Climate — the military&apos;s environmental footprint</Link></li>

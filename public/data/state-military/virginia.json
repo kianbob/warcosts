@@ -70,5 +70,13 @@
       "slug": "rivanna-station",
       "branch": "U.S. Army"
     }
+  ],
+  "veteranPopulation": 730000,
+  "topContractors": [
+    "General Dynamics",
+    "Northrop Grumman",
+    "Leidos",
+    "Booz Allen Hamilton",
+    "SAIC"
   ]
 }

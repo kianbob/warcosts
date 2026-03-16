@@ -31,5 +31,13 @@
       "slug": "ng-mtch-camp-guernsey",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 45000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

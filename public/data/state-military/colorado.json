@@ -66,5 +66,13 @@
       "slug": "usaf-academy-site-2",
       "branch": "U.S. Air Force"
     }
+  ],
+  "veteranPopulation": 400000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "Boeing",
+    "L3Harris"
   ]
 }

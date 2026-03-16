@@ -68,5 +68,13 @@
       "slug": "ng-montgomery-jfhq-afrc-csms-01",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 370000,
+  "topContractors": [
+    "Boeing",
+    "Lockheed Martin",
+    "Northrop Grumman",
+    "Raytheon (RTX)",
+    "Dynetics"
   ]
 }

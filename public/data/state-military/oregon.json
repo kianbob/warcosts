@@ -66,5 +66,13 @@
       "slug": "ng-mta-camp-rilea",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 290000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

@@ -63,5 +63,13 @@
       "slug": "dodge-city-usarc-gta",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 190000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

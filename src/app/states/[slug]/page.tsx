@@ -20,6 +20,8 @@ interface StateData {
     pctGsp: number
   } | null
   majorInstallations: { name: string; slug: string; branch: string }[]
+  veteranPopulation?: number
+  topContractors?: string[]
 }
 
 export function generateStaticParams() {
@@ -149,6 +151,47 @@ export default async function StateFootprintPage({ params }: { params: Promise<{
               </Link>
             ))}
           </div>
+        </section>
+      )}
+
+      {/* Veteran Population */}
+      {data.veteranPopulation && (
+        <section className="bg-white border border-stone-200 rounded-lg p-6 mb-10">
+          <h2 className="text-2xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mb-3">
+            Veteran Population
+          </h2>
+          <div className="flex items-center gap-4 mb-3">
+            <div className="text-4xl font-bold text-red-700">{fmt(data.veteranPopulation)}</div>
+            <div className="text-stone-400">
+              veterans living in {data.state}
+            </div>
+          </div>
+          <p className="text-stone-500 text-sm">
+            These men and women served their country — many in wars that were never declared by Congress.
+            {data.veteranPopulation > 500000
+              ? ` ${data.state} has one of the largest veteran populations in the nation.`
+              : ''}
+          </p>
+        </section>
+      )}
+
+      {/* Top Defense Contractors */}
+      {data.topContractors && data.topContractors.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-2xl font-bold font-[family-name:var(--font-heading)] text-stone-900 mb-4">
+            Top Defense Contractors in {data.state}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {data.topContractors.map((contractor, i) => (
+              <div key={contractor} className="bg-white border border-stone-200 rounded-lg p-4 flex items-center gap-3">
+                <span className="text-red-600 font-bold text-lg">#{i + 1}</span>
+                <span className="text-stone-800 font-medium">{contractor}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-stone-400 text-xs mt-3">
+            These companies receive billions in DoD contracts, creating economic dependency on military spending in {data.state}.
+          </p>
         </section>
       )}
 

@@ -36,5 +36,13 @@
       "slug": "ng-river-road-training-site",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 70000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

@@ -68,5 +68,13 @@
       "slug": "dixie-valley",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 220000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

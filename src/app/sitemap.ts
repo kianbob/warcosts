@@ -51,6 +51,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/private-military', '/analysis/lies-that-started-wars',
     '/analysis/what-victory-looks-like',
     '/analysis/iran-day-by-day', '/analysis/lebanon-burns',
+    '/analysis/iran-civilian-cost', '/analysis/iran-cost-per-second',
+    '/analysis/iran-regional-war', '/analysis/iran-russia-shadow-war',
     '/analysis/americas-wars-by-the-numbers',
     '/analysis/cost-of-doing-nothing',
     '/about', '/methodology', '/faq', '/sources', '/contact', '/privacy',
@@ -75,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/us-military-bases-around-the-world',
     '/drone-strikes', '/war-votes', '/global-spending',
     '/arms-sales/countries',
+    '/share',
   ]
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({

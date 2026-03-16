@@ -67,5 +67,13 @@
       "slug": "naval-air-station-whidbey-island",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 530000,
+  "topContractors": [
+    "Boeing",
+    "Amazon (AWS GovCloud)",
+    "Vigor Industrial",
+    "FLIR Systems",
+    "Microsoft"
   ]
 }

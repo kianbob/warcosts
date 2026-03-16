@@ -68,5 +68,13 @@
       "slug": "ng-macon-ts",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 380000,
+  "topContractors": [
+    "Boeing",
+    "General Dynamics",
+    "Leidos",
+    "Raytheon (RTX)",
+    "BAE Systems"
   ]
 }

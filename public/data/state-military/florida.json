@@ -73,5 +73,13 @@
       "slug": "nas-jacksonville-fl",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 1530000,
+  "topContractors": [
+    "Lockheed Martin",
+    "L3Harris",
+    "Northrop Grumman",
+    "Raytheon (RTX)",
+    "General Dynamics"
   ]
 }

@@ -45,5 +45,13 @@
       "slug": "ng-so-burlington-aasf-and-rc",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 42000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

@@ -5,6 +5,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import { VASpendingChart, SuicideTrendChart, ClaimsBacklogChart, HomelessnessChart, UnemploymentChart } from './VeteransCharts'
 
 export const metadata: Metadata = {
   title: 'Veterans Crisis — Broken Promises, Broken Lives',
@@ -118,6 +119,7 @@ const opioidCrisis = {
 }
 
 export default function VeteransPage() {
+  const vetStats = loadData('veterans-stats.json')
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -200,6 +202,31 @@ export default function VeteransPage() {
           </div>
         ))}
       </div>
+
+      {/* Data Deep Dives */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
+        {[
+          { href: '/veterans/va-spending', label: 'VA Spending Over Time', desc: '$47B → $400B+ in 25 years. Where does it all go?', icon: '💰' },
+          { href: '/veterans/disability-claims', label: 'Disability Claims Backlog', desc: '574K pending claims. 99K backlogged. Veterans die waiting.', icon: '📋' },
+          { href: '/veteran-suicide', label: 'Veteran Suicide Deep Dive', desc: '17.5 per day. More than combat deaths. The hidden war.', icon: '🎗️' },
+        ].map(link => (
+          <Link key={link.href} href={link.href} className="block bg-red-50 rounded-xl p-5 border border-red-200 hover:shadow-md transition group">
+            <span className="text-2xl">{link.icon}</span>
+            <p className="font-bold text-red-900 mt-2 group-hover:underline">{link.label}</p>
+            <p className="text-stone-600 text-sm mt-1">{link.desc}</p>
+          </Link>
+        ))}
+      </div>
+
+      {/* Charts Section */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mt-12 mb-2">The Data</h2>
+      <p className="text-stone-500 mb-4">Every trend tells the same story: rising costs, persistent suffering, broken promises.</p>
+
+      <VASpendingChart data={vetStats.vaBudget} />
+      <SuicideTrendChart data={vetStats.veteranSuicides} />
+      <ClaimsBacklogChart data={vetStats.disabilityClaims} />
+      <HomelessnessChart data={vetStats.homelessness} />
+      <UnemploymentChart data={vetStats.unemployment} />
 
       {/* Libertarian framing */}
       <div className="bg-stone-900 text-white rounded-xl p-6 mb-10">
@@ -477,11 +504,11 @@ export default function VeteransPage() {
         <div className="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
           {[
             { href: '/veteran-suicide', label: 'Veteran Suicide Deep Dive', desc: 'Detailed stats by age, era, branch, demographics' },
+            { href: '/veterans/va-spending', label: 'VA Spending Breakdown', desc: '$400B+ budget — larger than most countries\' GDP' },
+            { href: '/veterans/disability-claims', label: 'Disability Claims Data', desc: 'Backlog, wait times, approval rates, top conditions' },
             { href: '/casualties', label: 'Casualties', desc: 'The full human cost of America\'s wars' },
             { href: '/cost-of-war', label: 'Cost of War', desc: '$8.6 trillion for post-9/11 wars alone' },
-            { href: '/nuclear', label: 'Nuclear Weapons', desc: '$10T+ on weapons while veterans suffer' },
-            { href: '/intelligence', label: 'Intelligence Agencies', desc: 'The shadow state that starts the wars' },
-            { href: '/spending', label: 'Military Spending', desc: 'Where the money actually goes' },
+            { href: '/weapons', label: 'Weapons Systems', desc: '$3T+ on weapons while veterans suffer' },
           ].map(link => (
             <Link key={link.href} href={link.href} className="block bg-white rounded-lg p-4 border hover:shadow-md transition">
               <p className="font-semibold text-blue-800">{link.label}</p>

@@ -46,5 +46,13 @@
       "slug": "ng-aasf",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 160000,
+  "topContractors": [
+    "Pratt & Whitney (RTX)",
+    "General Dynamics (Electric Boat)",
+    "Sikorsky (Lockheed)",
+    "Collins Aerospace",
+    "BAE Systems"
   ]
 }

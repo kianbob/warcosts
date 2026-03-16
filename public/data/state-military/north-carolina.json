@@ -69,5 +69,13 @@
       "slug": "marine-corps-air-station-cherry-point",
       "branch": "U.S. Marine Corps"
     }
+  ],
+  "veteranPopulation": 720000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

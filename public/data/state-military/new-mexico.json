@@ -66,5 +66,13 @@
       "slug": "kirtland-air-force-base",
       "branch": "U.S. Air Force"
     }
+  ],
+  "veteranPopulation": 150000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

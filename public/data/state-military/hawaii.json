@@ -68,5 +68,13 @@
       "slug": "kilauea-mil-reserve",
       "branch": "U.S. Army"
     }
+  ],
+  "veteranPopulation": 110000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

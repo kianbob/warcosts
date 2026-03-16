@@ -68,5 +68,13 @@
       "slug": "ng-cta-camp-mccain",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 190000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

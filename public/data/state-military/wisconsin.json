@@ -57,5 +57,13 @@
       "slug": "general-mitchell-iap-guard-east",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 320000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

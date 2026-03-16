@@ -62,5 +62,13 @@
       "slug": "duluth-iap",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 310000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

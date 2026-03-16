@@ -30,5 +30,13 @@
       "slug": "naval-support-activity-wash",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 30000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

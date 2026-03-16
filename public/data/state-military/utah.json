@@ -53,5 +53,13 @@
       "slug": "salt-lake-city-iap",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 130000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

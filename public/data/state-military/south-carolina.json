@@ -59,5 +59,13 @@
       "slug": "ng-mta-clarks-hill-reservation",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 380000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

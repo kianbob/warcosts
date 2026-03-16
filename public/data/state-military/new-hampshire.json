@@ -36,5 +36,13 @@
       "slug": "pease-angb-nh",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 100000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

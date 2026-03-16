@@ -63,5 +63,13 @@
       "slug": "ng-aguadilla-readiness-center",
       "branch": "Army National Guard"
     }
+  ],
+  "veteranPopulation": 80000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

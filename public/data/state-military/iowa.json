@@ -48,5 +48,13 @@
       "slug": "sioux-gateway-airport-ang-ce-site-2",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 200000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

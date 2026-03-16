@@ -70,5 +70,13 @@
       "slug": "naval-submarine-base-kings-bay",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 680000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Gulfstream (General Dynamics)",
+    "Northrop Grumman",
+    "Textron",
+    "FLIR Systems"
   ]
 }

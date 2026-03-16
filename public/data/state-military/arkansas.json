@@ -48,5 +48,13 @@
       "slug": "eldridge-harrington-usarc",
       "branch": "U.S. Army Reserve"
     }
+  ],
+  "veteranPopulation": 200000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

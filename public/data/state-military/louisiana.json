@@ -69,5 +69,13 @@
       "slug": "england-authority",
       "branch": "U.S. Army"
     }
+  ],
+  "veteranPopulation": 270000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

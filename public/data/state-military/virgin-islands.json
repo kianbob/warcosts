@@ -8,5 +8,13 @@
     "Army National Guard": 1
   },
   "defense": null,
-  "majorInstallations": []
+  "majorInstallations": [],
+  "veteranPopulation": 3000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
+  ]
 }

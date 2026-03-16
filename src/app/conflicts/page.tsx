@@ -29,6 +29,32 @@ export default function ConflictsPage() {
 
       <ConflictsClient conflicts={conflicts} />
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• Congressional Research Service (CRS) — &ldquo;Instances of Use of United States Armed Forces Abroad&rdquo; (updated annually)</li>
+          <li>• Department of Defense (DoD) — Defense Casualty Analysis System (DCAS)</li>
+          <li>• Brown University Costs of War Project — war cost and casualty estimates</li>
+          <li>• National Archives — official war declarations and authorizations</li>
+          <li>• Government Accountability Office (GAO) — war cost reports</li>
+          <li>• Special Inspector General for Afghanistan Reconstruction (SIGAR)</li>
+          <li>• Special Inspector General for Iraq Reconstruction (SIGIR)</li>
+        </ul>
+      </div>
+
+      {/* Related Analysis */}
+      <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>
+        <ul className="space-y-2">
+          <li><a href="/analysis/war-on-terror" className="text-red-800 hover:underline">→ The War on Terror: $8 Trillion Later</a></li>
+          <li><a href="/analysis/forever-wars" className="text-red-800 hover:underline">→ The Forever Wars</a></li>
+          <li><a href="/analysis/undeclared-wars" className="text-red-800 hover:underline">→ Undeclared Wars</a></li>
+          <li><a href="/analysis/what-victory-looks-like" className="text-red-800 hover:underline">→ What Victory Looks Like</a></li>
+          <li><a href="/casualties" className="text-red-800 hover:underline">→ Casualty Data</a></li>
+        </ul>
+      </div>
+
       <BackToTop />
     </div>
   )

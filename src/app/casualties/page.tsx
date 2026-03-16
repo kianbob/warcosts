@@ -368,6 +368,20 @@ export default function CasualtiesPage() {
         </ul>
       </div>
 
+      {/* Data Sources */}
+      <div className="mt-12 bg-stone-50 rounded-lg p-6 border">
+        <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Data Sources</h2>
+        <ul className="space-y-1 text-sm text-stone-600">
+          <li>• Department of Defense — Defense Casualty Analysis System (DCAS)</li>
+          <li>• Brown University Costs of War Project — civilian and combatant casualty estimates</li>
+          <li>• Iraq Body Count (IBC) — documented civilian deaths in Iraq</li>
+          <li>• The Lancet — Iraq mortality surveys (2004, 2006)</li>
+          <li>• UN Office for the Coordination of Humanitarian Affairs (OCHA)</li>
+          <li>• Congressional Research Service (CRS) — &ldquo;American War and Military Operations Casualties&rdquo;</li>
+          <li>• VA National Center for PTSD</li>
+        </ul>
+      </div>
+
       {/* Related */}
       <div className="mt-8 bg-stone-50 rounded-lg p-6 border">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Analysis</h3>

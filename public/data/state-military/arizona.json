@@ -69,5 +69,13 @@
       "slug": "goldwater-angb",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 510000,
+  "topContractors": [
+    "Raytheon (RTX)",
+    "General Dynamics",
+    "Boeing",
+    "Northrop Grumman",
+    "Honeywell"
   ]
 }

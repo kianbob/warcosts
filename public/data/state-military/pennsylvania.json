@@ -69,5 +69,13 @@
       "slug": "det-phil-pny-annex",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 740000,
+  "topContractors": [
+    "Boeing (Chinook)",
+    "Lockheed Martin",
+    "General Dynamics",
+    "BAE Systems",
+    "DRS Technologies"
   ]
 }

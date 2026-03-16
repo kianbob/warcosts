@@ -53,5 +53,13 @@
       "slug": "atlantic-city-iap",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 340000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }

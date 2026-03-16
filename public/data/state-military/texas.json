@@ -71,5 +71,13 @@
       "slug": "alf-orange",
       "branch": "U.S. Navy"
     }
+  ],
+  "veteranPopulation": 1590000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Bell Textron",
+    "Raytheon (RTX)",
+    "L3Harris",
+    "BAE Systems"
   ]
 }

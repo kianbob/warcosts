@@ -68,5 +68,13 @@
       "slug": "fort-wayne-iap-2-1877-acres",
       "branch": "Air National Guard"
     }
+  ],
+  "veteranPopulation": 370000,
+  "topContractors": [
+    "Lockheed Martin",
+    "Raytheon (RTX)",
+    "Northrop Grumman",
+    "General Dynamics",
+    "Boeing"
   ]
 }
