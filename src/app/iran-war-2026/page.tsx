@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-03-14',
+  dateModified: '2026-03-17',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -63,6 +63,9 @@ const timeline = [
   { date: 'Mar 12', event: 'KC-135 tanker crashes in Iraq. Israel claims top nuclear scientists killed. Tehran sets 3 conditions for peace. 1,348 killed, 17,000 injured in Iran.' },
   { date: 'Mar 14', event: 'US strikes 90 military targets on KHARG ISLAND — Iran\'s oil export hub. Trump threatens oil infrastructure if Hormuz stays closed. IRGC threatens UAE. 2,500 Marines + USS Tripoli deploying from Japan. Israel hits Iranian Space Agency. Explosion at Quds Day rally in Tehran. Mojtaba Khamenei "likely disfigured." Brent crude: $103.14. CSIS: $16.5B spent through Day 12. 3.2M Iranians displaced. 56% of Americans oppose war.' },
   { date: 'Mar 14 (eve)', event: 'Missile strikes helipad inside US Embassy compound in Baghdad — Kataib Hezbollah claims responsibility. US Embassy orders ALL Americans to leave Iraq immediately ("Do not travel to Iraq for any reason. Leave now."). Trump declares US has "completely decimated" Iran, calls for allied "team effort" to secure Hormuz. IDF hits 400th wave of strikes — 200+ military sites hit in one day. CENTCOM: 6,000+ targets struck, 60+ ships and 30+ minelayers destroyed. Fujairah (UAE) oil facility ablaze. Bahrain reports intercepting 203 drones and 124 missiles since Feb 28. UN Security Council passes Bahrain-led resolution condemning Iranian attacks — 130+ countries support. Iran deploying explosive "suicide skiffs" disguised as fishing boats in Hormuz. Iran moves hundreds of millions in crypto during internet blackout (IRGC-linked wallets).' },
+  { date: 'Mar 15', event: 'Trump pressures NATO/China to send warships to Hormuz — little traction. Iran FM Araghchi: "We never asked for a cease-fire." Brent crude past $106/barrel. California gas exceeds $5/gallon.' },
+  { date: 'Mar 16', event: 'Israel expands ground operation in southern Lebanon. Airstrikes hit Tehran near airport. Dubai airport drone-struck. Baghdad airport hit. Mojtaba Khamenei appoints former IRGC chief Rezaei as military adviser. Lebanon: 850+ killed, 830K displaced.' },
+  { date: 'Mar 17', event: 'US wounded surges to ~200 (CENTCOM). Dozen MQ-9 drones destroyed. 7,000+ targets struck in Iran. Israel strikes Tehran (Saadabad Palace) and Beirut simultaneously. Senior officials Larijani and Basij chief targeted. Amnesty confirms US responsible for Minab school attack. NATO rejects Hormuz mission. Lebanon: 886+ killed, 1M+ displaced. Trump delays China trip, calls Iran "paper tiger."' },
 ]
 
 const costProjections = [
@@ -94,7 +97,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE</span>
-          <span className="text-stone-500 text-sm">Last updated: March 14, 2026 (evening)</span>
+          <span className="text-stone-500 text-sm">Last updated: March 17, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

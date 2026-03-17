@@ -36,10 +36,10 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="US Troops Killed" value="13+" sub="150+ wounded, 50K+ deployed" />
+      <StatCard label="US Troops Killed" value="13" sub="~200 wounded, 50K+ deployed" />
       <StatCard label="Iranian Casualties" value="1,444+" sub="18,551 injured, 3.2M displaced" />
-      <StatCard label="Targets Struck" value="15,000+" sub="60+ ships, 30+ minelayers destroyed" />
-      <StatCard label="Oil Price" value="$106+" sub="Peaked $119.50 — Hormuz closed" />
+      <StatCard label="Targets Struck" value="7,000+" sub="in Iran alone (15K+ combined)" />
+      <StatCard label="Oil Price" value="Surging" sub="Hormuz 'cannot be the same' — Iran" />
     </div>
   )
 }

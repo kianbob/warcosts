@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 17 (March 16): 13+ US troops dead, 140-150 wounded; 1,444 Iranians killed, 18,551 injured; 850+ killed in Lebanon (100+ children), 830K displaced; 15,000+ targets struck. Kharg Island hit by 'large-scale precision strike.' Oil at $106/barrel. CSIS: $16.5B cost through first 12 days. Trump pressures NATO to send warships to Hormuz. Israel expands ground operation in Lebanon. Mojtaba Khamenei appoints former IRGC chief as military adviser. Iran FM: 'We never asked for a cease-fire.' 56% of Americans oppose. No exit strategy. Largest US military operation since Iraq 2003.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 18 (March 17): 13 US troops dead, ~200 wounded; 1,444+ Iranians killed, 18,551 injured; 886+ killed in Lebanon (111 children), 1M+ displaced; 7,000+ targets struck in Iran alone. Amnesty International confirms US responsible for school attack killing 170+ girls. NATO allies reject Hormuz mission. Oil surging. Gulf states press US to 'neutralize Iran for good.' Israel strikes Tehran and Beirut simultaneously. Trump delays China trip. 56% of Americans oppose. No exit strategy. Largest US military operation since Iraq 2003.",
     "costNominal": 24500000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 13,
-      "wounded": 150,
+      "wounded": 200,
       "battleDeaths": 7,
       "missing": 0
     },
     "civilianDeaths": 1444,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 17 (March 16): Joint US-Israeli strikes ongoing. Israel expands ground operation in southern Lebanon. Oil at $106/barrel. Trump pressures NATO/China to send warships to Hormuz — little traction. Iran FM: 'We never asked for a cease-fire.' Mojtaba Khamenei appoints former IRGC chief Rezaei as military adviser. 13+ US troops dead, 140-150 wounded. 1,444 Iranians killed, 18,551 injured. 850+ killed in Lebanon, 830K displaced. $16.5B+ cost. 15,000+ targets struck. Kharg Island hit. Dubai airport drone-struck. Baghdad airport hit. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 18 (March 17): Israel launches simultaneous strikes on Tehran and Beirut. Senior Iranian officials including Ali Larijani and Basij chief targeted. US wounded surges to ~200 (CENTCOM). 13 US troops dead. A dozen MQ-9 drones destroyed. 7,000+ targets struck in Iran. Amnesty confirms US responsible for school attack killing 170+ girls. NATO rejects Hormuz mission. Gulf states press US to 'neutralize Iran for good.' Oil surging — Iran warns Hormuz 'cannot be the same.' Lebanon: 886+ killed, 1M+ displaced. UAE closes airspace. Trump delays China trip. No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5891,6 +5891,10 @@
       {
         "year": 2026,
         "event": "Mar 16 (Day 17): IDF announces 'targeted ground operation' to EXPAND buffer zone in southern Lebanon — major escalation. Airstrikes hit Tehran near airport. Dubai airport drone hit damages fuel tank. Baghdad airport struck (4 injured). Mojtaba Khamenei appoints former IRGC chief Mohsen Rezaei as military adviser. Israeli opposition: 'no exit strategy.' Lebanon: 850+ killed, 830K displaced."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 17 (Day 18): US wounded surges to ~200 (CENTCOM). Dozen MQ-9 Reaper drones destroyed. 7,000+ targets struck in Iran. Israel strikes Tehran (Saadabad Palace area) and Beirut simultaneously. Senior officials Ali Larijani and Basij chief targeted. Amnesty International confirms US responsible for Minab school attack (170+ killed). Infant and toddler killed in Arak strike. NATO rejects Hormuz mission. UAE closes airspace. Gulf states press US to 'neutralize Iran for good.' Lebanon: 886+ killed, 1M+ displaced. Trump delays China trip, calls Iran 'paper tiger.'"
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6024,7 +6028,7 @@
     "civilianDeaths": 4681,
     "troopsDeployed": 0,
     "outcome": "Developing",
-    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 634+ killed, 1,586 injured, 816,000 displaced. No US troops directly involved — funded entirely through military aid to Israel.",
+    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 886+ killed (67 women, 111 children), 2,141 wounded, 1M+ displaced. Israel expanding ground operation. Germany warns ground op is 'error.' No US troops directly involved — funded entirely through military aid to Israel.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization for Lebanon operations specifically. Military aid to Israel approved through supplemental appropriations ($8.7B in April 2024). No debate on whether US weapons should be used in Lebanon.",
     "keyEvents": [
@@ -6083,6 +6087,10 @@
       {
         "year": 2026,
         "event": "200+ Hezbollah fighters killed per Israeli claims. 634 total killed in Lebanon, 1,586 injured, 816,000 displaced in 2026 phase."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 16-17: Israel expands ground operation, launches simultaneous strikes on Beirut Hezbollah infrastructure. 886+ killed (67 women, 111 children), 2,141 wounded, 1M+ displaced. Hezbollah attacks Israeli troops in 3 border towns. Germany warns ground offensive is 'error.' Netanyahu sends Nowruz wishes while bombing."
       }
     ],
     "libertarianNote": "No American soldier set foot in Lebanon, but American taxpayers funded every bomb that fell on it. The $21.7 billion in military aid to Israel since October 2023 enabled the destruction of a country that was already in economic freefall — GDP had contracted 5.7% in 2024 before the invasion. Lebanon posed zero direct threat to US national security. The AIPAC lobby spent $221 million on US political campaigns to ensure this funding continued without question. American weapons created $14 billion in damage to a country with a GDP of $18 billion. The US vetoed UN ceasefire resolutions while providing intelligence and diplomatic cover. This is what a proxy war looks like: someone else fights, someone else dies, and the American taxpayer pays the bill.",
