@@ -39,7 +39,7 @@ export default function IranWarDashboard() {
       <StatCard label="US Troops Killed" value="13" sub="~200 wounded, 50K+ deployed" />
       <StatCard label="Iranian Casualties" value="3,114+" sub="HRANA: 1,354 civilians, 207 children" />
       <StatCard label="Targets Struck" value="7,000+" sub="in Iran alone (15K+ combined)" />
-      <StatCard label="Oil Price" value="~$110/bbl" sub="South Pars struck — up 6% today" />
+      <StatCard label="Oil Price" value="~$116/bbl" sub="Hit $119 intraday — Ras Laffan struck" />
     </div>
   )
 }

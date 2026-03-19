@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-03-18',
+  dateModified: '2026-03-19',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -67,6 +67,7 @@ const timeline = [
   { date: 'Mar 16', event: 'Israel expands ground operation in southern Lebanon. Airstrikes hit Tehran near airport. Dubai airport drone-struck. Baghdad airport hit. Mojtaba Khamenei appoints former IRGC chief Rezaei as military adviser. Lebanon: 850+ killed, 830K displaced.' },
   { date: 'Mar 17', event: 'US wounded surges to ~200 (CENTCOM). Dozen MQ-9 drones destroyed. 7,000+ targets struck in Iran. Israel strikes Tehran (Saadabad Palace) and Beirut simultaneously. Senior officials Larijani and Basij chief targeted. Amnesty confirms US responsible for Minab school attack. NATO rejects Hormuz mission. Lebanon: 886+ killed, 1M+ displaced. Trump delays China trip, calls Iran "paper tiger."' },
   { date: 'Mar 18', event: 'Israel strikes SOUTH PARS gas field — world\'s largest, shared with Qatar — biggest attack on energy production. Oil nears $110/barrel. Israel kills intelligence minister Khatib — 3rd senior official in 48hrs. Defense minister Nasirzadeh also confirmed killed. Iran retaliates with cluster munitions on Tel Aviv — 2 killed in Ramat Gan. Ben-Gurion Airport and train station damaged. Central Beirut struck WITHOUT WARNING — 10+ killed. HRANA: 3,114 killed in Iran (1,354 civilians, 207 children). Lebanon: 900+ killed. CIA: war will take 4-6 weeks. Trump "not afraid" to put troops on ground.' },
+  { date: 'Mar 19', event: 'Iran strikes Qatar\'s RAS LAFFAN — world\'s largest LNG terminal — 17% capacity sidelined for 3-5 years. Oil hits $119/barrel intraday. Pentagon demands $200B from Congress. Hegseth: "largest strike package yet." 5,000-lb penetrators on underground sites. Trump says he "knew nothing" about Israel\'s South Pars strike. Threatens to "massively blow up" South Pars if Iran attacks Qatar. Lebanon crosses 1,001 dead. Global markets crash. Bessent considers suspending Iranian oil sanctions. No end in sight. Day 20.' },
 ]
 
 const costProjections = [
@@ -98,7 +99,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE</span>
-          <span className="text-stone-500 text-sm">Last updated: March 18, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: March 19, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

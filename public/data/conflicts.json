@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 19 (March 18): 13 US troops dead, ~200 wounded; 1,444+ Iranians killed (HRANA: 3,114 including 207 children), 18,551 injured; 900+ killed in Lebanon, 1M+ displaced; 7,000+ targets struck in Iran alone. Israel strikes South Pars gas field — oil nears $110. Intelligence minister Khatib assassinated — third senior official in 48 hours. Iran retaliates with cluster munitions on Tel Aviv — 2 killed. Central Beirut bombed without warning. CIA says war will take 4-6 weeks. Trump 'not afraid' to put troops on ground. No exit strategy. Largest US military operation since Iraq 2003.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 20 (March 19): 13 US troops dead, ~200 wounded; HRANA: 3,114 killed in Iran (1,354 civilians, 207 children); 1,001+ killed in Lebanon, 1M+ displaced; 7,000+ targets struck in Iran alone. Iran strikes Qatar's Ras Laffan LNG terminal — 17% capacity sidelined 3-5 years. Pentagon demands $200B from Congress. Oil hits $119/barrel. 'Largest strike package yet.' European gas prices double. No exit strategy. Largest US military operation since Iraq 2003.",
     "costNominal": 24500000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
@@ -5780,7 +5780,7 @@
     "civilianDeaths": 1444,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 19 (March 18): Israel strikes South Pars gas field — largest attack on Iran's energy production. Oil nears $110/barrel. Israel kills intelligence minister Khatib — third senior official assassinated in 48 hours. Iran retaliates with cluster munitions on Tel Aviv — 2 killed in Ramat Gan. Central Beirut struck without warning — 10+ killed. CIA Director Ratcliffe tells Senate war will take 4-6 weeks. Trump 'not afraid' to put troops on ground. HRANA: 3,114 killed in Iran (1,354 civilians, 207 children). Lebanon: 900+ killed. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 20 (March 19): Iran strikes Qatar's Ras Laffan — world's largest LNG terminal — 17% capacity sidelined 3-5 years. Pentagon demands $200B supplemental. 'Largest strike package yet' with 5,000-lb penetrators. Oil spikes to $119/barrel. European gas doubles. Lebanon crosses 1,001 dead. HRANA: 3,114 killed in Iran. Treasury considering suspending Iran oil sanctions. No ceasefire, no exit strategy, no 'definitive time frame' to end war.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5899,6 +5899,10 @@
       {
         "year": 2026,
         "event": "Mar 18 (Day 19): Israel strikes South Pars gas field — world's largest natural gas reserve (shared with Qatar) — biggest attack on Iran's energy production. Brent crude surges to ~$110/barrel. Israel kills intelligence minister Esmaeil Khatib — third senior official in 48 hours (after Larijani and Basij chief). Defense minister Nasirzadeh also confirmed killed. HRANA: 3,114 killed in Iran (1,138 military, 1,354 civilians, 207 children). Iran retaliates with cluster munitions on Tel Aviv — 2 killed in Ramat Gan, Ben-Gurion Airport and train station damaged. Israel strikes central Beirut without warning — 10+ killed. Lebanon: 900+ killed. CIA Director Ratcliffe tells Senate war will take 4-6 weeks. Trump 'not afraid' to put troops on ground. Jones Act waived 60 days. Kataib Hezbollah commander killed in Iraq."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 19 (Day 20): ENERGY WAR EXPLODES: Iran retaliates for South Pars by striking Qatar's RAS LAFFAN — world's largest LNG export terminal — 12.8M tons capacity (17% of Qatar's total) sidelined for 3-5 YEARS. European natural gas prices more than DOUBLE pre-war. Pentagon demands $200 BILLION supplemental from Congress. 'LARGEST STRIKE PACKAGE YET' — 5,000-lb penetrators on underground facilities. Oil spikes to $119/barrel intraday, settles ~$111-116. Lebanon crosses 1,001 dead (79 women, 118 children, 40 healthcare workers). Treasury Sec Bessent considering SUSPENDING SANCTIONS on Iranian oil to ease prices. Iran suspends gas to Iraq. Trump contradicts Israel on South Pars. FBI investigating resigned NCTC director Joe Kent. WTO warns global trade growth drop. No 'definitive time frame' to end war."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6029,10 +6033,10 @@
       "battleDeaths": 0,
       "missing": 0
     },
-    "civilianDeaths": 4681,
+    "civilianDeaths": 5048,
     "troopsDeployed": 0,
     "outcome": "Developing",
-    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 886+ killed (67 women, 111 children), 2,141 wounded, 1M+ displaced. Israel expanding ground operation. Germany warns ground op is 'error.' No US troops directly involved — funded entirely through military aid to Israel.",
+    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 1,001+ killed (79 women, 118 children, 40 healthcare workers), 2,584 wounded, 1M+ displaced (Lebanese Health Ministry, Mar 19). Israel expanding ground operation. Germany warns ground op is 'error.' No US troops directly involved — funded entirely through military aid to Israel.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization for Lebanon operations specifically. Military aid to Israel approved through supplemental appropriations ($8.7B in April 2024). No debate on whether US weapons should be used in Lebanon.",
     "keyEvents": [

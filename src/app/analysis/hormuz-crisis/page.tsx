@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Kharg Island struck. Oil at $106, peaked $119.50. IEA releases 400M barrels. Trump threatens to destroy Iran\'s oil infrastructure. $3.63/gallon gas. The global economy is in crisis.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Iran strikes Qatar\'s Ras Laffan LNG terminal — 17% capacity sidelined 3-5 years. Oil hits $119/barrel. European gas doubles. Pentagon demands $200B. Bessent considers lifting Iranian oil sanctions. The energy war is here.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -39,6 +39,7 @@ const historicalThreats = [
   { year: 'Mar 14, 2026', event: 'Kharg Island struck — Trump threatens oil infrastructure', details: 'CENTCOM executes "large-scale precision strike" on Kharg Island — Iran\'s primary oil export terminal handling 90% of crude exports — destroying 90 military targets while sparing oil infrastructure. Trump warns: if Iran interferes with Hormuz, he will "immediately reconsider" and "wipe out the Oil Infrastructure." Iran selectively allows passage for 2 Indian LPG carriers and 1 Turkish ship, while blocking all others. Brent crude settles at $103.14/barrel; peaked at $119.50 during the week. IEA releases 400M barrels from global reserves; US releases 172M barrels from SPR. Gas prices: $3.63/gallon avg (up 55¢ YoY). Trump calls on China, France, and UK to send ships to keep Hormuz open — a tacit admission the US Navy cannot secure the strait alone while fighting Iran. IRGC threatens UAE, calling US facilities there "legitimate targets." ISW reports Iran allowing selective passage may be an attempt to peel off neutral countries while maintaining leverage.' },
   { year: 'Mar 17, 2026', event: 'NATO rejects Hormuz mission — allies refuse Trump', details: 'European NATO allies flatly reject Trump\'s demand to send warships to reopen Hormuz. Germany: "no intention of joining." EU foreign policy chief: "no appetite." Iran FM Araghchi tells CBS: Hormuz is "open to everyone, except American ships and those of its allies." Brent crude settles at $103.42, up 3.2%. Iran warns Hormuz "cannot be the same." Trump waives Jones Act for 60 days to ease domestic oil market.' },
   { year: 'Mar 18, 2026', event: 'South Pars struck — energy war escalation', details: 'Israel strikes the South Pars gas field — the world\'s largest natural gas reserve, shared with Qatar — the biggest attack on Iran\'s energy production since the war began. Oil and petrochemical facilities in Asaluyeh also hit. Fires at several refinery units (later contained). Brent crude surges 6% to approach $110/barrel. Natural gas up 6%. Qatar condemns strikes as "dangerous and irresponsible" — warns targeting shared energy infrastructure threatens global energy security. Iran threatens to retaliate against energy infrastructure of US allies — IRGC warns Saudis, Emiratis, and Qataris to stay away from oil/gas facilities. Trump waives Jones Act for 60 days. CIA Director Ratcliffe tells Senate the war will take 4-6 weeks.' },
+  { year: 'Mar 19, 2026', event: 'Iran strikes Ras Laffan — energy war goes global', details: 'Iran retaliates for South Pars by striking Qatar\'s Ras Laffan Industrial City — the world\'s largest LNG export terminal. Missile hits cause "extensive damage" and fires. QatarEnergy CEO says 12.8M tons of LNG capacity (17% of Qatar\'s total) sidelined for 3-5 YEARS. European natural gas prices more than double pre-war levels, hitting 3-year highs. Brent crude spikes to $119/barrel intraday before settling around $111-116. UK PM Starmer condemns strike. Global stock markets crash: Nikkei -3.4%, FTSE -2.3%, US indexes down. Iran suspends gas flow to Iraq to shore up domestic supplies. Treasury Sec Bessent says US considering suspending sanctions on Iranian oil (~140M barrels on water) to ease prices. Trump threatens to "massively blow up" all of South Pars if Iran attacks Qatar again. WTO warns trade growth could drop 0.5 percentage points if energy prices stay elevated. The energy war is no longer hypothetical — it is here.' },
 ]
 
 const alternativeRoutes = [
@@ -91,7 +92,7 @@ export default function HormuzCrisisPage() {
         </div>
         <ul className="space-y-2 text-stone-300">
           <li>📊 <strong className="text-white">20-21 million barrels/day</strong> of oil and <strong className="text-white">~15% of global LNG</strong> transit the Strait of Hormuz — closed for the first time ever on Feb 28, 2026</li>
-          <li>📊 Oil prices heading toward <strong className="text-white">$100+/barrel</strong>; tanker insurance premiums have <strong className="text-white">tripled</strong></li>
+          <li>📊 Oil prices hit <strong className="text-white">$119/barrel</strong> (Mar 19); tanker insurance premiums have <strong className="text-white">tripled</strong>; European gas prices <strong className="text-white">doubled</strong></li>
           <li>📊 American gas prices projected to hit <strong className="text-white">$4.50–6.00/gallon</strong> within weeks; food prices up <strong className="text-white">15-25%</strong> within 60 days</li>
           <li>📊 Alternative pipelines can only handle <strong className="text-white">~30%</strong> of normal Hormuz traffic — and most are already at or near capacity</li>
           <li>📊 Iran has begun <strong className="text-white">mining the Strait</strong> — CENTCOM destroyed 16 minelayers on Day 11. Iran has <strong className="text-white">5,000+ mines</strong> in inventory</li>
@@ -209,8 +210,8 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Mar 12, 2026):</strong> Non-Iranian maritime traffic down 80%. Iran mining the strait — 16 minelayers destroyed, 5,000+ mines in inventory. 
-          15M bbl/day crude + 4.5M bpd refined fuels stranded. Iran paradoxically still exporting 2.1M bbl/day. Oil past $100/barrel.
+          <strong>Current status (as of Mar 19, 2026):</strong> Non-Iranian maritime traffic down 80%. Iran mining the strait — 16+ minelayers destroyed, 5,000+ mines in inventory. 
+          15M bbl/day crude + 5M bpd refined fuels stranded. Iran still exporting 2.1M bbl/day. Oil hit $119/barrel. Iran struck Qatar&apos;s Ras Laffan LNG terminal — 17% capacity offline for 3-5 years. European gas prices doubled.
         </p>
       </div>
 
