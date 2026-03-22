@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 22: Treasury eases oil sanctions in desperation. 22 nations pledge safe passage. CENTCOM destroys cruise missile sites along coast. Iran fires at Diego Garcia (2,500 mi). Oil $107/barrel. Iran selectively allowing China/India through while blocking US allies. The energy war continues.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 23: Trump issues 48-HOUR ULTIMATUM — threatens to "obliterate" power plants if Hormuz not reopened. Iran threatens "irreversible damage" to regional energy. UAE/Bahrain/UK/France/Germany condemn "de facto closure." Saudi expels Iranian diplomats. Oil surges to $112/barrel. The energy war escalates.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

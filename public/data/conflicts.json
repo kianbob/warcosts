@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 22 (March 21): 13 US troops dead, ~200 wounded; HRANA: 3,114 killed in Iran (1,394 civilians, 207 children); 1,000+ killed in Lebanon, 1M+ displaced; 8,000+ targets struck in Iran, 130 vessels destroyed. Trump signals 'winding down' — Israel vows to 'escalate significantly.' Iran fires missiles at Diego Garcia (2,500 mi). Treasury eases oil sanctions. 22 nations pledge Hormuz passage. Natanz struck again. Pentagon demands $200B. Oil ~$107/barrel. No exit strategy. Largest US military operation since Iraq 2003.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 23 (March 22): 13 US troops dead, ~200 wounded; HRANA: 3,230 killed in Iran (1,406 civilians, 210+ children); Iran state media: 1,500+ killed, 20,984 injured; 1,000+ killed in Lebanon, 1M+ displaced; 8,000+ targets struck, 130 vessels destroyed. Trump issues 48-HOUR ULTIMATUM to 'obliterate' Iran's power plants if Hormuz not reopened. Iran threatens 'irreversible damage' to regional energy. Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Saudi expels Iranian diplomats. Turkey mediates. Oil ~$112/barrel. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
     "costNominal": 24500000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
@@ -5777,10 +5777,10 @@
       "battleDeaths": 7,
       "missing": 0
     },
-    "civilianDeaths": 1444,
+    "civilianDeaths": 1500,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 22 (March 21): Trump signals 'winding down' operations — Israel vows to 'escalate significantly' next week — allies publicly diverging. Iran fires missiles at Diego Garcia (2,500 mi from Iran). Treasury eases oil sanctions on ~140M barrels at sea. Natanz struck again. CENTCOM: 8,000+ targets, 130 vessels destroyed. 22 nations pledge Hormuz safe passage. HRANA: 1,394 civilians killed. Lebanon: 1,000+ dead, 1M+ displaced. Pentagon demands $200B. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 23 (March 22): Trump issues 48-HOUR ULTIMATUM — threatens to 'obliterate' Iran's power plants if Hormuz not reopened. Iran threatens 'irreversible damage' to regional energy infrastructure. Iranian missiles break through Israeli defenses at Dimona/Arad — 100+ wounded near nuclear site. HRANA: 3,230 killed in Iran (1,406 civilians, 210+ children). Saudi expels Iranian diplomats. Turkey FM mediates with Iran/Egypt/EU/US. Oil surges to ~$112/barrel. Lebanon: 1,000+ dead, 1M+ displaced. No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5911,6 +5911,10 @@
       {
         "year": 2026,
         "event": "Mar 21 (Day 22): ALLIES DIVERGE: Trump signals 'winding down' operations — Israel defense minister Katz vows strikes will 'escalate significantly' next week. Iran fires missiles at Diego Garcia (US-UK Indian Ocean base, 2,500 mi from Iran) — farthest strike of the war, unsuccessful. Natanz nuclear site struck again (no radioactive leak). Treasury EASES oil sanctions — allows ~140M barrels at sea to be sold. 22 countries (including UAE) pledge Hormuz safe passage. CENTCOM: 8,000+ targets hit, 130 vessels destroyed. Eid under bombs in Beirut. IDF kills 4 Hezbollah fighters. Lebanon: 1,000+ dead, 2,600+ wounded, 1M+ displaced. Iranian cluster munition hits kindergarten in Rishon LeZion (schools closed). UAE intercepts 3 missiles + 8 drones. Bahrain: 143 missiles, 242 drones total. Drone kills Iraqi intelligence officer in Baghdad. Iran FM: not seeking ceasefire but 'complete end to war.' Iranian charged trying to enter UK nuclear submarine base. HRANA: 1,394 civilians killed."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 22 (Day 23): 48-HOUR ULTIMATUM: Trump threatens to 'obliterate' Iran's power plants if Hormuz not reopened. Iran threatens 'irreversible damage' to regional energy. Iranian missiles break through Israeli defenses at Dimona/Arad — 100+ wounded near nuclear research center. Iran death toll: 1,500+ (state media), 3,230 (HRANA — 1,406 civilians, 210+ children), 20,984 injured. Saudi expels Iranian diplomats. Turkey FM mediates with Iran/Egypt/EU/US. Israel intensifies Lebanon demolitions. Islamic Resistance in Iraq: 21 attacks on US bases in 24 hours. Brent crude ~$112/barrel. CBS poll: most Americans say war not going well. No ceasefire."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

@@ -53,7 +53,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 22: Trump signals &ldquo;winding down&rdquo; — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi away). Natanz hit again. Treasury eases oil sanctions. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 23: Trump&apos;s 48-HOUR ULTIMATUM — threatens to &ldquo;obliterate&rdquo; Iran&apos;s power plants. Iran threatens &ldquo;irreversible damage.&rdquo; Missiles hit Dimona — 100+ wounded near Israeli nuclear site. Iran: 1,500+ dead (3,230 per HRANA). Saudi expels Iranian diplomats. Oil $112/barrel.</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -71,11 +71,11 @@ export default function HomePage() {
             {/* Key Stats Bar */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {[
-                { value: '3,114+', label: 'Killed in Iran (HRANA)' },
+                { value: '3,230+', label: 'Killed in Iran (HRANA)' },
                 { value: '13', label: 'US Dead / 200 Wounded' },
                 { value: '1,000+', label: 'Killed in Lebanon' },
                 { value: '$200B', label: 'Pentagon Demands from Congress' },
-                { value: '~$107', label: 'Oil per Barrel (sanctions eased)' },
+                { value: '~$112', label: 'Oil per Barrel (ultimatum spike)' },
                 { value: '8,000+', label: 'Targets Struck in Iran' },
               ].map((s, i) => (
                 <div key={i} className="text-center">
@@ -87,15 +87,15 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 21 (March 20)</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 23 (March 22)</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 21', text: 'Thousands more Marines deploying — USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Mojtaba Khamenei\'s Nowruz message: "enemy defeated." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-2026' },
-                { time: 'Day 20', text: 'Iran strikes Qatar\'s Ras Laffan LNG terminal — 17% capacity offline 3-5 years. Pentagon demands $200B. Oil hits $119. "Largest strike package yet." Lebanon: 1,001 dead. European gas doubles. Bessent considers suspending Iran sanctions.', link: '/analysis/iran-2026' },
-                { time: 'Day 19', text: 'Israel strikes South Pars gas field — oil nears $110. Intelligence minister Khatib assassinated — 3rd senior official in 48hrs. Iran fires cluster munitions on Tel Aviv — 2 killed. Central Beirut bombed without warning. CIA: war takes 4-6 weeks.', link: '/analysis/iran-2026' },
-                { time: 'Day 18', text: 'US wounded surges to ~200. Dozen MQ-9 drones destroyed. 7,000+ targets in Iran. Larijani and Basij chief killed. Amnesty confirms US responsible for Minab school attack. NATO rejects Hormuz mission. Lebanon: 886+ killed, 1M+ displaced.', link: '/analysis/iran-2026' },
-                { time: 'Day 17', text: 'Israel expands ground operation in southern Lebanon. Tehran airport area struck. Dubai airport hit by drone. Baghdad airport attacked. Mojtaba Khamenei appoints former IRGC chief as military adviser.', link: '/analysis/iran-2026' },
+                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iran threatens "irreversible damage" to regional energy. Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Iran: 1,500+ dead, 20,984 injured (3,230 per HRANA). Saudi expels Iranian diplomats. Turkey mediates. Oil surges to $112/barrel.', link: '/analysis/iran-2026' },
+                { time: 'Day 22', text: 'Trump signals "winding down" — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi). Natanz hit again. Treasury eases oil sanctions. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.', link: '/analysis/iran-2026' },
+                { time: 'Day 21', text: 'USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-2026' },
+                { time: 'Day 20', text: 'Iran strikes Qatar\'s Ras Laffan LNG terminal — 17% capacity offline 3-5 years. Pentagon demands $200B. Oil hits $119. "Largest strike package yet." Lebanon: 1,001 dead. European gas doubles.', link: '/analysis/iran-2026' },
+                { time: 'Day 19', text: 'Israel strikes South Pars gas field — oil nears $110. Intelligence minister Khatib assassinated — 3rd senior official in 48hrs. Iran fires cluster munitions on Tel Aviv — 2 killed. Central Beirut bombed without warning.', link: '/analysis/iran-2026' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>
