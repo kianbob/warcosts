@@ -53,7 +53,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 23: Trump&apos;s 48-HOUR ULTIMATUM — threatens to &ldquo;obliterate&rdquo; Iran&apos;s power plants. Iran threatens &ldquo;irreversible damage.&rdquo; Missiles hit Dimona — 100+ wounded near Israeli nuclear site. Iran: 1,500+ dead (3,230 per HRANA). Saudi expels Iranian diplomats. Oil $112/barrel.</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 24: Trump POSTPONES power plant ultimatum 5 days — claims &ldquo;very strong talks&rdquo; with Iran. Iran disputes: &ldquo;a ploy to buy time.&rdquo; Bombs keep falling — civilians killed in Khorramabad &amp; Tabriz. 2,000+ killed across all theaters. Oil drops to ~$100 on talk of talks. IEA: &ldquo;worse than 1973 and 1979.&rdquo;</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
