@@ -53,7 +53,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 24: Trump POSTPONES power plant ultimatum 5 days — claims &ldquo;very strong talks&rdquo; with Iran. Iran disputes: &ldquo;a ploy to buy time.&rdquo; Bombs keep falling — civilians killed in Khorramabad &amp; Tabriz. 2,000+ killed across all theaters. Oil drops to ~$100 on talk of talks. IEA: &ldquo;worse than 1973 and 1979.&rdquo;</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 25: Iran missiles hit Tel Aviv (6+ injured) and Kurdish Iraq (6 killed). Lebanon EXPELS Iranian ambassador. Israel claims permanent &ldquo;security zone&rdquo; to Litani River. MBS secretly pushing Trump to continue war. Philippines declares national energy emergency. Oil rebounds to ~$103. 9,000+ US strikes. No exit strategy.</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -75,8 +75,8 @@ export default function HomePage() {
                 { value: '13', label: 'US Dead / 200 Wounded' },
                 { value: '1,000+', label: 'Killed in Lebanon' },
                 { value: '$200B', label: 'Pentagon Demands from Congress' },
-                { value: '~$112', label: 'Oil per Barrel (ultimatum spike)' },
-                { value: '8,000+', label: 'Targets Struck in Iran' },
+                { value: '~$103', label: 'Oil per Barrel (rebounding)' },
+                { value: '9,000+', label: 'Strikes in Iran (CENTCOM)' },
               ].map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
@@ -87,15 +87,15 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 23 (March 22)</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 25 (March 24)</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iran threatens "irreversible damage" to regional energy. Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Iran: 1,500+ dead, 20,984 injured (3,230 per HRANA). Saudi expels Iranian diplomats. Turkey mediates. Oil surges to $112/barrel.', link: '/analysis/iran-2026' },
+                { time: 'Day 25', text: 'Iran missiles hit Tel Aviv (3+ buildings damaged, 6+ injured) and Kurdish Iraq (6 killed, 30 wounded). Lebanon EXPELS Iranian ambassador. Israel claims permanent "security zone" to Litani River. MBS secretly pushing Trump to continue war (NYT). Philippines declares national energy emergency. Iran names hardliner Zolghadr as security chief. Oil rebounds to $103. 9,000+ US strikes.', link: '/analysis/iran-2026' },
+                { time: 'Day 24', text: 'Trump BLINKS — postpones power plant ultimatum 5 days, claims "very strong talks." Iran disputes: "a ploy to buy time." Bombs keep falling — civilians killed in Khorramabad & Tabriz. Oman brokers safe passage. Oil drops to ~$100. IEA: "worse than 1973 and 1979 combined."', link: '/analysis/iran-2026' },
+                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iran threatens "irreversible damage." Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Saudi expels Iranian diplomats. Turkey mediates. Oil surges to $112.', link: '/analysis/iran-2026' },
                 { time: 'Day 22', text: 'Trump signals "winding down" — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi). Natanz hit again. Treasury eases oil sanctions. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.', link: '/analysis/iran-2026' },
                 { time: 'Day 21', text: 'USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-2026' },
-                { time: 'Day 20', text: 'Iran strikes Qatar\'s Ras Laffan LNG terminal — 17% capacity offline 3-5 years. Pentagon demands $200B. Oil hits $119. "Largest strike package yet." Lebanon: 1,001 dead. European gas doubles.', link: '/analysis/iran-2026' },
-                { time: 'Day 19', text: 'Israel strikes South Pars gas field — oil nears $110. Intelligence minister Khatib assassinated — 3rd senior official in 48hrs. Iran fires cluster munitions on Tel Aviv — 2 killed. Central Beirut bombed without warning.', link: '/analysis/iran-2026' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>
