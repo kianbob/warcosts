@@ -70,8 +70,6 @@ export default function Footer() {
             <li><a href="https://www.spacgraveyard.com" className="hover:text-white">SPACGraveyard</a></li>
             <li><a href="https://www.aiexposure.org" className="hover:text-white">AI Exposure</a></li>
             <li><a href="https://www.tarifftax.org" className="hover:text-white">TariffTax</a></li>
-            <li><a href="https://powermap-app.vercel.app" className="hover:text-white">PowerMap</a></li>
-            <li><a href="https://openhousing-app.vercel.app" className="hover:text-white">OpenHousing</a></li>
             <li><a href="https://thedataproject.ai" className="hover:text-white">TheDataProject.ai</a></li>
           </ul>
         </div>
