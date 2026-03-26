@@ -5767,8 +5767,8 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 25 (March 24): 13-14 US troops dead, ~200 wounded; 2,000+ killed across all theaters (NYT); HRANA: 3,230 killed in Iran (1,406 civilians, 210+ children); 1,000+ killed in Lebanon, 1M+ displaced; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Iran still hitting Tel Aviv (6+ injured), Kurdish Iraq (6 killed), and Gulf states despite devastation. Lebanon expels Iranian ambassador. Israel claims permanent 'security zone' to Litani River. MBS secretly pushing Trump to continue war (NYT). Philippines declares national energy emergency — first country to do so. Iran appoints hardliner IRGC general as security chief. Oil rebounds to ~$103. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
-    "costNominal": 24500000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 27 (March 26): 13 US troops dead, ~200 wounded; Iran: 1,937 killed, 24,800 injured (Health Ministry); 1,094 killed in Lebanon (121 children), 3,119 wounded, 1M+ displaced; Israel: 19 killed, 5,229 wounded; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade. Iran rejects US 15-point ceasefire, issues counterproposal. Trump warns 'before it is too late.' 82nd Airborne deploying. Oil surges to $106/barrel. Pakistan army chief mediating. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
+    "costNominal": 25000000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
     "usCasualties": {
@@ -5777,10 +5777,10 @@
       "battleDeaths": 7,
       "missing": 0
     },
-    "civilianDeaths": 1500,
+    "civilianDeaths": 1937,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 25 (March 24): Iran missiles hit Tel Aviv (6+ injured), Kurdish Iraq (6 killed, 30 wounded), Bahrain (1 killed, 5 injured) — capability intact despite 9,000+ US strikes. Lebanon expels Iranian ambassador. Israel claims permanent 'security zone' to Litani River. MBS secretly pushing Trump to continue (NYT). Philippines declares national energy emergency. Iran appoints hardliner Zolghadr as security chief. Oil rebounds to ~$103. Pakistan offers to mediate. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 27 (March 26): Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade. Iran rejects 15-point ceasefire, issues counterproposal. Trump warns 'before it is too late,' says Iran 'begging to make a deal.' 82nd Airborne deploying to Middle East. Oil surges to $106/barrel. Iran: 1,937 killed, 24,800 injured. Lebanon: 1,094 killed. Israel: 19 killed, 5,229 wounded. Pakistan army chief mediating. Speaker Johnson claims 'Epic Fury almost done.' No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5923,6 +5923,14 @@
       {
         "year": 2026,
         "event": "Mar 24 (Day 25): IRAN STILL HITTING: Missiles strike Tel Aviv (3+ buildings damaged, 6+ injured), Kurdish Iraq (6 killed, 30 wounded), Bahrain (Moroccan contractor killed, 5 Emirati soldiers injured) — capability intact despite 9,000+ US strikes. Lebanon EXPELS Iranian ambassador (persona non grata, must leave by Mar 29). Israel's Katz claims permanent 'security zone' up to Litani River (30km deep). MBS secretly pushing Trump to continue war — sees 'historic opportunity' (NYT). Philippines declares NATIONAL ENERGY EMERGENCY — first country to do so. South Korea urges shorter showers. Iran names hardliner IRGC general Zolghadr as top security chief (replacing killed Larijani) — war consolidating military control over Iran. US strike pause applies ONLY to energy sites (Reuters/Semafor). Rubio heading to G7. Pakistan offers to mediate. Oil rebounds to ~$103."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 25 (Day 26): CEASEFIRE REJECTED: Iran dismisses US 15-point ceasefire plan, issues counterproposal. Trump threatens to 'hit harder.' Iran shuns Witkoff/Kushner — prefers VP Vance as intermediary (CNN). Pentagon orders 2,000+ 82nd Airborne troops to Middle East (NYT), plus 3,000-4,000 more (Reuters). 12 killed in south Tehran strikes. HRANA: 664 attacks in 28 provinces. Abbas Kiarostami's house damaged. Iran claims targeting US F-18. Updated Al Jazeera tracker: Iran 1,937 killed, 24,800 injured. Israel: 18 killed, 5,045 wounded. Lebanon: 1,072+ killed. Oil dips to ~$100 then rebounds."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 26 (Day 27): HORMUZ COMMANDER KILLED: Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade (NYT/ABC). Trump warns Iran to accept deal 'before it is too late,' says Iran 'begging to make a deal, not me.' White House: Trump prepared to 'unleash hell.' Speaker Johnson: 'Epic Fury is almost done.' Iran fires more missiles at Israel and Gulf states. Israeli strikes kill 5 in Lebanon. Oil surges to $106/barrel — up $6 in one day. Pakistan army chief emerges as key intermediary (NYT). Lebanon: 1,094 killed (121 children), 3,119 wounded. Israel: 19 killed, 5,229 wounded. Iran rejects ceasefire outright. Blockade commander dead, blockade continues."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

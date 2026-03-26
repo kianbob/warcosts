@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 25: Philippines declares NATIONAL ENERGY EMERGENCY — first country to do so. South Korea urges shorter showers. Oil rebounds to ~$103 as Iran disputes talks. Iran still hitting Gulf states despite 9,000+ US strikes. Hormuz remains closed to Western shipping. Oman brokering safe passage. The energy crisis is breaking countries that aren\'t even in the war.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 27: Israel KILLS IRGC Navy commander Alireza Tangsiri — architect of the Hormuz blockade. Iran rejects 15-point ceasefire. Oil surges to $106/barrel. Iran says "non-hostile" ships can pass but tanker operators won\'t risk it. India and Pakistan sending destroyers to escort tankers. Reuters: Western navies failed in Red Sea — Hormuz will be harder. The blockade commander is dead but the blockade continues.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
