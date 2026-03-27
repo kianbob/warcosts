@@ -6,10 +6,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 12, 2026 (Day 13).',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 27, 2026 (Day 28).',
   openGraph: {
     title: 'Iran 2026: A Day-by-Day Account',
-    description: 'The first 13 days of Operation Epic Fury — a factual war diary with verified numbers. $11.3B in 6 days. 1,348 killed. Oil above $100.',
+    description: 'The first 28 days of Operation Epic Fury — a factual war diary with verified numbers. 3,300+ killed. 10,000+ targets struck. Oil at $108.',
     url: 'https://www.warcosts.org/analysis/iran-day-by-day',
   },
 }
@@ -47,7 +47,7 @@ export default function IranDayByDayPage() {
             headline: 'Iran 2026: A Day-by-Day Account',
             description: 'A factual chronological timeline of the US-Iran war with verified numbers.',
             datePublished: '2026-03-03T00:00:00Z',
-            dateModified: '2026-03-12T18:00:00Z',
+            dateModified: '2026-03-27T22:00:00Z',
             author: { '@type': 'Organization', name: 'WarCosts.org' },
             publisher: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
           }),
@@ -58,11 +58,11 @@ export default function IranDayByDayPage() {
 
       {/* Hero */}
       <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
-        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 12, 2026</p>
+        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 27, 2026</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Iran 2026: A Day-by-Day Account
         </h1>
-        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — Days 1 Through 13</p>
+        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — Days 1 Through 28</p>
         <p className="text-stone-400 text-lg">
           This is not opinion. This is a factual chronological record of what happened, with verified numbers,
           sourced claims, and a running cost estimate. Every number is cited. Every claim is documented.
@@ -75,20 +75,20 @@ export default function IranDayByDayPage() {
       <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
         <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">📊</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 13 (March 12, 2026)</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 28 (March 27, 2026)</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">8</span>
-            <p className="text-stone-400 text-sm mt-1">US Dead</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">15</span>
+            <p className="text-stone-400 text-sm mt-1">US Dead (303 wounded)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">1,348</span>
-            <p className="text-stone-400 text-sm mt-1">Iranian Dead (Iran UN rep)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">3,300+</span>
+            <p className="text-stone-400 text-sm mt-1">Iranian Dead (HRANA)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$24.5B</span>
-            <p className="text-stone-400 text-sm mt-1">Est. Cost (13 days)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$52B+</span>
+            <p className="text-stone-400 text-sm mt-1">Est. Cost (28 days)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
             <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">12+</span>
@@ -757,6 +757,337 @@ export default function IranDayByDayPage() {
         <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
           <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$24.5 billion</span></span>
           <span className="text-stone-400">Total dead (all countries): <span className="text-red-400 font-bold">2,100+</span></span>
+        </div>
+      </div>
+
+      {/* DAY 14 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 14</span>
+          <span className="text-stone-400 text-sm">Thursday, March 13, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">All 6 KC-135 Crew Dead. New Supreme Leader.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">US DEATH TOLL RISES</p>
+            <p>
+              All 6 crew members of the KC-135 tanker that crashed in Iraq on Day 13 are confirmed dead — pushing the US death toll to <strong className="text-red-400">13+</strong>. CENTCOM confirms 15,000+ targets have now been struck. Iran reports <strong className="text-red-400">1,444 killed, 18,551 injured</strong>. New Supreme Leader <strong className="text-white">Mojtaba Khamenei</strong> vows continued attacks. 250+ US organizations demand Congress halt war funding. Israel strikes Tehran and Shiraz.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">US Dead: <span className="text-red-400 font-bold">13+</span></span>
+          <span className="text-stone-400">Targets struck: <span className="text-white font-bold">15,000+</span></span>
+        </div>
+      </div>
+
+      {/* DAY 15 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 15</span>
+          <span className="text-stone-400 text-sm">Friday, March 14, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Kharg Island Struck. $200B Pentagon Request.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">OIL INFRASTRUCTURE ESCALATION</p>
+            <p>
+              US strikes <strong className="text-white">90 military targets on Kharg Island</strong> — Iran&apos;s primary oil export hub handling 90% of Iran&apos;s crude exports. Trump threatens to destroy all oil infrastructure if Hormuz stays closed. IRGC threatens UAE. <strong className="text-white">2,500 Marines + USS Tripoli</strong> deploying from Japan. Israel hits Iranian Space Agency. Explosion at Quds Day rally in Tehran — Mojtaba Khamenei &ldquo;likely disfigured.&rdquo; Brent crude: $103. CSIS estimates <strong className="text-red-400">$16.5B spent through Day 12</strong>. 3.2M Iranians displaced. 56% of Americans oppose the war.
+            </p>
+          </div>
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">EVENING — EMBASSY ATTACKED, ALLIES BOMBARDED</p>
+            <p>
+              Missile strikes the helipad inside US Embassy compound in Baghdad — Kataib Hezbollah claims responsibility. US orders ALL Americans to leave Iraq. IDF hits 400th wave of strikes — 200+ military sites in one day. CENTCOM: 6,000+ targets, 60+ ships destroyed. Fujairah (UAE) oil facility ablaze. Bahrain has intercepted 203 drones and 124 missiles since Feb 28. Iran deploying explosive &ldquo;suicide skiffs&rdquo; disguised as fishing boats. Iran moves hundreds of millions in crypto during internet blackout.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$28B+</span></span>
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$103/barrel</span></span>
+        </div>
+      </div>
+
+      {/* DAYS 16-17 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAYS 16-17</span>
+          <span className="text-stone-400 text-sm">March 15–16, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">NATO Refuses Hormuz Mission. Israel Expands Lebanon Ground Op.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p>
+              Trump pressures NATO and China to send warships to Hormuz — gets little traction. Iran FM Araghchi: &ldquo;We never asked for a cease-fire.&rdquo; Brent crude past <strong className="text-red-400">$106/barrel</strong>. California gas exceeds $5/gallon. Israel expands ground operations in southern Lebanon. Airstrikes hit Tehran near airport. Dubai airport drone-struck again. Baghdad airport hit. Mojtaba Khamenei appoints former IRGC chief Rezaei as military adviser. <strong className="text-white">Lebanon: 850+ killed, 830K displaced.</strong>
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$106+/barrel</span></span>
+          <span className="text-stone-400">Lebanon: <span className="text-red-400 font-bold">850+ killed</span></span>
+        </div>
+      </div>
+
+      {/* DAY 18 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 18</span>
+          <span className="text-stone-400 text-sm">Monday, March 17, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">US Wounded Surge. Amnesty Confirms Minab Responsibility.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              US wounded surges to <strong className="text-red-400">~200</strong> (CENTCOM). A dozen MQ-9 Reaper drones destroyed. 7,000+ targets struck. Israel strikes Tehran (Saadabad Palace) and Beirut simultaneously. Senior officials Larijani and Basij chief targeted. <strong className="text-white">Amnesty International confirms US responsible for Minab school attack</strong> — 168 children killed. NATO formally rejects Hormuz mission. Lebanon: 886+ killed, 1M+ displaced. Trump delays China trip, calls Iran &ldquo;paper tiger.&rdquo;
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">US Wounded: <span className="text-red-400 font-bold">~200</span></span>
+          <span className="text-stone-400">Targets struck: <span className="text-white font-bold">7,000+</span></span>
+        </div>
+      </div>
+
+      {/* DAY 19 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 19</span>
+          <span className="text-stone-400 text-sm">Tuesday, March 18, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Israel Strikes World&apos;s Largest Gas Field. Oil Nears $110.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Israel strikes <strong className="text-white">South Pars gas field</strong> — the world&apos;s largest, shared with Qatar — biggest attack on energy production of the war. Oil nears <strong className="text-red-400">$110/barrel</strong>. Israel kills intelligence minister Khatib — 3rd senior official in 48hrs. Defense minister Nasirzadeh also confirmed killed. Iran retaliates with cluster munitions on Tel Aviv — 2 killed in Ramat Gan. Ben-Gurion Airport damaged. Central Beirut struck WITHOUT WARNING — 10+ killed. HRANA: <strong className="text-red-400">3,114 killed</strong> (1,354 civilians, 207 children). CIA estimates war will take 4-6 weeks. Trump &ldquo;not afraid&rdquo; to put troops on ground.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">~$110/barrel</span></span>
+          <span className="text-stone-400">Iran dead (HRANA): <span className="text-red-400 font-bold">3,114</span></span>
+        </div>
+      </div>
+
+      {/* DAY 20 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 20</span>
+          <span className="text-stone-400 text-sm">Wednesday, March 19, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran Hits Qatar&apos;s Ras Laffan LNG Terminal. Oil Hits $119.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Iran strikes Qatar&apos;s <strong className="text-white">Ras Laffan</strong> — the world&apos;s largest LNG terminal — 17% capacity sidelined for 3-5 years. Oil hits <strong className="text-red-400">$119/barrel intraday</strong>. Pentagon demands $200B from Congress. Hegseth: &ldquo;largest strike package yet.&rdquo; 5,000-lb penetrators on underground sites. Trump says he &ldquo;knew nothing&rdquo; about Israel&apos;s South Pars strike, threatens to &ldquo;massively blow up&rdquo; South Pars if Iran attacks Qatar again. Lebanon crosses 1,001 dead. Global markets crash. No end in sight. Day 20.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$119/barrel (intraday)</span></span>
+          <span className="text-stone-400">Lebanon: <span className="text-red-400 font-bold">1,001+ killed</span></span>
+        </div>
+      </div>
+
+      {/* DAY 21 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 21</span>
+          <span className="text-stone-400 text-sm">Thursday, March 20, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Nowruz Under Bombs. Marines Deploy. Pearl Harbor Invoked.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p>
+              USS Boxer departs San Diego with 2,200+ Marines. Trump calls NATO &ldquo;cowards.&rdquo; Netanyahu signals &ldquo;ground component&rdquo; needed. US F-35 emergency landing after Iran combat mission — possibly first American jet struck. Iran warns &ldquo;zero restraint&rdquo; on energy targets. Poland evacuates troops from Iraq. Spain announces €5B aid package. UAE arrests 5 Iran/Hezbollah operatives. Iran questions Germany&apos;s Ramstein Air Base role. Oil settles at $107/barrel. Trump invokes Pearl Harbor to Japanese PM&apos;s face. 7,800+ strikes in Iran. The war enters its fourth week.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$107/barrel</span></span>
+          <span className="text-stone-400">Strikes: <span className="text-white font-bold">7,800+</span></span>
+        </div>
+      </div>
+
+      {/* DAY 22 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 22</span>
+          <span className="text-stone-400 text-sm">Friday, March 21, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Trump Signals &ldquo;Winding Down&rdquo; — Israel Vows Escalation.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Trump posts he is considering &ldquo;winding down&rdquo; operations. Hours later, Israel defense minister Katz says strikes will &ldquo;escalate significantly&rdquo; — public split between allies. Iran fires missiles at <strong className="text-white">Diego Garcia</strong> (2,500 miles away) — farthest Iranian strike of the war. Natanz struck again. Treasury eases oil sanctions — ~140M barrels at sea can be sold. 22 countries pledge Hormuz safe passage. CENTCOM: <strong className="text-white">8,000+ targets struck, 130 vessels destroyed</strong>. Iranian cluster munition hits empty kindergarten in Rishon LeZion. Iran FM: not seeking ceasefire but &ldquo;complete end to war.&rdquo; HRANA: 1,394 civilians killed. Allies diverging.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Targets struck: <span className="text-white font-bold">8,000+</span></span>
+          <span className="text-stone-400">Vessels destroyed: <span className="text-white font-bold">130</span></span>
+        </div>
+      </div>
+
+      {/* DAY 23 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 23</span>
+          <span className="text-stone-400 text-sm">Saturday, March 22, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Trump&apos;s 48-Hour Ultimatum. Dimona Breached.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Trump threatens to &ldquo;obliterate&rdquo; Iran&apos;s power plants if Hormuz not reopened within 48 hours. IRGC warns of &ldquo;irreversible damage.&rdquo; Iranian missiles <strong className="text-white">break through Israeli defenses at Dimona and Arad</strong> — 100+ wounded near nuclear research center. Israeli military admits defense systems FAILED. Netanyahu visits crater. Israel: 4,292 wounded total. HRANA: <strong className="text-red-400">3,230 killed</strong> (1,406 civilians, 210+ children), 20,984 injured. Saudi expels Iranian diplomats. Turkey FM Fidan meets Iran/Egypt/EU/US — first multi-party diplomatic push. Islamic Resistance in Iraq: 21 attacks on US bases in 24 hours. Oil surges to <strong className="text-red-400">~$112/barrel</strong>. CBS poll: most Americans say war NOT going well. The ultimatum clock starts.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">~$112/barrel</span></span>
+          <span className="text-stone-400">Iran dead (HRANA): <span className="text-red-400 font-bold">3,230</span></span>
+        </div>
+      </div>
+
+      {/* DAY 24 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 24</span>
+          <span className="text-stone-400 text-sm">Sunday, March 23, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Trump Blinks. Ultimatum Postponed. Bombs Continue.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p>
+              Trump postpones 48-hour power plant ultimatum by <strong className="text-white">5 DAYS</strong> — claims &ldquo;very strong talks&rdquo; via Kushner and Witkoff. Iran IMMEDIATELY DISPUTES — calls it a ploy to &ldquo;reduce energy prices and buy time.&rdquo; Oil drops from $114 to ~$100 on the news. But bombs keep falling: 6 killed in Tabriz homes, child killed in Khorramabad residential building. 8,000+ combat flights flown. IRGC claims possible F-35 shootdown. Iran warns Hormuz &ldquo;completely closed&rdquo; if power plants hit. Oman FM working on &ldquo;safe passage arrangements.&rdquo; IDF chief says Lebanon campaign &ldquo;only just begun.&rdquo; 2,000+ killed across all theaters since Feb 28. IEA chief: energy crisis &ldquo;worse than 1973 and 1979 combined.&rdquo;
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$114 → ~$100</span></span>
+          <span className="text-stone-400">All theaters: <span className="text-red-400 font-bold">2,000+ killed</span></span>
+        </div>
+      </div>
+
+      {/* DAY 25 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 25</span>
+          <span className="text-stone-400 text-sm">Monday, March 24, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran Still Hitting. Philippines Energy Emergency. MBS Pushes War.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Iranian missiles strike Tel Aviv — 3+ residential buildings damaged, 6+ injured. Six ballistic missiles hit Kurdish Iraq — 6 killed, 30 wounded. Iranian missile kills Moroccan contractor in Bahrain. Despite 9,000+ US strikes, Iran&apos;s missile capability demonstrably intact. Lebanon EXPELS Iranian ambassador. Defense Minister Katz announces permanent Israeli &ldquo;security zone&rdquo; up to Litani River — 30km deep. <strong className="text-white">MBS secretly pushing Trump to continue war</strong> — sees &ldquo;historic opportunity&rdquo; (NYT). <strong className="text-white">Philippines becomes FIRST country to declare national energy emergency</strong>. South Korea urges shorter showers. Iran names hardliner IRGC general Zolghadr as top security chief. Oil rebounds to ~$103.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">~$103/barrel</span></span>
+          <span className="text-stone-400">Countries in energy crisis: <span className="text-white font-bold">Philippines, S. Korea</span></span>
+        </div>
+      </div>
+
+      {/* DAY 26 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 26</span>
+          <span className="text-stone-400 text-sm">Tuesday, March 25, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Ceasefire Rejected. 82nd Airborne Deploying. Strikes Kill 12 in Tehran.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p>
+              Iran dismisses US 15-point ceasefire plan, issues counterproposal. Trump threatens to &ldquo;hit harder.&rdquo; Iran shuns Witkoff/Kushner — prefers VP Vance as intermediary. Pentagon orders <strong className="text-white">2,000+ 82nd Airborne troops</strong> to Middle East, 3,000-4,000 more expected. Strikes kill 12 in south Tehran. HRANA: 664 attacks across 28 provinces. Filmmaker Abbas Kiarostami&apos;s house damaged. Iran claims targeting US F-18. Updated casualties — Iran: 1,937 killed, 24,800 injured. Israel: 18 killed, 5,045 wounded. Lebanon: 1,072+ killed. Oil dips to ~$100 on ceasefire talk, then rebounds.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">~$100/barrel</span></span>
+          <span className="text-stone-400">Lebanon: <span className="text-red-400 font-bold">1,072+ killed</span></span>
+        </div>
+      </div>
+
+      {/* DAY 27 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 27</span>
+          <span className="text-stone-400 text-sm">Wednesday, March 26, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Hormuz Commander Killed. Oil Surges $6 in One Day.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p>
+              Israel kills IRGC Navy commander <strong className="text-white">Alireza Tangsiri</strong> — architect of the Strait of Hormuz blockade. Trump warns Iran to accept deal &ldquo;before it is too late,&rdquo; says Iran &ldquo;begging to make a deal.&rdquo; White House: Trump prepared to &ldquo;unleash hell.&rdquo; Speaker Johnson claims &ldquo;Epic Fury is almost done.&rdquo; Iran fires more missiles at Israel and Gulf states overnight. Israeli strikes kill 5 in Lebanon. Oil surges to <strong className="text-red-400">$106/barrel — up $6 in one day</strong>. Pakistan army chief emerges as key mediator. Lebanon: 1,094 killed (121 children), 3,119 wounded. Israel: 19 killed, 5,229 wounded. The blockade commander is dead but the blockade continues.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$106/barrel</span></span>
+          <span className="text-stone-400">Israel: <span className="text-red-400 font-bold">19 killed, 5,229 wounded</span></span>
+        </div>
+      </div>
+
+      {/* DAY 28 */}
+      <div className="border-l-4 border-red-600 pl-6 my-10">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="bg-red-700 text-white text-sm font-bold px-3 py-1 rounded">DAY 28</span>
+          <span className="text-stone-400 text-sm">Thursday, March 27, 2026</span>
+        </div>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Iran Blocks Chinese Ships. Israel Targets Steel Factories. 10,000+ Targets Struck.</h2>
+
+        <div className="space-y-4 text-stone-300">
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">HORMUZ — EVEN CHINA CAN&apos;T GET THROUGH</p>
+            <p>
+              Iran turns back <strong className="text-white">2 COSCO-owned Chinese ships</strong> at Hormuz — blocking even &ldquo;friendly&rdquo; nations for the first time. Iran formalizing a &ldquo;toll booth&rdquo; regime charging ships millions for passage. Trump extends power-plant deadline a SECOND time to April 6.
+            </p>
+          </div>
+
+          <div className="bg-red-950 border border-red-800/60 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">INDUSTRIAL WAR ESCALATION</p>
+            <p>
+              Israel shifts to <strong className="text-white">economic/industrial targeting</strong> — strikes Mobarakeh Steel Complex in Isfahan (1 killed, 15 injured) and Khuzestan Steel Industries (16 injured). Also strikes Khondab/Arak heavy water complex (nuclear, no casualties) and weapons production site in Yazd (missile/sea mine factory). Iran threatens retaliatory strikes on steel factories in Israel + 5 other countries. Trump: &ldquo;3,554 targets left&rdquo; — CENTCOM has struck <strong className="text-white">10,000+ military targets</strong>.
+            </p>
+          </div>
+
+          <div className="bg-stone-800 rounded-lg p-4">
+            <p className="text-stone-400 text-xs uppercase tracking-wider mb-1">GLOBAL IMPACT</p>
+            <p>
+              Rubio at G7: &ldquo;war will end in weeks, not months.&rdquo; G7 calls for &ldquo;immediate cessation of attacks against civilians.&rdquo; US crude <strong className="text-red-400">$101+/bbl</strong> (up 7% on day, 50% since war start, 75% since Jan). Brent crude $108. S&P/Nasdaq 5th consecutive week of losses. Several Americans injured at Prince Sultan Air Base — US wounded now <strong className="text-red-400">303</strong>. Iran-linked hackers (Handala) breach FBI Director Kash Patel&apos;s email. Russia sends 313 tons medical supplies to Iran. Philippines transport worker strike in Manila over fuel. <strong className="text-white">70,000+ residential units damaged, 300 health facilities, 600 schools, 120+ cultural sites</strong> across Iran. Houthis threaten &ldquo;direct military intervention.&rdquo; NRC: &ldquo;highest price&rdquo; paid by civilians. HRANA: <strong className="text-red-400">3,300+ killed</strong> (1,492+ civilians, 210+ children). Lebanon: 1,110+ killed. No ceasefire.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-stone-900 rounded-lg p-3 flex justify-between text-sm">
+          <span className="text-stone-400">Running Cost: <span className="text-red-400 font-bold">~$52B+</span></span>
+          <span className="text-stone-400">Oil: <span className="text-red-400 font-bold">$108/barrel (Brent)</span></span>
         </div>
       </div>
 

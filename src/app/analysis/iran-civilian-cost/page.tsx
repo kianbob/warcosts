@@ -6,10 +6,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar | WarCosts',
-  description: '1,348 killed, 17,000 injured. 168 schoolchildren killed in Minab. 200 women dead. 55 healthcare workers wounded, 11 killed. Grand Bazaar destroyed. Golestan Palace damaged. This is what "precision strikes" look like. Updated March 12, 2026 (Day 13).',
+  description: '3,300+ killed, 1,492+ civilians, 210+ children. 70,000+ residential units damaged. 300 health facilities, 600 schools, 120+ cultural sites hit. This is what "precision strikes" look like. Updated March 27, 2026 (Day 28).',
   openGraph: {
     title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
-    description: '1,348 killed. 17,000 injured. 168 schoolchildren. 200 women. 55 healthcare workers wounded. Updated Day 13.',
+    description: '3,300+ killed. 1,492+ civilians. 210+ children. 70,000+ homes damaged. 300 health facilities. 600 schools. Updated Day 28.',
     url: 'https://www.warcosts.org/analysis/iran-civilian-cost',
   },
 }
@@ -98,7 +98,7 @@ const civilianRatios = [
   { conflict: 'Iraq War (2003–2011)', ratio: '~77% civilian', total: '~200,000+ Iraqi civilians (Iraq Body Count)', note: '"Shock and Awe" + 8 years of occupation, insurgency, sectarian violence.' },
   { conflict: 'Afghanistan (2001–2021)', ratio: '~70% civilian', total: '~47,000+ Afghan civilians killed directly', note: '20-year war. Drone strikes, night raids, airstrikes on weddings/hospitals.' },
   { conflict: 'Gaza (2023–2025)', ratio: '~90% civilian', total: '~40,000+ Palestinian civilians', note: 'One of the highest civilian-to-combatant ratios in modern warfare.' },
-  { conflict: 'Iran (Epic Fury, Days 1-13)', ratio: 'TBD — early estimates ~70–85%', total: '1,348 Iranians killed, 17,000 injured (Day 13)', note: 'Decapitation + infrastructure + oil/security strikes. 168 schoolchildren, 200 women, 11 healthcare workers killed.' },
+  { conflict: 'Iran (Epic Fury, Days 1-28)', ratio: 'TBD — early estimates ~70–85%', total: '3,300+ Iranians killed, 1,492+ civilians (Day 28)', note: 'Decapitation + infrastructure + oil/industrial strikes. 210+ children, 70,000+ homes, 300 health facilities, 600 schools damaged.' },
 ]
 
 export default function IranCivilianCostPage() {
@@ -113,7 +113,7 @@ export default function IranCivilianCostPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 12, 2026 (Day 13)</span>
+        <span className="text-sm text-stone-500">Updated March 27, 2026 (Day 28)</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
@@ -128,45 +128,63 @@ export default function IranCivilianCostPage() {
 
       {/* The Numbers */}
       <section className="bg-stone-900 text-white rounded-xl p-8 my-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 13 (March 12)</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 28 (March 27)</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div>
-            <div className="text-3xl font-bold text-red-500">1,348</div>
-            <div className="text-stone-400 text-sm">Iranians killed (Iran UN rep)</div>
+            <div className="text-3xl font-bold text-red-500">3,300+</div>
+            <div className="text-stone-400 text-sm">Iranians killed (HRANA)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">17,000</div>
-            <div className="text-stone-400 text-sm">Iranians injured</div>
+            <div className="text-3xl font-bold text-red-500">1,492+</div>
+            <div className="text-stone-400 text-sm">Civilians killed</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">5,000+</div>
+            <div className="text-3xl font-bold text-red-500">10,000+</div>
             <div className="text-stone-400 text-sm">Targets struck (US + Israel)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">168</div>
-            <div className="text-stone-400 text-sm">Children killed (Minab school)</div>
+            <div className="text-3xl font-bold text-red-500">210+</div>
+            <div className="text-stone-400 text-sm">Children killed</div>
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center mt-4">
           <div>
-            <div className="text-2xl font-bold text-red-400">200</div>
-            <div className="text-stone-400 text-sm">Women killed</div>
+            <div className="text-2xl font-bold text-red-400">70,000+</div>
+            <div className="text-stone-400 text-sm">Residential units damaged</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-red-400">55</div>
-            <div className="text-stone-400 text-sm">Healthcare workers wounded</div>
+            <div className="text-2xl font-bold text-red-400">300</div>
+            <div className="text-stone-400 text-sm">Health facilities damaged</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-red-400">11</div>
-            <div className="text-stone-400 text-sm">Healthcare workers killed</div>
+            <div className="text-2xl font-bold text-red-400">600</div>
+            <div className="text-stone-400 text-sm">Schools damaged</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-red-400">687</div>
-            <div className="text-stone-400 text-sm">Killed in Lebanon (98 children)</div>
+            <div className="text-2xl font-bold text-red-400">1,110+</div>
+            <div className="text-stone-400 text-sm">Killed in Lebanon</div>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center mt-4">
+          <div>
+            <div className="text-2xl font-bold text-red-400">120+</div>
+            <div className="text-stone-400 text-sm">Cultural/heritage sites damaged</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">15</div>
+            <div className="text-stone-400 text-sm">US troops killed</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">303</div>
+            <div className="text-stone-400 text-sm">US troops wounded</div>
+          </div>
+          <div>
+            <div className="text-2xl font-bold text-red-400">$108/bbl</div>
+            <div className="text-stone-400 text-sm">Oil price (Brent)</div>
           </div>
         </div>
         <p className="text-stone-500 text-sm mt-6 text-center">
-          Iran UN representative figures as of March 12. True toll likely higher due to ongoing communication blackouts and rubble removal. Lebanese figures per Lebanese government sources.
+          HRANA figures as of March 27. Infrastructure damage per Iranian government and Tehran city council. Lebanese figures per Lebanese government sources.
         </p>
       </section>
 
@@ -499,7 +517,7 @@ export default function IranCivilianCostPage() {
             headline: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
             description: '168 schoolchildren killed in Minab. Grand Bazaar destroyed. Golestan Palace damaged. The civilian toll of Operation Epic Fury.',
             datePublished: '2026-03-06',
-            dateModified: '2026-03-12',
+            dateModified: '2026-03-27',
             publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
             mainEntityOfPage: 'https://www.warcosts.org/analysis/iran-civilian-cost',
           }),

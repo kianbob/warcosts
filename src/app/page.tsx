@@ -53,7 +53,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 27: Israel KILLS IRGC Navy commander Tangsiri (Hormuz blockade architect). Iran rejects 15-point ceasefire. Trump warns &ldquo;before it is too late.&rdquo; 82nd Airborne deploying. Oil surges to $106. Iran: 1,937 dead. Lebanon: 1,094 dead. Pakistan army chief mediating. No ceasefire.</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 28: Iran BLOCKS Chinese ships at Hormuz. Trump extends power-plant deadline AGAIN. Israel warns attacks &ldquo;will escalate.&rdquo; Arak nuclear site struck. Oil surges to $108. HRANA: 3,300+ dead in Iran. Lebanon: 1,110+ dead. G7 meets in France. Global food crisis deepens. No ceasefire.</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -71,11 +71,11 @@ export default function HomePage() {
             {/* Key Stats Bar */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {[
-                { value: '1,937+', label: 'Killed in Iran (Health Min.)' },
-                { value: '13', label: 'US Dead / 200 Wounded' },
-                { value: '1,094', label: 'Killed in Lebanon' },
+                { value: '3,300+', label: 'Killed in Iran (HRANA)' },
+                { value: '15', label: 'US Dead / 200 Wounded' },
+                { value: '1,110+', label: 'Killed in Lebanon' },
                 { value: '$200B', label: 'Pentagon Demands from Congress' },
-                { value: '~$106', label: 'Oil per Barrel (surging)' },
+                { value: '~$108', label: 'Oil per Barrel (surging)' },
                 { value: '9,000+', label: 'Strikes in Iran (CENTCOM)' },
               ].map((s, i) => (
                 <div key={i} className="text-center">

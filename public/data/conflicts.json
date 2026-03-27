@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 27 (March 26): 13 US troops dead, ~200 wounded; Iran: 1,937 killed, 24,800 injured (Health Ministry); 1,094 killed in Lebanon (121 children), 3,119 wounded, 1M+ displaced; Israel: 19 killed, 5,229 wounded; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade. Iran rejects US 15-point ceasefire, issues counterproposal. Trump warns 'before it is too late.' 82nd Airborne deploying. Oil surges to $106/barrel. Pakistan army chief mediating. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 28 (March 27): 15 US troops dead (13 KIA + 2 non-combat), ~200 wounded; Iran: 3,300+ killed (HRANA — 1,492+ civilians), 24,800+ injured; 1,110+ killed in Lebanon, 1M+ displaced; Israel: 19 killed, 5,229 wounded; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Iran blocks CHINESE ships at Hormuz — even 'friendly' nations now denied passage. Trump extends power-plant deadline to April 6 (second extension). Israel warns attacks 'will escalate.' Arak nuclear site struck. Oil surges to $108/barrel. G7 meets on war. Global fertilizer/food crisis worsening. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 11300000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 13,
+      "deaths": 15,
       "wounded": 200,
-      "battleDeaths": 7,
+      "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 1937,
+    "civilianDeaths": 3300,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 27 (March 26): Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade. Iran rejects 15-point ceasefire, issues counterproposal. Trump warns 'before it is too late,' says Iran 'begging to make a deal.' 82nd Airborne deploying to Middle East. Oil surges to $106/barrel. Iran: 1,937 killed, 24,800 injured. Lebanon: 1,094 killed. Israel: 19 killed, 5,229 wounded. Pakistan army chief mediating. Speaker Johnson claims 'Epic Fury almost done.' No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 28 (March 27): Iran blocks Chinese ships at Hormuz — even 'friendly' nations denied passage. Trump extends power-plant deadline to April 6 (second extension). Israel defense minister warns attacks 'will escalate and expand.' Arak nuclear facility struck. Oil surges to $108/barrel. HRANA: 3,300+ killed in Iran (1,492+ civilians). Lebanon: 1,110+ killed. US: 15 dead. G7 meets in France on war. Global fertilizer/food crisis. No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5931,6 +5931,10 @@
       {
         "year": 2026,
         "event": "Mar 26 (Day 27): HORMUZ COMMANDER KILLED: Israel kills IRGC Navy commander Alireza Tangsiri — architect of Hormuz blockade (NYT/ABC). Trump warns Iran to accept deal 'before it is too late,' says Iran 'begging to make a deal, not me.' White House: Trump prepared to 'unleash hell.' Speaker Johnson: 'Epic Fury is almost done.' Iran fires more missiles at Israel and Gulf states. Israeli strikes kill 5 in Lebanon. Oil surges to $106/barrel — up $6 in one day. Pakistan army chief emerges as key intermediary (NYT). Lebanon: 1,094 killed (121 children), 3,119 wounded. Israel: 19 killed, 5,229 wounded. Iran rejects ceasefire outright. Blockade commander dead, blockade continues."
+      },
+      {
+        "year": 2026,
+        "event": "Mar 27 (Day 28): IRAN BLOCKS CHINESE SHIPS: Iran turns back 2 COSCO-owned Chinese ships at Hormuz — blocking even 'friendly' nations for first time (NYT/CNBC). Iran formalizing 'toll booth' regime charging millions for passage (NBC/AP). Trump extends power-plant deadline AGAIN to April 6 (second extension). Israel defense minister warns attacks 'will escalate and expand' (AP). US/Israeli strikes hit Arak nuclear facility (CNN). Brent crude surges to $108.01 — up 5.7% (NYT). G7 meets in France on war and Hormuz. Blinken denies supporting attack — 'Except I didn't' (NBC). Global fertilizer/food crisis worsening — WTO: 'worst trade disruptions in 80 years.' UAE: 372 missiles, 15 cruise missiles, 1,835 drones intercepted; 11 killed, 169 injured since Feb 28. HRANA: 3,300+ killed in Iran (1,492+ civilians). Lebanon: 1,110+ killed. US: 15 dead (13 KIA + 2 non-combat). Germany/Poland pass fuel price controls. Pakistan: 'indirect talks taking place.' Capitol Hill tensions over ground troops prospect. Fresh Iranian missile barrage near Netanya, Israel. No ceasefire."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
