@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const sisterSites = [
-  { name: 'WarCosts', url: 'https://www.warcosts.org' },
   { name: 'OpenLobby', url: 'https://www.openlobby.us' },
   { name: 'OpenImmigration', url: 'https://www.openimmigration.us' },
   { name: 'OpenMedicaid', url: 'https://www.openmedicaid.org' },
