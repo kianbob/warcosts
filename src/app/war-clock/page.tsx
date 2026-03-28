@@ -42,6 +42,19 @@ export default function WarClockPage() {
               {formatted}
             </p>
             <p className="text-stone-500 mt-4 text-sm">{elapsed.toFixed(1)} seconds</p>
+            <button
+              onClick={() => {
+                const text = `The US military has spent ${formatted} in just ${elapsed.toFixed(0)} seconds. That's $28,095 every second. See the War Clock: https://www.warcosts.org/war-clock`
+                navigator.clipboard.writeText(text).then(() => {
+                  const btn = document.getElementById('share-btn')
+                  if (btn) { btn.textContent = '✓ Copied!'; setTimeout(() => { btn.textContent = '📋 Share This Stat' }, 2000) }
+                })
+              }}
+              id="share-btn"
+              className="mt-4 px-6 py-2 bg-red-700 hover:bg-red-800 text-white text-sm font-semibold rounded-lg transition-colors"
+            >
+              📋 Share This Stat
+            </button>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 my-16">
@@ -92,6 +105,13 @@ export default function WarClockPage() {
             <p className="text-stone-500 text-sm">
               Source: Congressional Research Service, Watson Institute at Brown University, Department of Defense.
             </p>
+
+            <div className="mt-8 p-6 bg-stone-900 border border-stone-800 rounded-xl text-center">
+              <p className="text-stone-300 mb-3">Want to explore what this money could buy instead?</p>
+              <a href="/opportunity-cost" className="inline-block bg-red-700 hover:bg-red-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                What Else Could This Buy? →
+              </a>
+            </div>
           </div>
         </div>
       </div>

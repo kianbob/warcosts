@@ -1647,6 +1647,23 @@ export default function IranDayByDayPage() {
         </div>
       </div>
 
+      <section className="max-w-4xl mx-auto px-4 py-12 border-t border-stone-200">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Related Coverage</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { title: 'Iran 2026: Full Analysis', href: '/analysis/iran-2026', desc: 'The complete story of Operation Epic Fury — who benefits, who pays.' },
+            { title: 'The $28,095/Second War', href: '/analysis/iran-cost-per-second', desc: 'Every dollar of Operation Epic Fury broken down.' },
+            { title: 'The Civilian Cost', href: '/analysis/iran-civilian-cost', desc: 'Schools, hospitals, the Grand Bazaar — the human toll.' },
+            { title: 'Iran Regional War', href: '/analysis/iran-regional-war', desc: 'How the conflict spread to 11+ countries across the Middle East.' },
+          ].map(a => (
+            <Link key={a.href} href={a.href} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-stone-500 text-sm">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <BackToTop />
     </div>
   )

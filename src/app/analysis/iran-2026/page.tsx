@@ -1093,6 +1093,25 @@ export default function Iran2026Page() {
         </Link>
       </div>
 
+      <section className="max-w-4xl mx-auto px-4 py-12 border-t border-stone-200">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Related Coverage</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { title: 'The $28,095/Second War', href: '/analysis/iran-cost-per-second', desc: 'Every dollar of Operation Epic Fury broken down — $1.88B per day.' },
+            { title: 'The Civilian Cost', href: '/analysis/iran-civilian-cost', desc: 'Schools, hospitals, the Grand Bazaar — the human toll in Iran.' },
+            { title: 'Iran Regional War', href: '/analysis/iran-regional-war', desc: 'How the conflict spread to 11+ countries across the Middle East.' },
+            { title: 'The Hormuz Crisis', href: '/analysis/hormuz-crisis', desc: '21M barrels/day halted. The global economic shockwave.' },
+            { title: 'Iran Day-by-Day', href: '/analysis/iran-day-by-day', desc: 'Verified casualties and events — updated daily.' },
+            { title: 'Lebanon Burns', href: '/analysis/lebanon-burns', desc: 'Hezbollah, Israeli strikes, and Lebanon caught in the crossfire.' },
+          ].map(a => (
+            <Link key={a.href} href={a.href} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-stone-500 text-sm">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <RelatedArticles articles={[{"slug":"iran-day-by-day","title":"Iran Day-by-Day","desc":"Verified casualties and events — updated daily."},{"slug":"iran-cost-per-second","title":"The $28,095/Second War","desc":"Every dollar broken down."},{"slug":"hormuz-crisis","title":"The Hormuz Crisis","desc":"21M barrels/day halted."},{"slug":"iran-civilian-cost","title":"The Civilian Cost","desc":"Schools, hospitals, neighborhoods destroyed."}]} />
 
         <BackToTop />

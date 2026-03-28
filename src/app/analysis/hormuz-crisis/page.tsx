@@ -1140,6 +1140,23 @@ export default function HormuzCrisisPage() {
         </div>
       </div>
 
+      <section className="max-w-4xl mx-auto px-4 py-12 border-t border-stone-200">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Related Coverage</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { title: 'Iran 2026: Full Analysis', href: '/analysis/iran-2026', desc: 'The complete story of Operation Epic Fury — who benefits, who pays.' },
+            { title: 'The $28,095/Second War', href: '/analysis/iran-cost-per-second', desc: 'Every dollar of Operation Epic Fury broken down.' },
+            { title: 'Iran Regional War', href: '/analysis/iran-regional-war', desc: 'How the conflict spread to 11+ countries.' },
+            { title: 'Oil & War', href: '/analysis/oil-and-war', desc: 'Every Middle East conflict comes down to energy.' },
+          ].map(a => (
+            <Link key={a.href} href={a.href} className="bg-white rounded-lg border p-4 hover:shadow-md transition">
+              <h3 className="font-bold mb-1">{a.title}</h3>
+              <p className="text-stone-500 text-sm">{a.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <RelatedArticles articles={[{"slug":"iran-2026","title":"Iran 2026: Full Analysis","desc":"The complete story of Operation Epic Fury."},{"slug":"oil-and-war","title":"Oil & War","desc":"Every Middle East war is about oil."},{"slug":"economic-warfare","title":"Economic Warfare","desc":"Sanctions, SWIFT, and the weaponized dollar."}]} />
 
         <BackToTop />

@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const alt = 'WarCosts — $11.3 Trillion on War'
+export const alt = 'Strait of Hormuz: CLOSED — 20% of Global Oil Blocked'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -20,31 +20,31 @@ export default async function Image() {
           padding: '60px',
         }}
       >
-        <div style={{ display: 'flex', fontSize: 28, color: '#9ca3af', marginBottom: 20, letterSpacing: 4, textTransform: 'uppercase' as const }}>
-          The True Cost of American Wars
+        <div style={{ display: 'flex', fontSize: 24, color: '#dc2626', marginBottom: 24, letterSpacing: 3, textTransform: 'uppercase' as const, fontWeight: 700 }}>
+          ⚠ Global Energy Crisis
         </div>
-        <div style={{ display: 'flex', fontSize: 80, fontWeight: 800, color: '#dc2626', marginBottom: 16 }}>
-          $11.3 Trillion on War
+        <div style={{ display: 'flex', fontSize: 76, fontWeight: 800, color: '#ffffff', marginBottom: 8 }}>
+          Strait of Hormuz
         </div>
-        <div style={{ display: 'flex', fontSize: 36, color: '#ffffff', marginBottom: 40 }}>
-          229 Years at War · 1M+ Americans Killed · 469 Interventions
+        <div style={{ display: 'flex', fontSize: 80, fontWeight: 800, color: '#dc2626', marginBottom: 32 }}>
+          CLOSED
         </div>
         <div style={{ display: 'flex', gap: 60 }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>$28,095</div>
-            <div style={{ fontSize: 20, color: '#9ca3af' }}>Per Second on Defense</div>
+            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>20%</div>
+            <div style={{ fontSize: 20, color: '#9ca3af' }}>of Global Oil Blocked</div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>750+</div>
-            <div style={{ fontSize: 20, color: '#9ca3af' }}>Overseas Bases</div>
+            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>$108</div>
+            <div style={{ fontSize: 20, color: '#9ca3af' }}>Oil per Barrel</div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>0</div>
-            <div style={{ fontSize: 20, color: '#9ca3af' }}>Pentagon Audits Passed</div>
+            <div style={{ fontSize: 48, fontWeight: 700, color: '#dc2626' }}>21 mi</div>
+            <div style={{ fontSize: 20, color: '#9ca3af' }}>Wide — No Detour</div>
           </div>
         </div>
         <div style={{ display: 'flex', position: 'absolute', bottom: 40, fontSize: 24, color: '#6b7280' }}>
-          warcosts.org — Free. No ads. No paywall.
+          warcosts.org
         </div>
       </div>
     ),

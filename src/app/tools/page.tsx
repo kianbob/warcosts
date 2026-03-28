@@ -81,6 +81,20 @@ const tools = [
     color: 'bg-red-50 border-red-200',
   },
   {
+    title: 'Hormuz Impact Calculator',
+    desc: 'What happens if Iran closes the Strait of Hormuz? Slide to see projected oil prices, GDP losses, gas price spikes, and what that money could buy instead.',
+    href: '/tools/hormuz-calculator',
+    icon: '🚢',
+    color: 'bg-red-50 border-red-200',
+  },
+  {
+    title: 'Iran vs Iraq War',
+    desc: 'Side-by-side comparison of the Iran and Iraq wars: costs, casualties, congressional votes, coalition sizes, oil prices, and public support.',
+    href: '/tools/iran-vs-iraq',
+    icon: '⚔️',
+    color: 'bg-blue-50 border-blue-200',
+  },
+  {
     title: 'Compare Wars',
     desc: 'Side-by-side comparison of 2–4 conflicts. Compare cost, duration, casualties, cost-per-day, and cost-per-life with interactive charts.',
     href: '/tools/compare-wars',

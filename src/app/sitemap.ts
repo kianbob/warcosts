@@ -70,6 +70,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/analysis/presidents-war-record',
     '/analysis/americas-forgotten-wars',
     '/analysis/timeline-of-american-empire',
+    '/analysis/iran-vs-iraq-war',
+    '/analysis/iran-war-cost-breakdown',
     '/quasi-war',
     '/barbary-wars',
     '/indian-wars',
@@ -130,13 +132,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pentagon-budget-breakdown',
     '/us-military-spending-vs-other-countries',
     '/defense-budget-explained',
+    '/tools/hormuz-calculator',
+    '/tools/iran-vs-iraq',
   ]
+
+  const iranRoutes = ['/iran-war-2026', '/analysis/iran-2026', '/analysis/iran-cost-per-second', '/analysis/iran-civilian-cost', '/analysis/iran-day-by-day', '/analysis/iran-regional-war', '/analysis/iran-russia-shadow-war', '/analysis/iran-vs-iraq-war', '/analysis/iran-war-cost-breakdown', '/analysis/hormuz-crisis', '/analysis/lebanon-burns', '/analysis/cost-of-iran']
 
   const entries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
     url: `${base}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : 'monthly',
-    priority: route === '' ? 1.0 : route.startsWith('/analysis') ? 0.8 : 0.7,
+    changeFrequency: route === '/iran-war-2026' || iranRoutes.includes(route) ? 'daily' : route === '' ? 'weekly' : route.startsWith('/analysis') ? 'weekly' : 'monthly',
+    priority: route === '' ? 1.0 : route === '/iran-war-2026' ? 0.9 : route.startsWith('/analysis') ? 0.8 : route.startsWith('/tools') ? 0.7 : 0.6,
   }))
 
   // Conflict pages

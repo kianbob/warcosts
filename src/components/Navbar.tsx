@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navItems = [
-  { label: '🔴 Iran War', href: '/iran-war-2026' },
+  { label: '🔴 IRAN WAR', href: '/iran-war-2026', highlight: true },
   { label: 'Modern Wars', href: '/modern-wars' },
   { label: 'War Clock', href: '/war-clock' },
   { label: 'Timeline', href: '/timeline' },
@@ -166,14 +166,22 @@ export default function Navbar() {
                 )}
               </div>
             ) : (
-              <Link key={item.href} href={item.href!} className="px-3 py-2 text-sm text-stone-300 hover:text-white rounded-lg hover:bg-stone-800">
+              <Link key={item.href} href={item.href!} className={`px-3 py-2 text-sm rounded-lg ${(item as any).highlight ? 'text-red-400 font-bold hover:text-red-300 hover:bg-red-900/30 animate-pulse' : 'text-stone-300 hover:text-white hover:bg-stone-800'}`}>
                 {item.label}
               </Link>
             )
           ))}
+          <Link href="/search" className="px-2 py-2 text-stone-400 hover:text-white" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </Link>
         </div>
 
-        <button className="lg:hidden p-2 text-stone-300" onClick={() => setOpen(!open)}>☰</button>
+        <div className="lg:hidden flex items-center gap-2">
+          <Link href="/search" className="p-2 text-stone-400 hover:text-white" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </Link>
+          <button className="p-2 text-stone-300" onClick={() => setOpen(!open)}>☰</button>
+        </div>
       </div>
 
       {open && (

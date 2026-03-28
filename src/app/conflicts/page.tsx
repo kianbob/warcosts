@@ -55,6 +55,18 @@ export default function ConflictsPage() {
         </ul>
       </div>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: 'All US Wars & Military Conflicts',
+          description: 'Complete database of all 36 American wars, military interventions, and covert operations from 1775 to present.',
+          url: 'https://www.warcosts.org/conflicts',
+          publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+        }) }}
+      />
+
       <BackToTop />
     </div>
   )

@@ -21,6 +21,15 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.warcosts.org/spending' },
 }
 
+const spendingJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'US Military Spending — $886B/Year',
+  description: 'Track US military spending from WWII to today. Currently $886 billion per year — more than the next 10 countries combined.',
+  url: 'https://www.warcosts.org/spending',
+  publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+}
+
 const globalComparison = [
   { country: 'United States', amount: 886, color: 'bg-red-600' },
   { country: 'China', amount: 292, color: 'bg-red-400' },
@@ -476,6 +485,11 @@ export default function SpendingPage() {
           <li><Link href="/tools/tax-receipt" className="text-red-800 hover:underline">→ Calculate your personal war tax receipt</Link></li>
         </ul>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(spendingJsonLd) }}
+      />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import IranWarBanner from '@/components/IranWarBanner'
 import BackToTop from '@/components/BackToTop'
 import './globals.css'
 
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="font-[family-name:var(--font-body)] bg-stone-50 text-stone-900 antialiased">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <IranWarBanner />
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />

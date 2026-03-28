@@ -23,6 +23,19 @@ export const metadata: Metadata = {
   },
 }
 
+const IRAN_BREAKING = {
+  day: 28,
+  headline: 'Rubio: "Weeks, not months." Israel strikes steel plants + Arak nuclear site. Houthis threaten intervention. 10,000+ targets struck. Oil $108. No ceasefire.',
+  stats: [
+    { value: '3,300+', label: 'Killed in Iran (HRANA)' },
+    { value: '15', label: 'US Dead / 303 Wounded' },
+    { value: '1,110+', label: 'Killed in Lebanon' },
+    { value: '$200B', label: 'Pentagon Demands from Congress' },
+    { value: '~$108', label: 'Oil per Barrel' },
+    { value: '10,000+', label: 'Targets Struck (CENTCOM)' },
+  ]
+}
+
 export default function HomePage() {
   const stats = loadData('stats.json')
   const conflicts = loadData('conflicts.json')
@@ -53,7 +66,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day 28: Iran BLOCKS Chinese ships at Hormuz. Trump extends power-plant deadline AGAIN. Israel warns attacks &ldquo;will escalate.&rdquo; Arak nuclear site struck. Oil surges to $108. HRANA: 3,300+ dead in Iran. Lebanon: 1,110+ dead. G7 meets in France. Global food crisis deepens. No ceasefire.</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
@@ -70,14 +83,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4">
             {/* Key Stats Bar */}
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
-              {[
-                { value: '3,300+', label: 'Killed in Iran (HRANA)' },
-                { value: '15', label: 'US Dead / 200 Wounded' },
-                { value: '1,110+', label: 'Killed in Lebanon' },
-                { value: '$200B', label: 'Pentagon Demands from Congress' },
-                { value: '~$108', label: 'Oil per Barrel (surging)' },
-                { value: '9,000+', label: 'Strikes in Iran (CENTCOM)' },
-              ].map((s, i) => (
+              {IRAN_BREAKING.stats.map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
                   <div className="text-xs text-stone-500">{s.label}</div>
@@ -87,7 +93,7 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day 25 (March 24)</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day {IRAN_BREAKING.day}</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[

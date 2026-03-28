@@ -499,6 +499,20 @@ export default function USWarsListPage() {
         </ul>
       </div>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: 'US Wars List — Every American War & Military Intervention Since 1776',
+          description: 'Complete list of all 36 major US wars plus 469 total military interventions. Only 5 were declared by Congress.',
+          url: 'https://www.warcosts.org/us-wars-list',
+          datePublished: '2025-01-01',
+          dateModified: '2026-03-27',
+          publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+        }) }}
+      />
+
       <BackToTop />
     </div>
   )

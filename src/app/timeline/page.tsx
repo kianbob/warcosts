@@ -328,6 +328,18 @@ export default function TimelinePage() {
           <li><Link href="/analysis/forever-wars" className="text-red-800 hover:underline">→ Forever Wars — why they never end</Link></li>
         </ul>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: 'Timeline of US Wars & Interventions — 248 Years of Conflict',
+          description: 'Every American war, military intervention, and covert operation from 1775 to present. 248 years, 28+ conflicts, 1M+ Americans dead.',
+          url: 'https://www.warcosts.org/timeline',
+          publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+        }) }}
+      />
     </div>
   )
 }
