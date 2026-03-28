@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'War on Terror Total Cost — $8+ Trillion, 900K+ Dead, 85+ Countries | WarCosts',
   description: 'The War on Terror (2001-present) has cost over $8 trillion, killed 900,000+, displaced 38 million, and expanded US military operations to 85+ countries. Complete overview of all post-9/11 conflicts, costs, and consequences.',
   keywords: ['war on terror cost', 'cost of war on terror', 'forever wars', 'post 9/11 wars', 'GWOT cost', 'war on terror deaths', 'war on terror countries'],
+  alternates: {
+    canonical: 'https://warcosts.org/war-on-terror',
+  },
   openGraph: {
     title: 'The War on Terror — $8+ Trillion, 900K+ Dead, No End in Sight',
     description: 'The longest, most expensive, and most geographically dispersed military campaign in American history. Every dollar. Every death. Every country.',
@@ -432,6 +435,24 @@ export default function WarOnTerrorPage() {
         </section>
 
         <BackToTop />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'The War on Terror — $8+ Trillion, 900K+ Dead, 85+ Countries',
+              description: 'The War on Terror (2001-present) has cost over $8 trillion, killed 900,000+, displaced 38 million, and expanded US military operations to 85+ countries.',
+              author: { '@type': 'Organization', name: 'WarCosts' },
+              publisher: { '@type': 'Organization', name: 'WarCosts' },
+              url: 'https://warcosts.org/war-on-terror',
+              datePublished: '2024-01-01',
+              dateModified: '2026-03-28',
+              keywords: 'war on terror cost, cost of war on terror, forever wars, post 9/11 wars, GWOT cost',
+            }),
+          }}
+        />
       </div>
     </main>
   )

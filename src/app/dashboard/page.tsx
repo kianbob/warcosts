@@ -1,4 +1,5 @@
 import { SpendingAreaChart, CostByConflictChart, DeathsByConflictChart, BasesChart } from '@/components/charts/SpendingCharts'
+import { SpendingPieChart, WarTimeline } from '@/components/DashboardCharts'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
@@ -37,6 +38,11 @@ export default function DashboardPage() {
     .sort((a: any, b: any) => b.startYear - a.startYear)
     .slice(0, 6)
 
+  const pieData = costData.slice(0, 8)
+  const timelineConflicts = conflicts
+    .filter((c: any) => c.costInflationAdjusted > 1e9)
+    .sort((a: any, b: any) => a.startYear - b.startYear)
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Dashboard' }]} />
@@ -54,6 +60,23 @@ export default function DashboardPage() {
           <li>• <strong>17 veterans commit suicide daily while 38 million people have been displaced by the War on Terror</strong> — the human cost is staggering and ongoing, even as new conflicts emerge.</li>
           <li>• <strong>The true annual national security cost exceeds $1.4 trillion</strong> — when you include VA, intelligence, homeland security, nuclear weapons, and war debt interest. That&apos;s ${fmt(stats.costPerSecond)}/second.</li>
         </ul>
+      </div>
+
+      {/* Bloomberg-style Key Metrics Bar */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        {[
+          { icon: '🏛️', val: fmtMoney(stats.currentAnnualBudget) + '/yr', label: 'Annual Defense Budget', sub: `${stats.pctGdp}% of GDP · More than next 10 nations combined` },
+          { icon: '🧾', val: '$4,170', label: 'Cost Per Taxpayer', sub: 'Your annual share of the $886B budget' },
+          { icon: '🎗️', val: `${stats.veteranSuicidePerDay}/day`, label: 'Veteran Suicides', sub: '130,000+ since 2001 · More than combat deaths' },
+          { icon: '⏱️', val: `$${fmt(stats.costPerSecond)}/sec`, label: 'Spending Rate', sub: `${fmtMoney(stats.costPerDay)}/day · ${fmtMoney(stats.costPerHour || stats.costPerSecond * 3600)}/hour` },
+        ].map(s => (
+          <div key={s.label} className="bg-gradient-to-br from-stone-50 to-white rounded-xl p-5 border-2 border-stone-200 shadow-sm">
+            <span className="text-2xl">{s.icon}</span>
+            <p className="text-2xl md:text-3xl font-bold text-red-800 font-[family-name:var(--font-heading)] mt-1">{s.val}</p>
+            <p className="font-semibold text-sm text-stone-700">{s.label}</p>
+            <p className="text-stone-500 text-xs mt-1">{s.sub}</p>
+          </div>
+        ))}
       </div>
 
       {/* Primary Stats */}
@@ -131,6 +154,13 @@ export default function DashboardPage() {
         </div>
       </div>
 
+      {/* War Timeline */}
+      <div className="bg-white rounded-xl p-6 shadow-sm border mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">⏳ War Timeline — All Major Conflicts</h2>
+        <p className="text-muted text-sm mb-4">Every conflict costing $1B+ shown on a timeline. Hover for details.</p>
+        <WarTimeline conflicts={timelineConflicts} />
+      </div>
+
       {/* Charts */}
       <div className="grid md:grid-cols-2 gap-8 mb-8">
         <div className="bg-white rounded-lg p-6 shadow-sm border">
@@ -138,8 +168,8 @@ export default function DashboardPage() {
           <SpendingAreaChart data={spending} />
         </div>
         <div className="bg-white rounded-lg p-6 shadow-sm border">
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Overseas Bases by Country</h2>
-          <BasesChart data={basesData} />
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Spending by Conflict (Pie)</h2>
+          <SpendingPieChart data={pieData} />
         </div>
         <div className="bg-white rounded-lg p-6 shadow-sm border">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Cost by Conflict</h2>
@@ -148,6 +178,10 @@ export default function DashboardPage() {
         <div className="bg-white rounded-lg p-6 shadow-sm border">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Deaths by Conflict</h2>
           <DeathsByConflictChart data={deathData} />
+        </div>
+        <div className="bg-white rounded-lg p-6 shadow-sm border">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">Overseas Bases by Country</h2>
+          <BasesChart data={basesData} />
         </div>
       </div>
 
@@ -172,6 +206,38 @@ export default function DashboardPage() {
           </div>
         </div>
       )}
+
+      {/* Active Military Operations Detail */}
+      <div className="bg-red-950 text-white rounded-xl p-8 mb-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2 flex items-center gap-2">
+          <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE</span>
+          Current Military Operations
+        </h2>
+        <p className="text-stone-400 text-sm mb-6">US forces are currently engaged in combat or support operations across multiple theaters.</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { name: 'Operation Epic Fury (Iran)', status: 'ACTIVE COMBAT', region: 'Middle East', troops: '45,000+', dailyCost: '$500M+/day', since: 'Mar 2026' },
+            { name: 'Operation Inherent Resolve (ISIS)', status: 'ONGOING', region: 'Iraq/Syria', troops: '2,500', dailyCost: '$8M/day', since: 'Jun 2014' },
+            { name: 'Operation Prosperity Guardian', status: 'ONGOING', region: 'Red Sea/Yemen', troops: '3,000+', dailyCost: '$3M/day', since: 'Dec 2023' },
+            { name: 'CT Operations (Somalia)', status: 'ONGOING', region: 'East Africa', troops: '900', dailyCost: '$2M/day', since: '2007' },
+            { name: 'NATO Enhanced Forward Presence', status: 'DETERRENCE', region: 'Eastern Europe', troops: '10,000+', dailyCost: '$15M/day', since: '2022' },
+            { name: 'Indo-Pacific Deployments', status: 'POSTURE', region: 'Pacific', troops: '80,000+', dailyCost: '$40M/day', since: 'Ongoing' },
+          ].map((op, i) => (
+            <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-4">
+              <div className="flex items-center gap-2 mb-1">
+                <span className={`text-[10px] px-1.5 py-0.5 rounded font-bold ${op.status === 'ACTIVE COMBAT' ? 'bg-red-600' : op.status === 'ONGOING' ? 'bg-orange-700' : 'bg-blue-700'} text-white`}>{op.status}</span>
+              </div>
+              <h3 className="font-[family-name:var(--font-heading)] font-bold text-sm">{op.name}</h3>
+              <div className="grid grid-cols-2 gap-x-4 mt-2 text-xs text-stone-400">
+                <span>Region: <strong className="text-stone-300">{op.region}</strong></span>
+                <span>Troops: <strong className="text-stone-300">{op.troops}</strong></span>
+                <span>Est. Cost: <strong className="text-red-400">{op.dailyCost}</strong></span>
+                <span>Since: <strong className="text-stone-300">{op.since}</strong></span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* The Human Cost Box */}
       <div className="bg-stone-50 rounded-xl p-8 border mb-8">

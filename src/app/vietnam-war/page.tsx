@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Vietnam War Cost — $1 Trillion, 58,220 US Dead, 2-3 Million Vietnamese | WarCosts',
   description: 'The Vietnam War (1955-1975) cost over $1 trillion in today\'s dollars, killed 58,220 Americans and 2-3 million Vietnamese. Draft resistance, Pentagon Papers, My Lai massacre, Agent Orange. The war that shattered American trust in government.',
   keywords: ['Vietnam war cost', 'Vietnam war casualties', 'Vietnam war deaths', 'Vietnam war timeline', 'Pentagon Papers', 'My Lai massacre', 'Agent Orange', 'Vietnam draft', 'cost of Vietnam war'],
+  alternates: {
+    canonical: 'https://warcosts.org/vietnam-war',
+  },
   openGraph: {
     title: 'The Vietnam War — $1T, 58K Dead, Lessons Never Learned',
     description: 'The war that destroyed a generation, exposed government lies, and taught lessons America refused to learn.',
@@ -437,6 +440,25 @@ export default function VietnamWarPage() {
         </section>
 
         <BackToTop />
+
+        {/* Article JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'The Vietnam War — $1 Trillion, 58,220 US Dead, Lessons Never Learned',
+              description: 'The Vietnam War (1955-1975) cost over $1 trillion in today\'s dollars, killed 58,220 Americans and 2-3 million Vietnamese.',
+              author: { '@type': 'Organization', name: 'WarCosts' },
+              publisher: { '@type': 'Organization', name: 'WarCosts' },
+              url: 'https://warcosts.org/vietnam-war',
+              datePublished: '2024-01-01',
+              dateModified: '2026-03-28',
+              keywords: 'Vietnam war cost, Vietnam war casualties, Vietnam war deaths, Vietnam war timeline',
+            }),
+          }}
+        />
       </div>
     </main>
   )

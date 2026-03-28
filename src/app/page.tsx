@@ -5,6 +5,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import { LiveCostCounter } from '@/components/LiveCostCounter'
 import ThisDayInWarHistory from '@/components/ThisDayInWarHistory'
 import NewsletterSignup from '@/components/NewsletterSignup'
+import { HomeSpendingChart } from '@/components/HomeCharts'
 
 export const metadata: Metadata = {
   title: 'WarCosts — The True Cost of American Wars | $11.3 Trillion & Counting',
@@ -40,6 +41,7 @@ export default function HomePage() {
   const stats = loadData('stats.json')
   const conflicts = loadData('conflicts.json')
   const opCosts = loadData('opportunity-costs.json')
+  const yearlySpending = loadData('yearly-spending.json')
 
   const featured = ['vietnam-war', 'afghanistan', 'iraq-war', 'korean-war', 'world-war-ii', 'gulf-war']
   const featuredConflicts = featured.map(id => conflicts.find((c: any) => c.id === id)).filter(Boolean)
@@ -134,6 +136,61 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* By The Numbers — All US Wars */}
+      <section className="bg-stone-950 text-white py-12 border-b border-stone-800">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2 text-center">🇺🇸 By The Numbers</h2>
+          <p className="text-stone-500 text-sm text-center mb-8">The full cost of 249 years of American military power</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { icon: '💸', value: '$11.3 Trillion', label: 'Total war spending (inflation-adjusted)', color: 'text-red-400' },
+              { icon: '🪦', value: '1,031,405', label: 'Americans killed in war', color: 'text-red-500' },
+              { icon: '💀', value: '5.2 Million+', label: 'Civilians killed by US wars', color: 'text-red-600' },
+              { icon: '🎯', value: '469', label: 'Military interventions since 1798', color: 'text-orange-400' },
+              { icon: '⏳', value: '229 of 249 Years', label: 'America has been at war', color: 'text-yellow-400' },
+              { icon: '🌍', value: '750 Bases', label: 'In 80 countries worldwide', color: 'text-blue-400' },
+              { icon: '🏛️', value: '$886 Billion', label: 'Annual defense budget (FY2024)', color: 'text-green-400' },
+              { icon: '🎗️', value: '17 Per Day', label: 'Veteran suicides', color: 'text-purple-400' },
+              { icon: '⏱️', value: '$28,095/sec', label: 'Spent on defense every second', color: 'text-amber-400' },
+              { icon: '❌', value: '0 Audits Passed', label: 'Pentagon has never passed an audit', color: 'text-rose-400' },
+            ].map((s, i) => (
+              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center hover:bg-white/10 transition">
+                <span className="text-3xl block mb-2">{s.icon}</span>
+                <p className={`text-xl md:text-2xl font-bold font-[family-name:var(--font-heading)] ${s.color}`}>{s.value}</p>
+                <p className="text-stone-400 text-xs mt-1">{s.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trending Now */}
+      <section className="bg-stone-900 border-b border-stone-800 py-8">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xs px-2 py-1 rounded-full bg-orange-600 text-white font-semibold">🔥 TRENDING</span>
+            <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-white">Trending Now</h2>
+          </div>
+          <div className="grid md:grid-cols-4 gap-3">
+            {[
+              { title: 'Iran War: Day 28 Live Updates', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
+              { title: 'Hormuz Closure: Oil at $108', href: '/analysis/hormuz-crisis', tag: 'CRISIS', tagColor: 'bg-orange-600' },
+              { title: '$200B Pentagon Demand from Congress', href: '/analysis/iran-cost-per-second', tag: 'MONEY', tagColor: 'bg-green-700' },
+              { title: '10,000+ Targets Struck in Iran', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Russia Sharing US Positions with Iran', href: '/analysis/iran-russia-shadow-war', tag: 'INTEL', tagColor: 'bg-blue-700' },
+              { title: 'Lebanon Front: 1,100+ Killed', href: '/analysis/lebanon-burns', tag: 'ESCALATION', tagColor: 'bg-red-700' },
+              { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
+              { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
+            ].map((item, i) => (
+              <Link key={i} href={item.href} className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg p-3 transition">
+                <span className={`text-[10px] px-1.5 py-0.5 rounded ${item.tagColor} text-white font-bold`}>{item.tag}</span>
+                <p className="text-sm text-stone-200 mt-1 font-medium">{item.title}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Hero */}
       <section className="bg-stone-900 text-white py-20 md:py-32">
@@ -239,6 +296,18 @@ export default function HomePage() {
               <p className="text-muted text-xs">{s.sub}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Military Spending Over Time — Interactive Chart */}
+      <section className="bg-white py-12">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">US Military Spending: 1949–2024</h2>
+          <p className="text-stone-500 text-sm mb-6">Inflation-adjusted billions. Peaks during Korea, Vietnam, Reagan buildup, and the War on Terror.</p>
+          <div className="bg-stone-900 rounded-xl p-4 md:p-6">
+            <HomeSpendingChart data={yearlySpending} />
+          </div>
+          <p className="text-stone-400 text-xs mt-2 text-center">Source: OMB Historical Budget Tables, adjusted to 2023 dollars via BLS CPI</p>
         </div>
       </section>
 
@@ -408,7 +477,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2">What Else Could {fmtMoney(opCosts.warOnTerrorTotal)} Buy?</h2>
           <p className="text-stone-400 mb-8">The War on Terror alone cost {fmtMoney(opCosts.warOnTerrorTotal)}. Here&apos;s what that money could have done instead.</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {opCosts.examples.slice(0, 6).map((e: any) => (
               <div key={e.item} className="bg-stone-800 rounded-lg p-5 border border-stone-700">
                 <p className="text-2xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{e.units >= 1e6 ? `${(e.units/1e6).toFixed(0)}M` : fmt(e.units)}×</p>
@@ -416,6 +485,28 @@ export default function HomePage() {
                 <p className="text-stone-400 text-sm mt-1">{e.description}</p>
               </div>
             ))}
+          </div>
+          {/* Extra vivid comparisons */}
+          <div className="border-t border-stone-700 pt-6">
+            <h3 className="text-stone-500 text-xs uppercase tracking-wide mb-4">Put another way…</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
+              {[
+                { icon: '🏠', stat: '53 Million', desc: 'Homes at median US price ($150K)' },
+                { icon: '🏥', stat: '800 Years', desc: 'Of Medicare for All ($10T/decade)' },
+                { icon: '🚀', stat: '296 Apollo Programs', desc: 'At $27B each (2023 dollars)' },
+                { icon: '🌎', stat: 'End World Hunger', desc: 'For 228 years ($35B/yr, UN est.)' },
+                { icon: '🔋', stat: '160× US Solar Grid', desc: 'Full renewable conversion ($50B each)' },
+                { icon: '🎓', stat: 'Cancel All Student Debt', desc: '4.7 times over ($1.7T total)' },
+                { icon: '💊', stat: 'Cure Cancer Research', desc: 'Fund NIH for 1,333 years ($6B/yr)' },
+                { icon: '🚰', stat: 'Replace Every Lead Pipe', desc: 'In America 160 times ($50B est.)' },
+              ].map((c, i) => (
+                <div key={i} className="bg-stone-800/50 border border-stone-700 rounded-lg p-3 text-center">
+                  <span className="text-2xl">{c.icon}</span>
+                  <p className="text-lg font-bold text-red-400 font-[family-name:var(--font-heading)] mt-1">{c.stat}</p>
+                  <p className="text-stone-400 text-xs">{c.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="text-center mt-8">
             <Link href="/opportunity-cost" className="text-red-400 font-semibold hover:underline">See All Comparisons →</Link>

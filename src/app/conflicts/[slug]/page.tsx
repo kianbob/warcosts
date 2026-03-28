@@ -262,6 +262,35 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
 
         <ShareButtons title={c.name} />
 
+      {/* Key Takeaways */}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8 shadow-sm">
+        <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
+          <span>⚡</span> Key Takeaways
+        </h2>
+        <ul className="space-y-2 text-amber-900 text-sm">
+          <li className="flex items-start gap-2">
+            <span className="mt-0.5">•</span>
+            <span>This {c.computed?.durationYears ? `${c.computed.durationYears}-year` : ''} conflict cost <strong>{fmtMoney(c.costInflationAdjusted)}</strong> in today&apos;s dollars{costPerTaxpayer > 0 ? ` — roughly $${fmt(costPerTaxpayer)} per taxpayer` : ''}.</span>
+          </li>
+          {c.usCasualties?.deaths > 0 && (
+            <li className="flex items-start gap-2">
+              <span className="mt-0.5">•</span>
+              <span><strong>{fmt(c.usCasualties.deaths)}</strong> US service members died{c.civilianDeaths > 0 ? `, along with an estimated ${fmt(c.civilianDeaths)} civilians` : ''}.</span>
+            </li>
+          )}
+          <li className="flex items-start gap-2">
+            <span className="mt-0.5">•</span>
+            <span>{c.congressionalAuth ? 'Congress authorized this conflict' : 'This conflict was waged without a formal declaration of war by Congress'} — {c.outcome || 'outcome still developing'}.</span>
+          </li>
+          {c.legacyImpact && (
+            <li className="flex items-start gap-2">
+              <span className="mt-0.5">•</span>
+              <span>{c.legacyImpact.length > 150 ? c.legacyImpact.slice(0, 150).replace(/\s+\S*$/, '') + '…' : c.legacyImpact}</span>
+            </li>
+          )}
+        </ul>
+      </div>
+
       {/* AI Overview - Enhanced Data-Driven Insights */}
       <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-8 my-8 shadow-lg">
         <div className="flex items-center gap-3 mb-4">
@@ -344,7 +373,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <div className="flex items-center justify-between mb-2">
               <span className="text-3xl">🪖</span>
               <div className={`text-xs px-2 py-1 rounded-full ${(c.usCasualties?.deaths || 0) > 50000 ? 'bg-red-300/20 text-red-200' : (c.usCasualties?.deaths || 0) > 1000 ? 'bg-yellow-300/20 text-yellow-200' : 'bg-green-300/20 text-green-200'}`}>
-                {(c.usCasualties?.deaths || 0) > 50000 ? 'Severe' : (c.usCasualities?.deaths || 0) > 1000 ? 'High' : 'Low'}
+                {(c.usCasualties?.deaths || 0) > 50000 ? 'Severe' : (c.usCasualties?.deaths || 0) > 1000 ? 'High' : 'Low'}
               </div>
             </div>
             <p className="text-2xl font-bold font-[family-name:var(--font-heading)] mb-1">{c.usCasualties?.deaths ? fmt(c.usCasualties.deaths) : '—'}</p>

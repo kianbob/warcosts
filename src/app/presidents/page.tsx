@@ -1,11 +1,31 @@
 // @ts-nocheck
 'use client'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import { fmtMoney, fmt, slugify } from '@/lib/utils'
+
+const DID_YOU_KNOW = [
+  "James K. Polk promised to serve one term and started a war that seized half of Mexico. He kept his promise — then died 103 days after leaving office.",
+  "Jimmy Carter is the only president since WWII who didn't send US troops into a new armed conflict.",
+  "Abraham Lincoln suspended habeas corpus, jailed 13,000 political prisoners, and shut down 300 newspapers during the Civil War — all without congressional approval.",
+  "George W. Bush's 'War on Terror' has cost more (inflation-adjusted) than World War II, but Congress never formally declared war.",
+  "Dwight Eisenhower, the supreme Allied commander of WWII, warned America about the 'military-industrial complex' in his farewell address.",
+  "Harry Truman sent 1.8 million troops to Korea without asking Congress, calling it a 'police action' — setting the precedent for every undeclared war since.",
+  "Richard Nixon secretly bombed Cambodia for 14 months, dropping more bombs than were dropped on Japan in all of WWII, without telling Congress.",
+  "Thomas Jefferson sent the Navy to fight the Barbary Pirates without congressional authorization — the first presidential war power grab.",
+]
+
+const ERA_GROUPS = [
+  { label: 'Founding Era (1789–1849)', filter: (d: any) => d.number >= 1 && d.number <= 11 },
+  { label: 'Civil War & Reconstruction (1849–1881)', filter: (d: any) => d.number >= 12 && d.number <= 19 },
+  { label: 'Imperial & World Wars (1881–1953)', filter: (d: any) => d.number >= 20 && d.number <= 33 },
+  { label: 'Cold War (1953–1993)', filter: (d: any) => d.number >= 34 && d.number <= 41 },
+  { label: 'Modern Era (1993–Present)', filter: (d: any) => d.number >= 42 },
+]
 
 export default function PresidentsPage() {
   const [data, setData] = useState<any[]>([])
@@ -27,49 +47,132 @@ export default function PresidentsPage() {
     .filter(d => d.totalCost > 0)
     .sort((a, b) => b.warCostAdjusted2024 - a.warCostAdjusted2024)
     .slice(0, 12)
-    .map(d => ({
-      name: d.name,
-      costB: (d.warCostAdjusted2024 || d.totalCost) / 1e9,
-    }))
+    .map(d => ({ name: d.name, costB: (d.warCostAdjusted2024 || d.totalCost) / 1e9 }))
 
   const totalDeaths = data.reduce((s, d) => s + d.totalUSDeaths, 0)
   const totalCost = data.reduce((s, d) => s + (d.warCostAdjusted2024 || d.totalCost), 0)
   const wartimePresidents = data.filter(d => d.conflicts.length > 0).length
   const peacetimePresidents = data.filter(d => d.conflicts.length === 0).length
+  const totalConflicts = data.reduce((s, d) => s + d.conflicts.length, 0)
+
+  const mostWarlike = [...data].filter(d => d.conflicts.length > 0).sort((a, b) => b.conflicts.length - a.conflicts.length).slice(0, 5)
+  const mostExpensive = [...data].filter(d => d.warCostAdjusted2024 > 0).sort((a, b) => (b.warCostAdjusted2024 || b.totalCost) - (a.warCostAdjusted2024 || a.totalCost)).slice(0, 5)
+  const maxConflicts = mostWarlike[0]?.conflicts.length || 1
+  const maxPresidentCost = mostExpensive[0]?.warCostAdjusted2024 || 1
 
   return (
     <>
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Presidents at War' }]} />
-        <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Presidents at War</h1>
-        <p className="text-stone-500 mb-2 max-w-3xl">
-          Every commander-in-chief from Washington to the present — ranked by wars fought,
-          money spent, and American lives lost. Who kept the peace, and who chose war?
-        </p>
-        <ShareButtons title="Presidents at War — Every Commander-in-Chief Ranked" />
 
-        {/* Summary Stats */}
+        {/* Dark Hero */}
+        <div className="bg-stone-900 text-white rounded-2xl p-8 md:p-12 mb-10 mt-4">
+          <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold mb-4">
+            Presidents at War
+          </h1>
+          <p className="text-stone-400 text-lg max-w-3xl mb-8">
+            Every commander-in-chief from Washington to the present — ranked by wars fought,
+            money spent, and American lives lost. Who kept the peace, and who chose war?
+          </p>
+
+          {data.length > 0 && (
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+                <div className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{wartimePresidents}</div>
+                <div className="text-stone-400 text-sm mt-1">Wartime Presidents</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+                <div className="text-3xl font-bold text-green-400 font-[family-name:var(--font-heading)]">{peacetimePresidents}</div>
+                <div className="text-stone-400 text-sm mt-1">Peacetime Presidents</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+                <div className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{totalConflicts}</div>
+                <div className="text-stone-400 text-sm mt-1">Total Conflicts</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+                <div className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmt(totalDeaths)}</div>
+                <div className="text-stone-400 text-sm mt-1">US War Deaths</div>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
+                <div className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{fmtMoney(totalCost)}</div>
+                <div className="text-stone-400 text-sm mt-1">Total War Cost (2024$)</div>
+              </div>
+            </div>
+          )}
+          <ShareButtons title="Presidents at War — Every Commander-in-Chief Ranked" />
+        </div>
+
+        {/* Rankings side by side */}
         {data.length > 0 && (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-8">
-            <div className="bg-white rounded-lg p-4 shadow-sm border text-center">
-              <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{wartimePresidents}</p>
-              <p className="text-xs text-stone-500">Wartime Presidents</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
+            {/* Most Warlike */}
+            <div>
+              <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">⚔️ Most Warlike Presidents</h2>
+              <p className="text-stone-500 text-sm mb-3">Ranked by number of conflicts entered.</p>
+              <div className="space-y-3">
+                {mostWarlike.map((d, i) => {
+                  const pct = (d.conflicts.length / maxConflicts) * 100
+                  return (
+                    <Link key={d.name} href={`/presidents/${slugify(d.name)}`} className="block group">
+                      <div className="flex items-center gap-3 mb-1">
+                        <span className="text-stone-400 font-mono text-lg w-8">#{i + 1}</span>
+                        <span className="font-medium text-stone-900 group-hover:text-red-700 transition-colors flex-1">
+                          {d.fullName || d.name}
+                        </span>
+                        <span className="text-red-700 font-bold">{d.conflicts.length} conflicts</span>
+                      </div>
+                      <div className="ml-11 bg-stone-100 rounded-full h-3 overflow-hidden">
+                        <div className="bg-red-700 h-full rounded-full" style={{ width: `${pct}%` }} />
+                      </div>
+                      <div className="ml-11 text-stone-400 text-xs mt-1">{d.conflicts.join(', ')}</div>
+                    </Link>
+                  )
+                })}
+              </div>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm border text-center">
-              <p className="text-2xl font-bold text-green-700 font-[family-name:var(--font-heading)]">{peacetimePresidents}</p>
-              <p className="text-xs text-stone-500">Peacetime Presidents</p>
-            </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm border text-center">
-              <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmt(totalDeaths)}</p>
-              <p className="text-xs text-stone-500">Total US War Deaths</p>
-            </div>
-            <div className="bg-white rounded-lg p-4 shadow-sm border text-center">
-              <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{fmtMoney(totalCost)}</p>
-              <p className="text-xs text-stone-500">Total War Cost (2024$)</p>
+
+            {/* Most Expensive */}
+            <div>
+              <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">💰 Most Expensive Presidencies</h2>
+              <p className="text-stone-500 text-sm mb-3">By total war cost (inflation-adjusted).</p>
+              <div className="space-y-3">
+                {mostExpensive.map((d, i) => {
+                  const cost = d.warCostAdjusted2024 || d.totalCost
+                  const pct = (cost / maxPresidentCost) * 100
+                  return (
+                    <Link key={d.name} href={`/presidents/${slugify(d.name)}`} className="block group">
+                      <div className="flex items-center gap-3 mb-1">
+                        <span className="text-stone-400 font-mono text-lg w-8">#{i + 1}</span>
+                        <span className="font-medium text-stone-900 group-hover:text-red-700 transition-colors flex-1">
+                          {d.fullName || d.name}
+                        </span>
+                        <span className="text-red-700 font-bold">{fmtMoney(cost)}</span>
+                      </div>
+                      <div className="ml-11 bg-stone-100 rounded-full h-3 overflow-hidden">
+                        <div className="bg-stone-800 h-full rounded-full" style={{ width: `${pct}%` }} />
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
             </div>
           </div>
         )}
 
+        {/* Did You Know */}
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-10">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">💡 Did You Know?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {DID_YOU_KNOW.map((fact, i) => (
+              <div key={i} className="flex gap-3">
+                <span className="text-amber-600 font-bold text-lg mt-0.5">•</span>
+                <p className="text-stone-700 text-sm leading-relaxed">{fact}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Chart */}
         {chartData.length > 0 && (
           <div className="bg-white rounded-xl border p-6 my-8">
             <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">War Cost by President — Inflation-Adjusted (2024 Billions)</h2>
@@ -85,8 +188,45 @@ export default function PresidentsPage() {
           </div>
         )}
 
+        {/* Era Groupings */}
+        {data.length > 0 && (
+          <div className="mb-10">
+            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">By Era</h2>
+            <div className="space-y-4">
+              {ERA_GROUPS.map(era => {
+                const eraData = data.filter(d => d.number > 0 && era.filter(d))
+                const eraCost = eraData.reduce((s, d) => s + (d.warCostAdjusted2024 || d.totalCost || 0), 0)
+                const eraDeaths = eraData.reduce((s, d) => s + (d.totalUSDeaths || 0), 0)
+                const eraConflicts = eraData.reduce((s, d) => s + d.conflicts.length, 0)
+                return (
+                  <div key={era.label} className="bg-stone-50 border border-stone-200 rounded-xl p-5">
+                    <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6">
+                      <h3 className="font-bold text-stone-900 md:w-72">{era.label}</h3>
+                      <div className="flex gap-6 text-sm flex-wrap">
+                        <div><span className="text-stone-500">Presidents:</span> <span className="font-medium">{eraData.length}</span></div>
+                        <div><span className="text-stone-500">Conflicts:</span> <span className="font-medium text-red-700">{eraConflicts}</span></div>
+                        <div><span className="text-stone-500">Cost:</span> <span className="font-medium text-red-700">{fmtMoney(eraCost)}</span></div>
+                        <div><span className="text-stone-500">US Deaths:</span> <span className="font-medium">{fmt(eraDeaths)}</span></div>
+                      </div>
+                    </div>
+                    <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+                      {eraData.map(d => (
+                        <Link key={d.name} href={`/presidents/${slugify(d.name)}`}
+                          className={`text-sm hover:text-red-700 transition-colors ${d.conflicts.length > 0 ? 'text-stone-700' : 'text-stone-400'}`}>
+                          {d.name} {d.conflicts.length > 0 && <span className="text-red-700">({d.conflicts.length})</span>}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
         {/* Filter Tabs */}
-        <div className="flex gap-2 my-6">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">All Presidents</h2>
+        <div className="flex gap-2 my-4">
           {(['all', 'wartime', 'peacetime'] as const).map(f => (
             <button
               key={f}

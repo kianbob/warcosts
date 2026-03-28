@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Iraq War Cost — $3 Trillion, 4,500 US Dead, 200K+ Iraqi Civilians | WarCosts',
   description: 'The Iraq War (2003-2011) cost over $3 trillion, killed 4,500 Americans and over 200,000 Iraqi civilians. Built on WMD lies, it destabilized the Middle East and gave rise to ISIS. Full timeline, cost breakdown, and casualty data.',
   keywords: ['Iraq war cost', 'Iraq war casualties', 'cost of Iraq war', 'Iraq war deaths', 'Iraq war timeline', 'weapons of mass destruction', 'Iraq war WMD', 'Iraq civilian casualties'],
+  alternates: {
+    canonical: 'https://warcosts.org/iraq-war',
+  },
   openGraph: {
     title: 'The Iraq War — $3 Trillion, 200K+ Dead, Zero WMDs',
     description: 'The most catastrophic foreign policy blunder in modern American history. Every dollar. Every death. Every lie.',
@@ -446,6 +449,24 @@ export default function IraqWarPage() {
         </section>
 
         <BackToTop />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'The Iraq War — $3 Trillion, 200K+ Dead, Zero WMDs',
+              description: 'The Iraq War (2003-2011) cost over $3 trillion, killed 4,500 Americans and over 200,000 Iraqi civilians. Built on WMD lies.',
+              author: { '@type': 'Organization', name: 'WarCosts' },
+              publisher: { '@type': 'Organization', name: 'WarCosts' },
+              url: 'https://warcosts.org/iraq-war',
+              datePublished: '2024-01-01',
+              dateModified: '2026-03-28',
+              keywords: 'Iraq war cost, Iraq war casualties, Iraq war WMD, Iraq civilian casualties',
+            }),
+          }}
+        />
       </div>
     </main>
   )

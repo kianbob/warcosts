@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: 'Afghanistan War Cost — $2.3 Trillion, 20 Years, Taliban Wins | WarCosts',
   description: 'The Afghanistan War (2001-2021) was the longest war in US history. $2.3 trillion spent, 2,461 US soldiers killed, 70,000+ Afghan civilians dead. After 20 years, the Taliban retook power in 11 days. Complete timeline, costs, and casualties.',
   keywords: ['Afghanistan war cost', 'longest war in US history', 'Afghanistan war casualties', 'Afghanistan war timeline', 'Kabul airport', 'Afghanistan Papers', 'Taliban', 'cost of Afghanistan war'],
+  alternates: {
+    canonical: 'https://warcosts.org/afghanistan-war',
+  },
   openGraph: {
     title: 'The Afghanistan War — 20 Years, $2.3 Trillion, Right Back to Taliban',
     description: 'The longest war in American history ended exactly where it started. Every dollar. Every death. Every lie.',
@@ -386,6 +389,24 @@ export default function AfghanistanWarPage() {
         </section>
 
         <BackToTop />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'The Afghanistan War — 20 Years, $2.3 Trillion, Taliban Wins',
+              description: 'The Afghanistan War (2001-2021) was the longest war in US history. $2.3 trillion spent, 2,461 US soldiers killed, 70,000+ Afghan civilians dead.',
+              author: { '@type': 'Organization', name: 'WarCosts' },
+              publisher: { '@type': 'Organization', name: 'WarCosts' },
+              url: 'https://warcosts.org/afghanistan-war',
+              datePublished: '2024-01-01',
+              dateModified: '2026-03-28',
+              keywords: 'Afghanistan war cost, longest war in US history, Afghanistan war casualties, Taliban',
+            }),
+          }}
+        />
       </div>
     </main>
   )
