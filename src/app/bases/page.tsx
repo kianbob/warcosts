@@ -79,7 +79,8 @@ export default function BasesPage() {
   })
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Overseas Military Bases","description":"750 military bases in 80 countries with 173,000 troops deployed overseas.","url":"https://www.warcosts.org/bases"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Overseas Bases' }]} />
       <BreadcrumbSchema items={[{ label: "Overseas Bases" }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Overseas Military Bases</h1>
@@ -322,5 +323,5 @@ export default function BasesPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

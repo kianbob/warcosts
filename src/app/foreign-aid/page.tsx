@@ -76,7 +76,8 @@ export default function ForeignAidPage() {
   const totalMilitary = militaryRecipients.reduce((s: number, r: any) => s + r.totalSince2001, 0)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Foreign Aid Recipients","description":"$68 billion per year in foreign aid and where US tax dollars go abroad.","url":"https://www.warcosts.org/foreign-aid"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Foreign Aid' }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Foreign Aid</h1>
@@ -289,5 +290,5 @@ export default function ForeignAidPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

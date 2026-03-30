@@ -96,7 +96,8 @@ export default function ContractorsPage() {
   const stats = loadData('stats.json')
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Top Defense Contractors","description":"The top defense contractors and how they profit from war.","url":"https://www.warcosts.org/contractors"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Defense Contractors' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Who Profits from War</h1>
       <p className="text-muted mb-6 max-w-3xl">These five companies receive over $200 billion per year in government defense contracts. Their profits depend on conflict. Their lobbyists write the laws. Their former executives run the Pentagon. Their stock prices soar when wars begin. This is the military-industrial complex that Eisenhower warned about — and it has won.</p>
@@ -394,5 +395,5 @@ export default function ContractorsPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

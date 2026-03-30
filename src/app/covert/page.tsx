@@ -109,7 +109,8 @@ export default function CovertPage() {
   const totalCivDeaths = covert.reduce((s: number, c: any) => s + (c.civilianDeaths || 0), 0)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US Covert Operations & Secret Wars","description":"CIA coups, covert operations, assassination plots, and secret wars.","url":"https://www.warcosts.org/covert","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Covert Operations' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Covert Operations</h1>
       <p className="text-muted mb-6 max-w-3xl">Secret wars, CIA coups, torture programs, assassination plots, drug experiments on American citizens, and covert campaigns across the globe — none authorized by Congress, most hidden from the American public for decades. These are the operations that toppled democracies, installed dictators, tortured innocents, and created the enemies America would later spend trillions fighting.</p>
@@ -322,5 +323,5 @@ export default function CovertPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

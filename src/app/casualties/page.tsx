@@ -78,7 +78,8 @@ export default function CasualtiesPage() {
   }, {})
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US War Casualties","description":"Over 1 million Americans and 5.2 million civilians killed in US wars.","url":"https://www.warcosts.org/casualties","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Casualty Data' }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">The Human Cost of War</h1>
@@ -394,5 +395,5 @@ export default function CasualtiesPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

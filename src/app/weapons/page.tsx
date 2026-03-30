@@ -47,7 +47,8 @@ export default function WeaponsPage() {
   const maxOverrun = biggestOverruns[0]?.costOverrun || 1
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Weapons Systems","description":"The Pentagon's major weapons programs representing over $3 trillion in spending.","url":"https://www.warcosts.org/weapons"}) }} />    <main className="max-w-6xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Weapons Systems' }]} />
       <BreadcrumbSchema items={[{ label: "Weapons Systems" }]} />
 
@@ -228,5 +229,5 @@ export default function WeaponsPage() {
 
       <BackToTop />
     </main>
-  )
+    </>  )
 }

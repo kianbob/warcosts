@@ -38,7 +38,8 @@ export default function OperationsPage() {
   const totalCivilian = operations.reduce((s, o) => s + o.civilianDeaths, 0)
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"Named Military Operations","description":"19 named US military operations from WWII to present.","url":"https://www.warcosts.org/operations","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Named Operations' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Named Military Operations</h1>
       <p className="text-stone-600 mb-6">19 named US military operations spanning 80 years of American warfare — from the beaches of Normandy to the skies over Tehran.</p>
@@ -92,5 +93,5 @@ export default function OperationsPage() {
 
       <BackToTop />
     </div>
-  )
+    </>  )
 }

@@ -58,7 +58,8 @@ export default function DroneStrikesPage() {
   const presList = presOrder.filter(p => byPres[p]).map(p => ({ president: p, ...byPres[p] }))
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US Drone Strikes","description":"14,000+ strikes across 5 countries. Civilian casualties by country and president.","url":"https://www.warcosts.org/drone-strikes","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Drone Strikes' }]} />
 
       <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
@@ -139,5 +140,5 @@ export default function DroneStrikesPage() {
 
       <BackToTop />
     </div>
-  )
+    </>  )
 }

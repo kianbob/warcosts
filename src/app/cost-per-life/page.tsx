@@ -26,7 +26,7 @@ export default function CostPerLifePage() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"The Price of a Life — Cost Per Death by Conflict","description":"How much does each American death cost per conflict? From $96K in WWII to $935M in Afghanistan.","url":"https://www.warcosts.org/cost-per-life","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />      <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Cost Per Life' }]} />
         <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">The Price of a Life</h1>
         <p className="text-stone-500 mb-2 max-w-3xl">

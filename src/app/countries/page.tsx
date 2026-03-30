@@ -22,7 +22,8 @@ export default function CountriesPage() {
   const usShare = usEntry ? ((usEntry.amountBillions / worldTotal) * 100).toFixed(1) : '—'
 
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-900">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Country Military Spending Profiles","description":"Military spending data for 167 countries with rankings and trends.","url":"https://www.warcosts.org/countries"}) }} />    <div className="min-h-screen bg-stone-50 text-stone-900">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Country Profiles' }]} />
 
@@ -95,5 +96,5 @@ export default function CountriesPage() {
         <BackToTop />
       </div>
     </div>
-  )
+    </>  )
 }

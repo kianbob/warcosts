@@ -32,7 +32,8 @@ export default function SanctionsPage() {
   const totalCost = sanctions.reduce((s, r) => s + r.estimatedCost, 0)
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Sanctions Regimes","description":"8 major US sanctions programs and their economic impact.","url":"https://www.warcosts.org/sanctions"}) }} />    <div className="max-w-7xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'US Sanctions' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Sanctions Regimes</h1>
       <p className="text-stone-500 mb-6">Economic warfare as foreign policy. {sanctions.length} active sanctions programs costing an estimated {fmtMoney(totalCost * 1_000_000)} in economic impact — with mixed results.</p>
@@ -76,5 +77,5 @@ export default function SanctionsPage() {
 
       <BackToTop />
     </div>
-  )
+    </>  )
 }

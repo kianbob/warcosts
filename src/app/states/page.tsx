@@ -32,7 +32,8 @@ export default function StatesIndexPage() {
   const topBases = [...states].sort((a, b) => (b.bases || 0) - (a.bases || 0)).slice(0, 5)
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"State Military Footprint","description":"Defense spending, jobs, and military bases across all US states and territories.","url":"https://www.warcosts.org/states"}) }} />    <main className="max-w-6xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'State Military Footprint' }]} />
 
       {/* Dark Hero */}
@@ -191,5 +192,5 @@ export default function StatesIndexPage() {
 
       <BackToTop />
     </main>
-  )
+    </>  )
 }

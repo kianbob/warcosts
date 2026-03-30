@@ -72,7 +72,8 @@ export default function ArmsSalesPage() {
   const totalTopBuyers = arms.topBuyers.reduce((s: number, b: any) => s + b.total, 0)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Arms Sales by Country","description":"The US is the world's largest arms dealer, selling weapons to foreign governments worldwide.","url":"https://www.warcosts.org/arms-sales"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Arms Sales' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Arms Sales</h1>
       <p className="text-muted mb-6 max-w-3xl">The United States is the world&apos;s largest arms dealer, selling {fmtMoney(arms.totalAnnual)} per year in weapons to foreign governments. American bombs, missiles, jets, and tanks are used in conflicts across the globe — many of them against civilians. The arms industry spends $130M/yr lobbying Congress to ensure the sales never stop.</p>
@@ -285,5 +286,5 @@ export default function ArmsSalesPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

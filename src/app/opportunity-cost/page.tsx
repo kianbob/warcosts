@@ -92,7 +92,8 @@ export default function OpportunityCostPage() {
   const data = loadData('opportunity-costs.json')
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"What Else Could $8 Trillion Buy?","description":"The War on Terror cost $8 trillion. What that money could have funded instead.","url":"https://www.warcosts.org/opportunity-cost","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'What Else Could This Buy?' }]} />
 
       <div className="text-center mb-12">
@@ -374,5 +375,5 @@ export default function OpportunityCostPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

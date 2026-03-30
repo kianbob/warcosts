@@ -19,7 +19,8 @@ export const metadata: Metadata = {
 
 export default function BlowbackMapPage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"Blowback Map — US Intervention Consequences","description":"Interactive map of unintended consequences of American interventions abroad.","url":"https://www.warcosts.org/blowback-map","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Blowback Map' }]} />
       <BreadcrumbSchema items={[{ label: 'Blowback Map' }]} />
       
@@ -226,5 +227,5 @@ export default function BlowbackMapPage() {
         </div>
       </section>
     </div>
-  )
+    </>  )
 }

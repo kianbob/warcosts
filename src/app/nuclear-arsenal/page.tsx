@@ -97,7 +97,8 @@ export default function NuclearArsenalPage() {
   const [activeSection, setActiveSection] = useState<Section>('overview')
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US Nuclear Arsenal","description":"5,500 warheads, $1.7 trillion modernization, and the Doomsday Clock at 90 seconds.","url":"https://www.warcosts.org/nuclear-arsenal","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Nuclear Arsenal' }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">
@@ -361,5 +362,5 @@ export default function NuclearArsenalPage() {
 
       <BackToTop />
     </div>
-  )
+    </>  )
 }

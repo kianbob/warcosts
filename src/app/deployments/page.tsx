@@ -60,7 +60,8 @@ export default function DeploymentsPage() {
   const totalCost = presence.topDeployments.reduce((s: number, d: any) => s + (d.annualCost || 0), 0)
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Troop Deployments Worldwide","description":"173,000 US troops stationed in 80 countries across 750 bases.","url":"https://www.warcosts.org/deployments"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Troop Deployments' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Troop Deployments</h1>
       <p className="text-muted mb-6 max-w-3xl">The United States stations {fmt(presence.totalOverseasTroops)} service members across {presence.totalCountries} countries — a permanent global military presence with no parallel in human history. US Special Operations forces operated in <strong>134 countries</strong> in 2023. No other nation has troops in more than a handful of foreign countries. America has them in 80.</p>
@@ -260,5 +261,5 @@ export default function DeploymentsPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

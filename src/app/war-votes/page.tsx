@@ -22,7 +22,8 @@ export default function WarVotesPage() {
   const authorizations = votes.filter(v => v.type !== 'declaration')
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Congressional War Votes","description":"Every major congressional war vote from 1812 to today.","url":"https://www.warcosts.org/war-votes"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'War Votes' }]} />
 
       <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
@@ -92,5 +93,5 @@ export default function WarVotesPage() {
 
       <BackToTop />
     </div>
-  )
+    </>  )
 }

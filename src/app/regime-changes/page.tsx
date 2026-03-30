@@ -201,7 +201,8 @@ export default function RegimeChangesPage() {
   const totalCountries = new Set(regimeChanges.map(r => r.country)).size
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US-Backed Regime Changes","description":"From Iran 1953 to Libya 2011, the US has overthrown governments in 20+ countries.","url":"https://www.warcosts.org/regime-changes"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Regime Changes' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US-Backed Regime Changes</h1>
       <p className="text-muted mb-6 max-w-3xl">
@@ -450,5 +451,5 @@ export default function RegimeChangesPage() {
         </ul>
       </div>
     </div>
-  )
+    </>  )
 }

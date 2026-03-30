@@ -62,7 +62,7 @@ export default function PresidentsPage() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Presidents at War","description":"Every commander-in-chief ranked by wars fought, money spent, and lives lost.","url":"https://www.warcosts.org/presidents"}) }} />      <div className="max-w-7xl mx-auto px-4 py-8">
         <Breadcrumbs items={[{ label: 'Presidents at War' }]} />
 
         {/* Dark Hero */}
