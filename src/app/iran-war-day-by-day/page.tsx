@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import DayByDayClient from './DayByDayClient'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Day by Day: The Iran War — 30 Days of Operation Epic Fury | WarCosts',
@@ -76,6 +77,7 @@ export default function IranWarDayByDayPage() {
               { label: 'Day by Day' },
             ]}
           />
+          <ShareButtons title="Day by Day: The Iran War" />
         </div>
         <DayByDayClient />
       </div>

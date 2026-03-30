@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'US Wars by Era — From Revolution to War on Terror',
@@ -21,6 +22,7 @@ export default function ErasPage() {
       <Breadcrumbs items={[{ label: 'By Era' }]} />
       <BreadcrumbSchema items={[{ label: "Conflicts by Era" }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Conflicts by Era</h1>
+      <ShareButtons title="US Conflicts by Era" />
 
       {(() => { const stats = loadData('stats.json'); return (
         <div className="grid grid-cols-3 gap-4 mb-8 max-w-lg">

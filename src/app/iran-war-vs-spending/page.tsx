@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import LiveComparisonClient from './LiveComparisonClient'
+import ShareButtons from '@/components/ShareButtons'
 
 const title = 'Iran War Cost vs. Domestic Spending — Live Counter | WarCosts'
 const description = 'Watch the cost of the Iran war tick up in real-time alongside what that money could buy: school lunches, teacher salaries, homes, healthcare. $21,759 per second.'
@@ -50,6 +51,7 @@ export default function IranWarVsSpendingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ShareButtons title="Iran War Cost vs. Domestic Spending" />
       <LiveComparisonClient />
     </>
   )

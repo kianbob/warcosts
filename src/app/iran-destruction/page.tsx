@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import DestructionClient from './DestructionClient'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Iran Infrastructure Destruction Tracker — Before & After',
@@ -36,6 +37,7 @@ export default function IranDestructionPage() {
           <span className="mx-2">›</span>
           <span className="text-stone-300">Infrastructure Destruction</span>
         </nav>
+        <ShareButtons title="Iran Infrastructure Destruction Tracker" />
 
         <DestructionClient />
       </main>

@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ReactionsClient from './ReactionsClient'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Global Reactions Map — How the World Responded to the Iran War',
@@ -46,6 +47,7 @@ export default function GlobalReactionsPage() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <Breadcrumbs items={[{ label: 'Global Reactions' }]} dark />
           <BreadcrumbSchema items={[{ label: 'Global Reactions', href: '/global-reactions' }]} />
+          <ShareButtons title="Global Reactions Map" />
         </div>
         <ReactionsClient />
       </div>

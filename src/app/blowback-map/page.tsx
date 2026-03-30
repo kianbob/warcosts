@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Blowback Map — Interactive Map of U.S. Intervention Consequences',
@@ -28,6 +29,7 @@ export default function BlowbackMapPage() {
       <p className="text-stone-500 text-lg mb-8">
         Interactive map of U.S. intervention consequences — how yesterday&apos;s allies became today&apos;s enemies.
       </p>
+      <ShareButtons title="Blowback Map" />
 
       <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
         <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-800 mb-3">

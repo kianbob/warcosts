@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'US Military Spending by Decade — 1940s to 2020s',
@@ -32,6 +33,7 @@ export default function DecadesPage() {
       <Breadcrumbs items={[{ label: 'Decades' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Military Spending by Decade</h1>
       <p className="text-stone-500 mb-8 max-w-3xl">A visual timeline of American military spending and conflicts from the 1940s to today.</p>
+      <ShareButtons title="US Military Spending by Decade" />
 
       <div className="space-y-4">
         {decadeData.map(d => (

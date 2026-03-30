@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import BackToTop from '@/components/BackToTop'
 import { CostOverrunChart, OverrunPercentChart } from './WeaponsCharts'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'US Weapons Systems — $3 Trillion in Programs | WarCosts',
@@ -79,6 +80,7 @@ export default function WeaponsPage() {
           </div>
         </div>
       </div>
+      <ShareButtons title="The Pentagon's Arsenal — US Weapons Systems" />
 
       {/* Rankings side by side */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">

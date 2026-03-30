@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
 import MediaClient from './MediaClient'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Media Coverage Tracker — The Wars America Forgot About | WarCosts',
@@ -54,6 +55,7 @@ export default function MediaCoveragePage() {
           <p className="text-stone-500 text-sm">
             Coverage estimates based on cable news airtime analysis, Tyndall Report data, GDELT Project media monitoring, and academic media studies.
           </p>
+          <ShareButtons title="Media Coverage Tracker — The Wars America Forgot About" />
         </div>
       </section>
 

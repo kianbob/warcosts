@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ProfiteersClient from './ProfiteersClient'
+import ShareButtons from '@/components/ShareButtons'
 import data from '../../../public/data/war-profiteers.json'
 
 export const metadata: Metadata = {
@@ -82,6 +83,9 @@ export default function WarProfiteersPage() {
               <div className="text-red-400 text-2xl md:text-3xl font-black">{data.summary.congressMembersWithHoldings}</div>
               <div className="text-stone-500 text-xs mt-1">Congress Members w/ Holdings</div>
             </div>
+          </div>
+          <div className="mt-8">
+            <ShareButtons title="War Profiteers Stock Tracker" />
           </div>
         </div>
       </section>

@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Country Military Spending Profiles — 167 Countries | WarCosts',
@@ -29,6 +30,7 @@ export default function CountriesPage() {
         <p className="text-stone-500 mb-8 max-w-3xl">
           Military spending data for {countries.length} countries based on SIPRI data. Constant 2023 USD.
         </p>
+        <ShareButtons title="Country Military Spending Profiles" />
 
         {/* Summary Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
