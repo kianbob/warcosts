@@ -273,7 +273,23 @@ export default function FighterJetCostPage() {
               headline: 'How Much Does a Fighter Jet Cost? From $80M to $150M',
               description: 'US fighter jets cost $63M to $150M each. The F-35 alone will cost $1.7 trillion.',
               url: 'https://www.warcosts.org/how-much-does-a-fighter-jet-cost',
+              datePublished: '2025-01-15',
+              dateModified: '2026-03-28',
+              author: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
               publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.warcosts.org' },
+                { '@type': 'ListItem', position: 2, name: 'Fighter Jet Cost', item: 'https://www.warcosts.org/how-much-does-a-fighter-jet-cost' },
+              ],
             }),
           }}
         />

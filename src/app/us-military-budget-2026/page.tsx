@@ -258,7 +258,23 @@ export default function MilitaryBudget2026Page() {
               headline: 'US Military Budget 2026: $895 Billion',
               description: 'The 2026 US military budget is $895 billion — the largest in history.',
               url: 'https://www.warcosts.org/us-military-budget-2026',
+              datePublished: '2025-06-01',
+              dateModified: '2026-03-28',
+              author: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
               publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.warcosts.org' },
+                { '@type': 'ListItem', position: 2, name: '2026 Military Budget', item: 'https://www.warcosts.org/us-military-budget-2026' },
+              ],
             }),
           }}
         />

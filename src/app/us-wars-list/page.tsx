@@ -96,6 +96,17 @@ export default function USWarsListPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.warcosts.org' },
+            { '@type': 'ListItem', position: 2, name: 'US Wars List', item: 'https://www.warcosts.org/us-wars-list' },
+          ],
+        }) }}
+      />
       <FaqJsonLd faqs={[
         { q: 'How many wars has the US been in?', a: 'The US has fought 36 major wars and conducted 469 total military interventions since 1776. Only 5 wars were formally declared by Congress: the War of 1812, the Mexican-American War, the Spanish-American War, World War I, and World War II.' },
         { q: 'How many years has the US been at war?', a: 'The United States has been at war for approximately 229 of its 249 years of existence — about 92% of its history.' },
