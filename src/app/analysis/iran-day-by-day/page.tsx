@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 27, 2026 (Day 28).',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 29, 2026 (Day 30).',
   openGraph: {
     title: 'Iran 2026: A Day-by-Day Account',
     description: 'The first 28 days of Operation Epic Fury — a factual war diary with verified numbers. 3,300+ killed. 10,000+ targets struck. Oil at $108.',
@@ -75,7 +75,7 @@ export default function IranDayByDayPage() {
       <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
         <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">📊</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 28 (March 27, 2026)</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 30 (March 29, 2026)</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">

@@ -71,7 +71,7 @@ export default function IranWarDayByDayPage() {
         <div className="max-w-7xl mx-auto px-4 pt-6">
           <Breadcrumbs
             items={[
-              { label: 'Home', href: '/' },
+              
               { label: 'Iran War 2026', href: '/iran-war-2026' },
               { label: 'Day by Day' },
             ]}

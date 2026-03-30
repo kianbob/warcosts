@@ -134,7 +134,7 @@ export default function VietnamWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Vietnam War' }]} />
+        <Breadcrumbs items={[{ label: 'Vietnam War' }]} />
         <ShareButtons title="Vietnam War — $1 Trillion, 58,220 US Dead, Lessons Never Learned" />
 
         {/* Hero */}

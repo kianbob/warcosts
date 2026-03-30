@@ -129,7 +129,7 @@ export default function MercenariesOfAmerica() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <Breadcrumbs items={[
-        { label: 'Home', href: '/' },
+        
         { label: 'Analysis', href: '/analysis' },
         { label: 'Mercenaries of America' },
       ]} />

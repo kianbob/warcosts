@@ -116,7 +116,7 @@ export default function GrenadaPage() {
       {/* ── Dark Hero ─────────────────────────────────────────── */}
       <section className="bg-stone-900 text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4">
-          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'US Wars', href: '/us-wars-list' }, { label: 'Grenada' }]} />
+          <Breadcrumbs items={[{ label: 'US Wars', href: '/us-wars-list' }, { label: 'Grenada' }]} />
           <h1 className="text-4xl md:text-6xl font-[family-name:var(--font-heading)] mt-6 mb-4 leading-tight">
             Operation Urgent Fury:<br />
             <span className="text-[#dc2626]">The 4-Day War</span>

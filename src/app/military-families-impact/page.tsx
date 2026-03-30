@@ -100,7 +100,7 @@ export default function MilitaryFamiliesImpactPage() {
       <section className="bg-stone-950 text-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
-            { label: 'Home', href: '/' },
+            
             { label: 'Veterans', href: '/veterans' },
             { label: 'Military Family Impact' },
           ]} />

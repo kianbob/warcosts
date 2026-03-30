@@ -95,7 +95,7 @@ export default function BoxerRebellionPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Boxer Rebellion' }]} />
+        <Breadcrumbs items={[{ label: 'Boxer Rebellion' }]} />
         <ShareButtons title="The Boxer Rebellion — America in China, 1900" />
 
         {/* Hero */}

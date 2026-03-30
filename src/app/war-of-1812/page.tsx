@@ -84,7 +84,7 @@ export default function WarOf1812Page() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'War of 1812' }]} />
+        <Breadcrumbs items={[{ label: 'War of 1812' }]} />
         <ShareButtons title="War of 1812 — $1.6B, 15K Dead, Washington Burned, Nobody Won" />
 
         {/* Hero */}

@@ -112,7 +112,7 @@ export default function WorldWar1Page() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'World War I' }]} />
+        <Breadcrumbs items={[{ label: 'World War I' }]} />
         <ShareButtons title="World War I — $334B, 116,516 US Dead" />
 
         {/* Hero */}

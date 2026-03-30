@@ -117,7 +117,7 @@ export default function WorldWar2Page() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'World War II' }]} />
+        <Breadcrumbs items={[{ label: 'World War II' }]} />
         <ShareButtons title="World War II — $4.1 Trillion, 405,399 US Dead" />
 
         {/* Hero */}

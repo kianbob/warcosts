@@ -97,7 +97,7 @@ export default function IndianWarsPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'American Indian Wars' }]} />
+        <Breadcrumbs items={[{ label: 'American Indian Wars' }]} />
         <ShareButtons title="The American Indian Wars — 148 Years, A Continent Taken" />
 
         {/* Hero */}

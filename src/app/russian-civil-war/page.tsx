@@ -91,7 +91,7 @@ export default function RussianCivilWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Russian Civil War Intervention' }]} />
+        <Breadcrumbs items={[{ label: 'Russian Civil War Intervention' }]} />
         <ShareButtons title="US Troops in Russia — The Forgotten Intervention (1918-1920)" />
 
         {/* Hero */}

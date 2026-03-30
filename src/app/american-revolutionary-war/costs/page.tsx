@@ -59,7 +59,7 @@ export default function CostsPage() {
     <>
       <section className="bg-stone-900 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Revolutionary War', href: '/american-revolutionary-war' }, { label: 'Financial Analysis' }]} dark />
+          <Breadcrumbs items={[{ label: 'Revolutionary War', href: '/american-revolutionary-war' }, { label: 'Financial Analysis' }]} dark />
           <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl font-bold mt-6 mb-4">
             How America Paid for Independence
           </h1>

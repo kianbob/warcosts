@@ -28,7 +28,7 @@ export default function PriceOfLibertyPage() {
     <>
       <section className="bg-stone-900 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Analysis', href: '/analysis' }, { label: 'The Price of Liberty' }]} dark />
+          <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Price of Liberty' }]} dark />
           <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-6xl font-bold mt-6 mb-4">
             The Price of Liberty
           </h1>

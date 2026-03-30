@@ -137,7 +137,7 @@ export default function TheDraftDebate() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <Breadcrumbs items={[
-        { label: 'Home', href: '/' },
+        
         { label: 'Analysis', href: '/analysis' },
         { label: 'The Draft Debate' },
       ]} />

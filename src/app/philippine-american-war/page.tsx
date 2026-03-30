@@ -94,7 +94,7 @@ export default function PhilippineAmericanWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Philippine-American War' }]} />
+        <Breadcrumbs items={[{ label: 'Philippine-American War' }]} />
         <ShareButtons title="Philippine-American War — 4,200 US Dead, Up to 1M Filipinos, America's Forgotten War" />
 
         {/* Hero */}

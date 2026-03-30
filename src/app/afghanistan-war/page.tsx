@@ -149,7 +149,7 @@ export default function AfghanistanWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Afghanistan War' }]} />
+        <Breadcrumbs items={[{ label: 'Afghanistan War' }]} />
         <ShareButtons title="Afghanistan War — 20 Years, $2.3 Trillion, Taliban Wins" />
 
         {/* Hero */}

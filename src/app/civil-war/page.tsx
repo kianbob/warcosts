@@ -94,7 +94,7 @@ export default function CivilWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Civil War' }]} />
+        <Breadcrumbs items={[{ label: 'Civil War' }]} />
         <ShareButtons title="The Civil War — $5.2 Trillion, 750K Dead, America's Deadliest War" />
 
         <header className="mb-12">

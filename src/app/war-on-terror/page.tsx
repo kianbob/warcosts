@@ -138,7 +138,7 @@ export default function WarOnTerrorPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'War on Terror' }]} />
+        <Breadcrumbs items={[{ label: 'War on Terror' }]} />
         <ShareButtons title="War on Terror — $8+ Trillion, 900K+ Dead, 85+ Countries" />
 
         {/* Hero */}

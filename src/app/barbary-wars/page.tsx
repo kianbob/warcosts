@@ -96,7 +96,7 @@ export default function BarbaryWarsPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Barbary Wars' }]} />
+        <Breadcrumbs items={[{ label: 'Barbary Wars' }]} />
         <ShareButtons title="The Barbary Wars — To the Shores of Tripoli" />
 
         {/* Hero */}

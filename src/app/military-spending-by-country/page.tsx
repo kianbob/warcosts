@@ -83,7 +83,7 @@ export default function MilitarySpendingByCountryPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Military Spending by Country' }]} />
+        <Breadcrumbs items={[{ label: 'Military Spending by Country' }]} />
         <ShareButtons title="Military Spending by Country — 2024 Global Rankings" />
 
         {/* Hero */}

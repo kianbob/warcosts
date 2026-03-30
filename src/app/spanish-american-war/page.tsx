@@ -100,7 +100,7 @@ export default function SpanishAmericanWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Spanish-American War' }]} />
+        <Breadcrumbs items={[{ label: 'Spanish-American War' }]} />
         <ShareButtons title="Spanish-American War — $12B, 2,446 Dead, Birth of American Empire" />
 
         {/* Hero */}

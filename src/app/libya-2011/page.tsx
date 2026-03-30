@@ -115,7 +115,7 @@ export default function Libya2011Page() {
       {/* ── Dark Hero ─────────────────────────────────────────── */}
       <section className="bg-stone-900 text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4">
-          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'US Wars', href: '/us-wars-list' }, { label: 'Libya 2011' }]} />
+          <Breadcrumbs items={[{ label: 'US Wars', href: '/us-wars-list' }, { label: 'Libya 2011' }]} />
           <h1 className="text-4xl md:text-6xl font-[family-name:var(--font-heading)] mt-6 mb-4 leading-tight">
             Operation Odyssey Dawn:<br />
             <span className="text-[#dc2626]">The War Obama Said Wasn&apos;t a War</span>

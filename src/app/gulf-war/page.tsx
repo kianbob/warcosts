@@ -110,7 +110,7 @@ export default function GulfWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Gulf War' }]} />
+        <Breadcrumbs items={[{ label: 'Gulf War' }]} />
         <ShareButtons title="Gulf War — $102B, 100 Hours, Seeds of Future Wars" />
 
         {/* Hero */}

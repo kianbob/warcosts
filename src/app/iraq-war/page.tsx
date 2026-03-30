@@ -117,7 +117,7 @@ export default function IraqWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Iraq War' }]} />
+        <Breadcrumbs items={[{ label: 'Iraq War' }]} />
         <ShareButtons title="Iraq War — $3 Trillion, 4,500 US Dead, Zero WMDs" />
 
         {/* Hero */}

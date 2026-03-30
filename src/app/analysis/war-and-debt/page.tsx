@@ -103,7 +103,7 @@ export default function WarAndDebt() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <Breadcrumbs items={[
-        { label: 'Home', href: '/' },
+        
         { label: 'Analysis', href: '/analysis' },
         { label: 'War and Debt' },
       ]} />

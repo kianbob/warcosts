@@ -120,7 +120,7 @@ export default function BananaWarsPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Banana Wars' }]} />
+        <Breadcrumbs items={[{ label: 'Banana Wars' }]} />
         <ShareButtons title="The Banana Wars — When the Marines Worked for United Fruit" />
 
         {/* Hero */}

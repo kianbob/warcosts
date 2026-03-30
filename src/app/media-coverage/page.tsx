@@ -39,7 +39,7 @@ export default function MediaCoveragePage() {
       <section className="bg-stone-950 text-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
-            { label: 'Home', href: '/' },
+            
             { label: 'Analysis', href: '/analysis' },
             { label: 'Media Coverage Tracker' },
           ]} />

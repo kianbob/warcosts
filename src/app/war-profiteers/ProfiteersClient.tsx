@@ -111,7 +111,7 @@ export default function ProfiteersClient({ data }: Props) {
               <YAxis stroke="#a8a29e" fontSize={12} tickFormatter={v => `${v}%`} />
               <Tooltip
                 contentStyle={{ backgroundColor: '#1c1917', border: '1px solid #44403c', borderRadius: 8 }}
-                formatter={(v: number) => [`+${v.toFixed(1)}%`, 'Stock Gain']}
+                formatter={(v: number | undefined) => [`+${(v ?? 0).toFixed(1)}%`, 'Stock Gain']}
               />
               <Bar dataKey="gain" radius={[4, 4, 0, 0]}>
                 {barData.map((_, i) => (

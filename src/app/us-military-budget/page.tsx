@@ -110,7 +110,7 @@ export default function USMilitaryBudgetPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'US Military Budget' }]} />
+        <Breadcrumbs items={[{ label: 'US Military Budget' }]} />
         <ShareButtons title="US Military Budget 2025 — $886B Official, $1.4T Real" />
 
         {/* Hero */}

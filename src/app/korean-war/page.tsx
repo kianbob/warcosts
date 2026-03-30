@@ -111,7 +111,7 @@ export default function KoreanWarPage() {
   return (
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Korean War' }]} />
+        <Breadcrumbs items={[{ label: 'Korean War' }]} />
         <ShareButtons title="Korean War — $389B, 36,574 US Dead, The Forgotten War" />
 
         {/* Hero */}
