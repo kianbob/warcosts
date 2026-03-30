@@ -67,7 +67,7 @@ export function ContractorTroopRatioChart() {
           <XAxis dataKey="year" tick={{ fontSize: 12 }} />
           <YAxis tick={{ fontSize: 12 }} tickFormatter={(v) => `${(v / 1000).toFixed(0)}K`} />
           <Tooltip
-            formatter={(value: number, name: string) => [value.toLocaleString(), name === 'troops' ? 'Military Troops' : 'Private Contractors']}
+            formatter={(value: any, name: any) => [value.toLocaleString(), name === 'troops' ? 'Military Troops' : 'Private Contractors']}
             contentStyle={{ borderRadius: '8px', border: '1px solid #d6d3d1' }}
           />
           <Legend />
@@ -92,7 +92,7 @@ export function ContractorSpendingChart() {
           <XAxis dataKey="year" tick={{ fontSize: 12 }} />
           <YAxis tick={{ fontSize: 12 }} label={{ value: 'Billions $', angle: -90, position: 'insideLeft', style: { fontSize: 12 } }} />
           <Tooltip
-            formatter={(value: number) => [`$${value}B`, 'Contractor Spending']}
+            formatter={(value: any) => [`$${value}B`, 'Contractor Spending']}
             contentStyle={{ borderRadius: '8px', border: '1px solid #d6d3d1' }}
           />
           <Bar dataKey="spending" fill="#dc2626" name="Contractor Spending" radius={[4, 4, 0, 0]} />

@@ -122,7 +122,7 @@ export default async function VeteransVoicesPage() {
             </a>
           </div>
           <div className="mt-8">
-            <ShareButtons url="https://warcosts.org/veterans-voices" title="Veterans' Voices — Real Stories from America's Wars" />
+            <ShareButtons title="Veterans' Voices — Real Stories from America's Wars" />
           </div>
         </div>
       </section>

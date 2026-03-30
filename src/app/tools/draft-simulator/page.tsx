@@ -135,7 +135,7 @@ export default function DraftSimulatorPage() {
             When politicians vote for war, they&rsquo;re voting to send someone else&rsquo;s children. 
             The draft simulator makes that real.
           </p>
-          <ShareButtons url="https://warcosts.org/tools/draft-simulator" title="Draft Simulator — Would You Be Called?" />
+          <ShareButtons title="Draft Simulator — Would You Be Called?" />
         </div>
       </section>
 

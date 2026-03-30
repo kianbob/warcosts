@@ -28,7 +28,7 @@ export function AlliedSpendingChart() {
           <XAxis dataKey="country" tick={{ fontSize: 12 }} angle={-20} textAnchor="end" height={60} />
           <YAxis tick={{ fontSize: 12 }} label={{ value: 'Billions $', angle: -90, position: 'insideLeft', style: { fontSize: 12 } }} />
           <Tooltip
-            formatter={(value: number, name: string) => [`$${value}B`, name.charAt(0).toUpperCase() + name.slice(1)]}
+            formatter={(value: any, name: any) => [`$${value}B`, name.charAt(0).toUpperCase() + name.slice(1)]}
             contentStyle={{ borderRadius: '8px', border: '1px solid #d6d3d1' }}
           />
           <Legend />

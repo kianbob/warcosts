@@ -534,10 +534,10 @@ export default function CivilianTollPage() {
 
       <RelatedArticles
         articles={[
-          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For' },
-          { slug: 'lebanon-war-2026', title: 'Lebanon Under Fire Again: The 2026 War Nobody Asked For' },
-          { slug: 'oil-price-shock-2026', title: '$116 Oil and Counting: How the Iran War Is Hitting Your Wallet' },
-          { slug: 'iran-civilian-cost', title: 'The Civilian Cost of the Iran War' },
+          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For', desc: '' },
+          { slug: 'lebanon-war-2026', title: 'Lebanon Under Fire Again: The 2026 War Nobody Asked For', desc: '' },
+          { slug: 'oil-price-shock-2026', title: '$116 Oil and Counting: How the Iran War Is Hitting Your Wallet', desc: '' },
+          { slug: 'iran-civilian-cost', title: 'The Civilian Cost of the Iran War', desc: '' },
         ]}
       />
 

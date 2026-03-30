@@ -611,10 +611,10 @@ export default function OilPriceShockPage() {
 
       <RelatedArticles
         articles={[
-          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For' },
-          { slug: 'civilian-toll-iran-2026', title: '3,461 Dead in 30 Days: The Human Cost' },
-          { slug: 'hormuz-economic-impact', title: 'The Hormuz Crisis: Economic Impact' },
-          { slug: 'oil-and-war', title: 'Oil & War: Every Middle East War Is About Oil' },
+          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For', desc: '' },
+          { slug: 'civilian-toll-iran-2026', title: '3,461 Dead in 30 Days: The Human Cost', desc: '' },
+          { slug: 'hormuz-economic-impact', title: 'The Hormuz Crisis: Economic Impact', desc: '' },
+          { slug: 'oil-and-war', title: 'Oil & War: Every Middle East War Is About Oil', desc: '' },
         ]}
       />
 

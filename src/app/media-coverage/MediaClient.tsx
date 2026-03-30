@@ -75,7 +75,7 @@ export default function MediaClient() {
                   <BarChart data={conflicts} layout="vertical" margin={{ left: 10, right: 20 }}>
                     <XAxis type="number" domain={[0, 70]} tickFormatter={(v) => `${v}%`} />
                     <YAxis type="category" dataKey="name" width={110} tick={{ fontSize: 13 }} />
-                    <Tooltip formatter={(v: number) => `${v}%`} />
+                    <Tooltip formatter={(v: any) => `${v}%`} />
                     <Bar dataKey="coverage" radius={[0, 6, 6, 0]}>
                       {conflicts.map((c, i) => (
                         <Cell key={i} fill={c.color} />
@@ -92,7 +92,7 @@ export default function MediaClient() {
                   <BarChart data={conflicts} layout="vertical" margin={{ left: 10, right: 20 }}>
                     <XAxis type="number" tickFormatter={(v) => fmt(v)} />
                     <YAxis type="category" dataKey="name" width={110} tick={{ fontSize: 13 }} />
-                    <Tooltip formatter={(v: number) => v.toLocaleString()} />
+                    <Tooltip formatter={(v: any) => v.toLocaleString()} />
                     <Bar dataKey="casualties" radius={[0, 6, 6, 0]}>
                       {conflicts.map((c, i) => (
                         <Cell key={i} fill={c.casualties > 100000 ? '#991b1b' : c.color} />
@@ -193,7 +193,7 @@ export default function MediaClient() {
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis dataKey="month" tick={{ fontSize: 12 }} />
                   <YAxis tickFormatter={(v) => `${v}%`} />
-                  <Tooltip formatter={(v: number) => `${v}%`} />
+                  <Tooltip formatter={(v: any) => `${v}%`} />
                   <Legend />
                   <Line type="monotone" dataKey="iran2026" stroke="#dc2626" strokeWidth={3} name="Iran 2026 (projected)" dot={{ r: 4 }} />
                   <Line type="monotone" dataKey="afghanistan2001" stroke="#f59e0b" strokeWidth={2} name="Afghanistan 2001" strokeDasharray="5 5" dot={{ r: 3 }} />

@@ -215,7 +215,7 @@ export default function ReactionsClient() {
           </button>
           {(['support', 'oppose', 'complicated', 'neutral'] as Position[]).map(pos => {
             const cfg = POS_COLORS[pos]
-            const count = counts[pos]
+            const count = counts[pos as keyof typeof counts]
             return (
               <button
                 key={pos}

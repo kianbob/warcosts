@@ -160,8 +160,8 @@ export default function InflationClient() {
             <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#78716c' }} angle={-35} textAnchor="end" height={60} />
             <YAxis tick={{ fontSize: 11, fill: '#78716c' }} tickFormatter={v => v >= 1000 ? `$${(v / 1000).toFixed(0)}T` : `$${v}B`} />
             <Tooltip
-              formatter={(value: number) => [fmtMoney(value), '2026 Cost']}
-              labelFormatter={(label: string) => {
+              formatter={(value: any) => [fmtMoney(value), '2026 Cost']}
+              labelFormatter={(label: any) => {
                 const w = WARS.find(w => w.shortName === label)
                 return w ? `${w.name} (${w.years})` : label
               }}

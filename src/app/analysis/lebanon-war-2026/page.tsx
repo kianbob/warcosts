@@ -587,10 +587,10 @@ export default function LebanonWar2026Page() {
 
       <RelatedArticles
         articles={[
-          { slug: 'lebanon-burns', title: 'While Lebanon Burns: America\'s $22 Billion Blank Check' },
-          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For' },
-          { slug: 'civilian-toll-iran-2026', title: '3,461 Dead in 30 Days: The Human Cost' },
-          { slug: 'blowback', title: 'Blowback: When American Foreign Policy Comes Home' },
+          { slug: 'lebanon-burns', title: 'While Lebanon Burns: America\'s $22 Billion Blank Check', desc: '' },
+          { slug: 'iran-2026', title: 'Whose War Is This? The Iran Conflict Nobody Asked For', desc: '' },
+          { slug: 'civilian-toll-iran-2026', title: '3,461 Dead in 30 Days: The Human Cost', desc: '' },
+          { slug: 'blowback', title: 'Blowback: When American Foreign Policy Comes Home', desc: '' },
         ]}
       />
 
