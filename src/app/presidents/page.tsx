@@ -271,6 +271,30 @@ export default function PresidentsPage() {
           </table>
         </div>
 
+        {/* Deep Dive War Records */}
+        <div className="my-10">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">📖 Presidential War Records — Deep Dives</h2>
+          <p className="text-stone-500 text-sm mb-6">Detailed analysis of America&apos;s most consequential war presidents — costs, casualties, civil liberties, and legacy.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: '/presidents/fdr-wars', name: 'FDR', subtitle: 'Arsenal of Democracy', stat: '405K killed · $4.1T' },
+              { href: '/presidents/lbj-wars', name: 'LBJ', subtitle: "Vietnam's Architect", stat: '36K killed · 536K troops' },
+              { href: '/presidents/nixon-wars', name: 'Nixon', subtitle: 'Secret Wars', stat: '21K killed · Cambodia' },
+              { href: '/presidents/reagan-wars', name: 'Reagan', subtitle: 'Covert Commander', stat: '$2.8T defense · Iran-Contra' },
+              { href: '/presidents/bush-wars', name: 'Bush', subtitle: '$5.8 Trillion in War', stat: '7K killed · Iraq/Afghanistan' },
+              { href: '/presidents/obama-wars', name: 'Obama', subtitle: 'The Drone President', stat: '563 strikes · 7 countries' },
+              { href: '/presidents/trump-wars', name: 'Trump', subtitle: '"End the Wars" to Iran', stat: '$18B+ Iran · no Congress vote' },
+              { href: '/presidents/biden-wars', name: 'Biden', subtitle: "Afghanistan's End", stat: '$175B+ Ukraine aid' },
+            ].map(p => (
+              <Link key={p.href} href={p.href} className="bg-white rounded-xl border p-4 hover:shadow-md hover:border-red-200 transition group">
+                <p className="font-bold text-stone-900 group-hover:text-red-700 transition-colors">{p.name}</p>
+                <p className="text-sm text-stone-600">{p.subtitle}</p>
+                <p className="text-xs text-red-700 mt-1 font-medium">{p.stat}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Analysis Link */}
         <div className="bg-stone-900 text-white rounded-xl p-6 my-8">
           <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-2">📊 Deep Analysis: Presidents &amp; War</h2>
