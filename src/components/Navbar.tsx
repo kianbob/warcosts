@@ -7,6 +7,7 @@ const navItems = [
   { label: 'Modern Wars', href: '/modern-wars' },
   { label: 'War Clock', href: '/war-clock' },
   { label: 'Timeline', href: '/timeline' },
+  { label: '🗺️ War Map', href: '/war-map' },
   {
     label: 'Explore',
     items: [

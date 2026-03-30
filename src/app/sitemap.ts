@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/opportunity-cost', '/bases', '/deployments', '/regime-changes',
     '/dashboard', '/search', '/downloads', '/glossary',
     '/pentagon-audit', '/revolving-door', '/cost-overruns', '/war-roi',
-    '/who-fights', '/blowback-map',
+    '/who-fights', '/blowback-map', '/war-map',
     '/analysis', '/analysis/war-on-terror', '/analysis/congressional-authority',
     '/analysis/blowback', '/analysis/military-industrial-complex',
     '/analysis/human-cost', '/analysis/empire-of-bases',
