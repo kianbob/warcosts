@@ -1,5 +1,7 @@
 'use client'
 
+import { useState } from 'react'
+
 const embeds = [
   {
     title: 'Military Spending Over Time',
@@ -30,22 +32,37 @@ const embeds = [
     height: 400,
   },
   {
-    title: 'Defense Budget Breakdown',
-    description: 'Pie chart of how the US defense budget is allocated across branches and programs.',
-    path: '/embed/spending-timeline',
-    width: 800,
-    height: 500,
+    title: 'Iran Casualties Counter',
+    description: 'Live casualty counter showing estimated killed and injured in the Iran war, updating in real time.',
+    path: '/embed/iran-casualties',
+    width: 500,
+    height: 250,
   },
   {
-    title: 'US Military Bases by Country',
-    description: 'Bar chart showing countries hosting the most US military bases worldwide.',
-    path: '/embed/war-costs',
-    width: 800,
-    height: 500,
+    title: 'War Cost Ticker (Compact)',
+    description: 'Single-line cost ticker ideal for blog sidebars and headers. Shows total Iran war cost ticking live.',
+    path: '/embed/war-cost-ticker',
+    width: 500,
+    height: 60,
+  },
+  {
+    title: 'Civilian Toll Comparison',
+    description: 'Compares civilian casualties in Iran vs Iraq vs Afghanistan at the same stage of each war.',
+    path: '/embed/civilian-toll',
+    width: 500,
+    height: 320,
   },
 ]
 
 export default function EmbedsClient() {
+  const [copied, setCopied] = useState<number | null>(null)
+
+  function handleCopy(code: string, idx: number) {
+    navigator.clipboard.writeText(code)
+    setCopied(idx)
+    setTimeout(() => setCopied(null), 2000)
+  }
+
   return (
     <div className="space-y-12">
       {embeds.map((embed, idx) => {
@@ -55,7 +72,7 @@ export default function EmbedsClient() {
             <div className="p-6">
               <h2 className="text-xl font-bold text-stone-100 font-[family-name:var(--font-heading)] mb-1">{embed.title}</h2>
               <p className="text-stone-400 text-sm mb-4">{embed.description}</p>
-              <div className="rounded-lg overflow-hidden border border-stone-600 bg-white">
+              <div className="rounded-lg overflow-hidden border border-stone-600 bg-[#1c1917]">
                 <iframe
                   src={embed.path}
                   width="100%"
@@ -67,7 +84,15 @@ export default function EmbedsClient() {
               </div>
             </div>
             <div className="bg-stone-900/50 px-6 py-4 border-t border-stone-700">
-              <p className="text-xs text-stone-500 mb-2">Embed code:</p>
+              <div className="flex items-center justify-between mb-2">
+                <p className="text-xs text-stone-500">Embed code:</p>
+                <button
+                  onClick={() => handleCopy(iframeCode, idx)}
+                  className="text-xs text-red-400 hover:text-red-300 transition-colors"
+                >
+                  {copied === idx ? '✓ Copied' : 'Copy'}
+                </button>
+              </div>
               <textarea
                 readOnly
                 value={iframeCode}
