@@ -1,6 +1,7 @@
 import { loadData } from '@/lib/server-utils'
 import ExplorerClient from './ExplorerClient'
 import type { Metadata } from 'next'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Data Explorer — All US Conflicts',
@@ -18,6 +19,7 @@ export default function ExplorerPage() {
       <p className="text-stone-400 mb-8 max-w-2xl">
         Every US war, intervention, and military action — sortable by cost, casualties, duration, and outcome.
       </p>
+      <ShareButtons title="Data Explorer — All US Conflicts" />
       <ExplorerClient conflicts={conflicts} />
     </main>
   )

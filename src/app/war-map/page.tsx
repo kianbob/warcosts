@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import WarMapClient from './WarMapClient'
+import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Global War Map — Interactive Map of U.S. Military Operations Worldwide',
@@ -46,6 +47,7 @@ export default function WarMapPage() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <Breadcrumbs items={[{ label: 'Global War Map' }]} dark />
           <BreadcrumbSchema items={[{ label: 'Global War Map', href: '/war-map' }]} />
+          <ShareButtons title="Global War Map" />
         </div>
         <WarMapClient />
       </div>
