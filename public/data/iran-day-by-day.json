@@ -1,0 +1,573 @@
+[
+  {
+    "day": 1,
+    "date": "2026-02-28",
+    "title": "Operation Epic Fury Begins",
+    "costToDate": "1.88B",
+    "costRaw": 1880000000,
+    "casualtiesIran": 180,
+    "casualtiesUS": 0,
+    "civilianDeaths": 42,
+    "oilPrice": 82,
+    "keyEvents": [
+      "US-Israel launch surprise strikes on 50+ sites across Iran",
+      "Khamenei killed in Tehran bunker strike on Pasteur Street compound",
+      "IRGC headquarters destroyed in coordinated bombing",
+      "Iran air defenses 40% destroyed in first wave",
+      "Trump announces 'Operation Epic Fury' via Truth Social at 2:30am",
+      "168 killed when Israeli strike hits Shajareh Tayyebeh girls' school in Minab"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 2,
+    "date": "2026-03-01",
+    "title": "Iran Retaliates",
+    "costToDate": "3.6B",
+    "costRaw": 3600000000,
+    "casualtiesIran": 340,
+    "casualtiesUS": 3,
+    "civilianDeaths": 95,
+    "oilPrice": 84,
+    "keyEvents": [
+      "Iran launches massive missile and drone barrages at Israel, Kuwait, Bahrain, Qatar",
+      "Iranian state media confirms Khamenei dead — 40 days of mourning declared",
+      "Iran closes the Strait of Hormuz — 20% of global oil transit halted",
+      "1,000+ total targets hit across Iran; Trump claims 48 Iranian leaders killed",
+      "Pentagon confirms 3 US service members killed in action"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 3,
+    "date": "2026-03-02",
+    "title": "Hezbollah Opens Northern Front",
+    "costToDate": "5.4B",
+    "costRaw": 5400000000,
+    "casualtiesIran": 520,
+    "casualtiesUS": 3,
+    "civilianDeaths": 168,
+    "oilPrice": 86,
+    "keyEvents": [
+      "Hezbollah launches 200+ rockets into northern Israel from Lebanon",
+      "Israel begins retaliatory strikes on Beirut southern suburbs",
+      "Iranian ballistic missiles strike US base at Al Udeid, Qatar — intercepted",
+      "Global oil markets panic; Brent crude jumps $4 overnight",
+      "UN Security Council emergency session — Russia and China block ceasefire resolution"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 4,
+    "date": "2026-03-03",
+    "title": "Kuwait Drone Strike",
+    "costToDate": "7.2B",
+    "costRaw": 7200000000,
+    "casualtiesIran": 710,
+    "casualtiesUS": 6,
+    "civilianDeaths": 245,
+    "oilPrice": 87,
+    "keyEvents": [
+      "6 US troops killed in coordinated drone strike on Camp Arifjan, Kuwait",
+      "Pro-Iran militias in Iraq launch rocket attacks on Ain al-Asad Air Base",
+      "Second wave of US strikes targets Iranian missile production facilities",
+      "Iranian navy attempts to mine Strait of Hormuz approaches",
+      "First US combat footage released by Pentagon"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 5,
+    "date": "2026-03-04",
+    "title": "Escalation Across Region",
+    "costToDate": "9.1B",
+    "costRaw": 9100000000,
+    "casualtiesIran": 920,
+    "casualtiesUS": 8,
+    "civilianDeaths": 310,
+    "oilPrice": 88,
+    "keyEvents": [
+      "US strikes expand to Iranian port facilities at Bandar Abbas",
+      "Houthi missiles target US carrier group in Red Sea — all intercepted",
+      "Israel ground incursion into southern Lebanon begins",
+      "Iranian diaspora protests erupt in London, Berlin, Los Angeles",
+      "Gas prices in US jump 30 cents overnight"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 6,
+    "date": "2026-03-05",
+    "title": "Pentagon: $11.3B in 6 Days",
+    "costToDate": "11.3B",
+    "costRaw": 11300000000,
+    "casualtiesIran": 1140,
+    "casualtiesUS": 8,
+    "civilianDeaths": 385,
+    "oilPrice": 89,
+    "keyEvents": [
+      "Pentagon briefing reveals $11.3B spent in first six days of operations",
+      "Congress demands emergency briefing — administration cites War Powers Act",
+      "Iranian cyber attacks hit US financial institutions and power grid",
+      "IAEA reports Iranian nuclear facility at Natanz severely damaged",
+      "Civilian death toll in Iran passes 380 according to HRANA"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 7,
+    "date": "2026-03-06",
+    "title": "Hormuz Crisis — Oil Past $90",
+    "costToDate": "13.8B",
+    "costRaw": 13800000000,
+    "casualtiesIran": 1320,
+    "casualtiesUS": 9,
+    "civilianDeaths": 440,
+    "oilPrice": 92,
+    "keyEvents": [
+      "Oil surges past $90 as Strait of Hormuz remains closed",
+      "Two commercial tankers struck by Iranian mines near Fujairah",
+      "US Navy minesweepers deployed to clear Strait approaches",
+      "Pentagon announces 14,000 additional troops deploying to region",
+      "Iran claims to have shot down 3 US drones over Persian Gulf"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 8,
+    "date": "2026-03-07",
+    "title": "Lebanon Front Widens",
+    "costToDate": "16.2B",
+    "costRaw": 16200000000,
+    "casualtiesIran": 1480,
+    "casualtiesUS": 10,
+    "civilianDeaths": 510,
+    "oilPrice": 93,
+    "keyEvents": [
+      "Israeli ground offensive pushes 10km into southern Lebanon",
+      "Hezbollah anti-tank missiles destroy 4 Israeli armored vehicles",
+      "US begins B-2 bomber strikes on underground Iranian facilities",
+      "Pentagon requests emergency supplemental funding from Congress",
+      "First ICRC report: hospitals in Tehran overwhelmed"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 9,
+    "date": "2026-03-08",
+    "title": "Civilian Toll Mounts",
+    "costToDate": "18.8B",
+    "costRaw": 18800000000,
+    "casualtiesIran": 1680,
+    "casualtiesUS": 11,
+    "civilianDeaths": 620,
+    "oilPrice": 94,
+    "keyEvents": [
+      "Strikes on Isfahan hit residential neighborhoods — 80+ civilians killed",
+      "International Women's Day protests worldwide demand ceasefire",
+      "Iran fires medium-range ballistic missiles at US base in Bahrain",
+      "US stock market drops 4% on war and oil fears",
+      "Doctors Without Borders reports critical medicine shortages in Iran"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 10,
+    "date": "2026-03-09",
+    "title": "Minab School Strike Confirmed",
+    "costToDate": "21.5B",
+    "costRaw": 21500000000,
+    "casualtiesIran": 1900,
+    "casualtiesUS": 11,
+    "civilianDeaths": 750,
+    "oilPrice": 95,
+    "keyEvents": [
+      "Full details emerge of Minab school strike: 168 children killed on Day 1",
+      "Photos of Shajareh Tayyebeh girls' school rubble go viral worldwide",
+      "Multiple countries recall ambassadors from Washington and Tel Aviv",
+      "Pope Francis calls for immediate ceasefire in special address",
+      "US domestic anti-war protests begin in 40+ cities"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 11,
+    "date": "2026-03-10",
+    "title": "Global Backlash Grows",
+    "costToDate": "24.3B",
+    "costRaw": 24300000000,
+    "casualtiesIran": 2050,
+    "casualtiesUS": 12,
+    "civilianDeaths": 840,
+    "oilPrice": 96,
+    "keyEvents": [
+      "EU Parliament passes non-binding resolution condemning strikes",
+      "Turkey closes airspace to US military overflights",
+      "Iran militia proxies attack oil facilities in Kirkuk, Iraq",
+      "Pentagon confirms 12th US service member killed — IED in Iraq",
+      "HRANA documents 840+ civilian deaths with names and locations"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 12,
+    "date": "2026-03-11",
+    "title": "Strikes on Iranian Infrastructure",
+    "costToDate": "27.4B",
+    "costRaw": 27400000000,
+    "casualtiesIran": 2180,
+    "casualtiesUS": 12,
+    "civilianDeaths": 920,
+    "oilPrice": 97,
+    "keyEvents": [
+      "US strikes target Iranian power grid and communications infrastructure",
+      "Rolling blackouts reported across Tehran, Isfahan, Shiraz",
+      "Iranian internet goes dark — near-total information blackout",
+      "Red Cross convoy denied access to bombed areas in Khuzestan",
+      "China announces $2B emergency humanitarian aid package to Iran"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 13,
+    "date": "2026-03-12",
+    "title": "Humanitarian Crisis Deepens",
+    "costToDate": "30.8B",
+    "costRaw": 30800000000,
+    "casualtiesIran": 2340,
+    "casualtiesUS": 13,
+    "civilianDeaths": 1010,
+    "oilPrice": 98,
+    "keyEvents": [
+      "UNHCR reports 500,000+ internally displaced in Iran",
+      "Iranian hospitals running on generator power — fuel running low",
+      "Hezbollah rocket kills 8 Israeli civilians in Haifa",
+      "US Marines land at Bandar Abbas port to secure shipping lanes",
+      "Pentagon spending rate: ~$2.5B per day"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 14,
+    "date": "2026-03-13",
+    "title": "Two Weeks of War",
+    "costToDate": "34.5B",
+    "costRaw": 34500000000,
+    "casualtiesIran": 2510,
+    "casualtiesUS": 14,
+    "civilianDeaths": 1100,
+    "oilPrice": 99,
+    "keyEvents": [
+      "Two-week mark: 2,510 killed in Iran, 14 US troops dead",
+      "Oil approaches $100 — gas prices in US average $4.80/gallon",
+      "Iran's acting Supreme Leader vows 'resistance until victory'",
+      "Russia begins military exercises near Azerbaijan border",
+      "US House votes 218-212 to authorize 60-day military operations"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 15,
+    "date": "2026-03-14",
+    "title": "Oil Breaks $100",
+    "costToDate": "38.2B",
+    "costRaw": 38200000000,
+    "casualtiesIran": 2650,
+    "casualtiesUS": 15,
+    "civilianDeaths": 1180,
+    "oilPrice": 101,
+    "keyEvents": [
+      "Brent crude breaks $100/barrel for first time since 2022",
+      "Global recession fears spike — Dow drops 800 points",
+      "Iran launches ballistic missile at Israeli port of Eilat — partially intercepted",
+      "Pentagon announces additional carrier strike group deploying",
+      "Anti-war march in Washington draws 200,000+"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 16,
+    "date": "2026-03-15",
+    "title": "Deepening Air Campaign",
+    "costToDate": "42.1B",
+    "costRaw": 42100000000,
+    "casualtiesIran": 2820,
+    "casualtiesUS": 16,
+    "civilianDeaths": 1270,
+    "oilPrice": 103,
+    "keyEvents": [
+      "US begins 'Phase 2' targeting Iranian industrial capacity",
+      "Strikes hit petrochemical facilities at Mahshahr",
+      "Iranian IRGC commander killed in targeted strike in Syria",
+      "16th US service member killed — helicopter crash in Gulf",
+      "India and Japan urge diplomatic solution as energy costs soar"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 17,
+    "date": "2026-03-16",
+    "title": "HRANA: 3,114 Killed",
+    "costToDate": "46.3B",
+    "costRaw": 46300000000,
+    "casualtiesIran": 3114,
+    "casualtiesUS": 17,
+    "civilianDeaths": 1420,
+    "oilPrice": 105,
+    "keyEvents": [
+      "HRANA documents 3,114 total killed in Iran — names published online",
+      "At least 1,420 confirmed civilians among the dead",
+      "Pentagon requests $200B emergency war supplemental from Congress",
+      "Iran fires cruise missiles at Saudi oil facility at Ras Tanura",
+      "Global food prices spike 15% on shipping disruption fears"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 18,
+    "date": "2026-03-17",
+    "title": "$200B War Request",
+    "costToDate": "50.8B",
+    "costRaw": 50800000000,
+    "casualtiesIran": 3150,
+    "casualtiesUS": 17,
+    "civilianDeaths": 1460,
+    "oilPrice": 106,
+    "keyEvents": [
+      "Pentagon formally submits $200B supplemental war funding request",
+      "Congressional debate erupts — progressives demand withdrawal",
+      "12 Republican senators break ranks, question escalation",
+      "Iran's internet partially restored — videos of destruction flood social media",
+      "European gas prices jump 40% on LNG supply fears"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 19,
+    "date": "2026-03-18",
+    "title": "Environmental Catastrophe",
+    "costToDate": "55.6B",
+    "costRaw": 55600000000,
+    "casualtiesIran": 3180,
+    "casualtiesUS": 18,
+    "civilianDeaths": 1500,
+    "oilPrice": 107,
+    "keyEvents": [
+      "Massive oil spill in Persian Gulf from struck Iranian terminal",
+      "Environmental groups warn of ecological disaster across Gulf coastlines",
+      "Strikes hit water treatment plants — 2M+ without clean water in Khuzestan",
+      "18th US service member killed in mortar attack in Iraq",
+      "Chinese and Russian warships enter Gulf of Oman for 'monitoring'"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 20,
+    "date": "2026-03-19",
+    "title": "Three Weeks Mark",
+    "costToDate": "60.8B",
+    "costRaw": 60800000000,
+    "casualtiesIran": 3210,
+    "casualtiesUS": 18,
+    "civilianDeaths": 1540,
+    "oilPrice": 108,
+    "keyEvents": [
+      "Three weeks of war — $60.8B spent, no end in sight",
+      "US Gas prices hit $5.20/gallon national average",
+      "Trump approval rating drops to 38% — lowest of presidency",
+      "NATO allies refuse to join combat operations",
+      "Iran's acting government signals willingness for back-channel talks"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 21,
+    "date": "2026-03-20",
+    "title": "Nowruz Under Bombs",
+    "costToDate": "65.4B",
+    "costRaw": 65400000000,
+    "casualtiesIran": 3240,
+    "casualtiesUS": 19,
+    "civilianDeaths": 1580,
+    "oilPrice": 109,
+    "keyEvents": [
+      "Iranian New Year (Nowruz) — strikes continue through the holiday",
+      "Worldwide Nowruz vigils held for Iranian civilians",
+      "US strikes hit Isfahan steel production complex",
+      "Nuclear enrichment facility at Fordow struck with bunker busters",
+      "19th US service member killed — anti-ship missile hits patrol boat"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 22,
+    "date": "2026-03-21",
+    "title": "Nuclear Sites Targeted",
+    "costToDate": "70.2B",
+    "costRaw": 70200000000,
+    "casualtiesIran": 3270,
+    "casualtiesUS": 19,
+    "civilianDeaths": 1610,
+    "oilPrice": 110,
+    "keyEvents": [
+      "Massive B-2 strikes on Natanz underground centrifuge halls",
+      "IAEA warns of potential radiological contamination from strikes",
+      "Environmental monitoring stations detect elevated radiation near Natanz",
+      "Global protests reach largest scale — 5M+ march across 80 countries",
+      "Iran's Guardian Council declares 'sacred defense' mobilization"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 23,
+    "date": "2026-03-22",
+    "title": "Industrial Destruction Campaign",
+    "costToDate": "75.1B",
+    "costRaw": 75100000000,
+    "casualtiesIran": 3300,
+    "casualtiesUS": 20,
+    "civilianDeaths": 1650,
+    "oilPrice": 111,
+    "keyEvents": [
+      "Strikes destroy Esfahan Steel Company — Iran's largest steel plant",
+      "Mobarakeh Steel complex targeted with precision munitions",
+      "Pentagon declares 'industrial disarmament phase' of operations",
+      "20th US service member killed in drone attack on convoy in Syria",
+      "European automakers halt production citing steel supply disruption"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 24,
+    "date": "2026-03-23",
+    "title": "Global Protests Surge",
+    "costToDate": "80.3B",
+    "costRaw": 80300000000,
+    "casualtiesIran": 3330,
+    "casualtiesUS": 20,
+    "civilianDeaths": 1680,
+    "oilPrice": 112,
+    "keyEvents": [
+      "Largest anti-war protest in US since Iraq War — 500,000 in DC",
+      "Strikes hit Khuzestan Steel Company facilities",
+      "Iranian refugees flooding into Turkey and Iraq — 100,000+ displaced across borders",
+      "UN General Assembly passes ceasefire resolution 143-5",
+      "Federal Reserve issues emergency economic guidance on oil shock"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 25,
+    "date": "2026-03-24",
+    "title": "Academic Targets Hit",
+    "costToDate": "85.7B",
+    "costRaw": 85700000000,
+    "casualtiesIran": 3360,
+    "casualtiesUS": 21,
+    "civilianDeaths": 1720,
+    "oilPrice": 113,
+    "keyEvents": [
+      "Strikes hit Iran University of Science and Technology (IUST) physics department",
+      "Pentagon claims IUST housed nuclear weapons research program",
+      "Academic community worldwide condemns targeting of universities",
+      "21st US service member killed — rocket attack on Green Zone, Baghdad",
+      "Oil industry analysts predict $120+ if war continues through April"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 26,
+    "date": "2026-03-25",
+    "title": "Mobarakeh Steel Destroyed",
+    "costToDate": "91.2B",
+    "costRaw": 91200000000,
+    "casualtiesIran": 3380,
+    "casualtiesUS": 21,
+    "civilianDeaths": 1750,
+    "oilPrice": 114,
+    "keyEvents": [
+      "Satellite imagery confirms Mobarakeh Steel complex completely destroyed",
+      "Iran's steel production capacity reduced by estimated 70%",
+      "Strikes on Bandar Khamir port facilities in Hormozgan province",
+      "Global steel prices surge 25% on supply fears",
+      "South Korea and Japan announce emergency oil reserve releases"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 27,
+    "date": "2026-03-26",
+    "title": "Khuzestan Devastation",
+    "costToDate": "96.8B",
+    "costRaw": 96800000000,
+    "casualtiesIran": 3410,
+    "casualtiesUS": 22,
+    "civilianDeaths": 1790,
+    "oilPrice": 115,
+    "keyEvents": [
+      "Sustained strikes on Khuzestan province industrial and oil infrastructure",
+      "Ahvaz residents report constant bombardment for 72 hours",
+      "22nd US service member killed — Houthi anti-ship missile in Red Sea",
+      "Iran's oil export capacity effectively reduced to zero",
+      "IMF warns of 'severe global economic disruption' if war continues"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 28,
+    "date": "2026-03-27",
+    "title": "Bandar Khamir Strikes",
+    "costToDate": "102.5B",
+    "costRaw": 102500000000,
+    "casualtiesIran": 3430,
+    "casualtiesUS": 22,
+    "civilianDeaths": 1820,
+    "oilPrice": 115,
+    "keyEvents": [
+      "Further strikes on Bandar Khamir destroy remaining port infrastructure",
+      "Pentagon announces war costs have exceeded $100B",
+      "Iran's acting FM appeals directly to US public in video address",
+      "Bipartisan group of 40 senators demand ceasefire negotiations",
+      "UK Parliament debates withdrawal of intelligence support"
+    ],
+    "significance": "escalation"
+  },
+  {
+    "day": 29,
+    "date": "2026-03-28",
+    "title": "Houthis Threaten Intervention",
+    "costToDate": "108.4B",
+    "costRaw": 108400000000,
+    "casualtiesIran": 3450,
+    "casualtiesUS": 23,
+    "civilianDeaths": 1850,
+    "oilPrice": 116,
+    "keyEvents": [
+      "Houthi leadership declares 'full war footing' in solidarity with Iran",
+      "Houthi missiles and drones target multiple commercial vessels in Red Sea",
+      "23rd US service member killed in Houthi attack on destroyer escort",
+      "Global shipping insurance rates triple for Persian Gulf and Red Sea",
+      "Oil hits $116/barrel — highest since 2008 financial crisis"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 30,
+    "date": "2026-03-29",
+    "title": "One Month of War",
+    "costToDate": "114.8B",
+    "costRaw": 114800000000,
+    "casualtiesIran": 3461,
+    "casualtiesUS": 23,
+    "civilianDeaths": 1870,
+    "oilPrice": 116,
+    "keyEvents": [
+      "One month mark: 3,461 killed in Iran, 23 US troops dead",
+      "Total cost: $114.8B in 30 days — nearly $4B per day",
+      "Iran's military capacity estimated at 35% of pre-war levels",
+      "No ceasefire in sight — Pentagon plans operations through summer",
+      "Global economic damage estimated at $800B+ from oil disruption alone"
+    ],
+    "significance": "critical"
+  }
+]
