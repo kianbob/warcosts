@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 28 (March 27): 15 US troops dead (13 KIA + 2 non-combat), ~200 wounded; Iran: 3,300+ killed (HRANA — 1,492+ civilians), 24,800+ injured; 1,110+ killed in Lebanon, 1M+ displaced; Israel: 19 killed, 5,229 wounded; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Iran blocks CHINESE ships at Hormuz — even 'friendly' nations now denied passage. Trump extends power-plant deadline to April 6 (second extension). Israel warns attacks 'will escalate.' Arak nuclear site struck. Oil surges to $108/barrel. G7 meets on war. Global fertilizer/food crisis worsening. Pentagon demands $200B. No exit strategy. Largest US military operation since Iraq 2003.",
-    "costNominal": 25000000000,
-    "costInflationAdjusted": 11300000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 30 (March 29): 15 US troops dead (13 KIA + 2 non-combat), 303+ wounded; Iran: 3,461+ killed (HRANA — 1,551 civilians, 228+ children), 24,800+ injured; 1,110+ killed in Lebanon (102+ killed, 400+ Hezbollah fighters); Israel: 19 civilians killed, 5,229 wounded; 9,000+ strikes conducted (CENTCOM), 130 vessels destroyed. Iran blocks CHINESE ships at Hormuz. Trump extends power-plant deadline to April 6. Israel warns attacks 'will escalate.' Oil surges to $116/barrel Brent. Pentagon estimates $18B+ spent by Day 19, requesting $200B supplemental. G7 meets on war. Global fertilizer/food crisis worsening. No exit strategy. Largest US military operation since Iraq 2003.",
+    "costNominal": 18000000000,
+    "costInflationAdjusted": 18000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
-      "wounded": 200,
+      "wounded": 303,
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 3300,
+    "civilianDeaths": 3461,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 28 (March 27): Iran blocks Chinese ships at Hormuz — even 'friendly' nations denied passage. Trump extends power-plant deadline to April 6 (second extension). Israel defense minister warns attacks 'will escalate and expand.' Arak nuclear facility struck. Oil surges to $108/barrel. HRANA: 3,300+ killed in Iran (1,492+ civilians). Lebanon: 1,110+ killed. US: 15 dead. G7 meets in France on war. Global fertilizer/food crisis. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 30 (March 29): Iran blocks Chinese ships at Hormuz. Trump extends power-plant deadline to April 6. Israel warns attacks 'will escalate and expand.' Oil at $116/barrel Brent. HRANA: 3,461+ killed in Iran (1,551 civilians, 228+ children). Lebanon: 1,110+ killed (102+ killed, 400+ Hezbollah fighters). Israel: 19 civilians killed. US: 15 dead, 303+ wounded. Pentagon: $18B+ spent by Day 19, requesting $200B supplemental. No ceasefire, no exit strategy.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5977,7 +5977,7 @@
       "text": "The founders gave Congress the power to declare war precisely because they knew executives, left unchecked, will always find reasons to fight.",
       "attribution": "Adapted from James Madison's notes on the Constitutional Convention"
     },
-    "costBreakdown": "Pentagon told Congress the first 6 days cost $11.3 billion — roughly $1.88 billion per day or $21,800 per second. Extrapolated through Day 13: approximately $24.5 billion in direct military costs. Carrier strike groups cost $6.5 million per day each. B-2 bomber sorties from the continental US cost $130,000+ per flight hour. Tomahawk cruise missiles cost $2 million each — hundreds were fired. SM-3 interceptors cost $36 million each. The economic cost of the Hormuz disruption — with ~15M bbl/day crude stranded and oil above $100/barrel — dwarfs the direct military expenditure.",
+    "costBreakdown": "Pentagon estimates $18B+ spent through Day 19, requesting $200B supplemental from Congress. First 6 days cost $11.3 billion — roughly $1.88 billion per day or $21,800 per second. Carrier strike groups cost $6.5 million per day each. B-2 bomber sorties from the continental US cost $130,000+ per flight hour. Tomahawk cruise missiles cost $2 million each — hundreds were fired. SM-3 interceptors cost $36 million each. The economic cost of the Hormuz disruption — with ~15M bbl/day crude stranded and oil above $100/barrel — dwarfs the direct military expenditure.",
     "legacyImpact": "By Day 14: 1,444 Iranians killed including 168 children, 18,551 injured. 687+ killed in Lebanon (98 children), 750K displaced. 13+ US troops dead. Oil above $100/barrel. Strait of Hormuz under Iranian control. 15,000+ targets struck — triple the figure from 3 days prior. New Supreme Leader Mojtaba Khamenei's first act: vow continued attacks unless US bases close. Strikes expanded from nuclear sites to oil refineries, drone factories, underground sites, and residential neighborhoods. 250+ US organizations demand Congress halt funding. Iraq shutting ports. French troops wounded. Pentagon admits $11.3B cost in first 6 days. No ceasefire, no exit strategy, no congressional authorization. Reuters reports Trump's own aides privately divided on endgame.",
     "controversies": [
       "The strikes were conducted without congressional authorization, violating the Constitution's requirement that Congress declare war. Trump's claim of 'imminent threat' was contradicted by Secretary Rubio's admission that the strikes were 'pre-emptive,' making this preventive war rather than self-defense. The 53-47 Senate vote blocking a War Powers Resolution demonstrated how executive war-making has effectively nullified the Constitution's checks and balances.",
