@@ -39,6 +39,13 @@ const tools = [
     color: 'bg-green-50 border-green-200',
   },
   {
+    title: 'State Impact Calculator',
+    desc: 'Enter your state and see your personal share of $8 trillion in war spending, military casualties, and what that money could\'ve funded locally.',
+    href: '/tools/state-impact',
+    icon: '📍',
+    color: 'bg-purple-50 border-purple-200',
+  },
+  {
     title: 'Compare Countries',
     desc: 'Compare any two countries\' military spending side by side: budgets, % GDP, global rank, 10-year trends, and US bases.',
     href: '/tools/compare-countries',
