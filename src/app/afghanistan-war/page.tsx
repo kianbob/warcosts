@@ -360,7 +360,8 @@ export default function AfghanistanWarPage() {
               { href: '/cost-of-war', label: 'Total Cost of US Wars' },
               { href: '/analysis/war-on-terror', label: 'The War on Terror' },
               { href: '/analysis/forever-wars', label: 'Forever Wars' },
-              { href: '/vietnam-war', label: 'Vietnam War — The First Quagmire' },
+              { href: '/cost-per-kill', label: 'Cost Per Kill — $935M Per Death' },
+              { href: '/who-fights', label: 'Who Fights — The 1% Who Serve' },
               { href: '/veterans', label: 'Veterans — The Aftermath' },
             ].map((link) => (
               <Link

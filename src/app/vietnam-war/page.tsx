@@ -407,12 +407,12 @@ export default function VietnamWarPage() {
           <h2 className="text-2xl font-[family-name:var(--font-heading)] text-[#1c1917] mb-4">Related Pages</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {[
+              { href: '/korean-war', label: 'Korean War — The Forgotten War' },
+              { href: '/who-fights', label: 'Who Fights — Class and Race in the Military' },
+              { href: '/draft-simulator', label: 'Draft Simulator — Would You Be Called?' },
+              { href: '/veterans-voices', label: 'Veterans\' Voices — In Their Own Words' },
               { href: '/iraq-war', label: 'Iraq War — The Same Mistakes, Worse Outcomes' },
               { href: '/afghanistan-war', label: 'Afghanistan War — 20 Years, Taliban Wins' },
-              { href: '/cost-of-war', label: 'Total Cost of US Wars' },
-              { href: '/analysis/draft-and-inequality', label: 'The Draft and Inequality' },
-              { href: '/civilian-casualties', label: 'Civilian Casualties Across All Wars' },
-              { href: '/decades/1960s', label: 'The 1960s — A Decade at War' },
             ].map((link) => (
               <Link
                 key={link.href}

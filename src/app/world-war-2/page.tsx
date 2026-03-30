@@ -409,9 +409,9 @@ export default function WorldWar2Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {[
               { href: '/world-war-1', label: 'World War I — The Prequel' },
-              { href: '/how-much-did-ww2-cost', label: 'WWII Cost Deep Dive' },
               { href: '/korean-war', label: 'Korean War — The Cold War Begins' },
-              { href: '/nuclear', label: 'Nuclear Arsenal — The WWII Legacy' },
+              { href: '/the-receipt', label: 'The Receipt — Total Cost of All US Wars' },
+              { href: '/timeline', label: 'Timeline — Every US Conflict Visualized' },
               { href: '/analysis/military-industrial-complex', label: 'The Military-Industrial Complex' },
               { href: '/us-military-bases-around-the-world', label: '800+ Bases Worldwide' },
             ].map((link) => (

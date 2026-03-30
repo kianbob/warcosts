@@ -419,7 +419,8 @@ export default function IraqWarPage() {
               { href: '/afghanistan-war', label: 'Afghanistan War — The 20-Year Failure' },
               { href: '/cost-of-war', label: 'Total Cost of US Wars' },
               { href: '/analysis/war-on-terror', label: 'The War on Terror' },
-              { href: '/analysis/war-profiteering', label: 'War Profiteering' },
+              { href: '/lies-that-started-wars', label: 'Lies That Started Wars' },
+              { href: '/cost-per-kill', label: 'Cost Per Kill — The Price of Each Death' },
               { href: '/civilian-casualties', label: 'Civilian Casualties' },
               { href: '/veterans', label: 'Veterans — The Aftermath' },
             ].map((link) => (

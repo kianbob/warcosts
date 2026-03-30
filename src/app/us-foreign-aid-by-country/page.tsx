@@ -218,6 +218,50 @@ export default function USForeignAidByCountry() {
           </ul>
         </div>
 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'US Foreign Aid by Country — $68 Billion in Annual Aid',
+              description: 'The United States provides $68 billion in annual foreign aid across 200+ countries. Israel is the largest cumulative recipient.',
+              url: 'https://www.warcosts.org/us-foreign-aid-by-country',
+              datePublished: '2025-01-01',
+              dateModified: '2026-03-28',
+              author: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
+              publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                { '@type': 'Question', name: 'Which country receives the most US foreign aid?', acceptedAnswer: { '@type': 'Answer', text: 'Cumulatively since 2001, Israel has received the most US foreign aid at over $158 billion — virtually all military. In 2024, Ukraine received the most at approximately $8 billion.' } },
+                { '@type': 'Question', name: 'Does US foreign aid actually help?', acceptedAnswer: { '@type': 'Answer', text: 'It depends on the type. Health programs like PEPFAR have saved an estimated 25 million lives. Military aid often props up authoritarian regimes.' } },
+              ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.warcosts.org' },
+                { '@type': 'ListItem', position: 2, name: 'Foreign Aid', item: 'https://www.warcosts.org/foreign-aid' },
+                { '@type': 'ListItem', position: 3, name: 'By Country', item: 'https://www.warcosts.org/us-foreign-aid-by-country' },
+              ],
+            }),
+          }}
+        />
+
         <BackToTop />
       </div>
     </div>

@@ -405,7 +405,8 @@ export default function WarOnTerrorPage() {
               { href: '/drone-strikes', label: 'Drone Strikes — The Shadow War' },
               { href: '/analysis/forever-wars', label: 'The Forever Wars' },
               { href: '/analysis/911-to-forever-war', label: '9/11 to Forever War' },
-              { href: '/cost-of-war-on-terror', label: 'Cost of War on Terror (Calculator)' },
+              { href: '/cost-per-kill', label: 'Cost Per Kill — The Economics of Killing' },
+              { href: '/who-fights', label: 'Who Fights — The 1% Who Bear the Burden' },
               { href: '/civilian-casualties', label: 'Civilian Casualties' },
               { href: '/analysis/blowback', label: 'Blowback — How Wars Create Enemies' },
             ].map((link) => (
