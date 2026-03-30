@@ -75,7 +75,7 @@ export default async function VeteransVoicesPage() {
       <section className="relative bg-gradient-to-b from-stone-950 via-stone-900 to-stone-800 py-20 md:py-28">
         <div className="absolute inset-0 bg-[url('/images/grain.png')] opacity-5" />
         <div className="container mx-auto px-4 relative z-10">
-          <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: "Veterans' Voices" }]} />
+          <Breadcrumbs items={[{ label: "Veterans' Voices" }]} />
 
           <div className="max-w-4xl mx-auto text-center mt-8">
             <h1 className="font-playfair text-4xl md:text-6xl font-bold text-stone-100 mb-6">

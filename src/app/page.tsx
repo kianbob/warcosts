@@ -137,34 +137,6 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* By The Numbers — All US Wars */}
-      <section className="bg-stone-950 text-white py-12 border-b border-stone-800">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl font-bold mb-2 text-center">🇺🇸 By The Numbers</h2>
-          <p className="text-stone-500 text-sm text-center mb-8">The full cost of 249 years of American military power</p>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {[
-              { icon: '💸', value: '$11.3 Trillion', label: 'Total war spending (inflation-adjusted)', color: 'text-red-400' },
-              { icon: '🪦', value: '1,031,405', label: 'Americans killed in war', color: 'text-red-500' },
-              { icon: '💀', value: '5.2 Million+', label: 'Civilians killed by US wars', color: 'text-red-600' },
-              { icon: '🎯', value: '469', label: 'Military interventions since 1798', color: 'text-orange-400' },
-              { icon: '⏳', value: '229 of 249 Years', label: 'America has been at war', color: 'text-yellow-400' },
-              { icon: '🌍', value: '750 Bases', label: 'In 80 countries worldwide', color: 'text-blue-400' },
-              { icon: '🏛️', value: '$886 Billion', label: 'Annual defense budget (FY2024)', color: 'text-green-400' },
-              { icon: '🎗️', value: '17 Per Day', label: 'Veteran suicides', color: 'text-purple-400' },
-              { icon: '⏱️', value: '$28,095/sec', label: 'Spent on defense every second', color: 'text-amber-400' },
-              { icon: '❌', value: '0 Audits Passed', label: 'Pentagon has never passed an audit', color: 'text-rose-400' },
-            ].map((s, i) => (
-              <div key={i} className="bg-white/5 border border-white/10 rounded-xl p-4 text-center hover:bg-white/10 transition">
-                <span className="text-3xl block mb-2">{s.icon}</span>
-                <p className={`text-xl md:text-2xl font-bold font-[family-name:var(--font-heading)] ${s.color}`}>{s.value}</p>
-                <p className="text-stone-400 text-xs mt-1">{s.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Trending Now */}
       <section className="bg-stone-900 border-b border-stone-800 py-8">
         <div className="max-w-7xl mx-auto px-4">

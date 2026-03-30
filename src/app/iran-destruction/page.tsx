@@ -27,7 +27,7 @@ export default function IranDestructionPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <main className="max-w-6xl mx-auto px-4 py-8">
+      <main className="max-w-6xl mx-auto px-4 py-8 bg-stone-900 min-h-screen">
         {/* Breadcrumbs */}
         <nav className="text-sm text-stone-500 mb-6">
           <a href="/" className="hover:text-stone-300 transition-colors">Home</a>
