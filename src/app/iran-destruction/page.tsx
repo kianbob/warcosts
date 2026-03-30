@@ -29,12 +29,12 @@ export default function IranDestructionPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="max-w-6xl mx-auto px-4 py-8 bg-stone-900 min-h-screen">
         {/* Breadcrumbs */}
-        <nav className="text-sm text-stone-500 mb-6">
-          <a href="/" className="hover:text-stone-300 transition-colors">Home</a>
+        <nav className="text-sm text-stone-400 mb-6">
+          <a href="/" className="hover:text-white transition-colors">Home</a>
           <span className="mx-2">›</span>
-          <a href="/iran" className="hover:text-stone-300 transition-colors">Iran War</a>
+          <a href="/iran" className="hover:text-white transition-colors">Iran War</a>
           <span className="mx-2">›</span>
-          <span className="text-stone-400">Infrastructure Destruction</span>
+          <span className="text-stone-300">Infrastructure Destruction</span>
         </nav>
 
         <DestructionClient />
