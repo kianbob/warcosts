@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-03-27',
+  dateModified: '2026-03-29',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -76,6 +76,8 @@ const timeline = [
   { date: 'Mar 25', event: 'Day 26 — CEASEFIRE REJECTED. Iran dismisses US 15-point ceasefire plan, issues counterproposal. Trump threatens to "hit harder." Iran shuns Witkoff/Kushner — prefers VP Vance as intermediary (CNN). Pentagon orders 2,000+ 82nd Airborne troops to Middle East (NYT), plus 3,000-4,000 more expected (Reuters). Strikes kill 12 in south Tehran. HRANA: 664 attacks in 28 provinces. Filmmaker Abbas Kiarostami\'s house damaged. Iran claims targeting US F-18. Updated casualties — Iran: 1,937 killed, 24,800 injured. Israel: 18 killed, 5,045 wounded. Lebanon: 1,072+ killed. Oil dips to ~$100 on ceasefire talk, then rebounds.' },
   { date: 'Mar 26', event: 'Day 27 — HORMUZ COMMANDER KILLED. Israel kills IRGC Navy commander Alireza Tangsiri — architect of the Strait of Hormuz blockade (NYT/ABC). Trump warns Iran to accept deal "before it is too late." Says Iran "begging to make a deal, not me." White House: Trump prepared to "unleash hell." Speaker Johnson claims "Epic Fury is almost done." Iran fires more missiles at Israel and Gulf states overnight. Israeli strikes kill 5 in Lebanon (Guardian). Oil surges to $106/barrel — up $6 in one day (Fortune/NYT). Pakistan army chief emerges as key mediator between US and Iran (NYT). Lebanon: 1,094 killed (121 children), 3,119 wounded. Israel: 19 killed, 5,229 wounded. No ceasefire. The blockade commander is dead but the blockade continues.' },
   { date: 'Mar 27', event: 'Day 28 — IRAN BLOCKS CHINESE SHIPS — INDUSTRIAL WAR ESCALATION. Iran turns back 2 COSCO-owned Chinese ships at Hormuz — blocking even "friendly" nations for first time (NYT/CNBC). Iran formalizing "toll booth" regime — charging ships millions for passage (NBC/AP). Trump extends power-plant deadline a SECOND time to April 6. Trump: "3,554 targets left" — CENTCOM has struck 10,000+ military targets. Rubio at G7: "war will end in weeks, not months," no ground troops needed. Israel shifts to ECONOMIC TARGETING — strikes Mobarakeh Steel Complex in Isfahan (1 killed, 15 injured) and Khuzestan Steel Industries (16 injured). Israel also strikes Khondab/Arak heavy water complex (nuclear, no casualties) and weapons production site in Yazd (missile/sea mine factory). Iran threatens retaliatory strikes on steel factories in Israel + 5 other countries. Several Americans injured at Prince Sultan Air Base in Saudi Arabia — US wounded now 303 (NBC). Iran-linked hackers (Handala) breach FBI Director Kash Patel\'s personal email. Brent crude $108/bbl — US crude $101+ (up 7% on day, 50% since war, 75% since Jan). S&P/Nasdaq 5th consecutive week of losses. G7 calls for "immediate cessation of attacks against civilians and civilian infrastructure." 70,000+ residential units damaged, 300 health facilities, 600 schools across Iran. 120+ cultural/heritage sites damaged (Tehran city council). Houthis threaten "direct military intervention" if more countries join. Russia sends 313 tons medical supplies to Iran. Ghalibaf mocks US ground troop capability. Lebanon: pregnant woman killed in Al-Bazaliyeh. NRC: "highest price" paid by civilians, millions could flee. Philippines transport worker strike in Manila over fuel. HRANA: 3,300+ killed (1,492+ civilians, 210+ children). Germany/Poland pass fuel price controls. WTO: "worst trade disruptions in 80 years." No ceasefire.' },
+  { date: 'Mar 28', event: 'Day 29 — WEEK 5. One month since Khamenei killed in Israeli bunker strike (confirmed Mar 1). HRANA: 3,461 killed in Iran (1,551 civilians, 228+ children), 3,229+ wounded, 1M+ displaced. Lebanon: 102+ killed, 400+ Hezbollah fighters dead (Reuters), 638 wounded. Oil at $116/bbl — Brent hit $119.50 intraday earlier in week. Pentagon: $11.3B first 6 days → $18B by Day 19 → now requesting $200B from Congress. US: 15 dead, 303+ wounded. Israel: 19 civilians killed, 5,768 injured. Iran threatens complete Hormuz closure. Houthis threaten intervention. Massive global anti-war protests.' },
+  { date: 'Mar 29', event: 'Day 30 — BANDAR KHAMIR BOMBED. US/Israeli strikes hit Bandar Khamir port on Iran\'s southern coast. Israel strikes IUST Physics Dept in Tehran — nuclear scientist killed. 12,000+ targets struck, 150+ vessels destroyed. Brent crude $116/bbl. HRANA: 3,461+ killed. Lebanon: 102+ killed, 400+ Hezbollah dead. US: 15 dead, 303+ wounded. Iran warns of "complete and permanent" Hormuz closure. No ceasefire. No negotiations. Day 30.' },
 ]
 
 const costProjections = [
@@ -91,7 +93,7 @@ const iranArticles = [
   { href: '/analysis/iran-2026', title: 'Whose War Is This? Full Analysis', desc: 'The complete story from October 7 to Operation Epic Fury.' },
   { href: '/analysis/iran-day-by-day', title: 'Day-by-Day War Diary', desc: 'Verified casualties, costs, and events — updated daily.' },
   { href: '/analysis/iran-cost-per-second', title: 'The $21,800-Per-Second War', desc: '$11.3B in 6 days — Pentagon confirmed. Every dollar broken down.' },
-  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: '1,444 killed, 18,551 injured, 168 children — the human toll.' },
+  { href: '/analysis/iran-civilian-cost', title: 'The Civilian Cost', desc: '3,461+ killed, 3,229+ wounded, 228+ children — the human toll.' },
   { href: '/analysis/iran-regional-war', title: '12+ Countries, 13 Days', desc: 'How the war spread across the entire Middle East.' },
   { href: '/analysis/lebanon-burns', title: 'While Lebanon Burns', desc: 'America\'s $22B blank check for Israel\'s Lebanon front.' },
   { href: '/analysis/iran-russia-shadow-war', title: 'Russia\'s Shadow War', desc: 'Moscow is sharing US military positions with Tehran.' },
@@ -107,7 +109,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE</span>
-          <span className="text-stone-500 text-sm">Last updated: March 27, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: March 29, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

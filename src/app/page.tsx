@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 28,
-  headline: 'Rubio: "Weeks, not months." Israel strikes steel plants + Arak nuclear site. Houthis threaten intervention. 10,000+ targets struck. Oil $108. No ceasefire.',
+  day: 30,
+  headline: 'Khamenei killed Day 1. Oil hits $116. HRANA: 3,461 killed in Iran (1,551 civilians, 228+ children). Lebanon: 102+ killed, 400+ Hezbollah fighters dead. 15 US troops killed. Pentagon requests $200B. Strait of Hormuz disrupted. No ceasefire.',
   stats: [
-    { value: '3,300+', label: 'Killed in Iran (HRANA)' },
-    { value: '15', label: 'US Dead / 303 Wounded' },
-    { value: '1,110+', label: 'Killed in Lebanon' },
-    { value: '$200B', label: 'Pentagon Demands from Congress' },
-    { value: '~$108', label: 'Oil per Barrel' },
-    { value: '10,000+', label: 'Targets Struck (CENTCOM)' },
+    { value: '3,461+', label: 'Killed in Iran (HRANA)' },
+    { value: '1,551', label: 'Civilians (228+ children)' },
+    { value: '15', label: 'US Dead / 303+ Wounded' },
+    { value: '102+', label: 'Killed in Lebanon' },
+    { value: '$116/bbl', label: 'Oil Price (Brent)' },
+    { value: '$200B', label: 'Pentagon Budget Request' },
   ]
 }
 
