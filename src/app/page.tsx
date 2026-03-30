@@ -62,7 +62,7 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
-      {/* Breaking: Iran 2026 — Day 14 */}
+      {/* Breaking: Iran 2026 — Day 30 */}
       {iranConflict && (
         <section className="bg-red-900 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
@@ -99,11 +99,11 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 25', text: 'Iran missiles hit Tel Aviv (3+ buildings damaged, 6+ injured) and Kurdish Iraq (6 killed, 30 wounded). Lebanon EXPELS Iranian ambassador. Israel claims permanent "security zone" to Litani River. MBS secretly pushing Trump to continue war (NYT). Philippines declares national energy emergency. Iran names hardliner Zolghadr as security chief. Oil rebounds to $103. 9,000+ US strikes.', link: '/analysis/iran-2026' },
-                { time: 'Day 24', text: 'Trump BLINKS — postpones power plant ultimatum 5 days, claims "very strong talks." Iran disputes: "a ploy to buy time." Bombs keep falling — civilians killed in Khorramabad & Tabriz. Oman brokers safe passage. Oil drops to ~$100. IEA: "worse than 1973 and 1979 combined."', link: '/analysis/iran-2026' },
-                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iran threatens "irreversible damage." Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Saudi expels Iranian diplomats. Turkey mediates. Oil surges to $112.', link: '/analysis/iran-2026' },
-                { time: 'Day 22', text: 'Trump signals "winding down" — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi). Natanz hit again. Treasury eases oil sanctions. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.', link: '/analysis/iran-2026' },
-                { time: 'Day 21', text: 'USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-2026' },
+                { time: 'Day 25', text: 'Iran missiles hit Tel Aviv (3+ buildings damaged, 6+ injured) and Kurdish Iraq (6 killed, 30 wounded). Lebanon EXPELS Iranian ambassador. Israel claims permanent "security zone" to Litani River. MBS secretly pushing Trump to continue war (NYT). Oil rebounds to $103.', link: '/analysis/iran-2026' },
+                { time: 'Day 24', text: 'Trump BLINKS — postpones power plant ultimatum 5 days. Iran disputes: "a ploy to buy time." Bombs keep falling — civilians killed in Khorramabad & Tabriz. Oman brokers safe passage. IEA: "worse than 1973 and 1979 combined."', link: '/analysis/iran-civilian-cost' },
+                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Saudi expels Iranian diplomats. Oil surges to $112.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 22', text: 'Trump signals "winding down" — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi). Natanz hit again. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.', link: '/analysis/lebanon-burns' },
+                { time: 'Day 21', text: 'USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-day-by-day' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>

@@ -134,6 +134,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/defense-budget-explained',
     '/tools/hormuz-calculator',
     '/tools/iran-vs-iraq',
+    '/tools/draft-simulator',
+    '/tools/inflation-calculator',
+    '/tools/war-quiz-hard',
+    '/tools/state-impact',
+    // Missing conflict pages
+    '/grenada', '/panama', '/kosovo', '/libya-2011',
+    // Iran war pages
+    '/iran-destruction', '/iran-war-day-by-day', '/iran-war-vs-spending',
+    '/analysis/iran-war-casualties', '/analysis/iran-war-no-authorization',
+    '/analysis/iran-war-world-impact', '/analysis/lebanon-war-2026',
+    '/analysis/oil-price-shock-2026', '/analysis/civilian-toll-iran-2026',
+    // Perspective pages
+    '/veterans-voices', '/the-other-side', '/global-reactions', '/media-coverage',
+    // Money/explore pages
+    '/congress-and-war', '/war-profiteers', '/weapons-exposed', '/the-receipt',
+    '/war-calendar', '/cost-per-kill', '/private-war', '/allied-costs',
+    // Additional analysis pages
+    '/analysis/defense-contractors-exposed', '/analysis/hormuz-economic-impact',
+    '/analysis/how-many-us-soldiers-died', '/analysis/if-we-stopped-today',
+    '/analysis/military-spending-vs-education', '/analysis/nuclear-weapons-cost',
+    '/analysis/true-cost-of-war-on-terror', '/analysis/us-military-bases-worldwide',
+    '/analysis/us-military-budget-explained', '/analysis/veteran-suicide-crisis',
+    // SEO landing pages
+    '/how-much-does-a-fighter-jet-cost', '/how-much-does-a-tank-cost',
+    '/how-much-does-an-aircraft-carrier-cost', '/how-much-does-a-bomber-cost',
+    '/how-much-does-a-drone-cost', '/how-much-does-a-missile-cost',
+    '/how-much-does-a-nuke-cost', '/how-much-does-a-submarine-cost',
+    // Misc missing pages
+    '/military-families-impact', '/explorer', '/embeds',
+    '/embed/civilian-toll', '/embed/deaths-by-war', '/embed/iran-casualties',
+    '/embed/iran-cost-ticker', '/embed/spending-timeline',
+    '/embed/war-cost-ticker', '/embed/war-costs',
+    // President sub-pages
+    '/presidents/biden-wars', '/presidents/bush-wars', '/presidents/fdr-wars',
+    '/presidents/lbj-wars', '/presidents/nixon-wars', '/presidents/obama-wars',
+    '/presidents/reagan-wars', '/presidents/trump-wars',
   ]
 
   const iranRoutes = ['/iran-war-2026', '/analysis/iran-2026', '/analysis/iran-cost-per-second', '/analysis/iran-civilian-cost', '/analysis/iran-day-by-day', '/analysis/iran-regional-war', '/analysis/iran-russia-shadow-war', '/analysis/iran-vs-iraq-war', '/analysis/iran-war-cost-breakdown', '/analysis/hormuz-crisis', '/analysis/lebanon-burns', '/analysis/cost-of-iran']
