@@ -38,9 +38,9 @@ export default function IranWarDashboard() {
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
       <StatCard label="US Troops Killed" value="15" sub="13 KIA + 2 non-combat, 303+ wounded" />
       <StatCard label="Iranian Casualties" value="3,461+" sub="HRANA — 1,551 civilians, 228+ children" />
-      <StatCard label="Strikes in Iran" value="12,000+" sub="CENTCOM — 150+ vessels, Hormuz disrupted" />
-      <StatCard label="Oil Price" value="~$116/bbl" sub="Brent crude — record monthly surge" />
-      <StatCard label="Lebanon" value="102+ killed" sub="400+ Hezbollah fighters dead (Reuters)" />
+      <StatCard label="Strikes in Iran" value="13,000+" sub="CENTCOM — 150+ vessels, all frigates destroyed" />
+      <StatCard label="Oil Price" value="~$118/bbl" sub="Brent crude — record 59% monthly surge" />
+      <StatCard label="Lebanon" value="1,200+ killed" sub="Israel destroying all houses near border" />
     </div>
   )
 }
