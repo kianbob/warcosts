@@ -13,7 +13,7 @@ export default async function Image() {
         fontFamily: 'serif', color: 'white', padding: 60,
       }}>
         <div style={{ fontSize: 28, color: '#dc2626', fontWeight: 700, marginBottom: 20 }}>warcosts.org</div>
-        <div style={{ fontSize: 64, fontWeight: 700, textAlign: 'center', maxWidth: 900, lineHeight: 1.2 }}>Day 30: The Iran War</div>
+        <div style={{ fontSize: 64, fontWeight: 700, textAlign: 'center', maxWidth: 900, lineHeight: 1.2 }}>Day 35: The Iran War</div>
         <div style={{ display: 'flex', gap: 80, marginTop: 40 }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <div style={{ fontSize: 42, fontWeight: 700, color: '#dc2626' }}>$4.2B</div>

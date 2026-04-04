@@ -10,7 +10,7 @@ import {
 import ShareButtons from '@/components/ShareButtons'
 
 const conflicts = [
-  { name: 'Iran 2026', coverage: 60, casualties: 3461, color: '#dc2626', status: 'Active — Day 30', usTroops: true },
+  { name: 'Iran 2026', coverage: 60, casualties: 3519, color: '#dc2626', status: 'Active — Day 35', usTroops: true },
   { name: 'Ukraine', coverage: 15, casualties: 500000, color: '#f59e0b', status: 'Ongoing since 2022', usTroops: false },
   { name: 'Yemen', coverage: 0.8, casualties: 150000, color: '#6b7280', status: 'Ongoing since 2014', usTroops: false },
   { name: 'Syria', coverage: 0.9, casualties: 500000, color: '#6b7280', status: '2011–present', usTroops: false },

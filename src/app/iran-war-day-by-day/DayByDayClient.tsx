@@ -99,7 +99,7 @@ function MiniOilChart({ data }: { data: DayEntry[] }) {
       </svg>
       <div className="flex justify-between text-xs text-stone-500 mt-1">
         <span>Day 1</span>
-        <span>Day 30</span>
+        <span>Day 35</span>
       </div>
     </div>
   )

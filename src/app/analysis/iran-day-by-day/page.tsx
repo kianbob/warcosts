@@ -6,7 +6,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated March 29, 2026 (Day 30).',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated April 4, 2026 (Day 35).',
   openGraph: {
     title: 'Iran 2026: A Day-by-Day Account',
     description: 'The first 28 days of Operation Epic Fury — a factual war diary with verified numbers. 3,300+ killed. 10,000+ targets struck. Oil at $108.',
@@ -75,20 +75,20 @@ export default function IranDayByDayPage() {
       <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
         <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">📊</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 30 (March 29, 2026)</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 35 (April 4, 2026)</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
             <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">15</span>
-            <p className="text-stone-400 text-sm mt-1">US Dead (303 wounded)</p>
+            <p className="text-stone-400 text-sm mt-1">US Dead (300+ wounded)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">3,300+</span>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">3,519+</span>
             <p className="text-stone-400 text-sm mt-1">Iranian Dead (HRANA)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$52B+</span>
-            <p className="text-stone-400 text-sm mt-1">Est. Cost (28 days)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$35B+</span>
+            <p className="text-stone-400 text-sm mt-1">Est. Cost (35 days)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
             <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">12+</span>

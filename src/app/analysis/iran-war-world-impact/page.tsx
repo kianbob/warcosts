@@ -67,7 +67,7 @@ export default function IranWarWorldImpactPage() {
       <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
         <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">🌍</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Global Dashboard — Day 30</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Global Dashboard — Day 35</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center">

@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 32 (March 31): 15 US troops dead (13 KIA + 2 non-combat), 303+ wounded; Iran: 3,461+ killed (HRANA — 1,551 civilians, 228+ children), 24,800+ injured; 1,200+ killed in Lebanon; Israel: 19 civilians killed, 5,768 wounded; 13,000+ strikes conducted (CENTCOM), 150+ vessels destroyed (all frigates). Hegseth: 'lowest enemy fire in 24 hours,' Iranian military 'demoralized.' Iran rejects ceasefire, imposes Hormuz tolls, strikes Kuwaiti tanker off Dubai. Oil surges to $118/barrel — record 59% monthly gain. US gas hits $4/gallon. Pentagon preparing weeks of ground operations. $200B supplemental requested. IMF warns of higher prices and slower growth. No exit strategy. Largest US military operation since Iraq 2003.",
-    "costNominal": 18000000000,
-    "costInflationAdjusted": 18000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 35 (April 4): 15 US troops dead, 300+ wounded; Iran: 3,519+ killed (HRANA — 1,607 civilians, 244+ children); 1,345+ killed in Lebanon; 7 manned aircraft lost. F-15E shot down. Trump strikes Tehran bridge, Pasteur Institute. Oil $112/barrel. Pentagon requests $1.1T budget. No ceasefire. No exit strategy.",
+    "costNominal": 35000000000,
+    "costInflationAdjusted": 35000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
-      "wounded": 303,
+      "wounded": 300,
       "battleDeaths": 13,
-      "missing": 0
+      "missing": 1
     },
-    "civilianDeaths": 3461,
+    "civilianDeaths": 3519,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 32 (March 31): Hegseth says lowest enemy fire in 24 hours — claims Iranian military 'demoralized.' Oil surges to $118/barrel — record 59% monthly gain. Kuwaiti tanker struck off Dubai. Iran rejects ceasefire, imposes tolls on Hormuz shipping. Trump tells allies 'Go get your own oil.' 13,000+ targets struck, 150+ vessels destroyed, all Iranian frigates sunk. Pentagon preparing weeks of ground operations. US gas $4/gallon. HRANA: 3,461+ killed in Iran (1,551 civilians, 228+ children). Lebanon: 1,200+ killed. Israel: 19 killed, 5,768 wounded. US: 15 dead, 303+ wounded. $200B supplemental requested. IMF warns of slower global growth. No ceasefire, no exit strategy.",
+    "outcomeDetail": "Day 35 (April 4): F-15E Strike Eagle shot down — pilot rescued, WSO missing. A-10 also hit. 7 manned aircraft lost. Trump strikes Tehran bridge, Pasteur Institute destroyed. HRANA: 3,519+ killed (1,607 civilians, 244+ children). Lebanon: 1,345+ killed. Oil $112/bbl. Pentagon requests $1.1T budget. No ceasefire.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5947,6 +5947,14 @@
       {
         "year": 2026,
         "event": "Mar 31 (Day 32): HEGSETH: 'LOWEST ENEMY FIRE' — OIL HITS $118: Pentagon holds first briefing in 2 weeks. Hegseth says lowest enemy missiles/drones in 24 hours, Iranian military 'demoralized' with 'widespread desertions.' 200 dynamic strikes overnight. Isfahan ammo depot hit with 2,000-lb bunker busters. All Iranian frigates destroyed — 150+ ships total. Brent crude surges above $118/bbl — record 59% monthly gain, largest ever. US gas $4/gallon (AP). Israel to destroy 'all houses' near Lebanon border. Wave of attacks in central Israel — injuries reported. China confirms 3 ships through Hormuz. IMF warns of higher prices, slower growth. No ceasefire. Day 32."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 2: Trump strikes Tehran highway Bridge B-1, Pasteur Institute destroyed. Vows to take Iran back to the Stone Ages."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 3-4: F-15E Strike Eagle shot down over western Iran (494th FS). Pilot rescued, WSO missing. A-10 also hit. 7 manned aircraft lost. Pentagon requests $1.1T budget."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

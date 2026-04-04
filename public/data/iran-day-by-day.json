@@ -569,5 +569,101 @@
       "Global economic damage estimated at $800B+ from oil disruption alone"
     ],
     "significance": "critical"
+  },
+  {
+    "day": 31,
+    "date": "2026-03-30",
+    "title": "G7 Crisis Response",
+    "costToDate": "31B",
+    "costRaw": 31000000000,
+    "casualtiesIran": 3480,
+    "casualtiesUS": 23,
+    "civilianDeaths": 1560,
+    "oilPrice": 117,
+    "keyEvents": [
+      "Continued strikes on Iranian military targets",
+      "Hormuz tolls continue — shipping rerouting",
+      "G7 leaders meet on crisis response",
+      "Oil prices volatile around $115-118",
+      "Kuwaiti tanker Al Salmi ablaze off Dubai"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 32,
+    "date": "2026-03-31",
+    "title": "Oil Hits $118 — Record Surge",
+    "costToDate": "32B",
+    "costRaw": 32000000000,
+    "casualtiesIran": 3490,
+    "casualtiesUS": 23,
+    "civilianDeaths": 1570,
+    "oilPrice": 118,
+    "keyEvents": [
+      "Kuwait oil infrastructure targeted by Iranian proxy strikes",
+      "US gas prices approaching $4/gallon nationally",
+      "Pentagon casualty transparency questioned",
+      "Tanker hit near Dubai",
+      "Brent crude surges above $118 — record 59% monthly gain"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 33,
+    "date": "2026-04-01",
+    "title": "Pentagon Hiding Casualties",
+    "costToDate": "33B",
+    "costRaw": 33000000000,
+    "casualtiesIran": 3500,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1580,
+    "oilPrice": 113,
+    "keyEvents": [
+      "Intercept reports Pentagon hiding US casualty numbers",
+      "Pentagon sent outdated statements — undercounts",
+      "One unnamed US soldier died in non-combat death",
+      "Iran-Oman talks on Hormuz monitoring reported",
+      "Oil prices pull back from highs"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 34,
+    "date": "2026-04-02",
+    "title": "Tehran Bridge & Pasteur Institute Destroyed",
+    "costToDate": "34B",
+    "costRaw": 34000000000,
+    "casualtiesIran": 3510,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1595,
+    "oilPrice": 111.69,
+    "keyEvents": [
+      "MAJOR ESCALATION — Trump strikes Tehran highway Bridge B-1",
+      "Pasteur Institute (leading public health institution) destroyed",
+      "Trump vows to take Iran back to the Stone Ages",
+      "Stocks drop 1.5%, partially recover on Hormuz talk rumors",
+      "Brent crude $111.69"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 35,
+    "date": "2026-04-03",
+    "title": "F-15E Shot Down — WSO Missing",
+    "costToDate": "35B",
+    "costRaw": 35000000000,
+    "casualtiesIran": 3519,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1607,
+    "oilPrice": 112.42,
+    "keyEvents": [
+      "F-15E Strike Eagle shot down over western Iran (494th FS) — pilot rescued, WSO missing",
+      "A-10 Warthog hit by Iranian air defenses in separate incident",
+      "7 total manned aircraft lost in war, 16+ MQ-9 Reaper drones lost",
+      "Italy sends naval forces to Gulf. Syria reports explosions in Damascus",
+      "Pentagon requests $1.1T defense budget + $350B reconciliation",
+      "Brent $112.42"
+    ],
+    "significance": "critical"
   }
 ]

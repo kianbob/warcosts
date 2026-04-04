@@ -6,10 +6,10 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar | WarCosts',
-  description: '3,461+ killed, 1,551+ civilians, 228+ children. 70,000+ residential units damaged. 300 health facilities, 600 schools, 120+ cultural sites hit. This is what "precision strikes" look like. Updated March 29, 2026 (Day 30).',
+  description: '3,519+ killed, 1,607+ civilians, 244+ children. 70,000+ residential units damaged. 300 health facilities, 600 schools, 120+ cultural sites hit. This is what "precision strikes" look like. Updated April 4, 2026 (Day 35).',
   openGraph: {
     title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
-    description: '3,300+ killed. 1,492+ civilians. 210+ children. 70,000+ homes damaged. 300 health facilities. 600 schools. Updated Day 30.',
+    description: '3,519+ killed. 1,607+ civilians. 244+ children. 70,000+ homes damaged. 300 health facilities. 600 schools. Pasteur Institute destroyed. Updated Day 35.',
     url: 'https://www.warcosts.org/analysis/iran-civilian-cost',
   },
 }
@@ -98,7 +98,7 @@ const civilianRatios = [
   { conflict: 'Iraq War (2003–2011)', ratio: '~77% civilian', total: '~200,000+ Iraqi civilians (Iraq Body Count)', note: '"Shock and Awe" + 8 years of occupation, insurgency, sectarian violence.' },
   { conflict: 'Afghanistan (2001–2021)', ratio: '~70% civilian', total: '~47,000+ Afghan civilians killed directly', note: '20-year war. Drone strikes, night raids, airstrikes on weddings/hospitals.' },
   { conflict: 'Gaza (2023–2025)', ratio: '~90% civilian', total: '~40,000+ Palestinian civilians', note: 'One of the highest civilian-to-combatant ratios in modern warfare.' },
-  { conflict: 'Iran (Epic Fury, Days 1-30)', ratio: 'TBD — early estimates ~70–85%', total: '3,300+ Iranians killed, 1,551+ civilians (Day 30)', note: 'Decapitation + infrastructure + oil/industrial strikes. 210+ children, 70,000+ homes, 300 health facilities, 600 schools damaged.' },
+  { conflict: 'Iran (Epic Fury, Days 1-35)', ratio: 'TBD — early estimates ~70–85%', total: '3,519+ Iranians killed, 1,607+ civilians (Day 35)', note: 'Decapitation + infrastructure + oil/industrial strikes. 244+ children, 70,000+ homes, 300 health facilities, 600 schools damaged. Pasteur Institute destroyed.' },
 ]
 
 export default function IranCivilianCostPage() {
@@ -113,7 +113,7 @@ export default function IranCivilianCostPage() {
 
       <div className="mb-6 flex items-center gap-3">
         <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE CONFLICT</span>
-        <span className="text-sm text-stone-500">Updated March 29, 2026 (Day 30)</span>
+        <span className="text-sm text-stone-500">Updated April 4, 2026 (Day 35)</span>
       </div>
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
@@ -128,14 +128,14 @@ export default function IranCivilianCostPage() {
 
       {/* The Numbers */}
       <section className="bg-stone-900 text-white rounded-xl p-8 my-8">
-        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 30 (March 29)</h2>
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6 text-center">By the Numbers: Day 35 (April 4)</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div>
-            <div className="text-3xl font-bold text-red-500">3,300+</div>
+            <div className="text-3xl font-bold text-red-500">3,519+</div>
             <div className="text-stone-400 text-sm">Iranians killed (HRANA)</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-red-500">1,492+</div>
+            <div className="text-3xl font-bold text-red-500">1,607+</div>
             <div className="text-stone-400 text-sm">Civilians killed</div>
           </div>
           <div>

@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 32,
-  headline: 'Oil hits $118 — record 59% monthly surge. Kuwaiti tanker hit off Dubai. Hegseth: lowest enemy fire yet, "upcoming days decisive." 13,000+ targets struck. Iran rejects ceasefire, imposes Hormuz tolls. US gas $4/gal. 15 US killed, 303+ wounded. Lebanon: 1,200+ killed. No ceasefire.',
+  day: 35,
+  headline: 'F-15E shot down over Iran — 1 rescued, 1 missing. A-10 also hit. 7 manned aircraft lost. HRANA: 3,519+ killed (1,607 civilians, 244+ children). Trump strikes Tehran bridge, Pasteur Institute. Oil $112/bbl. US gas $4+/gal. Pentagon requests $1.1T budget. No ceasefire.',
   stats: [
-    { value: '3,461+', label: 'Killed in Iran (HRANA)' },
-    { value: '1,551', label: 'Civilians (228+ children)' },
-    { value: '15', label: 'US Dead / 303+ Wounded' },
-    { value: '1,200+', label: 'Killed in Lebanon' },
-    { value: '$118/bbl', label: 'Oil Price (Brent)' },
-    { value: '$200B', label: 'Pentagon Budget Request' },
+    { value: '3,519+', label: 'Killed in Iran (HRANA)' },
+    { value: '1,607', label: 'Civilians (244+ children)' },
+    { value: '15', label: 'US Dead / 300+ Wounded' },
+    { value: '1,345+', label: 'Killed in Lebanon' },
+    { value: '$112/bbl', label: 'Oil Price (Brent)' },
+    { value: '$1.1T', label: 'Pentagon Budget Request' },
   ]
 }
 
