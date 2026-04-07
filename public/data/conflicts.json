@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 36 (April 4): 15 US troops dead, 300+ wounded, WSO missing; Iran: 3,519+ killed (HRANA — 1,607 civilians, 244+ children); 1,345+ killed in Lebanon; 7 manned aircraft lost. Bushehr nuclear plant hit. Iran rebuilds missile silos in hours. 116 wounded near Dimona. Oil ~$109/barrel. Pentagon requests $1.1T budget. No ceasefire. No exit strategy.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 39 (April 7): 15 US troops dead, 520+ wounded; Iran: 3,597+ killed (HRANA — 1,665 civilians); 1,497+ killed in Lebanon; 7 manned aircraft lost. IRGC intel chief Khademi killed. Kharg Island struck again. Coordinated Iran-Hezbollah-Houthi attack kills 4 in Haifa. Trump's Tuesday deadline: 'complete demolition' of power plants. Oil ~$110/barrel. No ceasefire. No exit strategy.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
-      "wounded": 300,
+      "wounded": 520,
       "battleDeaths": 13,
-      "missing": 1
+      "missing": 0
     },
-    "civilianDeaths": 3519,
+    "civilianDeaths": 3597,
     "troopsDeployed": 50000,
     "outcome": "Developing",
-    "outcomeDetail": "Day 36 (April 4): Bushehr nuclear plant perimeter struck (1 killed). Industrial targets escalate — steel, cement, petrochemical. Iran rebuilds bombed missile silos in hours. 116 wounded near Dimona. Trump renews Hormuz ultimatum (3rd time). F-15E WSO still missing. HRANA: 3,519+ killed (1,607 civilians, 244+ children). Lebanon: 1,345+. Oil ~$109/bbl. No ceasefire.",
+    "outcomeDetail": "Day 39 (April 7): IRGC intel chief Khademi assassinated. Kharg Island struck again. Israel hits Iran's largest petrochemical complex. 3 Tehran airports bombed. Trump's Tuesday deadline: 'complete demolition' of power plants/bridges if Hormuz stays closed. Coordinated Iran-Hezbollah-Houthi strike kills 4 in Haifa. Both F-15E crew rescued. HRANA: 3,597+ killed (1,665 civilians). Lebanon: 1,497+. Oil ~$110/bbl. No ceasefire.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5959,6 +5959,18 @@
       {
         "year": 2026,
         "event": "Apr 4 (Day 36): Bushehr nuclear plant perimeter struck — 1 killed, IAEA confirms no radiation increase. Mahshahr petrochemical zone hit. Strikes expand to industrial base (steel, cement, petrochemical). US intel: Iran rebuilds bombed missile silos within hours. Iran hits Dimona/Arad — 116 wounded (7 serious). Trump renews Hormuz ultimatum (3rd extension). 2 Turkish ships transit Hormuz. UNSC postpones Hormuz vote. IDF strikes Quds Force in Beirut. Tyre civilians killed."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 5 (Day 37): Missing F-15E WSO rescued from mountain crevice in SW Iran after 2-day CSAR — 170+ aircraft involved. Both crew safe. 5 killed in Mahshahr petrochemical strikes. 14 killed in Israeli strikes across Lebanon. France-South Korea agree to cooperate on Hormuz reopening."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 6 (Day 38): COORDINATED IRAN-HEZBOLLAH-HOUTHI ATTACK on Israel — first three-way joint strike. 4 killed in Haifa. Israel strikes 'regime targets' in Tehran (25 killed). IDF expands strikes into Christian suburb Ain Saadeh, Beirut. 15 US troops wounded at Ali Al Salem (Kuwait). Saudi intercepts 18 drones + 7 missiles. King Fahd Causeway closed. Iran rejects ceasefire, issues 10-point counterproposal. Lebanon: 1,461+ killed, 1.1M displaced."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 7 (Day 39): IRGC intel chief Maj Gen Khademi killed at dawn. Israel strikes 3 Tehran airports, Iran's largest petrochemical complex, South Pars electricity units. Kharg Island reportedly struck again. Synagogue destroyed. 18 killed in Alborz residential strikes. Trump's Tuesday deadline: 'complete demolition' of power plants if Hormuz stays closed. Iran: threats 'delusional.' HRANA: 3,597+ killed. Lebanon: 1,497+."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6155,6 +6167,10 @@
       {
         "year": 2026,
         "event": "Mar 16-17: Israel expands ground operation, launches simultaneous strikes on Beirut Hezbollah infrastructure. 886+ killed (67 women, 111 children), 2,141 wounded, 1M+ displaced. Hezbollah attacks Israeli troops in 3 border towns. Germany warns ground offensive is 'error.' Netanyahu sends Nowruz wishes while bombing."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 5-7: Israel deepens fissures — strikes expand into Christian suburb Ain Saadeh east of Beirut. IDF hits Hezbollah Imam Hussein Division HQ. GBU-39 bombs hit Beirut residential building (3 killed). Lebanese Forces party figure killed. 1,497+ total killed, 4,639 injured, 1.1M+ displaced in Lebanon (UN). Coordinated Iran-Hezbollah-Houthi attack on Israel."
       }
     ],
     "libertarianNote": "No American soldier set foot in Lebanon, but American taxpayers funded every bomb that fell on it. The $21.7 billion in military aid to Israel since October 2023 enabled the destruction of a country that was already in economic freefall — GDP had contracted 5.7% in 2024 before the invasion. Lebanon posed zero direct threat to US national security. The AIPAC lobby spent $221 million on US political campaigns to ensure this funding continued without question. American weapons created $14 billion in damage to a country with a GDP of $18 billion. The US vetoed UN ceasefire resolutions while providing intelligence and diplomatic cover. This is what a proxy war looks like: someone else fights, someone else dies, and the American taxpayer pays the bill.",

@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 36,
-  headline: 'Bushehr nuclear plant hit (1 killed). Industrial targets escalate. Iran rebuilds missile silos in hours. 116 wounded near Dimona. Trump renews Hormuz ultimatum (3rd time). WSO still missing. HRANA: 3,519+ killed. Oil ~$109/bbl. No ceasefire.',
+  day: 39,
+  headline: 'IRGC intel chief Khademi killed. Kharg Island struck again. 3 airports bombed. Trump\'s Tuesday deadline: "complete demolition" if Hormuz stays closed. Coordinated Iran-Hezbollah-Houthi strike kills 4 in Haifa. HRANA: 3,597+ killed. Oil ~$110/bbl. No ceasefire.',
   stats: [
-    { value: '3,519+', label: 'Killed in Iran (HRANA)' },
-    { value: '1,607', label: 'Civilians (244+ children)' },
-    { value: '15', label: 'US Dead / 300+ Wounded' },
-    { value: '1,345+', label: 'Killed in Lebanon' },
-    { value: '~$109/bbl', label: 'Oil Price (Brent)' },
+    { value: '3,597+', label: 'Killed in Iran (HRANA)' },
+    { value: '1,665', label: 'Civilians killed in Iran' },
+    { value: '15', label: 'US Dead / 520+ Wounded' },
+    { value: '1,497+', label: 'Killed in Lebanon' },
+    { value: '~$110/bbl', label: 'Oil Price (Brent)' },
     { value: '$1.1T', label: 'Pentagon Budget Request' },
   ]
 }
