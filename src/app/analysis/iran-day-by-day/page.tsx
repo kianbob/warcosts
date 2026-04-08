@@ -5,11 +5,11 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Verified casualty numbers, cost estimates, and countries drawn in. Updated April 4, 2026 (Day 35).',
+  title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline | CEASEFIRE Day 40',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. CEASEFIRE announced Day 39. 5,000+ killed. Oil crashes 15%. Updated April 8, 2026 (Day 40).',
   openGraph: {
-    title: 'Iran 2026: A Day-by-Day Account',
-    description: 'The first 28 days of Operation Epic Fury — a factual war diary with verified numbers. 3,300+ killed. 10,000+ targets struck. Oil at $108.',
+    title: 'Iran 2026: A Day-by-Day Account — CEASEFIRE Day 40',
+    description: '40 days of Operation Epic Fury — CEASEFIRE announced Day 39. 5,000+ killed across region. Oil crashes 15%. Pakistan-mediated talks begin Apr 10.',
     url: 'https://www.warcosts.org/analysis/iran-day-by-day',
   },
 }

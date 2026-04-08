@@ -36,11 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="US Troops Killed" value="15" sub="13 KIA + 2 non-combat, 520+ wounded" />
-      <StatCard label="Iranian Casualties" value="3,597+" sub="HRANA — 1,665 civilians incl. children" />
-      <StatCard label="Strikes in Iran" value="13,000+" sub="CENTCOM — 7 manned aircraft, 16+ drones lost" />
-      <StatCard label="Oil Price" value="~$110/bbl" sub="Brent crude — Kharg hit again, Trump Tue deadline" />
-      <StatCard label="Lebanon" value="1,497+ killed" sub="1.1M+ displaced — Israel deepening fissures" />
+      <StatCard label="Status" value="🕊️ CEASEFIRE" sub="2-week pause — talks Apr 10 Islamabad" />
+      <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
+      <StatCard label="Iranian Civilians" value="1,600+" sub="HRANA — incl. children" />
+      <StatCard label="US Troops" value="15 KIA" sub="520+ wounded" />
+      <StatCard label="Oil Price" value="CRASHED 15%" sub="Ceasefire news — Hormuz reopening" />
+      <StatCard label="Lebanon" value="1,497+ killed" sub="1.1M+ displaced — ceasefire includes Lebanon" />
     </div>
   )
 }

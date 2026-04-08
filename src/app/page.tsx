@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 39,
-  headline: 'IRGC intel chief Khademi killed. Kharg Island struck again. 3 airports bombed. Trump\'s Tuesday deadline: "complete demolition" if Hormuz stays closed. Coordinated Iran-Hezbollah-Houthi strike kills 4 in Haifa. HRANA: 3,597+ killed. Oil ~$110/bbl. No ceasefire.',
+  day: 40,
+  headline: '🕊️ CEASEFIRE: Trump announces 2-week pause. Iran agrees to reopen Hormuz. Pakistan-mediated talks begin Apr 10 in Islamabad. Oil crashes 15%. 5,000+ killed across region in 39 days. Missiles still fired after ceasefire. Israel still striking.',
   stats: [
-    { value: '3,597+', label: 'Killed in Iran (HRANA)' },
-    { value: '1,665', label: 'Civilians killed in Iran' },
+    { value: '5,000+', label: 'Total Killed (Reuters)' },
+    { value: '1,600+', label: 'Iranian Civilians' },
     { value: '15', label: 'US Dead / 520+ Wounded' },
     { value: '1,497+', label: 'Killed in Lebanon' },
-    { value: '~$110/bbl', label: 'Oil Price (Brent)' },
-    { value: '$1.1T', label: 'Pentagon Budget Request' },
+    { value: '-15%', label: 'Oil Price Crash' },
+    { value: 'Apr 10', label: 'Islamabad Talks' },
   ]
 }
 
@@ -62,18 +62,18 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
-      {/* Breaking: Iran 2026 — Day 30 */}
+      {/* Breaking: Iran 2026 — Ceasefire */}
       {iranConflict && (
-        <section className="bg-red-900 text-white py-4">
+        <section className="bg-amber-800 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● ACTIVE WAR</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-amber-600 font-semibold">🕊️ CEASEFIRE</span>
               <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
             </div>
             <div className="flex gap-4 text-sm">
-              <Link href="/analysis/iran-2026" className="text-red-200 hover:text-red-700 underline">Full Coverage →</Link>
-              <Link href="/analysis/iran-cost-per-second" className="text-red-200 hover:text-red-700 underline">Cost Tracker →</Link>
-              <Link href="/conflicts/iran-2026" className="text-red-200 hover:text-red-700 underline">Data →</Link>
+              <Link href="/analysis/iran-2026" className="text-amber-200 hover:text-amber-100 underline">Full Coverage →</Link>
+              <Link href="/analysis/iran-cost-per-second" className="text-amber-200 hover:text-amber-100 underline">Cost Tracker →</Link>
+              <Link href="/conflicts/iran-2026" className="text-amber-200 hover:text-amber-100 underline">Data →</Link>
             </div>
           </div>
         </section>
@@ -87,23 +87,23 @@ export default function HomePage() {
             <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6">
               {IRAN_BREAKING.stats.map((s, i) => (
                 <div key={i} className="text-center">
-                  <div className="text-lg md:text-xl font-bold text-red-500">{s.value}</div>
+                  <div className="text-lg md:text-xl font-bold text-amber-400">{s.value}</div>
                   <div className="text-xs text-stone-500">{s.label}</div>
                 </div>
               ))}
             </div>
 
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-xs px-2 py-1 rounded-full bg-red-600 font-semibold animate-pulse">● LIVE</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-amber-600 font-semibold">🕊️ CEASEFIRE</span>
               <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day {IRAN_BREAKING.day}</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 25', text: 'Iran missiles hit Tel Aviv (3+ buildings damaged, 6+ injured) and Kurdish Iraq (6 killed, 30 wounded). Lebanon EXPELS Iranian ambassador. Israel claims permanent "security zone" to Litani River. MBS secretly pushing Trump to continue war (NYT). Oil rebounds to $103.', link: '/analysis/iran-2026' },
-                { time: 'Day 24', text: 'Trump BLINKS — postpones power plant ultimatum 5 days. Iran disputes: "a ploy to buy time." Bombs keep falling — civilians killed in Khorramabad & Tabriz. Oman brokers safe passage. IEA: "worse than 1973 and 1979 combined."', link: '/analysis/iran-civilian-cost' },
-                { time: 'Day 23', text: 'Trump\'s 48-HOUR ULTIMATUM: threatens to "obliterate" Iran\'s power plants if Hormuz not reopened. Iranian missiles hit Dimona/Arad — 100+ wounded near Israeli nuclear site. Saudi expels Iranian diplomats. Oil surges to $112.', link: '/analysis/hormuz-crisis' },
-                { time: 'Day 22', text: 'Trump signals "winding down" — Israel vows to ESCALATE. Iran strikes Diego Garcia (2,500 mi). Natanz hit again. 8,000+ targets, 130 vessels destroyed. Eid under bombs in Beirut. 1,000+ dead in Lebanon.', link: '/analysis/lebanon-burns' },
-                { time: 'Day 21', text: 'USS Boxer + 2,200 Marines depart San Diego. Trump calls NATO "cowards." Netanyahu signals "ground component." F-35 emergency landing — possibly first US jet hit. Iran warns "zero restraint." Poland evacuates Iraq. Oil $107/barrel.', link: '/analysis/iran-day-by-day' },
+                { time: 'Day 40', text: 'Oil plunges 15%+ on ceasefire news. S&P 500 futures jump 2.2%. IAEA warns strikes near Bushehr "could cause severe radiological accident" — one strike 250 feet from operating nuclear plant. Ceasefire terms conditional on Iran reopening Hormuz.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. Missiles STILL fired after ceasefire. Israel still striking.', link: '/analysis/iran-2026' },
+                { time: 'Day 38', text: 'Coordinated Iran-Hezbollah-Houthi attack kills 4 in Haifa. Israel strikes "regime targets" in Tehran — 25 killed. King Fahd Causeway closed. Iran rejects ceasefire, issues 10-point counterproposal.', link: '/analysis/iran-regional-war' },
+                { time: 'Day 37', text: 'Missing F-15E weapons officer rescued from mountain crevice after 2-day CSAR operation. 14 killed in Israeli strikes across Lebanon. France and South Korea cooperate on Hormuz reopening.', link: '/analysis/iran-day-by-day' },
+                { time: 'Day 36', text: 'Bushehr nuclear plant perimeter struck — IAEA says no radiation increase. Trump renews Hormuz ultimatum (3rd extension). 2 Turkish ships transit Hormuz.', link: '/analysis/iran-civilian-cost' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>

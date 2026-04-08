@@ -5,9 +5,9 @@ import DayByDayClient from './DayByDayClient'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Day by Day: The Iran War — 35 Days of Operation Epic Fury | WarCosts',
+  title: 'Day by Day: The Iran War — 40 Days of Operation Epic Fury | WarCosts',
   description:
-    'A scrollable day-by-day chronicle of the US war on Iran. February 28 – April 4, 2026. Every day, every dollar, every life lost. Cost, casualties, oil prices, and key events.',
+    'A scrollable day-by-day chronicle of the US war on Iran. February 28 – April 8, 2026. CEASEFIRE announced Day 39. Oil crashes 15%. 5,000+ killed. Every day, every dollar, every life lost.',
   keywords: [
     'Iran war timeline',
     'Iran war day by day',
@@ -19,16 +19,16 @@ export const metadata: Metadata = {
     'US Iran war diary',
   ],
   openGraph: {
-    title: 'Day by Day: 35 Days of the Iran War',
+    title: 'Day by Day: 40 Days of the Iran War — CEASEFIRE',
     description:
-      'A daily chronicle of Operation Epic Fury. 3,519+ killed. $35B+ spent. Oil at $112. Every day documented.',
+      'A daily chronicle of Operation Epic Fury. 5,000+ killed. $39B+ spent. CEASEFIRE Day 39. Oil crashes 15%. Every day documented.',
     url: 'https://www.warcosts.org/iran-war-day-by-day',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Day by Day: 35 Days of the Iran War',
-    description: '3,519+ killed. $35B+ spent. Oil at $112/barrel. A daily chronicle of Operation Epic Fury.',
+    title: 'Day by Day: 40 Days of the Iran War — CEASEFIRE',
+    description: '5,000+ killed. $39B+ spent. CEASEFIRE Day 39. Oil crashes 15%. A daily chronicle of Operation Epic Fury.',
   },
   alternates: {
     canonical: 'https://www.warcosts.org/iran-war-day-by-day',

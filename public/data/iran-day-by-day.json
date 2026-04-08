@@ -665,5 +665,108 @@
       "Brent $112.42"
     ],
     "significance": "critical"
+  },
+  {
+    "day": 36,
+    "date": "2026-04-04",
+    "title": "Bushehr Nuclear Plant Hit",
+    "costToDate": "36B",
+    "costRaw": 36000000000,
+    "casualtiesIran": 3546,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1620,
+    "oilPrice": 109,
+    "keyEvents": [
+      "Bushehr nuclear plant perimeter struck — 1 killed",
+      "IAEA: no radiation increase but warns of danger",
+      "Mahshahr petrochemical zone struck",
+      "Trump renews Hormuz ultimatum (3rd extension)",
+      "2 Turkish ships transit Hormuz",
+      "Iran fires at Dimona/Arad — 116 wounded"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 37,
+    "date": "2026-04-05",
+    "title": "WSO Rescued from Iran",
+    "costToDate": "37B",
+    "costRaw": 37000000000,
+    "casualtiesIran": 3560,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1630,
+    "oilPrice": 111,
+    "keyEvents": [
+      "Missing F-15E weapons officer rescued from mountain crevice",
+      "2-day CSAR — 170+ aircraft, hundreds of troops",
+      "5 killed in Mahshahr strikes",
+      "14 killed in Israeli strikes across Lebanon",
+      "France-South Korea cooperate on Hormuz"
+    ],
+    "significance": "major"
+  },
+  {
+    "day": 38,
+    "date": "2026-04-06",
+    "title": "Coordinated Iran-Hezbollah-Houthi Attack",
+    "costToDate": "38B",
+    "costRaw": 38000000000,
+    "casualtiesIran": 3597,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1650,
+    "oilPrice": 110,
+    "keyEvents": [
+      "First confirmed three-way joint strike on Israel",
+      "Iranian missile hits Haifa residential building — 4 killed",
+      "Israel strikes Tehran regime targets — 25 killed",
+      "15 US troops wounded at Ali Al Salem (Kuwait)",
+      "King Fahd Causeway CLOSED indefinitely",
+      "Iran rejects ceasefire, issues 10-point counterproposal"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 39,
+    "date": "2026-04-07",
+    "title": "CEASEFIRE ANNOUNCED",
+    "costToDate": "39B",
+    "costRaw": 39000000000,
+    "casualtiesIran": 3650,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1665,
+    "oilPrice": 110,
+    "keyEvents": [
+      "IRGC intel chief Khademi killed. 3 Tehran airports bombed",
+      "South Pars gas field power units struck",
+      "Kharg Island hit again",
+      "Trump: \"a whole civilization will die tonight\"",
+      "6:32 PM ET — Trump announces 2-WEEK CEASEFIRE",
+      "Pakistan PM Sharif and Army Chief Munir mediated",
+      "Iran agrees to reopen Hormuz. Talks Apr 10 in Islamabad",
+      "Missiles STILL fired after ceasefire at 8 PM ET",
+      "Israel still striking after White House said Tel Aviv accepted",
+      "Reuters: 5,000+ killed across nearly a dozen countries"
+    ],
+    "significance": "critical"
+  },
+  {
+    "day": 40,
+    "date": "2026-04-08",
+    "title": "Markets React — Oil Crashes 15%",
+    "costToDate": "39B",
+    "costRaw": 39000000000,
+    "casualtiesIran": 3650,
+    "casualtiesUS": 24,
+    "civilianDeaths": 1665,
+    "oilPrice": 93,
+    "keyEvents": [
+      "Oil plunges 15%+ on ceasefire news",
+      "S&P 500 futures jump 2.2%",
+      "Ceasefire conditional on Iran reopening Hormuz",
+      "Talks begin Apr 10 in Islamabad",
+      "IAEA: strike 250 feet from Bushehr nuclear plant",
+      "5,000+ killed across region (Reuters), 1,600+ civilians in Iran"
+    ],
+    "significance": "critical"
   }
 ]

@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. By Day 39 (April 7): 15 US troops dead, 520+ wounded; Iran: 3,597+ killed (HRANA — 1,665 civilians); 1,497+ killed in Lebanon; 7 manned aircraft lost. IRGC intel chief Khademi killed. Kharg Island struck again. Coordinated Iran-Hezbollah-Houthi attack kills 4 in Haifa. Trump's Tuesday deadline: 'complete demolition' of power plants. Oil ~$110/barrel. No ceasefire. No exit strategy.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7) — 2-week pause mediated by Pakistan. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. By Day 40: 5,000+ killed across nearly a dozen countries (Reuters), 1,600+ Iranian civilians; 15 US dead, 520+ wounded; 1,497+ killed in Lebanon. Oil crashed 15% on ceasefire news. Missiles still fired after ceasefire. Israel still striking.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 3597,
     "troopsDeployed": 50000,
-    "outcome": "Developing",
-    "outcomeDetail": "Day 39 (April 7): IRGC intel chief Khademi assassinated. Kharg Island struck again. Israel hits Iran's largest petrochemical complex. 3 Tehran airports bombed. Trump's Tuesday deadline: 'complete demolition' of power plants/bridges if Hormuz stays closed. Coordinated Iran-Hezbollah-Houthi strike kills 4 in Haifa. Both F-15E crew rescued. HRANA: 3,597+ killed (1,665 civilians). Lebanon: 1,497+. Oil ~$110/bbl. No ceasefire.",
+    "outcome": "Ceasefire (Day 39)",
+    "outcomeDetail": "Day 40 (April 8): CEASEFIRE — 2-week pause announced by Trump, mediated by Pakistan. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. Oil crashed 15%. 5,000+ killed across region (Reuters). 1,600+ Iranian civilians. Missiles still fired after ceasefire. Israel still striking. Whether it holds remains deeply uncertain.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [

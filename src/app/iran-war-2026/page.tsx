@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-04-07',
+  dateModified: '2026-04-08',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -86,7 +86,8 @@ const timeline = [
   { date: 'Apr 4', event: 'Day 36 — BUSHEHR NUCLEAR PLANT HIT — INDUSTRIAL ESCALATION. Projectile strikes Bushehr nuclear plant perimeter — 1 killed, IAEA says no radiation increase. Araghchi: Bushehr "bombed four times." Mahshahr petrochemical zone struck. Strikes expand to steel, cement, petrochemical. US intel: Iran rebuilds bombed missile silos within HOURS. Iran fires at Dimona/Arad — 116 wounded (7 serious). Trump renews Hormuz ultimatum (3rd extension). 2 Turkish ships transit Hormuz (first since war). UNSC postpones Hormuz vote. IDF strikes Quds Force command centers in Beirut. Tyre civilians killed. Brent ~$109/bbl. Day 36.' },
   { date: 'Apr 5', event: 'Day 37 — WSO RESCUED FROM IRAN. Missing F-15E weapons officer rescued from mountain crevice in southwestern Iran after 2-day CSAR operation — 170+ aircraft, hundreds of troops. Both crew now safe. 5 killed in strikes on Mahshahr petrochemical hub. Iran calls Trump "unstable, delusional." 14 killed in Israeli strikes across Lebanon. France and South Korea agree to cooperate on reopening Hormuz. Brent ~$111/bbl.' },
   { date: 'Apr 6', event: 'Day 38 — COORDINATED IRAN-HEZBOLLAH-HOUTHI ATTACK. First confirmed three-way joint strike on Israel. Iranian missile hits residential building in Haifa — 4 killed. Israel strikes "regime targets" in Tehran — 25 killed. IDF hits Hezbollah\'s Imam Hussein Division HQ. Israeli strikes expand into Christian suburb Ain Saadeh east of Beirut — deepening sectarian fissures. 15 US troops wounded at Ali Al Salem Air Base (Kuwait). Saudi intercepts 18 drones + 7 ballistic missiles. King Fahd Causeway (Bahrain-Saudi) CLOSED indefinitely. Iran rejects ceasefire, issues 10-point counterproposal. Trump: "not good enough." 3rd Turkish ship transits Hormuz. Lebanon: 1,461+ killed, 1.1M+ displaced. Brent ~$110/bbl.' },
-  { date: 'Apr 7', event: 'Day 39 — IRGC INTEL CHIEF KILLED — KHARG STRUCK AGAIN — TRUMP\'S TUESDAY DEADLINE. Israel kills IRGC intelligence chief Maj Gen Majid Khademi at dawn. Strikes on 3 Tehran airports. Israel hits Iran\'s largest petrochemical complex (South Pars). 2 South Pars electricity units targeted — Iran: "huge escalation targeting survival capabilities." Kharg Island oil hub reportedly struck again. Synagogue in central Tehran destroyed. Railway bridge in Kashan hit (2 killed). 18 killed in Alborz residential strikes (incl 2 children), 9 in Shahriar. IAEA: Bushehr attacks "pose very real danger to nuclear safety." Trump\'s deadline: "complete demolition" of power plants/bridges if Hormuz not open by 8pm Washington Tue. Iran military: threats are "delusional." Drone kills couple in Kurdish Iraq. CENTCOM: 13,000+ targets. Brent ~$110/bbl. No ceasefire. Day 39.' },
+  { date: 'Apr 7', event: 'Day 39 — CEASEFIRE ANNOUNCED. Israel kills IRGC intelligence chief Maj Gen Majid Khademi at dawn. Strikes on 3 Tehran airports. Israel hits South Pars gas field power units — "huge escalation." Kharg Island struck again. Trump threatened "a whole civilization will die tonight" ahead of 8 PM ET deadline. Then at 6:32 PM ET, Trump announces 2-WEEK CEASEFIRE via Truth Social. Pakistan PM Shehbaz Sharif and Army Chief Asim Munir mediated the deal. Iran FM Araghchi confirms: safe passage through Hormuz will resume. Ceasefire includes Lebanon. Negotiations begin Apr 10 in Islamabad. Iran\'s 10-point counterproposal forms basis for talks. BUT: missiles STILL launched from Iran after ceasefire took effect at 8 PM ET. Israel still attacking Iran even as White House said Tel Aviv accepted. IAEA warns strikes near Bushehr "could cause severe radiological accident." Reuters: 5,000+ killed across nearly a dozen countries, 1,600+ civilians in Iran.' },
+  { date: 'Apr 8', event: 'Day 40 — MARKETS REACT TO CEASEFIRE. Oil plunges 15%+ on ceasefire news (US crude futures). S&P 500 futures jump 2.2%. Ceasefire terms: conditional on Iran reopening Strait of Hormuz, 2-week pause in hostilities, Pakistan-mediated talks in Islamabad starting Apr 10. IAEA warned one strike was just 250 feet from Bushehr operating nuclear plant — "could cause severe radiological accident." The 39-day war killed 5,000+ people across nearly a dozen countries. Whether the ceasefire holds remains uncertain — missiles were still flying hours after it was announced.' },
 ]
 
 const costProjections = [
@@ -117,8 +118,8 @@ export default function IranWar2026Page() {
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />
 
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● LIVE</span>
-          <span className="text-stone-500 text-sm">Last updated: April 7, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-amber-600 text-white font-semibold">🕊️ CEASEFIRE</span>
+          <span className="text-stone-500 text-sm">Last updated: April 8, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
