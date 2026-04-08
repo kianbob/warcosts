@@ -26,9 +26,9 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 40,
-  headline: '🕊️ CEASEFIRE: Trump announces 2-week pause. Iran agrees to reopen Hormuz. Pakistan-mediated talks begin Apr 10 in Islamabad. Oil crashes 15%. 5,000+ killed across region in 39 days. Missiles still fired after ceasefire. Israel still striking.',
+  headline: '🕊️ CEASEFIRE FRACTURING: Day 40 — Israel pounds Lebanon with heaviest strikes of war DESPITE truce. Netanyahu: ceasefire "does not include Lebanon." Iran considers backing out. Oil crashes 15% to $95/bbl. 5,000+ killed across region. HRANA: 1,665 Iranian civilians (244 children). Talks Apr 10 in Islamabad — but US and Iran poles apart on terms.',
   stats: [
-    { value: '5,000+', label: 'Total Killed (Reuters)' },
+    { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,600+', label: 'Iranian Civilians' },
     { value: '15', label: 'US Dead / 520+ Wounded' },
     { value: '1,497+', label: 'Killed in Lebanon' },
@@ -99,7 +99,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 40', text: 'Oil plunges 15%+ on ceasefire news. S&P 500 futures jump 2.2%. IAEA warns strikes near Bushehr "could cause severe radiological accident" — one strike 250 feet from operating nuclear plant. Ceasefire terms conditional on Iran reopening Hormuz.', link: '/analysis/hormuz-crisis' },
+                { time: 'Day 40', text: 'CEASEFIRE FRACTURING: Oil crashes 15% to $95/bbl. But Israel pounds Lebanon with heaviest strikes of war — Netanyahu says ceasefire "does not include Lebanon." Iran considers backing out. Kuwait, Qatar report Iranian attacks despite truce. Only 2 ships cross Hormuz; 400+ stranded. Iran\'s 10-point demands vs Trump\'s "no enrichment" — poles apart. HRANA: 1,665 civilians killed in Iran (244 children).', link: '/analysis/iran-2026' },
                 { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. Missiles STILL fired after ceasefire. Israel still striking.', link: '/analysis/iran-2026' },
                 { time: 'Day 38', text: 'Coordinated Iran-Hezbollah-Houthi attack kills 4 in Haifa. Israel strikes "regime targets" in Tehran — 25 killed. King Fahd Causeway closed. Iran rejects ceasefire, issues 10-point counterproposal.', link: '/analysis/iran-regional-war' },
                 { time: 'Day 37', text: 'Missing F-15E weapons officer rescued from mountain crevice after 2-day CSAR operation. 14 killed in Israeli strikes across Lebanon. France and South Korea cooperate on Hormuz reopening.', link: '/analysis/iran-day-by-day' },

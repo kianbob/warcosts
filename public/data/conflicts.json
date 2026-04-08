@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7) — 2-week pause mediated by Pakistan. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. By Day 40: 5,000+ killed across nearly a dozen countries (Reuters), 1,600+ Iranian civilians; 15 US dead, 520+ wounded; 1,497+ killed in Lebanon. Oil crashed 15% on ceasefire news. Missiles still fired after ceasefire. Israel still striking.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7) — 2-week pause mediated by Pakistan. Day 40: ceasefire already fracturing. Israel pounds Lebanon with heaviest strikes of war DESPITE truce — Netanyahu says ceasefire 'does not include Lebanon.' Iran considers backing out (Tasnim). Oil crashes 15% to $95/bbl. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,665+ Iranian civilians (244 children); 1,500+ killed in Lebanon; 13 US KIA, 520+ wounded. 400+ vessels stranded in Persian Gulf. Iran's 10-point proposal vs Trump's 'no enrichment' — poles apart. Talks begin Apr 10 in Islamabad.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5777,10 +5777,10 @@
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 3597,
+    "civilianDeaths": 1665,
     "troopsDeployed": 50000,
     "outcome": "Ceasefire (Day 39)",
-    "outcomeDetail": "Day 40 (April 8): CEASEFIRE — 2-week pause announced by Trump, mediated by Pakistan. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. Oil crashed 15%. 5,000+ killed across region (Reuters). 1,600+ Iranian civilians. Missiles still fired after ceasefire. Israel still striking. Whether it holds remains deeply uncertain.",
+    "outcomeDetail": "Day 40 (April 8): Ceasefire fracturing on Day 1. Israel pounds Lebanon with heaviest strikes of war — Netanyahu says truce 'does not include Lebanon.' Iran considers backing out (Tasnim). Oil crashes 15% to $95/bbl. Kuwait engages 28 Iranian drones, Qatar hit by 7 missiles despite ceasefire. Only 2 ships crossed Hormuz; 400+ stranded. Iran's 10-point demands vs Trump's 'no enrichment' — poles apart. Talks begin Apr 10 in Islamabad. 5,000+ killed across region (Reuters). HRANA: 1,665+ Iranian civilians (244 children). Lebanon: 1,500+ killed.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5971,6 +5971,10 @@
       {
         "year": 2026,
         "event": "Apr 7 (Day 39): IRGC intel chief Maj Gen Khademi killed at dawn. Israel strikes 3 Tehran airports, Iran's largest petrochemical complex, South Pars electricity units. Kharg Island reportedly struck again. Synagogue destroyed. 18 killed in Alborz residential strikes. Trump's Tuesday deadline: 'complete demolition' of power plants if Hormuz stays closed. Iran: threats 'delusional.' HRANA: 3,597+ killed. Lebanon: 1,497+."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 7-8 (Days 39-40): CEASEFIRE ANNOUNCED — THEN FRACTURES: Trump announces 2-week ceasefire at 6:32 PM ET Apr 7, mediated by Pakistan's PM Sharif and Army Chief Munir. Iran FM Araghchi confirms: defensive operations to cease, Hormuz open via coordination with Iran's forces. But: US carried out 800+ strikes on Iran on Apr 7 before ceasefire (Hegseth). Israel pounds Lebanon with HEAVIEST strikes of the war on Day 40 — Netanyahu says ceasefire 'does not include Lebanon.' Central Beirut struck without warning (AP). Hezbollah pauses attacks; Israel escalates. Iran's Tasnim reports Iran considering backing out due to Lebanon strikes. Kuwait engages 28 Iranian drones, Qatar hit by 7 missiles despite truce. Lavan Island refinery struck. Oil crashes 15% to ~$95/bbl. Only 2 bulk carriers cross Hormuz; 400+ vessels stranded. Iran's 10-point counterproposal leaked: non-aggression pact, enrichment acceptance, sanctions lifted, US base withdrawal, war compensation. Trump: 'no uranium enrichment.' HRANA: 1,665 civilians killed in Iran (244 children). Lebanon: 1,500+ killed. Islamabad talks confirmed for Apr 10."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6104,7 +6108,7 @@
     "civilianDeaths": 5048,
     "troopsDeployed": 0,
     "outcome": "Developing",
-    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 1,000+ killed, 2,600+ wounded, 1M+ displaced (Lebanese Health Ministry). Mar 24: Lebanon EXPELS Iranian ambassador (persona non grata). Israel's Katz announces permanent 'security zone' up to Litani River — 30km deep — blocking return of hundreds of thousands of Lebanese (Haaretz). France criticizes plan. Hezbollah vows to fight it. No US troops directly involved — funded entirely through military aid to Israel.",
+    "outcomeDetail": "Oct 2023-Nov 2024: 4,047+ killed, 16,638 injured in Lebanon. Nov 2024 ceasefire followed by daily violations. Mar 2026 resumption during Iran war: 1,500+ killed, 2,600+ wounded, 1M+ displaced (Lebanese Health Ministry). Apr 8: Israel carries out HEAVIEST Lebanon strikes since war began — dozens killed, hundreds wounded — DESPITE US-Iran ceasefire (Reuters). Netanyahu declares ceasefire 'does not include Lebanon.' Hezbollah pauses attacks under truce; Israel escalates anyway. Iran considers backing out of ceasefire over Lebanon strikes (Tasnim). Mar 24: Lebanon expelled Iranian ambassador. Israel's Katz claims permanent 'security zone' up to Litani River (30km deep). No US troops directly involved — funded entirely through military aid to Israel.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization for Lebanon operations specifically. Military aid to Israel approved through supplemental appropriations ($8.7B in April 2024). No debate on whether US weapons should be used in Lebanon.",
     "keyEvents": [
