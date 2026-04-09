@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-04-08',
+  dateModified: '2026-04-09',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -88,6 +88,7 @@ const timeline = [
   { date: 'Apr 6', event: 'Day 38 — COORDINATED IRAN-HEZBOLLAH-HOUTHI ATTACK. First confirmed three-way joint strike on Israel. Iranian missile hits residential building in Haifa — 4 killed. Israel strikes "regime targets" in Tehran — 25 killed. IDF hits Hezbollah\'s Imam Hussein Division HQ. Israeli strikes expand into Christian suburb Ain Saadeh east of Beirut — deepening sectarian fissures. 15 US troops wounded at Ali Al Salem Air Base (Kuwait). Saudi intercepts 18 drones + 7 ballistic missiles. King Fahd Causeway (Bahrain-Saudi) CLOSED indefinitely. Iran rejects ceasefire, issues 10-point counterproposal. Trump: "not good enough." 3rd Turkish ship transits Hormuz. Lebanon: 1,461+ killed, 1.1M+ displaced. Brent ~$110/bbl.' },
   { date: 'Apr 7', event: 'Day 39 — CEASEFIRE ANNOUNCED. Israel kills IRGC intelligence chief Maj Gen Majid Khademi at dawn. Strikes on 3 Tehran airports. Israel hits South Pars gas field power units — "huge escalation." Kharg Island struck again. Trump threatened "a whole civilization will die tonight" ahead of 8 PM ET deadline. Then at 6:32 PM ET, Trump announces 2-WEEK CEASEFIRE via Truth Social. Pakistan PM Shehbaz Sharif and Army Chief Asim Munir mediated the deal. Iran FM Araghchi confirms: safe passage through Hormuz will resume. Ceasefire includes Lebanon. Negotiations begin Apr 10 in Islamabad. Iran\'s 10-point counterproposal forms basis for talks. BUT: missiles STILL launched from Iran after ceasefire took effect at 8 PM ET. Israel still attacking Iran even as White House said Tel Aviv accepted. IAEA warns strikes near Bushehr "could cause severe radiological accident." Reuters: 5,000+ killed across nearly a dozen countries, 1,600+ civilians in Iran.' },
   { date: 'Apr 8', event: 'Day 40 — CEASEFIRE FRACTURING ON DAY 1. Oil crashes 15% to ~$95/bbl. S&P 500 futures jump 2.2%. But Israel pounds Lebanon with HEAVIEST strikes since war began — dozens killed, hundreds wounded (Reuters). Netanyahu declares ceasefire "does not include Lebanon" (AP). Hezbollah pauses attacks; Israel escalates. Iran\'s Tasnim reports Tehran considering backing out of ceasefire over Lebanon. Kuwait engages 28 Iranian drones, Qatar hit by 7 missiles despite truce. Lavan Island refinery struck. Only 2 ships cross Hormuz; 400+ stranded. Iran\'s 10-point counterproposal leaked: non-aggression, enrichment acceptance, sanctions lifted, US base withdrawal, compensation. Trump: "no enrichment." HRANA: 1,665 civilians killed in Iran (244 children). Lebanon: 1,500+ killed. Islamabad talks confirmed for Apr 10. Whether the ceasefire survives the week is deeply uncertain.' },
+  { date: 'Apr 9', event: 'Day 41 — CEASEFIRE TEETERING. Israel\'s Apr 8 Lebanon strikes confirmed deadliest day of war: 254 killed, 1,100+ wounded (Reuters). 100+ targets hit in 10 minutes. Israel killed personal secretary to Hezbollah leader Qassem. Hezbollah retaliates with rockets. Iran RE-CLOSES Strait of Hormuz over Lebanon strikes (AP). Ghalibaf: ceasefire "unreasonable" — accuses US of 3 violations. ADNOC CEO: "Hormuz is NOT open." EU/UK/Germany demand Lebanon included in truce. Oil rebounds to $98/bbl. VP Vance to lead US delegation to Islamabad Saturday with Witkoff & Kushner. Iranian delegation arriving Thursday night. HRANA: no new casualties in Iran since ceasefire. 40th-day Khamenei mourning in Tehran. Lebanon: 1,750+ killed total. The ceasefire survives — barely — but only because talks are days away.' },
 ]
 
 const costProjections = [
@@ -119,7 +120,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-amber-600 text-white font-semibold">🕊️ CEASEFIRE</span>
-          <span className="text-stone-500 text-sm">Last updated: April 8, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: April 9, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

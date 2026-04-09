@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 40,
-  headline: '🕊️ CEASEFIRE FRACTURING: Day 40 — Israel pounds Lebanon with heaviest strikes of war DESPITE truce. Netanyahu: ceasefire "does not include Lebanon." Iran considers backing out. Oil crashes 15% to $95/bbl. 5,000+ killed across region. HRANA: 1,665 Iranian civilians (244 children). Talks Apr 10 in Islamabad — but US and Iran poles apart on terms.',
+  day: 41,
+  headline: '🕊️ CEASEFIRE TEETERING: Day 41 — Israel\'s deadliest Lebanon attack: 254 killed in single day (Reuters). Iran RE-CLOSES Hormuz over Lebanon strikes. Ghalibaf: ceasefire "unreasonable." EU demands Lebanon included. Oil rebounds to $98/bbl. VP Vance heads to Islamabad Saturday with Witkoff & Kushner. 5,000+ killed across region. Lebanon: 1,750+ killed. HRANA: 1,665 Iranian civilians.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '1,600+', label: 'Iranian Civilians' },
+    { value: '1,665+', label: 'Iranian Civilians (HRANA)' },
     { value: '15', label: 'US Dead / 520+ Wounded' },
-    { value: '1,497+', label: 'Killed in Lebanon' },
-    { value: '-15%', label: 'Oil Price Crash' },
-    { value: 'Apr 10', label: 'Islamabad Talks' },
+    { value: '1,750+', label: 'Killed in Lebanon' },
+    { value: '$98/bbl', label: 'Oil Price (Brent)' },
+    { value: 'Apr 12', label: 'Islamabad Talks (Sat)' },
   ]
 }
 
