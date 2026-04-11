@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7) — 2-week pause mediated by Pakistan. Day 41: ceasefire teetering. Israel's deadliest Lebanon attack: 254 killed Apr 8 (Reuters). Iran RE-CLOSES Hormuz over Lebanon strikes. Ghalibaf: ceasefire 'unreasonable.' EU/UK demand Lebanon included. Oil rebounds to $98/bbl. VP Vance heads to Islamabad Saturday with Witkoff & Kushner. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,665+ Iranian civilians (244 children); 1,750+ killed in Lebanon; 13 US KIA, 520+ wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 43: HISTORIC — VP Vance meets Iran's Ghalibaf face-to-face in Islamabad, highest-level US-Iran contact since 1979 (NYT). Pakistan mediating. Ceasefire fragile. Hormuz still closed: only 19 ships since truce. Lebanon: 1,953 killed, 6,303 wounded. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,701+ Iranian civilians (254 children); 13 US KIA, 520+ wounded.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5777,10 +5777,10 @@
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 1665,
+    "civilianDeaths": 1701,
     "troopsDeployed": 50000,
     "outcome": "Ceasefire (Day 39)",
-    "outcomeDetail": "Day 41 (April 9): Ceasefire teetering. Israel's deadliest Lebanon attack: 254 killed in single day Apr 8 (Reuters). Iran RE-CLOSES Hormuz over Lebanon strikes. Ghalibaf: ceasefire 'unreasonable' — accuses US of violating 3 of 10 conditions. EU/UK/Germany demand Lebanon included in truce. Oil rebounds to $98/bbl. VP Vance to lead US delegation to Islamabad Saturday with Witkoff & Kushner. HRANA: no new Iran casualties since ceasefire. Lebanon: 1,750+ killed. 5,000+ killed across region (Reuters).",
+    "outcomeDetail": "Day 43 (April 11): HISTORIC — VP Vance meets Iran's Ghalibaf face-to-face in Islamabad, highest-level US-Iran meeting since 1979 Islamic Revolution (NYT/CBS/NBC). Ceasefire holding but fragile. Hormuz still closed: only 19 ships since truce (BBC), Iran can't locate all its own mines (NYT). Israel continues strikes in southern Lebanon but has stopped hitting Beirut since Apr 8. Lebanon: 1,953 killed, 6,303 wounded. HRANA: 1,701 Iranian civilians (254 children). No new Iran casualties since ceasefire. 5,000+ killed across region (Reuters).",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5979,6 +5979,14 @@
       {
         "year": 2026,
         "event": "Apr 9 (Day 41): CEASEFIRE TEETERING: Israel's Apr 8 Lebanon strikes confirmed deadliest day of war — 254 killed, 1,100+ wounded (Reuters). 100+ targets in 10 minutes. Hezbollah retaliates with rockets. Iran RE-CLOSES Strait of Hormuz over Lebanon strikes (AP). Ghalibaf calls ceasefire 'unreasonable,' accuses US of 3 violations. EU/UK/Germany demand Lebanon included in truce. ADNOC CEO: 'Hormuz is NOT open.' Oil rebounds to $98/bbl. VP Vance to lead US delegation to Islamabad Saturday with Witkoff & Kushner. No new Iran casualties since ceasefire (HRANA). Lebanon: 1,750+ killed. 40th-day Khamenei mourning commemoration in Tehran."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 10 (Day 42): DELEGATIONS CONVERGE ON ISLAMABAD. Iranian delegation (Ghalibaf + FM Araghchi) arrives. VP Vance departs for Pakistan with Witkoff & Kushner. Pakistan PM Sharif: talks 'make or break.' BBC: only 19 ships through Hormuz since ceasefire. Iran can't locate all its own mines (NYT). HRANA: 1,701 civilians killed in Iran (254 children). Lebanon: 1,953 killed, 6,303 wounded. Israel stopped striking Beirut since Apr 8, continues in south. Oil $97.78/bbl."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 11 (Day 43): HISTORIC — VP Vance meets Iran's Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution (NYT/CBS/NBC). US: Vance, Witkoff, Kushner. Iran: Ghalibaf, Araghchi. Pakistan mediating. Vance: 'I think it's going to be positive.' Key sticking points: enrichment, Lebanon, Hormuz. Israel continues strikes in south Lebanon Saturday. Ceasefire holding but brittle."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

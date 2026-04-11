@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 41: Iran RE-CLOSES Hormuz over Israel\'s Lebanon strikes. ADNOC CEO: "Hormuz is NOT open." Traffic at lowest since late March. Oil rebounds to $98/bbl. VP Vance heads to Islamabad Saturday. Ghalibaf: ceasefire "unreasonable." Mines remain in waterway.',
+  description: '20% of global oil flows through a 21-mile strait. Iran controls it. Day 43: Only 19 ships through Hormuz since ceasefire began (BBC). Iran can\'t locate all its own mines (NYT). Vance meets Ghalibaf in Islamabad — highest-level US-Iran talks since 1979. Trump says US "clearing out" Hormuz. Oil ~$98/bbl. Strait remains effectively closed.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

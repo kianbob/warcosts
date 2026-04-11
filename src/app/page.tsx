@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 41,
-  headline: '🕊️ CEASEFIRE TEETERING: Day 41 — Israel\'s deadliest Lebanon attack: 254 killed in single day (Reuters). Iran RE-CLOSES Hormuz over Lebanon strikes. Ghalibaf: ceasefire "unreasonable." EU demands Lebanon included. Oil rebounds to $98/bbl. VP Vance heads to Islamabad Saturday with Witkoff & Kushner. 5,000+ killed across region. Lebanon: 1,750+ killed. HRANA: 1,665 Iranian civilians.',
+  day: 43,
+  headline: '🕊️ HISTORIC TALKS: Day 43 — VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 (NYT). Pakistan mediating. Ceasefire fragile. Hormuz still closed: only 19 ships since truce, Iran can\'t find its own mines (NYT). Lebanon: 1,953 killed, 6,303 wounded. HRANA: 1,701 Iranian civilians (254 children). Oil ~$98/bbl.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '1,665+', label: 'Iranian Civilians (HRANA)' },
-    { value: '15', label: 'US Dead / 520+ Wounded' },
-    { value: '1,750+', label: 'Killed in Lebanon' },
+    { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
+    { value: '13', label: 'US KIA / 520+ Wounded' },
+    { value: '1,953', label: 'Killed in Lebanon' },
     { value: '$98/bbl', label: 'Oil Price (Brent)' },
-    { value: 'Apr 12', label: 'Islamabad Talks (Sat)' },
+    { value: 'UNDERWAY', label: 'Islamabad Talks' },
   ]
 }
 
