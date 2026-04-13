@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 43,
-  headline: '🕊️ HISTORIC TALKS: Day 43 — VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 (NYT). Pakistan mediating. Ceasefire fragile. Hormuz still closed: only 19 ships since truce, Iran can\'t find its own mines (NYT). Lebanon: 1,953 killed, 6,303 wounded. HRANA: 1,701 Iranian civilians (254 children). Oil ~$98/bbl.',
+  day: 45,
+  headline: '⚓ BLOCKADE: Day 45 — Islamabad peace talks COLLAPSE after 21 hours. Trump orders US naval BLOCKADE of Iranian ports — in effect since Apr 13, 10 AM ET. Oil surges 7% to $102/bbl. Europe refuses to participate (UK, Spain). Iran warns "no Gulf port will be safe." IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire hanging by a thread.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
-    { value: '1,953', label: 'Killed in Lebanon' },
-    { value: '$98/bbl', label: 'Oil Price (Brent)' },
-    { value: 'UNDERWAY', label: 'Islamabad Talks' },
+    { value: '2,020+', label: 'Killed in Lebanon' },
+    { value: '$102/bbl', label: 'Oil Price (Brent)' },
+    { value: 'BLOCKADE', label: 'Iran Ports Blockaded' },
   ]
 }
 
@@ -67,7 +67,7 @@ export default function HomePage() {
         <section className="bg-amber-800 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs px-2 py-1 rounded-full bg-amber-600 font-semibold">🕊️ CEASEFIRE</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
               <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
             </div>
             <div className="flex gap-4 text-sm">
@@ -94,16 +94,16 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-xs px-2 py-1 rounded-full bg-amber-600 font-semibold">🕊️ CEASEFIRE</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
               <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day {IRAN_BREAKING.day}</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 40', text: 'CEASEFIRE FRACTURING: Oil crashes 15% to $95/bbl. But Israel pounds Lebanon with heaviest strikes of war — Netanyahu says ceasefire "does not include Lebanon." Iran considers backing out. Kuwait, Qatar report Iranian attacks despite truce. Only 2 ships cross Hormuz; 400+ stranded. Iran\'s 10-point demands vs Trump\'s "no enrichment" — poles apart. HRANA: 1,665 civilians killed in Iran (244 children).', link: '/analysis/iran-2026' },
-                { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. Iran agrees to reopen Hormuz. Talks begin Apr 10 in Islamabad. Missiles STILL fired after ceasefire. Israel still striking.', link: '/analysis/iran-2026' },
-                { time: 'Day 38', text: 'Coordinated Iran-Hezbollah-Houthi attack kills 4 in Haifa. Israel strikes "regime targets" in Tehran — 25 killed. King Fahd Causeway closed. Iran rejects ceasefire, issues 10-point counterproposal.', link: '/analysis/iran-regional-war' },
-                { time: 'Day 37', text: 'Missing F-15E weapons officer rescued from mountain crevice after 2-day CSAR operation. 14 killed in Israeli strikes across Lebanon. France and South Korea cooperate on Hormuz reopening.', link: '/analysis/iran-day-by-day' },
-                { time: 'Day 36', text: 'Bushehr nuclear plant perimeter struck — IAEA says no radiation increase. Trump renews Hormuz ultimatum (3rd extension). 2 Turkish ships transit Hormuz.', link: '/analysis/iran-civilian-cost' },
+                { time: 'Day 45', text: 'US NAVAL BLOCKADE BEGINS: CENTCOM confirms blockade of all ships entering/departing Iranian ports. Oil surges 7% to $102/bbl. UK, Spain refuse to participate. Iran warns "no Gulf port will be safe." IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. Netanyahu: ceasefire "could end at any moment."', link: '/analysis/iran-2026' },
+                { time: 'Day 44', text: 'TALKS COLLAPSE: After 21 hours of marathon negotiations in Islamabad, Vance departs with no deal. Iran says they were "inches away" but encountered "maximalism." Trump announces blockade of Iranian ports. WSJ: Trump considering restarting limited strikes.', link: '/analysis/iran-2026' },
+                { time: 'Day 43', text: 'HISTORIC: VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution. Pakistan mediating. Ceasefire brittle. Oil ~$98/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 40', text: 'CEASEFIRE FRACTURING: Oil crashes 15% to $95/bbl. Israel pounds Lebanon with heaviest strikes of war — Netanyahu says ceasefire "does not include Lebanon." Only 2 ships cross Hormuz; 400+ stranded.', link: '/analysis/iran-2026' },
+                { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. 5,000+ killed across nearly a dozen countries.', link: '/analysis/iran-2026' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
                   <span className="text-red-400 text-xs font-bold">{d.time}</span>

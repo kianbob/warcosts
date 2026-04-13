@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-04-12',
+  dateModified: '2026-04-14',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -91,6 +91,8 @@ const timeline = [
   { date: 'Apr 9', event: 'Day 41 — CEASEFIRE TEETERING. Israel\'s Apr 8 Lebanon strikes confirmed deadliest day of war: 254 killed, 1,100+ wounded (Reuters). 100+ targets hit in 10 minutes. Israel killed personal secretary to Hezbollah leader Qassem. Hezbollah retaliates with rockets. Iran RE-CLOSES Strait of Hormuz over Lebanon strikes (AP). Ghalibaf: ceasefire "unreasonable" — accuses US of 3 violations. ADNOC CEO: "Hormuz is NOT open." EU/UK/Germany demand Lebanon included in truce. Oil rebounds to $98/bbl. VP Vance to lead US delegation to Islamabad Saturday with Witkoff & Kushner. Iranian delegation arriving Thursday night. HRANA: no new casualties in Iran since ceasefire. 40th-day Khamenei mourning in Tehran. Lebanon: 1,750+ killed total. The ceasefire survives — barely — but only because talks are days away.' },
   { date: 'Apr 10', event: 'Day 42 — DELEGATIONS CONVERGE. Iranian delegation (Ghalibaf + FM Araghchi) arrives Islamabad. Vance departs Washington. Pakistan PM Sharif: "make or break." BBC: only 19 ships through Hormuz since ceasefire — near standstill. Iran can\'t locate all its own mines (NYT). Lebanon: 1,953 killed, 6,303 wounded (health ministry). Israel stopped striking Beirut since Apr 8 but continues in south Lebanon. Oil $97.78/bbl.' },
   { date: 'Apr 11', event: 'Day 43 — HISTORIC: VANCE MEETS GHALIBAF — highest-level US-Iran meeting since 1979 Revolution. Face-to-face talks in Islamabad, mediated by Pakistan. US: Vance, Witkoff, Kushner. Iran: Ghalibaf, Araghchi. Vance: "I think it\'s going to be positive" — warns Iran not to "try to play us." Sticking points: nuclear enrichment, Lebanon, Hormuz. Israel continues strikes in south Lebanon Saturday. Ceasefire holding but brittle. Oil ~$98/bbl.' },
+  { date: 'Apr 12', event: 'Day 44 — TALKS COLLAPSE. After 21 hours of marathon negotiations, Vance departs Islamabad with NO DEAL (NYT/NPR/Al Jazeera). Iran says they were "inches away" from agreement but encountered "maximalism and shifting goalposts." Trump: "I don\'t care if they come back or not." Then announces US will BLOCKADE Iranian ports starting Apr 13 at 10 AM ET. WSJ: Trump considering restarting limited strikes. NATO blasted as "paper tiger." Lebanon Red Cross paramedic killed by Israeli strike. Lebanon: 2,020+ killed.' },
+  { date: 'Apr 13', event: 'Day 45 — US NAVAL BLOCKADE BEGINS. CENTCOM confirms blockade of all ships entering/departing Iranian ports now in effect. Trump: ships approaching will be "immediately eliminated." Brent crude surges 7% to $102/bbl. UK refuses to participate. Spain: blockade "makes no sense." Iran warns "no port in the Gulf will be safe." Netanyahu: ceasefire "could end at any moment." IDF encircles and raids Bint Jbeil in southern Lebanon — historic Hezbollah stronghold. Russian oil sanctions waiver expires. Australia PM seeking alternative fuel in SE Asia. Ceasefire technically holds but blockade is massive escalation.' },
 ]
 
 const costProjections = [
@@ -121,8 +123,8 @@ export default function IranWar2026Page() {
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />
 
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs px-2 py-1 rounded-full bg-amber-600 text-white font-semibold">🕊️ TALKS UNDERWAY</span>
-          <span className="text-stone-500 text-sm">Last updated: April 12, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold">⚓ BLOCKADE IN EFFECT</span>
+          <span className="text-stone-500 text-sm">Last updated: April 14, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
