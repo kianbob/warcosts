@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 45,
-  headline: '⚓ BLOCKADE: Day 45 — Islamabad peace talks COLLAPSE after 21 hours. Trump orders US naval BLOCKADE of Iranian ports — in effect since Apr 13, 10 AM ET. Oil surges 7% to $102/bbl. Europe refuses to participate (UK, Spain). Iran warns "no Gulf port will be safe." IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire hanging by a thread.',
+  day: 46,
+  headline: '⚓ BLOCKADE: Day 46 — US blockade in effect, no enforcement incidents yet. Oil falls below $100 on hopes of resumed Islamabad talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Israel-Lebanon direct talks in Washington. Ceasefire holding — 1 week left.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
     { value: '2,020+', label: 'Killed in Lebanon' },
-    { value: '$102/bbl', label: 'Oil Price (Brent)' },
+    { value: '$97.66/bbl', label: 'Oil Price (Brent) ↓' },
     { value: 'BLOCKADE', label: 'Iran Ports Blockaded' },
   ]
 }

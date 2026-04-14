@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 45: Islamabad peace talks COLLAPSE after 21 hours — US naval BLOCKADE of Iranian ports begins Apr 13. Oil surges 7% to $102/bbl. Europe refuses to join blockade. IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,701+ Iranian civilians (254 children); 13 US KIA, 520+ wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 46: US naval blockade of Iranian ports in effect since Apr 13 — no enforcement incidents on first full day. Oil falls to $97.66/bbl on hopes of resumed Islamabad talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Lebanon: 2,020+ killed. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,701+ Iranian civilians (254 children); 13 US KIA, 520+ wounded.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Talks collapsed Day 44",
-    "outcomeDetail": "Day 45 (April 13): Islamabad peace talks collapse after 21 hours of negotiations — Vance departs with no deal. Trump orders US naval blockade of Iranian ports starting Apr 13. Oil surges 7% to $102/bbl. Europe refuses to participate (UK, Spain). Iran warns all Gulf ports 'unsafe' if its ports threatened. IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. HRANA: 1,701 Iranian civilians (254 children). No new Iran casualties since ceasefire. Ceasefire technically holding but blockade represents major escalation.",
+    "outcome": "Ceasefire (Day 39) — Blockade in effect, talks may resume",
+    "outcomeDetail": "Day 46 (April 14): US naval blockade of Iranian ports first full day — no enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed Islamabad talks (both sides could return by week's end per Reuters). IMF cuts global growth outlook, warns of recession. Italy suspends Israel defense pact. France-UK summit on Hormuz Friday. Israel-Lebanon direct talks in Washington. IDF battles Hezbollah at Bint Jbeil. Lebanon: 2,020+ killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire holding — 1 week remaining.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [

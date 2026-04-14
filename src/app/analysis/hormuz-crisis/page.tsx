@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Day 45: Islamabad peace talks COLLAPSE. Trump orders US naval BLOCKADE of Iranian ports — in effect since Apr 13. Oil surges 7% to $102/bbl. Europe refuses to join. Iran warns "no Gulf port will be safe." Three overlapping restrictions now on Hormuz: Iranian mines, Iranian closures, and US blockade.',
+  description: '20% of global oil flows through a 21-mile strait. Day 46: US naval blockade first full day — no enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed Islamabad talks. France-UK summit Friday on multinational Hormuz plan. IMF warns of recession. Three overlapping restrictions on Hormuz: Iranian mines, Iranian closures, and US blockade.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
