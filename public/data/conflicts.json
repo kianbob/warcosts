@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 46: US naval blockade of Iranian ports in effect since Apr 13 — no enforcement incidents on first full day. Oil falls to $97.66/bbl on hopes of resumed Islamabad talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Lebanon: 2,020+ killed. 5,000+ killed across nearly a dozen countries (Reuters); HRANA: 1,701+ Iranian civilians (254 children); 13 US KIA, 520+ wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 47: Trump declares war \"over\" on Fox News — then sends 6,000 more troops + USS George HW Bush. US blockade \"completely halted\" Iran trade — 9 ships turned back in 48 hours. Iran threatens Red Sea expansion. Pakistan Army Chief in Tehran. Israel-Lebanon \"launch direct negotiations.\" Harvard: war could cost $1 trillion. IEA: \"demand destruction\" underway. Lebanon: 2,124 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Blockade in effect, talks may resume",
-    "outcomeDetail": "Day 46 (April 14): US naval blockade of Iranian ports first full day — no enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed Islamabad talks (both sides could return by week's end per Reuters). IMF cuts global growth outlook, warns of recession. Italy suspends Israel defense pact. France-UK summit on Hormuz Friday. Israel-Lebanon direct talks in Washington. IDF battles Hezbollah at Bint Jbeil. Lebanon: 2,020+ killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire holding — 1 week remaining.",
+    "outcome": "Ceasefire (Day 39) — Trump declares war 'over' — Blockade tightening",
+    "outcomeDetail": "Day 47 (April 15): Trump declares war 'over' on Fox News, then says 'very close to being over' and sends 6,000 more troops + USS George HW Bush. US blockade 'completely halted' Iran trade — 9 ships turned back in 48 hours, 10,000+ troops enforcing. Iran threatens Red Sea expansion. Pakistan Army Chief Munir in Tehran. Israel-Lebanon 'launch direct negotiations' but Hezbollah condemns. Israel kills 3 medics attacking rescue teams. Harvard: $1 trillion war. IEA: demand destruction underway. Lebanon: 2,124 killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire expires Apr 21 — 6 days left.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5987,6 +5987,18 @@
       {
         "year": 2026,
         "event": "Apr 11 (Day 43): HISTORIC — VP Vance meets Iran's Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution (NYT/CBS/NBC). US: Vance, Witkoff, Kushner. Iran: Ghalibaf, Araghchi. Pakistan mediating. Vance: 'I think it's going to be positive.' Key sticking points: enrichment, Lebanon, Hormuz. Israel continues strikes in south Lebanon Saturday. Ceasefire holding but brittle."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 12 (Day 44): ISLAMABAD TALKS COLLAPSE — TRUMP ORDERS BLOCKADE: After 21 hours of marathon negotiations, VP Vance departs Islamabad without a deal (NYT/NPR). Key disagreements: nuclear enrichment, Hormuz, Lebanon. Trump announces US will BLOCKADE ships entering/exiting Iranian ports starting Apr 13. Trump: 'I don't care if they come back or not.' Iran FM Araghchi: 'just inches away from Islamabad MoU' before encountering 'maximalism.' WSJ: Trump considering restarting limited strikes. Lebanon: 2,020 killed."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 13-14 (Days 45-46): US NAVAL BLOCKADE BEGINS — EUROPE REFUSES: US blocks all ships entering/exiting Iranian ports while allowing other Hormuz transit. UK, Spain refuse to participate. Oil surges 7% to $102 then falls to $97 on talk hopes. Italy suspends Israel defense pact. France-UK Hormuz summit planned. Israel-Lebanon direct talks in Washington. IDF encircles Bint Jbeil. IMF warns of recession. HRANA: 1,701 civilians (254 children) — no new Iran casualties since ceasefire."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 15 (Day 47): TRUMP DECLARES WAR 'OVER' — SENDS MORE TROOPS — IRAN THREATENS RED SEA: Trump tells Fox News war is 'over,' then on Fox Business says 'very close to being over' and attacks could continue. 6,000 more troops + USS George HW Bush ordered to region. US blockade 'completely halted' Iran trade — 9 ships turned back in 48 hours (CENTCOM/NYT). Iran Maj Gen Abdollahi threatens to expand control to Persian Gulf, Sea of Oman AND Red Sea. Pakistan Army Chief Munir arrives in Tehran. Israel-Lebanon 'launch direct negotiations' (State Dept) but Hezbollah condemns. Israel kills 3 medics attacking rescue teams in Mayfadoun (NYT). Harvard: war will cost $1 trillion (CNBC). IEA: 'demand destruction' underway — steepest demand decline since COVID. Iran Red Crescent: 7,200+ rescued from rubble. Lebanon: 2,124 killed. Oil ~$97-98/bbl. Ceasefire expires Apr 21 — 6 days left."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

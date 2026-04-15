@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 46,
-  headline: '⚓ BLOCKADE: Day 46 — US blockade in effect, no enforcement incidents yet. Oil falls below $100 on hopes of resumed Islamabad talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Israel-Lebanon direct talks in Washington. Ceasefire holding — 1 week left.',
+  headline: '⚓ BLOCKADE: Day 47 — Trump declares war "over" on Fox News — then sends 6,000 more troops. US blockade "completely halted" Iran trade — 9 ships turned back. Iran threatens Red Sea expansion. Harvard: war could cost $1 trillion. Israel-Lebanon "launch direct negotiations." Ceasefire expires Apr 21 — 6 days left.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
-    { value: '2,020+', label: 'Killed in Lebanon' },
+    { value: '2,124+', label: 'Killed in Lebanon' },
     { value: '$97.66/bbl', label: 'Oil Price (Brent) ↓' },
     { value: 'BLOCKADE', label: 'Iran Ports Blockaded' },
   ]
@@ -99,10 +99,10 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 45', text: 'US NAVAL BLOCKADE BEGINS: CENTCOM confirms blockade of all ships entering/departing Iranian ports. Oil surges 7% to $102/bbl. UK, Spain refuse to participate. Iran warns "no Gulf port will be safe." IDF encircles Bint Jbeil in Lebanon. Lebanon: 2,020+ killed. Netanyahu: ceasefire "could end at any moment."', link: '/analysis/iran-2026' },
-                { time: 'Day 44', text: 'TALKS COLLAPSE: After 21 hours of marathon negotiations in Islamabad, Vance departs with no deal. Iran says they were "inches away" but encountered "maximalism." Trump announces blockade of Iranian ports. WSJ: Trump considering restarting limited strikes.', link: '/analysis/iran-2026' },
+                { time: 'Day 47', text: 'TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS: Trump says war is "over" on Fox — then sends 6,000 troops + USS George HW Bush. Blockade "completely halted" Iran trade — 9 ships turned back in 48 hrs. Iran threatens Red Sea expansion. Pakistan Army Chief in Tehran. Israel-Lebanon "launch direct negotiations." Harvard: $1 trillion war. IEA: "demand destruction." Lebanon: 2,124 killed. Ceasefire expires Apr 21.', link: '/analysis/iran-2026' },
+                { time: 'Day 46', text: 'BLOCKADE DAY 1: No enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Israel-Lebanon direct talks in Washington.', link: '/analysis/iran-2026' },
+                { time: 'Day 44', text: 'TALKS COLLAPSE: After 21 hours of marathon negotiations in Islamabad, Vance departs with no deal. Iran says they were "inches away" but encountered "maximalism." Trump announces blockade of Iranian ports.', link: '/analysis/iran-2026' },
                 { time: 'Day 43', text: 'HISTORIC: VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution. Pakistan mediating. Ceasefire brittle. Oil ~$98/bbl.', link: '/analysis/iran-2026' },
-                { time: 'Day 40', text: 'CEASEFIRE FRACTURING: Oil crashes 15% to $95/bbl. Israel pounds Lebanon with heaviest strikes of war — Netanyahu says ceasefire "does not include Lebanon." Only 2 ships cross Hormuz; 400+ stranded.', link: '/analysis/iran-2026' },
                 { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. 5,000+ killed across nearly a dozen countries.', link: '/analysis/iran-2026' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">

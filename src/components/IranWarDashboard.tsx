@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="⚓ BLOCKADE" sub="US blockade in effect — talks may resume this week" />
+      <StatCard label="Status" value="⚓ BLOCKADE" sub="Trump declares war 'over' — sends 6,000 more troops" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — no new since truce" />
       <StatCard label="US Troops" value="13 KIA" sub="520+ wounded" />
       <StatCard label="Oil Price" value="$97.66/bbl" sub="Brent — fell on hopes of resumed talks" />
-      <StatCard label="Lebanon" value="2,020+ killed" sub="IDF battles Hezbollah in Bint Jbeil" />
+      <StatCard label="Lebanon" value="2,124+ killed" sub="Israel-Lebanon 'launch direct negotiations'" />
     </div>
   )
 }
