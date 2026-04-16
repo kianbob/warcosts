@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 46,
-  headline: '⚓ BLOCKADE: Day 47 — Trump declares war "over" on Fox News — then sends 6,000 more troops. US blockade "completely halted" Iran trade — 9 ships turned back. Iran threatens Red Sea expansion. Harvard: war could cost $1 trillion. Israel-Lebanon "launch direct negotiations." Ceasefire expires Apr 21 — 6 days left.',
+  day: 48,
+  headline: '⚓ BLOCKADE: Day 48 — Israel-Lebanon 10-day ceasefire starts 5 PM ET. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: Europe has 6 weeks of jet fuel left. 60-day War Powers deadline looms end of April. Ceasefire expires Apr 21 — 5 days left.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
     { value: '2,124+', label: 'Killed in Lebanon' },
-    { value: '$97.66/bbl', label: 'Oil Price (Brent) ↓' },
-    { value: 'BLOCKADE', label: 'Iran Ports Blockaded' },
+    { value: '$97-98/bbl', label: 'Oil Price (Brent)' },
+    { value: 'BLOCKADE', label: 'Iran Ports Blockaded Day 4' },
   ]
 }
 

@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Day 47: US blockade "completely halted" Iran trade — 9 ships turned back in 48 hours, 10,000+ troops enforcing. Iran threatens to expand control to Red Sea. Trump declares war "over" but sends 6,000 more troops + USS George HW Bush. Harvard: war could cost $1 trillion. IEA: "demand destruction" underway. Oil ~$97-98/bbl. Ceasefire expires Apr 21.',
+  description: '20% of global oil flows through a 21-mile strait. Day 48: IEA warns Europe has ~6 WEEKS of jet fuel left — flight cancellations "soon" if Hormuz stays blocked. 110+ oil tankers + 15+ LNG carriers stuck in Gulf. 80+ energy assets damaged. US naval blockade of Iran Day 4. Iran "toll booth" system condemned by IEA. Oil ~$97-98/bbl. Israel-Lebanon 10-day ceasefire. Ceasefire expires Apr 21 — 5 days left.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-04-14',
+  dateModified: '2026-04-16',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -95,6 +95,7 @@ const timeline = [
   { date: 'Apr 13', event: 'Day 45 — US NAVAL BLOCKADE BEGINS. CENTCOM confirms blockade of all ships entering/departing Iranian ports now in effect. Trump: ships approaching will be "immediately eliminated." Brent crude surges 7% to $102/bbl. UK refuses to participate. Spain: blockade "makes no sense." Iran warns "no port in the Gulf will be safe." Netanyahu: ceasefire "could end at any moment." IDF encircles and raids Bint Jbeil in southern Lebanon — historic Hezbollah stronghold. Russian oil sanctions waiver expires. Australia PM seeking alternative fuel in SE Asia. Ceasefire technically holds but blockade is massive escalation.' },
   { date: 'Apr 14', event: 'Day 46 — BLOCKADE DAY 1: No enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed talks. IMF cuts global growth, warns of recession. Italy suspends Israel defense pact. France-UK summit Friday on Hormuz plan. Israel-Lebanon direct talks in Washington (Rubio attending). First humanitarian aid reaches Iran overland. Ceasefire holding — 1 week left.' },
   { date: 'Apr 15', event: 'Day 47 — TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS — IRAN THREATENS RED SEA: Trump tells Fox News war is "over" (Apr 14 evening), then on Fox Business says "very close to being over" — attacks could continue "as long as needed." 6,000 more troops + USS George HW Bush carrier ordered to region. CENTCOM: US has "completely halted" Iran trade by sea — 9 ships turned back in 48 hours, 10,000+ troops enforcing blockade. Iran Maj Gen Abdollahi threatens to expand control to Persian Gulf, Sea of Oman AND Red Sea. Pakistan Army Chief Munir arrives in Tehran for talks. State Dept announces Israel-Lebanon "launch direct negotiations" — but Hezbollah condemns. Israel kills 3 medics attacking rescue teams at Mayfadoun. Several killed in Ansariya strikes. Harvard: war will cost $1 trillion (CNBC). IEA: "demand destruction" underway — steepest quarterly demand decline since COVID. Iran Red Crescent: 7,200+ rescued from rubble. Iran damage: $300B-$1T. Lebanon: 2,124 killed (health ministry). Oil ~$97-98/bbl. HRANA: 1,701 civilians (254 children) — unchanged since ceasefire. Ceasefire expires Apr 21 — 6 days left. No timetable for new talks.' },
+  { date: 'Apr 16', event: 'Israel and Lebanon agree to 10-day ceasefire starting 5 PM ET (AP/Trump). Senate rejects War Powers resolution 47-52 (4th time) + arms sales halt to Israel (40-59, 36-63). USS Gerald R. Ford breaks post-Vietnam deployment record at 295 days. IEA: Europe has ~6 weeks of jet fuel left — "largest energy crisis we have ever faced." 60-day War Powers deadline looms end of April — GOP senators signal authorization vote needed. Blockade Day 4. Ceasefire expires Apr 21 — 5 days left.' },
 ]
 
 const costProjections = [
@@ -126,7 +127,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold">⚓ BLOCKADE IN EFFECT</span>
-          <span className="text-stone-500 text-sm">Last updated: April 14, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: April 16, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
