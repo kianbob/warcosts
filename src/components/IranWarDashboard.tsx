@@ -38,10 +38,10 @@ export default function IranWarDashboard() {
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
       <StatCard label="Status" value="⚓ BLOCKADE" sub="Israel-Lebanon 10-day ceasefire starts 5 PM ET" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
-      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — no new since truce" />
-      <StatCard label="US Troops" value="13 KIA" sub="520+ wounded — USS Ford: 295 days deployed" />
-      <StatCard label="Oil Price" value="$97-98/bbl" sub="Brent — IEA: 6 weeks jet fuel left in Europe" />
-      <StatCard label="Lebanon" value="2,124+ killed" sub="10-day ceasefire announced today" />
+      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
+      <StatCard label="US Troops" value="13 KIA" sub="520+ wounded — USS Ford: 296 days deployed" />
+      <StatCard label="Oil Price" value="~$86/bbl" sub="Brent — crashed 13% on Hormuz opening" />
+      <StatCard label="Lebanon" value="2,294+ killed" sub="10-day ceasefire Day 1 — Hezbollah adhering" />
     </div>
   )
 }

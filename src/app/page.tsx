@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 48,
-  headline: '⚓ BLOCKADE: Day 48 — Israel-Lebanon 10-day ceasefire starts 5 PM ET. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: Europe has 6 weeks of jet fuel left. 60-day War Powers deadline looms end of April. Ceasefire expires Apr 21 — 5 days left.',
+  headline: '⚓ Day 49 — IRAN OPENS HORMUZ — Oil crashes 13% to ~$86/bbl. Trump BANS Israel from bombing Lebanon. Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to making a deal." Lebanon: 2,294 killed. Ceasefire expires Apr 21 — 4 days left.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '1,701+', label: 'Iranian Civilians (HRANA)' },
+    { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
-    { value: '2,124+', label: 'Killed in Lebanon' },
+    { value: '2,294+', label: 'Killed in Lebanon' },
     { value: '$97-98/bbl', label: 'Oil Price (Brent)' },
     { value: 'BLOCKADE', label: 'Iran Ports Blockaded Day 4' },
   ]
@@ -99,7 +99,9 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 47', text: 'TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS: Trump says war is "over" on Fox — then sends 6,000 troops + USS George HW Bush. Blockade "completely halted" Iran trade — 9 ships turned back in 48 hrs. Iran threatens Red Sea expansion. Pakistan Army Chief in Tehran. Israel-Lebanon "launch direct negotiations." Harvard: $1 trillion war. IEA: "demand destruction." Lebanon: 2,124 killed. Ceasefire expires Apr 21.', link: '/analysis/iran-2026' },
+                { time: 'Day 49', text: 'IRAN OPENS HORMUZ — OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 — 4 days left.', link: '/analysis/iran-2026' },
+                { time: 'Day 48', text: 'Israel-Lebanon 10-day ceasefire starts. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: 6 weeks of jet fuel left. Hegseth: US "locked and loaded" on Iran power plants.', link: '/analysis/iran-2026' },
+                { time: 'Day 47', text: 'TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS: Trump says war is "over" on Fox — then sends 6,000 troops + USS George HW Bush. Blockade "completely halted" Iran trade — 9 ships turned back in 48 hrs. Iran threatens Red Sea expansion. Harvard: $1 trillion war. Lebanon: 2,124 killed.', link: '/analysis/iran-2026' },
                 { time: 'Day 46', text: 'BLOCKADE DAY 1: No enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Israel-Lebanon direct talks in Washington.', link: '/analysis/iran-2026' },
                 { time: 'Day 44', text: 'TALKS COLLAPSE: After 21 hours of marathon negotiations in Islamabad, Vance departs with no deal. Iran says they were "inches away" but encountered "maximalism." Trump announces blockade of Iranian ports.', link: '/analysis/iran-2026' },
                 { time: 'Day 43', text: 'HISTORIC: VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution. Pakistan mediating. Ceasefire brittle. Oil ~$98/bbl.', link: '/analysis/iran-2026' },

@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 48: Israel-Lebanon 10-day ceasefire starts 5 PM ET. Senate rejects War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: Europe has ~6 weeks of jet fuel left. 60-day War Powers deadline looms end of April. Lebanon: 2,124 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — 5 days left.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 49: Iran declares Hormuz 'completely open' for ceasefire duration. Oil crashes 13% to ~$86/bbl. Trump bans Israel from bombing Lebanon. Progress on 3-page MOU — $20B cash-for-uranium deal considered. Lebanon: 2,294 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — 4 days left.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5777,10 +5777,10 @@
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 1701,
+    "civilianDeaths": 2294,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Blockade Day 4 — Israel-Lebanon ceasefire announced",
-    "outcomeDetail": "Day 48 (April 16): Israel and Lebanon agree to 10-day ceasefire starting 5 PM ET (AP). Senate rejects War Powers resolution 47-52 — 4th rejection. Arms sales halt fails 40-59 and 36-63 but Democrat support more than doubled since 2024. USS Gerald R. Ford breaks post-Vietnam deployment record at 295 days. IEA: Europe has ~6 weeks of jet fuel left — 'largest energy crisis we have ever faced.' 80+ energy assets damaged, 110+ tankers stuck. 60-day War Powers deadline end of April — GOP senators eyeing AUMF vote. US naval blockade of Iran Day 4. Lebanon: 2,124 killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire expires Apr 21 — 5 days left.",
+    "outcome": "Ceasefire (Day 39) — Blockade Day 5 — Iran opens Hormuz — MOU progress",
+    "outcomeDetail": "Day 49 (April 17): Iran FM Araghchi declares Strait of Hormuz 'completely open' for all commercial vessels for ceasefire duration (Reuters). Oil crashes 13% to ~$86/bbl — largest drop since Apr 8. Trump claims Iran agreed to 'never close Hormuz again' and is removing sea mines. Trump bans Israel from bombing Lebanon: 'PROHIBITED by the U.S.A.' Axios: progress on 3-page MOU, $20B cash-for-uranium deal. Trump: 'very close to making a deal.' US blockade of Iranian ports remains. Lebanon: 2,294 killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire expires Apr 21 — 4 days left.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -5999,6 +5999,14 @@
       {
         "year": 2026,
         "event": "Apr 15 (Day 47): TRUMP DECLARES WAR 'OVER' — SENDS MORE TROOPS — IRAN THREATENS RED SEA: Trump tells Fox News war is 'over,' then on Fox Business says 'very close to being over' and attacks could continue. 6,000 more troops + USS George HW Bush ordered to region. US blockade 'completely halted' Iran trade — 9 ships turned back in 48 hours (CENTCOM/NYT). Iran Maj Gen Abdollahi threatens to expand control to Persian Gulf, Sea of Oman AND Red Sea. Pakistan Army Chief Munir arrives in Tehran. Israel-Lebanon 'launch direct negotiations' (State Dept) but Hezbollah condemns. Israel kills 3 medics attacking rescue teams in Mayfadoun (NYT). Harvard: war will cost $1 trillion (CNBC). IEA: 'demand destruction' underway — steepest demand decline since COVID. Iran Red Crescent: 7,200+ rescued from rubble. Lebanon: 2,124 killed. Oil ~$97-98/bbl. Ceasefire expires Apr 21 — 6 days left."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 16 (Day 48): Israel-Lebanon 10-day ceasefire starts 5 PM ET (AP/Trump). Senate rejects War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: 6 weeks of jet fuel left in Europe. Hegseth: US 'locked and loaded' on Iran power plants and energy industry."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 17 (Day 49): IRAN OPENS HORMUZ — OIL CRASHES 13% — TRUMP BANS ISRAEL BOMBING LEBANON: Iran FM Araghchi declares Hormuz 'completely open' for ceasefire duration (Reuters). Oil plunges 13% to ~$86/bbl — lowest since Mar 10. Trump: Iran agreed to 'never close Hormuz again,' removing sea mines. Trump bans Israel from bombing Lebanon: 'PROHIBITED by the U.S.A.' Progress on 3-page MOU — $20B cash-for-uranium deal considered (Axios). Lebanon: 2,294 killed (health ministry update). US blockade of Iranian ports remains in effect."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
