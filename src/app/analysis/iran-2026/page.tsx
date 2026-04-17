@@ -200,7 +200,7 @@ export default function Iran2026Page() {
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-600 text-white font-semibold animate-pulse">● ACTIVE CONFLICT</span>
           <span className="text-red-500 font-semibold text-sm uppercase tracking-wide">In-Depth Analysis</span>
-          <span className="text-xs px-2 py-1 rounded-full bg-amber-700 text-amber-100">🕊️ TRUMP DECLARES WAR &ldquo;OVER&rdquo; — BLOCKADE TIGHTENS — Updated Apr 15, 2026 — Day 47</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-amber-700 text-amber-100">⚓ HORMUZ OPEN — MOU PROGRESS — Updated Apr 17, 2026 — Day 49</span>
         </div>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Whose War Is This?
@@ -212,14 +212,14 @@ export default function Iran2026Page() {
           They bombed 5 cities in broad daylight — after workers arrived at their desks and children arrived at school.
           168 schoolchildren were killed at an elementary school. Iran closed the Strait of Hormuz and fired missiles at
           27 US bases across 7+ countries. Dubai&apos;s Fairmont hotel is on fire. The Gulf is ablaze.
-          Day 47: Trump declares the war &ldquo;over&rdquo; on Fox News — then sends 6,000 more troops and the USS George HW Bush.
-          US blockade has &ldquo;completely halted&rdquo; Iranian trade by sea — 9 ships turned back in 48 hours. Iran threatens to expand
-          control to the Red Sea. Harvard estimates the war will cost $1 trillion. IEA says &ldquo;demand destruction&rdquo; has begun —
-          steepest oil demand decline since COVID. Lebanon: 2,124 killed. HRANA: 1,701 Iranian civilians (254 children).
-          13 US troops dead. Israel: 22 civilians + 12 soldiers killed. Gulf states: 32+ dead. 130,000+ targets struck.
-          158 Iranian ships destroyed. The ceasefire expires April 21 — 6 days left. Pakistan&apos;s Army Chief is in Tehran.
-          Israel and Lebanon have agreed to &ldquo;launch direct negotiations&rdquo; — but Hezbollah condemns the talks and Israel
-          keeps bombing. Oil at ~$98/barrel. IMF warns of recession. No deal. No exit strategy.
+          Day 49: Iran FM Araghchi declares Strait of Hormuz &ldquo;completely open&rdquo; for all commercial vessels
+          for the ceasefire duration. Oil crashes 13% to ~$86/barrel — largest single-day drop since April 8.
+          Trump bans Israel from bombing Lebanon: &ldquo;PROHIBITED by the U.S.A.&rdquo;
+          Axios reports progress on a 3-page MOU — $20B cash-for-uranium deal under consideration.
+          Trump: &ldquo;very close to making a deal.&rdquo; But the US naval blockade of Iranian ports remains in effect.
+          Lebanon ceasefire Day 1 — 2,294 killed. HRANA: 1,701 Iranian civilians (254 children).
+          13 US troops dead. Ceasefire expires April 21 — 4 days left. The pieces of a deal are assembling.
+          But Netanyahu is cornered, the blockade continues, and the clock is ticking.
         </p>
         <p className="text-stone-400 text-lg">
           No congressional vote. No declaration of war. No exit strategy. No clear American interest.

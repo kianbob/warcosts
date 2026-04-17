@@ -5,11 +5,11 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline | CEASEFIRE Day 40',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. CEASEFIRE announced Day 39. 5,000+ killed. Oil crashes 15%. Updated April 8, 2026 (Day 40).',
+  title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline | Day 49 — HORMUZ OPEN — MOU PROGRESS',
+  description: 'A factual chronological timeline of the US-Iran war, day by day. Day 49: Hormuz declared open. Oil crashes 13%. Trump bans Israel from bombing Lebanon. MOU progress — $20B cash-for-uranium deal. Updated April 17, 2026.',
   openGraph: {
-    title: 'Iran 2026: A Day-by-Day Account — CEASEFIRE Day 40',
-    description: '40 days of Operation Epic Fury — CEASEFIRE announced Day 39. 5,000+ killed across region. Oil crashes 15%. Pakistan-mediated talks begin Apr 10.',
+    title: 'Iran 2026: A Day-by-Day Account — Day 49: Hormuz Open, MOU Progress',
+    description: '49 days of Operation Epic Fury — Hormuz open, oil crashes 13%, Lebanon ceasefire Day 1, MOU progress. 5,000+ killed. Ceasefire expires Apr 21.',
     url: 'https://www.warcosts.org/analysis/iran-day-by-day',
   },
 }
@@ -47,7 +47,7 @@ export default function IranDayByDayPage() {
             headline: 'Iran 2026: A Day-by-Day Account',
             description: 'A factual chronological timeline of the US-Iran war with verified numbers.',
             datePublished: '2026-03-03T00:00:00Z',
-            dateModified: '2026-03-27T22:00:00Z',
+            dateModified: '2026-04-17T22:00:00Z',
             author: { '@type': 'Organization', name: 'WarCosts.org' },
             publisher: { '@type': 'Organization', name: 'WarCosts.org', url: 'https://www.warcosts.org' },
           }),
@@ -58,11 +58,11 @@ export default function IranDayByDayPage() {
 
       {/* Hero */}
       <div className="not-prose bg-stone-900 text-white rounded-xl p-8 md:p-12 mb-8">
-        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated March 27, 2026</p>
+        <p className="text-red-400 text-sm font-semibold uppercase tracking-wider mb-2">Live Timeline — Updated April 17, 2026</p>
         <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-5xl font-bold mb-4">
           Iran 2026: A Day-by-Day Account
         </h1>
-        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — Days 1 Through 28</p>
+        <p className="text-xl text-stone-300 mb-4">Operation Epic Fury — Days 1 Through 49</p>
         <p className="text-stone-400 text-lg">
           This is not opinion. This is a factual chronological record of what happened, with verified numbers,
           sourced claims, and a running cost estimate. Every number is cited. Every claim is documented.
@@ -75,24 +75,24 @@ export default function IranDayByDayPage() {
       <div className="bg-stone-900 border border-red-900/60 rounded-xl p-6 my-8">
         <div className="flex items-start gap-3 mb-5">
           <span className="text-2xl">📊</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 35 (April 4, 2026)</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-white">Running Totals — Day 49 (April 17, 2026)</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">15</span>
-            <p className="text-stone-400 text-sm mt-1">US Dead (300+ wounded)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">13</span>
+            <p className="text-stone-400 text-sm mt-1">US KIA (520+ wounded)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">3,519+</span>
-            <p className="text-stone-400 text-sm mt-1">Iranian Dead (HRANA)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">5,000+</span>
+            <p className="text-stone-400 text-sm mt-1">Total Killed (Reuters)</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$35B+</span>
-            <p className="text-stone-400 text-sm mt-1">Est. Cost (35 days)</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">~$86/bbl</span>
+            <p className="text-stone-400 text-sm mt-1">Oil (Brent) — down 13%</p>
           </div>
           <div className="text-center bg-stone-800/60 rounded-lg py-4 px-3">
-            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">12+</span>
-            <p className="text-stone-400 text-sm mt-1">Countries Involved</p>
+            <span className="text-3xl font-bold text-red-400 font-[family-name:var(--font-heading)]">2,294</span>
+            <p className="text-stone-400 text-sm mt-1">Killed in Lebanon</p>
           </div>
         </div>
       </div>

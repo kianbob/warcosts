@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 48,
-  headline: '⚓ Day 49 — IRAN OPENS HORMUZ — Oil crashes 13% to ~$86/bbl. Trump BANS Israel from bombing Lebanon. Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to making a deal." Lebanon: 2,294 killed. Ceasefire expires Apr 21 — 4 days left.',
+  day: 49,
+  headline: '⚓ IRAN OPENS HORMUZ — Oil crashes 13% to ~$86/bbl. Trump BANS Israel from bombing Lebanon. Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to making a deal." Lebanon ceasefire Day 1 — 2,294 killed. Ceasefire expires Apr 21 — 4 days left.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
     { value: '2,294+', label: 'Killed in Lebanon' },
-    { value: '$97-98/bbl', label: 'Oil Price (Brent)' },
-    { value: 'BLOCKADE', label: 'Iran Ports Blockaded Day 4' },
+    { value: '~$86/bbl', label: 'Oil (Brent) — down 13%' },
+    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded' },
   ]
 }
 
@@ -148,12 +148,12 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: 'Iran War: Day 28 Live Updates', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
-              { title: 'Hormuz Closure: Oil at $108', href: '/analysis/hormuz-crisis', tag: 'CRISIS', tagColor: 'bg-orange-600' },
-              { title: '$200B Pentagon Demand from Congress', href: '/analysis/iran-cost-per-second', tag: 'MONEY', tagColor: 'bg-green-700' },
-              { title: '10,000+ Targets Struck in Iran', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
-              { title: 'Russia Sharing US Positions with Iran', href: '/analysis/iran-russia-shadow-war', tag: 'INTEL', tagColor: 'bg-blue-700' },
-              { title: 'Lebanon Front: 1,100+ Killed', href: '/analysis/lebanon-burns', tag: 'ESCALATION', tagColor: 'bg-red-700' },
+              { title: 'Hormuz Open — Oil Crashes 13%', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
+              { title: 'MOU Progress: $20B Uranium Deal', href: '/analysis/iran-2026', tag: 'DEAL', tagColor: 'bg-orange-600' },
+              { title: 'Trump Bans Israel from Bombing Lebanon', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
+              { title: 'Lebanon: 2,294 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'US Blockade of Iran Ports Continues', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
+              { title: 'Ceasefire Expires Apr 21 — 4 Days Left', href: '/analysis/iran-day-by-day', tag: 'COUNTDOWN', tagColor: 'bg-red-700' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
             ].map((item, i) => (
