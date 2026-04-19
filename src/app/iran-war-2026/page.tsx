@@ -34,7 +34,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-04-16',
+  dateModified: '2026-04-19',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -97,6 +97,8 @@ const timeline = [
   { date: 'Apr 15', event: 'Day 47 — TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS — IRAN THREATENS RED SEA: Trump tells Fox News war is "over" (Apr 14 evening), then on Fox Business says "very close to being over" — attacks could continue "as long as needed." 6,000 more troops + USS George HW Bush carrier ordered to region. CENTCOM: US has "completely halted" Iran trade by sea — 9 ships turned back in 48 hours, 10,000+ troops enforcing blockade. Iran Maj Gen Abdollahi threatens to expand control to Persian Gulf, Sea of Oman AND Red Sea. Pakistan Army Chief Munir arrives in Tehran for talks. State Dept announces Israel-Lebanon "launch direct negotiations" — but Hezbollah condemns. Israel kills 3 medics attacking rescue teams at Mayfadoun. Several killed in Ansariya strikes. Harvard: war will cost $1 trillion (CNBC). IEA: "demand destruction" underway — steepest quarterly demand decline since COVID. Iran Red Crescent: 7,200+ rescued from rubble. Iran damage: $300B-$1T. Lebanon: 2,124 killed (health ministry). Oil ~$97-98/bbl. HRANA: 1,701 civilians (254 children) — unchanged since ceasefire. Ceasefire expires Apr 21 — 6 days left. No timetable for new talks.' },
   { date: 'Apr 16', event: 'Israel and Lebanon agree to 10-day ceasefire starting 5 PM ET (AP/Trump). Senate rejects War Powers resolution 47-52 (4th time) + arms sales halt to Israel (40-59, 36-63). USS Gerald R. Ford breaks post-Vietnam deployment record at 295 days. IEA: Europe has ~6 weeks of jet fuel left — "largest energy crisis we have ever faced." 60-day War Powers deadline looms end of April — GOP senators signal authorization vote needed. Blockade Day 4. Ceasefire expires Apr 21 — 5 days left.' },
   { date: 'Apr 17', event: 'Day 49 — IRAN OPENS HORMUZ — OIL CRASHES 13% — TRUMP BANS ISRAEL BOMBING LEBANON: Iran FM Araghchi declares Hormuz "completely open" for all commercial vessels for ceasefire duration (Reuters). Oil plunges 13% to ~$86/bbl — lowest since Mar 10. Trump: Iran agreed to "never close Hormuz again," removing sea mines. Trump on Truth Social: "Israel will not be bombing Lebanon any longer. They are PROHIBITED from doing so by the U.S.A. Enough is enough!!!" Netanyahu faces backlash. Axios: progress on 3-page MOU — $20B cash-for-uranium deal considered. Trump: "very close to making a deal" — both sides may meet this weekend. US blockade of Iranian ports remains (10,000+ personnel). Lebanon ceasefire Day 1: thousands flood south, fireworks in Beirut. Lebanon health ministry: 2,294 killed (up from 2,124). HRANA: 1,701 civilians (254 children) — unchanged. Ceasefire expires Apr 21 — 4 days left.' },
+  { date: 'Apr 18', event: 'Day 50 — IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift naval blockade (Guardian/NPR/CNN/Al Jazeera). IRGC says Hormuz closed "until US lifts blockade" — restored to "previous status" under "strict management and control by the armed forces." IRGC gunboats fire on tanker 20 NM NE of Oman — no radio warning. Crew safe (UKMTO). Indian-flagged crude oil vessel also attacked (Reuters). Ships reverse course, hundreds waiting in both directions. Only ~8 tankers passed in brief window before re-closure. Ghalibaf: talks made "progress but there is still a big distance between us." Trump warns against "blackmail" over Hormuz. Oil rebounds on re-closure news. Israel: 1 soldier killed, 9 wounded in south Lebanon combat. IDF establishes "Yellow Line" demarcation. Iran internet blackout Day 50.' },
+  { date: 'Apr 19', event: 'Day 51 — VANCE HEADING TO PAKISTAN — IRAN REFUSES DELEGATION: Trump announces VP Vance, Witkoff, and Kushner traveling to Islamabad for Round 2 talks (CBS/NYT/White House). Iran\'s Tasnim: "no decision by Iran to send a negotiating delegation to Pakistan as long as there is a naval blockade." Ceasefire expires Tuesday April 21 — same day as planned talks — 2 days left. Trump accuses Iran of "serious violation" of ceasefire. Trump threatens bridges and power plants. Trump: "NO MORE MR. NICE GUY!" UN Ambassador Waltz: civilian infrastructure "absolutely a legitimate target." USS Ford + 2 destroyers moved to Red Sea via Suez. Hochstein: "Iranians now have a card they never had" — gas over $4/gallon. Pope Leo XIV calls Lebanon ceasefire "cause for hope." HRANA: 1,701 civilians (254 children) — unchanged. Lebanon: 2,294 killed. US: 13 KIA. Oil ~$90-95/bbl.' },
 ]
 
 const costProjections = [
@@ -128,7 +130,7 @@ export default function IranWar2026Page() {
 
         <div className="flex items-center gap-3 mb-4">
           <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold">⚓ BLOCKADE IN EFFECT</span>
-          <span className="text-stone-500 text-sm">Last updated: April 16, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: April 19, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">

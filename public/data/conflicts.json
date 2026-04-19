@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 49: Iran declares Hormuz 'completely open' for ceasefire duration. Oil crashes 13% to ~$86/bbl. Trump bans Israel from bombing Lebanon. Progress on 3-page MOU — $20B cash-for-uranium deal considered. Lebanon: 2,294 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — 4 days left.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 51: Iran RE-CLOSES Hormuz after US refuses to lift blockade. IRGC fires on tanker. Vance heading to Pakistan for Round 2 talks but Iran refuses to send delegation. Trump threatens every bridge and power plant. Oil ~$90-95/bbl. Lebanon: 2,294 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — 2 days left.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 2294,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Blockade Day 5 — Iran opens Hormuz — MOU progress",
-    "outcomeDetail": "Day 49 (April 17): Iran FM Araghchi declares Strait of Hormuz 'completely open' for all commercial vessels for ceasefire duration (Reuters). Oil crashes 13% to ~$86/bbl — largest drop since Apr 8. Trump claims Iran agreed to 'never close Hormuz again' and is removing sea mines. Trump bans Israel from bombing Lebanon: 'PROHIBITED by the U.S.A.' Axios: progress on 3-page MOU, $20B cash-for-uranium deal. Trump: 'very close to making a deal.' US blockade of Iranian ports remains. Lebanon: 2,294 killed. HRANA: 1,701 Iranian civilians (254 children). Ceasefire expires Apr 21 — 4 days left.",
+    "outcome": "Ceasefire (Day 39) — Blockade continues — Hormuz RE-CLOSED — Vance heading to Pakistan — Iran refuses delegation",
+    "outcomeDetail": "Day 51 (April 19): Iran re-closes Hormuz after US refuses to lift naval blockade. IRGC gunboats fire on tanker. Trump announces Vance, Witkoff, Kushner heading to Islamabad for Round 2 talks but Iran's Tasnim says 'no decision to send delegation as long as there is a naval blockade.' Ceasefire expires Apr 21 — same day as planned talks — 2 days left. Trump threatens every bridge and power plant in Iran. Oil rebounds to ~$90-95/bbl. USS Ford moves to Red Sea. Lebanon: 2,294 killed. HRANA: 1,701 Iranian civilians (254 children).",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6007,6 +6007,14 @@
       {
         "year": 2026,
         "event": "Apr 17 (Day 49): IRAN OPENS HORMUZ — OIL CRASHES 13% — TRUMP BANS ISRAEL BOMBING LEBANON: Iran FM Araghchi declares Hormuz 'completely open' for ceasefire duration (Reuters). Oil plunges 13% to ~$86/bbl — lowest since Mar 10. Trump: Iran agreed to 'never close Hormuz again,' removing sea mines. Trump bans Israel from bombing Lebanon: 'PROHIBITED by the U.S.A.' Progress on 3-page MOU — $20B cash-for-uranium deal considered (Axios). Lebanon: 2,294 killed (health ministry update). US blockade of Iranian ports remains in effect."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 18 (Day 50): IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift naval blockade. IRGC says Hormuz closed 'until US lifts blockade.' IRGC gunboats fire on tanker 20 NM NE of Oman — no radio warning (UKMTO). Indian-flagged vessel also attacked (Reuters). Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds on re-closure. Israel: 1 soldier killed, 9 wounded in south Lebanon."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 19 (Day 51): VANCE HEADING TO PAKISTAN — IRAN REFUSES DELEGATION: Trump announces Vance, Witkoff, Kushner heading to Islamabad for Round 2 (CBS/NYT). Iran's Tasnim: 'no decision to send delegation as long as there is a naval blockade.' Ceasefire expires Apr 21 — same day as talks. Trump threatens every bridge and power plant. Trump: 'NO MORE MR. NICE GUY!' USS Ford moves to Red Sea. Hochstein: 'Iranians now have a card they never had' — gas over $4/gallon. Oil ~$90-95/bbl."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
