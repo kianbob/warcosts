@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 51: Iran RE-CLOSES Hormuz after US refuses to lift blockade. IRGC fires on tanker. Vance heading to Pakistan for Round 2 talks but Iran refuses to send delegation. Trump threatens every bridge and power plant. Oil ~$90-95/bbl. Lebanon: 2,294 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — 2 days left.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 52: USS Spruance seizes Iranian cargo ship M/V Touska in Gulf of Oman — Marines searching 5,000 containers. Iran calls it 'piracy.' Both sides now planning to send delegations to Islamabad — Vance departing Tue, Ghalibaf will attend. Only 3 ships crossed Hormuz Monday (pre-war: 120+/day). Oil ~$95-96/bbl. Lebanon: 2,294 killed. HRANA: 1,701+ Iranian civilians (254 children). 13 US KIA, 520+ wounded. Ceasefire expires Apr 21 — TOMORROW.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 2294,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Blockade continues — Hormuz RE-CLOSED — Vance heading to Pakistan — Iran refuses delegation",
-    "outcomeDetail": "Day 51 (April 19): Iran re-closes Hormuz after US refuses to lift naval blockade. IRGC gunboats fire on tanker. Trump announces Vance, Witkoff, Kushner heading to Islamabad for Round 2 talks but Iran's Tasnim says 'no decision to send delegation as long as there is a naval blockade.' Ceasefire expires Apr 21 — same day as planned talks — 2 days left. Trump threatens every bridge and power plant in Iran. Oil rebounds to ~$90-95/bbl. USS Ford moves to Red Sea. Lebanon: 2,294 killed. HRANA: 1,701 Iranian civilians (254 children).",
+    "outcome": "Ceasefire (Day 39) — Blockade continues — Hormuz RE-CLOSED — USS Spruance seizes Touska — Both sides heading to Islamabad — Ceasefire expires tomorrow",
+    "outcomeDetail": "Day 52 (April 20): USS Spruance fires on and seizes Iranian cargo ship M/V Touska in Gulf of Oman — Marines from USS Tripoli searching 5,000 containers. Iran calls it 'piracy,' warns of retaliation. CENTCOM: 27 ships turned back total. Despite mixed signals, BOTH sides now planning Islamabad talks — Vance departing Tue, Ghalibaf will attend if Vance does. Only 3 ships crossed Hormuz Monday (pre-war: 120+/day). Oil ~$95-96/bbl. Trump posts about 'Regime Change!' Pezeshkian: war 'benefits no one.' Lebanon: Aoun appoints Simon Karam to lead Israel talks. HRANA: 1,701 Iranian civilians (254 children). Ceasefire expires Apr 21 — TOMORROW.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6015,6 +6015,10 @@
       {
         "year": 2026,
         "event": "Apr 19 (Day 51): VANCE HEADING TO PAKISTAN — IRAN REFUSES DELEGATION: Trump announces Vance, Witkoff, Kushner heading to Islamabad for Round 2 (CBS/NYT). Iran's Tasnim: 'no decision to send delegation as long as there is a naval blockade.' Ceasefire expires Apr 21 — same day as talks. Trump threatens every bridge and power plant. Trump: 'NO MORE MR. NICE GUY!' USS Ford moves to Red Sea. Hochstein: 'Iranians now have a card they never had' — gas over $4/gallon. Oil ~$90-95/bbl."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 20 (Day 52): USS SPRUANCE SEIZES TOUSKA — BOTH SIDES HEADING TO ISLAMABAD: USS Spruance fires on and seizes Iranian-flagged M/V Touska in Gulf of Oman — Marines from USS Tripoli searching 5,000 containers (NYT/NPR/CNN). Iran calls it 'piracy,' warns retaliation (Tasnim). CENTCOM: 27 ships turned back. Despite threats, both sides planning Islamabad talks — Vance departing Tue, Ghalibaf will attend if Vance does. Only 3 ships crossed Hormuz Monday (pre-war: 120+/day). Oil ~$95-96/bbl. Ceasefire expires Apr 21 — TOMORROW."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

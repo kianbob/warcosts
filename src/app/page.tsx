@@ -26,13 +26,13 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 51,
-  headline: '⚓ HORMUZ RE-CLOSED — Oil rebounds to ~$90-95/bbl. Vance heading to Pakistan for Round 2 talks. Iran REFUSES to send delegation while blockade continues. Trump threatens every bridge and power plant in Iran. Ceasefire expires Apr 21 — 2 days left.',
+  headline: '⚓ USS SPRUANCE SEIZES IRANIAN SHIP TOUSKA — Marines searching 5,000 containers. Iran calls it piracy. Both sides NOW heading to Islamabad. Hormuz at standstill (3 ships Monday). Oil ~$95-96/bbl. Ceasefire expires TOMORROW Apr 21.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
     { value: '2,294+', label: 'Killed in Lebanon' },
-    { value: '~$90-95/bbl', label: 'Oil (Brent) — rebounding on re-closure' },
+    { value: '~$95-96/bbl', label: 'Oil (Brent) — surging on Touska seizure' },
     { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded' },
   ]
 }
@@ -99,7 +99,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 51', text: 'VANCE HEADING TO PAKISTAN — IRAN REFUSES DELEGATION: Trump announces Vance, Witkoff, Kushner heading to Islamabad for Round 2. Iran\'s Tasnim: "no decision to send delegation as long as there is a naval blockade." Ceasefire expires Tuesday — same day as planned talks — 2 days left. Trump threatens every bridge and power plant. Waltz: civilian infrastructure "absolutely a legitimate target." USS Ford moves to Red Sea. Gas over $4/gallon.', link: '/analysis/iran-2026' },
+                { time: 'Day 52', text: 'USS SPRUANCE SEIZES TOUSKA — BOTH SIDES HEADING TO ISLAMABAD: USS Spruance fires on and seizes Iranian cargo ship M/V Touska in Gulf of Oman — Marines searching 5,000 containers. Iran calls it "piracy." Despite threats, both sides now planning Islamabad talks — Vance departing Tue, Ghalibaf will attend if Vance does. Only 3 ships crossed Hormuz Monday (pre-war: 120+/day). Oil ~$95-96/bbl. Ceasefire expires TOMORROW.', link: '/analysis/iran-2026' },
                 { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman — no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
                 { time: 'Day 49', text: 'IRAN OPENS HORMUZ — OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 — 4 days left.', link: '/analysis/iran-2026' },
                 { time: 'Day 48', text: 'Israel-Lebanon 10-day ceasefire starts. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: 6 weeks of jet fuel left. Hegseth: US "locked and loaded" on Iran power plants.', link: '/analysis/iran-2026' },
