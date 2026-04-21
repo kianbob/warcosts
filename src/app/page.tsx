@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 51,
-  headline: '⚓ USS SPRUANCE SEIZES IRANIAN SHIP TOUSKA — Marines searching 5,000 containers. Iran calls it piracy. Both sides NOW heading to Islamabad. Hormuz at standstill (3 ships Monday). Oil ~$95-96/bbl. Ceasefire expires TOMORROW Apr 21.',
+  day: 53,
+  headline: '🚨 CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — "EXPECTS TO BE BOMBING" — Navy SEALs seize MT Tifani oil tanker (~2M barrels). Vance\'s Pakistan trip DELAYED. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil ~$95.75/bbl.',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '13', label: 'US KIA / 520+ Wounded' },
     { value: '2,294+', label: 'Killed in Lebanon' },
-    { value: '~$95-96/bbl', label: 'Oil (Brent) — surging on Touska seizure' },
-    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded' },
+    { value: '~$95.75/bbl', label: 'Oil (Brent) — easing slightly on talk hopes' },
+    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 28 ships turned back' },
   ]
 }
 
@@ -99,7 +99,8 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 52', text: 'USS SPRUANCE SEIZES TOUSKA — BOTH SIDES HEADING TO ISLAMABAD: USS Spruance fires on and seizes Iranian cargo ship M/V Touska in Gulf of Oman — Marines searching 5,000 containers. Iran calls it "piracy." Despite threats, both sides now planning Islamabad talks — Vance departing Tue, Ghalibaf will attend if Vance does. Only 3 ships crossed Hormuz Monday (pre-war: 120+/day). Oil ~$95-96/bbl. Ceasefire expires TOMORROW.', link: '/analysis/iran-2026' },
+                { time: 'Day 53', text: 'CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — TANKER SEIZED — TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi Jinping demands Hormuz reopened (first time). France: war costing €4-6B. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 52', text: 'USS Spruance seizes Iranian cargo ship Touska — Marines searching 5,000 containers. Iran calls it piracy. Both sides planning Islamabad talks. Only 3 ships crossed Hormuz Monday.', link: '/analysis/iran-2026' },
                 { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman — no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
                 { time: 'Day 49', text: 'IRAN OPENS HORMUZ — OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 — 4 days left.', link: '/analysis/iran-2026' },
                 { time: 'Day 48', text: 'Israel-Lebanon 10-day ceasefire starts. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: 6 weeks of jet fuel left. Hegseth: US "locked and loaded" on Iran power plants.', link: '/analysis/iran-2026' },
