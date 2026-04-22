@@ -14,6 +14,7 @@ const sisterSites = [
   { name: 'TariffTax', url: 'https://www.tarifftax.org' },
   { name: 'SPACGraveyard', url: 'https://www.spacgraveyard.com' },
   { name: 'AI Exposure', url: 'https://www.aiexposure.org' },
+  { name: 'The AI Lobby', url: 'https://www.theailobby.com' },
   { name: 'AutoPilotWatch', url: 'https://www.autopilotwatch.com' },  { name: 'ShelterScope', url: 'https://www.shelterscope.com' },
   { name: 'GiveScope', url: 'https://www.givescope.com' },
 ]
