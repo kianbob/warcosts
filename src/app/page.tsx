@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 53,
-  headline: '🚨 CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — "EXPECTS TO BE BOMBING" — Navy SEALs seize MT Tifani oil tanker (~2M barrels). Vance\'s Pakistan trip DELAYED. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil ~$95.75/bbl.',
+  day: 54,
+  headline: '🚨 TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — Iran calls blockade "act of war" — Iran seizes 2 ships in Hormuz — 400 US wounded — Graham: blockade "could become global soon" — US intel: Iran more capable than Pentagon admits — Lebanon: 2,454 killed — Trump approval: 33%',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
-    { value: '13', label: 'US KIA / 520+ Wounded' },
-    { value: '2,294+', label: 'Killed in Lebanon' },
-    { value: '~$95.75/bbl', label: 'Oil (Brent) — easing slightly on talk hopes' },
-    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 28 ships turned back' },
+    { value: '13', label: 'US KIA / 400 Wounded' },
+    { value: '2,454+', label: 'Killed in Lebanon' },
+    { value: 'INDEFINITE', label: 'Ceasefire Extended — but blockade remains' },
+    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 29 ships turned back' },
   ]
 }
 
@@ -99,7 +99,8 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 53', text: 'CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — TANKER SEIZED — TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi Jinping demands Hormuz reopened (first time). France: war costing €4-6B. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains — Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
+                { time: 'Day 53', text: 'CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — TANKER SEIZED — TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
                 { time: 'Day 52', text: 'USS Spruance seizes Iranian cargo ship Touska — Marines searching 5,000 containers. Iran calls it piracy. Both sides planning Islamabad talks. Only 3 ships crossed Hormuz Monday.', link: '/analysis/iran-2026' },
                 { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman — no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
                 { time: 'Day 49', text: 'IRAN OPENS HORMUZ — OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 — 4 days left.', link: '/analysis/iran-2026' },
@@ -154,9 +155,9 @@ export default function HomePage() {
               { title: 'Hormuz Open — Oil Crashes 13%', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
               { title: 'MOU Progress: $20B Uranium Deal', href: '/analysis/iran-2026', tag: 'DEAL', tagColor: 'bg-orange-600' },
               { title: 'Trump Bans Israel from Bombing Lebanon', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
-              { title: 'Lebanon: 2,294 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Lebanon: 2,454 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
               { title: 'US Blockade of Iran Ports Continues', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
-              { title: 'Ceasefire Expires Apr 21 — 4 Days Left', href: '/analysis/iran-day-by-day', tag: 'COUNTDOWN', tagColor: 'bg-red-700' },
+              { title: 'Ceasefire Extended Indefinitely — Blockade Remains', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
             ].map((item, i) => (
