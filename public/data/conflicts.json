@@ -5767,20 +5767,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 55: Trump orders Navy to 'shoot and kill' Iranian boats laying mines in Hormuz. IRGC seizes 2 ships, fires on third. US seizes tanker Majestic X. Israel 'waiting for green light' to resume war. CENTCOM: 31 ships turned back. Senate kills 5th War Powers vote. Navy Secretary fired. Oil $103. Lebanon: 2,454 killed. 13 US KIA, 400 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 56: Hegseth says blockade 'growing and going global.' 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks. Iran FM heading to Islamabad. Pentagon threatens NATO allies. US munitions depleted. Oil $107. Lebanon: 2,454 killed. 15 US KIA, 538 wounded.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
-      "wounded": 400,
+      "wounded": 538,
       "battleDeaths": 13,
       "missing": 0
     },
     "civilianDeaths": 2454,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 55: Trump orders 'shoot and kill' on mine-layers — IRGC seizes 2 ships — Israel 'waiting for green light' — Senate kills 5th War Powers vote — No talks scheduled",
-    "outcomeDetail": "Day 55 (April 23): Trump orders Navy to 'shoot and kill' Iranian boats laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X — second seizure this week. CENTCOM: 31 ships turned back. Israel defense minister Katz: 'waiting for green light' from US to resume war. Senate kills 5th War Powers resolution 46-51. Navy Secretary Phelan fired. Ghalibaf: Hormuz stays closed while blockade remains. Oil ~$103/barrel. Lebanese journalist killed by Israel despite ceasefire. Lebanon: 2,454 killed. US: 13 KIA, 400 wounded. No talks scheduled.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 56: Blockade 'growing and going global' — 3rd carrier arrives — 34 ships turned back — Lebanon ceasefire extended 3 weeks — Iran FM heading to Islamabad — Pentagon threatens NATO — US munitions depleted",
+    "outcomeDetail": "Day 56 (April 24): Hegseth says blockade 'growing and going global,' will last 'as long as it takes.' 3rd carrier (USS George HW Bush) arrives. CENTCOM: 34 ships turned back. 2 dark fleet ships seized in Indo-Pacific. Israel-Lebanon ceasefire extended 3 weeks — Hezbollah: 'meaningless.' Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO (Reuters). US used 1,000+ Tomahawks — threatens Taiwan readiness (WSJ). IEA: 'biggest energy security threat in history.' Oil ~$107. Lebanon: 2,454 killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6030,6 +6030,10 @@
       },{
         "year": 2026,
         "event": "Apr 23 (Day 55): TRUMP ORDERS 'SHOOT AND KILL' — IRGC SEIZES 2 SHIPS — ISRAEL 'WAITING FOR GREEN LIGHT': Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X in Indian Ocean. CENTCOM: 31 ships turned back. Israel defense minister Katz: 'waiting for green light' from US to resume war. Senate kills 5th War Powers resolution 46-51. Navy Secretary Phelan fired. Ghalibaf: Hormuz stays closed while blockade remains. Lebanese journalist killed by Israel despite ceasefire. Oil ~$103/barrel. No talks scheduled."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 24 (Day 56): HEGSETH: BLOCKADE 'GROWING AND GOING GLOBAL' — 3RD CARRIER — LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last 'as long as it takes.' 2nd carrier joining in days. 2 dark fleet ships seized in Indo-Pacific. CENTCOM: 34 ships turned back. Gen. Caine details Touska seizure — 9 disabling shots. USS George HW Bush arrives — 3 carriers deployed. 4,000+ troops en route. Israel-Lebanon ceasefire extended 3 weeks (Trump/White House). Hezbollah: 'meaningless' — fires rockets. Israel strikes south Lebanon despite ceasefire. Iran FM Araghchi heading to Islamabad. Pentagon email threatens suspending Spain from NATO. US used 1,000+ Tomahawks, 1,500-2,000 air-defense missiles — threatens Taiwan readiness (WSJ). IEA: 'biggest energy security threat in history.' Oil ~$107. Trump rules out nukes. $10M bounty on Iraqi militia leader."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
