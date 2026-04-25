@@ -40,7 +40,7 @@ export default function IranWarDashboard() {
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
       <StatCard label="US Troops" value="15 KIA" sub="538 wounded — USS Ford: 303 days deployed" />
-      <StatCard label="Oil Price" value="~$95.75/bbl" sub="Brent — easing slightly on talk hopes, Hormuz still closed" />
+      <StatCard label="Oil Price" value="~$105/bbl" sub="Brent — sharp weekly gain, Hormuz still closed" />
       <StatCard label="Lebanon" value="2,454+ killed" sub="7,658 injured — PM Salam: needs $587M" />
     </div>
   )

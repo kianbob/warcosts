@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 54,
-  headline: '🚨 HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" — 3rd carrier arrives — Lebanon ceasefire extended 3 weeks — Hezbollah: "meaningless" — 34 ships turned back — Iran FM heading to Islamabad — Pentagon threatens NATO allies — US munitions depleted — Oil $107 — Lebanon: 2,454 killed — 15 US KIA, 538 wounded',
+  day: 57,
+  headline: '🚨 ARAGHCHI MEETS PAKISTAN PM — Lays out demands, denies direct US talks — Tehran flights resume for first time — Israel kills 4+ in Lebanon despite ceasefire — Witkoff/Kushner heading to Islamabad — 34 ships turned back — Oil $105 — Lebanon: 2,454 killed — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
-    { value: '13', label: 'US KIA / 400 Wounded' },
+    { value: '15', label: 'US KIA / 538 Wounded' },
     { value: '2,454+', label: 'Killed in Lebanon' },
-    { value: 'INDEFINITE', label: 'Ceasefire Extended — but blockade remains' },
-    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 29 ships turned back' },
+    { value: 'INDEFINITE', label: 'Ceasefire Extended — blockade remains' },
+    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 34 ships turned back' },
   ]
 }
 
