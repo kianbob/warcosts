@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 57,
-  headline: '🚨 ARAGHCHI MEETS PAKISTAN PM — Lays out demands, denies direct US talks — Tehran flights resume for first time — Israel kills 4+ in Lebanon despite ceasefire — Witkoff/Kushner heading to Islamabad — 34 ships turned back — Oil $105 — Lebanon: 2,454 killed — 15 US KIA, 538 wounded',
+  headline: '🚨 IRAN OFFERS HORMUZ-FOR-PEACE — Nuclear talks postponed — Araghchi meets Putin — Germany slams US: "no strategy" — $5B damage to US bases — UN rejects Hormuz tolls — US troops face food shortages — Oil $108 — Lebanon: 2,509 killed — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,454+', label: 'Killed in Lebanon' },
+    { value: '2,509+', label: 'Killed in Lebanon' },
     { value: 'INDEFINITE', label: 'Ceasefire Extended — blockade remains' },
     { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 34 ships turned back' },
   ]
@@ -102,6 +102,8 @@ export default function HomePage() {
                 { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains — Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
                 { time: 'Day 55', text: 'TRUMP: "SHOOT AND KILL" BOATS LAYING MINES — IRGC SEIZES 2 MORE SHIPS — ISRAEL "WAITING FOR GREEN LIGHT": Trump orders Navy to "shoot and kill any boat" laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X. CENTCOM: 31 ships turned back. Israel defense minister: "waiting for green light" to resume war. Senate kills 5th War Powers vote 46-51. Navy Secretary fired. Oil ~$103/barrel. Lebanon: 2,454 killed. No talks scheduled.', link: '/analysis/iran-2026' },
                 { time: 'Day 56', text: 'HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" — 3RD CARRIER — LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last "as long as it takes." 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks — Hezbollah: "meaningless." Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO. US used 1,000+ Tomahawks — threatens Taiwan readiness. Oil ~$107.', link: '/analysis/iran-2026' },
+                { time: 'Day 58', text: 'PAKISTAN TALKS STALL — LEBANON TOLL RISES: Araghchi makes 5-hour Islamabad stopover, meets Pakistan Army Chief, departs for Russia. No face-to-face with US envoys. Speaks with French FM and Qatari PM. Lebanon: 2,509 killed, 7,755 wounded. Israel-Hezbollah trade ceasefire violation accusations. Chevron CEO: Hormuz impacts "will be with us for some time." Only 5 ships through Hormuz. Oil: Brent $107.75.', link: '/analysis/iran-2026' },
+                { time: 'Day 59', text: 'IRAN OFFERS HORMUZ-FOR-PEACE — ARAGHCHI MEETS PUTIN — $5B BASE DAMAGE: Iran proposes Hormuz reopening if US lifts blockade and ends war — nuclear talks postponed (AP). Araghchi meets Putin. Germany slams US: "no strategy." UN rejects Hormuz tolls. $5B damage to US bases revealed. US troops face food shortages. Israel kills 6 in Lebanon despite ceasefire. Brent $108.', link: '/analysis/iran-2026' },
                 { time: 'Day 53', text: 'CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — TANKER SEIZED — TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
                 { time: 'Day 52', text: 'USS Spruance seizes Iranian cargo ship Touska — Marines searching 5,000 containers. Iran calls it piracy. Both sides planning Islamabad talks. Only 3 ships crossed Hormuz Monday.', link: '/analysis/iran-2026' },
                 { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman — no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
@@ -157,7 +159,7 @@ export default function HomePage() {
               { title: 'Hormuz Open — Oil Crashes 13%', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
               { title: 'MOU Progress: $20B Uranium Deal', href: '/analysis/iran-2026', tag: 'DEAL', tagColor: 'bg-orange-600' },
               { title: 'Trump Bans Israel from Bombing Lebanon', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
-              { title: 'Lebanon: 2,454 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Lebanon: 2,509 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
               { title: 'US Blockade of Iran Ports Continues', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
               { title: 'Ceasefire Extended Indefinitely — Blockade Remains', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
