@@ -139,6 +139,17 @@ export default function Footer() {
         </div>
       </div>
 
+      <div className="border-t border-stone-800 py-6">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h3 className="text-white font-semibold mb-3 text-sm uppercase tracking-wider">Explore More Data</h3>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+            <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">GiveScope — Search 1.9M nonprofits & their finances</a>
+            <a href="https://www.howisamerica.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">How Is America — Census data on AI, food, housing & trust</a>
+            <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">ShelterScope — Housing & shelter data across the U.S.</a>
+          </div>
+        </div>
+      </div>
+
       <div className="border-t border-stone-800 py-6 text-center text-xs text-stone-500">
         <p className="mb-1">2,300+ pages of data · Last updated: March 2026</p>
         <p>&ldquo;Of all the enemies to public liberty, war is perhaps the most to be dreaded.&rdquo; — James Madison</p>
