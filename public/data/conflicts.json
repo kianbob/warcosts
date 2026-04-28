@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 59: Iran offers Hormuz-for-peace deal — nuclear talks postponed. Araghchi meets Putin. Germany slams US strategy. $5B damage to US bases revealed. UN rejects Hormuz tolls. Lebanon: 2,509 killed. Oil $108. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 60: Trump claims Iran in 'state of collapse.' UAE quits OPEC. GCC emergency summit in Jeddah. Rubio cold on Iran deal. Bessent: pumping 'will collapse.' 16 Lebanon towns evacuated. Brent $111. Lebanon: 2,509+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 35000000000,
     "costInflationAdjusted": 35000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 2509,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 59: Iran offers Hormuz-for-peace deal — nuclear talks postponed — Araghchi meets Putin — Germany slams US — $5B base damage — UN rejects tolls — Lebanon: 2,509 killed",
-    "outcomeDetail": "Day 59 (April 27): Iran offers to reopen Hormuz if US lifts blockade and ends war — nuclear program talks postponed. Proposal via Pakistan. Trump unlikely to accept. Araghchi meets Putin in St. Petersburg — Russia pledges to do 'everything possible' for peace. Germany's Merz: US had 'no strategy.' UN IMO: 'no legal basis' for Hormuz tolls. $5B damage to US bases revealed (Benzinga). US troops face food shortages. Lebanon: 2,509 killed, 7,755 wounded. Israel strikes despite ceasefire. 3 carriers deployed. Brent ~$108. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 60: Trump claims Iran in 'state of collapse' — UAE quits OPEC — GCC emergency summit — Rubio cold on Iran deal — Bessent: pumping 'will collapse' — 16 Lebanon towns evacuated — Brent $111",
+    "outcomeDetail": "Day 60 (April 28): Trump claims Iran 'just informed us they are in a State of Collapse' — unconfirmed (AP/Reuters/Axios). UAE quits OPEC effective May 1 (Reuters/Bloomberg). GCC emergency summit in Jeddah — first since Gulf states became war front. Rubio: Iran proposal 'better than expected' but nuclear issue non-negotiable. Bessent: Iran oil pumping 'will soon collapse.' Israel orders 16 Lebanon towns evacuated. Iran bans steel exports. Brent $111/bbl. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6042,6 +6042,9 @@
       {
         "year": 2026,
         "event": "Apr 27 (Day 59): IRAN OFFERS HORMUZ-FOR-PEACE — ARAGHCHI MEETS PUTIN — $5B BASE DAMAGE: Iran offers to reopen Hormuz if US lifts blockade and ends war — nuclear talks postponed (AP). Araghchi meets Putin in St. Petersburg — Russia pledges 'everything possible' for peace. Germany's Merz: US had 'no strategy.' UN IMO: 'no legal basis' for Hormuz tolls. Benzinga: Iranian strikes caused up to $5B damage to US bases. US troops face food shortages (USA Today). Israel kills 6 in Lebanon despite ceasefire. 3 carriers deployed. Brent ~$108. Lebanon: 2,509 killed. US: 15 KIA, 538 wounded."
+      },{
+        "year": 2026,
+        "event": "Apr 28 (Day 60): TRUMP: IRAN IN 'STATE OF COLLAPSE' — UAE QUITS OPEC — GCC EMERGENCY SUMMIT: Trump claims Iran 'just informed us they are in a State of Collapse' and wants Hormuz opened — Iran hasn't confirmed (AP/Reuters/Axios). Trump 'not happy' with Iran's Hormuz-for-peace proposal (Reuters). Rubio: proposal 'better than expected' but nuclear issue can't be postponed (NPR/Al Jazeera). UAE quits OPEC effective May 1 after 60 years (Reuters/Bloomberg). GCC emergency summit in Jeddah — first in-person meeting since Gulf states became war front (Reuters/Al Arabiya). Bessent: Iran oil pumping 'will soon collapse' under blockade (AP/Benzinga). Iran bans steel exports after airstrikes (Fars). Israel orders 16 Lebanon towns evacuated (Guardian). Brent $111/bbl. WTI $100. HRANA: 1,701 civilians unchanged. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",

@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 57,
-  headline: '🚨 IRAN OFFERS HORMUZ-FOR-PEACE — Nuclear talks postponed — Araghchi meets Putin — Germany slams US: "no strategy" — $5B damage to US bases — UN rejects Hormuz tolls — US troops face food shortages — Oil $108 — Lebanon: 2,509 killed — 15 US KIA, 538 wounded',
+  day: 60,
+  headline: '🚨 TRUMP: IRAN IN "STATE OF COLLAPSE" — UAE quits OPEC — GCC emergency summit in Jeddah — Rubio cold on Iran deal — Bessent: pumping "will collapse" — 16 Lebanon towns evacuated — Oil $111 — Lebanon: 2,509+ killed — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '1,701+', label: 'Iranian Civilians (HRANA — unchanged since truce)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
     { value: '2,509+', label: 'Killed in Lebanon' },
     { value: 'INDEFINITE', label: 'Ceasefire Extended — blockade remains' },
-    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 34 ships turned back' },
+    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 34+ ships turned back' },
   ]
 }
 
