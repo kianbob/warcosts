@@ -197,15 +197,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({ url: `${base}/presidents/${slugify(p.name)}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 })
   })
 
-  // Country pages
-  const countries = new Set<string>()
-  conflicts.forEach((c: any) => c.countries?.forEach((co: string) => countries.add(co)))
-  aid.topRecipients?.forEach((r: any) => countries.add(r.country))
-  arms.topBuyers?.forEach((b: any) => countries.add(b.country))
-  presence.topDeployments?.forEach((d: any) => countries.add(d.country))
-  countries.forEach(country => {
-    entries.push({ url: `${base}/countries/${slugify(country)}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 })
-  })
+  // Country pages — generated from country-profiles-index.json below (lines ~300+)
+  // Removed: dynamic country set from conflicts/aid/arms/presence that included
+  // non-state actors (Taliban, Confederate States, etc.) without profile pages
 
   // Region pages
   const regions = ['middle-east', 'europe', 'east-asia', 'africa', 'central-america', 'caribbean', 'south-america', 'southeast-asia', 'central-asia', 'pacific']
