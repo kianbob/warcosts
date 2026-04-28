@@ -8,19 +8,19 @@ import NewsletterSignup from '@/components/NewsletterSignup'
 import { HomeSpendingChart } from '@/components/HomeCharts'
 
 export const metadata: Metadata = {
-  title: 'WarCosts — The True Cost of American Wars | $11.3 Trillion & Counting',
-  description: 'The US has spent $11.3 trillion on war, killed 1 million of its own soldiers, and intervened militarily 469 times. $28,095 per second. 229 years at war. Free, ad-free data from Brown University, CRS, SIPRI & Pentagon reports.',
+  title: 'US War Cost Tracker — $11.3 Trillion Spent on American Wars & Counting | WarCosts',
+  description: 'Track every dollar the US has spent on war. $11.3 trillion across 469 military interventions, 229 years at war. Free interactive data from Brown University, CRS, SIPRI & Pentagon reports.',
   openGraph: {
-    title: 'WarCosts — $11.3 Trillion Spent. 1 Million Americans Killed. 469 Interventions.',
-    description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Every dollar, every life, every conflict — exposed with data. Free. No ads. No paywall.',
+    title: 'US War Cost Tracker — $11.3 Trillion Spent on 469 Military Interventions',
+    description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
     url: 'https://warcosts.org',
     type: 'website',
     siteName: 'WarCosts',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WarCosts — $28,095/Second on War',
-    description: '$11.3 trillion spent. 1M Americans killed. 469 interventions. The data the defense industry doesn\'t want you to see.',
+    title: 'US War Cost Tracker — $28,095 Per Second on War',
+    description: '$11.3 trillion spent on 469 military interventions. Track real-time US war spending with free, interactive data and analysis.',
   },
 }
 

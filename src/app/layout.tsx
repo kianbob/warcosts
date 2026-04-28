@@ -10,14 +10,14 @@ const heading = Playfair_Display({ subsets: ['latin'], variable: '--font-heading
 const body = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: { default: 'WarCosts — The Price of American Empire', template: '%s | WarCosts' },
-  description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty. Data-driven analysis of American foreign policy.',
+  title: { default: 'How Much Has the US Spent on War? $8+ Trillion and Counting | WarCosts', template: '%s | WarCosts' },
+  description: 'Track the true cost of every US military conflict from Iraq to Afghanistan. Explore $8+ trillion in war spending with interactive data and analysis.',
   metadataBase: new URL('https://www.warcosts.org'),
   openGraph: {
     type: 'website',
     siteName: 'WarCosts',
-    title: 'WarCosts — The Cost of American Empire',
-    description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty.',
+    title: 'How Much Has the US Spent on War? $8+ Trillion and Counting | WarCosts',
+    description: 'Track the true cost of every US military conflict from Iraq to Afghanistan. Explore $8+ trillion in war spending with interactive data and analysis.',
   },
   twitter: { card: 'summary_large_image' },
 }
@@ -27,7 +27,7 @@ const jsonLd = {
   '@type': 'WebSite',
   name: 'WarCosts',
   url: 'https://www.warcosts.org',
-  description: 'Every US war, intervention, and military action — the cost in dollars, lives, and liberty.',
+  description: 'Track the true cost of every US military conflict from Iraq to Afghanistan. Explore $8+ trillion in war spending with interactive data and analysis.',
   publisher: {
     '@type': 'Organization',
     name: 'TheDataProject.ai',
