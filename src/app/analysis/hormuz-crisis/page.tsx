@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Day 60: Trump claims Iran in "state of collapse" — wants Hormuz opened. UAE quits OPEC. GCC emergency summit. Rubio cold on Iran deal. Bessent: pumping "will collapse." Brent $111. 3 carrier strike groups deployed. IEA: biggest energy crisis in history.',
+  description: '20% of global oil flows through a 21-mile strait. Day 61: Pentagon reveals $25B war cost. Oil surges to $114-117 — approaching war peak $119. Panama Canal traffic up 47% on Hormuz rerouting. Budget airlines seek $2.5B bailout. Gas $4.18/gallon. Iran rial record low. Trump: "get smart soon." 3 carrier strike groups deployed. IEA: biggest energy crisis in history.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
