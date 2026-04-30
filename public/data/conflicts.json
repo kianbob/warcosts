@@ -5767,9 +5767,9 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 60: Trump claims Iran in 'state of collapse.' UAE quits OPEC. GCC emergency summit in Jeddah. Rubio cold on Iran deal. Bessent: pumping 'will collapse.' 16 Lebanon towns evacuated. Brent $111. Lebanon: 2,509+ killed. 15 US KIA, 538 wounded.",
-    "costNominal": 35000000000,
-    "costInflationAdjusted": 35000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 62: Trump briefed on new strike options — oil hits $126 wartime high. Hypersonic missiles requested. Israel kills 14 in Lebanon. War Powers 60-day deadline expires. Boa constrictor blockade strategy. Lebanon: 2,523+ killed. 15 US KIA, 538 wounded.",
+    "costNominal": 25000000000,
+    "costInflationAdjusted": 25000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
@@ -5777,10 +5777,10 @@
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 2509,
+    "civilianDeaths": 2523,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 60: Trump claims Iran in 'state of collapse' — UAE quits OPEC — GCC emergency summit — Rubio cold on Iran deal — Bessent: pumping 'will collapse' — 16 Lebanon towns evacuated — Brent $111",
-    "outcomeDetail": "Day 60 (April 28): Trump claims Iran 'just informed us they are in a State of Collapse' — unconfirmed (AP/Reuters/Axios). UAE quits OPEC effective May 1 (Reuters/Bloomberg). GCC emergency summit in Jeddah — first since Gulf states became war front. Rubio: Iran proposal 'better than expected' but nuclear issue non-negotiable. Bessent: Iran oil pumping 'will soon collapse.' Israel orders 16 Lebanon towns evacuated. Iran bans steel exports. Brent $111/bbl. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 62: Trump briefed on new strike options — oil hits $126 wartime high — hypersonic missiles requested — Israel kills 14 in Lebanon — War Powers deadline expires",
+    "outcomeDetail": "Day 62 (April 30): CENTCOM chief Admiral Brad Cooper briefs Trump on military options including 'short and powerful' new strikes, Hormuz seizure, and special forces uranium raid (Axios/Reuters). WSJ: 'boa constrictor' long-term blockade strategy. Dark Eagle hypersonic missile requested for Middle East. Trump tells Iran to 'just give up' — rejects Hormuz-for-peace proposal. Brent hits $126/bbl wartime high. State Dept pushes 'Maritime Freedom Construct' coalition — allies refuse until hostilities end. Israel kills 14 in south Lebanon despite ceasefire. Hezbollah fiber-optic FPV drones evade radar. UN: Iran executed 21, arrested 4,000+ since war began. War Powers 60-day deadline expires today. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6048,6 +6048,10 @@
       },{
         "year": 2026,
         "event": "Apr 29 (Day 61): PENTAGON: WAR COSTS $25 BILLION — HEGSETH GRILLED BY CONGRESS — RIAL RECORD LOW: Pentagon reveals first official cost estimate: $25B — mostly munitions (AP/NYT/WaPo). Hegseth testifies before House Armed Services Committee — first grilling since war began. Dems expose shifting justifications. Trump warns Iran to 'get smart soon' (Reuters/NBC). Iran rial record low: 1.81M/$1 (AP/Reuters). Israeli double-tap kills 5 in Lebanon incl. 3 rescuers (Reuters/BBC). Oil surges: Brent $114-117. Pentagon seeks $1.5T budget. Gas $4.18/gal. Budget airlines seek $2.5B aid. 1.24M face food insecurity in Lebanon (UN). Panama Canal traffic up 47%. HRANA: 1,701 civilians unchanged. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "Apr 30 (Day 62): TRUMP BRIEFED ON STRIKE OPTIONS — OIL HITS $126 — 14 KILLED IN LEBANON: CENTCOM chief briefs Trump on new military options including 'short and powerful' strikes, Hormuz seizure, and special forces uranium raid (Axios/Reuters). WSJ: 'boa constrictor' long-term blockade strategy. Dark Eagle hypersonic missile requested for Middle East (Financial Express). Trump tells Iran to 'just give up' — rejects Hormuz-for-peace proposal again. Ghalibaf ridicules Trump's pipeline claims. Brent hits $126/bbl wartime high — pulls back to ~$110-114. State Dept pushes 'Maritime Freedom Construct' coalition — allies refuse until hostilities end. Israel kills 14 in south Lebanon despite ceasefire — Hezbollah fiber-optic FPV drones evade radar. 1 IDF soldier killed. UN: Iran executed 21, arrested 4,000+ since war began. War Powers 60-day deadline expires today. HRANA: 1,701 civilians unchanged. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded. Brent $110-126."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
