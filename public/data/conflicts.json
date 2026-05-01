@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 62: Trump briefed on new strike options — oil hits $126 wartime high. Hypersonic missiles requested. Israel kills 14 in Lebanon. War Powers 60-day deadline expires. Boa constrictor blockade strategy. Lebanon: 2,523+ killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 62: Trump briefed on new strike options — oil hits $126 wartime high. Hypersonic missiles requested. Israel kills 14 in Lebanon. War Powers 60-day deadline expires. Boa constrictor blockade strategy. Lebanon: 2,523+ total killed (all parties). 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -5777,7 +5777,7 @@
       "battleDeaths": 13,
       "missing": 0
     },
-    "civilianDeaths": 2523,
+    "civilianDeaths": 1701,
     "troopsDeployed": 50000,
     "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 62: Trump briefed on new strike options — oil hits $126 wartime high — hypersonic missiles requested — Israel kills 14 in Lebanon — War Powers deadline expires",
     "outcomeDetail": "Day 62 (April 30): CENTCOM chief Admiral Brad Cooper briefs Trump on military options including 'short and powerful' new strikes, Hormuz seizure, and special forces uranium raid (Axios/Reuters). WSJ: 'boa constrictor' long-term blockade strategy. Dark Eagle hypersonic missile requested for Middle East. Trump tells Iran to 'just give up' — rejects Hormuz-for-peace proposal. Brent hits $126/bbl wartime high. State Dept pushes 'Maritime Freedom Construct' coalition — allies refuse until hostilities end. Israel kills 14 in south Lebanon despite ceasefire. Hezbollah fiber-optic FPV drones evade radar. UN: Iran executed 21, arrested 4,000+ since war began. War Powers 60-day deadline expires today. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded.",
@@ -6027,7 +6027,8 @@
       {
         "year": 2026,
         "event": "Apr 22 (Day 54): TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire indefinitely via Truth Social — 'until such time as their leaders and representatives can come up with a unified proposal.' Naval blockade remains — Trump says lifting it would make deal impossible. Iran FM Araghchi calls blockade 'act of war.' Ghalibaf: won't accept ceasefire with continued blockade. Iran seizes 2 ships in Hormuz (Guardian). CENTCOM: 29 ships turned back. DCAS: 400 US wounded (271 Army, 64 Navy, 19 Marines, 46 AF). US intel: Iran retains ~50% missiles, ~60% navy, ~66% air force. Graham: blockade 'could become global.' New US/EU sanctions. Lebanon: 2,454 killed. Trump approval: 33%."
-      },{
+      },
+      {
         "year": 2026,
         "event": "Apr 23 (Day 55): TRUMP ORDERS 'SHOOT AND KILL' — IRGC SEIZES 2 SHIPS — ISRAEL 'WAITING FOR GREEN LIGHT': Trump orders Navy to 'shoot and kill any boat' laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X in Indian Ocean. CENTCOM: 31 ships turned back. Israel defense minister Katz: 'waiting for green light' from US to resume war. Senate kills 5th War Powers resolution 46-51. Navy Secretary Phelan fired. Ghalibaf: Hormuz stays closed while blockade remains. Lebanese journalist killed by Israel despite ceasefire. Oil ~$103/barrel. No talks scheduled."
       },
@@ -6042,10 +6043,12 @@
       {
         "year": 2026,
         "event": "Apr 27 (Day 59): IRAN OFFERS HORMUZ-FOR-PEACE — ARAGHCHI MEETS PUTIN — $5B BASE DAMAGE: Iran offers to reopen Hormuz if US lifts blockade and ends war — nuclear talks postponed (AP). Araghchi meets Putin in St. Petersburg — Russia pledges 'everything possible' for peace. Germany's Merz: US had 'no strategy.' UN IMO: 'no legal basis' for Hormuz tolls. Benzinga: Iranian strikes caused up to $5B damage to US bases. US troops face food shortages (USA Today). Israel kills 6 in Lebanon despite ceasefire. 3 carriers deployed. Brent ~$108. Lebanon: 2,509 killed. US: 15 KIA, 538 wounded."
-      },{
+      },
+      {
         "year": 2026,
         "event": "Apr 28 (Day 60): TRUMP: IRAN IN 'STATE OF COLLAPSE' — UAE QUITS OPEC — GCC EMERGENCY SUMMIT: Trump claims Iran 'just informed us they are in a State of Collapse' and wants Hormuz opened — Iran hasn't confirmed (AP/Reuters/Axios). Trump 'not happy' with Iran's Hormuz-for-peace proposal (Reuters). Rubio: proposal 'better than expected' but nuclear issue can't be postponed (NPR/Al Jazeera). UAE quits OPEC effective May 1 after 60 years (Reuters/Bloomberg). GCC emergency summit in Jeddah — first in-person meeting since Gulf states became war front (Reuters/Al Arabiya). Bessent: Iran oil pumping 'will soon collapse' under blockade (AP/Benzinga). Iran bans steel exports after airstrikes (Fars). Israel orders 16 Lebanon towns evacuated (Guardian). Brent $111/bbl. WTI $100. HRANA: 1,701 civilians unchanged. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded."
-      },{
+      },
+      {
         "year": 2026,
         "event": "Apr 29 (Day 61): PENTAGON: WAR COSTS $25 BILLION — HEGSETH GRILLED BY CONGRESS — RIAL RECORD LOW: Pentagon reveals first official cost estimate: $25B — mostly munitions (AP/NYT/WaPo). Hegseth testifies before House Armed Services Committee — first grilling since war began. Dems expose shifting justifications. Trump warns Iran to 'get smart soon' (Reuters/NBC). Iran rial record low: 1.81M/$1 (AP/Reuters). Israeli double-tap kills 5 in Lebanon incl. 3 rescuers (Reuters/BBC). Oil surges: Brent $114-117. Pentagon seeks $1.5T budget. Gas $4.18/gal. Budget airlines seek $2.5B aid. 1.24M face food insecurity in Lebanon (UN). Panama Canal traffic up 47%. HRANA: 1,701 civilians unchanged. Lebanon: 2,509+ killed. US: 15 KIA, 538 wounded."
       },
@@ -6062,13 +6065,13 @@
     "objectivesMet": null,
     "years": "2026–Present",
     "computed": {
-      "durationYears": 1,
-      "durationDays": 365,
-      "costPerDay": 5479452,
-      "costPerUSdeath": 0,
-      "costPerCivilianDeath": 0,
-      "totalDeaths": 0,
-      "civilianToMilitaryRatio": null,
+      "durationYears": 0,
+      "durationDays": 61,
+      "costPerDay": 409836066,
+      "costPerUSdeath": 1666666667,
+      "costPerCivilianDeath": 14697237,
+      "totalDeaths": 1716,
+      "civilianToMilitaryRatio": 113.4,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 0
     },
@@ -6157,7 +6160,29 @@
         "role": "Former U.S. Secretary of State",
         "note": "Failed to revive nuclear negotiations during the Biden administration, leaving Trump to inherit an escalating crisis. His diplomatic failures contributed to the breakdown that made military confrontation seem inevitable to both sides."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$25B",
+        "source": "Pentagon estimate per Defense Secretary Hegseth",
+        "date": "2026-04-29",
+        "url": "https://www.nytimes.com/2026/04/29/us/politics/hegseth-iran-war-cost.html"
+      },
+      "civilianDeaths": {
+        "value": 1701,
+        "source": "HRANA (Human Rights Activists News Agency)",
+        "date": "2026-04-30"
+      },
+      "usCasualties": {
+        "value": "15 KIA, 538 wounded",
+        "source": "Department of Defense"
+      },
+      "lebanonDeaths": {
+        "value": 2523,
+        "source": "Lebanese Health Ministry (total all parties)",
+        "note": "This is total Lebanon conflict deaths, not Iran civilian deaths"
+      }
+    }
   },
   {
     "id": "lebanon-hezbollah-2023",

@@ -225,9 +225,11 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
             <div>
               <p className="text-slate-400 mb-2">
                 <span className="font-semibold text-white">{c.startYear}–{c.endYear || 'Present'}</span>
-                {c.computed?.durationYears && (
+                {c.computed?.durationYears ? (
                   <span className="ml-2 text-sm">({c.computed.durationYears} years)</span>
-                )}
+                ) : c.computed?.durationDays ? (
+                  <span className="ml-2 text-sm">({c.computed.durationDays} days)</span>
+                ) : null}
               </p>
               <p className="text-slate-400 mb-2">
                 🌍 <span className="text-white">{c.region}</span> · 
@@ -320,7 +322,7 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
                   <h4 className="font-semibold text-blue-900">Daily Cost</h4>
                 </div>
                 <p className="text-sm text-blue-800">
-                  <strong>{fmtMoney(c.computed.costPerDay)} per day</strong> for {c.computed.durationYears} years — enough to fund {fmt(Math.round(c.computed.costPerDay / 50000))} teachers' salaries daily.
+                  <strong>{fmtMoney(c.computed.costPerDay)} per day</strong> for {c.computed.durationYears ? `${c.computed.durationYears} years` : `${c.computed.durationDays} days`} — enough to fund {fmt(Math.round(c.computed.costPerDay / 50000))} teachers&apos; salaries daily.
                 </p>
               </div>
             )}
@@ -1134,6 +1136,32 @@ export default async function ConflictPage({ params }: { params: Promise<{ slug:
                 <p className="text-xs text-muted">{p.conflicts.length} total conflicts</p>
               </Link>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Data Sources */}
+      {c.sources && Object.keys(c.sources).length > 0 && (
+        <div className="mb-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold mb-4">📋 Data Sources</h2>
+          <div className="bg-stone-50 rounded-lg border p-4">
+            <p className="text-sm text-stone-600 mb-3">Key figures on this page are sourced from:</p>
+            <div className="space-y-2">
+              {Object.entries(c.sources).map(([key, src]: [string, any]) => (
+                <div key={key} className="flex flex-col sm:flex-row sm:items-baseline gap-1 text-sm border-b border-stone-200 pb-2 last:border-0">
+                  <span className="font-semibold text-stone-800 capitalize min-w-[140px]">{key.replace(/([A-Z])/g, ' $1').trim()}:</span>
+                  <span className="text-stone-600">
+                    {typeof src.value === 'number' ? fmt(src.value) : src.value}
+                    {' — '}
+                    {src.url ? (
+                      <a href={src.url} target="_blank" rel="noopener noreferrer" className="text-blue-700 underline hover:text-blue-900">{src.source}</a>
+                    ) : src.source}
+                    {src.date && <span className="text-stone-400 ml-1">({src.date})</span>}
+                    {src.note && <span className="block text-stone-400 text-xs mt-0.5">Note: {src.note}</span>}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       )}
