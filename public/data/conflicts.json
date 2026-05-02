@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 62: Trump briefed on new strike options — oil hits $126 wartime high. Hypersonic missiles requested. Israel kills 14 in Lebanon. War Powers 60-day deadline expires. Boa constrictor blockade strategy. Lebanon: 2,523+ total killed (all parties). 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 64: Trump declares war 'terminated' to dodge War Powers deadline — Schumer: 'That's bullshit.' $8.6B arms sales bypass Congress. 5,000 troops pulled from Germany. CNN: 16 US bases damaged. Israel kills 13 in Lebanon. Lebanon: 2,536+ total killed (all parties). 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 62: Trump briefed on new strike options — oil hits $126 wartime high — hypersonic missiles requested — Israel kills 14 in Lebanon — War Powers deadline expires",
-    "outcomeDetail": "Day 62 (April 30): CENTCOM chief Admiral Brad Cooper briefs Trump on military options including 'short and powerful' new strikes, Hormuz seizure, and special forces uranium raid (Axios/Reuters). WSJ: 'boa constrictor' long-term blockade strategy. Dark Eagle hypersonic missile requested for Middle East. Trump tells Iran to 'just give up' — rejects Hormuz-for-peace proposal. Brent hits $126/bbl wartime high. State Dept pushes 'Maritime Freedom Construct' coalition — allies refuse until hostilities end. Israel kills 14 in south Lebanon despite ceasefire. Hezbollah fiber-optic FPV drones evade radar. UN: Iran executed 21, arrested 4,000+ since war began. War Powers 60-day deadline expires today. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 64: Trump declares war 'terminated' to dodge War Powers — $8.6B arms bypass Congress — 5,000 troops pulled from Germany — Israel kills 13 in Lebanon",
+    "outcomeDetail": "Day 64 (May 2): Trump sends letter to Congress declaring hostilities 'terminated' — skirting 60-day War Powers deadline (Reuters/Guardian). Schumer: 'That's bullshit. This is an illegal war.' Admin bypasses congressional review for $8.6B in arms sales to Israel, Qatar, Kuwait, UAE (Reuters). 5,000 troops withdrawn from NATO ally Germany amid Iran war rift (Reuters/NPR/NYT). CNN investigation: 16 US military sites — majority of US positions in Middle East — damaged by Iranian strikes. Iran sends new peace proposal via Pakistan — Trump 'not satisfied.' Israel kills 13 in south Lebanon (May 2). Indian LPG carrier transits Hormuz. HRANA: 1,701 civilians unchanged. Lebanon: 2,536+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6055,6 +6055,14 @@
       {
         "year": 2026,
         "event": "Apr 30 (Day 62): TRUMP BRIEFED ON STRIKE OPTIONS — OIL HITS $126 — 14 KILLED IN LEBANON: CENTCOM chief briefs Trump on new military options including 'short and powerful' strikes, Hormuz seizure, and special forces uranium raid (Axios/Reuters). WSJ: 'boa constrictor' long-term blockade strategy. Dark Eagle hypersonic missile requested for Middle East (Financial Express). Trump tells Iran to 'just give up' — rejects Hormuz-for-peace proposal again. Ghalibaf ridicules Trump's pipeline claims. Brent hits $126/bbl wartime high — pulls back to ~$110-114. State Dept pushes 'Maritime Freedom Construct' coalition — allies refuse until hostilities end. Israel kills 14 in south Lebanon despite ceasefire — Hezbollah fiber-optic FPV drones evade radar. 1 IDF soldier killed. UN: Iran executed 21, arrested 4,000+ since war began. War Powers 60-day deadline expires today. HRANA: 1,701 civilians unchanged. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded. Brent $110-126."
+      },
+      {
+        "year": 2026,
+        "event": "May 1 (Day 63): TRUMP DECLARES WAR 'TERMINATED' — $8.6B ARMS BYPASS CONGRESS — 5,000 TROOPS PULLED FROM GERMANY: Trump sends letter to Congress declaring hostilities 'terminated' — skirting War Powers 60-day deadline (Reuters/Guardian/Fox). Schumer: 'That's bullshit. This is an illegal war.' Admin bypasses congressional review for $8.6B arms sales to Israel, Qatar, Kuwait, UAE (Reuters). 5,000 troops withdrawn from Germany (Reuters/NPR/NYT). CNN: 16 US military sites damaged by Iran — majority of US positions. Iran sends new peace proposal via Pakistan — Trump rejects. Israel kills 10+ in Lebanon. Lebanon: 2,523+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 2 (Day 64): ISRAEL KILLS 13 IN SOUTH LEBANON — DOZENS OF STRIKES: Israel launches dozens of intense airstrikes across south Lebanon — 13 killed (Lebanese health ministry/RTE/Al Jazeera). Indian LPG carrier safely transits Hormuz (Times Now). Hamas voting for next leader. NYT: Israeli entrenchment turning frustration into Hezbollah support. Lebanon: 2,536+ killed. US: 15 KIA, 538 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
