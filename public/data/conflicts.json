@@ -5767,7 +5767,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 64: Trump declares war 'terminated' to dodge War Powers deadline — Schumer: 'That's bullshit.' $8.6B arms sales bypass Congress. 5,000 troops pulled from Germany. CNN: 16 US bases damaged. Israel kills 13 in Lebanon. Lebanon: 2,536+ total killed (all parties). 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 66: Trump launches 'Project Freedom' to escort ships through Hormuz with 15,000 troops — Iran fires 4 missiles at UAE, FIRST attack since ceasefire. ADNOC tanker targeted. Hezbollah leader rejects ceasefire entirely. Lebanon: 2,659+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -5779,8 +5779,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 64: Trump declares war 'terminated' to dodge War Powers — $8.6B arms bypass Congress — 5,000 troops pulled from Germany — Israel kills 13 in Lebanon",
-    "outcomeDetail": "Day 64 (May 2): Trump sends letter to Congress declaring hostilities 'terminated' — skirting 60-day War Powers deadline (Reuters/Guardian). Schumer: 'That's bullshit. This is an illegal war.' Admin bypasses congressional review for $8.6B in arms sales to Israel, Qatar, Kuwait, UAE (Reuters). 5,000 troops withdrawn from NATO ally Germany amid Iran war rift (Reuters/NPR/NYT). CNN investigation: 16 US military sites — majority of US positions in Middle East — damaged by Iranian strikes. Iran sends new peace proposal via Pakistan — Trump 'not satisfied.' Israel kills 13 in south Lebanon (May 2). Indian LPG carrier transits Hormuz. HRANA: 1,701 civilians unchanged. Lebanon: 2,536+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 66: 'Project Freedom' launches — Iran fires missiles at UAE breaking ceasefire — Hezbollah rejects truce — Lebanon: 2,659+ killed",
+    "outcomeDetail": "Day 66 (May 4): Trump launches 'Project Freedom' — 15,000 troops, destroyers, 100+ aircraft to escort ships through Hormuz (CENTCOM). 2 US-flagged ships transit under escort. Iran denies transit, warns US forces will be 'targeted and attacked.' Iran fires 4 cruise missiles at UAE — FIRST attack since ceasefire — 3 intercepted (UAE MOD/CBS). ADNOC tanker hit by drones in Hormuz — on fire (UKMTO). Hezbollah leader Qassem rejects ceasefire entirely. Reuters: several thousand Hezbollah fighters killed. Lebanon: 2,659+ killed (Indian Express). HRANA: 1,701 civilians unchanged. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6063,6 +6063,14 @@
       {
         "year": 2026,
         "event": "May 2 (Day 64): ISRAEL KILLS 13 IN SOUTH LEBANON — DOZENS OF STRIKES: Israel launches dozens of intense airstrikes across south Lebanon — 13 killed (Lebanese health ministry/RTE/Al Jazeera). Indian LPG carrier safely transits Hormuz (Times Now). Hamas voting for next leader. NYT: Israeli entrenchment turning frustration into Hezbollah support. Lebanon: 2,536+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 3 (Day 65): TRUMP ANNOUNCES 'PROJECT FREEDOM' — 15,000 TROOPS FOR HORMUZ — REUTERS: SEVERAL THOUSAND HEZBOLLAH FIGHTERS DEAD: Trump announces 'Project Freedom' — US military to escort ships through Hormuz with destroyers, 100+ aircraft, 15,000 service members (CENTCOM). Trump reviews Iran's 14-point peace plan on AF1. Reuters: Hezbollah has lost several thousand fighters. Health ministry: 2,600+ killed in Lebanon. Iran blockade draining ~$435M/day. Iran oil exports down 80%+. HRANA: 1,701 civilians unchanged. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 4 (Day 66): 'PROJECT FREEDOM' LAUNCHES — IRAN FIRES 4 MISSILES AT UAE — CEASEFIRE FRACTURES: 2 US-flagged ships transit Hormuz under escort (CENTCOM). Iran fires 4 cruise missiles at UAE — FIRST attack since ceasefire — 3 intercepted (UAE MOD). ADNOC tanker targeted with drones — on fire (UKMTO). Iran denies US ships transited. Hezbollah leader Qassem rejects ceasefire entirely. 3 Israeli soldiers wounded in Lebanon. Lebanon: 2,659+ killed. US: 15 KIA, 538 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6074,7 +6082,7 @@
     "years": "2026–Present",
     "computed": {
       "durationYears": 0,
-      "durationDays": 61,
+      "durationDays": 66,
       "costPerDay": 409836066,
       "costPerUSdeath": 1666666667,
       "costPerCivilianDeath": 14697237,

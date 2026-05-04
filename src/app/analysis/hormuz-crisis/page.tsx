@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
-  description: '20% of global oil flows through a 21-mile strait. Day 64: Trump declares war "terminated" while blockade continues. Indian LPG carrier MT Sarv Shakti safely transits Hormuz. Oil settled $110-114 after $126 wartime high. $8.6B arms sales bypass Congress. Iran sends new peace proposal — rejected. Iran threatens "long and painful strikes" if attacks resume. Mojtaba Khamenei: foreigners have "no place except at the bottom of its waters." Gas $4.18. IEA: biggest energy crisis in history.',
+  description: '20% of global oil flows through a 21-mile strait. Day 66: Trump launches "Project Freedom" — 2 US ships transit Hormuz under escort. Iran fires 4 missiles at UAE — FIRST attack since ceasefire — ADNOC tanker hit by drones. Iran denies any ships transited. 15,000 troops deployed. Hezbollah rejects ceasefire. Oil $110-114. IEA: biggest energy crisis in history.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
