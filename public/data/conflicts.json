@@ -11,7 +11,7 @@
     "countries": [
       "United Kingdom"
     ],
-    "description": "War of independence from British colonial rule. The conflict that created the United States.",
+    "description": "War of independence from British colonial rule (1775-1783). Thirteen American colonies fought an eight-year war against the British Empire, securing independence through persistence, French alliance, and the Treaty of Paris. The conflict that created the United States of America.",
     "costNominal": 101000000,
     "costInflationAdjusted": 2400000000,
     "costYear": 2023,
@@ -21,7 +21,7 @@
       "battleDeaths": 6800,
       "missing": 0
     },
-    "civilianDeaths": null,
+    "civilianDeaths": 25000,
     "troopsDeployed": 217000,
     "outcome": "Victory",
     "outcomeDetail": "American independence recognized by Treaty of Paris (1783).",
@@ -162,7 +162,23 @@
         "role": "Mohawk Chief and British Ally",
         "note": "Led Iroquois forces fighting alongside the British. His alliance with Britain was based on the rational calculation that American victory meant disaster for Native peoples — he was proven tragically right."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$2.4B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "25,000 deaths (6,800 battle deaths)",
+        "source": "National Archives & Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~25,000",
+        "source": "Historical estimates — disease, famine, loyalist persecution",
+        "date": "Various scholarly sources"
+      }
+    }
   },
   {
     "id": "quasi-war",
@@ -176,7 +192,7 @@
     "countries": [
       "France"
     ],
-    "description": "Undeclared naval war with France over trade disputes and French seizure of American merchant ships.",
+    "description": "Undeclared naval war with France (1798-1800) over trade disputes, French seizure of American merchant ships, and fallout from the Jay Treaty with Britain. America's first undeclared war established dangerous precedents for presidential war-making without congressional authorization.",
     "costNominal": 6000000,
     "costInflationAdjusted": 160000000,
     "costYear": 2023,
@@ -324,7 +340,18 @@
         "role": "First Consul of France",
         "note": "Ended the Quasi-War partly to focus on European campaigns. His rise to power shifted French priorities from American harassment to European conquest, making peace possible."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$160M (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "514 deaths (20 battle deaths)",
+        "source": "Department of Defense, Principal Wars"
+      }
+    }
   },
   {
     "id": "barbary-wars",
@@ -338,7 +365,7 @@
     "countries": [
       "Tripoli (Libya)"
     ],
-    "description": "Naval war against Barbary pirates demanding tribute for safe passage in the Mediterranean.",
+    "description": "Naval war against the Barbary States of North Africa (1801-1805), fought to end tribute payments demanded by Tripoli for safe passage of American merchant ships in the Mediterranean. America's first overseas military intervention, featuring Decatur's legendary raid and the Marines' march 'to the shores of Tripoli.'",
     "costNominal": 3000000,
     "costInflationAdjusted": 80000000,
     "costYear": 2023,
@@ -478,7 +505,18 @@
         "role": "Naval Agent and Former Captive",
         "note": "Along with Richard O'Brien and others, these former captives became invaluable diplomatic agents because they understood Barbary culture, spoke Arabic, and had credibility with both sides. Their experiences as slaves informed American strategy and their survival proved that diplomatic engagement was possible even with 'barbarian' powers."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$80M (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "35 deaths, 64 wounded",
+        "source": "Department of Defense, Principal Wars"
+      }
+    }
   },
   {
     "id": "war-of-1812",
@@ -502,7 +540,7 @@
       "battleDeaths": 2260,
       "missing": 0
     },
-    "civilianDeaths": null,
+    "civilianDeaths": 1500,
     "troopsDeployed": 286730,
     "outcome": "Inconclusive / Status Quo",
     "outcomeDetail": "Treaty of Ghent restored pre-war boundaries. Impressment issue resolved by end of Napoleonic Wars, not by this war.",
@@ -633,7 +671,22 @@
         "role": "Massachusetts Federalist / Hartford Convention Leader",
         "note": "Led New England opposition to the war and presided over the Hartford Convention that considered secession. His opposition was so strong that he was accused of treason, but his prediction that the war would bankrupt the nation and accomplish nothing proved accurate."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$1.8B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "15,000 deaths (2,260 battle deaths)",
+        "source": "Department of Defense, Principal Wars"
+      },
+      "civilianDeaths": {
+        "value": "~1,500",
+        "source": "Historical estimates — border raids, Native American conflicts"
+      }
+    }
   },
   {
     "id": "mexican-american-war",
@@ -777,7 +830,22 @@
         "role": "U.S. Army General",
         "note": "Led the conquest of New Mexico and California, establishing American control over the Southwest with minimal resistance from Mexican forces."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$2.5B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "13,283 deaths (1,733 battle deaths)",
+        "source": "Department of Defense, Principal Wars"
+      },
+      "civilianDeaths": {
+        "value": "~25,000 Mexican civilians",
+        "source": "Historical estimates, Mexican government records"
+      }
+    }
   },
   {
     "id": "civil-war",
@@ -791,7 +859,7 @@
     "countries": [
       "Confederate States"
     ],
-    "description": "The deadliest conflict in American history. Fought over secession, slavery, and federal authority.",
+    "description": "The deadliest conflict in American history (1861-1865), fought over secession, slavery, and federal authority. The war killed an estimated 655,000 Americans — more than all other American wars combined until Vietnam — abolished slavery, and permanently transformed the United States from a loose confederation into a centralized nation-state.",
     "costNominal": 6200000000,
     "costInflationAdjusted": 80000000000,
     "costYear": 2023,
@@ -928,7 +996,22 @@
         "role": "Actor and Confederate sympathizer",
         "note": "Assassinated Lincoln on April 14, 1865, just days after Confederate surrender, eliminating the president who might have managed Reconstruction with both justice for freed people and reconciliation with the South. His act ensured that Reconstruction would be led by lesser men with narrower visions."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$80B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "655,000 deaths (214,938 battle deaths)",
+        "source": "Civil War Trust / American Battlefield Trust; J. David Hacker, 'A Census-Based Count of the Civil War Dead', Civil War History (2011)"
+      },
+      "civilianDeaths": {
+        "value": "~50,000",
+        "source": "National Park Service; James McPherson, 'Battle Cry of Freedom'"
+      }
+    }
   },
   {
     "id": "spanish-american-war",
@@ -952,7 +1035,7 @@
       "battleDeaths": 385,
       "missing": 0
     },
-    "civilianDeaths": null,
+    "civilianDeaths": 200000,
     "troopsDeployed": 306760,
     "outcome": "Victory",
     "outcomeDetail": "Treaty of Paris. Spain ceded Philippines, Guam, Puerto Rico. Cuba gained nominal independence under US influence.",
@@ -1063,7 +1146,22 @@
         "role": "Filipino Independence Leader",
         "note": "Led Philippine resistance against Spain, then against America when the U.S. reneged on promises of independence — becoming America's first major insurgent enemy."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$9.6B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "2,446 deaths (385 battle deaths)",
+        "source": "Department of Defense, Principal Wars"
+      },
+      "civilianDeaths": {
+        "value": "~200,000 Filipino civilians (Philippine aftermath)",
+        "source": "Historical estimates — may overlap with Philippine-American War figures"
+      }
+    }
   },
   {
     "id": "philippine-american-war",
@@ -1211,7 +1309,22 @@
         "role": "Filipino Guerrilla Leader",
         "note": "Continued resistance after Aguinaldo's capture, establishing the 'Tagalog Republic' and fighting American forces until 1906. Executed by Americans despite promises of amnesty, he became a martyr for Philippine independence and symbol of resistance to foreign occupation."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$14B (2023 dollars)",
+        "source": "Congressional Research Service",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "4,196 deaths (1,020 battle deaths)",
+        "source": "Department of Defense casualty records"
+      },
+      "civilianDeaths": {
+        "value": "200,000–1,000,000",
+        "source": "Philippine Commission; Spencer Tucker, 'Encyclopedia of the Spanish-American and Philippine-American Wars'"
+      }
+    }
   },
   {
     "id": "world-war-i",
@@ -1363,7 +1476,22 @@
         "role": "U.S. Marine Corps Major General",
         "note": "America's most decorated Marine who later wrote 'War is a Racket,' exposing how WWI enriched corporations while soldiers died for pittances. His transformation from warrior to antiwar activist embodied the disillusionment of many veterans who realized they had been used by war profiteers."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$380B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "116,516 deaths (53,402 battle deaths)",
+        "source": "National Archives; Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~6.5M (all belligerents)",
+        "source": "National WWI Museum; CRS estimates"
+      }
+    }
   },
   {
     "id": "world-war-ii",
@@ -1520,7 +1648,22 @@
         "role": "Scientific Director, Manhattan Project",
         "note": "Led the scientific effort to create atomic weapons, later haunted by their destructive power. His famous quote after the first nuclear test — 'Now I am become Death, destroyer of worlds' — captured the moral ambiguity of scientific achievement in service of warfare."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$4.8T (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926; National WWII Museum",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "405,399 deaths (291,557 battle deaths)",
+        "source": "National WWII Museum; Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~50M (all belligerents, including Holocaust)",
+        "source": "National WWII Museum"
+      }
+    }
   },
   {
     "id": "korean-war",
@@ -1671,7 +1814,22 @@
         "role": "U.S. Secretary of State",
         "note": "His January 1950 speech excluding South Korea from America's 'defensive perimeter' may have encouraged North Korea to invade. Later became a key architect of the Cold War containment strategy that the Korean conflict was supposed to vindicate."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$389B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "36,574 deaths (33,686 battle deaths)",
+        "source": "Korean War Veterans Memorial; Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~2M Korean civilians",
+        "source": "Korean War Veterans Memorial; Republic of Korea Ministry of National Defense"
+      }
+    }
   },
   {
     "id": "iran-1953",
@@ -1795,7 +1953,18 @@
         "role": "Secretary of State",
         "note": "Allen Dulles's brother who provided diplomatic cover for the operation and framed it in Cold War anti-communist terms rather than acknowledging it was about oil profits."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$11M (2023 dollars)",
+        "source": "CIA declassified history of Operation Ajax",
+        "date": "2013"
+      },
+      "civilianDeaths": {
+        "value": "~300 during coup",
+        "source": "Ervand Abrahamian, 'The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations'"
+      }
+    }
   },
   {
     "id": "guatemala-1954",
@@ -1925,7 +2094,19 @@
         "role": "CIA Propaganda Chief",
         "note": "Ran the psychological warfare campaign including the fake 'Voice of Liberation' radio station that spread disinformation and panic throughout Guatemala."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$33M (2023 dollars)",
+        "source": "CIA declassified Operation PBSUCCESS documents",
+        "date": "2003"
+      },
+      "civilianDeaths": {
+        "value": "~200,000 (subsequent civil war 1960-1996)",
+        "source": "UN Historical Clarification Commission (CEH), 'Guatemala: Memory of Silence'",
+        "date": "1999"
+      }
+    }
   },
   {
     "id": "vietnam-war",
@@ -2077,7 +2258,22 @@
         "role": "Platoon Leader at My Lai",
         "note": "Led the massacre of hundreds of Vietnamese civilians at My Lai village in 1968. Only soldier convicted for the atrocity, served 3.5 years under house arrest. Became scapegoat for wider military policies that dehumanized Vietnamese civilians."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$1T (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926; Brown University Costs of War Project",
+        "date": "2021"
+      },
+      "usCasualties": {
+        "value": "58,220 deaths (47,434 battle deaths)",
+        "source": "National Archives; Vietnam Veterans Memorial"
+      },
+      "civilianDeaths": {
+        "value": "~2M Vietnamese civilians",
+        "source": "Vietnamese government estimates; Brown University Costs of War Project"
+      }
+    }
   },
   {
     "id": "bay-of-pigs",
@@ -2211,7 +2407,21 @@
         "role": "Former President",
         "note": "Authorized the original CIA plan in March 1960, then privately criticized Kennedy for not providing enough support to ensure success."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$460M (2023 dollars)",
+        "source": "CIA declassified Bay of Pigs records; CRS estimates"
+      },
+      "usCasualties": {
+        "value": "4 American pilots KIA",
+        "source": "CIA declassified records"
+      },
+      "civilianDeaths": {
+        "value": "~176",
+        "source": "Cuban government records; Peter Kornbluh, 'Bay of Pigs Declassified'"
+      }
+    }
   },
   {
     "id": "dominican-republic-1965",
@@ -2303,7 +2513,22 @@
         "role": "Constitutionalist Military Leader",
         "note": "Led the pro-democracy forces against the U.S. intervention. Killed in 1973 after returning from exile to lead a guerrilla movement."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$2.8B (2023 dollars)",
+        "source": "Congressional Research Service",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "44 deaths (27 battle deaths)",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~3,000",
+        "source": "Organization of American States investigation; Dominican historical records"
+      }
+    }
   },
   {
     "id": "chile-1973",
@@ -2454,7 +2679,19 @@
         "role": "University of Chicago economist",
         "note": "Nobel laureate whose Chilean students (the 'Chicago Boys') implemented radical free-market policies under Pinochet's dictatorship, creating the neoliberal model."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$80M (2023 dollars)",
+        "source": "Church Committee Report, U.S. Senate Select Committee on Intelligence",
+        "date": "1975"
+      },
+      "civilianDeaths": {
+        "value": "3,200+ killed, 40,000 tortured",
+        "source": "Chilean National Commission for Truth and Reconciliation (Rettig Report)",
+        "date": "1991"
+      }
+    }
   },
   {
     "id": "grenada",
@@ -2605,7 +2842,22 @@
         "role": "Cuban President",
         "note": "Advised Cuban workers in Grenada to resist the invasion but provided no military support, demonstrating Soviet-Cuban unwillingness to escalate."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$400M (2023 dollars)",
+        "source": "Congressional Research Service",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "19 KIA, 116 wounded",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "24",
+        "source": "Department of Defense; Congressional Research Service"
+      }
+    }
   },
   {
     "id": "panama",
@@ -2756,7 +3008,22 @@
         "role": "U.S. Marine First Lieutenant",
         "note": "Killed at a PDF roadblock on December 16, 1989, providing the immediate pretext for invasion. His death became the emotional justification for Operation Just Cause."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$400M (2023 dollars)",
+        "source": "Congressional Research Service",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "23 KIA, 325 wounded",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~500",
+        "source": "UN estimates; Americas Watch report"
+      }
+    }
   },
   {
     "id": "gulf-war",
@@ -2906,7 +3173,22 @@
         "role": "Joint Force Air Component Commander",
         "note": "Planned and executed the 43-day air campaign that systematically destroyed Iraqi command, control, and infrastructure, demonstrating the revolution in precision airpower that defined post-Cold War warfare."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$136B (2023 dollars)",
+        "source": "Congressional Research Service, Report RS22926",
+        "date": "2010"
+      },
+      "usCasualties": {
+        "value": "382 deaths (147 battle deaths)",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~3,500",
+        "source": "Human Rights Watch; Congressional Research Service"
+      }
+    }
   },
   {
     "id": "somalia",
@@ -3092,7 +3374,22 @@
       "The U.S. returned to Somalia with drone strikes and special operations under AFRICOM in the 2000s-2020s, spending additional billions without achieving lasting stability — proving that the original withdrawal solved nothing",
       "Led to the resignation of Secretary of Defense Les Aspin and damaged the Clinton administration's credibility on foreign policy for the remainder of the first term",
       "Inspired the landmark book \"Black Hawk Down\" (1999) and film (2001) that shaped public understanding of modern urban warfare and special operations"
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$3.3B (2023 dollars)",
+        "source": "Congressional Research Service",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "43 deaths (29 battle deaths)",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~1,000",
+        "source": "United Nations estimates; International Committee of the Red Cross"
+      }
+    }
   },
   {
     "id": "bosnia",
@@ -3280,7 +3577,22 @@
       "Demonstrated that Western democracies could muster the political will to intervene against genocide — but only after catastrophic delay, a pattern that would repeat in Darfur and Syria",
       "Led directly to the Kosovo intervention in 1999 when Milošević launched a similar ethnic cleansing campaign, as NATO allies were determined not to repeat the years of paralysis",
       "Established a model of international war crimes prosecution that influenced the creation of the International Criminal Court (ICC) in 2002"
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$35B (2023 dollars)",
+        "source": "Congressional Research Service; Congressional Budget Office",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "12 deaths",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~500 from NATO airstrikes",
+        "source": "Human Rights Watch; International Criminal Tribunal for the former Yugoslavia"
+      }
+    }
   },
   {
     "id": "kosovo",
@@ -3468,7 +3780,23 @@
       "Established Camp Bondsteel, the largest U.S. military base built since Vietnam, as a permanent American military presence in southeastern Europe",
       "Resulted in the reverse ethnic cleansing of 200,000 Kosovo Serbs, creating a new displaced population and undermining the intervention's humanitarian credentials",
       "Demonstrated both the power and limits of strategic airpower: achieved political objectives but killed 500 civilians, accelerated ethnic cleansing in the short term, and could not prevent post-war revenge violence"
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$10B (2023 dollars)",
+        "source": "Congressional Budget Office",
+        "date": "1999"
+      },
+      "usCasualties": {
+        "value": "2 deaths",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~500 from NATO airstrikes",
+        "source": "Human Rights Watch, 'Civilian Deaths in the NATO Air Campaign'",
+        "date": "2000"
+      }
+    }
   },
   {
     "id": "afghanistan",
@@ -3620,7 +3948,22 @@
         "role": "Commander, U.S. Forces Afghanistan (2009-2010)",
         "note": "Architect of the counterinsurgency strategy and troop surge who was fired by Obama in 2010 after his staff criticized the administration in a Rolling Stone article — showing the civil-military tensions that plagued the war."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$2.3T",
+        "source": "Brown University Costs of War Project",
+        "date": "2021"
+      },
+      "usCasualties": {
+        "value": "2,461 deaths (1,922 battle deaths)",
+        "source": "Department of Defense; Brown University Costs of War Project"
+      },
+      "civilianDeaths": {
+        "value": "~176,000",
+        "source": "Brown University Costs of War Project; United Nations Assistance Mission in Afghanistan (UNAMA)"
+      }
+    }
   },
   {
     "id": "post-911-global",
@@ -3866,7 +4209,22 @@
         "role": "Canadian Citizen / Rendition Victim",
         "note": "Detained at JFK Airport in 2002, secretly rendered to Syria, and tortured for a year in a cell the size of a grave. The Canadian government eventually apologized and paid $10.5 million in compensation. The U.S. government has never apologized or compensated him."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$95B (2023 dollars)",
+        "source": "Brown University Costs of War Project; Congressional Research Service",
+        "date": "2023"
+      },
+      "usCasualties": {
+        "value": "~65 deaths",
+        "source": "Department of Defense; news reports from various operations"
+      },
+      "civilianDeaths": {
+        "value": "~800",
+        "source": "Brown University Costs of War Project"
+      }
+    }
   },
   {
     "id": "iraq-war",
@@ -4038,7 +4396,22 @@
         "role": "Prime Minister of Iraq (2006-2014)",
         "note": "Shia leader who used U.S. protection to purge Sunnis from government and military, accelerating sectarian civil war and creating conditions for ISIS to flourish after U.S. withdrawal."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$2T",
+        "source": "Brown University Costs of War Project; Congressional Research Service",
+        "date": "2021"
+      },
+      "usCasualties": {
+        "value": "4,431 deaths (3,481 battle deaths)",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~300,000",
+        "source": "Brown University Costs of War Project; Iraq Body Count (documented: 200,000+)"
+      }
+    }
   },
   {
     "id": "drone-wars",
@@ -4238,7 +4611,18 @@
       "Created a form of warfare without American casualties that removes political accountability — voters never demand justification for wars that cost no American lives",
       "The drone strike on Qasem Soleimani expanded the program from non-state actors to assassinating senior military officials of sovereign nations, nearly triggering a major war",
       "Whistleblowers who exposed the program's failures (Daniel Hale, 45 months in prison) were punished more severely than anyone responsible for killing civilians"
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$30B (2023 dollars)",
+        "source": "Brown University Costs of War Project; SIPRI",
+        "date": "2023"
+      },
+      "civilianDeaths": {
+        "value": "~22,000",
+        "source": "Bureau of Investigative Journalism; Brown University Costs of War Project"
+      }
+    }
   },
   {
     "id": "somalia-ongoing",
@@ -4454,7 +4838,22 @@
         "role": "U.S. Army Staff Sergeant (killed in action)",
         "note": "Killed by al-Shabaab mortar fire in the Jubaland region in June 2018 — the first publicly acknowledged U.S. combat death in Somalia since the 1993 Black Hawk Down incident, underscoring the risks of the largely invisible campaign."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$5B (2023 dollars)",
+        "source": "Brown University Costs of War Project",
+        "date": "2023"
+      },
+      "usCasualties": {
+        "value": "8 deaths",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~200",
+        "source": "Bureau of Investigative Journalism; Amnesty International"
+      }
+    }
   },
   {
     "id": "libya",
@@ -4602,7 +5001,18 @@
         "role": "Leader of Libyan Rebels",
         "note": "Commanded rebel forces that murdered Gaddafi after his capture, sodomizing him with a bayonet. The execution, filmed on mobile phones, shocked international observers and highlighted the West's inability to control its local proxies."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$1.5B",
+        "source": "Congressional Research Service; Department of Defense",
+        "date": "2011"
+      },
+      "civilianDeaths": {
+        "value": "~30,000 (entire conflict)",
+        "source": "National Transitional Council (Libya); Human Rights Watch"
+      }
+    }
   },
   {
     "id": "niger-sahel",
@@ -4830,7 +5240,23 @@
         "role": "Leader of 2012 Mali coup",
         "note": "A captain trained by U.S. Special Forces who overthrew Mali's elected government in March 2012, creating the chaos that allowed AQIM-affiliated militants to seize northern Mali. The original example of U.S. training producing coup leaders."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$750M",
+        "source": "Congressional Research Service; Department of Defense budget documents",
+        "date": "Various"
+      },
+      "usCasualties": {
+        "value": "4 KIA (Tongo Tongo ambush)",
+        "source": "Department of Defense",
+        "date": "2017"
+      },
+      "civilianDeaths": {
+        "value": "~10",
+        "source": "Department of Defense; news reports"
+      }
+    }
   },
   {
     "id": "syria",
@@ -4981,7 +5407,22 @@
         "role": "CIA Director / Former General",
         "note": "Advocated for the CIA weapons program to Syrian rebels and wanted to establish no-fly zones against Assad. His counterinsurgency expertise proved irrelevant to Syria's complex proxy war dynamics."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$30B (2023 dollars)",
+        "source": "Brown University Costs of War Project; Congressional Research Service",
+        "date": "2023"
+      },
+      "usCasualties": {
+        "value": "22 deaths (8 battle deaths)",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~12,000 from U.S.-led operations",
+        "source": "Airwars; Brown University Costs of War Project"
+      }
+    }
   },
   {
     "id": "isis-iraq-syria",
@@ -5159,7 +5600,22 @@
         "role": "Commander, Iranian Quds Force (killed 2020)",
         "note": "Coordinated Iranian support for Iraqi militias fighting ISIS, becoming the most influential foreign figure in Iraq's anti-ISIS campaign. His effectiveness against ISIS complicated U.S. strategy — America was allied with Iranian proxies against ISIS while opposing Iran regionally."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$115B (2023 dollars)",
+        "source": "Department of Defense Operation Inherent Resolve budget reports; Congressional Research Service",
+        "date": "2023"
+      },
+      "usCasualties": {
+        "value": "93 deaths",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~13,000 from Coalition strikes",
+        "source": "Airwars; Department of Defense CIVCAS reports"
+      }
+    }
   },
   {
     "id": "yemen",
@@ -5353,7 +5809,22 @@
       "Strengthened the case for congressional war powers reform while simultaneously demonstrating the structural obstacles to achieving it",
       "The Khashoggi murder exposed the moral cost of the U.S.-Saudi relationship, forcing a brief reckoning that was ultimately overridden by arms sales and geopolitical interests",
       "Established a template for accountability-free war-by-proxy: because no American troops fight, the war generates no domestic political cost despite enabling mass killing"
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$10B (2023 dollars)",
+        "source": "Brown University Costs of War Project; SIPRI arms transfer data",
+        "date": "2023"
+      },
+      "usCasualties": {
+        "value": "2 deaths",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~150,000 (conflict total)",
+        "source": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA); Armed Conflict Location & Event Data Project (ACLED)"
+      }
+    }
   },
   {
     "id": "ukraine-support",
@@ -5581,7 +6052,14 @@
         "role": "Commander-in-Chief, Ukrainian Armed Forces (2024-present)",
         "note": "Replaced Zaluzhnyi and led the audacious Kursk offensive into Russian territory. Faces the challenge of sustaining Ukrainian resistance with potentially declining Western support."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$175B in U.S. aid",
+        "source": "Kiel Institute for the World Economy, Ukraine Support Tracker; Congressional Research Service",
+        "date": "2024"
+      }
+    }
   },
   {
     "id": "red-sea-houthis",
@@ -5742,7 +6220,22 @@
         "role": "Commanding Officer, USS Carney (DDG-64)",
         "note": "Commanded the most combat-active destroyer in modern Navy history, personally directing dozens of intercepts against Houthi missiles and drones across multiple engagements."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$4.6B",
+        "source": "Department of Defense; Congressional Research Service",
+        "date": "2025"
+      },
+      "usCasualties": {
+        "value": "0 KIA, 2 wounded",
+        "source": "Department of Defense"
+      },
+      "civilianDeaths": {
+        "value": "~30",
+        "source": "Airwars; news reports"
+      }
+    }
   },
   {
     "id": "iran-2026",
@@ -6375,6 +6868,17 @@
         "role": "Maronite Christian Priest",
         "note": "Killed in an Israeli double-tap strike on Al-Qlayaa, Lebanon in 2026. His death — a Christian priest killed by American-funded weapons — symbolized the indiscriminate nature of the bombardment."
       }
-    ]
+    ],
+    "sources": {
+      "cost": {
+        "value": "$21.7B (U.S. military support to Israel)",
+        "source": "Congressional Research Service; Brown University Costs of War Project",
+        "date": "2024"
+      },
+      "civilianDeaths": {
+        "value": "~5,048 Lebanese civilians",
+        "source": "Lebanese Ministry of Public Health; United Nations"
+      }
+    }
   }
 ]
