@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The True Cost of the War on Terror: $8 Trillion and Counting | WarCosts.org',
-  description: 'Brown University\'s Costs of War Project tallies $8 trillion spent on the War on Terror, 929,000+ killed, and 38 million displaced. Here\'s the full accounting.',
+  title: 'True Cost of the War on Terror: $8 Trillion',
+  description: 'Brown University tallies $8T spent, 929,000+ killed, 38M displaced in the War on Terror. The full accounting of America\'s longest war.',
   openGraph: {
     title: 'The True Cost of the War on Terror: $8 Trillion and Counting',
     description: '$8 trillion. 929,000 dead. 38 million displaced. The hidden costs of America\'s longest war.',

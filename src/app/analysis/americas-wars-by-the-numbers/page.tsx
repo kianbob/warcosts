@@ -8,7 +8,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import { AmericasWarsCharts } from './AmericasWarsCharts'
 
 export const metadata: Metadata = {
-  title: "America's Wars By The Numbers: A Complete Statistical Breakdown",
+  title: "America's Wars By the Numbers: Full Breakdown",
   description: 'Every US war ranked by cost, deaths, and duration. Total statistics on American military conflicts from 1775 to 2026. The definitive data reference.',
   openGraph: {
     title: "America's Wars By The Numbers",

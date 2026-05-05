@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Cost of America\'s Nuclear Arsenal: $12 Trillion Spent, $1.7 Trillion More Planned',
-  description: 'The US has spent $12+ trillion on nuclear weapons since 1945 and plans to spend $1.7 trillion more modernizing the arsenal. 5,500 warheads. Multiple close calls. The most expensive weapons never used.',
+  title: 'Nuclear Arsenal: $12T Spent, $1.7T More Planned',
+  description: '$12T+ on nuclear weapons since 1945. $1.7T more planned. 5,500 warheads. Multiple near-launches. Most expensive weapons never used.',
   openGraph: {
     title: 'The Nuclear Arsenal: $12 Trillion on Weapons We Can Never Use',
     description: '$12T spent. $1.7T modernization planned. 5,500 warheads. Multiple near-launches. The most expensive insurance policy in human history — or the most dangerous.',

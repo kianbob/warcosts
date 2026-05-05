@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The $21,800-Per-Second War: What Iran Is Costing America | WarCosts',
-  description: 'Pentagon told Congress: $11.3 BILLION in the first 6 days. That\'s $1.88 billion per day. $78.3 million per hour. $1.3 million per minute. $21,800 per second. Every Tomahawk, every B-2 sortie, every interceptor — priced, sourced, and compared to what that money could buy at home.',
+  title: 'The $21,800-Per-Second War: Iran Cost Tracker',
+  description: 'Pentagon confirmed: $11.3B in 6 days. $1.88B per day. $78.3M per hour. $21,800 per second. Every dollar of Epic Fury tracked.',
   openGraph: {
     title: 'The $21,800-Per-Second War: What Iran Is Costing America',
     description: 'Pentagon confirmed: $11.3B in 6 days. $1.88 billion per day. $78.3 million per hour. $21,800 per second. Updated March 12, 2026.',

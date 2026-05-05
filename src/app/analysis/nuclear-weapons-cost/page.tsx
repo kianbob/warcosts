@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The US Nuclear Arsenal: $756 Billion Over the Next Decade | WarCosts.org',
-  description: 'The US plans to spend $756 billion on nuclear weapons over the next decade — $1.7 trillion over 30 years. 5,044 warheads, new ICBMs, subs, and bombers. The full accounting.',
+  title: 'US Nuclear Arsenal: $756B Over the Next Decade',
+  description: '$756B over 10 years. $1.7T over 30 years. 5,044 warheads. New ICBMs, subs, and bombers. The full nuclear accounting.',
   openGraph: {
     title: 'The US Nuclear Arsenal: $756 Billion Over the Next Decade',
     description: '$756B over 10 years. $1.7T over 30 years. 5,044 warheads. Each one costs $3M/year to maintain. The price of nuclear deterrence.',

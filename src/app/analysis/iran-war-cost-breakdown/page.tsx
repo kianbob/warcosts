@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'How Much Has the Iran War Cost? A Day-by-Day Breakdown — WarCosts.org',
-  description: 'A detailed cost breakdown of Operation Epic Fury: $11.3B in 6 days, $16.5B through Day 12, and a $200B Pentagon request to Congress. Tomahawks, B-2 sorties, carrier groups — every dollar tracked.',
+  title: 'Iran War Cost: A Day-by-Day Breakdown',
+  description: 'Pentagon confirmed $11.3B in 6 days. $16.5B through Day 12. $200B requested from Congress. Every dollar of Epic Fury tracked.',
   keywords: ['iran war cost', 'how much iran war cost', 'operation epic fury cost', 'iran war spending', 'iran war budget', 'iran war military spending'],
   openGraph: {
     title: 'How Much Has the Iran War Cost? A Day-by-Day Breakdown',

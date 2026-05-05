@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'How the Iran War Compares to Iraq and Afghanistan at Day 49 — WarCosts.org',
-  description: 'At Day 49, the Iran war has already cost more than the entire first year of Iraq. Here\'s how Operation Epic Fury stacks up against America\'s 21st-century wars.',
+  title: 'Iran vs Iraq vs Afghanistan: War Cost Comparison',
+  description: '$92B in 49 days vs $53B for Iraq\'s entire first year. Operation Epic Fury is on a different scale entirely.',
   keywords: ['iran war comparison', 'iran vs iraq cost', 'iran vs afghanistan', 'war cost comparison 2026', 'operation epic fury vs iraq'],
   openGraph: {
     title: 'How the Iran War Compares to Iraq and Afghanistan at Day 49',

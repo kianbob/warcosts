@@ -8,7 +8,7 @@ import { getReadingTimeFromWordCount } from '@/lib/reading-time'
 
 export const metadata: Metadata = {
   title: 'Blowback — The Concept That Explains Everything',
-  description: 'The CIA coined "blowback" for unintended consequences of covert operations. Iran 1953→1979. Afghanistan→9/11. Iraq→ISIS. The pattern never breaks.',
+  description: 'The CIA coined "blowback" for unintended consequences. Iran 1953→1979. Afghanistan→9/11. Iraq→ISIS. The pattern never breaks.',
   openGraph: {
     title: 'Blowback — The Concept That Explains Everything',
     description: 'Iran 1953→1979. Afghanistan→9/11. Iraq→ISIS. Libya→Failed State. Every intervention creates the next crisis.',

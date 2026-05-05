@@ -5,8 +5,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'War and Debt: How Every American War Was Financed by Borrowing',
-  description: '$8 trillion added to the national debt since 9/11. Interest on war debt now exceeds the entire education budget. Every major American war was paid for with borrowed money — and the bill keeps growing.',
+  title: 'War and Debt: $8 Trillion Borrowed Since 9/11',
+  description: '$8T added to national debt since 9/11. Interest on war debt exceeds the education budget. Every war paid with borrowed money.',
   openGraph: {
     title: 'War and Debt: $8 Trillion Borrowed Since 9/11',
     description: 'Every major American war was financed by borrowing. The interest alone now exceeds the education budget.',

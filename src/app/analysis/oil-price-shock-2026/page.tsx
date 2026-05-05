@@ -7,8 +7,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: '$116 Oil and Counting: How the Iran War Is Hitting Your Wallet | WarCosts',
-  description: 'Brent crude surged from $82 pre-war to $119.50 peak. The Strait of Hormuz carries 20% of global oil. Gas prices soaring. The Iran war is the most expensive foreign policy decision since Iraq — and you\'re paying for it at the pump.',
+  title: '$116 Oil: How the Iran War Hits Your Wallet',
+  description: 'Brent crude surged from $82 to $119.50. Hormuz blocked. Gas prices soaring. The Iran war is the costliest foreign policy since Iraq.',
   openGraph: {
     title: '$116 Oil and Counting: How the Iran War Is Hitting Your Wallet',
     description: 'From $82 to $119. Hormuz blocked. Gas prices soaring. Every foreign war comes home through the gas pump.',

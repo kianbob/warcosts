@@ -9,7 +9,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'What $11.6 Trillion Could Have Bought Instead of War',
-  description: 'America has spent $11.6 trillion on war. That could have paid for universal healthcare for 20 years, free college for 100 years, or clean water for every person on Earth for 400 years.',
+  description: '$11.6T on war could have paid for universal healthcare for 20 years, free college for 100 years, or clean water for Earth for 400 years.',
   openGraph: {
     title: 'What $11.6 Trillion Could Have Bought Instead of War',
     description: '$11.6T on war. Or: 20 years of universal healthcare. 100 years of free college. 400 years of clean water for Earth.',

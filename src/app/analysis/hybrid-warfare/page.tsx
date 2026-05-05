@@ -7,7 +7,7 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
   title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition',
-  description: 'Russia\'s "little green men" in Crimea. China\'s artificial islands. Iran\'s proxy network with 100K+ Hezbollah rockets. How hybrid warfare makes democratic response impossible.',
+  description: 'Russia\'s "little green men" in Crimea. China\'s artificial islands. Iran\'s 100K+ Hezbollah rockets. War without declaring it.',
   openGraph: {
     title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition',
     description: 'Crimea, election interference, artificial islands, proxy armies. The new way to wage war without declaring it.',

@@ -7,8 +7,8 @@ import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Presidents at War — Ranking Every War President by Cost & Deaths',
-  description: 'Which presidents started the most wars, spent the most money, and caused the most deaths? A complete ranking of every US president who waged war.',
+  title: 'Presidents at War: Every War President Ranked',
+  description: 'Which presidents started the most wars, spent the most, and caused the most deaths? A complete ranking of every US war president.',
   openGraph: {
     title: 'Presidents at War — Every War President Ranked',
     description: 'Bush Jr: $4.3 trillion. Truman: 239,000 dead. Every president promised peace. Most delivered war.',

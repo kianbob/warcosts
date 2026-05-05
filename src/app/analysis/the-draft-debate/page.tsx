@@ -5,8 +5,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Draft Debate: Conscription, the All-Volunteer Force, and Who Really Fights America\'s Wars',
-  description: 'From Civil War conscription riots to Vietnam draft inequality to today\'s all-volunteer force, the question of who fights has always been a question of who has power and who doesn\'t.',
+  title: 'The Draft Debate: Who Really Fights Our Wars?',
+  description: 'Civil War conscription riots to Vietnam inequality to today\'s all-volunteer force. Who fights has always been about power.',
   openGraph: {
     title: 'The Draft Debate: Who Fights America\'s Wars?',
     description: 'Vietnam deferments for the wealthy. An all-volunteer force drawn from the poorest counties. The draft question reveals who America values.',

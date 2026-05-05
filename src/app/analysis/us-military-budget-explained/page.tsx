@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The US Military Budget Explained: Where $886 Billion Goes | WarCosts.org',
-  description: 'A complete breakdown of the $886 billion US defense budget — personnel, operations, procurement, R&D, and what it means per taxpayer. The US spends more than the next 10 countries combined.',
+  title: 'US Military Budget Explained: Where $886B Goes',
+  description: '$886B defense budget broken down: personnel, operations, procurement, R&D. More than the next 10 countries combined.',
   openGraph: {
     title: 'The US Military Budget Explained: Where $886 Billion Goes',
     description: '$886 billion. $28,095 per second. More than the next 10 countries combined. Here\'s where every dollar goes.',

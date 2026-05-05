@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Iran War Casualties: A Complete Tracker — WarCosts.org',
-  description: 'Complete casualty tracker for Operation Epic Fury. 3,300+ killed in Iran, 1,110+ in Lebanon, 15 US dead, 303 US wounded. Updated daily with sourced numbers from HRANA, Pentagon, and health ministries.',
+  title: 'Iran War Casualties: Complete Tracker',
+  description: '3,300+ killed in Iran, 1,110+ in Lebanon, 15 US dead, 303 US wounded. Updated daily from HRANA, Pentagon, and health ministries.',
   keywords: ['iran war casualties', 'iran war death toll', 'operation epic fury casualties', 'iran civilian deaths', 'iran war killed'],
   openGraph: {
     title: 'Iran War Casualties: A Complete Tracker',

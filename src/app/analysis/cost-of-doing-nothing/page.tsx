@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'What If We\'d Done Nothing? The Counterfactual Cost of War',
-  description: 'Vietnam, Iraq, Afghanistan, Libya — what if the US hadn\'t intervened? The domino theory was wrong. No WMDs were found. The Taliban came back. A data-driven analysis of war vs. inaction.',
+  description: 'Vietnam, Iraq, Afghanistan, Libya — what if the US hadn\'t intervened? Dominos didn\'t fall. No WMDs. Taliban came back.',
   openGraph: {
     title: 'What If We\'d Done Nothing? The Counterfactual Cost of War',
     description: 'Every US intervention costs more and achieves less than predicted. What if we\'d just... not?',

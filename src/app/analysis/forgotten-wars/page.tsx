@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { DeathComparisonChart, BombingChart, AwarenessChart } from './ForgottenCharts'
 
 export const metadata: Metadata = {
-  title: 'Forgotten Wars: The Conflicts Americans Don\'t Remember | WarCosts',
-  description: 'The Korean War killed 36,574 Americans. The Philippine-American War killed up to 1 million Filipinos. Laos is the most bombed country per capita in history. Most Americans have never heard of them.',
+  title: 'Forgotten Wars: Conflicts Americans Don\'t Remember',
+  description: 'Korean War: 36,574 dead. Philippine War: 1M Filipinos killed. Laos: most bombed country per capita. Most Americans never heard of them.',
   openGraph: {
     title: 'Forgotten Wars: The Conflicts Americans Don\'t Remember',
     description: 'Korean War, Philippine-American War, Banana Wars, Laotian Secret War — wars that shaped the world but disappeared from memory.',

@@ -7,8 +7,8 @@ import { loadData } from '@/lib/server-utils'
 import { fmt, fmtMoney } from '@/lib/utils'
 
 export const metadata: Metadata = {
-  title: 'Base Nation: Why Does America Have 750 Military Bases Overseas?',
-  description: '750+ overseas bases in 80+ countries. $55B+/year. No other country has more than 30. The story of America\'s global military empire — from Okinawa to Diego Garcia.',
+  title: 'Base Nation: 750 Military Bases Overseas',
+  description: '750+ overseas bases in 80+ countries. $55B+/year. No other country has more than 30. America\'s global military empire.',
   openGraph: {
     title: 'Base Nation: Why Does America Have 750 Military Bases Overseas?',
     description: '750+ bases in 80+ countries. $55B/year. The largest military footprint in human history.',

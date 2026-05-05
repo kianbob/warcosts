@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { SecrecyCharts } from './SecrecyCharts'
 
 export const metadata: Metadata = {
-  title: 'The Black Budget: $23 Trillion in Unaccounted Pentagon Spending',
-  description: 'The Pentagon has failed 6 consecutive audits. $23 trillion in unaccounted transactions. A $90B+ black budget. CIA black sites. Classification as a weapon against accountability.',
+  title: '$23 Trillion in Unaccounted Pentagon Spending',
+  description: '6 failed audits. $23T in unaccounted transactions. $90B+ black budget. CIA black sites. Secrecy weaponized against accountability.',
   openGraph: {
     title: 'The Black Budget: $23 Trillion in Unaccounted Pentagon Spending',
     description: 'Failed audits, black budgets, and $23T in unaccountable spending. The cost of secrecy.',

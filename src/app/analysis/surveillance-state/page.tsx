@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 
 export const metadata: Metadata = {
-  title: 'The Surveillance State — How the War on Terror Destroyed the 4th Amendment',
-  description: 'NSA collects ALL phone metadata. PRISM. XKeyscore. 278,000 warrantless FBI searches. $80B+ intelligence budget. 854,000 top secret clearances. The 4th Amendment is dead.',
+  title: 'Surveillance State: War on Terror Killed the 4th',
+  description: 'NSA collects ALL phone metadata. PRISM. XKeyscore. 278,000 warrantless FBI searches. $80B+ intelligence budget. 4th Amendment is dead.',
   openGraph: {
     title: 'The Surveillance State — How the War on Terror Destroyed the 4th Amendment',
     description: 'The War on Terror built a domestic surveillance empire that monitors every American. Ben Franklin warned us.',

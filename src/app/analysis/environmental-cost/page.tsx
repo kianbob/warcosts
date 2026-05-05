@@ -7,8 +7,8 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: "The Environmental Cost of War: Burn Pits, Depleted Uranium & the Pentagon's Toxic Legacy",
-  description: '3.5M veterans exposed to burn pits. Depleted uranium in Iraq. Agent Orange still killing in Vietnam. The Pentagon is the world\'s largest institutional polluter.',
+  title: "Environmental Cost of War: The Pentagon's Toxic Legacy",
+  description: '3.5M veterans exposed to burn pits. Depleted uranium in Iraq. Agent Orange still killing. The Pentagon is the world\'s largest polluter.',
   openGraph: {
     title: "War's Environmental Destruction",
     description: 'Burn pits, depleted uranium, Agent Orange, nuclear testing. The Pentagon is the world\'s largest polluter.',

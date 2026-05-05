@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { VietnamDraftChart, Project100kChart, GeographicChart, IncomeChart, CongressKidsChart, ContractorChart } from './DraftCharts'
 
 export const metadata: Metadata = {
-  title: 'The Draft & Inequality: Who Fights America\'s Wars? | WarCosts',
-  description: '80% of Vietnam combatants came from poor/working-class families. McNamara\'s Project 100,000 sent men with low test scores to die at twice the rate. Today\'s "all-volunteer" military is a poverty draft by another name.',
+  title: 'Draft & Inequality: Who Fights America\'s Wars?',
+  description: '80% of Vietnam combatants from poor families. Project 100,000 sent low-scoring men to die at 2x the rate. Today\'s poverty draft.',
   openGraph: {
     title: 'The Draft & Inequality: Who Fights America\'s Wars?',
     description: 'Vietnam draft inequity, Project 100,000, the poverty draft, and who actually bears the cost of war.',

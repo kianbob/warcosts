@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Iran War vs Iraq War: A Side-by-Side Comparison — WarCosts.org',
-  description: 'How does the Iran war compare to Iraq? Cost, casualties, coalition size, congressional authorization, oil impact, and more — a comprehensive side-by-side analysis.',
+  title: 'Iran War vs Iraq War: Side-by-Side Comparison',
+  description: 'Iran is 4x the size of Iraq with 3x the population. The war is already 5x more expensive per day. A complete comparison.',
   keywords: ['iran war vs iraq war', 'iran iraq comparison', 'iran iraq war differences', 'operation epic fury vs operation iraqi freedom'],
   openGraph: {
     title: 'Iran War vs Iraq War: A Side-by-Side Comparison',

@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: '750 US Military Bases in 80 Countries: The Empire Map | WarCosts.org',
-  description: 'The US maintains roughly 750 military bases across 80 countries — more than any empire in history. Annual cost: $55 billion+. Here\'s the complete picture.',
+  title: '750 US Military Bases in 80 Countries: The Map',
+  description: '750 bases across 80 countries — more than any empire in history. Annual cost: $55B+. The complete picture of US military power.',
   openGraph: {
     title: '750 US Military Bases in 80 Countries: The Empire Map',
     description: '750 bases. 80 countries. $55B/year. No other nation comes close. The map of American military power.',

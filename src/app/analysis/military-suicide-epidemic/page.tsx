@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Military Suicide Epidemic: More Die by Suicide Than in Combat',
-  description: 'The "22 a day" stat is wrong — it\'s actually 17.5. But that\'s still more than combat deaths in most years. Since 9/11, over 30,000 veterans have killed themselves. The VA has spent billions and the rate hasn\'t dropped.',
+  title: 'Military Suicide Epidemic: More Die Than in Combat',
+  description: 'The "22 a day" stat is wrong — it\'s 17.5. Still more than combat deaths most years. 30,000+ veteran suicides since 9/11.',
   openGraph: {
     title: 'The Military Suicide Epidemic: 30,000+ Dead Since 9/11',
     description: 'More veterans die by suicide than in combat. 17.5 per day. $15B+ spent on prevention. The rate hasn\'t dropped. What\'s actually happening.',

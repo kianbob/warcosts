@@ -9,8 +9,8 @@ import BackToTop from '@/components/BackToTop'
 import ConflictsClient from './ConflictsClient'
 
 export const metadata: Metadata = {
-  title: 'All US Wars & Military Conflicts — 248 Years of War | WarCosts',
-  description: 'Complete database of all 37 American wars, military interventions, and covert operations from 1775 to present. Filter by era, type, outcome. Costs, casualties, and outcomes.',
+  title: 'List of All US Wars & Military Conflicts | WarCosts',
+  description: 'Complete database of 469 US wars and military interventions from 1775 to 2026. Filter by era, cost, casualties, and outcome.',
   alternates: { canonical: 'https://www.warcosts.org/conflicts' },
   openGraph: {
     title: 'All US Wars & Military Conflicts',

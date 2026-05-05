@@ -8,8 +8,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'What Will Iran Cost? Projecting the Price of Operation Epic Fury',
-  description: 'Iraq cost $2.4 trillion for 26 million people. Afghanistan cost $2.3 trillion for 38 million. Iran has 88 million people, a real military, and the Strait of Hormuz. The bill could reach $5-10 trillion.',
+  title: 'What Will Iran Cost? Projecting War Expenses',
+  description: 'Iraq: $2.4T for 26M people. Afghanistan: $2.3T for 38M. Iran has 88M people, a real military, and Hormuz. Bill: $5-10T.',
   openGraph: {
     title: 'What Will Iran Cost? Projecting the Price of Operation Epic Fury',
     description: 'Iraq: $2.4T. Afghanistan: $2.3T. Iran: 88M people, real military, Strait of Hormuz. Project cost: $5-10T.',

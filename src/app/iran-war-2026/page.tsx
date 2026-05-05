@@ -6,9 +6,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Operation Epic Fury: Live Tracker | WarCosts',
+  title: 'Iran War 2026 Cost — Live Tracker | WarCosts',
   description:
-    'Live dashboard tracking Operation Epic Fury. Day count, casualties, cost ticker, oil prices, Strait of Hormuz status. The one page to bookmark for the Iran war.',
+    'Live dashboard tracking the 2026 Iran war. Day count, casualties, cost ticker, oil prices, and Strait of Hormuz status. Updated daily.',
   keywords: [
     'Iran war 2026',
     'Operation Epic Fury',

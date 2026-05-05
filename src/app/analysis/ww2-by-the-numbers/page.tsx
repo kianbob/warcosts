@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'WWII By the Numbers: $4.1 Trillion, 405,000 Dead & the War That Made America an Empire',
-  description: 'World War II cost the United States $4.1 trillion in 2024 dollars, killed 405,399 Americans, and transformed the country from a republic into a global military empire. The most expensive war in human history.',
+  title: 'WWII By the Numbers: $4.1T & 405,000 US Dead',
+  description: '$4.1T in 2024 dollars. 405,399 US dead. 70-85M worldwide. The war that built the American century and made us an empire.',
   openGraph: {
     title: 'WWII By the Numbers: The Most Expensive War in History',
     description: '$4.1 trillion. 405,399 US dead. 70-85 million worldwide. The war that built and broke the American century.',

@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { ContractorGrowthChart, CostComparisonChart, ContractorDeathsChart, ContractSpendingChart, TopContractorsChart } from './PMCCharts'
 
 export const metadata: Metadata = {
-  title: 'Private Military Contractors: Blackwater, Nisour Square & the Privatization of War',
-  description: 'Blackwater massacred 17 Iraqi civilians at Nisour Square. 8,000+ contractors died in Iraq/Afghanistan. DynCorp trafficking scandal. Erik Prince and the revolving door. Zero accountability.',
+  title: 'Private Military Contractors: The Privatization of War',
+  description: 'Blackwater\'s Nisour Square massacre. 8,000+ contractors died. DynCorp trafficking scandal. Erik Prince\'s revolving door. No accountability.',
   openGraph: {
     title: 'Private Military Contractors: The Privatization of War',
     description: '207,000 contractors. 8,000+ deaths excluded from casualty counts. Nisour Square massacre. DynCorp trafficking. Zero accountability.',

@@ -8,7 +8,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'The Families Left Behind — The Hidden Cost of War',
-  description: '7,057 troops killed. 30,177 veteran suicides. 52,000+ wounded. Military divorce, child trauma, spouse unemployment. 1% serve; 99% have no skin in the game.',
+  description: '7,057 troops killed. 30,177 veteran suicides. 52,000+ wounded. Military divorce, child trauma, spouse unemployment. 1% serve; 99% don\'t.',
   openGraph: {
     title: 'The Families Left Behind: The Hidden Cost of War',
     description: '30,177 veteran suicides since 9/11 — 4x combat deaths. The cost nobody counts.',

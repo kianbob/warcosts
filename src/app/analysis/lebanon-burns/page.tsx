@@ -7,8 +7,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'While Lebanon Burns: America\'s $22 Billion Blank Check | WarCosts',
-  description: '$21.7B in US military aid funded the destruction of a country already in economic collapse. 4,047+ killed. $14B in damage. No American troops. No American security interest. Just American weapons.',
+  title: 'Lebanon Burns: America\'s $22 Billion Blank Check',
+  description: '$21.7B in US military aid funded the destruction of Lebanon. 4,047+ killed. $14B damage. No US troops. No US security interest.',
   openGraph: {
     title: 'While Lebanon Burns: America\'s $22 Billion Blank Check',
     description: 'US taxpayers funded $14 billion in destruction to a country with an $18 billion GDP. The Lebanon front of America\'s proxy wars.',

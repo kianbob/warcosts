@@ -9,8 +9,8 @@ import ShareButtons from '@/components/ShareButtons'
 
 
 export const metadata: Metadata = {
-  title: 'US Military Spending — $886B/Year, More Than Next 10 Countries Combined',
-  description: 'Track US military spending from WWII to today. Currently $886 billion per year — more than the next 10 countries combined. Pentagon never passed an audit.',
+  title: 'US Military Spending by Year — $886B in 2024',
+  description: 'Track US military spending from WWII to today. $886 billion per year — more than the next 10 countries combined. Interactive charts with SIPRI data.',
   openGraph: {
     title: 'US Military Spending — $886B and Counting',
     description: 'Track every dollar of US military spending from 1949 to 2024. SIPRI data, GDP percentages, decade trends, and what the money could have bought instead.',

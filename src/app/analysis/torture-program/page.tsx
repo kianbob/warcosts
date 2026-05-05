@@ -7,8 +7,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import { DetaineeChart, TortureTimelineChart, TechniqueChart, AccountabilityChart, BlackSitesTable } from './TortureCharts'
 
 export const metadata: Metadata = {
-  title: 'America\'s Torture Program: Black Sites, Waterboarding & Zero Accountability',
-  description: 'The CIA tortured at least 119 detainees across black sites in Poland, Thailand, Romania, and beyond. 266 waterboardings. Rectal feeding. The Senate confirmed it produced zero useful intelligence. Nobody was prosecuted.',
+  title: 'America\'s Torture Program: Black Sites & Lies',
+  description: '119+ detainees tortured across black sites in 7+ countries. 266 waterboardings. Senate confirmed it produced zero intelligence. No prosecutions.',
   openGraph: {
     title: 'America\'s Torture Program: Black Sites, Waterboarding & Zero Accountability',
     description: '119+ detainees tortured. Black sites in 7+ countries. Zero prosecutions. The Senate Torture Report confirmed it was all for nothing.',

@@ -10,8 +10,8 @@ import { SpendingAreaChart } from '@/components/charts/SpendingCharts'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'US Military Spending — $886 Billion in 2024',
-  description: 'The United States spends $886 billion per year on defense — more than the next 10 countries combined. $2,600 per American. 53% of discretionary spending. Full breakdown with historical data, hidden costs, and global comparisons.',
+  title: 'How Much Does the US Spend on Military? $886B',
+  description: 'The US spends $886 billion per year on defense — $2,600 per American, 53% of discretionary spending. Full breakdown with global comparisons.',
   keywords: ['us military spending', 'defense spending', 'military budget', 'pentagon budget', 'how much does us spend on military', 'military spending by country', 'defense budget breakdown'],
   openGraph: {
     title: 'US Military Spending — $886 Billion Per Year',

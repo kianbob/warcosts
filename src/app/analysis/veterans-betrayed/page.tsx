@@ -9,8 +9,8 @@ import RelatedArticles from '@/components/RelatedArticles'
 import { SuicideChart, HomelessChart, WaitTimesChart, DenialTimelineChart } from './VeteransCharts'
 
 export const metadata: Metadata = {
-  title: 'Veterans Betrayed: 17 Suicides a Day, 37,000 Homeless & the VA\'s Broken Promises',
-  description: '17 veteran suicides per day. 37,000+ homeless veterans. The VA wait time scandal. Agent Orange denial. Burn pit denial. Gulf War Syndrome denial. America sends them to war and forgets them when they come home.',
+  title: 'Veterans Betrayed: 17 Suicides, 37K Homeless',
+  description: '17 suicides/day. 37,000+ homeless. Agent Orange denial. Burn pit denial. Gulf War Syndrome denial. Sent to war, then forgotten.',
   openGraph: {
     title: 'Veterans Betrayed: How America Treats Its Warriors',
     description: '17 suicides/day. 37,000 homeless. Decades of denial. The broken promises to those who served.',

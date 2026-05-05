@@ -4,7 +4,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The China Trap: How the Middle East Keeps Derailing the Pivot to Asia | WarCosts',
+  title: 'The China Trap: Middle East Derails the Asia Pivot',
   description: 'Every president since Obama tried to pivot to Asia. All failed. China built $1T in trade infrastructure while the US spent $8T bombing the Middle East.',
   alternates: { canonical: 'https://www.warcosts.org/analysis/china-pivot' },
 }

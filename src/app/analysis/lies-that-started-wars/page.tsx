@@ -8,8 +8,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import { TruthDelayChart, DeathsByLieChart, MediaComplicityChart, LieTimelineChart } from './LiesCharts'
 
 export const metadata: Metadata = {
-  title: 'Lies That Started Wars: Gulf of Tonkin, WMDs, Nayirah & the Pattern of Deception',
-  description: 'Gulf of Tonkin was fabricated. WMDs didn\'t exist. Nayirah\'s testimony was staged. USS Maine was an accident. Every war starts with a lie. The pattern from 1898 to 2003.',
+  title: 'Lies That Started Wars: Tonkin, WMDs & More',
+  description: 'Gulf of Tonkin was fabricated. WMDs didn\'t exist. Nayirah testimony was staged. USS Maine was an accident. Every war starts with a lie.',
   openGraph: {
     title: 'Lies That Started Wars: From USS Maine to WMDs',
     description: 'Gulf of Tonkin, WMDs, Nayirah testimony, USS Maine, Lusitania — a comprehensive catalog of the lies that sent millions to die.',

@@ -8,8 +8,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Nuclear Close Calls: How Close We\'ve Come to the End of the World',
-  description: 'Cuban Missile Crisis. Able Archer 83. Stanislav Petrov. The Norwegian rocket incident. B-59 submarine. At least 22 times, the world came within minutes of nuclear war.',
+  title: 'Nuclear Close Calls: How Close We\'ve Come',
+  description: 'Cuban Missile Crisis. Able Archer 83. Stanislav Petrov. B-59 submarine. At least 22 times, the world was minutes from nuclear war.',
   openGraph: {
     title: 'Nuclear Close Calls: How Close We\'ve Come to the End of the World',
     description: 'At least 22 documented incidents where nuclear war was minutes away. The history no one teaches.',

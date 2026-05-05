@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Operation Epic Fury: The War Congress Never Authorized — WarCosts.org',
-  description: 'No congressional vote. Announced via Truth Social at 2:30am. Senate voted 53-47 against the War Powers Resolution. A constitutional analysis of America\'s unauthorized $200B war with Iran.',
+  title: 'Iran War: The War Congress Never Authorized',
+  description: 'Announced on Truth Social at 2:30am. No congressional vote. Senate killed the War Powers Resolution 53-47. A $200B unauthorized war.',
   keywords: ['iran war congressional authorization', 'war powers iran', 'operation epic fury authorization', 'war powers resolution iran', 'congress iran war'],
   openGraph: {
     title: 'Operation Epic Fury: The War Congress Never Authorized',

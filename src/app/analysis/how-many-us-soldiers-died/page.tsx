@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'How Many US Soldiers Have Died in War? Every Conflict Counted | WarCosts.org',
-  description: 'A complete accounting of American military deaths across every war: 1.03 million combat deaths from the Revolution to the War on Terror. Every conflict, every number.',
+  title: 'How Many US Soldiers Died in War? Every Conflict',
+  description: '1.03 million combat deaths from the Revolution to the War on Terror. A complete accounting of every war, every number.',
   openGraph: {
     title: 'How Many US Soldiers Have Died in War? Every Conflict Counted',
     description: '1.03 million combat deaths. From the Revolution to the War on Terror. Every war. Every number.',

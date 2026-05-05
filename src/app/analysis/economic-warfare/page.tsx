@@ -7,8 +7,8 @@ import ArticleJsonLd from '@/components/ArticleJsonLd'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Economic Warfare — Sanctions, SWIFT, and the Weaponized Dollar',
-  description: 'CHIPS Act: $52B. Frozen Russian assets: $300B. SWIFT weaponization. Dollar hegemony. De-dollarization. Crypto as sanctions evasion. Economic coercion is still coercion.',
+  title: 'Economic Warfare: Sanctions, SWIFT & the Dollar',
+  description: 'Frozen Russian assets: $300B. SWIFT weaponized. $52B CHIPS Act. 80% of global trade in dollars. Economic coercion is still coercion.',
   openGraph: {
     title: 'Economic Warfare — Sanctions, SWIFT, and the Weaponized Dollar',
     description: '$300B in frozen Russian assets. $52B CHIPS Act. 80% of global trade in dollars. Economic weapons may be more destructive than bombs.',

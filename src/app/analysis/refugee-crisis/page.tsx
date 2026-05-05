@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { RefugeeCharts } from './RefugeeCharts'
 
 export const metadata: Metadata = {
-  title: 'America\'s Wars Create Refugees — Then America Refuses Them',
-  description: '38 million displaced by the War on Terror. 13.5 million Syrian refugees. 6 million Afghan refugees. America destroys countries, creates refugees, then closes the door.',
+  title: 'America\'s Wars Create Refugees, Then Refuse Them',
+  description: '38M displaced by the War on Terror. 13.5M Syrian refugees. 6M Afghan refugees. America creates crises, then closes the door.',
   openGraph: {
     title: 'America\'s Wars Create Refugees — Then America Refuses Them',
     description: '38 million displaced by post-9/11 wars. The hypocrisy of creating crises and refusing their victims.',

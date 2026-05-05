@@ -6,8 +6,8 @@ import RelatedArticles from '@/components/RelatedArticles'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Cost of War on Terror: $8+ Trillion Total (Brown University) | WarCosts',
-  description: 'The War on Terror has cost $8+ trillion since 2001, according to Brown University\'s Costs of War Project. Complete breakdown of spending across all operations and countries.',
+  title: 'Cost of War on Terror: $8+ Trillion Since 2001',
+  description: 'The War on Terror has cost $8+ trillion, killed 900,000+, and displaced 37 million. Brown University data breakdown across all operations.',
   keywords: ['cost of war on terror', 'war on terror spending', 'post-9/11 wars cost', 'Brown University costs of war', 'global war on terror cost'],
   openGraph: {
     title: 'Cost of War on Terror: $8+ Trillion Total (Brown University)',

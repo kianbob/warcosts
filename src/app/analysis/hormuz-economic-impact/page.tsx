@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Strait of Hormuz Crisis: Global Economic Fallout — WarCosts.org',
-  description: 'How Iran\'s closure of the Strait of Hormuz is devastating the global economy. 20% of world oil, 20% of LNG, oil at $108+, gas past $5 in California. The worst energy crisis since 1973.',
+  title: 'Hormuz Crisis: Global Economic Fallout',
+  description: 'Iran closed the Strait of Hormuz. 20% of world oil, 20% of LNG blocked. Oil at $108+. Gas past $5 in California. Worst since 1973.',
   keywords: ['strait of hormuz crisis', 'hormuz economic impact', 'oil price iran war', 'hormuz oil', 'iran oil crisis', 'energy crisis 2026'],
   openGraph: {
     title: 'The Strait of Hormuz Crisis: Global Economic Fallout',

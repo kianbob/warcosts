@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar | WarCosts',
-  description: '3,519+ killed, 1,607+ civilians, 244+ children. 70,000+ residential units damaged. 300 health facilities, 600 schools, 120+ cultural sites hit. This is what "precision strikes" look like. Updated April 4, 2026 (Day 35).',
+  title: 'Iran Civilian Cost: Schools, Hospitals, Bazaars',
+  description: '3,519+ killed, 1,607+ civilians, 244+ children. 70,000+ homes damaged. 300 health facilities, 600 schools hit. "Precision strikes."',
   openGraph: {
     title: 'The Civilian Cost: Schools, Hospitals, and the Grand Bazaar',
     description: '3,519+ killed. 1,607+ civilians. 244+ children. 70,000+ homes damaged. 300 health facilities. 600 schools. Pasteur Institute destroyed. Updated Day 35.',

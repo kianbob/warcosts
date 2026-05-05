@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Cost of the Gulf War: The "Cheap War" That Led to a $3 Trillion Sequel',
-  description: 'The 1991 Gulf War cost $102 billion — but allies paid most of it. The real costs were Gulf War Syndrome, 12 years of sanctions, and the road to Iraq 2003. The cheap war that wasn\'t.',
+  title: 'The Gulf War: The \'Cheap War\' That Cost $3 Trillion',
+  description: '1991 Gulf War cost $102B but allies paid most. Real costs: Gulf War Syndrome, sanctions, and the road to Iraq 2003.',
   openGraph: {
     title: 'The Gulf War: The "Cheap War" That Led to $3 Trillion in Sequels',
     description: '$102B sticker price, but allies paid 88%. The real costs: 700,000 sick veterans, 500,000 dead Iraqi children, and a $3T sequel.',

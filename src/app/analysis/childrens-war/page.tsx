@@ -8,8 +8,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import { ChildDeathsChart, ChildSoldiersChart, PTSDChart, DroneChildrenChart } from './ChildrensWarCharts'
 
 export const metadata: Metadata = {
-  title: "Children's War: 400,000+ Children Killed in America's Post-9/11 Wars",
-  description: '400,000+ children killed. 250,000 child soldiers worldwide. School bombings. Drone strikes on families. 72% PTSD rate in Gaza children. War devours the youngest first.',
+  title: "Children's War: 400,000+ Killed in Post-9/11 Wars",
+  description: '400,000+ children killed. 250,000 child soldiers worldwide. School bombings. Drone strikes on families. War devours the youngest.',
   openGraph: {
     title: "Children's War: The Youngest Casualties",
     description: '400,000+ children dead in post-9/11 wars. Child soldiers. School bombings. Drone strikes on families. The war on childhood.',

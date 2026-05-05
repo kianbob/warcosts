@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Lebanon Under Fire Again: The 2026 War Nobody Asked For | WarCosts',
-  description: 'Israel escalates against Hezbollah starting March 2, 2026, as part of the wider Iran conflict. 1,100+ killed in Lebanon, 3,100+ wounded, 1M+ displaced. Another open-ended commitment with no exit strategy.',
+  title: 'Lebanon 2026: The War Nobody Asked For',
+  description: 'Israel escalates against Hezbollah as part of the Iran conflict. 1,100+ killed, 3,100+ wounded, 1M+ displaced. No exit strategy.',
   openGraph: {
     title: 'Lebanon Under Fire Again: The 2026 War Nobody Asked For',
     description: '1,100+ killed. 3,100+ wounded. 1M+ displaced. Israel\'s third Lebanon war in 20 years — and American taxpayers are paying for it.',

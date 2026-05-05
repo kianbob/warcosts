@@ -6,8 +6,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Pentagon\'s Carbon Bootprint — World\'s Largest Institutional Polluter',
-  description: 'The US military emits 56 million metric tons of CO₂ per year, burns 4.6 billion gallons of fuel, and has contaminated 700+ bases with PFAS. War is environmental destruction.',
+  title: 'Pentagon\'s Carbon Bootprint: Largest Polluter',
+  description: '56 million metric tons of CO₂/year. 4.6 billion gallons of fuel burned. 700+ bases contaminated with PFAS. War is environmental destruction.',
   keywords: ['pentagon climate', 'military pollution', 'military carbon footprint', 'DOD emissions', 'burn pits', 'PFAS military'],
   openGraph: {
     title: 'The Pentagon\'s Carbon Bootprint',

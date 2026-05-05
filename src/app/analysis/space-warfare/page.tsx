@@ -8,7 +8,7 @@ import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Space Warfare — Militarizing the Final Frontier',
-  description: 'Space Force: $26B budget. ASAT tests creating thousands of debris pieces. GPS military dependency. Starlink as a weapon. X-37B secret space plane. The weaponization of orbit.',
+  description: 'Space Force: $26B budget. ASAT tests creating debris. GPS military dependency. Starlink as weapon. X-37B secret space plane. Orbit weaponized.',
   openGraph: {
     title: 'Space Warfare — Militarizing the Final Frontier',
     description: 'The US Space Force costs $26B/year while 42,000 bridges are structurally deficient. Welcome to the new arms race.',

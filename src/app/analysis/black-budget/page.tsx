@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Black Budget: $90 Billion in Secret Spending the Government Won\'t Explain',
-  description: 'The US intelligence community spends $90+ billion per year on classified programs. The CIA, NSA, and NRO operate with minimal oversight. Snowden revealed the scope. Congress barely blinks.',
+  title: 'The Black Budget: $90B in Secret Spending',
+  description: '$90B+ per year on classified programs. CIA, NSA, NRO with minimal oversight. Snowden revealed the scope. Congress barely blinks.',
   openGraph: {
     title: 'The Black Budget: America\'s $90 Billion Secret',
     description: '$90B+ in classified spending. 18 intelligence agencies. No meaningful oversight. What the government hides from the people who pay for it.',

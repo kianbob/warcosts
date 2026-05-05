@@ -9,8 +9,8 @@ import FaqJsonLd from '@/components/FaqJsonLd'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Defense Budget Breakdown — $886B in FY2024',
-  description: 'Where every dollar of the $886 billion defense budget goes. Service branch shares, black budget, nuclear weapons, intelligence ($90B+), VA ($325B+), total national security cost ($1.4T+). How the budget process works, NDAA explained.',
+  title: 'US Defense Budget Breakdown — $886B in FY2024',
+  description: 'Where every dollar of the $886B defense budget goes. Service branches, black budget, nuclear weapons, intelligence ($90B+), and total cost ($1.4T+).',
   keywords: ['defense budget', 'us defense budget', 'pentagon budget', 'military budget 2024', 'defense spending breakdown', 'NDAA', 'defense budget 2025'],
   openGraph: {
     title: 'The Defense Budget — $886B in FY2024',

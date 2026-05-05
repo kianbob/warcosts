@@ -8,8 +8,8 @@ import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
-  title: 'From 9/11 to Forever War — How 19 Hijackers Changed America',
-  description: '2,977 deaths on 9/11 → $8 trillion spent, 900,000+ killed, 38 million displaced, civil liberties gutted. The 60-word AUMF authorized wars in 22 countries for 25 years.',
+  title: 'From 9/11 to Forever War: How America Changed',
+  description: '2,977 deaths on 9/11 led to $8 trillion spent, 900,000+ killed, 38 million displaced. The 60-word AUMF authorized wars in 22 countries.',
   openGraph: {
     title: 'From 9/11 to Forever War',
     description: '19 hijackers. $8 trillion. 900,000 dead. 38 million displaced. Bin Laden\'s strategy worked.',

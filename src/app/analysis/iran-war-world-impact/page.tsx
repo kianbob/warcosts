@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'How the Iran War Is Breaking Countries That Aren\'t Fighting — WarCosts.org',
-  description: 'The Iran war\'s global collateral damage: Philippines energy emergency, South Korea rationing, Spain €5B bailout, India food crisis, US farmers begging for relief. WTO says worst trade disruptions in 80 years.',
+  title: 'Iran War: Breaking Countries That Aren\'t Fighting',
+  description: 'Philippines: energy emergency. South Korea: rationing. Spain: €5B bailout. India: food crisis. WTO: worst trade disruptions in 80 years.',
   keywords: ['iran war global impact', 'iran war world economy', 'iran war economic impact', 'hormuz global crisis', 'iran war food crisis'],
   openGraph: {
     title: 'How the Iran War Is Breaking Countries That Aren\'t Fighting',

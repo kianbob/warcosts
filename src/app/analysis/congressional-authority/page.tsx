@@ -7,7 +7,7 @@ import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: '19 Wars Without Congress — The Death of the War Power',
-  description: 'The Constitution gives Congress alone the power to declare war. Yet 19 of 28 US conflicts were fought without congressional authorization. How the most solemn power in democracy was stolen.',
+  description: 'The Constitution gives Congress the power to declare war. Yet 19 of 28 US conflicts were fought without authorization.',
   openGraph: {
     title: '19 Wars Without Congress — The Death of the War Power',
     description: 'The Constitution gives Congress alone the power to declare war. Yet 19 of 28 US conflicts were fought without congressional authorization.',

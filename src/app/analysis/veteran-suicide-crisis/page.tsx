@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: '17 Veterans Die by Suicide Every Day: The Crisis Nobody Talks About | WarCosts.org',
-  description: 'An average of 17 veterans die by suicide every day — a rate 57% higher than non-veterans. 6,146 veteran suicides in 2022. PTSD, TBI, moral injury, and a failing system.',
+  title: '17 Veterans Die by Suicide Every Day',
+  description: '17 veterans die by suicide daily — 57% higher than non-veterans. 6,146 in 2022. PTSD, TBI, moral injury, and a failing system.',
   openGraph: {
     title: '17 Veterans Die by Suicide Every Day: The Crisis Nobody Talks About',
     description: '6,146 veteran suicides in 2022. 57% higher than non-veterans. 60% never seek help. The hidden cost of war.',

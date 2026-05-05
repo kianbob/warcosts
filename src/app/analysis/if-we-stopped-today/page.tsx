@@ -7,8 +7,8 @@ import BackToTop from '@/components/BackToTop'
 import { TailCostChart } from './TailCostChart'
 
 export const metadata: Metadata = {
-  title: "If We Stopped Every War Today — What We'd Still Owe | WarCosts",
-  description: 'Even if every US war ended tomorrow, we would still owe $8-12 trillion in future obligations. VA care, disability, interest, cleanup — the tail costs of war extend decades.',
+  title: "If We Stopped Every War Today: What We'd Owe",
+  description: 'Even if every US war ended tomorrow, we\'d still owe $8-12T in future obligations. VA care, disability, interest, cleanup for decades.',
   keywords: ['war tail costs', 'veteran care costs', 'future war obligations', 'war debt interest', 'cost after war ends'],
   openGraph: {
     title: "If We Stopped Every War Today, Here's What We'd Still Owe",

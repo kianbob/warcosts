@@ -8,8 +8,8 @@ import BackToTop from '@/components/BackToTop'
 import { TrueCostChart, BasesChart, VsWorldChart, OpportunityCostChart, EmpireGrowthChart } from './EmpireCharts'
 
 export const metadata: Metadata = {
-  title: 'The Cost of Empire: $1.3 Trillion/Year for Global Military Dominance | WarCosts',
-  description: '750+ overseas bases. $1.3 trillion per year in true military spending. More than the next 15 nations combined. The price of American empire — and what it costs at home.',
+  title: 'The Cost of Empire: $1.3 Trillion Per Year',
+  description: '750+ overseas bases. $1.3T/year in true military spending. More than the next 15 nations combined. The price of empire.',
   openGraph: {
     title: 'The Cost of Empire: $1.3 Trillion/Year',
     description: '750+ bases, $1.3T/year true cost, more than the next 15 nations combined. The total price of global military dominance.',

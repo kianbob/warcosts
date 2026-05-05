@@ -7,8 +7,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Empire of Bases — 750 Military Installations in 80 Countries',
-  description: 'The US maintains 750 overseas military bases in 80 countries — more than any empire in history. Okinawa. Diego Garcia. Ramstein. $55B/year. Environmental contamination. Local opposition. The base nation.',
+  title: 'Empire of Bases: 750 Installations in 80 Countries',
+  description: '750 overseas bases in 80 countries — more than any empire in history. Okinawa. Diego Garcia. Ramstein. $55B/year to maintain.',
   openGraph: {
     title: 'Empire of Bases — 750 Bases in 80 Countries',
     description: 'More than the Roman, British, and Soviet empires combined. $55B/year. No other country comes close.',

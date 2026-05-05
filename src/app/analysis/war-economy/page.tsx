@@ -7,7 +7,7 @@ import { WarEconomyCharts } from './WarEconomyCharts'
 
 export const metadata: Metadata = {
   title: 'The War Economy: How War Drives the US Economy',
-  description: 'Military Keynesianism built modern America. WW2 ended the Depression. Cold War R&D gave us the internet, GPS, and microchips. $15 trillion spent since 2001. War is the economy.',
+  description: 'WW2 ended the Depression. Cold War R&D gave us the internet, GPS, microchips. $15T spent since 2001. War IS the economy.',
   openGraph: {
     title: 'The War Economy: How War Drives the US Economy',
     description: 'From WW2 to the War on Terror — how military spending became America\'s industrial policy.',

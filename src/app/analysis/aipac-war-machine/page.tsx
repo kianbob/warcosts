@@ -7,8 +7,8 @@ import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
-  title: 'Follow the Money: How AIPAC Shaped the Path to War with Iran',
-  description: 'AIPAC spent $221 million on US political campaigns since 2021. $45.2M to defeat anti-war candidates. $20M to kill the Iran nuclear deal. Then the bombs fell. Follow the money.',
+  title: 'Follow the Money: AIPAC and the Path to Iran',
+  description: 'AIPAC spent $221M on US campaigns since 2021. $45.2M to defeat anti-war candidates. $20M to kill the Iran deal. Then the bombs fell.',
   openGraph: {
     title: 'Follow the Money: How AIPAC Shaped the Path to War with Iran',
     description: '$221M in political spending. Anti-war candidates crushed. Nuclear deal killed. Then the bombs fell.',

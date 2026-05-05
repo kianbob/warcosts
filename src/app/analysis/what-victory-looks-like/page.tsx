@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { WarOutcomesChart, ISISTimelineChart, BeforeAfterChart, SpendingOutcomeChart } from './VictoryCharts'
 
 export const metadata: Metadata = {
-  title: 'What Victory Looks Like: Iraq, Afghanistan, Libya, Vietnam — What Did Any of It Achieve?',
-  description: 'Iraq: ISIS emerged, 500K dead, Iran empowered. Afghanistan: Taliban back after 20 years. Libya: slave markets. Vietnam: communist anyway. Korea: 70-year frozen conflict. Examining America\'s "victories."',
+  title: 'What Victory Looks Like: What Did Any War Achieve?',
+  description: 'Iraq created ISIS. Afghanistan returned to Taliban. Libya has slave markets. Vietnam unified under communism. What did $8T achieve?',
   openGraph: {
     title: 'What Victory Looks Like: Examining America\'s Wars',
     description: 'Iraq created ISIS. Afghanistan returned to the Taliban. Libya has slave markets. Vietnam unified under communism. What did $8 trillion achieve?',

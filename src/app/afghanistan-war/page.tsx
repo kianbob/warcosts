@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { YearlySpending, TroopLevels } from './charts'
 
 export const metadata: Metadata = {
-  title: 'Afghanistan War Cost — $2.3 Trillion, 20 Years, Taliban Wins | WarCosts',
-  description: 'The Afghanistan War (2001-2021) was the longest war in US history. $2.3 trillion spent, 2,461 US soldiers killed, 70,000+ Afghan civilians dead. After 20 years, the Taliban retook power in 11 days. Complete timeline, costs, and casualties.',
+  title: 'Cost of Afghanistan War — $2.3T Over 20 Years',
+  description: 'The Afghanistan War cost $2.3 trillion, killed 2,461 US soldiers and 70,000+ Afghan civilians. After 20 years, the Taliban retook power in 11 days.',
   keywords: ['Afghanistan war cost', 'longest war in US history', 'Afghanistan war casualties', 'Afghanistan war timeline', 'Kabul airport', 'Afghanistan Papers', 'Taliban', 'cost of Afghanistan war'],
   alternates: {
     canonical: 'https://warcosts.org/afghanistan-war',

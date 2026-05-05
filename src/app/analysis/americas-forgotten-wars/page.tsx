@@ -5,9 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: "America's Forgotten Wars — The Conflicts Most Americans Never Heard Of | WarCosts",
-  description:
-    'From the Quasi-War to the Banana Wars, Boxer Rebellion to the Russian Civil War intervention — dozens of US military actions that cost billions, killed thousands, and shaped the world. A comprehensive accounting of wars erased from public memory.',
+  title: "America's Forgotten Wars: Conflicts Nobody Remembers",
+  description: 'Quasi-War, Banana Wars, Boxer Rebellion — dozens of US military actions that cost billions and killed thousands, erased from memory.',
   keywords: [
     'forgotten wars', 'Quasi-War', 'Barbary Wars', 'Banana Wars', 'Boxer Rebellion',
     'Russian Civil War intervention', 'Punitive Expedition', 'undeclared wars',

@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { AllyEnemyTimelineChart, BlowbackCostChart, PatternChart, ArmsSalesChart } from './AlliesCharts'
 
 export const metadata: Metadata = {
-  title: 'Allies & Enemies: How America Arms Its Future Wars | WarCosts',
-  description: 'Saddam was a CIA asset. Bin Laden was funded by the US. Noriega was on the CIA payroll. The Taliban were armed against the Soviets. The pattern: America arms today\'s ally, fights tomorrow\'s enemy.',
+  title: 'Allies & Enemies: How America Arms Future Wars',
+  description: 'Saddam, Bin Laden, Noriega, the Taliban — all US-backed. The pattern: America arms today\'s ally, fights tomorrow\'s enemy.',
   openGraph: {
     title: 'Allies & Enemies: How America Arms Its Future Wars',
     description: 'The pattern of arming allies who become enemies — Saddam, Bin Laden, Noriega, Taliban, and more.',

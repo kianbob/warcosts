@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { TimelineChart, SurveillanceChart, NoFlyListChart, ProtestChart } from './LibertiesCharts'
 
 export const metadata: Metadata = {
-  title: 'War & Civil Liberties: Every War Shrinks Freedom at Home | WarCosts',
-  description: 'From the Sedition Acts to the PATRIOT Act, every American war has produced a crackdown on civil liberties. Japanese internment, McCarthyism, COINTELPRO, NSA mass surveillance — the pattern never breaks.',
+  title: 'War & Civil Liberties: Every War Shrinks Freedom',
+  description: 'Sedition Acts, Japanese internment, PATRIOT Act, NSA surveillance — every American war has produced a crackdown on civil liberties.',
   openGraph: {
     title: 'War & Civil Liberties: Every War Shrinks Freedom at Home',
     description: 'Sedition Acts, Japanese internment, PATRIOT Act, NSA surveillance — war always erodes freedom.',

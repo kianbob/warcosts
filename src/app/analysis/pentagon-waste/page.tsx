@@ -9,8 +9,8 @@ import ArticleSchema from '@/components/ArticleSchema'
 import { AuditChart, AfghanWasteChart, WeaponOverrunsChart } from './PentagonWasteCharts'
 
 export const metadata: Metadata = {
-  title: 'Pentagon Waste: $640 Toilet Seats, Failed Audits & Trillions Unaccounted For',
-  description: 'The Pentagon has failed 6 consecutive audits. The F-35 program: $1.7 trillion. A $43 million gas station in Afghanistan. $6.6 billion in cash lost in Iraq. The most expensive incompetence in history.',
+  title: 'Pentagon Waste: Failed Audits & Trillions Lost',
+  description: '6 failed audits. $1.7T F-35 program. $43M gas station in Afghanistan. $6.6B cash lost in Iraq. The most expensive incompetence ever.',
   openGraph: {
     title: 'Pentagon Waste: Trillions Unaccounted For',
     description: '6 failed audits. $1.7T F-35. $43M gas station. $640 toilet seats. Your tax dollars at work.',

@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import { MSTChart, MSTPrevalenceChart, WomenInMilitaryChart, ConflictSexualViolenceTable } from './WomensWarCharts'
 
 export const metadata: Metadata = {
-  title: "Women's War: Sexual Violence, Military Assault & the Invisible Casualties",
-  description: '20,000+ military sexual assaults annually. 50,000 women raped in Bosnia. Agent Orange birth defects spanning generations. War widows raising children alone. The war women fight on every front.',
+  title: "Women's War: Sexual Violence & Invisible Casualties",
+  description: '20,000+ military sexual assaults annually. 50,000 women raped in Bosnia. Agent Orange birth defects. War women fight on every front.',
   openGraph: {
     title: "Women's War: The Casualties Nobody Counts",
     description: '1 in 4 women in the military experience sexual trauma. Wartime rape as systematic weapon. Agent Orange birth defects. The invisible war.',

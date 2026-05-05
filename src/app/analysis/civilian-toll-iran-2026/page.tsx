@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: '3,461 Dead in 30 Days: The Human Cost of the Iran War | WarCosts',
-  description: 'HRANA data: 3,461 killed in Iran including 1,551 civilians and 228+ children. The Minab school attack killed 168. Infrastructure systematically targeted. The human cost of Operation Epic Fury.',
+  title: '3,461 Dead in 30 Days: Iran War Human Cost',
+  description: 'HRANA data: 3,461 killed including 1,551 civilians and 228+ children. Minab school attack killed 168. Infrastructure targeted.',
   openGraph: {
     title: '3,461 Dead in 30 Days: The Human Cost of the Iran War',
     description: '1,551 civilians. 228+ children. 168 schoolgirls at Minab. 1M+ displaced. This is what "precision strikes" look like.',

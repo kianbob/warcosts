@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: '12+ Countries, 13 Days: How a Two-Country War Became a Regional Catastrophe | WarCosts',
-  description: 'Iran mining the Strait of Hormuz. 16 minelayers destroyed. Dubai airport struck. Oman port fires. Oil past $100. 1,348 killed in Iran, 687 in Lebanon. Updated March 12, 2026 (Day 13).',
+  title: '12+ Countries, 13 Days: A Regional Catastrophe',
+  description: 'Iran mining Hormuz. Dubai airport struck. Oil past $100. 1,348 killed in Iran, 687 in Lebanon. A two-country war goes regional.',
   openGraph: {
     title: '12+ Countries, 13 Days: How a Two-Country War Became a Regional Catastrophe',
     description: 'Iran mining Hormuz. Dubai airport hit. Oil past $100. 5,000+ targets struck. $11.3B in 6 days. Updated Day 13.',

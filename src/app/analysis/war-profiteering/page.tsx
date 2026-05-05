@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'War Is a Racket: Who Gets Rich When America Goes to War',
-  description: 'Lockheed Martin stock up 1,236% since 9/11. General Dynamics up 1,450%. CEO pay: $30M. Enlisted soldier pay: $24K. 672 Pentagon officials became defense lobbyists. War is a racket.',
+  description: 'Lockheed up 1,236% since 9/11. General Dynamics up 1,450%. CEO pay: $30M. Soldier pay: $24K. 672 officials became lobbyists.',
   openGraph: {
     title: 'War Is a Racket: Who Gets Rich When America Goes to War',
     description: 'Defense stocks up 1,000%+ since 9/11. CEO pay: $30M. Soldier pay: $24K. The racket exposed.',

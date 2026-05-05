@@ -9,7 +9,7 @@ import { OilPriceChart, HalliburtonChart, USProductionChart, MilitaryOilSpending
 
 export const metadata: Metadata = {
   title: 'Oil & War: Every Middle East War Is About Oil',
-  description: 'The Carter Doctrine. Gulf War for Kuwait oil. Iraq War no-bid Halliburton contracts. Petrodollar system. Pipeline politics. America fights for oil it no longer needs.',
+  description: 'Carter Doctrine. Gulf War for Kuwait oil. Iraq War no-bid contracts. Petrodollar system. America fights for oil it no longer needs.',
   openGraph: {
     title: 'Oil & War: Every Middle East War Is About Oil',
     description: 'Carter Doctrine, Gulf War, Iraq invasion, petrodollar system. Follow the oil and you find every war.',

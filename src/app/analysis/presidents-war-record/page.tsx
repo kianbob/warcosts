@@ -14,9 +14,9 @@ import {
 } from './PresidentsWarCharts'
 
 export const metadata: Metadata = {
-  title: 'Every President Ranked by War — Who Fought, Who Kept the Peace',
+  title: 'Every President Ranked by War Record',
   description:
-    'Data-driven analysis ranking every US president by wars started, military spending, casualties, and executive war powers. Which presidents expanded conflict vs. kept the peace?',
+    'Data-driven ranking of every US president by wars started, military spending, casualties, and executive war powers.',
 }
 
 export default function PresidentsWarRecordPage() {

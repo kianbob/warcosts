@@ -4,8 +4,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'The Price of Liberty — What Independence Cost and Why It Was Worth It | WarCosts',
-  description: 'What the American Revolution cost in lives, treasure, and suffering — and why every price paid was worth it. A celebration of the war that created a free nation.',
+  title: 'The Price of Liberty: What Independence Cost',
+  description: 'What the American Revolution cost in lives, treasure, and suffering — and why every price paid was worth it. A celebration of freedom.',
   keywords: ['price of liberty', 'cost of independence', 'American Revolution worth it', 'Revolutionary War casualties', 'freedom isn\'t free'],
   openGraph: {
     title: 'The Price of Liberty — Was the American Revolution Worth It?',

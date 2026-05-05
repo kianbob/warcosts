@@ -8,7 +8,7 @@ import { fmt } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'The Kill List: How America Decides Who Dies by Drone',
-  description: '14,000+ drone strikes across 7 countries. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed. The data behind America\'s remote-control war.',
+  description: '14,000+ drone strikes across 7 countries. Signature strikes, double-tap bombings, Terror Tuesdays. 910-2,200 civilians killed.',
   openGraph: {
     title: 'The Kill List: How America Decides Who Dies by Drone',
     description: '14,000+ drone strikes. 910-2,200 civilians killed. The machinery of remote-control death.',

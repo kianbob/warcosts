@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Ceasefire Economy: Oil, Markets, and the Cost of Peace — WarCosts.org',
-  description: 'Oil hit $150/barrel. Gas is $4/gallon. The Strait of Hormuz was closed. The ceasefire opened it — but for how long? The economic fallout of the Iran war.',
+  title: 'The Ceasefire Economy: Oil, Markets & Peace',
+  description: 'Oil hit $150/barrel. Gas at $4/gallon. Hormuz was closed. The ceasefire opened it — but for how long? The economic fallout.',
   keywords: ['iran ceasefire economy', 'oil price iran war', 'strait of hormuz 2026', 'gas prices iran war', 'iran war economic impact'],
   openGraph: {
     title: 'The Ceasefire Economy: Oil, Markets, and the Cost of Peace',

@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Military Spending vs Education: Where America Puts Its Money | WarCosts.org',
-  description: 'The US spends $886B on defense and $79B on education — an 11:1 ratio. One F-35 costs as much as 1,600 teacher salaries. Here\'s the full comparison.',
+  title: 'Military Spending vs Education: Where Money Goes',
+  description: '$886B on defense. $79B on education. An 11:1 ratio. One F-35 costs as much as 1,600 teacher salaries. America\'s priorities.',
   openGraph: {
     title: 'Military Spending vs Education: Where America Puts Its Money',
     description: '$886B on weapons. $79B on schools. One F-35 = 1,600 teachers. One aircraft carrier = 260,000 scholarships.',

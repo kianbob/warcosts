@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Russia\'s Shadow War: Moscow Is Helping Iran Kill Americans | WarCosts',
-  description: 'Putin-Pezeshkian calls. Intelligence sharing. Providing US military asset locations to Iran. The Russia-Iran alliance is no longer a background concern — it\'s actively getting Americans killed.',
+  title: 'Russia\'s Shadow War: Helping Iran Kill Americans',
+  description: 'Russia sharing intelligence on US military positions with Iran during Operation Epic Fury. Shadow wars in real time.',
   openGraph: {
     title: 'Russia\'s Shadow War: Moscow Is Helping Iran Kill Americans',
     description: 'Russia is sharing intelligence on US military positions with Iran during Operation Epic Fury. This is how shadow wars work.',

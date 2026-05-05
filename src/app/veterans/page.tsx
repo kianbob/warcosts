@@ -8,8 +8,8 @@ import BackToTop from '@/components/BackToTop'
 import { VASpendingChart, SuicideTrendChart, ClaimsBacklogChart, HomelessnessChart, UnemploymentChart } from './VeteransCharts'
 
 export const metadata: Metadata = {
-  title: 'Veterans Crisis — Broken Promises, Broken Lives',
-  description: '22 million living veterans. 17 suicides per day. 500K+ with PTSD. 37K+ homeless. From the Bonus Army to burn pits — America\'s history of betraying those it sends to war.',
+  title: 'Veteran Suicide Rate — 17 Deaths Per Day | Crisis',
+  description: '17 veterans die by suicide daily. 500K+ with PTSD. 37K+ homeless. From the Bonus Army to burn pits — America\'s history of betraying veterans.',
   keywords: ['veteran crisis', 'veteran suicide', 'veteran PTSD', 'VA scandal', 'burn pits', 'Agent Orange', 'veteran homelessness', 'military sexual trauma', 'Gulf War Syndrome', 'Walter Reed scandal'],
   alternates: { canonical: 'https://www.warcosts.org/veterans' },
   openGraph: {

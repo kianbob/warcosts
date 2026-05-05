@@ -8,7 +8,7 @@ import { DroneStrikesChart } from '@/components/charts/DroneCharts'
 
 export const metadata: Metadata = {
   title: 'Drone Wars — The Invisible War Nobody Voted For',
-  description: '14,000+ strikes. 8,858-16,901 killed. 769-1,725 confirmed civilians. 253 children. Kill lists, signature strikes, and the constitutional crisis of remote-control killing.',
+  description: '14,000+ strikes. 8,858-16,901 killed. 769-1,725 confirmed civilians. 253 children. Kill lists and the crisis of remote-control killing.',
   openGraph: {
     title: 'Drone Wars — The Invisible War Nobody Voted For',
     description: 'How drones made war invisible, permanent, and unconstitutional.',

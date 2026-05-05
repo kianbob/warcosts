@@ -4,8 +4,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Founding Fathers at War — Washington, Jefferson, Franklin, Adams, Hamilton & Paine | WarCosts',
-  description: 'How six extraordinary men won American independence: Washington\'s generalship, Jefferson\'s pen, Franklin\'s diplomacy, Adams\'s advocacy, Hamilton\'s charge, and Paine\'s words.',
+  title: 'Founding Fathers at War: Six Men Who Won Freedom',
+  description: 'Washington\'s generalship, Jefferson\'s pen, Franklin\'s diplomacy, Adams\'s advocacy, Hamilton\'s charge, and Paine\'s words.',
   keywords: ['founding fathers war', 'Washington Revolutionary War', 'Jefferson Declaration', 'Franklin diplomacy', 'Hamilton Yorktown', 'Thomas Paine Common Sense'],
   openGraph: {
     title: 'The Founding Fathers at War — Six Men Who Changed the World',

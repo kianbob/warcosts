@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Cost of the Korean War: $389 Billion, 36,000 Dead & a 70-Year Occupation',
-  description: 'The Korean War cost $389 billion in 2024 dollars, killed 36,574 Americans, and created a frozen conflict that still costs $13 billion per year to maintain. The war Congress never declared and America never ended.',
+  title: 'Cost of the Korean War: $389B & 70-Year Stalemate',
+  description: '$389B in 2024 dollars. 36,574 Americans killed. A frozen conflict still costing $13B/year. The war America never ended.',
   openGraph: {
     title: 'The Cost of the Korean War: The Forgotten War That Never Ended',
     description: '$389B adjusted cost. 36,574 US dead. 70+ years of occupation. A war that America forgot but never stopped paying for.',

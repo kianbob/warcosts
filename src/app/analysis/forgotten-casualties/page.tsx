@@ -5,8 +5,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Forgotten Casualties: The Uncounted Dead of America\'s Wars',
-  description: 'Contractor deaths, allied forces, interpreters left behind, civilian toll — the true cost of American warfare is far higher than the official count. Millions have died in wars the US started or supported.',
+  title: 'Forgotten Casualties: America\'s Uncounted Dead',
+  description: 'Contractors, allied forces, interpreters, civilians — the true death toll is far higher than official counts. Millions died in US wars.',
   openGraph: {
     title: 'Forgotten Casualties: The Uncounted Dead',
     description: 'The real death toll of US wars includes contractors, allies, interpreters, and millions of civilians. None of them appear on any memorial.',

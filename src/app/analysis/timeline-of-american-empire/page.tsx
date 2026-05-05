@@ -5,9 +5,9 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Timeline of American Empire — Every US Military Action, 1776 to Present | WarCosts',
+  title: 'Timeline of American Empire: 1776 to Present',
   description:
-    'A chronological overview of every US military action from the Revolution to today. The pattern of expansion from 13 colonies to 750+ overseas bases, year by year.',
+    'Every US military action from the Revolution to today. 13 colonies to 750+ overseas bases. The pattern of expansion, year by year.',
   keywords: [
     'US military timeline', 'American empire', 'US military history', 'overseas bases',
     'American expansion', 'US interventions', 'military actions chronology',

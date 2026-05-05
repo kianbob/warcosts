@@ -9,7 +9,7 @@ import { MediaWarCharts } from './MediaWarCharts'
 
 export const metadata: Metadata = {
   title: 'Manufacturing Consent: How Media Sells Every War',
-  description: 'Gulf of Tonkin was a lie. WMDs in Iraq were a lie. Every war starts with a media campaign. From yellow journalism to TikTok — how consent for war is manufactured.',
+  description: 'Gulf of Tonkin was a lie. WMDs were a lie. Every war starts with a media campaign. From yellow journalism to TikTok — manufacturing consent.',
   openGraph: {
     title: 'Manufacturing Consent: How Media Sells Every War',
     description: 'Every war starts with a media campaign. The pattern from 1898 to 2026.',

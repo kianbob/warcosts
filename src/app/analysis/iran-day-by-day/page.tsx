@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Iran 2026: A Day-by-Day Account — Operation Epic Fury Timeline | Day 49 — HORMUZ OPEN — MOU PROGRESS',
-  description: 'A factual chronological timeline of the US-Iran war, day by day. Day 49: Hormuz declared open. Oil crashes 13%. Trump bans Israel from bombing Lebanon. MOU progress — $20B cash-for-uranium deal. Updated April 17, 2026.',
+  title: 'Iran 2026: Day-by-Day War Timeline',
+  description: 'Day-by-day timeline of Operation Epic Fury. Hormuz open, oil crashes 13%, Lebanon ceasefire, MOU progress. 5,000+ killed.',
   openGraph: {
     title: 'Iran 2026: A Day-by-Day Account — Day 49: Hormuz Open, MOU Progress',
     description: '49 days of Operation Epic Fury — Hormuz open, oil crashes 13%, Lebanon ceasefire Day 1, MOU progress. 5,000+ killed. Ceasefire expires Apr 21.',

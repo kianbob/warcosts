@@ -8,8 +8,8 @@ import NewsletterSignup from '@/components/NewsletterSignup'
 import { HomeSpendingChart } from '@/components/HomeCharts'
 
 export const metadata: Metadata = {
-  title: 'US War Cost Tracker — $11.3 Trillion Spent on American Wars & Counting | WarCosts',
-  description: 'Track every dollar the US has spent on war. $11.3 trillion across 469 military interventions, 229 years at war. Free interactive data from Brown University, CRS, SIPRI & Pentagon reports.',
+  title: 'US Military Spending & Cost of War Tracker | WarCosts',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Real-time cost counter, casualties, and analysis from Pentagon, SIPRI & Brown University data.',
   openGraph: {
     title: 'US War Cost Tracker — $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 60,
-  headline: '🚨 "PROJECT FREEDOM" LAUNCHES — 2 US ships transit Hormuz under escort — Iran fires 4 missiles at UAE — FIRST attack since ceasefire — ADNOC tanker hit — Hezbollah rejects truce — Lebanon: 2,659 killed — Oil $110-114 — 15 US KIA, 538 wounded',
+  day: 67,
+  headline: '🚨 UAE under attack 2nd day — USS Truxtun/Mason transit Hormuz under fire — Araghchi heads to Beijing — S. Korea reviewing joining — Oil $113/bbl — 20,000 seafarers stranded — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '$25B', label: 'Official War Cost (Pentagon — first estimate)' },
+    { value: '$25B+', label: 'Official War Cost (Pentagon)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,509+', label: 'Killed in Lebanon' },
-    { value: 'INDEFINITE', label: 'Ceasefire Extended — blockade remains' },
-    { value: 'BLOCKADE', label: 'Iran Ports Still Blockaded — 34+ ships turned back' },
+    { value: '2,659+', label: 'Killed in Lebanon' },
+    { value: 'FRACTURING', label: 'Ceasefire — Iran firing missiles at UAE' },
+    { value: 'BLOCKADE', label: 'Iran Ports Blockaded — Hormuz a combat zone' },
   ]
 }
 

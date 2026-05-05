@@ -5,8 +5,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Mercenaries of America: $160 Billion to Private Military Contractors Since 9/11',
-  description: 'From Blackwater to Academi, the US has spent over $160 billion on private military contractors since 2001. Contractor deaths exceeded military deaths in some theaters. Accountability remains near zero.',
+  title: 'Mercenaries of America: $160B to Contractors',
+  description: '$160B+ to private military since 2001. Contractor deaths exceeded military deaths in some theaters. Zero accountability.',
   openGraph: {
     title: 'Mercenaries of America: The Privatization of War',
     description: '$160B+ to private military since 2001. Contractor deaths exceeding military in some theaters. Zero accountability.',

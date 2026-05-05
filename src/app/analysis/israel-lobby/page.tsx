@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The Israel Lobby: How One Country Captured American Foreign Policy',
-  description: 'The US has given Israel $310+ billion in aid since 1948 — more than any other country in history. How AIPAC, neoconservatives, and decades of lobbying bent American foreign policy to serve Israeli interests at the expense of American security and treasure.',
+  title: 'The Israel Lobby: Capturing US Foreign Policy',
+  description: '$310B+ in aid since 1948 — more than any country ever. AIPAC\'s $221M in lobbying. The most consequential foreign influence operation.',
   openGraph: {
     title: 'The Israel Lobby: How One Country Captured American Foreign Policy',
     description: '$310B+ in aid. $221M in lobbying. Wars fought on their behalf. The most consequential foreign influence operation in American history.',

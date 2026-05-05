@@ -7,8 +7,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: "America's Undeclared Wars — How Presidents Bypassed Congress",
-  description: 'Last declared war: 1942. Since then: Korea, Vietnam, Gulf War, Afghanistan, Iraq, Libya, Syria, Yemen, Iran — all without declarations. The War Powers Resolution is ignored by every president.',
+  title: "America's Undeclared Wars Since 1942",
+  description: 'Last declared war: 1942. Since then: Korea, Vietnam, Gulf, Afghanistan, Iraq, Libya, Syria, Yemen, Iran — all undeclared.',
   openGraph: {
     title: "America's Undeclared Wars: How Presidents Bypassed Congress",
     description: 'Congress has not declared war since 1942. Presidents have launched wars in 22+ countries anyway.',

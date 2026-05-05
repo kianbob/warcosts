@@ -7,8 +7,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'Do Sanctions Work? A Data-Driven Answer — WarCosts',
-  description: 'Sanctions achieve their stated goals only 34% of the time. Cuba (63 years), North Korea (built nukes anyway), Iran (regime survived), Iraq (500K children died). Economic warfare is still warfare.',
+  title: 'Do Sanctions Work? The Data Says No',
+  description: '34% success rate. Cuba: 63 years. North Korea: built nukes. Iran: regime survived. Iraq: 500K children died. Civilians always pay.',
   openGraph: {
     title: 'Do Sanctions Work? A Data-Driven Answer',
     description: 'Peterson Institute: 34% success rate. Civilians always pay. Leadership never does.',

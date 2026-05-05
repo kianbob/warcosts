@@ -5,8 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
-  title: 'The Top 10 Defense Contractors: Who Profits From War | WarCosts.org',
-  description: 'Lockheed Martin: $65B. RTX: $40B. Northrop Grumman: $39B. Meet the corporations that profit from war — their revenue, lobbying, CEO pay, and the revolving door.',
+  title: 'Top 10 Defense Contractors: Who Profits From War',
+  description: 'Lockheed Martin: $65B. RTX: $40B. Northrop Grumman: $39B. The corporations that profit from war — revenue, lobbying, and CEO pay.',
   openGraph: {
     title: 'The Top 10 Defense Contractors: Who Profits From War',
     description: '$400B+ in annual revenue. $120M in lobbying. 700+ lobbyists. The military-industrial complex Eisenhower warned us about.',

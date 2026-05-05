@@ -8,8 +8,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'The War on Terror: $8 Trillion, 900,000 Dead, 37 Million Displaced',
-  description: 'The most expensive military campaign in modern history. $8 trillion spent, 900,000+ killed, 37 million displaced, zero objectives fully met. A comprehensive accounting.',
+  title: 'War on Terror: $8T, 900K Dead, 37M Displaced',
+  description: '$8 trillion spent. 900,000+ killed. 37 million displaced. Zero objectives fully met. The most expensive failure in US history.',
   openGraph: {
     title: 'The War on Terror: $8 Trillion Later',
     description: '$8 trillion spent. 900,000+ dead. 37 million displaced. The most expensive failure in American history.',
