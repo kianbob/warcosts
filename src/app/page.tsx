@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 67,
-  headline: '🚨 UAE under attack 2nd day — USS Truxtun/Mason transit Hormuz under fire — Araghchi heads to Beijing — S. Korea reviewing joining — Oil $113/bbl — 20,000 seafarers stranded — 15 US KIA, 538 wounded',
+  headline: '🚨 Rubio declares Epic Fury "over" — Trump pauses Project Freedom (Saudis refused base access) — 1-page MOU framework near — Israel kills Radwan commander in Beirut — Oil crashes 11% to $97 — Iran reviewing proposal — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$25B+', label: 'Official War Cost (Pentagon)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,659+', label: 'Killed in Lebanon' },
+    { value: '2,702+', label: 'Killed in Lebanon' },
     { value: 'FRACTURING', label: 'Ceasefire — Iran firing missiles at UAE' },
     { value: 'BLOCKADE', label: 'Iran Ports Blockaded — Hormuz a combat zone' },
   ]
@@ -102,7 +102,10 @@ export default function HomePage() {
                 { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains — Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
                 { time: 'Day 55', text: 'TRUMP: "SHOOT AND KILL" BOATS LAYING MINES — IRGC SEIZES 2 MORE SHIPS — ISRAEL "WAITING FOR GREEN LIGHT": Trump orders Navy to "shoot and kill any boat" laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X. CENTCOM: 31 ships turned back. Israel defense minister: "waiting for green light" to resume war. Senate kills 5th War Powers vote 46-51. Navy Secretary fired. Oil ~$103/barrel. Lebanon: 2,454 killed. No talks scheduled.', link: '/analysis/iran-2026' },
                 { time: 'Day 56', text: 'HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" — 3RD CARRIER — LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last "as long as it takes." 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks — Hezbollah: "meaningless." Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO. US used 1,000+ Tomahawks — threatens Taiwan readiness. Oil ~$107.', link: '/analysis/iran-2026' },
-                { time: 'Day 66', text: '"PROJECT FREEDOM" LAUNCHES — 2 US ships transit Hormuz under escort. Iran fires 4 missiles at UAE — FIRST attack since ceasefire. ADNOC tanker hit by drones. Iran denies ships transited. Hezbollah leader rejects ceasefire. 3 IDF soldiers wounded. Lebanon: 2,659+ killed.', link: '/analysis/iran-2026' },
+                { time: 'Day 69', text: 'US AWAITS IRAN\'S RESPONSE — Reuters: short-term memo, not comprehensive deal. Trump: deal "very possible" but bombing restarts if talks fail. IDF confirms Radwan commander kill. Iran denies S. Korean ship attack. Oil: Brent $97.47. Hormuz traffic "almost nonexistent."', link: '/analysis/iran-2026' },
+    { time: 'Day 68', text: 'RUBIO DECLARES EPIC FURY "OVER" — Trump pauses Project Freedom (Saudis refused base access). Axios: 1-page MOU near. Israel kills Radwan commander in Beirut. Oil crashes 11% to $97. 11+ killed in Lebanon. French ship attacked in Hormuz. Iran establishes Strait Authority.', link: '/analysis/iran-2026' },
+    { time: 'Day 67', text: 'UAE under attack 2nd day. USS Truxtun/Mason transit Hormuz under sustained Iranian barrage — neither struck. IMO: 20,000 seafarers stranded. Ghalibaf: US "not even started." Araghchi heads to Beijing. Oil $113/bbl.', link: '/analysis/iran-2026' },
+    { time: 'Day 66', text: '"PROJECT FREEDOM" LAUNCHES — 2 US ships transit Hormuz under escort. Iran fires 4 missiles at UAE — FIRST attack since ceasefire. ADNOC tanker hit by drones. Hezbollah leader rejects ceasefire. Lebanon: 2,659+ killed.', link: '/analysis/iran-2026' },
     { time: 'Day 65', text: 'TRUMP ANNOUNCES "PROJECT FREEDOM" — 15,000 troops, destroyers, 100+ aircraft for Hormuz escort. Reuters: several thousand Hezbollah fighters dead. Iran reviewing 14-point peace plan. Iran blockade draining $435M/day. 2,600+ killed in Lebanon.', link: '/analysis/iran-2026' },
     { time: 'Day 64', text: 'ISRAEL KILLS 13 IN SOUTH LEBANON — dozens of intense strikes despite ceasefire. Indian LPG carrier transits Hormuz. NYT: Israeli entrenchment turning frustration into Hezbollah support. Lebanon: 2,536+ killed.', link: '/analysis/iran-2026' },
     { time: 'Day 63', text: 'TRUMP DECLARES WAR "TERMINATED" — skirting War Powers deadline. Schumer: "That\'s bullshit." $8.6B arms sales bypass Congress. 5,000 troops pulled from Germany. CNN: 16 US bases damaged by Iran.', link: '/analysis/iran-2026' },

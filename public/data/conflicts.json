@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE announced Day 39 (April 7). Day 66: Trump launches 'Project Freedom' to escort ships through Hormuz with 15,000 troops — Iran fires 4 missiles at UAE, FIRST attack since ceasefire. ADNOC tanker targeted. Hezbollah leader rejects ceasefire entirely. Lebanon: 2,659+ killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 68: Rubio declares Epic Fury 'over.' Trump pauses Project Freedom after Saudi Arabia refuses base access. Axios: 1-page MOU framework near. Israel kills Hezbollah Radwan commander in Beirut. Oil crashes 11% to $97. Iran reviewing US proposal. Lebanon: 2,702+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 66: 'Project Freedom' launches — Iran fires missiles at UAE breaking ceasefire — Hezbollah rejects truce — Lebanon: 2,659+ killed",
-    "outcomeDetail": "Day 66 (May 4): Trump launches 'Project Freedom' — 15,000 troops, destroyers, 100+ aircraft to escort ships through Hormuz (CENTCOM). 2 US-flagged ships transit under escort. Iran denies transit, warns US forces will be 'targeted and attacked.' Iran fires 4 cruise missiles at UAE — FIRST attack since ceasefire — 3 intercepted (UAE MOD/CBS). ADNOC tanker hit by drones in Hormuz — on fire (UKMTO). Hezbollah leader Qassem rejects ceasefire entirely. Reuters: several thousand Hezbollah fighters killed. Lebanon: 2,659+ killed (Indian Express). HRANA: 1,701 civilians unchanged. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 68: Rubio declares Epic Fury 'over' — Trump pauses Project Freedom — 1-page MOU near — Israel kills Radwan commander in Beirut — Lebanon: 2,702+ killed",
+    "outcomeDetail": "Day 68 (May 6): Rubio declares Operation Epic Fury 'over' — US shifting to defensive posture (NYT/LAT/CNN). Trump pauses Project Freedom ship escorts after Saudi Arabia refuses base/airspace access (NBC). Axios: 1-page MOU framework near — both sides exploring short-term deal (Reuters). Israel strikes Beirut for first time in a month — kills Hezbollah Radwan Force commander Malek Balout (AFP/JPost). 11+ more killed across Lebanon. French ship CMA CGM San Antonio attacked in Hormuz. Oil crashes 11% to $97/bbl. Iran reviewing US proposal via Pakistan. HRANA: 1,701 civilians unchanged. Lebanon: 2,702+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6564,6 +6564,18 @@
       {
         "year": 2026,
         "event": "May 4 (Day 66): 'PROJECT FREEDOM' LAUNCHES — IRAN FIRES 4 MISSILES AT UAE — CEASEFIRE FRACTURES: 2 US-flagged ships transit Hormuz under escort (CENTCOM). Iran fires 4 cruise missiles at UAE — FIRST attack since ceasefire — 3 intercepted (UAE MOD). ADNOC tanker targeted with drones — on fire (UKMTO). Iran denies US ships transited. Hezbollah leader Qassem rejects ceasefire entirely. 3 Israeli soldiers wounded in Lebanon. Lebanon: 2,659+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 5 (Day 67): UAE UNDER ATTACK 2ND DAY — USS TRUXTUN/MASON TRANSIT HORMUZ UNDER FIRE: UAE air defenses engage Iranian missiles/drones for 2nd day. UAE total since conflict: 549 ballistic missiles, 29 cruise, 2,260 drones engaged. USS Truxtun and USS Mason transit Hormuz under sustained barrage — neither struck. Maersk Alliance Fairfax transits under escort. Hegseth: ceasefire 'not over.' Trump calls it 'mini war.' Ghalibaf: US 'not even started.' Araghchi heads to Beijing. IMO: 20,000 seafarers stranded on 2,000 vessels. Oil $113/bbl. Lebanon: 2,659+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 6 (Day 68): RUBIO DECLARES EPIC FURY 'OVER' — TRUMP PAUSES PROJECT FREEDOM — 1-PAGE MOU NEAR — ISRAEL KILLS RADWAN COMMANDER: Rubio declares 'Operation Epic Fury is concluded' — shifting to defensive posture (NYT/LAT/CNN). Trump pauses Project Freedom ship escorts after Saudi Arabia refuses base/airspace access (NBC). Axios: White House close to 1-page MOU to end war. Trump: Hormuz 'OPEN TO ALL' if Iran agrees, 'bombing starts' if not. Oil crashes 11% to $97/bbl — first below $100 since Apr 22. Israel strikes Beirut — kills Radwan Force commander Malek Balout (AFP/JPost). 11+ killed across Lebanon. French ship CMA CGM San Antonio attacked in Hormuz. Iran establishes 'Persian Gulf Strait Authority.' S&P 500 +1.5%. Lebanon: 2,702+ killed. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 7 (Day 69): US AWAITS IRAN'S RESPONSE — OIL FALLS TO $97 — DEAL 'VERY POSSIBLE': US waiting for Iran to respond to latest proposal — Reuters: plan centers on short-term memorandum, not comprehensive deal. Trump: deal 'very possible' but bombing restarts if talks fail. IDF confirms Radwan commander kill. Iran denies attacking South Korean ship HMM Namu. South Korea says Project Freedom pause makes joining 'unnecessary.' Hormuz traffic 'almost nonexistent' since pause. Hapag-Lloyd: $60M/week losses. Oil: Brent $97.47 (-4%). Iran reviewing proposal via Pakistan. HRANA: 1,701 civilians unchanged. Lebanon: 2,702+ killed. US: 15 KIA, 538 wounded. Israel: 47 killed, 8,598 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6575,7 +6587,7 @@
     "years": "2026–Present",
     "computed": {
       "durationYears": 0,
-      "durationDays": 66,
+      "durationDays": 69,
       "costPerDay": 409836066,
       "costPerUSdeath": 1666666667,
       "costPerCivilianDeath": 14697237,
