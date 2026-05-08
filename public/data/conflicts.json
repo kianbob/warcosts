@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 68: Rubio declares Epic Fury 'over.' Trump pauses Project Freedom after Saudi Arabia refuses base access. Axios: 1-page MOU framework near. Israel kills Hezbollah Radwan commander in Beirut. Oil crashes 11% to $97. Iran reviewing US proposal. Lebanon: 2,702+ killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 70: Ceasefire crumbling — US fires on 3 Iranian tankers, Iran seizes ship, UAE hit again. CIA: Iran can withstand blockade for months, retains 70% of missiles. Rubio expects Iran response today. Lebanon: 2,759 killed. 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 68: Rubio declares Epic Fury 'over' — Trump pauses Project Freedom — 1-page MOU near — Israel kills Radwan commander in Beirut — Lebanon: 2,702+ killed",
-    "outcomeDetail": "Day 68 (May 6): Rubio declares Operation Epic Fury 'over' — US shifting to defensive posture (NYT/LAT/CNN). Trump pauses Project Freedom ship escorts after Saudi Arabia refuses base/airspace access (NBC). Axios: 1-page MOU framework near — both sides exploring short-term deal (Reuters). Israel strikes Beirut for first time in a month — kills Hezbollah Radwan Force commander Malek Balout (AFP/JPost). 11+ more killed across Lebanon. French ship CMA CGM San Antonio attacked in Hormuz. Oil crashes 11% to $97/bbl. Iran reviewing US proposal via Pakistan. HRANA: 1,701 civilians unchanged. Lebanon: 2,702+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 70: Ceasefire crumbling — US/Iran exchanging fire daily — CIA: Iran can last months — Rubio expects Iran response — Lebanon: 2,759 killed",
+    "outcomeDetail": "Day 70 (May 8): Ceasefire crumbling — US fires on 3 Iranian tankers (Sea Star III, Sevda, Hasna), Iran seizes Ocean Koi. US/Iran clash in Hormuz — 3 US destroyers attacked, US retaliates on Bandar Abbas/Qeshm Island. 10 Iranian sailors wounded, 5 missing. UAE: 551 missiles, 29 cruise, 2,263 drones intercepted; 13 killed, 230 wounded. CIA: Iran can withstand blockade for months, retains 70% of missiles. Rubio expects Iran response today. Trump: 'just a love tap.' CENTCOM: 70+ tankers blocked. Lebanon: 2,759 killed, 8,512 wounded. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6576,6 +6576,10 @@
       {
         "year": 2026,
         "event": "May 7 (Day 69): US AWAITS IRAN'S RESPONSE — OIL FALLS TO $97 — DEAL 'VERY POSSIBLE': US waiting for Iran to respond to latest proposal — Reuters: plan centers on short-term memorandum, not comprehensive deal. Trump: deal 'very possible' but bombing restarts if talks fail. IDF confirms Radwan commander kill. Iran denies attacking South Korean ship HMM Namu. South Korea says Project Freedom pause makes joining 'unnecessary.' Hormuz traffic 'almost nonexistent' since pause. Hapag-Lloyd: $60M/week losses. Oil: Brent $97.47 (-4%). Iran reviewing proposal via Pakistan. HRANA: 1,701 civilians unchanged. Lebanon: 2,702+ killed. US: 15 KIA, 538 wounded. Israel: 47 killed, 8,598 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 8 (Day 70): CEASEFIRE CRUMBLING — US FIRES ON 3 TANKERS — IRAN SEIZES SHIP — UAE HIT AGAIN: US F/A-18 fires on tankers Sea Star III and Sevda to stop them docking at Iranian port; also disabled Hasna Wednesday (CENTCOM). Iran seizes Ocean Koi in Sea of Oman. US/Iran clash in Hormuz — 3 destroyers attacked May 7, US retaliates on Bandar Abbas and Qeshm Island. 10 Iranian sailors wounded, 5 missing (Mehr). UAE intercepts 2 missiles + 3 drones; 3 wounded — total since war: 551 ballistic, 29 cruise, 2,263 drones; 13 killed, 230 wounded (UAE MOD). Trump: 'just a love tap.' CIA: Iran can withstand blockade for months, retains ~70% of missiles (WaPo). Rubio expects Iran response today. CENTCOM: 70+ tankers blocked — 166M barrels, $13B+. Lebanon: 2,759 killed, 8,512 wounded. US: 15 KIA, 538 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion — nearly $1.9 billion per day, $21,800 per second — all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck — the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6587,7 +6591,7 @@
     "years": "2026–Present",
     "computed": {
       "durationYears": 0,
-      "durationDays": 69,
+      "durationDays": 70,
       "costPerDay": 409836066,
       "costPerUSdeath": 1666666667,
       "costPerCivilianDeath": 14697237,
@@ -6699,7 +6703,7 @@
         "source": "Department of Defense"
       },
       "lebanonDeaths": {
-        "value": 2523,
+        "value": 2759,
         "source": "Lebanese Health Ministry (total all parties)",
         "note": "This is total Lebanon conflict deaths, not Iran civilian deaths"
       }
