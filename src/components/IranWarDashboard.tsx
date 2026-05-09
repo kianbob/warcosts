@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="⚓ COMBAT ZONE" sub="Ceasefire fracturing — Iran firing missiles at UAE for 2nd day" />
+      <StatCard label="Status" value="⚓ CEASEFIRE?" sub="Both sides say 'holding' — despite daily fire exchanges" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 20,000 seafarers stranded" />
-      <StatCard label="Oil Price" value="~$97/bbl" sub="Brent crashed 11% on deal hopes — first below $100 since Apr 22 — Project Freedom paused" />
-      <StatCard label="Lebanon" value="2,702+ killed" sub="8,264+ injured — Israel kills Radwan commander in Beirut" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 58 ships turned back under blockade" />
+      <StatCard label="Oil Price" value="~$101/bbl" sub="Brent +1% Fri — Kharg Island oil spill 80K barrels, 27 sq mi" />
+      <StatCard label="Lebanon" value="2,759+ killed" sub="8,512+ injured — 3 Israeli soldiers hit by Hezbollah drone Sat" />
     </div>
   )
 }

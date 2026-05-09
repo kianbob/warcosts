@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 67,
-  headline: '🚨 Rubio declares Epic Fury "over" — Trump pauses Project Freedom (Saudis refused base access) — 1-page MOU framework near — Israel kills Radwan commander in Beirut — Oil crashes 11% to $97 — Iran reviewing proposal — 15 US KIA, 538 wounded',
+  day: 71,
+  headline: '🚨 Both sides say ceasefire "holding" despite daily fire — No breakthrough — Trump expects Iran response tonight — 3 Israeli soldiers hit by Hezbollah drone — UK deploys HMS Dragon for Hormuz — Kharg Island oil spill spreading — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$25B+', label: 'Official War Cost (Pentagon)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,702+', label: 'Killed in Lebanon' },
-    { value: 'FRACTURING', label: 'Ceasefire — Iran firing missiles at UAE' },
-    { value: 'BLOCKADE', label: 'Iran Ports Blockaded — Hormuz a combat zone' },
+    { value: '2,759+', label: 'Killed in Lebanon' },
+    { value: '"HOLDING"', label: 'Ceasefire — both sides shooting while calling it peace' },
+    { value: 'BLOCKADE', label: '58 ships turned back — Hormuz near standstill' },
   ]
 }
 
