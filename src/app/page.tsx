@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 71,
-  headline: '🚨 Both sides say ceasefire "holding" despite daily fire — No breakthrough — Trump expects Iran response tonight — 3 Israeli soldiers hit by Hezbollah drone — UK deploys HMS Dragon for Hormuz — Kharg Island oil spill spreading — 15 US KIA, 538 wounded',
+  day: 73,
+  headline: '🚨 Trump rejects Iran peace plan — "TOTALLY UNACCEPTABLE" — Iran: "unreasonable demands" — Oil surges to $104 — Drones hit Gulf states — First Qatari LNG transits Hormuz — Boxer ARG deploying — No talks scheduled — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$25B+', label: 'Official War Cost (Pentagon)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
     { value: '2,759+', label: 'Killed in Lebanon' },
-    { value: '"HOLDING"', label: 'Ceasefire — both sides shooting while calling it peace' },
-    { value: 'BLOCKADE', label: '58 ships turned back — Hormuz near standstill' },
+    { value: '~$104/bbl', label: 'Brent crude — up 2.5% on failed talks' },
+    { value: 'NO TALKS', label: 'Peace plan rejected — no negotiations scheduled' },
   ]
 }
 

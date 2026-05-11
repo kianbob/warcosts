@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="⚓ CEASEFIRE?" sub="Both sides say 'holding' — despite daily fire exchanges" />
+      <StatCard label="Status" value="⚓ STALLED" sub="Trump rejects Iran peace plan — 'TOTALLY UNACCEPTABLE'" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 58 ships turned back under blockade" />
-      <StatCard label="Oil Price" value="~$101/bbl" sub="Brent +1% Fri — Kharg Island oil spill 80K barrels, 27 sq mi" />
-      <StatCard label="Lebanon" value="2,759+ killed" sub="8,512+ injured — 3 Israeli soldiers hit by Hezbollah drone Sat" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 20 warships enforce blockade — Boxer ARG deploying" />
+      <StatCard label="Oil Price" value="~$104/bbl" sub="Brent surges 2.5% on failed talks — WTI ~$98" />
+      <StatCard label="Lebanon" value="2,759+ killed" sub="8,512+ injured — Israel-Lebanon talks due May 14 in Washington" />
     </div>
   )
 }

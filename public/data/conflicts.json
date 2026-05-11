@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran’s nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 71: Both sides say ceasefire \"holding\" despite daily fire. No breakthrough. Trump expects Iran response tonight. 3 Israeli soldiers hit by Hezbollah drone. UK deploys HMS Dragon for Hormuz. Kharg Island oil spill spreading. Lebanon: 2,759 killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 73: Trump rejects Iran peace plan as \"TOTALLY UNACCEPTABLE.\" Iran: US has \"unreasonable demands.\" Oil surges to $104. Drones hit Gulf. First Qatari LNG transits Hormuz since war began. Asia faces $299B economic hit. Boxer ARG deploying. Lebanon: 2,759+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 25000000000,
     "costInflationAdjusted": 25000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 71: Both sides say ceasefire 'holding' despite daily fire — No breakthrough — Trump expects Iran response tonight — UK deploys for Hormuz — Lebanon: 2,759 killed",
-    "outcomeDetail": "Day 71 (May 9): Both sides say ceasefire 'holding' despite exchanging fire (NYT). No breakthrough in negotiations. Trump expects Iran response tonight. 3 Israeli soldiers hit by Hezbollah drone (1 serious). IDF strikes 85+ Hezbollah sites in 24hrs. UK deploys HMS Dragon for multinational Hormuz mission. CENTCOM: 58 vessels turned back, 4 disabled. Kharg Island oil spill: 80K barrels, 27 sq mi (AP). Bahrain arrests 41 linked to IRGC. New US sanctions on 10 entities. ASEAN adopts crisis plan. Oil: Brent $101.29. Lebanon: 2,759 killed, 8,512 wounded. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 73: Trump rejects Iran peace plan 'TOTALLY UNACCEPTABLE' — Iran: 'unreasonable demands' — Oil surges to $104 — No talks scheduled — Boxer ARG deploying — Lebanon: 2,759+ killed",
+    "outcomeDetail": "Day 73 (May 11): Trump rejects Iran peace proposal as 'TOTALLY UNACCEPTABLE' (Truth Social). Iran FM: US has 'unreasonable demands' — Iran's response 'was not excessive.' Iran demanded: end to war, lift blockade, release frozen assets. WSJ: Iran offered to dilute enriched uranium. Oil surges to ~$104/bbl. Drones hit UAE, Kuwait, vessel off Qatar. First Qatari LNG tanker transits Hormuz since Feb 28. Iran executes CIA/Mossad spy. UNDP: $299B economic losses to Asia-Pacific. 20 warships enforce blockade — Boxer ARG deploying. No talks scheduled. Lebanon: 2,759+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
