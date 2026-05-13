@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="⚓ STALLED" sub="Trump rejects Iran peace plan — 'TOTALLY UNACCEPTABLE'" />
+      <StatCard label="Status" value="⚓ LIFE SUPPORT" sub="Pentagon considers 'Sledgehammer' rebrand if ceasefire collapses" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 20 warships enforce blockade — Boxer ARG deploying" />
-      <StatCard label="Oil Price" value="~$104/bbl" sub="Brent surges 2.5% on failed talks — WTI ~$98" />
-      <StatCard label="Lebanon" value="2,759+ killed" sub="8,512+ injured — Israel-Lebanon talks due May 14 in Washington" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29B cost (Pentagon) — up $4B in 2 weeks" />
+      <StatCard label="Oil Price" value="~$107/bbl" sub="Brent +3.4% on ceasefire fears — IEA: supply to fall below demand" />
+      <StatCard label="Lebanon" value="2,882+ killed" sub="8,786+ injured — 380 killed since ceasefire — talks May 14" />
     </div>
   )
 }

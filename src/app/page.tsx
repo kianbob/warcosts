@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 73,
-  headline: '🚨 Trump rejects Iran peace plan — "TOTALLY UNACCEPTABLE" — Iran: "unreasonable demands" — Oil surges to $104 — Drones hit Gulf states — First Qatari LNG transits Hormuz — Boxer ARG deploying — No talks scheduled — 15 US KIA, 538 wounded',
+  day: 75,
+  headline: '🚨 Pentagon: war costs $29B — Ceasefire on "life support" — Pentagon considers renaming war "Sledgehammer" — Israel kills 12 on Beirut highway — Oil $107/bbl — IEA: supply to fall below demand — Australia joins Hormuz coalition — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '$25B+', label: 'Official War Cost (Pentagon)' },
+    { value: '$29B', label: 'Official War Cost (Pentagon — up $4B in 2 weeks)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,759+', label: 'Killed in Lebanon' },
-    { value: '~$104/bbl', label: 'Brent crude — up 2.5% on failed talks' },
-    { value: 'NO TALKS', label: 'Peace plan rejected — no negotiations scheduled' },
+    { value: '2,882+', label: 'Killed in Lebanon (380 since ceasefire)' },
+    { value: '~$107/bbl', label: 'Brent crude — up 3.4% on ceasefire fears' },
+    { value: 'SLEDGEHAMMER', label: 'Pentagon planning new op name if ceasefire collapses' },
   ]
 }
 

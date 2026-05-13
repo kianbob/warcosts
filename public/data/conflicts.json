@@ -6260,9 +6260,9 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 73: Trump rejects Iran peace plan as \"TOTALLY UNACCEPTABLE.\" Iran: US has \"unreasonable demands.\" Oil surges to $104. Drones hit Gulf. First Qatari LNG transits Hormuz since war began. Asia faces $299B economic hit. Boxer ARG deploying. Lebanon: 2,759+ killed. 15 US KIA, 538 wounded.",
-    "costNominal": 25000000000,
-    "costInflationAdjusted": 25000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 75: Pentagon reveals war costs $29B. Ceasefire on 'life support.' Pentagon considers renaming war 'Sledgehammer.' US intel: Iran retains 30/33 Hormuz missile sites. Israel kills 12 on Beirut highway. Oil $107/bbl. IEA: supply to fall below demand. Australia joins Hormuz coalition. Lebanon: 2,882+ killed. 15 US KIA, 538 wounded.",
+    "costNominal": 29000000000,
+    "costInflationAdjusted": 29000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 73: Trump rejects Iran peace plan 'TOTALLY UNACCEPTABLE' — Iran: 'unreasonable demands' — Oil surges to $104 — No talks scheduled — Boxer ARG deploying — Lebanon: 2,759+ killed",
-    "outcomeDetail": "Day 73 (May 11): Trump rejects Iran peace proposal as 'TOTALLY UNACCEPTABLE' (Truth Social). Iran FM: US has 'unreasonable demands' — Iran's response 'was not excessive.' Iran demanded: end to war, lift blockade, release frozen assets. WSJ: Iran offered to dilute enriched uranium. Oil surges to ~$104/bbl. Drones hit UAE, Kuwait, vessel off Qatar. First Qatari LNG tanker transits Hormuz since Feb 28. Iran executes CIA/Mossad spy. UNDP: $299B economic losses to Asia-Pacific. 20 warships enforce blockade — Boxer ARG deploying. No talks scheduled. Lebanon: 2,759+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 75: Pentagon: $29B cost. Ceasefire on 'life support.' Pentagon considers 'Sledgehammer' rebrand. Iran retains 30/33 Hormuz missile sites. Oil $107/bbl. IEA: supply below demand. Lebanon: 2,882+ killed",
+    "outcomeDetail": "Day 75 (May 13): Pentagon reveals war costs $29B (up $4B in 2 weeks — Reuters). Trump: ceasefire on 'massive life support' (Fox News). NBC: Pentagon considering renaming operation 'Sledgehammer' if ceasefire collapses. US intel: Iran regained 30 of 33 missile sites along Hormuz (NYT/Guardian). Israeli drone strikes kill 12 on Beirut-Sidon highway including 2 children (Al Jazeera). Lebanon: 2,882 killed, 8,786 wounded since Mar 2 — 380 killed since ceasefire. Australia joins UK-France Hormuz coalition. IEA: global oil demand to contract 420K bbl/day in 2026 — supply to fall below demand. Oil: Brent $107.77/bbl. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6580,6 +6580,18 @@
       {
         "year": 2026,
         "event": "May 8 (Day 70): CEASEFIRE CRUMBLING - US FIRES ON 3 TANKERS - IRAN SEIZES SHIP - UAE HIT AGAIN: US F/A-18 fires on tankers Sea Star III and Sevda to stop them docking at Iranian port; also disabled Hasna Wednesday (CENTCOM). Iran seizes Ocean Koi in Sea of Oman. US/Iran clash in Hormuz - 3 destroyers attacked May 7, US retaliates on Bandar Abbas and Qeshm Island. 10 Iranian sailors wounded, 5 missing (Mehr). UAE intercepts 2 missiles + 3 drones; 3 wounded - total since war: 551 ballistic, 29 cruise, 2,263 drones; 13 killed, 230 wounded (UAE MOD). Trump: 'just a love tap.' CIA: Iran can withstand blockade for months, retains ~70% of missiles (WaPo). Rubio expects Iran response today. CENTCOM: 70+ tankers blocked - 166M barrels, $13B+. Lebanon: 2,759 killed, 8,512 wounded. US: 15 KIA, 538 wounded."
+      },
+      {
+        "year": 2026,
+        "event": "May 10-11 (Days 72-73): Trump rejects Iran peace proposal as 'TOTALLY UNACCEPTABLE' — Iran demanded end to war, lift blockade, release frozen assets, sovereignty over Hormuz (Reuters/Tasnim). Iran FM: US has 'unreasonable demands.' Oil surges to ~$104/bbl. Drones hit UAE, Kuwait. First Qatari LNG transits Hormuz since Feb 28. Iran executes CIA/Mossad spy. UNDP: $299B losses to Asia-Pacific. No talks scheduled."
+      },
+      {
+        "year": 2026,
+        "event": "May 12 (Day 74): Pentagon: war costs $29B (up $4B from $25B two weeks ago — Reuters). Trump: ceasefire on 'massive life support.' NBC: Pentagon considers renaming operation 'Sledgehammer' if ceasefire collapses. US intel: Iran regained 30 of 33 missile sites along Hormuz (NYT/Guardian). Israel kills 13 in south Lebanon including rescuers. Lebanon total: 2,882 killed, 8,786 wounded. Brent $107.77/bbl."
+      },
+      {
+        "year": 2026,
+        "event": "May 13 (Day 75): Israeli drone strikes kill 8-12 on Beirut-Sidon highway near Jiyeh — 2 children among dead (Al Jazeera). Australia joins UK-France 'strictly defensive' Hormuz coalition. IEA: global oil demand to contract 420K bbl/day — supply to fall below demand — largest supply disruption in history. Pentagon 'Sledgehammer' rebrand confirmed. Lebanon: 2,882+ killed. US: 15 KIA, 538 wounded."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
