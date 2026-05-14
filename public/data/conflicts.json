@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 75: Pentagon reveals war costs $29B. Ceasefire on 'life support.' Pentagon considers renaming war 'Sledgehammer.' US intel: Iran retains 30/33 Hormuz missile sites. Israel kills 12 on Beirut highway. Oil $107/bbl. IEA: supply to fall below demand. Australia joins Hormuz coalition. Lebanon: 2,882+ killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 76: Ship seized off UAE heading to Iran. Indian cargo ship sunk off Oman. ~30 Chinese vessels transit Hormuz. Trump meets Xi in Beijing. Senate War Powers vote fails 50-49 — closest yet. Israel-Lebanon talks begin in Washington. Iran sets 5 preconditions. Oil ~$106-108/bbl. Lebanon: 2,882+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 29000000000,
     "costInflationAdjusted": 29000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 75: Pentagon: $29B cost. Ceasefire on 'life support.' Pentagon considers 'Sledgehammer' rebrand. Iran retains 30/33 Hormuz missile sites. Oil $107/bbl. IEA: supply below demand. Lebanon: 2,882+ killed",
-    "outcomeDetail": "Day 75 (May 13): Pentagon reveals war costs $29B (up $4B in 2 weeks — Reuters). Trump: ceasefire on 'massive life support' (Fox News). NBC: Pentagon considering renaming operation 'Sledgehammer' if ceasefire collapses. US intel: Iran regained 30 of 33 missile sites along Hormuz (NYT/Guardian). Israeli drone strikes kill 12 on Beirut-Sidon highway including 2 children (Al Jazeera). Lebanon: 2,882 killed, 8,786 wounded since Mar 2 — 380 killed since ceasefire. Australia joins UK-France Hormuz coalition. IEA: global oil demand to contract 420K bbl/day in 2026 — supply to fall below demand. Oil: Brent $107.77/bbl. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 76: Ship seized off UAE. ~30 Chinese vessels transit Hormuz. Trump-Xi Beijing summit. Senate War Powers 50-49. Israel-Lebanon talks in DC. Iran sets 5 preconditions. Oil ~$106-108/bbl. Lebanon: 2,882+ killed",
+    "outcomeDetail": "Day 76 (May 14): Ship seized off UAE coast heading to Iranian waters (UKMTO/AP). Indian cargo ship Haji Ali sunk off Oman (AP). ~30 Chinese vessels transit Hormuz under Iranian protocols as Trump arrives in China (Iranian state media). Trump meets Xi in Beijing — both agree Hormuz must stay open (White House/AP). Senate War Powers vote fails 50-49 — closest yet — Murkowski joins Collins/Paul (Reuters/NYT). Israel-Lebanon 3rd round talks begin in Washington (Reuters). Iran sets 5 preconditions for new talks including reparations (AP/CBS). Hezbollah drone injures Israeli civilians. IDF strikes southern Lebanon. Netanyahu claims secret UAE visit — UAE denies (Guardian). Oil: Brent ~$106-108/bbl. HRANA: 1,701 civilians. Lebanon: 2,882+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [

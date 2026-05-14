@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 75,
-  headline: '🚨 Pentagon: war costs $29B — Ceasefire on "life support" — Pentagon considers renaming war "Sledgehammer" — Israel kills 12 on Beirut highway — Oil $107/bbl — IEA: supply to fall below demand — Australia joins Hormuz coalition — 15 US KIA, 538 wounded',
+  day: 76,
+  headline: '🚨 Ship seized off UAE bound for Iran — Indian cargo ship sunk off Oman — ~30 Chinese vessels transit Hormuz — Trump meets Xi in Beijing — Senate War Powers fails 50-49 (closest yet) — Israel-Lebanon talks begin in DC — Iran sets 5 preconditions — Oil ~$106-108/bbl — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '$29B', label: 'Official War Cost (Pentagon — up $4B in 2 weeks)' },
+    { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,882+', label: 'Killed in Lebanon (380 since ceasefire)' },
-    { value: '~$107/bbl', label: 'Brent crude — up 3.4% on ceasefire fears' },
-    { value: 'SLEDGEHAMMER', label: 'Pentagon planning new op name if ceasefire collapses' },
+    { value: '2,882+', label: 'Killed in Lebanon (380+ since ceasefire)' },
+    { value: '~$107/bbl', label: 'Brent crude — Hormuz seizures continue' },
+    { value: '50-49', label: 'Senate War Powers vote — closest yet — Murkowski joins' },
   ]
 }
 
