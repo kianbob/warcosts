@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 76,
-  headline: '🚨 Ship seized off UAE bound for Iran — Indian cargo ship sunk off Oman — ~30 Chinese vessels transit Hormuz — Trump meets Xi in Beijing — Senate War Powers fails 50-49 (closest yet) — Israel-Lebanon talks begin in DC — Iran sets 5 preconditions — Oil ~$106-108/bbl — 15 US KIA, 538 wounded',
+  day: 77,
+  headline: '🚨 CENTCOM chief: 85% of Iran military-industrial base destroyed — Trump says Xi offered to help broker peace — Israel-Lebanon talks Day 2 in DC — Ceasefire expires Sunday — 75 ships redirected — DOJ refuses to show Congress legal authorization — Oil ~$107/bbl — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
     { value: '2,882+', label: 'Killed in Lebanon (380+ since ceasefire)' },
-    { value: '~$107/bbl', label: 'Brent crude — Hormuz seizures continue' },
-    { value: '50-49', label: 'Senate War Powers vote — closest yet — Murkowski joins' },
+    { value: '~$107/bbl', label: 'Brent crude — CENTCOM: 75 ships redirected' },
+    { value: 'Day 2', label: 'Israel-Lebanon talks in DC — ceasefire expires Sunday' },
   ]
 }
 
