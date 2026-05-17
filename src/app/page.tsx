@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 77,
-  headline: '🚨 CENTCOM chief: 85% of Iran military-industrial base destroyed — Trump says Xi offered to help broker peace — Israel-Lebanon talks Day 2 in DC — Ceasefire expires Sunday — 75 ships redirected — DOJ refuses to show Congress legal authorization — Oil ~$107/bbl — 15 US KIA, 538 wounded',
+  headline: '🚨 Drone strikes UAE Barakah nuclear plant — no radiological release — USS Ford home after 11-month deployment — Gates: US can\'t "walk away" — Lebanon ceasefire extended 45 days — Iran stock market reopening — Oil ~$110/bbl — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,882+', label: 'Killed in Lebanon (380+ since ceasefire)' },
+    { value: '2,903+', label: 'Killed in Lebanon (380+ since ceasefire)' },
     { value: '~$107/bbl', label: 'Brent crude — CENTCOM: 75 ships redirected' },
     { value: 'Day 2', label: 'Israel-Lebanon talks in DC — ceasefire expires Sunday' },
   ]
