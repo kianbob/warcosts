@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 77,
-  headline: '🚨 Drone strikes UAE Barakah nuclear plant — no radiological release — USS Ford home after 11-month deployment — Gates: US can\'t "walk away" — Lebanon ceasefire extended 45 days — Iran stock market reopening — Oil ~$110/bbl — 15 US KIA, 538 wounded',
+  day: 80,
+  headline: '🚨 Trump warns Iran "clock is ticking" — Israel kills 5+ in Lebanon incl. 2 children — Islamic Jihad commander killed in Baalbek — Hezbollah: talks a "dead end" — US ammo planes land in Israel — NATO: Iran retains 60%+ missiles — Oil ~$110/bbl — 2,988 killed in Lebanon — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '2,903+', label: 'Killed in Lebanon (380+ since ceasefire)' },
-    { value: '~$107/bbl', label: 'Brent crude — CENTCOM: 75 ships redirected' },
-    { value: 'Day 2', label: 'Israel-Lebanon talks in DC — ceasefire expires Sunday' },
+    { value: '2,988', label: 'Killed in Lebanon (400+ since ceasefire)' },
+    { value: '~$110/bbl', label: 'Brent crude — CENTCOM: 75+ ships redirected' },
+    { value: 'Jun 2-3', label: 'Next Israel-Lebanon talks in DC' },
   ]
 }
 

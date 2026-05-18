@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 79: Drone strikes Barakah nuclear plant in UAE — no radiological release. USS Ford returns after 11-month deployment. Gates: US can't \"walk away.\" Lebanon ceasefire extended 45 days. Iran stock market reopening. Oil ~$110/bbl. Lebanon: 2,903+ killed. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 80: Trump warns Iran 'clock is ticking.' Israeli strikes kill 5+ in Lebanon including 2 children. Hezbollah calls talks 'dead end.' US ammo planes land in Israel. NATO intel: Iran retains 60%+ missiles. Amnesty: Iran executed 2,150+ in 2025. Oil ~$110/bbl. Lebanon: 2,988 killed. 15 US KIA, 538 wounded.",
     "costNominal": 29000000000,
     "costInflationAdjusted": 29000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 79: Drone strikes Barakah nuclear plant in UAE. USS Ford home after 11 months. Gates: US can't walk away. Lebanon ceasefire extended 45 days. Iran stock market reopening. Oil ~$110/bbl. Lebanon: 2,903+ killed",
-    "outcomeDetail": "Day 79 (May 17): Drone strike targets UAE's Barakah nuclear power plant — fire on perimeter, no radiological release, suspicion on Iran (CBS/IAEA). USS Gerald R. Ford returns to Norfolk after 11-month deployment — longest since Vietnam — awarded Presidential Unit Citation (Fox News). Former Defense Secretary Gates: US can't 'walk away,' uprising unlikely, internal controls 'very much intact' (CBS/Face the Nation). Israel-Lebanon ceasefire extended 45 days — 380+ killed since ceasefire. IDF soldier killed, several wounded in south Lebanon. Iran FM: 'cannot trust the Americans at all.' Iran stock market reopening Tuesday. Oil: Brent ~$110/bbl. HRANA: 1,701 civilians. Lebanon: 2,903+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Ceasefire (Day 39) — Extended indefinitely Day 54 — Day 80: Trump warns 'clock is ticking.' Israel kills 5+ in Lebanon. Hezbollah: talks a 'dead end.' US ammo resupply to Israel. NATO: Iran retains 60%+ missiles. Oil ~$110/bbl. Lebanon: 2,988 killed",
+    "outcomeDetail": "Day 80 (May 18): Trump threatens Iran — 'clock is ticking, there won't be anything left of them' (Truth Social). Israeli strikes kill 5+ in Lebanon including 2 children — Islamic Jihad commander killed in Baalbek with 17-year-old daughter (CBS/Al Jazeera/NNA). Hezbollah calls talks 'dead end.' Dozens of US ammo planes land in Tel Aviv — possible prep for ceasefire collapse. Saudi intercepts 3 drones. NATO/US intel: Iran retains 60%+ missile capability, 30/33 Hormuz missile sites operational (Independent/NYT). Amnesty: Iran executed 2,150+ in 2025, double 2024. Iran stock market reopens. US now shipping oil to Australia as Hormuz reshapes flows. Oil: Brent $110/bbl. HRANA: 1,701 civilians. Lebanon: 2,988 killed, 9,210 wounded. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
