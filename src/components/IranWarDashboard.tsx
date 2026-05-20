@@ -39,9 +39,9 @@ export default function IranWarDashboard() {
       <StatCard label="Status" value="⚓ LIFE SUPPORT" sub="Pentagon considers 'Sledgehammer' rebrand if ceasefire collapses" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29B cost (Pentagon) — US ammo planes landing in Israel" />
-      <StatCard label="Oil Price" value="~$103/bbl" sub="Volatile — spiked above $111, fell toward $102 — down 1.2% on deal hopes" />
-      <StatCard label="Lebanon" value="3,042 killed" sub="9,210+ injured — 450+ killed since ceasefire — ceasefire extended 45 days" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29B cost (Pentagon) — CRS: 42 aircraft lost — Trump: Iran has '2-3 days'" />
+      <StatCard label="Oil Price" value="~$111/bbl" sub="Brent $111.28, WTI $107.77 — both up 50%+ since war began — Goldman: +$10/bbl per month Hormuz closed" />
+      <StatCard label="Lebanon" value="3,061+ killed" sub="9,210+ injured — 470+ killed since ceasefire — 19 killed May 20 including 3 children" />
     </div>
   )
 }

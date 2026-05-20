@@ -26,12 +26,12 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 80,
-  headline: '🚨 Trump was "hour away" from new Iran strike — Iran submits peace proposal demanding sanctions relief — Lebanon toll crosses 3,000 — Treasury sanctions under "Economic Fury" — NATO "thinking" about Hormuz — Congress: 42 US aircraft lost — Oil ~$103/bbl — 3,042 killed in Lebanon — 15 US KIA, 538 wounded',
+  headline: '🚨 Day 82: CRS confirms 42 US aircraft lost — Trump gives Iran "2-3 days" — US seizes tanker — Israel kills 19 in Lebanon (3,061+ total) — Hezbollah destroys 2nd Merkava — Vance: "locked and loaded" — Oil $111/bbl — $29B cost — 15 US KIA, 538 wounded',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '3,042', label: 'Killed in Lebanon (450+ since ceasefire)' },
+    { value: '3,061+', label: 'Killed in Lebanon (470+ since ceasefire)' },
     { value: '~$110/bbl', label: 'Brent crude — CENTCOM: 75+ ships redirected' },
     { value: 'Jun 2-3', label: 'Next Israel-Lebanon talks in DC' },
   ]
@@ -100,6 +100,7 @@ export default function HomePage() {
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
                 { time: 'Day 81', text: 'TRUMP WAS "HOUR AWAY" FROM NEW STRIKE — IRAN SUBMITS PEACE PROPOSAL — LEBANON CROSSES 3,000: Trump postponed planned strike — says Iran "begging for deal" (AP/Reuters). Iran demands: end to war, lift sanctions, reparations, troop withdrawal (Forbes/Reuters). Lebanon: 3,042 killed (AP). Treasury sanctions Amin Exchange under "Economic Fury" (Reuters). NATO "thinking" about Hormuz (AFP). Congress: 42 US aircraft lost. Oil ~$103. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
+                { time: 'Day 82', text: 'CRS: 42 US AIRCRAFT LOST — TRUMP: IRAN HAS "2-3 DAYS" — US SEIZES TANKER — ISRAEL KILLS 19 IN LEBANON: CRS report details 42 aircraft lost/damaged including 24 MQ-9 Reapers ($30M each), 1 F-15E, 1 A-10, 2 MC-130Js. Pentagon: $29B cost. Trump gives Iran "2-3 days" deadline — threatens "another big hit" (CNBC/Reuters). US seizes Iranian tanker in Indian Ocean (WSJ). Israel kills 19 in Lebanon — toll 3,061+. IDF: 21st soldier killed. Hezbollah destroys 2nd Merkava. Vance: "locked and loaded." Oil $111/bbl.', link: '/analysis/iran-2026' },
                 { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains — Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
                 { time: 'Day 55', text: 'TRUMP: "SHOOT AND KILL" BOATS LAYING MINES — IRGC SEIZES 2 MORE SHIPS — ISRAEL "WAITING FOR GREEN LIGHT": Trump orders Navy to "shoot and kill any boat" laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X. CENTCOM: 31 ships turned back. Israel defense minister: "waiting for green light" to resume war. Senate kills 5th War Powers vote 46-51. Navy Secretary fired. Oil ~$103/barrel. Lebanon: 2,454 killed. No talks scheduled.', link: '/analysis/iran-2026' },
                 { time: 'Day 56', text: 'HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" — 3RD CARRIER — LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last "as long as it takes." 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks — Hezbollah: "meaningless." Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO. US used 1,000+ Tomahawks — threatens Taiwan readiness. Oil ~$107.', link: '/analysis/iran-2026' },
