@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Hybrid Warfare — When War and Peace Blur Beyond Recognition',
@@ -586,6 +587,8 @@ export default function HybridWarfarePage() {
         </p>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"war-on-terror","title":"War on Terror","desc":"$8T, 900K dead, 37M displaced."},{"slug":"true-cost-of-war-on-terror","title":"True Cost: War on Terror","desc":"$8 trillion and counting."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"What we could have had instead."},{"slug":"us-military-budget-explained","title":"Military Budget Explained","desc":"Where $886B goes."}]} />
       <BackToTop />
     </div>
   )

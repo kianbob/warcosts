@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 import ArticleSchema from '@/components/ArticleSchema'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'What $11.6 Trillion Could Have Bought Instead of War',
@@ -140,6 +141,7 @@ const whatIranWillCost = [
 export default function WhatCouldWeBuyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"What could we buy instead of war?","a":"The $11.6 trillion spent on post-9/11 wars could have funded: free college for every American for 50+ years, universal healthcare, eliminating all student debt, rebuilding all US infrastructure, and transitioning to 100% clean energy — with money left over."},{"q":"How much does the US spend on war vs education?","a":"The US spends roughly $886 billion per year on defense versus $90 billion on the Department of Education — nearly 10 times more on the military than on education at the federal level."}]} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'What Could We Buy' }]} />
       <ArticleSchema title="What $11.6 Trillion Could Have Bought Instead of War" description="America has spent $11.6 trillion on war. That could have paid for universal healthcare for 20 years, free college for 100 years, or clean water for every person" url="/analysis/what-could-we-buy" />
       {/* Hero */}

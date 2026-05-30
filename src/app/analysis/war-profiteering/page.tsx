@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'War Is a Racket: Who Gets Rich When America Goes to War',
@@ -575,6 +576,8 @@ export default function WarProfiteeringPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"defense-contractors-exposed","title":"Top 10 Defense Contractors","desc":"Who profits from war."},{"slug":"private-armies","title":"Private Armies","desc":"The outsourcing of war."},{"slug":"private-military","title":"Private Military Contractors","desc":"The privatization of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."}]} />
       <BackToTop />
     </div>
   )

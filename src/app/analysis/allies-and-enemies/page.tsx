@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { AllyEnemyTimelineChart, BlowbackCostChart, PatternChart, ArmsSalesChart } from './AlliesCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Allies & Enemies: How America Arms Future Wars',
@@ -501,6 +502,8 @@ export default function AlliesAndEnemiesPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"ukraine-proxy","title":"Ukraine Proxy War","desc":"$175 billion in America's proxy war."},{"slug":"china-pivot","title":"The China Trap","desc":"Middle East wars derail the Asia pivot."},{"slug":"iran-russia-shadow-war","title":"Russia's Shadow War","desc":"Helping Iran fight Americans."}]} />
       <BackToTop />
     </div>
   )

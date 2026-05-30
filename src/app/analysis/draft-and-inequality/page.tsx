@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { VietnamDraftChart, Project100kChart, GeographicChart, IncomeChart, CongressKidsChart, ContractorChart } from './DraftCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Draft & Inequality: Who Fights America\'s Wars?',
@@ -762,6 +763,8 @@ export default function DraftAndInequalityPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"veterans-betrayed","title":"Veterans Betrayed","desc":"17 suicides, 37K homeless."},{"slug":"veteran-suicide-crisis","title":"17 Suicides Per Day","desc":"The veteran suicide crisis."},{"slug":"military-suicide-epidemic","title":"Military Suicide Epidemic","desc":"More die by suicide than in combat."},{"slug":"the-aftermath","title":"The Aftermath","desc":"War doesn't end when troops come home."}]} />
       <BackToTop />
     </div>
   )

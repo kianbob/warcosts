@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Silicon Valley & the Pentagon: New War Industry',
@@ -859,6 +860,8 @@ export default function SiliconValleyPentagonPage() {
         </ul>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"defense-contractors-exposed","title":"Top 10 Defense Contractors","desc":"Who profits from war."},{"slug":"private-armies","title":"Private Armies","desc":"The outsourcing of war."},{"slug":"private-military","title":"Private Military Contractors","desc":"The privatization of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."}]} />
       <BackToTop />
     </div>
   )

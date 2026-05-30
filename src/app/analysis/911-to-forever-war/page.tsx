@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'From 9/11 to Forever War: How America Changed',
@@ -1224,6 +1225,8 @@ export default function NineElevenForeverWarPage() {
         </p>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"war-on-terror","title":"War on Terror","desc":"$8T, 900K dead, 37M displaced."},{"slug":"forever-wars","title":"The Forever Wars","desc":"How 60 words started 25 years of war."},{"slug":"blowback","title":"Blowback","desc":"How US foreign policy creates enemies."},{"slug":"shadow-wars","title":"Shadow Wars","desc":"America's secret wars in 134+ countries."}]} />
       <BackToTop />
     </div>
   )

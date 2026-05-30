@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'How Many US Soldiers Died in War? Every Conflict',
@@ -284,6 +285,8 @@ export default function HowManyUSSoldiersDiedPage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"americas-forgotten-wars","title":"America's Forgotten Wars","desc":"Conflicts nobody remembers."},{"slug":"americas-wars-by-the-numbers","title":"America's Wars By the Numbers","desc":"Full breakdown of every US war."},{"slug":"forgotten-wars","title":"Forgotten Wars","desc":"Conflicts Americans don't remember."},{"slug":"founding-fathers-at-war","title":"Founding Fathers at War","desc":"Six men who won freedom."}]} />
       <BackToTop />
     </div>
   )

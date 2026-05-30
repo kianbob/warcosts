@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'War on Terror: $8T, 900K Dead, 37M Displaced',
@@ -82,6 +83,7 @@ export default function WarOnTerrorPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How much has the War on Terror cost?","a":"The War on Terror has cost over $8 trillion since 2001, including direct military spending, veterans care, interest on war debt, and homeland security expenditures, according to Brown University's Costs of War Project."},{"q":"How many people died in the War on Terror?","a":"Over 900,000 people have been killed directly in War on Terror combat zones, including over 7,000 US service members, over 8,000 US contractors, and hundreds of thousands of civilians in Iraq, Afghanistan, Syria, Yemen, and other countries."},{"q":"How many countries has the US bombed since 9/11?","a":"The US has conducted military operations in over 80 countries since September 11, 2001, including major wars in Afghanistan and Iraq, drone strikes in Pakistan, Yemen, and Somalia, and special operations across Africa and the Middle East."},{"q":"Is the War on Terror still going on?","a":"Yes. While the US withdrew from Afghanistan in 2021, counterterrorism operations continue in dozens of countries under the 2001 Authorization for Use of Military Force (AUMF), which has never been repealed."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

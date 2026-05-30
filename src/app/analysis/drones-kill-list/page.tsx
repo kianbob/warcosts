@@ -5,6 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { loadData } from '@/lib/server-utils'
 import { fmt } from '@/lib/utils'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The Kill List: How America Decides Who Dies by Drone',
@@ -471,6 +472,8 @@ export default function DronesKillListPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"drone-wars","title":"Drone Wars","desc":"14,000+ strikes nobody voted for."},{"slug":"ai-weapons","title":"AI Weapons","desc":"Autonomous killing with no accountability."},{"slug":"cyber-warfare","title":"Cyber Warfare","desc":"The invisible battlefield with no rules."}]} />
       <BackToTop />
     </div>
   )

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Jobs vs War — Military Spending Creates the Fewest Jobs',
@@ -687,6 +688,8 @@ export default function JobsVsWarPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"us-military-budget-explained","title":"Military Budget Explained","desc":"Where $886B goes."},{"slug":"military-spending-vs-education","title":"Military vs Education","desc":"Where the money really goes."},{"slug":"pentagon-waste","title":"Pentagon Waste","desc":"Failed audits and trillions lost."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"What we could have had instead."}]} />
       <BackToTop />
     </div>
   )

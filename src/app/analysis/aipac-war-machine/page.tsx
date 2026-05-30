@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Follow the Money: AIPAC and the Path to Iran',
@@ -674,6 +675,8 @@ export default function AIPACWarMachinePage() {
         </ul>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"49-days-in","title":"49 Days In: Iran War Costs","desc":"What the Iran war has cost after 49 days."},{"slug":"iran-2026","title":"Iran 2026","desc":"The war nobody asked for."},{"slug":"iran-civilian-cost","title":"Iran Civilian Cost","desc":"Schools, hospitals, bazaars destroyed."},{"slug":"iran-cost-per-second","title":"$21,800 Per Second","desc":"Iran war cost tracker."}]} />
       <BackToTop />
     </div>
   )

@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'US Military Budget Explained: Where $886B Goes',
@@ -67,6 +69,7 @@ export default function USMilitaryBudgetExplainedPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How much does the US spend on military?","a":"The US spends approximately $886 billion annually on defense as of FY2024, making it the largest military budget in the world — more than the next 10 countries combined."},{"q":"What percentage of the US budget goes to military?","a":"Military spending accounts for roughly 13% of total federal spending and over 50% of discretionary spending (the budget Congress votes on each year, excluding mandatory programs like Social Security and Medicare)."},{"q":"Why is the US military budget so high?","a":"The US military budget is driven by maintaining 750+ overseas bases in 80 countries, a nuclear arsenal of 5,500 warheads, 11 aircraft carrier groups, personnel costs for 1.3 million active-duty troops, and massive weapons procurement programs like the F-35 ($1.7 trillion lifetime cost)."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -387,6 +390,8 @@ export default function USMilitaryBudgetExplainedPage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"military-spending-vs-education","title":"Military vs Education","desc":"Where the money really goes."},{"slug":"pentagon-waste","title":"Pentagon Waste","desc":"Failed audits and trillions lost."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"What we could have had instead."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."}]} />
       <BackToTop />
     </div>
   )

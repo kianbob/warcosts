@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'True Cost of the War on Terror: $8 Trillion',
@@ -72,6 +74,7 @@ export default function TrueCostOfWarOnTerrorPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"What is the true cost of the War on Terror?","a":"The true cost exceeds $8 trillion when including direct military spending ($2.3T), veterans care ($2.2T), interest on war borrowing ($1.1T), homeland security ($1.1T), and other related costs. This figure continues to grow."},{"q":"How much does the War on Terror cost per taxpayer?","a":"The War on Terror has cost approximately $24,000 per US taxpayer, or roughly $64,000 per American household since 2001."},{"q":"What could $8 trillion have paid for instead?","a":"For $8 trillion, the US could have funded free public college for every American for 50 years, eliminated all student loan debt 5 times over, provided universal healthcare for a decade, or rebuilt every bridge and road in the country."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -315,6 +318,8 @@ export default function TrueCostOfWarOnTerrorPage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"us-military-budget-explained","title":"Military Budget Explained","desc":"Where $886B goes."},{"slug":"military-spending-vs-education","title":"Military vs Education","desc":"Where the money really goes."},{"slug":"pentagon-waste","title":"Pentagon Waste","desc":"Failed audits and trillions lost."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"What we could have had instead."}]} />
       <BackToTop />
     </div>
   )

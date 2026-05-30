@@ -5,6 +5,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Do Sanctions Work? The Data Says No',
@@ -745,6 +746,8 @@ export default function SanctionsDontWorkPage() {
         </blockquote>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"sanctions-warfare","title":"Sanctions Warfare","desc":"Killing more than bombs."},{"slug":"economic-warfare","title":"Economic Warfare","desc":"Sanctions, SWIFT, and the dollar weapon."},{"slug":"war-on-terror","title":"War on Terror","desc":"$8T, 900K dead, 37M displaced."},{"slug":"true-cost-of-war-on-terror","title":"True Cost: War on Terror","desc":"$8 trillion and counting."}]} />
       <BackToTop />
     </div>
   )

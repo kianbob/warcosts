@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "America's Forgotten Wars: Conflicts Nobody Remembers",
@@ -866,7 +867,9 @@ export default function AmericasForgottenWarsPage() {
           </Link>
         </div>
 
-        <BackToTop />
+        
+      <RelatedArticles articles={[{"slug":"americas-wars-by-the-numbers","title":"America's Wars By the Numbers","desc":"Full breakdown of every US war."},{"slug":"forgotten-wars","title":"Forgotten Wars","desc":"Conflicts Americans don't remember."},{"slug":"founding-fathers-at-war","title":"Founding Fathers at War","desc":"Six men who won freedom."},{"slug":"price-of-liberty","title":"Price of Liberty","desc":"What independence cost."}]} />
+      <BackToTop />
       </div>
     </>
   )

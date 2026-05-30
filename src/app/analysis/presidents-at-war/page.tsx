@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Presidents at War: Every War President Ranked',
@@ -665,6 +666,8 @@ export default function AnalysisPresidentsPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"congressional-authority","title":"Death of War Powers","desc":"19 wars without Congress."},{"slug":"iran-war-no-authorization","title":"Iran: No Authorization","desc":"The war Congress never authorized."},{"slug":"presidents-war-record","title":"Presidents War Record","desc":"Every president ranked by wars."},{"slug":"undeclared-wars","title":"America's Undeclared Wars","desc":"Wars since 1942 without declarations."}]} />
       <BackToTop />
     </div>
   )

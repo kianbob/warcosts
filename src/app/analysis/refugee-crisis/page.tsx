@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { RefugeeCharts } from './RefugeeCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'America\'s Wars Create Refugees, Then Refuse Them',
@@ -791,6 +792,8 @@ export default function RefugeeCrisisPage() {
         </ul>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"childrens-war","title":"Children's War","desc":"400,000+ children killed in post-9/11 wars."},{"slug":"civilian-toll-iran-2026","title":"Iran Civilian Toll","desc":"3,461 dead in 30 days."},{"slug":"iran-civilian-cost","title":"Iran Civilian Cost","desc":"Schools, hospitals, bazaars destroyed."},{"slug":"forgotten-casualties","title":"Forgotten Casualties","desc":"America's uncounted dead."}]} />
       <BackToTop />
     </div>
   )

@@ -6,6 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import { AmericasWarsCharts } from './AmericasWarsCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "America's Wars By the Numbers: Full Breakdown",
@@ -1011,6 +1012,8 @@ export default function AmericasWarsByTheNumbersPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"americas-forgotten-wars","title":"America's Forgotten Wars","desc":"Conflicts nobody remembers."},{"slug":"forgotten-wars","title":"Forgotten Wars","desc":"Conflicts Americans don't remember."},{"slug":"founding-fathers-at-war","title":"Founding Fathers at War","desc":"Six men who won freedom."},{"slug":"price-of-liberty","title":"Price of Liberty","desc":"What independence cost."}]} />
       <BackToTop />
     </div>
   )

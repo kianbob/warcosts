@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '17 Veterans Die by Suicide Every Day',
@@ -307,6 +308,8 @@ export default function VeteranSuicideCrisisPage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"veterans-betrayed","title":"Veterans Betrayed","desc":"17 suicides, 37K homeless."},{"slug":"military-suicide-epidemic","title":"Military Suicide Epidemic","desc":"More die by suicide than in combat."},{"slug":"the-aftermath","title":"The Aftermath","desc":"War doesn't end when troops come home."},{"slug":"military-families","title":"Families Left Behind","desc":"The hidden cost of war."}]} />
       <BackToTop />
     </div>
   )

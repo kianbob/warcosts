@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '469 Military Interventions Since 1798 — The Full Accounting',
@@ -685,6 +686,8 @@ export default function The469Page() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"empire-of-bases","title":"Empire of Bases","desc":"750 installations in 80 countries."},{"slug":"base-nation","title":"Base Nation","desc":"750 military bases overseas."},{"slug":"us-military-bases-worldwide","title":"750 US Military Bases","desc":"The map of American empire."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."}]} />
       <BackToTop />
     </div>
   )

@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { DeathComparisonChart, BombingChart, AwarenessChart } from './ForgottenCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Forgotten Wars: Conflicts Americans Don\'t Remember',
@@ -911,6 +912,8 @@ export default function ForgottenWarsPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"americas-forgotten-wars","title":"America's Forgotten Wars","desc":"Conflicts nobody remembers."},{"slug":"americas-wars-by-the-numbers","title":"America's Wars By the Numbers","desc":"Full breakdown of every US war."},{"slug":"founding-fathers-at-war","title":"Founding Fathers at War","desc":"Six men who won freedom."},{"slug":"price-of-liberty","title":"Price of Liberty","desc":"What independence cost."}]} />
       <BackToTop />
     </div>
   )

@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Pentagon\'s Carbon Bootprint: Largest Polluter',
@@ -749,6 +750,8 @@ export default function PentagonClimatePage() {
         </ul>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"childrens-war","title":"Children's War","desc":"400,000+ children killed in post-9/11 wars."},{"slug":"refugee-crisis","title":"Refugee Crisis","desc":"America creates refugees then refuses them."},{"slug":"civilian-toll-iran-2026","title":"Iran Civilian Toll","desc":"3,461 dead in 30 days."},{"slug":"iran-civilian-cost","title":"Iran Civilian Cost","desc":"Schools, hospitals, bazaars destroyed."}]} />
       <BackToTop />
     </div>
   )

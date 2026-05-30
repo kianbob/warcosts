@@ -5,6 +5,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { TailCostChart } from './TailCostChart'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "If We Stopped Every War Today: What We'd Owe",
@@ -187,6 +188,8 @@ export default function IfWeStoppedTodayPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"us-military-budget-explained","title":"Military Budget Explained","desc":"Where $886B goes."},{"slug":"military-spending-vs-education","title":"Military vs Education","desc":"Where the money really goes."},{"slug":"pentagon-waste","title":"Pentagon Waste","desc":"Failed audits and trillions lost."},{"slug":"what-could-we-buy","title":"What $11.6T Could Buy","desc":"What we could have had instead."}]} />
       <BackToTop />
     </div>
   )

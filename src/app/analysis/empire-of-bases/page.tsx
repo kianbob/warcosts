@@ -5,6 +5,8 @@ import { fmt, fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Empire of Bases: 750 Installations in 80 Countries',
@@ -40,6 +42,7 @@ export default function EmpireOfBasesPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How many US military bases are overseas?","a":"The US maintains approximately 750 military bases in at least 80 countries around the world, far more than any other nation. By comparison, the UK, France, and Russia combined have roughly 70 overseas bases."},{"q":"How much do overseas military bases cost?","a":"US overseas military bases cost an estimated $55-80 billion per year to maintain, including construction, personnel, logistics, and host-nation support. This does not include the broader costs of the military posture they enable."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
@@ -818,6 +821,8 @@ export default function EmpireOfBasesPage() {
         </Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"base-nation","title":"Base Nation","desc":"750 military bases overseas."},{"slug":"us-military-bases-worldwide","title":"750 US Military Bases","desc":"The map of American empire."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."},{"slug":"timeline-of-american-empire","title":"Timeline of Empire","desc":"1776 to present."}]} />
       <BackToTop />
     </div>
   )

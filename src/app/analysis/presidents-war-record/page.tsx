@@ -5,6 +5,7 @@ import { fmtMoney, fmt, slugify } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 import {
   WarCostRankChart,
   CasualtiesRankChart,
@@ -758,6 +759,8 @@ export default function PresidentsWarRecordPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"congressional-authority","title":"Death of War Powers","desc":"19 wars without Congress."},{"slug":"iran-war-no-authorization","title":"Iran: No Authorization","desc":"The war Congress never authorized."},{"slug":"presidents-at-war","title":"Presidents at War","desc":"Every war president ranked."},{"slug":"undeclared-wars","title":"America's Undeclared Wars","desc":"Wars since 1942 without declarations."}]} />
       <BackToTop />
     </div>
   )

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Top 10 Defense Contractors: Who Profits From War',
@@ -349,6 +350,8 @@ export default function DefenseContractorsExposedPage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"private-armies","title":"Private Armies","desc":"The outsourcing of war."},{"slug":"private-military","title":"Private Military Contractors","desc":"The privatization of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."},{"slug":"war-profiteering","title":"War Profiteering","desc":"Who gets rich from war."}]} />
       <BackToTop />
     </div>
   )

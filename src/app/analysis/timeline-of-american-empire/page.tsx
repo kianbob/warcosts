@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Timeline of American Empire: 1776 to Present',
@@ -643,7 +644,9 @@ export default function TimelineOfAmericanEmpirePage() {
           </Link>
         </div>
 
-        <BackToTop />
+        
+      <RelatedArticles articles={[{"slug":"empire-of-bases","title":"Empire of Bases","desc":"750 installations in 80 countries."},{"slug":"base-nation","title":"Base Nation","desc":"750 military bases overseas."},{"slug":"us-military-bases-worldwide","title":"750 US Military Bases","desc":"The map of American empire."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."}]} />
+      <BackToTop />
       </div>
     </>
   )

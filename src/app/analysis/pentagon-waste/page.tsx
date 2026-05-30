@@ -7,6 +7,7 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 import ArticleSchema from '@/components/ArticleSchema'
 import { AuditChart, AfghanWasteChart, WeaponOverrunsChart } from './PentagonWasteCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Pentagon Waste: Failed Audits & Trillions Lost',
@@ -105,6 +106,7 @@ const oversightFailures = [
 export default function PentagonWastePage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"Has the Pentagon ever passed an audit?","a":"No. The Pentagon has failed every comprehensive audit since they began in 2018. The Department of Defense cannot account for trillions in spending and has never met basic accounting standards required of every other federal agency."},{"q":"How much money has the Pentagon lost?","a":"The Pentagon has $23 trillion in accounting adjustments that cannot be traced or explained, according to government auditors. While not all of this is \"lost,\" the DoD cannot demonstrate where the money went."}]} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Pentagon Waste' }]} />
       <ArticleSchema title="Pentagon Waste: $640 Toilet Seats, Failed Audits & Trillions Unaccounted For" description="The Pentagon has failed 6 consecutive audits. The F-35 program: $1.7 trillion. A $43 million gas station in Afghanistan. $6.6 billion in cash lost in Iraq. The " url="/analysis/pentagon-waste" />
       {/* Hero */}

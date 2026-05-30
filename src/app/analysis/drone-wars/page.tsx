@@ -5,6 +5,8 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
 import { DroneStrikesChart } from '@/components/charts/DroneCharts'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Drone Wars — The Invisible War Nobody Voted For',
@@ -36,6 +38,7 @@ const byPresident = [
 export default function DroneWarsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How many drone strikes has the US carried out?","a":"The US has carried out over 14,000 drone strikes since 2001 across countries including Pakistan, Yemen, Somalia, Libya, Syria, and Iraq. The true number may be higher due to classified CIA programs."},{"q":"How many civilians have been killed by US drones?","a":"Independent organizations estimate that US drone strikes have killed between 910 and 2,200 civilians, though the US government claims far lower numbers. The actual figure is likely higher due to the practice of counting all military-age males in strike zones as combatants."}]} />
       <ArticleJsonLd title="Drone Wars — The Invisible War Nobody Voted For" description="14,000+ strikes, thousands of civilians killed. How drones made war invisible, permanent, and unconstitutional." slug="drone-wars" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Drone Wars' }]} />
       {/* Hero */}
@@ -877,6 +880,8 @@ export default function DroneWarsPage() {
         </Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"drones-kill-list","title":"The Kill List","desc":"How America decides who dies by drone."},{"slug":"ai-weapons","title":"AI Weapons","desc":"Autonomous killing with no accountability."},{"slug":"cyber-warfare","title":"Cyber Warfare","desc":"The invisible battlefield with no rules."}]} />
       <BackToTop />
     </div>
   )

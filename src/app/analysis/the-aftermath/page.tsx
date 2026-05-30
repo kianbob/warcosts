@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The Aftermath — War Doesn\'t End When Troops Come Home',
@@ -884,6 +885,8 @@ export default function AftermathPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"veterans-betrayed","title":"Veterans Betrayed","desc":"17 suicides, 37K homeless."},{"slug":"veteran-suicide-crisis","title":"17 Suicides Per Day","desc":"The veteran suicide crisis."},{"slug":"military-suicide-epidemic","title":"Military Suicide Epidemic","desc":"More die by suicide than in combat."},{"slug":"military-families","title":"Families Left Behind","desc":"The hidden cost of war."}]} />
       <BackToTop />
     </div>
   )

@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { ContractorGrowthChart, CostComparisonChart, ContractorDeathsChart, ContractSpendingChart, TopContractorsChart } from './PMCCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Private Military Contractors: The Privatization of War',
@@ -899,6 +900,8 @@ export default function PrivateMilitaryPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"defense-contractors-exposed","title":"Top 10 Defense Contractors","desc":"Who profits from war."},{"slug":"private-armies","title":"Private Armies","desc":"The outsourcing of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."},{"slug":"war-profiteering","title":"War Profiteering","desc":"Who gets rich from war."}]} />
       <BackToTop />
     </div>
   )

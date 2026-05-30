@@ -6,6 +6,7 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 import ArticleSchema from '@/components/ArticleSchema'
 import { TruthDelayChart, DeathsByLieChart, MediaComplicityChart, LieTimelineChart } from './LiesCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Lies That Started Wars: Tonkin, WMDs & More',
@@ -459,6 +460,7 @@ const faqItems = [
 export default function LiesThatStartedWarsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"What lies started American wars?","a":"Major lies that led to US wars include: the Gulf of Tonkin incident (fabricated attack that escalated Vietnam), Iraq WMDs (no weapons of mass destruction were found), the USS Maine explosion (likely accidental, blamed on Spain), and the Nayirah testimony (fabricated testimony about Iraqi soldiers in Kuwait)."},{"q":"Did the US lie about WMDs in Iraq?","a":"Yes. The US government claimed Iraq possessed weapons of mass destruction to justify the 2003 invasion. No WMDs were ever found. Intelligence was cherry-picked and manipulated to support a predetermined decision to invade, as confirmed by multiple investigations including the Senate Intelligence Committee report."}]} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Lies That Started Wars' }]} />
       <ArticleSchema 
         title="Lies That Started Wars: Gulf of Tonkin, WMDs, Nayirah & the Pattern of Deception" 

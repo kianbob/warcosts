@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Private Armies: Mercenaries & the Outsourcing of War',
@@ -920,6 +921,8 @@ export default function PrivateArmiesPage() {
         </p>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"defense-contractors-exposed","title":"Top 10 Defense Contractors","desc":"Who profits from war."},{"slug":"private-military","title":"Private Military Contractors","desc":"The privatization of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."},{"slug":"war-profiteering","title":"War Profiteering","desc":"Who gets rich from war."}]} />
       <BackToTop />
     </div>
   )

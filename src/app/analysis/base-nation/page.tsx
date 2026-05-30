@@ -5,6 +5,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { loadData } from '@/lib/server-utils'
 import { fmt, fmtMoney } from '@/lib/utils'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Base Nation: 750 Military Bases Overseas',
@@ -605,6 +606,8 @@ export default function BaseNationPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"empire-of-bases","title":"Empire of Bases","desc":"750 installations in 80 countries."},{"slug":"us-military-bases-worldwide","title":"750 US Military Bases","desc":"The map of American empire."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."},{"slug":"timeline-of-american-empire","title":"Timeline of Empire","desc":"1776 to present."}]} />
       <BackToTop />
     </div>
   )

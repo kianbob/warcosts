@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'Iran Civilian Cost: Schools, Hospitals, Bazaars',
@@ -523,6 +524,8 @@ export default function IranCivilianCostPage() {
         </div>
       </section>
 
+      
+      <RelatedArticles articles={[{"slug":"49-days-in","title":"49 Days In: Iran War Costs","desc":"What the Iran war has cost after 49 days."},{"slug":"iran-2026","title":"Iran 2026","desc":"The war nobody asked for."},{"slug":"iran-cost-per-second","title":"$21,800 Per Second","desc":"Iran war cost tracker."},{"slug":"iran-day-by-day","title":"Iran Day-by-Day Timeline","desc":"The war unfolding in real time."}]} />
       <BackToTop />
 
       <script

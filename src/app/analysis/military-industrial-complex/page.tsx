@@ -6,6 +6,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Military-Industrial Complex: Eisenhower\'s Warning',
@@ -80,6 +82,7 @@ export default function MICPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"What is the military-industrial complex?","a":"The military-industrial complex refers to the relationship between the military establishment, the arms industry, and the political system. President Eisenhower warned about it in his 1961 farewell address, cautioning that this alliance could gain \"unwarranted influence\" and threaten democratic governance."},{"q":"How much do defense contractors make?","a":"The top 5 defense contractors — Lockheed Martin, RTX (Raytheon), Northrop Grumman, Boeing, and General Dynamics — collectively earn over $200 billion annually. Their stock prices have increased 800-1,400% since 9/11, far outpacing the broader market."}]} />
       <ArticleJsonLd title="The Military-Industrial Complex — Eisenhower's Warning Come True" description="$886B/year budget. 5 contractors earning $282B. Pentagon never audited. The revolving door. The warning we ignored." slug="military-industrial-complex" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Military-Industrial Complex' }]} />
       {/* Hero */}
@@ -901,6 +904,8 @@ export default function MICPage() {
         </Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"defense-contractors-exposed","title":"Top 10 Defense Contractors","desc":"Who profits from war."},{"slug":"private-armies","title":"Private Armies","desc":"The outsourcing of war."},{"slug":"private-military","title":"Private Military Contractors","desc":"The privatization of war."},{"slug":"mercenaries-of-america","title":"Mercenaries of America","desc":"$160B to contractors."}]} />
       <BackToTop />
     </div>
   )

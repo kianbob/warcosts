@@ -4,6 +4,8 @@ import { loadData } from '@/lib/server-utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: '19 Wars Without Congress — The Death of the War Power',
@@ -35,6 +37,7 @@ export default function CongressionalAuthorityPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"Does Congress have to declare war?","a":"The Constitution grants Congress the exclusive power to declare war (Article I, Section 8). However, the US has not formally declared war since World War II. Since then, presidents have used authorizations for use of military force (AUMFs), UN resolutions, and executive authority to initiate conflicts without formal declarations."},{"q":"How many wars has Congress declared?","a":"Congress has formally declared war only 11 times in US history, covering 5 conflicts: the War of 1812, the Mexican-American War, the Spanish-American War, World War I, and World War II. All subsequent conflicts have been undeclared."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Congressional Authority' }]} />
 
@@ -865,6 +868,8 @@ export default function CongressionalAuthorityPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"iran-war-no-authorization","title":"Iran: No Authorization","desc":"The war Congress never authorized."},{"slug":"presidents-at-war","title":"Presidents at War","desc":"Every war president ranked."},{"slug":"presidents-war-record","title":"Presidents War Record","desc":"Every president ranked by wars."},{"slug":"undeclared-wars","title":"America's Undeclared Wars","desc":"Wars since 1942 without declarations."}]} />
       <BackToTop />
     </div>
   )

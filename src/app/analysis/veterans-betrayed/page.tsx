@@ -7,6 +7,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 import { SuicideChart, HomelessChart, WaitTimesChart, DenialTimelineChart } from './VeteransCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Veterans Betrayed: 17 Suicides, 37K Homeless',
@@ -103,6 +104,7 @@ export default function VeteransBetrayedPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How many veterans die by suicide each day?","a":"Approximately 17 veterans die by suicide every day in the United States — more than 6,000 per year. Since 9/11, over 30,000 post-9/11 veterans have died by suicide, roughly four times the number killed in combat."},{"q":"How many veterans are homeless?","a":"Over 37,000 veterans are homeless on any given night in the United States, according to the HUD Point-in-Time Count. Veterans are 50% more likely to become homeless than other Americans."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

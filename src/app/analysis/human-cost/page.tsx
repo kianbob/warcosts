@@ -6,6 +6,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleJsonLd from '@/components/ArticleJsonLd'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'The Human Cost of War — Every Number Was a Person',
@@ -32,6 +34,7 @@ export default function HumanCostPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How many people have died in US wars?","a":"Over 1.3 million Americans have died in wars throughout US history, from the Revolutionary War to present conflicts. When including all casualties on all sides, US wars have killed tens of millions of people."},{"q":"Which US war had the most casualties?","a":"The Civil War remains the deadliest conflict in American history with approximately 620,000-750,000 US deaths. World War II saw about 405,000 US deaths, and the War on Terror has killed over 7,000 US service members plus over 900,000 total."}]} />
       <ArticleJsonLd title="The Human Cost of War — Every Number Was a Person" description="17 veteran suicides per day. 37 million displaced. Agent Orange. Depleted uranium. The human cost America ignores." slug="human-cost" />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Human Cost' }]} />
       {/* Hero */}
@@ -964,6 +967,8 @@ export default function HumanCostPage() {
         </Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"veterans-betrayed","title":"Veterans Betrayed","desc":"17 suicides, 37K homeless."},{"slug":"veteran-suicide-crisis","title":"17 Suicides Per Day","desc":"The veteran suicide crisis."},{"slug":"military-suicide-epidemic","title":"Military Suicide Epidemic","desc":"More die by suicide than in combat."},{"slug":"the-aftermath","title":"The Aftermath","desc":"War doesn't end when troops come home."}]} />
       <BackToTop />
     </div>
   )

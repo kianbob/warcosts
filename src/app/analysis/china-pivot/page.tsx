@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The China Trap: Middle East Derails the Asia Pivot',
@@ -584,6 +585,8 @@ export default function ChinaPivotPage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"ukraine-proxy","title":"Ukraine Proxy War","desc":"$175 billion in America's proxy war."},{"slug":"allies-and-enemies","title":"Allies & Enemies","desc":"How America arms its future wars."},{"slug":"iran-russia-shadow-war","title":"Russia's Shadow War","desc":"Helping Iran fight Americans."}]} />
       <BackToTop />
     </main>
   )

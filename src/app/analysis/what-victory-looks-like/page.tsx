@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { WarOutcomesChart, ISISTimelineChart, BeforeAfterChart, SpendingOutcomeChart } from './VictoryCharts'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'What Victory Looks Like: What Did Any War Achieve?',
@@ -605,6 +606,8 @@ export default function WhatVictoryLooksLikePage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"cost-of-gulf-war","title":"Gulf War Cost","desc":"The \"cheap war\" that cost $3 trillion."},{"slug":"cost-of-korean-war","title":"Korean War Cost","desc":"$389B and 70-year stalemate."},{"slug":"cost-of-iran","title":"Iran War Cost Projection","desc":"What will Iran cost?"},{"slug":"cost-of-doing-nothing","title":"What If We Did Nothing?","desc":"The counterfactual cost of war."}]} />
       <BackToTop />
     </div>
   )

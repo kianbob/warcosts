@@ -5,6 +5,8 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'The Price of a Life — Cost Per Death in Every US War',
@@ -46,6 +48,7 @@ export default function AnalysisCostPerLifePage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"How much does each war death cost?","a":"The cost per death varies dramatically by war: the War on Terror cost approximately $8.9 million per death, Vietnam cost about $530,000 per death (inflation-adjusted), and World War II cost roughly $10,000 per death (inflation-adjusted). Modern wars are vastly more expensive per casualty."},{"q":"What is the most expensive war per death?","a":"The War on Terror is the most expensive conflict per death in American history at approximately $8.9 million per casualty, reflecting the enormous cost of modern warfare technology, logistics, and contractor support."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'The Price of a Life' }]} />
 
@@ -559,6 +562,8 @@ export default function AnalysisCostPerLifePage() {
         </div>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"americas-forgotten-wars","title":"America's Forgotten Wars","desc":"Conflicts nobody remembers."},{"slug":"americas-wars-by-the-numbers","title":"America's Wars By the Numbers","desc":"Full breakdown of every US war."},{"slug":"forgotten-wars","title":"Forgotten Wars","desc":"Conflicts Americans don't remember."},{"slug":"founding-fathers-at-war","title":"Founding Fathers at War","desc":"Six men who won freedom."}]} />
       <BackToTop />
     </div>
   )

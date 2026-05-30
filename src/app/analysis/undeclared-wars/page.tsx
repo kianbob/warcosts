@@ -5,6 +5,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: "America's Undeclared Wars Since 1942",
@@ -911,6 +912,8 @@ export default function UndeclaredWarsPage() {
         </blockquote>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"war-on-terror","title":"War on Terror","desc":"$8T, 900K dead, 37M displaced."},{"slug":"911-to-forever-war","title":"From 9/11 to Forever War","desc":"How 19 hijackers changed America forever."},{"slug":"forever-wars","title":"The Forever Wars","desc":"How 60 words started 25 years of war."},{"slug":"blowback","title":"Blowback","desc":"How US foreign policy creates enemies."}]} />
       <BackToTop />
     </div>
   )

@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Military Suicide Epidemic: More Die Than in Combat',
@@ -88,6 +89,7 @@ const activeDutySuicide = [
 export default function MilitarySuicideEpidemicPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[{"q":"Why is military suicide so high?","a":"Military suicide rates are driven by multiple factors: PTSD from combat exposure, traumatic brain injuries, difficulty transitioning to civilian life, military sexual trauma, access to firearms, inadequate mental health support, and the moral injury of participating in wars many veterans came to question."},{"q":"How many soldiers die by suicide vs combat?","a":"Since 9/11, approximately 30,000 post-9/11 veterans have died by suicide compared to roughly 7,000 killed in combat — a ratio of more than 4 to 1."}]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

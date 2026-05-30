@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: '750 US Military Bases in 80 Countries: The Map',
@@ -281,6 +282,8 @@ export default function USMilitaryBasesWorldwidePage() {
         <Link href="/analysis" className="text-red-700 hover:underline">← Back to All Analysis</Link>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"empire-of-bases","title":"Empire of Bases","desc":"750 installations in 80 countries."},{"slug":"base-nation","title":"Base Nation","desc":"750 military bases overseas."},{"slug":"cost-of-empire","title":"Cost of Empire","desc":"$1.3 trillion per year."},{"slug":"timeline-of-american-empire","title":"Timeline of Empire","desc":"1776 to present."}]} />
       <BackToTop />
     </div>
   )

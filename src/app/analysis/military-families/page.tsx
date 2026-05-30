@@ -5,6 +5,7 @@ import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
   title: 'The Families Left Behind — The Hidden Cost of War',
@@ -605,6 +606,8 @@ export default function MilitaryFamiliesPage() {
         </blockquote>
       </div>
 
+      
+      <RelatedArticles articles={[{"slug":"veterans-betrayed","title":"Veterans Betrayed","desc":"17 suicides, 37K homeless."},{"slug":"veteran-suicide-crisis","title":"17 Suicides Per Day","desc":"The veteran suicide crisis."},{"slug":"military-suicide-epidemic","title":"Military Suicide Epidemic","desc":"More die by suicide than in combat."},{"slug":"the-aftermath","title":"The Aftermath","desc":"War doesn't end when troops come home."}]} />
       <BackToTop />
     </div>
   )
