@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="📝 DEAL CLOSE" sub="MOU 'largely negotiated' — 60-day ceasefire + Hormuz reopen + uranium transfer — not yet signed" />
+      <StatCard label="Status" value="❌ TALKS SUSPENDED" sub="Iran halts all negotiations — demands Israel stop Lebanon/Gaza operations — threatens to fully close Hormuz again" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29B cost — CRS: 42 aircraft lost — Rubio: deal could come 'today'" />
-      <StatCard label="Oil Price" value="~$98/bbl" sub="Brent $97.72, WTI $90.83 — CRASHED on deal hopes — lowest in 2 weeks — was $111 on May 20" />
-      <StatCard label="Lebanon" value="3,123+ killed" sub="9,500+ injured — 500+ killed since ceasefire — 11 killed May 24 in Sir al-Gharbiyeh massacre" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29B cost — CRS: 42 aircraft lost — US struck Goruk + Qeshm Island" />
+      <StatCard label="Oil Price" value="~$96/bbl" sub="Brent surging ~5% — WTI $93 — up on Iran talk collapse and Beirut strikes" />
+      <StatCard label="Lebanon" value="3,412+ killed" sub="10,269 wounded — 1,100+ killed since ceasefire — Netanyahu orders Dahiyeh strikes — 26 IDF soldiers killed" />
     </div>
   )
 }

@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 80,
-  headline: '🚨 Day 87: DEAL CLOSE — Trump: "largely negotiated" — 60-day extension, Hormuz to reopen, Iran gives up uranium — Oil CRASHES to $98 — Israel kills 11 in Lebanon massacre — 3,123+ killed — 1,500 ships waiting — $29B — 15 US KIA',
+  day: 94,
+  headline: '🚨 Day 94: TALKS COLLAPSE — Iran SUSPENDS negotiations — Netanyahu orders Dahiyeh strikes — Beirut residents flee — Oil surges to $96/bbl — Lebanon: 3,412+ killed — US struck Iran over weekend — Deal stalled — $29B — 15 US KIA',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$29B', label: 'Official War Cost (Pentagon — May 12)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '3,061+', label: 'Killed in Lebanon (470+ since ceasefire)' },
-    { value: '~$110/bbl', label: 'Brent crude — CENTCOM: 75+ ships redirected' },
-    { value: 'Jun 2-3', label: 'Next Israel-Lebanon talks in DC' },
+    { value: '3,412+', label: 'Killed in Lebanon (1,100+ since ceasefire)' },
+    { value: '~$96/bbl', label: 'Brent crude — surging on talk collapse' },
+    { value: 'SUSPENDED', label: 'Iran halts all negotiations' },
   ]
 }
 

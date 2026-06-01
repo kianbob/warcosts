@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 87: DEAL CLOSE — Trump: deal 'largely negotiated' — 60-day ceasefire extension, Hormuz to reopen toll-free, Iran gives up enriched uranium (AP/Guardian/PBS). Iran FM: 'not imminent.' Oil crashes to $98/bbl. Lebanon: 3,123+ killed. $29B cost. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 94: TALKS COLLAPSE — Iran SUSPENDS all negotiations after Israel orders Dahiyeh strikes in Beirut — US struck Goruk/Qeshm over weekend — Trump rewrote deal terms — oil surges to $96/bbl. Lebanon: 3,412+ killed. $29B cost. 15 US KIA, 538 wounded.",
     "costNominal": 29000000000,
     "costInflationAdjusted": 29000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Day 87: Deal 'largely negotiated' — 60-day ceasefire extension, Hormuz to reopen, Iran gives up uranium (AP). Oil crashes to $98. Lebanon: 3,123+ killed",
-    "outcomeDetail": "Day 87 (May 25): Iran FM spokesman Baqaei: 'reached conclusions on many issues' but agreement 'not imminent' — accuses US of shifting positions (CBS/AFP). Rubio: deal could come 'today' — 'solid thing on table' for Hormuz (Reuters). Trump: deal 'largely negotiated' — MOU includes 60-day ceasefire extension, Hormuz opens toll-free, Iran gives up enriched uranium (AP/Axios/Guardian). Supreme Leader Mojtaba Khamenei hiding in undisclosed location — reached only by couriers — delaying responses (CBS/US intel). Netanyahu-Trump agree deal must 'eliminate nuclear danger.' NYT: 1,500 ships stranded — will take weeks to clear even after deal. Oil crashes: Brent $98, WTI $91 — lowest in 2 weeks. Israel kills 11 in Sir al-Gharbiyeh massacre (Guardian). IDF warns 10 Lebanon villages to evacuate. Republican hawks revolt — Pompeo denounces terms. Lebanon: 3,123+ killed. HRANA: 1,701 civilians. US: 15 KIA, 538 wounded.",
+    "outcome": "Day 94: Iran SUSPENDS talks — Netanyahu orders Dahiyeh strikes — oil surges to $96 — Lebanon: 3,412+ killed — deal stalled after Trump rewrote terms",
+    "outcomeDetail": "Day 94 (Jun 1): Iran SUSPENDS all talks and text exchanges through mediators — Tasnim (IRGC-linked): negotiations halted 'given the continuation of the ceasefire being violated on all fronts, including Lebanon' (CNN/Guardian). Netanyahu orders Dahiyeh strikes — first on Beirut suburb in months. Residents flee. Hezbollah rockets near Haifa. 1 IDF soldier killed (26th since March). US struck Goruk + Qeshm Island radar/drone sites over weekend (CENTCOM/NYT). Trump sent back changes to tentative May 28 deal — stalling agreement. Oil surges: Brent $96, WTI $93. Lebanon: 3,412+ killed, 10,269 wounded (Al Jazeera/Health Ministry). HRANA: 1,701 civilians. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6632,6 +6632,18 @@
       {
         "year": 2026,
         "event": "May 25 (Day 87): Iran FM: 'reached conclusions on many issues' but 'not imminent.' Rubio: deal could come 'today.' NYT: 1,500 ships stranded — will take weeks to clear. Oil crashes: Brent $98, WTI $91. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. Pakistan mediator in Beijing with Xi. Lebanon: 3,123+ killed."
+      },
+      {
+        "year": 2026,
+        "event": "May 28 (Day 90): US-Iran reach TENTATIVE deal — 60-day ceasefire extension, Hormuz toll-free, mines removed in 30 days. Vance: 'TBD' if Trump signs. Kuwait intercepted Iranian missiles."
+      },
+      {
+        "year": 2026,
+        "event": "May 31 (Day 93): US 'self-defense strikes' on Goruk and Qeshm Island (radar/drone sites). Iran retaliates. Trump sends back changes to deal."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 1 (Day 94): Iran SUSPENDS all negotiations. Netanyahu orders Dahiyeh strikes in Beirut. Oil surges to $96/bbl. Lebanon: 3,412+ killed."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
