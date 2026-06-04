@@ -5,6 +5,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 
 export const metadata: Metadata = {
@@ -79,6 +80,13 @@ export default function CasualtiesPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How many Americans have died in US wars?', a: 'Over 1 million Americans have died in US wars, from the Civil War (620,000) through the War on Terror (~7,000). This does not include veteran suicides, which have claimed over 120,000 lives since 2001.' },
+        { q: 'How many civilians have been killed in US wars?', a: 'Over 5.2 million civilians have been killed in US wars, including 2 million in Korea, 2 million in Vietnam, 300,000+ in Iraq, and 46,000+ in Afghanistan.' },
+        { q: 'What is the civilian-to-combatant death ratio in US wars?', a: 'The ratio has worsened dramatically. In the War on Terror, for every US soldier killed, 19-968 civilians died depending on the theater. In Iraq, the ratio was 65 civilians killed for every US soldier.' },
+        { q: 'How many veterans commit suicide each year?', a: 'Approximately 17 US veterans die by suicide every day — over 6,200 per year. Since 2001, roughly 120,000 veterans have died by suicide, far exceeding the ~7,000 combat deaths in Iraq and Afghanistan combined.' },
+        { q: 'What are the hidden casualties of US wars?', a: 'Hidden casualties include 8,000+ contractor deaths excluded from official counts, 1.8 million PTSD cases, 530,000+ traumatic brain injuries, 300,000+ Agent Orange victims, 250,000+ Gulf War Syndrome cases, and 38 million displaced persons.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US War Casualties","description":"Over 1 million Americans and 5.2 million civilians killed in US wars.","url":"https://www.warcosts.org/casualties","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Casualty Data' }]} />
 

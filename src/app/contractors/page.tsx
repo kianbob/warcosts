@@ -4,6 +4,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Top Defense Contractors — Who Profits from War',
@@ -97,6 +98,13 @@ export default function ContractorsPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'Who are the biggest US defense contractors?', a: 'The top 5 US defense contractors are Lockheed Martin ($65.4B revenue), RTX/Raytheon ($68.9B), Boeing ($66.5B), Northrop Grumman ($39.3B), and General Dynamics ($42.3B). Together they receive over $200 billion in Pentagon contracts annually.' },
+        { q: 'How much do defense contractor CEOs make?', a: 'Defense contractor CEOs earn $22-25 million per year on average — roughly 400 times what a deployed soldier earns.' },
+        { q: 'How much do defense companies spend on lobbying?', a: 'The top defense contractors spend over $50 million per year on lobbying. Northrop Grumman leads at $13.1M, followed by Lockheed Martin at $12.5M and Boeing at $11.8M.' },
+        { q: 'How have defense stocks performed since 9/11?', a: 'Defense stocks have dramatically outperformed the market since 9/11. Northrop Grumman returned 1,450%, Lockheed Martin 1,236%, and General Dynamics 743%, compared to ~450% for the S&P 500.' },
+        { q: 'What is the revolving door in defense contracting?', a: 'The revolving door refers to officials moving between the Pentagon and defense companies. Over 500 former senior DOD officials work for defense contractors, and 67% of defense lobbyists are former DOD or congressional staff.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"Top Defense Contractors","description":"The top defense contractors and how they profit from war.","url":"https://www.warcosts.org/contractors"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Defense Contractors' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Who Profits from War</h1>

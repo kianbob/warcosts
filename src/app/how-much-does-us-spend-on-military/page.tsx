@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -54,6 +55,12 @@ export default function HowMuchDoesUSSpendOnMilitary() {
 
   return (
     <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+      <FaqJsonLd faqs={[
+        { q: 'How much does the US spend on military?', a: 'The United States spent $968 billion on its military in 2024 — 3.4% of GDP and 38% of all global military spending. This is more than China, Russia, India, UK, Saudi Arabia, Germany, France, Japan, and South Korea combined.' },
+        { q: 'What is the US defense budget breakdown?', a: 'The Pentagon budget breaks down into: Operations & Maintenance (33%, $318B), Military Personnel (19%, $184B), Procurement (17%, $168B), Research & Development (15%, $145B), Military Construction (2%, $18B), and Other/Classified (14%, $135B).' },
+        { q: 'How does US military spending compare to other countries?', a: 'The US spends $968 billion on defense — 38% of the global total. China is second at $318 billion (12%), followed by Russia. The US spends more than the next 9 countries combined.' },
+        { q: 'What percentage of the US budget goes to military?', a: 'Military spending represents approximately 3.4% of US GDP and is the largest discretionary spending category in the federal budget, consuming over half of all discretionary spending.' },
+      ]} />
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Spending', href: '/spending' }, { label: 'How Much Does the US Spend on Military' }]} />
 

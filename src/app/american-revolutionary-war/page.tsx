@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import { WarCostByYear, ContinentalDollarChart, CostComparisonChart, BattleCasualtiesChart } from './charts'
@@ -96,6 +97,12 @@ const founders = [
 export default function AmericanRevolutionaryWarPage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How much did the American Revolutionary War cost?', a: 'The American Revolutionary War cost approximately $2.4 billion in 2026 inflation-adjusted dollars. The war was financed through Continental currency (which became worthless), loans from France and the Netherlands, and domestic bonds.' },
+        { q: 'How many people died in the American Revolution?', a: 'Approximately 25,000 Americans died during the Revolutionary War (from combat, disease, and as prisoners of war). British losses were approximately 24,000. An estimated 25,000 American soldiers died of disease alone.' },
+        { q: 'How long did the Revolutionary War last?', a: 'The American Revolutionary War lasted 8 years, from 1775 (Battles of Lexington and Concord) to 1783 (Treaty of Paris).' },
+        { q: 'What happened to the Continental dollar during the Revolution?', a: 'The Continental dollar collapsed due to massive overprinting to fund the war. By 1781 it was essentially worthless, giving rise to the phrase "not worth a Continental." This currency crisis left soldiers unpaid and veterans returning to farms seized for debt.' },
+      ]} />
       {/* Hero */}
       <section className="bg-stone-900 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">

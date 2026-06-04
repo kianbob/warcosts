@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import CostOverrunsChart from './CostOverrunsChart'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Weapons Cost Overruns: Defense Contractors\' Taxpayer Ripoff | WarCosts',
@@ -143,6 +144,12 @@ export default async function CostOverrunsPage() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-stone-100">
+      <FaqJsonLd faqs={[
+        { q: 'What are the biggest weapons cost overruns in US history?', a: 'The F-35 Joint Strike Fighter has a lifetime cost of $1.7 trillion, making it the most expensive weapons program in history. Other major overruns include the Gerald R. Ford aircraft carrier ($15B each) and the B-2 bomber ($2.1B each vs. original estimates).' },
+        { q: 'Why do military weapons programs go over budget?', a: 'Defense contractors systematically underbid to win contracts, then increase costs once locked in — a practice called buy-in. Programs are spread across many congressional districts to make them politically impossible to cancel.' },
+        { q: 'How much money does the Pentagon waste on cost overruns?', a: 'Pentagon weapons programs routinely exceed budgets by 50-600%. The Government Accountability Office has documented hundreds of billions in cost overruns across major acquisition programs.' },
+        { q: 'What is the F-35 lifetime cost?', a: 'The F-35 Joint Strike Fighter program has a total lifetime cost estimated at $1.7 trillion, including development, procurement, and 66 years of operations and maintenance.' },
+      ]} />
       {/* JSON-LD Schema */}
       <script
         type="application/ld+json"

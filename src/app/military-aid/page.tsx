@@ -6,6 +6,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { AidRecipientsChart, CumulativeAidChart } from '@/components/charts/MilitaryAidCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'US Military Aid Worldwide — $68B/Year in Foreign Military Financing | WarCosts',
@@ -71,6 +72,12 @@ export default function MilitaryAidPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'Which countries receive the most US military aid?', a: 'Top recipients are Israel ($3.8B/yr guaranteed), Ukraine ($8B+/yr since 2022), Jordan ($1.65B/yr), Egypt ($1.3B/yr), and Iraq ($1.5B/yr). Israel is the largest cumulative recipient at $158 billion total.' },
+        { q: 'How much military aid does the US give Israel?', a: 'The US gives Israel $3.8 billion per year in military aid, guaranteed through 2028. Israel is the only country allowed to spend a portion on its domestic defense industry. Total exceeds $158 billion.' },
+        { q: 'Does US military aid come with human rights conditions?', a: 'US law (the Leahy Law) prohibits aid to forces committing human rights violations. In practice, conditions are routinely waived for countries like Egypt and Israel.' },
+        { q: 'How much has the US given Ukraine in military aid?', a: 'The US has provided over $113 billion in total aid to Ukraine since 2022, the largest aid package since the Marshall Plan.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Breadcrumbs items={[{ label: 'Military Aid' }]} />
 

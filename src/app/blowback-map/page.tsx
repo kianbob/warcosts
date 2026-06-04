@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
@@ -20,6 +21,12 @@ export const metadata: Metadata = {
 export default function BlowbackMapPage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'What is blowback in foreign policy?', a: 'Blowback is a CIA term for the unintended consequences of covert operations and military interventions abroad. It describes how actions taken in secret come back to harm the country that initiated them — often decades later.' },
+        { q: 'How did US intervention in Iran lead to blowback?', a: 'The CIA overthrew Iran\'s democratically elected Prime Minister Mossadegh in 1953 and installed the Shah. His brutal 26-year dictatorship created the conditions for the 1979 Islamic Revolution, leading to 45+ years of US-Iran hostility.' },
+        { q: 'Did the US create the Taliban and Al-Qaeda?', a: 'The US armed and funded Afghan mujahideen fighters in the 1980s to fight the Soviet Union. Some of these fighters and networks later became the Taliban and Al-Qaeda, which carried out the 9/11 attacks — leading to the 20-year US war in Afghanistan.' },
+        { q: 'What are examples of US foreign policy blowback?', a: 'Major examples include: Iran 1953 coup → 1979 Revolution; Afghanistan mujahideen → Taliban/Al-Qaeda → 9/11; Iraq destabilization → rise of ISIS; Libya intervention → failed state and weapons proliferation across North Africa.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"Blowback Map — US Intervention Consequences","description":"Interactive map of unintended consequences of American interventions abroad.","url":"https://www.warcosts.org/blowback-map","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Blowback Map' }]} />
       <BreadcrumbSchema items={[{ label: 'Blowback Map' }]} />

@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -160,6 +161,13 @@ const iranArticles = [
 export default function IranWar2026Page() {
   return (
     <div className="bg-stone-900 min-h-screen text-stone-300 -mt-4 -mx-4 px-4 pt-4">
+      <FaqJsonLd faqs={[
+        { q: 'When did the Iran War start in 2026?', a: 'The US-Iran war began in February 2026 with Operation Epic Fury. It escalated quickly with strikes on Iranian nuclear facilities, military infrastructure, and energy targets.' },
+        { q: 'How much does the Iran War cost per day?', a: 'The Iran War costs billions per day when factoring in munitions, naval operations, fuel, and troop deployments. The total cost continues to climb as the conflict extends beyond initial projections.' },
+        { q: 'Is the Strait of Hormuz closed due to the Iran War?', a: 'The Strait of Hormuz has been significantly disrupted by the conflict, affecting global oil shipments. Approximately 20% of the world\'s oil passes through this narrow waterway, and disruptions have pushed oil prices above $100 per barrel.' },
+        { q: 'Did Congress authorize the Iran War?', a: 'No. The 2026 Iran War has no formal congressional authorization. The administration has relied on executive authority rather than seeking a declaration of war or new Authorization for Use of Military Force.' },
+        { q: 'How many casualties in the Iran War 2026?', a: 'Casualty figures continue to mount on both sides. Tracking includes US military killed and wounded, Iranian military and civilian deaths, and allied casualties. The live tracker provides daily updated figures.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />

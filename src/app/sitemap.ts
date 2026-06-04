@@ -170,6 +170,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/presidents/biden-wars', '/presidents/bush-wars', '/presidents/fdr-wars',
     '/presidents/lbj-wars', '/presidents/nixon-wars', '/presidents/obama-wars',
     '/presidents/reagan-wars', '/presidents/trump-wars',
+    '/total-cost-of-us-wars-since-2001', '/military-spending-by-country-2026',
   ]
 
   const iranRoutes = ['/iran-war-2026', '/analysis/iran-2026', '/analysis/iran-cost-per-second', '/analysis/iran-civilian-cost', '/analysis/iran-day-by-day', '/analysis/iran-regional-war', '/analysis/iran-russia-shadow-war', '/analysis/iran-vs-iraq-war', '/analysis/iran-war-cost-breakdown', '/analysis/hormuz-crisis', '/analysis/lebanon-burns', '/analysis/cost-of-iran']

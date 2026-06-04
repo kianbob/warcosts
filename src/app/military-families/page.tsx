@@ -6,6 +6,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, L
 import ShareButtons from '@/components/ShareButtons'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 const deploymentData = [
   { era: 'WWII', avgMonths: 33, deployments: 1 },
@@ -60,6 +61,13 @@ export default function MilitaryFamiliesPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'How many military families are there in the US?', a: 'There are approximately 1.3 million active duty service members, 684,000 military spouses, and 1.7 million military children.' },
+        { q: 'What is the military spouse unemployment rate?', a: 'The military spouse unemployment rate is approximately 22%, far higher than the national average, due to frequent relocations and licensing issues.' },
+        { q: 'How often do military families move?', a: 'Military children move an average of 6-9 times during K-12 education, contributing to higher rates of anxiety, depression, and academic decline.' },
+        { q: 'What percentage of military families use food assistance?', a: 'Approximately 24% of military families use food assistance programs like SNAP, as many junior enlisted families earn wages near the poverty line.' },
+        { q: 'What is the divorce rate for military families?', a: 'Military divorce rates rise to 12% after 3+ deployments and an estimated 90% for special operations forces.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'Military Families' }]} />
 
       <h1 className="font-[family-name:var(--font-heading)] text-3xl md:text-4xl font-bold mb-2">

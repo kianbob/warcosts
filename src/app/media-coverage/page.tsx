@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
 import MediaClient from './MediaClient'
@@ -91,6 +92,12 @@ const historicalExamples = [
 export default function MediaCoveragePage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'Which wars get the most US media coverage?', a: 'The Iran War (2026) receives approximately 60% of US cable news war coverage despite having 3,461 deaths, while the Ethiopia/Tigray war with 600,000 deaths received only 0.1% of coverage. Conflicts involving direct US military involvement get exponentially more attention.' },
+        { q: 'Why does the media ignore some wars?', a: 'Media bias patterns include proximity bias (US-involved conflicts get more coverage), racial bias (European conflicts get more coverage than African/Asian ones), access bias (Pentagon-embedded journalists cover US wars), and commercial bias (networks cover what generates ratings).' },
+        { q: 'How many people died in the Ethiopia Tigray war?', a: 'An estimated 600,000 people were killed in the Ethiopia/Tigray conflict (2020-2022), making it one of the deadliest wars of the 21st century. Yet it received only 0.1% of US media coverage — about 0.5 minutes per week on cable news.' },
+        { q: 'What is the most underreported war?', a: 'Yemen is among the most underreported conflicts relative to its death toll. With over 150,000 dead, it receives less than 1% of US media coverage. The war in Myanmar (55,000+ dead) and Sudan civil war (24,000+ dead) are similarly ignored.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

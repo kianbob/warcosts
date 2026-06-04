@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -26,6 +27,13 @@ export const metadata: Metadata = {
 export default function CongressAndWarPage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'Has Congress declared war on Iran in 2026?', a: 'No. The 2026 Iran War has no formal congressional authorization. The administration has relied on executive authority rather than seeking a declaration of war or new AUMF.' },
+        { q: 'What is the AUMF and is it still active?', a: 'The Authorization for Use of Military Force (AUMF) was passed on September 14, 2001, with a vote of 420-1 in the House and 98-0 in the Senate. It is still active over 25 years later and has been used to justify operations in dozens of countries.' },
+        { q: 'How much do defense contractors donate to Congress?', a: 'Defense contractors gave $14.7 million to senators in the current Congress through PAC donations. 73% of top recipients voted to support the Iran War.' },
+        { q: 'When was the last time Congress formally declared war?', a: 'The last formal declaration of war by Congress was in 1942 against Axis powers during World War II. Every conflict since — Korea, Vietnam, Iraq, Afghanistan, Iran — has been fought without a formal declaration.' },
+        { q: 'What are the War Powers Act requirements?', a: 'The War Powers Resolution of 1973 requires the president to notify Congress within 48 hours of committing armed forces and limits deployment to 60 days without congressional authorization, plus a 30-day withdrawal period.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

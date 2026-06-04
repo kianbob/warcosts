@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import DestructionClient from './DestructionClient'
 import ShareButtons from '@/components/ShareButtons'
 
@@ -44,6 +45,12 @@ export default function IranDestructionPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'What infrastructure has been destroyed in the Iran War?', a: 'Major strikes have targeted steel plants, nuclear facilities, oil refineries, ports, power grid substations, airports, petrochemical complexes, water treatment plants, and even hospitals and universities.' },
+        { q: 'Have civilians been killed in US strikes on Iran?', a: 'Yes. Strikes on civilian infrastructure including a hospital complex in Kermanshah killed 34 patients. Water treatment plants, universities, and residential areas near military targets have also been hit, displacing over 100,000 people.' },
+        { q: 'Was Iran\'s nuclear program destroyed?', a: 'Major nuclear facilities including Natanz and Bushehr have been severely damaged or destroyed. The Natanz underground centrifuge halls were collapsed and Bushehr required emergency shutdown after cooling infrastructure was damaged.' },
+        { q: 'How has Iran\'s civilian infrastructure been affected?', a: 'Iran has suffered massive infrastructure destruction: 65% of steel capacity eliminated, 70% of oil refining knocked offline, major ports destroyed, power grid blackouts lasting days, and clean water supply cut to nearly 2 million residents in Shiraz.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="max-w-6xl mx-auto px-4 py-8 bg-stone-900 min-h-screen">
         {/* Breadcrumbs */}

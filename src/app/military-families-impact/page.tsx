@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -84,6 +85,13 @@ const aftermathCosts = [
 export default function MilitaryFamiliesImpactPage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How many veterans die by suicide each day?', a: '17 veterans die by suicide every day — over 6,200 per year. This is more than all post-9/11 combat deaths combined. The veteran suicide rate is 57.3 per 100,000, compared to 16.1 for civilians — 3.5 times higher.' },
+        { q: 'What is the military spouse unemployment rate?', a: 'Military spouse unemployment is approximately 22%, compared to the national rate of about 3.5% — roughly 6 times higher. Frequent relocations and deployments make it extremely difficult for spouses to maintain careers.' },
+        { q: 'How many veterans have traumatic brain injuries?', a: 'Over 450,000 traumatic brain injuries (TBIs) have been recorded since 2000, making it the "signature wound" of the Iraq and Afghanistan wars. Many go undiagnosed as troops return to duty after blast exposure.' },
+        { q: 'How does military service affect children?', a: 'Over 2 million children have had a parent deployed since 9/11. 30% show anxiety symptoms, and they have twice the behavioral issues compared to civilian children. Multiple deployments significantly increase family stress and dysfunction.' },
+        { q: 'How many homeless veterans are there?', a: 'Over 33,000 veterans are homeless on any given night. Veterans are 50% more likely to become homeless than civilians, often due to PTSD, substance abuse from self-medication, and difficulty reintegrating into civilian life.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',

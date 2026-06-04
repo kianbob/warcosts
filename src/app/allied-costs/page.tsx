@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
@@ -203,6 +204,12 @@ const totalCoalitionDeaths = coalitionDeaths.reduce((sum, c) => sum + c.total, 0
 export default function AlliedCostsPage() {
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How much did US allies spend on the wars in Iraq and Afghanistan?', a: 'Allied nations spent over $1 trillion combined on US-led wars since 2001. The UK alone spent over $30 billion, with other major contributors including Australia, Canada, Germany, and France.' },
+        { q: 'How many allied troops were killed in Afghanistan?', a: 'Over 1,400 allied (non-US) troops were killed in Afghanistan. The UK lost 457 soldiers, Canada lost 158, France lost 89, and Germany lost 59, among other coalition nations.' },
+        { q: 'Which countries joined the US coalition in Iraq?', a: 'The "Coalition of the Willing" initially included 49 countries, though the vast majority of troops came from the US and UK. Many nations provided only token forces or non-combat support.' },
+        { q: 'Was the allied involvement in US wars worth the cost?', a: 'Allied nations spent trillions of dollars and lost thousands of troops in US-led conflicts. In many cases, public opinion turned strongly against participation, leading to political consequences for leaders who supported the wars.' },
+      ]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

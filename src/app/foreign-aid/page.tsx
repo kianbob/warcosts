@@ -5,6 +5,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 
 export const metadata: Metadata = {
@@ -77,6 +78,12 @@ export default function ForeignAidPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How much does the US spend on foreign aid?', a: 'The US spends approximately $68 billion per year on foreign aid, representing less than 1% of the federal budget.' },
+        { q: 'Which country receives the most US foreign aid?', a: 'Israel is the largest cumulative recipient of US foreign aid in history, receiving $3.8 billion per year guaranteed through 2028. Ukraine surged to the top in annual aid after 2022.' },
+        { q: 'Does US foreign aid actually help people?', a: 'Results are mixed. Programs like PEPFAR have saved 25 million lives. But much aid serves geopolitical rather than humanitarian goals.' },
+        { q: 'What percentage of US foreign aid is military?', a: 'Military aid is the largest category. Most aid to top recipients like Israel ($3.8B/yr), Egypt ($1.3B/yr), and Jordan ($1.65B/yr) is primarily military.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Foreign Aid Recipients","description":"$68 billion per year in foreign aid and where US tax dollars go abroad.","url":"https://www.warcosts.org/foreign-aid"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Foreign Aid' }]} />
 

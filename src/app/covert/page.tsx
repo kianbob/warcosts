@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -110,6 +111,12 @@ export default function CovertPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'What was MK-Ultra?', a: 'MK-Ultra was a CIA mind control program from 1953 to 1973 that conducted over 150 experiments on unwitting subjects using LSD, barbiturates, and other drugs. CIA Director Richard Helms ordered all files destroyed in 1973, but 20,000 pages survived because they were misfiled.' },
+        { q: 'How many governments has the CIA overthrown?', a: 'The CIA has been directly involved in overthrowing or attempting to overthrow governments in Iran (1953), Guatemala (1954), Congo (1961), Chile (1973), and many others. These coups often replaced democratic governments with military dictatorships.' },
+        { q: 'What was Operation Condor?', a: 'Operation Condor (1968-1989) was a US-backed network of South American military dictatorships — Argentina, Chile, Brazil, Uruguay, Paraguay, and Bolivia — that coordinated cross-border kidnapping, torture, and murder of political opponents. An estimated 60,000-80,000 people were killed.' },
+        { q: 'Were CIA covert operations authorized by Congress?', a: 'Most CIA covert operations were conducted without congressional authorization or oversight. Many were hidden from the American public for decades and only became known through leaked documents, whistleblowers, or eventual declassification.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US Covert Operations & Secret Wars","description":"CIA coups, covert operations, assassination plots, and secret wars.","url":"https://www.warcosts.org/covert","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Covert Operations' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">Covert Operations</h1>

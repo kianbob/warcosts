@@ -5,6 +5,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Global Military Spending — US Spends More Than Next 10 Combined',
@@ -37,6 +38,12 @@ export default function GlobalSpendingPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'How much does the US spend on military compared to other countries?', a: 'The US spends more on its military than the next 10 countries combined, accounting for approximately 38% of global military expenditure.' },
+        { q: 'What is total global military spending?', a: 'Global military spending exceeds $2.4 trillion per year. The United States leads at over $900 billion, followed by China (~$290 billion) and Russia (~$109 billion).' },
+        { q: 'How much does China spend on its military?', a: 'China\'s official military budget is approximately $290 billion per year, though actual spending may be higher. This is still roughly one-third of US military spending.' },
+        { q: 'Why does the US spend so much on its military?', a: 'The US maintains 750+ military bases in 80 countries, 11 aircraft carrier groups, a nuclear triad, and the world\'s most advanced weapons systems.' },
+      ]} />
       <Breadcrumbs items={[{ label: 'Spending', href: '/spending' }, { label: 'Global Comparison' }]} />
 
       <div className="bg-stone-50 text-stone-900 rounded-xl p-8 mb-8">
@@ -178,6 +185,106 @@ export default function GlobalSpendingPage() {
             + {latest.length - 30} more countries
           </p>
         )}
+      </div>
+
+      {/* Per Capita Spending */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">👤 Military Spending Per Capita</h2>
+      <p className="text-stone-500 mb-4">How much each citizen effectively "pays" for their country's military — reveals different priorities than raw totals.</p>
+      <div className="bg-white border border-stone-200 rounded-lg p-5 mb-10">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b-2 border-stone-300 text-left">
+                <th className="py-3 pr-4">Country</th>
+                <th className="py-3 pr-4 text-right">Total Spending</th>
+                <th className="py-3 pr-4 text-right">Population</th>
+                <th className="py-3 pr-4 text-right">Per Capita</th>
+                <th className="py-3 text-right">% of GDP</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { country: '🇺🇸 United States', total: '$916B', pop: '336M', perCap: '$2,726', gdp: '3.4%' },
+                { country: '🇮🇱 Israel', total: '$24B', pop: '9.8M', perCap: '$2,449', gdp: '5.3%' },
+                { country: '🇸🇦 Saudi Arabia', total: '$75B', pop: '36M', perCap: '$2,083', gdp: '7.1%' },
+                { country: '🇦🇺 Australia', total: '$32B', pop: '26M', perCap: '$1,231', gdp: '2.0%' },
+                { country: '🇬🇧 United Kingdom', total: '$75B', pop: '68M', perCap: '$1,103', gdp: '2.3%' },
+                { country: '🇷🇺 Russia', total: '$109B', pop: '144M', perCap: '$757', gdp: '5.9%' },
+                { country: '🇨🇳 China', total: '$296B', pop: '1.4B', perCap: '$211', gdp: '1.7%' },
+                { country: '🇮🇳 India', total: '$84B', pop: '1.4B', perCap: '$60', gdp: '2.4%' },
+              ].map(r => (
+                <tr key={r.country} className="border-b border-stone-200 hover:bg-stone-50">
+                  <td className="py-3 pr-4 font-medium">{r.country}</td>
+                  <td className="py-3 pr-4 text-right font-mono">{r.total}</td>
+                  <td className="py-3 pr-4 text-right text-stone-500">{r.pop}</td>
+                  <td className="py-3 pr-4 text-right font-mono font-bold text-red-700">{r.perCap}</td>
+                  <td className="py-3 text-right font-mono">{r.gdp}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-stone-400 mt-2">Sources: SIPRI 2024, World Bank. Per capita = total military spending ÷ population.</p>
+      </div>
+
+      {/* Regional Breakdown */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">🌍 Regional Military Spending</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+        {[
+          { region: 'North America', amount: '$948B', pct: '39%', note: 'US + Canada. Dominated by US at 97%' },
+          { region: 'East Asia & Oceania', amount: '$446B', pct: '18%', note: 'China, Japan, South Korea, Australia, Taiwan' },
+          { region: 'Europe', amount: '$418B', pct: '17%', note: 'NATO rearmament driving 10%+ annual growth' },
+          { region: 'Middle East', amount: '$200B', pct: '8%', note: 'Saudi Arabia, Israel, Iran, UAE, Turkey' },
+          { region: 'South Asia', amount: '$105B', pct: '4%', note: 'India + Pakistan nuclear rivalry' },
+          { region: 'Rest of World', amount: '$283B', pct: '12%', note: 'Africa, Latin America, Central Asia' },
+        ].map(r => (
+          <div key={r.region} className="bg-stone-50 border border-stone-200 rounded-xl p-5">
+            <div className="flex items-center justify-between mb-1">
+              <h3 className="font-bold text-stone-800">{r.region}</h3>
+              <span className="text-red-700 font-bold font-mono">{r.amount}</span>
+            </div>
+            <div className="w-full bg-stone-200 rounded-full h-2 mb-2">
+              <div className="bg-red-600 h-2 rounded-full" style={{ width: r.pct }} />
+            </div>
+            <p className="text-xs text-stone-500">{r.pct} of global total — {r.note}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Opportunity Cost */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">💰 What $916 Billion Could Fund Instead</h2>
+      <p className="text-stone-500 mb-4">The annual US military budget compared to domestic needs:</p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+        {[
+          { item: 'End US homelessness', cost: '$20B/year', times: '45x over', icon: '🏠' },
+          { item: 'Free public college (all students)', cost: '$79B/year', times: '11x over', icon: '🎓' },
+          { item: 'Clean water for every human on Earth', cost: '$28B one-time', times: '32x over', icon: '💧' },
+          { item: 'End world hunger', cost: '$45B/year (UN est.)', times: '20x over', icon: '🍞' },
+          { item: 'Universal pre-K (US)', cost: '$26B/year', times: '35x over', icon: '👶' },
+          { item: 'NASA\'s entire budget', cost: '$25B/year', times: '36x over', icon: '🚀' },
+        ].map(o => (
+          <div key={o.item} className="bg-white border border-stone-200 rounded-lg p-4 text-center">
+            <p className="text-3xl mb-1">{o.icon}</p>
+            <p className="font-medium text-stone-800 text-sm">{o.item}</p>
+            <p className="font-mono text-xs text-stone-500">{o.cost}</p>
+            <p className="font-bold text-red-700 font-mono mt-1">{o.times}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Historical Context */}
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">📅 Historical Context</h2>
+      <div className="bg-white border border-stone-200 rounded-lg p-6 mb-10">
+        <ul className="space-y-3 text-sm text-stone-700">
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">1945</span> US military spending was 37% of GDP at WWII peak</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">1953</span> Korean War spending hit 14.2% of GDP</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">1968</span> Vietnam War peak: 9.5% of GDP</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">1989</span> Cold War ends. "Peace dividend" briefly cuts spending to 5.2% GDP</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">2001</span> 9/11 launches War on Terror. Budget doubles in a decade</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">2010</span> Peak War on Terror spending: $849B (2024$)</li>
+          <li className="flex gap-3"><span className="font-mono text-red-700 min-w-[4rem]">2024</span> $916B — highest in inflation-adjusted dollars since WWII</li>
+        </ul>
+        <p className="text-xs text-stone-400 mt-4">Despite the "peace dividend" promise after the Cold War, US military spending has only increased. The 2024 budget is higher in real terms than any point during the Cold War, Vietnam, or Korean Wars.</p>
       </div>
 
       <div className="text-center">

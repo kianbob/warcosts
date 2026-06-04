@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -50,6 +51,12 @@ export default function ConflictsPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'How many wars has the United States fought?', a: 'The United States has been involved in 469 wars and military interventions from 1775 to 2026, including declared wars, undeclared conflicts, covert operations, and military deployments.' },
+        { q: 'How many times has Congress declared war?', a: 'Congress has formally declared war only 11 times in US history, covering 5 conflicts: the War of 1812, Mexican-American War, Spanish-American War, World War I, and World War II. Every major conflict since has been fought without a formal declaration.' },
+        { q: 'What is the most expensive war in US history?', a: 'World War II is the most expensive war in US history at over $4 trillion in inflation-adjusted dollars. The post-9/11 wars in Iraq and Afghanistan combined have cost over $8 trillion when including long-term veteran care and interest on war debt.' },
+        { q: 'How many Americans have died in all US wars?', a: 'Over 1.3 million Americans have died in wars, with the Civil War being the deadliest (approximately 620,000 deaths), followed by World War II (405,000), World War I (116,000), and the Vietnam War (58,000).' },
+      ]} />
       <BreadcrumbSchema items={[{ label: 'All Conflicts' }]} />
       <Breadcrumbs items={[{ label: 'All Conflicts' }]} />
 

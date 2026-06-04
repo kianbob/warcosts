@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { CiviliansByConflictChart, DroneStrikesChart } from '@/components/charts/CivilianCasualtyCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Civilian Casualties in US Wars — Over 4.5 Million Dead | WarCosts',
@@ -78,6 +79,12 @@ export default function CivilianCasualtiesPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'How many civilians has the US killed in wars?', a: 'Conservative estimates place US war-related civilian deaths at over 4.5 million, including 2-3 million in Korea, 2-3.4 million in Vietnam, 185,000-600,000 in Iraq, and 46,000-70,000 in Afghanistan.' },
+        { q: 'How does the US count civilian casualties?', a: 'The US military investigates its own strikes, systematically undercounting deaths. Under Obama, all military-age males in strike zones were counted as combatants unless proven innocent posthumously. Independent monitors like Airwars consistently document 5-10x more civilian deaths than Pentagon figures.' },
+        { q: 'How many civilians have US drone strikes killed?', a: 'US drone strikes across Pakistan, Yemen, Somalia, Afghanistan, Iraq, and Syria have killed an estimated 8,000-20,000+ civilians according to independent monitors like the Bureau of Investigative Journalism and Airwars.' },
+        { q: 'What was the deadliest US bombing campaign for civilians?', a: 'The Korean War bombing campaign was among the deadliest: the US dropped 635,000 tons of bombs plus 32,557 tons of napalm, destroying every city in North Korea and killing an estimated 2-3 million civilians.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Breadcrumbs items={[{ label: 'Civilian Casualties' }]} />
 
@@ -171,6 +178,82 @@ export default function CivilianCasualtiesPage() {
               <p className="text-sm text-stone-700">{n.details}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Civilian-to-Combatant Ratio */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Civilian-to-Combatant Death Ratios</h2>
+        <p className="text-stone-500 mb-4">The proportion of civilian deaths has increased dramatically over the past century of warfare.</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b-2 border-stone-300 text-left">
+                <th className="py-3 pr-4">Conflict</th>
+                <th className="py-3 pr-4 text-right">Civilian Deaths</th>
+                <th className="py-3 pr-4 text-right">Combatant Deaths</th>
+                <th className="py-3 pr-4 text-right">Civilian %</th>
+                <th className="py-3 text-right">Ratio (Civ:Combatant)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { conflict: 'World War I', civDead: '7M', combatDead: '10M', pct: '41%', ratio: '0.7:1' },
+                { conflict: 'World War II', civDead: '40M', combatDead: '25M', pct: '62%', ratio: '1.6:1' },
+                { conflict: 'Korean War', civDead: '2.5M', combatDead: '1.5M', pct: '63%', ratio: '1.7:1' },
+                { conflict: 'Vietnam War', civDead: '2M+', combatDead: '1.3M', pct: '60%', ratio: '1.5:1' },
+                { conflict: 'Iraq War', civDead: '200K+', combatDead: '35K', pct: '85%', ratio: '5.7:1' },
+                { conflict: 'Afghanistan', civDead: '70K', combatDead: '80K', pct: '47%', ratio: '0.9:1' },
+                { conflict: 'War on Terror (total)', civDead: '387K+', combatDead: '~200K', pct: '66%', ratio: '1.9:1' },
+              ].map(r => (
+                <tr key={r.conflict} className="border-b border-stone-200 hover:bg-stone-50">
+                  <td className="py-3 pr-4 font-medium">{r.conflict}</td>
+                  <td className="py-3 pr-4 text-right font-mono text-red-700">{r.civDead}</td>
+                  <td className="py-3 pr-4 text-right font-mono">{r.combatDead}</td>
+                  <td className="py-3 pr-4 text-right font-mono font-bold text-red-800">{r.pct}</td>
+                  <td className="py-3 text-right font-mono">{r.ratio}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="text-xs text-stone-400 mt-2">Sources: Uppsala Conflict Data Program, Costs of War (Brown University), various. Combatant deaths include all sides.</p>
+      </section>
+
+      {/* Displacement */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Beyond Death: Displacement &amp; Indirect Harm</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            { stat: '38 Million', label: 'People displaced by US post-9/11 wars', detail: 'More than any conflict since WWII. Across 8 countries: Afghanistan, Iraq, Pakistan, Yemen, Somalia, Philippines, Libya, Syria.' },
+            { stat: '4.5–4.7M', label: 'Indirect deaths in post-9/11 war zones', detail: 'Caused by destruction of hospitals, water systems, food supply, and economic collapse. Brown University Costs of War estimate (2023).' },
+            { stat: '7.6 Million', label: 'Afghan children facing acute malnutrition', detail: 'UNICEF (2022). War destroyed agriculture and infrastructure; US sanctions after withdrawal worsened crisis.' },
+            { stat: '$8 Trillion', label: 'Total cost of post-9/11 wars', detail: 'Including future veteran care and interest on war debt. Money not spent on healthcare, education, or infrastructure.' },
+          ].map(s => (
+            <div key={s.label} className="bg-red-50 border border-red-200 rounded-xl p-5">
+              <p className="text-2xl font-bold text-red-700 font-[family-name:var(--font-heading)]">{s.stat}</p>
+              <p className="font-medium text-stone-800 mb-1">{s.label}</p>
+              <p className="text-xs text-stone-500">{s.detail}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Accountability */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Accountability Gap</h2>
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
+          <p className="text-stone-700 leading-relaxed mb-4">
+            Despite millions of civilian deaths across decades of US military operations, criminal accountability has been virtually nonexistent.
+          </p>
+          <ul className="list-disc pl-5 text-sm text-stone-600 space-y-2">
+            <li>My Lai (1968): 347–504 killed. Lt. Calley convicted, served <span className="font-mono text-red-800">3.5 years</span> house arrest.</li>
+            <li>Haditha (2005): 24 civilians killed. One Marine convicted. Sentence: <span className="font-mono text-red-800">0 jail time</span>.</li>
+            <li>Kunduz Hospital (2015): 42 killed. No criminal charges. Condolence payments: <span className="font-mono text-red-800">$6,000/death</span>.</li>
+            <li>Baghuz (2019): 70+ women and children killed. Covered up. <span className="font-mono text-red-800">No accountability</span>.</li>
+            <li>Zemari Ahmadi family (2021): 10 civilians, 7 children killed. <span className="font-mono text-red-800">No disciplinary action</span>.</li>
+            <li>Eddie Gallagher (2019): Navy SEAL photographed with corpse of killed prisoner. <span className="font-mono text-red-800">Pardoned by Trump</span>.</li>
+          </ul>
         </div>
       </section>
 

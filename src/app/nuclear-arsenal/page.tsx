@@ -6,6 +6,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, L
 import ShareButtons from '@/components/ShareButtons'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BackToTop from '@/components/BackToTop'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 const arsenalOverview = [
   { label: 'Total Warheads', value: '5,500' },
@@ -98,6 +99,13 @@ export default function NuclearArsenalPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How many nuclear weapons does the US have?', a: 'The US has approximately 5,500 nuclear warheads: 1,744 deployed strategic, 1,964 in reserve, and 1,792 retired awaiting dismantlement.' },
+        { q: 'How much does the US spend on nuclear weapons?', a: 'The US spends approximately $60.7 billion per year on nuclear weapons and is undertaking a $1.7 trillion, 30-year modernization program.' },
+        { q: 'What is the US nuclear triad?', a: 'The nuclear triad consists of land-based ICBMs (400 Minuteman III), submarine-launched missiles (14 Ohio-class subs with Trident II), and strategic bombers (B-52s and B-2s).' },
+        { q: 'How close is the Doomsday Clock to midnight?', a: 'As of 2024, the Doomsday Clock stands at 90 seconds to midnight — the closest it has ever been.' },
+        { q: 'How many nuclear weapons did the US have at its peak?', a: 'The US nuclear arsenal peaked at approximately 31,139 warheads in 1965 during the Cold War arms race.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","name":"US Nuclear Arsenal","description":"5,500 warheads, $1.7 trillion modernization, and the Doomsday Clock at 90 seconds.","url":"https://www.warcosts.org/nuclear-arsenal","publisher":{"@type":"Organization","name":"WarCosts","url":"https://www.warcosts.org"}}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Nuclear Arsenal' }]} />
 

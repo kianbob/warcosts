@@ -1,6 +1,7 @@
 import { TroopsChart } from '@/components/charts/SpendingCharts'
 import { Metadata } from 'next'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { loadData } from '@/lib/server-utils'
 import { fmt, fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
@@ -61,6 +62,12 @@ export default function DeploymentsPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How many US troops are deployed overseas?', a: 'Approximately 173,000 US troops are stationed in 80 countries across 750 military bases worldwide. This does not include 800,000 reserve/National Guard forces or 750,000+ military contractors.' },
+        { q: 'Which countries have the most US troops?', a: 'Japan and South Korea host the largest US troop presence in Asia, while Germany and Italy host the most in Europe. In the Middle East, significant forces are stationed in Bahrain, Kuwait, Qatar, and Djibouti.' },
+        { q: 'How many military bases does the US have around the world?', a: 'The US operates approximately 750 military bases in 80 countries. No other nation has troops in more than a handful of foreign countries. America maintains a permanent global military presence with no parallel in human history.' },
+        { q: 'How many countries do US Special Forces operate in?', a: 'US Special Operations forces operated in 134 countries in 2023. AFRICOM alone operates in 33 African countries — a command that did not exist before 2007. Most Americans have no idea US troops are active in this many nations.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Troop Deployments Worldwide","description":"173,000 US troops stationed in 80 countries across 750 bases.","url":"https://www.warcosts.org/deployments"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Troop Deployments' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Troop Deployments</h1>

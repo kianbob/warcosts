@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Largest Defense Contractors — Top 10 US Military Companies by Revenue',
@@ -56,6 +57,12 @@ export default function LargestDefenseContractors() {
 
   return (
     <div className="bg-stone-50 min-h-screen text-stone-600 -mt-4 -mx-4 px-4 pt-4">
+      <FaqJsonLd faqs={[
+        { q: 'What are the largest US defense contractors?', a: 'The largest US defense contractors by revenue are Lockheed Martin, RTX (Raytheon), Boeing, General Dynamics, and Northrop Grumman. The top 10 received over $200 billion in Pentagon contracts in 2024.' },
+        { q: 'How much does Lockheed Martin make from government contracts?', a: 'Lockheed Martin receives approximately $48 billion per year in government contracts — roughly $126 million per day. 74% of its revenue comes from US government contracts.' },
+        { q: 'How have defense stocks performed since 9/11?', a: 'Defense stocks have massively outperformed the market. Lockheed Martin returned 1,163%, Northrop Grumman 1,056%, and General Dynamics 743%, vs. 413% for the S&P 500.' },
+        { q: 'What is the revolving door between Pentagon and defense contractors?', a: 'Over 500 former senior DOD officials work for defense contractors. 67% of defense lobbyists are former DOD or congressional staff. The industry spent $131M on lobbying in 2022.' },
+      ]} />
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Contractors', href: '/contractors' }, { label: 'Largest Defense Contractors' }]} />
 

@@ -5,6 +5,7 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import { CostPerKillChart } from './CostPerKillChart'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Cost Per Kill — The Price of a Life in Every US War | WarCosts',
@@ -39,6 +40,12 @@ const wars = [
 export default function CostPerKillPage() {
   return (
     <div className="min-h-screen">
+      <FaqJsonLd faqs={[
+        { q: 'How much does it cost the US to kill one enemy combatant?', a: 'The cost per enemy killed has skyrocketed: $18,000 in the Civil War, $1.4 million in WWII, $4.7 million in Vietnam, $46 million in Afghanistan, and $63 million in Iraq.' },
+        { q: 'Why is modern warfare so expensive per casualty?', a: 'Modern warfare costs more per kill due to expensive precision weapons, advanced technology, massive logistics chains, contractor costs, and force protection measures.' },
+        { q: 'What was the most cost-efficient US war?', a: 'By cost per enemy killed, the Civil War was the most cost-efficient at roughly $18,000 per kill (inflation-adjusted). Every subsequent war has been dramatically more expensive.' },
+        { q: 'How much did the Iraq War cost per enemy killed?', a: 'The Iraq War cost approximately $63 million per enemy combatant killed — the highest of any US war. The total war cost of $1.9 trillion divided by roughly 30,000 enemy killed yields this figure.' },
+      ]} />
       <BreadcrumbSchema items={[{ label: 'Cost Per Kill' }]} />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({

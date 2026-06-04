@@ -5,6 +5,7 @@ import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Intelligence Agencies — $90B, 18 Agencies, Zero Accountability',
@@ -119,6 +120,13 @@ export default function IntelligencePage() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+        { q: 'How many US intelligence agencies are there?', a: 'The US has 18 intelligence agencies collectively known as the Intelligence Community, including the CIA, NSA, FBI, DIA, NGA, NRO, and others, with a combined budget exceeding $90 billion.' },
+        { q: 'What is the US intelligence budget?', a: 'The US intelligence budget is approximately $90.5 billion per year (2023), split between the National Intelligence Program ($67.1B) and the Military Intelligence Program ($23.4B).' },
+        { q: 'What coups has the CIA been involved in?', a: 'The CIA has been involved in coups in Iran (1953), Guatemala (1954), Congo (1961), Chile (1973), and many others, often installing authoritarian regimes.' },
+        { q: 'What was the NSA mass surveillance program?', a: 'Edward Snowden revealed in 2013 that the NSA was collecting metadata on virtually all American phone calls, emails, and internet activity through programs like PRISM.' },
+        { q: 'What is the intelligence-industrial complex?', a: 'The intelligence-industrial complex consists of 1,271 government organizations and 1,931 private companies working on intelligence, with 854,000 people holding top-secret clearances.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Breadcrumbs items={[{ label: 'Intelligence Agencies' }]} />
 

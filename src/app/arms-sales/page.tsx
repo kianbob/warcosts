@@ -5,6 +5,7 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 
 export const metadata: Metadata = {
@@ -73,6 +74,13 @@ export default function ArmsSalesPage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+        { q: 'How much does the US make from arms sales?', a: 'The US sells approximately $238 billion per year in arms, making it the world\'s largest weapons dealer, accounting for roughly 40% of global arms exports.' },
+        { q: 'Who are the biggest buyers of US weapons?', a: 'The largest buyers include Saudi Arabia, Japan, Australia (AUKUS deal worth $368B), UAE, Israel, South Korea, Taiwan, Poland, Qatar, and the UK.' },
+        { q: 'Has the US sold weapons that were later used against Americans?', a: 'Yes. When Afghanistan fell in 2021, the Taliban captured $7.1 billion in US equipment including 75,000+ vehicles and 600,000+ weapons. ISIS also captured US weapons intended for Iraqi forces.' },
+        { q: 'How have US arms sales changed over time?', a: 'US arms sales grew from $35 billion in the 1950s to $400+ billion in the 2020s, driven by the Ukraine war, AUKUS deal, and China tensions.' },
+        { q: 'Do US arms sales come with human rights conditions?', a: 'US law requires human rights vetting, but conditions are routinely waived. Saudi Arabia continues receiving weapons despite using them on Yemeni civilians.' },
+      ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"ItemList","name":"US Arms Sales by Country","description":"The US is the world's largest arms dealer, selling weapons to foreign governments worldwide.","url":"https://www.warcosts.org/arms-sales"}) }} />    <div className="max-w-5xl mx-auto px-4 py-8">
       <Breadcrumbs items={[{ label: 'Arms Sales' }]} />
       <h1 className="font-[family-name:var(--font-heading)] text-4xl font-bold mb-4">US Arms Sales</h1>
