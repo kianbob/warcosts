@@ -6260,9 +6260,9 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 94: TALKS COLLAPSE — Iran SUSPENDS all negotiations after Israel orders Dahiyeh strikes in Beirut — US struck Goruk/Qeshm over weekend — Trump rewrote deal terms — oil surges to $96/bbl. Lebanon: 3,412+ killed. $29B cost. 15 US KIA, 538 wounded.",
-    "costNominal": 29000000000,
-    "costInflationAdjusted": 29000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 101: 100 DAYS OF WAR — House rebukes Trump 215-208 — Iran hits Kuwait airport — Israel bombs Beirut again — Hezbollah rejects ceasefire — Hormuz blocked 100+ days — $30-35B military cost — $100B to US households (Moody's). Lebanon: 3,593+ killed. 15 US KIA, 538 wounded.",
+    "costNominal": 32000000000,
+    "costInflationAdjusted": 32000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Day 94: Iran SUSPENDS talks — Netanyahu orders Dahiyeh strikes — oil surges to $96 — Lebanon: 3,412+ killed — deal stalled after Trump rewrote terms",
-    "outcomeDetail": "Day 94 (Jun 1): Iran SUSPENDS all talks and text exchanges through mediators — Tasnim (IRGC-linked): negotiations halted 'given the continuation of the ceasefire being violated on all fronts, including Lebanon' (CNN/Guardian). Netanyahu orders Dahiyeh strikes — first on Beirut suburb in months. Residents flee. Hezbollah rockets near Haifa. 1 IDF soldier killed (26th since March). US struck Goruk + Qeshm Island radar/drone sites over weekend (CENTCOM/NYT). Trump sent back changes to tentative May 28 deal — stalling agreement. Oil surges: Brent $96, WTI $93. Lebanon: 3,412+ killed, 10,269 wounded (Al Jazeera/Health Ministry). HRANA: 1,701 civilians. US: 15 KIA, 538 wounded.",
+    "outcome": "Day 101: 100 DAYS — House votes 215-208 to limit war powers — Iran hits Kuwait — Israel bombs Beirut — Hezbollah rejects ceasefire — Hormuz blocked 100+ days — $30-35B cost — $100B to US households",
+    "outcomeDetail": "Day 101 (Jun 8): 100 days since Operation Epic Fury. House passes war powers resolution 215-208 (4 Republicans join Democrats — AP/NPR). Iran strikes Kuwait airport (1 dead, 63 wounded — Guardian/AP). Israel bombs Beirut's Dahiyeh again — 2 killed, 20+ wounded (BBC/LA Times). Hezbollah rejects ceasefire (NPR/AP). Iran fires 7 missiles at Kuwait/Bahrain (6 intercepted — The National). Oil $98/bbl. Hormuz blocked 100+ days. Moody's: $100B cost to US households. Lebanon: 3,593+ killed. US: 15 KIA, 538 wounded.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
