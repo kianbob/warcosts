@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 101,
-  headline: '🚨 Day 101: 100 DAYS OF WAR — House rebukes Trump 215-208 — Iran hits Kuwait airport — Israel bombs Beirut AGAIN — Hezbollah rejects ceasefire — Oil $98/bbl — Hormuz blocked 100+ days — $100B cost to US households — 3,593+ killed in Lebanon — $30-35B — 15 US KIA',
+  headline: '✅ Day 109: PEACE DEAL REACHED — US-Iran agree to end war Jun 14 — Hormuz blockade lifted — Signing Jun 19 in Switzerland — 14-point MOU: 60-day nuclear talks, $24B unfrozen — BUT Netanyahu rejects Lebanon withdrawal — Oil crashes to $83/bbl — 3,756+ killed in Lebanon — $34B+ — 15 US KIA',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$30-35B', label: 'Military Cost (Factually.co est.)' },

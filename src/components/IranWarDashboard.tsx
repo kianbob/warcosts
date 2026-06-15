@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="❌ TALKS SUSPENDED" sub="Iran halts all negotiations — demands Israel stop Lebanon/Gaza operations — threatens to fully close Hormuz again" />
+      <StatCard label="Status" value="✅ PEACE DEAL" sub="US-Iran deal reached Jun 14 — signing Jun 19 Switzerland — 14-point MOU — Hormuz blockade lifted — BUT Netanyahu rejects Lebanon terms" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $30-35B cost — 42 aircraft lost — House votes 215-208 to limit war powers" />
-      <StatCard label="Oil Price" value="~$98/bbl" sub="Brent $97.68 — WTI $91.32 — surging 3%+ on Israel Beirut strikes — Hormuz blocked 100+ days" />
-      <StatCard label="Lebanon" value="3,593+ killed" sub="10,990 wounded — Hezbollah rejects ceasefire — Israel bombs Dahiyeh again — 2 killed, 20+ wounded Jun 7" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $34B+ cost — 42 aircraft lost — House voted 215-208 to limit war powers" />
+      <StatCard label="Oil Price" value="~$83/bbl" sub="Brent $83.82 — WTI $80.44 — 3-month low on peace deal — Hormuz blockade lifted Jun 14 — still up 20%+ since war began" />
+      <StatCard label="Lebanon" value="3,756+ killed" sub="11,632 wounded — Israel bombed Beirut hours before peace deal — Netanyahu refuses to withdraw — deal includes Lebanon ceasefire" />
     </div>
   )
 }

@@ -6260,9 +6260,9 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 101: 100 DAYS OF WAR — House rebukes Trump 215-208 — Iran hits Kuwait airport — Israel bombs Beirut again — Hezbollah rejects ceasefire — Hormuz blocked 100+ days — $30-35B military cost — $100B to US households (Moody's). Lebanon: 3,593+ killed. 15 US KIA, 538 wounded.",
-    "costNominal": 32000000000,
-    "costInflationAdjusted": 32000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 109: PEACE DEAL REACHED Jun 14 — 14-point MOU signed by US & Iran via Pakistan/Qatar mediation — Hormuz blockade lifted — signing Jun 19 in Switzerland — 60-day nuclear talks — $24B unfrozen — BUT Netanyahu rejects Lebanon withdrawal — $34B+ military cost — $100B+ to US households. Lebanon: 3,756+ killed. Oil crashes to $83/bbl. 15 US KIA, 538 wounded.",
+    "costNominal": 34000000000,
+    "costInflationAdjusted": 34000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 15,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Day 101: 100 DAYS — House votes 215-208 to limit war powers — Iran hits Kuwait — Israel bombs Beirut — Hezbollah rejects ceasefire — Hormuz blocked 100+ days — $30-35B cost — $100B to US households",
-    "outcomeDetail": "Day 101 (Jun 8): 100 days since Operation Epic Fury. House passes war powers resolution 215-208 (4 Republicans join Democrats — AP/NPR). Iran strikes Kuwait airport (1 dead, 63 wounded — Guardian/AP). Israel bombs Beirut's Dahiyeh again — 2 killed, 20+ wounded (BBC/LA Times). Hezbollah rejects ceasefire (NPR/AP). Iran fires 7 missiles at Kuwait/Bahrain (6 intercepted — The National). Oil $98/bbl. Hormuz blocked 100+ days. Moody's: $100B cost to US households. Lebanon: 3,593+ killed. US: 15 KIA, 538 wounded.",
+    "outcome": "Day 109: PEACE DEAL REACHED Jun 14 — 14-point MOU — Hormuz blockade lifted — signing Jun 19 Switzerland — 60-day nuclear talks — $24B unfrozen — Netanyahu rejects Lebanon terms — oil $83/bbl — $34B+ cost",
+    "outcomeDetail": "Day 109 (Jun 15): US-Iran peace deal announced Jun 14, mediated by Pakistan and Qatar. 14-point MOU: immediate end to all warfare, Hormuz reopens within 30 days, oil/financial sanctions lifted, $24B unfrozen, Iran reaffirms NPT commitment, 60-day window for final nuclear talks. Signing Jun 19 in Switzerland. Trump lifts Hormuz blockade. Oil crashes to $83/bbl (3-month low). BUT: Netanyahu refuses Lebanon withdrawal, says deal 'does not bind' Israel. Ben-Gvir: 'Israel is not a banana republic.' Israel bombed Beirut hours before deal. Lebanon: 3,756+ killed. US: 15 KIA, 538 wounded. HRANA: 1,701 Iranian civilians (254 children). $34B+ direct military cost, $100B+ to US households (Moody's). 108 days of war, no congressional authorization.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6644,6 +6644,30 @@
       {
         "year": 2026,
         "event": "Jun 1 (Day 94): Iran SUSPENDS all negotiations. Netanyahu orders Dahiyeh strikes in Beirut. Oil surges to $96/bbl. Lebanon: 3,412+ killed."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 3 (Day 96): House passes war powers resolution 215-208 (4 Republicans join Democrats). Iran strikes Kuwait airport - 1 killed, 63 wounded. Rubio repeats 'Epic Fury concluded.'"
+      },
+      {
+        "year": 2026,
+        "event": "Jun 7 (Day 100): 100 DAYS OF WAR. Israel bombs Beirut's Dahiyeh without warning - 2 killed, 20+ wounded. Hezbollah rejects ceasefire. Iran launches missiles at Israel. Moody's: war cost US households $100B."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 9-10 (Days 102-103): US Apache helicopter downed near Hormuz. US launches 'self-defense strikes' on Iran. Iran retaliates - hits Bahrain and Kuwait. Trump reveals secret mission to move 100M barrels through Hormuz. Second day of strikes 'more intense.' Trump vows to 'take over' Iran's oil."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 11 (Day 104): Trump announces 60-day ceasefire extension for negotiations."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 14 (Day 108): PEACE DEAL REACHED. Pakistan PM and Trump announce US-Iran agreement - 'immediate and permanent termination of military operations.' 14-point MOU: Hormuz reopens in 30 days, $24B unfrozen, 60-day nuclear talks, sanctions relief. Signing Jun 19 in Switzerland. Trump lifts Hormuz blockade. BUT Israel bombs Beirut hours before deal - 2 killed. Oil crashes to $83/bbl."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 15 (Day 109): Netanyahu tells Trump Israel won't withdraw from Lebanon. Israeli defense minister: forces to remain 'indefinitely.' Ben-Gvir: deal 'does not bind us.' Oil at 3-month low ($83/bbl). Markets rally. Deal's Lebanon provisions already under threat."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6655,8 +6679,8 @@
     "years": "2026-Present",
     "computed": {
       "durationYears": 0,
-      "durationDays": 87,
-      "costPerDay": 409836066,
+      "durationDays": 108,
+      "costPerDay": 314814815,
       "costPerUSdeath": 1666666667,
       "costPerCivilianDeath": 14697237,
       "totalDeaths": 1716,
