@@ -6260,7 +6260,7 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 109: PEACE DEAL REACHED Jun 14 — 14-point MOU signed by US & Iran via Pakistan/Qatar mediation — Hormuz blockade lifted — signing Jun 19 in Switzerland — 60-day nuclear talks — $24B unfrozen — BUT Netanyahu rejects Lebanon withdrawal — $34B+ military cost — $100B+ to US households. Lebanon: 3,756+ killed. Oil crashes to $83/bbl. 15 US KIA, 538 wounded.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" - massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed on Day 1. CEASEFIRE Day 39 (April 7). Day 116: PEACE DEAL SIGNED — MOU signed Jun 16-17 — Swiss talks at Bürgenstock conclude Jun 22 with 'road map' for final deal in 60 days — de-confliction cell for Lebanon — IAEA inspectors invited back — BUT Hormuz re-closed Jun 20 citing Israeli Lebanon strikes — $29-50B military cost — $100B+ to US households. Lebanon: 4,000+ killed. 15 US KIA, 538 wounded.",
     "costNominal": 34000000000,
     "costInflationAdjusted": 34000000000,
     "costYear": 2026,
@@ -6272,8 +6272,8 @@
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Day 109: PEACE DEAL REACHED Jun 14 — 14-point MOU — Hormuz blockade lifted — signing Jun 19 Switzerland — 60-day nuclear talks — $24B unfrozen — Netanyahu rejects Lebanon terms — oil $83/bbl — $34B+ cost",
-    "outcomeDetail": "Day 109 (Jun 15): US-Iran peace deal announced Jun 14, mediated by Pakistan and Qatar. 14-point MOU: immediate end to all warfare, Hormuz reopens within 30 days, oil/financial sanctions lifted, $24B unfrozen, Iran reaffirms NPT commitment, 60-day window for final nuclear talks. Signing Jun 19 in Switzerland. Trump lifts Hormuz blockade. Oil crashes to $83/bbl (3-month low). BUT: Netanyahu refuses Lebanon withdrawal, says deal 'does not bind' Israel. Ben-Gvir: 'Israel is not a banana republic.' Israel bombed Beirut hours before deal. Lebanon: 3,756+ killed. US: 15 KIA, 538 wounded. HRANA: 1,701 Iranian civilians (254 children). $34B+ direct military cost, $100B+ to US households (Moody's). 108 days of war, no congressional authorization.",
+    "outcome": "Day 116: PEACE DEAL SIGNED — MOU signed Jun 16-17 — Swiss talks conclude with 'road map' for final deal in 60 days — de-confliction cell for Lebanon — IAEA inspectors invited — Hormuz re-closed Jun 20 — oil $77.54/bbl — $29-50B cost",
+    "outcomeDetail": "Day 116 (Jun 22): MOU officially signed Jun 16-17 by both sides. US lifts naval blockade. Mojtaba Khamenei approves deal 'despite reservations.' Jun 18: Deadliest day — Hezbollah kills 4 Israeli soldiers, Israel retaliates killing 18+ in Lebanon. Lebanon death toll crosses 4,000. Jun 19: Swiss talks at Bürgenstock cancelled due to violence. Jun 20: Iran RE-CLOSES Hormuz citing Israeli Lebanon strikes as MOU violation. Jun 21-22: Vance-led quadrilateral talks (US, Iran, Pakistan, Qatar) conclude at Bürgenstock with 'road map' for final deal in 60 days. De-confliction cell created for Lebanon. Iran invites IAEA inspectors back. Araghchi: 'major progress.' BUT Trump threatened to 'hit Iran very hard again' during talks. Hormuz: 0 vessels Jun 21. Oil: WTI $77.54/bbl. Time magazine: 13 US service members dead (Pentagon), 3,636 Iranians killed (HRANA), $29B Pentagon cost (possibly $50B true cost). Lebanon: 4,000+ killed. 116 days, no congressional authorization.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6668,6 +6668,26 @@
       {
         "year": 2026,
         "event": "Jun 15 (Day 109): Netanyahu tells Trump Israel won't withdraw from Lebanon. Israeli defense minister: forces to remain 'indefinitely.' Ben-Gvir: deal 'does not bind us.' Oil at 3-month low ($83/bbl). Markets rally. Deal's Lebanon provisions already under threat."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 16-17 (Days 110-111): MOU officially signed by both sides. US lifts naval blockade. Mojtaba Khamenei approves deal 'despite reservations.' Talks planned for Bürgenstock, Switzerland."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 18 (Day 112): Deadliest day — Hezbollah kills 4 Israeli soldiers. Israel retaliates — 18+ killed in Lebanon. Lebanon death toll crosses 4,000. Ben-Gvir: 'All of Lebanon must burn.'"
+      },
+      {
+        "year": 2026,
+        "event": "Jun 19 (Day 113): Swiss talks cancelled due to Israel-Hezbollah violence. Vance trip scrapped. Israel-Hezbollah agree renewed ceasefire."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 20 (Day 114): Iran RE-CLOSES Hormuz — cites Israeli Lebanon strikes as MOU violation. Vance arrives in Switzerland. Talks begin despite Hormuz crisis."
+      },
+      {
+        "year": 2026,
+        "event": "Jun 21-22 (Days 115-116): Vance-led talks conclude at Bürgenstock. 'Road map' agreed for final deal in 60 days. De-confliction cell created for Lebanon. Iran invites IAEA inspectors back. But Trump threatens Iran during talks. Hormuz: 0 vessels transiting. Oil: WTI $77.54."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6679,7 +6699,7 @@
     "years": "2026-Present",
     "computed": {
       "durationYears": 0,
-      "durationDays": 108,
+      "durationDays": 116,
       "costPerDay": 314814815,
       "costPerUSdeath": 1666666667,
       "costPerCivilianDeath": 14697237,

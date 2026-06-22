@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 101,
-  headline: '✅ Day 109: PEACE DEAL REACHED — US-Iran agree to end war Jun 14 — Hormuz blockade lifted — Signing Jun 19 in Switzerland — 14-point MOU: 60-day nuclear talks, $24B unfrozen — BUT Netanyahu rejects Lebanon withdrawal — Oil crashes to $83/bbl — 3,756+ killed in Lebanon — $34B+ — 15 US KIA',
+  day: 116,
+  headline: '✅ Day 116: PEACE DEAL SIGNED — Swiss talks conclude with road map for final deal — De-confliction cell for Lebanon — IAEA inspectors invited — BUT Hormuz re-closed Jun 20 — 4,000+ killed in Lebanon — $29-50B — 15 US KIA',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$30-35B', label: 'Military Cost (Factually.co est.)' },
     { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '3,593+', label: 'Killed in Lebanon (Hezbollah rejects ceasefire)' },
-    { value: '~$98/bbl', label: 'Brent $97.68 — surging on Beirut strikes' },
+    { value: '4,000+', label: 'Killed in Lebanon (health ministry)' },
+    { value: '~$77/bbl', label: 'WTI $77.54 — down 17% over past month' },
     { value: '$100B', label: 'Total cost to US households (Moody\'s)' },
   ]
 }

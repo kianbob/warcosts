@@ -36,12 +36,12 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="✅ PEACE DEAL" sub="US-Iran deal reached Jun 14 — signing Jun 19 Switzerland — 14-point MOU — Hormuz blockade lifted — BUT Netanyahu rejects Lebanon terms" />
+      <StatCard label="Status" value="✅ DEAL SIGNED" sub="MOU signed Jun 16-17 — Swiss talks conclude Jun 22 with 'road map' for final deal in 60 days — de-confliction cell for Lebanon — IAEA inspectors invited — BUT Hormuz re-closed Jun 20" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
-      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $34B+ cost — 42 aircraft lost — House voted 215-208 to limit war powers" />
-      <StatCard label="Oil Price" value="~$83/bbl" sub="Brent $83.82 — WTI $80.44 — 3-month low on peace deal — Hormuz blockade lifted Jun 14 — still up 20%+ since war began" />
-      <StatCard label="Lebanon" value="3,756+ killed" sub="11,632 wounded — Israel bombed Beirut hours before peace deal — Netanyahu refuses to withdraw — deal includes Lebanon ceasefire" />
+      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,636 total killed — unchanged since truce" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29-50B cost — 42 aircraft lost — House voted 215-208 to limit war powers" />
+      <StatCard label="Oil Price" value="~$77/bbl" sub="WTI $77.54 — down 17% over past month — Hormuz re-closed Jun 20 — 0 vessels transiting Jun 21" />
+      <StatCard label="Lebanon" value="4,000+ killed" sub="Health ministry — deadliest day Jun 18 (18+ killed) — de-confliction cell created at Swiss talks — Ben-Gvir: 'All of Lebanon must burn'" />
     </div>
   )
 }
