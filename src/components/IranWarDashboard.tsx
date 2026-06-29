@@ -36,7 +36,7 @@ export default function IranWarDashboard() {
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
       <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
       <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="✅ DEAL SIGNED" sub="MOU signed Jun 16-17 — Swiss talks conclude Jun 22 with 'road map' for final deal in 60 days — de-confliction cell for Lebanon — IAEA inspectors invited — BUT Hormuz re-closed Jun 20" />
+      <StatCard label="Status" value="⚠️ CEASEFIRE STRAINING" sub="MOU signed Jun 16-17 — BUT US & Iran trading strikes over Hormuz ship attacks Jun 25-27 — Iran hits Kuwait & Bahrain — Pentagon requests $87.6B — Israel-Lebanon framework signed but Hezbollah rejects — talks resume Tue" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,636 total killed — unchanged since truce" />
       <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29-50B cost — 42 aircraft lost — House voted 215-208 to limit war powers" />

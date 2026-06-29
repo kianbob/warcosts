@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 116,
-  headline: '✅ Day 116: PEACE DEAL SIGNED — Swiss talks conclude with road map for final deal — De-confliction cell for Lebanon — IAEA inspectors invited — BUT Hormuz re-closed Jun 20 — 4,000+ killed in Lebanon — $29-50B — 15 US KIA',
+  headline: '⚠️ Day 122: CEASEFIRE STRAINS — US & Iran trade strikes over Hormuz ship attacks — Pentagon requests $87.6B — Iran hits Kuwait & Bahrain — Israel-Lebanon framework signed, Hezbollah rejects — Oil $73/bbl — $34-42B cost — 15 US KIA',
   stats: [
     { value: '5,000+', label: 'Total Killed (Reuters)', },
     { value: '$30-35B', label: 'Military Cost (Factually.co est.)' },
@@ -99,6 +99,8 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 122', text: 'CEASEFIRE STRAINS — Iran drone hits Kiku tanker in Hormuz. US strikes Iranian targets twice. Iran retaliates on Kuwait & Bahrain — no US casualties. IRGC threatens "complete halt" to talks but US says both sides to stand down, talks resume Tuesday. Israel kills soldier in Lebanon, shells Syria. Oil $73/bbl. Pentagon requests $87.6B supplemental — CSIS: war cost $34-42B.', link: '/analysis/iran-2026' },
+                { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed — Netanyahu: Israel stays until Hezbollah disarms — Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental — Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
                 { time: 'Day 87', text: 'DEAL "NOT IMMINENT" — RUBIO: COULD COME "TODAY" — 1,500 SHIPS WAITING — OIL CRASHES: Iran FM: "reached conclusions on many issues" but not imminent — accuses US of shifting positions (CBS). Rubio: deal could come "today" — "solid thing on table" for Hormuz (Reuters). Pakistan mediator in Beijing — Xi pledges help. NYT: 1,500 ships stranded for months — will take weeks to clear. Oil crashes: Brent $98, WTI $91 — lowest in 2 weeks. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
                 { time: 'Day 86', text: 'DEAL DETAILS — IRAN TO GIVE UP ENRICHED URANIUM — OIL PLUNGES — ISRAEL KILLS 11 IN LEBANON: AP: Iran would give up 441kg of 60%-enriched uranium in 60-day window — Russia offered to take it. Netanyahu-Trump agree deal must "eliminate nuclear danger." Supreme Leader Mojtaba Khamenei hiding in undisclosed location — reached only by couriers — delaying responses (CBS/US intel). Israel kills 11 in Sir al-Gharbiyeh including child and 6 women (Guardian). Brent $98, WTI $91. Lebanon: 3,123+ killed.', link: '/analysis/iran-2026' },
                 { time: 'Day 85', text: 'TRUMP: DEAL "LARGELY NEGOTIATED" — MOU FOR PEACE — HAWKS REVOLT: Trump posts deal "largely negotiated" — 60-day ceasefire, Hormuz opens toll-free, Iran sells oil, nuclear talks (AP/Axios). Pompeo: "straight out of Obama playbook." White House: Pompeo should "shut his stupid mouth." Iran disputes — Fars says Hormuz stays under Iranian control. Pakistan PM hopes to host next talks. Oil falls to 2-week lows. Lebanon: 3,111+ killed.', link: '/analysis/iran-2026' },
