@@ -7,9 +7,10 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 Cost — Live Tracker | WarCosts',
+  title: 'Iran War 2026 — 108 Days, $42B+, Peace Deal Signed | WarCosts',
   description:
-    'Live dashboard tracking the 2026 Iran war. Day count, casualties, cost ticker, oil prices, and Strait of Hormuz status. Updated daily.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 108 days of conflict ending with the June 14 peace deal. $42B+ spent, 15 US KIA, 3,461+ Iranian deaths. Full timeline, costs, and analysis.',
+  alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
     'Operation Epic Fury',
@@ -21,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Live Tracker | Operation Epic Fury',
-    description: 'Live cost counter, casualties, timeline, and analysis. The one page to follow the Iran war.',
+    title: 'Iran War 2026 — 108 Days, $42B+, Peace Deal Signed | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 108 days of conflict ending June 14 peace deal. $42B+ spent, full timeline and analysis.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -35,7 +36,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-06-22',
+  dateModified: '2026-07-10',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -173,15 +174,16 @@ export default function IranWar2026Page() {
         { q: 'How much does the Iran War cost per day?', a: 'The Iran War costs billions per day when factoring in munitions, naval operations, fuel, and troop deployments. The total cost continues to climb as the conflict extends beyond initial projections.' },
         { q: 'Is the Strait of Hormuz closed due to the Iran War?', a: 'The Strait of Hormuz has been significantly disrupted by the conflict, affecting global oil shipments. Approximately 20% of the world\'s oil passes through this narrow waterway, and disruptions have pushed oil prices above $100 per barrel.' },
         { q: 'Did Congress authorize the Iran War?', a: 'No. The 2026 Iran War has no formal congressional authorization. The administration has relied on executive authority rather than seeking a declaration of war or new Authorization for Use of Military Force.' },
-        { q: 'How many casualties in the Iran War 2026?', a: 'Casualty figures continue to mount on both sides. Tracking includes US military killed and wounded, Iranian military and civilian deaths, and allied casualties. The live tracker provides daily updated figures.' },
+        { q: 'How many casualties in the Iran War 2026?', a: 'Over the 108-day war: 15 US military killed, 538+ wounded, 42 aircraft lost. Iran: 3,461+ killed (1,701 civilians, 254 children). Lebanon: 3,756+ killed. Thousands more wounded and displaced across the region.' },
+        { q: 'How did the Iran War end?', a: 'A 14-point peace deal was reached on June 14, 2026 (Day 108), mediated by Pakistan PM Sharif. Terms include: permanent end to military operations, Hormuz reopening within 30 days, $24B in frozen assets unfrozen, 60-day nuclear talks, and phased sanctions relief. The deal was signed June 19 in Switzerland.' },
       ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />
 
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold">⚓ BLOCKADE IN EFFECT</span>
-          <span className="text-stone-500 text-sm">Last updated: May 13, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-green-700 text-white font-semibold">✅ PEACE DEAL SIGNED — JUNE 14, 2026</span>
+          <span className="text-stone-500 text-sm">Last updated: July 10, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
@@ -190,8 +192,10 @@ export default function IranWar2026Page() {
 
         <p className="text-lg text-stone-300 max-w-3xl mb-2">
           On February 28, 2026, the United States launched <strong className="text-red-400">Operation Epic Fury</strong> —
-          a massive air campaign against Iran conducted without congressional authorization. Supreme Leader Khamenei
-          was killed. Iran closed the Strait of Hormuz. The war continues.
+          a massive air campaign against Iran conducted without congressional authorization. 108 days later, on
+          June 14, 2026, a peace deal was reached. The cost: <strong className="text-red-400">$42 billion+</strong>,
+          15 American lives, 3,461+ Iranian deaths, 3,756+ killed in Lebanon, and the worst global energy
+          crisis since 1973.
         </p>
 
         <ShareButtons title="Iran War 2026 — Operation Epic Fury: Live Tracker" />
@@ -230,6 +234,12 @@ export default function IranWar2026Page() {
             Iran responded with retaliatory strikes across the entire Middle East, hitting targets in eight countries
             and closing the Strait of Hormuz — through which 20% of global oil flows. The Senate failed to
             invoke the War Powers Act, effectively greenlighting an undeclared war.
+          </p>
+          <p className="text-stone-300 mt-3">
+            After 108 days of bombing, a naval blockade, collapsed negotiations in Islamabad, and the worst
+            energy crisis since the 1970s, Pakistan brokered a peace deal signed June 14, 2026. The 14-point
+            MOU ended military operations on all fronts — including Lebanon — and set terms for Hormuz
+            reopening, sanctions relief, and nuclear talks. Total cost: <strong className="text-white">$42 billion+</strong>.
           </p>
         </div>
 

@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import RelatedArticles from '@/components/RelatedArticles'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'How Much Did the Iraq War Cost? $2.4 Trillion Direct, $3+ Trillion Total | WarCosts',
@@ -86,6 +87,11 @@ export default function IraqWarCostPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0f1e]">
+      <FaqJsonLd faqs={[
+    { q: `What is the total cost of the Iraq War?`, a: `The total cost of the Iraq War is approximately $2.4 trillion, including $849 billion in direct DOD spending, $388 billion in veteran care, and hundreds of billions in interest on war debt.` },
+    { q: `How much did the Iraq War cost per day?`, a: `At its peak, the Iraq War cost approximately $720 million per day in direct military spending alone.` },
+    { q: `Who paid for the Iraq War?`, a: `American taxpayers paid for the Iraq War entirely through borrowed money, adding trillions to the national debt. Despite promises that Iraqi oil would fund reconstruction, it covered only a tiny fraction.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'Iraq War Cost' }]} />
         <ShareButtons title="How Much Did the Iraq War Cost? $2.4 Trillion Direct, $3+ Trillion Total" />

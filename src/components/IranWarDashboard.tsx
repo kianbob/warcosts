@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 
 const WAR_START = new Date('2026-02-28T05:15:00Z') // 9:15am Tehran = 5:15 UTC
+const WAR_END = new Date('2026-06-14T23:59:00Z') // Peace deal reached June 14, 2026
 const COST_PER_SECOND = 21759 // ~$1.88B/day (Pentagon: $11.3B in 6 days)
 
 function fmtCompact(n: number): string {
@@ -23,25 +24,28 @@ export default function IranWarDashboard() {
 
   if (!now) return null
 
-  const elapsedMs = now.getTime() - WAR_START.getTime()
+  // War ended June 14 — cap the counter
+  const endTime = WAR_END.getTime()
+  const elapsedMs = Math.min(now.getTime(), endTime) - WAR_START.getTime()
   const days = Math.floor(elapsedMs / 86_400_000)
   const hours = Math.floor((elapsedMs % 86_400_000) / 3_600_000)
   const minutes = Math.floor((elapsedMs % 3_600_000) / 60_000)
   const seconds = Math.floor((elapsedMs % 60_000) / 1000)
-  const totalCost = Math.floor((elapsedMs / 1000) * COST_PER_SECOND)
+  const totalCost = 42_000_000_000 // Final cost: $42B+
+  const warOver = now.getTime() >= endTime
 
   const fmtCost = fmtCompact(totalCost)
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value={`Day ${days + 1}`} sub={`${hours}h ${minutes}m ${seconds}s`} pulse />
-      <StatCard label="Estimated Cost" value={fmtCost} sub={`$${COST_PER_SECOND.toLocaleString()}/sec`} pulse />
-      <StatCard label="Status" value="⚠️ CEASEFIRE STRAINING" sub="MOU signed Jun 16-17 — BUT US & Iran trading strikes over Hormuz ship attacks Jun 25-27 — Iran hits Kuwait & Bahrain — Pentagon requests $87.6B — Israel-Lebanon framework signed but Hezbollah rejects — talks resume Tue" />
+      <StatCard label="War Duration" value="108 Days" sub={warOver ? 'Feb 28 – Jun 14, 2026' : `${hours}h ${minutes}m ${seconds}s`} />
+      <StatCard label="Total Cost" value="$42B+" sub="Pentagon supplemental: $87.6B requested" />
+      <StatCard label="Status" value="✅ PEACE DEAL" sub="14-point MOU signed June 19, 2026 in Switzerland — Pakistan-mediated — Hormuz reopening in 30 days — $24B unfrozen — 60-day nuclear talks" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
-      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,636 total killed — unchanged since truce" />
-      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — $29-50B cost — 42 aircraft lost — House voted 215-208 to limit war powers" />
-      <StatCard label="Oil Price" value="~$77/bbl" sub="WTI $77.54 — down 17% over past month — Hormuz re-closed Jun 20 — 0 vessels transiting Jun 21" />
-      <StatCard label="Lebanon" value="4,000+ killed" sub="Health ministry — deadliest day Jun 18 (18+ killed) — de-confliction cell created at Swiss talks — Ben-Gvir: 'All of Lebanon must burn'" />
+      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,461+ total killed" />
+      <StatCard label="US Troops" value="15 KIA" sub="538 wounded — 42 aircraft lost/damaged" />
+      <StatCard label="Oil Impact" value="Peak $126/bbl" sub="Hormuz closed 108 days — worst energy crisis since 1973 — reopening per peace deal terms" />
+      <StatCard label="Lebanon" value="3,756+ killed" sub="Health ministry — ceasefire included in peace deal — IDF withdrawal terms TBD" />
     </div>
   )
 }

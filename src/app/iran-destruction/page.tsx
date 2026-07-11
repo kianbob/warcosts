@@ -5,11 +5,11 @@ import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
   title: 'Iran Infrastructure Destruction Tracker — Before & After',
-  description: 'Documenting what has been destroyed in Iran during the 2026 US-Iran war. Before and after accounts of strikes on steel plants, nuclear facilities, schools, ports, and civilian infrastructure.',
+  description: 'Documenting what was destroyed in Iran during the 108-day 2026 US-Iran war (Feb 28 – Jun 14). Before and after accounts of strikes on steel plants, nuclear facilities, schools, ports, and civilian infrastructure. Peace deal signed June 14, 2026.',
   keywords: ['Iran war destruction', 'Iran infrastructure strikes', 'Iran before after', 'Iran civilian casualties', 'US Iran war damage'],
   openGraph: {
     title: 'Iran Infrastructure Destruction Tracker',
-    description: 'Before & After: Documenting the destruction of Iranian infrastructure in the 2026 war.',
+    description: 'Before & After: Documenting the destruction of Iranian infrastructure in the 108-day 2026 war. Peace deal signed June 14.',
     type: 'article',
   },
 }

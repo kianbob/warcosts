@@ -5,9 +5,9 @@ import DayByDayClient from './DayByDayClient'
 import ShareButtons from '@/components/ShareButtons'
 
 export const metadata: Metadata = {
-  title: 'Day by Day: The Iran War — 40 Days of Operation Epic Fury | WarCosts',
+  title: 'Day by Day: The Iran War — 108 Days of Operation Epic Fury | WarCosts',
   description:
-    'A scrollable day-by-day chronicle of the US war on Iran. February 28 – April 8, 2026. CEASEFIRE announced Day 39. Oil crashes 15%. 5,000+ killed. Every day, every dollar, every life lost.',
+    'A scrollable day-by-day chronicle of the US war on Iran. February 28 – June 14, 2026. 108 days from first bombs to peace deal. $42B+ spent. 3,461+ killed in Iran. Every day documented.',
   keywords: [
     'Iran war timeline',
     'Iran war day by day',
@@ -19,16 +19,16 @@ export const metadata: Metadata = {
     'US Iran war diary',
   ],
   openGraph: {
-    title: 'Day by Day: 40 Days of the Iran War — CEASEFIRE',
+    title: 'Day by Day: 108 Days of the Iran War — Peace Deal Signed',
     description:
-      'A daily chronicle of Operation Epic Fury. 5,000+ killed. $39B+ spent. CEASEFIRE Day 39. Oil crashes 15%. Every day documented.',
+      'A daily chronicle of Operation Epic Fury. Feb 28 – Jun 14, 2026. $42B+ spent. 3,461+ killed in Iran. 15 US KIA. Peace deal signed Day 108.',
     url: 'https://www.warcosts.org/iran-war-day-by-day',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Day by Day: 40 Days of the Iran War — CEASEFIRE',
-    description: '5,000+ killed. $39B+ spent. CEASEFIRE Day 39. Oil crashes 15%. A daily chronicle of Operation Epic Fury.',
+    title: 'Day by Day: 108 Days of the Iran War — Peace Deal Signed',
+    description: '$42B+ spent. 3,461+ killed in Iran. 15 US KIA. Feb 28 – Jun 14, 2026. A daily chronicle of Operation Epic Fury.',
   },
   alternates: {
     canonical: 'https://www.warcosts.org/iran-war-day-by-day',
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Day by Day: The Iran War — 35 Days of Operation Epic Fury',
+  headline: 'Day by Day: The Iran War — 108 Days of Operation Epic Fury',
   description:
-    'A scrollable day-by-day chronicle of the US war on Iran, February 28 – April 4, 2026.',
+    'A scrollable day-by-day chronicle of the US war on Iran, February 28 – June 14, 2026. From first bombs to peace deal.',
   url: 'https://www.warcosts.org/iran-war-day-by-day',
   datePublished: '2026-03-29',
-  dateModified: '2026-03-30',
+  dateModified: '2026-07-10',
   publisher: {
     '@type': 'Organization',
     name: 'WarCosts',

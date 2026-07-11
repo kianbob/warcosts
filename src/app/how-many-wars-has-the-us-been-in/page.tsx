@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import RelatedArticles from '@/components/RelatedArticles'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'How Many Wars Has the US Been In? 36+ Major Conflicts Since 1775 | WarCosts',
@@ -112,6 +113,11 @@ export default function USWarsListPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0f1e]">
+      <FaqJsonLd faqs={[
+    { q: `How many wars has the United States been in?`, a: `The US has been involved in 469 military interventions, including 5 formally declared wars, dozens of major conflicts, and hundreds of covert operations and military actions.` },
+    { q: `How many years has the US been at peace?`, a: `The US has been at war for 229 of its 249 years of existence, meaning it has been at peace for only about 20 years total since 1776.` },
+    { q: `What was the longest US war?`, a: `The Afghanistan War (2001-2021) was the longest war in US history at 20 years, surpassing the Vietnam War.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'US Wars List' }]} />
         <ShareButtons title="How Many Wars Has the US Been In? 36+ Major Conflicts Since 1775" />

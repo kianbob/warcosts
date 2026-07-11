@@ -6,6 +6,7 @@ import { LiveCostCounter } from '@/components/LiveCostCounter'
 import ThisDayInWarHistory from '@/components/ThisDayInWarHistory'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import { HomeSpendingChart } from '@/components/HomeCharts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
@@ -50,6 +51,12 @@ export default function HomePage() {
 
   return (
     <>
+      <FaqJsonLd faqs={[
+    { q: `How much has the US spent on wars?`, a: `The United States has spent over $11.3 trillion on military interventions and wars throughout its history, including $8+ trillion on the War on Terror since 2001 alone.` },
+    { q: `How many wars has the US been in?`, a: `The US has been involved in 469 military interventions, conflicts, and operations since its founding in 1776, spending 229 of its 249 years at war.` },
+    { q: `How much does the US spend on military per second?`, a: `The US spends approximately $28,095 per second on defense, based on the annual Pentagon budget of roughly $886 billion.` },
+    { q: `What was the most expensive US war?`, a: `World War II was the most expensive in nominal terms, but the War on Terror (2001-present) has cost over $8 trillion when including veterans care and interest on war debt.` }
+  ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const faqs = [
   { q: 'How many wars is the US in right now?', a: 'As of 2026, the US is actively involved in at least 7 military operations and conflicts: the Iran confrontation (air/naval strikes), anti-ISIS operations in Iraq and Syria, counterterrorism in Somalia, support operations in Yemen, drone strikes in multiple countries, and ongoing military aid to Ukraine and Israel. None have formal Congressional declarations of war.' },
-  { q: 'Is the US at war with Iran?', a: 'The US has been conducting military operations against Iran since early 2026, including air strikes on Iranian nuclear and military facilities, naval operations in the Strait of Hormuz, and regional deployments. While the administration has not sought a formal declaration of war, by any practical definition, the US is at war with Iran.' },
+  { q: 'Is the US at war with Iran?', a: 'The US waged a 108-day air and naval campaign against Iran from February 28 to June 14, 2026 (Operation Epic Fury). A peace deal was signed June 14, 2026, ending active hostilities. Total cost: $42B+. The war was never formally declared by Congress.' },
   { q: 'How many US troops are deployed overseas in 2026?', a: 'Approximately 170,000+ US military personnel are deployed overseas, including about 50,000 in the Middle East (up from 35,000 due to Iran), 28,500 in South Korea, 54,000 in Japan, and smaller deployments across Africa, Europe, and Central Asia.' },
   { q: 'Has Congress declared war for any current US operation?', a: 'No. The last formal Congressional declaration of war was in 1942 against Axis powers. All current operations are conducted under the 2001 AUMF (against al-Qaeda), the 2002 Iraq AUMF (repealed 2023 but replaced), or Article II presidential authority. This is precisely the constitutional crisis the founders warned about.' },
 ]
@@ -26,11 +26,11 @@ const faqs = [
 const activeConflicts = [
   {
     name: 'Iran 2026',
-    status: 'Active combat',
-    troops: '~45,000 in region',
-    annualCost: 11.3,
-    authority: 'Article II / pending AUMF',
-    description: 'Air and naval strikes against Iranian military and nuclear facilities. Strait of Hormuz operations. Regional force posture across Gulf states.',
+    status: 'Peace deal signed (Jun 14)',
+    troops: '~45,000 in region (drawdown pending)',
+    annualCost: 42,
+    authority: 'Article II / no AUMF',
+    description: '108-day air/naval campaign ended with peace deal June 14, 2026. $42B+ total cost. 15 US KIA, 538 wounded. Hormuz reopening per MOU terms. Troop drawdown pending.',
     link: '/iran-war-2026',
   },
   {

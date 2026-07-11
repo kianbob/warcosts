@@ -4,6 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import RelatedArticles from '@/components/RelatedArticles'
 import Link from 'next/link'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'How Much Did the Afghanistan War Cost? $2.3 Trillion Over 20 Years | WarCosts',
@@ -98,6 +99,11 @@ export default function AfghanistanWarCostPage() {
 
   return (
     <main className="min-h-screen bg-[#0a0f1e]">
+      <FaqJsonLd faqs={[
+    { q: `What is the total cost of the Afghanistan War?`, a: `The total cost of the Afghanistan War is approximately $2.3 trillion, including $933 billion in direct DOD spending, veteran care, State Department costs, and interest on borrowing.` },
+    { q: `How much did Afghanistan cost per day?`, a: `The Afghanistan War cost an average of approximately $300 million per day over its 20-year duration.` },
+    { q: `Are we still paying for the Afghanistan War?`, a: `Yes. Veterans medical and disability costs are projected to peak in the 2040s. Interest on war debt continues to accumulate. Total costs could reach $6+ trillion by 2050.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'Afghanistan War Cost' }]} />
         <ShareButtons title="How Much Did the Afghanistan War Cost? $2.3 Trillion Over 20 Years" />

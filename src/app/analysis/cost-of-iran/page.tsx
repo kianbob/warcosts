@@ -6,6 +6,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import ArticleSchema from '@/components/ArticleSchema'
 import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'What Will Iran Cost? Projecting War Expenses',
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 const warComparisons = [
   { war: 'Afghanistan (2001–2021)', population: '38M', cost: '$2.3T', perCapita: '$60,526', duration: '20 years', enemyForce: 'Taliban insurgents (60,000–80,000 fighters)', outcome: 'Taliban retook the country in 11 days', casualties: '2,461 US KIA, 176,000+ total', lessons: 'Nation-building impossible in tribal society. Corruption destroyed legitimacy. Pakistan safe haven.' },
   { war: 'Iraq (2003–2011+)', population: '26M', cost: '$2.4T', perCapita: '$92,308', duration: '8+ years (occupation)', enemyForce: 'Iraqi Army (dissolved) → insurgents', outcome: 'ISIS emerged, Iran empowered', casualties: '4,431 US KIA, 500,000+ total', lessons: 'De-Baathification created insurgency. Sectarian civil war. Regional destabilization.' },
-  { war: 'Iran (2026–?)', population: '88M', cost: '$5–10T+', perCapita: '$57,000–$114,000', duration: '??? years', enemyForce: '610,000 active military + 350,000 IRGC + 20M+ Basij militia', outcome: 'Unknown — and that\'s the terrifying part', casualties: 'TBD', lessons: 'Every war costs more than projected, lasts longer than promised, kills more than admitted.' },
+  { war: 'Iran (2026)', population: '88M', cost: '$42B+', perCapita: '$477', duration: '108 days (Feb 28 – Jun 14)', enemyForce: '610,000 active military + 350,000 IRGC + 20M+ Basij militia', outcome: 'Peace deal signed June 14, 2026 — 14-point MOU', casualties: '15 US KIA, 538+ wounded, 3,461+ Iranian killed (1,701 civilians)', lessons: 'Air-only campaign avoided ground quagmire but still cost $42B+ in 108 days. Hormuz closure caused worst energy crisis since 1973.' },
 ]
 
 const day1Costs = [
@@ -286,6 +287,11 @@ const faqItems = [
 export default function CostOfIranPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+    { q: `What is the total cost of the Iran conflict?`, a: `The direct military cost of the Iran conflict is estimated at $34-42 billion (CSIS), with the Pentagon requesting $87.6 billion in supplemental funding. Economic impacts to US households exceeded $100 billion.` },
+    { q: `How much did the Iran War cost per day?`, a: `The Iran War cost approximately $315 million per day during active combat operations, with the first 6 days alone costing $11.3 billion.` },
+    { q: `How does the Iran War cost compare to Iraq?`, a: `The Iran War direct military cost ($34-42B in ~4 months) was far less than Iraq ($2.4T over 8+ years), but the daily burn rate was significantly higher.` }
+  ]} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Cost of Iran' }]} />
       <ArticleSchema 
         title="What Will Iran Cost? Projecting the Price of Operation Epic Fury" 
@@ -874,7 +880,7 @@ export default function CostOfIranPage() {
           and grandchildren will still be paying when you&apos;re dead.
         </p>
         <p>
-          The Iran war isn&apos;t just another military adventure. It&apos;s economic suicide dressed up as foreign policy.
+          The Iran war wasn&apos;t just another military adventure. It was economic disruption on a global scale — $42 billion+ in 108 days, ending only when Pakistan brokered a peace deal on June 14, 2026.
           The only winners will be defense contractors and politicians who get to sound tough on TV. The losers will be
           every American taxpayer for the next 50 years.
         </p>

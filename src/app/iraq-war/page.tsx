@@ -4,6 +4,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 import { YearlySpending, CasualtiesByYear } from "./charts"
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Iraq War Cost — $3 Trillion, 4,500 US Dead, 200K+ Iraqi Civilians | WarCosts',
@@ -116,6 +117,12 @@ export default function IraqWarPage() {
 
   return (
     <main className="min-h-screen bg-white">
+      <FaqJsonLd faqs={[
+    { q: `How much did the Iraq War cost?`, a: `The Iraq War cost approximately $2.4 trillion including direct military spending, State Department costs, veteran care ($388 billion), and interest on war debt.` },
+    { q: `How many Americans died in the Iraq War?`, a: `4,599 American service members were killed in the Iraq War, with over 32,000 wounded. An additional 3,793 US contractors also died.` },
+    { q: `How many Iraqi civilians died?`, a: `Estimates range from 185,000 to over 300,000 Iraqi civilians killed directly, with some studies suggesting over 500,000 excess deaths from war-related causes.` },
+    { q: `Why did the US invade Iraq?`, a: `The Bush administration claimed Iraq had weapons of mass destruction and ties to al-Qaeda. Both claims were later proven false. No WMDs were found.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'Iraq War' }]} />
         <ShareButtons title="Iraq War — $3 Trillion, 4,500 US Dead, Zero WMDs" />

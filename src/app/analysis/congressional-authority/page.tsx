@@ -416,7 +416,7 @@ export default function CongressionalAuthorityPage() {
           <p>
             Congress voted 77-23 in the Senate and 296-133 in the House to authorize the Iraq War.
             Among those voting yes: Hillary Clinton, Joe Biden, John Kerry, and Chuck Schumer.
-            The result: 4,599 Americans dead. Over 300,000 Iraqi civilians killed. Cost: $2 trillion
+            The result: 4,599 Americans dead. Over 300,000 Iraqi civilians killed. Cost: $2.4 trillion
             and counting. All based on lies.
           </p>
         </div>

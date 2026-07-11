@@ -4,6 +4,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 import { YearlySpending, TroopLevels } from './charts'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Cost of Afghanistan War — $2.3T Over 20 Years',
@@ -148,6 +149,12 @@ export default function AfghanistanWarPage() {
 
   return (
     <main className="min-h-screen bg-white">
+      <FaqJsonLd faqs={[
+    { q: `How much did the Afghanistan War cost?`, a: `The Afghanistan War cost approximately $2.3 trillion including direct military spending, State Department costs, veteran medical care, and interest on borrowing.` },
+    { q: `How long was the US in Afghanistan?`, a: `The US was in Afghanistan for 20 years, from October 2001 to August 2021, making it the longest war in American history.` },
+    { q: `How many Americans died in Afghanistan?`, a: `2,461 US service members were killed in the Afghanistan War, with over 20,000 wounded. An additional 3,846 US contractors also died.` },
+    { q: `How did the Afghanistan War end?`, a: `The Taliban retook control of Afghanistan within weeks of the US withdrawal in August 2021, restoring the same government the US had spent 20 years and $2.3 trillion trying to remove.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'Afghanistan War' }]} />
         <ShareButtons title="Afghanistan War — 20 Years, $2.3 Trillion, Taliban Wins" />

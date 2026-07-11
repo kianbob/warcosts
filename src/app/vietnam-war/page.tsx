@@ -4,6 +4,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 import { YearlySpending, TroopLevels } from "./charts"
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Vietnam War Cost — $1 Trillion, 58,220 US Dead, 2-3 Million Vietnamese | WarCosts',
@@ -133,6 +134,11 @@ const faqs = [
 export default function VietnamWarPage() {
   return (
     <main className="min-h-screen bg-white">
+      <FaqJsonLd faqs={[
+    { q: `How many Americans died in Vietnam?`, a: `58,220 American service members were killed in the Vietnam War between 1955 and 1975, with over 150,000 wounded.` },
+    { q: `How much did the Vietnam War cost?`, a: `The Vietnam War cost approximately $1 trillion in inflation-adjusted dollars, making it one of the most expensive conflicts in US history.` },
+    { q: `Why did the US lose the Vietnam War?`, a: `The US failed to achieve its objective of preventing a communist takeover of South Vietnam despite massive military superiority, due to guerrilla warfare, lack of popular support, and political will.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'Vietnam War' }]} />
         <ShareButtons title="Vietnam War — $1 Trillion, 58,220 US Dead, Lessons Never Learned" />

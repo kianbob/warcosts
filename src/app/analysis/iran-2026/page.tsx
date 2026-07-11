@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Iran 2026: The War Nobody Asked For',
@@ -256,6 +257,12 @@ const whoLoses = [
 export default function Iran2026Page() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <FaqJsonLd faqs={[
+    { q: `How much did the Iran War cost?`, a: `The Iran War of 2026 cost an estimated $34-42 billion in direct military spending according to CSIS, with the Pentagon requesting an $87.6 billion war supplemental. Total economic impact exceeded $100 billion.` },
+    { q: `How did the Iran War end?`, a: `A peace deal was reached on June 14, 2026, after 108 days of conflict. The 14-point MOU was signed June 16-17, including Hormuz reopening, $24B unfrozen assets, and 60-day nuclear talks.` },
+    { q: `How many people died in the Iran War?`, a: `1,701 Iranian civilians were killed (HRANA), 15 US service members killed and 538 wounded, and over 4,000 killed in Lebanon from the parallel Israel-Hezbollah conflict.` },
+    { q: `Did Congress authorize the Iran War?`, a: `No. The Iran War was conducted without congressional authorization for 122+ days. Multiple War Powers resolutions were blocked in the Senate.` }
+  ]} />
       <Breadcrumbs items={[{ label: 'Analysis', href: '/analysis' }, { label: 'Iran 2026' }]} />
 
       {/* Hero */}

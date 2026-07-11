@@ -4,6 +4,7 @@ import ShareButtons from '@/components/ShareButtons'
 import BackToTop from '@/components/BackToTop'
 import Link from 'next/link'
 import { DoDBreakdown, HistoricalTrend, GlobalComparison } from "./charts"
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'US Military Budget 2025 — $886B Official, $1.4T Real | WarCosts',
@@ -109,6 +110,11 @@ export default function USMilitaryBudgetPage() {
 
   return (
     <main className="min-h-screen bg-white">
+      <FaqJsonLd faqs={[
+    { q: `How much does the US spend on military?`, a: `The US spends approximately $886 billion per year on defense, more than the next 10 countries combined.` },
+    { q: `What percentage of the budget goes to military?`, a: `Military spending accounts for roughly 13% of total federal spending and about 50% of discretionary spending.` },
+    { q: `How does US military spending compare to other countries?`, a: `The US spends more on its military than China, Russia, India, Saudi Arabia, UK, Germany, France, South Korea, Japan, and Australia combined.` }
+  ]} />
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Breadcrumbs items={[{ label: 'US Military Budget' }]} />
         <ShareButtons title="US Military Budget 2025 — $886B Official, $1.4T Real" />
