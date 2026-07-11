@@ -46,7 +46,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-7XG47GBJZ4" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-7XG47GBJZ4');` }} />
-      </head>
+        <meta name="google-adsense-account" content="ca-pub-9872374508496229" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9872374508496229" crossOrigin="anonymous"></script>      </head>
       <body className="font-[family-name:var(--font-body)] bg-stone-50 text-stone-900 antialiased">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <IranWarBanner />
