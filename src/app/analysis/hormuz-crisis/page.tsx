@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it. Oil past $110. 15,000 US troops deployed. No detour exists.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it for 108 days during the 2026 war. Oil hit $126/bbl. Peace deal (Jun 14) includes 30-day Hormuz reopening timeline.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

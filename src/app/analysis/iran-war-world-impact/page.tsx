@@ -6,8 +6,8 @@ import BackToTop from '@/components/BackToTop'
 import RelatedArticles from '@/components/RelatedArticles'
 
 export const metadata: Metadata = {
-  title: 'Iran War: Breaking Countries That Aren\'t Fighting',
-  description: 'Philippines: energy emergency. South Korea: rationing. Spain: €5B bailout. India: food crisis. WTO: worst trade disruptions in 80 years.',
+  title: 'Iran War: How 108 Days Broke Countries That Weren\'t Fighting',
+  description: 'The 108-day Iran war (Feb–Jun 2026) caused energy emergencies, food crises, and the worst trade disruptions in 80 years — in countries that weren\'t even fighting. Peace deal signed June 14.',
   keywords: ['iran war global impact', 'iran war world economy', 'iran war economic impact', 'hormuz global crisis', 'iran war food crisis'],
   openGraph: {
     title: 'How the Iran War Is Breaking Countries That Aren\'t Fighting',
