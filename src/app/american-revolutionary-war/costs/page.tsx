@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 import { WarCostByYear, ContinentalDollarChart } from '../charts'
 
 export const metadata: Metadata = {
@@ -187,10 +188,121 @@ export default function CostsPage() {
           </div>
         </section>
 
+        {/* Economic Aftermath */}
+        <section>
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Economic Aftermath</h2>
+          <div className="bg-white border border-stone-200 rounded-xl p-8 space-y-4 text-stone-700">
+            <p>
+              The years after the war were marked by severe economic depression. The new nation faced simultaneous crises:
+            </p>
+            <ul className="space-y-2 ml-4">
+              <li>• <strong>Massive debt</strong> — $79 million owed to foreign creditors, domestic bondholders, and unpaid soldiers</li>
+              <li>• <strong>No revenue system</strong> — the Articles of Confederation gave Congress no power to tax</li>
+              <li>• <strong>Trade disruption</strong> — Britain closed its markets to American goods; the pre-war trading relationships were severed</li>
+              <li>• <strong>Currency chaos</strong> — 13 states issuing their own money, no unified monetary system</li>
+              <li>• <strong>Shays’ Rebellion (1786–87)</strong> — desperate veterans and farmers took up arms against debt collection and foreclosures</li>
+            </ul>
+            <p>
+              The economic crisis was so severe that it directly led to the Constitutional Convention of 1787.
+              The Articles of Confederation had failed precisely because they couldn&apos;t address the financial
+              aftermath of the war. The Constitution — with its taxing power, commerce clause, and monetary
+              authority — was written in large part to solve the war&apos;s economic legacy.
+            </p>
+          </div>
+        </section>
+
+        {/* Soldiers' Experience */}
+        <section>
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">The Soldiers Who Paid the Most</h2>
+          <div className="bg-red-50 border border-red-200 rounded-xl p-8 space-y-4 text-stone-700">
+            <p>
+              The common soldiers of the Revolution bore the heaviest financial burden. They were promised pay —
+              and received worthless Continental currency, if they were paid at all:
+            </p>
+            <ul className="space-y-2 ml-4">
+              <li>• <strong>Back pay:</strong> Most soldiers were owed months or years of wages by war&apos;s end</li>
+              <li>• <strong>Depreciated pay:</strong> What they did receive was in Continental dollars worth 1¢ on the dollar</li>
+              <li>• <strong>Pension promises:</strong> Officers were promised half-pay for life; most received commutation certificates worth a fraction of face value</li>
+              <li>• <strong>Speculators:</strong> Desperate veterans sold their pay certificates and land warrants to speculators for pennies. When Hamilton later funded the debt at face value, the speculators — not the veterans — profited</li>
+              <li>• <strong>Farm seizures:</strong> While soldiers were away fighting, their farms fell into debt. Many returned to find their property seized</li>
+            </ul>
+            <p className="font-bold text-red-800">
+              This pattern — soldiers bearing the cost while others profit — would repeat in every American war that followed.
+              The GI Bill after WWII was the single exception. In every other conflict, from the Civil War through
+              the War on Terror, veterans have returned home to find their sacrifices inadequately compensated.
+            </p>
+          </div>
+        </section>
+
+        {/* Lessons for Today */}
+        <section>
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-6">Lessons for Today</h2>
+          <div className="bg-white border border-stone-200 rounded-xl p-8 space-y-4 text-stone-700">
+            <p>The financial story of the Revolution contains lessons that remain relevant:</p>
+            <ul className="space-y-2 ml-4">
+              <li>• <strong>Wars cost more than estimated:</strong> The founders expected a quick war. It lasted 8 years and cost far more than anyone projected. Sound familiar?</li>
+              <li>• <strong>Debt financing hides the true cost:</strong> By printing money and borrowing, Congress avoided the political pain of taxation — but the economic cost was merely deferred, not avoided.</li>
+              <li>• <strong>Veterans bear the deferred cost:</strong> Those who fight the wars are last in line when the bills come due.</li>
+              <li>• <strong>Financial crises follow wars:</strong> The post-war depression directly led to Shays’ Rebellion and the Constitutional Convention.</li>
+            </ul>
+            <p>
+              Today, the US finances its wars entirely through debt — $8 trillion for the War on Terror, none of it
+              paid for with current taxes. The interest alone exceeds $200 billion per year. The founders tried this
+              approach with Continental currency. It nearly destroyed the republic before it began.
+            </p>
+          </div>
+        </section>
+
         <div className="flex gap-4 flex-wrap">
           <Link href="/american-revolutionary-war" className="text-red-600 hover:underline">← Back to Revolutionary War</Link>
           <Link href="/analysis/price-of-liberty" className="text-red-600 hover:underline">The Price of Liberty →</Link>
+          <Link href="/analysis/founding-fathers-at-war" className="text-red-600 hover:underline">Founding Fathers at War →</Link>
+          <Link href="/cost-of-war" className="text-red-600 hover:underline">Total Cost of All Wars →</Link>
+          <Link href="/decades" className="text-red-600 hover:underline">Spending by Decade →</Link>
+          <Link href="/us-wars-list" className="text-red-600 hover:underline">All US Wars →</Link>
+          <Link href="/war-calendar" className="text-red-600 hover:underline">War Calendar →</Link>
         </div>
+
+        {/* Key Comparison */}
+        <section className="bg-stone-900 text-white rounded-xl p-8 mt-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Revolution in Context</h2>
+          <div className="space-y-3 text-stone-300 text-sm">
+            <p>
+              The Revolutionary War cost $2.4 billion in today&apos;s dollars and created the most successful
+              democratic experiment in history. The War on Terror has cost $8+ trillion and created... what exactly?
+            </p>
+            <p>
+              The founders financed their war through sacrifice: worthless currency, personal debt, unpaid soldiers.
+              Modern wars are financed through borrowing that future generations will pay. No sacrifice is asked
+              of the public. No war tax. No draft. No rationing. Just debt on a credit card that your grandchildren
+              will be paying off.
+            </p>
+            <p className="text-red-400 font-bold">
+              Perhaps the most important lesson from the Revolution&apos;s finances: the founders understood
+              that war must be paid for, and that the people who wage it must bear the cost. When the cost
+              is hidden through borrowing, there is no check on the impulse to war.
+            </p>
+          </div>
+        </section>
+
+        {/* Sources */}
+        <section className="bg-stone-50 border rounded-lg p-6">
+          <h3 className="font-bold text-stone-900 mb-3">Sources</h3>
+          <ul className="space-y-1 text-stone-500 text-sm">
+            <li>• Congressional Research Service, &ldquo;Costs of Major U.S. Wars&rdquo; (RL33110)</li>
+            <li>• Robert E. Wright, &ldquo;One Nation Under Debt&rdquo; (2008)</li>
+            <li>• Ron Chernow, &ldquo;Alexander Hamilton&rdquo; (2004)</li>
+            <li>• Bureau of Labor Statistics CPI-U for inflation adjustment</li>
+            <li>• Continental Congress records and Treasury Department historical documents</li>
+          </ul>
+        </section>
+
+        <FaqJsonLd faqs={[
+          { q: 'How much did the American Revolutionary War cost?', a: 'The Revolutionary War cost approximately $2.4 billion in 2026 inflation-adjusted dollars. The nominal cost was roughly $226 million, primarily financed through printed Continental currency ($241M), state contributions ($114M), French loans and gifts ($9.6M), and Dutch loans ($3.6M).' },
+          { q: 'What happened to Continental currency during the Revolution?', a: 'Continental currency collapsed from $1.00 face value to approximately $0.01 by 1781 — a 99% loss. Congress printed $241 million with no backing, causing hyperinflation. The phrase "not worth a Continental" became an American expression for worthlessness.' },
+          { q: 'How did Alexander Hamilton fix America\'s war debt?', a: 'Hamilton funded the national debt at face value, assumed all state war debts, created the Bank of the United States, and established customs duties and excise taxes. Within 5 years, American bonds went from junk to the most sought-after securities in Europe.' },
+          { q: 'How much did France contribute to American independence?', a: 'France provided $9.6 million in total support ($6.35M in loans, $3.26M in gifts) — approximately $300 million in today\'s dollars. France also sent 12,000 troops under Rochambeau and the decisive naval fleet under Admiral de Grasse. The cost to France contributed to its own financial crisis and the French Revolution.' },
+        ]} />
 
         <ShareButtons title="How America Paid for Independence" />
       </main>

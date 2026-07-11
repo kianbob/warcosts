@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Founding Fathers at War: Six Men Who Won Freedom',
@@ -183,10 +184,113 @@ export default function FoundingFathersAtWarPage() {
           </div>
         </section>
 
+        {/* The War in Numbers */}
+        <section className="bg-stone-900 text-white rounded-xl p-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">The War in Numbers</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { stat: '8 years', label: 'Duration of the war', note: '1775–1783' },
+              { stat: '~25,000', label: 'American dead', note: 'Roughly 1% of population' },
+              { stat: '$2.4B', label: 'Total cost (2026$)', note: 'Less than one day of Pentagon spending' },
+              { stat: '56', label: 'Declaration signers', note: 'Who risked everything' },
+              { stat: '12,000', label: 'French troops at Yorktown', note: 'Secured by Franklin' },
+              { stat: '10 minutes', label: 'Hamilton\'s Redoubt 10 assault', note: 'The charge that ended the war' },
+            ].map((s, i) => (
+              <div key={i} className="bg-white/5 border border-white/10 rounded-lg p-4 text-center">
+                <div className="text-xl font-bold text-red-400">{s.stat}</div>
+                <div className="text-stone-300 text-sm mt-1">{s.label}</div>
+                <div className="text-stone-500 text-xs mt-1">{s.note}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* The Lesson for Today */}
+        <section className="bg-amber-50 border border-amber-200 rounded-xl p-8">
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-amber-900">The Lesson for Today</h2>
+          <div className="space-y-3 text-stone-800">
+            <p>
+              The founding fathers didn&apos;t just win a war. They established a principle that the founders themselves
+              understood better than anyone: <strong>the power to wage war belongs to the people, through their representatives</strong>.
+            </p>
+            <p>
+              Washington voluntarily resigned his commission. The founders gave Congress — not the President — the power
+              to declare war. They did this precisely because they understood how easily military power becomes tyranny.
+              They had fought a revolution against an executive who used military force without the consent of the governed.
+            </p>
+            <p>
+              Today, the United States has fought 469+ military operations since 1798. Only 11 had formal declarations
+              of war from Congress. The 2001 AUMF — 60 words passed days after 9/11 — has been used to justify operations
+              in 22+ countries against groups that didn&apos;t exist when it was written.
+            </p>
+            <p className="font-bold text-amber-800">
+              The founders would be horrified. They risked their lives to ensure that no executive could wage war
+              without the consent of the people. We have allowed that principle to die.
+            </p>
+          </div>
+        </section>
+
+        {/* What They Said About War */}
+        <section>
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">What They Said About War and Power</h2>
+          <div className="space-y-4">
+            {[
+              { quote: 'Of all the enemies to public liberty, war is, perhaps, the most to be dreaded.', author: 'James Madison, 1795' },
+              { quote: 'The executive has no right, in any case, to decide the question, whether there is or is not cause for declaring war.', author: 'James Madison' },
+              { quote: 'Commerce with all nations, alliance with none, should be our motto.', author: 'Thomas Jefferson' },
+              { quote: 'There never was a good war or a bad peace.', author: 'Benjamin Franklin, 1783' },
+              { quote: 'Guard against the impostures of pretended patriotism.', author: 'George Washington, Farewell Address, 1796' },
+            ].map((q, i) => (
+              <blockquote key={i} className="bg-stone-50 border-l-4 border-red-800 p-4 rounded-r-lg">
+                <p className="text-stone-700 italic">&ldquo;{q.quote}&rdquo;</p>
+                <p className="text-stone-500 text-sm mt-1">— {q.author}</p>
+              </blockquote>
+            ))}
+          </div>
+        </section>
+
         <div className="flex gap-4 flex-wrap">
           <Link href="/american-revolutionary-war" className="text-red-600 hover:underline">← Revolutionary War Overview</Link>
           <Link href="/american-revolutionary-war/founding-fathers" className="text-red-600 hover:underline">All 12 Founder Profiles →</Link>
           <Link href="/analysis/price-of-liberty" className="text-red-600 hover:underline">The Price of Liberty →</Link>
+          <Link href="/american-revolutionary-war/costs" className="text-red-600 hover:underline">Financial Cost →</Link>
+          <Link href="/war-calendar" className="text-red-600 hover:underline">War Calendar →</Link>
+        </div>
+
+        <FaqJsonLd faqs={[
+          { q: 'What role did the founding fathers play in the Revolutionary War?', a: 'Six key founders made distinct contributions: Washington commanded the army, Jefferson wrote the Declaration, Franklin secured the French alliance, Adams argued independence through Congress and secured Dutch loans, Hamilton led the assault at Yorktown, and Paine\'s writings rallied public support.' },
+          { q: 'Who was the most important founding father in the Revolutionary War?', a: 'Washington is often considered the most important for holding the army together through 8 years of hardship. But no single founder could have won alone — Jefferson\'s Declaration, Franklin\'s French alliance, Adams\'s diplomacy, Hamilton\'s military leadership, and Paine\'s pamphlets were all essential.' },
+          { q: 'What did the founding fathers say about war?', a: 'The founders were deeply wary of military power. Madison warned war was "the most to be dreaded" enemy of liberty. Jefferson advocated "commerce with all nations, alliance with none." Washington warned against "pretended patriotism." They gave Congress, not the President, the power to declare war.' },
+          { q: 'How did Alexander Hamilton contribute to the Revolutionary War?', a: 'Hamilton served as Washington\'s chief of staff (essentially running army headquarters), then led the decisive bayonet assault on Redoubt No. 10 at Yorktown in October 1781. After the war, as Treasury Secretary, he saved the new nation from financial collapse.' },
+        ]} />
+
+        {/* Sources */}
+        <div className="border-t pt-6 mt-8">
+          <p className="text-stone-400 text-xs">
+            <strong>Sources:</strong> Ron Chernow, &ldquo;Washington: A Life&rdquo; (2010) and &ldquo;Alexander Hamilton&rdquo; (2004).
+            David McCullough, &ldquo;John Adams&rdquo; (2001). Walter Isaacson, &ldquo;Benjamin Franklin&rdquo; (2003).
+            Jon Meacham, &ldquo;Thomas Jefferson: The Art of Power&rdquo; (2012). Thomas Paine, &ldquo;Common Sense&rdquo; (1776)
+            and &ldquo;The American Crisis&rdquo; (1776–1783). Congressional Research Service, &ldquo;American War and Military
+            Operations Casualties&rdquo; (RL32492). National Archives founding era records.
+          </p>
+          <p className="text-stone-400 text-xs mt-2">
+            <strong>Note:</strong> Some details in biographical sketches are drawn from established historical
+            accounts and may involve historical interpretation. Where sources disagree, we follow the most
+            widely accepted scholarly consensus. The famous anecdote about Washington’s spectacles at Newburgh
+            comes from multiple contemporary accounts and is considered reliable by most historians.
+          </p>
+        </div>
+
+        {/* Related Analysis */}
+        <div className="bg-stone-50 border rounded-lg p-6 mt-8">
+          <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Continue Reading</h3>
+          <ul className="space-y-2">
+            <li><Link href="/american-revolutionary-war" className="text-red-800 hover:underline">→ Revolutionary War — Complete overview with data</Link></li>
+            <li><Link href="/analysis/price-of-liberty" className="text-red-800 hover:underline">→ The Price of Liberty — Was independence worth the cost?</Link></li>
+            <li><Link href="/american-revolutionary-war/costs" className="text-red-800 hover:underline">→ Financial Analysis — How the war was funded</Link></li>
+            <li><Link href="/war-calendar" className="text-red-800 hover:underline">→ War Calendar — 229 years at war since 1776</Link></li>
+            <li><Link href="/cost-of-war" className="text-red-800 hover:underline">→ Cost of War — $11.3 trillion across all conflicts</Link></li>
+          </ul>
         </div>
 
         <ShareButtons title="The Founding Fathers at War" />

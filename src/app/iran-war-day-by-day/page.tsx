@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import DayByDayClient from './DayByDayClient'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
 
 export const metadata: Metadata = {
   title: 'Day by Day: The Iran War — 108 Days of Operation Epic Fury | WarCosts',
@@ -68,6 +69,12 @@ export default function IranWarDayByDayPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FaqJsonLd faqs={[
+        { q: 'How long did the Iran War last?', a: 'The Iran War (Operation Epic Fury) lasted 108 days, from February 28 to June 14, 2026, when a peace deal was signed. The conflict began with US air and missile strikes on Iranian nuclear and military facilities.' },
+        { q: 'How much did the Iran War cost?', a: 'The Iran War cost over $42 billion in direct military spending over 108 days. This does not include long-term costs like veteran care, equipment replacement, or economic disruption from oil market volatility.' },
+        { q: 'How many casualties occurred in the Iran War?', a: 'Over the 108 days of Operation Epic Fury, 3,461+ people were killed in Iran (military and civilian) and 15 US service members were killed in action. Actual casualty figures may be higher due to limited access and reporting restrictions.' },
+        { q: 'What was Operation Epic Fury?', a: 'Operation Epic Fury was the US military codename for the 2026 war against Iran. It began February 28, 2026, with strikes on Iranian nuclear facilities and military infrastructure, and concluded with a peace deal signed June 14, 2026.' },
+      ]} />
       <div className="min-h-screen bg-stone-900">
         <div className="max-w-7xl mx-auto px-4 pt-6">
           <Breadcrumbs

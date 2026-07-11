@@ -4,10 +4,20 @@ import { loadData } from '@/lib/server-utils'
 import { fmtMoney, fmt } from '@/lib/utils'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import ShareButtons from '@/components/ShareButtons'
+import FaqJsonLd from '@/components/FaqJsonLd'
+import BackToTop from '@/components/BackToTop'
 
 export const metadata: Metadata = {
   title: 'US Military Spending by Decade — 1940s to 2020s',
-  description: 'Decade-by-decade breakdown of US military spending and active conflicts from the 1940s to today. Over $25 trillion spent since WWII in inflation-adjusted dollars.',
+  description: 'Decade-by-decade breakdown of US military spending and active conflicts from the 1940s to today. Over $25 trillion spent since WWII in inflation-adjusted dollars. The ratchet effect explained.',
+  keywords: ['military spending by decade', 'US defense spending history', 'war spending timeline', 'military budget history'],
+  alternates: { canonical: 'https://www.warcosts.org/decades' },
+  openGraph: {
+    title: 'US Military Spending by Decade — 1940s to 2020s',
+    description: 'Over $25 trillion spent since WWII. The ratchet effect: spending surges during conflict and never fully recedes.',
+    url: 'https://www.warcosts.org/decades',
+    type: 'article',
+  },
 }
 
 const decades = ['1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020s']
@@ -175,6 +185,94 @@ export default function DecadesPage() {
         </div>
       </section>
 
+      {/* Decade Comparison Table */}
+      <section className="mt-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Decade Comparison</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left border-collapse">
+            <thead>
+              <tr className="border-b-2 border-red-800">
+                <th className="py-3 pr-4 font-[family-name:var(--font-heading)]">Decade</th>
+                <th className="py-3 pr-4 text-stone-500 text-sm">Total Spent</th>
+                <th className="py-3 pr-4 text-stone-500 text-sm">Conflicts</th>
+                <th className="py-3 pr-4 text-stone-500 text-sm">US Deaths</th>
+                <th className="py-3 text-stone-500 text-sm">Cost Per Death</th>
+              </tr>
+            </thead>
+            <tbody>
+              {decadeData.map((d, i) => (
+                <tr key={d.decade} className={`border-b ${i % 2 === 0 ? 'bg-white' : 'bg-stone-50'}`}>
+                  <td className="py-3 pr-4 font-semibold">{d.decade}</td>
+                  <td className="py-3 pr-4 text-red-700 font-bold">${d.total.toFixed(0)}B</td>
+                  <td className="py-3 pr-4 text-stone-600">{d.conflicts}</td>
+                  <td className="py-3 pr-4 text-stone-600">{fmt(d.deaths)}</td>
+                  <td className="py-3 text-stone-600">{d.deaths > 0 ? `$${((d.total * 1e9) / d.deaths / 1e6).toFixed(1)}M` : '—'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* The Ratchet Explained */}
+      <section className="mt-12 bg-stone-900 text-white rounded-xl p-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Ratchet Effect: Why Spending Never Goes Down</h2>
+        <div className="space-y-4 text-stone-300 text-sm">
+          <p>
+            The data above reveals a pattern political scientists call the &ldquo;ratchet effect.&rdquo;
+            Each major conflict permanently raises the baseline level of military spending:
+          </p>
+          <ul className="space-y-2 ml-4">
+            <li>• <strong className="text-white">Pre-WWII baseline:</strong> ~$20B/year (2024 dollars)</li>
+            <li>• <strong className="text-white">Post-WWII / Cold War baseline:</strong> ~$300-400B/year</li>
+            <li>• <strong className="text-white">Post-Cold War &ldquo;peace dividend&rdquo;:</strong> ~$400-500B/year (barely lower)</li>
+            <li>• <strong className="text-white">Post-9/11 / War on Terror baseline:</strong> ~$600-700B/year</li>
+            <li>• <strong className="text-white">Current (2025+):</strong> ~$886B+ and rising</li>
+          </ul>
+          <p>
+            This happens because each war creates new institutional commitments: bases that can&apos;t be closed,
+            programs that can&apos;t be cut, veteran obligations that last decades, and defense industry capacity
+            that lobbies to maintain itself. The Pentagon never gives back what it gets.
+          </p>
+        </div>
+      </section>
+
+      {/* Comparison Context */}
+      <section className="mt-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Putting It In Perspective</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="bg-white border rounded-lg p-5">
+            <h3 className="font-bold text-stone-900 mb-2">What ${(grandTotal / 1000).toFixed(0)}T Could Have Bought</h3>
+            <ul className="space-y-1 text-stone-600 text-sm">
+              <li>• Free college for every American student for 50+ years</li>
+              <li>• Universal healthcare for the entire country for 25+ years</li>
+              <li>• Complete rebuild of US infrastructure (roads, bridges, rail) 5x over</li>
+              <li>• Eliminating all student loan debt 15+ times</li>
+            </ul>
+          </div>
+          <div className="bg-white border rounded-lg p-5">
+            <h3 className="font-bold text-stone-900 mb-2">GDP Share: The Hidden Story</h3>
+            <p className="text-stone-600 text-sm">
+              Military spending as a share of GDP fell from 40% (WWII peak) to ~3.5% today. Politicians use this
+              to argue spending is &ldquo;historically low.&rdquo; But GDP grew enormously — so 3.5% of a $28T economy
+              means far more dollars than 10% of a $2T economy. The absolute spending is at all-time highs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Pages */}
+      <section className="mt-12 bg-stone-50 border rounded-lg p-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related Pages</h3>
+        <ul className="space-y-2">
+          <li><Link href="/us-military-spending" className="text-red-800 hover:underline">→ US Military Spending — Current $886B budget breakdown</Link></li>
+          <li><Link href="/war-calendar" className="text-red-800 hover:underline">→ War Calendar — 229 years at war out of 249</Link></li>
+          <li><Link href="/cost-of-war" className="text-red-800 hover:underline">→ Cost of War — $11.3 trillion across all conflicts</Link></li>
+          <li><Link href="/analysis/if-we-stopped-today" className="text-red-800 hover:underline">→ If We Stopped Today — $8-12T in future obligations</Link></li>
+          <li><Link href="/opportunity-cost" className="text-red-800 hover:underline">→ Opportunity Cost — What else could this money buy?</Link></li>
+        </ul>
+      </section>
+
       {/* Sources */}
       <section className="mt-8 border-t pt-6">
         <p className="text-xs text-stone-400">
@@ -183,6 +281,30 @@ export default function DecadesPage() {
           All figures in constant 2024 USD.
         </p>
       </section>
+
+      <FaqJsonLd faqs={[
+        { q: 'How much has the US spent on military since WWII?', a: `The United States has spent over $${(grandTotal / 1000).toFixed(1)} trillion on its military since the 1940s (in inflation-adjusted 2024 dollars). This exceeds the combined GDP of every country in Africa and South America.` },
+        { q: 'What decade had the highest US military spending?', a: `The ${peakDecade.decade} had the highest military spending of any decade, driven by ${decadeContext[peakDecade.decade]?.conflicts.join(', ') || 'active conflicts'}.` },
+        { q: 'What is the ratchet effect in military spending?', a: 'The ratchet effect describes how military spending surges during each major conflict but never returns to pre-war levels. Each war permanently raises the baseline, creating a one-way spending trajectory.' },
+        { q: 'Has US military spending ever decreased?', a: 'Military spending has briefly decreased after major conflicts (post-WWII, post-Vietnam, post-Cold War), but never back to pre-conflict levels. The post-Cold War "peace dividend" saw budgets drop from ~$550B to ~$400B but they quickly rose again after 9/11.' },
+      ]} />
+
+      {/* Additional Context */}
+      <section className="mt-8">
+        <div className="bg-stone-900 text-white rounded-xl p-6">
+          <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">The Bipartisan Consensus</h3>
+          <p className="text-stone-300 text-sm">
+            One striking pattern across all nine decades: military spending enjoys near-universal bipartisan
+            support. Unlike healthcare, education, or social programs — which face fierce partisan battles —
+            defense budgets pass every year with overwhelming bipartisan majorities. The last time Congress
+            voted against a defense authorization was... never. This is not because defense spending is
+            uncontroversial. It&apos;s because the defense industry has distributed contracts across every
+            congressional district in America, making every member of Congress a stakeholder in continued spending.
+          </p>
+        </div>
+      </section>
+
+      <BackToTop />
     </div>
   )
 }

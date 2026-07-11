@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { Metadata } from 'next'
+import Link from 'next/link'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ShareButtons from '@/components/ShareButtons'
@@ -177,18 +178,125 @@ export default function CostPerKillPage() {
             </blockquote>
           </div>
 
+          {/* What the Numbers Don't Show */}
+          <div className="bg-red-50 border border-red-200 rounded-xl p-6 mt-12">
+            <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-red-900 mb-3">What These Numbers Don&apos;t Show</h2>
+            <div className="space-y-3 text-stone-700 text-sm">
+              <p>
+                The cost per kill metric, disturbing as it is, dramatically <em>understates</em> the true cost because it counts
+                only enemy combatants killed. It excludes:
+              </p>
+              <ul className="space-y-1 ml-4">
+                <li>• <strong>Civilian casualties:</strong> In Iraq, civilian deaths outnumber combatant deaths by at least 5:1. Include civilians and the &ldquo;cost per person killed&rdquo; drops, but the moral cost skyrockets.</li>
+                <li>• <strong>Long-term costs:</strong> The table uses direct war costs. Include VA care, disability, and interest on war debt, and Afghanistan&apos;s cost per kill nearly doubles.</li>
+                <li>• <strong>Indirect deaths:</strong> Brown University estimates 3.8 million indirect deaths from post-9/11 wars. Include these and the cost per death drops to thousands — making modern war not expensive per death, but devastatingly efficient at killing indirectly.</li>
+                <li>• <strong>Enemy recruitment:</strong> If each kill generates 10 new enemies (a ratio commonly cited by US intelligence), then each $63M kill in Iraq also purchased $630M in future opponents.</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Comparison to Other Spending */}
+          <div className="mt-12">
+            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold text-stone-900 mb-4">$63 Million: What Else Could It Buy?</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {[
+                { item: '1,260 teachers', note: 'One year salary at $50K each' },
+                { item: '252 homes', note: 'At median US price of $250K' },
+                { item: '6,300 students', note: 'Full 4-year college scholarships' },
+                { item: '1 hospital', note: 'Small community hospital' },
+                { item: '63,000 people', note: 'Yearly health insurance' },
+                { item: '2.1M meals', note: 'School lunch program' },
+              ].map((o, i) => (
+                <div key={i} className="bg-white border rounded-lg p-4 text-center">
+                  <div className="text-xl font-bold text-red-700">{o.item}</div>
+                  <div className="text-stone-500 text-sm mt-1">{o.note}</div>
+                </div>
+              ))}
+            </div>
+            <p className="text-stone-500 text-sm mt-4 italic">
+              Each box represents what the $63 million cost of killing one Iraqi insurgent could have purchased instead.
+            </p>
+          </div>
+
+          {/* The Iran War Question */}
+          <div className="mt-12 bg-stone-900 text-white rounded-xl p-8">
+            <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Iran Question</h2>
+            <div className="space-y-3 text-stone-300 text-sm">
+              <p>
+                The Iran War 2026 is still in its early phase, but the pattern is already visible. The initial cost
+                per enemy killed ($9.5M) is relatively &ldquo;efficient&rdquo; by modern standards — because the opening
+                phase relied heavily on cruise missiles and standoff weapons hitting fixed targets.
+              </p>
+              <p>
+                If the conflict escalates to ground operations, the cost per kill will skyrocket. Afghanistan started
+                with efficient aerial strikes; by 2010, counter-insurgency operations pushed costs to $46M per kill.
+                Iraq followed the same pattern.
+              </p>
+              <p className="text-red-400 font-bold">
+                The question is not how much it costs to kill one Iranian soldier. The question is whether any amount
+                of money can purchase the outcome the United States claims to want. History suggests the answer is no.
+              </p>
+            </div>
+          </div>
+
           {/* Related */}
           <div className="mt-12 bg-white rounded-lg p-6 border">
             <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold mb-3">Related</h3>
             <ul className="space-y-2">
-              <li><a href="/the-receipt" className="text-red-800 hover:underline">→ The $32 Trillion Receipt</a></li>
-              <li><a href="/war-calendar" className="text-red-800 hover:underline">→ War Calendar — 229 years at war</a></li>
-              <li><a href="/analysis/if-we-stopped-today" className="text-red-800 hover:underline">→ If We Stopped Today — What we&apos;d still owe</a></li>
-              <li><a href="/cost-of-war" className="text-red-800 hover:underline">→ Cost of War — $11.3 trillion and counting</a></li>
+              <li><Link href="/the-receipt" className="text-red-800 hover:underline">→ The $32 Trillion Receipt</Link></li>
+              <li><Link href="/war-calendar" className="text-red-800 hover:underline">→ War Calendar — 229 years at war</Link></li>
+              <li><Link href="/analysis/if-we-stopped-today" className="text-red-800 hover:underline">→ If We Stopped Today — What we&apos;d still owe</Link></li>
+              <li><Link href="/cost-of-war" className="text-red-800 hover:underline">→ Cost of War — $11.3 trillion and counting</Link></li>
+              <li><Link href="/iran-war-2026" className="text-red-800 hover:underline">→ Iran War 2026 — Latest data</Link></li>
+              <li><Link href="/opportunity-cost" className="text-red-800 hover:underline">→ Opportunity Cost — What else could this money buy?</Link></li>
+              <li><Link href="/veterans-voices" className="text-red-800 hover:underline">→ Veterans&apos; Voices — The human side</Link></li>
             </ul>
+          </div>
+
+          {/* Sources & Methodology Note */}
+          <div className="mt-8 text-stone-500 text-xs border-t pt-4">
+            <p>
+              <strong>Sources & Methodology:</strong> Total war costs from Congressional Research Service, Brown
+              University Costs of War Project, and OMB historical tables. All figures adjusted to 2026 dollars
+              using BLS CPI-U. Enemy killed figures are estimates from military historians, CRS reports (RL32492),
+              and Pentagon after-action assessments. &ldquo;Enemy killed&rdquo; includes only combatants, not
+              civilian casualties. Civilian casualty data is tracked separately using figures from Iraq Body Count,
+              Airwars, and Brown University. The cost-per-kill metric is calculated as total war cost divided by
+              estimated enemy combatants killed.
+            </p>
+            <p className="mt-2">
+              <strong>Acknowledgment:</strong> We recognize the term &ldquo;cost per kill&rdquo; is itself
+              morally fraught. We use it deliberately — not to normalize violence, but to expose the
+              industrial logic of modern warfare, where human lives are reduced to line items in a budget.
+              The discomfort this metric provokes is the point.
+            </p>
+            <p className="mt-2">
+              <strong>Important caveat:</strong> These figures are inherently imprecise. Enemy killed estimates
+              vary widely by source, and &ldquo;total war cost&rdquo; depends on which costs are included.
+              Our figures use the Brown University comprehensive methodology (including veteran care and interest),
+              which produces higher cost-per-kill ratios than Pentagon-only accounting.
+            </p>
           </div>
         </div>
       </section>
+
+      {/* Share This Analysis */}
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="bg-stone-50 border rounded-lg p-6 text-center">
+          <p className="text-stone-600 text-sm mb-3">
+            This analysis is one of the most shared pages on WarCosts. If these numbers disturbed you — good.
+            That&apos;s the appropriate response. Share the data:
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href="/share" className="px-4 py-2 bg-red-700 text-white rounded-lg text-sm font-semibold hover:bg-red-800 transition">
+              Shareable Stats →
+            </Link>
+            <Link href="/downloads" className="px-4 py-2 bg-stone-700 text-white rounded-lg text-sm font-semibold hover:bg-stone-800 transition">
+              Download Data →
+            </Link>
+          </div>
+        </div>
+      </div>
 
       <BackToTop />
     </div>

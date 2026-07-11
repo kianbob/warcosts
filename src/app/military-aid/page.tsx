@@ -164,6 +164,24 @@ export default function MilitaryAidPage() {
         </div>
       </section>
 
+      {/* Remaining Countries */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-6">Additional Recipients</h2>
+        <div className="space-y-4">
+          {topRecipients.slice(15).map(r => (
+            <div key={r.country} className="bg-stone-50 border border-stone-200 rounded-xl p-5">
+              <div className="flex flex-wrap items-center gap-3 mb-2">
+                <h3 className="text-lg font-bold text-stone-800">{r.country}</h3>
+                <span className="text-xs px-2 py-1 rounded bg-stone-200 text-stone-600">{r.type}</span>
+                {r.annual > 0 && <span className="ml-auto text-red-700 font-bold">{fmtMoney(r.annual)}/yr</span>}
+              </div>
+              <p className="text-sm text-stone-600">{r.note}</p>
+              {r.total > 0 && <p className="text-xs text-stone-400 mt-1">Cumulative since 2001: {fmtMoney(r.total)}</p>}
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Aid vs Arms Sales */}
       <section className="my-12 bg-stone-900 text-white rounded-xl p-8">
         <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Aid vs. Arms Sales: The Distinction That Doesn&apos;t Matter</h2>
@@ -175,10 +193,110 @@ export default function MilitaryAidPage() {
         </div>
       </section>
 
+      {/* The Feedback Loop */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">The Military Aid Feedback Loop</h2>
+        <div className="bg-stone-50 border border-stone-200 rounded-xl p-6 space-y-3 text-stone-700 text-sm">
+          <p>Military aid creates a self-reinforcing cycle that benefits the US defense industry more than recipient nations:</p>
+          <ol className="list-decimal list-inside space-y-2">
+            <li><strong>Congress appropriates FMF funds</strong> — taxpayer dollars earmarked for foreign military aid</li>
+            <li><strong>Recipient countries spend FMF on US weapons</strong> — by law, most FMF must be spent on American-made equipment</li>
+            <li><strong>Defense contractors receive the money</strong> — Lockheed Martin, Boeing, Raytheon, and General Dynamics are the primary beneficiaries</li>
+            <li><strong>Contractors lobby Congress for more FMF</strong> — spending $130M+/year on lobbying and campaign contributions</li>
+            <li><strong>Congress appropriates more funds</strong> — and the cycle continues</li>
+          </ol>
+          <p className="font-bold">The recipients get weapons. The defense contractors get revenue. The taxpayers get the bill. The cycle never stops because every party with a seat at the table benefits — except the American public and the civilians who end up in the crosshairs.</p>
+        </div>
+      </section>
+
+      {/* Historical Context */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Historical Context: From Marshall Plan to Forever Aid</h2>
+        <div className="space-y-4 text-stone-600 text-sm">
+          <p>US foreign military assistance evolved through distinct phases:</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            {[
+              { era: '1948–1952: Marshall Plan', desc: 'The original model: massive economic aid to rebuild war-torn Europe. Primarily economic, not military. Lasted 4 years with a clear end date. Arguably the most successful foreign aid program in history.' },
+              { era: '1950s–1980s: Cold War Arms Race', desc: 'Military aid weaponized as anti-Soviet strategy. Arms to Pakistan, Iran (under the Shah), Saudi Arabia, Israel, Egypt, and dozens of other Cold War allies. Many recipients later turned hostile.' },
+              { era: '1979–Present: Camp David Lock-in', desc: 'The 1979 Camp David Accords created permanent aid commitments: $3.8B/yr to Israel, $1.3B/yr to Egypt. These amounts have become politically untouchable regardless of human rights conditions.' },
+              { era: '2001–Present: War on Terror Aid', desc: 'Post-9/11 aid surge to Pakistan ($33B), Afghanistan ($136B), Iraq ($82B). Much of this aid armed forces that later collapsed (Afghan army) or played both sides (Pakistan/ISI).' },
+            ].map((p, i) => (
+              <div key={i} className="bg-white border rounded-lg p-4">
+                <h3 className="font-bold text-stone-900 mb-1">{p.era}</h3>
+                <p className="text-stone-600 text-sm">{p.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The Numbers in Context */}
+      <section className="my-12">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4">Aid vs. What Americans Think</h2>
+        <div className="bg-white border rounded-xl p-6 space-y-3 text-stone-700 text-sm">
+          <p>
+            Polls consistently show Americans believe foreign aid comprises about <strong>25%</strong> of the
+            federal budget. The actual figure for non-military foreign aid is less than <strong>1%</strong> (~$35B out of $6.1T).
+          </p>
+          <p>
+            Military aid is different — it&apos;s larger, less scrutinized, and directly enriches the US defense industry.
+            The $68B total foreign aid budget (military + economic) represents about 1.1% of federal spending. Compare that
+            to the $886B DoD budget (14.5%) or the $1.4T+ true national security cost (23%).
+          </p>
+          <p>
+            The irony: Americans who want to &ldquo;cut foreign aid&rdquo; to reduce the deficit would save less than 1%.
+            Americans who want to cut military spending could save 14-23%. But only one of these proposals faces
+            organized political opposition from a $130M/year lobbying machine.
+          </p>
+        </div>
+      </section>
+
+      {/* Key Takeaways */}
+      <section className="my-12 bg-red-50 border border-red-200 rounded-xl p-8">
+        <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-4 text-red-900">Key Takeaways</h2>
+        <ul className="space-y-3 text-stone-800 text-sm">
+          <li>💰 <strong>Most &ldquo;foreign aid&rdquo; is actually defense industry subsidy</strong> — FMF money goes directly from the US Treasury to US defense contractors. The recipient country never touches the cash.</li>
+          <li>⚖️ <strong>Human rights conditions are theater</strong> — The Leahy Law exists on paper but is routinely waived for strategic allies. No major recipient has ever been cut off for human rights violations.</li>
+          <li>🔄 <strong>Aid creates dependency, not security</strong> — Egypt has received $43B in military aid yet remains unstable. Afghanistan received $136B and collapsed in 11 days. Aid doesn&apos;t build lasting security.</li>
+          <li>🌍 <strong>The real beneficiaries are defense contractors</strong> — Lockheed Martin, Boeing, and Raytheon receive billions annually from FMF contracts. Their lobbying ensures the pipeline stays open.</li>
+          <li>📉 <strong>Less than 1% of the federal budget goes to non-military foreign aid</strong> — Americans consistently overestimate foreign aid at 25% of the budget. Actual development aid is about $35B/year — less than what the Pentagon loses in accounting errors.</li>
+        </ul>
+      </section>
+
       <div className="mt-8 flex flex-wrap gap-4 text-sm">
         <Link href="/foreign-aid" className="text-red-700 hover:underline">→ Foreign Aid Data</Link>
         <Link href="/arms-sales" className="text-red-700 hover:underline">→ Arms Sales</Link>
         <Link href="/analysis/israel-lobby" className="text-red-700 hover:underline">→ Israel Lobby Analysis</Link>
+        <Link href="/contractors" className="text-red-700 hover:underline">→ Defense Contractors</Link>
+        <Link href="/analysis/military-industrial-complex" className="text-red-700 hover:underline">→ Military-Industrial Complex</Link>
+        <Link href="/sources" className="text-red-700 hover:underline">→ Sources</Link>
+        <Link href="/us-military-spending" className="text-red-700 hover:underline">→ US Military Spending</Link>
+        <Link href="/cost-of-war" className="text-red-700 hover:underline">→ Total Cost of War</Link>
+        <Link href="/tools/aid-calculator" className="text-red-700 hover:underline">→ Aid Calculator Tool</Link>
+      </div>
+
+      {/* What You Can Do */}
+      <section className="mt-8 bg-blue-50 border border-blue-200 rounded-xl p-6">
+        <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-blue-900 mb-3">What You Can Do</h3>
+        <ul className="space-y-2 text-stone-700 text-sm">
+          <li>• <strong>Know your numbers:</strong> Use our <Link href="/tools/aid-calculator" className="text-red-700 hover:underline">Aid Calculator</Link> to see exactly how your taxes fund foreign military aid</li>
+          <li>• <strong>Contact your representatives:</strong> Ask them how they voted on the latest foreign aid package and whether they support Leahy Law enforcement</li>
+          <li>• <strong>Share the data:</strong> Visit our <Link href="/share" className="text-red-700 hover:underline">Share page</Link> for pre-designed stat cards about military aid</li>
+          <li>• <strong>Download the data:</strong> Use our <Link href="/downloads" className="text-red-700 hover:underline">Downloads page</Link> for raw data in JSON format</li>
+        </ul>
+      </section>
+
+      {/* Methodology Note */}
+      <div className="mt-8 border-t pt-6">
+        <p className="text-stone-400 text-xs">
+          <strong>Sources:</strong> USAID Foreign Aid Explorer, Congressional Research Service, Department of State,
+          Department of Defense Security Cooperation Agency, Stockholm International Peace Research Institute.
+          Figures represent approximate values based on publicly available data. Some classified programs and
+          covert assistance are not included. Annual figures represent the most recent full fiscal year.
+          Cumulative figures represent total since 2001 where available, or since the start of the aid relationship.
+          &ldquo;Arms Sales&rdquo; entries (Saudi Arabia, Japan, South Korea) represent government-to-government
+          purchases, not US-funded aid.
+        </p>
       </div>
 
       <BackToTop />

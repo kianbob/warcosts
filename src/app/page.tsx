@@ -7,10 +7,11 @@ import ThisDayInWarHistory from '@/components/ThisDayInWarHistory'
 import NewsletterSignup from '@/components/NewsletterSignup'
 import { HomeSpendingChart } from '@/components/HomeCharts'
 import FaqJsonLd from '@/components/FaqJsonLd'
+import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Real-time cost counter, casualties, and analysis from Pentagon, SIPRI & Brown University data.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $42B+ spent in 108 days before June 14 peace deal. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker — $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -26,14 +27,14 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 116,
-  headline: '⚠️ Day 122: CEASEFIRE STRAINS — US & Iran trade strikes over Hormuz ship attacks — Pentagon requests $87.6B — Iran hits Kuwait & Bahrain — Israel-Lebanon framework signed, Hezbollah rejects — Oil $73/bbl — $34-42B cost — 15 US KIA',
+  day: 108,
+  headline: '🕊️ PEACE DEAL SIGNED — June 14, 2026 — 108 days of conflict ended — $42B+ direct military costs — $87.6B supplemental requested — 15 US KIA',
   stats: [
-    { value: '5,000+', label: 'Total Killed (Reuters)', },
-    { value: '$30-35B', label: 'Military Cost (Factually.co est.)' },
+    { value: '$42B+', label: 'Direct Military Cost' },
+    { value: '$87.6B', label: 'Supplemental Requested' },
     { value: '15', label: 'US KIA / 538 Wounded' },
+    { value: '5,000+', label: 'Total Killed (Reuters)' },
     { value: '4,000+', label: 'Killed in Lebanon (health ministry)' },
-    { value: '~$77/bbl', label: 'WTI $77.54 — down 17% over past month' },
     { value: '$100B', label: 'Total cost to US households (Moody\'s)' },
   ]
 }
@@ -69,6 +70,7 @@ export default function HomePage() {
           'query-input': 'required name=search_term_string',
         },
       }) }} />
+      <IranWarBanner />
       {/* Breaking: Iran 2026 — Ceasefire */}
       {iranConflict && (
         <section className="bg-amber-800 text-white py-4">
