@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — 108 Days, $42B+, Peace Deal Signed | WarCosts',
+  title: 'Iran War 2026 — 136 Days, $113B+, Ceasefire Collapsed | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 108 days of conflict ending with the June 14 peace deal. $42B+ spent, 15 US KIA, 3,461+ Iranian deaths. Full timeline, costs, and analysis.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 136+ days of conflict — June 14 peace deal collapsed by July. $113B+ spent, 18 US KIA, 8,080+ killed across all parties. Full timeline, costs, and analysis.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — 108 Days, $42B+, Peace Deal Signed | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 108 days of conflict ending June 14 peace deal. $42B+ spent, full timeline and analysis.',
+    title: 'Iran War 2026 — 136 Days, $113B+, Ceasefire Collapsed | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 136+ days. June 14 peace deal collapsed. $113B+ spent, 18 US KIA, 8,080+ killed. Full timeline and analysis.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },

@@ -6260,20 +6260,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" \u2014 massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. After 108 days of war, naval blockade, and the worst energy crisis since 1973, a peace deal was reached June 14, 2026. 14-point MOU signed June 19 in Switzerland. Total cost: $42B+. 15 US KIA, 538 wounded. 3,461+ killed in Iran (1,701 civilians). Lebanon: 3,756+ killed.",
-    "costNominal": 42000000000,
-    "costInflationAdjusted": 42000000000,
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" \u2014 massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A peace deal (14-point MOU) was signed June 19 in Switzerland \u2014 but collapsed within weeks as both sides resumed strikes over the Strait of Hormuz. By Day 136: 8,080+ killed across all parties. Total cost: $103-113B. 18 US KIA, 553 wounded. 3,636+ killed in Iran (HRANA). Lebanon: 4,321+ killed. No congressional authorization.",
+    "costNominal": 113000000000,
+    "costInflationAdjusted": 113000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 15,
-      "wounded": 538,
-      "battleDeaths": 13,
+      "deaths": 18,
+      "wounded": 553,
+      "battleDeaths": 16,
       "missing": 0
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
-    "outcome": "Peace Deal (Jun 14, 2026)",
-    "outcomeDetail": "Peace deal reached Jun 14, 2026 after 108 days of war. MOU signed Jun 16-17. 14-point agreement: Hormuz reopens, $24B unfrozen, 60-day nuclear talks, sanctions relief. Total cost: $34-42B (CSIS estimate). 15 US KIA, 538 wounded. 1,701 Iranian civilians killed. Lebanon: 4,000+ killed.",
+    "outcome": "MOU Signed Jun 19, Collapsed Jul 2026",
+    "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed by July as both sides resumed strikes over Hormuz sovereignty. By Jul 13: 4 rounds of strikes in 1 week. Trump declares truce 'over.' US weapon stocks depleted. Total cost: $103-113B. 18 US KIA, 553 wounded. 8,080+ killed across all parties. Lebanon: 4,321+ killed.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6700,6 +6700,22 @@
       {
         "year": 2026,
         "event": "Jun 28-29 (Days 122-123): IRGC threatens 'complete halt' to talks. Both sides announce stand-down. Talks to resume Tuesday. 89 US-assisted Hormuz transits. Oil drops to $73/bbl. Iran inflation 88.6%. Israel shells Syrian village. Qatar: 1 civilian killed."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 5-7 (Days 129-131): CEASEFIRE SHATTERS \u2014 IRAN ATTACKS 3 SHIPS DURING DIPLOMATIC PAUSE \u2014 CENTCOM RETALIATES WITH 80+ STRIKES: Iran attacks 3 commercial vessels in Hormuz during Khamenei funeral commemorations. IRGC fires missiles at ships near Hormuz (WSJ). CENTCOM launches 80+ retaliatory strikes hitting Kharg Island, drone storage, missile sites, coastal radar. 20+ US warships deployed across Middle East. Trump declares MOU truce 'over.'"
+      },
+      {
+        "year": 2026,
+        "event": "Jul 9 (Day 133): US STRIKES 90 TARGETS \u2014 IRAN RETALIATES ACROSS 5 COUNTRIES: US strikes ~90 Iranian military targets (missile/drone storage, logistics sites along southern coast). Iran retaliates on US installations in Jordan, Bahrain, Kuwait, Qatar, Oman. Mediators urge restraint. Pakistan and Qatar call for de-escalation."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 11 (Day 135): IRAN DECLARES HORMUZ CLOSED AGAIN \u2014 FIRES ON SHIP \u2014 US STRIKES: Iran fires on commercial vessel in Hormuz, declares waterway closed. M/V GFS Galaxy (Cyprus) attacked \u2014 crew member missing. US launches retaliatory strikes. 6,000 seafarers stranded (UN). CENTCOM insists strait 'remains open.'"
+      },
+      {
+        "year": 2026,
+        "event": "Jul 12-13 (Days 136-137): LARGEST STRIKES SINCE CEASEFIRE \u2014 140 TARGETS HIT \u2014 WEAPON STOCKS DEPLETED: CENTCOM strikes ~140 Iranian military targets \u2014 most intense bombardment since MOU signing. CNN: US weapon stocks 'depleted' \u2014 rebuilding will take 3-8 years. Iran retaliates on 5 countries. Updated casualties: US 18 KIA, 553 wounded. Total across all parties: 8,080+ killed, 49,241 injured. Cost: $103-113B. Oil: Brent $78.85. Lebanon: 4,321 killed, 12,203 wounded. Israel: 69 killed, 9,240 wounded. MOU is 26 days old and meaningless. 136 days, no congressional vote."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6711,12 +6727,12 @@
     "years": "2026-2026",
     "computed": {
       "durationYears": 0,
-      "durationDays": 108,
-      "costPerDay": 314814815,
-      "costPerUSdeath": 1666666667,
-      "costPerCivilianDeath": 14697237,
-      "totalDeaths": 1716,
-      "civilianToMilitaryRatio": 113.4,
+      "durationDays": 136,
+      "costPerDay": 830882353,
+      "costPerUSdeath": 6277777778,
+      "costPerCivilianDeath": 66373310,
+      "totalDeaths": 8080,
+      "civilianToMilitaryRatio": 94.5,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 0
     },

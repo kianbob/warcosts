@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $42B+ spent in 108 days before June 14 peace deal. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 136 days — ceasefire collapsed, strikes resume over Hormuz. 18 US KIA, 8,080+ total killed. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker — $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
 
 const IRAN_BREAKING = {
   day: 108,
-  headline: '🕊️ PEACE DEAL SIGNED — June 14, 2026 — 108 days of conflict ended — $42B+ direct military costs — $87.6B supplemental requested — 15 US KIA',
+  headline: '💣 CEASEFIRE COLLAPSED — Day 136 — US & Iran trading strikes over Hormuz — $113B+ cost — 8,080+ killed — 18 US KIA — Weapon stocks depleted — No congressional vote',
   stats: [
-    { value: '$42B+', label: 'Direct Military Cost' },
+    { value: '$113B+', label: 'Total War Cost' },
     { value: '$87.6B', label: 'Supplemental Requested' },
     { value: '15', label: 'US KIA / 538 Wounded' },
     { value: '5,000+', label: 'Total Killed (Reuters)' },
@@ -108,7 +108,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 122', text: 'CEASEFIRE STRAINS — Iran drone hits Kiku tanker in Hormuz. US strikes Iranian targets twice. Iran retaliates on Kuwait & Bahrain — no US casualties. IRGC threatens "complete halt" to talks but US says both sides to stand down, talks resume Tuesday. Israel kills soldier in Lebanon, shells Syria. Oil $73/bbl. Pentagon requests $87.6B supplemental — CSIS: war cost $34-42B.', link: '/analysis/iran-2026' },
+                { time: 'Day 136', text: 'CEASEFIRE COLLAPSES — US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
                 { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed — Netanyahu: Israel stays until Hezbollah disarms — Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental — Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
                 { time: 'Day 87', text: 'DEAL "NOT IMMINENT" — RUBIO: COULD COME "TODAY" — 1,500 SHIPS WAITING — OIL CRASHES: Iran FM: "reached conclusions on many issues" but not imminent — accuses US of shifting positions (CBS). Rubio: deal could come "today" — "solid thing on table" for Hormuz (Reuters). Pakistan mediator in Beijing — Xi pledges help. NYT: 1,500 ships stranded for months — will take weeks to clear. Oil crashes: Brent $98, WTI $91 — lowest in 2 weeks. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
                 { time: 'Day 86', text: 'DEAL DETAILS — IRAN TO GIVE UP ENRICHED URANIUM — OIL PLUNGES — ISRAEL KILLS 11 IN LEBANON: AP: Iran would give up 441kg of 60%-enriched uranium in 60-day window — Russia offered to take it. Netanyahu-Trump agree deal must "eliminate nuclear danger." Supreme Leader Mojtaba Khamenei hiding in undisclosed location — reached only by couriers — delaying responses (CBS/US intel). Israel kills 11 in Sir al-Gharbiyeh including child and 6 women (Guardian). Brent $98, WTI $91. Lebanon: 3,123+ killed.', link: '/analysis/iran-2026' },
@@ -205,7 +205,7 @@ export default function HomePage() {
           <div className="max-w-2xl mx-auto mb-10">
             <p className="text-stone-500 text-xs uppercase tracking-widest mb-3">Total US War Spending Since 9/11</p>
             <LiveCostCounter
-              costPerSecond={4823}
+              costPerSecond={9618}
               label=""
             />
             <p className="text-stone-600 text-xs mt-2">~$500M/day · Based on Brown University Costs of War ($8.1T base)</p>
