@@ -6260,20 +6260,20 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" \u2014 massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A peace deal (14-point MOU) was signed June 19 in Switzerland \u2014 but collapsed within weeks as both sides resumed strikes over the Strait of Hormuz. By Day 136: 8,080+ killed across all parties. Total cost: $103-113B. 18 US KIA, 553 wounded. 3,636+ killed in Iran (HRANA). Lebanon: 4,321+ killed. No congressional authorization.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" \u2014 massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A peace deal (14-point MOU) was signed June 19 in Switzerland \u2014 but collapsed by July as both sides resumed strikes over Hormuz. By Day 143: 9 consecutive nights of US strikes (Jul 11-19), expanding to Tabriz. Darkhovin nuclear plant hit. 3 US troops killed Jul 17-18. Total: 17 US KIA (1 missing), 553+ wounded. 3,636+ killed in Iran (HRANA). Lebanon: 4,321+ killed. Israel-Hezbollah ceasefire agreed Jul 19. Oil $90/bbl. No congressional authorization.",
     "costNominal": 113000000000,
     "costInflationAdjusted": 113000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 18,
+      "deaths": 17,
       "wounded": 553,
-      "battleDeaths": 16,
-      "missing": 0
+      "battleDeaths": 15,
+      "missing": 1
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
     "outcome": "MOU Signed Jun 19, Collapsed Jul 2026",
-    "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed by July as both sides resumed strikes over Hormuz sovereignty. By Jul 13: 4 rounds of strikes in 1 week. Trump declares truce 'over.' US weapon stocks depleted. Total cost: $103-113B. 18 US KIA, 553 wounded. 8,080+ killed across all parties. Lebanon: 4,321+ killed.",
+    "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed by July. 9 consecutive nights of US strikes Jul 11-19 — expanding geographically to Tabriz. Darkhovin nuclear plant hit Jul 19. 3 US troops killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing, 553+ wounded. Iran: 50+ killed, 500+ wounded in July wave alone. HRANA cumulative: 3,636 killed. Oil $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. Hormuz: ~10 transits/day. 300+ Iranian sites struck since Jul 7. 143 days, no congressional vote.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6715,7 +6715,31 @@
       },
       {
         "year": 2026,
-        "event": "Jul 12-13 (Days 136-137): LARGEST STRIKES SINCE CEASEFIRE \u2014 140 TARGETS HIT \u2014 WEAPON STOCKS DEPLETED: CENTCOM strikes ~140 Iranian military targets \u2014 most intense bombardment since MOU signing. CNN: US weapon stocks 'depleted' \u2014 rebuilding will take 3-8 years. Iran retaliates on 5 countries. Updated casualties: US 18 KIA, 553 wounded. Total across all parties: 8,080+ killed, 49,241 injured. Cost: $103-113B. Oil: Brent $78.85. Lebanon: 4,321 killed, 12,203 wounded. Israel: 69 killed, 9,240 wounded. MOU is 26 days old and meaningless. 136 days, no congressional vote."
+        "event": "Jul 12-13 (Days 136-137): LARGEST STRIKES SINCE CEASEFIRE \u2014 140 TARGETS HIT \u2014 WEAPON STOCKS DEPLETED: CENTCOM strikes ~140 Iranian military targets \u2014 most intense bombardment since MOU signing. CNN: US weapon stocks 'depleted' \u2014 rebuilding will take 3-8 years. Iran retaliates on 5 countries. Cost: $103-113B. Oil: Brent $78.85. Lebanon: 4,321 killed, 12,203 wounded. Israel: 69 killed, 9,240 wounded. MOU is 26 days old and meaningless. 136 days, no congressional vote."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 15 (Day 139): US launches 5th consecutive night of strikes. CENTCOM targets Bandar Abbas, Greater Tunb Island coastal defense/cruise missile sites. Iran retaliates on Kuwait, Bahrain, Jordan. CENTCOM strikes and disables oil tanker 'Belma' (Cura\u00e7ao-flagged) violating US blockade near Kharg Island. US reinstates military blockade on Iranian ports. Iran warns 'all oil/gas routes could be closed.' 35 killed, 300+ wounded since wave began. 21 ships transit Hormuz. 56 confirmed maritime incidents, 17 seafarer fatalities (Kpler). IRGC shoots down US MQ-9 drone over Khuzestan. Trump sends new War Powers notification to Congress \u2014 appears to 'reset the clock.'"
+      },
+      {
+        "year": 2026,
+        "event": "Jul 16 (Day 140): US launches 6th consecutive night of strikes. Iran reports 8 more killed (total 43 since Jul wave began). CENTCOM concludes evening strikes at 9pm ET targeting command centers, air defense, missile/drone capabilities, coastal surveillance. Iran retaliates with missiles/drones on Kuwait (Ali Al Salem), Bahrain (Sheikh Isa Air Base), Jordan (al-Azraq Air Base). Kuwait intercepts 4 cruise missiles, 21 drones. IRGC claims 16th wave of 'Operation Nasr 2' targeting Al Udeid Air Base in Qatar. Iran threatens 'full-scale offensive' if attacks continue."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 17 (Day 141): 2 US service members killed in action in Jordan defending against Iranian ballistic missile and drone attacks at Muwaffaq Salti Air Base. 1 US service member missing. 4 medevac'd to Jordanian hospitals. US toll rises to 16 KIA."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 18 (Day 142): US strikes Iran for 7th straight day. Iran health ministry: 50+ killed, 500+ wounded since July wave. Iran cumulative claim: 3,000+ killed since Feb 28 including 168 children (NPR). HRANA cumulative: 3,636 total deaths. Iran Foundation of Martyrs: 3,468 killed. IRGC military deaths: 1,221 (HRANA). US sends more warplanes \u2014 F-16s from Germany, F-35s from Britain heading to Middle East (NYT). Kuwait vital oil facility hit by 'repeated' Iranian attack. 1 more US service member killed in northern Iraq during controlled detonation of unexploded ordnance from downed Iranian drone. US toll: 17 KIA."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 19 (Day 143): US completes 9th consecutive night of strikes at 10pm ET. Targets: command centers, air defense, coastal surveillance, maritime capabilities, missile/drone launch sites, communications. Explosions at Mahshahr, Bandar Imam Khomeini, Sirik, Jask, Khvormuj, Bandar Abbas, Qeshm Island, and for FIRST TIME \u2014 3 explosions near TABRIZ (strikes expanding geographically to NW Iran). Iran launches missiles from Lorestan \u2014 17th phase of 'Operation Saeqeh.' Jordan shoots down 3 Iranian missiles. IRGC launches large-scale drone attack on Kuwait. US strikes hit DARKHOVIN nuclear power plant (under construction, Khuzestan) \u2014 Iran Atomic Energy Org: 'clear crime against international law.' IAEA: no nuclear material, no radiological risk. Israel-Hezbollah CEASEFIRE AGREED (BBC/US official). Lebanon-Israel 'pilot zones' for withdrawal \u2014 US-mediated talks in Rome. Lebanese President Aoun White House visit Jul 21. Trump: strikes 'in honor' of fallen service members."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 20 (Day 143): Iran says US missiles struck several cities early morning. Vessel burning near Omani coastline (British military, cause unattributed). Hormuz: ~10 transits recorded Jul 18 vs pre-war 90-100+ daily. IRGC: 4 vessels attempted US route Jul 19 \u2014 2 turned back, 2 'disabled in accidents.' No oil/gas/fertilizer passes without Iranian permission. OIL: Brent above $90/bbl Monday morning \u2014 first $90 print of July crisis. September Brent up ~2.5%, WTI August $84.38 up ~2.3%. Extends 14%+ gain from week ending Jul 17."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6727,11 +6751,11 @@
     "years": "2026-2026",
     "computed": {
       "durationYears": 0,
-      "durationDays": 136,
-      "costPerDay": 830882353,
-      "costPerUSdeath": 6277777778,
+      "durationDays": 143,
+      "costPerDay": 790209790,
+      "costPerUSdeath": 6647058824,
       "costPerCivilianDeath": 66373310,
-      "totalDeaths": 8080,
+      "totalDeaths": 8200,
       "civilianToMilitaryRatio": 94.5,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 0

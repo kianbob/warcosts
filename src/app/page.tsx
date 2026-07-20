@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 108,
-  headline: '💣 CEASEFIRE COLLAPSED — Day 136 — US & Iran trading strikes over Hormuz — $113B+ cost — 8,080+ killed — 18 US KIA — Weapon stocks depleted — No congressional vote',
+  day: 143,
+  headline: '💣 Day 143 — 9 consecutive nights of US strikes — Strikes expand to Tabriz — Darkhovin nuclear plant hit — 17 US KIA, 1 missing — 3 Americans killed since Jul 17 — $90 oil — Israel-Hezbollah ceasefire agreed — No congressional vote',
   stats: [
     { value: '$113B+', label: 'Total War Cost' },
-    { value: '$87.6B', label: 'Supplemental Requested' },
-    { value: '15', label: 'US KIA / 538 Wounded' },
-    { value: '5,000+', label: 'Total Killed (Reuters)' },
-    { value: '4,000+', label: 'Killed in Lebanon (health ministry)' },
-    { value: '$100B', label: 'Total cost to US households (Moody\'s)' },
+    { value: '17 KIA', label: 'US Deaths (1 missing)' },
+    { value: '3,636+', label: 'Iran Deaths (HRANA)' },
+    { value: '4,321+', label: 'Killed in Lebanon' },
+    { value: '~10/day', label: 'Hormuz Transits (was 90-100)' },
+    { value: '$90/bbl', label: 'Brent Crude (first $90 of Jul)' },
   ]
 }
 
@@ -108,6 +108,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 143', text: '9 CONSECUTIVE NIGHTS OF US STRIKES (Jul 11-19) — expanding to TABRIZ for first time. Darkhovin nuclear plant hit. 3 US service members killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing. Iran: 50+ killed, 500+ wounded in July wave. HRANA cumulative: 3,636 killed. Oil hits $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. 300+ Iranian sites struck since Jul 7. Hormuz: ~10 transits/day vs 90-100 pre-war. Trump sends new War Powers notification to “reset the clock.”', link: '/analysis/iran-2026' },
                 { time: 'Day 136', text: 'CEASEFIRE COLLAPSES — US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
                 { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed — Netanyahu: Israel stays until Hezbollah disarms — Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental — Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
                 { time: 'Day 87', text: 'DEAL "NOT IMMINENT" — RUBIO: COULD COME "TODAY" — 1,500 SHIPS WAITING — OIL CRASHES: Iran FM: "reached conclusions on many issues" but not imminent — accuses US of shifting positions (CBS). Rubio: deal could come "today" — "solid thing on table" for Hormuz (Reuters). Pakistan mediator in Beijing — Xi pledges help. NYT: 1,500 ships stranded for months — will take weeks to clear. Oil crashes: Brent $98, WTI $91 — lowest in 2 weeks. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
@@ -180,12 +181,12 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: 'Hormuz Open — Oil Crashes 13%', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
-              { title: 'MOU Progress: $20B Uranium Deal', href: '/analysis/iran-2026', tag: 'DEAL', tagColor: 'bg-orange-600' },
-              { title: 'Trump Bans Israel from Bombing Lebanon', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
-              { title: 'Lebanon: 2,509 Killed', href: '/analysis/iran-civilian-cost', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
-              { title: 'US Blockade of Iran Ports Continues', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
-              { title: 'Ceasefire Extended Indefinitely — Blockade Remains', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
+              { title: '9 Nights of Strikes — Expanding to Tabriz', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
+              { title: '3 US Troops Killed Jul 17-18', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Israel-Hezbollah Ceasefire Agreed', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
+              { title: 'Darkhovin Nuclear Plant Hit by US', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
+              { title: 'Oil Hits $90/bbl — First of July Crisis', href: '/analysis/iran-2026', tag: 'ENERGY', tagColor: 'bg-blue-700' },
+              { title: 'Hormuz: ~10 Transits/Day vs 90-100 Pre-War', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
             ].map((item, i) => (

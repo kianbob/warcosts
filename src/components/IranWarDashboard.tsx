@@ -38,14 +38,14 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="108 Days" sub={warOver ? 'Feb 28 – Jun 14, 2026' : `${hours}h ${minutes}m ${seconds}s`} />
+      <StatCard label="War Duration" value="143+ Days" sub="Feb 28, 2026 – ongoing (MOU collapsed)" />
       <StatCard label="Total Cost" value="$113B+" sub="Pentagon: $29B direct | True cost: $103-113B" />
-      <StatCard label="Status" value="✅ PEACE DEAL" sub="14-point MOU signed June 19, 2026 in Switzerland — Pakistan-mediated — Hormuz reopening in 30 days — $24B unfrozen — 60-day nuclear talks" />
+      <StatCard label="Status" value="⚠️ MOU COLLAPSED" sub="14-point MOU signed Jun 19 — collapsed Jul 7 — 9 consecutive nights of US strikes Jul 11-19 — expanding to Tabriz — Darkhovin nuclear plant hit" />
       <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
       <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,461+ total killed" />
-      <StatCard label="US Troops" value="18 KIA" sub="553 wounded — 42 aircraft lost/damaged" />
+      <StatCard label="US Troops" value="17 KIA" sub="1 missing, 553+ wounded — 42 aircraft lost/damaged" />
       <StatCard label="Oil Impact" value="Peak $126/bbl" sub="Hormuz closed 108 days — worst energy crisis since 1973 — reopening per peace deal terms" />
-      <StatCard label="Lebanon" value="3,756+ killed" sub="Health ministry — ceasefire included in peace deal — IDF withdrawal terms TBD" />
+      <StatCard label="Lebanon" value="4,321+ killed" sub="Health ministry — Israel-Hezbollah ceasefire agreed Jul 19 — IDF withdrawal TBD" />
     </div>
   )
 }
