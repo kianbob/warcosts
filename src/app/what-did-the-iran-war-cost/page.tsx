@@ -8,9 +8,9 @@ import RelatedArticles from '@/components/RelatedArticles'
 import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
-  title: 'What Did the Iran War Cost? Final Accounting | OpenWar',
+  title: 'What Did the Iran War Cost? Ongoing Accounting | OpenWar',
   description:
-    'Comprehensive final accounting of the 2026 Iran War: $42B+ direct military costs, $87.6B Pentagon supplemental, human toll, oil shock, and economic impact on American households.',
+    'Ongoing accounting of the 2026 Iran War: $37.5B Pentagon direct military (Hegseth Jul 21), $113B independent estimate, $87.6B supplemental request. 20+ US KIA, ~8,080 total killed. Oil above $100. Houthis blockade Saudi Arabia.',
   openGraph: {
     title: 'What Did the Iran War Cost? Final Accounting',
     description:
@@ -23,27 +23,27 @@ const faqs = [
   {
     question: 'How much did the Iran War cost the United States?',
     answer:
-      'Direct military costs exceeded $42 billion, with the Pentagon requesting an $87.6 billion supplemental appropriation to cover war expenses and equipment replacement. Broader economic costs, including oil price shocks, added an estimated $100 billion burden on US households.',
+      'Pentagon says $37.5 billion in direct military costs as of July 21, 2026 (Hegseth testimony). Independent estimates put the total at $113 billion (iran-cost-ticker.com). The Pentagon has requested an $87.6 billion supplemental. Broader economic costs from oil price shocks add an estimated $100 billion+ burden on US households.',
   },
   {
     question: 'How many people were killed in the Iran War?',
     answer:
-      '15 US service members were killed in action and 538+ were wounded. On the Iranian side, 3,461+ were killed including 1,701 civilians (254 children). An additional 3,756+ Lebanese were killed in associated operations.',
+      '20+ US service members killed (Pentagon removed 4 from official count) and 553+ wounded. Iran: 3,636+ killed (HRANA), 3,468 (Foundation of Martyrs), US/Israel estimate 6,000+. 27,000 injured (Iran Health Ministry). Lebanon: 4,324+ killed, 12,221 wounded. Total across all sides: ~8,080 killed, 49,241 injured.',
   },
   {
     question: 'How long did the Iran War last?',
     answer:
-      'The Iran War lasted 108 days, from February 26, 2026 to June 14, 2026, when a peace deal was signed.',
+      'The Iran War is ongoing. It began February 28, 2026. A peace MOU was signed June 19, 2026 but collapsed by July 8 with renewed hostilities. As of July 25, 2026, the war has lasted 148 days with no end in sight.',
   },
   {
     question: 'How did the Iran War affect oil prices?',
     answer:
-      'Oil prices spiked from approximately $70/barrel to a peak of $126/barrel as the conflict disrupted 21% of global oil trade flowing through the Strait of Hormuz. The price shock cost US households an estimated $100 billion according to Moody\'s.',
+      'Oil prices spiked from ~$70/barrel to a peak of $126/barrel, dropped to $83 after the MOU was signed, then surged back above $100/bbl by July 23 as the deal collapsed and Houthis blockaded Saudi Arabia. The price shock has cost US households an estimated $100 billion+ according to Moody\'s.',
   },
   {
     question: 'How does the Iran War cost compare to Iraq and Afghanistan?',
     answer:
-      'The Iran War\'s $42B+ direct cost over 108 days was far more intense per-day than Iraq ($1.1 trillion over 8+ years) or Afghanistan ($2.3 trillion over 20 years). However, total cumulative costs were far lower due to the war\'s shorter duration.',
+      'The Iran War\'s $37.5B+ Pentagon direct cost (and $113B independent estimate) over 148 days is far more intense per-day than Iraq or Afghanistan. The war is ongoing and costs continue to mount. Pentagon supplemental: $87.6B. Weapons depleted — rebuilding takes 3-8 years.',
   },
   {
     question: 'What was the $87.6 billion Pentagon supplemental?',
@@ -79,7 +79,7 @@ export default function WhatDidTheIranWarCostPage() {
                 What Did the Iran War Cost? Final Accounting
               </h1>
               <p className="mt-4 text-lg text-gray-400">
-                Updated July 10, 2026 — 108 days, $42 billion in direct military spending, thousands of lives lost, and an oil shock that rippled across the global economy. Here is the full accounting.
+                Updated July 25, 2026 — 148 days and counting. Pentagon: $37.5B direct military. Independent estimate: $113B total. 20+ US KIA. ~8,080 total killed. Houthis blockade Saudi Arabia. Oil above $100. The war continues.
               </p>
               <ShareButtons title="What Did the Iran War Cost? Final Accounting" />
             </header>
@@ -88,16 +88,19 @@ export default function WhatDidTheIranWarCostPage() {
             <section className="mb-12">
               <h2 className="mb-4 text-2xl font-bold text-red-400">Executive Summary</h2>
               <p className="mb-4 text-gray-300 leading-relaxed">
-                The 2026 Iran War — lasting from February 26 to June 14, 2026 — was the most expensive
-                per-day military operation in American history. Over 108 days of combat, the United States
-                expended more than <strong className="text-white">$42 billion</strong> in direct military costs,
-                prompted an <strong className="text-white">$87.6 billion</strong> Pentagon supplemental request,
-                and triggered an oil price shock that cost American households an estimated{' '}
-                <strong className="text-white">$100 billion</strong> in higher energy costs.
+                The 2026 Iran War — beginning February 28, 2026 and still ongoing — is the most expensive
+                per-day military operation in American history. Over 148+ days, the Pentagon reports
+                <strong className="text-white">$37.5 billion</strong> in direct military costs (Hegseth testimony Jul 21),
+                while independent estimates put the total at <strong className="text-white">$113 billion</strong>.
+                The <strong className="text-white">$87.6 billion</strong> Pentagon supplemental request remains pending,
+                and the oil price shock has cost American households an estimated{' '}
+                <strong className="text-white">$100 billion+</strong> in higher energy costs.
               </p>
               <p className="mb-4 text-gray-300 leading-relaxed">
-                The human toll was staggering: 15 US service members killed in action, over 538 wounded,
-                and more than 3,461 Iranians killed — including 1,701 civilians, 254 of them children.
+                The human toll continues to mount: 20+ US service members killed (Pentagon removed 4 from
+                official count), 553+ wounded, and 3,636+ Iranians killed (HRANA) — with the Iran Foundation
+                of Martyrs reporting 3,468 and US/Israel estimating 6,000+. Total across all sides: ~8,080
+                killed, 49,241 injured. Lebanon: 4,324+ killed, 12,221 wounded. Israel: 72 killed, 7,834+ wounded.
                 Associated operations in Lebanon killed an additional 3,756 people. The conflict saw 42
                 US aircraft lost or damaged and 24 MQ-9 Reaper drones destroyed.
               </p>

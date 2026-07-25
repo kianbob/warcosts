@@ -38,14 +38,14 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="143+ Days" sub="Feb 28, 2026 – ongoing (MOU collapsed)" />
-      <StatCard label="Total Cost" value="$113B+" sub="Pentagon: $29B direct | True cost: $103-113B" />
-      <StatCard label="Status" value="⚠️ MOU COLLAPSED" sub="14-point MOU signed Jun 19 — collapsed Jul 7 — 9 consecutive nights of US strikes Jul 11-19 — expanding to Tabriz — Darkhovin nuclear plant hit" />
-      <StatCard label="Total Killed" value="5,000+" sub="Reuters — across nearly a dozen countries" />
-      <StatCard label="Iranian Civilians" value="1,701+" sub="HRANA — 254 children — 3,461+ total killed" />
-      <StatCard label="US Troops" value="17 KIA" sub="1 missing, 553+ wounded — 42 aircraft lost/damaged" />
-      <StatCard label="Oil Impact" value="Peak $126/bbl" sub="Hormuz closed 108 days — worst energy crisis since 1973 — reopening per peace deal terms" />
-      <StatCard label="Lebanon" value="4,321+ killed" sub="Health ministry — Israel-Hezbollah ceasefire agreed Jul 19 — IDF withdrawal TBD" />
+      <StatCard label="War Duration" value="148+ Days" sub="Feb 28, 2026 – ongoing (MOU collapsed Jul 8)" />
+      <StatCard label="Total Cost" value="$113B+" sub="Pentagon: $37.5B direct (Hegseth Jul 21) | Independent: $113B" />
+      <StatCard label="Status" value="⚠️ ACTIVE HOSTILITIES" sub="MOU signed Jun 19, collapsed Jul 8. Renewed strikes. Houthis blockade Saudi Arabia Jul 20. Oil above $100/bbl." />
+      <StatCard label="Total Killed" value="~8,080" sub="Wikipedia casualty tracker — 49,241 injured — across all sides" />
+      <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA (3,468 Foundation of Martyrs) — US/Israel est. 6,000+ — 27,000 injured" />
+      <StatCard label="US Troops" value="20+ KIA" sub="Pentagon removed 4 from count. 553+ wounded. 42 aircraft lost. THAAD depleted ~40%." />
+      <StatCard label="Oil Impact" value="$100+/bbl" sub="Back above $100 Jul 23. Was $83 after MOU. Hormuz ~10 transits/day vs 90-100 pre-war." />
+      <StatCard label="Lebanon" value="4,324+ killed" sub="12,221 wounded. Hezbollah REJECTED Jul 19 ceasefire. Houthis blockade Saudi Arabia." />
     </div>
   )
 }

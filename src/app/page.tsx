@@ -11,9 +11,9 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 136 days — ceasefire collapsed, strikes resume over Hormuz. 18 US KIA, 8,080+ total killed. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 148 days — MOU collapsed, renewed hostilities. 20+ US KIA, ~8,080 total killed. Houthis blockade Saudi Arabia. Oil above $100. Real-time cost counter, casualties, and analysis.',
   openGraph: {
-    title: 'US War Cost Tracker — $11.3 Trillion Spent on 469 Military Interventions',
+    title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
     url: 'https://warcosts.org',
     type: 'website',
@@ -21,21 +21,21 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'US War Cost Tracker — $28,095 Per Second on War',
+    title: 'US War Cost Tracker - $28,095 Per Second on War',
     description: '$11.3 trillion spent on 469 military interventions. Track real-time US war spending with free, interactive data and analysis.',
   },
 }
 
 const IRAN_BREAKING = {
-  day: 143,
-  headline: '💣 Day 143 — 9 consecutive nights of US strikes — Strikes expand to Tabriz — Darkhovin nuclear plant hit — 17 US KIA, 1 missing — 3 Americans killed since Jul 17 — $90 oil — Israel-Hezbollah ceasefire agreed — No congressional vote',
+  day: 148,
+  headline: '💣 Day 148 - Ceasefire MOU collapsed Jul 8 - Renewed hostilities - 20+ US KIA (Pentagon removed 4 from count), 553+ wounded - 4 killed Jul 17-18 - Houthis blockade Saudi Arabia Jul 20 - Oil back above $100/bbl - Hezbollah rejects ceasefire - $37.5B Pentagon / $113B total cost - No congressional vote',
   stats: [
-    { value: '$113B+', label: 'Total War Cost' },
-    { value: '17 KIA', label: 'US Deaths (1 missing)' },
+    { value: '$113B+', label: 'Total War Cost (ind. est.)' },
+    { value: '20+ KIA', label: 'US Deaths (4 removed from count)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '4,321+', label: 'Killed in Lebanon' },
+    { value: '4,324+', label: 'Killed in Lebanon' },
     { value: '~10/day', label: 'Hormuz Transits (was 90-100)' },
-    { value: '$90/bbl', label: 'Brent Crude (first $90 of Jul)' },
+    { value: '$100+/bbl', label: 'Brent Crude (Jul 23)' },
   ]
 }
 
@@ -71,13 +71,13 @@ export default function HomePage() {
         },
       }) }} />
       <IranWarBanner />
-      {/* Breaking: Iran 2026 — Ceasefire */}
+      {/* Breaking: Iran 2026 - Ceasefire */}
       {iranConflict && (
         <section className="bg-amber-800 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
-              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 — Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
+              <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 - Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
             </div>
             <div className="flex gap-4 text-sm">
               <Link href="/analysis/iran-2026" className="text-amber-200 hover:text-amber-100 underline">Full Coverage →</Link>
@@ -88,7 +88,7 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* Iran War Hub — Latest Developments */}
+      {/* Iran War Hub - Latest Developments */}
       {iranConflict && (
         <section className="bg-stone-950 text-white py-8 border-b border-slate-700">
           <div className="max-w-7xl mx-auto px-4">
@@ -104,40 +104,41 @@ export default function HomePage() {
 
             <div className="flex items-center gap-2 mb-4">
               <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
-              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments — Day {IRAN_BREAKING.day}</h2>
+              <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments - Day {IRAN_BREAKING.day}</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 143', text: '9 CONSECUTIVE NIGHTS OF US STRIKES (Jul 11-19) — expanding to TABRIZ for first time. Darkhovin nuclear plant hit. 3 US service members killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing. Iran: 50+ killed, 500+ wounded in July wave. HRANA cumulative: 3,636 killed. Oil hits $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. 300+ Iranian sites struck since Jul 7. Hormuz: ~10 transits/day vs 90-100 pre-war. Trump sends new War Powers notification to “reset the clock.”', link: '/analysis/iran-2026' },
-                { time: 'Day 136', text: 'CEASEFIRE COLLAPSES — US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
-                { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed — Netanyahu: Israel stays until Hezbollah disarms — Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental — Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
-                { time: 'Day 87', text: 'DEAL "NOT IMMINENT" — RUBIO: COULD COME "TODAY" — 1,500 SHIPS WAITING — OIL CRASHES: Iran FM: "reached conclusions on many issues" but not imminent — accuses US of shifting positions (CBS). Rubio: deal could come "today" — "solid thing on table" for Hormuz (Reuters). Pakistan mediator in Beijing — Xi pledges help. NYT: 1,500 ships stranded for months — will take weeks to clear. Oil crashes: Brent $98, WTI $91 — lowest in 2 weeks. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
-                { time: 'Day 86', text: 'DEAL DETAILS — IRAN TO GIVE UP ENRICHED URANIUM — OIL PLUNGES — ISRAEL KILLS 11 IN LEBANON: AP: Iran would give up 441kg of 60%-enriched uranium in 60-day window — Russia offered to take it. Netanyahu-Trump agree deal must "eliminate nuclear danger." Supreme Leader Mojtaba Khamenei hiding in undisclosed location — reached only by couriers — delaying responses (CBS/US intel). Israel kills 11 in Sir al-Gharbiyeh including child and 6 women (Guardian). Brent $98, WTI $91. Lebanon: 3,123+ killed.', link: '/analysis/iran-2026' },
-                { time: 'Day 85', text: 'TRUMP: DEAL "LARGELY NEGOTIATED" — MOU FOR PEACE — HAWKS REVOLT: Trump posts deal "largely negotiated" — 60-day ceasefire, Hormuz opens toll-free, Iran sells oil, nuclear talks (AP/Axios). Pompeo: "straight out of Obama playbook." White House: Pompeo should "shut his stupid mouth." Iran disputes — Fars says Hormuz stays under Iranian control. Pakistan PM hopes to host next talks. Oil falls to 2-week lows. Lebanon: 3,111+ killed.', link: '/analysis/iran-2026' },
-                { time: 'Day 84', text: 'ISRAEL KILLS 10 INCLUDING 6 PARAMEDICS — LEBANON 3,111+: Israeli strikes kill 10 in south Lebanon including child and 6 paramedics (Guardian/NYT). Bombardment "reduces buildings to craters." Soufan Center: ceasefire "in name only." Lebanon economy struggling under war and fuel crisis (Al Jazeera). HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded. Oil: Brent ~$107.', link: '/analysis/iran-2026' },
-                { time: 'Day 83', text: 'IRAN REBUILDING MILITARY FASTER THAN EXPECTED — SUPREME LEADER: URANIUM STAYS — TRUMP-NETANYAHU DIVERGE: Iran restarted drone production during ceasefire (CNN/US intel). Mojtaba Khamenei: enriched uranium must NOT leave Iran — dealbreaker (Reuters). Trump-Netanyahu tense call — Netanyahu pushed strikes, Trump chose diplomacy (CNN). Iran reviewing US proposal — Pakistan army chief in Tehran. Hormuz Authority claims UAE waters near Fujairah. 3 supertankers exit with 6M barrels. Oil $109/bbl.', link: '/analysis/iran-2026' },
-                { time: 'Day 82', text: 'CRS: 42 US AIRCRAFT LOST — TRUMP: IRAN HAS "2-3 DAYS" — US SEIZES TANKER — ISRAEL KILLS 19 IN LEBANON: CRS report details 42 aircraft lost/damaged including 24 MQ-9 Reapers ($30M each), 1 F-15E, 1 A-10, 2 MC-130Js. Pentagon: $29B cost. Trump gives Iran "2-3 days" deadline — threatens "another big hit" (CNBC/Reuters). US seizes Iranian tanker in Indian Ocean (WSJ). Israel kills 19 in Lebanon — toll 3,061+. IDF: 21st soldier killed. Hezbollah destroys 2nd Merkava. Vance: "locked and loaded." Oil $111/bbl.', link: '/analysis/iran-2026' },
-                { time: 'Day 81', text: 'TRUMP WAS "HOUR AWAY" FROM NEW STRIKE — IRAN SUBMITS PEACE PROPOSAL — LEBANON CROSSES 3,000: Trump postponed planned strike — says Iran "begging for deal" (AP/Reuters). Iran demands: end to war, lift sanctions, reparations, troop withdrawal (Forbes/Reuters). Lebanon: 3,042 killed (AP). Treasury sanctions Amin Exchange under "Economic Fury" (Reuters). NATO "thinking" about Hormuz (AFP). Congress: 42 US aircraft lost. Oil ~$103. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
-                { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY — BLOCKADE REMAINS — IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains — Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
-                { time: 'Day 55', text: 'TRUMP: "SHOOT AND KILL" BOATS LAYING MINES — IRGC SEIZES 2 MORE SHIPS — ISRAEL "WAITING FOR GREEN LIGHT": Trump orders Navy to "shoot and kill any boat" laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X. CENTCOM: 31 ships turned back. Israel defense minister: "waiting for green light" to resume war. Senate kills 5th War Powers vote 46-51. Navy Secretary fired. Oil ~$103/barrel. Lebanon: 2,454 killed. No talks scheduled.', link: '/analysis/iran-2026' },
-                { time: 'Day 56', text: 'HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" — 3RD CARRIER — LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last "as long as it takes." 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks — Hezbollah: "meaningless." Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO. US used 1,000+ Tomahawks — threatens Taiwan readiness. Oil ~$107.', link: '/analysis/iran-2026' },
-                { time: 'Day 69', text: 'US AWAITS IRAN\'S RESPONSE — Reuters: short-term memo, not comprehensive deal. Trump: deal "very possible" but bombing restarts if talks fail. IDF confirms Radwan commander kill. Iran denies S. Korean ship attack. Oil: Brent $97.47. Hormuz traffic "almost nonexistent."', link: '/analysis/iran-2026' },
-    { time: 'Day 68', text: 'RUBIO DECLARES EPIC FURY "OVER" — Trump pauses Project Freedom (Saudis refused base access). Axios: 1-page MOU near. Israel kills Radwan commander in Beirut. Oil crashes 11% to $97. 11+ killed in Lebanon. French ship attacked in Hormuz. Iran establishes Strait Authority.', link: '/analysis/iran-2026' },
-    { time: 'Day 67', text: 'UAE under attack 2nd day. USS Truxtun/Mason transit Hormuz under sustained Iranian barrage — neither struck. IMO: 20,000 seafarers stranded. Ghalibaf: US "not even started." Araghchi heads to Beijing. Oil $113/bbl.', link: '/analysis/iran-2026' },
-    { time: 'Day 66', text: '"PROJECT FREEDOM" LAUNCHES — 2 US ships transit Hormuz under escort. Iran fires 4 missiles at UAE — FIRST attack since ceasefire. ADNOC tanker hit by drones. Hezbollah leader rejects ceasefire. Lebanon: 2,659+ killed.', link: '/analysis/iran-2026' },
-    { time: 'Day 65', text: 'TRUMP ANNOUNCES "PROJECT FREEDOM" — 15,000 troops, destroyers, 100+ aircraft for Hormuz escort. Reuters: several thousand Hezbollah fighters dead. Iran reviewing 14-point peace plan. Iran blockade draining $435M/day. 2,600+ killed in Lebanon.', link: '/analysis/iran-2026' },
-    { time: 'Day 64', text: 'ISRAEL KILLS 13 IN SOUTH LEBANON — dozens of intense strikes despite ceasefire. Indian LPG carrier transits Hormuz. NYT: Israeli entrenchment turning frustration into Hezbollah support. Lebanon: 2,536+ killed.', link: '/analysis/iran-2026' },
-    { time: 'Day 63', text: 'TRUMP DECLARES WAR "TERMINATED" — skirting War Powers deadline. Schumer: "That\'s bullshit." $8.6B arms sales bypass Congress. 5,000 troops pulled from Germany. CNN: 16 US bases damaged by Iran.', link: '/analysis/iran-2026' },
-                { time: 'Day 59', text: 'IRAN OFFERS HORMUZ-FOR-PEACE — ARAGHCHI MEETS PUTIN — $5B BASE DAMAGE: Iran proposes Hormuz reopening if US lifts blockade and ends war — nuclear talks postponed (AP). Araghchi meets Putin. Germany slams US: "no strategy." UN rejects Hormuz tolls. $5B damage to US bases revealed. US troops face food shortages. Israel kills 6 in Lebanon despite ceasefire. Brent $108.', link: '/analysis/iran-2026' },
-                { time: 'Day 53', text: 'CEASEFIRE EXPIRES — TRUMP WON\'T EXTEND — TANKER SEIZED — TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
-                { time: 'Day 52', text: 'USS Spruance seizes Iranian cargo ship Touska — Marines searching 5,000 containers. Iran calls it piracy. Both sides planning Islamabad talks. Only 3 ships crossed Hormuz Monday.', link: '/analysis/iran-2026' },
-                { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman — no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
-                { time: 'Day 49', text: 'IRAN OPENS HORMUZ — OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU — $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 — 4 days left.', link: '/analysis/iran-2026' },
+                { time: 'Day 148', text: 'CEASEFIRE MOU COLLAPSED JUL 8 — renewed hostilities since. 20+ US KIA (Pentagon removed 4 from count), 553+ wounded. 4 killed Jul 17-18 (3 Jordan, 1 Iraq). HOUTHIS BLOCKADE SAUDI ARABIA Jul 20 — attacking Saudi oil tankers. Oil back above $100/bbl (Jul 23). Hezbollah REJECTS Jul 19 ceasefire. Pentagon: $37.5B direct military (Hegseth Jul 21). Independent estimate $113B. THAAD interceptors depleted ~40%. 1,000+ Tomahawks used. 42 aircraft lost. Iran: 3,636+ killed (HRANA), 27,000 injured. Total: ~8,080 killed, 49,241 injured. Lebanon: 4,324+ killed, 12,221 wounded. 148 days, no congressional vote.', link: '/analysis/iran-2026' },
+                { time: 'Day 143', text: '9 CONSECUTIVE NIGHTS OF US STRIKES (Jul 11-19) — expanding to TABRIZ for first time. Darkhovin nuclear plant hit. 3 US service members killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing. Iran: 50+ killed, 500+ wounded in July wave. HRANA cumulative: 3,636 killed. Oil hits $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. 300+ Iranian sites struck since Jul 7. Hormuz: ~10 transits/day vs 90-100 pre-war. Trump sends new War Powers notification to "reset the clock."', link: '/analysis/iran-2026' },
+                { time: 'Day 136', text: 'CEASEFIRE COLLAPSES - US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
+                { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed - Netanyahu: Israel stays until Hezbollah disarms - Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental - Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
+                { time: 'Day 87', text: 'DEAL "NOT IMMINENT" - RUBIO: COULD COME "TODAY" - 1,500 SHIPS WAITING - OIL CRASHES: Iran FM: "reached conclusions on many issues" but not imminent - accuses US of shifting positions (CBS). Rubio: deal could come "today" - "solid thing on table" for Hormuz (Reuters). Pakistan mediator in Beijing - Xi pledges help. NYT: 1,500 ships stranded for months - will take weeks to clear. Oil crashes: Brent $98, WTI $91 - lowest in 2 weeks. IDF warns 10 Lebanon villages to evacuate. 3 killed in Lebanon. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
+                { time: 'Day 86', text: 'DEAL DETAILS - IRAN TO GIVE UP ENRICHED URANIUM - OIL PLUNGES - ISRAEL KILLS 11 IN LEBANON: AP: Iran would give up 441kg of 60%-enriched uranium in 60-day window - Russia offered to take it. Netanyahu-Trump agree deal must "eliminate nuclear danger." Supreme Leader Mojtaba Khamenei hiding in undisclosed location - reached only by couriers - delaying responses (CBS/US intel). Israel kills 11 in Sir al-Gharbiyeh including child and 6 women (Guardian). Brent $98, WTI $91. Lebanon: 3,123+ killed.', link: '/analysis/iran-2026' },
+                { time: 'Day 85', text: 'TRUMP: DEAL "LARGELY NEGOTIATED" - MOU FOR PEACE - HAWKS REVOLT: Trump posts deal "largely negotiated" - 60-day ceasefire, Hormuz opens toll-free, Iran sells oil, nuclear talks (AP/Axios). Pompeo: "straight out of Obama playbook." White House: Pompeo should "shut his stupid mouth." Iran disputes - Fars says Hormuz stays under Iranian control. Pakistan PM hopes to host next talks. Oil falls to 2-week lows. Lebanon: 3,111+ killed.', link: '/analysis/iran-2026' },
+                { time: 'Day 84', text: 'ISRAEL KILLS 10 INCLUDING 6 PARAMEDICS - LEBANON 3,111+: Israeli strikes kill 10 in south Lebanon including child and 6 paramedics (Guardian/NYT). Bombardment "reduces buildings to craters." Soufan Center: ceasefire "in name only." Lebanon economy struggling under war and fuel crisis (Al Jazeera). HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded. Oil: Brent ~$107.', link: '/analysis/iran-2026' },
+                { time: 'Day 83', text: 'IRAN REBUILDING MILITARY FASTER THAN EXPECTED - SUPREME LEADER: URANIUM STAYS - TRUMP-NETANYAHU DIVERGE: Iran restarted drone production during ceasefire (CNN/US intel). Mojtaba Khamenei: enriched uranium must NOT leave Iran - dealbreaker (Reuters). Trump-Netanyahu tense call - Netanyahu pushed strikes, Trump chose diplomacy (CNN). Iran reviewing US proposal - Pakistan army chief in Tehran. Hormuz Authority claims UAE waters near Fujairah. 3 supertankers exit with 6M barrels. Oil $109/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 82', text: 'CRS: 42 US AIRCRAFT LOST - TRUMP: IRAN HAS "2-3 DAYS" - US SEIZES TANKER - ISRAEL KILLS 19 IN LEBANON: CRS report details 42 aircraft lost/damaged including 24 MQ-9 Reapers ($30M each), 1 F-15E, 1 A-10, 2 MC-130Js. Pentagon: $29B cost. Trump gives Iran "2-3 days" deadline - threatens "another big hit" (CNBC/Reuters). US seizes Iranian tanker in Indian Ocean (WSJ). Israel kills 19 in Lebanon - toll 3,061+. IDF: 21st soldier killed. Hezbollah destroys 2nd Merkava. Vance: "locked and loaded." Oil $111/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 81', text: 'TRUMP WAS "HOUR AWAY" FROM NEW STRIKE - IRAN SUBMITS PEACE PROPOSAL - LEBANON CROSSES 3,000: Trump postponed planned strike - says Iran "begging for deal" (AP/Reuters). Iran demands: end to war, lift sanctions, reparations, troop withdrawal (Forbes/Reuters). Lebanon: 3,042 killed (AP). Treasury sanctions Amin Exchange under "Economic Fury" (Reuters). NATO "thinking" about Hormuz (AFP). Congress: 42 US aircraft lost. Oil ~$103. HRANA: 1,701 unchanged. US: 15 KIA, 538 wounded.', link: '/analysis/iran-2026' },
+                { time: 'Day 54', text: 'TRUMP EXTENDS CEASEFIRE INDEFINITELY - BLOCKADE REMAINS - IRAN SEIZES 2 SHIPS: Trump extends ceasefire "until such time as their leaders can come up with a unified proposal." Blockade remains - Iran FM calls it "act of war." Iran seizes 2 ships in Hormuz. CENTCOM: 29 ships turned back. 400 US wounded. Graham: blockade "could become global." US intel: Iran retains ~50% missiles, ~60% navy. Lebanon: 2,454 killed. Trump approval: 33%.', link: '/analysis/iran-2026' },
+                { time: 'Day 55', text: 'TRUMP: "SHOOT AND KILL" BOATS LAYING MINES - IRGC SEIZES 2 MORE SHIPS - ISRAEL "WAITING FOR GREEN LIGHT": Trump orders Navy to "shoot and kill any boat" laying mines in Hormuz. IRGC seizes 2 foreign vessels, fires on third. US seizes tanker Majestic X. CENTCOM: 31 ships turned back. Israel defense minister: "waiting for green light" to resume war. Senate kills 5th War Powers vote 46-51. Navy Secretary fired. Oil ~$103/barrel. Lebanon: 2,454 killed. No talks scheduled.', link: '/analysis/iran-2026' },
+                { time: 'Day 56', text: 'HEGSETH: BLOCKADE "GROWING AND GOING GLOBAL" - 3RD CARRIER - LEBANON CEASEFIRE EXTENDED 3 WEEKS: Hegseth says blockade will last "as long as it takes." 3rd carrier arrives. 34 ships turned back. Lebanon ceasefire extended 3 weeks - Hezbollah: "meaningless." Iran FM heading to Islamabad. Pentagon threatens suspending Spain from NATO. US used 1,000+ Tomahawks - threatens Taiwan readiness. Oil ~$107.', link: '/analysis/iran-2026' },
+                { time: 'Day 69', text: 'US AWAITS IRAN\'S RESPONSE - Reuters: short-term memo, not comprehensive deal. Trump: deal "very possible" but bombing restarts if talks fail. IDF confirms Radwan commander kill. Iran denies S. Korean ship attack. Oil: Brent $97.47. Hormuz traffic "almost nonexistent."', link: '/analysis/iran-2026' },
+    { time: 'Day 68', text: 'RUBIO DECLARES EPIC FURY "OVER" - Trump pauses Project Freedom (Saudis refused base access). Axios: 1-page MOU near. Israel kills Radwan commander in Beirut. Oil crashes 11% to $97. 11+ killed in Lebanon. French ship attacked in Hormuz. Iran establishes Strait Authority.', link: '/analysis/iran-2026' },
+    { time: 'Day 67', text: 'UAE under attack 2nd day. USS Truxtun/Mason transit Hormuz under sustained Iranian barrage - neither struck. IMO: 20,000 seafarers stranded. Ghalibaf: US "not even started." Araghchi heads to Beijing. Oil $113/bbl.', link: '/analysis/iran-2026' },
+    { time: 'Day 66', text: '"PROJECT FREEDOM" LAUNCHES - 2 US ships transit Hormuz under escort. Iran fires 4 missiles at UAE - FIRST attack since ceasefire. ADNOC tanker hit by drones. Hezbollah leader rejects ceasefire. Lebanon: 2,659+ killed.', link: '/analysis/iran-2026' },
+    { time: 'Day 65', text: 'TRUMP ANNOUNCES "PROJECT FREEDOM" - 15,000 troops, destroyers, 100+ aircraft for Hormuz escort. Reuters: several thousand Hezbollah fighters dead. Iran reviewing 14-point peace plan. Iran blockade draining $435M/day. 2,600+ killed in Lebanon.', link: '/analysis/iran-2026' },
+    { time: 'Day 64', text: 'ISRAEL KILLS 13 IN SOUTH LEBANON - dozens of intense strikes despite ceasefire. Indian LPG carrier transits Hormuz. NYT: Israeli entrenchment turning frustration into Hezbollah support. Lebanon: 2,536+ killed.', link: '/analysis/iran-2026' },
+    { time: 'Day 63', text: 'TRUMP DECLARES WAR "TERMINATED" - skirting War Powers deadline. Schumer: "That\'s bullshit." $8.6B arms sales bypass Congress. 5,000 troops pulled from Germany. CNN: 16 US bases damaged by Iran.', link: '/analysis/iran-2026' },
+                { time: 'Day 59', text: 'IRAN OFFERS HORMUZ-FOR-PEACE - ARAGHCHI MEETS PUTIN - $5B BASE DAMAGE: Iran proposes Hormuz reopening if US lifts blockade and ends war - nuclear talks postponed (AP). Araghchi meets Putin. Germany slams US: "no strategy." UN rejects Hormuz tolls. $5B damage to US bases revealed. US troops face food shortages. Israel kills 6 in Lebanon despite ceasefire. Brent $108.', link: '/analysis/iran-2026' },
+                { time: 'Day 53', text: 'CEASEFIRE EXPIRES - TRUMP WON\'T EXTEND - TANKER SEIZED - TALKS IN LIMBO: Trump tells CNBC he does NOT want to extend ceasefire, military "raring to go." Navy SEALs board MT Tifani oil tanker (~2M barrels) near Sri Lanka. Vance\'s Pakistan departure delayed. Iran undecided on Round 2. Xi demands Hormuz open. IEA: "biggest energy crisis in history." Oil $95.75/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 52', text: 'USS Spruance seizes Iranian cargo ship Touska - Marines searching 5,000 containers. Iran calls it piracy. Both sides planning Islamabad talks. Only 3 ships crossed Hormuz Monday.', link: '/analysis/iran-2026' },
+                { time: 'Day 50', text: 'IRAN RE-CLOSES HORMUZ: Iran reverses Hormuz opening after US refuses to lift blockade. IRGC gunboats fire on tanker 20 NM NE of Oman - no warning. Indian-flagged vessel also attacked. Ships reverse course, hundreds waiting. Only ~8 tankers passed in brief window. Oil rebounds. Israel: 1 soldier killed, 9 wounded in south Lebanon. IDF establishes "Yellow Line" demarcation.', link: '/analysis/iran-2026' },
+                { time: 'Day 49', text: 'IRAN OPENS HORMUZ - OIL CRASHES 13%: Iran FM declares Hormuz "completely open" for ceasefire duration. Oil plunges to ~$86/bbl. Trump bans Israel from bombing Lebanon: "PROHIBITED by the U.S.A." Progress on 3-page MOU - $20B cash-for-uranium deal. Trump: "very close to a deal." Lebanon: 2,294 killed. US blockade remains. Ceasefire expires Apr 21 - 4 days left.', link: '/analysis/iran-2026' },
                 { time: 'Day 48', text: 'Israel-Lebanon 10-day ceasefire starts. Senate kills War Powers resolution 47-52 (4th time). USS Ford breaks post-Vietnam deployment record (295 days). IEA: 6 weeks of jet fuel left. Hegseth: US "locked and loaded" on Iran power plants.', link: '/analysis/iran-2026' },
-                { time: 'Day 47', text: 'TRUMP DECLARES WAR "OVER" — SENDS MORE TROOPS: Trump says war is "over" on Fox — then sends 6,000 troops + USS George HW Bush. Blockade "completely halted" Iran trade — 9 ships turned back in 48 hrs. Iran threatens Red Sea expansion. Harvard: $1 trillion war. Lebanon: 2,124 killed.', link: '/analysis/iran-2026' },
+                { time: 'Day 47', text: 'TRUMP DECLARES WAR "OVER" - SENDS MORE TROOPS: Trump says war is "over" on Fox - then sends 6,000 troops + USS George HW Bush. Blockade "completely halted" Iran trade - 9 ships turned back in 48 hrs. Iran threatens Red Sea expansion. Harvard: $1 trillion war. Lebanon: 2,124 killed.', link: '/analysis/iran-2026' },
                 { time: 'Day 46', text: 'BLOCKADE DAY 1: No enforcement incidents. Oil falls to $97.66/bbl on hopes of resumed talks. IMF warns of recession. Italy suspends Israel defense pact. France-UK Hormuz summit Friday. Israel-Lebanon direct talks in Washington.', link: '/analysis/iran-2026' },
                 { time: 'Day 44', text: 'TALKS COLLAPSE: After 21 hours of marathon negotiations in Islamabad, Vance departs with no deal. Iran says they were "inches away" but encountered "maximalism." Trump announces blockade of Iranian ports.', link: '/analysis/iran-2026' },
-                { time: 'Day 43', text: 'HISTORIC: VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad — highest-level US-Iran contact since 1979 Revolution. Pakistan mediating. Ceasefire brittle. Oil ~$98/bbl.', link: '/analysis/iran-2026' },
+                { time: 'Day 43', text: 'HISTORIC: VP Vance meets Iran\'s Ghalibaf face-to-face in Islamabad - highest-level US-Iran contact since 1979 Revolution. Pakistan mediating. Ceasefire brittle. Oil ~$98/bbl.', link: '/analysis/iran-2026' },
                 { time: 'Day 39', text: 'CEASEFIRE ANNOUNCED: Trump announces 2-week pause via Truth Social at 6:32 PM ET. Pakistan PM Sharif and Army Chief Munir mediated. 5,000+ killed across nearly a dozen countries.', link: '/analysis/iran-2026' },
               ].map((d, i) => (
                 <Link key={i} href={d.link} className="bg-white/5 hover:bg-white/10 rounded-lg p-3 border border-white/10 transition">
@@ -149,7 +150,7 @@ export default function HomePage() {
 
             {/* Analysis Hub Links */}
             <div className="border-t border-white/10 pt-4">
-              <h3 className="text-xs text-stone-500 uppercase tracking-wide mb-3">Iran War 2026 — Analysis & Data</h3>
+              <h3 className="text-xs text-stone-500 uppercase tracking-wide mb-3">Iran War 2026 - Analysis & Data</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
                 {[
                   { title: 'Full Timeline', href: '/analysis/iran-2026', icon: '📋' },
@@ -181,12 +182,12 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: '9 Nights of Strikes — Expanding to Tabriz', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
-              { title: '3 US Troops Killed Jul 17-18', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
-              { title: 'Israel-Hezbollah Ceasefire Agreed', href: '/analysis/iran-2026', tag: 'CEASEFIRE', tagColor: 'bg-green-700' },
-              { title: 'Darkhovin Nuclear Plant Hit by US', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
-              { title: 'Oil Hits $90/bbl — First of July Crisis', href: '/analysis/iran-2026', tag: 'ENERGY', tagColor: 'bg-blue-700' },
-              { title: 'Hormuz: ~10 Transits/Day vs 90-100 Pre-War', href: '/analysis/iran-2026', tag: 'BLOCKADE', tagColor: 'bg-blue-700' },
+              { title: 'Houthis Blockade Saudi Arabia — Jul 20', href: '/analysis/hormuz-crisis', tag: 'BREAKING', tagColor: 'bg-red-600' },
+              { title: 'Oil Back Above $100/bbl (Jul 23)', href: '/analysis/hormuz-crisis', tag: 'ENERGY', tagColor: 'bg-blue-700' },
+              { title: '20+ US KIA — Pentagon Removed 4 From Count', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Hezbollah Rejects Jul 19 Ceasefire', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
+              { title: 'Pentagon: $37.5B Direct Military Cost', href: '/analysis/iran-2026', tag: 'COST', tagColor: 'bg-yellow-700' },
+              { title: 'Weapons Depleted — 3-8 Years to Rebuild', href: '/analysis/iran-2026', tag: 'READINESS', tagColor: 'bg-stone-600' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
             ].map((item, i) => (
@@ -202,7 +203,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="bg-stone-900 text-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          {/* Live Ticking War Cost Counter — front and center */}
+          {/* Live Ticking War Cost Counter - front and center */}
           <div className="max-w-2xl mx-auto mb-10">
             <p className="text-stone-500 text-xs uppercase tracking-widest mb-3">Total US War Spending Since 9/11</p>
             <LiveCostCounter
@@ -216,11 +217,11 @@ export default function HomePage() {
             The Price of <span className="text-red-600">American Empire</span>
           </h1>
           <p className="text-stone-400 text-lg md:text-xl max-w-3xl mx-auto mb-4">
-            Every US war, intervention, and military action — the cost in dollars, lives, and liberty.
+            Every US war, intervention, and military action - the cost in dollars, lives, and liberty.
           </p>
           <p className="text-stone-500 text-sm max-w-2xl mx-auto mb-2">
             WarCosts is a free, data-driven transparency platform. No ads. No paywall. No defense industry
-            sponsors. Just the numbers — sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
+            sponsors. Just the numbers - sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
             own reports.
           </p>
           <p className="text-stone-600 text-xs mb-12">Last updated: March 12, 2026</p>
@@ -254,7 +255,7 @@ export default function HomePage() {
               <p className="text-stone-400">Current military spending rate</p>
             </div>
             <div className="bg-white/10 rounded-lg p-3">
-              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.victories}W–{stats.defeats}L–{stats.inconclusive}I</p>
+              <p className="text-xl font-bold text-red-400 font-[family-name:var(--font-heading)]">{stats.victories}W-{stats.defeats}L-{stats.inconclusive}I</p>
               <p className="text-stone-400">Win/Loss/Inconclusive record</p>
             </div>
             <div className="bg-white/10 rounded-lg p-3">
@@ -306,10 +307,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Military Spending Over Time — Interactive Chart */}
+      {/* Military Spending Over Time - Interactive Chart */}
       <section className="bg-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">US Military Spending: 1949–2024</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">US Military Spending: 1949-2024</h2>
           <p className="text-stone-500 text-sm mb-6">Inflation-adjusted billions. Peaks during Korea, Vietnam, Reagan buildup, and the War on Terror.</p>
           <div className="bg-stone-900 rounded-xl p-4 md:p-6">
             <HomeSpendingChart data={yearlySpending} />
@@ -322,12 +323,12 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 py-16">
         <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-2">Start Exploring</h2>
         <p className="text-stone-500 mb-8">Choose your entry point into the data.</p>
-        
+
         {/* This Day in War History */}
         <div className="mb-8">
           <ThisDayInWarHistory />
         </div>
-        
+
         {/* Featured New Tools */}
         <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-bold text-red-800 mb-4">🆕 New Features</h3>
@@ -346,14 +347,14 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { href: '/us-military-spending', icon: '💰', title: 'US Military Spending', desc: '$886B/year — more than the next 10 countries combined' },
+            { href: '/us-military-spending', icon: '💰', title: 'US Military Spending', desc: '$886B/year - more than the next 10 countries combined' },
             { href: '/cost-of-war', icon: '📊', title: 'Cost of War', desc: '$11.3 trillion since 1776. $8T since 9/11 alone.' },
             { href: '/us-wars-list', icon: '⚔️', title: 'Every US War', desc: '36 wars, 469 interventions, 5 declared by Congress' },
             { href: '/veteran-suicide', icon: '🎗️', title: 'Veteran Suicide', desc: '17 per day. More than die in combat.' },
-            { href: '/modern-wars', icon: '🔥', title: 'Modern Wars', desc: 'The forever wars — 1995 to present' },
+            { href: '/modern-wars', icon: '🔥', title: 'Modern Wars', desc: 'The forever wars - 1995 to present' },
             { href: '/defense-budget', icon: '🏛️', title: 'Defense Budget', desc: 'Where every dollar goes. Never audited.' },
             { href: '/who-fights', icon: '👥', title: 'Who Fights Our Wars?', desc: 'The demographics of those who die for America' },
             { href: '/cost-overruns', icon: '📈', title: 'Cost Overruns Database', desc: 'F-35: $1.7T and counting. Every boondoggle documented.' },
@@ -401,7 +402,7 @@ export default function HomePage() {
             {ongoingConflicts.map((c: any) => (
               <Link key={c.id} href={`/conflicts/${c.id}`} className="bg-white rounded-lg border border-red-200 p-4 hover:shadow-md transition">
                 <h3 className="font-[family-name:var(--font-heading)] font-bold">{c.shortName || c.name}</h3>
-                <p className="text-muted text-sm">{c.startYear}–Present · {c.region}</p>
+                <p className="text-muted text-sm">{c.startYear}-Present · {c.region}</p>
                 <p className="font-bold text-primary text-sm mt-1">{fmtMoney(c.costInflationAdjusted)}</p>
               </Link>
             ))}
@@ -423,18 +424,18 @@ export default function HomePage() {
                   'bg-yellow-100 text-yellow-700'
                 }`}>{c.outcome}</span>
               </div>
-              <p className="text-muted text-sm mb-3">{c.startYear}–{c.endYear} · {c.region}</p>
+              <p className="text-muted text-sm mb-3">{c.startYear}-{c.endYear} · {c.region}</p>
               <div className="grid grid-cols-3 gap-2 text-center">
                 <div>
                   <p className="font-bold text-primary">{fmtMoney(c.costInflationAdjusted)}</p>
                   <p className="text-xs text-muted">Cost</p>
                 </div>
                 <div>
-                  <p className="font-bold text-primary">{c.usCasualties?.deaths ? fmt(c.usCasualties.deaths) : '—'}</p>
+                  <p className="font-bold text-primary">{c.usCasualties?.deaths ? fmt(c.usCasualties.deaths) : '-'}</p>
                   <p className="text-xs text-muted">US Deaths</p>
                 </div>
                 <div>
-                  <p className="font-bold text-primary">{c.civilianDeaths ? fmt(c.civilianDeaths) : '—'}</p>
+                  <p className="font-bold text-primary">{c.civilianDeaths ? fmt(c.civilianDeaths) : '-'}</p>
                   <p className="text-xs text-muted">Civilian Deaths</p>
                 </div>
               </div>
@@ -495,7 +496,7 @@ export default function HomePage() {
           </div>
           {/* Extra vivid comparisons */}
           <div className="border-t border-stone-700 pt-6">
-            <h3 className="text-stone-500 text-xs uppercase tracking-wide mb-4">Put another way…</h3>
+            <h3 className="text-stone-500 text-xs uppercase tracking-wide mb-4">Put another way...</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
               {[
                 { icon: '🏠', stat: '53 Million', desc: 'Homes at median US price ($150K)' },
@@ -531,7 +532,7 @@ export default function HomePage() {
             { title: 'The Cost of Secrecy', href: '/analysis/cost-of-secrecy', desc: '$18.5B/year on classification. What are they hiding and what does it cost us?' },
             { title: 'Empire of Bases', href: '/analysis/empire-of-bases', desc: '750 bases in 80 countries. No other empire in history has maintained this kind of global footprint.' },
             { title: 'Veterans Betrayed', href: '/analysis/veterans-betrayed', desc: 'We send them to war, then abandon them. The VA crisis in numbers.' },
-            { title: 'The War Economy', href: '/analysis/war-economy', desc: 'How defense spending shapes — and distorts — the American economy.' },
+            { title: 'The War Economy', href: '/analysis/war-economy', desc: 'How defense spending shapes - and distorts - the American economy.' },
             { title: 'Allies and Enemies', href: '/analysis/allies-and-enemies', desc: 'We armed the Mujahideen, then fought them. We backed Saddam, then toppled him. The pattern repeats.' },
           ].map(a => (
             <Link key={a.href} href={a.href} className="bg-white rounded-lg border border-stone-200 p-6 hover:shadow-md hover:border-red-200 transition">
@@ -564,20 +565,20 @@ export default function HomePage() {
         <blockquote className="font-[family-name:var(--font-heading)] text-2xl md:text-3xl italic text-stone-700">
           &ldquo;Every gun that is made, every warship launched, every rocket fired signifies, in the final sense, a theft from those who hunger and are not fed.&rdquo;
         </blockquote>
-        <p className="text-muted mt-4">— Dwight D. Eisenhower, 1953</p>
+        <p className="text-muted mt-4">- Dwight D. Eisenhower, 1953</p>
       </section>
 
-      {/* Iran 2026 Analysis — Featured */}
+      {/* Iran 2026 Analysis - Featured */}
       <section className="max-w-7xl mx-auto px-4 py-16">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-xs px-2 py-1 rounded-full bg-red-100 text-red-700 font-semibold">NEW</span>
-          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold">Iran War 2026 — Deep Analysis</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold">Iran War 2026 - Deep Analysis</h2>
         </div>
         <p className="text-stone-500 mb-8">The most comprehensive coverage of Operation Epic Fury&apos;s costs, casualties, and consequences.</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { title: 'Whose War Is This?', href: '/analysis/iran-2026', desc: 'The full Day 1–7 timeline. How diplomacy failed and bombs started falling.' },
-            { title: 'The $28,095-Per-Second War', href: '/analysis/iran-cost-per-second', desc: 'Every Tomahawk ($2.5M), B-2 sortie ($4.5M), and SM-3 interceptor ($36M) — priced and sourced.' },
+            { title: 'Whose War Is This?', href: '/analysis/iran-2026', desc: 'The full Day 1-7 timeline. How diplomacy failed and bombs started falling.' },
+            { title: 'The $28,095-Per-Second War', href: '/analysis/iran-cost-per-second', desc: 'Every Tomahawk ($2.5M), B-2 sortie ($4.5M), and SM-3 interceptor ($36M) - priced and sourced.' },
             { title: 'The Civilian Cost', href: '/analysis/iran-civilian-cost', desc: '180 schoolgirls. Grand Bazaar destroyed. Golestan Palace in rubble. What "precision" looks like.' },
             { title: '11 Countries, 7 Days', href: '/analysis/iran-regional-war', desc: 'How a two-country war engulfed Iran, Israel, Lebanon, UAE, Qatar, Bahrain, Kuwait, Iraq, Saudi Arabia, Cyprus, Azerbaijan.' },
             { title: 'Russia\'s Shadow War', href: '/analysis/iran-russia-shadow-war', desc: 'Moscow is sharing US military positions with Iran. Americans are dying with Russian help.' },
@@ -616,13 +617,13 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-[family-name:var(--font-heading)] text-3xl font-bold mb-4">Why This Site Exists</h2>
           <p className="text-stone-600 text-lg mb-4">
-            The Founders believed that a free people must understand what their government does in their name —
+            The Founders believed that a free people must understand what their government does in their name -
             especially when it comes to war. James Madison warned that &ldquo;of all the enemies to public liberty,
             war is, perhaps, the most to be dreaded.&rdquo;
           </p>
           <p className="text-stone-600 mb-4">
             WarCosts exists to make the costs of American military power visible, measurable, and undeniable.
-            Not through opinion or ideology, but through data — sourced from the government&apos;s own reports,
+            Not through opinion or ideology, but through data - sourced from the government&apos;s own reports,
             peer-reviewed academic research, and established investigative organizations.
           </p>
           <p className="text-stone-500 text-sm mb-8">

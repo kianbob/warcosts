@@ -1,7 +1,7 @@
 {
   "totalConflicts": 36,
   "totalInterventions": 469,
-  "totalUSDeaths": 1049469,
+  "totalUSDeaths": 1049472,
   "totalCivilianDeaths": 5200161,
   "totalCostInflationAdjusted": 11493124000000,
   "warsSinceWWII": 26,
@@ -9,7 +9,7 @@
   "overseasBases": 750,
   "overseasCountries": 80,
   "overseasTroops": 173000,
-  "currentAnnualBudget": 886000000000,
+  "currentAnnualBudget": 895000000000,
   "pctGdp": 3.4,
   "warOnTerrorCost": 8000000000000,
   "warOnTerrorDeaths": 940000,
@@ -36,14 +36,14 @@
   "revolvingDoorOfficials": 500,
   "defenseLobbying2023": 70000000,
   "campaignContributions": 285000000,
-  "costPerSecond": 28095,
-  "costPerMinute": 1685693,
-  "costPerHour": 101141553,
-  "costPerDay": 2427397260,
+  "costPerSecond": 28361,
+  "costPerMinute": 1701650,
+  "costPerHour": 102099019,
+  "costPerDay": 2450376454,
   "victories": 13,
   "defeats": 5,
   "inconclusive": 13,
   "objectivesMetCount": 16,
   "objectivesNotMetCount": 12,
-  "ongoing": 6
+  "ongoing": 7
 }
