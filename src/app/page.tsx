@@ -189,7 +189,7 @@ export default function HomePage() {
               { title: 'Hezbollah Rejects Jul 19 Ceasefire', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
               { title: 'Pentagon Hid 140+ Wounded From Public', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
               { title: 'Weapons Depleted — 3-8 Years to Rebuild', href: '/analysis/iran-2026', tag: 'READINESS', tagColor: 'bg-stone-600' },
-              { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
+              { title: 'FY2026 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
             ].map((item, i) => (
               <Link key={i} href={item.href} className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg p-3 transition">
@@ -311,7 +311,7 @@ export default function HomePage() {
       {/* Military Spending Over Time - Interactive Chart */}
       <section className="bg-white py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">US Military Spending: 1949-2024</h2>
+          <h2 className="font-[family-name:var(--font-heading)] text-2xl font-bold mb-2">US Military Spending: 1949-2025</h2>
           <p className="text-stone-500 text-sm mb-6">Inflation-adjusted billions. Peaks during Korea, Vietnam, Reagan buildup, and the War on Terror.</p>
           <div className="bg-stone-900 rounded-xl p-4 md:p-6">
             <HomeSpendingChart data={yearlySpending} />
