@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 148,
-  headline: '💣 Day 148 - Ceasefire MOU collapsed Jul 8 - Renewed hostilities - 20+ US KIA (Pentagon removed 4 from count), 553+ wounded - 4 killed Jul 17-18 - Houthis blockade Saudi Arabia Jul 20 - Oil back above $100/bbl - Hezbollah rejects ceasefire - $37.5B Pentagon / $113B total cost - No congressional vote',
+  day: 150,
+  headline: '💣 Day 150 - MUTUAL PAUSE - US & Iran halt strikes 2+ days - Pentagon restores 4 deaths, discloses 140+ hidden wounded - 20+ US KIA, ~700+ wounded - CSIS: $40B direct military - Oil crashes to $89/bbl - Saudi strikes Houthis - Ukraine hits Iranian ships in Caspian - No deal signed - No congressional vote',
   stats: [
     { value: '$113B+', label: 'Total War Cost (ind. est.)' },
-    { value: '20+ KIA', label: 'US Deaths (4 removed from count)' },
+    { value: '20+ KIA', label: 'US Deaths (~700+ wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
     { value: '4,324+', label: 'Killed in Lebanon' },
     { value: '~10/day', label: 'Hormuz Transits (was 90-100)' },
-    { value: '$100+/bbl', label: 'Brent Crude (Jul 23)' },
+    { value: '$89/bbl', label: 'Brent Crude (Jul 27 — down 8%)' },
   ]
 }
 
@@ -108,7 +108,8 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 148', text: 'CEASEFIRE MOU COLLAPSED JUL 8 — renewed hostilities since. 20+ US KIA (Pentagon removed 4 from count), 553+ wounded. 4 killed Jul 17-18 (3 Jordan, 1 Iraq). HOUTHIS BLOCKADE SAUDI ARABIA Jul 20 — attacking Saudi oil tankers. Oil back above $100/bbl (Jul 23). Hezbollah REJECTS Jul 19 ceasefire. Pentagon: $37.5B direct military (Hegseth Jul 21). Independent estimate $113B. THAAD interceptors depleted ~40%. 1,000+ Tomahawks used. 42 aircraft lost. Iran: 3,636+ killed (HRANA), 27,000 injured. Total: ~8,080 killed, 49,241 injured. Lebanon: 4,324+ killed, 12,221 wounded. 148 days, no congressional vote.', link: '/analysis/iran-2026' },
+                { time: 'Day 150', text: 'MUTUAL PAUSE — US and Iran halt strikes for 2+ consecutive days. Iran: "attack for attack — if attacks stop, Iran will also halt." Pentagon RESTORES 4 deaths to count, discloses 140+ additional wounded — US toll now 20+ KIA, ~700+ wounded. CSIS: $40B direct military cost. Saudi strikes Houthis in Yemen; Houthis retaliate. Ukraine strikes Iranian vessels in Caspian Sea. Oil crashes from $100+ to $89/bbl. Hormuz: no attacks in 72 hours. Netanyahu plans US visit. Oman mediating. 150 days, no congressional vote, no deal signed.', link: '/analysis/iran-2026' },
+              { time: 'Day 148', text: 'CEASEFIRE MOU COLLAPSED JUL 8 — renewed hostilities since. 20+ US KIA (Pentagon removed 4 from count), 553+ wounded. 4 killed Jul 17-18 (3 Jordan, 1 Iraq). HOUTHIS BLOCKADE SAUDI ARABIA Jul 20 — attacking Saudi oil tankers. Oil back above $100/bbl (Jul 23). Hezbollah REJECTS Jul 19 ceasefire. Pentagon: $37.5B direct military (Hegseth Jul 21). Independent estimate $113B. THAAD interceptors depleted ~40%. 1,000+ Tomahawks used. 42 aircraft lost. Iran: 3,636+ killed (HRANA), 27,000 injured. Total: ~8,080 killed, 49,241 injured. Lebanon: 4,324+ killed, 12,221 wounded. 148 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 143', text: '9 CONSECUTIVE NIGHTS OF US STRIKES (Jul 11-19) — expanding to TABRIZ for first time. Darkhovin nuclear plant hit. 3 US service members killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing. Iran: 50+ killed, 500+ wounded in July wave. HRANA cumulative: 3,636 killed. Oil hits $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. 300+ Iranian sites struck since Jul 7. Hormuz: ~10 transits/day vs 90-100 pre-war. Trump sends new War Powers notification to "reset the clock."', link: '/analysis/iran-2026' },
                 { time: 'Day 136', text: 'CEASEFIRE COLLAPSES - US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
                 { time: 'Day 120', text: 'US F-35s/F-16s strike 4 targets on Qeshm Island after Ever Lovely ship attack. Israel-Lebanon framework signed - Netanyahu: Israel stays until Hezbollah disarms - Hezbollah rejects as "disgrace." Pentagon requests $87.6B war supplemental - Lockheed Martin $35.3B contract. THAAD interceptors depleted 40%. Iran inflation 88.6%.', link: '/analysis/iran-2026' },
@@ -184,9 +185,9 @@ export default function HomePage() {
             {[
               { title: 'Houthis Blockade Saudi Arabia — Jul 20', href: '/analysis/hormuz-crisis', tag: 'BREAKING', tagColor: 'bg-red-600' },
               { title: 'Oil Back Above $100/bbl (Jul 23)', href: '/analysis/hormuz-crisis', tag: 'ENERGY', tagColor: 'bg-blue-700' },
-              { title: '20+ US KIA — Pentagon Removed 4 From Count', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'MUTUAL PAUSE — US & Iran Halt Strikes', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
               { title: 'Hezbollah Rejects Jul 19 Ceasefire', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
-              { title: 'Pentagon: $37.5B Direct Military Cost', href: '/analysis/iran-2026', tag: 'COST', tagColor: 'bg-yellow-700' },
+              { title: 'Pentagon Hid 140+ Wounded From Public', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
               { title: 'Weapons Depleted — 3-8 Years to Rebuild', href: '/analysis/iran-2026', tag: 'READINESS', tagColor: 'bg-stone-600' },
               { title: 'FY2025 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },

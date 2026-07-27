@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. MOU collapsed Jul 8 — renewed hostilities. Houthis blockade Saudi Arabia Jul 20. Oil back above $100/bbl. Hormuz ~10 transits/day vs 90-100 pre-war.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. MOU collapsed Jul 8 — renewed hostilities Jul 8-24. MUTUAL PAUSE Jul 25-27: no attacks in 72 hours. Oil crashes to $89/bbl. Compromise being negotiated: Iran manages transit with fewer restrictions.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -266,7 +266,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Jul 25, 2026 — Day 148):</strong> MOU signed Jun 19, COLLAPSED Jul 8. Renewed hostilities since. Hormuz: ~10 transits/day vs pre-war 90-100+. HOUTHIS BLOCKADE SAUDI ARABIA Jul 20 — attacking Saudi oil tankers in Red Sea and Bab el-Mandeb. Oil back above $100/bbl (Jul 23) — was $83 after MOU signed. Pentagon: $37.5B direct military (Hegseth Jul 21). $87.6B supplemental requested. Weapons depleted — 3-8 years to rebuild. Total: ~8,080 killed, 49,241 injured across all sides.
+          <strong>Current status (as of Jul 27, 2026 — Day 150):</strong> MOU signed Jun 19, COLLAPSED Jul 8. MUTUAL PAUSE Jul 25-27 — US and Iran halt strikes for 2+ consecutive days. Hormuz: commercial shipping at 3-week low, but NO ATTACKS confirmed in 72 hours. Iran and Oman in talks on Hormuz passage compromise — Iran manages transit with fewer restrictions (regional official via AP). Oil CRASHES from $100+ to $89/bbl — down 8%+, biggest single-day drop since war began. Pentagon RESTORES 4 deaths to count, discloses 140+ hidden wounded — 20+ US KIA, ~700+ wounded. CSIS: $40B direct military cost. Saudi strikes Houthis in Yemen; Houthis retaliate. Ukraine strikes Iranian ships in Caspian Sea. Netanyahu plans US visit. 150 days, no deal signed, just a pause.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and renewed US-Iran strikes, the global energy crisis is deepening.
         </p>
       </div>

@@ -6281,16 +6281,16 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 in Switzerland — but collapsed early July as both sides resumed strikes over Hormuz. Ceasefire MOU shattered Jul 5-7; renewed hostilities since Jul 8. By Day 148: 9 consecutive nights of US strikes (Jul 11-19) expanding to Tabriz, Darkhovin nuclear plant hit. 4 more US troops killed Jul 17-23 (3 in Jordan, 1 in Iraq) but Pentagon REMOVED 4 deaths from official count, claiming they occurred 'after ceasefire.' Total: 20+ US KIA (1 missing), 553+ wounded. HRANA cumulative: 3,636+ killed in Iran. Lebanon: 4,324+ killed. Houthis imposed maritime blockade on Saudi Arabia Jul 20, claimed attacks on Saudi oil tankers. Pentagon cost: $37.5B direct military (Hegseth testimony Jul 21), independent estimate $113B+. Israel-Hezbollah ceasefire agreed Jul 19 but Hezbollah rejected framework. Oil back above $100/bbl. No congressional authorization.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 in Switzerland — but collapsed early July as both sides resumed strikes over Hormuz. By Day 150: MUTUAL PAUSE — US and Iran halt strikes for 2+ consecutive days (Jul 25-27). Pentagon RESTORES 4 deaths to count AND discloses 140+ additional wounded — US toll now 20+ KIA, ~700+ wounded. CSIS: $40B direct military ($34-42B range). Oil crashes from $100+ to $89/bbl on pause hopes. Saudi strikes Houthis in Yemen. Ukraine strikes Iranian vessels in Caspian Sea — war reaches new front. Hormuz: no attacks in 72 hours, compromise being negotiated. ~8,080 total killed. 150 days, no congressional authorization, no deal signed.",
     "costNominal": 113000000000,
     "costInflationAdjusted": 113000000000,
     "costYear": 2026,
     "usCasualties": {
       "deaths": 20,
-      "wounded": 553,
+      "wounded": 700,
       "battleDeaths": 18,
       "missing": 1,
-      "note": "Pentagon removed 4 service members killed Jul 17-18 from official death toll, claiming deaths occurred 'after ceasefire.' Actual toll likely higher."
+      "note": "Pentagon restored 4 service members killed Jul 17-18 to casualty database Jul 26-27 AND disclosed 140+ additional wounded not previously reported. Pentagon had created a separate casualty category."
     },
     "civilianDeaths": 1701,
     "troopsDeployed": 50000,
@@ -6782,6 +6782,14 @@
       {
         "year": 2026,
         "event": "Jul 24 (Day 147): Pentagon REMOVES 4 service members killed Jul 17-18 from official death toll — claims deaths occurred 'after ceasefire.' CNBC: Pentagon lowers death count despite rising casualties. Intercept: 'far more' troops injured than Pentagon admits."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 25 (Day 149): Saudi Arabia strikes Houthi targets in Hodeida, Yemen. Houthis retaliate with missiles/drones — Saudi intercepts 2 ballistic missiles. Ukraine strikes Iranian vessels in Caspian Sea — 1 sailor killed, 1 wounded. Zelenskyy: 'very strong results.' War reaches Caspian — new front. US DID NOT STRIKE IRAN overnight — first night without strikes since Jul 11 (14 consecutive nights). Trump advisers warned of target depletion and weapons stockpile concerns."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 26-27 (Days 150-151): MUTUAL PAUSE — US pauses strikes 2nd day; Iran reciprocates. Pentagon RESTORES 4 deaths to count, discloses 140+ additional wounded — US toll: 20+ KIA, ~700+ wounded. CSIS: $40B direct military cost ($34-42B range). Oil crashes from $100+ to $89/bbl — down 8%+, biggest single-day drop since war began. Hormuz: no attacks in 72 hours. Compromise being negotiated via Oman. Netanyahu plans US visit. 150 days, no deal signed."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6793,7 +6801,7 @@
     "years": "2026-2026",
     "computed": {
       "durationYears": 0,
-      "durationDays": 148,
+      "durationDays": 150,
       "costPerDay": 790209790,
       "costPerUSdeath": 6647058824,
       "costPerCivilianDeath": 66373310,
