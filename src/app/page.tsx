@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 148 days — MOU collapsed, renewed hostilities. 20+ US KIA, ~8,080 total killed. Houthis blockade Saudi Arabia. Oil above $100. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 157 days — Trump cancels biggest attack since WWII, deal talks via Oman. 22 US KIA, 624 wounded, ~8,080 total killed. Oil crashes to $81/bbl. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 150,
-  headline: '💣 Day 150 - MUTUAL PAUSE - US & Iran halt strikes 2+ days - Pentagon restores 4 deaths, discloses 140+ hidden wounded - 20+ US KIA, ~700+ wounded - CSIS: $40B direct military - Oil crashes to $89/bbl - Saudi strikes Houthis - Ukraine hits Iranian ships in Caspian - No deal signed - No congressional vote',
+  day: 157,
+  headline: '💣 Day 157 - DEAL TALKS - Trump cancels "biggest attack since WWII" - Oman channel active - 22 US KIA, 624 wounded - Oil crashes to $81/bbl - CSIS: $40B direct military - Mutual pause 4 nights without strikes - No deal signed - No congressional vote',
   stats: [
     { value: '$113B+', label: 'Total War Cost (ind. est.)' },
-    { value: '20+ KIA', label: 'US Deaths (~700+ wounded)' },
+    { value: '22 KIA', label: 'US Deaths (624 wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '4,324+', label: 'Killed in Lebanon' },
-    { value: '~10/day', label: 'Hormuz Transits (was 90-100)' },
-    { value: '$89/bbl', label: 'Brent Crude (Jul 27 — down 8%)' },
+    { value: '4,300+', label: 'Killed in Lebanon' },
+    { value: '~29/3days', label: 'Hormuz Transits (normally 100/day)' },
+    { value: '$81/bbl', label: 'Brent Crude (crashed 7.3% on deal talks)' },
   ]
 }
 

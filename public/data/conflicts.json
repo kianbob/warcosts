@@ -6281,21 +6281,21 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 in Switzerland — but collapsed early July as both sides resumed strikes over Hormuz. By Day 150: MUTUAL PAUSE — US and Iran halt strikes for 2+ consecutive days (Jul 25-27). Pentagon RESTORES 4 deaths to count AND discloses 140+ additional wounded — US toll now 20+ KIA, ~700+ wounded. CSIS: $40B direct military ($34-42B range). Oil crashes from $100+ to $89/bbl on pause hopes. Saudi strikes Houthis in Yemen. Ukraine strikes Iranian vessels in Caspian Sea — war reaches new front. Hormuz: no attacks in 72 hours, compromise being negotiated. ~8,080 total killed. 150 days, no congressional authorization, no deal signed.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 in Switzerland — but collapsed early July as both sides resumed strikes over Hormuz. By Day 157: Trump CANCELS planned attack he called \"biggest since World War II\" — deal talks announced through Oman. Oil crashes 7% to $81/bbl. 4 consecutive nights without strikes from either side. US-Saudi joint strikes in Iraq kill 20+ PMF fighters. Iran fires at 3 tankers. Treasury revokes Iranian oil authorization. 22 US KIA, 624 wounded. ~8,080+ total killed. 157 days, no congressional authorization, no deal signed.",
     "costNominal": 113000000000,
     "costInflationAdjusted": 113000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 20,
-      "wounded": 700,
+      "deaths": 22,
+      "wounded": 624,
       "battleDeaths": 18,
       "missing": 1,
-      "note": "Pentagon restored 4 service members killed Jul 17-18 to casualty database Jul 26-27 AND disclosed 140+ additional wounded not previously reported. Pentagon had created a separate casualty category."
+      "note": "22 US KIA total (18 battle deaths + 4 reclassified). Pentagon restored 4 service members killed Jul 17-18 to casualty database Jul 26-27 AND disclosed 140+ additional wounded not previously reported."
     },
-    "civilianDeaths": 1701,
+    "civilianDeaths": 3636,
     "troopsDeployed": 50000,
     "outcome": "MOU Signed Jun 19, Collapsed Jul 2026 — Renewed Hostilities",
-    "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed early July — ceasefire MOU shattered Jul 5-7 when Iran attacked 3 ships during diplomatic pause. Renewed hostilities since Jul 8. CENTCOM launched 80+ retaliatory strikes Jul 5-7, 90 targets Jul 9, 140 targets Jul 12-13. 9 consecutive nights of US strikes Jul 11-19 expanding to Tabriz. Darkhovin nuclear plant hit Jul 19. 7 US troops killed Jul 17-24 (4 in Jordan, 2 in Iraq, 1 ordnance disposal). Pentagon officially claims 16 KIA after removing 4 deaths — actual toll 20+ KIA, 1 missing, 553+ wounded. Iran: 50+ killed, 500+ wounded in July wave alone. HRANA cumulative: 3,636+ killed. Houthis imposed maritime blockade on Saudi Arabia Jul 20, attacked Saudi oil tankers. Pentagon cost: $37.5B (Hegseth Jul 21), independent estimate $113B+. Israel-Hezbollah ceasefire agreed Jul 19 but Hezbollah rejected. Oil above $100/bbl. Hormuz: ~10 transits/day. 300+ Iranian sites struck since Jul 7. 148 days, no congressional vote.",
+    "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed early July — ceasefire MOU shattered Jul 5-7 when Iran attacked 3 ships during diplomatic pause. Renewed hostilities since Jul 8. CENTCOM launched 80+ retaliatory strikes Jul 5-7, 90 targets Jul 9, 140 targets Jul 12-13. 9 consecutive nights of US strikes Jul 11-19 expanding to Tabriz. Darkhovin nuclear plant hit Jul 19. 7 US troops killed Jul 17-24 (4 in Jordan, 2 in Iraq, 1 ordnance disposal). Pentagon restored 4 deaths Jul 26-27, disclosed 140+ additional wounded. HRANA cumulative: 3,636+ killed. Houthis imposed maritime blockade on Saudi Arabia Jul 20, attacked Saudi oil tankers. Pentagon cost: $37.5B (Hegseth Jul 21), independent estimate $113B+. Jul 25-27: Mutual pause — first nights without strikes since Jul 11. Jul 28: US-Saudi joint strikes on PMF across Iraq — 20+ killed. Iran fires at 3 tankers in Hormuz. Jul 29-31: Iranian missile/drone launches drop to zero. Aug 1: Trump CANCELS planned attack — 'biggest since World War II.' Treasury General License X1 revokes Iranian oil authorization. Negotiations announced for Aug 3 via Oman. Aug 2-3: Oil CRASHES 7.3% to $81.55/bbl. 4 consecutive nights without strikes from either side. Iran denies talks — FM Araghchi: Oman channel on Hormuz 'advancing.' 22 US KIA, 624 wounded. 157 days, no congressional vote.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
     "keyEvents": [
@@ -6790,6 +6790,22 @@
       {
         "year": 2026,
         "event": "Jul 26-27 (Days 150-151): MUTUAL PAUSE — US pauses strikes 2nd day; Iran reciprocates. Pentagon RESTORES 4 deaths to count, discloses 140+ additional wounded — US toll: 20+ KIA, ~700+ wounded. CSIS: $40B direct military cost ($34-42B range). Oil crashes from $100+ to $89/bbl — down 8%+, biggest single-day drop since war began. Hormuz: no attacks in 72 hours. Compromise being negotiated via Oman. Netanyahu plans US visit. 150 days, no deal signed."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 28 (Day 152): US-Saudi joint strikes on Iran-backed PMF across Iraq — 20+ killed, 32 wounded (PMF). Iran fires at 3 tankers in Hormuz. All Iranian ballistic missiles at US forces intercepted (CENTCOM). Netanyahu-Trump White House meeting — 'ironclad commitment' on Iran nukes. Houthis fire at Saudi tanker. Jordan intercepts 5 Iranian missiles. US blockade: 18 ships stopped, 20+ warships enforcing."
+      },
+      {
+        "year": 2026,
+        "event": "Jul 29-31 (Days 153-155): Iran drone attacks on Kuwait — last confirmed attack before pause. Iran claims strikes on 2 ships in Hormuz. Ships held in Hormuz northern corridor — passage only with Iran's armed forces permission. CENTCOM blockade: 30 vessels rerouted. Iranian missile and drone launches drop to zero."
+      },
+      {
+        "year": 2026,
+        "event": "Aug 1 (Day 156): Trump CANCELS planned attack — 'would have been the biggest attack since World War II.' Posts 'locked and loaded' on Truth Social but says 'perimeters of a deal' agreed. Demands: 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT.' Saudi Arabia, UAE, Qatar, and Iran asked him to call off strikes. Negotiations announced for Aug 3. Treasury General License X1 revokes Iranian oil authorization."
+      },
+      {
+        "year": 2026,
+        "event": "Aug 2-3 (Days 156-157): Oil CRASHES 7.3% to $81.55/bbl (Bloomberg). Iran denies talks with US — calls Trump's claims 'psychological operations.' FM Araghchi: Oman channel on Hormuz 'advancing.' 4 consecutive nights without strikes from either side. Both sides in effective mutual pause. 22 US KIA, 624 wounded. 3,636 Iranian civilian deaths (HRANA). 157 days, no deal signed."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6801,7 +6817,7 @@
     "years": "2026-2026",
     "computed": {
       "durationYears": 0,
-      "durationDays": 150,
+      "durationDays": 157,
       "costPerDay": 790209790,
       "costPerUSdeath": 6647058824,
       "costPerCivilianDeath": 66373310,

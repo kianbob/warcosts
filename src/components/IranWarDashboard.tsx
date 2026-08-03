@@ -38,14 +38,14 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="150+ Days" sub="Feb 28, 2026 – ongoing (MUTUAL PAUSE Jul 25-27)" />
+      <StatCard label="War Duration" value="157+ Days" sub="Feb 28, 2026 – ongoing (MUTUAL PAUSE — 4 nights without strikes)" />
       <StatCard label="Total Cost" value="$113B+" sub="CSIS: $40B direct military ($34-42B range) | Independent: $113B" />
-      <StatCard label="Status" value="⏸️ MUTUAL PAUSE" sub="US & Iran halt strikes 2+ days (Jul 25-27). Oman mediating. Oil crashes to $89/bbl. No deal signed." />
+      <StatCard label="Status" value="🕊️ DEAL TALKS" sub="Trump cancels 'biggest attack since WWII.' Oman channel active. Oil crashes to $81/bbl." />
       <StatCard label="Total Killed" value="~8,080" sub="Wikipedia casualty tracker — 49,241 injured — across all sides" />
       <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA (3,468 Foundation of Martyrs) — US/Israel est. 6,000+ — 27,000 injured" />
-      <StatCard label="US Troops" value="20+ KIA" sub="Pentagon hid 140+ wounded. ~700+ wounded total. 42 aircraft lost. THAAD depleted ~40%." />
-      <StatCard label="Oil Impact" value="$89/bbl" sub="Crashed from $100+ on mutual pause (Jul 27). Down 8%+. Hormuz: no attacks in 72 hours." />
-      <StatCard label="Lebanon" value="4,324+ killed" sub="12,221 wounded. Hezbollah REJECTED Jul 19 ceasefire. Houthis blockade Saudi Arabia." />
+      <StatCard label="US Troops" value="22 KIA" sub="624 wounded. 42 aircraft lost. THAAD depleted ~40%." />
+      <StatCard label="Oil Impact" value="$81/bbl" sub="Crashed 7.3% on deal talk announcement. Down from $87.93 Jul 31." />
+      <StatCard label="Lebanon" value="4,300+ killed" sub="12,221 wounded. Hezbollah REJECTED Jul 19 ceasefire. Houthis blockade Saudi Arabia." />
     </div>
   )
 }

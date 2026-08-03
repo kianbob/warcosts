@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 150, $113B+, MUTUAL PAUSE, Oil Crashes to $89 | WarCosts',
+  title: 'Iran War 2026 — Day 157, $113B+, Deal Talks, Oil Crashes to $81 | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 150+ days of conflict — MUTUAL PAUSE Jul 25-27. Pentagon restores 4 deaths, discloses 140+ hidden wounded. 20+ US KIA, ~700+ wounded. CSIS: $40B direct military. Oil crashes to $89. ~8,080 total killed across all sides.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 157+ days of conflict — Trump cancels biggest attack since WWII, deal talks via Oman. 22 US KIA, 624 wounded. CSIS: $40B direct military. Oil crashes to $81/bbl. ~8,080 total killed across all sides.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 150, $113B+, MUTUAL PAUSE | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 150+ days. MUTUAL PAUSE Jul 25-27. Pentagon restores 4 deaths, discloses 140+ hidden wounded. 20+ US KIA, ~700+ wounded. CSIS: $40B direct military. Oil crashes to $89.',
+    title: 'Iran War 2026 — Day 157, $113B+, Deal Talks, Oil $81 | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 157+ days. Trump cancels biggest attack since WWII. Deal talks via Oman. 22 US KIA, 624 wounded. CSIS: $40B direct military. Oil crashes to $81/bbl.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -36,7 +36,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-07-25',
+  dateModified: '2026-08-03',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 
@@ -182,8 +182,8 @@ export default function IranWar2026Page() {
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />
 
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold animate-pulse">⚠️ MUTUAL PAUSE — US & IRAN HALT STRIKES — OIL CRASHES TO $89 — DAY 150</span>
-          <span className="text-stone-500 text-sm">Last updated: July 27, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold animate-pulse">⚠️ DEAL TALKS — TRUMP CANCELS BIGGEST ATTACK — OIL CRASHES TO $81 — DAY 157</span>
+          <span className="text-stone-500 text-sm">Last updated: August 3, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
@@ -193,10 +193,10 @@ export default function IranWar2026Page() {
         <p className="text-lg text-stone-300 max-w-3xl mb-2">
           On February 28, 2026, the United States launched <strong className="text-red-400">Operation Epic Fury</strong> —
           a massive air campaign against Iran conducted without congressional authorization. A peace deal (MOU)
-          was signed June 19, 2026 — but collapsed by July 8 with renewed hostilities. By Day 150: a mutual pause
-          is in effect — US and Iran have halted strikes for 2+ consecutive days. Pentagon restored 4 deaths
-          to count and disclosed 140+ previously hidden wounded — 20+ US KIA, ~700+ wounded. CSIS estimates
-          $40B direct military cost. Oil crashed from $100+ to $89/bbl. The cost: <strong className="text-red-400">$113 billion+</strong> (independent estimate),
+          was signed June 19, 2026 — but collapsed by July 8 with renewed hostilities. By Day 157: deal talks
+          are underway via Oman — Trump cancelled the "biggest attack since WWII." 4 nights without strikes.
+          22 US KIA, 624 wounded. CSIS estimates
+          $40B direct military cost. Oil crashed to $81/bbl. The cost: <strong className="text-red-400">$113 billion+</strong> (independent estimate),
           ~8,080 killed across all sides, 49,241 injured, 4,324+ killed in Lebanon, and
           the worst global energy crisis since 1973.
         </p>
