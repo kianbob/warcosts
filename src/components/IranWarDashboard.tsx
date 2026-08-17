@@ -31,21 +31,21 @@ export default function IranWarDashboard() {
   const hours = Math.floor((elapsedMs % 86_400_000) / 3_600_000)
   const minutes = Math.floor((elapsedMs % 3_600_000) / 60_000)
   const seconds = Math.floor((elapsedMs % 60_000) / 1000)
-  const totalCost = 113_000_000_000 // Updated: $113B+ through Jul 2026
+  const totalCost = 115_000_000_000 // Updated: $40B+ direct military, $100B+ total economic through Aug 2026
   const warOver = now.getTime() >= endTime
 
   const fmtCost = fmtCompact(totalCost)
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="157+ Days" sub="Feb 28, 2026 – ongoing (MUTUAL PAUSE — 4 nights without strikes)" />
-      <StatCard label="Total Cost" value="$113B+" sub="CSIS: $40B direct military ($34-42B range) | Independent: $113B" />
-      <StatCard label="Status" value="🕊️ DEAL TALKS" sub="Trump cancels 'biggest attack since WWII.' Oman channel active. Oil crashes to $81/bbl." />
-      <StatCard label="Total Killed" value="~8,080" sub="Wikipedia casualty tracker — 49,241 injured — across all sides" />
-      <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA (3,468 Foundation of Martyrs) — US/Israel est. 6,000+ — 27,000 injured" />
-      <StatCard label="US Troops" value="22 KIA" sub="624 wounded. 42 aircraft lost. THAAD depleted ~40%." />
-      <StatCard label="Oil Impact" value="$81/bbl" sub="Crashed 7.3% on deal talk announcement. Down from $87.93 Jul 31." />
-      <StatCard label="Lebanon" value="4,300+ killed" sub="12,221 wounded. Hezbollah REJECTED Jul 19 ceasefire. Houthis blockade Saudi Arabia." />
+      <StatCard label="War Duration" value="171 Days" sub="Feb 28, 2026 – ongoing. 60-day Islamabad deadline expires Aug 17." />
+      <StatCard label="Total Cost" value="$40B+ direct" sub="CSIS: $40B direct military ($34-42B range) | $100B+ total economic impact" />
+      <StatCard label="Status" value="⚠️ DEADLINE EXPIRES" sub="60-day Islamabad MOU deadline expires. IRGC rejects backchannel talks. Trump threatens Oman." />
+      <StatCard label="Total Killed" value="~8,200+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
+      <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA — US/Israel est. 6,000+ — 27,000 injured" />
+      <StatCard label="US Troops" value="17 KIA" sub="~700 wounded (AP, mostly TBI). 42 aircraft lost. THAAD depleted ~40%." />
+      <StatCard label="Oil Impact" value="~$89/bbl" sub="Brent crude. Hormuz traffic down 19.5%. $22.9B Tomahawk deal signed." />
+      <StatCard label="Lebanon" value="4,300+ killed" sub="12,221 wounded. Iran offers $30K bounty per US soldier. Task Force Falcon Strike." />
     </div>
   )
 }

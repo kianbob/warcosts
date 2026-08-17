@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: $113B+ in 157 days — Trump cancels biggest attack since WWII, deal talks via Oman. 22 US KIA, 624 wounded, ~8,080 total killed. Oil crashes to $81/bbl. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 171 — 60-day Islamabad deadline expires. IRGC rejects talks. $22.9B Tomahawk deal. 17 US KIA, ~700 wounded, ~8,200+ killed. Oil ~$89/bbl. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 157,
-  headline: '💣 Day 157 - DEAL TALKS - Trump cancels "biggest attack since WWII" - Oman channel active - 22 US KIA, 624 wounded - Oil crashes to $81/bbl - CSIS: $40B direct military - Mutual pause 4 nights without strikes - No deal signed - No congressional vote',
+  day: 171,
+  headline: '⚠️ Day 171 - 60-DAY ISLAMABAD DEADLINE EXPIRES - IRGC rejects backchannel talks - Trump threatens Oman - $22.9B Tomahawk deal - 17 US KIA, ~700 wounded - Task Force Falcon Strike - Hormuz traffic falls 19.5% - Oil ~$89/bbl - No deal - No congressional vote',
   stats: [
-    { value: '$113B+', label: 'Total War Cost (ind. est.)' },
-    { value: '22 KIA', label: 'US Deaths (624 wounded)' },
+    { value: '$40B+', label: 'Direct Military (CSIS)' },
+    { value: '17 KIA', label: 'US Deaths (~700 wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
     { value: '4,300+', label: 'Killed in Lebanon' },
-    { value: '~29/3days', label: 'Hormuz Transits (normally 100/day)' },
-    { value: '$81/bbl', label: 'Brent Crude (crashed 7.3% on deal talks)' },
+    { value: '-19.5%', label: 'Hormuz Traffic Drop' },
+    { value: '$89/bbl', label: 'Brent Crude' },
   ]
 }
 
