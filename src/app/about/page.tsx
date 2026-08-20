@@ -189,6 +189,7 @@ export default function AboutPage() {
           <li><strong>Government spending</strong> — Where every federal dollar goes</li>
           <li><strong>Immigration data</strong> — Facts and figures, not rhetoric</li>
           <li><strong>Criminal justice</strong> — The cost of mass incarceration</li>
+          <li><strong><a href="https://permitcore.io" className="text-red-800 hover:underline">Construction permits</a></strong> — Building permit intelligence across the U.S.</li>
         </ul>
 
         <h2 className="font-[family-name:var(--font-heading)]">Our Methodology</h2>

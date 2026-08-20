@@ -17,6 +17,7 @@ const sisterSites = [
   { name: 'The AI Lobby', url: 'https://www.theailobby.com' },
   { name: 'AutoPilotWatch', url: 'https://www.autopilotwatch.com' },  { name: 'ShelterScope', url: 'https://www.shelterscope.com' },
   { name: 'GiveScope', url: 'https://www.givescope.com' },
+  { name: 'PermitCore', url: 'https://permitcore.io' },
 ]
 
 export default function Footer() {
@@ -146,6 +147,7 @@ export default function Footer() {
             <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">GiveScope — Search 1.9M nonprofits & their finances</a>
             <a href="https://www.howisamerica.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">How Is America — Census data on AI, food, housing & trust</a>
             <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">ShelterScope — Housing & shelter data across the U.S.</a>
+            <a href="https://permitcore.io" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">PermitCore — Construction permit intelligence</a>
           </div>
         </div>
       </div>
