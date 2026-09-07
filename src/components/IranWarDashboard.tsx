@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 
 const WAR_START = new Date('2026-02-28T05:15:00Z') // 9:15am Tehran = 5:15 UTC
-const WAR_END = new Date('2026-06-14T23:59:00Z') // Peace deal reached June 14, 2026
+const WAR_END = new Date('2027-02-28T23:59:00Z') // War ongoing — no end date
 const COST_PER_SECOND = 21759 // ~$1.88B/day (Pentagon: $11.3B in 6 days)
 
 function fmtCompact(n: number): string {
@@ -38,14 +38,14 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="171 Days" sub="Feb 28, 2026 – ongoing. 60-day Islamabad deadline expires Aug 17." />
-      <StatCard label="Total Cost" value="$40B+ direct" sub="CSIS: $40B direct military ($34-42B range) | $100B+ total economic impact" />
-      <StatCard label="Status" value="⚠️ DEADLINE EXPIRES" sub="60-day Islamabad MOU deadline expires. IRGC rejects backchannel talks. Trump threatens Oman." />
-      <StatCard label="Total Killed" value="~8,200+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
-      <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA — US/Israel est. 6,000+ — 27,000 injured" />
-      <StatCard label="US Troops" value="17 KIA" sub="~700 wounded (AP, mostly TBI). 42 aircraft lost. THAAD depleted ~40%." />
-      <StatCard label="Oil Impact" value="~$89/bbl" sub="Brent crude. Hormuz traffic down 19.5%. $22.9B Tomahawk deal signed." />
-      <StatCard label="Lebanon" value="4,300+ killed" sub="12,221 wounded. Iran offers $30K bounty per US soldier. Task Force Falcon Strike." />
+      <StatCard label="War Duration" value="192 Days" sub="Feb 28, 2026 – ongoing. Renewed hostilities Sep 1. Kuhestak wedding strike." />
+      <StatCard label="Total Cost" value="$115B+ total" sub="$37.5B direct military (Hegseth) | $100B+ consumer energy cost (Axios/Brown)" />
+      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="Renewed hostilities Sep 1. US strikes 3 tankers. Iran fires at carrier. Rezaei declares restricted zone." />
+      <StatCard label="Total Killed" value="~9,000+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
+      <StatCard label="Iranian Deaths" value="3,636+" sub="HRANA — JINSA: 3,720+ — 27,000-33,000+ wounded" />
+      <StatCard label="US Troops" value="18 KIA" sub="790+ wounded (Stars and Stripes Sep 5). 42 aircraft lost. THAAD depleted ~40%." />
+      <StatCard label="Oil Impact" value="$97/bbl" sub="Brent crude. Diesel $5.85/gal record. Hormuz: ~6-10 ships/day vs 85 normal." />
+      <StatCard label="Lebanon" value="2,659+ killed" sub="Israel strikes Kfar Rumman — 11 killed incl children & medics. Ali Taher ridge seized." />
     </div>
   )
 }

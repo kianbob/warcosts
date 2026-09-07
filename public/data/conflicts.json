@@ -6281,20 +6281,21 @@
       "Cyprus",
       "Azerbaijan"
     ],
-    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 — collapsed early July. By Day 171 (Aug 17): 60-DAY ISLAMABAD MEMORANDUM DEADLINE EXPIRES. Pentagon announces Task Force Falcon Strike — first multinational attack drone force. Trump threatens to bomb Oman. Iran offers $30K bounty per US soldier. Pentagon signs $22.9B Tomahawk deal. IRGC rejects backchannel talks, warns of 'strategic surprises.' Hormuz traffic falls 19.5%. Oil: Brent ~$89/bbl. 17 US KIA (CBS), ~700 wounded. ~8,200+ total killed. $40B+ direct military, $100B+ total economic impact. 171 days, no congressional authorization.",
+    "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 — collapsed early July. By Day 192 (Sep 7): Renewed hostilities after Sep 1 escalation — Kuhestak wedding strike kills 74, US strikes Larak Island. Sep 5: 3 tankers struck in Hormuz, Iran fires missiles at USS Abraham Lincoln. Sep 7: Israel strikes Kfar Rumman, Lebanon. Hormuz effectively closed (~6-10 ships/day vs 85 normal). 92 vessels redirected by CENTCOM. Diesel hits $5.85/gal record. Brent $97/bbl. 18 US KIA, ~790 wounded. ~9,000+ total killed. $115B+ total cost. 192 days, no congressional authorization.",
     "costNominal": 115000000000,
+    "costDirectMilitary": 35700000000,
     "costInflationAdjusted": 115000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 17,
-      "wounded": 700,
-      "battleDeaths": 17,
+      "deaths": 18,
+      "wounded": 790,
+      "battleDeaths": 18,
       "missing": 0,
-      "note": "17 US KIA (CBS Aug 16). ~700 wounded (AP Aug 8-9, mostly TBI). Pentagon previously reported 22 KIA but CBS confirms 17 as of Aug 16."
+      "note": "18 US KIA (Sep 7). ~790 wounded. Renewed hostilities since Sep 1 escalation."
     },
     "civilianDeaths": 3636,
     "troopsDeployed": 50000,
-    "outcome": "MOU Collapsed — 60-Day Deadline Expires Aug 17",
+    "outcome": "Renewed Hostilities — Sep 1 Escalation",
     "outcomeDetail": "14-point MOU signed Jun 19, 2026. Collapsed early July — ceasefire MOU shattered Jul 5-7 when Iran attacked 3 ships during diplomatic pause. Renewed hostilities since Jul 8. CENTCOM launched 80+ retaliatory strikes Jul 5-7, 90 targets Jul 9, 140 targets Jul 12-13. 9 consecutive nights of US strikes Jul 11-19 expanding to Tabriz. Darkhovin nuclear plant hit Jul 19. 7 US troops killed Jul 17-24 (4 in Jordan, 2 in Iraq, 1 ordnance disposal). Pentagon restored 4 deaths Jul 26-27, disclosed 140+ additional wounded. HRANA cumulative: 3,636+ killed. Houthis imposed maritime blockade on Saudi Arabia Jul 20, attacked Saudi oil tankers. Pentagon cost: $37.5B (Hegseth Jul 21), independent estimate $113B+. Jul 25-27: Mutual pause — first nights without strikes since Jul 11. Jul 28: US-Saudi joint strikes on PMF across Iraq — 20+ killed. Iran fires at 3 tankers in Hormuz. Jul 29-31: Iranian missile/drone launches drop to zero. Aug 1: Trump CANCELS planned attack — 'biggest since World War II.' Treasury General License X1 revokes Iranian oil authorization. Negotiations announced for Aug 3 via Oman. Aug 2-3: Oil CRASHES 7.3% to $81.55/bbl. 4 consecutive nights without strikes from either side. Iran denies talks — FM Araghchi: Oman channel on Hormuz 'advancing.' Aug 6: Pentagon announces Task Force Falcon Strike — first multinational attack drone force (CENTCOM). Aug 8-9: Pentagon ties new casualty category to end of 'Operation Epic Fury.' Trump says US 'only semi-negotiating.' Pentagon urges faster weapons production — Deputy Sec Feinberg gives contractors 21 days. AP: nearly 700 US service members wounded (mostly TBI). Aug 11: US helicopter fires 2 Hellfire missiles at Panama-flagged vessel Vela Nova trying to bypass blockade (CENTCOM). 6 killed in Houthi strike on ship in Red Sea. Mojtaba Khamenei appoints 6 new military/security leaders. Trump demands compensation from Iran. Aug 13: US says can maintain blockade 'indefinitely.' Israel strikes Lebanon — 11 killed including 3 children. Aug 16: CENTCOM chief visits USS Abraham Lincoln (240+ days at sea). Iran offers $30K bounty per US soldier. Rep Bacon says Trump set 'false expectations.' US KIA at 17 (CBS). USS George Washington heading to relieve Lincoln. Aug 17 (Day 171): 60-DAY ISLAMABAD MEMORANDUM DEADLINE EXPIRES. Trump threatens to bomb Oman. Iran-Oman Hormuz route agreement. IRGC rejects backchannel talks. IRGC warns 'strategic surprises.' Pentagon signs $22.9B Tomahawk deal. Hormuz traffic falls 19.5%. Oil: Brent ~$89/bbl. 17 US KIA, ~700 wounded. ~8,200+ total killed. $40B+ direct military, $100B+ total economic impact. 171 days, no congressional vote.",
     "congressionalAuth": false,
     "authDetail": "No congressional authorization sought. Trump cited executive authority. Bipartisan concerns about escalation.",
@@ -6818,6 +6819,18 @@
       {
         "year": 2026,
         "event": "Aug 16-17 (Days 170-171): CENTCOM chief visits USS Abraham Lincoln (240+ days at sea). Iran offers $30K bounty per US soldier. Rep Bacon: Trump set 'false expectations.' US KIA at 17 (CBS). 60-DAY ISLAMABAD MEMORANDUM DEADLINE EXPIRES. Trump threatens to bomb Oman. IRGC rejects backchannel talks, warns 'strategic surprises.' Pentagon signs $22.9B Tomahawk deal. Hormuz traffic falls 19.5%. Oil: Brent ~$89/bbl. 17 US KIA, ~700 wounded. ~8,200+ total killed."
+      },
+      {
+        "year": 2026,
+        "event": "Sep 1 (Day 186): KUHESTAK WEDDING STRIKE — US/Israeli strike hits wedding celebration in Kuhestak, killing 74 civilians. US strikes Larak Island — first direct US-Iran military exchange in a month. Iran retaliates with missiles on Jordan bases. Renewed hostilities shatter fragile pause."
+      },
+      {
+        "year": 2026,
+        "event": "Sep 5 (Day 190): 3 tankers struck in Strait of Hormuz. Iran fires missiles at USS Abraham Lincoln carrier group. Hormuz effectively closed — only ~6-10 ships/day transiting vs 85 normal. Oil surges."
+      },
+      {
+        "year": 2026,
+        "event": "Sep 7 (Day 192): Israel strikes Kfar Rumman, Lebanon — escalation continues. Rezaei announces restricted maritime zone (Sep 6). 92 vessels redirected by CENTCOM. Diesel hits $5.85/gal record (Sep 4). Brent $97/bbl. 18 US KIA, ~790 wounded. ~9,000+ total killed. $115B+ total cost."
       }
     ],
     "libertarianNote": "Another undeclared war launched by executive decree, proving the Constitution is dead when it comes to war powers. No congressional authorization, no public debate, no defined objectives or exit strategy. Trump launched the largest military operation since Iraq 2003 based solely on his personal decision. The Pentagon told Congress the first 6 days alone cost $11.3 billion - nearly $1.9 billion per day, $21,800 per second - all borrowed money added to a $38 trillion national debt. By Day 14: 1,444 Iranians dead including 200 women and 168 children, 18,551 injured. 13+ US troops dead. Iran's new Supreme Leader vows continued attacks. 15,000+ targets struck - the mission has crept from 'nuclear facilities' to oil refineries, drone factories, underground sites in Shiraz, and Basij offices in Tehran residential neighborhoods. 250+ American organizations are now demanding Congress halt funding. The Founders required Congress to declare war precisely to prevent one person from plunging the nation into conflict on a whim. Every escalation flows from the abandonment of constitutional checks on presidential war-making.",
@@ -6829,11 +6842,11 @@
     "years": "2026-2026",
     "computed": {
       "durationYears": 0,
-      "durationDays": 157,
+      "durationDays": 192,
       "costPerDay": 790209790,
       "costPerUSdeath": 6647058824,
       "costPerCivilianDeath": 66373310,
-      "totalDeaths": 8200,
+      "totalDeaths": 9000,
       "civilianToMilitaryRatio": 94.5,
       "deathsPerYear": 0,
       "civilianDeathsPerYear": 0

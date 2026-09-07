@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 157, $113B+, Deal Talks, Oil Crashes to $81 | WarCosts',
+  title: 'Iran War 2026 — Day 192, $115B+, Renewed Hostilities, Oil $97 | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 157+ days of conflict — Trump cancels biggest attack since WWII, deal talks via Oman. 22 US KIA, 624 wounded. CSIS: $40B direct military. Oil crashes to $81/bbl. ~8,080 total killed across all sides.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 192+ days of conflict — Sep 1 escalation shatters pause, Kuhestak wedding strike, Larak Island. 18 US KIA, 790+ wounded. $115B+ total cost. Brent $97/bbl. ~9,000+ total killed across all sides.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 157, $113B+, Deal Talks, Oil $81 | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 157+ days. Trump cancels biggest attack since WWII. Deal talks via Oman. 22 US KIA, 624 wounded. CSIS: $40B direct military. Oil crashes to $81/bbl.',
+    title: 'Iran War 2026 — Day 192, $115B+, Renewed Hostilities, Oil $97 | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 192+ days. Sep 1 escalation — Kuhestak wedding strike, renewed hostilities. 18 US KIA, 790+ wounded. $115B+ total cost. Brent $97/bbl.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -171,19 +171,19 @@ export default function IranWar2026Page() {
     <div className="bg-stone-900 min-h-screen text-stone-300 -mt-4 -mx-4 px-4 pt-4">
       <FaqJsonLd faqs={[
         { q: 'When did the Iran War start in 2026?', a: 'The US-Iran war began in February 2026 with Operation Epic Fury. It escalated quickly with strikes on Iranian nuclear facilities, military infrastructure, and energy targets.' },
-        { q: 'How much does the Iran War cost per day?', a: 'CSIS estimates ~$40B in direct military costs over 150 days (~$267M/day). Independent estimates put the total at $113B (~$753M/day including economic costs). Pentagon supplemental request: $80B. Weapons stocks depleted — rebuilding takes 3-8 years.' },
+        { q: 'How much does the Iran War cost per day?', a: 'CSIS estimates ~$40B in direct military costs. Independent estimates put the total at $115B+ (~$599M/day over 192 days including economic costs). Pentagon supplemental request: $80B. Weapons stocks depleted — rebuilding takes 3-8 years.' },
         { q: 'Is the Strait of Hormuz closed due to the Iran War?', a: 'The Strait of Hormuz has been significantly disrupted by the conflict, affecting global oil shipments. Approximately 20% of the world\'s oil passes through this narrow waterway, and disruptions have pushed oil prices above $100 per barrel.' },
         { q: 'Did Congress authorize the Iran War?', a: 'No. The 2026 Iran War has no formal congressional authorization. The administration has relied on executive authority rather than seeking a declaration of war or new Authorization for Use of Military Force.' },
-        { q: 'How many casualties in the Iran War 2026?', a: 'As of Day 150 (Jul 27, 2026): 20+ US military killed, ~700+ wounded (Pentagon restored 4 deaths and disclosed 140+ previously hidden wounded). 42 aircraft lost. Iran: 3,636+ killed (HRANA), 3,468 (Foundation of Martyrs), US/Israel estimate 6,000+. 27,000 injured. Lebanon: 4,324+ killed, 12,221 wounded. Total across all sides: ~8,080 killed, 49,241 injured.' },
-        { q: 'How did the Iran War end?', a: 'It has not ended. A 14-point MOU was signed June 19, 2026 but collapsed by July 8 with renewed hostilities. As of Jul 27 (Day 150), a mutual pause is in effect — US and Iran have halted strikes for 2+ consecutive days. Pentagon restored 4 deaths to count and disclosed 140+ previously hidden wounded. CSIS estimates $40B direct military cost. Oil crashed from $100+ to $89/bbl on pause hopes. No deal signed.' },
+        { q: 'How many casualties in the Iran War 2026?', a: 'As of Day 192 (Sep 7, 2026): 18 US military killed, ~790+ wounded. Iran: 3,636+ killed (HRANA), US/Israel estimate 6,000+. 27,000+ injured. Lebanon: 4,324+ killed, 12,221 wounded. Total across all sides: ~9,000+ killed.' },
+        { q: 'How did the Iran War end?', a: 'It has not ended. A 14-point MOU was signed June 19, 2026 but collapsed by July 8 with renewed hostilities. Sep 1 escalation shattered any remaining pause — Kuhestak wedding strike, Larak Island exchange. By Day 192: 18 US KIA, 790+ wounded. Brent $97/bbl. $115B+ total cost. ~9,000+ killed. No deal signed.' },
       ]} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-5xl mx-auto py-8">
         <Breadcrumbs items={[{ label: 'Conflicts', href: '/conflicts' }, { label: 'Iran War 2026' }]} />
 
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold animate-pulse">⚠️ DEAL TALKS — TRUMP CANCELS BIGGEST ATTACK — OIL CRASHES TO $81 — DAY 157</span>
-          <span className="text-stone-500 text-sm">Last updated: August 3, 2026</span>
+          <span className="text-xs px-2 py-1 rounded-full bg-red-700 text-white font-semibold animate-pulse">⚠️ RENEWED HOSTILITIES — SEP 1 ESCALATION — OIL $97 — DAY 192</span>
+          <span className="text-stone-500 text-sm">Last updated: September 7, 2026</span>
         </div>
 
         <h1 className="font-[family-name:var(--font-heading)] text-4xl md:text-5xl font-bold text-white mb-4">
@@ -193,11 +193,11 @@ export default function IranWar2026Page() {
         <p className="text-lg text-stone-300 max-w-3xl mb-2">
           On February 28, 2026, the United States launched <strong className="text-red-400">Operation Epic Fury</strong> —
           a massive air campaign against Iran conducted without congressional authorization. A peace deal (MOU)
-          was signed June 19, 2026 — but collapsed by July 8 with renewed hostilities. By Day 157: deal talks
-          are underway via Oman — Trump cancelled the "biggest attack since WWII." 4 nights without strikes.
-          22 US KIA, 624 wounded. CSIS estimates
-          $40B direct military cost. Oil crashed to $81/bbl. The cost: <strong className="text-red-400">$113 billion+</strong> (independent estimate),
-          ~8,080 killed across all sides, 49,241 injured, 4,324+ killed in Lebanon, and
+          was signed June 19, 2026 — but collapsed by July 8 with renewed hostilities. By Day 192: renewed hostilities
+          after Sep 1 escalation — Kuhestak wedding strike kills 74, US strikes Larak Island, 3 tankers hit Sep 5.
+          18 US KIA, 790+ wounded. Hormuz effectively closed (~6-10 ships/day).
+          Brent $97/bbl. Diesel $5.85/gal record. The cost: <strong className="text-red-400">$115 billion+</strong> (independent estimate),
+          ~9,000+ killed across all sides, 4,324+ killed in Lebanon, and
           the worst global energy crisis since 1973.
         </p>
 
@@ -242,7 +242,7 @@ export default function IranWar2026Page() {
             A peace deal (14-point MOU) was signed June 19, 2026, mediated by Pakistan. But it collapsed
             within weeks as both sides resumed strikes over Hormuz sovereignty. By July 20: 9 consecutive
             nights of US strikes expanding to new cities, Darkhovin nuclear plant hit, 3 more Americans
-            killed, oil at $90/bbl, and Israel-Hezbollah ceasefire agreed. Total cost: <strong className="text-white">$113 billion+</strong>.
+            killed, oil at $97/bbl, and renewed hostilities since Sep 1. Total cost: <strong className="text-white">$115 billion+</strong>.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 171 — 60-day Islamabad deadline expires. IRGC rejects talks. $22.9B Tomahawk deal. 17 US KIA, ~700 wounded, ~8,200+ killed. Oil ~$89/bbl. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 192 — Renewed hostilities. Kuhestak wedding strike. Red Crescent ICC claim. 18 US KIA, 790+ wounded, ~9,000+ killed. Oil $97/bbl. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 171,
-  headline: '⚠️ Day 171 - 60-DAY ISLAMABAD DEADLINE EXPIRES - IRGC rejects backchannel talks - Trump threatens Oman - $22.9B Tomahawk deal - 17 US KIA, ~700 wounded - Task Force Falcon Strike - Hormuz traffic falls 19.5% - Oil ~$89/bbl - No deal - No congressional vote',
+  day: 192,
+  headline: '⚠️ Day 192 - RENEWED HOSTILITIES - Kuhestak wedding strike kills 4 incl 4-year-old - Red Crescent ICC claim - US strikes 3 tankers - Iran fires at carrier - Diesel $5.85 record - Brent $97/bbl - 18 US KIA, 790+ wounded - ~9,000+ killed - No congressional vote',
   stats: [
-    { value: '$40B+', label: 'Direct Military (CSIS)' },
-    { value: '17 KIA', label: 'US Deaths (~700 wounded)' },
+    { value: '$115B+', label: 'Total Cost (independent)' },
+    { value: '18 KIA', label: 'US Deaths (790+ wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '4,300+', label: 'Killed in Lebanon' },
-    { value: '-19.5%', label: 'Hormuz Traffic Drop' },
-    { value: '$89/bbl', label: 'Brent Crude' },
+    { value: '2,659+', label: 'Killed in Lebanon' },
+    { value: '~6-10/day', label: 'Hormuz Ships (vs 85)' },
+    { value: '$97/bbl', label: 'Brent Crude' },
   ]
 }
 
@@ -108,7 +108,10 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
-                { time: 'Day 150', text: 'MUTUAL PAUSE — US and Iran halt strikes for 2+ consecutive days. Iran: "attack for attack — if attacks stop, Iran will also halt." Pentagon RESTORES 4 deaths to count, discloses 140+ additional wounded — US toll now 20+ KIA, ~700+ wounded. CSIS: $40B direct military cost. Saudi strikes Houthis in Yemen; Houthis retaliate. Ukraine strikes Iranian vessels in Caspian Sea. Oil crashes from $100+ to $89/bbl. Hormuz: no attacks in 72 hours. Netanyahu plans US visit. Oman mediating. 150 days, no congressional vote, no deal signed.', link: '/analysis/iran-2026' },
+                { time: 'Day 192', text: 'ISRAEL STRIKES KFAR RUMMAN — 11 killed including 2 children and 2 medics (Reuters). Brent $97/bbl. Rezaei declares restricted maritime zone. Iran parliament speaker threatens "more painful" response. Diesel $5.85/gal record. 18 US KIA, 790+ wounded. ~9,000+ killed. $115B+ total cost. Hormuz: ~6-10 ships/day vs 85 normal. 192 days, no congressional vote.', link: '/analysis/iran-2026' },
+              { time: 'Day 190-191', text: 'US STRIKES 3 IRANIAN TANKERS — Iran fires ballistic missiles at US carrier and destroyer — both evade (CENTCOM). Hezbollah drones hit Israeli security zone near Ali Taher ridge. Israel responds with strikes. Diesel hits all-time record $5.85/gal. 18 US KIA (Stars and Stripes Sep 5), 790+ wounded.', link: '/analysis/iran-2026' },
+              { time: 'Day 187-188', text: 'HOSTILITIES RESUME — US strikes Larak Island. Kuhestak wedding strike kills 4 including 4-year-old boy, wounds 67. Red Crescent files first-ever ICC claim against US military. Iran retaliates on Jordan/Kuwait/Bahrain bases (AP). Iran fires on Gulf neighbors for first time since August pause.', link: '/analysis/iran-2026' },
+              { time: 'Day 150', text: 'MUTUAL PAUSE — US and Iran halt strikes for 2+ consecutive days. Iran: "attack for attack — if attacks stop, Iran will also halt." Pentagon RESTORES 4 deaths to count, discloses 140+ additional wounded — US toll now 20+ KIA, ~700+ wounded. CSIS: $40B direct military cost. Saudi strikes Houthis in Yemen; Houthis retaliate. Ukraine strikes Iranian vessels in Caspian Sea. Oil crashes from $100+ to $89/bbl. Hormuz: no attacks in 72 hours. Netanyahu plans US visit. Oman mediating. 150 days, no congressional vote, no deal signed.', link: '/analysis/iran-2026' },
               { time: 'Day 148', text: 'CEASEFIRE MOU COLLAPSED JUL 8 — renewed hostilities since. 20+ US KIA (Pentagon removed 4 from count), 553+ wounded. 4 killed Jul 17-18 (3 Jordan, 1 Iraq). HOUTHIS BLOCKADE SAUDI ARABIA Jul 20 — attacking Saudi oil tankers. Oil back above $100/bbl (Jul 23). Hezbollah REJECTS Jul 19 ceasefire. Pentagon: $37.5B direct military (Hegseth Jul 21). Independent estimate $113B. THAAD interceptors depleted ~40%. 1,000+ Tomahawks used. 42 aircraft lost. Iran: 3,636+ killed (HRANA), 27,000 injured. Total: ~8,080 killed, 49,241 injured. Lebanon: 4,324+ killed, 12,221 wounded. 148 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 143', text: '9 CONSECUTIVE NIGHTS OF US STRIKES (Jul 11-19) — expanding to TABRIZ for first time. Darkhovin nuclear plant hit. 3 US service members killed Jul 17-18 (2 in Jordan, 1 in Iraq). US toll: 17 KIA, 1 missing. Iran: 50+ killed, 500+ wounded in July wave. HRANA cumulative: 3,636 killed. Oil hits $90/bbl. Israel-Hezbollah ceasefire agreed Jul 19. 300+ Iranian sites struck since Jul 7. Hormuz: ~10 transits/day vs 90-100 pre-war. Trump sends new War Powers notification to "reset the clock."', link: '/analysis/iran-2026' },
                 { time: 'Day 136', text: 'CEASEFIRE COLLAPSES - US hits 140 Iranian targets in largest strike since MOU. Iran retaliates on 5 countries. CNN: weapon stocks depleted, rebuilding takes 3-8 years. Trump declares truce "over." Iran closes Hormuz again. Updated: 18 US KIA, 553 wounded. 8,080+ killed across all parties. Cost: $103-113B. Oil $79/bbl. 4 rounds of strikes in 1 week. MOU is 26 days old and meaningless.', link: '/analysis/iran-2026' },
