@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 192 — Renewed hostilities. Kuhestak wedding strike. Red Crescent ICC claim. 18 US KIA, 790+ wounded, ~9,000+ killed. Oil $97/bbl. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 199 — US destroys 5 tankers, Saudi pipeline shutdown, 39% global trade disrupted. 18 US KIA, 820+ wounded, ~9,000+ killed. Oil $108/bbl. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 192,
-  headline: '⚠️ Day 192 - RENEWED HOSTILITIES - Kuhestak wedding strike kills 4 incl 4-year-old - Red Crescent ICC claim - US strikes 3 tankers - Iran fires at carrier - Diesel $5.85 record - Brent $97/bbl - 18 US KIA, 790+ wounded - ~9,000+ killed - No congressional vote',
+  day: 199,
+  headline: '⚠️ Day 199 - US destroys 5 tankers - Saudi pipeline shut down - 39% global trade disrupted - Trump: war ends after midterms - Iran damages US jets - Diesel $6/gal - Brent $108/bbl - 18 US KIA, 820+ wounded - ~9,000+ killed - No congressional vote',
   stats: [
-    { value: '$115B+', label: 'Total Cost (independent)' },
-    { value: '18 KIA', label: 'US Deaths (790+ wounded)' },
+    { value: '$120B+', label: 'Total Cost (independent)' },
+    { value: '18 KIA', label: 'US Deaths (820+ wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '2,659+', label: 'Killed in Lebanon' },
+    { value: '4,300+', label: 'Killed in Lebanon' },
     { value: '~6-10/day', label: 'Hormuz Ships (vs 85)' },
-    { value: '$97/bbl', label: 'Brent Crude' },
+    { value: '$108/bbl', label: 'Brent Crude' },
   ]
 }
 

@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Hormuz effectively closed — ~6-10 ships/day vs 85 normal. 92 vessels redirected by CENTCOM (Sep 6). Rezaei announces restricted maritime zone (Sep 6). Diesel $5.85/gal record (Sep 4). Brent $97/bbl. 3 tankers struck Sep 5. Iran fires at USS Abraham Lincoln. Day 192.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Hormuz effectively closed — ~6-10 ships/day vs 85 normal. Saudi East-West pipeline shut Sep 11 — 39% of global trade disrupted. Iran declares maritime exclusion zone. Diesel $6/gal record. Brent $108/bbl. US destroys 5 tankers Sep 8. Day 199.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -111,7 +111,7 @@ const alternativeRoutes = [
 
 const consumerImpact = [
   { item: 'Gasoline', current: '$3.20/gallon avg', projected: '$4.50–6.00/gallon', timeline: 'Within 2-4 weeks', mechanism: 'Direct oil price passthrough + panic buying + refinery margin expansion' },
-  { item: 'Diesel/Trucking', current: '$5.85/gallon record (Sep 4)', projected: '$6.00–7.50/gallon', timeline: 'Within 1-2 weeks', mechanism: 'Diesel tracks crude more directly. Every product shipped by truck gets more expensive.' },
+  { item: 'Diesel/Trucking', current: '$5.98/gallon record (Sep 10)', projected: '$6.50–7.50/gallon', timeline: 'Within 1-2 weeks', mechanism: 'Diesel tracks crude more directly. Every product shipped by truck gets more expensive.' },
   { item: 'Food', current: 'CPI food +2.1% YoY', projected: '+15-25% within 60 days', timeline: '30-90 days', mechanism: 'Diesel-dependent supply chains. Fertilizer prices spike (natural gas feedstock). Farm equipment fuel costs.' },
   { item: 'Electricity', current: 'LNG spot ~$3.50/MMBtu', projected: '$8-15/MMBtu', timeline: 'Immediate', mechanism: '20% of global LNG transits Hormuz. Power plants burning gas face immediate price shocks.' },
   { item: 'Flights', current: 'Jet fuel $2.60/gallon', projected: '$4.00-5.50/gallon', timeline: 'Within weeks', mechanism: 'Airlines will pass costs through. Expect surcharges, route cancellations, and fare increases of 20-40%.' },
@@ -270,7 +270,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Sep 7, 2026 — Day 192):</strong> Renewed hostilities since Sep 1 escalation. Kuhestak wedding strike kills 74. US strikes Larak Island. Sep 5: 3 tankers struck in Hormuz, Iran fires missiles at USS Abraham Lincoln. Hormuz effectively closed — ~6-10 ships/day vs 85 normal. 92 vessels redirected by CENTCOM (Sep 6). Rezaei announces restricted maritime zone (Sep 6). Diesel hits $5.85/gal record (Sep 4). Brent $97/bbl. 18 US KIA, 790+ wounded. $115B+ total cost.
+          <strong>Current status (as of Sep 14, 2026 — Day 199):</strong> US destroys 5 Iranian tankers Sep 8 (CENTCOM). Saudi East-West pipeline shut down Sep 11 after drone attacks from Iraq (CNBC/CNN) — combined with Hormuz closure and Bab el-Mandeb blockade, 39% of global trade and 31% of global shipments now disrupted. Iran declares maritime exclusion zone outside Hormuz (Sep 9). Iran damages US jets at Jordanian base (Sep 11). Trump says war ends "after midterms" (Politico). Hormuz effectively closed — ~6-10 ships/day vs 85 normal. Diesel approaching $6/gal record (AAA: $5.98 Sep 10). Brent $108/bbl. 18 US KIA, 820+ wounded. $120B+ total cost.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and deal talk hopes, oil has crashed but the strait remains contested.
         </p>
       </div>
