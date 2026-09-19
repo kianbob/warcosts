@@ -18,6 +18,7 @@ const sisterSites = [
   { name: 'AutoPilotWatch', url: 'https://www.autopilotwatch.com' },  { name: 'ShelterScope', url: 'https://www.shelterscope.com' },
   { name: 'GiveScope', url: 'https://www.givescope.com' },
   { name: 'PermitCore', url: 'https://permitcore.io' },
+  { name: 'American Factbook', url: 'https://americanfactbook.org' },
 ]
 
 export default function Footer() {
