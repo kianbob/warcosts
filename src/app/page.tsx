@@ -226,7 +226,8 @@ export default function HomePage() {
           <p className="text-stone-500 text-sm max-w-2xl mx-auto mb-2">
             WarCosts is a free, data-driven transparency platform. No ads. No paywall. No defense industry
             sponsors. Just the numbers - sourced from Brown University, CRS, SIPRI, and the Pentagon&apos;s
-            own reports.
+            own reports. For a detailed breakdown of Department of Defense spending, see{' '}
+            <a href="https://americanfactbook.org/spending/agency/department-of-defense" className="text-stone-300 underline hover:text-white">American Factbook&apos;s DOD spending data</a>.
           </p>
           <p className="text-stone-600 text-xs mb-12">Last updated: March 12, 2026</p>
 
