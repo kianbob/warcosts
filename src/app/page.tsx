@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 206 — War cost $43.6B direct military, Trump dismisses gas prices, Iran strikes tankers in Hormuz, Israel enters Syria. 18 US KIA, 830+ wounded, ~9,044+ killed. Oil $103/bbl. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 211 — Low-intensity fighting continues after ceasefire collapse. $43.6B Pentagon cost / $135B+ independent. 19-23 US KIA, 850+ wounded, ~9,045+ killed. Oil $92/bbl. Gas $4.47/gal. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 206,
-  headline: '⚠️ Day 206 - War cost $43.6B - Trump: gas prices inexpensive - Iran strikes tankers in Hormuz - Israel enters Syria - Gas $4.48/gal - Brent $103/bbl - 18 US KIA, 830+ wounded - ~9,044+ killed - No congressional vote',
+  day: 211,
+  headline: '⚠️ Day 211 - Low-intensity fighting continues - Ceasefire collapsed Jul 8 - $43.6B Pentagon cost - $135B+ independent est. - Gas $4.47/gal - WTI $92/bbl - 19-23 US KIA, 850+ wounded - ~9,045+ killed - No congressional vote',
   stats: [
-    { value: '$130B+', label: 'Total Cost (independent)' },
-    { value: '18 KIA', label: 'US Deaths (830+ wounded)' },
+    { value: '$135B+', label: 'Total Cost (independent)' },
+    { value: '19-23 KIA', label: 'US Deaths (850+ wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
     { value: '4,300+', label: 'Killed in Lebanon' },
     { value: '~6-10/day', label: 'Hormuz Ships (vs 85)' },
-    { value: '$108/bbl', label: 'Brent Crude' },
+    { value: '$92/bbl', label: 'WTI Crude' },
   ]
 }
 
@@ -76,7 +76,7 @@ export default function HomePage() {
         <section className="bg-amber-800 text-white py-4">
           <div className="max-w-7xl mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚠️ ACTIVE</span>
               <span className="font-[family-name:var(--font-heading)] font-bold">Iran 2026 - Day {IRAN_BREAKING.day}: {IRAN_BREAKING.headline}</span>
             </div>
             <div className="flex gap-4 text-sm">
@@ -103,11 +103,12 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚓ BLOCKADE</span>
+              <span className="text-xs px-2 py-1 rounded-full bg-red-700 font-semibold">⚠️ ACTIVE</span>
               <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold">Latest Developments - Day {IRAN_BREAKING.day}</h2>
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 211', text: 'LOW-INTENSITY FIGHTING CONTINUES — Pentagon discloses 19th US KIA (Sep 22). WaPo/Reuters: actual toll 23+. 850+ wounded. CENTCOM: war cost $43.6B through early Sep. Independent est. $135B+. Oil falls to $92/bbl. Gas $4.47/gal. CBO: ~$3B/month ongoing. 9,045+ killed across all parties. 211 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 192', text: 'ISRAEL STRIKES KFAR RUMMAN — 11 killed including 2 children and 2 medics (Reuters). Brent $97/bbl. Rezaei declares restricted maritime zone. Iran parliament speaker threatens "more painful" response. Diesel $5.85/gal record. 18 US KIA, 790+ wounded. ~9,000+ killed. $115B+ total cost. Hormuz: ~6-10 ships/day vs 85 normal. 192 days, no congressional vote.', link: '/analysis/iran-2026' },
               { time: 'Day 190-191', text: 'US STRIKES 3 IRANIAN TANKERS — Iran fires ballistic missiles at US carrier and destroyer — both evade (CENTCOM). Hezbollah drones hit Israeli security zone near Ali Taher ridge. Israel responds with strikes. Diesel hits all-time record $5.85/gal. 18 US KIA (Stars and Stripes Sep 5), 790+ wounded.', link: '/analysis/iran-2026' },
               { time: 'Day 187-188', text: 'HOSTILITIES RESUME — US strikes Larak Island. Kuhestak wedding strike kills 4 including 4-year-old boy, wounds 67. Red Crescent files first-ever ICC claim against US military. Iran retaliates on Jordan/Kuwait/Bahrain bases (AP). Iran fires on Gulf neighbors for first time since August pause.', link: '/analysis/iran-2026' },
@@ -186,11 +187,11 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: 'Houthis Blockade Saudi Arabia — Jul 20', href: '/analysis/hormuz-crisis', tag: 'BREAKING', tagColor: 'bg-red-600' },
-              { title: 'Oil Back Above $100/bbl (Jul 23)', href: '/analysis/hormuz-crisis', tag: 'ENERGY', tagColor: 'bg-blue-700' },
-              { title: 'MUTUAL PAUSE — US & Iran Halt Strikes', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
-              { title: 'Hezbollah Rejects Jul 19 Ceasefire', href: '/analysis/iran-2026', tag: 'ESCALATION', tagColor: 'bg-orange-600' },
-              { title: 'Pentagon Hid 140+ Wounded From Public', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Another US Soldier Dead — Pentagon Toll at 19 (Sep 22)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-red-600' },
+              { title: 'Pentagon: War Cost $43.6B (Sep 18)', href: '/analysis/iran-cost-per-second', tag: 'COST', tagColor: 'bg-blue-700' },
+              { title: 'Low-Intensity Fighting Continues Post-Ceasefire', href: '/analysis/iran-2026', tag: 'ONGOING', tagColor: 'bg-orange-600' },
+              { title: '850+ US Wounded — Actual KIA 23+ (WaPo/Reuters)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
+              { title: 'Oil Falls to $92/bbl as Fighting Ebbs', href: '/analysis/hormuz-crisis', tag: 'ENERGY', tagColor: 'bg-blue-700' },
               { title: 'Weapons Depleted — 3-8 Years to Rebuild', href: '/analysis/iran-2026', tag: 'READINESS', tagColor: 'bg-stone-600' },
               { title: 'FY2026 Budget to Exceed $900B', href: '/defense-budget', tag: 'BUDGET', tagColor: 'bg-yellow-700' },
               { title: 'Pentagon Audit #7: Failed Again', href: '/pentagon-audit', tag: 'ACCOUNTABILITY', tagColor: 'bg-stone-600' },
@@ -229,7 +230,7 @@ export default function HomePage() {
             own reports. For a detailed breakdown of Department of Defense spending, see{' '}
             <a href="https://americanfactbook.org/spending/agency/department-of-defense" className="text-stone-300 underline hover:text-white">American Factbook&apos;s DOD spending data</a>.
           </p>
-          <p className="text-stone-600 text-xs mb-12">Last updated: March 12, 2026</p>
+          <p className="text-stone-600 text-xs mb-12">Last updated: September 26, 2026</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>

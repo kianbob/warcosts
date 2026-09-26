@@ -7,8 +7,8 @@ export default function IranWarBanner() {
         <div className="flex items-center gap-3">
           <span className="text-2xl">🔴</span>
           <div>
-            <span className="font-bold text-lg">IRAN WAR ONGOING — Day 150+</span>
-            <p className="text-red-200 text-sm">Ceasefire collapsed July 8. $113B+ spent. 20+ US KIA. 8,000+ killed. No congressional vote. No end in sight.</p>
+            <span className="font-bold text-lg">IRAN WAR ONGOING — Day 211</span>
+            <p className="text-red-200 text-sm">Low-intensity fighting continues. $43.6B Pentagon / $135B+ independent est. 19-23 US KIA. 850+ wounded. 9,045+ killed. No congressional vote. No end in sight.</p>
           </div>
         </div>
         <div className="flex gap-3 text-sm">

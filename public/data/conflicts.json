@@ -6282,14 +6282,14 @@
       "Azerbaijan"
     ],
     "description": "On February 28, 2026, the US and Israel launched \"Operation Epic Fury\" — massive joint strikes to destroy Iran's nuclear capabilities and decapitate its leadership. Supreme Leader Khamenei killed Day 1. A 14-point MOU was signed June 19 — collapsed early July. By Day 206 (Sep 21): War cost $43.6B direct military (CENTCOM Sep 3). Trump dismisses gas prices as 'inexpensive.' Iran strikes tankers in Hormuz. Israel enters Syria. Hormuz effectively closed (~6-10 ships/day vs 85 normal). Gas $4.48/gal. Brent $103/bbl. 18 US KIA, ~830 wounded. ~9,044+ total killed. $130B+ total cost. 206 days, no congressional authorization.",
-    "costNominal": 130000000000,
+    "costNominal": 135000000000,
     "costDirectMilitary": 43600000000,
-    "costInflationAdjusted": 130000000000,
+    "costInflationAdjusted": 135000000000,
     "costYear": 2026,
     "usCasualties": {
-      "deaths": 18,
-      "wounded": 830,
-      "battleDeaths": 18,
+      "deaths": 19,
+      "wounded": 850,
+      "battleDeaths": 19,
       "missing": 0,
       "note": "18 US KIA (Sep 21). ~830 wounded (DCAS Sep 18 update). Renewed hostilities since Sep 1 escalation."
     },
