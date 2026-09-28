@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 211 — Low-intensity fighting continues after ceasefire collapse. $43.6B Pentagon cost / $135B+ independent. 19-23 US KIA, 850+ wounded, ~9,045+ killed. Oil $92/bbl. Gas $4.47/gal. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 213 — Trump rejects Iran\'s 7-day peace plan. Pezeshkian offers UN inspectors. WSJ: bombing resumes after midterms. $43.6B Pentagon cost / $135B+ independent. 18 US KIA, 830+ wounded, ~9,044+ killed. Oil $107/bbl. Gas $4.47/gal. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 211,
-  headline: '⚠️ Day 211 - Low-intensity fighting continues - Ceasefire collapsed Jul 8 - $43.6B Pentagon cost - $135B+ independent est. - Gas $4.47/gal - WTI $92/bbl - 19-23 US KIA, 850+ wounded - ~9,045+ killed - No congressional vote',
+  day: 213,
+  headline: '⚠️ Day 213 - TRUMP REJECTS IRAN 7-DAY PLAN - Pezeshkian offers inspectors - WSJ: bombing after midterms - $43.6B Pentagon cost - $135B+ independent - Gas $4.47/gal - Brent $107/bbl - 18 US KIA, 830+ wounded - ~9,044+ killed - No congressional vote',
   stats: [
     { value: '$135B+', label: 'Total Cost (independent)' },
-    { value: '19-23 KIA', label: 'US Deaths (850+ wounded)' },
+    { value: '18 KIA', label: 'US Deaths (830+ wounded)' },
     { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '4,300+', label: 'Killed in Lebanon' },
+    { value: '4,386+', label: 'Killed in Lebanon' },
     { value: '~6-10/day', label: 'Hormuz Ships (vs 85)' },
-    { value: '$92/bbl', label: 'WTI Crude' },
+    { value: '$107/bbl', label: 'Brent Crude' },
   ]
 }
 
@@ -108,6 +108,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 213', text: 'TRUMP REJECTS IRAN\'S 7-DAY PLAN — "I\'m rejecting their deal." Calls Hormuz "Trump Strait." WSJ: bombing resumes after midterms. Pezeshkian offers UN inspectors on CBS — FIRST nuclear concession by Iranian leader during war. 146 countries condemn Iran. Brent surges to $107/bbl. Gas $4.47/gal. 18 US KIA, 830+ wounded. ~9,044+ killed. 213 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 211', text: 'LOW-INTENSITY FIGHTING CONTINUES — Pentagon discloses 19th US KIA (Sep 22). WaPo/Reuters: actual toll 23+. 850+ wounded. CENTCOM: war cost $43.6B through early Sep. Independent est. $135B+. Oil falls to $92/bbl. Gas $4.47/gal. CBO: ~$3B/month ongoing. 9,045+ killed across all parties. 211 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 192', text: 'ISRAEL STRIKES KFAR RUMMAN — 11 killed including 2 children and 2 medics (Reuters). Brent $97/bbl. Rezaei declares restricted maritime zone. Iran parliament speaker threatens "more painful" response. Diesel $5.85/gal record. 18 US KIA, 790+ wounded. ~9,000+ killed. $115B+ total cost. Hormuz: ~6-10 ships/day vs 85 normal. 192 days, no congressional vote.', link: '/analysis/iran-2026' },
               { time: 'Day 190-191', text: 'US STRIKES 3 IRANIAN TANKERS — Iran fires ballistic missiles at US carrier and destroyer — both evade (CENTCOM). Hezbollah drones hit Israeli security zone near Ali Taher ridge. Israel responds with strikes. Diesel hits all-time record $5.85/gal. 18 US KIA (Stars and Stripes Sep 5), 790+ wounded.', link: '/analysis/iran-2026' },
