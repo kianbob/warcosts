@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 199, $120B+, Pipeline Shutdown, Oil $108 | WarCosts',
+  title: 'Iran War 2026 — Day 220, $135B+, 3rd Carrier Deploying, Talks Stalled | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 199+ days of conflict — US destroys 5 tankers, Saudi pipeline shutdown, 39% global trade disrupted. 18 US KIA, 820+ wounded. $120B+ total cost. Brent $108/bbl. ~9,000+ total killed across all sides.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 220 days of conflict — 3rd carrier deploying. Camp David war council. Talks stalled. 19 US KIA, 861 wounded. $135B+ total cost. Brent ~$100-107/bbl. ~9,500+ total killed across all sides.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 199, $120B+, Pipeline Shutdown, Oil $108 | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 199+ days. US destroys 5 tankers, Saudi pipeline shutdown. 18 US KIA, 820+ wounded. $120B+ total cost. Brent $108/bbl.',
+    title: 'Iran War 2026 — Day 220, $135B+, 3rd Carrier Deploying, Talks Stalled | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 220 days. 3rd carrier deploying. Camp David war council. Talks stalled. 19 US KIA, 861 wounded. $135B+ total cost. Brent ~$100-107/bbl.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -36,7 +36,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-09-14',
+  dateModified: '2026-10-05',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 

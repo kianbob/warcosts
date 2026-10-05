@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 213 — Trump rejects Iran\'s 7-day peace plan. Pezeshkian offers UN inspectors. WSJ: bombing resumes after midterms. $43.6B Pentagon cost / $135B+ independent. 18 US KIA, 830+ wounded, ~9,044+ killed. Oil $107/bbl. Gas $4.47/gal. Real-time cost counter, casualties, and analysis.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 220 — Talks stalled. 3rd carrier deploying. Camp David war council. Iran rejects counter-proposal. $43.6B Pentagon cost / $135B+ independent. 19 US KIA, 861 wounded, ~9,500+ killed. Brent ~$100-107/bbl. 30 days to midterms. Real-time cost counter, casualties, and analysis.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 213,
-  headline: '⚠️ Day 213 - TRUMP REJECTS IRAN 7-DAY PLAN - Pezeshkian offers inspectors - WSJ: bombing after midterms - $43.6B Pentagon cost - $135B+ independent - Gas $4.47/gal - Brent $107/bbl - 18 US KIA, 830+ wounded - ~9,044+ killed - No congressional vote',
+  day: 220,
+  headline: '⚠️ Day 220 - TALKS STALLED - 3rd carrier deploying - Camp David war council - Iran rejects counter-proposal - Qalibaf: 7 conditions - $43.6B Pentagon / $135B+ total - Brent ~$100-107/bbl - 19 US KIA, 861 wounded - ~9,500+ killed - 30 days to midterms',
   stats: [
     { value: '$135B+', label: 'Total Cost (independent)' },
-    { value: '18 KIA', label: 'US Deaths (830+ wounded)' },
-    { value: '3,636+', label: 'Iran Deaths (HRANA)' },
-    { value: '4,386+', label: 'Killed in Lebanon' },
-    { value: '~6-10/day', label: 'Hormuz Ships (vs 85)' },
-    { value: '$107/bbl', label: 'Brent Crude' },
+    { value: '19 KIA', label: 'US Deaths (861 wounded)' },
+    { value: '3,684+', label: 'Iran Deaths (HRANA)' },
+    { value: '4,383+', label: 'Killed in Lebanon' },
+    { value: '13.5M bbl/day', label: 'Gulf Crude (past pre-war)' },
+    { value: '~$100-107', label: 'Brent Crude ($/bbl)' },
   ]
 }
 
@@ -108,6 +108,8 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 220', text: 'TALKS STALLED — Iran says US counter-proposal is old denuclearization terms. Qalibaf: 7 conditions or Hormuz attacks continue. 3rd carrier (Theodore Roosevelt) deploying. Camp David war council. Gulf crude PAST pre-war levels (13.5M bbl/day) but Iran still attacking ships. Rial record low. 30 days to midterms. 19 US KIA, 861 wounded. ~9,500+ killed.', link: '/analysis/iran-2026' },
+                { time: 'Day 216-217', text: 'USS Theodore Roosevelt + ~9,000 troops begin deploying to Middle East — 3rd carrier strike group. Pentagon announces higher combat pay. WaPo: Pentagon preparing for possible surge after midterms. Camp David secret national security meeting on Iran + Yemen. Trump says Iran "ready to fold up."', link: '/analysis/iran-2026' },
                 { time: 'Day 213', text: 'TRUMP REJECTS IRAN\'S 7-DAY PLAN — "I\'m rejecting their deal." Calls Hormuz "Trump Strait." WSJ: bombing resumes after midterms. Pezeshkian offers UN inspectors on CBS — FIRST nuclear concession by Iranian leader during war. 146 countries condemn Iran. Brent surges to $107/bbl. Gas $4.47/gal. 18 US KIA, 830+ wounded. ~9,044+ killed. 213 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 211', text: 'LOW-INTENSITY FIGHTING CONTINUES — Pentagon discloses 19th US KIA (Sep 22). WaPo/Reuters: actual toll 23+. 850+ wounded. CENTCOM: war cost $43.6B through early Sep. Independent est. $135B+. Oil falls to $92/bbl. Gas $4.47/gal. CBO: ~$3B/month ongoing. 9,045+ killed across all parties. 211 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 192', text: 'ISRAEL STRIKES KFAR RUMMAN — 11 killed including 2 children and 2 medics (Reuters). Brent $97/bbl. Rezaei declares restricted maritime zone. Iran parliament speaker threatens "more painful" response. Diesel $5.85/gal record. 18 US KIA, 790+ wounded. ~9,000+ killed. $115B+ total cost. Hormuz: ~6-10 ships/day vs 85 normal. 192 days, no congressional vote.', link: '/analysis/iran-2026' },
@@ -188,7 +190,7 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: 'Another US Soldier Dead — Pentagon Toll at 19 (Sep 22)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-red-600' },
+              { title: '3rd Carrier Deploying — Talks Stalled at Day 220 (Oct 5)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-red-600' },
               { title: 'Pentagon: War Cost $43.6B (Sep 18)', href: '/analysis/iran-cost-per-second', tag: 'COST', tagColor: 'bg-blue-700' },
               { title: 'Low-Intensity Fighting Continues Post-Ceasefire', href: '/analysis/iran-2026', tag: 'ONGOING', tagColor: 'bg-orange-600' },
               { title: '850+ US Wounded — Actual KIA 23+ (WaPo/Reuters)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },
@@ -231,7 +233,7 @@ export default function HomePage() {
             own reports. For a detailed breakdown of Department of Defense spending, see{' '}
             <a href="https://americanfactbook.org/spending/agency/department-of-defense" className="text-stone-300 underline hover:text-white">American Factbook&apos;s DOD spending data</a>.
           </p>
-          <p className="text-stone-600 text-xs mb-12">Last updated: September 26, 2026</p>
+          <p className="text-stone-600 text-xs mb-12">Last updated: October 5, 2026</p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto mb-8">
             <div>

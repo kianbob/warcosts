@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Hormuz effectively closed — ~6-10 ships/day vs 85 normal. Saudi East-West pipeline shut Sep 11 — 39% of global trade disrupted. Iran declares maritime exclusion zone. Diesel $6/gal record. Brent $108/bbl. US destroys 5 tankers Sep 8. Day 199.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Gulf crude exports (excluding Iran) now ABOVE pre-war levels — 13.5M bbl/day. Saudi East-West pipeline reopened. Iran still blockaded by US. Iran continues attacking commercial shipping. Qalibaf: 7 conditions or Hormuz attacks continue. Brent ~$100-107/bbl. Day 220.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -270,7 +270,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Sep 14, 2026 — Day 199):</strong> US destroys 5 Iranian tankers Sep 8 (CENTCOM). Saudi East-West pipeline shut down Sep 11 after drone attacks from Iraq (CNBC/CNN) — combined with Hormuz closure and Bab el-Mandeb blockade, 39% of global trade and 31% of global shipments now disrupted. Iran declares maritime exclusion zone outside Hormuz (Sep 9). Iran damages US jets at Jordanian base (Sep 11). Trump says war ends "after midterms" (Politico). Hormuz effectively closed — ~6-10 ships/day vs 85 normal. Diesel approaching $6/gal record (AAA: $5.98 Sep 10). Brent $108/bbl. 18 US KIA, 820+ wounded. $120B+ total cost.
+          <strong>Current status (as of Oct 5, 2026 — Day 220):</strong> Gulf crude exports (excluding Iran) now ABOVE pre-war levels at 13.5M bbl/day. Saudi East-West pipeline reopened after earlier drone attack shutdowns. Iran still blockaded by US naval forces but continues attacking commercial shipping in and around the Strait. Iranian President Qalibaf issues 7 conditions for ending Hormuz attacks. Brent ~$100-107/bbl range. Iran effectively isolated but not defeated — Hormuz transit partially restored for non-Iranian traffic under heavy US escort.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and deal talk hopes, oil has crashed but the strait remains contested.
         </p>
       </div>
