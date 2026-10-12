@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Gulf crude exports (excluding Iran) now ABOVE pre-war levels — 13.5M bbl/day. Saudi East-West pipeline reopened. Iran still blockaded by US. Iran continues attacking commercial shipping. Qalibaf: 7 conditions or Hormuz attacks continue. Brent ~$100-107/bbl. Day 220.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. 12 tanker attacks in 1 week — record since war began. Tanker hit off Qatar. IRGC vows to close southern Hormuz route along Omani coast. Rubio: Iran has lost complete control of strait. Brent ~$103-106/bbl. Day 226.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -270,7 +270,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Oct 5, 2026 — Day 220):</strong> Gulf crude exports (excluding Iran) now ABOVE pre-war levels at 13.5M bbl/day. Saudi East-West pipeline reopened after earlier drone attack shutdowns. Iran still blockaded by US naval forces but continues attacking commercial shipping in and around the Strait. Iranian President Qalibaf issues 7 conditions for ending Hormuz attacks. Brent ~$100-107/bbl range. Iran effectively isolated but not defeated — Hormuz transit partially restored for non-Iranian traffic under heavy US escort.
+          <strong>Current status (as of Oct 12, 2026 — Day 226):</strong> 12 attacks on oil/LNG/LPG tankers in the week to Oct 5 — highest weekly level since the war began. A tanker was attacked off Qatar&apos;s coast (~500km west of Hormuz) by multiple projectiles Oct 8 (UKMTO). 12 crew injured on a Panama-flagged tanker in Hormuz (India reports). IRGC adviser Naqdi vowed Oct 7 to close the southern Hormuz route along Oman&apos;s coast. Rubio says Iran has &ldquo;lost complete control&rdquo; of the strait. Gulf crude exports (excluding Iran) remain above pre-war levels at 13.5M bbl/day but shipping attacks are at record levels. 3rd carrier (USS Theodore Roosevelt) now in theater. Brent ~$103-106/bbl. WTI ~$93.63. Iran effectively isolated but escalating maritime attacks — Hormuz transit under heavy US escort but increasingly dangerous.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and deal talk hopes, oil has crashed but the strait remains contested.
         </p>
       </div>
