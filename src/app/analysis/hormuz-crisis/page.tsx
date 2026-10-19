@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. 12 tanker attacks in 1 week — record since war began. Tanker hit off Qatar. IRGC vows to close southern Hormuz route along Omani coast. Rubio: Iran has lost complete control of strait. Brent ~$103-106/bbl. Day 226.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Ship SINKS in Hormuz (Day 229). 20 attacks since Oct 1 — record since war began (UKMTO). Supertanker (2M+ barrels) caught fire after hitting mine. CENTCOM: blockade cost Iran $25B. Saudi blames Iran for Houthi campaign. Brent ~$107/bbl. Day 233.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',

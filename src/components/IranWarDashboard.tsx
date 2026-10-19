@@ -43,7 +43,7 @@ export default function IranWarDashboard() {
       <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="3rd carrier deploying. Camp David war council. Iran rejects counter-proposal. 30 days to midterms." />
       <StatCard label="Total Killed" value="~9,500+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
       <StatCard label="Iranian Deaths" value="3,684+" sub="HRANA — Iran govt: 3,528 — IDF estimate: 6,000 — 27,000-33,000+ wounded" />
-      <StatCard label="US Troops" value="19 KIA" sub="861 wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%." />
+      <StatCard label="US Troops" value="21 KIA" sub="865 wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%." />
       <StatCard label="Oil Impact" value="~$100-107/bbl" sub="Brent crude range. Gulf crude past pre-war (13.5M bbl/day). Iran still attacking ships." />
       <StatCard label="Lebanon" value="4,383+ killed" sub="12,406 wounded. Ongoing strikes across south Lebanon." />
     </div>
