@@ -162,6 +162,7 @@ export default function USMilitarySpendingComparisonPage() {
             The United States spends <strong className="text-[#dc2626]">$886 billion on military</strong> — 
             more than the next 10 countries combined and <strong className="text-[#dc2626]">37% of all global military spending</strong>. 
             China is second at $318B, Russia third at $150B, making the US the dominant military spender by far.
+            Explore comprehensive U.S. defense spending data on <a href="https://americanfactbook.org/defense" className="text-red-400 hover:text-red-300 underline" target="_blank" rel="noopener">American Factbook</a>.
           </p>
         </header>
 

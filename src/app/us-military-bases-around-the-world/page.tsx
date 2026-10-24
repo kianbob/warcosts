@@ -63,6 +63,7 @@ export default function USMilitaryBasesAroundTheWorld() {
           <strong className="text-stone-900">{totalCountries} countries and territories</strong>, plus{' '}
           <strong className="text-stone-900">{fmt(baseStats.domesticBases)}</strong> domestic bases across all 50 states.
           No other country comes close. The UK has 16 overseas bases. France has 11. Russia has about 20. China has 1.
+          See how this infrastructure connects to the broader <a href="https://americanfactbook.org/spending/agency/department-of-defense" className="text-red-700 hover:text-red-500 underline" target="_blank" rel="noopener">Department of Defense budget</a> on American Factbook.
         </p>
 
         <ShareButtons title="US Military Bases Around the World — 750+ in 80+ Countries" />

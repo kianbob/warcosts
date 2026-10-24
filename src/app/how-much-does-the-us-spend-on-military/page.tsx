@@ -117,6 +117,7 @@ export default function USMilitarySpendingPage() {
             The United States spends <strong className="text-[#dc2626]">$886 billion annually on military and defense</strong> 
             — more than the next 10 countries combined. This represents <strong className="text-[#dc2626]">3.4% of GDP</strong> 
             and <strong className="text-[#dc2626]">$2.4 billion per day</strong>, making America by far the world's largest military spender.
+            For a full breakdown of federal defense outlays, see the <a href="https://americanfactbook.org/spending/agency/department-of-defense" className="text-red-400 hover:text-red-300 underline" target="_blank" rel="noopener">Department of Defense spending profile</a> on American Factbook.
           </p>
         </header>
 
