@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 233 — Iran says 7-day Hormuz plan still on table. Ship SINKS in Hormuz. 20 attacks since Oct 1 (record). Saudi blames Iran. Trump: may have to strike Pickaxe Mountain. CENTCOM: blockade cost Iran $25B. $135B+. 21 US KIA, 865 wounded, ~9,500+ killed. Brent ~$107/bbl. 15 days to midterms.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 241 — CNN: US ready to strike Iran within 96 hours. Trump: may do another Epic Fury. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming. Israel votes tomorrow. $140B+. 21 US KIA, 865 wounded, ~9,500+ killed. Brent ~$115/bbl. 8 days to midterms.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 233,
-  headline: '⚠️ Day 233 - IRAN: 7-DAY PLAN "STILL ON TABLE" - Ship SINKS in Hormuz - 20 attacks since Oct 1 (record) - Saudi blames Iran - Trump: "may have to" strike Pickaxe Mountain - CENTCOM: blockade cost Iran $25B - Trump endorses Netanyahu - $135B+ - Brent ~$107/bbl - 21 US KIA, 865 wounded - ~9,500+ killed - 15 days to midterms',
+  day: 241,
+  headline: '⚠️ Day 241 - US READY TO STRIKE IN 96 HOURS - Gas $4.29 / Diesel $6.35 RECORD - Trump: "another Epic Fury" - Hezbollah rearming with Iranian millions - Israel votes tomorrow - Riyadh airport reopens - $140B+ - Brent ~$115/bbl - 21 US KIA, 865 wounded - ~9,500+ killed - 8 days to midterms',
   stats: [
-    { value: '$135B+', label: 'Total Cost (independent)' },
+    { value: '$140B+', label: 'Total Cost (independent)' },
     { value: '21 KIA', label: 'US Deaths (865 wounded)' },
     { value: '3,684+', label: 'Iran Deaths (HRANA)' },
     { value: '4,383+', label: 'Killed in Lebanon' },
-    { value: '13.5M bbl/day', label: 'Gulf Crude (past pre-war)' },
-    { value: '~$107-108', label: 'Brent Crude ($/bbl)' },
+    { value: '$4.29/gal', label: 'Gas (up from $2.98)' },
+    { value: '~$115', label: 'Brent Crude ($/bbl)' },
   ]
 }
 
@@ -108,6 +108,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 241', text: 'CNN: US forces ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 (record). Trump: "may do another Epic Fury." Hezbollah rearming with tens of millions from Iran. Israel votes tomorrow — referendum on Netanyahu. Riyadh airport reopens. Brent ~$115/bbl. $140B+ total cost. 21 US KIA, 865 wounded. ~9,500+ killed. 8 days to midterms. 241 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 233', text: 'Iran says 7-day Hormuz plan "still on the table." Ship SINKS in Hormuz (Day 229) — 20 attacks since Oct 1 (record). Saudi blames Iran for Houthi attacks. Trump: "may have to" strike Pickaxe Mountain nuclear site. CENTCOM: blockade cost Iran $25B. Supertanker hit mine in Hormuz. Trump endorses Netanyahu. Iran defense minister threatens "enormous damage." Brent ~$107/bbl. 21 US KIA, 865 wounded. ~9,500+ killed. 15 days to midterms.', link: '/analysis/iran-2026' },
                 { time: 'Day 226', text: 'PENTAGON ADMITS 21 US KIA — 3 deaths previously excluded. 12 tanker attacks in 1 week (record). Tanker hit off Qatar. IRGC: closing southern Hormuz route. 3 Saudis killed in Houthi airport strike. Trump: no attack before midterms. House: "no excuse" for casualty miscount. Brent ~$103-106/bbl. 21 US KIA, 861 wounded. ~9,500+ killed. 22 days to midterms.', link: '/analysis/iran-2026' },
                 { time: 'Day 220', text: 'TALKS STALLED — Iran says US counter-proposal is old denuclearization terms. Qalibaf: 7 conditions or Hormuz attacks continue. 3rd carrier (Theodore Roosevelt) deploying. Camp David war council. Gulf crude PAST pre-war levels (13.5M bbl/day) but Iran still attacking ships. Rial record low. 30 days to midterms. 19 US KIA, 861 wounded. ~9,500+ killed.', link: '/analysis/iran-2026' },

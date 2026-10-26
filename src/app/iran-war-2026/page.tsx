@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 233, $135B+, Ship Sinks in Hormuz, Saudi Blames Iran | WarCosts',
+  title: 'Iran War 2026 — Day 241, $140B+, US Ready to Strike in 96 Hours, Gas $4.29 | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 233 days of conflict — ship sinks in Hormuz. Saudi blames Iran. Trump: may have to strike Pickaxe Mountain. CENTCOM: blockade cost Iran $25B. 21 US KIA, 865 wounded. $135B+ total cost. Brent ~$107/bbl. ~9,500+ total killed across all sides.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 241 days of conflict — CNN: US ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming with Iranian millions. Israel votes tomorrow. 21 US KIA, 865 wounded. $140B+ total cost. Brent ~$115/bbl. ~9,500+ total killed across all sides.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 233, $135B+, Ship Sinks in Hormuz, Saudi Blames Iran | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 233 days. Ship sinks in Hormuz. Saudi blames Iran. Trump: may have to strike Pickaxe Mountain. CENTCOM: blockade cost Iran $25B. 21 US KIA, 865 wounded. $135B+ total cost. Brent ~$107/bbl.',
+    title: 'Iran War 2026 — Day 241, $140B+, US Ready to Strike in 96 Hours, Gas $4.29 | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 241 days. CNN: US ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming. Israel votes tomorrow. 21 US KIA, 865 wounded. $140B+ total cost. Brent ~$115/bbl.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -150,6 +150,10 @@ const timeline = [
   { date: 'Oct 16', event: 'Day 231 — TRUMP: "MAY HAVE TO" STRIKE PICKAXE MOUNTAIN: Trump names specific Iranian nuclear target. Rules out nuclear weapons and ground troops. Iran rejects Saudi accusation, offers to mediate. Iranian lawmakers discuss impeaching FM Araghchi. Houthis strike Yemen presidential palace. Day 231.' },
   { date: 'Oct 17', event: 'Day 232 — SUPERTANKER FIRE IN HORMUZ — BLOCKADE COSTS IRAN $25B: IRGC claims supertanker (2M+ barrels) caught fire after hitting mine. CENTCOM: US blockade has cost Iran $25 billion in lost oil exports. Egypt offers to defend Saudi Arabia. France backs Riyadh. Tugboat struck by 2 projectiles (UKMTO). Day 232.' },
   { date: 'Oct 18', event: 'Day 233 — IRAN: 7-DAY PLAN "STILL ON TABLE" — TRUMP ENDORSES NETANYAHU: FM Araghchi: Hormuz reopens Day 6 if US meets conditions — restatement of Sep 25 offer, NOT a reopening. Yemen govt rejects Iran mediation. Trump endorses Netanyahu for Oct 27 elections. Iran new defense minister: "enormous damage" if US resumes attacks. Trump: US forces may stay longer. Riyadh Kingdom Centre orders remote work. 6 injured in Najran Houthi strike. 2 coalition pilots killed in Najran helicopter crash. Brent ~$107/bbl. 21 US KIA, 865 wounded. ~9,500+ killed. 15 days to midterms. Day 233.' },
+  { date: 'Oct 19-23', event: 'Days 234-238 — HEZBOLLAH REARMING — IEA: OIL DEMAND CRASHING: Reuters: Hezbollah receiving tens of millions from Iran — focus on drones and explosives. Israeli forces continue occupying southern Lebanon. IEA: global oil demand to fall by 2.6M bbl/day in 2026 — steepest decline since COVID. 12 days to midterms. Day 238.' },
+  { date: 'Oct 24', event: 'Day 239 — "ANOTHER EPIC FURY" — IRAN: US SHIPS WON\'T ENTER GULF — HOUTHIS HIT RIYADH: Trump threatens "another Epic Fury." Iran armed forces chief: US ships won\'t enter Gulf "under any circumstances." IRGC claims 2 supertankers struck mines (unconfirmed). US intel: Iranian plots at "advanced stages." Houthi missiles intercepted at Riyadh, Taif, Yanbu. Istanbul diplomatic meeting. 10 days to midterms. Day 239.' },
+  { date: 'Oct 25', event: 'Day 240 — TRUMP: DEAL OR "FINISH THEM OFF" — RIYADH AIRPORT REOPENS: Trump: deciding between deal and "finishing them off." No-strike pledge before Nov 3 holds. CENTCOM Adm. Cooper visits Hormuz. Araghchi: war won\'t change Iran\'s positions. Saudi reopens King Khalid Airport. Houthi missile intercepted toward Riyadh. 9 days to midterms. Day 240.' },
+  { date: 'Oct 26', event: 'Day 241 — US READY TO STRIKE IN 96 HOURS — GAS $4.29 — DIESEL $6.35 RECORD — ISRAEL VOTES TOMORROW: CNN: US forces prepared for major strikes within 96 hours. Gas $4.29/gal (up from $2.98 pre-war). Diesel $6.35 — all-time record. Trump: "making a freaking fortune." Brent ~$115/bbl. Hezbollah rearming with Iranian millions. Israel votes tomorrow — referendum on Netanyahu. 8 days to midterms. $140B+ total cost. 21 US KIA, 865 wounded. ~9,500+ killed. 241 days, no congressional vote. Day 241.' },
 ]
 
 const costProjections = [

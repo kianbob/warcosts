@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. Ship SINKS in Hormuz (Day 229). 20 attacks since Oct 1 — record since war began (UKMTO). Supertanker (2M+ barrels) caught fire after hitting mine. CENTCOM: blockade cost Iran $25B. Saudi blames Iran for Houthi campaign. Brent ~$107/bbl. Day 233.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. IRGC claims 2 more supertankers struck mines (Day 239, unconfirmed). CENTCOM Adm. Cooper inspects Hormuz (Day 240). CNN: US ready to strike Iran within 96 hours. Brent ~$115/bbl. Gas $4.29/gal, diesel $6.35 record. Day 241.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -270,7 +270,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Oct 12, 2026 — Day 226):</strong> 12 attacks on oil/LNG/LPG tankers in the week to Oct 5 — highest weekly level since the war began. A tanker was attacked off Qatar&apos;s coast (~500km west of Hormuz) by multiple projectiles Oct 8 (UKMTO). 12 crew injured on a Panama-flagged tanker in Hormuz (India reports). IRGC adviser Naqdi vowed Oct 7 to close the southern Hormuz route along Oman&apos;s coast. Rubio says Iran has &ldquo;lost complete control&rdquo; of the strait. Gulf crude exports (excluding Iran) remain above pre-war levels at 13.5M bbl/day but shipping attacks are at record levels. 3rd carrier (USS Theodore Roosevelt) now in theater. Brent ~$103-106/bbl. WTI ~$93.63. Iran effectively isolated but escalating maritime attacks — Hormuz transit under heavy US escort but increasingly dangerous.
+          <strong>Current status (as of Oct 26, 2026 — Day 241):</strong> IRGC claims 2 more supertankers (4.5M barrels combined) struck mines in southern Hormuz on Oct 24 — NOT independently confirmed. CENTCOM commander Adm. Brad Cooper personally visited the Strait of Hormuz Oct 25 to inspect blockade operations. CNN: US forces &ldquo;prepared to launch new, potentially major, military operations against Iran within 96 hours&rdquo; if Trump orders (Oct 26). Iran armed forces chief Abdollahi: US ships will not enter the Gulf &ldquo;under any circumstances.&rdquo; Brent near $115/bbl, falling from six-month high as diplomats fly to Iran. Gas $4.29/gal nationally (up from $2.98 pre-war). Diesel $6.35/gal — all-time record. IEA: global oil demand expected to fall by 2.6M bbl/day in 2026 — steepest decline since COVID. Iran effectively isolated but escalating maritime attacks — Hormuz transit under heavy US escort but increasingly dangerous.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and deal talk hopes, oil has crashed but the strait remains contested.
         </p>
       </div>
