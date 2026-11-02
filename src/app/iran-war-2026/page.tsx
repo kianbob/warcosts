@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 241, $140B+, US Ready to Strike in 96 Hours, Gas $4.29 | WarCosts',
+  title: 'Iran War 2026 — Day 247, $140B+, Netanyahu Loses Majority, Hormuz Talks | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 241 days of conflict — CNN: US ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming with Iranian millions. Israel votes tomorrow. 21 US KIA, 865 wounded. $140B+ total cost. Brent ~$115/bbl. ~9,500+ total killed across all sides.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 247 days — Netanyahu loses majority, Arab parties kingmakers. Khamenei orders updated target list. Trump: nuclear sites in 10 minutes. Hormuz talks in Qatar. Oil $108.5/bbl. 21 US KIA, 865 wounded. $140B+ total cost. ~9,500+ killed. 1 day to midterms.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 241, $140B+, US Ready to Strike in 96 Hours, Gas $4.29 | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 241 days. CNN: US ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming. Israel votes tomorrow. 21 US KIA, 865 wounded. $140B+ total cost. Brent ~$115/bbl.',
+    title: 'Iran War 2026 — Day 247, $140B+, Netanyahu Loses Majority, Hormuz Talks | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 247 days. Netanyahu loses majority. Khamenei orders target update. Trump: nuclear sites in 10 minutes. Hormuz talks in Qatar. Oil $108.5/bbl. 21 US KIA, 865 wounded. $140B+ total cost.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },

@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 241 — CNN: US ready to strike Iran within 96 hours. Trump: may do another Epic Fury. Gas $4.29/gal, diesel $6.35 record. Hezbollah rearming. Israel votes tomorrow. $140B+. 21 US KIA, 865 wounded, ~9,500+ killed. Brent ~$115/bbl. 8 days to midterms.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 247 — Netanyahu loses majority. Arab parties kingmakers. Khamenei orders updated target list. Trump: nuclear sites in 10 minutes. Hormuz talks in Qatar. Oil $108.5/bbl. $140B+. 21 US KIA, 865 wounded, ~9,500+ killed. 1 day to midterms.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 241,
-  headline: '⚠️ Day 241 - US READY TO STRIKE IN 96 HOURS - Gas $4.29 / Diesel $6.35 RECORD - Trump: "another Epic Fury" - Hezbollah rearming with Iranian millions - Israel votes tomorrow - Riyadh airport reopens - $140B+ - Brent ~$115/bbl - 21 US KIA, 865 wounded - ~9,500+ killed - 8 days to midterms',
+  day: 247,
+  headline: '⚠️ Day 247 - Netanyahu LOSES majority — Arab parties kingmakers - Khamenei orders updated target list - Trump: nuclear sites "in 10 minutes" - Hormuz talks in Qatar - Oil $108.5/bbl - Netanyahu urges strikes after midterms - $140B+ - 21 US KIA, 865 wounded - ~9,500+ killed - 1 DAY TO MIDTERMS',
   stats: [
     { value: '$140B+', label: 'Total Cost (independent)' },
     { value: '21 KIA', label: 'US Deaths (865 wounded)' },
     { value: '3,684+', label: 'Iran Deaths (HRANA)' },
     { value: '4,383+', label: 'Killed in Lebanon' },
     { value: '$4.29/gal', label: 'Gas (up from $2.98)' },
-    { value: '~$115', label: 'Brent Crude ($/bbl)' },
+    { value: '~$108.5', label: 'Brent Crude ($/bbl)' },
   ]
 }
 
@@ -108,6 +108,7 @@ export default function HomePage() {
             </div>
             <div className="grid md:grid-cols-4 gap-3 mb-6">
               {[
+                { time: 'Day 247', text: 'NETANYAHU LOSES MAJORITY — KHAMENEI ORDERS TARGET LIST UPDATE — HORMUZ TALKS IN QATAR: Israel Oct 27 election: Netanyahu bloc wins 53/120 seats, Eisenkot opposition 48, Arab parties HISTORIC 19 seats as kingmakers. Netanyahu alleges fraud. Khamenei orders updated target list including "all tangible and intangible assets" of US/Israel — no geographical limits (Fox News). Iran FM: Hormuz could reopen in 2 days if conditions met (Euronews). Oil slides to $108.5/bbl. Goldman: $27/bbl war premium. Trump: could eliminate nuclear sites "in 10 minutes." Netanyahu urges Trump to strike after midterms (Axios). Tucker Carlson: Trump deciding by Nov 7 on nuclear weapons. LNG carrier Al Mayeda hit in Gulf Oct 30. 1 DAY TO MIDTERMS. 21 US KIA, 865 wounded. ~9,500+ killed. 247 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 241', text: 'CNN: US forces ready to strike Iran within 96 hours. Gas $4.29/gal, diesel $6.35 (record). Trump: "may do another Epic Fury." Hezbollah rearming with tens of millions from Iran. Israel votes tomorrow — referendum on Netanyahu. Riyadh airport reopens. Brent ~$115/bbl. $140B+ total cost. 21 US KIA, 865 wounded. ~9,500+ killed. 8 days to midterms. 241 days, no congressional vote.', link: '/analysis/iran-2026' },
                 { time: 'Day 233', text: 'Iran says 7-day Hormuz plan "still on the table." Ship SINKS in Hormuz (Day 229) — 20 attacks since Oct 1 (record). Saudi blames Iran for Houthi attacks. Trump: "may have to" strike Pickaxe Mountain nuclear site. CENTCOM: blockade cost Iran $25B. Supertanker hit mine in Hormuz. Trump endorses Netanyahu. Iran defense minister threatens "enormous damage." Brent ~$107/bbl. 21 US KIA, 865 wounded. ~9,500+ killed. 15 days to midterms.', link: '/analysis/iran-2026' },
                 { time: 'Day 226', text: 'PENTAGON ADMITS 21 US KIA — 3 deaths previously excluded. 12 tanker attacks in 1 week (record). Tanker hit off Qatar. IRGC: closing southern Hormuz route. 3 Saudis killed in Houthi airport strike. Trump: no attack before midterms. House: "no excuse" for casualty miscount. Brent ~$103-106/bbl. 21 US KIA, 861 wounded. ~9,500+ killed. 22 days to midterms.', link: '/analysis/iran-2026' },
@@ -193,7 +194,7 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-3">
             {[
-              { title: 'Pentagon Admits 21 US KIA — Record Ship Attacks — Day 226 (Oct 12)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-red-600' },
+              { title: 'Netanyahu Loses Majority — Arab Parties Kingmakers — Day 247 (Nov 2)', href: '/analysis/iran-2026', tag: 'BREAKING', tagColor: 'bg-red-600' },
               { title: 'Pentagon: War Cost $43.6B (Sep 18)', href: '/analysis/iran-cost-per-second', tag: 'COST', tagColor: 'bg-blue-700' },
               { title: 'Low-Intensity Fighting Continues Post-Ceasefire', href: '/analysis/iran-2026', tag: 'ONGOING', tagColor: 'bg-orange-600' },
               { title: '850+ US Wounded — Actual KIA 23+ (WaPo/Reuters)', href: '/analysis/iran-2026', tag: 'CASUALTIES', tagColor: 'bg-purple-700' },

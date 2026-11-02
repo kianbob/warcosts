@@ -38,13 +38,13 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="241 Days" sub="Feb 28, 2026 – ongoing. CNN: US ready to strike in 96 hours. Gas $4.29/gal. Diesel $6.35 record. Hezbollah rearming." />
-      <StatCard label="Total Cost" value="$135B+ total" sub="$43.6B direct military (CENTCOM Sep 3) | $135B+ total (independent est.)" />
-      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="US forces at highest readiness — 96 hours from major strikes. Israel votes tomorrow. 8 days to midterms." />
+      <StatCard label="War Duration" value="247 Days" sub="Feb 28, 2026 – ongoing. Netanyahu loses majority. Khamenei orders target update. Hormuz talks in Qatar. 1 day to midterms." />
+      <StatCard label="Total Cost" value="$140B+ total" sub="$43.6B direct military (CENTCOM Sep 3) | $140B+ total (independent est.)" />
+      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="Trump: nuclear sites in 10 minutes. Netanyahu urges strikes after midterms. Hormuz talks ongoing. 1 day to midterms." />
       <StatCard label="Total Killed" value="~9,500+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
       <StatCard label="Iranian Deaths" value="3,684+" sub="HRANA — Iran govt: 3,528 — IDF estimate: 6,000 — 27,000-33,000+ wounded" />
       <StatCard label="US Troops" value="21 KIA" sub="865 wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%." />
-      <StatCard label="Oil Impact" value="~$115/bbl" sub="Brent crude. Gas $4.29/gal (up from $2.98 pre-war). Diesel $6.35/gal — all-time record." />
+      <StatCard label="Oil Impact" value="~$108.5/bbl" sub="Brent crude (sliding on Hormuz deal hopes). Gas $4.29/gal (up from $2.98 pre-war). Goldman: $27/bbl war premium." />
       <StatCard label="Lebanon" value="4,383+ killed" sub="12,406 wounded. Ongoing strikes across south Lebanon." />
     </div>
   )
