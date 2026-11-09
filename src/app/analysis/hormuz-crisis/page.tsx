@@ -8,7 +8,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 
 export const metadata: Metadata = {
   title: 'Strait of Hormuz: One Waterway, Global Crisis',
-  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. IRGC claims 2 more supertankers struck mines (Day 239, unconfirmed). CENTCOM Adm. Cooper inspects Hormuz (Day 240). CNN: US ready to strike Iran within 96 hours. Brent ~$115/bbl. Gas $4.29/gal, diesel $6.35 record. Day 241.',
+  description: '20% of global oil flows through a 21-mile strait. Iran closed it during the 2026 war. $8B deal to reopen Hormuz on Trump\'s desk — Iran signed off, cabinet opposes. Task Force Iron Gate extends blockade to land. Oil crashes to $94/bbl — 16% weekly fall. 147 ships redirected, 5 disabled by fire. Day 255.',
   openGraph: {
     title: 'The Strait of Hormuz: How One Waterway Could Crash the Global Economy',
     description: '21 miles wide. 20% of world oil. 20% of world LNG. Iran closed it. There is no detour.',
@@ -270,7 +270,7 @@ export default function HormuzCrisisPage() {
           </div>
         </div>
         <p className="text-stone-300 text-sm mt-4">
-          <strong>Current status (as of Oct 26, 2026 — Day 241):</strong> IRGC claims 2 more supertankers (4.5M barrels combined) struck mines in southern Hormuz on Oct 24 — NOT independently confirmed. CENTCOM commander Adm. Brad Cooper personally visited the Strait of Hormuz Oct 25 to inspect blockade operations. CNN: US forces &ldquo;prepared to launch new, potentially major, military operations against Iran within 96 hours&rdquo; if Trump orders (Oct 26). Iran armed forces chief Abdollahi: US ships will not enter the Gulf &ldquo;under any circumstances.&rdquo; Brent near $115/bbl, falling from six-month high as diplomats fly to Iran. Gas $4.29/gal nationally (up from $2.98 pre-war). Diesel $6.35/gal — all-time record. IEA: global oil demand expected to fall by 2.6M bbl/day in 2026 — steepest decline since COVID. Iran effectively isolated but escalating maritime attacks — Hormuz transit under heavy US escort but increasingly dangerous.
+          <strong>Current status (as of Nov 9, 2026 — Day 255):</strong> Qatar&apos;s PM is at the White House with an $8 billion Iranian proposal to reopen Hormuz. Iran would reopen the strait and halt tanker attacks; US would lift its naval blockade and release $8B in frozen Iranian funds. Two diplomatic sources say Iran has signed off (Israel Hayom). But Trump&apos;s cabinet — Rubio, Bessent, Lutnick, Hegseth — all reportedly oppose. CENTCOM created Task Force Iron Gate (Nov 8) to extend the blockade to Iran&apos;s land borders and Caspian Sea. US fired on and disabled M/V Huda cargo ship in Gulf of Oman after it refused blockade orders — 147 ships redirected since July, 5 disabled by fire (CENTCOM). IRGC reports 2 tankers struck mines near Hormuz (Nov 8). Drone hit Khor Mor gas field in Iraq, cutting 70-80% of Kurdistan Region power. Oil crashed to $94/bbl — steepest weekly fall since COVID (16% decline). The deal that could reopen the world&apos;s most critical oil chokepoint is on the president&apos;s desk. His own team doesn&apos;t want it.
           The Houthi blockade of Saudi Arabia represents a new front — threatening not just Hormuz but also Red Sea/Bab el-Mandeb shipping lanes. Combined with the collapsed MOU and deal talk hopes, oil has crashed but the strait remains contested.
         </p>
       </div>

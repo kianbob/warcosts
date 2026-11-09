@@ -31,20 +31,20 @@ export default function IranWarDashboard() {
   const hours = Math.floor((elapsedMs % 86_400_000) / 3_600_000)
   const minutes = Math.floor((elapsedMs % 3_600_000) / 60_000)
   const seconds = Math.floor((elapsedMs % 60_000) / 1000)
-  const totalCost = 140_000_000_000 // Updated: $43.6B direct military (CENTCOM Sep 3), $140B+ total economic through Oct 2026
+  const totalCost = 150_000_000_000 // Updated: $47B direct military (Pentagon Oct 2026), $150B+ total economic through Nov 2026
   const warOver = now.getTime() >= endTime
 
   const fmtCost = fmtCompact(totalCost)
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="247 Days" sub="Feb 28, 2026 – ongoing. Netanyahu loses majority. Khamenei orders target update. Hormuz talks in Qatar. 1 day to midterms." />
-      <StatCard label="Total Cost" value="$140B+ total" sub="$43.6B direct military (CENTCOM Sep 3) | $140B+ total (independent est.)" />
+      <StatCard label="War Duration" value="255 Days" sub="Feb 28, 2026 – ongoing. $8B Hormuz deal on Trump's desk. Cabinet opposes. Dems won Congress. Task Force Iron Gate." />
+      <StatCard label="Total Cost" value="$150B+ total" sub="$47B+ direct military (Pentagon Oct) | $150B+ total (independent est.) | Households paid ~$2,000 each (Moody's)" />
       <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="Trump: nuclear sites in 10 minutes. Netanyahu urges strikes after midterms. Hormuz talks ongoing. 1 day to midterms." />
       <StatCard label="Total Killed" value="~9,500+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
       <StatCard label="Iranian Deaths" value="3,684+" sub="HRANA — Iran govt: 3,528 — IDF estimate: 6,000 — 27,000-33,000+ wounded" />
-      <StatCard label="US Troops" value="21 KIA" sub="865 wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%." />
-      <StatCard label="Oil Impact" value="~$108.5/bbl" sub="Brent crude (sliding on Hormuz deal hopes). Gas $4.29/gal (up from $2.98 pre-war). Goldman: $27/bbl war premium." />
+      <StatCard label="US Troops" value="23 KIA" sub="865+ wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%. 2 airmen added Nov 4 (non-hostile)." />
+      <StatCard label="Oil Impact" value="~$94/bbl" sub="Brent crude (crashing on $8B deal hopes — 16% weekly fall, steepest since COVID). WTI $88.09. Gas declining from $4.29 peak." />
       <StatCard label="Lebanon" value="4,383+ killed" sub="12,406 wounded. Ongoing strikes across south Lebanon." />
     </div>
   )

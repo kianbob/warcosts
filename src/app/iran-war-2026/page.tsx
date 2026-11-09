@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 247, $140B+, Netanyahu Loses Majority, Hormuz Talks | WarCosts',
+  title: 'Iran War 2026 — Day 255, $150B+, $8B Hormuz Deal on Desk, Dems Win Congress | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 247 days — Netanyahu loses majority, Arab parties kingmakers. Khamenei orders updated target list. Trump: nuclear sites in 10 minutes. Hormuz talks in Qatar. Oil $108.5/bbl. 21 US KIA, 865 wounded. $140B+ total cost. ~9,500+ killed. 1 day to midterms.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 255 days — $8B Hormuz deal on Trump\'s desk, cabinet opposes. Oil crashes to $94/bbl. Dems win Congress. Vance: Iran war cost GOP midterms. Task Force Iron Gate. 23 US KIA, 865+ wounded. $47B+ military, $150B+ total. ~9,500+ killed. No congressional vote.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 247, $140B+, Netanyahu Loses Majority, Hormuz Talks | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 247 days. Netanyahu loses majority. Khamenei orders target update. Trump: nuclear sites in 10 minutes. Hormuz talks in Qatar. Oil $108.5/bbl. 21 US KIA, 865 wounded. $140B+ total cost.',
+    title: 'Iran War 2026 — Day 255, $150B+, $8B Hormuz Deal on Desk, Dems Win Congress | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 255 days. $8B Hormuz deal on Trump\'s desk. Cabinet opposes. Oil $94/bbl. Dems win Congress. Task Force Iron Gate. 23 US KIA, 865+ wounded. $150B+ total cost.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -154,6 +154,10 @@ const timeline = [
   { date: 'Oct 24', event: 'Day 239 — "ANOTHER EPIC FURY" — IRAN: US SHIPS WON\'T ENTER GULF — HOUTHIS HIT RIYADH: Trump threatens "another Epic Fury." Iran armed forces chief: US ships won\'t enter Gulf "under any circumstances." IRGC claims 2 supertankers struck mines (unconfirmed). US intel: Iranian plots at "advanced stages." Houthi missiles intercepted at Riyadh, Taif, Yanbu. Istanbul diplomatic meeting. 10 days to midterms. Day 239.' },
   { date: 'Oct 25', event: 'Day 240 — TRUMP: DEAL OR "FINISH THEM OFF" — RIYADH AIRPORT REOPENS: Trump: deciding between deal and "finishing them off." No-strike pledge before Nov 3 holds. CENTCOM Adm. Cooper visits Hormuz. Araghchi: war won\'t change Iran\'s positions. Saudi reopens King Khalid Airport. Houthi missile intercepted toward Riyadh. 9 days to midterms. Day 240.' },
   { date: 'Oct 26', event: 'Day 241 — US READY TO STRIKE IN 96 HOURS — GAS $4.29 — DIESEL $6.35 RECORD — ISRAEL VOTES TOMORROW: CNN: US forces prepared for major strikes within 96 hours. Gas $4.29/gal (up from $2.98 pre-war). Diesel $6.35 — all-time record. Trump: "making a freaking fortune." Brent ~$115/bbl. Hezbollah rearming with Iranian millions. Israel votes tomorrow — referendum on Netanyahu. 8 days to midterms. $140B+ total cost. 21 US KIA, 865 wounded. ~9,500+ killed. 241 days, no congressional vote. Day 241.' },
+  { date: 'Nov 3', event: 'Day 249 — MIDTERMS WIPEOUT — DEMS WIN CONGRESS — US STRIKES QESHM: Democrats win both House and Senate, ending GOP trifecta (AP/BBC). 54+ Senate seats. Iran war dominates exit polls. Same day: US strikes Qeshm Island in Hormuz — "defensive" strikes on air defenses. Vance optimistic about diplomacy. Day 249.' },
+  { date: 'Nov 4', event: 'Day 250 — VANCE: IRAN WAR COST GOP MIDTERMS — 23 US DEAD: Vance: "obvious" reason GOP lost is Iran war. 2 US airmen dead (non-hostile) — total 23 KIA. Pentagon cost: $47B. Moody\'s: households paid ~$2,000 each. Day 250.' },
+  { date: 'Nov 7-8', event: 'Days 253-254 — TASK FORCE IRON GATE — QESHM STRIKES — DRONE HITS IRAQ: Trump confirms "minor strikes" on Qeshm. $20M nuclear bounty. CENTCOM creates Task Force Iron Gate — extends blockade to Iran\'s land borders + Caspian. US fires on M/V Huda cargo ship. 147 ships redirected, 5 disabled. Drone hits Khor Mor gas field — 70-80% Kurdistan power cut. Araghchi: 2-day ultimatum. Day 254.' },
+  { date: 'Nov 9', event: 'Day 255 — $8B DEAL ON TRUMP\'S DESK — OIL CRASHES TO $94 — CABINET OPPOSES: Qatar PM at White House with Iranian proposal. Iran reopens Hormuz, US lifts blockade + releases $8B frozen funds. Iran signed off. Rubio, Bessent, Lutnick, Hegseth oppose. Oil crashes to $94/bbl — 16% weekly fall, steepest since COVID. Trump: strikes "highly unlikely." 23 US KIA, 865+ wounded. ~9,500+ killed. $47B+ military, $150B+ total. 255 days, no congressional vote. Day 255.' },
 ]
 
 const costProjections = [
