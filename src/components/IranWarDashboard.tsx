@@ -38,14 +38,14 @@ export default function IranWarDashboard() {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="255 Days" sub="Feb 28, 2026 – ongoing. $8B Hormuz deal on Trump's desk. Cabinet opposes. Dems won Congress. Task Force Iron Gate." />
+      <StatCard label="War Duration" value="262 Days" sub="Feb 28, 2026 – ongoing. 3 carrier strike groups — first since Iraq War. Trump rejects deal. Vance sidelined. Iran attacks Bahrain. 6+ tankers on fire." />
       <StatCard label="Total Cost" value="$150B+ total" sub="$47B+ direct military (Pentagon Oct) | $150B+ total (independent est.) | Households paid ~$2,000 each (Moody's)" />
-      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="Trump: nuclear sites in 10 minutes. Netanyahu urges strikes after midterms. Hormuz talks ongoing. 1 day to midterms." />
+      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="3 carriers deployed. US strikes southern Iran. Iran attacks Bahrain. IRGC threatens US bases in Europe. Escalation spiral." />
       <StatCard label="Total Killed" value="~9,500+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
       <StatCard label="Iranian Deaths" value="3,684+" sub="HRANA — Iran govt: 3,528 — IDF estimate: 6,000 — 27,000-33,000+ wounded" />
       <StatCard label="US Troops" value="23 KIA" sub="865+ wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%. 2 airmen added Nov 4 (non-hostile)." />
-      <StatCard label="Oil Impact" value="~$94/bbl" sub="Brent crude (crashing on $8B deal hopes — 16% weekly fall, steepest since COVID). WTI $88.09. Gas declining from $4.29 peak." />
-      <StatCard label="Lebanon" value="4,383+ killed" sub="12,406 wounded. Ongoing strikes across south Lebanon." />
+      <StatCard label="Oil Impact" value="~$95-96/bbl" sub="Brent crude (hovering). IEA sees first supply surplus since war began. Oil fell 1%+ as Gulf exports recover despite tanker incidents." />
+      <StatCard label="Lebanon" value="4,390+ killed" sub="12,407 wounded. Israel strikes eastern Lebanon near Syrian border. US envoy Waltz pressing Hezbollah to disarm." />
     </div>
   )
 }

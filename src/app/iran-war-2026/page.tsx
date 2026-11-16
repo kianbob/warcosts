@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 255, $150B+, $8B Hormuz Deal on Desk, Dems Win Congress | WarCosts',
+  title: 'Iran War 2026 — Day 262, $150B+, 3 Carrier Strike Groups, Trump Rejects Deal | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 255 days — $8B Hormuz deal on Trump\'s desk, cabinet opposes. Oil crashes to $94/bbl. Dems win Congress. Vance: Iran war cost GOP midterms. Task Force Iron Gate. 23 US KIA, 865+ wounded. $47B+ military, $150B+ total. ~9,500+ killed. No congressional vote.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 262 days — Trump rejects $8B Hormuz deal. 3 carrier strike groups — first since Iraq War. Iran attacks Bahrain. 6+ tankers on fire. Vance sidelined. Iran urged to leave NPT. 23 US KIA, 865+ wounded. $47B+ military, $150B+ total. ~9,500+ killed. No congressional vote.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 255, $150B+, $8B Hormuz Deal on Desk, Dems Win Congress | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 255 days. $8B Hormuz deal on Trump\'s desk. Cabinet opposes. Oil $94/bbl. Dems win Congress. Task Force Iron Gate. 23 US KIA, 865+ wounded. $150B+ total cost.',
+    title: 'Iran War 2026 — Day 262, $150B+, 3 Carrier Strike Groups, Trump Rejects Deal | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 262 days. Trump rejects deal. 3 carrier strike groups — first since Iraq War. Iran attacks Bahrain. 6+ tankers on fire. 23 US KIA, 865+ wounded. $150B+ total cost.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
@@ -36,7 +36,7 @@ const jsonLd = {
   description: 'Live dashboard tracking the US war on Iran. Cost, casualties, timeline, and analysis.',
   url: 'https://www.warcosts.org/iran-war-2026',
   datePublished: '2026-02-28',
-  dateModified: '2026-10-05',
+  dateModified: '2026-11-16',
   publisher: { '@type': 'Organization', name: 'WarCosts', url: 'https://www.warcosts.org' },
 }
 

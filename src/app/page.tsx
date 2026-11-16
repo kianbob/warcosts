@@ -11,7 +11,7 @@ import IranWarBanner from '@/components/IranWarBanner'
 
 export const metadata: Metadata = {
   title: 'US Military Spending & Cost of War Tracker | WarCosts',
-  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 255 — $8B Hormuz deal on Trump\'s desk. Cabinet opposes. Oil crashes to $94/bbl. Dems win Congress. Vance: Iran war cost GOP midterms. Task Force Iron Gate. $47B+ military, $150B+ total. 23 US KIA, 865+ wounded, ~9,500+ killed. 255 days, no congressional vote.',
+  description: 'Track $11.3 trillion spent on 469 US military interventions. Iran War 2026: Day 262 — 3 carrier strike groups, first since Iraq War. Iran attacks Bahrain, US strikes southern Iran. 6+ tankers on fire in Hormuz. Trump rejects deal. Vance sidelined. $47B+ military, $150B+ total. 23 US KIA, 865+ wounded, ~9,500+ killed. 262 days, no congressional vote.',
   openGraph: {
     title: 'US War Cost Tracker - $11.3 Trillion Spent on 469 Military Interventions',
     description: 'The US spends $28,095/second on defense. 229 years at war out of 249. Track every dollar, every life, every conflict with free interactive data.',
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 }
 
 const IRAN_BREAKING = {
-  day: 255,
-  headline: '⚠️ Day 255 - $8B HORMUZ DEAL ON TRUMP\'S DESK — Cabinet opposes - Oil CRASHES to $94/bbl - Dems win Congress - Vance: Iran war cost GOP midterms - Task Force Iron Gate - $47B+ military, $150B+ total - 23 US KIA, 865+ wounded - ~9,500+ killed - 255 DAYS, NO CONGRESSIONAL VOTE',
+  day: 262,
+  headline: '⚠️ Day 262 - 3 CARRIER STRIKE GROUPS — FIRST SINCE IRAQ WAR — Iran attacks Bahrain — US strikes southern Iran — 6+ tankers on fire in Hormuz — Trump rejects deal — Vance sidelined — $47B+ military, $150B+ total - 23 US KIA, 865+ wounded - ~9,500+ killed - 262 DAYS, NO CONGRESSIONAL VOTE',
   stats: [
     { value: '$150B+', label: 'Total Cost (independent)' },
-    { value: '21 KIA', label: 'US Deaths (865 wounded)' },
+    { value: '23 KIA', label: 'US Deaths (865 wounded)' },
     { value: '3,684+', label: 'Iran Deaths (HRANA)' },
     { value: '4,383+', label: 'Killed in Lebanon' },
     { value: '$4.29/gal', label: 'Gas (up from $2.98)' },
-    { value: '~$94', label: 'Brent Crude ($/bbl)' },
+    { value: '~$95-96', label: 'Brent Crude ($/bbl)' },
   ]
 }
 
