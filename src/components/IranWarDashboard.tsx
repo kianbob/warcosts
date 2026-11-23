@@ -31,16 +31,16 @@ export default function IranWarDashboard() {
   const hours = Math.floor((elapsedMs % 86_400_000) / 3_600_000)
   const minutes = Math.floor((elapsedMs % 3_600_000) / 60_000)
   const seconds = Math.floor((elapsedMs % 60_000) / 1000)
-  const totalCost = 150_000_000_000 // Updated: $47B direct military (Pentagon Oct 2026), $150B+ total economic through Nov 2026
+  const totalCost = 155_000_000_000 // Updated: $48.3B direct military (Pentagon Nov 19 Senate testimony), $155B+ total economic through Nov 2026
   const warOver = now.getTime() >= endTime
 
   const fmtCost = fmtCompact(totalCost)
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 my-6">
-      <StatCard label="War Duration" value="262 Days" sub="Feb 28, 2026 – ongoing. 3 carrier strike groups — first since Iraq War. Trump rejects deal. Vance sidelined. Iran attacks Bahrain. 6+ tankers on fire." />
-      <StatCard label="Total Cost" value="$150B+ total" sub="$47B+ direct military (Pentagon Oct) | $150B+ total (independent est.) | Households paid ~$2,000 each (Moody's)" />
-      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="3 carriers deployed. US strikes southern Iran. Iran attacks Bahrain. IRGC threatens US bases in Europe. Escalation spiral." />
+      <StatCard label="War Duration" value="269 Days" sub="Feb 28, 2026 – ongoing. Pentagon scrubs deaths from website. Blockade extended to ship-to-ship transfers. Iran oil revenue heading to zero. Trump: next move may wait until 2027." />
+      <StatCard label="Total Cost" value="$155B+ total" sub="$48.3B direct military (Pentagon Nov 19) | $155B+ total (independent est.) | Blockade alone: $32.5M/day (Warren/Navy)" />
+      <StatCard label="Status" value="⚠️ ACTIVE COMBAT" sub="3 carriers deployed. 7 ship attacks in 1 week. Iran attacks Bahrain 4 times. US strikes Qeshm Island. Below-threshold escalation spiral." />
       <StatCard label="Total Killed" value="~9,500+" sub="Across all sides — Iran, Lebanon, US, Israel, Gulf states" />
       <StatCard label="Iranian Deaths" value="3,684+" sub="HRANA — Iran govt: 3,528 — IDF estimate: 6,000 — 27,000-33,000+ wounded" />
       <StatCard label="US Troops" value="23 KIA" sub="865+ wounded (CENTCOM). 42 aircraft lost. THAAD depleted ~40%. 2 airmen added Nov 4 (non-hostile)." />

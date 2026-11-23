@@ -7,9 +7,9 @@ import BackToTop from '@/components/BackToTop'
 import IranWarDashboard from '@/components/IranWarDashboard'
 
 export const metadata: Metadata = {
-  title: 'Iran War 2026 — Day 262, $150B+, 3 Carrier Strike Groups, Trump Rejects Deal | WarCosts',
+  title: 'Iran War 2026 — Day 269, $155B+, War Costs $48.3B, Pentagon Scrubs Deaths | WarCosts',
   description:
-    'Complete record of the 2026 Iran war (Operation Epic Fury). 262 days — Trump rejects $8B Hormuz deal. 3 carrier strike groups — first since Iraq War. Iran attacks Bahrain. 6+ tankers on fire. Vance sidelined. Iran urged to leave NPT. 23 US KIA, 865+ wounded. $47B+ military, $150B+ total. ~9,500+ killed. No congressional vote.',
+    'Complete record of the 2026 Iran war (Operation Epic Fury). 269 days — War costs $48.3B. Pentagon scrubs deaths from website. Blockade extended to ship-to-ship transfers. Iran oil revenue heading to zero. 7 ship attacks in one week. Trump: next move may wait until 2027. 23 US KIA, 865+ wounded. $48B+ military, $155B+ total. ~9,500+ killed. No congressional vote.',
   alternates: { canonical: 'https://www.warcosts.org/iran-war-2026' },
   keywords: [
     'Iran war 2026',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     'Iran war live',
   ],
   openGraph: {
-    title: 'Iran War 2026 — Day 262, $150B+, 3 Carrier Strike Groups, Trump Rejects Deal | WarCosts',
-    description: 'Complete record of the 2026 Iran war. 262 days. Trump rejects deal. 3 carrier strike groups — first since Iraq War. Iran attacks Bahrain. 6+ tankers on fire. 23 US KIA, 865+ wounded. $150B+ total cost.',
+    title: 'Iran War 2026 — Day 269, $155B+, War Costs $48.3B, Pentagon Scrubs Deaths | WarCosts',
+    description: 'Complete record of the 2026 Iran war. 269 days. War costs $48.3B. Pentagon scrubs deaths from website. Iran oil revenue heading to zero. 23 US KIA, 865+ wounded. $155B+ total cost.',
     url: 'https://www.warcosts.org/iran-war-2026',
     type: 'article',
   },
